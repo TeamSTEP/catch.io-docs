@@ -16,11 +16,13 @@ There are three groups; Scripts, Scenes, and Prefabs. Each of these groups repre
 
 Documentation should match with the changes made to the `development/`branch of the project!
 
+The style of this reference doc is heavily influenced by the [Unity Script Reference](https://docs.unity3d.com/ScriptReference/) page.
+
 ## Script Documentation Guide
 
 Scripts are categorized by subfolders within the `Scripts` folder or namespaces. For example, the Player section refers to the player folder, not the `Player` class in the game.
 
-Every class document should have a sub-document about their methods as well.
+Every class document that requires extra information should have a sub-document about their methods as well. If the method is straight forward and does not accept any parameters, you can skip it.
 
 ### Class Template
 
@@ -30,6 +32,12 @@ Every class document should have a sub-document about their methods as well.
 ## Description
 
 {description of this class}
+
+// these can be removed if there is none
+Inherits from {inherits}
+
+Requires:
+- {require component}
 
 ## Properties
 
@@ -57,12 +65,27 @@ Example: `public static int DirectionToIndex(Vector2 dir, int sliceCount)`}
 
 {method description}
 
-## Children
+## Parameters
+
+| type | name | description |
+| :--- | :--- | :--- |
+| {type} | {arametersname} | {description} |
+```
+
+### Enum Template
+
+```text
+# {enum name}
+
+## Description
+
+{enum description}
+
+## Properties
 
 | name | description |
 | :--- | :--- |
-| {name} | {prefab description} |
-| {name} | {prefab description} |
+| {name} | {description} |
 ```
 
 ## Scene Documentation Guide
