@@ -12,9 +12,9 @@
 
 ## Scenes
 
-* [UIScene](scenes/untitled.md)
+* [UIScene](scenes/ui-scene.md)
 
 ## Prefabs
 
-* [CameraManager](prefabs/untitled.md)
+* [CameraManager](prefabs/camera-manager.md)
 
