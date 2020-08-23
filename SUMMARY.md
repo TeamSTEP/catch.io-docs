@@ -4,16 +4,17 @@
 
 ## Scripts
 
-* [Player](scripts/player/README.md)
-  * [CharacterRenderer](scripts/player/character-renderer/README.md)
-    * [SetDirection](scripts/player/character-renderer/setdirection.md)
-    * [DirectionToIndex](scripts/player/character-renderer/directiontoindex.md)
+* [Player](scripts/player-folder/README.md)
+  * [CharacterRenderer](scripts/player-folder/character-renderer/README.md)
+    * [SetDirection](scripts/player-folder/character-renderer/setdirection.md)
+    * [DirectionToIndex](scripts/player-folder/character-renderer/directiontoindex.md)
+    * [AnimatorStringArrayToHashArray](scripts/player-folder/character-renderer/animatorstringarraytohasharray.md)
 
 ## Scenes
 
-* [Untitled](scenes/untitled.md)
+* [UIScene](scenes/untitled.md)
 
 ## Prefabs
 
-* [Untitled](prefabs/untitled.md)
+* [CameraManager](prefabs/untitled.md)
 
