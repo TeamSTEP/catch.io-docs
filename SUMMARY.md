@@ -4,7 +4,15 @@
 
 ## Scripts
 
-* [Projectile](scripts/projectile.md)
+* [Projectile](scripts/projectile/README.md)
+  * [CalculateProjectileMotion](scripts/projectile/calculateprojectilemotion/README.md)
+    * [CalculatePlayerMovePoints](scripts/projectile/calculateprojectilemotion/calculateplayermovepoints.md)
+    * [CalculateObjectMovePoints](scripts/projectile/calculateprojectilemotion/calculateobjectmovepoints.md)
+    * [ShowTrajectory](scripts/projectile/calculateprojectilemotion/showtrajectory.md)
+  * [ProjectileMotion](scripts/projectile/projectilemotion/README.md)
+    * [ProjectileValues](scripts/projectile/projectilemotion/projectilevalues.md)
+    * [PlayMoveSequences](scripts/projectile/projectilemotion/playmovesequences.md)
+    * [CalculateMovePoints](scripts/projectile/projectilemotion/calculatemovepoints.md)
 * [Player](scripts/player-folder/README.md)
   * [ThrowableType](scripts/player-folder/throwabletype.md)
   * [MoveState](scripts/player-folder/movestate.md)

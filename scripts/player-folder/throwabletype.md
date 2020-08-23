@@ -1,10 +1,10 @@
 # ThrowableType
 
-### Description
+## Description
 
 Enum for all the throwable object types the game will use.
 
-### Properties
+## Properties
 
 | name | description |
 | :--- | :--- |
