@@ -10,6 +10,7 @@
     * [CalculateObjectMovePoints](scripts/projectile/calculateprojectilemotion/calculateobjectmovepoints.md)
     * [ShowTrajectory](scripts/projectile/calculateprojectilemotion/showtrajectory.md)
   * [ProjectileMotion](scripts/projectile/projectilemotion/README.md)
+    * [ShowTrajectory](scripts/projectile/projectilemotion/showtrajectory.md)
     * [ProjectileValues](scripts/projectile/projectilemotion/projectilevalues.md)
     * [PlayMoveSequences](scripts/projectile/projectilemotion/playmovesequences.md)
     * [CalculateMovePoints](scripts/projectile/projectilemotion/calculatemovepoints.md)
