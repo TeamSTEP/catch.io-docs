@@ -26,6 +26,8 @@ This class covers everything related to projectile-motion except the Bounce-proj
 | return type | name | description |
 | :--- | :--- | :--- |
 | List&lt;Vector2&gt; | [CalculateMovePoints](calculatemovepoints.md) | Used when you calculate projectile-motion move-points |
-| void | [ShowTrajectory](../calculateprojectilemotion/showtrajectory.md) | Used when you show projectile-motion trajectory |
+| void | [ShowTrajectory](showtrajectory.md) | Used when you show projectile-motion trajectory |
 | List&lt;Sequence&gt; | [PlayMoveSequences](playmovesequences.md) | Used when you play calculated projectile-motion |
+
+
 

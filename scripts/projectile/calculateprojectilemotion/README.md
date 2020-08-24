@@ -25,7 +25,9 @@ Requires:
 
 | return type | name | description |
 | :--- | :--- | :--- |
-| void | [CalculateObjectMovePoints](CalculateObjectMovePoints.md) | Calculate object projectile-motion move-points |
-| void | [ShowTrajectory](ShowTrajectory.md) | Show projectile-motion move-points trajectory |
-| void | [CalculatePlayerMovePoints](CalculatePlayerMovePoints.md) | Calculate Player projectile-motion move-points |
+| void | [CalculateObjectMovePoints](calculateobjectmovepoints.md) | Calculate object projectile-motion move-points |
+| void | [ShowTrajectory](showtrajectory.md) | Show projectile-motion move-points trajectory |
+| void | [CalculatePlayerMovePoints](calculateplayermovepoints.md) | Calculate Player projectile-motion move-points |
+
+
 
