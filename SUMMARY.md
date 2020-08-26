@@ -5,6 +5,8 @@
 ## Scripts
 
 * [Projectile](scripts/projectile/README.md)
+  * [BounceProjectileMotion](scripts/projectile/bounceprojectilemotion/README.md)
+    * [CalculateMovePoints](scripts/projectile/bounceprojectilemotion/calculatemovepoints.md)
   * [CalculateProjectileMotion](scripts/projectile/calculateprojectilemotion/README.md)
     * [CalculatePlayerMovePoints](scripts/projectile/calculateprojectilemotion/calculateplayermovepoints.md)
     * [CalculateObjectMovePoints](scripts/projectile/calculateprojectilemotion/calculateobjectmovepoints.md)
