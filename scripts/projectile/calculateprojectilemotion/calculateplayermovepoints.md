@@ -11,7 +11,7 @@ Calculate Player projectile-motion move-points.
 | type | name | description |
 | :--- | :--- | :--- |
 | Vector3 | endPosition | The final position player projectile-motion move-points |
-| SpriteRenderer | spriteRenderer | The player sprite renderer |
-| BoxCollider2D | collider2D | The player BoxCollider2D |
+| [SpriteRenderer](https://docs.unity3d.com/ScriptReference/SpriteRenderer.html) | spriteRenderer | The player sprite renderer |
+| [BoxCollider2D](https://docs.unity3d.com/ScriptReference/BoxCollider2D.html) | collider2D | The player BoxCollider2D |
 | int | elevation | Player elevation |
 

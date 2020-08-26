@@ -17,8 +17,8 @@ Requires:
 | type | name | description |
 | :--- | :--- | :--- |
 | ThrowableObject | CurrentThrowableObject | Current throwable object information |
-| ProjectileValues | ProjectileValues | Player Projectile Value |
-| ProjectileMotion | CurrentProjectileMotion | Current Projectile motion to calculate move-points |
+| [ProjectileValues](../projectilemotion/projectilevalues.md) | ProjectileValues | Player Projectile Value |
+| [ProjectileMotion](../projectilemotion/) | CurrentProjectileMotion | Current Projectile motion to calculate move-points |
 | List&lt;Vector2&gt; | MovePoints | Calculated move-points \(This value must be calculate before you use this\) |
 
 ### Public Methods

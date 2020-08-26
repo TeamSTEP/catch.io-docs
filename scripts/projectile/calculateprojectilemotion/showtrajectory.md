@@ -10,5 +10,5 @@ Show projectile-motion move-points trajectory.
 
 | type | name | description |
 | :--- | :--- | :--- |
-| LineRenderer | lineRenderer | show trajectory to use move-points |
+| [LineRenderer](https://docs.unity3d.com/ScriptReference/LineRenderer.html) | lineRenderer | show trajectory to use move-points |
 
