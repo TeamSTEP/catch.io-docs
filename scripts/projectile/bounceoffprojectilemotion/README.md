@@ -2,7 +2,7 @@
 
 ## Description
 
-This class covers everything related to Bounce-Off-projectile-motion expect the Bounce-Off-Bounce-ProjectileMotion.
+This class covers everything related to Bounce-Off-projectile-motion expect the Bounce-Off-ProjectileMotion.
 
 ## Properties
 
