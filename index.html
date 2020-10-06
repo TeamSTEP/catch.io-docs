@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Introduction | Catch.io Dev Doc </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Introduction | Catch.io Dev Doc ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="document-structure">Document Structure</h2>
+<p>There are three groups; Scripts, Scenes, and Prefabs. Each of these groups represents a game resource category and within those categories, we divide them into subcategories (namespaces or folder in the engine).</p>
+<ul>
+<li><strong>Scripts</strong> - everything about the game&#39;s script is stored in here. This generally means all *.cs files that are inside <code>/Assets/Scripts/</code></li>
+<li><strong>Scenes</strong> - important game scenes that require an extra explanation for developers. This generally means all *.unity files that are inside <code>/Assets/Scenes/</code>. Not every game scene needs to be documented!</li>
+<li><strong>Prefabs</strong> - important prefabs used in the game. This generally means all *.prefab files that are inside <code>/Assets/Resources/Prefabs/</code>. Not all prefabs will require documentation.</li>
+</ul>
+<p>Documentation should match with the changes made to the <code>development/</code>branch of the project!</p>
+<p>The style of this reference doc is heavily influenced by the <a href="https://docs.unity3d.com/ScriptReference/">Unity Script Reference</a> page.</p>
+<h2 id="script-documentation-guide">Script Documentation Guide</h2>
+<p>Scripts are categorized by subfolders within the <code>Scripts</code> folder or namespaces. For example, the Player section refers to the player folder, not the <code>Player</code> class in the game.</p>
+<p>Every class document that requires extra information should have a sub-document about their methods as well. If the method is straight forward and does not accept any parameters, you can skip it.</p>
+<h3 id="class-template">Class Template</h3>
+<pre><code class="lang-text"># {class name}
+
+## Description
+
+{description of this class}
+
+// these can be removed if there is none
+Inherits from {inherits}
+
+Requires:
+- {require component}
+
+## Properties
+
+| type | name | description |
+| :--- | :--- | :--- |
+| {type} | {property name} | {description} |
+
+## Public Methods
+
+| return type | name | description |
+| :--- | :--- | :--- |
+| {type} | {method name} | {description} |
+| {type} | {method name} | {description} |
+</code></pre><h3 id="method-template">Method Template</h3>
+<pre><code class="lang-text"># {method name}
+
+{method in script.
+Example: `public static int DirectionToIndex(Vector2 dir, int sliceCount)`}
+
+## Description
+
+{method description}
+
+## Parameters
+
+| type | name | description |
+| :--- | :--- | :--- |
+| {type} | {arametersname} | {description} |
+</code></pre><h3 id="enum-template">Enum Template</h3>
+<pre><code class="lang-text"># {enum name}
+
+## Description
+
+{enum description}
+
+## Properties
+
+| name | description |
+| :--- | :--- |
+| {name} | {description} |
+</code></pre><h2 id="scene-documentation-guide">Scene Documentation Guide</h2>
+<p>Every major scene used in the game will be documented in this group. This generally refers to manager scenes, UI scenes, network lobby scenes, etc. Anything that is going to be added on to another scene, or entry scenes. Scene documentation should contain all the notable prefabs and their purpose in the scene.</p>
+<h3 id="scene-template">Scene Template</h3>
+<pre><code class="lang-text"># {scene name}
+
+## Description
+
+{description of this scene}
+
+## Prefabs/Objects
+
+| prefab name | description |
+| :--- | :--- |
+| {prefab name} | {description} |
+</code></pre><h2 id="prefab-documentation-guide">Prefab Documentation Guide</h2>
+<p>Ever important prefab that is unique to this game will be documented in this group. These includes things like that camera manager, player prefab, game manager, etc.</p>
+<h3 id="prefab-template">Prefab Template</h3>
+<pre><code class="lang-text"># {prefab name}
+
+## Description
+
+{description of this prefab}
+
+## Prefabs/Objects
+
+| prefab name | description |
+| :--- | :--- |
+| {prefab name} | {description} |
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
