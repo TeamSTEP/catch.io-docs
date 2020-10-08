@@ -9,6 +9,42 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
+- uid: Global.AllScenes
+  name: AllScenes
+  href: api/Global.AllScenes.html
+  commentId: T:Global.AllScenes
+  fullName: AllScenes
+  nameWithType: AllScenes
+- uid: Global.AllScenes.GrassLands
+  name: GrassLands
+  href: api/Global.AllScenes.html#Global_AllScenes_GrassLands
+  commentId: F:Global.AllScenes.GrassLands
+  fullName: AllScenes.GrassLands
+  nameWithType: AllScenes.GrassLands
+- uid: Global.AllScenes.Launcher
+  name: Launcher
+  href: api/Global.AllScenes.html#Global_AllScenes_Launcher
+  commentId: F:Global.AllScenes.Launcher
+  fullName: AllScenes.Launcher
+  nameWithType: AllScenes.Launcher
+- uid: Global.AllScenes.LobbyMenu
+  name: LobbyMenu
+  href: api/Global.AllScenes.html#Global_AllScenes_LobbyMenu
+  commentId: F:Global.AllScenes.LobbyMenu
+  fullName: AllScenes.LobbyMenu
+  nameWithType: AllScenes.LobbyMenu
+- uid: Global.AllScenes.ManagerScene
+  name: ManagerScene
+  href: api/Global.AllScenes.html#Global_AllScenes_ManagerScene
+  commentId: F:Global.AllScenes.ManagerScene
+  fullName: AllScenes.ManagerScene
+  nameWithType: AllScenes.ManagerScene
+- uid: Global.AllScenes.UIScene
+  name: UIScene
+  href: api/Global.AllScenes.html#Global_AllScenes_UIScene
+  commentId: F:Global.AllScenes.UIScene
+  fullName: AllScenes.UIScene
+  nameWithType: AllScenes.UIScene
 - uid: Global.BounceOffBounceProjectileMotion
   name: BounceOffBounceProjectileMotion
   href: api/Global.BounceOffBounceProjectileMotion.html
@@ -408,18 +444,6 @@ references:
   commentId: T:Global.CharacterRenderer
   fullName: CharacterRenderer
   nameWithType: CharacterRenderer
-- uid: Global.CharacterRenderer.crouchDirections
-  name: crouchDirections
-  href: api/Global.CharacterRenderer.html#Global_CharacterRenderer_crouchDirections
-  commentId: F:Global.CharacterRenderer.crouchDirections
-  fullName: CharacterRenderer.crouchDirections
-  nameWithType: CharacterRenderer.crouchDirections
-- uid: Global.CharacterRenderer.crouchStaticDirections
-  name: crouchStaticDirections
-  href: api/Global.CharacterRenderer.html#Global_CharacterRenderer_crouchStaticDirections
-  commentId: F:Global.CharacterRenderer.crouchStaticDirections
-  fullName: CharacterRenderer.crouchStaticDirections
-  nameWithType: CharacterRenderer.crouchStaticDirections
 - uid: Global.CharacterRenderer.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
   name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
   href: api/Global.CharacterRenderer.html#Global_CharacterRenderer_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
@@ -452,6 +476,18 @@ references:
   isSpec: "True"
   fullName: CharacterRenderer.SetCharMovementAnim
   nameWithType: CharacterRenderer.SetCharMovementAnim
+- uid: Global.CharacterRenderer.sneakDirections
+  name: sneakDirections
+  href: api/Global.CharacterRenderer.html#Global_CharacterRenderer_sneakDirections
+  commentId: F:Global.CharacterRenderer.sneakDirections
+  fullName: CharacterRenderer.sneakDirections
+  nameWithType: CharacterRenderer.sneakDirections
+- uid: Global.CharacterRenderer.sneakStaticDirections
+  name: sneakStaticDirections
+  href: api/Global.CharacterRenderer.html#Global_CharacterRenderer_sneakStaticDirections
+  commentId: F:Global.CharacterRenderer.sneakStaticDirections
+  fullName: CharacterRenderer.sneakStaticDirections
+  nameWithType: CharacterRenderer.sneakStaticDirections
 - uid: Global.CharacterRenderer.staticDirections
   name: staticDirections
   href: api/Global.CharacterRenderer.html#Global_CharacterRenderer_staticDirections
@@ -936,42 +972,6 @@ references:
   isSpec: "True"
   fullName: GameManager.SetLocalPlayer
   nameWithType: GameManager.SetLocalPlayer
-- uid: Global.GameScenes
-  name: GameScenes
-  href: api/Global.GameScenes.html
-  commentId: T:Global.GameScenes
-  fullName: GameScenes
-  nameWithType: GameScenes
-- uid: Global.GameScenes.GrassLands
-  name: GrassLands
-  href: api/Global.GameScenes.html#Global_GameScenes_GrassLands
-  commentId: F:Global.GameScenes.GrassLands
-  fullName: GameScenes.GrassLands
-  nameWithType: GameScenes.GrassLands
-- uid: Global.GameScenes.Launcher
-  name: Launcher
-  href: api/Global.GameScenes.html#Global_GameScenes_Launcher
-  commentId: F:Global.GameScenes.Launcher
-  fullName: GameScenes.Launcher
-  nameWithType: GameScenes.Launcher
-- uid: Global.GameScenes.LobbyMenu
-  name: LobbyMenu
-  href: api/Global.GameScenes.html#Global_GameScenes_LobbyMenu
-  commentId: F:Global.GameScenes.LobbyMenu
-  fullName: GameScenes.LobbyMenu
-  nameWithType: GameScenes.LobbyMenu
-- uid: Global.GameScenes.ManagerScene
-  name: ManagerScene
-  href: api/Global.GameScenes.html#Global_GameScenes_ManagerScene
-  commentId: F:Global.GameScenes.ManagerScene
-  fullName: GameScenes.ManagerScene
-  nameWithType: GameScenes.ManagerScene
-- uid: Global.GameScenes.UIScene
-  name: UIScene
-  href: api/Global.GameScenes.html#Global_GameScenes_UIScene
-  commentId: F:Global.GameScenes.UIScene
-  fullName: GameScenes.UIScene
-  nameWithType: GameScenes.UIScene
 - uid: Global.GuiBehavior
   name: GuiBehavior
   href: api/Global.GuiBehavior.html
@@ -1644,6 +1644,19 @@ references:
   isSpec: "True"
   fullName: LobbyRoomsView.RemoveRoomRender
   nameWithType: LobbyRoomsView.RemoveRoomRender
+- uid: Global.LobbyRoomsView.SetInitialRoomData
+  name: SetInitialRoomData()
+  href: api/Global.LobbyRoomsView.html#Global_LobbyRoomsView_SetInitialRoomData
+  commentId: M:Global.LobbyRoomsView.SetInitialRoomData
+  fullName: LobbyRoomsView.SetInitialRoomData()
+  nameWithType: LobbyRoomsView.SetInitialRoomData()
+- uid: Global.LobbyRoomsView.SetInitialRoomData*
+  name: SetInitialRoomData
+  href: api/Global.LobbyRoomsView.html#Global_LobbyRoomsView_SetInitialRoomData_
+  commentId: Overload:Global.LobbyRoomsView.SetInitialRoomData
+  isSpec: "True"
+  fullName: LobbyRoomsView.SetInitialRoomData
+  nameWithType: LobbyRoomsView.SetInitialRoomData
 - uid: Global.LobbyRoomsView.SetLoadableScenes(List{System.String})
   name: SetLoadableScenes(List<String>)
   href: api/Global.LobbyRoomsView.html#Global_LobbyRoomsView_SetLoadableScenes_List_System_String__
@@ -1679,24 +1692,24 @@ references:
   commentId: T:Global.MoveState
   fullName: MoveState
   nameWithType: MoveState
-- uid: Global.MoveState.Crouch
-  name: Crouch
-  href: api/Global.MoveState.html#Global_MoveState_Crouch
-  commentId: F:Global.MoveState.Crouch
-  fullName: MoveState.Crouch
-  nameWithType: MoveState.Crouch
-- uid: Global.MoveState.CrouchStatic
-  name: CrouchStatic
-  href: api/Global.MoveState.html#Global_MoveState_CrouchStatic
-  commentId: F:Global.MoveState.CrouchStatic
-  fullName: MoveState.CrouchStatic
-  nameWithType: MoveState.CrouchStatic
 - uid: Global.MoveState.Run
   name: Run
   href: api/Global.MoveState.html#Global_MoveState_Run
   commentId: F:Global.MoveState.Run
   fullName: MoveState.Run
   nameWithType: MoveState.Run
+- uid: Global.MoveState.Sneak
+  name: Sneak
+  href: api/Global.MoveState.html#Global_MoveState_Sneak
+  commentId: F:Global.MoveState.Sneak
+  fullName: MoveState.Sneak
+  nameWithType: MoveState.Sneak
+- uid: Global.MoveState.SneakStatic
+  name: SneakStatic
+  href: api/Global.MoveState.html#Global_MoveState_SneakStatic
+  commentId: F:Global.MoveState.SneakStatic
+  fullName: MoveState.SneakStatic
+  nameWithType: MoveState.SneakStatic
 - uid: Global.MoveState.Static
   name: Static
   href: api/Global.MoveState.html#Global_MoveState_Static
@@ -1866,6 +1879,36 @@ references:
   isSpec: "True"
   fullName: NetworkManager.OnJoinRoomFailed
   nameWithType: NetworkManager.OnJoinRoomFailed
+- uid: Global.PlayableScenes
+  name: PlayableScenes
+  href: api/Global.PlayableScenes.html
+  commentId: T:Global.PlayableScenes
+  fullName: PlayableScenes
+  nameWithType: PlayableScenes
+- uid: Global.PlayableScenes.GrassLands
+  name: GrassLands
+  href: api/Global.PlayableScenes.html#Global_PlayableScenes_GrassLands
+  commentId: F:Global.PlayableScenes.GrassLands
+  fullName: PlayableScenes.GrassLands
+  nameWithType: PlayableScenes.GrassLands
+- uid: Global.PlayableScenes.HouseInteriorsTest
+  name: HouseInteriorsTest
+  href: api/Global.PlayableScenes.html#Global_PlayableScenes_HouseInteriorsTest
+  commentId: F:Global.PlayableScenes.HouseInteriorsTest
+  fullName: PlayableScenes.HouseInteriorsTest
+  nameWithType: PlayableScenes.HouseInteriorsTest
+- uid: Global.PlayableScenes.TestMap
+  name: TestMap
+  href: api/Global.PlayableScenes.html#Global_PlayableScenes_TestMap
+  commentId: F:Global.PlayableScenes.TestMap
+  fullName: PlayableScenes.TestMap
+  nameWithType: PlayableScenes.TestMap
+- uid: Global.PlayableScenes.VillageMap
+  name: VillageMap
+  href: api/Global.PlayableScenes.html#Global_PlayableScenes_VillageMap
+  commentId: F:Global.PlayableScenes.VillageMap
+  fullName: PlayableScenes.VillageMap
+  nameWithType: PlayableScenes.VillageMap
 - uid: Global.Player
   name: Player
   href: api/Global.Player.html
