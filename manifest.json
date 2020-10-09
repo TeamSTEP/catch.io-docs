@@ -408,6 +408,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.MenuScenes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MenuScenes.html",
+          "hash": "5K/qMrM1uwNsK/6ld9BEnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.MoveState.yml",
       "output": {
         ".html": {
@@ -724,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "7aUm8Aql4ymL/S+77647MQ=="
+          "hash": "t7pv3EekoV2S1fnjCADHCg=="
         }
       },
       "is_incremental": false,
@@ -736,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "GhlCk5NaVI6DzT28xXToeA=="
+          "hash": "HkA72hO2rmI6EWG7DZPXoA=="
         }
       },
       "is_incremental": false,
@@ -823,7 +835,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 59,
+          "total_file_count": 60,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
