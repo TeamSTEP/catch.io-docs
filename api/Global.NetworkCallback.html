@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NetworkManager
+    <title>Class NetworkCallback
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NetworkManager
+    <meta name="title" content="Class NetworkCallback
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.NetworkManager">
+            <article class="content wrap" id="_content" data-uid="Global.NetworkCallback">
   
   
-  <h1 id="Global_NetworkManager" data-uid="Global.NetworkManager" class="text-break">Class NetworkManager
+  <h1 id="Global_NetworkCallback" data-uid="Global.NetworkCallback" class="text-break">Class NetworkCallback
   </h1>
   <div class="markdown level0 summary"><p>Master class for manager scripts that works with PUN callbacks.
 This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class.</p>
@@ -90,21 +90,22 @@ This script is not meant to be used as a component, rather, other game managers 
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">NetworkManager</span></div>
+    <div class="level1"><span class="xref">NetworkCallback</span></div>
+      <div class="level2"><a class="xref" href="Global.GameManager.html">GameManager</a></div>
       <div class="level2"><a class="xref" href="Global.Launcher.html">Launcher</a></div>
       <div class="level2"><a class="xref" href="Global.NetworkLobbyManager.html">NetworkLobbyManager</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_NetworkManager_syntax">Syntax</h5>
+  <h5 id="Global_NetworkCallback_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkManager : MonoBehaviourPunCallbacks</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkCallback : MonoBehaviourPunCallbacks</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_NetworkManager_gameVersion" data-uid="Global.NetworkManager.gameVersion">gameVersion</h4>
+  <h4 id="Global_NetworkCallback_gameVersion" data-uid="Global.NetworkCallback.gameVersion">gameVersion</h4>
   <div class="markdown level1 summary"><p>This client&apos;s version number. Users are separated from each other by gameVersion (which allows you to make breaking changes).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -131,18 +132,8 @@ This script is not meant to be used as a component, rather, other game managers 
   </h3>
   
   
-  <a id="Global_NetworkManager_OnConnectedToMaster_" data-uid="Global.NetworkManager.OnConnectedToMaster*"></a>
-  <h4 id="Global_NetworkManager_OnConnectedToMaster" data-uid="Global.NetworkManager.OnConnectedToMaster">OnConnectedToMaster()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnConnectedToMaster()</code></pre>
-  </div>
-  
-  
-  <a id="Global_NetworkManager_OnCreateRoomFailed_" data-uid="Global.NetworkManager.OnCreateRoomFailed*"></a>
-  <h4 id="Global_NetworkManager_OnCreateRoomFailed_System_Int16_System_String_" data-uid="Global.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)">OnCreateRoomFailed(Int16, String)</h4>
+  <a id="Global_NetworkCallback_OnCreateRoomFailed_" data-uid="Global.NetworkCallback.OnCreateRoomFailed*"></a>
+  <h4 id="Global_NetworkCallback_OnCreateRoomFailed_System_Int16_System_String_" data-uid="Global.NetworkCallback.OnCreateRoomFailed(System.Int16,System.String)">OnCreateRoomFailed(Int16, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -173,8 +164,8 @@ This script is not meant to be used as a component, rather, other game managers 
   </table>
   
   
-  <a id="Global_NetworkManager_OnDisconnected_" data-uid="Global.NetworkManager.OnDisconnected*"></a>
-  <h4 id="Global_NetworkManager_OnDisconnected_DisconnectCause_" data-uid="Global.NetworkManager.OnDisconnected(DisconnectCause)">OnDisconnected(DisconnectCause)</h4>
+  <a id="Global_NetworkCallback_OnDisconnected_" data-uid="Global.NetworkCallback.OnDisconnected*"></a>
+  <h4 id="Global_NetworkCallback_OnDisconnected_DisconnectCause_" data-uid="Global.NetworkCallback.OnDisconnected(DisconnectCause)">OnDisconnected(DisconnectCause)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -200,8 +191,8 @@ This script is not meant to be used as a component, rather, other game managers 
   </table>
   
   
-  <a id="Global_NetworkManager_OnJoinRoomFailed_" data-uid="Global.NetworkManager.OnJoinRoomFailed*"></a>
-  <h4 id="Global_NetworkManager_OnJoinRoomFailed_System_Int16_System_String_" data-uid="Global.NetworkManager.OnJoinRoomFailed(System.Int16,System.String)">OnJoinRoomFailed(Int16, String)</h4>
+  <a id="Global_NetworkCallback_OnJoinRoomFailed_" data-uid="Global.NetworkCallback.OnJoinRoomFailed*"></a>
+  <h4 id="Global_NetworkCallback_OnJoinRoomFailed_System_Int16_System_String_" data-uid="Global.NetworkCallback.OnJoinRoomFailed(System.Int16,System.String)">OnJoinRoomFailed(Int16, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

@@ -1740,6 +1740,57 @@ references:
   commentId: F:Global.MoveState.Walk
   fullName: MoveState.Walk
   nameWithType: MoveState.Walk
+- uid: Global.NetworkCallback
+  name: NetworkCallback
+  href: api/Global.NetworkCallback.html
+  commentId: T:Global.NetworkCallback
+  fullName: NetworkCallback
+  nameWithType: NetworkCallback
+- uid: Global.NetworkCallback.gameVersion
+  name: gameVersion
+  href: api/Global.NetworkCallback.html#Global_NetworkCallback_gameVersion
+  commentId: F:Global.NetworkCallback.gameVersion
+  fullName: NetworkCallback.gameVersion
+  nameWithType: NetworkCallback.gameVersion
+- uid: Global.NetworkCallback.OnCreateRoomFailed(System.Int16,System.String)
+  name: OnCreateRoomFailed(Int16, String)
+  href: api/Global.NetworkCallback.html#Global_NetworkCallback_OnCreateRoomFailed_System_Int16_System_String_
+  commentId: M:Global.NetworkCallback.OnCreateRoomFailed(System.Int16,System.String)
+  fullName: NetworkCallback.OnCreateRoomFailed(System.Int16, System.String)
+  nameWithType: NetworkCallback.OnCreateRoomFailed(Int16, String)
+- uid: Global.NetworkCallback.OnCreateRoomFailed*
+  name: OnCreateRoomFailed
+  href: api/Global.NetworkCallback.html#Global_NetworkCallback_OnCreateRoomFailed_
+  commentId: Overload:Global.NetworkCallback.OnCreateRoomFailed
+  isSpec: "True"
+  fullName: NetworkCallback.OnCreateRoomFailed
+  nameWithType: NetworkCallback.OnCreateRoomFailed
+- uid: Global.NetworkCallback.OnDisconnected(DisconnectCause)
+  name: OnDisconnected(DisconnectCause)
+  href: api/Global.NetworkCallback.html#Global_NetworkCallback_OnDisconnected_DisconnectCause_
+  commentId: M:Global.NetworkCallback.OnDisconnected(DisconnectCause)
+  fullName: NetworkCallback.OnDisconnected(DisconnectCause)
+  nameWithType: NetworkCallback.OnDisconnected(DisconnectCause)
+- uid: Global.NetworkCallback.OnDisconnected*
+  name: OnDisconnected
+  href: api/Global.NetworkCallback.html#Global_NetworkCallback_OnDisconnected_
+  commentId: Overload:Global.NetworkCallback.OnDisconnected
+  isSpec: "True"
+  fullName: NetworkCallback.OnDisconnected
+  nameWithType: NetworkCallback.OnDisconnected
+- uid: Global.NetworkCallback.OnJoinRoomFailed(System.Int16,System.String)
+  name: OnJoinRoomFailed(Int16, String)
+  href: api/Global.NetworkCallback.html#Global_NetworkCallback_OnJoinRoomFailed_System_Int16_System_String_
+  commentId: M:Global.NetworkCallback.OnJoinRoomFailed(System.Int16,System.String)
+  fullName: NetworkCallback.OnJoinRoomFailed(System.Int16, System.String)
+  nameWithType: NetworkCallback.OnJoinRoomFailed(Int16, String)
+- uid: Global.NetworkCallback.OnJoinRoomFailed*
+  name: OnJoinRoomFailed
+  href: api/Global.NetworkCallback.html#Global_NetworkCallback_OnJoinRoomFailed_
+  commentId: Overload:Global.NetworkCallback.OnJoinRoomFailed
+  isSpec: "True"
+  fullName: NetworkCallback.OnJoinRoomFailed
+  nameWithType: NetworkCallback.OnJoinRoomFailed
 - uid: Global.NetworkLobbyManager
   name: NetworkLobbyManager
   href: api/Global.NetworkLobbyManager.html
@@ -1833,70 +1884,6 @@ references:
   isSpec: "True"
   fullName: NetworkLobbyManager.OnRoomListUpdate
   nameWithType: NetworkLobbyManager.OnRoomListUpdate
-- uid: Global.NetworkManager
-  name: NetworkManager
-  href: api/Global.NetworkManager.html
-  commentId: T:Global.NetworkManager
-  fullName: NetworkManager
-  nameWithType: NetworkManager
-- uid: Global.NetworkManager.gameVersion
-  name: gameVersion
-  href: api/Global.NetworkManager.html#Global_NetworkManager_gameVersion
-  commentId: F:Global.NetworkManager.gameVersion
-  fullName: NetworkManager.gameVersion
-  nameWithType: NetworkManager.gameVersion
-- uid: Global.NetworkManager.OnConnectedToMaster
-  name: OnConnectedToMaster()
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnConnectedToMaster
-  commentId: M:Global.NetworkManager.OnConnectedToMaster
-  fullName: NetworkManager.OnConnectedToMaster()
-  nameWithType: NetworkManager.OnConnectedToMaster()
-- uid: Global.NetworkManager.OnConnectedToMaster*
-  name: OnConnectedToMaster
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnConnectedToMaster_
-  commentId: Overload:Global.NetworkManager.OnConnectedToMaster
-  isSpec: "True"
-  fullName: NetworkManager.OnConnectedToMaster
-  nameWithType: NetworkManager.OnConnectedToMaster
-- uid: Global.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)
-  name: OnCreateRoomFailed(Int16, String)
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnCreateRoomFailed_System_Int16_System_String_
-  commentId: M:Global.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)
-  fullName: NetworkManager.OnCreateRoomFailed(System.Int16, System.String)
-  nameWithType: NetworkManager.OnCreateRoomFailed(Int16, String)
-- uid: Global.NetworkManager.OnCreateRoomFailed*
-  name: OnCreateRoomFailed
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnCreateRoomFailed_
-  commentId: Overload:Global.NetworkManager.OnCreateRoomFailed
-  isSpec: "True"
-  fullName: NetworkManager.OnCreateRoomFailed
-  nameWithType: NetworkManager.OnCreateRoomFailed
-- uid: Global.NetworkManager.OnDisconnected(DisconnectCause)
-  name: OnDisconnected(DisconnectCause)
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnDisconnected_DisconnectCause_
-  commentId: M:Global.NetworkManager.OnDisconnected(DisconnectCause)
-  fullName: NetworkManager.OnDisconnected(DisconnectCause)
-  nameWithType: NetworkManager.OnDisconnected(DisconnectCause)
-- uid: Global.NetworkManager.OnDisconnected*
-  name: OnDisconnected
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnDisconnected_
-  commentId: Overload:Global.NetworkManager.OnDisconnected
-  isSpec: "True"
-  fullName: NetworkManager.OnDisconnected
-  nameWithType: NetworkManager.OnDisconnected
-- uid: Global.NetworkManager.OnJoinRoomFailed(System.Int16,System.String)
-  name: OnJoinRoomFailed(Int16, String)
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnJoinRoomFailed_System_Int16_System_String_
-  commentId: M:Global.NetworkManager.OnJoinRoomFailed(System.Int16,System.String)
-  fullName: NetworkManager.OnJoinRoomFailed(System.Int16, System.String)
-  nameWithType: NetworkManager.OnJoinRoomFailed(Int16, String)
-- uid: Global.NetworkManager.OnJoinRoomFailed*
-  name: OnJoinRoomFailed
-  href: api/Global.NetworkManager.html#Global_NetworkManager_OnJoinRoomFailed_
-  commentId: Overload:Global.NetworkManager.OnJoinRoomFailed
-  isSpec: "True"
-  fullName: NetworkManager.OnJoinRoomFailed
-  nameWithType: NetworkManager.OnJoinRoomFailed
 - uid: Global.PlayableScenes
   name: PlayableScenes
   href: api/Global.PlayableScenes.html

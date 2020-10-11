@@ -90,26 +90,26 @@ This script will handle the menu GUI logic as well.</p>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Global.NetworkManager.html">NetworkManager</a></div>
+    <div class="level1"><a class="xref" href="Global.NetworkCallback.html">NetworkCallback</a></div>
     <div class="level2"><span class="xref">Launcher</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.NetworkManager.html#Global_NetworkManager_gameVersion">NetworkManager.gameVersion</a>
+      <a class="xref" href="Global.NetworkCallback.html#Global_NetworkCallback_gameVersion">NetworkCallback.gameVersion</a>
     </div>
     <div>
-      <a class="xref" href="Global.NetworkManager.html#Global_NetworkManager_OnJoinRoomFailed_System_Int16_System_String_">NetworkManager.OnJoinRoomFailed(Int16, String)</a>
+      <a class="xref" href="Global.NetworkCallback.html#Global_NetworkCallback_OnJoinRoomFailed_System_Int16_System_String_">NetworkCallback.OnJoinRoomFailed(Int16, String)</a>
     </div>
     <div>
-      <a class="xref" href="Global.NetworkManager.html#Global_NetworkManager_OnCreateRoomFailed_System_Int16_System_String_">NetworkManager.OnCreateRoomFailed(Int16, String)</a>
+      <a class="xref" href="Global.NetworkCallback.html#Global_NetworkCallback_OnCreateRoomFailed_System_Int16_System_String_">NetworkCallback.OnCreateRoomFailed(Int16, String)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Global_Launcher_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Launcher : NetworkManager</code></pre>
+    <pre><code class="lang-csharp hljs">public class Launcher : NetworkCallback</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -134,8 +134,6 @@ This script will handle the menu GUI logic as well.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void OnConnectedToMaster()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.NetworkManager.html#Global_NetworkManager_OnConnectedToMaster">NetworkManager.OnConnectedToMaster()</a></div>
   
   
   <a id="Global_Launcher_OnDisconnected_" data-uid="Global.Launcher.OnDisconnected*"></a>
@@ -164,7 +162,7 @@ This script will handle the menu GUI logic as well.</p>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.NetworkManager.html#Global_NetworkManager_OnDisconnected_DisconnectCause_">NetworkManager.OnDisconnected(DisconnectCause)</a></div>
+  <div><a class="xref" href="Global.NetworkCallback.html#Global_NetworkCallback_OnDisconnected_DisconnectCause_">NetworkCallback.OnDisconnected(DisconnectCause)</a></div>
   
   
   <a id="Global_Launcher_OnJoinedLobby_" data-uid="Global.Launcher.OnJoinedLobby*"></a>
