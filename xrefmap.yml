@@ -350,12 +350,6 @@ references:
   commentId: T:Global.CameraManager
   fullName: CameraManager
   nameWithType: CameraManager
-- uid: Global.CameraManager.FollowOnStart
-  name: FollowOnStart
-  href: api/Global.CameraManager.html#Global_CameraManager_FollowOnStart
-  commentId: F:Global.CameraManager.FollowOnStart
-  fullName: CameraManager.FollowOnStart
-  nameWithType: CameraManager.FollowOnStart
 - uid: Global.CameraManager.IsFollowing
   name: IsFollowing
   href: api/Global.CameraManager.html#Global_CameraManager_IsFollowing
@@ -369,12 +363,12 @@ references:
   isSpec: "True"
   fullName: CameraManager.IsFollowing
   nameWithType: CameraManager.IsFollowing
-- uid: Global.CameraManager.PlayerObject
-  name: PlayerObject
-  href: api/Global.CameraManager.html#Global_CameraManager_PlayerObject
-  commentId: F:Global.CameraManager.PlayerObject
-  fullName: CameraManager.PlayerObject
-  nameWithType: CameraManager.PlayerObject
+- uid: Global.CameraManager.PlayerToFollow
+  name: PlayerToFollow
+  href: api/Global.CameraManager.html#Global_CameraManager_PlayerToFollow
+  commentId: F:Global.CameraManager.PlayerToFollow
+  fullName: CameraManager.PlayerToFollow
+  nameWithType: CameraManager.PlayerToFollow
 - uid: Global.CameraManager.SetupCamera
   name: SetupCamera()
   href: api/Global.CameraManager.html#Global_CameraManager_SetupCamera
@@ -869,45 +863,19 @@ references:
   isSpec: "True"
   fullName: GameManager.IsMobile
   nameWithType: GameManager.IsMobile
-- uid: Global.GameManager.LeaveRoom
-  name: LeaveRoom()
-  href: api/Global.GameManager.html#Global_GameManager_LeaveRoom
-  commentId: M:Global.GameManager.LeaveRoom
-  fullName: GameManager.LeaveRoom()
-  nameWithType: GameManager.LeaveRoom()
-- uid: Global.GameManager.LeaveRoom*
-  name: LeaveRoom
-  href: api/Global.GameManager.html#Global_GameManager_LeaveRoom_
-  commentId: Overload:Global.GameManager.LeaveRoom
+- uid: Global.GameManager.LocalPlayerInst
+  name: LocalPlayerInst
+  href: api/Global.GameManager.html#Global_GameManager_LocalPlayerInst
+  commentId: P:Global.GameManager.LocalPlayerInst
+  fullName: GameManager.LocalPlayerInst
+  nameWithType: GameManager.LocalPlayerInst
+- uid: Global.GameManager.LocalPlayerInst*
+  name: LocalPlayerInst
+  href: api/Global.GameManager.html#Global_GameManager_LocalPlayerInst_
+  commentId: Overload:Global.GameManager.LocalPlayerInst
   isSpec: "True"
-  fullName: GameManager.LeaveRoom
-  nameWithType: GameManager.LeaveRoom
-- uid: Global.GameManager.LocalPlayer
-  name: LocalPlayer
-  href: api/Global.GameManager.html#Global_GameManager_LocalPlayer
-  commentId: P:Global.GameManager.LocalPlayer
-  fullName: GameManager.LocalPlayer
-  nameWithType: GameManager.LocalPlayer
-- uid: Global.GameManager.LocalPlayer*
-  name: LocalPlayer
-  href: api/Global.GameManager.html#Global_GameManager_LocalPlayer_
-  commentId: Overload:Global.GameManager.LocalPlayer
-  isSpec: "True"
-  fullName: GameManager.LocalPlayer
-  nameWithType: GameManager.LocalPlayer
-- uid: Global.GameManager.LocalPlayerObject
-  name: LocalPlayerObject
-  href: api/Global.GameManager.html#Global_GameManager_LocalPlayerObject
-  commentId: P:Global.GameManager.LocalPlayerObject
-  fullName: GameManager.LocalPlayerObject
-  nameWithType: GameManager.LocalPlayerObject
-- uid: Global.GameManager.LocalPlayerObject*
-  name: LocalPlayerObject
-  href: api/Global.GameManager.html#Global_GameManager_LocalPlayerObject_
-  commentId: Overload:Global.GameManager.LocalPlayerObject
-  isSpec: "True"
-  fullName: GameManager.LocalPlayerObject
-  nameWithType: GameManager.LocalPlayerObject
+  fullName: GameManager.LocalPlayerInst
+  nameWithType: GameManager.LocalPlayerInst
 - uid: Global.GameManager.OnLeftRoom
   name: OnLeftRoom()
   href: api/Global.GameManager.html#Global_GameManager_OnLeftRoom
@@ -2342,6 +2310,19 @@ references:
   commentId: F:Global.PlayerControlInput.CatchButtonSubject
   fullName: PlayerControlInput.CatchButtonSubject
   nameWithType: PlayerControlInput.CatchButtonSubject
+- uid: Global.PlayerControlInput.ControlTarget
+  name: ControlTarget
+  href: api/Global.PlayerControlInput.html#Global_PlayerControlInput_ControlTarget
+  commentId: P:Global.PlayerControlInput.ControlTarget
+  fullName: PlayerControlInput.ControlTarget
+  nameWithType: PlayerControlInput.ControlTarget
+- uid: Global.PlayerControlInput.ControlTarget*
+  name: ControlTarget
+  href: api/Global.PlayerControlInput.html#Global_PlayerControlInput_ControlTarget_
+  commentId: Overload:Global.PlayerControlInput.ControlTarget
+  isSpec: "True"
+  fullName: PlayerControlInput.ControlTarget
+  nameWithType: PlayerControlInput.ControlTarget
 - uid: Global.PlayerControlInput.MobileCursorPosition
   name: MobileCursorPosition()
   href: api/Global.PlayerControlInput.html#Global_PlayerControlInput_MobileCursorPosition
