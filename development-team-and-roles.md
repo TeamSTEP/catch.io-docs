@@ -1,6 +1,6 @@
 # Development Team and Roles
 
-Catch.io will require multiple talents working together in order to ship. Ideally, one person will only have to focus on one role, but due to a lack of developers, one will have to tackle multiple tasks. This section will focus on the general tasks that each role is expected to fulfill and a detailed job description for each role.
+Witch One will require multiple talents working together in order to ship. Ideally, one person will only have to focus on one role, but due to a lack of developers, one will have to tackle multiple tasks. This section will focus on the general tasks that each role is expected to fulfill and a detailed job description for each role.
 
 ## General Roles
 
@@ -12,5 +12,5 @@ Catch.io will require multiple talents working together in order to ship. Ideall
 * Sound Designer: sound designers are responsible for creating \(or finding\) different sound effects that will be used throughout the game. Furthermore, their tasks include strategic placement of sound effects as well \(eg: adding different sound effects for different surfaces\). They will work closely with the designer.
 * Tester: most important during the final stages of development, testers will try the game themselves and list anything bad or good about the current build. There will be two major types of testers, one is a blind tester, who will have no information regarding the development scene. They are meant to simulate how the end-user will interact with the game. The other type is the development testers, who will focus on the details that the developers have left out, or find any balancing issues that might happen during gameplay.
 
-The list of current developers working on this game can be seen from here: [https://github.com/TeamSTEP/Catch.ioProjectBoard/blob/master/TeamMemberList.csv](https://github.com/TeamSTEP/Catch.ioProjectBoard/blob/master/TeamMemberList.csv)
+The list of current developers working on this game can be seen from here: [https://github.com/TeamSTEP/catch.io-project-board/blob/master/TeamMemberList.csv](https://github.com/TeamSTEP/catch.io-project-board/blob/master/TeamMemberList.csv)
 

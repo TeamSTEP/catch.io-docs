@@ -4,7 +4,7 @@
 
 To form a solid marketing strategy for any project, we must first define what the project will be in terms of market data.
 
-Catch.io is an **indie slow-paced** 2D **online battle-royal** catch game that is focused on stealth, strategy with some action. This project aims to launch on platforms that have great **accessibility** bush as mobile devices and browser applications. We expect the majority of the players to be in the **niche** category.
+Witch One is an **indie slow-paced** 2D **online battle-royal** catch game that is focused on stealth, strategy with some action. This project aims to launch on platforms that have great **accessibility** bush as mobile devices and browser applications. We expect the majority of the players to be in the **niche** category.
 
 ## Target Market
 
@@ -18,7 +18,7 @@ In 2019, the U.S. has become the \#1 Games Market \([newzoo, 2019](https://newzo
 
 ![](.gitbook/assets/newzoo-2019-global-games-market-per-segment.png)
 
-Catch.io by design is a cross-platform game, so the development team will always be prepared to port to another platform when they are given the chance. However, for the first few months of Catch.io's lifespan, it will focus on being a **Browser-based** and **downloadable PC game** \(via itch.io and our own homepage\). According to newzoo, browser-based games have a humble market share of $3.5Bn \(2% of the PC game market\) and it is currently in a decreasing state while every other platforms are growing its market share. Catch.io will **target the niche market** for the first few months and once it has gathered a sizeable amount of players, we will add additional features to the game and attempt to branch out to different platforms such as **handheld mobile platforms** within the first year of its release. This means that once we are prepared to release for mobile, the target market will shift **from niche to the casual market**.
+Witch One by design is a cross-platform game, so the development team will always be prepared to port to another platform when they are given the chance. However, for the first few months of Witch One's lifespan, it will focus on being a **Browser-based** and **downloadable PC game** \(via itch.io and our own homepage\). According to newzoo, browser-based games have a humble market share of $3.5Bn \(2% of the PC game market\) and it is currently in a decreasing state while every other platforms are growing its market share. Witch One will **target the niche market** for the first few months and once it has gathered a sizeable amount of players, we will add additional features to the game and attempt to branch out to different platforms such as **handheld mobile platforms** within the first year of its release. This means that once we are prepared to release for mobile, the target market will shift **from niche to the casual market**.
 
 ## Marketing Strategies
 
@@ -28,7 +28,7 @@ During the _initial phase_ of the game, our audience will be in the niche catego
 
 The word of mouth strategy is mostly for gathering a dedicated community and a userbase that will provide the team with valuable feedback and criticism for us to improve the game.
 
-1. Announce the release of Catch.io to indie game communities on Reddit or other indie game forums as a public beta.
+1. Announce the release of Witch One to indie game communities on Reddit or other indie game forums as a public beta.
 2. Create a Discord server about the game.
 3. Have active interaction with the players and form a community.
 4. Update the game according to the user feedback.
@@ -38,12 +38,12 @@ We expect to slow create a game that many people will like through this process 
 
 ### Viral Marketing
 
-Catch.io does not have a campaign mode or an offline mode, meaning that there will be no upfront story that is presented to the user. Instead, the story of the game will be presented through the game environment \(map\) itself. The game's lore will only be told through placements of game objects inside the map and heavily utilize the environmental storytelling method. Players are encouraged to piece the story themselves.
+Witch One does not have a campaign mode or an offline mode, meaning that there will be no upfront story that is presented to the user. Instead, the story of the game will be presented through the game environment \(map\) itself. The game's lore will only be told through placements of game objects inside the map and heavily utilize the environmental storytelling method. Players are encouraged to piece the story themselves.
 
 We can think of two possible viral marketing opportunities from here:
 
-* User-generated content that theorizes about the Catch.io's story
-* Recording \(or live streaming\) of Catch.io's unpredictable gameplay
+* User-generated content that theorizes about the Witch One's story
+* Recording \(or live streaming\) of Witch One's unpredictable gameplay
 
 #### Artificially Going Viral
 

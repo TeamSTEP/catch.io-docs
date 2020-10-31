@@ -2,7 +2,7 @@
 
 ## Graphics
 
-Catch.io will have a top-down orthogonal perspective \(ex: Legend of Zelda\) with 2D sprites to represent the environment. The game will use a lot of dynamic lighting effects as it is part of the core gameplay. There will be slight animations for environmental objects such as trees, grasses, and bushes moving with the wind.
+Witch One will have a top-down orthogonal perspective \(ex: Legend of Zelda\) with 2D sprites to represent the environment. The game will use a lot of dynamic lighting effects as it is part of the core gameplay. There will be slight animations for environmental objects such as trees, grasses, and bushes moving with the wind.
 
 ![\(Figure 1\) Art style and perspective](.gitbook/assets/4.jpeg)
 
@@ -14,7 +14,7 @@ For the art style, a single tile will be 32x32 pixels big while the player will 
 
 The character sprite is 32x60 pixels big. This means that every environmental tile with depth such as cliffs and building walls should be two tiles high to make it look natural and fit the player.
 
-Furthermore, Catch.io must follow the following color palette for both the character and prop sprites.
+Furthermore, Witch One must follow the following color palette for both the character and prop sprites.
 
 ![\(Figure 3\) Sprite color palette](.gitbook/assets/colorpallette.png)
 
@@ -68,7 +68,7 @@ The following objects will be used for the game UI design:
 
 ## Physics
 
-Catch.io is a top-down 2D game, so all the visible physics will be simulated physics and behave to imitate the real one. No particular mechanics are revolving around physics as physics is only a method to provide feedback to the users. Therefore, it is part of the visual aspect rather than a game mechanic.
+Witch One is a top-down 2D game, so all the visible physics will be simulated physics and behave to imitate the real one. No particular mechanics are revolving around physics as physics is only a method to provide feedback to the users. Therefore, it is part of the visual aspect rather than a game mechanic.
 
 1. **Throwable object arc**: Throwable objects will create an arc when it is thrown. The same arc will be applied but reflected when it hits a wall. The velocity will not change when this happens. Additionally, objects should be throwable on top of cliffs to a surface below without hitting the wall collider, but not vice versa.
 

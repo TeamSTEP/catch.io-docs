@@ -25,7 +25,7 @@ In short, we want the players to keep on moving around the map while keeping the
 
 ## Expected Playstyles and Player Types
 
-Catch.io will have a large and replayable stage such as the ones that can be seen in a typical Battle Royal type game. The balance of the game is mostly determined from this aspect.
+Witch One will have a large and replayable stage such as the ones that can be seen in a typical Battle Royal type game. The balance of the game is mostly determined from this aspect.
 
 We expect the following play styles the players can have
 
@@ -56,7 +56,7 @@ These are some of the key factors that game designers should know before adding 
 
 ### Map Layout and Areas
 
-Catch.io will have an open map that consists of multiple areas that are connected to each other. Each area should be big enough to contain 2 ~ 3 players without noticing each other.
+Witch One will have an open map that consists of multiple areas that are connected to each other. Each area should be big enough to contain 2 ~ 3 players without noticing each other.
 
 Areas include:
 

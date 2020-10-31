@@ -1,6 +1,6 @@
 # Profit Model
 
-Catch.io is a free-to-play cross-platform online battle royal. The main source of income will be through Google Adsense and other online advertisement services during its early stages.
+Witch One is a free-to-play cross-platform online battle royal. The main source of income will be through Google Adsense and other online advertisement services during its early stages.
 
 Ads will be displayed for players who are under third place in the session and are in the game over screen.
 
