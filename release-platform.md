@@ -19,7 +19,7 @@ The size of the throwable objects should be 16 pixels at max. It should have rea
 
 ## Platform Release Strategy
 
-Catch.io will first release for **PC** \(Windows and macOS\) browsers, therefore the controls and interface will be focused on PC players with minimum specs. The PC version will be the _Minimum Viable Product_ for the team. This MVP will be used for marketing and attract funding for the project. The release channel for the MVP will be on itch.io and browser application on the team's homepage. The marketing of the MVP will be done for about a month.
+Witch One will first release for **PC** \(Windows and macOS\) browsers, therefore the controls and interface will be focused on PC players with minimum specs. The PC version will be the _Minimum Viable Product_ for the team. This MVP will be used for marketing and attract funding for the project. The release channel for the MVP will be on itch.io and browser application on the team's homepage. The marketing of the MVP will be done for about a month.
 
 Once the project has gathered more than 1000 players and proper funding from investors, we will aim for a Steam release that is estimated to take about a month. This process will be worked on parallel with the mobile port of the project.
 

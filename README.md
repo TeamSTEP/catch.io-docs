@@ -7,12 +7,14 @@ This document will incrementally record the game’s development status and will
 
 Everything written here is subject to change with each improvement coming to the project and by no means it’s comprehensive.
 
-For on-going development progress, please check this Github repository [https://github.com/TeamSTEP/Catch.ioProjectBoard/issues](https://github.com/TeamSTEP/Catch.ioProjectBoard/issues).
+For on-going development progress, please check this Github repository [https://github.com/TeamSTEP/catch.io-project-board/issues](https://github.com/TeamSTEP/catch.io-project-board/issues).
 {% endhint %}
 
 ### Project Description
 
-Catch.io is an online stealth-focused battle-royal. The game's objective is to be the last player standing by either catching other players or hide while they catch each other.
+Witch One is an online stealth-focused battle-royal. The game's objective is to be the last player standing by either catching other players or hide while they catch each other.
+
+The internal project alias is **Catch.io**, so you may find some documentation refer to this project with such name.
 
 This project takes inspiration from popular battle-royal games like PUBG or Fortnite but focused on stealthy gameplay and strategy. There are no guns or ranged weapons that can kill the other player. Instead, you can only catch another player by melee attacking them from the back. The player can do this by utilizing different tools and items that are scattered throughout the game map. Every movement that the player makes will create a visual soundwave that is visible to other players. Certain surfaces will leave a footprint that will last until that player is out of the game. And other environmental indicators like an open door or fallen stacks of books to announce your presence.
 
