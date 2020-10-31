@@ -1,130 +1,34 @@
----
-description: >-
-  This is the developer reference document for Catch.io. Developers starting
-  this project should start from here.
----
-
 # Introduction
 
-## Document Structure
+{% hint style="warning" %}
+### Disclaimer
 
-There are three groups; Scripts, Scenes, and Prefabs. Each of these groups represents a game resource category and within those categories, we divide them into subcategories \(namespaces or folder in the engine\).
+This document will incrementally record the game’s development status and will change any of the contents depending on how the team thinks of the project. Because of this, some of the content in this document may be outdated from what the team will actually do with the project.
 
-* **Scripts** - everything about the game's script is stored in here. This generally means all \*.cs files that are inside `/Assets/Scripts/`
-* **Scenes** - important game scenes that require an extra explanation for developers. This generally means all \*.unity files that are inside `/Assets/Scenes/`. Not every game scene needs to be documented!
-* **Prefabs** - important prefabs used in the game. This generally means all \*.prefab files that are inside `/Assets/Resources/Prefabs/`. Not all prefabs will require documentation.
+Everything written here is subject to change with each improvement coming to the project and by no means it’s comprehensive.
 
-Documentation should match with the changes made to the `development/`branch of the project!
+For on-going development progress, please check this Github repository [https://github.com/TeamSTEP/Catch.ioProjectBoard/issues](https://github.com/TeamSTEP/Catch.ioProjectBoard/issues).
+{% endhint %}
 
-The style of this reference doc is heavily influenced by the [Unity Script Reference](https://docs.unity3d.com/ScriptReference/) page.
+### Project Description
 
-## Script Documentation Guide
+Catch.io is an online stealth-focused battle-royal. The game's objective is to be the last player standing by either catching other players or hide while they catch each other.
 
-Scripts are categorized by subfolders within the `Scripts` folder or namespaces. For example, the Player section refers to the player folder, not the `Player` class in the game.
+This project takes inspiration from popular battle-royal games like PUBG or Fortnite but focused on stealthy gameplay and strategy. There are no guns or ranged weapons that can kill the other player. Instead, you can only catch another player by melee attacking them from the back. The player can do this by utilizing different tools and items that are scattered throughout the game map. Every movement that the player makes will create a visual soundwave that is visible to other players. Certain surfaces will leave a footprint that will last until that player is out of the game. And other environmental indicators like an open door or fallen stacks of books to announce your presence.
 
-Every class document that requires extra information should have a sub-document about their methods as well. If the method is straight forward and does not accept any parameters, you can skip it.
+The game starts by randomly spawning players of 15 ~ 20 within a fixed spawn-point. Predefined spawn-points are done to ensure that no players will ever see each other at the very beginning of the game. Players are only given 6 item slots \(no item stacking\), and they will start with no items on hand. Players will have to be aware of two status values, sanity, and stamina. Stamina will decrease by a certain amount every 5 seconds. When your stamina hits 0, your sanity value will start to drop. And after a certain threshold in your sanity value, you will begin to see soundwaves coming from random places, and your vision will get darker. Players can only catch another player who's sanity level is below a certain amount. Attempting to catch a player with a high sanity value will only push them backward and decrease their sanity and stamina value by a considerable amount. From here, both players are given a tiny window of opportunity to either run away or try to catch them again.
 
-### Class Template
+The development will be done through _Unity 2019.4.8f1 LTS_ and it will stay there until released. The engine version can change if there is a critical bug that the later version addresses.
 
-```text
-# {class name}
+![\(Figure 2\) Sound visualization from Mark of the Ninja](.gitbook/assets/1.jpeg)
 
-## Description
+The overall visual theme will take inspiration from those of a typical medieval fantasy setting but the characters will be based on witches and sorceresses throughout different cultures. Players can choose from a set of classes with the visuals that fit these aesthetics and the map will also have the same feel to it. The game currently does not have any magic or skills, but we are planning on adding one-time magic items in a later update if it adds to the gameplay.
 
-{description of this class}
+![\(Figure 3\) Sample game scene of current progress](.gitbook/assets/ezgif-7-8d61cffb887e.gif)
 
-// these can be removed if there is none
-Inherits from {inherits}
-
-Requires:
-- {require component}
-
-## Properties
-
-| type | name | description |
-| :--- | :--- | :--- |
-| {type} | {property name} | {description} |
-
-## Public Methods
-
-| return type | name | description |
-| :--- | :--- | :--- |
-| {type} | {method name} | {description} |
-| {type} | {method name} | {description} |
-```
-
-### Method Template
-
-```text
-# {method name}
-
-{method in script.
-Example: `public static int DirectionToIndex(Vector2 dir, int sliceCount)`}
-
-## Description
-
-{method description}
-
-## Parameters
-
-| type | name | description |
-| :--- | :--- | :--- |
-| {type} | {arametersname} | {description} |
-```
-
-### Enum Template
-
-```text
-# {enum name}
-
-## Description
-
-{enum description}
-
-## Properties
-
-| name | description |
-| :--- | :--- |
-| {name} | {description} |
-```
-
-## Scene Documentation Guide
-
-Every major scene used in the game will be documented in this group. This generally refers to manager scenes, UI scenes, network lobby scenes, etc. Anything that is going to be added on to another scene, or entry scenes. Scene documentation should contain all the notable prefabs and their purpose in the scene.
-
-### Template
-
-```text
-# {scene name}
-
-## Description
-
-{description of this scene}
-
-## Prefabs/Objects
-
-| prefab name | description |
-| :--- | :--- |
-| {prefab name} | {description} |
-```
-
-## Prefab Documentation Guide
-
-Ever important prefab that is unique to this game will be documented in this group. These includes things like that camera manager, player prefab, game manager, etc.
-
-### Template
-
-```text
-# {prefab name}
-
-## Description
-
-{description of this prefab}
-
-## Prefabs/Objects
-
-| prefab name | description |
-| :--- | :--- |
-| {prefab name} | {description} |
-```
+* No account base items \(no login required to play if possible\)
+* No pay-to-win items
+* Player strategies are determined by the map layout, hiding spots, and throwable objects
+* Certain surfaces can either generate loud sound or footprints
+* Only the player’s K/D stats are recorded on the server
 
