@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Footprint
+    <title>Class ProjectileCollisionStrategy
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Footprint
+    <meta name="title" content="Class ProjectileCollisionStrategy
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -78,46 +78,82 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.Footprint">
+            <article class="content wrap" id="_content" data-uid="Global.ProjectileCollisionStrategy">
   
   
-  <h1 id="Global_Footprint" data-uid="Global.Footprint" class="text-break">Class Footprint
+  <h1 id="Global_ProjectileCollisionStrategy" data-uid="Global.ProjectileCollisionStrategy" class="text-break">Class ProjectileCollisionStrategy
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Footprint</span></div>
+    <div class="level1"><span class="xref">ProjectileCollisionStrategy</span></div>
+      <div class="level2"><a class="xref" href="Global.BouncingToadCollisionStrategy.html">BouncingToadCollisionStrategy</a></div>
+      <div class="level2"><a class="xref" href="Global.StoneCollisionStrategy.html">StoneCollisionStrategy</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_Footprint_syntax">Syntax</h5>
+  <h5 id="Global_ProjectileCollisionStrategy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Footprint : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ProjectileCollisionStrategy : ScriptableObject</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_Footprint_HandleSpawn_" data-uid="Global.Footprint.HandleSpawn*"></a>
-  <h4 id="Global_Footprint_HandleSpawn" data-uid="Global.Footprint.HandleSpawn">HandleSpawn()</h4>
+  <a id="Global_ProjectileCollisionStrategy_Execute_" data-uid="Global.ProjectileCollisionStrategy.Execute*"></a>
+  <h4 id="Global_ProjectileCollisionStrategy_Execute_System_Boolean_" data-uid="Global.ProjectileCollisionStrategy.Execute(System.Boolean)">Execute(Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandleSpawn()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Execute(bool isGround)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isGround</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Global_Footprint_Initialize_" data-uid="Global.Footprint.Initialize*"></a>
-  <h4 id="Global_Footprint_Initialize" data-uid="Global.Footprint.Initialize">Initialize()</h4>
+  <a id="Global_ProjectileCollisionStrategy_Initialize_" data-uid="Global.ProjectileCollisionStrategy.Initialize*"></a>
+  <h4 id="Global_ProjectileCollisionStrategy_Initialize_BoxCollider2D_" data-uid="Global.ProjectileCollisionStrategy.Initialize(BoxCollider2D)">Initialize(BoxCollider2D)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Initialize(BoxCollider2D collider2D)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BoxCollider2D</span></td>
+        <td><span class="parametername">collider2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

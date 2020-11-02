@@ -89,24 +89,62 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ProjectileEffect</span></div>
+      <div class="level2"><a class="xref" href="Global.SoundWaveEffect.html">SoundWaveEffect</a></div>
+      <div class="level2"><a class="xref" href="Global.StunBombEffect.html">StunBombEffect</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Global_ProjectileEffect_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ProjectileEffect : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class ProjectileEffect : ScriptableObject</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Global_ProjectileEffect__poolManager" data-uid="Global.ProjectileEffect._poolManager">_poolManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PurePoolManager _poolManager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.PurePoolManager.html">PurePoolManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_ProjectileEffect_GetGroundEffect_" data-uid="Global.ProjectileEffect.GetGroundEffect*"></a>
-  <h4 id="Global_ProjectileEffect_GetGroundEffect_ThrowableType_" data-uid="Global.ProjectileEffect.GetGroundEffect(ThrowableType)">GetGroundEffect(ThrowableType)</h4>
+  <a id="Global_ProjectileEffect_Cancel_" data-uid="Global.ProjectileEffect.Cancel*"></a>
+  <h4 id="Global_ProjectileEffect_Cancel" data-uid="Global.ProjectileEffect.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;float, int&gt; GetGroundEffect(ThrowableType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void Cancel()</code></pre>
+  </div>
+  
+  
+  <a id="Global_ProjectileEffect_HandleDestroy_" data-uid="Global.ProjectileEffect.HandleDestroy*"></a>
+  <h4 id="Global_ProjectileEffect_HandleDestroy_GameObject_" data-uid="Global.ProjectileEffect.HandleDestroy(GameObject)">HandleDestroy(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void HandleDestroy(GameObject targetObject)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,36 +157,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.ThrowableType.html">ThrowableType</a></td>
-        <td><span class="parametername">type</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">targetObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_ProjectileEffect_GetThrowEffect_" data-uid="Global.ProjectileEffect.GetThrowEffect*"></a>
-  <h4 id="Global_ProjectileEffect_GetThrowEffect_ThrowableType_" data-uid="Global.ProjectileEffect.GetThrowEffect(ThrowableType)">GetThrowEffect(ThrowableType)</h4>
+  <a id="Global_ProjectileEffect_Initialize_" data-uid="Global.ProjectileEffect.Initialize*"></a>
+  <h4 id="Global_ProjectileEffect_Initialize" data-uid="Global.ProjectileEffect.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action GetThrowEffect(ThrowableType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void Initialize()</code></pre>
+  </div>
+  
+  
+  <a id="Global_ProjectileEffect_SpawnAtPoint_" data-uid="Global.ProjectileEffect.SpawnAtPoint*"></a>
+  <h4 id="Global_ProjectileEffect_SpawnAtPoint_Transform_System_Int32_" data-uid="Global.ProjectileEffect.SpawnAtPoint(Transform,System.Int32)">SpawnAtPoint(Transform, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SpawnAtPoint(Transform transform, int elevation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,92 +194,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.ThrowableType.html">ThrowableType</a></td>
-        <td><span class="parametername">type</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_ProjectileEffect_GetTriggerEffect_" data-uid="Global.ProjectileEffect.GetTriggerEffect*"></a>
-  <h4 id="Global_ProjectileEffect_GetTriggerEffect_ThrowableType_" data-uid="Global.ProjectileEffect.GetTriggerEffect(ThrowableType)">GetTriggerEffect(ThrowableType)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;bool, Collider2D, ThrowableObject&gt; GetTriggerEffect(ThrowableType type)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.ThrowableType.html">ThrowableType</a></td>
-        <td><span class="parametername">type</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>, <span class="xref">Collider2D</span>, <a class="xref" href="Global.ThrowableObject.html">ThrowableObject</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_ProjectileEffect_PlaySoundAndEffect_" data-uid="Global.ProjectileEffect.PlaySoundAndEffect*"></a>
-  <h4 id="Global_ProjectileEffect_PlaySoundAndEffect_System_Single_System_Int32_" data-uid="Global.ProjectileEffect.PlaySoundAndEffect(System.Single,System.Int32)">PlaySoundAndEffect(Single, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlaySoundAndEffect(float particleSizeMultiplier, int elevation)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">particleSizeMultiplier</span></td>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
       <tr>

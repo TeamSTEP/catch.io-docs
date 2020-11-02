@@ -45,305 +45,148 @@ references:
   commentId: F:Global.AllScenes.UIScene
   fullName: AllScenes.UIScene
   nameWithType: AllScenes.UIScene
-- uid: Global.BounceOffBounceProjectileMotion
-  name: BounceOffBounceProjectileMotion
-  href: api/Global.BounceOffBounceProjectileMotion.html
-  commentId: T:Global.BounceOffBounceProjectileMotion
-  fullName: BounceOffBounceProjectileMotion
-  nameWithType: BounceOffBounceProjectileMotion
-- uid: Global.BounceOffBounceProjectileMotion.#ctor(ProjectileMotion,BoxCollider2D,System.Int32)
-  name: BounceOffBounceProjectileMotion(ProjectileMotion, BoxCollider2D, Int32)
-  href: api/Global.BounceOffBounceProjectileMotion.html#Global_BounceOffBounceProjectileMotion__ctor_ProjectileMotion_BoxCollider2D_System_Int32_
-  commentId: M:Global.BounceOffBounceProjectileMotion.#ctor(ProjectileMotion,BoxCollider2D,System.Int32)
-  fullName: BounceOffBounceProjectileMotion.BounceOffBounceProjectileMotion(ProjectileMotion, BoxCollider2D, System.Int32)
-  nameWithType: BounceOffBounceProjectileMotion.BounceOffBounceProjectileMotion(ProjectileMotion, BoxCollider2D, Int32)
-- uid: Global.BounceOffBounceProjectileMotion.#ctor*
-  name: BounceOffBounceProjectileMotion
-  href: api/Global.BounceOffBounceProjectileMotion.html#Global_BounceOffBounceProjectileMotion__ctor_
-  commentId: Overload:Global.BounceOffBounceProjectileMotion.#ctor
+- uid: Global.BouncingToadCollisionStrategy
+  name: BouncingToadCollisionStrategy
+  href: api/Global.BouncingToadCollisionStrategy.html
+  commentId: T:Global.BouncingToadCollisionStrategy
+  fullName: BouncingToadCollisionStrategy
+  nameWithType: BouncingToadCollisionStrategy
+- uid: Global.BouncingToadCollisionStrategy.Execute(System.Boolean)
+  name: Execute(Boolean)
+  href: api/Global.BouncingToadCollisionStrategy.html#Global_BouncingToadCollisionStrategy_Execute_System_Boolean_
+  commentId: M:Global.BouncingToadCollisionStrategy.Execute(System.Boolean)
+  fullName: BouncingToadCollisionStrategy.Execute(System.Boolean)
+  nameWithType: BouncingToadCollisionStrategy.Execute(Boolean)
+- uid: Global.BouncingToadCollisionStrategy.Execute*
+  name: Execute
+  href: api/Global.BouncingToadCollisionStrategy.html#Global_BouncingToadCollisionStrategy_Execute_
+  commentId: Overload:Global.BouncingToadCollisionStrategy.Execute
   isSpec: "True"
-  fullName: BounceOffBounceProjectileMotion.BounceOffBounceProjectileMotion
-  nameWithType: BounceOffBounceProjectileMotion.BounceOffBounceProjectileMotion
-- uid: Global.BounceOffBounceProjectileMotion.CalculateMovePoints(Transform)
-  name: CalculateMovePoints(Transform)
-  href: api/Global.BounceOffBounceProjectileMotion.html#Global_BounceOffBounceProjectileMotion_CalculateMovePoints_Transform_
-  commentId: M:Global.BounceOffBounceProjectileMotion.CalculateMovePoints(Transform)
-  fullName: BounceOffBounceProjectileMotion.CalculateMovePoints(Transform)
-  nameWithType: BounceOffBounceProjectileMotion.CalculateMovePoints(Transform)
-- uid: Global.BounceOffBounceProjectileMotion.CalculateMovePoints*
-  name: CalculateMovePoints
-  href: api/Global.BounceOffBounceProjectileMotion.html#Global_BounceOffBounceProjectileMotion_CalculateMovePoints_
-  commentId: Overload:Global.BounceOffBounceProjectileMotion.CalculateMovePoints
-  isSpec: "True"
-  fullName: BounceOffBounceProjectileMotion.CalculateMovePoints
-  nameWithType: BounceOffBounceProjectileMotion.CalculateMovePoints
-- uid: Global.BounceOffProjectileMotion
-  name: BounceOffProjectileMotion
-  href: api/Global.BounceOffProjectileMotion.html
-  commentId: T:Global.BounceOffProjectileMotion
-  fullName: BounceOffProjectileMotion
-  nameWithType: BounceOffProjectileMotion
-- uid: Global.BounceOffProjectileMotion.#ctor(ProjectileMotion,BoxCollider2D,System.Int32)
-  name: BounceOffProjectileMotion(ProjectileMotion, BoxCollider2D, Int32)
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion__ctor_ProjectileMotion_BoxCollider2D_System_Int32_
-  commentId: M:Global.BounceOffProjectileMotion.#ctor(ProjectileMotion,BoxCollider2D,System.Int32)
-  fullName: BounceOffProjectileMotion.BounceOffProjectileMotion(ProjectileMotion, BoxCollider2D, System.Int32)
-  nameWithType: BounceOffProjectileMotion.BounceOffProjectileMotion(ProjectileMotion, BoxCollider2D, Int32)
-- uid: Global.BounceOffProjectileMotion.#ctor*
-  name: BounceOffProjectileMotion
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion__ctor_
-  commentId: Overload:Global.BounceOffProjectileMotion.#ctor
-  isSpec: "True"
-  fullName: BounceOffProjectileMotion.BounceOffProjectileMotion
-  nameWithType: BounceOffProjectileMotion.BounceOffProjectileMotion
-- uid: Global.BounceOffProjectileMotion.CalculateMovePoints(Transform)
-  name: CalculateMovePoints(Transform)
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_CalculateMovePoints_Transform_
-  commentId: M:Global.BounceOffProjectileMotion.CalculateMovePoints(Transform)
-  fullName: BounceOffProjectileMotion.CalculateMovePoints(Transform)
-  nameWithType: BounceOffProjectileMotion.CalculateMovePoints(Transform)
-- uid: Global.BounceOffProjectileMotion.CalculateMovePoints*
-  name: CalculateMovePoints
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_CalculateMovePoints_
-  commentId: Overload:Global.BounceOffProjectileMotion.CalculateMovePoints
-  isSpec: "True"
-  fullName: BounceOffProjectileMotion.CalculateMovePoints
-  nameWithType: BounceOffProjectileMotion.CalculateMovePoints
-- uid: Global.BounceOffProjectileMotion.collider2D
-  name: collider2D
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_collider2D
-  commentId: F:Global.BounceOffProjectileMotion.collider2D
-  fullName: BounceOffProjectileMotion.collider2D
-  nameWithType: BounceOffProjectileMotion.collider2D
-- uid: Global.BounceOffProjectileMotion.FunctionHandler
-  name: BounceOffProjectileMotion.FunctionHandler
-  href: api/Global.BounceOffProjectileMotion.FunctionHandler.html
-  commentId: T:Global.BounceOffProjectileMotion.FunctionHandler
-  fullName: BounceOffProjectileMotion.FunctionHandler
-  nameWithType: BounceOffProjectileMotion.FunctionHandler
-- uid: Global.BounceOffProjectileMotion.hitMovePointsIndex
-  name: hitMovePointsIndex
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_hitMovePointsIndex
-  commentId: F:Global.BounceOffProjectileMotion.hitMovePointsIndex
-  fullName: BounceOffProjectileMotion.hitMovePointsIndex
-  nameWithType: BounceOffProjectileMotion.hitMovePointsIndex
-- uid: Global.BounceOffProjectileMotion.MovePoints
-  name: MovePoints
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_MovePoints
-  commentId: P:Global.BounceOffProjectileMotion.MovePoints
-  fullName: BounceOffProjectileMotion.MovePoints
-  nameWithType: BounceOffProjectileMotion.MovePoints
-- uid: Global.BounceOffProjectileMotion.MovePoints*
-  name: MovePoints
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_MovePoints_
-  commentId: Overload:Global.BounceOffProjectileMotion.MovePoints
-  isSpec: "True"
-  fullName: BounceOffProjectileMotion.MovePoints
-  nameWithType: BounceOffProjectileMotion.MovePoints
-- uid: Global.BounceOffProjectileMotion.PlayMoveSequences(Transform,BounceOffProjectileMotion.FunctionHandler,BounceOffProjectileMotion.FunctionHandler)
-  name: PlayMoveSequences(Transform, BounceOffProjectileMotion.FunctionHandler, BounceOffProjectileMotion.FunctionHandler)
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_PlayMoveSequences_Transform_BounceOffProjectileMotion_FunctionHandler_BounceOffProjectileMotion_FunctionHandler_
-  commentId: M:Global.BounceOffProjectileMotion.PlayMoveSequences(Transform,BounceOffProjectileMotion.FunctionHandler,BounceOffProjectileMotion.FunctionHandler)
-  fullName: BounceOffProjectileMotion.PlayMoveSequences(Transform, BounceOffProjectileMotion.FunctionHandler, BounceOffProjectileMotion.FunctionHandler)
-  nameWithType: BounceOffProjectileMotion.PlayMoveSequences(Transform, BounceOffProjectileMotion.FunctionHandler, BounceOffProjectileMotion.FunctionHandler)
-- uid: Global.BounceOffProjectileMotion.PlayMoveSequences*
-  name: PlayMoveSequences
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_PlayMoveSequences_
-  commentId: Overload:Global.BounceOffProjectileMotion.PlayMoveSequences
-  isSpec: "True"
-  fullName: BounceOffProjectileMotion.PlayMoveSequences
-  nameWithType: BounceOffProjectileMotion.PlayMoveSequences
-- uid: Global.BounceOffProjectileMotion.projectileMotion
-  name: projectileMotion
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_projectileMotion
-  commentId: F:Global.BounceOffProjectileMotion.projectileMotion
-  fullName: BounceOffProjectileMotion.projectileMotion
-  nameWithType: BounceOffProjectileMotion.projectileMotion
-- uid: Global.BounceOffProjectileMotion.raySpace
-  name: raySpace
-  href: api/Global.BounceOffProjectileMotion.html#Global_BounceOffProjectileMotion_raySpace
-  commentId: F:Global.BounceOffProjectileMotion.raySpace
-  fullName: BounceOffProjectileMotion.raySpace
-  nameWithType: BounceOffProjectileMotion.raySpace
-- uid: Global.BounceProjectileMotion
-  name: BounceProjectileMotion
-  href: api/Global.BounceProjectileMotion.html
-  commentId: T:Global.BounceProjectileMotion
-  fullName: BounceProjectileMotion
-  nameWithType: BounceProjectileMotion
-- uid: Global.BounceProjectileMotion.#ctor(CalculateProjectileMotion)
-  name: BounceProjectileMotion(CalculateProjectileMotion)
-  href: api/Global.BounceProjectileMotion.html#Global_BounceProjectileMotion__ctor_CalculateProjectileMotion_
-  commentId: M:Global.BounceProjectileMotion.#ctor(CalculateProjectileMotion)
-  fullName: BounceProjectileMotion.BounceProjectileMotion(CalculateProjectileMotion)
-  nameWithType: BounceProjectileMotion.BounceProjectileMotion(CalculateProjectileMotion)
-- uid: Global.BounceProjectileMotion.#ctor(ProjectileValues)
-  name: BounceProjectileMotion(ProjectileValues)
-  href: api/Global.BounceProjectileMotion.html#Global_BounceProjectileMotion__ctor_ProjectileValues_
-  commentId: M:Global.BounceProjectileMotion.#ctor(ProjectileValues)
-  fullName: BounceProjectileMotion.BounceProjectileMotion(ProjectileValues)
-  nameWithType: BounceProjectileMotion.BounceProjectileMotion(ProjectileValues)
-- uid: Global.BounceProjectileMotion.#ctor*
-  name: BounceProjectileMotion
-  href: api/Global.BounceProjectileMotion.html#Global_BounceProjectileMotion__ctor_
-  commentId: Overload:Global.BounceProjectileMotion.#ctor
-  isSpec: "True"
-  fullName: BounceProjectileMotion.BounceProjectileMotion
-  nameWithType: BounceProjectileMotion.BounceProjectileMotion
-- uid: Global.BounceProjectileMotion.CalculateMovePoints(Vector2,Vector2)
-  name: CalculateMovePoints(Vector2, Vector2)
-  href: api/Global.BounceProjectileMotion.html#Global_BounceProjectileMotion_CalculateMovePoints_Vector2_Vector2_
-  commentId: M:Global.BounceProjectileMotion.CalculateMovePoints(Vector2,Vector2)
-  fullName: BounceProjectileMotion.CalculateMovePoints(Vector2, Vector2)
-  nameWithType: BounceProjectileMotion.CalculateMovePoints(Vector2, Vector2)
-- uid: Global.BounceProjectileMotion.CalculateMovePoints*
-  name: CalculateMovePoints
-  href: api/Global.BounceProjectileMotion.html#Global_BounceProjectileMotion_CalculateMovePoints_
-  commentId: Overload:Global.BounceProjectileMotion.CalculateMovePoints
-  isSpec: "True"
-  fullName: BounceProjectileMotion.CalculateMovePoints
-  nameWithType: BounceProjectileMotion.CalculateMovePoints
-- uid: Global.CalculateProjectileMotion
-  name: CalculateProjectileMotion
-  href: api/Global.CalculateProjectileMotion.html
-  commentId: T:Global.CalculateProjectileMotion
-  fullName: CalculateProjectileMotion
-  nameWithType: CalculateProjectileMotion
-- uid: Global.CalculateProjectileMotion.BounceOffBounceProjectileMotion
-  name: BounceOffBounceProjectileMotion()
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_BounceOffBounceProjectileMotion
-  commentId: M:Global.CalculateProjectileMotion.BounceOffBounceProjectileMotion
-  fullName: CalculateProjectileMotion.BounceOffBounceProjectileMotion()
-  nameWithType: CalculateProjectileMotion.BounceOffBounceProjectileMotion()
-- uid: Global.CalculateProjectileMotion.BounceOffBounceProjectileMotion*
-  name: BounceOffBounceProjectileMotion
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_BounceOffBounceProjectileMotion_
-  commentId: Overload:Global.CalculateProjectileMotion.BounceOffBounceProjectileMotion
-  isSpec: "True"
-  fullName: CalculateProjectileMotion.BounceOffBounceProjectileMotion
-  nameWithType: CalculateProjectileMotion.BounceOffBounceProjectileMotion
-- uid: Global.CalculateProjectileMotion.BounceOffProjectileMotion
-  name: BounceOffProjectileMotion()
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_BounceOffProjectileMotion
-  commentId: M:Global.CalculateProjectileMotion.BounceOffProjectileMotion
-  fullName: CalculateProjectileMotion.BounceOffProjectileMotion()
-  nameWithType: CalculateProjectileMotion.BounceOffProjectileMotion()
-- uid: Global.CalculateProjectileMotion.BounceOffProjectileMotion*
-  name: BounceOffProjectileMotion
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_BounceOffProjectileMotion_
-  commentId: Overload:Global.CalculateProjectileMotion.BounceOffProjectileMotion
-  isSpec: "True"
-  fullName: CalculateProjectileMotion.BounceOffProjectileMotion
-  nameWithType: CalculateProjectileMotion.BounceOffProjectileMotion
-- uid: Global.CalculateProjectileMotion.BounceProjectileMotion
-  name: BounceProjectileMotion()
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_BounceProjectileMotion
-  commentId: M:Global.CalculateProjectileMotion.BounceProjectileMotion
-  fullName: CalculateProjectileMotion.BounceProjectileMotion()
-  nameWithType: CalculateProjectileMotion.BounceProjectileMotion()
-- uid: Global.CalculateProjectileMotion.BounceProjectileMotion*
-  name: BounceProjectileMotion
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_BounceProjectileMotion_
-  commentId: Overload:Global.CalculateProjectileMotion.BounceProjectileMotion
-  isSpec: "True"
-  fullName: CalculateProjectileMotion.BounceProjectileMotion
-  nameWithType: CalculateProjectileMotion.BounceProjectileMotion
-- uid: Global.CalculateProjectileMotion.CalculateObjectMovePoints(Vector3,ThrowableObject,System.Int32)
-  name: CalculateObjectMovePoints(Vector3, ThrowableObject, Int32)
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_CalculateObjectMovePoints_Vector3_ThrowableObject_System_Int32_
-  commentId: M:Global.CalculateProjectileMotion.CalculateObjectMovePoints(Vector3,ThrowableObject,System.Int32)
-  fullName: CalculateProjectileMotion.CalculateObjectMovePoints(Vector3, ThrowableObject, System.Int32)
-  nameWithType: CalculateProjectileMotion.CalculateObjectMovePoints(Vector3, ThrowableObject, Int32)
-- uid: Global.CalculateProjectileMotion.CalculateObjectMovePoints*
-  name: CalculateObjectMovePoints
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_CalculateObjectMovePoints_
-  commentId: Overload:Global.CalculateProjectileMotion.CalculateObjectMovePoints
-  isSpec: "True"
-  fullName: CalculateProjectileMotion.CalculateObjectMovePoints
-  nameWithType: CalculateProjectileMotion.CalculateObjectMovePoints
-- uid: Global.CalculateProjectileMotion.CalculatePlayerMovePoints(Vector3,SpriteRenderer,BoxCollider2D,System.Int32)
-  name: CalculatePlayerMovePoints(Vector3, SpriteRenderer, BoxCollider2D, Int32)
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_CalculatePlayerMovePoints_Vector3_SpriteRenderer_BoxCollider2D_System_Int32_
-  commentId: M:Global.CalculateProjectileMotion.CalculatePlayerMovePoints(Vector3,SpriteRenderer,BoxCollider2D,System.Int32)
-  fullName: CalculateProjectileMotion.CalculatePlayerMovePoints(Vector3, SpriteRenderer, BoxCollider2D, System.Int32)
-  nameWithType: CalculateProjectileMotion.CalculatePlayerMovePoints(Vector3, SpriteRenderer, BoxCollider2D, Int32)
-- uid: Global.CalculateProjectileMotion.CalculatePlayerMovePoints*
-  name: CalculatePlayerMovePoints
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_CalculatePlayerMovePoints_
-  commentId: Overload:Global.CalculateProjectileMotion.CalculatePlayerMovePoints
-  isSpec: "True"
-  fullName: CalculateProjectileMotion.CalculatePlayerMovePoints
-  nameWithType: CalculateProjectileMotion.CalculatePlayerMovePoints
-- uid: Global.CalculateProjectileMotion.CurrentProjectileMotion
-  name: CurrentProjectileMotion
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_CurrentProjectileMotion
-  commentId: F:Global.CalculateProjectileMotion.CurrentProjectileMotion
-  fullName: CalculateProjectileMotion.CurrentProjectileMotion
-  nameWithType: CalculateProjectileMotion.CurrentProjectileMotion
-- uid: Global.CalculateProjectileMotion.CurrentThrowableObject
-  name: CurrentThrowableObject
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_CurrentThrowableObject
-  commentId: F:Global.CalculateProjectileMotion.CurrentThrowableObject
-  fullName: CalculateProjectileMotion.CurrentThrowableObject
-  nameWithType: CalculateProjectileMotion.CurrentThrowableObject
-- uid: Global.CalculateProjectileMotion.Initialize
-  name: Initialize()
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_Initialize
-  commentId: M:Global.CalculateProjectileMotion.Initialize
-  fullName: CalculateProjectileMotion.Initialize()
-  nameWithType: CalculateProjectileMotion.Initialize()
-- uid: Global.CalculateProjectileMotion.Initialize*
+  fullName: BouncingToadCollisionStrategy.Execute
+  nameWithType: BouncingToadCollisionStrategy.Execute
+- uid: Global.BouncingToadCollisionStrategy.Initialize(BoxCollider2D)
+  name: Initialize(BoxCollider2D)
+  href: api/Global.BouncingToadCollisionStrategy.html#Global_BouncingToadCollisionStrategy_Initialize_BoxCollider2D_
+  commentId: M:Global.BouncingToadCollisionStrategy.Initialize(BoxCollider2D)
+  fullName: BouncingToadCollisionStrategy.Initialize(BoxCollider2D)
+  nameWithType: BouncingToadCollisionStrategy.Initialize(BoxCollider2D)
+- uid: Global.BouncingToadCollisionStrategy.Initialize*
   name: Initialize
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_Initialize_
-  commentId: Overload:Global.CalculateProjectileMotion.Initialize
+  href: api/Global.BouncingToadCollisionStrategy.html#Global_BouncingToadCollisionStrategy_Initialize_
+  commentId: Overload:Global.BouncingToadCollisionStrategy.Initialize
   isSpec: "True"
-  fullName: CalculateProjectileMotion.Initialize
-  nameWithType: CalculateProjectileMotion.Initialize
-- uid: Global.CalculateProjectileMotion.MovePoints
-  name: MovePoints
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_MovePoints
-  commentId: P:Global.CalculateProjectileMotion.MovePoints
-  fullName: CalculateProjectileMotion.MovePoints
-  nameWithType: CalculateProjectileMotion.MovePoints
-- uid: Global.CalculateProjectileMotion.MovePoints*
-  name: MovePoints
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_MovePoints_
-  commentId: Overload:Global.CalculateProjectileMotion.MovePoints
+  fullName: BouncingToadCollisionStrategy.Initialize
+  nameWithType: BouncingToadCollisionStrategy.Initialize
+- uid: Global.BouncingToadProjectile
+  name: BouncingToadProjectile
+  href: api/Global.BouncingToadProjectile.html
+  commentId: T:Global.BouncingToadProjectile
+  fullName: BouncingToadProjectile
+  nameWithType: BouncingToadProjectile
+- uid: Global.BouncingToadProjectile.Execute
+  name: Execute()
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_Execute
+  commentId: M:Global.BouncingToadProjectile.Execute
+  fullName: BouncingToadProjectile.Execute()
+  nameWithType: BouncingToadProjectile.Execute()
+- uid: Global.BouncingToadProjectile.Execute*
+  name: Execute
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_Execute_
+  commentId: Overload:Global.BouncingToadProjectile.Execute
   isSpec: "True"
-  fullName: CalculateProjectileMotion.MovePoints
-  nameWithType: CalculateProjectileMotion.MovePoints
-- uid: Global.CalculateProjectileMotion.ProjectileMotion
-  name: ProjectileMotion()
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_ProjectileMotion
-  commentId: M:Global.CalculateProjectileMotion.ProjectileMotion
-  fullName: CalculateProjectileMotion.ProjectileMotion()
-  nameWithType: CalculateProjectileMotion.ProjectileMotion()
-- uid: Global.CalculateProjectileMotion.ProjectileMotion*
-  name: ProjectileMotion
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_ProjectileMotion_
-  commentId: Overload:Global.CalculateProjectileMotion.ProjectileMotion
+  fullName: BouncingToadProjectile.Execute
+  nameWithType: BouncingToadProjectile.Execute
+- uid: Global.BouncingToadProjectile.GetMovePoints(Vector2,Vector2)
+  name: GetMovePoints(Vector2, Vector2)
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_GetMovePoints_Vector2_Vector2_
+  commentId: M:Global.BouncingToadProjectile.GetMovePoints(Vector2,Vector2)
+  fullName: BouncingToadProjectile.GetMovePoints(Vector2, Vector2)
+  nameWithType: BouncingToadProjectile.GetMovePoints(Vector2, Vector2)
+- uid: Global.BouncingToadProjectile.GetMovePoints*
+  name: GetMovePoints
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_GetMovePoints_
+  commentId: Overload:Global.BouncingToadProjectile.GetMovePoints
   isSpec: "True"
-  fullName: CalculateProjectileMotion.ProjectileMotion
-  nameWithType: CalculateProjectileMotion.ProjectileMotion
-- uid: Global.CalculateProjectileMotion.ProjectileValues
-  name: ProjectileValues
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_ProjectileValues
-  commentId: F:Global.CalculateProjectileMotion.ProjectileValues
-  fullName: CalculateProjectileMotion.ProjectileValues
-  nameWithType: CalculateProjectileMotion.ProjectileValues
-- uid: Global.CalculateProjectileMotion.ShowTrajectory(LineRenderer)
-  name: ShowTrajectory(LineRenderer)
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_ShowTrajectory_LineRenderer_
-  commentId: M:Global.CalculateProjectileMotion.ShowTrajectory(LineRenderer)
-  fullName: CalculateProjectileMotion.ShowTrajectory(LineRenderer)
-  nameWithType: CalculateProjectileMotion.ShowTrajectory(LineRenderer)
-- uid: Global.CalculateProjectileMotion.ShowTrajectory*
-  name: ShowTrajectory
-  href: api/Global.CalculateProjectileMotion.html#Global_CalculateProjectileMotion_ShowTrajectory_
-  commentId: Overload:Global.CalculateProjectileMotion.ShowTrajectory
+  fullName: BouncingToadProjectile.GetMovePoints
+  nameWithType: BouncingToadProjectile.GetMovePoints
+- uid: Global.BouncingToadProjectile.HandleDestroy
+  name: HandleDestroy()
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_HandleDestroy
+  commentId: M:Global.BouncingToadProjectile.HandleDestroy
+  fullName: BouncingToadProjectile.HandleDestroy()
+  nameWithType: BouncingToadProjectile.HandleDestroy()
+- uid: Global.BouncingToadProjectile.HandleDestroy*
+  name: HandleDestroy
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_HandleDestroy_
+  commentId: Overload:Global.BouncingToadProjectile.HandleDestroy
   isSpec: "True"
-  fullName: CalculateProjectileMotion.ShowTrajectory
-  nameWithType: CalculateProjectileMotion.ShowTrajectory
+  fullName: BouncingToadProjectile.HandleDestroy
+  nameWithType: BouncingToadProjectile.HandleDestroy
+- uid: Global.BouncingToadProjectile.HandleSpawn(System.Int32)
+  name: HandleSpawn(Int32)
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_HandleSpawn_System_Int32_
+  commentId: M:Global.BouncingToadProjectile.HandleSpawn(System.Int32)
+  fullName: BouncingToadProjectile.HandleSpawn(System.Int32)
+  nameWithType: BouncingToadProjectile.HandleSpawn(Int32)
+- uid: Global.BouncingToadProjectile.HandleSpawn*
+  name: HandleSpawn
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_HandleSpawn_
+  commentId: Overload:Global.BouncingToadProjectile.HandleSpawn
+  isSpec: "True"
+  fullName: BouncingToadProjectile.HandleSpawn
+  nameWithType: BouncingToadProjectile.HandleSpawn
+- uid: Global.BouncingToadProjectile.Initialize
+  name: Initialize()
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_Initialize
+  commentId: M:Global.BouncingToadProjectile.Initialize
+  fullName: BouncingToadProjectile.Initialize()
+  nameWithType: BouncingToadProjectile.Initialize()
+- uid: Global.BouncingToadProjectile.Initialize*
+  name: Initialize
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_Initialize_
+  commentId: Overload:Global.BouncingToadProjectile.Initialize
+  isSpec: "True"
+  fullName: BouncingToadProjectile.Initialize
+  nameWithType: BouncingToadProjectile.Initialize
+- uid: Global.BouncingToadProjectile.OnGround
+  name: OnGround()
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_OnGround
+  commentId: M:Global.BouncingToadProjectile.OnGround
+  fullName: BouncingToadProjectile.OnGround()
+  nameWithType: BouncingToadProjectile.OnGround()
+- uid: Global.BouncingToadProjectile.OnGround*
+  name: OnGround
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_OnGround_
+  commentId: Overload:Global.BouncingToadProjectile.OnGround
+  isSpec: "True"
+  fullName: BouncingToadProjectile.OnGround
+  nameWithType: BouncingToadProjectile.OnGround
+- uid: Global.BouncingToadProjectile.OnTriggerEnter2D(Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_OnTriggerEnter2D_Collider2D_
+  commentId: M:Global.BouncingToadProjectile.OnTriggerEnter2D(Collider2D)
+  fullName: BouncingToadProjectile.OnTriggerEnter2D(Collider2D)
+  nameWithType: BouncingToadProjectile.OnTriggerEnter2D(Collider2D)
+- uid: Global.BouncingToadProjectile.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_OnTriggerEnter2D_
+  commentId: Overload:Global.BouncingToadProjectile.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: BouncingToadProjectile.OnTriggerEnter2D
+  nameWithType: BouncingToadProjectile.OnTriggerEnter2D
+- uid: Global.BouncingToadProjectile.SetSpritePosition(Vector3)
+  name: SetSpritePosition(Vector3)
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_SetSpritePosition_Vector3_
+  commentId: M:Global.BouncingToadProjectile.SetSpritePosition(Vector3)
+  fullName: BouncingToadProjectile.SetSpritePosition(Vector3)
+  nameWithType: BouncingToadProjectile.SetSpritePosition(Vector3)
+- uid: Global.BouncingToadProjectile.SetSpritePosition*
+  name: SetSpritePosition
+  href: api/Global.BouncingToadProjectile.html#Global_BouncingToadProjectile_SetSpritePosition_
+  commentId: Overload:Global.BouncingToadProjectile.SetSpritePosition
+  isSpec: "True"
+  fullName: BouncingToadProjectile.SetSpritePosition
+  nameWithType: BouncingToadProjectile.SetSpritePosition
 - uid: Global.CameraManager
   name: CameraManager
   href: api/Global.CameraManager.html
@@ -500,6 +343,109 @@ references:
   commentId: T:Global.EditorGameLoader
   fullName: EditorGameLoader
   nameWithType: EditorGameLoader
+- uid: Global.Effect
+  name: Effect
+  href: api/Global.Effect.html
+  commentId: T:Global.Effect
+  fullName: Effect
+  nameWithType: Effect
+- uid: Global.Effect.DestroyHandler
+  name: DestroyHandler
+  href: api/Global.Effect.html#Global_Effect_DestroyHandler
+  commentId: F:Global.Effect.DestroyHandler
+  fullName: Effect.DestroyHandler
+  nameWithType: Effect.DestroyHandler
+- uid: Global.Effect.Initialize(Action{GameObject})
+  name: Initialize(Action<GameObject>)
+  href: api/Global.Effect.html#Global_Effect_Initialize_Action_GameObject__
+  commentId: M:Global.Effect.Initialize(Action{GameObject})
+  name.vb: Initialize(Action(Of GameObject))
+  fullName: Effect.Initialize(Action<GameObject>)
+  fullName.vb: Effect.Initialize(Action(Of GameObject))
+  nameWithType: Effect.Initialize(Action<GameObject>)
+  nameWithType.vb: Effect.Initialize(Action(Of GameObject))
+- uid: Global.Effect.Initialize*
+  name: Initialize
+  href: api/Global.Effect.html#Global_Effect_Initialize_
+  commentId: Overload:Global.Effect.Initialize
+  isSpec: "True"
+  fullName: Effect.Initialize
+  nameWithType: Effect.Initialize
+- uid: Global.EffectData
+  name: EffectData
+  href: api/Global.EffectData.html
+  commentId: T:Global.EffectData
+  fullName: EffectData
+  nameWithType: EffectData
+- uid: Global.EffectData.EffectType
+  name: EffectType
+  href: api/Global.EffectData.html#Global_EffectData_EffectType
+  commentId: P:Global.EffectData.EffectType
+  fullName: EffectData.EffectType
+  nameWithType: EffectData.EffectType
+- uid: Global.EffectData.EffectType*
+  name: EffectType
+  href: api/Global.EffectData.html#Global_EffectData_EffectType_
+  commentId: Overload:Global.EffectData.EffectType
+  isSpec: "True"
+  fullName: EffectData.EffectType
+  nameWithType: EffectData.EffectType
+- uid: Global.EffectData.Prefab
+  name: Prefab
+  href: api/Global.EffectData.html#Global_EffectData_Prefab
+  commentId: P:Global.EffectData.Prefab
+  fullName: EffectData.Prefab
+  nameWithType: EffectData.Prefab
+- uid: Global.EffectData.Prefab*
+  name: Prefab
+  href: api/Global.EffectData.html#Global_EffectData_Prefab_
+  commentId: Overload:Global.EffectData.Prefab
+  isSpec: "True"
+  fullName: EffectData.Prefab
+  nameWithType: EffectData.Prefab
+- uid: Global.EffectScriptableObject
+  name: EffectScriptableObject
+  href: api/Global.EffectScriptableObject.html
+  commentId: T:Global.EffectScriptableObject
+  fullName: EffectScriptableObject
+  nameWithType: EffectScriptableObject
+- uid: Global.EffectScriptableObject.EffectDatas
+  name: EffectDatas
+  href: api/Global.EffectScriptableObject.html#Global_EffectScriptableObject_EffectDatas
+  commentId: F:Global.EffectScriptableObject.EffectDatas
+  fullName: EffectScriptableObject.EffectDatas
+  nameWithType: EffectScriptableObject.EffectDatas
+- uid: Global.EffectScriptableObject.FindPrefab(EffectType)
+  name: FindPrefab(EffectType)
+  href: api/Global.EffectScriptableObject.html#Global_EffectScriptableObject_FindPrefab_EffectType_
+  commentId: M:Global.EffectScriptableObject.FindPrefab(EffectType)
+  fullName: EffectScriptableObject.FindPrefab(EffectType)
+  nameWithType: EffectScriptableObject.FindPrefab(EffectType)
+- uid: Global.EffectScriptableObject.FindPrefab*
+  name: FindPrefab
+  href: api/Global.EffectScriptableObject.html#Global_EffectScriptableObject_FindPrefab_
+  commentId: Overload:Global.EffectScriptableObject.FindPrefab
+  isSpec: "True"
+  fullName: EffectScriptableObject.FindPrefab
+  nameWithType: EffectScriptableObject.FindPrefab
+- uid: Global.EffectType
+  name: EffectType
+  href: api/Global.EffectType.html
+  commentId: T:Global.EffectType
+  fullName: EffectType
+  nameWithType: EffectType
+- uid: Global.EffectType.SoundWave
+  name: SoundWave
+  href: api/Global.EffectType.html#Global_EffectType_SoundWave
+  commentId: F:Global.EffectType.SoundWave
+  fullName: EffectType.SoundWave
+  nameWithType: EffectType.SoundWave
+- uid: Global.EffectType.StunBombExplosion
+  name: StunBombExplosion
+  href: api/Global.EffectType.html#Global_EffectType_StunBombExplosion
+  commentId: F:Global.EffectType.StunBombExplosion
+  fullName: EffectType.StunBombExplosion
+  nameWithType: EffectType.StunBombExplosion
 - uid: Global.Elevation
   name: Elevation
   href: api/Global.Elevation.html
@@ -557,200 +503,6 @@ references:
   isSpec: "True"
   fullName: ElevationTrigger.TopCollider
   nameWithType: ElevationTrigger.TopCollider
-- uid: Global.ExecuteObjectProjectileMotion
-  name: ExecuteObjectProjectileMotion
-  href: api/Global.ExecuteObjectProjectileMotion.html
-  commentId: T:Global.ExecuteObjectProjectileMotion
-  fullName: ExecuteObjectProjectileMotion
-  nameWithType: ExecuteObjectProjectileMotion
-- uid: Global.ExecuteObjectProjectileMotion.IsGround
-  name: IsGround
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_IsGround
-  commentId: P:Global.ExecuteObjectProjectileMotion.IsGround
-  fullName: ExecuteObjectProjectileMotion.IsGround
-  nameWithType: ExecuteObjectProjectileMotion.IsGround
-- uid: Global.ExecuteObjectProjectileMotion.IsGround*
-  name: IsGround
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_IsGround_
-  commentId: Overload:Global.ExecuteObjectProjectileMotion.IsGround
-  isSpec: "True"
-  fullName: ExecuteObjectProjectileMotion.IsGround
-  nameWithType: ExecuteObjectProjectileMotion.IsGround
-- uid: Global.ExecuteObjectProjectileMotion.MovePoints
-  name: MovePoints
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_MovePoints
-  commentId: P:Global.ExecuteObjectProjectileMotion.MovePoints
-  fullName: ExecuteObjectProjectileMotion.MovePoints
-  nameWithType: ExecuteObjectProjectileMotion.MovePoints
-- uid: Global.ExecuteObjectProjectileMotion.MovePoints*
-  name: MovePoints
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_MovePoints_
-  commentId: Overload:Global.ExecuteObjectProjectileMotion.MovePoints
-  isSpec: "True"
-  fullName: ExecuteObjectProjectileMotion.MovePoints
-  nameWithType: ExecuteObjectProjectileMotion.MovePoints
-- uid: Global.ExecuteObjectProjectileMotion.OnBounceGround(System.Single)
-  name: OnBounceGround(Single)
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_OnBounceGround_System_Single_
-  commentId: M:Global.ExecuteObjectProjectileMotion.OnBounceGround(System.Single)
-  fullName: ExecuteObjectProjectileMotion.OnBounceGround(System.Single)
-  nameWithType: ExecuteObjectProjectileMotion.OnBounceGround(Single)
-- uid: Global.ExecuteObjectProjectileMotion.OnBounceGround*
-  name: OnBounceGround
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_OnBounceGround_
-  commentId: Overload:Global.ExecuteObjectProjectileMotion.OnBounceGround
-  isSpec: "True"
-  fullName: ExecuteObjectProjectileMotion.OnBounceGround
-  nameWithType: ExecuteObjectProjectileMotion.OnBounceGround
-- uid: Global.ExecuteObjectProjectileMotion.OnGround(System.Single)
-  name: OnGround(Single)
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_OnGround_System_Single_
-  commentId: M:Global.ExecuteObjectProjectileMotion.OnGround(System.Single)
-  fullName: ExecuteObjectProjectileMotion.OnGround(System.Single)
-  nameWithType: ExecuteObjectProjectileMotion.OnGround(Single)
-- uid: Global.ExecuteObjectProjectileMotion.OnGround*
-  name: OnGround
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_OnGround_
-  commentId: Overload:Global.ExecuteObjectProjectileMotion.OnGround
-  isSpec: "True"
-  fullName: ExecuteObjectProjectileMotion.OnGround
-  nameWithType: ExecuteObjectProjectileMotion.OnGround
-- uid: Global.ExecuteObjectProjectileMotion.PlayBounceProjectileMotion
-  name: PlayBounceProjectileMotion()
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_PlayBounceProjectileMotion
-  commentId: M:Global.ExecuteObjectProjectileMotion.PlayBounceProjectileMotion
-  fullName: ExecuteObjectProjectileMotion.PlayBounceProjectileMotion()
-  nameWithType: ExecuteObjectProjectileMotion.PlayBounceProjectileMotion()
-- uid: Global.ExecuteObjectProjectileMotion.PlayBounceProjectileMotion*
-  name: PlayBounceProjectileMotion
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_PlayBounceProjectileMotion_
-  commentId: Overload:Global.ExecuteObjectProjectileMotion.PlayBounceProjectileMotion
-  isSpec: "True"
-  fullName: ExecuteObjectProjectileMotion.PlayBounceProjectileMotion
-  nameWithType: ExecuteObjectProjectileMotion.PlayBounceProjectileMotion
-- uid: Global.ExecuteObjectProjectileMotion.PlayProjectileMotion
-  name: PlayProjectileMotion()
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_PlayProjectileMotion
-  commentId: M:Global.ExecuteObjectProjectileMotion.PlayProjectileMotion
-  fullName: ExecuteObjectProjectileMotion.PlayProjectileMotion()
-  nameWithType: ExecuteObjectProjectileMotion.PlayProjectileMotion()
-- uid: Global.ExecuteObjectProjectileMotion.PlayProjectileMotion*
-  name: PlayProjectileMotion
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_PlayProjectileMotion_
-  commentId: Overload:Global.ExecuteObjectProjectileMotion.PlayProjectileMotion
-  isSpec: "True"
-  fullName: ExecuteObjectProjectileMotion.PlayProjectileMotion
-  nameWithType: ExecuteObjectProjectileMotion.PlayProjectileMotion
-- uid: Global.ExecuteObjectProjectileMotion.ThrowObject(CalculateProjectileMotion,System.Int32)
-  name: ThrowObject(CalculateProjectileMotion, Int32)
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_ThrowObject_CalculateProjectileMotion_System_Int32_
-  commentId: M:Global.ExecuteObjectProjectileMotion.ThrowObject(CalculateProjectileMotion,System.Int32)
-  fullName: ExecuteObjectProjectileMotion.ThrowObject(CalculateProjectileMotion, System.Int32)
-  nameWithType: ExecuteObjectProjectileMotion.ThrowObject(CalculateProjectileMotion, Int32)
-- uid: Global.ExecuteObjectProjectileMotion.ThrowObject*
-  name: ThrowObject
-  href: api/Global.ExecuteObjectProjectileMotion.html#Global_ExecuteObjectProjectileMotion_ThrowObject_
-  commentId: Overload:Global.ExecuteObjectProjectileMotion.ThrowObject
-  isSpec: "True"
-  fullName: ExecuteObjectProjectileMotion.ThrowObject
-  nameWithType: ExecuteObjectProjectileMotion.ThrowObject
-- uid: Global.ExecutePlayerProjectileMotion
-  name: ExecutePlayerProjectileMotion
-  href: api/Global.ExecutePlayerProjectileMotion.html
-  commentId: T:Global.ExecutePlayerProjectileMotion
-  fullName: ExecutePlayerProjectileMotion
-  nameWithType: ExecutePlayerProjectileMotion
-- uid: Global.ExecutePlayerProjectileMotion.FlyAwayPlayer(CalculateProjectileMotion,Vector2,System.Int32)
-  name: FlyAwayPlayer(CalculateProjectileMotion, Vector2, Int32)
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_FlyAwayPlayer_CalculateProjectileMotion_Vector2_System_Int32_
-  commentId: M:Global.ExecutePlayerProjectileMotion.FlyAwayPlayer(CalculateProjectileMotion,Vector2,System.Int32)
-  fullName: ExecutePlayerProjectileMotion.FlyAwayPlayer(CalculateProjectileMotion, Vector2, System.Int32)
-  nameWithType: ExecutePlayerProjectileMotion.FlyAwayPlayer(CalculateProjectileMotion, Vector2, Int32)
-- uid: Global.ExecutePlayerProjectileMotion.FlyAwayPlayer*
-  name: FlyAwayPlayer
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_FlyAwayPlayer_
-  commentId: Overload:Global.ExecutePlayerProjectileMotion.FlyAwayPlayer
-  isSpec: "True"
-  fullName: ExecutePlayerProjectileMotion.FlyAwayPlayer
-  nameWithType: ExecutePlayerProjectileMotion.FlyAwayPlayer
-- uid: Global.ExecutePlayerProjectileMotion.IsGround
-  name: IsGround
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_IsGround
-  commentId: P:Global.ExecutePlayerProjectileMotion.IsGround
-  fullName: ExecutePlayerProjectileMotion.IsGround
-  nameWithType: ExecutePlayerProjectileMotion.IsGround
-- uid: Global.ExecutePlayerProjectileMotion.IsGround*
-  name: IsGround
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_IsGround_
-  commentId: Overload:Global.ExecutePlayerProjectileMotion.IsGround
-  isSpec: "True"
-  fullName: ExecutePlayerProjectileMotion.IsGround
-  nameWithType: ExecutePlayerProjectileMotion.IsGround
-- uid: Global.ExecutePlayerProjectileMotion.MovePoints
-  name: MovePoints
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_MovePoints
-  commentId: P:Global.ExecutePlayerProjectileMotion.MovePoints
-  fullName: ExecutePlayerProjectileMotion.MovePoints
-  nameWithType: ExecutePlayerProjectileMotion.MovePoints
-- uid: Global.ExecutePlayerProjectileMotion.MovePoints*
-  name: MovePoints
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_MovePoints_
-  commentId: Overload:Global.ExecutePlayerProjectileMotion.MovePoints
-  isSpec: "True"
-  fullName: ExecutePlayerProjectileMotion.MovePoints
-  nameWithType: ExecutePlayerProjectileMotion.MovePoints
-- uid: Global.ExecutePlayerProjectileMotion.OnBounceGround(System.Single)
-  name: OnBounceGround(Single)
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_OnBounceGround_System_Single_
-  commentId: M:Global.ExecutePlayerProjectileMotion.OnBounceGround(System.Single)
-  fullName: ExecutePlayerProjectileMotion.OnBounceGround(System.Single)
-  nameWithType: ExecutePlayerProjectileMotion.OnBounceGround(Single)
-- uid: Global.ExecutePlayerProjectileMotion.OnBounceGround*
-  name: OnBounceGround
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_OnBounceGround_
-  commentId: Overload:Global.ExecutePlayerProjectileMotion.OnBounceGround
-  isSpec: "True"
-  fullName: ExecutePlayerProjectileMotion.OnBounceGround
-  nameWithType: ExecutePlayerProjectileMotion.OnBounceGround
-- uid: Global.ExecutePlayerProjectileMotion.OnGround(System.Single)
-  name: OnGround(Single)
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_OnGround_System_Single_
-  commentId: M:Global.ExecutePlayerProjectileMotion.OnGround(System.Single)
-  fullName: ExecutePlayerProjectileMotion.OnGround(System.Single)
-  nameWithType: ExecutePlayerProjectileMotion.OnGround(Single)
-- uid: Global.ExecutePlayerProjectileMotion.OnGround*
-  name: OnGround
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_OnGround_
-  commentId: Overload:Global.ExecutePlayerProjectileMotion.OnGround
-  isSpec: "True"
-  fullName: ExecutePlayerProjectileMotion.OnGround
-  nameWithType: ExecutePlayerProjectileMotion.OnGround
-- uid: Global.ExecutePlayerProjectileMotion.PlayProjectileMotion
-  name: PlayProjectileMotion()
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_PlayProjectileMotion
-  commentId: M:Global.ExecutePlayerProjectileMotion.PlayProjectileMotion
-  fullName: ExecutePlayerProjectileMotion.PlayProjectileMotion()
-  nameWithType: ExecutePlayerProjectileMotion.PlayProjectileMotion()
-- uid: Global.ExecutePlayerProjectileMotion.PlayProjectileMotion*
-  name: PlayProjectileMotion
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_PlayProjectileMotion_
-  commentId: Overload:Global.ExecutePlayerProjectileMotion.PlayProjectileMotion
-  isSpec: "True"
-  fullName: ExecutePlayerProjectileMotion.PlayProjectileMotion
-  nameWithType: ExecutePlayerProjectileMotion.PlayProjectileMotion
-- uid: Global.ExecutePlayerProjectileMotion.PlaySoundAndEffect(System.Single)
-  name: PlaySoundAndEffect(Single)
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_PlaySoundAndEffect_System_Single_
-  commentId: M:Global.ExecutePlayerProjectileMotion.PlaySoundAndEffect(System.Single)
-  fullName: ExecutePlayerProjectileMotion.PlaySoundAndEffect(System.Single)
-  nameWithType: ExecutePlayerProjectileMotion.PlaySoundAndEffect(Single)
-- uid: Global.ExecutePlayerProjectileMotion.PlaySoundAndEffect*
-  name: PlaySoundAndEffect
-  href: api/Global.ExecutePlayerProjectileMotion.html#Global_ExecutePlayerProjectileMotion_PlaySoundAndEffect_
-  commentId: Overload:Global.ExecutePlayerProjectileMotion.PlaySoundAndEffect
-  isSpec: "True"
-  fullName: ExecutePlayerProjectileMotion.PlaySoundAndEffect
-  nameWithType: ExecutePlayerProjectileMotion.PlaySoundAndEffect
 - uid: Global.ExtensionMethods
   name: ExtensionMethods
   href: api/Global.ExtensionMethods.html
@@ -807,18 +559,44 @@ references:
   commentId: T:Global.Footprint.FootprintSprite
   fullName: Footprint.FootprintSprite
   nameWithType: Footprint.FootprintSprite
-- uid: Global.Footprint.FootprintSprite.sprite
-  name: sprite
-  href: api/Global.Footprint.FootprintSprite.html#Global_Footprint_FootprintSprite_sprite
-  commentId: F:Global.Footprint.FootprintSprite.sprite
-  fullName: Footprint.FootprintSprite.sprite
-  nameWithType: Footprint.FootprintSprite.sprite
-- uid: Global.Footprint.FootprintSprite.surface
-  name: surface
-  href: api/Global.Footprint.FootprintSprite.html#Global_Footprint_FootprintSprite_surface
-  commentId: F:Global.Footprint.FootprintSprite.surface
-  fullName: Footprint.FootprintSprite.surface
-  nameWithType: Footprint.FootprintSprite.surface
+- uid: Global.Footprint.FootprintSprite.Sprite
+  name: Sprite
+  href: api/Global.Footprint.FootprintSprite.html#Global_Footprint_FootprintSprite_Sprite
+  commentId: F:Global.Footprint.FootprintSprite.Sprite
+  fullName: Footprint.FootprintSprite.Sprite
+  nameWithType: Footprint.FootprintSprite.Sprite
+- uid: Global.Footprint.FootprintSprite.Surface
+  name: Surface
+  href: api/Global.Footprint.FootprintSprite.html#Global_Footprint_FootprintSprite_Surface
+  commentId: F:Global.Footprint.FootprintSprite.Surface
+  fullName: Footprint.FootprintSprite.Surface
+  nameWithType: Footprint.FootprintSprite.Surface
+- uid: Global.Footprint.HandleSpawn
+  name: HandleSpawn()
+  href: api/Global.Footprint.html#Global_Footprint_HandleSpawn
+  commentId: M:Global.Footprint.HandleSpawn
+  fullName: Footprint.HandleSpawn()
+  nameWithType: Footprint.HandleSpawn()
+- uid: Global.Footprint.HandleSpawn*
+  name: HandleSpawn
+  href: api/Global.Footprint.html#Global_Footprint_HandleSpawn_
+  commentId: Overload:Global.Footprint.HandleSpawn
+  isSpec: "True"
+  fullName: Footprint.HandleSpawn
+  nameWithType: Footprint.HandleSpawn
+- uid: Global.Footprint.Initialize
+  name: Initialize()
+  href: api/Global.Footprint.html#Global_Footprint_Initialize
+  commentId: M:Global.Footprint.Initialize
+  fullName: Footprint.Initialize()
+  nameWithType: Footprint.Initialize()
+- uid: Global.Footprint.Initialize*
+  name: Initialize
+  href: api/Global.Footprint.html#Global_Footprint_Initialize_
+  commentId: Overload:Global.Footprint.Initialize
+  isSpec: "True"
+  fullName: Footprint.Initialize
+  nameWithType: Footprint.Initialize
 - uid: Global.FootprintGenerator
   name: FootprintGenerator
   href: api/Global.FootprintGenerator.html
@@ -831,6 +609,12 @@ references:
   commentId: F:Global.FootprintGenerator.GeneratorTime
   fullName: FootprintGenerator.GeneratorTime
   nameWithType: FootprintGenerator.GeneratorTime
+- uid: Global.GameCamera
+  name: GameCamera
+  href: api/Global.GameCamera.html
+  commentId: T:Global.GameCamera
+  fullName: GameCamera
+  nameWithType: GameCamera
 - uid: Global.GameManager
   name: GameManager
   href: api/Global.GameManager.html
@@ -1143,12 +927,6 @@ references:
   isSpec: "True"
   fullName: Inventory.GetThrowalbeObject
   nameWithType: Inventory.GetThrowalbeObject
-- uid: Global.Inventory.InventorySubject
-  name: InventorySubject
-  href: api/Global.Inventory.html#Global_Inventory_InventorySubject
-  commentId: F:Global.Inventory.InventorySubject
-  fullName: Inventory.InventorySubject
-  nameWithType: Inventory.InventorySubject
 - uid: Global.Inventory.IsEmpty
   name: IsEmpty()
   href: api/Global.Inventory.html#Global_Inventory_IsEmpty
@@ -1207,25 +985,18 @@ references:
   isSpec: "True"
   fullName: Inventory.SetSelectIndex
   nameWithType: Inventory.SetSelectIndex
+- uid: Global.Inventory.UpdateHUDEvent
+  name: UpdateHUDEvent
+  href: api/Global.Inventory.html#Global_Inventory_UpdateHUDEvent
+  commentId: F:Global.Inventory.UpdateHUDEvent
+  fullName: Inventory.UpdateHUDEvent
+  nameWithType: Inventory.UpdateHUDEvent
 - uid: Global.InventoryHUD
   name: InventoryHUD
   href: api/Global.InventoryHUD.html
   commentId: T:Global.InventoryHUD
   fullName: InventoryHUD
   nameWithType: InventoryHUD
-- uid: Global.InventoryHUD.Invoke
-  name: Invoke()
-  href: api/Global.InventoryHUD.html#Global_InventoryHUD_Invoke
-  commentId: M:Global.InventoryHUD.Invoke
-  fullName: InventoryHUD.Invoke()
-  nameWithType: InventoryHUD.Invoke()
-- uid: Global.InventoryHUD.Invoke*
-  name: Invoke
-  href: api/Global.InventoryHUD.html#Global_InventoryHUD_Invoke_
-  commentId: Overload:Global.InventoryHUD.Invoke
-  isSpec: "True"
-  fullName: InventoryHUD.Invoke
-  nameWithType: InventoryHUD.Invoke
 - uid: Global.InventoryHUD.SelectItem(System.Int32)
   name: SelectItem(Int32)
   href: api/Global.InventoryHUD.html#Global_InventoryHUD_SelectItem_System_Int32_
@@ -1239,135 +1010,19 @@ references:
   isSpec: "True"
   fullName: InventoryHUD.SelectItem
   nameWithType: InventoryHUD.SelectItem
-- uid: Global.IPlayBounceProjectileMotion
-  name: IPlayBounceProjectileMotion
-  href: api/Global.IPlayBounceProjectileMotion.html
-  commentId: T:Global.IPlayBounceProjectileMotion
-  fullName: IPlayBounceProjectileMotion
-  nameWithType: IPlayBounceProjectileMotion
-- uid: Global.IPlayBounceProjectileMotion.IsGround
-  name: IsGround
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_IsGround
-  commentId: P:Global.IPlayBounceProjectileMotion.IsGround
-  fullName: IPlayBounceProjectileMotion.IsGround
-  nameWithType: IPlayBounceProjectileMotion.IsGround
-- uid: Global.IPlayBounceProjectileMotion.IsGround*
-  name: IsGround
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_IsGround_
-  commentId: Overload:Global.IPlayBounceProjectileMotion.IsGround
+- uid: Global.InventoryHUD.UpdateHUD
+  name: UpdateHUD()
+  href: api/Global.InventoryHUD.html#Global_InventoryHUD_UpdateHUD
+  commentId: M:Global.InventoryHUD.UpdateHUD
+  fullName: InventoryHUD.UpdateHUD()
+  nameWithType: InventoryHUD.UpdateHUD()
+- uid: Global.InventoryHUD.UpdateHUD*
+  name: UpdateHUD
+  href: api/Global.InventoryHUD.html#Global_InventoryHUD_UpdateHUD_
+  commentId: Overload:Global.InventoryHUD.UpdateHUD
   isSpec: "True"
-  fullName: IPlayBounceProjectileMotion.IsGround
-  nameWithType: IPlayBounceProjectileMotion.IsGround
-- uid: Global.IPlayBounceProjectileMotion.MovePoints
-  name: MovePoints
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_MovePoints
-  commentId: P:Global.IPlayBounceProjectileMotion.MovePoints
-  fullName: IPlayBounceProjectileMotion.MovePoints
-  nameWithType: IPlayBounceProjectileMotion.MovePoints
-- uid: Global.IPlayBounceProjectileMotion.MovePoints*
-  name: MovePoints
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_MovePoints_
-  commentId: Overload:Global.IPlayBounceProjectileMotion.MovePoints
-  isSpec: "True"
-  fullName: IPlayBounceProjectileMotion.MovePoints
-  nameWithType: IPlayBounceProjectileMotion.MovePoints
-- uid: Global.IPlayBounceProjectileMotion.OnBounceGround(System.Single)
-  name: OnBounceGround(Single)
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_OnBounceGround_System_Single_
-  commentId: M:Global.IPlayBounceProjectileMotion.OnBounceGround(System.Single)
-  fullName: IPlayBounceProjectileMotion.OnBounceGround(System.Single)
-  nameWithType: IPlayBounceProjectileMotion.OnBounceGround(Single)
-- uid: Global.IPlayBounceProjectileMotion.OnBounceGround*
-  name: OnBounceGround
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_OnBounceGround_
-  commentId: Overload:Global.IPlayBounceProjectileMotion.OnBounceGround
-  isSpec: "True"
-  fullName: IPlayBounceProjectileMotion.OnBounceGround
-  nameWithType: IPlayBounceProjectileMotion.OnBounceGround
-- uid: Global.IPlayBounceProjectileMotion.OnGround(System.Single)
-  name: OnGround(Single)
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_OnGround_System_Single_
-  commentId: M:Global.IPlayBounceProjectileMotion.OnGround(System.Single)
-  fullName: IPlayBounceProjectileMotion.OnGround(System.Single)
-  nameWithType: IPlayBounceProjectileMotion.OnGround(Single)
-- uid: Global.IPlayBounceProjectileMotion.OnGround*
-  name: OnGround
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_OnGround_
-  commentId: Overload:Global.IPlayBounceProjectileMotion.OnGround
-  isSpec: "True"
-  fullName: IPlayBounceProjectileMotion.OnGround
-  nameWithType: IPlayBounceProjectileMotion.OnGround
-- uid: Global.IPlayBounceProjectileMotion.PlayBounceProjectileMotion
-  name: PlayBounceProjectileMotion()
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_PlayBounceProjectileMotion
-  commentId: M:Global.IPlayBounceProjectileMotion.PlayBounceProjectileMotion
-  fullName: IPlayBounceProjectileMotion.PlayBounceProjectileMotion()
-  nameWithType: IPlayBounceProjectileMotion.PlayBounceProjectileMotion()
-- uid: Global.IPlayBounceProjectileMotion.PlayBounceProjectileMotion*
-  name: PlayBounceProjectileMotion
-  href: api/Global.IPlayBounceProjectileMotion.html#Global_IPlayBounceProjectileMotion_PlayBounceProjectileMotion_
-  commentId: Overload:Global.IPlayBounceProjectileMotion.PlayBounceProjectileMotion
-  isSpec: "True"
-  fullName: IPlayBounceProjectileMotion.PlayBounceProjectileMotion
-  nameWithType: IPlayBounceProjectileMotion.PlayBounceProjectileMotion
-- uid: Global.IPlayProjectileMotion
-  name: IPlayProjectileMotion
-  href: api/Global.IPlayProjectileMotion.html
-  commentId: T:Global.IPlayProjectileMotion
-  fullName: IPlayProjectileMotion
-  nameWithType: IPlayProjectileMotion
-- uid: Global.IPlayProjectileMotion.IsGround
-  name: IsGround
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_IsGround
-  commentId: P:Global.IPlayProjectileMotion.IsGround
-  fullName: IPlayProjectileMotion.IsGround
-  nameWithType: IPlayProjectileMotion.IsGround
-- uid: Global.IPlayProjectileMotion.IsGround*
-  name: IsGround
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_IsGround_
-  commentId: Overload:Global.IPlayProjectileMotion.IsGround
-  isSpec: "True"
-  fullName: IPlayProjectileMotion.IsGround
-  nameWithType: IPlayProjectileMotion.IsGround
-- uid: Global.IPlayProjectileMotion.MovePoints
-  name: MovePoints
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_MovePoints
-  commentId: P:Global.IPlayProjectileMotion.MovePoints
-  fullName: IPlayProjectileMotion.MovePoints
-  nameWithType: IPlayProjectileMotion.MovePoints
-- uid: Global.IPlayProjectileMotion.MovePoints*
-  name: MovePoints
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_MovePoints_
-  commentId: Overload:Global.IPlayProjectileMotion.MovePoints
-  isSpec: "True"
-  fullName: IPlayProjectileMotion.MovePoints
-  nameWithType: IPlayProjectileMotion.MovePoints
-- uid: Global.IPlayProjectileMotion.OnGround(System.Single)
-  name: OnGround(Single)
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_OnGround_System_Single_
-  commentId: M:Global.IPlayProjectileMotion.OnGround(System.Single)
-  fullName: IPlayProjectileMotion.OnGround(System.Single)
-  nameWithType: IPlayProjectileMotion.OnGround(Single)
-- uid: Global.IPlayProjectileMotion.OnGround*
-  name: OnGround
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_OnGround_
-  commentId: Overload:Global.IPlayProjectileMotion.OnGround
-  isSpec: "True"
-  fullName: IPlayProjectileMotion.OnGround
-  nameWithType: IPlayProjectileMotion.OnGround
-- uid: Global.IPlayProjectileMotion.PlayProjectileMotion
-  name: PlayProjectileMotion()
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_PlayProjectileMotion
-  commentId: M:Global.IPlayProjectileMotion.PlayProjectileMotion
-  fullName: IPlayProjectileMotion.PlayProjectileMotion()
-  nameWithType: IPlayProjectileMotion.PlayProjectileMotion()
-- uid: Global.IPlayProjectileMotion.PlayProjectileMotion*
-  name: PlayProjectileMotion
-  href: api/Global.IPlayProjectileMotion.html#Global_IPlayProjectileMotion_PlayProjectileMotion_
-  commentId: Overload:Global.IPlayProjectileMotion.PlayProjectileMotion
-  isSpec: "True"
-  fullName: IPlayProjectileMotion.PlayProjectileMotion
-  nameWithType: IPlayProjectileMotion.PlayProjectileMotion
+  fullName: InventoryHUD.UpdateHUD
+  nameWithType: InventoryHUD.UpdateHUD
 - uid: Global.Launcher
   name: Launcher
   href: api/Global.Launcher.html
@@ -2163,25 +1818,25 @@ references:
   isSpec: "True"
   fullName: Player.PlayerName
   nameWithType: Player.PlayerName
-- uid: Global.Player.ProjectileMotion
-  name: ProjectileMotion()
-  href: api/Global.Player.html#Global_Player_ProjectileMotion
-  commentId: M:Global.Player.ProjectileMotion
-  fullName: Player.ProjectileMotion()
-  nameWithType: Player.ProjectileMotion()
-- uid: Global.Player.ProjectileMotion*
-  name: ProjectileMotion
-  href: api/Global.Player.html#Global_Player_ProjectileMotion_
-  commentId: Overload:Global.Player.ProjectileMotion
-  isSpec: "True"
-  fullName: Player.ProjectileMotion
-  nameWithType: Player.ProjectileMotion
 - uid: Global.Player.ProjectileValues
   name: ProjectileValues
   href: api/Global.Player.html#Global_Player_ProjectileValues
   commentId: F:Global.Player.ProjectileValues
   fullName: Player.ProjectileValues
   nameWithType: Player.ProjectileValues
+- uid: Global.Player.ReleaseProjectile
+  name: ReleaseProjectile()
+  href: api/Global.Player.html#Global_Player_ReleaseProjectile
+  commentId: M:Global.Player.ReleaseProjectile
+  fullName: Player.ReleaseProjectile()
+  nameWithType: Player.ReleaseProjectile()
+- uid: Global.Player.ReleaseProjectile*
+  name: ReleaseProjectile
+  href: api/Global.Player.html#Global_Player_ReleaseProjectile_
+  commentId: Overload:Global.Player.ReleaseProjectile
+  isSpec: "True"
+  fullName: Player.ReleaseProjectile
+  nameWithType: Player.ReleaseProjectile
 - uid: Global.Player.ResetSubject
   name: ResetSubject()
   href: api/Global.Player.html#Global_Player_ResetSubject
@@ -2240,6 +1895,19 @@ references:
   isSpec: "True"
   fullName: Player.SetTrajectoryActive
   nameWithType: Player.SetTrajectoryActive
+- uid: Global.Player.SpawnProjectile
+  name: SpawnProjectile()
+  href: api/Global.Player.html#Global_Player_SpawnProjectile
+  commentId: M:Global.Player.SpawnProjectile
+  fullName: Player.SpawnProjectile()
+  nameWithType: Player.SpawnProjectile()
+- uid: Global.Player.SpawnProjectile*
+  name: SpawnProjectile
+  href: api/Global.Player.html#Global_Player_SpawnProjectile_
+  commentId: Overload:Global.Player.SpawnProjectile
+  isSpec: "True"
+  fullName: Player.SpawnProjectile
+  nameWithType: Player.SpawnProjectile
 - uid: Global.Player.StandingTile
   name: StandingTile
   href: api/Global.Player.html#Global_Player_StandingTile
@@ -2348,223 +2016,351 @@ references:
   commentId: F:Global.PlayerControlInput.ThrowMode
   fullName: PlayerControlInput.ThrowMode
   nameWithType: PlayerControlInput.ThrowMode
+- uid: Global.Projectile
+  name: Projectile
+  href: api/Global.Projectile.html
+  commentId: T:Global.Projectile
+  fullName: Projectile
+  nameWithType: Projectile
+- uid: Global.Projectile.Execute
+  name: Execute()
+  href: api/Global.Projectile.html#Global_Projectile_Execute
+  commentId: M:Global.Projectile.Execute
+  fullName: Projectile.Execute()
+  nameWithType: Projectile.Execute()
+- uid: Global.Projectile.Execute*
+  name: Execute
+  href: api/Global.Projectile.html#Global_Projectile_Execute_
+  commentId: Overload:Global.Projectile.Execute
+  isSpec: "True"
+  fullName: Projectile.Execute
+  nameWithType: Projectile.Execute
+- uid: Global.Projectile.GetMovePoints(Vector2,Vector2)
+  name: GetMovePoints(Vector2, Vector2)
+  href: api/Global.Projectile.html#Global_Projectile_GetMovePoints_Vector2_Vector2_
+  commentId: M:Global.Projectile.GetMovePoints(Vector2,Vector2)
+  fullName: Projectile.GetMovePoints(Vector2, Vector2)
+  nameWithType: Projectile.GetMovePoints(Vector2, Vector2)
+- uid: Global.Projectile.GetMovePoints*
+  name: GetMovePoints
+  href: api/Global.Projectile.html#Global_Projectile_GetMovePoints_
+  commentId: Overload:Global.Projectile.GetMovePoints
+  isSpec: "True"
+  fullName: Projectile.GetMovePoints
+  nameWithType: Projectile.GetMovePoints
+- uid: Global.Projectile.HandleDestroy
+  name: HandleDestroy()
+  href: api/Global.Projectile.html#Global_Projectile_HandleDestroy
+  commentId: M:Global.Projectile.HandleDestroy
+  fullName: Projectile.HandleDestroy()
+  nameWithType: Projectile.HandleDestroy()
+- uid: Global.Projectile.HandleDestroy*
+  name: HandleDestroy
+  href: api/Global.Projectile.html#Global_Projectile_HandleDestroy_
+  commentId: Overload:Global.Projectile.HandleDestroy
+  isSpec: "True"
+  fullName: Projectile.HandleDestroy
+  nameWithType: Projectile.HandleDestroy
+- uid: Global.Projectile.HandleSpawn(System.Int32)
+  name: HandleSpawn(Int32)
+  href: api/Global.Projectile.html#Global_Projectile_HandleSpawn_System_Int32_
+  commentId: M:Global.Projectile.HandleSpawn(System.Int32)
+  fullName: Projectile.HandleSpawn(System.Int32)
+  nameWithType: Projectile.HandleSpawn(Int32)
+- uid: Global.Projectile.HandleSpawn*
+  name: HandleSpawn
+  href: api/Global.Projectile.html#Global_Projectile_HandleSpawn_
+  commentId: Overload:Global.Projectile.HandleSpawn
+  isSpec: "True"
+  fullName: Projectile.HandleSpawn
+  nameWithType: Projectile.HandleSpawn
+- uid: Global.Projectile.Initialize
+  name: Initialize()
+  href: api/Global.Projectile.html#Global_Projectile_Initialize
+  commentId: M:Global.Projectile.Initialize
+  fullName: Projectile.Initialize()
+  nameWithType: Projectile.Initialize()
+- uid: Global.Projectile.Initialize*
+  name: Initialize
+  href: api/Global.Projectile.html#Global_Projectile_Initialize_
+  commentId: Overload:Global.Projectile.Initialize
+  isSpec: "True"
+  fullName: Projectile.Initialize
+  nameWithType: Projectile.Initialize
+- uid: Global.Projectile.OnGround
+  name: OnGround()
+  href: api/Global.Projectile.html#Global_Projectile_OnGround
+  commentId: M:Global.Projectile.OnGround
+  fullName: Projectile.OnGround()
+  nameWithType: Projectile.OnGround()
+- uid: Global.Projectile.OnGround*
+  name: OnGround
+  href: api/Global.Projectile.html#Global_Projectile_OnGround_
+  commentId: Overload:Global.Projectile.OnGround
+  isSpec: "True"
+  fullName: Projectile.OnGround
+  nameWithType: Projectile.OnGround
+- uid: Global.Projectile.OnTriggerEnter2D(Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Global.Projectile.html#Global_Projectile_OnTriggerEnter2D_Collider2D_
+  commentId: M:Global.Projectile.OnTriggerEnter2D(Collider2D)
+  fullName: Projectile.OnTriggerEnter2D(Collider2D)
+  nameWithType: Projectile.OnTriggerEnter2D(Collider2D)
+- uid: Global.Projectile.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Global.Projectile.html#Global_Projectile_OnTriggerEnter2D_
+  commentId: Overload:Global.Projectile.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: Projectile.OnTriggerEnter2D
+  nameWithType: Projectile.OnTriggerEnter2D
+- uid: Global.Projectile.SetSpritePosition(Vector3)
+  name: SetSpritePosition(Vector3)
+  href: api/Global.Projectile.html#Global_Projectile_SetSpritePosition_Vector3_
+  commentId: M:Global.Projectile.SetSpritePosition(Vector3)
+  fullName: Projectile.SetSpritePosition(Vector3)
+  nameWithType: Projectile.SetSpritePosition(Vector3)
+- uid: Global.Projectile.SetSpritePosition*
+  name: SetSpritePosition
+  href: api/Global.Projectile.html#Global_Projectile_SetSpritePosition_
+  commentId: Overload:Global.Projectile.SetSpritePosition
+  isSpec: "True"
+  fullName: Projectile.SetSpritePosition
+  nameWithType: Projectile.SetSpritePosition
+- uid: Global.ProjectileCollisionStrategy
+  name: ProjectileCollisionStrategy
+  href: api/Global.ProjectileCollisionStrategy.html
+  commentId: T:Global.ProjectileCollisionStrategy
+  fullName: ProjectileCollisionStrategy
+  nameWithType: ProjectileCollisionStrategy
+- uid: Global.ProjectileCollisionStrategy.Execute(System.Boolean)
+  name: Execute(Boolean)
+  href: api/Global.ProjectileCollisionStrategy.html#Global_ProjectileCollisionStrategy_Execute_System_Boolean_
+  commentId: M:Global.ProjectileCollisionStrategy.Execute(System.Boolean)
+  fullName: ProjectileCollisionStrategy.Execute(System.Boolean)
+  nameWithType: ProjectileCollisionStrategy.Execute(Boolean)
+- uid: Global.ProjectileCollisionStrategy.Execute*
+  name: Execute
+  href: api/Global.ProjectileCollisionStrategy.html#Global_ProjectileCollisionStrategy_Execute_
+  commentId: Overload:Global.ProjectileCollisionStrategy.Execute
+  isSpec: "True"
+  fullName: ProjectileCollisionStrategy.Execute
+  nameWithType: ProjectileCollisionStrategy.Execute
+- uid: Global.ProjectileCollisionStrategy.Initialize(BoxCollider2D)
+  name: Initialize(BoxCollider2D)
+  href: api/Global.ProjectileCollisionStrategy.html#Global_ProjectileCollisionStrategy_Initialize_BoxCollider2D_
+  commentId: M:Global.ProjectileCollisionStrategy.Initialize(BoxCollider2D)
+  fullName: ProjectileCollisionStrategy.Initialize(BoxCollider2D)
+  nameWithType: ProjectileCollisionStrategy.Initialize(BoxCollider2D)
+- uid: Global.ProjectileCollisionStrategy.Initialize*
+  name: Initialize
+  href: api/Global.ProjectileCollisionStrategy.html#Global_ProjectileCollisionStrategy_Initialize_
+  commentId: Overload:Global.ProjectileCollisionStrategy.Initialize
+  isSpec: "True"
+  fullName: ProjectileCollisionStrategy.Initialize
+  nameWithType: ProjectileCollisionStrategy.Initialize
+- uid: Global.ProjectileCollisionStrategy.OffensiveValue
+  name: ProjectileCollisionStrategy.OffensiveValue
+  href: api/Global.ProjectileCollisionStrategy.OffensiveValue.html
+  commentId: T:Global.ProjectileCollisionStrategy.OffensiveValue
+  fullName: ProjectileCollisionStrategy.OffensiveValue
+  nameWithType: ProjectileCollisionStrategy.OffensiveValue
+- uid: Global.ProjectileCollisionStrategy.OffensiveValue.CanStun
+  name: CanStun
+  href: api/Global.ProjectileCollisionStrategy.OffensiveValue.html#Global_ProjectileCollisionStrategy_OffensiveValue_CanStun
+  commentId: F:Global.ProjectileCollisionStrategy.OffensiveValue.CanStun
+  fullName: ProjectileCollisionStrategy.OffensiveValue.CanStun
+  nameWithType: ProjectileCollisionStrategy.OffensiveValue.CanStun
+- uid: Global.ProjectileCollisionStrategy.OffensiveValue.Damage
+  name: Damage
+  href: api/Global.ProjectileCollisionStrategy.OffensiveValue.html#Global_ProjectileCollisionStrategy_OffensiveValue_Damage
+  commentId: F:Global.ProjectileCollisionStrategy.OffensiveValue.Damage
+  fullName: ProjectileCollisionStrategy.OffensiveValue.Damage
+  nameWithType: ProjectileCollisionStrategy.OffensiveValue.Damage
+- uid: Global.ProjectileData
+  name: ProjectileData
+  href: api/Global.ProjectileData.html
+  commentId: T:Global.ProjectileData
+  fullName: ProjectileData
+  nameWithType: ProjectileData
+- uid: Global.ProjectileData.Prefab
+  name: Prefab
+  href: api/Global.ProjectileData.html#Global_ProjectileData_Prefab
+  commentId: P:Global.ProjectileData.Prefab
+  fullName: ProjectileData.Prefab
+  nameWithType: ProjectileData.Prefab
+- uid: Global.ProjectileData.Prefab*
+  name: Prefab
+  href: api/Global.ProjectileData.html#Global_ProjectileData_Prefab_
+  commentId: Overload:Global.ProjectileData.Prefab
+  isSpec: "True"
+  fullName: ProjectileData.Prefab
+  nameWithType: ProjectileData.Prefab
+- uid: Global.ProjectileData.ThrowableType
+  name: ThrowableType
+  href: api/Global.ProjectileData.html#Global_ProjectileData_ThrowableType
+  commentId: P:Global.ProjectileData.ThrowableType
+  fullName: ProjectileData.ThrowableType
+  nameWithType: ProjectileData.ThrowableType
+- uid: Global.ProjectileData.ThrowableType*
+  name: ThrowableType
+  href: api/Global.ProjectileData.html#Global_ProjectileData_ThrowableType_
+  commentId: Overload:Global.ProjectileData.ThrowableType
+  isSpec: "True"
+  fullName: ProjectileData.ThrowableType
+  nameWithType: ProjectileData.ThrowableType
 - uid: Global.ProjectileEffect
   name: ProjectileEffect
   href: api/Global.ProjectileEffect.html
   commentId: T:Global.ProjectileEffect
   fullName: ProjectileEffect
   nameWithType: ProjectileEffect
-- uid: Global.ProjectileEffect.GetGroundEffect(ThrowableType)
-  name: GetGroundEffect(ThrowableType)
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_GetGroundEffect_ThrowableType_
-  commentId: M:Global.ProjectileEffect.GetGroundEffect(ThrowableType)
-  fullName: ProjectileEffect.GetGroundEffect(ThrowableType)
-  nameWithType: ProjectileEffect.GetGroundEffect(ThrowableType)
-- uid: Global.ProjectileEffect.GetGroundEffect*
-  name: GetGroundEffect
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_GetGroundEffect_
-  commentId: Overload:Global.ProjectileEffect.GetGroundEffect
+- uid: Global.ProjectileEffect._poolManager
+  name: _poolManager
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect__poolManager
+  commentId: F:Global.ProjectileEffect._poolManager
+  fullName: ProjectileEffect._poolManager
+  nameWithType: ProjectileEffect._poolManager
+- uid: Global.ProjectileEffect.Cancel
+  name: Cancel()
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_Cancel
+  commentId: M:Global.ProjectileEffect.Cancel
+  fullName: ProjectileEffect.Cancel()
+  nameWithType: ProjectileEffect.Cancel()
+- uid: Global.ProjectileEffect.Cancel*
+  name: Cancel
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_Cancel_
+  commentId: Overload:Global.ProjectileEffect.Cancel
   isSpec: "True"
-  fullName: ProjectileEffect.GetGroundEffect
-  nameWithType: ProjectileEffect.GetGroundEffect
-- uid: Global.ProjectileEffect.GetThrowEffect(ThrowableType)
-  name: GetThrowEffect(ThrowableType)
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_GetThrowEffect_ThrowableType_
-  commentId: M:Global.ProjectileEffect.GetThrowEffect(ThrowableType)
-  fullName: ProjectileEffect.GetThrowEffect(ThrowableType)
-  nameWithType: ProjectileEffect.GetThrowEffect(ThrowableType)
-- uid: Global.ProjectileEffect.GetThrowEffect*
-  name: GetThrowEffect
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_GetThrowEffect_
-  commentId: Overload:Global.ProjectileEffect.GetThrowEffect
+  fullName: ProjectileEffect.Cancel
+  nameWithType: ProjectileEffect.Cancel
+- uid: Global.ProjectileEffect.HandleDestroy(GameObject)
+  name: HandleDestroy(GameObject)
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_HandleDestroy_GameObject_
+  commentId: M:Global.ProjectileEffect.HandleDestroy(GameObject)
+  fullName: ProjectileEffect.HandleDestroy(GameObject)
+  nameWithType: ProjectileEffect.HandleDestroy(GameObject)
+- uid: Global.ProjectileEffect.HandleDestroy*
+  name: HandleDestroy
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_HandleDestroy_
+  commentId: Overload:Global.ProjectileEffect.HandleDestroy
   isSpec: "True"
-  fullName: ProjectileEffect.GetThrowEffect
-  nameWithType: ProjectileEffect.GetThrowEffect
-- uid: Global.ProjectileEffect.GetTriggerEffect(ThrowableType)
-  name: GetTriggerEffect(ThrowableType)
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_GetTriggerEffect_ThrowableType_
-  commentId: M:Global.ProjectileEffect.GetTriggerEffect(ThrowableType)
-  fullName: ProjectileEffect.GetTriggerEffect(ThrowableType)
-  nameWithType: ProjectileEffect.GetTriggerEffect(ThrowableType)
-- uid: Global.ProjectileEffect.GetTriggerEffect*
-  name: GetTriggerEffect
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_GetTriggerEffect_
-  commentId: Overload:Global.ProjectileEffect.GetTriggerEffect
+  fullName: ProjectileEffect.HandleDestroy
+  nameWithType: ProjectileEffect.HandleDestroy
+- uid: Global.ProjectileEffect.Initialize
+  name: Initialize()
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_Initialize
+  commentId: M:Global.ProjectileEffect.Initialize
+  fullName: ProjectileEffect.Initialize()
+  nameWithType: ProjectileEffect.Initialize()
+- uid: Global.ProjectileEffect.Initialize*
+  name: Initialize
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_Initialize_
+  commentId: Overload:Global.ProjectileEffect.Initialize
   isSpec: "True"
-  fullName: ProjectileEffect.GetTriggerEffect
-  nameWithType: ProjectileEffect.GetTriggerEffect
-- uid: Global.ProjectileEffect.PlaySoundAndEffect(System.Single,System.Int32)
-  name: PlaySoundAndEffect(Single, Int32)
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_PlaySoundAndEffect_System_Single_System_Int32_
-  commentId: M:Global.ProjectileEffect.PlaySoundAndEffect(System.Single,System.Int32)
-  fullName: ProjectileEffect.PlaySoundAndEffect(System.Single, System.Int32)
-  nameWithType: ProjectileEffect.PlaySoundAndEffect(Single, Int32)
-- uid: Global.ProjectileEffect.PlaySoundAndEffect*
-  name: PlaySoundAndEffect
-  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_PlaySoundAndEffect_
-  commentId: Overload:Global.ProjectileEffect.PlaySoundAndEffect
+  fullName: ProjectileEffect.Initialize
+  nameWithType: ProjectileEffect.Initialize
+- uid: Global.ProjectileEffect.SpawnAtPoint(Transform,System.Int32)
+  name: SpawnAtPoint(Transform, Int32)
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_SpawnAtPoint_Transform_System_Int32_
+  commentId: M:Global.ProjectileEffect.SpawnAtPoint(Transform,System.Int32)
+  fullName: ProjectileEffect.SpawnAtPoint(Transform, System.Int32)
+  nameWithType: ProjectileEffect.SpawnAtPoint(Transform, Int32)
+- uid: Global.ProjectileEffect.SpawnAtPoint*
+  name: SpawnAtPoint
+  href: api/Global.ProjectileEffect.html#Global_ProjectileEffect_SpawnAtPoint_
+  commentId: Overload:Global.ProjectileEffect.SpawnAtPoint
   isSpec: "True"
-  fullName: ProjectileEffect.PlaySoundAndEffect
-  nameWithType: ProjectileEffect.PlaySoundAndEffect
-- uid: Global.ProjectileMotion
-  name: ProjectileMotion
-  href: api/Global.ProjectileMotion.html
-  commentId: T:Global.ProjectileMotion
-  fullName: ProjectileMotion
-  nameWithType: ProjectileMotion
-- uid: Global.ProjectileMotion.#ctor(CalculateProjectileMotion)
-  name: ProjectileMotion(CalculateProjectileMotion)
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion__ctor_CalculateProjectileMotion_
-  commentId: M:Global.ProjectileMotion.#ctor(CalculateProjectileMotion)
-  fullName: ProjectileMotion.ProjectileMotion(CalculateProjectileMotion)
-  nameWithType: ProjectileMotion.ProjectileMotion(CalculateProjectileMotion)
-- uid: Global.ProjectileMotion.#ctor(ProjectileValues)
-  name: ProjectileMotion(ProjectileValues)
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion__ctor_ProjectileValues_
-  commentId: M:Global.ProjectileMotion.#ctor(ProjectileValues)
-  fullName: ProjectileMotion.ProjectileMotion(ProjectileValues)
-  nameWithType: ProjectileMotion.ProjectileMotion(ProjectileValues)
-- uid: Global.ProjectileMotion.#ctor*
-  name: ProjectileMotion
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion__ctor_
-  commentId: Overload:Global.ProjectileMotion.#ctor
+  fullName: ProjectileEffect.SpawnAtPoint
+  nameWithType: ProjectileEffect.SpawnAtPoint
+- uid: Global.ProjectilePathGenerator
+  name: ProjectilePathGenerator
+  href: api/Global.ProjectilePathGenerator.html
+  commentId: T:Global.ProjectilePathGenerator
+  fullName: ProjectilePathGenerator
+  nameWithType: ProjectilePathGenerator
+- uid: Global.ProjectilePathGenerator.CalculateBouncePoints(Vector2,Vector2,System.Int32)
+  name: CalculateBouncePoints(Vector2, Vector2, Int32)
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_CalculateBouncePoints_Vector2_Vector2_System_Int32_
+  commentId: M:Global.ProjectilePathGenerator.CalculateBouncePoints(Vector2,Vector2,System.Int32)
+  fullName: ProjectilePathGenerator.CalculateBouncePoints(Vector2, Vector2, System.Int32)
+  nameWithType: ProjectilePathGenerator.CalculateBouncePoints(Vector2, Vector2, Int32)
+- uid: Global.ProjectilePathGenerator.CalculateBouncePoints*
+  name: CalculateBouncePoints
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_CalculateBouncePoints_
+  commentId: Overload:Global.ProjectilePathGenerator.CalculateBouncePoints
   isSpec: "True"
-  fullName: ProjectileMotion.ProjectileMotion
-  nameWithType: ProjectileMotion.ProjectileMotion
-- uid: Global.ProjectileMotion.CalculateMovePoints(Vector2,Vector2)
-  name: CalculateMovePoints(Vector2, Vector2)
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_CalculateMovePoints_Vector2_Vector2_
-  commentId: M:Global.ProjectileMotion.CalculateMovePoints(Vector2,Vector2)
-  fullName: ProjectileMotion.CalculateMovePoints(Vector2, Vector2)
-  nameWithType: ProjectileMotion.CalculateMovePoints(Vector2, Vector2)
-- uid: Global.ProjectileMotion.CalculateMovePoints*
-  name: CalculateMovePoints
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_CalculateMovePoints_
-  commentId: Overload:Global.ProjectileMotion.CalculateMovePoints
+  fullName: ProjectilePathGenerator.CalculateBouncePoints
+  nameWithType: ProjectilePathGenerator.CalculateBouncePoints
+- uid: Global.ProjectilePathGenerator.CalculatePoints(Vector2,Vector2,System.Boolean)
+  name: CalculatePoints(Vector2, Vector2, Boolean)
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_CalculatePoints_Vector2_Vector2_System_Boolean_
+  commentId: M:Global.ProjectilePathGenerator.CalculatePoints(Vector2,Vector2,System.Boolean)
+  fullName: ProjectilePathGenerator.CalculatePoints(Vector2, Vector2, System.Boolean)
+  nameWithType: ProjectilePathGenerator.CalculatePoints(Vector2, Vector2, Boolean)
+- uid: Global.ProjectilePathGenerator.CalculatePoints*
+  name: CalculatePoints
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_CalculatePoints_
+  commentId: Overload:Global.ProjectilePathGenerator.CalculatePoints
   isSpec: "True"
-  fullName: ProjectileMotion.CalculateMovePoints
-  nameWithType: ProjectileMotion.CalculateMovePoints
-- uid: Global.ProjectileMotion.CurrentPower
-  name: CurrentPower
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_CurrentPower
-  commentId: P:Global.ProjectileMotion.CurrentPower
-  fullName: ProjectileMotion.CurrentPower
-  nameWithType: ProjectileMotion.CurrentPower
-- uid: Global.ProjectileMotion.CurrentPower*
-  name: CurrentPower
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_CurrentPower_
-  commentId: Overload:Global.ProjectileMotion.CurrentPower
+  fullName: ProjectilePathGenerator.CalculatePoints
+  nameWithType: ProjectilePathGenerator.CalculatePoints
+- uid: Global.ProjectilePathGenerator.GetMovePoints
+  name: GetMovePoints()
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_GetMovePoints
+  commentId: M:Global.ProjectilePathGenerator.GetMovePoints
+  fullName: ProjectilePathGenerator.GetMovePoints()
+  nameWithType: ProjectilePathGenerator.GetMovePoints()
+- uid: Global.ProjectilePathGenerator.GetMovePoints*
+  name: GetMovePoints
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_GetMovePoints_
+  commentId: Overload:Global.ProjectilePathGenerator.GetMovePoints
   isSpec: "True"
-  fullName: ProjectileMotion.CurrentPower
-  nameWithType: ProjectileMotion.CurrentPower
-- uid: Global.ProjectileMotion.Direction
-  name: Direction
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_Direction
-  commentId: P:Global.ProjectileMotion.Direction
-  fullName: ProjectileMotion.Direction
-  nameWithType: ProjectileMotion.Direction
-- uid: Global.ProjectileMotion.Direction*
-  name: Direction
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_Direction_
-  commentId: Overload:Global.ProjectileMotion.Direction
+  fullName: ProjectilePathGenerator.GetMovePoints
+  nameWithType: ProjectilePathGenerator.GetMovePoints
+- uid: Global.ProjectilePathGenerator.Initialize(BoxCollider2D)
+  name: Initialize(BoxCollider2D)
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_Initialize_BoxCollider2D_
+  commentId: M:Global.ProjectilePathGenerator.Initialize(BoxCollider2D)
+  fullName: ProjectilePathGenerator.Initialize(BoxCollider2D)
+  nameWithType: ProjectilePathGenerator.Initialize(BoxCollider2D)
+- uid: Global.ProjectilePathGenerator.Initialize*
+  name: Initialize
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_Initialize_
+  commentId: Overload:Global.ProjectilePathGenerator.Initialize
   isSpec: "True"
-  fullName: ProjectileMotion.Direction
-  nameWithType: ProjectileMotion.Direction
-- uid: Global.ProjectileMotion.FunctionHandler
-  name: ProjectileMotion.FunctionHandler
-  href: api/Global.ProjectileMotion.FunctionHandler.html
-  commentId: T:Global.ProjectileMotion.FunctionHandler
-  fullName: ProjectileMotion.FunctionHandler
-  nameWithType: ProjectileMotion.FunctionHandler
-- uid: Global.ProjectileMotion.gravity
-  name: gravity
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_gravity
-  commentId: F:Global.ProjectileMotion.gravity
-  fullName: ProjectileMotion.gravity
-  nameWithType: ProjectileMotion.gravity
-- uid: Global.ProjectileMotion.MovePoints
-  name: MovePoints
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_MovePoints
-  commentId: P:Global.ProjectileMotion.MovePoints
-  fullName: ProjectileMotion.MovePoints
-  nameWithType: ProjectileMotion.MovePoints
-- uid: Global.ProjectileMotion.MovePoints*
-  name: MovePoints
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_MovePoints_
-  commentId: Overload:Global.ProjectileMotion.MovePoints
-  isSpec: "True"
-  fullName: ProjectileMotion.MovePoints
-  nameWithType: ProjectileMotion.MovePoints
-- uid: Global.ProjectileMotion.PlayMoveSequences(Transform,ProjectileMotion.FunctionHandler,ProjectileMotion.FunctionHandler)
-  name: PlayMoveSequences(Transform, ProjectileMotion.FunctionHandler, ProjectileMotion.FunctionHandler)
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_PlayMoveSequences_Transform_ProjectileMotion_FunctionHandler_ProjectileMotion_FunctionHandler_
-  commentId: M:Global.ProjectileMotion.PlayMoveSequences(Transform,ProjectileMotion.FunctionHandler,ProjectileMotion.FunctionHandler)
-  fullName: ProjectileMotion.PlayMoveSequences(Transform, ProjectileMotion.FunctionHandler, ProjectileMotion.FunctionHandler)
-  nameWithType: ProjectileMotion.PlayMoveSequences(Transform, ProjectileMotion.FunctionHandler, ProjectileMotion.FunctionHandler)
-- uid: Global.ProjectileMotion.PlayMoveSequences*
-  name: PlayMoveSequences
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_PlayMoveSequences_
-  commentId: Overload:Global.ProjectileMotion.PlayMoveSequences
-  isSpec: "True"
-  fullName: ProjectileMotion.PlayMoveSequences
-  nameWithType: ProjectileMotion.PlayMoveSequences
-- uid: Global.ProjectileMotion.ProjectileValues
+  fullName: ProjectilePathGenerator.Initialize
+  nameWithType: ProjectilePathGenerator.Initialize
+- uid: Global.ProjectilePathGenerator.ProjectileValues
   name: ProjectileValues
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_ProjectileValues
-  commentId: P:Global.ProjectileMotion.ProjectileValues
-  fullName: ProjectileMotion.ProjectileValues
-  nameWithType: ProjectileMotion.ProjectileValues
-- uid: Global.ProjectileMotion.ProjectileValues*
-  name: ProjectileValues
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_ProjectileValues_
-  commentId: Overload:Global.ProjectileMotion.ProjectileValues
-  isSpec: "True"
-  fullName: ProjectileMotion.ProjectileValues
-  nameWithType: ProjectileMotion.ProjectileValues
-- uid: Global.ProjectileMotion.SetMovePoints(List{Vector2})
-  name: SetMovePoints(List<Vector2>)
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_SetMovePoints_List_Vector2__
-  commentId: M:Global.ProjectileMotion.SetMovePoints(List{Vector2})
-  name.vb: SetMovePoints(List(Of Vector2))
-  fullName: ProjectileMotion.SetMovePoints(List<Vector2>)
-  fullName.vb: ProjectileMotion.SetMovePoints(List(Of Vector2))
-  nameWithType: ProjectileMotion.SetMovePoints(List<Vector2>)
-  nameWithType.vb: ProjectileMotion.SetMovePoints(List(Of Vector2))
-- uid: Global.ProjectileMotion.SetMovePoints*
-  name: SetMovePoints
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_SetMovePoints_
-  commentId: Overload:Global.ProjectileMotion.SetMovePoints
-  isSpec: "True"
-  fullName: ProjectileMotion.SetMovePoints
-  nameWithType: ProjectileMotion.SetMovePoints
-- uid: Global.ProjectileMotion.ShowTrajectory(LineRenderer,List{Vector2})
-  name: ShowTrajectory(LineRenderer, List<Vector2>)
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_ShowTrajectory_LineRenderer_List_Vector2__
-  commentId: M:Global.ProjectileMotion.ShowTrajectory(LineRenderer,List{Vector2})
-  name.vb: ShowTrajectory(LineRenderer, List(Of Vector2))
-  fullName: ProjectileMotion.ShowTrajectory(LineRenderer, List<Vector2>)
-  fullName.vb: ProjectileMotion.ShowTrajectory(LineRenderer, List(Of Vector2))
-  nameWithType: ProjectileMotion.ShowTrajectory(LineRenderer, List<Vector2>)
-  nameWithType.vb: ProjectileMotion.ShowTrajectory(LineRenderer, List(Of Vector2))
-- uid: Global.ProjectileMotion.ShowTrajectory*
-  name: ShowTrajectory
-  href: api/Global.ProjectileMotion.html#Global_ProjectileMotion_ShowTrajectory_
-  commentId: Overload:Global.ProjectileMotion.ShowTrajectory
-  isSpec: "True"
-  fullName: ProjectileMotion.ShowTrajectory
-  nameWithType: ProjectileMotion.ShowTrajectory
+  href: api/Global.ProjectilePathGenerator.html#Global_ProjectilePathGenerator_ProjectileValues
+  commentId: F:Global.ProjectilePathGenerator.ProjectileValues
+  fullName: ProjectilePathGenerator.ProjectileValues
+  nameWithType: ProjectilePathGenerator.ProjectileValues
 - uid: Global.ProjectileScriptableObject
   name: ProjectileScriptableObject
   href: api/Global.ProjectileScriptableObject.html
   commentId: T:Global.ProjectileScriptableObject
   fullName: ProjectileScriptableObject
   nameWithType: ProjectileScriptableObject
-- uid: Global.ProjectileScriptableObject.projectileDatas
-  name: projectileDatas
-  href: api/Global.ProjectileScriptableObject.html#Global_ProjectileScriptableObject_projectileDatas
-  commentId: F:Global.ProjectileScriptableObject.projectileDatas
-  fullName: ProjectileScriptableObject.projectileDatas
-  nameWithType: ProjectileScriptableObject.projectileDatas
+- uid: Global.ProjectileScriptableObject.FindProjectileData(ThrowableType)
+  name: FindProjectileData(ThrowableType)
+  href: api/Global.ProjectileScriptableObject.html#Global_ProjectileScriptableObject_FindProjectileData_ThrowableType_
+  commentId: M:Global.ProjectileScriptableObject.FindProjectileData(ThrowableType)
+  fullName: ProjectileScriptableObject.FindProjectileData(ThrowableType)
+  nameWithType: ProjectileScriptableObject.FindProjectileData(ThrowableType)
+- uid: Global.ProjectileScriptableObject.FindProjectileData*
+  name: FindProjectileData
+  href: api/Global.ProjectileScriptableObject.html#Global_ProjectileScriptableObject_FindProjectileData_
+  commentId: Overload:Global.ProjectileScriptableObject.FindProjectileData
+  isSpec: "True"
+  fullName: ProjectileScriptableObject.FindProjectileData
+  nameWithType: ProjectileScriptableObject.FindProjectileData
+- uid: Global.ProjectileScriptableObject.ProjectileDatas
+  name: ProjectileDatas
+  href: api/Global.ProjectileScriptableObject.html#Global_ProjectileScriptableObject_ProjectileDatas
+  commentId: F:Global.ProjectileScriptableObject.ProjectileDatas
+  fullName: ProjectileScriptableObject.ProjectileDatas
+  nameWithType: ProjectileScriptableObject.ProjectileDatas
 - uid: Global.ProjectileValues
   name: ProjectileValues
   href: api/Global.ProjectileValues.html
@@ -2614,51 +2410,64 @@ references:
   commentId: T:Global.PurePoolManager
   fullName: PurePoolManager
   nameWithType: PurePoolManager
-- uid: Global.PurePoolManager.GetFootprintPrefab
-  name: GetFootprintPrefab()
-  href: api/Global.PurePoolManager.html#Global_PurePoolManager_GetFootprintPrefab
-  commentId: M:Global.PurePoolManager.GetFootprintPrefab
-  fullName: PurePoolManager.GetFootprintPrefab()
-  nameWithType: PurePoolManager.GetFootprintPrefab()
-- uid: Global.PurePoolManager.GetFootprintPrefab*
-  name: GetFootprintPrefab
-  href: api/Global.PurePoolManager.html#Global_PurePoolManager_GetFootprintPrefab_
-  commentId: Overload:Global.PurePoolManager.GetFootprintPrefab
+- uid: Global.PurePoolManager.AcquireEffect(EffectType,Vector3,Quaternion)
+  name: AcquireEffect(EffectType, Vector3, Quaternion)
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_AcquireEffect_EffectType_Vector3_Quaternion_
+  commentId: M:Global.PurePoolManager.AcquireEffect(EffectType,Vector3,Quaternion)
+  fullName: PurePoolManager.AcquireEffect(EffectType, Vector3, Quaternion)
+  nameWithType: PurePoolManager.AcquireEffect(EffectType, Vector3, Quaternion)
+- uid: Global.PurePoolManager.AcquireEffect*
+  name: AcquireEffect
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_AcquireEffect_
+  commentId: Overload:Global.PurePoolManager.AcquireEffect
   isSpec: "True"
-  fullName: PurePoolManager.GetFootprintPrefab
-  nameWithType: PurePoolManager.GetFootprintPrefab
-- uid: Global.PurePoolManager.GetProjectilePrefab
-  name: GetProjectilePrefab()
-  href: api/Global.PurePoolManager.html#Global_PurePoolManager_GetProjectilePrefab
-  commentId: M:Global.PurePoolManager.GetProjectilePrefab
-  fullName: PurePoolManager.GetProjectilePrefab()
-  nameWithType: PurePoolManager.GetProjectilePrefab()
-- uid: Global.PurePoolManager.GetProjectilePrefab*
-  name: GetProjectilePrefab
-  href: api/Global.PurePoolManager.html#Global_PurePoolManager_GetProjectilePrefab_
-  commentId: Overload:Global.PurePoolManager.GetProjectilePrefab
+  fullName: PurePoolManager.AcquireEffect
+  nameWithType: PurePoolManager.AcquireEffect
+- uid: Global.PurePoolManager.AcquireFootprint(Vector3,Quaternion)
+  name: AcquireFootprint(Vector3, Quaternion)
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_AcquireFootprint_Vector3_Quaternion_
+  commentId: M:Global.PurePoolManager.AcquireFootprint(Vector3,Quaternion)
+  fullName: PurePoolManager.AcquireFootprint(Vector3, Quaternion)
+  nameWithType: PurePoolManager.AcquireFootprint(Vector3, Quaternion)
+- uid: Global.PurePoolManager.AcquireFootprint*
+  name: AcquireFootprint
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_AcquireFootprint_
+  commentId: Overload:Global.PurePoolManager.AcquireFootprint
   isSpec: "True"
-  fullName: PurePoolManager.GetProjectilePrefab
-  nameWithType: PurePoolManager.GetProjectilePrefab
-- uid: Global.PurePoolManager.GetSoundWavePrefab
-  name: GetSoundWavePrefab()
-  href: api/Global.PurePoolManager.html#Global_PurePoolManager_GetSoundWavePrefab
-  commentId: M:Global.PurePoolManager.GetSoundWavePrefab
-  fullName: PurePoolManager.GetSoundWavePrefab()
-  nameWithType: PurePoolManager.GetSoundWavePrefab()
-- uid: Global.PurePoolManager.GetSoundWavePrefab*
-  name: GetSoundWavePrefab
-  href: api/Global.PurePoolManager.html#Global_PurePoolManager_GetSoundWavePrefab_
-  commentId: Overload:Global.PurePoolManager.GetSoundWavePrefab
+  fullName: PurePoolManager.AcquireFootprint
+  nameWithType: PurePoolManager.AcquireFootprint
+- uid: Global.PurePoolManager.AcquireProjectile(ThrowableObject,Vector3,Quaternion)
+  name: AcquireProjectile(ThrowableObject, Vector3, Quaternion)
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_AcquireProjectile_ThrowableObject_Vector3_Quaternion_
+  commentId: M:Global.PurePoolManager.AcquireProjectile(ThrowableObject,Vector3,Quaternion)
+  fullName: PurePoolManager.AcquireProjectile(ThrowableObject, Vector3, Quaternion)
+  nameWithType: PurePoolManager.AcquireProjectile(ThrowableObject, Vector3, Quaternion)
+- uid: Global.PurePoolManager.AcquireProjectile*
+  name: AcquireProjectile
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_AcquireProjectile_
+  commentId: Overload:Global.PurePoolManager.AcquireProjectile
   isSpec: "True"
-  fullName: PurePoolManager.GetSoundWavePrefab
-  nameWithType: PurePoolManager.GetSoundWavePrefab
+  fullName: PurePoolManager.AcquireProjectile
+  nameWithType: PurePoolManager.AcquireProjectile
 - uid: Global.PurePoolManager.Instance
   name: Instance
   href: api/Global.PurePoolManager.html#Global_PurePoolManager_Instance
   commentId: F:Global.PurePoolManager.Instance
   fullName: PurePoolManager.Instance
   nameWithType: PurePoolManager.Instance
+- uid: Global.PurePoolManager.ReleasePool(GameObject)
+  name: ReleasePool(GameObject)
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_ReleasePool_GameObject_
+  commentId: M:Global.PurePoolManager.ReleasePool(GameObject)
+  fullName: PurePoolManager.ReleasePool(GameObject)
+  nameWithType: PurePoolManager.ReleasePool(GameObject)
+- uid: Global.PurePoolManager.ReleasePool*
+  name: ReleasePool
+  href: api/Global.PurePoolManager.html#Global_PurePoolManager_ReleasePool_
+  commentId: Overload:Global.PurePoolManager.ReleasePool
+  isSpec: "True"
+  fullName: PurePoolManager.ReleasePool
+  nameWithType: PurePoolManager.ReleasePool
 - uid: Global.RaycastOrigins
   name: RaycastOrigins
   href: api/Global.RaycastOrigins.html
@@ -2966,19 +2775,19 @@ references:
   commentId: T:Global.SoundManager
   fullName: SoundManager
   nameWithType: SoundManager
-- uid: Global.SoundManager.PlaySurfaceEffect(Transform,Surface.SurfaceType,System.Single)
-  name: PlaySurfaceEffect(Transform, Surface.SurfaceType, Single)
-  href: api/Global.SoundManager.html#Global_SoundManager_PlaySurfaceEffect_Transform_Surface_SurfaceType_System_Single_
-  commentId: M:Global.SoundManager.PlaySurfaceEffect(Transform,Surface.SurfaceType,System.Single)
-  fullName: SoundManager.PlaySurfaceEffect(Transform, Surface.SurfaceType, System.Single)
-  nameWithType: SoundManager.PlaySurfaceEffect(Transform, Surface.SurfaceType, Single)
-- uid: Global.SoundManager.PlaySurfaceEffect*
-  name: PlaySurfaceEffect
-  href: api/Global.SoundManager.html#Global_SoundManager_PlaySurfaceEffect_
-  commentId: Overload:Global.SoundManager.PlaySurfaceEffect
+- uid: Global.SoundManager.PlaySurfaceSFX(Transform,Surface.SurfaceType,System.Single)
+  name: PlaySurfaceSFX(Transform, Surface.SurfaceType, Single)
+  href: api/Global.SoundManager.html#Global_SoundManager_PlaySurfaceSFX_Transform_Surface_SurfaceType_System_Single_
+  commentId: M:Global.SoundManager.PlaySurfaceSFX(Transform,Surface.SurfaceType,System.Single)
+  fullName: SoundManager.PlaySurfaceSFX(Transform, Surface.SurfaceType, System.Single)
+  nameWithType: SoundManager.PlaySurfaceSFX(Transform, Surface.SurfaceType, Single)
+- uid: Global.SoundManager.PlaySurfaceSFX*
+  name: PlaySurfaceSFX
+  href: api/Global.SoundManager.html#Global_SoundManager_PlaySurfaceSFX_
+  commentId: Overload:Global.SoundManager.PlaySurfaceSFX
   isSpec: "True"
-  fullName: SoundManager.PlaySurfaceEffect
-  nameWithType: SoundManager.PlaySurfaceEffect
+  fullName: SoundManager.PlaySurfaceSFX
+  nameWithType: SoundManager.PlaySurfaceSFX
 - uid: Global.SoundManager.surfaceSound
   name: surfaceSound
   href: api/Global.SoundManager.html#Global_SoundManager_surfaceSound
@@ -2991,18 +2800,92 @@ references:
   commentId: T:Global.SoundWave
   fullName: SoundWave
   nameWithType: SoundWave
-- uid: Global.SoundWave.range
-  name: range
-  href: api/Global.SoundWave.html#Global_SoundWave_range
-  commentId: F:Global.SoundWave.range
-  fullName: SoundWave.range
-  nameWithType: SoundWave.range
-- uid: Global.SoundWave.speed
-  name: speed
-  href: api/Global.SoundWave.html#Global_SoundWave_speed
-  commentId: F:Global.SoundWave.speed
-  fullName: SoundWave.speed
-  nameWithType: SoundWave.speed
+- uid: Global.SoundWave.Initialize(Action{GameObject})
+  name: Initialize(Action<GameObject>)
+  href: api/Global.SoundWave.html#Global_SoundWave_Initialize_Action_GameObject__
+  commentId: M:Global.SoundWave.Initialize(Action{GameObject})
+  name.vb: Initialize(Action(Of GameObject))
+  fullName: SoundWave.Initialize(Action<GameObject>)
+  fullName.vb: SoundWave.Initialize(Action(Of GameObject))
+  nameWithType: SoundWave.Initialize(Action<GameObject>)
+  nameWithType.vb: SoundWave.Initialize(Action(Of GameObject))
+- uid: Global.SoundWave.Initialize*
+  name: Initialize
+  href: api/Global.SoundWave.html#Global_SoundWave_Initialize_
+  commentId: Overload:Global.SoundWave.Initialize
+  isSpec: "True"
+  fullName: SoundWave.Initialize
+  nameWithType: SoundWave.Initialize
+- uid: Global.SoundWave.Range
+  name: Range
+  href: api/Global.SoundWave.html#Global_SoundWave_Range
+  commentId: F:Global.SoundWave.Range
+  fullName: SoundWave.Range
+  nameWithType: SoundWave.Range
+- uid: Global.SoundWave.Speed
+  name: Speed
+  href: api/Global.SoundWave.html#Global_SoundWave_Speed
+  commentId: F:Global.SoundWave.Speed
+  fullName: SoundWave.Speed
+  nameWithType: SoundWave.Speed
+- uid: Global.SoundWaveEffect
+  name: SoundWaveEffect
+  href: api/Global.SoundWaveEffect.html
+  commentId: T:Global.SoundWaveEffect
+  fullName: SoundWaveEffect
+  nameWithType: SoundWaveEffect
+- uid: Global.SoundWaveEffect.Cancel
+  name: Cancel()
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_Cancel
+  commentId: M:Global.SoundWaveEffect.Cancel
+  fullName: SoundWaveEffect.Cancel()
+  nameWithType: SoundWaveEffect.Cancel()
+- uid: Global.SoundWaveEffect.Cancel*
+  name: Cancel
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_Cancel_
+  commentId: Overload:Global.SoundWaveEffect.Cancel
+  isSpec: "True"
+  fullName: SoundWaveEffect.Cancel
+  nameWithType: SoundWaveEffect.Cancel
+- uid: Global.SoundWaveEffect.HandleDestroy(GameObject)
+  name: HandleDestroy(GameObject)
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_HandleDestroy_GameObject_
+  commentId: M:Global.SoundWaveEffect.HandleDestroy(GameObject)
+  fullName: SoundWaveEffect.HandleDestroy(GameObject)
+  nameWithType: SoundWaveEffect.HandleDestroy(GameObject)
+- uid: Global.SoundWaveEffect.HandleDestroy*
+  name: HandleDestroy
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_HandleDestroy_
+  commentId: Overload:Global.SoundWaveEffect.HandleDestroy
+  isSpec: "True"
+  fullName: SoundWaveEffect.HandleDestroy
+  nameWithType: SoundWaveEffect.HandleDestroy
+- uid: Global.SoundWaveEffect.Initialize
+  name: Initialize()
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_Initialize
+  commentId: M:Global.SoundWaveEffect.Initialize
+  fullName: SoundWaveEffect.Initialize()
+  nameWithType: SoundWaveEffect.Initialize()
+- uid: Global.SoundWaveEffect.Initialize*
+  name: Initialize
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_Initialize_
+  commentId: Overload:Global.SoundWaveEffect.Initialize
+  isSpec: "True"
+  fullName: SoundWaveEffect.Initialize
+  nameWithType: SoundWaveEffect.Initialize
+- uid: Global.SoundWaveEffect.SpawnAtPoint(Transform,System.Int32)
+  name: SpawnAtPoint(Transform, Int32)
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_SpawnAtPoint_Transform_System_Int32_
+  commentId: M:Global.SoundWaveEffect.SpawnAtPoint(Transform,System.Int32)
+  fullName: SoundWaveEffect.SpawnAtPoint(Transform, System.Int32)
+  nameWithType: SoundWaveEffect.SpawnAtPoint(Transform, Int32)
+- uid: Global.SoundWaveEffect.SpawnAtPoint*
+  name: SpawnAtPoint
+  href: api/Global.SoundWaveEffect.html#Global_SoundWaveEffect_SpawnAtPoint_
+  commentId: Overload:Global.SoundWaveEffect.SpawnAtPoint
+  isSpec: "True"
+  fullName: SoundWaveEffect.SpawnAtPoint
+  nameWithType: SoundWaveEffect.SpawnAtPoint
 - uid: Global.StaminaBar
   name: StaminaBar
   href: api/Global.StaminaBar.html
@@ -3071,6 +2954,357 @@ references:
   commentId: F:Global.StaminaMeter.timer
   fullName: StaminaMeter.timer
   nameWithType: StaminaMeter.timer
+- uid: Global.StoneCollisionStrategy
+  name: StoneCollisionStrategy
+  href: api/Global.StoneCollisionStrategy.html
+  commentId: T:Global.StoneCollisionStrategy
+  fullName: StoneCollisionStrategy
+  nameWithType: StoneCollisionStrategy
+- uid: Global.StoneCollisionStrategy.Execute(System.Boolean)
+  name: Execute(Boolean)
+  href: api/Global.StoneCollisionStrategy.html#Global_StoneCollisionStrategy_Execute_System_Boolean_
+  commentId: M:Global.StoneCollisionStrategy.Execute(System.Boolean)
+  fullName: StoneCollisionStrategy.Execute(System.Boolean)
+  nameWithType: StoneCollisionStrategy.Execute(Boolean)
+- uid: Global.StoneCollisionStrategy.Execute*
+  name: Execute
+  href: api/Global.StoneCollisionStrategy.html#Global_StoneCollisionStrategy_Execute_
+  commentId: Overload:Global.StoneCollisionStrategy.Execute
+  isSpec: "True"
+  fullName: StoneCollisionStrategy.Execute
+  nameWithType: StoneCollisionStrategy.Execute
+- uid: Global.StoneCollisionStrategy.Initialize(BoxCollider2D)
+  name: Initialize(BoxCollider2D)
+  href: api/Global.StoneCollisionStrategy.html#Global_StoneCollisionStrategy_Initialize_BoxCollider2D_
+  commentId: M:Global.StoneCollisionStrategy.Initialize(BoxCollider2D)
+  fullName: StoneCollisionStrategy.Initialize(BoxCollider2D)
+  nameWithType: StoneCollisionStrategy.Initialize(BoxCollider2D)
+- uid: Global.StoneCollisionStrategy.Initialize*
+  name: Initialize
+  href: api/Global.StoneCollisionStrategy.html#Global_StoneCollisionStrategy_Initialize_
+  commentId: Overload:Global.StoneCollisionStrategy.Initialize
+  isSpec: "True"
+  fullName: StoneCollisionStrategy.Initialize
+  nameWithType: StoneCollisionStrategy.Initialize
+- uid: Global.StoneProjectile
+  name: StoneProjectile
+  href: api/Global.StoneProjectile.html
+  commentId: T:Global.StoneProjectile
+  fullName: StoneProjectile
+  nameWithType: StoneProjectile
+- uid: Global.StoneProjectile.Execute
+  name: Execute()
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_Execute
+  commentId: M:Global.StoneProjectile.Execute
+  fullName: StoneProjectile.Execute()
+  nameWithType: StoneProjectile.Execute()
+- uid: Global.StoneProjectile.Execute*
+  name: Execute
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_Execute_
+  commentId: Overload:Global.StoneProjectile.Execute
+  isSpec: "True"
+  fullName: StoneProjectile.Execute
+  nameWithType: StoneProjectile.Execute
+- uid: Global.StoneProjectile.GetMovePoints(Vector2,Vector2)
+  name: GetMovePoints(Vector2, Vector2)
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_GetMovePoints_Vector2_Vector2_
+  commentId: M:Global.StoneProjectile.GetMovePoints(Vector2,Vector2)
+  fullName: StoneProjectile.GetMovePoints(Vector2, Vector2)
+  nameWithType: StoneProjectile.GetMovePoints(Vector2, Vector2)
+- uid: Global.StoneProjectile.GetMovePoints*
+  name: GetMovePoints
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_GetMovePoints_
+  commentId: Overload:Global.StoneProjectile.GetMovePoints
+  isSpec: "True"
+  fullName: StoneProjectile.GetMovePoints
+  nameWithType: StoneProjectile.GetMovePoints
+- uid: Global.StoneProjectile.HandleDestroy
+  name: HandleDestroy()
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_HandleDestroy
+  commentId: M:Global.StoneProjectile.HandleDestroy
+  fullName: StoneProjectile.HandleDestroy()
+  nameWithType: StoneProjectile.HandleDestroy()
+- uid: Global.StoneProjectile.HandleDestroy*
+  name: HandleDestroy
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_HandleDestroy_
+  commentId: Overload:Global.StoneProjectile.HandleDestroy
+  isSpec: "True"
+  fullName: StoneProjectile.HandleDestroy
+  nameWithType: StoneProjectile.HandleDestroy
+- uid: Global.StoneProjectile.HandleSpawn(System.Int32)
+  name: HandleSpawn(Int32)
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_HandleSpawn_System_Int32_
+  commentId: M:Global.StoneProjectile.HandleSpawn(System.Int32)
+  fullName: StoneProjectile.HandleSpawn(System.Int32)
+  nameWithType: StoneProjectile.HandleSpawn(Int32)
+- uid: Global.StoneProjectile.HandleSpawn*
+  name: HandleSpawn
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_HandleSpawn_
+  commentId: Overload:Global.StoneProjectile.HandleSpawn
+  isSpec: "True"
+  fullName: StoneProjectile.HandleSpawn
+  nameWithType: StoneProjectile.HandleSpawn
+- uid: Global.StoneProjectile.Initialize
+  name: Initialize()
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_Initialize
+  commentId: M:Global.StoneProjectile.Initialize
+  fullName: StoneProjectile.Initialize()
+  nameWithType: StoneProjectile.Initialize()
+- uid: Global.StoneProjectile.Initialize*
+  name: Initialize
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_Initialize_
+  commentId: Overload:Global.StoneProjectile.Initialize
+  isSpec: "True"
+  fullName: StoneProjectile.Initialize
+  nameWithType: StoneProjectile.Initialize
+- uid: Global.StoneProjectile.OnGround
+  name: OnGround()
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_OnGround
+  commentId: M:Global.StoneProjectile.OnGround
+  fullName: StoneProjectile.OnGround()
+  nameWithType: StoneProjectile.OnGround()
+- uid: Global.StoneProjectile.OnGround*
+  name: OnGround
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_OnGround_
+  commentId: Overload:Global.StoneProjectile.OnGround
+  isSpec: "True"
+  fullName: StoneProjectile.OnGround
+  nameWithType: StoneProjectile.OnGround
+- uid: Global.StoneProjectile.OnTriggerEnter2D(Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_OnTriggerEnter2D_Collider2D_
+  commentId: M:Global.StoneProjectile.OnTriggerEnter2D(Collider2D)
+  fullName: StoneProjectile.OnTriggerEnter2D(Collider2D)
+  nameWithType: StoneProjectile.OnTriggerEnter2D(Collider2D)
+- uid: Global.StoneProjectile.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_OnTriggerEnter2D_
+  commentId: Overload:Global.StoneProjectile.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: StoneProjectile.OnTriggerEnter2D
+  nameWithType: StoneProjectile.OnTriggerEnter2D
+- uid: Global.StoneProjectile.SetSpritePosition(Vector3)
+  name: SetSpritePosition(Vector3)
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_SetSpritePosition_Vector3_
+  commentId: M:Global.StoneProjectile.SetSpritePosition(Vector3)
+  fullName: StoneProjectile.SetSpritePosition(Vector3)
+  nameWithType: StoneProjectile.SetSpritePosition(Vector3)
+- uid: Global.StoneProjectile.SetSpritePosition*
+  name: SetSpritePosition
+  href: api/Global.StoneProjectile.html#Global_StoneProjectile_SetSpritePosition_
+  commentId: Overload:Global.StoneProjectile.SetSpritePosition
+  isSpec: "True"
+  fullName: StoneProjectile.SetSpritePosition
+  nameWithType: StoneProjectile.SetSpritePosition
+- uid: Global.StunBombEffect
+  name: StunBombEffect
+  href: api/Global.StunBombEffect.html
+  commentId: T:Global.StunBombEffect
+  fullName: StunBombEffect
+  nameWithType: StunBombEffect
+- uid: Global.StunBombEffect.Cancel
+  name: Cancel()
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_Cancel
+  commentId: M:Global.StunBombEffect.Cancel
+  fullName: StunBombEffect.Cancel()
+  nameWithType: StunBombEffect.Cancel()
+- uid: Global.StunBombEffect.Cancel*
+  name: Cancel
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_Cancel_
+  commentId: Overload:Global.StunBombEffect.Cancel
+  isSpec: "True"
+  fullName: StunBombEffect.Cancel
+  nameWithType: StunBombEffect.Cancel
+- uid: Global.StunBombEffect.HandleDestroy(GameObject)
+  name: HandleDestroy(GameObject)
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_HandleDestroy_GameObject_
+  commentId: M:Global.StunBombEffect.HandleDestroy(GameObject)
+  fullName: StunBombEffect.HandleDestroy(GameObject)
+  nameWithType: StunBombEffect.HandleDestroy(GameObject)
+- uid: Global.StunBombEffect.HandleDestroy*
+  name: HandleDestroy
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_HandleDestroy_
+  commentId: Overload:Global.StunBombEffect.HandleDestroy
+  isSpec: "True"
+  fullName: StunBombEffect.HandleDestroy
+  nameWithType: StunBombEffect.HandleDestroy
+- uid: Global.StunBombEffect.SetRadius(System.Single)
+  name: SetRadius(Single)
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_SetRadius_System_Single_
+  commentId: M:Global.StunBombEffect.SetRadius(System.Single)
+  fullName: StunBombEffect.SetRadius(System.Single)
+  nameWithType: StunBombEffect.SetRadius(Single)
+- uid: Global.StunBombEffect.SetRadius*
+  name: SetRadius
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_SetRadius_
+  commentId: Overload:Global.StunBombEffect.SetRadius
+  isSpec: "True"
+  fullName: StunBombEffect.SetRadius
+  nameWithType: StunBombEffect.SetRadius
+- uid: Global.StunBombEffect.SpawnAtPoint(Transform,System.Int32)
+  name: SpawnAtPoint(Transform, Int32)
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_SpawnAtPoint_Transform_System_Int32_
+  commentId: M:Global.StunBombEffect.SpawnAtPoint(Transform,System.Int32)
+  fullName: StunBombEffect.SpawnAtPoint(Transform, System.Int32)
+  nameWithType: StunBombEffect.SpawnAtPoint(Transform, Int32)
+- uid: Global.StunBombEffect.SpawnAtPoint*
+  name: SpawnAtPoint
+  href: api/Global.StunBombEffect.html#Global_StunBombEffect_SpawnAtPoint_
+  commentId: Overload:Global.StunBombEffect.SpawnAtPoint
+  isSpec: "True"
+  fullName: StunBombEffect.SpawnAtPoint
+  nameWithType: StunBombEffect.SpawnAtPoint
+- uid: Global.StunBombExplosion
+  name: StunBombExplosion
+  href: api/Global.StunBombExplosion.html
+  commentId: T:Global.StunBombExplosion
+  fullName: StunBombExplosion
+  nameWithType: StunBombExplosion
+- uid: Global.StunBombExplosion.Initialize(Action{GameObject})
+  name: Initialize(Action<GameObject>)
+  href: api/Global.StunBombExplosion.html#Global_StunBombExplosion_Initialize_Action_GameObject__
+  commentId: M:Global.StunBombExplosion.Initialize(Action{GameObject})
+  name.vb: Initialize(Action(Of GameObject))
+  fullName: StunBombExplosion.Initialize(Action<GameObject>)
+  fullName.vb: StunBombExplosion.Initialize(Action(Of GameObject))
+  nameWithType: StunBombExplosion.Initialize(Action<GameObject>)
+  nameWithType.vb: StunBombExplosion.Initialize(Action(Of GameObject))
+- uid: Global.StunBombExplosion.Initialize*
+  name: Initialize
+  href: api/Global.StunBombExplosion.html#Global_StunBombExplosion_Initialize_
+  commentId: Overload:Global.StunBombExplosion.Initialize
+  isSpec: "True"
+  fullName: StunBombExplosion.Initialize
+  nameWithType: StunBombExplosion.Initialize
+- uid: Global.StunBombExplosion.SetRadius(System.Single)
+  name: SetRadius(Single)
+  href: api/Global.StunBombExplosion.html#Global_StunBombExplosion_SetRadius_System_Single_
+  commentId: M:Global.StunBombExplosion.SetRadius(System.Single)
+  fullName: StunBombExplosion.SetRadius(System.Single)
+  nameWithType: StunBombExplosion.SetRadius(Single)
+- uid: Global.StunBombExplosion.SetRadius*
+  name: SetRadius
+  href: api/Global.StunBombExplosion.html#Global_StunBombExplosion_SetRadius_
+  commentId: Overload:Global.StunBombExplosion.SetRadius
+  isSpec: "True"
+  fullName: StunBombExplosion.SetRadius
+  nameWithType: StunBombExplosion.SetRadius
+- uid: Global.StunBombProjectile
+  name: StunBombProjectile
+  href: api/Global.StunBombProjectile.html
+  commentId: T:Global.StunBombProjectile
+  fullName: StunBombProjectile
+  nameWithType: StunBombProjectile
+- uid: Global.StunBombProjectile.Execute
+  name: Execute()
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_Execute
+  commentId: M:Global.StunBombProjectile.Execute
+  fullName: StunBombProjectile.Execute()
+  nameWithType: StunBombProjectile.Execute()
+- uid: Global.StunBombProjectile.Execute*
+  name: Execute
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_Execute_
+  commentId: Overload:Global.StunBombProjectile.Execute
+  isSpec: "True"
+  fullName: StunBombProjectile.Execute
+  nameWithType: StunBombProjectile.Execute
+- uid: Global.StunBombProjectile.ExplosionRadius
+  name: ExplosionRadius
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_ExplosionRadius
+  commentId: F:Global.StunBombProjectile.ExplosionRadius
+  fullName: StunBombProjectile.ExplosionRadius
+  nameWithType: StunBombProjectile.ExplosionRadius
+- uid: Global.StunBombProjectile.GetMovePoints(Vector2,Vector2)
+  name: GetMovePoints(Vector2, Vector2)
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_GetMovePoints_Vector2_Vector2_
+  commentId: M:Global.StunBombProjectile.GetMovePoints(Vector2,Vector2)
+  fullName: StunBombProjectile.GetMovePoints(Vector2, Vector2)
+  nameWithType: StunBombProjectile.GetMovePoints(Vector2, Vector2)
+- uid: Global.StunBombProjectile.GetMovePoints*
+  name: GetMovePoints
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_GetMovePoints_
+  commentId: Overload:Global.StunBombProjectile.GetMovePoints
+  isSpec: "True"
+  fullName: StunBombProjectile.GetMovePoints
+  nameWithType: StunBombProjectile.GetMovePoints
+- uid: Global.StunBombProjectile.HandleDestroy
+  name: HandleDestroy()
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_HandleDestroy
+  commentId: M:Global.StunBombProjectile.HandleDestroy
+  fullName: StunBombProjectile.HandleDestroy()
+  nameWithType: StunBombProjectile.HandleDestroy()
+- uid: Global.StunBombProjectile.HandleDestroy*
+  name: HandleDestroy
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_HandleDestroy_
+  commentId: Overload:Global.StunBombProjectile.HandleDestroy
+  isSpec: "True"
+  fullName: StunBombProjectile.HandleDestroy
+  nameWithType: StunBombProjectile.HandleDestroy
+- uid: Global.StunBombProjectile.HandleSpawn(System.Int32)
+  name: HandleSpawn(Int32)
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_HandleSpawn_System_Int32_
+  commentId: M:Global.StunBombProjectile.HandleSpawn(System.Int32)
+  fullName: StunBombProjectile.HandleSpawn(System.Int32)
+  nameWithType: StunBombProjectile.HandleSpawn(Int32)
+- uid: Global.StunBombProjectile.HandleSpawn*
+  name: HandleSpawn
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_HandleSpawn_
+  commentId: Overload:Global.StunBombProjectile.HandleSpawn
+  isSpec: "True"
+  fullName: StunBombProjectile.HandleSpawn
+  nameWithType: StunBombProjectile.HandleSpawn
+- uid: Global.StunBombProjectile.Initialize
+  name: Initialize()
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_Initialize
+  commentId: M:Global.StunBombProjectile.Initialize
+  fullName: StunBombProjectile.Initialize()
+  nameWithType: StunBombProjectile.Initialize()
+- uid: Global.StunBombProjectile.Initialize*
+  name: Initialize
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_Initialize_
+  commentId: Overload:Global.StunBombProjectile.Initialize
+  isSpec: "True"
+  fullName: StunBombProjectile.Initialize
+  nameWithType: StunBombProjectile.Initialize
+- uid: Global.StunBombProjectile.OnGround
+  name: OnGround()
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_OnGround
+  commentId: M:Global.StunBombProjectile.OnGround
+  fullName: StunBombProjectile.OnGround()
+  nameWithType: StunBombProjectile.OnGround()
+- uid: Global.StunBombProjectile.OnGround*
+  name: OnGround
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_OnGround_
+  commentId: Overload:Global.StunBombProjectile.OnGround
+  isSpec: "True"
+  fullName: StunBombProjectile.OnGround
+  nameWithType: StunBombProjectile.OnGround
+- uid: Global.StunBombProjectile.OnTriggerEnter2D(Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_OnTriggerEnter2D_Collider2D_
+  commentId: M:Global.StunBombProjectile.OnTriggerEnter2D(Collider2D)
+  fullName: StunBombProjectile.OnTriggerEnter2D(Collider2D)
+  nameWithType: StunBombProjectile.OnTriggerEnter2D(Collider2D)
+- uid: Global.StunBombProjectile.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_OnTriggerEnter2D_
+  commentId: Overload:Global.StunBombProjectile.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: StunBombProjectile.OnTriggerEnter2D
+  nameWithType: StunBombProjectile.OnTriggerEnter2D
+- uid: Global.StunBombProjectile.SetSpritePosition(Vector3)
+  name: SetSpritePosition(Vector3)
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_SetSpritePosition_Vector3_
+  commentId: M:Global.StunBombProjectile.SetSpritePosition(Vector3)
+  fullName: StunBombProjectile.SetSpritePosition(Vector3)
+  nameWithType: StunBombProjectile.SetSpritePosition(Vector3)
+- uid: Global.StunBombProjectile.SetSpritePosition*
+  name: SetSpritePosition
+  href: api/Global.StunBombProjectile.html#Global_StunBombProjectile_SetSpritePosition_
+  commentId: Overload:Global.StunBombProjectile.SetSpritePosition
+  isSpec: "True"
+  fullName: StunBombProjectile.SetSpritePosition
+  nameWithType: StunBombProjectile.SetSpritePosition
 - uid: Global.SurfaceDictionary
   name: SurfaceDictionary
   href: api/Global.SurfaceDictionary.html

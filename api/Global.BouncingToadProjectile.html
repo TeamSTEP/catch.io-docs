@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ExecutePlayerProjectileMotion
+    <title>Class BouncingToadProjectile
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ExecutePlayerProjectileMotion
+    <meta name="title" content="Class BouncingToadProjectile
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -78,91 +78,48 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.ExecutePlayerProjectileMotion">
+            <article class="content wrap" id="_content" data-uid="Global.BouncingToadProjectile">
   
   
-  <h1 id="Global_ExecutePlayerProjectileMotion" data-uid="Global.ExecutePlayerProjectileMotion" class="text-break">Class ExecutePlayerProjectileMotion
+  <h1 id="Global_BouncingToadProjectile" data-uid="Global.BouncingToadProjectile" class="text-break">Class BouncingToadProjectile
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ExecutePlayerProjectileMotion</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Global.IPlayProjectileMotion.html">IPlayProjectileMotion</a></div>
+    <div class="level1"><a class="xref" href="Global.Projectile.html">Projectile</a></div>
+    <div class="level2"><span class="xref">BouncingToadProjectile</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_ExecutePlayerProjectileMotion_syntax">Syntax</h5>
+  <h5 id="Global_BouncingToadProjectile_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ExecutePlayerProjectileMotion : MonoBehaviour, IPlayProjectileMotion</code></pre>
+    <pre><code class="lang-csharp hljs">public class BouncingToadProjectile : Projectile</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Global_ExecutePlayerProjectileMotion_IsGround_" data-uid="Global.ExecutePlayerProjectileMotion.IsGround*"></a>
-  <h4 id="Global_ExecutePlayerProjectileMotion_IsGround" data-uid="Global.ExecutePlayerProjectileMotion.IsGround">IsGround</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsGround { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_ExecutePlayerProjectileMotion_MovePoints_" data-uid="Global.ExecutePlayerProjectileMotion.MovePoints*"></a>
-  <h4 id="Global_ExecutePlayerProjectileMotion_MovePoints" data-uid="Global.ExecutePlayerProjectileMotion.MovePoints">MovePoints</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Vector2&gt; MovePoints { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Vector2</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_ExecutePlayerProjectileMotion_FlyAwayPlayer_" data-uid="Global.ExecutePlayerProjectileMotion.FlyAwayPlayer*"></a>
-  <h4 id="Global_ExecutePlayerProjectileMotion_FlyAwayPlayer_CalculateProjectileMotion_Vector2_System_Int32_" data-uid="Global.ExecutePlayerProjectileMotion.FlyAwayPlayer(CalculateProjectileMotion,Vector2,System.Int32)">FlyAwayPlayer(CalculateProjectileMotion, Vector2, Int32)</h4>
+  <a id="Global_BouncingToadProjectile_Execute_" data-uid="Global.BouncingToadProjectile.Execute*"></a>
+  <h4 id="Global_BouncingToadProjectile_Execute" data-uid="Global.BouncingToadProjectile.Execute">Execute()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FlyAwayPlayer(CalculateProjectileMotion calculateProjectileMotion, Vector2 lookDir, int elevation = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_Execute">Projectile.Execute()</a></div>
+  
+  
+  <a id="Global_BouncingToadProjectile_GetMovePoints_" data-uid="Global.BouncingToadProjectile.GetMovePoints*"></a>
+  <h4 id="Global_BouncingToadProjectile_GetMovePoints_Vector2_Vector2_" data-uid="Global.BouncingToadProjectile.GetMovePoints(Vector2,Vector2)">GetMovePoints(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;Vector3&gt; GetMovePoints(Vector2 startPosition, Vector2 endPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,15 +132,66 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.CalculateProjectileMotion.html">CalculateProjectileMotion</a></td>
-        <td><span class="parametername">calculateProjectileMotion</span></td>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">startPosition</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">lookDir</span></td>
+        <td><span class="parametername">endPosition</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_GetMovePoints_Vector2_Vector2_">Projectile.GetMovePoints(Vector2, Vector2)</a></div>
+  
+  
+  <a id="Global_BouncingToadProjectile_HandleDestroy_" data-uid="Global.BouncingToadProjectile.HandleDestroy*"></a>
+  <h4 id="Global_BouncingToadProjectile_HandleDestroy" data-uid="Global.BouncingToadProjectile.HandleDestroy">HandleDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void HandleDestroy()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_HandleDestroy">Projectile.HandleDestroy()</a></div>
+  
+  
+  <a id="Global_BouncingToadProjectile_HandleSpawn_" data-uid="Global.BouncingToadProjectile.HandleSpawn*"></a>
+  <h4 id="Global_BouncingToadProjectile_HandleSpawn_System_Int32_" data-uid="Global.BouncingToadProjectile.HandleSpawn(System.Int32)">HandleSpawn(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void HandleSpawn(int elevation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">elevation</span></td>
@@ -191,15 +199,41 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_HandleSpawn_System_Int32_">Projectile.HandleSpawn(Int32)</a></div>
   
   
-  <a id="Global_ExecutePlayerProjectileMotion_OnBounceGround_" data-uid="Global.ExecutePlayerProjectileMotion.OnBounceGround*"></a>
-  <h4 id="Global_ExecutePlayerProjectileMotion_OnBounceGround_System_Single_" data-uid="Global.ExecutePlayerProjectileMotion.OnBounceGround(System.Single)">OnBounceGround(Single)</h4>
+  <a id="Global_BouncingToadProjectile_Initialize_" data-uid="Global.BouncingToadProjectile.Initialize*"></a>
+  <h4 id="Global_BouncingToadProjectile_Initialize" data-uid="Global.BouncingToadProjectile.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBounceGround(float particleSizeMultiplier = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_Initialize">Projectile.Initialize()</a></div>
+  
+  
+  <a id="Global_BouncingToadProjectile_OnGround_" data-uid="Global.BouncingToadProjectile.OnGround*"></a>
+  <h4 id="Global_BouncingToadProjectile_OnGround" data-uid="Global.BouncingToadProjectile.OnGround">OnGround()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnGround()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_OnGround">Projectile.OnGround()</a></div>
+  
+  
+  <a id="Global_BouncingToadProjectile_OnTriggerEnter2D_" data-uid="Global.BouncingToadProjectile.OnTriggerEnter2D*"></a>
+  <h4 id="Global_BouncingToadProjectile_OnTriggerEnter2D_Collider2D_" data-uid="Global.BouncingToadProjectile.OnTriggerEnter2D(Collider2D)">OnTriggerEnter2D(Collider2D)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnTriggerEnter2D(Collider2D other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,21 +246,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">particleSizeMultiplier</span></td>
+        <td><span class="xref">Collider2D</span></td>
+        <td><span class="parametername">other</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_OnTriggerEnter2D_Collider2D_">Projectile.OnTriggerEnter2D(Collider2D)</a></div>
   
   
-  <a id="Global_ExecutePlayerProjectileMotion_OnGround_" data-uid="Global.ExecutePlayerProjectileMotion.OnGround*"></a>
-  <h4 id="Global_ExecutePlayerProjectileMotion_OnGround_System_Single_" data-uid="Global.ExecutePlayerProjectileMotion.OnGround(System.Single)">OnGround(Single)</h4>
+  <a id="Global_BouncingToadProjectile_SetSpritePosition_" data-uid="Global.BouncingToadProjectile.SetSpritePosition*"></a>
+  <h4 id="Global_BouncingToadProjectile_SetSpritePosition_Vector3_" data-uid="Global.BouncingToadProjectile.SetSpritePosition(Vector3)">SetSpritePosition(Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnGround(float particleSizeMultiplier = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void SetSpritePosition(Vector3 position)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -239,53 +275,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">particleSizeMultiplier</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Global_ExecutePlayerProjectileMotion_PlayProjectileMotion_" data-uid="Global.ExecutePlayerProjectileMotion.PlayProjectileMotion*"></a>
-  <h4 id="Global_ExecutePlayerProjectileMotion_PlayProjectileMotion" data-uid="Global.ExecutePlayerProjectileMotion.PlayProjectileMotion">PlayProjectileMotion()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayProjectileMotion()</code></pre>
-  </div>
-  
-  
-  <a id="Global_ExecutePlayerProjectileMotion_PlaySoundAndEffect_" data-uid="Global.ExecutePlayerProjectileMotion.PlaySoundAndEffect*"></a>
-  <h4 id="Global_ExecutePlayerProjectileMotion_PlaySoundAndEffect_System_Single_" data-uid="Global.ExecutePlayerProjectileMotion.PlaySoundAndEffect(System.Single)">PlaySoundAndEffect(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlaySoundAndEffect(float particleSizeMultiplier = 1F)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">particleSizeMultiplier</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Global.IPlayProjectileMotion.html">IPlayProjectileMotion</a>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Projectile.html#Global_Projectile_SetSpritePosition_Vector3_">Projectile.SetSpritePosition(Vector3)</a></div>
 </article>
           </div>
           
