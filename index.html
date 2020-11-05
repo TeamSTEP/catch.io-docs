@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Introduction | Catch.io Dev Doc </title>
+    <title>Project Developer Manual | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Introduction | Catch.io Dev Doc ">
+    <meta name="title" content="Project Developer Manual | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.4.0">
-    
-    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="resources/favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
     <link rel="stylesheet" href="styles/docfx.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -70,101 +70,66 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="introduction">Introduction</h1>
+<h1 id="project-developer-manual">Project Developer Manual</h1>
 
-<h2 id="document-structure">Document Structure</h2>
-<p>There are three groups; Scripts, Scenes, and Prefabs. Each of these groups represents a game resource category and within those categories, we divide them into subcategories (namespaces or folder in the engine).</p>
+<h2 id="introduction">Introduction</h2>
+<p>This is the project manual for <strong>Catch.io</strong> and a repository for tracking issues and tasks related to the development of Catch.io.
+The actual source code for the project will be managed in a separate private repository while the instructions, standards and other project development-related documentations will be stored in here.
+If you are part of development team, feel free to add new tasks or comment on existing ones.</p>
+<p>Every information that is required for developing with the Project Catch.io team will be documented here.
+Such information includes:</p>
 <ul>
-<li><strong>Scripts</strong> - everything about the game&#39;s script is stored in here. This generally means all *.cs files that are inside <code>/Assets/Scripts/</code></li>
-<li><strong>Scenes</strong> - important game scenes that require an extra explanation for developers. This generally means all *.unity files that are inside <code>/Assets/Scenes/</code>. Not every game scene needs to be documented!</li>
-<li><strong>Prefabs</strong> - important prefabs used in the game. This generally means all *.prefab files that are inside <code>/Assets/Resources/Prefabs/</code>. Not all prefabs will require documentation.</li>
+<li>Project folder structure</li>
+<li>Coding styles and guidelines</li>
+<li>Project contribution format (semantic version for this project, Pull
+Request format, etc.)</li>
+<li>Milestones and progress reporting methods</li>
+<li>Team roles</li>
+<li>Documentation format</li>
 </ul>
-<p>Documentation should match with the changes made to the <code>development/</code>branch of the project!</p>
-<p>The style of this reference doc is heavily influenced by the <a href="https://docs.unity3d.com/ScriptReference/">Unity Script Reference</a> page.</p>
-<h2 id="script-documentation-guide">Script Documentation Guide</h2>
-<p>Scripts are categorized by subfolders within the <code>Scripts</code> folder or namespaces. For example, the Player section refers to the player folder, not the <code>Player</code> class in the game.</p>
-<p>Every class document that requires extra information should have a sub-document about their methods as well. If the method is straight forward and does not accept any parameters, you can skip it.</p>
-<h3 id="class-template">Class Template</h3>
-<pre><code class="lang-text"># {class name}
-
-## Description
-
-{description of this class}
-
-// these can be removed if there is none
-Inherits from {inherits}
-
-Requires:
-- {require component}
-
-## Properties
-
-| type | name | description |
-| :--- | :--- | :--- |
-| {type} | {property name} | {description} |
-
-## Public Methods
-
-| return type | name | description |
-| :--- | :--- | :--- |
-| {type} | {method name} | {description} |
-| {type} | {method name} | {description} |
-</code></pre><h3 id="method-template">Method Template</h3>
-<pre><code class="lang-text"># {method name}
-
-{method in script.
-Example: `public static int DirectionToIndex(Vector2 dir, int sliceCount)`}
-
-## Description
-
-{method description}
-
-## Parameters
-
-| type | name | description |
-| :--- | :--- | :--- |
-| {type} | {arametersname} | {description} |
-</code></pre><h3 id="enum-template">Enum Template</h3>
-<pre><code class="lang-text"># {enum name}
-
-## Description
-
-{enum description}
-
-## Properties
-
-| name | description |
-| :--- | :--- |
-| {name} | {description} |
-</code></pre><h2 id="scene-documentation-guide">Scene Documentation Guide</h2>
-<p>Every major scene used in the game will be documented in this group. This generally refers to manager scenes, UI scenes, network lobby scenes, etc. Anything that is going to be added on to another scene, or entry scenes. Scene documentation should contain all the notable prefabs and their purpose in the scene.</p>
-<h3 id="scene-template">Scene Template</h3>
-<pre><code class="lang-text"># {scene name}
-
-## Description
-
-{description of this scene}
-
-## Prefabs/Objects
-
-| prefab name | description |
-| :--- | :--- |
-| {prefab name} | {description} |
-</code></pre><h2 id="prefab-documentation-guide">Prefab Documentation Guide</h2>
-<p>Ever important prefab that is unique to this game will be documented in this group. These includes things like that camera manager, player prefab, game manager, etc.</p>
-<h3 id="prefab-template">Prefab Template</h3>
-<pre><code class="lang-text"># {prefab name}
-
-## Description
-
-{description of this prefab}
-
-## Prefabs/Objects
-
-| prefab name | description |
-| :--- | :--- |
-| {prefab name} | {description} |
-</code></pre></article>
+<p>and more...</p>
+<p>You can think of this as a general guideline and a starting point for joining the team or unifying how our works should be prevented in order for them to be considered &#39;finished&#39;.
+To keep things organized, project members should document their work and tell everyone how you want others to handle your work.
+Please keep in mind that you are not expected to read all the docs, but you are expected to understand the parts that is related to your task.</p>
+<h2 id="project-resources">Project Resources</h2>
+<p>All resources and documents related to the development of project Catch.io is split amongst various repositories, sites and services.
+We will list all of them here and explain what their purposes are.
+Some of the links listed here will not be accessible by the public while some are.
+Please change the list content if we decide to make adjustments to the team management structure.</p>
+<ul>
+<li>Catch.io Project Repository: The repository for the source code of project Catch.io. This repository is made private, and we only allow access to project developers. However, contents like code documentation or on-going test builds will be made available to the public with the power of Github CI.</li>
+<li><a href="https://github.com/TeamSTEP/catch.io-docs">Catch.io docs repository</a>: The source code for project developer references are kept in this repository. Currently, this repo contains two different document pages.<ul>
+<li><a href="https://teamstep.github.io/catch.io-docs/index.html">Project Development Manual</a>: Hosted via Github Pages, this page contains the auto generated scripting reference for this project. The content of this page will change with every updates made to the Catch.io source code. It is convenient, but hard to migrate to other pages as this does not use Markdown for API references (only code manuals are in Markdown).</li>
+</ul>
+</li>
+<li><a href="https://drive.google.com/drive/folders/172WUcDN0RhsPbsiyHHZ8ynre-7dhNVDn?usp=sharing">Google Drive Shared Folder</a>: Internal documents, weekly meeting records, brainstorming records, project expenses, art/music assets for the project and other information that are meant to be stored for a long time and only meant for team members will be stored here. Non-programmers will mostly interact with Google Drive.</li>
+<li><a href="https://hoonkim.itch.io/catch-io">Itch.io page</a>: Itch.io is used for sharing quick prototype builds of the game (in WebGL for most cases) both inside and outside of the team. Generally, this page is used for quick internal testing, but we may consider releasing the game here at some point.</li>
+<li><a href="https://trello.com/b/0IsVDWOC/catchio-project-log">Trello Project Board</a>: Still experimental, but this is where the development progress regarding Catch.io will be tracked.</li>
+<li><a href="https://team-step.gitbook.io/witch-one-design-doc/">Catch.io GDD</a>: Hosted by Gitbook, this page contains everything about the project such as the game mechanics, expected features, rough timeline, expected release platforms, general marketing strategy, pivot strategies, and more.</li>
+</ul>
+<h2 id="abbreviations--definitions">Abbreviations &amp; Definitions</h2>
+<p>To increase the efficiency of communications between members, it is good to use abbreviations. If there are any abbreviations (and the definition of that word) you are using that is foreign to other new members, please add it here.</p>
+<ul>
+<li>PR: Pull Request (when merging a branch or a fork to the master
+repository)</li>
+<li>Repo: Repository (Git repository)</li>
+<li>doc: Documentation (Projects documentation like this one will be referred to as docs)</li>
+<li>WIP: Working In Progress</li>
+<li>impl: short for implement or implementation</li>
+<li>LGTM: Looks Good to Me (used when a PR does not have any issues and is good to merge)</li>
+<li>Scripts: Refers to the <code>.cs</code> code that contains game play logic, but are not directly used as part of a Unity game object</li>
+<li>Components: This is also a <code>.cs</code> code, but it is meant to be used as a component for Unity game objects</li>
+</ul>
+<h2 id="how-to-write-documents">How to Write Documents</h2>
+<p>Project docs like this one must be written in Markdown. I recommend using <a href="https://stackedit.io">stackedit.io</a> to write a quick doc, or use the <a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">Markdown All in One</a> extension for VS code. Documentations should be long and comprehensive so anyone can understand.
+As a general format, think of this README doc as a template to start from.</p>
+<h3 id="q-what-should-be-a-doc">Q: What should be a doc</h3>
+<p>Anything that requires more than one people to work on either now or in the future. Or if you have any special requirements regarding your work or working style, write a doc to express that to other members.</p>
+<h3 id="q-who-can-write-a-doc">Q: Who can write a doc</h3>
+<p>Anyone within the team. You will need other&#39;s permission to edit an existing doc (except for fixing typos or obvious problems), but creating a new one is completely up to you.</p>
+<h3 id="q-any-word-requirements">Q: Any word requirements</h3>
+<p>It should be comprehensive, but not boring. There are no strict word count but it should be long enough to let the reader understand what you want to say and short enough to not make the reader fall asleep.</p>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

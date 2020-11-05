@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Art Asset Structure | Catch.io Dev Doc </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Art Asset Structure | Catch.io Dev Doc ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="art-asset-structure">Art Asset Structure</h1>
+
+<p>This section will describe how art assets for Catch.io should be structured.</p>
+<h2 id="directory">Directory</h2>
+<p>Every art assets used in the game (excluding UI) is stored in <code>Assets/Textures/</code>.
+This includes character sprites, environmental objects, throwable objects and map tile sets.
+Everything relating to the UI such as menu, title, inventory icon, etc will be stored in <code>Assets/UI/</code>.</p>
+<h2 id="asset-import-settings">Asset import settings</h2>
+<p>When importing the assets to Unity engine, the file settings should be like the following:</p>
+<p>Texture Type: <code>Sprite (2D and UI)</code>
+Sprite Mode: <code>Multiple</code> or <code>Single</code>
+Pixels Per Unit: <code>32</code>
+Filter Mode: <code>Point (no filter)</code>
+Compression: <code>None</code></p>
+<p>When slicing animated sprites, it is recommended to use the <code>Grid by Cell Count</code> method.</p>
+<h2 id="submitting-assets">Submitting Assets</h2>
+<p>For artists who are submitting their work, it is recommended to upload the work to Google Drive <code>Team STEP/Projects/Project Catch.io/Sprites/</code> folder with the appropriate name of the sprite that is being added.
+Because Google Drive does not send responsive notifications for uploading images, the artist will have to notify the developer that their work has been uploaded via Slack.</p>
+<h3 id="folder-structure">Folder Structure</h3>
+<p>Animated character sprites will be placed in the <code>Characters/</code> folder with the name of the character as the root directory.
+Inside this folder, there should be a subdirectory that describes the action (ex: <code>Characters/Shade/Walking/</code>, <code>Characters/Shade/Running/</code>, <code>Characters/Shade/Crouching/</code>, etc.).
+The actual image file will be saved within those folders.</p>
+<p>Completely optional, but it is recommended to create source folder as well that stores the original work file in any format as a backup solution (ex: <code>Characters/Shade/source/running.aseprite</code>).</p>
+<h3 id="image-format">Image Format</h3>
+<p>It is recommend that the final asset is saved as <code>.png</code>, but Unity supports a vast number of image formats, so as long as the file can save alpha channel data or layer data (if required), the artist can save it as any format as they want.</p>
+<p>For any animated sprites, it is recommend to separate the sprite asset into animation sheets like the following sample image.</p>
+<p><img src="../resources/SampleAnimation.png" alt="Sample character animation"></p>
+<p>Character sprites should be separated into each directions where a single image contains all the frames for that direction.
+The asset file name should be prefixed with the action and suffixed with the direction that the character is facing with a space in between the two.
+The direction should be named as the cardinal direction (ex: <code>Run NE.png</code>, <code>Walk S.png</code>, etc.).</p>
+<p>To summarize all of this, character assets should have the format of <code>Characters/{Character Name}/{Action}/{Action Direction}.png</code>.
+Theses are some of the examples:</p>
+<ul>
+<li><code>Characters/Shade/Walking/Walking NW.png</code></li>
+<li><code>Characters/Shade/Running/Running N.png</code></li>
+<li><code>Characters/Shade/Throwing/Throwing SW.png</code></li>
+<li><code>Throwables/Torch/Torch1.png</code></li>
+<li><code>Throwables/Frog/Red Frog/Back.png</code></li>
+</ul>
+<h2 id="asset-color-palette">Asset Color Palette</h2>
+<p>Both characters and props must follow the following color palette to keep a consistent feeling for the visual assets.</p>
+<p><img src="../resources/ColorPallette.png" alt="Color Palette"></p>
+<p>A single component of an asset (such as metal, gold, cloth, etc.) should be within 2 variations of light to dark palettes/color.
+Feel free to add more but the main idea is that for artists to make an object e.g a wooden barrel it should use the same wood colors as the trees in the environment.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/artist-guidelines.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
