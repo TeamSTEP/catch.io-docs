@@ -1,348 +1,468 @@
 {
-  "api/Global.AllScenes.html": {
-    "href": "api/Global.AllScenes.html",
-    "title": "Enum AllScenes | Catch.io Dev Doc",
-    "keywords": "Enum AllScenes Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum AllScenes Fields Name Description GrassLands Launcher LobbyMenu ManagerScene UIScene"
-  },
-  "api/Global.BouncingToadCollisionStrategy.html": {
-    "href": "api/Global.BouncingToadCollisionStrategy.html",
-    "title": "Class BouncingToadCollisionStrategy | Catch.io Dev Doc",
-    "keywords": "Class BouncingToadCollisionStrategy Inheritance Object ProjectileCollisionStrategy BouncingToadCollisionStrategy Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BouncingToadCollisionStrategy : ProjectileCollisionStrategy Methods Execute(Boolean) Declaration public override void Execute(bool isGround) Parameters Type Name Description Boolean isGround Overrides ProjectileCollisionStrategy.Execute(Boolean) Initialize(BoxCollider2D) Declaration public override void Initialize(BoxCollider2D collider2D) Parameters Type Name Description BoxCollider2D collider2D Overrides ProjectileCollisionStrategy.Initialize(BoxCollider2D)"
-  },
-  "api/Global.BouncingToadProjectile.html": {
-    "href": "api/Global.BouncingToadProjectile.html",
-    "title": "Class BouncingToadProjectile | Catch.io Dev Doc",
-    "keywords": "Class BouncingToadProjectile Inheritance Object Projectile BouncingToadProjectile Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BouncingToadProjectile : Projectile Methods Execute() Declaration public override void Execute() Overrides Projectile.Execute() GetMovePoints(Vector2, Vector2) Declaration public override List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > Overrides Projectile.GetMovePoints(Vector2, Vector2) HandleDestroy() Declaration public override void HandleDestroy() Overrides Projectile.HandleDestroy() HandleSpawn(Int32) Declaration public override void HandleSpawn(int elevation) Parameters Type Name Description Int32 elevation Overrides Projectile.HandleSpawn(Int32) Initialize() Declaration public override void Initialize() Overrides Projectile.Initialize() OnGround() Declaration public override void OnGround() Overrides Projectile.OnGround() OnTriggerEnter2D(Collider2D) Declaration public override void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other Overrides Projectile.OnTriggerEnter2D(Collider2D) SetSpritePosition(Vector3) Declaration public override void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position Overrides Projectile.SetSpritePosition(Vector3)"
-  },
-  "api/Global.CameraManager.html": {
-    "href": "api/Global.CameraManager.html",
+  "api/CatchIo.Camera.CameraManager.html": {
+    "href": "api/CatchIo.Camera.CameraManager.html",
     "title": "Class CameraManager | Catch.io Dev Doc",
-    "keywords": "Class CameraManager Inheritance Object GameCamera CameraManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CameraManager : GameCamera Fields PlayerToFollow Declaration public GameObject PlayerToFollow Field Value Type Description GameObject Properties IsFollowing Declaration public bool IsFollowing { get; } Property Value Type Description Boolean Methods SetupCamera() Declaration public void SetupCamera()"
+    "keywords": "Class CameraManager Inheritance Object GameCamera CameraManager Namespace : CatchIo.Camera Assembly : cs.temp.dll.dll Syntax public class CameraManager : GameCamera Fields PlayerToFollow Declaration public GameObject PlayerToFollow Field Value Type Description GameObject Properties IsFollowing Declaration public bool IsFollowing { get; } Property Value Type Description Boolean Methods SetupCamera() Declaration public void SetupCamera()"
   },
-  "api/Global.CameraTargetMovement.html": {
-    "href": "api/Global.CameraTargetMovement.html",
+  "api/CatchIo.Camera.CameraTargetMovement.html": {
+    "href": "api/CatchIo.Camera.CameraTargetMovement.html",
     "title": "Class CameraTargetMovement | Catch.io Dev Doc",
-    "keywords": "Class CameraTargetMovement Inheritance Object GameCamera CameraTargetMovement Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CameraTargetMovement : GameCamera Fields ClampXDistance Declaration public float ClampXDistance Field Value Type Description Single ClampYDistance Declaration public float ClampYDistance Field Value Type Description Single Methods Move(Camera, PlayerControlInput) Declaration public void Move(Camera mainCamera, PlayerControlInput playerControlInput) Parameters Type Name Description Camera mainCamera PlayerControlInput playerControlInput"
+    "keywords": "Class CameraTargetMovement Inheritance Object GameCamera CameraTargetMovement Namespace : CatchIo.Camera Assembly : cs.temp.dll.dll Syntax public class CameraTargetMovement : GameCamera Fields ClampXDistance Declaration public float ClampXDistance Field Value Type Description Single ClampYDistance Declaration public float ClampYDistance Field Value Type Description Single Methods Move(UnityEngine.Camera, PlayerControlInput) Declaration public void Move(UnityEngine.Camera mainCamera, PlayerControlInput playerControlInput) Parameters Type Name Description UnityEngine.Camera mainCamera PlayerControlInput playerControlInput"
   },
-  "api/Global.CatchButtonEnable.html": {
-    "href": "api/Global.CatchButtonEnable.html",
-    "title": "Class CatchButtonEnable | Catch.io Dev Doc",
-    "keywords": "Class CatchButtonEnable Inheritance Object CatchButtonEnable Implements ICallback Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CatchButtonEnable : MonoBehaviour, ICallback Methods Invoke() Declaration public void Invoke() Implements ICallback"
+  "api/CatchIo.Camera.html": {
+    "href": "api/CatchIo.Camera.html",
+    "title": "Namespace CatchIo.Camera | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Camera Classes CameraManager CameraTargetMovement"
   },
-  "api/Global.CharacterRenderer.html": {
-    "href": "api/Global.CharacterRenderer.html",
-    "title": "Class CharacterRenderer | Catch.io Dev Doc",
-    "keywords": "Class CharacterRenderer Inheritance Object CharacterRenderer Implements IPunObservable Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CharacterRenderer : MonoBehaviourPun, IPunObservable Fields runDirections Declaration public static readonly string[] runDirections Field Value Type Description String [] sneakDirections Declaration public static readonly string[] sneakDirections Field Value Type Description String [] sneakStaticDirections Declaration public static readonly string[] sneakStaticDirections Field Value Type Description String [] staticDirections Declaration public static readonly string[] staticDirections Field Value Type Description String [] walkDirections Declaration public static readonly string[] walkDirections Field Value Type Description String [] Methods OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info SetCharMovementAnim(Vector2, MoveState) Changes the character animation state values based on the given state parameters Declaration public void SetCharMovementAnim(Vector2 direction, MoveState state) Parameters Type Name Description Vector2 direction What direction the player is facing MoveState state What movement state the player is Implements IPunObservable"
-  },
-  "api/Global.EditorGameLoader.html": {
-    "href": "api/Global.EditorGameLoader.html",
-    "title": "Class EditorGameLoader | Catch.io Dev Doc",
-    "keywords": "Class EditorGameLoader Inheritance Object EditorGameLoader Namespace : Global Assembly : cs.temp.dll.dll Syntax public class EditorGameLoader : MonoBehaviour"
-  },
-  "api/Global.Effect.html": {
-    "href": "api/Global.Effect.html",
-    "title": "Class Effect | Catch.io Dev Doc",
-    "keywords": "Class Effect Inheritance Object Effect SoundWave StunBombExplosion Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Effect : MonoBehaviour Fields DestroyHandler Declaration public Action<GameObject> DestroyHandler Field Value Type Description Action < GameObject > Methods Initialize(Action<GameObject>) Declaration public virtual void Initialize(Action<GameObject> destroyAction) Parameters Type Name Description Action < GameObject > destroyAction"
-  },
-  "api/Global.EffectData.html": {
-    "href": "api/Global.EffectData.html",
-    "title": "Class EffectData | Catch.io Dev Doc",
-    "keywords": "Class EffectData Inheritance Object EffectData Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public class EffectData Properties EffectType Declaration public EffectType EffectType { get; } Property Value Type Description EffectType Prefab Declaration public GameObject Prefab { get; } Property Value Type Description GameObject"
-  },
-  "api/Global.EffectScriptableObject.html": {
-    "href": "api/Global.EffectScriptableObject.html",
-    "title": "Class EffectScriptableObject | Catch.io Dev Doc",
-    "keywords": "Class EffectScriptableObject Inheritance Object EffectScriptableObject Namespace : Global Assembly : cs.temp.dll.dll Syntax public class EffectScriptableObject : ScriptableObject Fields EffectDatas Declaration public List<EffectData> EffectDatas Field Value Type Description List < EffectData > Methods FindPrefab(EffectType) Declaration public GameObject FindPrefab(EffectType type) Parameters Type Name Description EffectType type Returns Type Description GameObject"
-  },
-  "api/Global.EffectType.html": {
-    "href": "api/Global.EffectType.html",
-    "title": "Enum EffectType | Catch.io Dev Doc",
-    "keywords": "Enum EffectType Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum EffectType Fields Name Description SoundWave StunBombExplosion"
-  },
-  "api/Global.Elevation.html": {
-    "href": "api/Global.Elevation.html",
-    "title": "Class Elevation | Catch.io Dev Doc",
-    "keywords": "Class Elevation Inheritance Object Elevation Implements IPunObservable Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Elevation : MonoBehaviourPun, IPunObservable Fields value Declaration public int value Field Value Type Description Int32 Methods OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info Implements IPunObservable"
-  },
-  "api/Global.ElevationTrigger.html": {
-    "href": "api/Global.ElevationTrigger.html",
-    "title": "Class ElevationTrigger | Catch.io Dev Doc",
-    "keywords": "Class ElevationTrigger Inheritance Object ElevationTrigger Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ElevationTrigger : MonoBehaviour Properties BottomCollider Declaration public BoxCollider2D BottomCollider { get; } Property Value Type Description BoxCollider2D TopCollider Declaration public BoxCollider2D TopCollider { get; } Property Value Type Description BoxCollider2D"
-  },
-  "api/Global.ExtensionMethods.html": {
-    "href": "api/Global.ExtensionMethods.html",
-    "title": "Class ExtensionMethods | Catch.io Dev Doc",
-    "keywords": "Class ExtensionMethods Inheritance Object ExtensionMethods Namespace : Global Assembly : cs.temp.dll.dll Syntax public static class ExtensionMethods Methods toVector2(Vector3) Declaration public static Vector2 toVector2(this Vector3 vec3) Parameters Type Name Description Vector3 vec3 Returns Type Description Vector2 toVector3(Vector2) Declaration public static Vector3 toVector3(this Vector2 vec2) Parameters Type Name Description Vector2 vec2 Returns Type Description Vector3"
-  },
-  "api/Global.FloorTilemaps.html": {
-    "href": "api/Global.FloorTilemaps.html",
-    "title": "Class FloorTilemaps | Catch.io Dev Doc",
-    "keywords": "Class FloorTilemaps Inheritance Object FloorTilemaps Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public class FloorTilemaps Fields Tilemaps Declaration public List<Tilemap> Tilemaps Field Value Type Description List < Tilemap >"
-  },
-  "api/Global.Footprint.FootprintSprite.html": {
-    "href": "api/Global.Footprint.FootprintSprite.html",
-    "title": "Struct Footprint.FootprintSprite | Catch.io Dev Doc",
-    "keywords": "Struct Footprint.FootprintSprite Namespace : Global Assembly : cs.temp.dll.dll Syntax public struct FootprintSprite Fields Sprite Declaration public Sprite Sprite Field Value Type Description Sprite Surface Declaration public Surface.SurfaceType Surface Field Value Type Description Surface.SurfaceType"
-  },
-  "api/Global.Footprint.html": {
-    "href": "api/Global.Footprint.html",
-    "title": "Class Footprint | Catch.io Dev Doc",
-    "keywords": "Class Footprint Inheritance Object Footprint Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Footprint : MonoBehaviour Methods HandleSpawn() Declaration public void HandleSpawn() Initialize() Declaration public void Initialize()"
-  },
-  "api/Global.FootprintGenerator.html": {
-    "href": "api/Global.FootprintGenerator.html",
-    "title": "Class FootprintGenerator | Catch.io Dev Doc",
-    "keywords": "Class FootprintGenerator Inheritance Object FootprintGenerator Namespace : Global Assembly : cs.temp.dll.dll Syntax public class FootprintGenerator : MonoBehaviour Fields GeneratorTime Declaration public float GeneratorTime Field Value Type Description Single"
-  },
-  "api/Global.GameCamera.html": {
-    "href": "api/Global.GameCamera.html",
+  "api/CatchIo.Core.GameCamera.html": {
+    "href": "api/CatchIo.Core.GameCamera.html",
     "title": "Class GameCamera | Catch.io Dev Doc",
-    "keywords": "Class GameCamera Master class for game scene camera controller objects. Inheritance Object GameCamera CameraManager CameraTargetMovement Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GameCamera : MonoBehaviour"
+    "keywords": "Class GameCamera Master class for game scene camera controller objects. Inheritance Object GameCamera CameraManager CameraTargetMovement Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public abstract class GameCamera : MonoBehaviour"
   },
-  "api/Global.GameManager.html": {
-    "href": "api/Global.GameManager.html",
-    "title": "Class GameManager | Catch.io Dev Doc",
-    "keywords": "Class GameManager Inheritance Object NetworkCallback GameManager Inherited Members NetworkCallback.gameVersion NetworkCallback.OnDisconnected(DisconnectCause) NetworkCallback.OnJoinRoomFailed(Int16, String) NetworkCallback.OnCreateRoomFailed(Int16, String) Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GameManager : NetworkCallback Fields PlayerCamera Declaration public GameObject PlayerCamera Field Value Type Description GameObject PlayerPrefab Declaration public GameObject PlayerPrefab Field Value Type Description GameObject Properties CurrentTilemapContainer Declaration public static TilemapContainer CurrentTilemapContainer { get; } Property Value Type Description TilemapContainer IsMobile Declaration public static bool IsMobile { get; } Property Value Type Description Boolean LocalPlayerInst Local player instance Declaration public static Player LocalPlayerInst { get; } Property Value Type Description Player Methods OnLeftRoom() Called when the local player left the room. We need to load the launcher scene. Declaration public override void OnLeftRoom() OnPlayerEnteredRoom(Photon.Realtime.Player) Declaration public override void OnPlayerEnteredRoom(Photon.Realtime.Player newPlayer) Parameters Type Name Description Photon.Realtime.Player newPlayer OnPlayerLeftRoom(Photon.Realtime.Player) Declaration public override void OnPlayerLeftRoom(Photon.Realtime.Player otherPlayer) Parameters Type Name Description Photon.Realtime.Player otherPlayer SetLocalPlayer(GameObject) Declaration public static void SetLocalPlayer(GameObject playerObject) Parameters Type Name Description GameObject playerObject"
-  },
-  "api/Global.GuiBehavior.html": {
-    "href": "api/Global.GuiBehavior.html",
+  "api/CatchIo.Core.GuiBehavior.html": {
+    "href": "api/CatchIo.Core.GuiBehavior.html",
     "title": "Class GuiBehavior | Catch.io Dev Doc",
-    "keywords": "Class GuiBehavior Master class used for components that has to work with scene UI elements and their behaviors. Inheritance Object GuiBehavior LobbyRoomsView RoomItemControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GuiBehavior : MonoBehaviour"
+    "keywords": "Class GuiBehavior Master class used for components that has to work with scene UI elements and their behaviors. Inheritance Object GuiBehavior InventoryHUD LobbyRoomsView RoomItemControl StaminaBar Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public abstract class GuiBehavior : MonoBehaviour"
   },
-  "api/Global.HitPoint.html": {
-    "href": "api/Global.HitPoint.html",
+  "api/CatchIo.Core.html": {
+    "href": "api/CatchIo.Core.html",
+    "title": "Namespace CatchIo.Core | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Core Classes GameCamera Master class for game scene camera controller objects. GuiBehavior Master class used for components that has to work with scene UI elements and their behaviors. NetworkCallback Master class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. Projectile ProjectileEffectBase SingletonReferences ThrowableObject"
+  },
+  "api/CatchIo.Core.NetworkCallback.html": {
+    "href": "api/CatchIo.Core.NetworkCallback.html",
+    "title": "Class NetworkCallback | Catch.io Dev Doc",
+    "keywords": "Class NetworkCallback Master class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. Inheritance Object NetworkCallback GameManager Launcher NetworkLobbyManager Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public class NetworkCallback : MonoBehaviourPunCallbacks Fields gameVersion This client's version number. Users are separated from each other by gameVersion (which allows you to make breaking changes). Declaration public string gameVersion Field Value Type Description String Methods OnCreateRoomFailed(Int16, String) Declaration public override void OnCreateRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message OnDisconnected(DisconnectCause) Declaration public override void OnDisconnected(DisconnectCause cause) Parameters Type Name Description DisconnectCause cause OnJoinRoomFailed(Int16, String) Declaration public override void OnJoinRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message"
+  },
+  "api/CatchIo.Core.Projectile.html": {
+    "href": "api/CatchIo.Core.Projectile.html",
+    "title": "Class Projectile | Catch.io Dev Doc",
+    "keywords": "Class Projectile Inheritance Object Projectile BouncingToadProjectile StoneProjectile StunBombProjectile Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public abstract class Projectile : MonoBehaviour Methods Execute() Declaration public abstract void Execute() GetMovePoints(Vector2, Vector2) Declaration public abstract List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > HandleDestroy() Declaration public abstract void HandleDestroy() HandleSpawn(Int32) Declaration public abstract void HandleSpawn(int elevation) Parameters Type Name Description Int32 elevation Initialize() Declaration public abstract void Initialize() OnGround() Declaration public abstract void OnGround() OnTriggerEnter2D(Collider2D) Declaration public abstract void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other SetSpritePosition(Vector3) Declaration public abstract void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position"
+  },
+  "api/CatchIo.Core.ProjectileEffectBase.html": {
+    "href": "api/CatchIo.Core.ProjectileEffectBase.html",
+    "title": "Class ProjectileEffectBase | Catch.io Dev Doc",
+    "keywords": "Class ProjectileEffectBase Inheritance Object ProjectileEffectBase StunBombExplosion SoundWave Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public class ProjectileEffectBase : MonoBehaviour Fields DestroyHandler Declaration public Action<GameObject> DestroyHandler Field Value Type Description Action < GameObject > Methods Initialize(Action<GameObject>) Declaration public virtual void Initialize(Action<GameObject> destroyAction) Parameters Type Name Description Action < GameObject > destroyAction"
+  },
+  "api/CatchIo.Core.SingletonReferences.html": {
+    "href": "api/CatchIo.Core.SingletonReferences.html",
+    "title": "Class SingletonReferences | Catch.io Dev Doc",
+    "keywords": "Class SingletonReferences Inheritance Object SingletonReferences Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public abstract class SingletonReferences : MonoBehaviour"
+  },
+  "api/CatchIo.Core.ThrowableObject.html": {
+    "href": "api/CatchIo.Core.ThrowableObject.html",
+    "title": "Class ThrowableObject | Catch.io Dev Doc",
+    "keywords": "Class ThrowableObject Inheritance Object ThrowableObject Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax [Serializable] public class ThrowableObject Constructors ThrowableObject(ThrowableType, ProjectileScriptableObject) Declaration public ThrowableObject(ThrowableType type, ProjectileScriptableObject projectileScriptableObject) Parameters Type Name Description ThrowableType type ProjectileScriptableObject projectileScriptableObject Fields Image Declaration public Sprite Image Field Value Type Description Sprite Type Declaration public ThrowableType Type Field Value Type Description ThrowableType Properties Data Declaration public ProjectileData Data { get; } Property Value Type Description ProjectileData"
+  },
+  "api/CatchIo.Enums.AllScenes.html": {
+    "href": "api/CatchIo.Enums.AllScenes.html",
+    "title": "Enum AllScenes | Catch.io Dev Doc",
+    "keywords": "Enum AllScenes Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum AllScenes Fields Name Description GrassLands Launcher LobbyMenu ManagerScene UIScene"
+  },
+  "api/CatchIo.Enums.html": {
+    "href": "api/CatchIo.Enums.html",
+    "title": "Namespace CatchIo.Enums | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Enums Enums AllScenes MenuScenes MoveState PlayableScenes ProjectileEffectType ThrowableType"
+  },
+  "api/CatchIo.Enums.MenuScenes.html": {
+    "href": "api/CatchIo.Enums.MenuScenes.html",
+    "title": "Enum MenuScenes | Catch.io Dev Doc",
+    "keywords": "Enum MenuScenes Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum MenuScenes Fields Name Description Launcher LobbyMenu"
+  },
+  "api/CatchIo.Enums.MoveState.html": {
+    "href": "api/CatchIo.Enums.MoveState.html",
+    "title": "Enum MoveState | Catch.io Dev Doc",
+    "keywords": "Enum MoveState Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum MoveState Fields Name Description Run Sneak SneakStatic Static Walk"
+  },
+  "api/CatchIo.Enums.PlayableScenes.html": {
+    "href": "api/CatchIo.Enums.PlayableScenes.html",
+    "title": "Enum PlayableScenes | Catch.io Dev Doc",
+    "keywords": "Enum PlayableScenes Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum PlayableScenes Fields Name Description GrassLands HouseInteriorsTest TestMap VillageMap"
+  },
+  "api/CatchIo.Enums.ProjectileEffectType.html": {
+    "href": "api/CatchIo.Enums.ProjectileEffectType.html",
+    "title": "Enum ProjectileEffectType | Catch.io Dev Doc",
+    "keywords": "Enum ProjectileEffectType Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum ProjectileEffectType Fields Name Description SoundWave StunBombExplosion"
+  },
+  "api/CatchIo.Enums.ThrowableType.html": {
+    "href": "api/CatchIo.Enums.ThrowableType.html",
+    "title": "Enum ThrowableType | Catch.io Dev Doc",
+    "keywords": "Enum ThrowableType Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum ThrowableType Fields Name Description BouncingToads Error SlimeBall Stone StunBomb TeleportRune Torches TrapRune"
+  },
+  "api/CatchIo.Environment.ElevationTrigger.html": {
+    "href": "api/CatchIo.Environment.ElevationTrigger.html",
+    "title": "Class ElevationTrigger | Catch.io Dev Doc",
+    "keywords": "Class ElevationTrigger Inheritance Object ElevationTrigger Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public class ElevationTrigger : MonoBehaviour Properties BottomCollider Declaration public BoxCollider2D BottomCollider { get; } Property Value Type Description BoxCollider2D TopCollider Declaration public BoxCollider2D TopCollider { get; } Property Value Type Description BoxCollider2D"
+  },
+  "api/CatchIo.Environment.html": {
+    "href": "api/CatchIo.Environment.html",
+    "title": "Namespace CatchIo.Environment | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Environment Classes ElevationTrigger LightFlicker"
+  },
+  "api/CatchIo.Environment.LightFlicker.html": {
+    "href": "api/CatchIo.Environment.LightFlicker.html",
+    "title": "Class LightFlicker | Catch.io Dev Doc",
+    "keywords": "Class LightFlicker Inheritance Object LightFlicker Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public class LightFlicker : MonoBehaviour Fields flickerRangeMax Declaration public float flickerRangeMax Field Value Type Description Single flickerRangeMin Declaration public float flickerRangeMin Field Value Type Description Single flickersPerSecond Declaration public float flickersPerSecond Field Value Type Description Single"
+  },
+  "api/CatchIo.Interfaces.html": {
+    "href": "api/CatchIo.Interfaces.html",
+    "title": "Namespace CatchIo.Interfaces | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Interfaces Interfaces IHitable"
+  },
+  "api/CatchIo.Interfaces.IHitable.html": {
+    "href": "api/CatchIo.Interfaces.IHitable.html",
+    "title": "Interface IHitable | Catch.io Dev Doc",
+    "keywords": "Interface IHitable Namespace : CatchIo.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IHitable Properties IsCaught Declaration bool IsCaught { get; set; } Property Value Type Description Boolean IsStun Declaration bool IsStun { get; set; } Property Value Type Description Boolean StunDelayTime Declaration WaitForSecondsRealtime StunDelayTime { get; set; } Property Value Type Description WaitForSecondsRealtime Methods OnCaught(Vector2) Declaration void OnCaught(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir OnHit(ThrowableObject) Declaration void OnHit(ThrowableObject throwableObject) Parameters Type Name Description ThrowableObject throwableObject"
+  },
+  "api/CatchIo.Menus.GameManager.html": {
+    "href": "api/CatchIo.Menus.GameManager.html",
+    "title": "Class GameManager | Catch.io Dev Doc",
+    "keywords": "Class GameManager Inheritance Object NetworkCallback GameManager Inherited Members NetworkCallback.gameVersion NetworkCallback.OnDisconnected(DisconnectCause) NetworkCallback.OnJoinRoomFailed(Int16, String) NetworkCallback.OnCreateRoomFailed(Int16, String) Namespace : CatchIo.Menus Assembly : cs.temp.dll.dll Syntax public class GameManager : NetworkCallback Fields PlayerCamera Declaration public GameObject PlayerCamera Field Value Type Description GameObject PlayerPrefab Declaration public GameObject PlayerPrefab Field Value Type Description GameObject Properties CurrentTilemapContainer Declaration public static TilemapContainer CurrentTilemapContainer { get; } Property Value Type Description TilemapContainer IsMobile Declaration public static bool IsMobile { get; } Property Value Type Description Boolean LocalPlayerInst Local player instance Declaration public static Player LocalPlayerInst { get; } Property Value Type Description Player Methods OnLeftRoom() Called when the local player left the room. We need to load the launcher scene. Declaration public override void OnLeftRoom() OnPlayerEnteredRoom(Photon.Realtime.Player) Declaration public override void OnPlayerEnteredRoom(Photon.Realtime.Player newPlayer) Parameters Type Name Description Photon.Realtime.Player newPlayer OnPlayerLeftRoom(Photon.Realtime.Player) Declaration public override void OnPlayerLeftRoom(Photon.Realtime.Player otherPlayer) Parameters Type Name Description Photon.Realtime.Player otherPlayer SetLocalPlayer(GameObject) Declaration public static void SetLocalPlayer(GameObject playerObject) Parameters Type Name Description GameObject playerObject"
+  },
+  "api/CatchIo.Menus.html": {
+    "href": "api/CatchIo.Menus.html",
+    "title": "Namespace CatchIo.Menus | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Menus Classes GameManager Launcher The entry point for establishing a connection between the player and the master server. This script will handle the menu GUI logic as well. NetworkLobbyManager Photon lobby scene manager. All the lobby logic and network management should be handled from here."
+  },
+  "api/CatchIo.Menus.Launcher.html": {
+    "href": "api/CatchIo.Menus.Launcher.html",
+    "title": "Class Launcher | Catch.io Dev Doc",
+    "keywords": "Class Launcher The entry point for establishing a connection between the player and the master server. This script will handle the menu GUI logic as well. Inheritance Object NetworkCallback Launcher Inherited Members NetworkCallback.gameVersion NetworkCallback.OnJoinRoomFailed(Int16, String) NetworkCallback.OnCreateRoomFailed(Int16, String) Namespace : CatchIo.Menus Assembly : cs.temp.dll.dll Syntax public class Launcher : NetworkCallback Methods OnClick_Login() Connect the user to Photon when they click the login button Declaration public void OnClick_Login() OnConnectedToMaster() Declaration public override void OnConnectedToMaster() OnDisconnected(DisconnectCause) Declaration public override void OnDisconnected(DisconnectCause cause) Parameters Type Name Description DisconnectCause cause Overrides NetworkCallback.OnDisconnected(DisconnectCause) OnJoinedLobby() Declaration public override void OnJoinedLobby()"
+  },
+  "api/CatchIo.Menus.NetworkLobbyManager.html": {
+    "href": "api/CatchIo.Menus.NetworkLobbyManager.html",
+    "title": "Class NetworkLobbyManager | Catch.io Dev Doc",
+    "keywords": "Class NetworkLobbyManager Photon lobby scene manager. All the lobby logic and network management should be handled from here. Inheritance Object NetworkCallback NetworkLobbyManager Inherited Members NetworkCallback.gameVersion NetworkCallback.OnDisconnected(DisconnectCause) NetworkCallback.OnCreateRoomFailed(Int16, String) Namespace : CatchIo.Menus Assembly : cs.temp.dll.dll Syntax public class NetworkLobbyManager : NetworkCallback Fields instance Declaration public static GameObject instance Field Value Type Description GameObject Methods CreateRoom(String, String, Byte) Declaration public void CreateRoom(string roomName, string mapName, byte maxPlayer) Parameters Type Name Description String roomName String mapName Byte maxPlayer JoinRoom(String) Declaration public void JoinRoom(string roomName) Parameters Type Name Description String roomName OnCreatedRoom() Declaration public override void OnCreatedRoom() OnJoinedRoom() Declaration public override void OnJoinedRoom() OnJoinRoomFailed(Int16, String) Declaration public override void OnJoinRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message Overrides NetworkCallback.OnJoinRoomFailed(Int16, String) OnRoomListUpdate(List<RoomInfo>) Declaration public override void OnRoomListUpdate(List<RoomInfo> roomList) Parameters Type Name Description List < RoomInfo > roomList"
+  },
+  "api/CatchIo.ObjectPool.Footprint.FootprintSprite.html": {
+    "href": "api/CatchIo.ObjectPool.Footprint.FootprintSprite.html",
+    "title": "Struct Footprint.FootprintSprite | Catch.io Dev Doc",
+    "keywords": "Struct Footprint.FootprintSprite Namespace : CatchIo.ObjectPool Assembly : cs.temp.dll.dll Syntax public struct FootprintSprite Fields Sprite Declaration public Sprite Sprite Field Value Type Description Sprite Surface Declaration public Surface.SurfaceType Surface Field Value Type Description Surface.SurfaceType"
+  },
+  "api/CatchIo.ObjectPool.Footprint.html": {
+    "href": "api/CatchIo.ObjectPool.Footprint.html",
+    "title": "Class Footprint | Catch.io Dev Doc",
+    "keywords": "Class Footprint Inheritance Object Footprint Namespace : CatchIo.ObjectPool Assembly : cs.temp.dll.dll Syntax public class Footprint : MonoBehaviour Methods HandleSpawn() Declaration public void HandleSpawn() Initialize() Declaration public void Initialize()"
+  },
+  "api/CatchIo.ObjectPool.html": {
+    "href": "api/CatchIo.ObjectPool.html",
+    "title": "Namespace CatchIo.ObjectPool | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.ObjectPool Classes Footprint PurePoolManager Structs Footprint.FootprintSprite"
+  },
+  "api/CatchIo.ObjectPool.PurePoolManager.html": {
+    "href": "api/CatchIo.ObjectPool.PurePoolManager.html",
+    "title": "Class PurePoolManager | Catch.io Dev Doc",
+    "keywords": "Class PurePoolManager Inheritance Object PurePoolManager Namespace : CatchIo.ObjectPool Assembly : cs.temp.dll.dll Syntax public class PurePoolManager : MonoBehaviour Fields Instance Declaration public static PurePoolManager Instance Field Value Type Description PurePoolManager Methods AcquireEffect(ProjectileEffectType, Vector3, Quaternion) Declaration public GameObject AcquireEffect(ProjectileEffectType effectType, Vector3 position, Quaternion rotation) Parameters Type Name Description ProjectileEffectType effectType Vector3 position Quaternion rotation Returns Type Description GameObject AcquireFootprint(Vector3, Quaternion) Declaration public GameObject AcquireFootprint(Vector3 position, Quaternion rotation) Parameters Type Name Description Vector3 position Quaternion rotation Returns Type Description GameObject AcquireProjectile(ThrowableObject, Vector3, Quaternion) Declaration public GameObject AcquireProjectile(ThrowableObject throwableObject, Vector3 position, Quaternion rotation) Parameters Type Name Description ThrowableObject throwableObject Vector3 position Quaternion rotation Returns Type Description GameObject ReleasePool(GameObject) Declaration public void ReleasePool(GameObject obj) Parameters Type Name Description GameObject obj"
+  },
+  "api/CatchIo.Player.CharacterRenderer.html": {
+    "href": "api/CatchIo.Player.CharacterRenderer.html",
+    "title": "Class CharacterRenderer | Catch.io Dev Doc",
+    "keywords": "Class CharacterRenderer Inheritance Object CharacterRenderer Implements IPunObservable Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class CharacterRenderer : MonoBehaviourPun, IPunObservable Fields runDirections Declaration public static readonly string[] runDirections Field Value Type Description String [] sneakDirections Declaration public static readonly string[] sneakDirections Field Value Type Description String [] sneakStaticDirections Declaration public static readonly string[] sneakStaticDirections Field Value Type Description String [] staticDirections Declaration public static readonly string[] staticDirections Field Value Type Description String [] walkDirections Declaration public static readonly string[] walkDirections Field Value Type Description String [] Methods OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info SetCharMovementAnim(Vector2, MoveState) Changes the character animation state values based on the given state parameters Declaration public void SetCharMovementAnim(Vector2 direction, MoveState state) Parameters Type Name Description Vector2 direction What direction the player is facing MoveState state What movement state the player is Implements IPunObservable"
+  },
+  "api/CatchIo.Player.Elevation.html": {
+    "href": "api/CatchIo.Player.Elevation.html",
+    "title": "Class Elevation | Catch.io Dev Doc",
+    "keywords": "Class Elevation Inheritance Object Elevation Implements IPunObservable Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class Elevation : MonoBehaviourPun, IPunObservable Fields value Declaration public int value Field Value Type Description Int32 Methods OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info Implements IPunObservable"
+  },
+  "api/CatchIo.Player.FootprintGenerator.html": {
+    "href": "api/CatchIo.Player.FootprintGenerator.html",
+    "title": "Class FootprintGenerator | Catch.io Dev Doc",
+    "keywords": "Class FootprintGenerator Inheritance Object FootprintGenerator Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class FootprintGenerator : MonoBehaviour Fields GeneratorTime Declaration public float GeneratorTime Field Value Type Description Single"
+  },
+  "api/CatchIo.Player.html": {
+    "href": "api/CatchIo.Player.html",
+    "title": "Namespace CatchIo.Player | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Player Classes CharacterRenderer Elevation FootprintGenerator Inventory Player PlayerControlInput Player controller abstraction component. Everything that relates to controlling the player should be part of this script. StaminaMeter"
+  },
+  "api/CatchIo.Player.Inventory.html": {
+    "href": "api/CatchIo.Player.Inventory.html",
+    "title": "Class Inventory | Catch.io Dev Doc",
+    "keywords": "Class Inventory Inheritance Object Inventory Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class Inventory : MonoBehaviourPun Fields MaxInventorySlot Declaration public int MaxInventorySlot Field Value Type Description Int32 UpdateHUDEvent Declaration public Action UpdateHUDEvent Field Value Type Description Action Methods AddObject(ThrowableType) Declaration public void AddObject(ThrowableType _type) Parameters Type Name Description ThrowableType _type GetInventoryObjects() Declaration public List<ThrowableObject> GetInventoryObjects() Returns Type Description List < ThrowableObject > GetSelectedIndex() Declaration public int GetSelectedIndex() Returns Type Description Int32 GetThrowableObjectType() Declaration public ThrowableType GetThrowableObjectType() Returns Type Description ThrowableType GetThrowalbeObject() Declaration public ThrowableObject GetThrowalbeObject() Returns Type Description ThrowableObject IsEmpty() Declaration public bool IsEmpty() Returns Type Description Boolean IsFull() Declaration public bool IsFull() Returns Type Description Boolean RemoveObject() Declaration public void RemoveObject() SetSelectIndex(Int32) Declaration public void SetSelectIndex(int index) Parameters Type Name Description Int32 index"
+  },
+  "api/CatchIo.Player.Player.html": {
+    "href": "api/CatchIo.Player.Player.html",
+    "title": "Class Player | Catch.io Dev Doc",
+    "keywords": "Class Player Inheritance Object Player Implements IHitable IPunObservable Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class Player : MonoBehaviourPun, IHitable, IPunObservable Fields CatchAngle Declaration public float CatchAngle Field Value Type Description Single CatchRadius Declaration public float CatchRadius Field Value Type Description Single CrouchingSpeed Declaration public float CrouchingSpeed Field Value Type Description Single CurrentSurface Declaration public Surface.SurfaceType CurrentSurface Field Value Type Description Surface.SurfaceType LookAngle Declaration public int LookAngle Field Value Type Description Int32 LookDirection Declaration public Vector2 LookDirection Field Value Type Description Vector2 MoveDirectionAngle Declaration public int MoveDirectionAngle Field Value Type Description Int32 MoveSpeed Declaration public float MoveSpeed Field Value Type Description Single PlayerMoveState Declaration public MoveState PlayerMoveState Field Value Type Description MoveState ProjectileValues Declaration public ProjectileValues ProjectileValues Field Value Type Description ProjectileValues RunSpeed Declaration public float RunSpeed Field Value Type Description Single StandingTile Declaration public TileBase StandingTile Field Value Type Description TileBase Properties CurrentSpeed Declaration public float CurrentSpeed { get; } Property Value Type Description Single Elevation Declaration public int Elevation { get; } Property Value Type Description Int32 Inventory Declaration public Inventory Inventory { get; } Property Value Type Description Inventory IsCaught Declaration public bool IsCaught { get; set; } Property Value Type Description Boolean IsLocalClient Declaration public bool IsLocalClient { get; } Property Value Type Description Boolean IsStun Declaration public bool IsStun { get; set; } Property Value Type Description Boolean PlayerControl Declaration public PlayerControlInput PlayerControl { get; } Property Value Type Description PlayerControlInput PlayerName Declaration public string PlayerName { get; } Property Value Type Description String StunDelayTime Declaration public WaitForSecondsRealtime StunDelayTime { get; set; } Property Value Type Description WaitForSecondsRealtime Methods CalculateObjectProjectileMotion(Vector3) Declaration public void CalculateObjectProjectileMotion(Vector3 endPosition) Parameters Type Name Description Vector3 endPosition CanCatch(Vector2) Checks if the player can catch another player with the given direction Declaration public bool CanCatch(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir Returns Type Description Boolean can catch state CanThrow() Declaration public bool CanThrow() Returns Type Description Boolean Catch(Vector2) Declaration public void Catch(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir LookAt(Vector2) Sets the player view direction with the given vector. This method is used to set the player sprite direction and the FOV light. Declaration public void LookAt(Vector2 lookPoint) Parameters Type Name Description Vector2 lookPoint Move(Vector2, MoveState) Moves the player object with the given input vector and the movement state. This method will also set the player's movement state that will be used for changing the animation. Declaration public void Move(Vector2 inputVector, MoveState moveState) Parameters Type Name Description Vector2 inputVector MoveState moveState OnCaught(Vector2) Declaration public void OnCaught(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir OnHit(ThrowableObject) Declaration public void OnHit(ThrowableObject throwableObject) Parameters Type Name Description ThrowableObject throwableObject OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info ReleaseProjectile() Declaration public void ReleaseProjectile() ResetSubject() Declaration public void ResetSubject() SelectItem(Int32) Declaration public void SelectItem(int index) Parameters Type Name Description Int32 index SetPlayerName(String) Declaration public void SetPlayerName(string name) Parameters Type Name Description String name SetTrajectoryActive(Boolean) Declaration public void SetTrajectoryActive(bool active) Parameters Type Name Description Boolean active SpawnProjectile() Declaration public void SpawnProjectile() ThrowObject() Throws a projectile in the inventory queue with the given power and direction. Declaration public void ThrowObject() UpdateCurrentTileInfo() Declaration public void UpdateCurrentTileInfo() Implements IHitable IPunObservable"
+  },
+  "api/CatchIo.Player.PlayerControlInput.html": {
+    "href": "api/CatchIo.Player.PlayerControlInput.html",
+    "title": "Class PlayerControlInput | Catch.io Dev Doc",
+    "keywords": "Class PlayerControlInput Player controller abstraction component. Everything that relates to controlling the player should be part of this script. Inheritance Object PlayerControlInput Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class PlayerControlInput : MonoBehaviour Fields CatchButtonSubject Declaration public Subject CatchButtonSubject Field Value Type Description Subject RotateJoystick Declaration public Joystick RotateJoystick Field Value Type Description Joystick ThrowMode Declaration public bool ThrowMode Field Value Type Description Boolean Properties CanCatch Declaration public bool CanCatch { get; } Property Value Type Description Boolean ControlTarget Declaration public Player ControlTarget { get; } Property Value Type Description Player Methods MobileCursorPosition() Declaration public Vector2 MobileCursorPosition() Returns Type Description Vector2"
+  },
+  "api/CatchIo.Player.StaminaMeter.html": {
+    "href": "api/CatchIo.Player.StaminaMeter.html",
+    "title": "Class StaminaMeter | Catch.io Dev Doc",
+    "keywords": "Class StaminaMeter Inheritance Object StaminaMeter Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class StaminaMeter : MonoBehaviour Fields maxStamina Declaration public float maxStamina Field Value Type Description Single stamina Declaration public float stamina Field Value Type Description Single timer Declaration public float timer Field Value Type Description Single"
+  },
+  "api/CatchIo.Projectiles.BouncingToadProjectile.html": {
+    "href": "api/CatchIo.Projectiles.BouncingToadProjectile.html",
+    "title": "Class BouncingToadProjectile | Catch.io Dev Doc",
+    "keywords": "Class BouncingToadProjectile Inheritance Object Projectile BouncingToadProjectile Namespace : CatchIo.Projectiles Assembly : cs.temp.dll.dll Syntax public class BouncingToadProjectile : Projectile Methods Execute() Declaration public override void Execute() Overrides Projectile.Execute() GetMovePoints(Vector2, Vector2) Declaration public override List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > Overrides Projectile.GetMovePoints(Vector2, Vector2) HandleDestroy() Declaration public override void HandleDestroy() Overrides Projectile.HandleDestroy() HandleSpawn(Int32) Declaration public override void HandleSpawn(int elevation) Parameters Type Name Description Int32 elevation Overrides Projectile.HandleSpawn(Int32) Initialize() Declaration public override void Initialize() Overrides Projectile.Initialize() OnGround() Declaration public override void OnGround() Overrides Projectile.OnGround() OnTriggerEnter2D(Collider2D) Declaration public override void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other Overrides Projectile.OnTriggerEnter2D(Collider2D) SetSpritePosition(Vector3) Declaration public override void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position Overrides Projectile.SetSpritePosition(Vector3)"
+  },
+  "api/CatchIo.Projectiles.Effect.html": {
+    "href": "api/CatchIo.Projectiles.Effect.html",
+    "title": "Namespace CatchIo.Projectiles.Effect | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Projectiles.Effect Classes StunBombExplosion"
+  },
+  "api/CatchIo.Projectiles.Effect.StunBombExplosion.html": {
+    "href": "api/CatchIo.Projectiles.Effect.StunBombExplosion.html",
+    "title": "Class StunBombExplosion | Catch.io Dev Doc",
+    "keywords": "Class StunBombExplosion Inheritance Object ProjectileEffectBase StunBombExplosion Inherited Members ProjectileEffectBase.DestroyHandler Namespace : CatchIo.Projectiles.Effect Assembly : cs.temp.dll.dll Syntax public class StunBombExplosion : ProjectileEffectBase Methods Initialize(Action<GameObject>) Declaration public override void Initialize(Action<GameObject> destroyAction) Parameters Type Name Description Action < GameObject > destroyAction Overrides ProjectileEffectBase.Initialize(Action<GameObject>) SetRadius(Single) Declaration public void SetRadius(float radius) Parameters Type Name Description Single radius"
+  },
+  "api/CatchIo.Projectiles.html": {
+    "href": "api/CatchIo.Projectiles.html",
+    "title": "Namespace CatchIo.Projectiles | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Projectiles Classes BouncingToadProjectile StoneProjectile StunBombProjectile"
+  },
+  "api/CatchIo.Projectiles.StoneProjectile.html": {
+    "href": "api/CatchIo.Projectiles.StoneProjectile.html",
+    "title": "Class StoneProjectile | Catch.io Dev Doc",
+    "keywords": "Class StoneProjectile Inheritance Object Projectile StoneProjectile Namespace : CatchIo.Projectiles Assembly : cs.temp.dll.dll Syntax public class StoneProjectile : Projectile Methods Execute() Declaration public override void Execute() Overrides Projectile.Execute() GetMovePoints(Vector2, Vector2) Declaration public override List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > Overrides Projectile.GetMovePoints(Vector2, Vector2) HandleDestroy() Declaration public override void HandleDestroy() Overrides Projectile.HandleDestroy() HandleSpawn(Int32) Declaration public override void HandleSpawn(int elevation = 0) Parameters Type Name Description Int32 elevation Overrides Projectile.HandleSpawn(Int32) Initialize() Declaration public override void Initialize() Overrides Projectile.Initialize() OnGround() Declaration public override void OnGround() Overrides Projectile.OnGround() OnTriggerEnter2D(Collider2D) Declaration public override void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other Overrides Projectile.OnTriggerEnter2D(Collider2D) SetSpritePosition(Vector3) Declaration public override void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position Overrides Projectile.SetSpritePosition(Vector3)"
+  },
+  "api/CatchIo.Projectiles.StunBombProjectile.html": {
+    "href": "api/CatchIo.Projectiles.StunBombProjectile.html",
+    "title": "Class StunBombProjectile | Catch.io Dev Doc",
+    "keywords": "Class StunBombProjectile Inheritance Object Projectile StunBombProjectile Namespace : CatchIo.Projectiles Assembly : cs.temp.dll.dll Syntax public class StunBombProjectile : Projectile Fields ExplosionRadius Declaration public float ExplosionRadius Field Value Type Description Single Methods Execute() Declaration public override void Execute() Overrides Projectile.Execute() GetMovePoints(Vector2, Vector2) Declaration public override List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > Overrides Projectile.GetMovePoints(Vector2, Vector2) HandleDestroy() Declaration public override void HandleDestroy() Overrides Projectile.HandleDestroy() HandleSpawn(Int32) Declaration public override void HandleSpawn(int elevation) Parameters Type Name Description Int32 elevation Overrides Projectile.HandleSpawn(Int32) Initialize() Declaration public override void Initialize() Overrides Projectile.Initialize() OnGround() Declaration public override void OnGround() Overrides Projectile.OnGround() OnTriggerEnter2D(Collider2D) Declaration public override void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other Overrides Projectile.OnTriggerEnter2D(Collider2D) SetSpritePosition(Vector3) Declaration public override void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position Overrides Projectile.SetSpritePosition(Vector3)"
+  },
+  "api/CatchIo.ScriptableObjects.EffectData.html": {
+    "href": "api/CatchIo.ScriptableObjects.EffectData.html",
+    "title": "Class EffectData | Catch.io Dev Doc",
+    "keywords": "Class EffectData Inheritance Object EffectData Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax [Serializable] public class EffectData Properties EffectType Declaration public ProjectileEffectType EffectType { get; } Property Value Type Description ProjectileEffectType Prefab Declaration public GameObject Prefab { get; } Property Value Type Description GameObject"
+  },
+  "api/CatchIo.ScriptableObjects.EffectScriptableObject.html": {
+    "href": "api/CatchIo.ScriptableObjects.EffectScriptableObject.html",
+    "title": "Class EffectScriptableObject | Catch.io Dev Doc",
+    "keywords": "Class EffectScriptableObject Inheritance Object EffectScriptableObject Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public class EffectScriptableObject : ScriptableObject Fields EffectDatas Declaration public List<EffectData> EffectDatas Field Value Type Description List < EffectData > Methods FindPrefab(ProjectileEffectType) Declaration public GameObject FindPrefab(ProjectileEffectType type) Parameters Type Name Description ProjectileEffectType type Returns Type Description GameObject"
+  },
+  "api/CatchIo.ScriptableObjects.HitPoint.html": {
+    "href": "api/CatchIo.ScriptableObjects.HitPoint.html",
     "title": "Enum HitPoint | Catch.io Dev Doc",
-    "keywords": "Enum HitPoint Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum HitPoint Fields Name Description DOWN LEFT NONE RIGHT UP"
+    "keywords": "Enum HitPoint Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public enum HitPoint Fields Name Description DOWN LEFT NONE RIGHT UP"
+  },
+  "api/CatchIo.ScriptableObjects.html": {
+    "href": "api/CatchIo.ScriptableObjects.html",
+    "title": "Namespace CatchIo.ScriptableObjects | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.ScriptableObjects Classes EffectData EffectScriptableObject ProjectileData ProjectilePathGenerator ProjectileScriptableObject RaycastOrigins RaySpace Structs ProjectileValues Enums HitPoint"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Collision.BouncingToadCollisionStrategy.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Collision.BouncingToadCollisionStrategy.html",
+    "title": "Class BouncingToadCollisionStrategy | Catch.io Dev Doc",
+    "keywords": "Class BouncingToadCollisionStrategy Inheritance Object ProjectileCollisionStrategy BouncingToadCollisionStrategy Namespace : CatchIo.ScriptableObjects.Projectile.Collision Assembly : cs.temp.dll.dll Syntax public class BouncingToadCollisionStrategy : ProjectileCollisionStrategy Methods Execute(Boolean) Declaration public override void Execute(bool isGround) Parameters Type Name Description Boolean isGround Overrides ProjectileCollisionStrategy.Execute(Boolean) Initialize(BoxCollider2D) Declaration public override void Initialize(BoxCollider2D collider2D) Parameters Type Name Description BoxCollider2D collider2D Overrides ProjectileCollisionStrategy.Initialize(BoxCollider2D)"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Collision.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Collision.html",
+    "title": "Namespace CatchIo.ScriptableObjects.Projectile.Collision | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.ScriptableObjects.Projectile.Collision Classes BouncingToadCollisionStrategy ProjectileCollisionStrategy StoneCollisionStrategy Structs ProjectileCollisionStrategy.OffensiveValue"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Collision.ProjectileCollisionStrategy.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Collision.ProjectileCollisionStrategy.html",
+    "title": "Class ProjectileCollisionStrategy | Catch.io Dev Doc",
+    "keywords": "Class ProjectileCollisionStrategy Inheritance Object ProjectileCollisionStrategy BouncingToadCollisionStrategy StoneCollisionStrategy Namespace : CatchIo.ScriptableObjects.Projectile.Collision Assembly : cs.temp.dll.dll Syntax public abstract class ProjectileCollisionStrategy : ScriptableObject Methods Execute(Boolean) Declaration public abstract void Execute(bool isGround) Parameters Type Name Description Boolean isGround Initialize(BoxCollider2D) Declaration public abstract void Initialize(BoxCollider2D collider2D) Parameters Type Name Description BoxCollider2D collider2D"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Collision.ProjectileCollisionStrategy.OffensiveValue.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Collision.ProjectileCollisionStrategy.OffensiveValue.html",
+    "title": "Struct ProjectileCollisionStrategy.OffensiveValue | Catch.io Dev Doc",
+    "keywords": "Struct ProjectileCollisionStrategy.OffensiveValue Namespace : CatchIo.ScriptableObjects.Projectile.Collision Assembly : cs.temp.dll.dll Syntax [Serializable] public struct OffensiveValue Fields CanStun Declaration public bool CanStun Field Value Type Description Boolean Damage Declaration public float Damage Field Value Type Description Single"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Collision.StoneCollisionStrategy.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Collision.StoneCollisionStrategy.html",
+    "title": "Class StoneCollisionStrategy | Catch.io Dev Doc",
+    "keywords": "Class StoneCollisionStrategy Inheritance Object ProjectileCollisionStrategy StoneCollisionStrategy Namespace : CatchIo.ScriptableObjects.Projectile.Collision Assembly : cs.temp.dll.dll Syntax public class StoneCollisionStrategy : ProjectileCollisionStrategy Methods Execute(Boolean) Declaration public override void Execute(bool isGround) Parameters Type Name Description Boolean isGround Overrides ProjectileCollisionStrategy.Execute(Boolean) Initialize(BoxCollider2D) Declaration public override void Initialize(BoxCollider2D collider2D) Parameters Type Name Description BoxCollider2D collider2D Overrides ProjectileCollisionStrategy.Initialize(BoxCollider2D)"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Effects.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Effects.html",
+    "title": "Namespace CatchIo.ScriptableObjects.Projectile.Effects | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.ScriptableObjects.Projectile.Effects Classes ProjectileEffect SoundWaveEffect StunBombEffect"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Effects.ProjectileEffect.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Effects.ProjectileEffect.html",
+    "title": "Class ProjectileEffect | Catch.io Dev Doc",
+    "keywords": "Class ProjectileEffect Inheritance Object ProjectileEffect SoundWaveEffect StunBombEffect Namespace : CatchIo.ScriptableObjects.Projectile.Effects Assembly : cs.temp.dll.dll Syntax public class ProjectileEffect : ScriptableObject Fields _poolManager Declaration protected PurePoolManager _poolManager Field Value Type Description PurePoolManager Methods Cancel() Declaration public virtual void Cancel() HandleDestroy(GameObject) Declaration public virtual void HandleDestroy(GameObject targetObject) Parameters Type Name Description GameObject targetObject Initialize() Declaration public virtual void Initialize() SpawnAtPoint(Transform, Int32) Declaration public virtual void SpawnAtPoint(Transform transform, int elevation) Parameters Type Name Description Transform transform Int32 elevation"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Effects.SoundWaveEffect.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Effects.SoundWaveEffect.html",
+    "title": "Class SoundWaveEffect | Catch.io Dev Doc",
+    "keywords": "Class SoundWaveEffect Inheritance Object ProjectileEffect SoundWaveEffect Inherited Members ProjectileEffect._poolManager Namespace : CatchIo.ScriptableObjects.Projectile.Effects Assembly : cs.temp.dll.dll Syntax public class SoundWaveEffect : ProjectileEffect Methods Cancel() Declaration public override void Cancel() Overrides ProjectileEffect.Cancel() HandleDestroy(GameObject) Declaration public override void HandleDestroy(GameObject targetObject) Parameters Type Name Description GameObject targetObject Overrides ProjectileEffect.HandleDestroy(GameObject) Initialize() Declaration public override void Initialize() Overrides ProjectileEffect.Initialize() SpawnAtPoint(Transform, Int32) Declaration public override void SpawnAtPoint(Transform transform, int elevation) Parameters Type Name Description Transform transform Int32 elevation Overrides ProjectileEffect.SpawnAtPoint(Transform, Int32)"
+  },
+  "api/CatchIo.ScriptableObjects.Projectile.Effects.StunBombEffect.html": {
+    "href": "api/CatchIo.ScriptableObjects.Projectile.Effects.StunBombEffect.html",
+    "title": "Class StunBombEffect | Catch.io Dev Doc",
+    "keywords": "Class StunBombEffect Inheritance Object ProjectileEffect StunBombEffect Inherited Members ProjectileEffect._poolManager ProjectileEffect.Initialize() Namespace : CatchIo.ScriptableObjects.Projectile.Effects Assembly : cs.temp.dll.dll Syntax public class StunBombEffect : ProjectileEffect Methods Cancel() Declaration public override void Cancel() Overrides ProjectileEffect.Cancel() HandleDestroy(GameObject) Declaration public override void HandleDestroy(GameObject targetObject) Parameters Type Name Description GameObject targetObject Overrides ProjectileEffect.HandleDestroy(GameObject) SetRadius(Single) Declaration public void SetRadius(float radius) Parameters Type Name Description Single radius SpawnAtPoint(Transform, Int32) Declaration public override void SpawnAtPoint(Transform transform, int elevation) Parameters Type Name Description Transform transform Int32 elevation Overrides ProjectileEffect.SpawnAtPoint(Transform, Int32)"
+  },
+  "api/CatchIo.ScriptableObjects.ProjectileData.html": {
+    "href": "api/CatchIo.ScriptableObjects.ProjectileData.html",
+    "title": "Class ProjectileData | Catch.io Dev Doc",
+    "keywords": "Class ProjectileData Inheritance Object ProjectileData Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax [Serializable] public class ProjectileData Properties Prefab Declaration public GameObject Prefab { get; } Property Value Type Description GameObject ThrowableType Declaration public ThrowableType ThrowableType { get; } Property Value Type Description ThrowableType"
+  },
+  "api/CatchIo.ScriptableObjects.ProjectilePathGenerator.html": {
+    "href": "api/CatchIo.ScriptableObjects.ProjectilePathGenerator.html",
+    "title": "Class ProjectilePathGenerator | Catch.io Dev Doc",
+    "keywords": "Class ProjectilePathGenerator Inheritance Object ProjectilePathGenerator Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public class ProjectilePathGenerator : ScriptableObject Fields ProjectileValues Declaration public ProjectileValues ProjectileValues Field Value Type Description ProjectileValues Methods CalculateBouncePoints(Vector2, Vector2, Int32) Declaration public List<Vector3> CalculateBouncePoints(Vector2 originPosition, Vector2 endPosition, int bounceCount = 3) Parameters Type Name Description Vector2 originPosition Vector2 endPosition Int32 bounceCount Returns Type Description List < Vector3 > CalculatePoints(Vector2, Vector2, Boolean) Declaration public void CalculatePoints(Vector2 originPosition, Vector2 endPosition, bool isBounce = false) Parameters Type Name Description Vector2 originPosition Vector2 endPosition Boolean isBounce GetMovePoints() Declaration public List<Vector3> GetMovePoints() Returns Type Description List < Vector3 > Initialize(BoxCollider2D) Declaration public void Initialize(BoxCollider2D boxCollider) Parameters Type Name Description BoxCollider2D boxCollider"
+  },
+  "api/CatchIo.ScriptableObjects.ProjectileScriptableObject.html": {
+    "href": "api/CatchIo.ScriptableObjects.ProjectileScriptableObject.html",
+    "title": "Class ProjectileScriptableObject | Catch.io Dev Doc",
+    "keywords": "Class ProjectileScriptableObject Inheritance Object ProjectileScriptableObject Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public class ProjectileScriptableObject : ScriptableObject Fields ProjectileDatas Declaration public List<ProjectileData> ProjectileDatas Field Value Type Description List < ProjectileData > Methods FindProjectileData(ThrowableType) Declaration public ProjectileData FindProjectileData(ThrowableType type) Parameters Type Name Description ThrowableType type Returns Type Description ProjectileData"
+  },
+  "api/CatchIo.ScriptableObjects.ProjectileValues.html": {
+    "href": "api/CatchIo.ScriptableObjects.ProjectileValues.html",
+    "title": "Struct ProjectileValues | Catch.io Dev Doc",
+    "keywords": "Struct ProjectileValues Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax [Serializable] public struct ProjectileValues Fields MaxRadius Declaration public float MaxRadius Field Value Type Description Single MoveSpeed Declaration public float MoveSpeed Field Value Type Description Single MultiplyXDistanceToIncreaseValue Declaration public float MultiplyXDistanceToIncreaseValue Field Value Type Description Single NumOfMovePoints Declaration public int NumOfMovePoints Field Value Type Description Int32 Properties MovePointDuration Declaration public float MovePointDuration { get; } Property Value Type Description Single"
+  },
+  "api/CatchIo.ScriptableObjects.RaycastOrigins.html": {
+    "href": "api/CatchIo.ScriptableObjects.RaycastOrigins.html",
+    "title": "Class RaycastOrigins | Catch.io Dev Doc",
+    "keywords": "Class RaycastOrigins Inheritance Object RaycastOrigins Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax [Serializable] public class RaycastOrigins Fields centerDown Declaration public Vector2 centerDown Field Value Type Description Vector2 centerLeft Declaration public Vector2 centerLeft Field Value Type Description Vector2 downHitCount Declaration public int downHitCount Field Value Type Description Int32 isCheck Declaration public bool isCheck Field Value Type Description Boolean leftHitCount Declaration public int leftHitCount Field Value Type Description Int32 rayLength Declaration public float rayLength Field Value Type Description Single rightHitCount Declaration public int rightHitCount Field Value Type Description Int32 upHitCount Declaration public int upHitCount Field Value Type Description Int32 Methods CalculateBounceOffHitCount(RaySpace) Declaration public void CalculateBounceOffHitCount(RaySpace raySpace) Parameters Type Name Description RaySpace raySpace GetHitPoint() Declaration public HitPoint GetHitPoint() Returns Type Description HitPoint ResetHitCount() Declaration public void ResetHitCount() UpdateRaycastOrigins(BoxCollider2D) Declaration public RaycastOrigins UpdateRaycastOrigins(BoxCollider2D _collider2D) Parameters Type Name Description BoxCollider2D _collider2D Returns Type Description RaycastOrigins"
+  },
+  "api/CatchIo.ScriptableObjects.RaySpace.html": {
+    "href": "api/CatchIo.ScriptableObjects.RaySpace.html",
+    "title": "Class RaySpace | Catch.io Dev Doc",
+    "keywords": "Class RaySpace Inheritance Object RaySpace Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public class RaySpace Constructors RaySpace() Declaration public RaySpace() Fields horizontalRayCount Declaration public int horizontalRayCount Field Value Type Description Int32 horizontalRaySpacing Declaration public float horizontalRaySpacing Field Value Type Description Single verticalRayCount Declaration public int verticalRayCount Field Value Type Description Int32 verticalRaySpacing Declaration public float verticalRaySpacing Field Value Type Description Single Methods CalculateRaySpacing(BoxCollider2D) Declaration public RaySpace CalculateRaySpacing(BoxCollider2D _collider2D) Parameters Type Name Description BoxCollider2D _collider2D Returns Type Description RaySpace"
+  },
+  "api/CatchIo.Sound.html": {
+    "href": "api/CatchIo.Sound.html",
+    "title": "Namespace CatchIo.Sound | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Sound Classes SoundManager SoundWave"
+  },
+  "api/CatchIo.Sound.SoundManager.html": {
+    "href": "api/CatchIo.Sound.SoundManager.html",
+    "title": "Class SoundManager | Catch.io Dev Doc",
+    "keywords": "Class SoundManager Inheritance Object SoundManager Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class SoundManager : SingletonMonoBehaviour<SoundManager> Fields surfaceSound Declaration public string surfaceSound Field Value Type Description String Methods PlaySurfaceSFX(Transform, Surface.SurfaceType, Single) Declaration public void PlaySurfaceSFX(Transform origin, Surface.SurfaceType surfaceType, float volume = 1F) Parameters Type Name Description Transform origin Surface.SurfaceType surfaceType Single volume"
+  },
+  "api/CatchIo.Sound.SoundWave.html": {
+    "href": "api/CatchIo.Sound.SoundWave.html",
+    "title": "Class SoundWave | Catch.io Dev Doc",
+    "keywords": "Class SoundWave Inheritance Object ProjectileEffectBase SoundWave Inherited Members ProjectileEffectBase.DestroyHandler Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class SoundWave : ProjectileEffectBase Fields Range Declaration public float Range Field Value Type Description Single Speed Declaration public float Speed Field Value Type Description Single Methods Initialize(Action<GameObject>) Declaration public override void Initialize(Action<GameObject> destroyAction) Parameters Type Name Description Action < GameObject > destroyAction Overrides ProjectileEffectBase.Initialize(Action<GameObject>)"
+  },
+  "api/CatchIo.UI.CatchButtonEnable.html": {
+    "href": "api/CatchIo.UI.CatchButtonEnable.html",
+    "title": "Class CatchButtonEnable | Catch.io Dev Doc",
+    "keywords": "Class CatchButtonEnable Inheritance Object CatchButtonEnable Implements ICallback Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class CatchButtonEnable : MonoBehaviour, ICallback Methods Invoke() Declaration public void Invoke() Implements ICallback"
+  },
+  "api/CatchIo.UI.html": {
+    "href": "api/CatchIo.UI.html",
+    "title": "Namespace CatchIo.UI | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.UI Classes CatchButtonEnable InventoryHUD LobbyRoomsView View controller for the game lobby menu. This class will only expose the GUI methods and controls for the scene to render. The actual logic of all this is handled by the lobby manager script. RoomItemControl A GUI controller script for displaying Photon rooms RotateJoystick StaminaBar"
+  },
+  "api/CatchIo.UI.InventoryHUD.html": {
+    "href": "api/CatchIo.UI.InventoryHUD.html",
+    "title": "Class InventoryHUD | Catch.io Dev Doc",
+    "keywords": "Class InventoryHUD Inheritance Object GuiBehavior InventoryHUD Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class InventoryHUD : GuiBehavior Methods SelectItem(Int32) Declaration public void SelectItem(int index) Parameters Type Name Description Int32 index UpdateHUD() Declaration public void UpdateHUD()"
+  },
+  "api/CatchIo.UI.LobbyRoomsView.html": {
+    "href": "api/CatchIo.UI.LobbyRoomsView.html",
+    "title": "Class LobbyRoomsView | Catch.io Dev Doc",
+    "keywords": "Class LobbyRoomsView View controller for the game lobby menu. This class will only expose the GUI methods and controls for the scene to render. The actual logic of all this is handled by the lobby manager script. Inheritance Object GuiBehavior LobbyRoomsView Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class LobbyRoomsView : GuiBehavior Properties NewRoomMap Declaration public string NewRoomMap { get; } Property Value Type Description String NewRoomMaxPlayer Declaration public int NewRoomMaxPlayer { get; } Property Value Type Description Int32 NewRoomName Declaration public string NewRoomName { get; } Property Value Type Description String Methods AddRoomRender(RoomInfo) Declaration public void AddRoomRender(RoomInfo room) Parameters Type Name Description RoomInfo room DisplayLogMessage(String, Color) Declaration public void DisplayLogMessage(string message, Color color) Parameters Type Name Description String message Color color OnChange_MapDropdown() Declaration public void OnChange_MapDropdown() OnChange_MaxSlider() Declaration public void OnChange_MaxSlider() OnChange_RoomNameInput() Declaration public void OnChange_RoomNameInput() OnClick_CloseCreateRoomPanel() Declaration public void OnClick_CloseCreateRoomPanel() OnClick_CreateRoomButton() Declaration public void OnClick_CreateRoomButton() OnClick_OpenCreateRoomPanel() Declaration public void OnClick_OpenCreateRoomPanel() RemoveRoomRender(RoomInfo) Declaration public void RemoveRoomRender(RoomInfo room) Parameters Type Name Description RoomInfo room SetInitialRoomData() Declaration public void SetInitialRoomData() SetLoadableScenes(List<String>) Declaration public void SetLoadableScenes(List<string> playableList) Parameters Type Name Description List < String > playableList SetPlayerNameLabel(String) Declaration public void SetPlayerNameLabel(string name) Parameters Type Name Description String name"
+  },
+  "api/CatchIo.UI.RoomItemControl.html": {
+    "href": "api/CatchIo.UI.RoomItemControl.html",
+    "title": "Class RoomItemControl | Catch.io Dev Doc",
+    "keywords": "Class RoomItemControl A GUI controller script for displaying Photon rooms Inheritance Object GuiBehavior RoomItemControl Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class RoomItemControl : GuiBehavior Properties RoomName Declaration public string RoomName { get; } Property Value Type Description String Methods CreateRoomRender(RoomInfo) Declaration public void CreateRoomRender(RoomInfo room) Parameters Type Name Description RoomInfo room OnClick_JoinRoom() Declaration public void OnClick_JoinRoom()"
+  },
+  "api/CatchIo.UI.RotateJoystick.html": {
+    "href": "api/CatchIo.UI.RotateJoystick.html",
+    "title": "Class RotateJoystick | Catch.io Dev Doc",
+    "keywords": "Class RotateJoystick Inheritance Object RotateJoystick Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class RotateJoystick : UnityStandardAssets.CrossPlatformInput.Joystick Methods Start() Declaration public override void Start()"
+  },
+  "api/CatchIo.UI.StaminaBar.html": {
+    "href": "api/CatchIo.UI.StaminaBar.html",
+    "title": "Class StaminaBar | Catch.io Dev Doc",
+    "keywords": "Class StaminaBar Inheritance Object GuiBehavior StaminaBar Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class StaminaBar : GuiBehavior Fields healthBarCorrection Declaration public float healthBarCorrection Field Value Type Description Single staminaBar Declaration public Slider staminaBar Field Value Type Description Slider Methods LateUpdate() Declaration public void LateUpdate() Start() Declaration public void Start()"
+  },
+  "api/CatchIo.Util.Angle.html": {
+    "href": "api/CatchIo.Util.Angle.html",
+    "title": "Class Angle | Catch.io Dev Doc",
+    "keywords": "Class Angle Inheritance Object Angle Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class Angle Methods GetMinusAngle(Single) Declaration public static float GetMinusAngle(float angle) Parameters Type Name Description Single angle Returns Type Description Single"
+  },
+  "api/CatchIo.Util.EditorGameLoader.html": {
+    "href": "api/CatchIo.Util.EditorGameLoader.html",
+    "title": "Class EditorGameLoader | Catch.io Dev Doc",
+    "keywords": "Class EditorGameLoader Inheritance Object EditorGameLoader Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public class EditorGameLoader : MonoBehaviour"
+  },
+  "api/CatchIo.Util.ExtensionMethods.html": {
+    "href": "api/CatchIo.Util.ExtensionMethods.html",
+    "title": "Class ExtensionMethods | Catch.io Dev Doc",
+    "keywords": "Class ExtensionMethods Inheritance Object ExtensionMethods Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class ExtensionMethods Methods toVector2(Vector3) Declaration public static Vector2 toVector2(this Vector3 vec3) Parameters Type Name Description Vector3 vec3 Returns Type Description Vector2 toVector3(Vector2) Declaration public static Vector3 toVector3(this Vector2 vec2) Parameters Type Name Description Vector2 vec2 Returns Type Description Vector3"
+  },
+  "api/CatchIo.Util.FloorTilemaps.html": {
+    "href": "api/CatchIo.Util.FloorTilemaps.html",
+    "title": "Class FloorTilemaps | Catch.io Dev Doc",
+    "keywords": "Class FloorTilemaps Inheritance Object FloorTilemaps Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax [Serializable] public class FloorTilemaps Fields Tilemaps Declaration public List<Tilemap> Tilemaps Field Value Type Description List < Tilemap >"
+  },
+  "api/CatchIo.Util.GetTilemapAndTileBase.html": {
+    "href": "api/CatchIo.Util.GetTilemapAndTileBase.html",
+    "title": "Class GetTilemapAndTileBase | Catch.io Dev Doc",
+    "keywords": "Class GetTilemapAndTileBase Inheritance Object GetTilemapAndTileBase Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class GetTilemapAndTileBase Fields TILE_MAP_TAG Declaration public static string TILE_MAP_TAG Field Value Type Description String Methods GetStandingTile(Vector3, Int32) Declaration public static TileBase GetStandingTile(Vector3 position, int elevation = 0) Parameters Type Name Description Vector3 position Int32 elevation Returns Type Description TileBase"
+  },
+  "api/CatchIo.Util.html": {
+    "href": "api/CatchIo.Util.html",
+    "title": "Namespace CatchIo.Util | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Util Classes Angle EditorGameLoader ExtensionMethods FloorTilemaps GetTilemapAndTileBase NaN SceneControl Singleton<T> SingletonMonoBehaviour<T> Surface TileInfo TilemapContainer Enums Surface.SurfaceType"
+  },
+  "api/CatchIo.Util.NaN.html": {
+    "href": "api/CatchIo.Util.NaN.html",
+    "title": "Class NaN | Catch.io Dev Doc",
+    "keywords": "Class NaN Inheritance Object NaN Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class NaN Methods Check(Vector2) Declaration public static bool Check(Vector2 vector2) Parameters Type Name Description Vector2 vector2 Returns Type Description Boolean"
+  },
+  "api/CatchIo.Util.ObserverPattern.html": {
+    "href": "api/CatchIo.Util.ObserverPattern.html",
+    "title": "Namespace CatchIo.Util.ObserverPattern | Catch.io Dev Doc",
+    "keywords": "Namespace CatchIo.Util.ObserverPattern Classes Subject Interfaces ICallback"
+  },
+  "api/CatchIo.Util.ObserverPattern.ICallback.html": {
+    "href": "api/CatchIo.Util.ObserverPattern.ICallback.html",
+    "title": "Interface ICallback | Catch.io Dev Doc",
+    "keywords": "Interface ICallback Namespace : CatchIo.Util.ObserverPattern Assembly : cs.temp.dll.dll Syntax public interface ICallback Methods Invoke() Declaration void Invoke()"
+  },
+  "api/CatchIo.Util.ObserverPattern.Subject.html": {
+    "href": "api/CatchIo.Util.ObserverPattern.Subject.html",
+    "title": "Class Subject | Catch.io Dev Doc",
+    "keywords": "Class Subject Inheritance Object Subject Namespace : CatchIo.Util.ObserverPattern Assembly : cs.temp.dll.dll Syntax public class Subject Methods AddObserver(ICallback) Declaration public void AddObserver(ICallback callback) Parameters Type Name Description ICallback callback Clear() Declaration public void Clear() RemoveObserver(ICallback) Declaration public void RemoveObserver(ICallback callback) Parameters Type Name Description ICallback callback SignalCallback() Declaration public void SignalCallback()"
+  },
+  "api/CatchIo.Util.SceneControl.html": {
+    "href": "api/CatchIo.Util.SceneControl.html",
+    "title": "Class SceneControl | Catch.io Dev Doc",
+    "keywords": "Class SceneControl Inheritance Object SceneControl Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class SceneControl Methods Load(String, LoadSceneMode) Declaration public static void Load(string sceneName, LoadSceneMode mode = null) Parameters Type Name Description String sceneName LoadSceneMode mode UnLoadAdditive(String) Declaration public static void UnLoadAdditive(string sceneName) Parameters Type Name Description String sceneName"
+  },
+  "api/CatchIo.Util.Singleton-1.html": {
+    "href": "api/CatchIo.Util.Singleton-1.html",
+    "title": "Class Singleton<T> | Catch.io Dev Doc",
+    "keywords": "Class Singleton<T> Inheritance Object Singleton<T> Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public class Singleton<T> where T : class Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T"
+  },
+  "api/CatchIo.Util.SingletonMonoBehaviour-1.html": {
+    "href": "api/CatchIo.Util.SingletonMonoBehaviour-1.html",
+    "title": "Class SingletonMonoBehaviour<T> | Catch.io Dev Doc",
+    "keywords": "Class SingletonMonoBehaviour<T> Inheritance Object SingletonMonoBehaviour<T> Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public abstract class SingletonMonoBehaviour<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods OnApplicationQuit() When Unity quits, it destroys objects in a random order. In principle, a Singleton is only destroyed when application quits. If any script calls Instance after it have been destroyed, it will create a buggy ghost object that will stay on the Editor scene even after stopping playing the Application. Really bad! So, this was made to be sure we're not creating that buggy ghost object. Declaration protected virtual void OnApplicationQuit()"
+  },
+  "api/CatchIo.Util.Surface.html": {
+    "href": "api/CatchIo.Util.Surface.html",
+    "title": "Class Surface | Catch.io Dev Doc",
+    "keywords": "Class Surface Inheritance Object Surface Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class Surface Fields SurfaceTypeToTileMapName Declaration public static Dictionary<Surface.SurfaceType, string> SurfaceTypeToTileMapName Field Value Type Description Dictionary < Surface.SurfaceType , String > Methods GetSurfaceType(TileBase) Declaration public static Surface.SurfaceType GetSurfaceType(TileBase currentTile) Parameters Type Name Description TileBase currentTile Returns Type Description Surface.SurfaceType LeavesFootprints(Surface.SurfaceType) Declaration public static bool LeavesFootprints(Surface.SurfaceType surface) Parameters Type Name Description Surface.SurfaceType surface Returns Type Description Boolean"
+  },
+  "api/CatchIo.Util.Surface.SurfaceType.html": {
+    "href": "api/CatchIo.Util.Surface.SurfaceType.html",
+    "title": "Enum Surface.SurfaceType | Catch.io Dev Doc",
+    "keywords": "Enum Surface.SurfaceType Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public enum SurfaceType Fields Name Description Dirt Error Grass Ground Water"
+  },
+  "api/CatchIo.Util.TileInfo.html": {
+    "href": "api/CatchIo.Util.TileInfo.html",
+    "title": "Class TileInfo | Catch.io Dev Doc",
+    "keywords": "Class TileInfo Inheritance Object TileInfo Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public class TileInfo Properties ParantTilemap Declaration public Tilemap ParantTilemap { get; set; } Property Value Type Description Tilemap TilemapObject Declaration public GameObject TilemapObject { get; set; } Property Value Type Description GameObject TilemapSortLayer Declaration public string TilemapSortLayer { get; } Property Value Type Description String TilemapSortOrder Declaration public int TilemapSortOrder { get; } Property Value Type Description Int32 TileRenderer Declaration public TilemapRenderer TileRenderer { get; set; } Property Value Type Description TilemapRenderer"
+  },
+  "api/CatchIo.Util.TilemapContainer.html": {
+    "href": "api/CatchIo.Util.TilemapContainer.html",
+    "title": "Class TilemapContainer | Catch.io Dev Doc",
+    "keywords": "Class TilemapContainer Inheritance Object TilemapContainer Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public class TilemapContainer : MonoBehaviour Methods GetTileMaps() Declaration public List<TileInfo> GetTileMaps() Returns Type Description List < TileInfo >"
   },
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Catch.io Dev Doc",
-    "keywords": "Namespace Global Classes BouncingToadCollisionStrategy BouncingToadProjectile CameraManager CameraTargetMovement CatchButtonEnable CharacterRenderer EditorGameLoader Effect EffectData EffectScriptableObject Elevation ElevationTrigger ExtensionMethods FloorTilemaps Footprint FootprintGenerator GameCamera Master class for game scene camera controller objects. GameManager GuiBehavior Master class used for components that has to work with scene UI elements and their behaviors. Inventory InventoryHUD Launcher The entry point for establishing a connection between the player and the master server. This script will handle the menu GUI logic as well. LightFlicker LobbyRoomsView View controller for the game lobby menu. This class will only expose the GUI methods and controls for the scene to render. The actual logic of all this is handled by the lobby manager script. NetworkCallback Master class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. NetworkLobbyManager Photon lobby scene manager. All the lobby logic and network management should be handled from here. Player PlayerControlInput Player controller abstraction component. Everything that relates to controlling the player should be part of this script. Projectile ProjectileCollisionStrategy ProjectileData ProjectileEffect ProjectilePathGenerator ProjectileScriptableObject PurePoolManager RaycastOrigins RaySpace RoomItemControl A GUI controller script for displaying Photon rooms RotateJoystick Singleton<T> SingletonMonoBehaviour<T> SingletonReferences SoundManager SoundWave SoundWaveEffect StaminaBar StaminaMeter StoneCollisionStrategy StoneProjectile StunBombEffect StunBombExplosion StunBombProjectile SurfaceDictionary ThrowableObject TileInfo TilemapContainer Structs Footprint.FootprintSprite ProjectileCollisionStrategy.OffensiveValue ProjectileValues Interfaces ICallback IHitable Enums AllScenes EffectType HitPoint MenuScenes MoveState PlayableScenes ThrowableType"
-  },
-  "api/Global.ICallback.html": {
-    "href": "api/Global.ICallback.html",
-    "title": "Interface ICallback | Catch.io Dev Doc",
-    "keywords": "Interface ICallback Namespace : Global Assembly : cs.temp.dll.dll Syntax public interface ICallback Methods Invoke() Declaration void Invoke()"
-  },
-  "api/Global.IHitable.html": {
-    "href": "api/Global.IHitable.html",
-    "title": "Interface IHitable | Catch.io Dev Doc",
-    "keywords": "Interface IHitable Namespace : Global Assembly : cs.temp.dll.dll Syntax public interface IHitable Properties IsCaught Declaration bool IsCaught { get; set; } Property Value Type Description Boolean IsStun Declaration bool IsStun { get; set; } Property Value Type Description Boolean StunDelayTime Declaration WaitForSecondsRealtime StunDelayTime { get; set; } Property Value Type Description WaitForSecondsRealtime Methods OnCaught(Vector2) Declaration void OnCaught(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir OnHit(ThrowableObject) Declaration void OnHit(ThrowableObject throwableObject) Parameters Type Name Description ThrowableObject throwableObject"
-  },
-  "api/Global.Inventory.html": {
-    "href": "api/Global.Inventory.html",
-    "title": "Class Inventory | Catch.io Dev Doc",
-    "keywords": "Class Inventory Inheritance Object Inventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Inventory : MonoBehaviourPun Fields MaxInventorySlot Declaration public int MaxInventorySlot Field Value Type Description Int32 UpdateHUDEvent Declaration public Action UpdateHUDEvent Field Value Type Description Action Methods AddObject(ThrowableType) Declaration public void AddObject(ThrowableType _type) Parameters Type Name Description ThrowableType _type GetInventoryObjects() Declaration public List<ThrowableObject> GetInventoryObjects() Returns Type Description List < ThrowableObject > GetSelectedIndex() Declaration public int GetSelectedIndex() Returns Type Description Int32 GetThrowableObjectType() Declaration public ThrowableType GetThrowableObjectType() Returns Type Description ThrowableType GetThrowalbeObject() Declaration public ThrowableObject GetThrowalbeObject() Returns Type Description ThrowableObject IsEmpty() Declaration public bool IsEmpty() Returns Type Description Boolean IsFull() Declaration public bool IsFull() Returns Type Description Boolean RemoveObject() Declaration public void RemoveObject() SetSelectIndex(Int32) Declaration public void SetSelectIndex(int index) Parameters Type Name Description Int32 index"
-  },
-  "api/Global.InventoryHUD.html": {
-    "href": "api/Global.InventoryHUD.html",
-    "title": "Class InventoryHUD | Catch.io Dev Doc",
-    "keywords": "Class InventoryHUD Inheritance Object InventoryHUD Namespace : Global Assembly : cs.temp.dll.dll Syntax public class InventoryHUD : MonoBehaviour Methods SelectItem(Int32) Declaration public void SelectItem(int index) Parameters Type Name Description Int32 index UpdateHUD() Declaration public void UpdateHUD()"
-  },
-  "api/Global.Launcher.html": {
-    "href": "api/Global.Launcher.html",
-    "title": "Class Launcher | Catch.io Dev Doc",
-    "keywords": "Class Launcher The entry point for establishing a connection between the player and the master server. This script will handle the menu GUI logic as well. Inheritance Object NetworkCallback Launcher Inherited Members NetworkCallback.gameVersion NetworkCallback.OnJoinRoomFailed(Int16, String) NetworkCallback.OnCreateRoomFailed(Int16, String) Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Launcher : NetworkCallback Methods OnClick_Login() Connect the user to Photon when they click the login button Declaration public void OnClick_Login() OnConnectedToMaster() Declaration public override void OnConnectedToMaster() OnDisconnected(DisconnectCause) Declaration public override void OnDisconnected(DisconnectCause cause) Parameters Type Name Description DisconnectCause cause Overrides NetworkCallback.OnDisconnected(DisconnectCause) OnJoinedLobby() Declaration public override void OnJoinedLobby()"
-  },
-  "api/Global.LightFlicker.html": {
-    "href": "api/Global.LightFlicker.html",
-    "title": "Class LightFlicker | Catch.io Dev Doc",
-    "keywords": "Class LightFlicker Inheritance Object LightFlicker Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LightFlicker : MonoBehaviour Fields flickerRangeMax Declaration public float flickerRangeMax Field Value Type Description Single flickerRangeMin Declaration public float flickerRangeMin Field Value Type Description Single flickersPerSecond Declaration public float flickersPerSecond Field Value Type Description Single"
-  },
-  "api/Global.LobbyRoomsView.html": {
-    "href": "api/Global.LobbyRoomsView.html",
-    "title": "Class LobbyRoomsView | Catch.io Dev Doc",
-    "keywords": "Class LobbyRoomsView View controller for the game lobby menu. This class will only expose the GUI methods and controls for the scene to render. The actual logic of all this is handled by the lobby manager script. Inheritance Object GuiBehavior LobbyRoomsView Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LobbyRoomsView : GuiBehavior Properties NewRoomMap Declaration public string NewRoomMap { get; } Property Value Type Description String NewRoomMaxPlayer Declaration public int NewRoomMaxPlayer { get; } Property Value Type Description Int32 NewRoomName Declaration public string NewRoomName { get; } Property Value Type Description String Methods AddRoomRender(RoomInfo) Declaration public void AddRoomRender(RoomInfo room) Parameters Type Name Description RoomInfo room DisplayLogMessage(String, Color) Declaration public void DisplayLogMessage(string message, Color color) Parameters Type Name Description String message Color color OnChange_MapDropdown() Declaration public void OnChange_MapDropdown() OnChange_MaxSlider() Declaration public void OnChange_MaxSlider() OnChange_RoomNameInput() Declaration public void OnChange_RoomNameInput() OnClick_CloseCreateRoomPanel() Declaration public void OnClick_CloseCreateRoomPanel() OnClick_CreateRoomButton() Declaration public void OnClick_CreateRoomButton() OnClick_OpenCreateRoomPanel() Declaration public void OnClick_OpenCreateRoomPanel() RemoveRoomRender(RoomInfo) Declaration public void RemoveRoomRender(RoomInfo room) Parameters Type Name Description RoomInfo room SetInitialRoomData() Declaration public void SetInitialRoomData() SetLoadableScenes(List<String>) Declaration public void SetLoadableScenes(List<string> playableList) Parameters Type Name Description List < String > playableList SetPlayerNameLabel(String) Declaration public void SetPlayerNameLabel(string name) Parameters Type Name Description String name"
-  },
-  "api/Global.MenuScenes.html": {
-    "href": "api/Global.MenuScenes.html",
-    "title": "Enum MenuScenes | Catch.io Dev Doc",
-    "keywords": "Enum MenuScenes Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum MenuScenes Fields Name Description Launcher LobbyMenu"
-  },
-  "api/Global.MoveState.html": {
-    "href": "api/Global.MoveState.html",
-    "title": "Enum MoveState | Catch.io Dev Doc",
-    "keywords": "Enum MoveState Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum MoveState Fields Name Description Run Sneak SneakStatic Static Walk"
-  },
-  "api/Global.NetworkCallback.html": {
-    "href": "api/Global.NetworkCallback.html",
-    "title": "Class NetworkCallback | Catch.io Dev Doc",
-    "keywords": "Class NetworkCallback Master class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. Inheritance Object NetworkCallback GameManager Launcher NetworkLobbyManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class NetworkCallback : MonoBehaviourPunCallbacks Fields gameVersion This client's version number. Users are separated from each other by gameVersion (which allows you to make breaking changes). Declaration public string gameVersion Field Value Type Description String Methods OnCreateRoomFailed(Int16, String) Declaration public override void OnCreateRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message OnDisconnected(DisconnectCause) Declaration public override void OnDisconnected(DisconnectCause cause) Parameters Type Name Description DisconnectCause cause OnJoinRoomFailed(Int16, String) Declaration public override void OnJoinRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message"
-  },
-  "api/Global.NetworkLobbyManager.html": {
-    "href": "api/Global.NetworkLobbyManager.html",
-    "title": "Class NetworkLobbyManager | Catch.io Dev Doc",
-    "keywords": "Class NetworkLobbyManager Photon lobby scene manager. All the lobby logic and network management should be handled from here. Inheritance Object NetworkCallback NetworkLobbyManager Inherited Members NetworkCallback.gameVersion NetworkCallback.OnDisconnected(DisconnectCause) NetworkCallback.OnCreateRoomFailed(Int16, String) Namespace : Global Assembly : cs.temp.dll.dll Syntax public class NetworkLobbyManager : NetworkCallback Fields instance Declaration public static GameObject instance Field Value Type Description GameObject Methods CreateRoom(String, String, Byte) Declaration public void CreateRoom(string roomName, string mapName, byte maxPlayer) Parameters Type Name Description String roomName String mapName Byte maxPlayer JoinRoom(String) Declaration public void JoinRoom(string roomName) Parameters Type Name Description String roomName OnCreatedRoom() Declaration public override void OnCreatedRoom() OnJoinedRoom() Declaration public override void OnJoinedRoom() OnJoinRoomFailed(Int16, String) Declaration public override void OnJoinRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message Overrides NetworkCallback.OnJoinRoomFailed(Int16, String) OnRoomListUpdate(List<RoomInfo>) Declaration public override void OnRoomListUpdate(List<RoomInfo> roomList) Parameters Type Name Description List < RoomInfo > roomList"
-  },
-  "api/Global.PlayableScenes.html": {
-    "href": "api/Global.PlayableScenes.html",
-    "title": "Enum PlayableScenes | Catch.io Dev Doc",
-    "keywords": "Enum PlayableScenes Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum PlayableScenes Fields Name Description GrassLands HouseInteriorsTest TestMap VillageMap"
-  },
-  "api/Global.Player.html": {
-    "href": "api/Global.Player.html",
-    "title": "Class Player | Catch.io Dev Doc",
-    "keywords": "Class Player Inheritance Object Player Implements IHitable IPunObservable Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Player : MonoBehaviourPun, IHitable, IPunObservable Fields CatchAngle Declaration public float CatchAngle Field Value Type Description Single CatchRadius Declaration public float CatchRadius Field Value Type Description Single CrouchingSpeed Declaration public float CrouchingSpeed Field Value Type Description Single CurrentSurface Declaration public Surface.SurfaceType CurrentSurface Field Value Type Description Utils.Surface.SurfaceType LookAngle Declaration public int LookAngle Field Value Type Description Int32 LookDirection Declaration public Vector2 LookDirection Field Value Type Description Vector2 MoveDirectionAngle Declaration public int MoveDirectionAngle Field Value Type Description Int32 MoveSpeed Declaration public float MoveSpeed Field Value Type Description Single PlayerMoveState Declaration public MoveState PlayerMoveState Field Value Type Description MoveState ProjectileValues Declaration public ProjectileValues ProjectileValues Field Value Type Description ProjectileValues RunSpeed Declaration public float RunSpeed Field Value Type Description Single StandingTile Declaration public TileBase StandingTile Field Value Type Description TileBase Properties CurrentSpeed Declaration public float CurrentSpeed { get; } Property Value Type Description Single Elevation Declaration public int Elevation { get; } Property Value Type Description Int32 Inventory Declaration public Inventory Inventory { get; } Property Value Type Description Inventory IsCaught Declaration public bool IsCaught { get; set; } Property Value Type Description Boolean IsLocalClient Declaration public bool IsLocalClient { get; } Property Value Type Description Boolean IsStun Declaration public bool IsStun { get; set; } Property Value Type Description Boolean PlayerControl Declaration public PlayerControlInput PlayerControl { get; } Property Value Type Description PlayerControlInput PlayerName Declaration public string PlayerName { get; } Property Value Type Description String StunDelayTime Declaration public WaitForSecondsRealtime StunDelayTime { get; set; } Property Value Type Description WaitForSecondsRealtime Methods CalculateObjectProjectileMotion(Vector3) Declaration public void CalculateObjectProjectileMotion(Vector3 endPosition) Parameters Type Name Description Vector3 endPosition CanCatch(Vector2) Checks if the player can catch another player with the given direction Declaration public bool CanCatch(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir Returns Type Description Boolean can catch state CanThrow() Declaration public bool CanThrow() Returns Type Description Boolean Catch(Vector2) Declaration public void Catch(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir LookAt(Vector2) Sets the player view direction with the given vector. This method is used to set the player sprite direction and the FOV light. Declaration public void LookAt(Vector2 lookPoint) Parameters Type Name Description Vector2 lookPoint Move(Vector2, MoveState) Moves the player object with the given input vector and the movement state. This method will also set the player's movement state that will be used for changing the animation. Declaration public void Move(Vector2 inputVector, MoveState moveState) Parameters Type Name Description Vector2 inputVector MoveState moveState OnCaught(Vector2) Declaration public void OnCaught(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir OnHit(ThrowableObject) Declaration public void OnHit(ThrowableObject throwableObject) Parameters Type Name Description ThrowableObject throwableObject OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info ReleaseProjectile() Declaration public void ReleaseProjectile() ResetSubject() Declaration public void ResetSubject() SelectItem(Int32) Declaration public void SelectItem(int index) Parameters Type Name Description Int32 index SetPlayerName(String) Declaration public void SetPlayerName(string name) Parameters Type Name Description String name SetTrajectoryActive(Boolean) Declaration public void SetTrajectoryActive(bool active) Parameters Type Name Description Boolean active SpawnProjectile() Declaration public void SpawnProjectile() ThrowObject() Throws a projectile in the inventory queue with the given power and direction. Declaration public void ThrowObject() UpdateCurrentTileInfo() Declaration public void UpdateCurrentTileInfo() Implements IHitable IPunObservable"
-  },
-  "api/Global.PlayerControlInput.html": {
-    "href": "api/Global.PlayerControlInput.html",
-    "title": "Class PlayerControlInput | Catch.io Dev Doc",
-    "keywords": "Class PlayerControlInput Player controller abstraction component. Everything that relates to controlling the player should be part of this script. Inheritance Object PlayerControlInput Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PlayerControlInput : MonoBehaviour Fields CatchButtonSubject Declaration public Subject CatchButtonSubject Field Value Type Description ObserverPattern.Subject RotateJoystick Declaration public Joystick RotateJoystick Field Value Type Description Joystick ThrowMode Declaration public bool ThrowMode Field Value Type Description Boolean Properties CanCatch Declaration public bool CanCatch { get; } Property Value Type Description Boolean ControlTarget Declaration public Player ControlTarget { get; } Property Value Type Description Player Methods MobileCursorPosition() Declaration public Vector2 MobileCursorPosition() Returns Type Description Vector2"
-  },
-  "api/Global.Projectile.html": {
-    "href": "api/Global.Projectile.html",
-    "title": "Class Projectile | Catch.io Dev Doc",
-    "keywords": "Class Projectile Inheritance Object Projectile BouncingToadProjectile StoneProjectile StunBombProjectile Namespace : Global Assembly : cs.temp.dll.dll Syntax public abstract class Projectile : MonoBehaviour Methods Execute() Declaration public abstract void Execute() GetMovePoints(Vector2, Vector2) Declaration public abstract List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > HandleDestroy() Declaration public abstract void HandleDestroy() HandleSpawn(Int32) Declaration public abstract void HandleSpawn(int elevation) Parameters Type Name Description Int32 elevation Initialize() Declaration public abstract void Initialize() OnGround() Declaration public abstract void OnGround() OnTriggerEnter2D(Collider2D) Declaration public abstract void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other SetSpritePosition(Vector3) Declaration public abstract void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position"
-  },
-  "api/Global.ProjectileCollisionStrategy.html": {
-    "href": "api/Global.ProjectileCollisionStrategy.html",
-    "title": "Class ProjectileCollisionStrategy | Catch.io Dev Doc",
-    "keywords": "Class ProjectileCollisionStrategy Inheritance Object ProjectileCollisionStrategy BouncingToadCollisionStrategy StoneCollisionStrategy Namespace : Global Assembly : cs.temp.dll.dll Syntax public abstract class ProjectileCollisionStrategy : ScriptableObject Methods Execute(Boolean) Declaration public abstract void Execute(bool isGround) Parameters Type Name Description Boolean isGround Initialize(BoxCollider2D) Declaration public abstract void Initialize(BoxCollider2D collider2D) Parameters Type Name Description BoxCollider2D collider2D"
-  },
-  "api/Global.ProjectileCollisionStrategy.OffensiveValue.html": {
-    "href": "api/Global.ProjectileCollisionStrategy.OffensiveValue.html",
-    "title": "Struct ProjectileCollisionStrategy.OffensiveValue | Catch.io Dev Doc",
-    "keywords": "Struct ProjectileCollisionStrategy.OffensiveValue Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public struct OffensiveValue Fields CanStun Declaration public bool CanStun Field Value Type Description Boolean Damage Declaration public float Damage Field Value Type Description Single"
-  },
-  "api/Global.ProjectileData.html": {
-    "href": "api/Global.ProjectileData.html",
-    "title": "Class ProjectileData | Catch.io Dev Doc",
-    "keywords": "Class ProjectileData Inheritance Object ProjectileData Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public class ProjectileData Properties Prefab Declaration public GameObject Prefab { get; } Property Value Type Description GameObject ThrowableType Declaration public ThrowableType ThrowableType { get; } Property Value Type Description ThrowableType"
-  },
-  "api/Global.ProjectileEffect.html": {
-    "href": "api/Global.ProjectileEffect.html",
-    "title": "Class ProjectileEffect | Catch.io Dev Doc",
-    "keywords": "Class ProjectileEffect Inheritance Object ProjectileEffect SoundWaveEffect StunBombEffect Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ProjectileEffect : ScriptableObject Fields _poolManager Declaration protected PurePoolManager _poolManager Field Value Type Description PurePoolManager Methods Cancel() Declaration public virtual void Cancel() HandleDestroy(GameObject) Declaration public virtual void HandleDestroy(GameObject targetObject) Parameters Type Name Description GameObject targetObject Initialize() Declaration public virtual void Initialize() SpawnAtPoint(Transform, Int32) Declaration public virtual void SpawnAtPoint(Transform transform, int elevation) Parameters Type Name Description Transform transform Int32 elevation"
-  },
-  "api/Global.ProjectilePathGenerator.html": {
-    "href": "api/Global.ProjectilePathGenerator.html",
-    "title": "Class ProjectilePathGenerator | Catch.io Dev Doc",
-    "keywords": "Class ProjectilePathGenerator Inheritance Object ProjectilePathGenerator Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ProjectilePathGenerator : ScriptableObject Fields ProjectileValues Declaration public ProjectileValues ProjectileValues Field Value Type Description ProjectileValues Methods CalculateBouncePoints(Vector2, Vector2, Int32) Declaration public List<Vector3> CalculateBouncePoints(Vector2 originPosition, Vector2 endPosition, int bounceCount = 3) Parameters Type Name Description Vector2 originPosition Vector2 endPosition Int32 bounceCount Returns Type Description List < Vector3 > CalculatePoints(Vector2, Vector2, Boolean) Declaration public void CalculatePoints(Vector2 originPosition, Vector2 endPosition, bool isBounce = false) Parameters Type Name Description Vector2 originPosition Vector2 endPosition Boolean isBounce GetMovePoints() Declaration public List<Vector3> GetMovePoints() Returns Type Description List < Vector3 > Initialize(BoxCollider2D) Declaration public void Initialize(BoxCollider2D boxCollider) Parameters Type Name Description BoxCollider2D boxCollider"
-  },
-  "api/Global.ProjectileScriptableObject.html": {
-    "href": "api/Global.ProjectileScriptableObject.html",
-    "title": "Class ProjectileScriptableObject | Catch.io Dev Doc",
-    "keywords": "Class ProjectileScriptableObject Inheritance Object ProjectileScriptableObject Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ProjectileScriptableObject : ScriptableObject Fields ProjectileDatas Declaration public List<ProjectileData> ProjectileDatas Field Value Type Description List < ProjectileData > Methods FindProjectileData(ThrowableType) Declaration public ProjectileData FindProjectileData(ThrowableType type) Parameters Type Name Description ThrowableType type Returns Type Description ProjectileData"
-  },
-  "api/Global.ProjectileValues.html": {
-    "href": "api/Global.ProjectileValues.html",
-    "title": "Struct ProjectileValues | Catch.io Dev Doc",
-    "keywords": "Struct ProjectileValues Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public struct ProjectileValues Fields MaxRadius Declaration public float MaxRadius Field Value Type Description Single MoveSpeed Declaration public float MoveSpeed Field Value Type Description Single MultiplyXDistanceToIncreaseValue Declaration public float MultiplyXDistanceToIncreaseValue Field Value Type Description Single NumOfMovePoints Declaration public int NumOfMovePoints Field Value Type Description Int32 Properties MovePointDuration Declaration public float MovePointDuration { get; } Property Value Type Description Single"
-  },
-  "api/Global.PurePoolManager.html": {
-    "href": "api/Global.PurePoolManager.html",
-    "title": "Class PurePoolManager | Catch.io Dev Doc",
-    "keywords": "Class PurePoolManager Inheritance Object PurePoolManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PurePoolManager : MonoBehaviour Fields Instance Declaration public static PurePoolManager Instance Field Value Type Description PurePoolManager Methods AcquireEffect(EffectType, Vector3, Quaternion) Declaration public GameObject AcquireEffect(EffectType effectType, Vector3 position, Quaternion rotation) Parameters Type Name Description EffectType effectType Vector3 position Quaternion rotation Returns Type Description GameObject AcquireFootprint(Vector3, Quaternion) Declaration public GameObject AcquireFootprint(Vector3 position, Quaternion rotation) Parameters Type Name Description Vector3 position Quaternion rotation Returns Type Description GameObject AcquireProjectile(ThrowableObject, Vector3, Quaternion) Declaration public GameObject AcquireProjectile(ThrowableObject throwableObject, Vector3 position, Quaternion rotation) Parameters Type Name Description ThrowableObject throwableObject Vector3 position Quaternion rotation Returns Type Description GameObject ReleasePool(GameObject) Declaration public void ReleasePool(GameObject obj) Parameters Type Name Description GameObject obj"
-  },
-  "api/Global.RaycastOrigins.html": {
-    "href": "api/Global.RaycastOrigins.html",
-    "title": "Class RaycastOrigins | Catch.io Dev Doc",
-    "keywords": "Class RaycastOrigins Inheritance Object RaycastOrigins Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public class RaycastOrigins Fields centerDown Declaration public Vector2 centerDown Field Value Type Description Vector2 centerLeft Declaration public Vector2 centerLeft Field Value Type Description Vector2 downHitCount Declaration public int downHitCount Field Value Type Description Int32 isCheck Declaration public bool isCheck Field Value Type Description Boolean leftHitCount Declaration public int leftHitCount Field Value Type Description Int32 rayLength Declaration public float rayLength Field Value Type Description Single rightHitCount Declaration public int rightHitCount Field Value Type Description Int32 upHitCount Declaration public int upHitCount Field Value Type Description Int32 Methods CalculateBounceOffHitCount(RaySpace) Declaration public void CalculateBounceOffHitCount(RaySpace raySpace) Parameters Type Name Description RaySpace raySpace GetHitPoint() Declaration public HitPoint GetHitPoint() Returns Type Description HitPoint ResetHitCount() Declaration public void ResetHitCount() UpdateRaycastOrigins(BoxCollider2D) Declaration public RaycastOrigins UpdateRaycastOrigins(BoxCollider2D _collider2D) Parameters Type Name Description BoxCollider2D _collider2D Returns Type Description RaycastOrigins"
-  },
-  "api/Global.RaySpace.html": {
-    "href": "api/Global.RaySpace.html",
-    "title": "Class RaySpace | Catch.io Dev Doc",
-    "keywords": "Class RaySpace Inheritance Object RaySpace Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RaySpace Constructors RaySpace() Declaration public RaySpace() Fields horizontalRayCount Declaration public int horizontalRayCount Field Value Type Description Int32 horizontalRaySpacing Declaration public float horizontalRaySpacing Field Value Type Description Single verticalRayCount Declaration public int verticalRayCount Field Value Type Description Int32 verticalRaySpacing Declaration public float verticalRaySpacing Field Value Type Description Single Methods CalculateRaySpacing(BoxCollider2D) Declaration public RaySpace CalculateRaySpacing(BoxCollider2D _collider2D) Parameters Type Name Description BoxCollider2D _collider2D Returns Type Description RaySpace"
-  },
-  "api/Global.RoomItemControl.html": {
-    "href": "api/Global.RoomItemControl.html",
-    "title": "Class RoomItemControl | Catch.io Dev Doc",
-    "keywords": "Class RoomItemControl A GUI controller script for displaying Photon rooms Inheritance Object GuiBehavior RoomItemControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RoomItemControl : GuiBehavior Properties RoomName Declaration public string RoomName { get; } Property Value Type Description String Methods CreateRoomRender(RoomInfo) Declaration public void CreateRoomRender(RoomInfo room) Parameters Type Name Description RoomInfo room OnClick_JoinRoom() Declaration public void OnClick_JoinRoom()"
-  },
-  "api/Global.RotateJoystick.html": {
-    "href": "api/Global.RotateJoystick.html",
-    "title": "Class RotateJoystick | Catch.io Dev Doc",
-    "keywords": "Class RotateJoystick Inheritance Object RotateJoystick Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RotateJoystick : UnityStandardAssets.CrossPlatformInput.Joystick Methods Start() Declaration public override void Start()"
-  },
-  "api/Global.Singleton-1.html": {
-    "href": "api/Global.Singleton-1.html",
-    "title": "Class Singleton<T> | Catch.io Dev Doc",
-    "keywords": "Class Singleton<T> Inheritance Object Singleton<T> Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Singleton<T> where T : class Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T"
-  },
-  "api/Global.SingletonMonoBehaviour-1.html": {
-    "href": "api/Global.SingletonMonoBehaviour-1.html",
-    "title": "Class SingletonMonoBehaviour<T> | Catch.io Dev Doc",
-    "keywords": "Class SingletonMonoBehaviour<T> Inheritance Object SingletonMonoBehaviour<T> SoundManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public abstract class SingletonMonoBehaviour<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods OnApplicationQuit() When Unity quits, it destroys objects in a random order. In principle, a Singleton is only destroyed when application quits. If any script calls Instance after it have been destroyed, it will create a buggy ghost object that will stay on the Editor scene even after stopping playing the Application. Really bad! So, this was made to be sure we're not creating that buggy ghost object. Declaration protected virtual void OnApplicationQuit()"
-  },
-  "api/Global.SingletonReferences.html": {
-    "href": "api/Global.SingletonReferences.html",
-    "title": "Class SingletonReferences | Catch.io Dev Doc",
-    "keywords": "Class SingletonReferences Inheritance Object SingletonReferences Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SingletonReferences : MonoBehaviour"
-  },
-  "api/Global.SoundManager.html": {
-    "href": "api/Global.SoundManager.html",
-    "title": "Class SoundManager | Catch.io Dev Doc",
-    "keywords": "Class SoundManager Inheritance Object SingletonMonoBehaviour < SoundManager > SoundManager Inherited Members SingletonMonoBehaviour<SoundManager>.Instance SingletonMonoBehaviour<SoundManager>.OnApplicationQuit() Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SoundManager : SingletonMonoBehaviour<SoundManager> Fields surfaceSound Declaration public string surfaceSound Field Value Type Description String Methods PlaySurfaceSFX(Transform, Surface.SurfaceType, Single) Declaration public void PlaySurfaceSFX(Transform origin, Surface.SurfaceType surfaceType, float volume = 1F) Parameters Type Name Description Transform origin Surface.SurfaceType surfaceType Single volume"
-  },
-  "api/Global.SoundWave.html": {
-    "href": "api/Global.SoundWave.html",
-    "title": "Class SoundWave | Catch.io Dev Doc",
-    "keywords": "Class SoundWave Inheritance Object Effect SoundWave Inherited Members Effect.DestroyHandler Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SoundWave : Effect Fields Range Declaration public float Range Field Value Type Description Single Speed Declaration public float Speed Field Value Type Description Single Methods Initialize(Action<GameObject>) Declaration public override void Initialize(Action<GameObject> destroyAction) Parameters Type Name Description Action < GameObject > destroyAction Overrides Effect.Initialize(Action<GameObject>)"
-  },
-  "api/Global.SoundWaveEffect.html": {
-    "href": "api/Global.SoundWaveEffect.html",
-    "title": "Class SoundWaveEffect | Catch.io Dev Doc",
-    "keywords": "Class SoundWaveEffect Inheritance Object ProjectileEffect SoundWaveEffect Inherited Members ProjectileEffect._poolManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SoundWaveEffect : ProjectileEffect Methods Cancel() Declaration public override void Cancel() Overrides ProjectileEffect.Cancel() HandleDestroy(GameObject) Declaration public override void HandleDestroy(GameObject targetObject) Parameters Type Name Description GameObject targetObject Overrides ProjectileEffect.HandleDestroy(GameObject) Initialize() Declaration public override void Initialize() Overrides ProjectileEffect.Initialize() SpawnAtPoint(Transform, Int32) Declaration public override void SpawnAtPoint(Transform transform, int elevation) Parameters Type Name Description Transform transform Int32 elevation Overrides ProjectileEffect.SpawnAtPoint(Transform, Int32)"
-  },
-  "api/Global.StaminaBar.html": {
-    "href": "api/Global.StaminaBar.html",
-    "title": "Class StaminaBar | Catch.io Dev Doc",
-    "keywords": "Class StaminaBar Inheritance Object StaminaBar Namespace : Global Assembly : cs.temp.dll.dll Syntax public class StaminaBar : MonoBehaviour Fields healthBarCorrection Declaration public float healthBarCorrection Field Value Type Description Single staminaBar Declaration public Slider staminaBar Field Value Type Description Slider Methods LateUpdate() Declaration public void LateUpdate() Start() Declaration public void Start()"
-  },
-  "api/Global.StaminaMeter.html": {
-    "href": "api/Global.StaminaMeter.html",
-    "title": "Class StaminaMeter | Catch.io Dev Doc",
-    "keywords": "Class StaminaMeter Inheritance Object StaminaMeter Namespace : Global Assembly : cs.temp.dll.dll Syntax public class StaminaMeter : MonoBehaviour Fields maxStamina Declaration public float maxStamina Field Value Type Description Single stamina Declaration public float stamina Field Value Type Description Single timer Declaration public float timer Field Value Type Description Single"
-  },
-  "api/Global.StoneCollisionStrategy.html": {
-    "href": "api/Global.StoneCollisionStrategy.html",
-    "title": "Class StoneCollisionStrategy | Catch.io Dev Doc",
-    "keywords": "Class StoneCollisionStrategy Inheritance Object ProjectileCollisionStrategy StoneCollisionStrategy Namespace : Global Assembly : cs.temp.dll.dll Syntax public class StoneCollisionStrategy : ProjectileCollisionStrategy Methods Execute(Boolean) Declaration public override void Execute(bool isGround) Parameters Type Name Description Boolean isGround Overrides ProjectileCollisionStrategy.Execute(Boolean) Initialize(BoxCollider2D) Declaration public override void Initialize(BoxCollider2D collider2D) Parameters Type Name Description BoxCollider2D collider2D Overrides ProjectileCollisionStrategy.Initialize(BoxCollider2D)"
-  },
-  "api/Global.StoneProjectile.html": {
-    "href": "api/Global.StoneProjectile.html",
-    "title": "Class StoneProjectile | Catch.io Dev Doc",
-    "keywords": "Class StoneProjectile Inheritance Object Projectile StoneProjectile Namespace : Global Assembly : cs.temp.dll.dll Syntax public class StoneProjectile : Projectile Methods Execute() Declaration public override void Execute() Overrides Projectile.Execute() GetMovePoints(Vector2, Vector2) Declaration public override List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > Overrides Projectile.GetMovePoints(Vector2, Vector2) HandleDestroy() Declaration public override void HandleDestroy() Overrides Projectile.HandleDestroy() HandleSpawn(Int32) Declaration public override void HandleSpawn(int elevation = 0) Parameters Type Name Description Int32 elevation Overrides Projectile.HandleSpawn(Int32) Initialize() Declaration public override void Initialize() Overrides Projectile.Initialize() OnGround() Declaration public override void OnGround() Overrides Projectile.OnGround() OnTriggerEnter2D(Collider2D) Declaration public override void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other Overrides Projectile.OnTriggerEnter2D(Collider2D) SetSpritePosition(Vector3) Declaration public override void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position Overrides Projectile.SetSpritePosition(Vector3)"
-  },
-  "api/Global.StunBombEffect.html": {
-    "href": "api/Global.StunBombEffect.html",
-    "title": "Class StunBombEffect | Catch.io Dev Doc",
-    "keywords": "Class StunBombEffect Inheritance Object ProjectileEffect StunBombEffect Inherited Members ProjectileEffect._poolManager ProjectileEffect.Initialize() Namespace : Global Assembly : cs.temp.dll.dll Syntax public class StunBombEffect : ProjectileEffect Methods Cancel() Declaration public override void Cancel() Overrides ProjectileEffect.Cancel() HandleDestroy(GameObject) Declaration public override void HandleDestroy(GameObject targetObject) Parameters Type Name Description GameObject targetObject Overrides ProjectileEffect.HandleDestroy(GameObject) SetRadius(Single) Declaration public void SetRadius(float radius) Parameters Type Name Description Single radius SpawnAtPoint(Transform, Int32) Declaration public override void SpawnAtPoint(Transform transform, int elevation) Parameters Type Name Description Transform transform Int32 elevation Overrides ProjectileEffect.SpawnAtPoint(Transform, Int32)"
-  },
-  "api/Global.StunBombExplosion.html": {
-    "href": "api/Global.StunBombExplosion.html",
-    "title": "Class StunBombExplosion | Catch.io Dev Doc",
-    "keywords": "Class StunBombExplosion Inheritance Object Effect StunBombExplosion Inherited Members Effect.DestroyHandler Namespace : Global Assembly : cs.temp.dll.dll Syntax public class StunBombExplosion : Effect Methods Initialize(Action<GameObject>) Declaration public override void Initialize(Action<GameObject> destroyAction) Parameters Type Name Description Action < GameObject > destroyAction Overrides Effect.Initialize(Action<GameObject>) SetRadius(Single) Declaration public void SetRadius(float radius) Parameters Type Name Description Single radius"
-  },
-  "api/Global.StunBombProjectile.html": {
-    "href": "api/Global.StunBombProjectile.html",
-    "title": "Class StunBombProjectile | Catch.io Dev Doc",
-    "keywords": "Class StunBombProjectile Inheritance Object Projectile StunBombProjectile Namespace : Global Assembly : cs.temp.dll.dll Syntax public class StunBombProjectile : Projectile Fields ExplosionRadius Declaration public float ExplosionRadius Field Value Type Description Single Methods Execute() Declaration public override void Execute() Overrides Projectile.Execute() GetMovePoints(Vector2, Vector2) Declaration public override List<Vector3> GetMovePoints(Vector2 startPosition, Vector2 endPosition) Parameters Type Name Description Vector2 startPosition Vector2 endPosition Returns Type Description List < Vector3 > Overrides Projectile.GetMovePoints(Vector2, Vector2) HandleDestroy() Declaration public override void HandleDestroy() Overrides Projectile.HandleDestroy() HandleSpawn(Int32) Declaration public override void HandleSpawn(int elevation) Parameters Type Name Description Int32 elevation Overrides Projectile.HandleSpawn(Int32) Initialize() Declaration public override void Initialize() Overrides Projectile.Initialize() OnGround() Declaration public override void OnGround() Overrides Projectile.OnGround() OnTriggerEnter2D(Collider2D) Declaration public override void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other Overrides Projectile.OnTriggerEnter2D(Collider2D) SetSpritePosition(Vector3) Declaration public override void SetSpritePosition(Vector3 position) Parameters Type Name Description Vector3 position Overrides Projectile.SetSpritePosition(Vector3)"
+    "keywords": "Namespace Global Classes SurfaceDictionary"
   },
   "api/Global.SurfaceDictionary.html": {
     "href": "api/Global.SurfaceDictionary.html",
     "title": "Class SurfaceDictionary | Catch.io Dev Doc",
     "keywords": "Class SurfaceDictionary Inheritance Object SurfaceDictionary Namespace : Global Assembly : cs.temp.dll.dll Syntax public static class SurfaceDictionary Fields surfaceTypes Declaration public static Dictionary<string, int> surfaceTypes Field Value Type Description Dictionary < String , Int32 >"
-  },
-  "api/Global.ThrowableObject.html": {
-    "href": "api/Global.ThrowableObject.html",
-    "title": "Class ThrowableObject | Catch.io Dev Doc",
-    "keywords": "Class ThrowableObject Inheritance Object ThrowableObject Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public class ThrowableObject Constructors ThrowableObject(ThrowableType, ProjectileScriptableObject) Declaration public ThrowableObject(ThrowableType type, ProjectileScriptableObject projectileScriptableObject) Parameters Type Name Description ThrowableType type ProjectileScriptableObject projectileScriptableObject Fields Image Declaration public Sprite Image Field Value Type Description Sprite Type Declaration public ThrowableType Type Field Value Type Description ThrowableType Properties Data Declaration public ProjectileData Data { get; } Property Value Type Description ProjectileData"
-  },
-  "api/Global.ThrowableType.html": {
-    "href": "api/Global.ThrowableType.html",
-    "title": "Enum ThrowableType | Catch.io Dev Doc",
-    "keywords": "Enum ThrowableType Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum ThrowableType Fields Name Description BouncingToads Error SlimeBall Stone StunBomb TeleportRune Torches TrapRune"
-  },
-  "api/Global.TileInfo.html": {
-    "href": "api/Global.TileInfo.html",
-    "title": "Class TileInfo | Catch.io Dev Doc",
-    "keywords": "Class TileInfo Inheritance Object TileInfo Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TileInfo Properties ParantTilemap Declaration public Tilemap ParantTilemap { get; set; } Property Value Type Description Tilemap TilemapObject Declaration public GameObject TilemapObject { get; set; } Property Value Type Description GameObject TilemapSortLayer Declaration public string TilemapSortLayer { get; } Property Value Type Description String TilemapSortOrder Declaration public int TilemapSortOrder { get; } Property Value Type Description Int32 TileRenderer Declaration public TilemapRenderer TileRenderer { get; set; } Property Value Type Description TilemapRenderer"
-  },
-  "api/Global.TilemapContainer.html": {
-    "href": "api/Global.TilemapContainer.html",
-    "title": "Class TilemapContainer | Catch.io Dev Doc",
-    "keywords": "Class TilemapContainer Inheritance Object TilemapContainer Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TilemapContainer : MonoBehaviour Methods GetTileMaps() Declaration public List<TileInfo> GetTileMaps() Returns Type Description List < TileInfo >"
   },
   "index.html": {
     "href": "index.html",
