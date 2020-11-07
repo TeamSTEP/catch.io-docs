@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Project Naming Schemes | Catch.io Dev Doc </title>
+    <title>Coding Style | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Project Naming Schemes | Catch.io Dev Doc ">
+    <meta name="title" content="Coding Style | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
     <link rel="shortcut icon" href="../resources/favicon.ico">
@@ -77,7 +77,7 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="project-naming-schemes">Project Naming Schemes</h1>
+<h1 id="coding-style">Coding Style</h1>
 
 <p>This section will discuss about the naming convention of code, files, github branches, etc.
 If you find any files with inconsistent naming, please fix them accordingly.</p>
@@ -95,7 +95,22 @@ The namespace should be <code>CatchIo.&lt;folder name&gt;</code>, where the <cod
 These assets include everything from tile maps, sprites, object prefabs, shaders, etc.</p>
 <p>Scene names should be in Camel Case as well as well as items within the scenes too.
 It&#39;s discouraged to uses spaces for game object names, but not mandatory as there are some generated objects that does include a space in the name (ex: <code>Main Camera</code>).</p>
-</article>
+<h2 id="style-rules">Style Rules</h2>
+<p>This project uses <a href="https://editorconfig.org/">EditorConfig</a> to maintain its code style.
+Some style rules have been disabled due to compatibility with how Unity handles C# scripts.
+These settings will be automatically read by Visual Studio.
+For developers using VS Code, we have stored a pre-configured workspace settings and recommended extensions in the <code>.vscode</code> folder for easy configuration.
+The repository for this project will check for the code style via <code>dotnet-format</code> for every PR.
+This check must pass in order for new code to be merged to the main branch.</p>
+<h3 id="formatting-code">Formatting Code</h3>
+<p>Although both VS Code and Visual Studio offers a built-in code cleaner that can be triggered for every save, we found that there are some style rules won&#39;t apply with this method.
+So we recommend using the development version of <a href="https://github.com/dotnet/format">dotnet-format</a> tool.</p>
+<p>You can install this tool by using this following command from your terminal:</p>
+<pre><code class="lang-bash">dotnet tool install -g dotnet-format --version 5.0.142902 --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json
+</code></pre><p>To format the entire script folder, you will have to first open a script in Unity with Visual Studio so that Unity engine can generate the <code>.csproj</code> file.
+Once that is done, use the following command from the root of this project folder:</p>
+<pre><code class="lang-bash">dotnet-format Assembly-CSharp.csproj --fix-style warn
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -103,7 +118,7 @@ It&#39;s discouraged to uses spaces for game object names, but not mandatory as 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/project-naming-scheme.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/coding-style.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
