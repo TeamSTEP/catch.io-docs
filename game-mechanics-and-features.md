@@ -86,14 +86,14 @@ Staying idle for 5 seconds will start to increase their stamina-meter by 5 every
 
 The player's sanity-meter has a maximum value of 100. This value will not be visible to the player directly. Instead, the sanity-meter will affect what the player sees and hear.
 
-Every throwable object \(or their bonus effects\) will have an attack value to it. Being in the area of effect will decrease the player's sanity-meter by the object's attack value.
+Every throwable object \(or its bonus effects\) will have an attack value to it. Being in the area of effect will decrease the player's sanity-meter by the object's attack value.
 
 If the stamina-meter is below 0, the sanity-meter will start to decrease by one, every second. The degradation rate will be affected by the player's movement state, but it will not passively regenerate. However, if the player's stamina-meter is replenished, the sanity-meter will not passively decrease.
 
 Sanity-meter value and their debuffs:
 
 * 40 ~ 20 -&gt; make the area outside of the player's field of view darker. Below 20 means pitch dark.
-* Below 30 -&gt; becomes catchable \(game over when caught by another player\).
+* Below 30 -&gt; become catchable \(game over when caught by another player\).
 * Below 20 -&gt; spawn random footstep sound effect with the soundwave outside of the player's view.
 * 0 -&gt; The player cannot run, and the default walking speed is decreased by half. The view control \(player rotation\) will be slightly slow.
 
