@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ElevationTrigger
+    <title>Class StaminaMeter
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ElevationTrigger
+    <meta name="title" content="Class StaminaMeter
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.6.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,37 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Environment.ElevationTrigger">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Player.Status.StaminaMeter">
   
   
-  <h1 id="CatchIo_Environment_ElevationTrigger" data-uid="CatchIo.Environment.ElevationTrigger" class="text-break">Class ElevationTrigger
+  <h1 id="CatchIo_Player_Status_StaminaMeter" data-uid="CatchIo.Player.Status.StaminaMeter" class="text-break">Class StaminaMeter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ElevationTrigger</span></div>
+    <div class="level1"><span class="xref">StaminaMeter</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Environment.html">CatchIo.Environment</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Player.Status.html">CatchIo.Player.Status</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Environment_ElevationTrigger_syntax">Syntax</h5>
+  <h5 id="CatchIo_Player_Status_StaminaMeter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ElevationTrigger : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class StaminaMeter</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Environment_ElevationTrigger_BottomCollider_" data-uid="CatchIo.Environment.ElevationTrigger.BottomCollider*"></a>
-  <h4 id="CatchIo_Environment_ElevationTrigger_BottomCollider" data-uid="CatchIo.Environment.ElevationTrigger.BottomCollider">BottomCollider</h4>
+  <h4 id="CatchIo_Player_Status_StaminaMeter_MaxStamina" data-uid="CatchIo.Player.Status.StaminaMeter.MaxStamina">MaxStamina</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BoxCollider2D BottomCollider { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float MaxStamina</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,22 +118,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BoxCollider2D</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Environment_ElevationTrigger_TopCollider_" data-uid="CatchIo.Environment.ElevationTrigger.TopCollider*"></a>
-  <h4 id="CatchIo_Environment_ElevationTrigger_TopCollider" data-uid="CatchIo.Environment.ElevationTrigger.TopCollider">TopCollider</h4>
+  <h4 id="CatchIo_Player_Status_StaminaMeter_Stamina" data-uid="CatchIo.Player.Status.StaminaMeter.Stamina">Stamina</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BoxCollider2D TopCollider { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float Stamina</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -143,7 +142,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BoxCollider2D</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Player_Status_StaminaMeter_Timer" data-uid="CatchIo.Player.Status.StaminaMeter.Timer">Timer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Timer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Player_Status_StaminaMeter_ControlStamina_" data-uid="CatchIo.Player.Status.StaminaMeter.ControlStamina*"></a>
+  <h4 id="CatchIo_Player_Status_StaminaMeter_ControlStamina" data-uid="CatchIo.Player.Status.StaminaMeter.ControlStamina">ControlStamina()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ControlStamina()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Player_Status_StaminaMeter_Initialize_" data-uid="CatchIo.Player.Status.StaminaMeter.Initialize*"></a>
+  <h4 id="CatchIo_Player_Status_StaminaMeter_Initialize_CatchIo_Player_PlayerManager_" data-uid="CatchIo.Player.Status.StaminaMeter.Initialize(CatchIo.Player.PlayerManager)">Initialize(PlayerManager)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(PlayerManager playerManager)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Player.PlayerManager.html">PlayerManager</a></td>
+        <td><span class="parametername">playerManager</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Elevation
+    <title>Class RotateAction
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Elevation
+    <meta name="title" content="Class RotateAction
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.6.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,65 +78,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Player.Elevation">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Player.Actions.RotateAction">
   
   
-  <h1 id="CatchIo_Player_Elevation" data-uid="CatchIo.Player.Elevation" class="text-break">Class Elevation
+  <h1 id="CatchIo_Player_Actions_RotateAction" data-uid="CatchIo.Player.Actions.RotateAction" class="text-break">Class RotateAction
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Elevation</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.Player.Actions.PlayerAction.html">PlayerAction</a></div>
+    <div class="level2"><span class="xref">RotateAction</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPunObservable</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Player.html">CatchIo.Player</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Player.Actions.html">CatchIo.Player.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Player_Elevation_syntax">Syntax</h5>
+  <h5 id="CatchIo_Player_Actions_RotateAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Elevation : MonoBehaviourPun, IPunObservable</code></pre>
+    <pre><code class="lang-csharp hljs">public class RotateAction : PlayerAction</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="CatchIo_Player_Elevation_value" data-uid="CatchIo.Player.Elevation.value">value</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int value</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Player_Elevation_OnPhotonSerializeView_" data-uid="CatchIo.Player.Elevation.OnPhotonSerializeView*"></a>
-  <h4 id="CatchIo_Player_Elevation_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.Player.Elevation.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
+  <a id="CatchIo_Player_Actions_RotateAction_Action_" data-uid="CatchIo.Player.Actions.RotateAction.Action*"></a>
+  <h4 id="CatchIo_Player_Actions_RotateAction_Action" data-uid="CatchIo.Player.Actions.RotateAction.Action">Action()</h4>
+  <div class="markdown level1 summary"><p>Sets the player view direction with the given vector.
+This method is used to set the player sprite direction and the FOV light.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Action()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Player.Actions.PlayerAction.html#CatchIo_Player_Actions_PlayerAction_Action">PlayerAction.Action()</a></div>
+  
+  
+  <a id="CatchIo_Player_Actions_RotateAction_Cancel_" data-uid="CatchIo.Player.Actions.RotateAction.Cancel*"></a>
+  <h4 id="CatchIo_Player_Actions_RotateAction_Cancel" data-uid="CatchIo.Player.Actions.RotateAction.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Cancel()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Player.Actions.PlayerAction.html#CatchIo_Player_Actions_PlayerAction_Cancel">PlayerAction.Cancel()</a></div>
+  
+  
+  <a id="CatchIo_Player_Actions_RotateAction_Initialize_" data-uid="CatchIo.Player.Actions.RotateAction.Initialize*"></a>
+  <h4 id="CatchIo_Player_Actions_RotateAction_Initialize_CatchIo_Player_PlayerManager_" data-uid="CatchIo.Player.Actions.RotateAction.Initialize(CatchIo.Player.PlayerManager)">Initialize(PlayerManager)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize(PlayerManager playerManager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,21 +146,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">PhotonStream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PhotonMessageInfo</span></td>
-        <td><span class="parametername">info</span></td>
+        <td><a class="xref" href="CatchIo.Player.PlayerManager.html">PlayerManager</a></td>
+        <td><span class="parametername">playerManager</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPunObservable</span>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Player.Actions.PlayerAction.html#CatchIo_Player_Actions_PlayerAction_Initialize_CatchIo_Player_PlayerManager_">PlayerAction.Initialize(PlayerManager)</a></div>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Launcher
+    <title>Class PlayerActionBehaviour
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Launcher
+    <meta name="title" content="Class PlayerActionBehaviour
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.6.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,71 +78,95 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Menus.Launcher">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour">
   
   
-  <h1 id="CatchIo_Menus_Launcher" data-uid="CatchIo.Menus.Launcher" class="text-break">Class Launcher
+  <h1 id="CatchIo_Player_Actions_PlayerActionBehaviour" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour" class="text-break">Class PlayerActionBehaviour
   </h1>
-  <div class="markdown level0 summary"><p>The entry point for establishing a connection between the player and the master server.
-This script will handle the menu GUI logic as well.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="CatchIo.Core.NetworkCallback.html">NetworkCallback</a></div>
-    <div class="level2"><span class="xref">Launcher</span></div>
+    <div class="level1"><span class="xref">PlayerActionBehaviour</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_GameVersion">NetworkCallback.GameVersion</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_OnJoinRoomFailed_System_Int16_System_String_">NetworkCallback.OnJoinRoomFailed(Int16, String)</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_OnCreateRoomFailed_System_Int16_System_String_">NetworkCallback.OnCreateRoomFailed(Int16, String)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Menus.html">CatchIo.Menus</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Player.Actions.html">CatchIo.Player.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Menus_Launcher_syntax">Syntax</h5>
+  <h5 id="CatchIo_Player_Actions_PlayerActionBehaviour_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Launcher : NetworkCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerActionBehaviour : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Player_Actions_PlayerActionBehaviour_FixedUpdateActions" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.FixedUpdateActions">FixedUpdateActions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerAction[] FixedUpdateActions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Player.Actions.PlayerAction.html">PlayerAction</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Player_Actions_PlayerActionBehaviour_UpdateActions" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.UpdateActions">UpdateActions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerAction[] UpdateActions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Player.Actions.PlayerAction.html">PlayerAction</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Menus_Launcher_OnClick_Login_" data-uid="CatchIo.Menus.Launcher.OnClick_Login*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnClick_Login" data-uid="CatchIo.Menus.Launcher.OnClick_Login">OnClick_Login()</h4>
-  <div class="markdown level1 summary"><p>Connect the user to Photon when they click the login button</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnClick_Login()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Menus_Launcher_OnConnectedToMaster_" data-uid="CatchIo.Menus.Launcher.OnConnectedToMaster*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnConnectedToMaster" data-uid="CatchIo.Menus.Launcher.OnConnectedToMaster">OnConnectedToMaster()</h4>
+  <a id="CatchIo_Player_Actions_PlayerActionBehaviour_FixedUpdateAction_" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.FixedUpdateAction*"></a>
+  <h4 id="CatchIo_Player_Actions_PlayerActionBehaviour_FixedUpdateAction" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.FixedUpdateAction">FixedUpdateAction()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnConnectedToMaster()</code></pre>
+    <pre><code class="lang-csharp hljs">public void FixedUpdateAction()</code></pre>
   </div>
   
   
-  <a id="CatchIo_Menus_Launcher_OnDisconnected_" data-uid="CatchIo.Menus.Launcher.OnDisconnected*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnDisconnected_DisconnectCause_" data-uid="CatchIo.Menus.Launcher.OnDisconnected(DisconnectCause)">OnDisconnected(DisconnectCause)</h4>
+  <a id="CatchIo_Player_Actions_PlayerActionBehaviour_Initialize_" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.Initialize*"></a>
+  <h4 id="CatchIo_Player_Actions_PlayerActionBehaviour_Initialize_CatchIo_Player_PlayerManager_" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.Initialize(CatchIo.Player.PlayerManager)">Initialize(PlayerManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnDisconnected(DisconnectCause cause)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize(PlayerManager playerManager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,23 +179,21 @@ This script will handle the menu GUI logic as well.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DisconnectCause</span></td>
-        <td><span class="parametername">cause</span></td>
+        <td><a class="xref" href="CatchIo.Player.PlayerManager.html">PlayerManager</a></td>
+        <td><span class="parametername">playerManager</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_OnDisconnected_DisconnectCause_">NetworkCallback.OnDisconnected(DisconnectCause)</a></div>
   
   
-  <a id="CatchIo_Menus_Launcher_OnJoinedLobby_" data-uid="CatchIo.Menus.Launcher.OnJoinedLobby*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnJoinedLobby" data-uid="CatchIo.Menus.Launcher.OnJoinedLobby">OnJoinedLobby()</h4>
+  <a id="CatchIo_Player_Actions_PlayerActionBehaviour_UpdateAction_" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.UpdateAction*"></a>
+  <h4 id="CatchIo_Player_Actions_PlayerActionBehaviour_UpdateAction" data-uid="CatchIo.Player.Actions.PlayerActionBehaviour.UpdateAction">UpdateAction()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnJoinedLobby()</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateAction()</code></pre>
   </div>
 </article>
           </div>

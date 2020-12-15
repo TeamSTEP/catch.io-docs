@@ -83,7 +83,10 @@
   
   <h1 id="CatchIo_Camera_CameraManager" data-uid="CatchIo.Camera.CameraManager" class="text-break">Class CameraManager
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The main camera class for in-game camera movements.
+By passing the player object as its member, this object will initialize all the camera setup and follow the provided player.
+There should only be one instance of this object per scene.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -102,7 +105,8 @@
   
   
   <h4 id="CatchIo_Camera_CameraManager_PlayerToFollow" data-uid="CatchIo.Camera.CameraManager.PlayerToFollow">PlayerToFollow</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The player object that this camera will follow.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -123,40 +127,14 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Camera_CameraManager_IsFollowing_" data-uid="CatchIo.Camera.CameraManager.IsFollowing*"></a>
-  <h4 id="CatchIo_Camera_CameraManager_IsFollowing" data-uid="CatchIo.Camera.CameraManager.IsFollowing">IsFollowing</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsFollowing { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="CatchIo_Camera_CameraManager_SetupCamera_" data-uid="CatchIo.Camera.CameraManager.SetupCamera*"></a>
   <h4 id="CatchIo_Camera_CameraManager_SetupCamera" data-uid="CatchIo.Camera.CameraManager.SetupCamera">SetupCamera()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initialization function. This is where the components are obtained and cached to the class.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Launcher
+    <title>Class Surface
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Launcher
+    <meta name="title" content="Class Surface
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.6.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,71 +78,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Menus.Launcher">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Environment.Surface">
   
   
-  <h1 id="CatchIo_Menus_Launcher" data-uid="CatchIo.Menus.Launcher" class="text-break">Class Launcher
+  <h1 id="CatchIo_Environment_Surface" data-uid="CatchIo.Environment.Surface" class="text-break">Class Surface
   </h1>
-  <div class="markdown level0 summary"><p>The entry point for establishing a connection between the player and the master server.
-This script will handle the menu GUI logic as well.</p>
+  <div class="markdown level0 summary"><p>Game map surface utility class.
+This class contains various methods and types for referencing tilemap surfaces.
+NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="CatchIo.Core.NetworkCallback.html">NetworkCallback</a></div>
-    <div class="level2"><span class="xref">Launcher</span></div>
+    <div class="level1"><span class="xref">Surface</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_GameVersion">NetworkCallback.GameVersion</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_OnJoinRoomFailed_System_Int16_System_String_">NetworkCallback.OnJoinRoomFailed(Int16, String)</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_OnCreateRoomFailed_System_Int16_System_String_">NetworkCallback.OnCreateRoomFailed(Int16, String)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Menus.html">CatchIo.Menus</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Environment.html">CatchIo.Environment</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Menus_Launcher_syntax">Syntax</h5>
+  <h5 id="CatchIo_Environment_Surface_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Launcher : NetworkCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Surface</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Environment_Surface_SurfaceTypeToTileMapName" data-uid="CatchIo.Environment.Surface.SurfaceTypeToTileMapName">SurfaceTypeToTileMapName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;Surface.SurfaceType, string&gt; SurfaceTypeToTileMapName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="CatchIo.Environment.Surface.SurfaceType.html">Surface.SurfaceType</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Menus_Launcher_OnClick_Login_" data-uid="CatchIo.Menus.Launcher.OnClick_Login*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnClick_Login" data-uid="CatchIo.Menus.Launcher.OnClick_Login">OnClick_Login()</h4>
-  <div class="markdown level1 summary"><p>Connect the user to Photon when they click the login button</p>
+  <a id="CatchIo_Environment_Surface_GetSurfaceType_" data-uid="CatchIo.Environment.Surface.GetSurfaceType*"></a>
+  <h4 id="CatchIo_Environment_Surface_GetSurfaceType_TileBase_" data-uid="CatchIo.Environment.Surface.GetSurfaceType(TileBase)">GetSurfaceType(TileBase)</h4>
+  <div class="markdown level1 summary"><p>Obtain the surface type based on the given tile information via string comparison.
+Here the name is the asset name on the disk, please make sure to name the tiles appropriately.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnClick_Login()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Menus_Launcher_OnConnectedToMaster_" data-uid="CatchIo.Menus.Launcher.OnConnectedToMaster*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnConnectedToMaster" data-uid="CatchIo.Menus.Launcher.OnConnectedToMaster">OnConnectedToMaster()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnConnectedToMaster()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Menus_Launcher_OnDisconnected_" data-uid="CatchIo.Menus.Launcher.OnDisconnected*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnDisconnected_DisconnectCause_" data-uid="CatchIo.Menus.Launcher.OnDisconnected(DisconnectCause)">OnDisconnected(DisconnectCause)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnDisconnected(DisconnectCause cause)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Surface.SurfaceType GetSurfaceType(TileBase currentTile)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,24 +150,69 @@ This script will handle the menu GUI logic as well.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DisconnectCause</span></td>
-        <td><span class="parametername">cause</span></td>
+        <td><span class="xref">TileBase</span></td>
+        <td><span class="parametername">currentTile</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Core.NetworkCallback.html#CatchIo_Core_NetworkCallback_OnDisconnected_DisconnectCause_">NetworkCallback.OnDisconnected(DisconnectCause)</a></div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Environment.Surface.SurfaceType.html">Surface.SurfaceType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="CatchIo_Menus_Launcher_OnJoinedLobby_" data-uid="CatchIo.Menus.Launcher.OnJoinedLobby*"></a>
-  <h4 id="CatchIo_Menus_Launcher_OnJoinedLobby" data-uid="CatchIo.Menus.Launcher.OnJoinedLobby">OnJoinedLobby()</h4>
+  <a id="CatchIo_Environment_Surface_LeavesFootprints_" data-uid="CatchIo.Environment.Surface.LeavesFootprints*"></a>
+  <h4 id="CatchIo_Environment_Surface_LeavesFootprints_CatchIo_Environment_Surface_SurfaceType_" data-uid="CatchIo.Environment.Surface.LeavesFootprints(CatchIo.Environment.Surface.SurfaceType)">LeavesFootprints(Surface.SurfaceType)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnJoinedLobby()</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool LeavesFootprints(Surface.SurfaceType surface)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Environment.Surface.SurfaceType.html">Surface.SurfaceType</a></td>
+        <td><span class="parametername">surface</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
