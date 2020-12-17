@@ -7,14 +7,16 @@ This document will incrementally record the game’s development status and will
 
 Everything written here is subject to change with each improvement coming to the project and by no means it’s comprehensive.
 
-For on-going development progress, please check this Github repository [https://github.com/TeamSTEP/project-witch-one](https://github.com/TeamSTEP/project-witch-one).
+For on-going development progress, please check our [Github project repository](https://github.com/TeamSTEP/project-witch-one).
 
-For development references, please check our developer reference guide page [https://teamstep.github.io/catch.io-docs/index.html](https://teamstep.github.io/catch.io-docs/index.html).
+For development references, please check our [developer reference guide](https://teamstep.github.io/catch.io-docs/index.html) page.
 {% endhint %}
 
 ## Project Description
 
-**Witch One** is an online stealth-focused battle-royal. The game's objective is to be the last player standing by either catching other players or hide while they catch each other.
+![](.gitbook/assets/title-cover.jpg)
+
+**Witch One** is an online stealth-focused battle-royale. The game's objective is to be the last player standing by either catching other players or hide while they catch each other.
 
 This project is internally code-named Catch.io, so you may find some of our resources calling this project as such.
 

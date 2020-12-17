@@ -54,5 +54,3 @@ Due to the laws of malicious compliance of the internet, any program or event th
 3. pay streamers to play the game
 4. give rewards to people who have correctly theorized about the game's story
 
-
-

@@ -30,7 +30,7 @@ The game will have the following mechanics at a glance:
    4. If the player's stamina-meter hits 0, the player will not passively regenerate their stamina.
    5. If the player's stamina-meter hits 0, their sanity-meter will passively decrease at every interval.
    6. Being hit by an offensive throwable object will not affect the player's stamina-meter.
-4. Catching
+4. Catching \(melee attack\)
    1. Players can catch other players by pressing the catch button \(left mouse button on PC\) while they are behind the other player.
    2. Players can only be caught if the other player's sanity-meter is below a certain amount.
    3. Catching another player with a high sanity-meter will push the other player back and decrease their stamina or sanity \(the stamina-meter acts as a protective layer in this case\).
@@ -97,11 +97,39 @@ Sanity-meter value and their debuffs:
 * Below 20 -&gt; spawn random footstep sound effect with the soundwave outside of the player's view.
 * 0 -&gt; The player cannot run, and the default walking speed is decreased by half. The view control \(player rotation\) will be slightly slow.
 
-Catching another player or drinking a potion can replenish the player's sanity and stamina-meter.
+Catching another player or drinking a potion can replenish the player's sanity and stamina-meter. The sanity-meter is effectively the player's health value.
 
 Because the player does not die even if both of their meters are zero, the map will ensure that there will be at least five potions spawned somewhere.
 
-### Throwable Objects
+### Catch/melee attack
+
+Catching is one of the most integral parts of this game. In the lore, catching is described as the player swinging a crystal that can capture a person's soul.
+
+A player can only get a game over when another player catches them under a specific condition. There are roughly three types of 'catching' that a player can trigger by pressing a dedicated action button \(the catch button\). Because the result of a catch action is different from situation to situation, it may be more accurate to describe this action as a melee attack rather than just a catch.
+
+**Attack action and collision:**
+
+When a player presses the catch button, an attack animation will play throughout the entire attack duration. The attack motion should not be longer than 2 seconds. The player hitbox is an oval shape that covers the whole player sprite. The attack collider will be set to follow the crystal as the attack animation plays. In terms of system mechanics, this is similar to that of swinging a sword. Players can walk while attacking. However, they won't be able to run or crouch in this state.
+
+**Cooldown:**
+
+At the end of an attack, the player will have 0.7 seconds \(adjustable\) of action cooldown. Players will not be able to trigger an attack during this interval.
+
+**Attack and damage types:**
+
+When a player is attacked, the effect will differ depending on their status and the hit location. There are three different types of attacks.
+
+* Defensive push
+  * Condition: both the attacking and the receiving players are within their view angle \(i.e., facing each other\).
+  * Effect: no damage to either of the players. Instead, both of them are pushed back 4 ~ 5 tiles away from each other.
+* Sneak attack
+  * Condition: the player attacks someone with a sanity value above the damage threshold while being out of their view angle \(i.e., attacking a healthy player from the back\).
+  * Effect: heavy damage plus pushes the receiving player.
+* Catch
+  * Condition: the player attacks someone with a low sanity value while being out of their view angle.
+  * Effect: the receiving player will get a game over The primary purpose of pushing the player after each blow is to ensure that they have a window of opportunity to run away.
+
+### Throwable objects
 
 There will be multiple throwable objects that can be collected throughout the game. This will be categorized into two major types of throwables:
 
@@ -120,7 +148,7 @@ Every throwable object that can be thrown by a player and can hit a player will 
 * `float damage` - the amount it will decrease the opponent's sanity-meter.
 * Additional effects - other effects may include splash damage, changing surface type, or changing effects depending on the player's character class. This part should be flexible.
 
-### Environmental Objects
+### Environmental objects
 
 These are static objects that are part of the map’s environment. Most of them will act as a hiding spot for the player.
 
@@ -148,8 +176,6 @@ Dynamic objects are game field objects with their own state that is synced acros
 ### Buildings
 
 The game map will contain several buildings that the players can go inside without a loading screen. The buildings should be walled when the player is outside, but hides the walls and shows the interior when the player is inside.
-
-Buildings should be placed far away from each other, with approximately no more than 20 buildings on the entire map.
 
 Buildings will be one layer tall at max, meaning that it will not have any third floors. Instead, the first and second floors can be big with many different rooms of obstacles that block the player’s line of sight. Most buildings will only have one entrance, which makes it the perfect camping spot for other players, but potentially making it a good hiding spot too.
 
