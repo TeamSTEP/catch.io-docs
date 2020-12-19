@@ -27,12 +27,7 @@
   "api/CatchIo.Core.html": {
     "href": "api/CatchIo.Core.html",
     "title": "Namespace CatchIo.Core | Catch.io Dev Doc",
-    "keywords": "Namespace CatchIo.Core Classes GameCamera Base class for game scene camera controller objects. GuiBehavior Base class used for components that has to work with scene UI elements and their behaviors. LightingEffectBase Base class for environmental objects that emits light. This class requires the game object to have the LightingSource2D component. NetworkCallback Base class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. Projectile Base class for the projectile object that players can throw ProjectileEffectBase Base class for the projectile effect. Special effects should inherit from this class ThrowableObject Base class for throwable objects that the players can pick up from the game."
-  },
-  "api/CatchIo.Core.LightingEffectBase.html": {
-    "href": "api/CatchIo.Core.LightingEffectBase.html",
-    "title": "Class LightingEffectBase | Catch.io Dev Doc",
-    "keywords": "Class LightingEffectBase Base class for environmental objects that emits light. This class requires the game object to have the LightingSource2D component. Inheritance Object LightingEffectBase LightFlicker Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public class LightingEffectBase : MonoBehaviour"
+    "keywords": "Namespace CatchIo.Core Classes GameCamera Base class for game scene camera controller objects. GuiBehavior Base class used for components that has to work with scene UI elements and their behaviors. NetworkCallback Base class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. Projectile Base class for the projectile object that players can throw ProjectileEffectBase Base class for the projectile effect. Special effects should inherit from this class ThrowableObject Base class for throwable objects that the players can pick up from the game."
   },
   "api/CatchIo.Core.NetworkCallback.html": {
     "href": "api/CatchIo.Core.NetworkCallback.html",
@@ -57,17 +52,12 @@
   "api/CatchIo.Enums.html": {
     "href": "api/CatchIo.Enums.html",
     "title": "Namespace CatchIo.Enums | Catch.io Dev Doc",
-    "keywords": "Namespace CatchIo.Enums Enums MenuScenes PlayableScenes ProjectileEffectType ThrowableType"
+    "keywords": "Namespace CatchIo.Enums Enums MenuScenes ProjectileEffectType ThrowableType"
   },
   "api/CatchIo.Enums.MenuScenes.html": {
     "href": "api/CatchIo.Enums.MenuScenes.html",
     "title": "Enum MenuScenes | Catch.io Dev Doc",
     "keywords": "Enum MenuScenes Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum MenuScenes Fields Name Description Launcher LobbyMenu"
-  },
-  "api/CatchIo.Enums.PlayableScenes.html": {
-    "href": "api/CatchIo.Enums.PlayableScenes.html",
-    "title": "Enum PlayableScenes | Catch.io Dev Doc",
-    "keywords": "Enum PlayableScenes Namespace : CatchIo.Enums Assembly : cs.temp.dll.dll Syntax public enum PlayableScenes Fields Name Description GrassLands HouseInteriorsTest TestMap VillageMap"
   },
   "api/CatchIo.Enums.ProjectileEffectType.html": {
     "href": "api/CatchIo.Enums.ProjectileEffectType.html",
@@ -82,12 +72,7 @@
   "api/CatchIo.Environment.html": {
     "href": "api/CatchIo.Environment.html",
     "title": "Namespace CatchIo.Environment | Catch.io Dev Doc",
-    "keywords": "Namespace CatchIo.Environment Classes LightFlicker Adds a flickering effect to the light source by randomly manipulating its alpha value. Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. Enums Surface.SurfaceType"
-  },
-  "api/CatchIo.Environment.LightFlicker.html": {
-    "href": "api/CatchIo.Environment.LightFlicker.html",
-    "title": "Class LightFlicker | Catch.io Dev Doc",
-    "keywords": "Class LightFlicker Adds a flickering effect to the light source by randomly manipulating its alpha value. Inheritance Object LightingEffectBase LightFlicker Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public class LightFlicker : LightingEffectBase Fields FlickerRangeMax Declaration public float FlickerRangeMax Field Value Type Description Single FlickerRangeMin Declaration public float FlickerRangeMin Field Value Type Description Single FlickersPerSecond Declaration public float FlickersPerSecond Field Value Type Description Single"
+    "keywords": "Namespace CatchIo.Environment Classes Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. Enums Surface.SurfaceType"
   },
   "api/CatchIo.Environment.Surface.html": {
     "href": "api/CatchIo.Environment.Surface.html",
