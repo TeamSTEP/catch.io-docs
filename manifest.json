@@ -192,6 +192,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Environment.IReactsToSurfaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Environment.IReactsToSurfaceType.html",
+          "hash": "h7x+zZIpORRtQio4vqaLCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Environment.ISurfaceTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Environment.ISurfaceTrigger.html",
+          "hash": "jYuKzcpTjgoPjuferL54Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Environment.Surface.SurfaceType.yml",
       "output": {
         ".html": {
@@ -216,11 +240,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Environment.TileSurface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Environment.TileSurface.html",
+          "hash": "/xI+sXU7XSmqy5f27Yj4gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Environment.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Environment.html",
-          "hash": "+6bqjFpiKVQsQmOpIZbUWw=="
+          "hash": "1xsz+F4FLc+yqLR4VhhiFQ=="
         }
       },
       "is_incremental": false,
@@ -436,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Player.FootprintGenerator.html",
-          "hash": "8oNod8HjmdnaBRvziNptWw=="
+          "hash": "sx86T0GzRWgf/nsrVTIACw=="
         }
       },
       "is_incremental": false,
@@ -461,6 +497,18 @@
         ".html": {
           "relative_path": "api/CatchIo.Player.MoveState.html",
           "hash": "HR/apCHh3RJj7cdviHYBcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Player.PlayerBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Player.PlayerBehavior.html",
+          "hash": "bJ/KtOVKsAmRHEzQI63c9g=="
         }
       },
       "is_incremental": false,
@@ -497,6 +545,18 @@
         ".html": {
           "relative_path": "api/CatchIo.Player.PlayerManager.html",
           "hash": "/a6K49WWqob+YMh7C7Qc9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Player.PlayerMovingBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Player.PlayerMovingBehavior.html",
+          "hash": "HWY1S70DL26H32whhNLlMw=="
         }
       },
       "is_incremental": false,
@@ -544,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Player.html",
-          "hash": "OXV8xUVVga33qW6fWge6rQ=="
+          "hash": "qpNWBrY3mdTk8ztaOrFS7g=="
         }
       },
       "is_incremental": false,
@@ -856,7 +916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.SoundManager.html",
-          "hash": "ReZrU1FoTQnNtQAW2JH7Ww=="
+          "hash": "1pFexhcCLyCw+lZsN1iX1A=="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Util.GetTilemapAndTileBase.html",
-          "hash": "Ekyh1ZTqSKRaX5oRNx523Q=="
+          "hash": "2Fktjw0ORgswwbT1+RGFgg=="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5AByKZnJ6WOoHtgBuJgfIg=="
+          "hash": "RUUQOeAQ91PvNpDUITWIDw=="
         }
       },
       "is_incremental": false,
@@ -1354,7 +1414,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 93,
+          "total_file_count": 98,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

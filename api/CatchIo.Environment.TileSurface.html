@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FootprintGenerator
+    <title>Class TileSurface
    | Catch.io Dev Doc </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FootprintGenerator
+    <meta name="title" content="Class TileSurface
    | Catch.io Dev Doc ">
     <meta name="generator" content="docfx 2.56.6.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,138 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Player.FootprintGenerator">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Environment.TileSurface">
   
   
-  <h1 id="CatchIo_Player_FootprintGenerator" data-uid="CatchIo.Player.FootprintGenerator" class="text-break">Class FootprintGenerator
+  <h1 id="CatchIo_Environment_TileSurface" data-uid="CatchIo.Environment.TileSurface" class="text-break">Class TileSurface
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">FootprintGenerator</span></div>
+    <div class="level1"><span class="xref">TileSurface</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Player.html">CatchIo.Player</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Environment.html">CatchIo.Environment</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Player_FootprintGenerator_syntax">Syntax</h5>
+  <h5 id="CatchIo_Environment_TileSurface_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FootprintGenerator : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class TileSurface</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Player_FootprintGenerator_GenerateInterval" data-uid="CatchIo.Player.FootprintGenerator.GenerateInterval">GenerateInterval</h4>
+  <h4 id="CatchIo_Environment_TileSurface_FootprintSprite" data-uid="CatchIo.Environment.TileSurface.FootprintSprite">FootprintSprite</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float GenerateInterval</code></pre>
+    <pre><code class="lang-csharp hljs">public Sprite FootprintSprite</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sprite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Environment_TileSurface_SoundEffect" data-uid="CatchIo.Environment.TileSurface.SoundEffect">SoundEffect</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SoundEffect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Environment_TileSurface_HasSoundEffect_" data-uid="CatchIo.Environment.TileSurface.HasSoundEffect*"></a>
+  <h4 id="CatchIo_Environment_TileSurface_HasSoundEffect" data-uid="CatchIo.Environment.TileSurface.HasSoundEffect">HasSoundEffect</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSoundEffect { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Environment_TileSurface_LeavesFootprints_" data-uid="CatchIo.Environment.TileSurface.LeavesFootprints*"></a>
+  <h4 id="CatchIo_Environment_TileSurface_LeavesFootprints" data-uid="CatchIo.Environment.TileSurface.LeavesFootprints">LeavesFootprints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LeavesFootprints { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Environment_TileSurface_SoundLevel_" data-uid="CatchIo.Environment.TileSurface.SoundLevel*"></a>
+  <h4 id="CatchIo_Environment_TileSurface_SoundLevel" data-uid="CatchIo.Environment.TileSurface.SoundLevel">SoundLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SoundLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -122,41 +224,27 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CatchIo_Player_FootprintGenerator_GenerateFootprint_" data-uid="CatchIo.Player.FootprintGenerator.GenerateFootprint*"></a>
-  <h4 id="CatchIo_Player_FootprintGenerator_GenerateFootprint" data-uid="CatchIo.Player.FootprintGenerator.GenerateFootprint">GenerateFootprint()</h4>
+  <a id="CatchIo_Environment_TileSurface_SurfaceName_" data-uid="CatchIo.Environment.TileSurface.SurfaceName*"></a>
+  <h4 id="CatchIo_Environment_TileSurface_SurfaceName" data-uid="CatchIo.Environment.TileSurface.SurfaceName">SurfaceName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void GenerateFootprint()</code></pre>
+    <pre><code class="lang-csharp hljs">public string SurfaceName { get; }</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_Player_FootprintGenerator_Initialize_" data-uid="CatchIo.Player.FootprintGenerator.Initialize*"></a>
-  <h4 id="CatchIo_Player_FootprintGenerator_Initialize_PlayerStatus_" data-uid="CatchIo.Player.FootprintGenerator.Initialize(PlayerStatus)">Initialize(PlayerStatus)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(PlayerStatus status)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">PlayerStatus</span></td>
-        <td><span class="parametername">status</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>

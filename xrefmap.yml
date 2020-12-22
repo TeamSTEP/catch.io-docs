@@ -416,6 +416,44 @@ references:
   commentId: N:CatchIo.Environment
   fullName: CatchIo.Environment
   nameWithType: CatchIo.Environment
+- uid: CatchIo.Environment.IReactsToSurfaceType
+  name: IReactsToSurfaceType
+  href: api/CatchIo.Environment.IReactsToSurfaceType.html
+  commentId: T:CatchIo.Environment.IReactsToSurfaceType
+  fullName: CatchIo.Environment.IReactsToSurfaceType
+  nameWithType: IReactsToSurfaceType
+- uid: CatchIo.Environment.IReactsToSurfaceType.OnEnteredSurface(CatchIo.Environment.TileSurface)
+  name: OnEnteredSurface(TileSurface)
+  href: api/CatchIo.Environment.IReactsToSurfaceType.html#CatchIo_Environment_IReactsToSurfaceType_OnEnteredSurface_CatchIo_Environment_TileSurface_
+  commentId: M:CatchIo.Environment.IReactsToSurfaceType.OnEnteredSurface(CatchIo.Environment.TileSurface)
+  fullName: CatchIo.Environment.IReactsToSurfaceType.OnEnteredSurface(CatchIo.Environment.TileSurface)
+  nameWithType: IReactsToSurfaceType.OnEnteredSurface(TileSurface)
+- uid: CatchIo.Environment.IReactsToSurfaceType.OnEnteredSurface*
+  name: OnEnteredSurface
+  href: api/CatchIo.Environment.IReactsToSurfaceType.html#CatchIo_Environment_IReactsToSurfaceType_OnEnteredSurface_
+  commentId: Overload:CatchIo.Environment.IReactsToSurfaceType.OnEnteredSurface
+  isSpec: "True"
+  fullName: CatchIo.Environment.IReactsToSurfaceType.OnEnteredSurface
+  nameWithType: IReactsToSurfaceType.OnEnteredSurface
+- uid: CatchIo.Environment.ISurfaceTrigger
+  name: ISurfaceTrigger
+  href: api/CatchIo.Environment.ISurfaceTrigger.html
+  commentId: T:CatchIo.Environment.ISurfaceTrigger
+  fullName: CatchIo.Environment.ISurfaceTrigger
+  nameWithType: ISurfaceTrigger
+- uid: CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger(GameObject)
+  name: OnSurfaceTrigger(GameObject)
+  href: api/CatchIo.Environment.ISurfaceTrigger.html#CatchIo_Environment_ISurfaceTrigger_OnSurfaceTrigger_GameObject_
+  commentId: M:CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger(GameObject)
+  fullName: CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger(GameObject)
+  nameWithType: ISurfaceTrigger.OnSurfaceTrigger(GameObject)
+- uid: CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger*
+  name: OnSurfaceTrigger
+  href: api/CatchIo.Environment.ISurfaceTrigger.html#CatchIo_Environment_ISurfaceTrigger_OnSurfaceTrigger_
+  commentId: Overload:CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger
+  isSpec: "True"
+  fullName: CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger
+  nameWithType: ISurfaceTrigger.OnSurfaceTrigger
 - uid: CatchIo.Environment.Surface
   name: Surface
   href: api/CatchIo.Environment.Surface.html
@@ -490,6 +528,76 @@ references:
   commentId: F:CatchIo.Environment.Surface.SurfaceTypeToTileMapName
   fullName: CatchIo.Environment.Surface.SurfaceTypeToTileMapName
   nameWithType: Surface.SurfaceTypeToTileMapName
+- uid: CatchIo.Environment.TileSurface
+  name: TileSurface
+  href: api/CatchIo.Environment.TileSurface.html
+  commentId: T:CatchIo.Environment.TileSurface
+  fullName: CatchIo.Environment.TileSurface
+  nameWithType: TileSurface
+- uid: CatchIo.Environment.TileSurface.FootprintSprite
+  name: FootprintSprite
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_FootprintSprite
+  commentId: F:CatchIo.Environment.TileSurface.FootprintSprite
+  fullName: CatchIo.Environment.TileSurface.FootprintSprite
+  nameWithType: TileSurface.FootprintSprite
+- uid: CatchIo.Environment.TileSurface.HasSoundEffect
+  name: HasSoundEffect
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_HasSoundEffect
+  commentId: P:CatchIo.Environment.TileSurface.HasSoundEffect
+  fullName: CatchIo.Environment.TileSurface.HasSoundEffect
+  nameWithType: TileSurface.HasSoundEffect
+- uid: CatchIo.Environment.TileSurface.HasSoundEffect*
+  name: HasSoundEffect
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_HasSoundEffect_
+  commentId: Overload:CatchIo.Environment.TileSurface.HasSoundEffect
+  isSpec: "True"
+  fullName: CatchIo.Environment.TileSurface.HasSoundEffect
+  nameWithType: TileSurface.HasSoundEffect
+- uid: CatchIo.Environment.TileSurface.LeavesFootprints
+  name: LeavesFootprints
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_LeavesFootprints
+  commentId: P:CatchIo.Environment.TileSurface.LeavesFootprints
+  fullName: CatchIo.Environment.TileSurface.LeavesFootprints
+  nameWithType: TileSurface.LeavesFootprints
+- uid: CatchIo.Environment.TileSurface.LeavesFootprints*
+  name: LeavesFootprints
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_LeavesFootprints_
+  commentId: Overload:CatchIo.Environment.TileSurface.LeavesFootprints
+  isSpec: "True"
+  fullName: CatchIo.Environment.TileSurface.LeavesFootprints
+  nameWithType: TileSurface.LeavesFootprints
+- uid: CatchIo.Environment.TileSurface.SoundEffect
+  name: SoundEffect
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_SoundEffect
+  commentId: F:CatchIo.Environment.TileSurface.SoundEffect
+  fullName: CatchIo.Environment.TileSurface.SoundEffect
+  nameWithType: TileSurface.SoundEffect
+- uid: CatchIo.Environment.TileSurface.SoundLevel
+  name: SoundLevel
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_SoundLevel
+  commentId: P:CatchIo.Environment.TileSurface.SoundLevel
+  fullName: CatchIo.Environment.TileSurface.SoundLevel
+  nameWithType: TileSurface.SoundLevel
+- uid: CatchIo.Environment.TileSurface.SoundLevel*
+  name: SoundLevel
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_SoundLevel_
+  commentId: Overload:CatchIo.Environment.TileSurface.SoundLevel
+  isSpec: "True"
+  fullName: CatchIo.Environment.TileSurface.SoundLevel
+  nameWithType: TileSurface.SoundLevel
+- uid: CatchIo.Environment.TileSurface.SurfaceName
+  name: SurfaceName
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_SurfaceName
+  commentId: P:CatchIo.Environment.TileSurface.SurfaceName
+  fullName: CatchIo.Environment.TileSurface.SurfaceName
+  nameWithType: TileSurface.SurfaceName
+- uid: CatchIo.Environment.TileSurface.SurfaceName*
+  name: SurfaceName
+  href: api/CatchIo.Environment.TileSurface.html#CatchIo_Environment_TileSurface_SurfaceName_
+  commentId: Overload:CatchIo.Environment.TileSurface.SurfaceName
+  isSpec: "True"
+  fullName: CatchIo.Environment.TileSurface.SurfaceName
+  nameWithType: TileSurface.SurfaceName
 - uid: CatchIo.Interfaces
   name: CatchIo.Interfaces
   href: api/CatchIo.Interfaces.html
@@ -1244,12 +1352,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Player.FootprintGenerator.GenerateFootprint
   nameWithType: FootprintGenerator.GenerateFootprint
-- uid: CatchIo.Player.FootprintGenerator.GeneratorTime
-  name: GeneratorTime
-  href: api/CatchIo.Player.FootprintGenerator.html#CatchIo_Player_FootprintGenerator_GeneratorTime
-  commentId: F:CatchIo.Player.FootprintGenerator.GeneratorTime
-  fullName: CatchIo.Player.FootprintGenerator.GeneratorTime
-  nameWithType: FootprintGenerator.GeneratorTime
+- uid: CatchIo.Player.FootprintGenerator.GenerateInterval
+  name: GenerateInterval
+  href: api/CatchIo.Player.FootprintGenerator.html#CatchIo_Player_FootprintGenerator_GenerateInterval
+  commentId: F:CatchIo.Player.FootprintGenerator.GenerateInterval
+  fullName: CatchIo.Player.FootprintGenerator.GenerateInterval
+  nameWithType: FootprintGenerator.GenerateInterval
 - uid: CatchIo.Player.FootprintGenerator.Initialize(PlayerStatus)
   name: Initialize(PlayerStatus)
   href: api/CatchIo.Player.FootprintGenerator.html#CatchIo_Player_FootprintGenerator_Initialize_PlayerStatus_
@@ -1434,6 +1542,12 @@ references:
   commentId: F:CatchIo.Player.MoveState.Walk
   fullName: CatchIo.Player.MoveState.Walk
   nameWithType: MoveState.Walk
+- uid: CatchIo.Player.PlayerBehavior
+  name: PlayerBehavior
+  href: api/CatchIo.Player.PlayerBehavior.html
+  commentId: T:CatchIo.Player.PlayerBehavior
+  fullName: CatchIo.Player.PlayerBehavior
+  nameWithType: PlayerBehavior
 - uid: CatchIo.Player.PlayerControlInput
   name: PlayerControlInput
   href: api/CatchIo.Player.PlayerControlInput.html
@@ -1893,6 +2007,51 @@ references:
   isSpec: "True"
   fullName: CatchIo.Player.PlayerManager.UpdateCurrentTileInfo
   nameWithType: PlayerManager.UpdateCurrentTileInfo
+- uid: CatchIo.Player.PlayerMovingBehavior
+  name: PlayerMovingBehavior
+  href: api/CatchIo.Player.PlayerMovingBehavior.html
+  commentId: T:CatchIo.Player.PlayerMovingBehavior
+  fullName: CatchIo.Player.PlayerMovingBehavior
+  nameWithType: PlayerMovingBehavior
+- uid: CatchIo.Player.PlayerMovingBehavior.CreateFootprints
+  name: CreateFootprints()
+  href: api/CatchIo.Player.PlayerMovingBehavior.html#CatchIo_Player_PlayerMovingBehavior_CreateFootprints
+  commentId: M:CatchIo.Player.PlayerMovingBehavior.CreateFootprints
+  fullName: CatchIo.Player.PlayerMovingBehavior.CreateFootprints()
+  nameWithType: PlayerMovingBehavior.CreateFootprints()
+- uid: CatchIo.Player.PlayerMovingBehavior.CreateFootprints*
+  name: CreateFootprints
+  href: api/CatchIo.Player.PlayerMovingBehavior.html#CatchIo_Player_PlayerMovingBehavior_CreateFootprints_
+  commentId: Overload:CatchIo.Player.PlayerMovingBehavior.CreateFootprints
+  isSpec: "True"
+  fullName: CatchIo.Player.PlayerMovingBehavior.CreateFootprints
+  nameWithType: PlayerMovingBehavior.CreateFootprints
+- uid: CatchIo.Player.PlayerMovingBehavior.CreateSound(System.Single)
+  name: CreateSound(Single)
+  href: api/CatchIo.Player.PlayerMovingBehavior.html#CatchIo_Player_PlayerMovingBehavior_CreateSound_System_Single_
+  commentId: M:CatchIo.Player.PlayerMovingBehavior.CreateSound(System.Single)
+  fullName: CatchIo.Player.PlayerMovingBehavior.CreateSound(System.Single)
+  nameWithType: PlayerMovingBehavior.CreateSound(Single)
+- uid: CatchIo.Player.PlayerMovingBehavior.CreateSound*
+  name: CreateSound
+  href: api/CatchIo.Player.PlayerMovingBehavior.html#CatchIo_Player_PlayerMovingBehavior_CreateSound_
+  commentId: Overload:CatchIo.Player.PlayerMovingBehavior.CreateSound
+  isSpec: "True"
+  fullName: CatchIo.Player.PlayerMovingBehavior.CreateSound
+  nameWithType: PlayerMovingBehavior.CreateSound
+- uid: CatchIo.Player.PlayerMovingBehavior.OnEnteredSurface(TileSurface)
+  name: OnEnteredSurface(TileSurface)
+  href: api/CatchIo.Player.PlayerMovingBehavior.html#CatchIo_Player_PlayerMovingBehavior_OnEnteredSurface_TileSurface_
+  commentId: M:CatchIo.Player.PlayerMovingBehavior.OnEnteredSurface(TileSurface)
+  fullName: CatchIo.Player.PlayerMovingBehavior.OnEnteredSurface(TileSurface)
+  nameWithType: PlayerMovingBehavior.OnEnteredSurface(TileSurface)
+- uid: CatchIo.Player.PlayerMovingBehavior.OnEnteredSurface*
+  name: OnEnteredSurface
+  href: api/CatchIo.Player.PlayerMovingBehavior.html#CatchIo_Player_PlayerMovingBehavior_OnEnteredSurface_
+  commentId: Overload:CatchIo.Player.PlayerMovingBehavior.OnEnteredSurface
+  isSpec: "True"
+  fullName: CatchIo.Player.PlayerMovingBehavior.OnEnteredSurface
+  nameWithType: PlayerMovingBehavior.OnEnteredSurface
 - uid: CatchIo.Player.Status
   name: CatchIo.Player.Status
   href: api/CatchIo.Player.Status.html
@@ -3198,12 +3357,12 @@ references:
   commentId: T:CatchIo.Sound.SoundManager
   fullName: CatchIo.Sound.SoundManager
   nameWithType: SoundManager
-- uid: CatchIo.Sound.SoundManager.PlaySurfaceSFX(Transform,Surface.SurfaceType,System.Single)
-  name: PlaySurfaceSFX(Transform, Surface.SurfaceType, Single)
-  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlaySurfaceSFX_Transform_Surface_SurfaceType_System_Single_
-  commentId: M:CatchIo.Sound.SoundManager.PlaySurfaceSFX(Transform,Surface.SurfaceType,System.Single)
-  fullName: CatchIo.Sound.SoundManager.PlaySurfaceSFX(Transform, Surface.SurfaceType, System.Single)
-  nameWithType: SoundManager.PlaySurfaceSFX(Transform, Surface.SurfaceType, Single)
+- uid: CatchIo.Sound.SoundManager.PlaySurfaceSFX(Transform,System.Single)
+  name: PlaySurfaceSFX(Transform, Single)
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlaySurfaceSFX_Transform_System_Single_
+  commentId: M:CatchIo.Sound.SoundManager.PlaySurfaceSFX(Transform,System.Single)
+  fullName: CatchIo.Sound.SoundManager.PlaySurfaceSFX(Transform, System.Single)
+  nameWithType: SoundManager.PlaySurfaceSFX(Transform, Single)
 - uid: CatchIo.Sound.SoundManager.PlaySurfaceSFX*
   name: PlaySurfaceSFX
   href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlaySurfaceSFX_
@@ -3708,6 +3867,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Util.GetTilemapAndTileBase.GetStandingTile
   nameWithType: GetTilemapAndTileBase.GetStandingTile
+- uid: CatchIo.Util.GetTilemapAndTileBase.GetSurfaceInformation(Transform,Collision,STETilemap)
+  name: GetSurfaceInformation(Transform, Collision, STETilemap)
+  href: api/CatchIo.Util.GetTilemapAndTileBase.html#CatchIo_Util_GetTilemapAndTileBase_GetSurfaceInformation_Transform_Collision_STETilemap_
+  commentId: M:CatchIo.Util.GetTilemapAndTileBase.GetSurfaceInformation(Transform,Collision,STETilemap)
+  fullName: CatchIo.Util.GetTilemapAndTileBase.GetSurfaceInformation(Transform, Collision, STETilemap)
+  nameWithType: GetTilemapAndTileBase.GetSurfaceInformation(Transform, Collision, STETilemap)
+- uid: CatchIo.Util.GetTilemapAndTileBase.GetSurfaceInformation*
+  name: GetSurfaceInformation
+  href: api/CatchIo.Util.GetTilemapAndTileBase.html#CatchIo_Util_GetTilemapAndTileBase_GetSurfaceInformation_
+  commentId: Overload:CatchIo.Util.GetTilemapAndTileBase.GetSurfaceInformation
+  isSpec: "True"
+  fullName: CatchIo.Util.GetTilemapAndTileBase.GetSurfaceInformation
+  nameWithType: GetTilemapAndTileBase.GetSurfaceInformation
 - uid: CatchIo.Util.GetTilemapAndTileBase.TILE_MAP_TAG
   name: TILE_MAP_TAG
   href: api/CatchIo.Util.GetTilemapAndTileBase.html#CatchIo_Util_GetTilemapAndTileBase_TILE_MAP_TAG

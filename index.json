@@ -72,7 +72,17 @@
   "api/CatchIo.Environment.html": {
     "href": "api/CatchIo.Environment.html",
     "title": "Namespace CatchIo.Environment | Catch.io Dev Doc",
-    "keywords": "Namespace CatchIo.Environment Classes Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. Enums Surface.SurfaceType"
+    "keywords": "Namespace CatchIo.Environment Classes Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. TileSurface Interfaces IReactsToSurfaceType ISurfaceTrigger Enums Surface.SurfaceType"
+  },
+  "api/CatchIo.Environment.IReactsToSurfaceType.html": {
+    "href": "api/CatchIo.Environment.IReactsToSurfaceType.html",
+    "title": "Interface IReactsToSurfaceType | Catch.io Dev Doc",
+    "keywords": "Interface IReactsToSurfaceType Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public interface IReactsToSurfaceType Methods OnEnteredSurface(TileSurface) Declaration void OnEnteredSurface(TileSurface surface) Parameters Type Name Description TileSurface surface"
+  },
+  "api/CatchIo.Environment.ISurfaceTrigger.html": {
+    "href": "api/CatchIo.Environment.ISurfaceTrigger.html",
+    "title": "Interface ISurfaceTrigger | Catch.io Dev Doc",
+    "keywords": "Interface ISurfaceTrigger Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public interface ISurfaceTrigger Methods OnSurfaceTrigger(GameObject) Declaration void OnSurfaceTrigger(GameObject origin) Parameters Type Name Description GameObject origin"
   },
   "api/CatchIo.Environment.Surface.html": {
     "href": "api/CatchIo.Environment.Surface.html",
@@ -83,6 +93,11 @@
     "href": "api/CatchIo.Environment.Surface.SurfaceType.html",
     "title": "Enum Surface.SurfaceType | Catch.io Dev Doc",
     "keywords": "Enum Surface.SurfaceType Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public enum SurfaceType Fields Name Description Dirt Error Grass Ground Water"
+  },
+  "api/CatchIo.Environment.TileSurface.html": {
+    "href": "api/CatchIo.Environment.TileSurface.html",
+    "title": "Class TileSurface | Catch.io Dev Doc",
+    "keywords": "Class TileSurface Inheritance Object TileSurface Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax [Serializable] public class TileSurface Fields FootprintSprite Declaration public Sprite FootprintSprite Field Value Type Description Sprite SoundEffect Declaration public string SoundEffect Field Value Type Description String Properties HasSoundEffect Declaration public bool HasSoundEffect { get; } Property Value Type Description Boolean LeavesFootprints Declaration public bool LeavesFootprints { get; } Property Value Type Description Boolean SoundLevel Declaration public float SoundLevel { get; } Property Value Type Description Single SurfaceName Declaration public string SurfaceName { get; } Property Value Type Description String"
   },
   "api/CatchIo.Interfaces.html": {
     "href": "api/CatchIo.Interfaces.html",
@@ -172,12 +187,12 @@
   "api/CatchIo.Player.FootprintGenerator.html": {
     "href": "api/CatchIo.Player.FootprintGenerator.html",
     "title": "Class FootprintGenerator | Catch.io Dev Doc",
-    "keywords": "Class FootprintGenerator Inheritance Object FootprintGenerator Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class FootprintGenerator : MonoBehaviour Fields GeneratorTime Declaration public float GeneratorTime Field Value Type Description Single Methods GenerateFootprint() Declaration public void GenerateFootprint() Initialize(PlayerStatus) Declaration public void Initialize(PlayerStatus status) Parameters Type Name Description PlayerStatus status"
+    "keywords": "Class FootprintGenerator Inheritance Object FootprintGenerator Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class FootprintGenerator : MonoBehaviour Fields GenerateInterval Declaration public float GenerateInterval Field Value Type Description Single Methods GenerateFootprint() Declaration public void GenerateFootprint() Initialize(PlayerStatus) Declaration public void Initialize(PlayerStatus status) Parameters Type Name Description PlayerStatus status"
   },
   "api/CatchIo.Player.html": {
     "href": "api/CatchIo.Player.html",
     "title": "Namespace CatchIo.Player | Catch.io Dev Doc",
-    "keywords": "Namespace CatchIo.Player Classes CharacterRenderer FootprintGenerator Inventory PlayerControlInput Player controller abstraction component. Everything that relates to controlling the player should be part of this script. PlayerControlInput.PlayerInputData PlayerManager Enums MoveState"
+    "keywords": "Namespace CatchIo.Player Classes CharacterRenderer FootprintGenerator Inventory PlayerBehavior PlayerControlInput Player controller abstraction component. Everything that relates to controlling the player should be part of this script. PlayerControlInput.PlayerInputData PlayerManager PlayerMovingBehavior Enums MoveState"
   },
   "api/CatchIo.Player.Inventory.html": {
     "href": "api/CatchIo.Player.Inventory.html",
@@ -188,6 +203,11 @@
     "href": "api/CatchIo.Player.MoveState.html",
     "title": "Enum MoveState | Catch.io Dev Doc",
     "keywords": "Enum MoveState Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public enum MoveState Fields Name Description Run Sneak SneakStatic Static Walk"
+  },
+  "api/CatchIo.Player.PlayerBehavior.html": {
+    "href": "api/CatchIo.Player.PlayerBehavior.html",
+    "title": "Class PlayerBehavior | Catch.io Dev Doc",
+    "keywords": "Class PlayerBehavior Inheritance Object PlayerBehavior PlayerMovingBehavior Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public abstract class PlayerBehavior : MonoBehaviour"
   },
   "api/CatchIo.Player.PlayerControlInput.html": {
     "href": "api/CatchIo.Player.PlayerControlInput.html",
@@ -203,6 +223,11 @@
     "href": "api/CatchIo.Player.PlayerManager.html",
     "title": "Class PlayerManager | Catch.io Dev Doc",
     "keywords": "Class PlayerManager Inheritance Object PlayerManager Implements IHitable IPunObservable Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class PlayerManager : MonoBehaviourPun, IHitable, IPunObservable Fields CurrentSurface Declaration public Surface.SurfaceType CurrentSurface Field Value Type Description Surface.SurfaceType ProjectileValues Declaration public ProjectileValues ProjectileValues Field Value Type Description ProjectileValues StandingTile Declaration public TileBase StandingTile Field Value Type Description TileBase Properties Inventory Declaration public Inventory Inventory { get; } Property Value Type Description Inventory IsLocalClient Declaration public bool IsLocalClient { get; } Property Value Type Description Boolean PlayerControl Declaration public PlayerControlInput PlayerControl { get; } Property Value Type Description PlayerControlInput StunDelayTime Declaration public WaitForSecondsRealtime StunDelayTime { get; set; } Property Value Type Description WaitForSecondsRealtime Methods CanCatch(Vector2) Checks if the player can catch another player with the given direction Declaration public bool CanCatch(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir Returns Type Description Boolean can catch state Catch(Vector2) Declaration public void Catch(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir GetInputData() Declaration public PlayerControlInput.PlayerInputData GetInputData() Returns Type Description PlayerControlInput.PlayerInputData GetRenderer() Declaration public CharacterRenderer GetRenderer() Returns Type Description CharacterRenderer GetRigidbody2D() Declaration public Rigidbody2D GetRigidbody2D() Returns Type Description Rigidbody2D GetStatus() Declaration public PlayerStatus GetStatus() Returns Type Description PlayerStatus OnCaught(Vector2) Declaration public void OnCaught(Vector2 lookDir) Parameters Type Name Description Vector2 lookDir OnHit(ThrowableObject) Declaration public void OnHit(ThrowableObject throwableObject) Parameters Type Name Description ThrowableObject throwableObject OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info ResetSubject() ObserverPattern Subject clear. Declaration public void ResetSubject() SelectItem(Int32) Declaration public void SelectItem(int index) Parameters Type Name Description Int32 index SetPlayerName(String) Declaration public void SetPlayerName(string name) Parameters Type Name Description String name UpdateCurrentTileInfo() Declaration public void UpdateCurrentTileInfo() Implements IHitable IPunObservable"
+  },
+  "api/CatchIo.Player.PlayerMovingBehavior.html": {
+    "href": "api/CatchIo.Player.PlayerMovingBehavior.html",
+    "title": "Class PlayerMovingBehavior | Catch.io Dev Doc",
+    "keywords": "Class PlayerMovingBehavior Inheritance Object PlayerBehavior PlayerMovingBehavior Implements IReactsToSurfaceType Namespace : CatchIo.Player Assembly : cs.temp.dll.dll Syntax public class PlayerMovingBehavior : PlayerBehavior, IReactsToSurfaceType Methods CreateFootprints() Declaration public void CreateFootprints() CreateSound(Single) Declaration public void CreateSound(float volume) Parameters Type Name Description Single volume OnEnteredSurface(TileSurface) Declaration public void OnEnteredSurface(TileSurface surface) Parameters Type Name Description TileSurface surface Implements IReactsToSurfaceType"
   },
   "api/CatchIo.Player.Status.html": {
     "href": "api/CatchIo.Player.Status.html",
@@ -352,7 +377,7 @@
   "api/CatchIo.Sound.SoundManager.html": {
     "href": "api/CatchIo.Sound.SoundManager.html",
     "title": "Class SoundManager | Catch.io Dev Doc",
-    "keywords": "Class SoundManager Inheritance Object SoundManager Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class SoundManager : SingletonMonoBehaviour<SoundManager> Fields SurfaceSound Declaration public string SurfaceSound Field Value Type Description String Methods PlaySurfaceSFX(Transform, Surface.SurfaceType, Single) Declaration public void PlaySurfaceSFX(Transform origin, Surface.SurfaceType surfaceType, float volume = 1F) Parameters Type Name Description Transform origin Surface.SurfaceType surfaceType Single volume"
+    "keywords": "Class SoundManager Inheritance Object SoundManager Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class SoundManager : SingletonMonoBehaviour<SoundManager> Fields SurfaceSound Declaration public string SurfaceSound Field Value Type Description String Methods PlaySurfaceSFX(Transform, Single) Declaration public void PlaySurfaceSFX(Transform origin, float volume = 1F) Parameters Type Name Description Transform origin Single volume"
   },
   "api/CatchIo.Sound.SoundWave.html": {
     "href": "api/CatchIo.Sound.SoundWave.html",
@@ -412,7 +437,7 @@
   "api/CatchIo.Util.GetTilemapAndTileBase.html": {
     "href": "api/CatchIo.Util.GetTilemapAndTileBase.html",
     "title": "Class GetTilemapAndTileBase | Catch.io Dev Doc",
-    "keywords": "Class GetTilemapAndTileBase Set of static methods for obtaining tilemap information for determining what tile the player is standing on. This only works with Unity tile map. We need to implement this for SuperTilemapEditor as well. Inheritance Object GetTilemapAndTileBase Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class GetTilemapAndTileBase Fields TILE_MAP_TAG Declaration public static string TILE_MAP_TAG Field Value Type Description String Methods GetStandingTile(Vector3) Declaration public static TileBase GetStandingTile(Vector3 position) Parameters Type Name Description Vector3 position Returns Type Description TileBase"
+    "keywords": "Class GetTilemapAndTileBase Set of static methods for obtaining tilemap information for determining what tile the player is standing on. This only works with Unity tile map. We need to implement this for SuperTilemapEditor as well. Inheritance Object GetTilemapAndTileBase Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class GetTilemapAndTileBase Fields TILE_MAP_TAG Declaration public static string TILE_MAP_TAG Field Value Type Description String Methods GetStandingTile(Vector3) Declaration public static TileBase GetStandingTile(Vector3 position) Parameters Type Name Description Vector3 position Returns Type Description TileBase GetSurfaceInformation(Transform, Collision, STETilemap) Declaration public static CreativeSpore.SuperTilemapEditor.Tile GetSurfaceInformation(Transform origin, Collision collidingTile, STETilemap tilemap) Parameters Type Name Description Transform origin Collision collidingTile STETilemap tilemap Returns Type Description CreativeSpore.SuperTilemapEditor.Tile"
   },
   "api/CatchIo.Util.html": {
     "href": "api/CatchIo.Util.html",
