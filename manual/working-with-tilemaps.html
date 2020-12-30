@@ -167,8 +167,7 @@ After when you opened a project, all you have to do is double-click the TMX file
 <ul>
 <li>Extensions: Contains the Tiled editor extension scripts that can be used by the designer. This folder is a clone of the official extension <a href="https://github.com/mapeditor/tiled-extensions">repository</a>. You can create new extensions and just add it in this folder. The editor will automatically parse through the content.</li>
 <li>Maps: Contains the TMX tilemap file that the designer will directly work on, plus the auto mapping rules entry point. All game levels designed in Tiled should be saved in this folder.<ul>
-<li>Export: This folder is a subdirectory of <code>Maps</code>. It contains the exported (self-containing map information) version of the finished level. All maps that are ready to be imported to Unity must be exported to this folder first so that all tileset and map object information is contained within the TMX file rather than being a reference.</li>
-<li>Rules: This folder contains the auto mapping rule maps that will be used in this project. All TMX files used here must be referenced in the <code>rules.txt</code> file in the <code>Maps</code> folder if you want the editor to read them.</li>
+<li>Rules: A subdirectory of <code>Maps</code>. This folder contains the auto mapping rule maps that will be used in this project. All TMX files used here must be referenced in the <code>rules.txt</code> file in the <code>Maps</code> folder if you want the editor to read them.</li>
 </ul>
 </li>
 <li>Templates: Contains the map object template file. Objects are useful when you want to reference a Unity prefab or other complicated game-specific logic that is difficult to add using Tiled. When you create an object that is used in other maps, please create a template of it and save it in this folder.</li>
