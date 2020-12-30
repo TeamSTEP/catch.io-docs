@@ -92,6 +92,7 @@ Pixels Per Unit: <code>32</code>
 Filter Mode: <code>Point (no filter)</code>
 Compression: <code>None</code></p>
 <p>When slicing animated sprites, it is recommended to use the <code>Grid by Cell Count</code> method.</p>
+<p>You can find the detailed image import setting inside the <code>Assets/Editor/Presets/InGameSpriteImport_Default.preset</code> preset file.</p>
 <h2 id="submitting-assets">Submitting Assets</h2>
 <p>For artists who are submitting their work, it is recommended to upload the work to Google Drive <code>Team STEP/Projects/Project Catch.io/Sprites/</code> folder with the appropriate name of the sprite that is being added.
 Because Google Drive does not send responsive notifications for uploading images, the artist will have to notify the developer that their work has been uploaded via Slack.</p>
@@ -103,8 +104,8 @@ The actual image file will be saved within those folders.</p>
 <h3 id="image-format">Image Format</h3>
 <p>It is recommended that the final asset is saved as <code>.png</code>, but Unity supports a vast number of image formats, so as long as the file can save alpha channel data or layer data (if required), the artist can save it as any format as they want.</p>
 <p>For any animated sprites, it is recommended to separate the sprite asset into animation sheets like the following sample animation.</p>
-<p><img src="../resources/SampleAnimation.png" alt="Sample character animation"></p>
-<p>Character sprites should be separated into each directions where a single image contains all the frames for that direction.
+<p><img src="../resources/sample-animation.png" alt="Sample character animation"></p>
+<p>Character sprites should be separated into each direction where a single image contains all the frames for that direction.
 The asset file name should be prefixed with the action and suffixed with the direction that the character is facing with a space in between the two.
 The direction should be named as the cardinal direction (ex: <code>Run NE.png</code>, <code>Walk S.png</code>, etc.).</p>
 <p>To summarize all of this, character assets should have the format of <code>Characters/{Character Name}/{Action}/{Action Direction}.png</code>.
@@ -118,8 +119,8 @@ Theses are some of the examples:</p>
 </ul>
 <h2 id="asset-color-palette">Asset Color Palette</h2>
 <p>Both characters and props must follow the following color palette to keep a consistent feeling for the visual assets.</p>
-<p><img src="../resources/ColorPallette.png" alt="Color Palette"></p>
-<p><img src="../resources/CharacterStyle.png" alt="Character Style"></p>
+<p><img src="../resources/color-pallette.png" alt="Color Palette"></p>
+<p><img src="../resources/character-style.png" alt="Character Style"></p>
 <p>A single component of an asset (such as metal, gold, cloth, etc.) should be within 2 variations of light to dark palettes/color.
 Feel free to add more but the main idea is that for artists to make an object e.g a wooden barrel it should use the same wood colors as the trees in the environment.</p>
 </article>

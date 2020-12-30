@@ -79,11 +79,11 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="coding-style">Coding Style</h1>
 
-<p>This section will discuss about the naming convention of code, files, github branches, etc.
+<p>This section will discuss the naming convention of code, files, github branches, etc.
 If you find any files with inconsistent naming, please fix them accordingly.</p>
 <h2 id="c-naming-conventions">C# Naming Conventions</h2>
 <p>Because Unity uses C# as its preferred language, the standard C# naming conventions will be used within this project.</p>
-<p><img src="../resources/Terminology.jpg" alt="C# Naming Scheme"></p>
+<p><img src="../resources/naming-scheme.jpg" alt="C# Naming Scheme"></p>
 <p>This scheme will apply to C# script names as well.</p>
 <p>For further details regarding C# coding conventions, please refer to <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions">this document</a>.
 Everything else will mostly be kept consistent with Unity/C# conventions, but for this project, we will not be having the <code>m_</code> prefix for component variables in Unity.</p>
@@ -91,10 +91,10 @@ Everything else will mostly be kept consistent with Unity/C# conventions, but fo
 <p>All C# scripts that are inside the <code>Assets/Scripts</code> folder must have a namespace to it.
 The namespace should be <code>CatchIo.&lt;folder name&gt;</code>, where the <code>&lt;folder name&gt;</code> is replaced with the folder that the script is in.</p>
 <h2 id="unity-asset-names">Unity Asset Names</h2>
-<p>Every assets used within the Unity engine will use the Upper Camel Case (ex: <code>MainCharacter.prefab</code> or <code>GrassLandTileSet.png</code>).
+<p>Every asset used within the Unity engine will use the Upper Camel Case (ex: <code>MainCharacter.prefab</code> or <code>GrassLandTileSet.png</code>).
 These assets include everything from tile maps, sprites, object prefabs, shaders, etc.</p>
-<p>Scene names should be in Camel Case as well as well as items within the scenes too.
-It&#39;s discouraged to uses spaces for game object names, but not mandatory as there are some generated objects that does include a space in the name (ex: <code>Main Camera</code>).</p>
+<p>Scene names should be in Camel Case as well as items within the scenes too.
+It&#39;s discouraged to use spaces for game object names, but not mandatory as there are some generated objects that does include a space in the name (ex: <code>Main Camera</code>).</p>
 <h2 id="style-rules">Style Rules</h2>
 <p>This project uses <a href="https://editorconfig.org/">EditorConfig</a> to maintain its code style.
 Some style rules have been disabled due to compatibility with how Unity handles C# scripts.

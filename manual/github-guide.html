@@ -88,7 +88,7 @@ We will elaborate on this idea and create a single standard as game development 
 <li><code>fix</code> branch: a branch name that is used for commits for patches or fixes that address a bug that came from the <code>feature</code> branch. This does not add anything new in terms of features, but only refactors them. Ex) <code>fix/throw-object</code>.</li>
 <li><code>feature</code> branch: branches that adds something new to the game which may break the game or not. Because of how game development works, commits in this branch will inadvertently act similar as the <code>fix</code> branch (and it is fine to do that as long as you record it!), but one key difference is that <code>feature</code> branch must add something new. Ex) <code>feature/ai-sensors</code>.</li>
 <li><code>development</code> branch: these are the branches that are in active development. They have a very strict rule. First, the name must be the semantic version name. Second, every <code>feature</code> and <code>fix</code> branches must be derived from this branch and merge back to it when finished (no branch should derive from other branches). Lastly, after merging the <code>development</code> branch with the <code>master</code> branch, the <code>development</code> branch should not be touched at all. Ex) <code>development/v-0.0.1b</code></li>
-<li><code>document</code> branch: this is a special branch that is used exclusivly for PR that adds documentation to the repo</li>
+<li><code>document</code> branch: this is a special branch that is used exclusively for PR that adds documentation to the repo</li>
 </ul>
 <p>In short, branches with the name <code>development</code> must be derived from the <code>master</code> while the <code>fix</code> and <code>feature</code> branches derive from the latest <code>development</code> branch. Only <code>development</code> branches are allowed to merge with <code>master</code>. However, you can only merge when there are no <code>fix</code> or <code>feature</code> branches, and once you merge you can only create a new <code>development</code> branch, no direct commits to <code>master</code> <strong>unless the situation calls for it</strong>.
 Merging a <code>development</code> branch to the <code>master</code> branch will be part of a <code>Milestone</code>.</p>
@@ -131,7 +131,7 @@ As long as the developer understands to open an issue and creating a new branch 
 <h2 id="opening-issues">Opening Issues</h2>
 <p>As mentioned above, the project&#39;s development progress and assigning tasks will be done via opening issues on the repository.
 Because of this, it is important to understand the format for opening one in a consistent way.</p>
-<p><img src="../resources/opening-issues.jpg" alt="how to open a issue"></p>
+<p><img src="../resources/opening-issues.jpg" alt="how to open an issue"></p>
 <ol>
 <li>Issue Title: The title of the feature/fix that the assigned developer will make.</li>
 <li>Description: The detailed description of what this task will be adding. It is best to add a list of things that will be done.</li>

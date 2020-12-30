@@ -1228,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/artist-guidelines.html",
-          "hash": "Kmzuqw9rFkPmyipi058pFA=="
+          "hash": "BdKyqrVBbyyC1Xp1w7nsBw=="
         }
       },
       "is_incremental": false,
@@ -1240,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/coding-style.html",
-          "hash": "/yAANlEz8YMmt3Ng6IFpNA=="
+          "hash": "vil29wWpv7ORJqR/CPPGFw=="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/github-guide.html",
-          "hash": "KnmqQHcejw30/ZlUXJQIHA=="
+          "hash": "ZnbCm3cZ+WxBA2ZjSmFShw=="
         }
       },
       "is_incremental": false,
@@ -1264,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/project-structure.html",
-          "hash": "+LMZzAkSqPkMkK5oHz3vpg=="
+          "hash": "R2iXXY3cytDwzlvq6NInqg=="
         }
       },
       "is_incremental": false,
@@ -1276,7 +1276,19 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "xEZzvqOje9bqGXd/29bWqA=="
+          "hash": "vqnCm1KFQUFfGZF8dygLVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/working-with-tilemaps.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/working-with-tilemaps.html",
+          "hash": "vmMyHijwlDhv2LA9SE23FA=="
         }
       },
       "is_incremental": false,
@@ -1284,10 +1296,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "resources/CharacterStyle.png",
+      "source_relative_path": "resources/character-style.png",
       "output": {
         "resource": {
-          "relative_path": "resources/CharacterStyle.png"
+          "relative_path": "resources/character-style.png"
         }
       },
       "is_incremental": false,
@@ -1295,43 +1307,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "resources/ColorPallette.png",
+      "source_relative_path": "resources/color-pallette.png",
       "output": {
         "resource": {
-          "relative_path": "resources/ColorPallette.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/SampleAnimation.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/SampleAnimation.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/Terminology.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "resources/Terminology.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/UIController.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/UIController.png"
+          "relative_path": "resources/color-pallette.png"
         }
       },
       "is_incremental": false,
@@ -1361,6 +1340,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/naming-scheme.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/naming-scheme.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/opening-issues.jpg",
       "output": {
         "resource": {
@@ -1372,10 +1362,98 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/sample-animation.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/sample-animation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/super-tilemap-editor-demo.gif",
+      "output": {
+        "resource": {
+          "relative_path": "resources/super-tilemap-editor-demo.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tile-rule-set.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tile-rule-set.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tiled-script-console.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tiled-script-console.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tilemap-editor-screen.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tilemap-editor-screen.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tileset-editor-screen.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tileset-editor-screen.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/title-cover.jpg",
       "output": {
         "resource": {
           "relative_path": "resources/title-cover.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ui-controller.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ui-controller.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/unity-tilemap-demo.gif",
+      "output": {
+        "resource": {
+          "relative_path": "resources/unity-tilemap-demo.gif"
         }
       },
       "is_incremental": false,
@@ -1408,7 +1486,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
