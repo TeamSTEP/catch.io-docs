@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>In-Game Tilemap System | Catch.io Developer Document </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="In-Game Tilemap System | Catch.io Developer Document ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="in-game-tilemap-system">In-Game Tilemap System</h1>
+
+<p>In this page, we will focus on summarizing two popular tilemap frameworks that we can consider for our project.</p>
+<h2 id="available-tilemap-frameworks">Available Tilemap Frameworks</h2>
+<p>There are a couple of options you can choose when creating a tile-based 2D game in Unity.
+All frameworks have their strengths and weaknesses that the developers should consider and commit to that framework to allow the core mechanics to have a consistent performance.</p>
+<h3 id="unity-2d-tilemap">Unity 2D Tilemap</h3>
+<p><img src="../resources/unity-tilemap-demo.gif" alt="unity tilemap demo"></p>
+<p>Unity 2D Tilemap is a tilemap component that Unity offers within their engine.
+Because it is part of the engine, this framework is highly compatible with most components and other tools within the Unity ecosystem.
+Plus, it is very flexible when it comes to adding custom features.
+You can learn more about extending the Unity 2D Tilemap framework from <a href="https://github.com/Unity-Technologies/2d-techdemos">this GitHub repository</a>.</p>
+<p>Despite the strong support that Unity 2D Tilemap receives from both Unity and the community (hey, that rhymed!), there are limitations that the developer should consider before fully committing to it.
+One such limitation is with the in-engine editor, as it lacks a lot of tile selection tools and built-in brushes.
+Another limitation is how complicated the custom brush implementation is alongside the difficulty of extending the existing tilemap framework itself.</p>
+<p>Pros:</p>
+<ul>
+<li>Highly compatible with the base engine and other assets</li>
+<li>Ability to create custom brushes and tile logics</li>
+<li>Easy composite collider</li>
+<li>Great documentation</li>
+<li>Great support from the community</li>
+<li>Completely free</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Difficult to extend the core tilemap component</li>
+<li>Difficult to create usable custom brushes</li>
+<li>All tiles are saved as a separate prefab in the project (hard to migrate)</li>
+<li>Lack of effective custom tile property injection</li>
+</ul>
+<p>Helpful resources:</p>
+<ul>
+<li><a href="https://docs.unity3d.com/Manual/class-Tilemap.html">Unity tilemap manual</a></li>
+<li><a href="https://learn.unity.com/tutorial/introduction-to-tilemaps">Tilemap component tutorial</a></li>
+</ul>
+<h3 id="super-tilemap-editor">Super Tilemap Editor</h3>
+<p><img src="../resources/super-tilemap-editor-demo.gif" alt="super tilemap editor demo"></p>
+<p>Super Tilemap Editor is a 3rd-party Unity asset that can be bought from the <a href="https://assetstore.unity.com/packages/tools/level-design/super-tilemap-editor-56339">Unity Asset Store</a> for $45.
+This asset (or plug-in) allows you to create and use 2D tilemap in your game scene.
+The tile system is based on the position within the specified atlas image, whereas Unity will create a prefab for each individual tiles from a sprite image.
+Overall, Super Tilemap Editor is a robust package that offers easy in-engine map editing tools.
+Thanks to the fact that the source code is available to the developer, you can extend and change the plugin from its core.</p>
+<p>However, Super Tilemap Editor has trouble with importing TMX (Tiled Map Editor XML) files despite it claims to provide full support for it.
+In addition to that, Super Tilemap Editor lacks in proper documentation or community support compared to that of Unity Tilemap.</p>
+<p>Pros:</p>
+<ul>
+<li>Highly expandable</li>
+<li>Optimized tiling system</li>
+<li>Robust editing tools</li>
+<li>Supports tile metadata and custom properties</li>
+<li>Easy to use</li>
+<li>Can export tilemaps as prefabs</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Not free</li>
+<li>Lacks in documentation</li>
+<li>Community size is small compared to Unity Tilemap</li>
+<li>Issue with importing from TMX files</li>
+</ul>
+<p>Helpful Resources:</p>
+<ul>
+<li><a href="https://forum.unity.com/threads/released-super-tilemap-editor.387330/">Unity forums release thread</a></li>
+<li><a href="https://creativespore.com/super-tilemap-editor/">Super Tilemap Editor Official Page</a></li>
+<li><a href="https://drive.google.com/file/d/0BxuhRM8zIOm8a3NlZHVqMGNVZWM/view">Super Tilemap Editor Documentation</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/in-game-tilemap.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

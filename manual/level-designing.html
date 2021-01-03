@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Working With Tilemaps | Catch.io Dev Doc </title>
+    <title>Level Designing | Catch.io Developer Document </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Working With Tilemaps | Catch.io Dev Doc ">
+    <meta name="title" content="Level Designing | Catch.io Developer Document ">
     <meta name="generator" content="docfx 2.56.6.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
     <link rel="shortcut icon" href="../resources/favicon.ico">
@@ -77,76 +77,37 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="working-with-tilemaps">Working With Tilemaps</h1>
+<h1 id="level-designing">Level Designing</h1>
 
-<p>The level design will play a huge role in making this game enjoyable for the players, as most of the core mechanics in this project relies on the environmental elements that the player should be aware of.
-To streamline the development process and allow the level designers to focus on designing, we will separate the level designing tool from the engine.</p>
-<p>In this section, we will discuss the tools and the set of rules that we will use in order to make this happen.</p>
-<h2 id="tilemap-frameworks">Tilemap Frameworks</h2>
-<p>There are a couple of options you can choose when creating a tile-based 2D game in Unity.
-All frameworks have their strengths and weaknesses that the developers should consider and commit to that framework to allow the core mechanics to have a consistent performance.</p>
-<h3 id="unity-2d-tilemap">Unity 2D Tilemap</h3>
-<p><img src="../resources/unity-tilemap-demo.gif" alt="unity tilemap demo"></p>
-<p>Unity 2D Tilemap is a tilemap component that Unity offers within their engine.
-Because it is part of the engine, this framework is highly compatible with most components and other tools within the Unity ecosystem.
-Plus, it is very flexible when it comes to adding custom features.
-You can learn more about extending the Unity 2D Tilemap framework from <a href="https://github.com/Unity-Technologies/2d-techdemos">this GitHub repository</a>.</p>
-<p>Despite the strong support that Unity 2D Tilemap receives from both Unity and the community (hey, that rhymed!), there are limitations that the developer should consider before fully committing to it.
-One such limitation is with the in-engine editor, as it lacks a lot of tile selection tools and built-in brushes.
-Another limitation is how complicated the custom brush implementation is alongside the difficulty of extending the existing tilemap framework itself.</p>
-<p>Pros:</p>
+<h2 id="game-mechanic-and-level-designing">Game Mechanic and Level Designing</h2>
+<p>Project Catch.io heavily relies on passive mechanics that affects the gameplay-flow.
+Passive mechanics are game mechanics that the players are expected to always be aware of and actively utilize to win without having a dedicated button to execute it.
+Examples of such mechanic includes:</p>
 <ul>
-<li>Highly compatible with the base engine and other assets</li>
-<li>Ability to create custom brushes and tile logics</li>
-<li>Easy composite collider</li>
-<li>Great documentation</li>
-<li>Great support from the community</li>
-<li>Completely free</li>
+<li>Visible sound waves</li>
+<li>Player footprint</li>
+<li>Environmental objects</li>
 </ul>
-<p>Cons:</p>
-<ul>
-<li>Difficult to extend the core tilemap component</li>
-<li>Difficult to create usable custom brushes</li>
-<li>All tiles are saved as a separate prefab in the project (hard to migrate)</li>
-<li>Lack of effective custom tile property injection</li>
-</ul>
-<p>Helpful resources:</p>
-<ul>
-<li><a href="https://docs.unity3d.com/Manual/class-Tilemap.html">Unity tilemap manual</a></li>
-<li><a href="https://learn.unity.com/tutorial/introduction-to-tilemaps">Tilemap component tutorial</a></li>
-</ul>
-<h3 id="super-tilemap-editor">Super Tilemap Editor</h3>
-<p><img src="../resources/super-tilemap-editor-demo.gif" alt="super tilemap editor demo"></p>
-<p>Super Tilemap Editor is a 3rd-party Unity asset that can be bought from the <a href="https://assetstore.unity.com/packages/tools/level-design/super-tilemap-editor-56339">Unity Asset Store</a> for $45.
-This asset (or plug-in) allows you to create and use 2D tilemap in your game scene.
-The tile system is based on the position within the specified atlas image, whereas Unity will create a prefab for each individual tiles from a sprite image.
-Overall, Super Tilemap Editor is a robust package that offers easy in-engine map editing tools.
-Thanks to the fact that the source code is available to the developer, you can extend and change the plugin from its core.</p>
-<p>However, Super Tilemap Editor has trouble with importing TMX (Tiled Map Editor XML) files despite it claims to provide full support for it.
-In addition to that, Super Tilemap Editor lacks in proper documentation or community support compared to that of Unity Tilemap.</p>
-<p>Pros:</p>
-<ul>
-<li>Highly expandable</li>
-<li>Optimized tiling system</li>
-<li>Robust editing tools</li>
-<li>Supports tile metadata and custom properties</li>
-<li>Easy to use</li>
-<li>Can export tilemaps as prefabs</li>
-</ul>
-<p>Cons:</p>
-<ul>
-<li>Not free</li>
-<li>Lacks in documentation</li>
-<li>Community size is small compared to Unity Tilemap</li>
-<li>Issue with importing from TMX files</li>
-</ul>
-<p>Helpful Resources:</p>
-<ul>
-<li><a href="https://forum.unity.com/threads/released-super-tilemap-editor.387330/">Unity forums release thread</a></li>
-<li><a href="https://creativespore.com/super-tilemap-editor/">Super Tilemap Editor Official Page</a></li>
-<li><a href="https://drive.google.com/file/d/0BxuhRM8zIOm8a3NlZHVqMGNVZWM/view">Super Tilemap Editor Documentation</a></li>
-</ul>
+<p>You can learn more from <a href="https://team-step.gitbook.io/witch-one-design-doc/game-mechanics-and-features">Game Mechanics and Features</a> section of the game design document.</p>
+<h3 id="map-sections">Map Sections</h3>
+<p>This project is expected to have an average of 15 players in a battle-royale-style death-match.
+A full game map will be divided into small sections that can be either a set of tilemap prefabs or multiple scenes combined together.
+The level designer will only need to focus on designing these map sections, rather than making the full map at once.</p>
+<p>Player spawn-points are manually placed by the designer to ensure that the game is balanced for everyone.
+To keep the map designing process simplified, <em>a single map section will be large enough to handle three player spawn-points</em>, where the <em>distance between any given spawn-point must be more than 64 tiles</em>.
+This means that the entire map must contain at least 5 sections.</p>
+<p><img src="../resources/map-section-placement.png" alt="map sections"></p>
+<p>The above image is a rough approximation of how the player spawn-point and map edges will be placed.
+In here, we assume that the space between each spawn-points in a single section is 64 tiles apart.</p>
+<p>Please note that this is just an example of how the map sections can be combined together.
+The level designer can change the size of a section, or change how they are placed if they need to do so.</p>
+<h3 id="map-elements">Map Elements</h3>
+<p>Aside from the visual style, the level designer will have to consider the following elements when making a map.</p>
 <h2 id="tiled-tilemap-editor">Tiled Tilemap Editor</h2>
+<p>The scripting aspect of the project may change depending on the implementation.
+In order to keep the development flow going, it is important for us to separate the level designing process from the level feature implementation.
+We do not want the level designers to wait for something coding task to finish, or lose their work when we change or optimise the tilemap system.
+At the same time, we want a flexible and powerful editing tool that allows the level designer to abstract the features.</p>
 <p>There are many options when it comes to implementing 2D tilemap systems in Unity.
 To keep the project development flow clean, we will use a map editing tool called Tiled.
 You can download it <a href="https://www.mapeditor.org/">from this link</a>.</p>
@@ -171,7 +132,7 @@ After when you opened a project, all you have to do is double-click the TMX file
 </ul>
 </li>
 <li>Templates: Contains the map object template file. Objects are useful when you want to reference a Unity prefab or other complicated game-specific logic that is difficult to add using Tiled. When you create an object that is used in other maps, please create a template of it and save it in this folder.</li>
-<li>Tileset: Contains the tileset information that is used in the map. The tileset source image will always be inside the <code>Assets/Textures/Tileset</code> or <code>Assets/Textures/Props</code> folder. This means that all the tilemap used in Tiled is based on the raw sprites that is read by the game engine. Tilesets should match the sprite name that it is based on to reduce confusion.</li>
+<li>Tileset: Contains the tileset information that is used in the map. The tileset source image will always be inside the <code>Assets/Textures/Tileset</code> or <code>Assets/Textures/Props</code> folder. This means that all the tilemap used in Tiled is based on the raw sprites that is read by the game engine. Tileset should match the sprite name that it is based on to reduce confusion.</li>
 <li>Types: Contains the map object type data. Using types allows the object to have a consistent property which makes it easy for the Unity importer to handle them later on. All types are kept in a single <code>.xml</code> file, so every time you add a new type, you should overwrite the existing one. However, be careful not to change the file name as they are referenced by the <code>.tiled-project</code> file.</li>
 </ul>
 <h3 id="useful-features">Useful Features</h3>
@@ -232,7 +193,7 @@ This is the place where you will design the game map by placing tiles and object
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/working-with-tilemaps.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/level-designing.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
