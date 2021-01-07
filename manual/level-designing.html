@@ -99,14 +99,24 @@ This means that the entire map must contain at least 5 sections.</p>
 <p><img src="../resources/map-section-placement.png" alt="map sections"></p>
 <p>The above image is a rough approximation of how the player spawn-point and map edges will be placed.
 In here, we assume that the space between each spawn-points in a single section is 64 tiles apart.</p>
-<p>Please note that this is just an example of how the map sections can be combined together.
+<p>Please note that this is just an example of how the map sections can be combined.
 The level designer can change the size of a section, or change how they are placed if they need to do so.</p>
 <h3 id="map-elements">Map Elements</h3>
 <p>Aside from the visual style, the level designer will have to consider the following elements when making a map.</p>
+<ul>
+<li>Map Surface: All levels will have a base ground tile and a special surface tile. These surface can leave footprints, generate sound with a higher volume, or slowdown the player.</li>
+<li>Player Spawn-points: As mentioned above, player spawn-points are manually placed by the level designer. When a player enters a game, they will spawn randomly from a set of locations defined by the designer.</li>
+<li>Offensive/Evasive Items: Offensive and evasive items are objects that players can keep in their inventory and throw it with the throw button. These items are the primary source of gameplay that allows the player to either attack the other player, or run away from certain situations. Level designers should be mindful of where they should be placed and how many should be accessible in a given section.</li>
+<li>Consumable Item Spawn-points: Consumable items are essentially health potions for replenishing player&#39;s sanity value. Potions use the same inventory slot as the offensive/evasive items, but they are not re-usable once consumed. To keep the gameplay flow going and prevent players dying from lack of potions, consumable items are spawned in a fixed location that only spawn to the location with the least players in the area.</li>
+<li>Environmental Objects: Environmental objects are map props that is part of the map design. They are not meant to have any player interaction, instead, they are meant to be a static object. However, environmental objects can cast shadows or block bounce-off projectiles, which means that they can be used as a hiding spot or an ambush spot for the player.</li>
+<li>Light Sources: These are part of the environmental object group, however, instead of being a hiding spot for the player, this will become the area that exposes the player, as players will only be visible to other players when they are being lit.</li>
+<li>Buildings and Houses: Similar to environmental objects, buildings are a static prop that is part of the map. However, they do not come in a fixed size like a tree would. Players are expected to use buildings and houses as a landmark for map navigation and hiding.</li>
+<li>Story Telling: When designing a level, the designer should tell a story for each object they place. This aspect of level designing will not be emphasized for the vertical slice of the project, but the release version should be able to tell the game lore and place objects in a way that stays consistent with the story that the designer is trying to tell.</li>
+</ul>
 <h2 id="tiled-tilemap-editor">Tiled Tilemap Editor</h2>
 <p>The scripting aspect of the project may change depending on the implementation.
 In order to keep the development flow going, it is important for us to separate the level designing process from the level feature implementation.
-We do not want the level designers to wait for something coding task to finish, or lose their work when we change or optimise the tilemap system.
+We do not want the level designers to wait for something coding task to finish, or lose their work when we change or optimize the tilemap system.
 At the same time, we want a flexible and powerful editing tool that allows the level designer to abstract the features.</p>
 <p>There are many options when it comes to implementing 2D tilemap systems in Unity.
 To keep the project development flow clean, we will use a map editing tool called Tiled.
