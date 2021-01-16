@@ -55,7 +55,7 @@ The game will have the following mechanics at a glance:
 9. Environmental Objects
    1. Environmental objects include Trees, Rocks, Bushes, Tall Grasses, Item Crate, etc.
    2. These will be imported as a prefab brush inside the Unity engine.
-   3. Most environmental objects will have animation or another special effect when they collider with the player object.
+   3. Most environmental objects will have animation or another special effect when they collide with the player object.
    4. There will be objects that illuminate the surrounding area like a torch or any other light source.
 10. Player Movement
     1. Players have three different movement states; Running, Walking, Sneaking.

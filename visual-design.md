@@ -10,10 +10,6 @@ Witch One will have a top-down orthogonal perspective \(ex: Legend of Zelda\) wi
 
 For the art style, a single tile will be 32x32 pixels big while the player will be 32 wide and 60 pixels tall. The world unit is 32 pixels. For other throwable objects, they should fit this proportion and make them smaller than 32x32 pixels.
 
-![](.gitbook/assets/bandicam-2020-08-22-22-07-13-100.jpg)
-
-The character sprite is 32x60 pixels big. This means that every environmental tile with depth such as cliffs and building walls should be two tiles high to make it look natural and fit the player.
-
 Furthermore, Witch One must follow the following color palette for both the character and prop sprites.
 
 ![\(Figure 3\) Sprite color palette](.gitbook/assets/colorpallette.png)
@@ -38,11 +34,13 @@ The biomes are generally a visual thing as they do not have any gameplay changes
 
 ## Fonts
 
-In-game fonts can have a hand-written feel to it as if they were etched on a runestone or carefully written on a Pyperus paper. [Just Me Again Down Here](https://fonts.google.com/specimen/Just+Me+Again+Down+Here?preview.text_type=custom&category=Handwriting) or [Reenie Beanie](https://fonts.google.com/specimen/Reenie+Beanie?preview.text_type=custom&category=Handwriting) is a good example. Alternatively, the game can use a pixelated font rather than a styled font or a mixture of both.
+In-game fonts can have a hand-written feel. Like an etching on a runestone or carefully written on a Pyperus paper. [Just Me Again Down Here](https://fonts.google.com/specimen/Just+Me+Again+Down+Here?preview.text_type=custom&category=Handwriting) or [Reenie Beanie](https://fonts.google.com/specimen/Reenie+Beanie?preview.text_type=custom&category=Handwriting) is a good example. Alternatively, the game can use a pixelated font rather than a styled font or a mixture of both.
 
 However, if this project is to have multi-language support, we will have to find different fonts for each language.
 
 ## HUD Design
+
+\[note: this part is outdated, please update this\]
 
 The interface design will have a pixelated look to it that complements the game’s visual theme of a magical medieval battle between witches. The look will be a cross between Stardew Valley and The Elder Scrolls series \(2 and 4 to be precise\).
 
