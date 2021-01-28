@@ -12,6 +12,16 @@ For on-going development progress, please check our [Github project repository](
 For development references, please check our [developer reference guide](https://teamstep.github.io/catch.io-docs/index.html) page.
 {% endhint %}
 
+{% hint style="info" %}
+## Supporting the Team
+
+If you are interested in this project and want to hear more from us, please consider following our team's [Twitter account](https://twitter.com/teamstepgames).
+
+For people who want to directly support this project or interested in joining the team, please send us your portfolio to info@teamstep.io, alternatively, you can refer to our [Patreon page](https://www.patreon.com/teamstep) to support our team!
+
+We love to hear more from everyone :\)
+{% endhint %}
+
 ## Project Description
 
 ![](.gitbook/assets/title-cover.jpg)
