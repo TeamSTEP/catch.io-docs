@@ -15,5 +15,5 @@
 * [Profit Model](profit-model.md)
 * [Marketing Strategy](marketing-strategy.md)
 * [Pivot Strategy](pivot-strategy.md)
-* [Developer Manual](https://teamstep.github.io/catch.io-docs/index.html)
+* [Developer Manual](https://devdocs.witchone.io/)
 

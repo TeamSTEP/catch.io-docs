@@ -7,7 +7,7 @@ This document will incrementally record the game’s development status and will
 
 Everything written here is subject to change with each improvement coming to the project and by no means it’s comprehensive.
 
-For developer reference docs, please check our [developer reference guide](https://teamstep.github.io/catch.io-docs/index.html) page.
+For developer reference docs, please check our [developer reference guide](https://devdocs.witchone.io/) page.
 {% endhint %}
 
 {% hint style="info" %}
