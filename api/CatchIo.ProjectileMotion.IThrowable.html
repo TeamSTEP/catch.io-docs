@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RoomItemControl
+    <title>Interface IThrowable
    | Catch.io Developer Document </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RoomItemControl
+    <meta name="title" content="Interface IThrowable
    | Catch.io Developer Document ">
     <meta name="generator" content="docfx 2.56.7.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.RoomItemControl">
+            <article class="content wrap" id="_content" data-uid="CatchIo.ProjectileMotion.IThrowable">
   
   
-  <h1 id="CatchIo_UI_RoomItemControl" data-uid="CatchIo.UI.RoomItemControl" class="text-break">Class RoomItemControl
+  <h1 id="CatchIo_ProjectileMotion_IThrowable" data-uid="CatchIo.ProjectileMotion.IThrowable" class="text-break">Interface IThrowable
   </h1>
-  <div class="markdown level0 summary"><p>A GUI controller script for displaying Photon rooms</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">RoomItemControl</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.ProjectileMotion.html">CatchIo.ProjectileMotion</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_RoomItemControl_syntax">Syntax</h5>
+  <h5 id="CatchIo_ProjectileMotion_IThrowable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RoomItemControl : GuiBehavior</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IThrowable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_UI_RoomItemControl_RoomName_" data-uid="CatchIo.UI.RoomItemControl.RoomName*"></a>
-  <h4 id="CatchIo_UI_RoomItemControl_RoomName" data-uid="CatchIo.UI.RoomItemControl.RoomName">RoomName</h4>
+  <a id="CatchIo_ProjectileMotion_IThrowable_IsOnFloor_" data-uid="CatchIo.ProjectileMotion.IThrowable.IsOnFloor*"></a>
+  <h4 id="CatchIo_ProjectileMotion_IThrowable_IsOnFloor" data-uid="CatchIo.ProjectileMotion.IThrowable.IsOnFloor">IsOnFloor</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RoomName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">bool IsOnFloor { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,7 +113,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -128,13 +122,13 @@
   </h3>
   
   
-  <a id="CatchIo_UI_RoomItemControl_CreateRoomRender_" data-uid="CatchIo.UI.RoomItemControl.CreateRoomRender*"></a>
-  <h4 id="CatchIo_UI_RoomItemControl_CreateRoomRender_RoomInfo_" data-uid="CatchIo.UI.RoomItemControl.CreateRoomRender(RoomInfo)">CreateRoomRender(RoomInfo)</h4>
+  <a id="CatchIo_ProjectileMotion_IThrowable_OnBeforeThrow_" data-uid="CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow*"></a>
+  <h4 id="CatchIo_ProjectileMotion_IThrowable_OnBeforeThrow_Vector2_Vector2_" data-uid="CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow(Vector2,Vector2)">OnBeforeThrow(Vector2, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateRoomRender(RoomInfo room)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnBeforeThrow(Vector2 throwPos, Vector2 targetPos)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,22 +141,69 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RoomInfo</span></td>
-        <td><span class="parametername">room</span></td>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">throwPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">targetPos</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_RoomItemControl_OnClick_JoinRoom_" data-uid="CatchIo.UI.RoomItemControl.OnClick_JoinRoom*"></a>
-  <h4 id="CatchIo_UI_RoomItemControl_OnClick_JoinRoom" data-uid="CatchIo.UI.RoomItemControl.OnClick_JoinRoom">OnClick_JoinRoom()</h4>
+  <a id="CatchIo_ProjectileMotion_IThrowable_OnLanded_" data-uid="CatchIo.ProjectileMotion.IThrowable.OnLanded*"></a>
+  <h4 id="CatchIo_ProjectileMotion_IThrowable_OnLanded" data-uid="CatchIo.ProjectileMotion.IThrowable.OnLanded">OnLanded()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnClick_JoinRoom()</code></pre>
+    <pre><code class="lang-csharp hljs">void OnLanded()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_ProjectileMotion_IThrowable_UpdateProjectilePhysic_" data-uid="CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic*"></a>
+  <h4 id="CatchIo_ProjectileMotion_IThrowable_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_" data-uid="CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)">UpdateProjectilePhysic(Vector2, Vector2, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateProjectilePhysic(Vector2 throwPos, Vector2 targetPos, float throwRadius, float maxThrowHeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">throwPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">targetPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">throwRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">maxThrowHeight</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

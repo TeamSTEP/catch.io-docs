@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NetworkLobbyManager
+    <title>Class UserInputHelper
    | Catch.io Developer Document </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NetworkLobbyManager
+    <meta name="title" content="Class UserInputHelper
    | Catch.io Developer Document ">
     <meta name="generator" content="docfx 2.56.7.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,199 +78,222 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Menus.NetworkLobbyManager">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Helpers.UserInputHelper">
   
   
-  <h1 id="CatchIo_Menus_NetworkLobbyManager" data-uid="CatchIo.Menus.NetworkLobbyManager" class="text-break">Class NetworkLobbyManager
+  <h1 id="CatchIo_Helpers_UserInputHelper" data-uid="CatchIo.Helpers.UserInputHelper" class="text-break">Class UserInputHelper
   </h1>
-  <div class="markdown level0 summary"><p>Photon lobby scene manager. All the lobby logic and network management
-should be handled from here.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">NetworkLobbyManager</span></div>
+    <div class="level1"><span class="xref">UserInputHelper</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Menus.html">CatchIo.Menus</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Helpers.html">CatchIo.Helpers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Menus_NetworkLobbyManager_syntax">Syntax</h5>
+  <h5 id="CatchIo_Helpers_UserInputHelper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkLobbyManager : NetworkCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public static class UserInputHelper</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="CatchIo_Menus_NetworkLobbyManager_Instance" data-uid="CatchIo.Menus.NetworkLobbyManager.Instance">Instance</h4>
-  <div class="markdown level1 summary"><p>A static reference to itself.
-This is used to make this object a singleton for the lobby.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObject Instance</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Menus_NetworkLobbyManager_CreateRoom_" data-uid="CatchIo.Menus.NetworkLobbyManager.CreateRoom*"></a>
-  <h4 id="CatchIo_Menus_NetworkLobbyManager_CreateRoom_System_String_System_String_System_Byte_" data-uid="CatchIo.Menus.NetworkLobbyManager.CreateRoom(System.String,System.String,System.Byte)">CreateRoom(String, String, Byte)</h4>
-  <div class="markdown level1 summary"><p>Create a new room from the given parameter.
-The map name will be stored as a custom metadata for room data in photon network.</p>
-</div>
+  <a id="CatchIo_Helpers_UserInputHelper_GetAimModeButtonInput_" data-uid="CatchIo.Helpers.UserInputHelper.GetAimModeButtonInput*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetAimModeButtonInput" data-uid="CatchIo.Helpers.UserInputHelper.GetAimModeButtonInput">GetAimModeButtonInput()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateRoom(string roomName, string mapName, byte maxPlayer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool GetAimModeButtonInput()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">mapName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
-        <td><span class="parametername">maxPlayer</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Menus_NetworkLobbyManager_JoinRoom_" data-uid="CatchIo.Menus.NetworkLobbyManager.JoinRoom*"></a>
-  <h4 id="CatchIo_Menus_NetworkLobbyManager_JoinRoom_System_String_" data-uid="CatchIo.Menus.NetworkLobbyManager.JoinRoom(System.String)">JoinRoom(String)</h4>
-  <div class="markdown level1 summary"><p>Joins the room with the given name.
-The actual scene loading is handled by the pun callback method.</p>
-</div>
+  <a id="CatchIo_Helpers_UserInputHelper_GetAttackInput_" data-uid="CatchIo.Helpers.UserInputHelper.GetAttackInput*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetAttackInput" data-uid="CatchIo.Helpers.UserInputHelper.GetAttackInput">GetAttackInput()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void JoinRoom(string roomName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool GetAttackInput()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Menus_NetworkLobbyManager_OnCreatedRoom_" data-uid="CatchIo.Menus.NetworkLobbyManager.OnCreatedRoom*"></a>
-  <h4 id="CatchIo_Menus_NetworkLobbyManager_OnCreatedRoom" data-uid="CatchIo.Menus.NetworkLobbyManager.OnCreatedRoom">OnCreatedRoom()</h4>
+  <a id="CatchIo_Helpers_UserInputHelper_GetCrouchingButtonInput_" data-uid="CatchIo.Helpers.UserInputHelper.GetCrouchingButtonInput*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetCrouchingButtonInput" data-uid="CatchIo.Helpers.UserInputHelper.GetCrouchingButtonInput">GetCrouchingButtonInput()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnCreatedRoom()</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool GetCrouchingButtonInput()</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_Menus_NetworkLobbyManager_OnJoinedRoom_" data-uid="CatchIo.Menus.NetworkLobbyManager.OnJoinedRoom*"></a>
-  <h4 id="CatchIo_Menus_NetworkLobbyManager_OnJoinedRoom" data-uid="CatchIo.Menus.NetworkLobbyManager.OnJoinedRoom">OnJoinedRoom()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnJoinedRoom()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Menus_NetworkLobbyManager_OnJoinRoomFailed_" data-uid="CatchIo.Menus.NetworkLobbyManager.OnJoinRoomFailed*"></a>
-  <h4 id="CatchIo_Menus_NetworkLobbyManager_OnJoinRoomFailed_System_Int16_System_String_" data-uid="CatchIo.Menus.NetworkLobbyManager.OnJoinRoomFailed(System.Int16,System.String)">OnJoinRoomFailed(Int16, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnJoinRoomFailed(short returnCode, string message)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
-        <td><span class="parametername">returnCode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">message</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Menus_NetworkLobbyManager_OnRoomListUpdate_" data-uid="CatchIo.Menus.NetworkLobbyManager.OnRoomListUpdate*"></a>
-  <h4 id="CatchIo_Menus_NetworkLobbyManager_OnRoomListUpdate_List_RoomInfo__" data-uid="CatchIo.Menus.NetworkLobbyManager.OnRoomListUpdate(List{RoomInfo})">OnRoomListUpdate(List&lt;RoomInfo&gt;)</h4>
+  <a id="CatchIo_Helpers_UserInputHelper_GetItemSelectInput_" data-uid="CatchIo.Helpers.UserInputHelper.GetItemSelectInput*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetItemSelectInput" data-uid="CatchIo.Helpers.UserInputHelper.GetItemSelectInput">GetItemSelectInput()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnRoomListUpdate(List&lt;RoomInfo&gt; roomList)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int GetItemSelectInput()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">RoomInfo</span>&gt;</td>
-        <td><span class="parametername">roomList</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Helpers_UserInputHelper_GetItemUseButton_" data-uid="CatchIo.Helpers.UserInputHelper.GetItemUseButton*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetItemUseButton" data-uid="CatchIo.Helpers.UserInputHelper.GetItemUseButton">GetItemUseButton()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetItemUseButton()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Helpers_UserInputHelper_GetMousePosition_" data-uid="CatchIo.Helpers.UserInputHelper.GetMousePosition*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetMousePosition" data-uid="CatchIo.Helpers.UserInputHelper.GetMousePosition">GetMousePosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetMousePosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Helpers_UserInputHelper_GetMovementDirectionInput_" data-uid="CatchIo.Helpers.UserInputHelper.GetMovementDirectionInput*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetMovementDirectionInput" data-uid="CatchIo.Helpers.UserInputHelper.GetMovementDirectionInput">GetMovementDirectionInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetMovementDirectionInput()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Helpers_UserInputHelper_GetRunningButtonInput_" data-uid="CatchIo.Helpers.UserInputHelper.GetRunningButtonInput*"></a>
+  <h4 id="CatchIo_Helpers_UserInputHelper_GetRunningButtonInput" data-uid="CatchIo.Helpers.UserInputHelper.GetRunningButtonInput">GetRunningButtonInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetRunningButtonInput()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>

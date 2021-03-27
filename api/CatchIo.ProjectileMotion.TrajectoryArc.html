@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RoomItemControl
+    <title>Class TrajectoryArc
    | Catch.io Developer Document </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RoomItemControl
+    <meta name="title" content="Class TrajectoryArc
    | Catch.io Developer Document ">
     <meta name="generator" content="docfx 2.56.7.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,63 +78,45 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.RoomItemControl">
+            <article class="content wrap" id="_content" data-uid="CatchIo.ProjectileMotion.TrajectoryArc">
   
   
-  <h1 id="CatchIo_UI_RoomItemControl" data-uid="CatchIo.UI.RoomItemControl" class="text-break">Class RoomItemControl
+  <h1 id="CatchIo_ProjectileMotion_TrajectoryArc" data-uid="CatchIo.ProjectileMotion.TrajectoryArc" class="text-break">Class TrajectoryArc
   </h1>
-  <div class="markdown level0 summary"><p>A GUI controller script for displaying Photon rooms</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">RoomItemControl</span></div>
+    <div class="level1"><span class="xref">TrajectoryArc</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.ProjectileMotion.html">CatchIo.ProjectileMotion</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_RoomItemControl_syntax">Syntax</h5>
+  <h5 id="CatchIo_ProjectileMotion_TrajectoryArc_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RoomItemControl : GuiBehavior</code></pre>
+    <pre><code class="lang-csharp hljs">public class TrajectoryArc</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_UI_RoomItemControl_RoomName_" data-uid="CatchIo.UI.RoomItemControl.RoomName*"></a>
-  <h4 id="CatchIo_UI_RoomItemControl_RoomName" data-uid="CatchIo.UI.RoomItemControl.RoomName">RoomName</h4>
+  <a id="CatchIo_ProjectileMotion_TrajectoryArc__ctor_" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.#ctor*"></a>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc__ctor" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.#ctor">TrajectoryArc()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RoomName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TrajectoryArc()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CatchIo_UI_RoomItemControl_CreateRoomRender_" data-uid="CatchIo.UI.RoomItemControl.CreateRoomRender*"></a>
-  <h4 id="CatchIo_UI_RoomItemControl_CreateRoomRender_RoomInfo_" data-uid="CatchIo.UI.RoomItemControl.CreateRoomRender(RoomInfo)">CreateRoomRender(RoomInfo)</h4>
+  <a id="CatchIo_ProjectileMotion_TrajectoryArc__ctor_" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.#ctor*"></a>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc__ctor_Vector3_System_Single_Vector3___" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.#ctor(Vector3,System.Single,Vector3[])">TrajectoryArc(Vector3, Single, Vector3[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateRoomRender(RoomInfo room)</code></pre>
+    <pre><code class="lang-csharp hljs">public TrajectoryArc(Vector3 initalVelocity, float timeToTarget, Vector3[] trajectoryPath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,22 +129,135 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RoomInfo</span></td>
-        <td><span class="parametername">room</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">initalVelocity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">timeToTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">trajectoryPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_InitalVelocity" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.InitalVelocity">InitalVelocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InitalVelocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_RoomItemControl_OnClick_JoinRoom_" data-uid="CatchIo.UI.RoomItemControl.OnClick_JoinRoom*"></a>
-  <h4 id="CatchIo_UI_RoomItemControl_OnClick_JoinRoom" data-uid="CatchIo.UI.RoomItemControl.OnClick_JoinRoom">OnClick_JoinRoom()</h4>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_TimeToTarget" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.TimeToTarget">TimeToTarget</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnClick_JoinRoom()</code></pre>
+    <pre><code class="lang-csharp hljs">public float TimeToTarget</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_TrajectoryPath" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryPath">TrajectoryPath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3[] TrajectoryPath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc*"></a>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_Vector3_System_Single_Vector3___" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(Vector3,System.Single,Vector3[])">UpdateTrajectoryArc(Vector3, Single, Vector3[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateTrajectoryArc(Vector3 initalVelocity, float timeToTarget, Vector3[] trajectoryPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">initalVelocity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">timeToTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">trajectoryPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
