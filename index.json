@@ -29,6 +29,36 @@
     "title": "Class NetworkCallback | Catch.io Developer Document",
     "keywords": "Class NetworkCallback Base class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. Inheritance Object NetworkCallback Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public class NetworkCallback : MonoBehaviourPunCallbacks Fields GameVersion This client's version number. Users are separated from each other by gameVersion (which allows you to make breaking changes). Declaration public string GameVersion Field Value Type Description String Methods OnCreateRoomFailed(Int16, String) Declaration public override void OnCreateRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message OnDisconnected(DisconnectCause) Declaration public override void OnDisconnected(DisconnectCause cause) Parameters Type Name Description DisconnectCause cause OnJoinRoomFailed(Int16, String) Declaration public override void OnJoinRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message"
   },
+  "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimationData.html": {
+    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimationData.html",
+    "title": "Struct CharacterBlendTreeEditor.AnimationData | Catch.io Developer Document",
+    "keywords": "Struct CharacterBlendTreeEditor.AnimationData Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax [Serializable] public struct AnimationData Constructors AnimationData(String) Declaration public AnimationData(string name) Parameters Type Name Description String name Fields StateName Declaration public string StateName Field Value Type Description String Methods AddAnimInfo(CharacterBlendTreeEditor.AnimInfo) Declaration public void AddAnimInfo(CharacterBlendTreeEditor.AnimInfo info) Parameters Type Name Description CharacterBlendTreeEditor.AnimInfo info GetClips() Declaration public List<CharacterBlendTreeEditor.AnimInfo> GetClips() Returns Type Description List < CharacterBlendTreeEditor.AnimInfo >"
+  },
+  "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfo.html": {
+    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfo.html",
+    "title": "Struct CharacterBlendTreeEditor.AnimInfo | Catch.io Developer Document",
+    "keywords": "Struct CharacterBlendTreeEditor.AnimInfo Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax [Serializable] public struct AnimInfo Fields Clip Declaration public AnimationClip Clip Field Value Type Description AnimationClip Direction Declaration public CharacterBlendTreeEditor.DirType Direction Field Value Type Description CharacterBlendTreeEditor.DirType"
+  },
+  "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfoComparer.html": {
+    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfoComparer.html",
+    "title": "Class CharacterBlendTreeEditor.AnimInfoComparer | Catch.io Developer Document",
+    "keywords": "Class CharacterBlendTreeEditor.AnimInfoComparer Inheritance Object CharacterBlendTreeEditor.AnimInfoComparer Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax public class AnimInfoComparer : IComparer<CharacterBlendTreeEditor.AnimInfo> Methods Compare(CharacterBlendTreeEditor.AnimInfo, CharacterBlendTreeEditor.AnimInfo) Declaration public int Compare(CharacterBlendTreeEditor.AnimInfo x, CharacterBlendTreeEditor.AnimInfo y) Parameters Type Name Description CharacterBlendTreeEditor.AnimInfo x CharacterBlendTreeEditor.AnimInfo y Returns Type Description Int32"
+  },
+  "api/CatchIo.Editors.CharacterBlendTreeEditor.DirType.html": {
+    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.DirType.html",
+    "title": "Enum CharacterBlendTreeEditor.DirType | Catch.io Developer Document",
+    "keywords": "Enum CharacterBlendTreeEditor.DirType Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax public enum DirType Fields Name Description E N NE None NW S SE SW W"
+  },
+  "api/CatchIo.Editors.CharacterBlendTreeEditor.html": {
+    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.html",
+    "title": "Class CharacterBlendTreeEditor | Catch.io Developer Document",
+    "keywords": "Class CharacterBlendTreeEditor Inheritance Object CharacterBlendTreeEditor Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax public class CharacterBlendTreeEditor : OdinEditorWindow Fields AnimationClipsPath Declaration public string AnimationClipsPath Field Value Type Description String AnimationDic Declaration public Dictionary<string, CharacterBlendTreeEditor.AnimationData> AnimationDic Field Value Type Description Dictionary < String , CharacterBlendTreeEditor.AnimationData > CharacterName Declaration public string CharacterName Field Value Type Description String"
+  },
+  "api/CatchIo.Editors.html": {
+    "href": "api/CatchIo.Editors.html",
+    "title": "Namespace CatchIo.Editors | Catch.io Developer Document",
+    "keywords": "Namespace CatchIo.Editors Classes CharacterBlendTreeEditor CharacterBlendTreeEditor.AnimInfoComparer Structs CharacterBlendTreeEditor.AnimationData CharacterBlendTreeEditor.AnimInfo Enums CharacterBlendTreeEditor.DirType"
+  },
   "api/CatchIo.Enums.html": {
     "href": "api/CatchIo.Enums.html",
     "title": "Namespace CatchIo.Enums | Catch.io Developer Document",
@@ -69,10 +99,20 @@
     "title": "Class TileSurface | Catch.io Developer Document",
     "keywords": "Class TileSurface Inheritance Object TileSurface Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax [Serializable] public class TileSurface Fields FootprintSprite Declaration public Sprite FootprintSprite Field Value Type Description Sprite SoundEffect Declaration public string SoundEffect Field Value Type Description String Properties HasSoundEffect Declaration public bool HasSoundEffect { get; } Property Value Type Description Boolean LeavesFootprints Declaration public bool LeavesFootprints { get; } Property Value Type Description Boolean SoundLevel Declaration public float SoundLevel { get; } Property Value Type Description Single SurfaceName Declaration public string SurfaceName { get; } Property Value Type Description String"
   },
+  "api/CatchIo.Helpers.AnimationParser.html": {
+    "href": "api/CatchIo.Helpers.AnimationParser.html",
+    "title": "Class AnimationParser | Catch.io Developer Document",
+    "keywords": "Class AnimationParser Inheritance Object AnimationParser Namespace : CatchIo.Helpers Assembly : cs.temp.dll.dll Syntax public static class AnimationParser Methods MapAnimationToActionState(AnimationClip[]) Declaration public static Dictionary<PlayerActionState, StateAnimation> MapAnimationToActionState(AnimationClip[] clips) Parameters Type Name Description AnimationClip [] clips Returns Type Description Dictionary < PlayerActionState , StateAnimation >"
+  },
   "api/CatchIo.Helpers.html": {
     "href": "api/CatchIo.Helpers.html",
     "title": "Namespace CatchIo.Helpers | Catch.io Developer Document",
-    "keywords": "Namespace CatchIo.Helpers Classes UserInputHelper"
+    "keywords": "Namespace CatchIo.Helpers Classes AnimationParser UserInputHelper Structs StateAnimation"
+  },
+  "api/CatchIo.Helpers.StateAnimation.html": {
+    "href": "api/CatchIo.Helpers.StateAnimation.html",
+    "title": "Struct StateAnimation | Catch.io Developer Document",
+    "keywords": "Struct StateAnimation Namespace : CatchIo.Helpers Assembly : cs.temp.dll.dll Syntax public struct StateAnimation Constructors StateAnimation(String, AnimationClip) Declaration public StateAnimation(string name, AnimationClip clip) Parameters Type Name Description String name AnimationClip clip Fields Clip Declaration public AnimationClip Clip Field Value Type Description AnimationClip Name Declaration public string Name Field Value Type Description String"
   },
   "api/CatchIo.Helpers.UserInputHelper.html": {
     "href": "api/CatchIo.Helpers.UserInputHelper.html",
@@ -157,7 +197,7 @@
   "api/CatchIo.PlayerCharacter.html": {
     "href": "api/CatchIo.PlayerCharacter.html",
     "title": "Namespace CatchIo.PlayerCharacter | Catch.io Developer Document",
-    "keywords": "Namespace CatchIo.PlayerCharacter Classes Inventory InventoryController Player PlayerAnimation PlayerController PlayerFOV PlayerHitbox Interfaces IDamageable Enums PlayerMoveState"
+    "keywords": "Namespace CatchIo.PlayerCharacter Classes Inventory InventoryController Player PlayerAnimation PlayerController PlayerFOV PlayerHitbox Interfaces IDamageable Enums PlayerActionState PlayerMoveState"
   },
   "api/CatchIo.PlayerCharacter.IDamageable.html": {
     "href": "api/CatchIo.PlayerCharacter.IDamageable.html",
@@ -177,12 +217,17 @@
   "api/CatchIo.PlayerCharacter.Player.html": {
     "href": "api/CatchIo.PlayerCharacter.Player.html",
     "title": "Class Player | Catch.io Developer Document",
-    "keywords": "Class Player Inheritance Object Player Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class Player : MonoBehaviourPun Fields AddItemToInventoryAction Declaration public Action<Item> AddItemToInventoryAction Field Value Type Description Action < Item > MaxThrowHeight Declaration public float MaxThrowHeight Field Value Type Description Single MoveState Declaration public PlayerMoveState MoveState Field Value Type Description PlayerMoveState RemoveHoldingItemAction Declaration public Action RemoveHoldingItemAction Field Value Type Description Action RunningSpeed Declaration public float RunningSpeed Field Value Type Description Single SneakingSpeed Declaration public float SneakingSpeed Field Value Type Description Single ThrowRadius Declaration public float ThrowRadius Field Value Type Description Single WalkingSpeed Declaration public float WalkingSpeed Field Value Type Description Single Properties CanBeKilled Declaration public bool CanBeKilled { get; } Property Value Type Description Boolean CanControl Declaration public bool CanControl { get; } Property Value Type Description Boolean CharSkin Declaration public string CharSkin { get; } Property Value Type Description String CurrentViewAngle Declaration public float CurrentViewAngle { get; } Property Value Type Description Single HoldingItem Declaration public Item HoldingItem { get; set; } Property Value Type Description Item MeleeDamage Declaration public float MeleeDamage { get; } Property Value Type Description Single Name Declaration public string Name { get; } Property Value Type Description String SanityVal Declaration public float SanityVal { get; } Property Value Type Description Single StaminaVal Declaration public float StaminaVal { get; } Property Value Type Description Single Methods Attack(IDamageable) Declaration public void Attack(IDamageable player) Parameters Type Name Description IDamageable player ConsumeItem(ConsumableItem) Declaration public void ConsumeItem(ConsumableItem item) Parameters Type Name Description ConsumableItem item DiscardHoldingItem() Declaration public void DiscardHoldingItem() Draw() Declaration public void Draw() HealStamina(Single) Declaration public void HealStamina(float healVal) Parameters Type Name Description Single healVal Look(Int32) Declaration public void Look(int viewAngle) Parameters Type Name Description Int32 viewAngle Move(Vector2, Boolean, Boolean) Declaration public void Move(Vector2 moveDir, bool isRunning, bool isCrouching) Parameters Type Name Description Vector2 moveDir Boolean isRunning Boolean isCrouching PickupItem(Item) Declaration public void PickupItem(Item item) Parameters Type Name Description Item item TakeDamage(Single) Declaration public void TakeDamage(float damage) Parameters Type Name Description Single damage ThrowItem(ThrowableItem, Vector2) Declaration public void ThrowItem(ThrowableItem item, Vector2 targetPos) Parameters Type Name Description ThrowableItem item Vector2 targetPos"
+    "keywords": "Class Player Inheritance Object Player Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class Player : MonoBehaviourPun Fields ActionState Declaration public PlayerActionState ActionState Field Value Type Description PlayerActionState AddItemToInventoryAction Declaration public Action<Item> AddItemToInventoryAction Field Value Type Description Action < Item > MaxThrowHeight Declaration public float MaxThrowHeight Field Value Type Description Single MoveState Declaration public PlayerMoveState MoveState Field Value Type Description PlayerMoveState RemoveHoldingItemAction Declaration public Action RemoveHoldingItemAction Field Value Type Description Action RunningSpeed Declaration public float RunningSpeed Field Value Type Description Single SneakingSpeed Declaration public float SneakingSpeed Field Value Type Description Single ThrowRadius Declaration public float ThrowRadius Field Value Type Description Single WalkingSpeed Declaration public float WalkingSpeed Field Value Type Description Single Properties CanBeKilled Declaration public bool CanBeKilled { get; } Property Value Type Description Boolean CanControl Declaration public bool CanControl { get; } Property Value Type Description Boolean CharSkin Declaration public string CharSkin { get; } Property Value Type Description String CurrentViewAngle Declaration public float CurrentViewAngle { get; } Property Value Type Description Single HoldingItem Declaration public Item HoldingItem { get; set; } Property Value Type Description Item MeleeDamage Declaration public float MeleeDamage { get; } Property Value Type Description Single Name Declaration public string Name { get; } Property Value Type Description String SanityVal Declaration public float SanityVal { get; } Property Value Type Description Single StaminaVal Declaration public float StaminaVal { get; } Property Value Type Description Single Methods Attack(IDamageable) Declaration public void Attack(IDamageable player) Parameters Type Name Description IDamageable player ConsumeItem(ConsumableItem) Declaration public void ConsumeItem(ConsumableItem item) Parameters Type Name Description ConsumableItem item DiscardHoldingItem() Declaration public void DiscardHoldingItem() Draw() Declaration public void Draw() HealStamina(Single) Declaration public void HealStamina(float healVal) Parameters Type Name Description Single healVal Look(Int32) Declaration public void Look(int viewAngle) Parameters Type Name Description Int32 viewAngle Move(Vector2, Boolean, Boolean) Declaration public void Move(Vector2 moveDir, bool isRunning, bool isCrouching) Parameters Type Name Description Vector2 moveDir Boolean isRunning Boolean isCrouching PickupItem(Item) Declaration public void PickupItem(Item item) Parameters Type Name Description Item item ResetActionState() Declaration public void ResetActionState() TakeDamage(Single) Declaration public void TakeDamage(float damage) Parameters Type Name Description Single damage ThrowItem(ThrowableItem, Vector2) Declaration public void ThrowItem(ThrowableItem item, Vector2 targetPos) Parameters Type Name Description ThrowableItem item Vector2 targetPos"
+  },
+  "api/CatchIo.PlayerCharacter.PlayerActionState.html": {
+    "href": "api/CatchIo.PlayerCharacter.PlayerActionState.html",
+    "title": "Enum PlayerActionState | Catch.io Developer Document",
+    "keywords": "Enum PlayerActionState Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public enum PlayerActionState Fields Name Description Attack Consume Death End None Throw"
   },
   "api/CatchIo.PlayerCharacter.PlayerAnimation.html": {
     "href": "api/CatchIo.PlayerCharacter.PlayerAnimation.html",
     "title": "Class PlayerAnimation | Catch.io Developer Document",
-    "keywords": "Class PlayerAnimation Inheritance Object PlayerAnimation Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class PlayerAnimation Constructors PlayerAnimation(Animator) Declaration public PlayerAnimation(Animator animator) Parameters Type Name Description Animator animator Methods PlayAttackAnimation() Declaration public void PlayAttackAnimation() PlayDeathAnimation() Declaration public void PlayDeathAnimation() PlayThrowAnimation() Declaration public void PlayThrowAnimation() UpdateLookAnimation(Int32) Declaration public void UpdateLookAnimation(int viewAngle) Parameters Type Name Description Int32 viewAngle UpdateMoveAnimation(PlayerMoveState) Declaration public void UpdateMoveAnimation(PlayerMoveState moveState) Parameters Type Name Description PlayerMoveState moveState"
+    "keywords": "Class PlayerAnimation Inheritance Object PlayerAnimation Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class PlayerAnimation : MonoBehaviour Methods PlayActionState(PlayerActionState) Declaration public void PlayActionState(PlayerActionState state) Parameters Type Name Description PlayerActionState state UpdateLookAnimation(Single) Declaration public void UpdateLookAnimation(float viewAngle) Parameters Type Name Description Single viewAngle UpdateMoveAnimation(PlayerMoveState) Declaration public void UpdateMoveAnimation(PlayerMoveState moveState) Parameters Type Name Description PlayerMoveState moveState"
   },
   "api/CatchIo.PlayerCharacter.PlayerController.html": {
     "href": "api/CatchIo.PlayerCharacter.PlayerController.html",
