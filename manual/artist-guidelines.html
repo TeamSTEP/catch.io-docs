@@ -83,7 +83,7 @@
 <h2 id="directory">Directory</h2>
 <p>Every art assets used in the game (excluding UI) is stored in <code>Assets/Textures/</code>.
 This includes character sprites, environmental objects, throwable objects and map tile sets.
-Everything relating to the UI such as menu, title, inventory icon, etc will be stored in <code>Assets/UI/</code>.</p>
+Everything relating to the UI such as menu, title, inventory icon, etc will be stored in <code>Assets/Textures/UI/</code>.</p>
 <h2 id="asset-import-settings">Asset import settings</h2>
 <p>When importing the assets to Unity engine, the file settings should be like the following:</p>
 <p>Texture Type: <code>Sprite (2D and UI)</code>
@@ -109,20 +109,20 @@ The actual image file will be saved within those folders.</p>
 The asset file name should be prefixed with the action and suffixed with the direction that the character is facing with a space in between the two.
 The direction should be named as the cardinal direction (ex: <code>Run NE.png</code>, <code>Walk S.png</code>, etc.).</p>
 <p>To summarize all of this, character assets should have the format of <code>Characters/{Character Name}/{Action}/{Action Direction}.png</code>.
-Theses are some of the examples:</p>
+Theses are some examples:</p>
 <ul>
 <li><code>Characters/Shade/Walking/Walking NW.png</code></li>
 <li><code>Characters/Shade/Running/Running N.png</code></li>
 <li><code>Characters/Shade/Throwing/Throwing SW.png</code></li>
-<li><code>Throwables/Torch/Torch1.png</code></li>
-<li><code>Throwables/Frog/Red Frog/Back.png</code></li>
+<li><code>Item/Torch/Torch1.png</code></li>
+<li><code>Item/Frog/Red Frog/Back.png</code></li>
 </ul>
 <h2 id="asset-color-palette">Asset Color Palette</h2>
 <p>Both characters and props must follow the following color palette to keep a consistent feeling for the visual assets.</p>
 <p><img src="../resources/color-pallette.png" alt="Color Palette"></p>
 <p><img src="../resources/character-style.png" alt="Character Style"></p>
 <p>A single component of an asset (such as metal, gold, cloth, etc.) should be within 2 variations of light to dark palettes/color.
-Feel free to add more but the main idea is that for artists to make an object e.g a wooden barrel it should use the same wood colors as the trees in the environment.</p>
+Feel free to be creative, but the main idea is that for artists to make an object (e.g a wooden barrel) it should use the same wood colors as the trees in the environment for consistent visuals.</p>
 </article>
           </div>
           
