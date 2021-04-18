@@ -29,36 +29,6 @@
     "title": "Class NetworkCallback | Catch.io Developer Document",
     "keywords": "Class NetworkCallback Base class for manager scripts that works with PUN callbacks. This script is not meant to be used as a component, rather, other game managers are expected to inherit from this class. Inheritance Object NetworkCallback Namespace : CatchIo.Core Assembly : cs.temp.dll.dll Syntax public class NetworkCallback : MonoBehaviourPunCallbacks Fields GameVersion This client's version number. Users are separated from each other by gameVersion (which allows you to make breaking changes). Declaration public string GameVersion Field Value Type Description String Methods OnCreateRoomFailed(Int16, String) Declaration public override void OnCreateRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message OnDisconnected(DisconnectCause) Declaration public override void OnDisconnected(DisconnectCause cause) Parameters Type Name Description DisconnectCause cause OnJoinRoomFailed(Int16, String) Declaration public override void OnJoinRoomFailed(short returnCode, string message) Parameters Type Name Description Int16 returnCode String message"
   },
-  "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimationData.html": {
-    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimationData.html",
-    "title": "Struct CharacterBlendTreeEditor.AnimationData | Catch.io Developer Document",
-    "keywords": "Struct CharacterBlendTreeEditor.AnimationData Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax [Serializable] public struct AnimationData Constructors AnimationData(String) Declaration public AnimationData(string name) Parameters Type Name Description String name Fields StateName Declaration public string StateName Field Value Type Description String Methods AddAnimInfo(CharacterBlendTreeEditor.AnimInfo) Declaration public void AddAnimInfo(CharacterBlendTreeEditor.AnimInfo info) Parameters Type Name Description CharacterBlendTreeEditor.AnimInfo info GetClips() Declaration public List<CharacterBlendTreeEditor.AnimInfo> GetClips() Returns Type Description List < CharacterBlendTreeEditor.AnimInfo >"
-  },
-  "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfo.html": {
-    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfo.html",
-    "title": "Struct CharacterBlendTreeEditor.AnimInfo | Catch.io Developer Document",
-    "keywords": "Struct CharacterBlendTreeEditor.AnimInfo Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax [Serializable] public struct AnimInfo Fields Clip Declaration public AnimationClip Clip Field Value Type Description AnimationClip Direction Declaration public CharacterBlendTreeEditor.DirType Direction Field Value Type Description CharacterBlendTreeEditor.DirType"
-  },
-  "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfoComparer.html": {
-    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.AnimInfoComparer.html",
-    "title": "Class CharacterBlendTreeEditor.AnimInfoComparer | Catch.io Developer Document",
-    "keywords": "Class CharacterBlendTreeEditor.AnimInfoComparer Inheritance Object CharacterBlendTreeEditor.AnimInfoComparer Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax public class AnimInfoComparer : IComparer<CharacterBlendTreeEditor.AnimInfo> Methods Compare(CharacterBlendTreeEditor.AnimInfo, CharacterBlendTreeEditor.AnimInfo) Declaration public int Compare(CharacterBlendTreeEditor.AnimInfo x, CharacterBlendTreeEditor.AnimInfo y) Parameters Type Name Description CharacterBlendTreeEditor.AnimInfo x CharacterBlendTreeEditor.AnimInfo y Returns Type Description Int32"
-  },
-  "api/CatchIo.Editors.CharacterBlendTreeEditor.DirType.html": {
-    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.DirType.html",
-    "title": "Enum CharacterBlendTreeEditor.DirType | Catch.io Developer Document",
-    "keywords": "Enum CharacterBlendTreeEditor.DirType Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax public enum DirType Fields Name Description E N NE None NW S SE SW W"
-  },
-  "api/CatchIo.Editors.CharacterBlendTreeEditor.html": {
-    "href": "api/CatchIo.Editors.CharacterBlendTreeEditor.html",
-    "title": "Class CharacterBlendTreeEditor | Catch.io Developer Document",
-    "keywords": "Class CharacterBlendTreeEditor Inheritance Object CharacterBlendTreeEditor Namespace : CatchIo.Editors Assembly : cs.temp.dll.dll Syntax public class CharacterBlendTreeEditor : OdinEditorWindow Fields AnimationClipsPath Declaration public string AnimationClipsPath Field Value Type Description String AnimationDic Declaration public Dictionary<string, CharacterBlendTreeEditor.AnimationData> AnimationDic Field Value Type Description Dictionary < String , CharacterBlendTreeEditor.AnimationData > CharacterName Declaration public string CharacterName Field Value Type Description String"
-  },
-  "api/CatchIo.Editors.html": {
-    "href": "api/CatchIo.Editors.html",
-    "title": "Namespace CatchIo.Editors | Catch.io Developer Document",
-    "keywords": "Namespace CatchIo.Editors Classes CharacterBlendTreeEditor CharacterBlendTreeEditor.AnimInfoComparer Structs CharacterBlendTreeEditor.AnimationData CharacterBlendTreeEditor.AnimInfo Enums CharacterBlendTreeEditor.DirType"
-  },
   "api/CatchIo.Enums.html": {
     "href": "api/CatchIo.Enums.html",
     "title": "Namespace CatchIo.Enums | Catch.io Developer Document",
@@ -212,7 +182,7 @@
   "api/CatchIo.PlayerCharacter.InventoryController.html": {
     "href": "api/CatchIo.PlayerCharacter.InventoryController.html",
     "title": "Class InventoryController | Catch.io Developer Document",
-    "keywords": "Class InventoryController Inheritance Object InventoryController Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class InventoryController : MonoBehaviour Properties CurrentIndex Declaration public int CurrentIndex { get; } Property Value Type Description Int32 Inventory Declaration public Inventory Inventory { get; } Property Value Type Description Inventory Methods Draw() Declaration public void Draw() SelectItem(Int32) Declaration public void SelectItem(int inputInvIndex) Parameters Type Name Description Int32 inputInvIndex Update() Unity update function (runs every frame) Declaration public void Update()"
+    "keywords": "Class InventoryController Inheritance Object InventoryController Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class InventoryController : MonoBehaviour Properties CurrentIndex Declaration public int CurrentIndex { get; } Property Value Type Description Int32 Inventory Declaration public Inventory Inventory { get; } Property Value Type Description Inventory Methods Clear() Declaration public void Clear() Draw() Declaration public void Draw() SelectItem(Int32) Declaration public void SelectItem(int inputInvIndex) Parameters Type Name Description Int32 inputInvIndex Start() Declaration public void Start() Update() Unity update function (runs every frame) Declaration public void Update()"
   },
   "api/CatchIo.PlayerCharacter.Player.html": {
     "href": "api/CatchIo.PlayerCharacter.Player.html",
