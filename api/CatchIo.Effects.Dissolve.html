@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISurfaceTrigger
+    <title>Class Dissolve
    | Catch.io Developer Document </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISurfaceTrigger
+    <meta name="title" content="Class Dissolve
    | Catch.io Developer Document ">
     <meta name="generator" content="docfx 2.57.2.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,30 +78,97 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Environment.ISurfaceTrigger">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Effects.Dissolve">
   
   
-  <h1 id="CatchIo_Environment_ISurfaceTrigger" data-uid="CatchIo.Environment.ISurfaceTrigger" class="text-break">Interface ISurfaceTrigger
+  <h1 id="CatchIo_Effects_Dissolve" data-uid="CatchIo.Effects.Dissolve" class="text-break">Class Dissolve
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Environment.html">CatchIo.Environment</a></h6>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="CatchIo.Effects.Effect.html">Effect</a></div>
+    <div class="level2"><span class="xref">Dissolve</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Effects.Effect.html#CatchIo_Effects_Effect_EffectSource">Effect.EffectSource</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Effects.Effect.html#CatchIo_Effects_Effect_Duration">Effect.Duration</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Effects.html">CatchIo.Effects</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Environment_ISurfaceTrigger_syntax">Syntax</h5>
+  <h5 id="CatchIo_Effects_Dissolve_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISurfaceTrigger</code></pre>
+    <pre><code class="lang-csharp hljs">public class Dissolve : Effect</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Environment_ISurfaceTrigger_OnSurfaceTrigger_" data-uid="CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger*"></a>
-  <h4 id="CatchIo_Environment_ISurfaceTrigger_OnSurfaceTrigger_GameObject_" data-uid="CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger(GameObject)">OnSurfaceTrigger(GameObject)</h4>
+  <a id="CatchIo_Effects_Dissolve_EffectExecutor_" data-uid="CatchIo.Effects.Dissolve.EffectExecutor*"></a>
+  <h4 id="CatchIo_Effects_Dissolve_EffectExecutor" data-uid="CatchIo.Effects.Dissolve.EffectExecutor">EffectExecutor()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnSurfaceTrigger(GameObject origin)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IEnumerator EffectExecutor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Effects.Effect.html#CatchIo_Effects_Effect_EffectExecutor">Effect.EffectExecutor()</a></div>
+  
+  
+  <a id="CatchIo_Effects_Dissolve_EffectReverser_" data-uid="CatchIo.Effects.Dissolve.EffectReverser*"></a>
+  <h4 id="CatchIo_Effects_Dissolve_EffectReverser" data-uid="CatchIo.Effects.Dissolve.EffectReverser">EffectReverser()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator EffectReverser()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Effects_Dissolve_Play_" data-uid="CatchIo.Effects.Dissolve.Play*"></a>
+  <h4 id="CatchIo_Effects_Dissolve_Play_CatchIo_Effects_IEffectPlayable_Renderer_" data-uid="CatchIo.Effects.Dissolve.Play(CatchIo.Effects.IEffectPlayable,Renderer)">Play(IEffectPlayable, Renderer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Play(IEffectPlayable effectPlayable, Renderer renderer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,12 +181,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">origin</span></td>
+        <td><a class="xref" href="CatchIo.Effects.IEffectPlayable.html">IEffectPlayable</a></td>
+        <td><span class="parametername">effectPlayable</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Effects.Effect.html#CatchIo_Effects_Effect_Play_CatchIo_Effects_IEffectPlayable_Renderer_">Effect.Play(IEffectPlayable, Renderer)</a></div>
 </article>
           </div>
           

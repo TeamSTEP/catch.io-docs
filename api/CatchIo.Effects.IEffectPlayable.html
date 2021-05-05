@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISurfaceTrigger
+    <title>Interface IEffectPlayable
    | Catch.io Developer Document </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISurfaceTrigger
+    <meta name="title" content="Interface IEffectPlayable
    | Catch.io Developer Document ">
     <meta name="generator" content="docfx 2.57.2.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,48 +78,56 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Environment.ISurfaceTrigger">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Effects.IEffectPlayable">
   
   
-  <h1 id="CatchIo_Environment_ISurfaceTrigger" data-uid="CatchIo.Environment.ISurfaceTrigger" class="text-break">Interface ISurfaceTrigger
+  <h1 id="CatchIo_Effects_IEffectPlayable" data-uid="CatchIo.Effects.IEffectPlayable" class="text-break">Interface IEffectPlayable
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Environment.html">CatchIo.Environment</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Effects.html">CatchIo.Effects</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Environment_ISurfaceTrigger_syntax">Syntax</h5>
+  <h5 id="CatchIo_Effects_IEffectPlayable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISurfaceTrigger</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IEffectPlayable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Environment_ISurfaceTrigger_OnSurfaceTrigger_" data-uid="CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger*"></a>
-  <h4 id="CatchIo_Environment_ISurfaceTrigger_OnSurfaceTrigger_GameObject_" data-uid="CatchIo.Environment.ISurfaceTrigger.OnSurfaceTrigger(GameObject)">OnSurfaceTrigger(GameObject)</h4>
+  <a id="CatchIo_Effects_IEffectPlayable_EffectSequence_" data-uid="CatchIo.Effects.IEffectPlayable.EffectSequence*"></a>
+  <h4 id="CatchIo_Effects_IEffectPlayable_EffectSequence" data-uid="CatchIo.Effects.IEffectPlayable.EffectSequence">EffectSequence()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnSurfaceTrigger(GameObject origin)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerator EffectSequence()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">origin</span></td>
+        <td><span class="xref">IEnumerator</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Effects_IEffectPlayable_ExecuteEffect_" data-uid="CatchIo.Effects.IEffectPlayable.ExecuteEffect*"></a>
+  <h4 id="CatchIo_Effects_IEffectPlayable_ExecuteEffect" data-uid="CatchIo.Effects.IEffectPlayable.ExecuteEffect">ExecuteEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ExecuteEffect()</code></pre>
+  </div>
 </article>
           </div>
           

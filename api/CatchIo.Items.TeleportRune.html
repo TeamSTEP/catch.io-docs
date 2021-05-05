@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ThrowableItem
+    <title>Class TeleportRune
    | Catch.io Developer Document </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ThrowableItem
+    <meta name="title" content="Class TeleportRune
    | Catch.io Developer Document ">
     <meta name="generator" content="docfx 2.57.2.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Items.ThrowableItem">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Items.TeleportRune">
   
   
-  <h1 id="CatchIo_Items_ThrowableItem" data-uid="CatchIo.Items.ThrowableItem" class="text-break">Class ThrowableItem
+  <h1 id="CatchIo_Items_TeleportRune" data-uid="CatchIo.Items.TeleportRune" class="text-break">Class TeleportRune
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -89,42 +89,67 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="CatchIo.Items.Item.html">Item</a></div>
-    <div class="level2"><span class="xref">ThrowableItem</span></div>
-      <div class="level3"><a class="xref" href="CatchIo.Items.EvasiveThrowableItem.html">EvasiveThrowableItem</a></div>
-      <div class="level3"><a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html">OffensiveThrowableItem</a></div>
+    <div class="level2"><a class="xref" href="CatchIo.Items.ThrowableItem.html">ThrowableItem</a></div>
+    <div class="level3"><a class="xref" href="CatchIo.Items.EvasiveThrowableItem.html">EvasiveThrowableItem</a></div>
+    <div class="level4"><span class="xref">TeleportRune</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">IThrowable</span></div>
+    <div><span class="xref">IEffectPlayable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GravityMultiplier">ThrowableItem.GravityMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrowResolution">ThrowableItem.ThrowResolution</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_IsOnFloor">ThrowableItem.IsOnFloor</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryPath">ThrowableItem.TrajectoryPath</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Rigid2D">ThrowableItem.Rigid2D</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_CurrentTrajectoryArc">ThrowableItem.CurrentTrajectoryArc</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_HasLanded">ThrowableItem.HasLanded</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_PassedPeak">ThrowableItem.PassedPeak</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrowedTime">ThrowableItem.ThrowedTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight">ThrowableItem.GetPeakHeight()</a>
+    </div>
+    <div>
       <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Owner">Item.Owner</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnDiscard">Item.OnDiscard()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_CanPickup">Item.CanPickup()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Items_ThrowableItem_syntax">Syntax</h5>
+  <h5 id="CatchIo_Items_TeleportRune_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ThrowableItem : Item, IThrowable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TeleportRune : EvasiveThrowableItem, IThrowable, IEffectPlayable</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Items_ThrowableItem_CurrentTrajectoryArc" data-uid="CatchIo.Items.ThrowableItem.CurrentTrajectoryArc">CurrentTrajectoryArc</h4>
+  <h4 id="CatchIo_Items_TeleportRune_TeleportDissolve" data-uid="CatchIo.Items.TeleportRune.TeleportDissolve">TeleportDissolve</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TrajectoryArc CurrentTrajectoryArc</code></pre>
+    <pre><code class="lang-csharp hljs">public Dissolve TeleportDissolve</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,203 +161,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TrajectoryArc</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_GravityMultiplier" data-uid="CatchIo.Items.ThrowableItem.GravityMultiplier">GravityMultiplier</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected readonly float GravityMultiplier</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_HasLanded" data-uid="CatchIo.Items.ThrowableItem.HasLanded">HasLanded</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool HasLanded</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_PassedPeak" data-uid="CatchIo.Items.ThrowableItem.PassedPeak">PassedPeak</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool PassedPeak</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_Rigid2D" data-uid="CatchIo.Items.ThrowableItem.Rigid2D">Rigid2D</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Rigidbody2D Rigid2D</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Rigidbody2D</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_ThrowedTime" data-uid="CatchIo.Items.ThrowableItem.ThrowedTime">ThrowedTime</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float ThrowedTime</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_ThrowResolution" data-uid="CatchIo.Items.ThrowableItem.ThrowResolution">ThrowResolution</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected readonly int ThrowResolution</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Items_ThrowableItem_IsOnFloor_" data-uid="CatchIo.Items.ThrowableItem.IsOnFloor*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_IsOnFloor" data-uid="CatchIo.Items.ThrowableItem.IsOnFloor">IsOnFloor</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsOnFloor { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Items_ThrowableItem_TrajectoryPath_" data-uid="CatchIo.Items.ThrowableItem.TrajectoryPath*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_TrajectoryPath" data-uid="CatchIo.Items.ThrowableItem.TrajectoryPath">TrajectoryPath</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3[] TrajectoryPath { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="xref">Dissolve</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -341,23 +170,13 @@
   </h3>
   
   
-  <a id="CatchIo_Items_ThrowableItem_FixedUpdate_" data-uid="CatchIo.Items.ThrowableItem.FixedUpdate*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_FixedUpdate" data-uid="CatchIo.Items.ThrowableItem.FixedUpdate">FixedUpdate()</h4>
+  <a id="CatchIo_Items_TeleportRune_CanPickup_" data-uid="CatchIo.Items.TeleportRune.CanPickup*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_CanPickup" data-uid="CatchIo.Items.TeleportRune.CanPickup">CanPickup()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void FixedUpdate()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Items_ThrowableItem_GetPeakHeight_" data-uid="CatchIo.Items.ThrowableItem.GetPeakHeight*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_GetPeakHeight" data-uid="CatchIo.Items.ThrowableItem.GetPeakHeight">GetPeakHeight()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float GetPeakHeight()</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool CanPickup()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -369,20 +188,94 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_CanPickup">Item.CanPickup()</a></div>
+  
+  
+  <a id="CatchIo_Items_TeleportRune_EffectEndSequence_" data-uid="CatchIo.Items.TeleportRune.EffectEndSequence*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_EffectEndSequence" data-uid="CatchIo.Items.TeleportRune.EffectEndSequence">EffectEndSequence()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator EffectEndSequence()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Items_ThrowableItem_OnBeforeThrow_" data-uid="CatchIo.Items.ThrowableItem.OnBeforeThrow*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_OnBeforeThrow_Vector2_Vector2_" data-uid="CatchIo.Items.ThrowableItem.OnBeforeThrow(Vector2,Vector2)">OnBeforeThrow(Vector2, Vector2)</h4>
+  <a id="CatchIo_Items_TeleportRune_EffectSequence_" data-uid="CatchIo.Items.TeleportRune.EffectSequence*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_EffectSequence" data-uid="CatchIo.Items.TeleportRune.EffectSequence">EffectSequence()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void OnBeforeThrow(Vector2 throwPos, Vector2 targetPos)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerator EffectSequence()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Items_TeleportRune_ExecuteEffect_" data-uid="CatchIo.Items.TeleportRune.ExecuteEffect*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_ExecuteEffect" data-uid="CatchIo.Items.TeleportRune.ExecuteEffect">ExecuteEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Items_TeleportRune_FixedUpdate_" data-uid="CatchIo.Items.TeleportRune.FixedUpdate*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_FixedUpdate" data-uid="CatchIo.Items.TeleportRune.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void FixedUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_FixedUpdate">ThrowableItem.FixedUpdate()</a></div>
+  
+  
+  <a id="CatchIo_Items_TeleportRune_OnBeforeThrow_" data-uid="CatchIo.Items.TeleportRune.OnBeforeThrow*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_OnBeforeThrow_Vector2_Vector2_" data-uid="CatchIo.Items.TeleportRune.OnBeforeThrow(Vector2,Vector2)">OnBeforeThrow(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnBeforeThrow(Vector2 throwPos, Vector2 targetPos)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -406,20 +299,36 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Vector2_Vector2_">ThrowableItem.OnBeforeThrow(Vector2, Vector2)</a></div>
   
   
-  <a id="CatchIo_Items_ThrowableItem_OnLanded_" data-uid="CatchIo.Items.ThrowableItem.OnLanded*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_OnLanded" data-uid="CatchIo.Items.ThrowableItem.OnLanded">OnLanded()</h4>
+  <a id="CatchIo_Items_TeleportRune_OnDiscard_" data-uid="CatchIo.Items.TeleportRune.OnDiscard*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_OnDiscard" data-uid="CatchIo.Items.TeleportRune.OnDiscard">OnDiscard()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnLanded()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnDiscard()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnDiscard">Item.OnDiscard()</a></div>
   
   
-  <a id="CatchIo_Items_ThrowableItem_OnPickup_" data-uid="CatchIo.Items.ThrowableItem.OnPickup*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_OnPickup_Player_" data-uid="CatchIo.Items.ThrowableItem.OnPickup(Player)">OnPickup(Player)</h4>
+  <a id="CatchIo_Items_TeleportRune_OnLanded_" data-uid="CatchIo.Items.TeleportRune.OnLanded*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_OnLanded" data-uid="CatchIo.Items.TeleportRune.OnLanded">OnLanded()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnLanded()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnLanded">ThrowableItem.OnLanded()</a></div>
+  
+  
+  <a id="CatchIo_Items_TeleportRune_OnPickup_" data-uid="CatchIo.Items.TeleportRune.OnPickup*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_OnPickup_Player_" data-uid="CatchIo.Items.TeleportRune.OnPickup(Player)">OnPickup(Player)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -444,36 +353,40 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnPickup_Player_">Item.OnPickup(Player)</a></div>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnPickup_Player_">ThrowableItem.OnPickup(Player)</a></div>
   
   
-  <a id="CatchIo_Items_ThrowableItem_OnThrow_" data-uid="CatchIo.Items.ThrowableItem.OnThrow*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_OnThrow" data-uid="CatchIo.Items.ThrowableItem.OnThrow">OnThrow()</h4>
+  <a id="CatchIo_Items_TeleportRune_OnThrow_" data-uid="CatchIo.Items.TeleportRune.OnThrow*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_OnThrow" data-uid="CatchIo.Items.TeleportRune.OnThrow">OnThrow()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnThrow()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnThrow()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnThrow">ThrowableItem.OnThrow()</a></div>
   
   
-  <a id="CatchIo_Items_ThrowableItem_Start_" data-uid="CatchIo.Items.ThrowableItem.Start*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_Start" data-uid="CatchIo.Items.ThrowableItem.Start">Start()</h4>
+  <a id="CatchIo_Items_TeleportRune_Start_" data-uid="CatchIo.Items.TeleportRune.Start*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_Start" data-uid="CatchIo.Items.TeleportRune.Start">Start()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Start">ThrowableItem.Start()</a></div>
   
   
-  <a id="CatchIo_Items_ThrowableItem_UpdateProjectilePhysic_" data-uid="CatchIo.Items.ThrowableItem.UpdateProjectilePhysic*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_" data-uid="CatchIo.Items.ThrowableItem.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)">UpdateProjectilePhysic(Vector2, Vector2, Single, Single)</h4>
+  <a id="CatchIo_Items_TeleportRune_UpdateProjectilePhysic_" data-uid="CatchIo.Items.TeleportRune.UpdateProjectilePhysic*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_" data-uid="CatchIo.Items.TeleportRune.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)">UpdateProjectilePhysic(Vector2, Vector2, Single, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void UpdateProjectilePhysic(Vector2 throwPos, Vector2 targetPos, float throwRadius, float maxThrowHeight)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void UpdateProjectilePhysic(Vector2 throwPos, Vector2 targetPos, float throwRadius, float maxThrowHeight)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,9 +420,14 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_">ThrowableItem.UpdateProjectilePhysic(Vector2, Vector2, Single, Single)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IThrowable</span>
+  </div>
+  <div>
+      <span class="xref">IEffectPlayable</span>
   </div>
 </article>
           </div>
