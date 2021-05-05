@@ -202,6 +202,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.Effect.EffectExecutor
   nameWithType: Effect.EffectExecutor
+- uid: CatchIo.Effects.Effect.EffectPlayable
+  name: EffectPlayable
+  href: api/CatchIo.Effects.Effect.html#CatchIo_Effects_Effect_EffectPlayable
+  commentId: F:CatchIo.Effects.Effect.EffectPlayable
+  fullName: CatchIo.Effects.Effect.EffectPlayable
+  nameWithType: Effect.EffectPlayable
 - uid: CatchIo.Effects.Effect.EffectSource
   name: EffectSource
   href: api/CatchIo.Effects.Effect.html#CatchIo_Effects_Effect_EffectSource
@@ -221,6 +227,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.Effect.Play
   nameWithType: Effect.Play
+- uid: CatchIo.Effects.Effect.TargetRenderer
+  name: TargetRenderer
+  href: api/CatchIo.Effects.Effect.html#CatchIo_Effects_Effect_TargetRenderer
+  commentId: F:CatchIo.Effects.Effect.TargetRenderer
+  fullName: CatchIo.Effects.Effect.TargetRenderer
+  nameWithType: Effect.TargetRenderer
 - uid: CatchIo.Effects.IEffectPlayable
   name: IEffectPlayable
   href: api/CatchIo.Effects.IEffectPlayable.html
@@ -253,6 +265,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.IEffectPlayable.ExecuteEffect
   nameWithType: IEffectPlayable.ExecuteEffect
+- uid: CatchIo.Effects.IEffectPlayable.OnEndEffect
+  name: OnEndEffect()
+  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_OnEndEffect
+  commentId: M:CatchIo.Effects.IEffectPlayable.OnEndEffect
+  fullName: CatchIo.Effects.IEffectPlayable.OnEndEffect()
+  nameWithType: IEffectPlayable.OnEndEffect()
+- uid: CatchIo.Effects.IEffectPlayable.OnEndEffect*
+  name: OnEndEffect
+  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_OnEndEffect_
+  commentId: Overload:CatchIo.Effects.IEffectPlayable.OnEndEffect
+  isSpec: "True"
+  fullName: CatchIo.Effects.IEffectPlayable.OnEndEffect
+  nameWithType: IEffectPlayable.OnEndEffect
 - uid: CatchIo.Enums
   name: CatchIo.Enums
   href: api/CatchIo.Enums.html
@@ -1046,6 +1071,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TeleportRune.OnDiscard
   nameWithType: TeleportRune.OnDiscard
+- uid: CatchIo.Items.TeleportRune.OnEndEffect
+  name: OnEndEffect()
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnEndEffect
+  commentId: M:CatchIo.Items.TeleportRune.OnEndEffect
+  fullName: CatchIo.Items.TeleportRune.OnEndEffect()
+  nameWithType: TeleportRune.OnEndEffect()
+- uid: CatchIo.Items.TeleportRune.OnEndEffect*
+  name: OnEndEffect
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnEndEffect_
+  commentId: Overload:CatchIo.Items.TeleportRune.OnEndEffect
+  isSpec: "True"
+  fullName: CatchIo.Items.TeleportRune.OnEndEffect
+  nameWithType: TeleportRune.OnEndEffect
 - uid: CatchIo.Items.TeleportRune.OnLanded
   name: OnLanded()
   href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnLanded
