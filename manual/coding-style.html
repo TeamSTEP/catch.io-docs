@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Coding Style | Catch.io Developer Document </title>
+    <title>Coding Style | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Coding Style | Catch.io Developer Document ">
+    <meta name="title" content="Coding Style | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.57.2.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
     <link rel="shortcut icon" href="../resources/favicon.ico">
@@ -85,8 +85,16 @@ If you find any files with inconsistent naming, please fix them accordingly.</p>
 <p>Because Unity uses C# as its preferred language, the standard C# naming conventions will be used within this project.</p>
 <p><img src="../resources/naming-scheme.jpg" alt="C# Naming Scheme"></p>
 <p>This scheme will apply to C# script names as well.</p>
-<p>For further details regarding C# coding conventions, please refer to <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions">this document</a>.
-Everything else will mostly be kept consistent with Unity/C# conventions, but for this project, we will not be having the <code>m_</code> prefix for component variables in Unity.</p>
+<p>For further details regarding C# coding conventions, please refer to the following documents:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions">https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions">https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/interface">https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/interface</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-classes-structs-and-interfaces">https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-classes-structs-and-interfaces</a></li>
+<li><a href="https://blog.submain.com/c-interface-definition-examples/">https://blog.submain.com/c-interface-definition-examples/</a></li>
+<li><a href="https://www.c-sharpcorner.com/article/types-of-relationships-in-object-oriented-programming-oops/">https://www.c-sharpcorner.com/article/types-of-relationships-in-object-oriented-programming-oops/</a></li>
+</ul>
+<p>Everything else will mostly be kept consistent with Unity/C# conventions, but for this project, we will not be having the <code>m_</code> prefix for component variables in Unity.</p>
 <h3 id="namespaces">Namespaces</h3>
 <p>All C# scripts that are inside the <code>Assets/Scripts</code> folder must have a namespace to it.
 The namespace should be <code>CatchIo.&lt;folder name&gt;</code>, where the <code>&lt;folder name&gt;</code> is replaced with the folder that the script is in.</p>
