@@ -996,6 +996,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/development-environment.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/development-environment.html",
+          "hash": "avxC6Muk8LTlCLTdcTCQ9nxadqzstWwmJaGW8n0AGWY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/github-guide.md",
       "output": {
         ".html": {
@@ -1048,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "I+/spb5GI0bWf4mYh0nYaV4mB9MJxQo+0Rv9T040Gs4="
+          "hash": "0K3pniT6qeQPilgCPLB6w9YRyUSDckJyaOaNzKv33tM="
         }
       },
       "is_incremental": false,
@@ -1111,6 +1123,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/mono-ubuntu.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/mono-ubuntu.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/naming-scheme.jpg",
       "output": {
         "resource": {
@@ -1126,6 +1149,39 @@
       "output": {
         "resource": {
           "relative_path": "resources/opening-issues.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preferred-ide.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preferred-ide.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ps-running-as-admin.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ps-running-as-admin.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/running-ps-admin.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/running-ps-admin.jpg"
         }
       },
       "is_incremental": false,
@@ -1236,7 +1292,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "2Eq8q8heC+V69x48pxlTSIBb/s9/ydX1SttvzwzWSGk="
+          "hash": "fMjHwGi+l9UkP+LpX0I9y3sJx0gZTe891Qx1SuZjh/U="
         }
       },
       "is_incremental": false,
@@ -1257,7 +1313,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 7,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

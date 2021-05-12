@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Setting up the development environment | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Setting up the development environment | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="setting-up-the-development-environment">Setting up the development environment</h1>
+
+<h2 id="game-development-environment">Game Development Environment</h2>
+<h3 id="unity-engine">Unity Engine</h3>
+<p>The development for <a href="http://catch.io">Catch.io</a> will be in most cases, done in Unity. We recommend installing Unity Hub as it supports various OS and can install multiple versions of the Unity Editor.</p>
+<h3 id="installing-unity-hub">Installing Unity Hub</h3>
+<p>You can install the latest version of Unity Hub through <a href="https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe">this link</a> or check the <a href="https://unity3d.com/get-unity/download">official download page</a>.</p>
+<p>Note that for Linux users, the link above will download the <code>.AppImage</code> executable of Unity Hub. Alternatively, you can install Unity Hub through the <a href="https://github.com/pop-os/shop">Pop!_Shop</a> in Debian variant systems.</p>
+<h3 id="engine-version">Engine Version</h3>
+<p>Currently, we are using Unity version <code>2019.4.21f1 (b76dac84db26)</code> and will stay in the <code>2019.4 LTS</code> of Unity unless we must upgrade the engine to the latest major release.</p>
+<p>You can check the official release archive from <a href="https://unity3d.com/unity/qa/lts-releases?version=2019.4">this page</a>, or install directly via Unity Hub by clicking <a href="unityhub://2019.4.21f1/b76dac84db26">this link</a>.</p>
+<p>For Linux users who run Unity through an<code>.AppImage</code> executable, the deep link installation provided by the Unity release archive may not work. Instead, you will have to pass the deep link URL as a parameter for the application file from your terminal.</p>
+<pre><code class="lang-bash">./UnityHub.AppImage unityhub://2019.4.21f1/b76dac84db26
+</code></pre><h2 id="configuring-unity-editor">Configuring Unity Editor</h2>
+<h3 id="setting-the-default-ide">Setting The Default IDE</h3>
+<p>You can change your preferred IDE/Editor in Unity by going to the <code>Edit -&gt; Preferences -&gt; External Tools</code> menu. Regarding how to install the IDE and text editors, please refer to the next section.</p>
+<p><img src="../resources/preferred-ide.jpg" alt="../resources/preferred-ide.jpg"></p>
+<h1 id="general-development-environment">General Development Environment</h1>
+<h2 id="version-control-software">Version Control Software</h2>
+<h3 id="git--github">Git &amp; GitHub</h3>
+<p>Our team uses Git as the main version control software, and GitHub as the repository host: <a href="https://github.com/TeamSTEP">Team STEP GitHub Account</a></p>
+<h3 id="installing-the-git-client">Installing The Git Client</h3>
+<p>Most IDEs offer a way to interact with the remote repository. If you have a preferred Git client, you are free to use it.
+For most developers, our team recommend using GitHub Desktop, as it offers a robust GUI, auto-configuring the global Git settings, and automatically updating repository submodules.</p>
+<p>You can install GitHub Desktop on Windows 10 and macOS from the official website: <a href="https://desktop.github.com/">GitHub Desktop</a></p>
+<p>For Linux users, you can install a fork of GitHub Desktop maintained by <a href="https://github.com/shiftkey/desktop">Shiftkey</a> (<a href="https://github.com/shiftkey/desktop/releases">releases</a>)</p>
+<p>For Windows users, we also recommend installing the Windows Git client that comes with the Bash terminal.
+Bash on Windows allows you to access applications installed with PowerShell as well.</p>
+<p><a href="https://git-scm.com/download/win">Downloading Git</a></p>
+<h2 id="setting-up-ide--text-editors">Setting Up IDE &amp; Text Editors</h2>
+<h3 id="visual-studio-community">Visual Studio Community</h3>
+<p>Note: Visual Studio Community is not supported on Linux systems</p>
+<p>When working with Unity, we generally recommend using Visual Studio, as it provides full support for Unity including breakpoints and unity game object component reference checking.</p>
+<p>Although Unity will ask you to install Visual Studio before you install the engine in Windows, you might want to have a full installation of Visual Studio if you need extra features.
+In which case, you can install the IDE from the following link:</p>
+<p><a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2019 | Download for free</a></p>
+<h3 id="monodevelop">MonoDevelop</h3>
+<p>MonoDevelop is an open-source cross-platform IDE that supports languages like C#, F#, Visual Basic .NET, and Vala. You can find more information on their <a href="https://www.monodevelop.com/">homepage</a>. Generally speaking, MonoDevelop is considered to be a replacement for Visual Studio for Linux systems. If you&#39;re using Windows 10 or macOS, we recommend installing Visual Studio Community instead of MonoDevelop.</p>
+<p>This installation guide will assume that the user is working on a Ubuntu-based system (LTS 20.04 or up).</p>
+<p>First, add the Mono repository to your system.</p>
+<pre><code class="lang-bash"># update your repository. Upgrade any packages if you have to
+sudo apt update &amp;&amp; sudo apt upgrade
+# install the basic dependencies
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates
+
+# add the mono repository key
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+# add the app repository to your apt source
+sudo sh -c &#39;echo &quot;deb https://download.mono-project.com/repo/ubuntu stable-bionic main&quot; &gt; /etc/apt/sources.list.d/mono-official-stable.list&#39;
+
+# refresh your repository list
+sudo apt update
+</code></pre><p>Second, install the full MonoDevelop package and the IDE</p>
+<pre><code class="lang-bash"># install the full mono package
+sudo apt install mono-complete
+
+# install the monodevelop IDE
+sudo apt install monodevelop
+
+# install the .Net NUit unit test packages
+sudo apt install monodevelop-nunit
+</code></pre><p>Lastly, check your installation</p>
+<pre><code class="lang-bash"># this command should output the compiler version if your installation was complete
+mono --version
+</code></pre><p>Your IDE should look something like this:</p>
+<p><img src="../resources/mono-ubuntu.jpg" alt="../resources/mono-ubuntu.jpg"></p>
+<p>This guide was based on the article written by <a href="https://websiteforstudents.com/how-to-install-mono-on-ubuntu-20-04-18-04/">Website For Students</a>.</p>
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<p>Visual Studio Code is a lightweight text editor (until you install a boatload of extensions) for developers on all major platforms. There are several Visual Studio Code extensions that work with the Unity Engine. It does not support everything that Visual Studio can do with Unity, but we recommend install VS Code as it is great for development that is outside of Unity (such as web development, or PR review/resolving merge conflicts).</p>
+<p>You can install Visual Studio Code from the following link:</p>
+<p><a href="https://code.visualstudio.com/?wt.mc_id=vscom_downloads">Visual Studio Code - Code Editing. Redefined</a></p>
+<p>Visual Studio Code must be configured properly before it can work with Unity. This is the list of recommended extensions that we use at the time of this writing.</p>
+<p><code>extensions.json</code></p>
+<pre><code class="lang-json">{
+    &quot;recommendations&quot;: [
+        &quot;editorconfig.editorconfig&quot;,
+        &quot;aaron-bond.better-comments&quot;,
+        &quot;ms-dotnettools.csharp&quot;,
+        &quot;jchannon.csharpextensions&quot;,
+        &quot;streetsidesoftware.code-spell-checker&quot;,
+        &quot;unity.unity-debug&quot;,
+        &quot;donjayamanne.githistory&quot;,
+        &quot;felipecaputo.git-project-manager&quot;,
+        &quot;github.vscode-pull-request-github&quot;,
+        &quot;formulahendry.github-actions&quot;,
+        &quot;eamodio.gitlens&quot;,
+        &quot;yzhang.markdown-all-in-one&quot;,
+        &quot;davidanson.vscode-markdownlint&quot;,
+        &quot;tobiah.unity-tools&quot;,
+        &quot;ptd.vscode-unitymeta&quot;,
+        &quot;redhat.vscode-yaml&quot;,
+        &quot;dotjoshjohnson.xml&quot;
+    ]
+}
+</code></pre><p><code>settings.json</code></p>
+<pre><code class="lang-json">{
+    &quot;editor.defaultFormatter&quot;: &quot;EditorConfig.EditorConfig&quot;,
+    &quot;markdownlint.config&quot;: {
+        &quot;html&quot;: true,
+        &quot;MD033&quot;: false,
+    },
+    &quot;[jsonc]&quot;: {
+        &quot;editor.defaultFormatter&quot;: &quot;vscode.json-language-features&quot;
+    },
+    &quot;omnisharp.enableEditorConfigSupport&quot;: true,
+    &quot;editor.formatOnSave&quot;: true,
+    &quot;cSpell.words&quot;: [
+        &quot;Tilemap&quot;,
+        &quot;Tilemaps&quot;,
+        &quot;gameplay&quot;,
+        &quot;royale&quot;,
+        &quot;tileset&quot;
+    ]
+}
+</code></pre><p>Editing the contents of the <code>.vscode/</code> folder in the root directory of the project allows the developer to change the default setting for developers working in VS Code. This means that all developers with a new installation of VS Code has to do is open VS Code from the root of the project folder.</p>
+<h3 id="android-studio">Android Studio</h3>
+<p>Android Studio is a cross-platform IDE for developing applications for Android devices, commonly with Java and Kotlin.</p>
+<p>Our team will rarely develop directly in Android Studio, but installing it allows us to easily install different versions of Android SDK, or access other development tools like the Android Device Emulator. Plus, Android Studio is available for most commonly used OS, so if your disk space can handle it, we recommend installing it from their official installation page.</p>
+<p><a href="https://developer.android.com/studio"></a></p>
+<h2 id="system-terminal-and-package-manager">System Terminal and Package Manager</h2>
+<h3 id="windows-10---chocolatey">Windows 10 - Chocolatey</h3>
+<p>No sane developers will use Windows for its terminal or package management, but here we are.</p>
+<p>This section will guide you through installing <a href="https://chocolatey.org/">Chocolatey</a>, a package manager for Windows.</p>
+<p>Windows system comes with PowerShell and the Command Line Prompt as its main terminal. Alternatively, you can install Bash that comes with the <a href="https://git-scm.com/download/win">Windows Git client</a> (mentioned in the previous section). For this guide, we will be using PowerShell.</p>
+<p>To access PowerShell with administrative rights, click on the Windows search bar on the bottom left corner of your screen (next to the Windows button in the task bar), and search for <code>PowerShell</code>.</p>
+<p><img src="../resources/running-ps-admin.jpg" alt="../resources/running-ps-admin.jpg"></p>
+<p>Right-click on the app and choose <code>Run as administrator</code>. When you open the terminal, it should look something like this:</p>
+<p><img src="../resources/ps-running-as-admin.jpg" alt="../resources/ps-running-as-admin.jpg"></p>
+<p>Note that administrator sessions runs from <code>Windows\system32</code> instead of the user home directory.</p>
+<p>Paste the following command to your terminal.</p>
+<pre><code class="lang-powershell">Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))
+</code></pre><p>This should install Chocolatey to your system. You can confirm it by using the <code>choco</code> command to your terminal.</p>
+<p>You can read the detailed installation process from the <a href="https://chocolatey.org/install">official installation page</a>.</p>
+<h3 id="macos---homebrew">macOS - Homebrew</h3>
+<p>Homebrew is a package manager for macOS. It offers a wide variety of applications that are a must-install for developers working from macOS.</p>
+<p>Unlike Windows; macOS comes with a <code>zsh</code> terminal, which shares a lot of characteristics of bash. This means that most commands that works with bash will work on your Mac.</p>
+<p>To install Homebrew, you simply open your terminal from the <code>Utilities</code> folder and paste the following command.</p>
+<pre><code class="lang-bash">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+</code></pre><p>You can learn more from the official <a href="https://brew.sh/">Homebrew</a> page.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/development-environment.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
