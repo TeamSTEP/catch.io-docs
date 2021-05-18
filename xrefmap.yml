@@ -748,6 +748,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Item.Owner
   nameWithType: Item.Owner
+- uid: CatchIo.Items.Item.Sprite
+  name: Sprite
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite
+  commentId: P:CatchIo.Items.Item.Sprite
+  fullName: CatchIo.Items.Item.Sprite
+  nameWithType: Item.Sprite
+- uid: CatchIo.Items.Item.Sprite*
+  name: Sprite
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite_
+  commentId: Overload:CatchIo.Items.Item.Sprite
+  isSpec: "True"
+  fullName: CatchIo.Items.Item.Sprite
+  nameWithType: Item.Sprite
+- uid: CatchIo.Items.Item.Start
+  name: Start()
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_Start
+  commentId: M:CatchIo.Items.Item.Start
+  fullName: CatchIo.Items.Item.Start()
+  nameWithType: Item.Start()
+- uid: CatchIo.Items.Item.Start*
+  name: Start
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_Start_
+  commentId: Overload:CatchIo.Items.Item.Start
+  isSpec: "True"
+  fullName: CatchIo.Items.Item.Start
+  nameWithType: Item.Start
 - uid: CatchIo.Items.OffensiveThrowableItem
   name: OffensiveThrowableItem
   href: api/CatchIo.Items.OffensiveThrowableItem.html
@@ -2248,12 +2274,12 @@ references:
   commentId: T:CatchIo.PlayerCharacter.Inventory
   fullName: CatchIo.PlayerCharacter.Inventory
   nameWithType: Inventory
-- uid: CatchIo.PlayerCharacter.Inventory.#ctor(System.Int32)
-  name: Inventory(Int32)
-  href: api/CatchIo.PlayerCharacter.Inventory.html#CatchIo_PlayerCharacter_Inventory__ctor_System_Int32_
-  commentId: M:CatchIo.PlayerCharacter.Inventory.#ctor(System.Int32)
-  fullName: CatchIo.PlayerCharacter.Inventory.Inventory(System.Int32)
-  nameWithType: Inventory.Inventory(Int32)
+- uid: CatchIo.PlayerCharacter.Inventory.#ctor(InventoryHUD,System.Int32)
+  name: Inventory(InventoryHUD, Int32)
+  href: api/CatchIo.PlayerCharacter.Inventory.html#CatchIo_PlayerCharacter_Inventory__ctor_InventoryHUD_System_Int32_
+  commentId: M:CatchIo.PlayerCharacter.Inventory.#ctor(InventoryHUD,System.Int32)
+  fullName: CatchIo.PlayerCharacter.Inventory.Inventory(InventoryHUD, System.Int32)
+  nameWithType: Inventory.Inventory(InventoryHUD, Int32)
 - uid: CatchIo.PlayerCharacter.Inventory.#ctor*
   name: Inventory
   href: api/CatchIo.PlayerCharacter.Inventory.html#CatchIo_PlayerCharacter_Inventory__ctor_
@@ -2287,6 +2313,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Inventory.Draw
   nameWithType: Inventory.Draw
+- uid: CatchIo.PlayerCharacter.Inventory.GetCount
+  name: GetCount()
+  href: api/CatchIo.PlayerCharacter.Inventory.html#CatchIo_PlayerCharacter_Inventory_GetCount
+  commentId: M:CatchIo.PlayerCharacter.Inventory.GetCount
+  fullName: CatchIo.PlayerCharacter.Inventory.GetCount()
+  nameWithType: Inventory.GetCount()
+- uid: CatchIo.PlayerCharacter.Inventory.GetCount*
+  name: GetCount
+  href: api/CatchIo.PlayerCharacter.Inventory.html#CatchIo_PlayerCharacter_Inventory_GetCount_
+  commentId: Overload:CatchIo.PlayerCharacter.Inventory.GetCount
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Inventory.GetCount
+  nameWithType: Inventory.GetCount
 - uid: CatchIo.PlayerCharacter.Inventory.GetItem(System.Int32)
   name: GetItem(Int32)
   href: api/CatchIo.PlayerCharacter.Inventory.html#CatchIo_PlayerCharacter_Inventory_GetItem_System_Int32_
@@ -2650,32 +2689,165 @@ references:
   commentId: T:CatchIo.UI.InventoryHUD
   fullName: CatchIo.UI.InventoryHUD
   nameWithType: InventoryHUD
-- uid: CatchIo.UI.InventoryHUD.SelectItem(System.Int32)
-  name: SelectItem(Int32)
-  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_SelectItem_System_Int32_
-  commentId: M:CatchIo.UI.InventoryHUD.SelectItem(System.Int32)
-  fullName: CatchIo.UI.InventoryHUD.SelectItem(System.Int32)
-  nameWithType: InventoryHUD.SelectItem(Int32)
-- uid: CatchIo.UI.InventoryHUD.SelectItem*
-  name: SelectItem
-  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_SelectItem_
-  commentId: Overload:CatchIo.UI.InventoryHUD.SelectItem
+- uid: CatchIo.UI.InventoryHUD.AddItem(Sprite)
+  name: AddItem(Sprite)
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_AddItem_Sprite_
+  commentId: M:CatchIo.UI.InventoryHUD.AddItem(Sprite)
+  fullName: CatchIo.UI.InventoryHUD.AddItem(Sprite)
+  nameWithType: InventoryHUD.AddItem(Sprite)
+- uid: CatchIo.UI.InventoryHUD.AddItem*
+  name: AddItem
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_AddItem_
+  commentId: Overload:CatchIo.UI.InventoryHUD.AddItem
   isSpec: "True"
-  fullName: CatchIo.UI.InventoryHUD.SelectItem
-  nameWithType: InventoryHUD.SelectItem
-- uid: CatchIo.UI.InventoryHUD.UpdateHUD
-  name: UpdateHUD()
-  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_UpdateHUD
-  commentId: M:CatchIo.UI.InventoryHUD.UpdateHUD
-  fullName: CatchIo.UI.InventoryHUD.UpdateHUD()
-  nameWithType: InventoryHUD.UpdateHUD()
-- uid: CatchIo.UI.InventoryHUD.UpdateHUD*
-  name: UpdateHUD
-  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_UpdateHUD_
-  commentId: Overload:CatchIo.UI.InventoryHUD.UpdateHUD
+  fullName: CatchIo.UI.InventoryHUD.AddItem
+  nameWithType: InventoryHUD.AddItem
+- uid: CatchIo.UI.InventoryHUD.Arrow
+  name: Arrow
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_Arrow
+  commentId: F:CatchIo.UI.InventoryHUD.Arrow
+  fullName: CatchIo.UI.InventoryHUD.Arrow
+  nameWithType: InventoryHUD.Arrow
+- uid: CatchIo.UI.InventoryHUD.RemoveItem(System.Int32)
+  name: RemoveItem(Int32)
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_RemoveItem_System_Int32_
+  commentId: M:CatchIo.UI.InventoryHUD.RemoveItem(System.Int32)
+  fullName: CatchIo.UI.InventoryHUD.RemoveItem(System.Int32)
+  nameWithType: InventoryHUD.RemoveItem(Int32)
+- uid: CatchIo.UI.InventoryHUD.RemoveItem*
+  name: RemoveItem
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_RemoveItem_
+  commentId: Overload:CatchIo.UI.InventoryHUD.RemoveItem
   isSpec: "True"
-  fullName: CatchIo.UI.InventoryHUD.UpdateHUD
-  nameWithType: InventoryHUD.UpdateHUD
+  fullName: CatchIo.UI.InventoryHUD.RemoveItem
+  nameWithType: InventoryHUD.RemoveItem
+- uid: CatchIo.UI.InventoryHUD.SelectItemHUD(System.Int32)
+  name: SelectItemHUD(Int32)
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_SelectItemHUD_System_Int32_
+  commentId: M:CatchIo.UI.InventoryHUD.SelectItemHUD(System.Int32)
+  fullName: CatchIo.UI.InventoryHUD.SelectItemHUD(System.Int32)
+  nameWithType: InventoryHUD.SelectItemHUD(Int32)
+- uid: CatchIo.UI.InventoryHUD.SelectItemHUD*
+  name: SelectItemHUD
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_SelectItemHUD_
+  commentId: Overload:CatchIo.UI.InventoryHUD.SelectItemHUD
+  isSpec: "True"
+  fullName: CatchIo.UI.InventoryHUD.SelectItemHUD
+  nameWithType: InventoryHUD.SelectItemHUD
+- uid: CatchIo.UI.InventoryHUD.SelectSlotSize
+  name: SelectSlotSize
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_SelectSlotSize
+  commentId: F:CatchIo.UI.InventoryHUD.SelectSlotSize
+  fullName: CatchIo.UI.InventoryHUD.SelectSlotSize
+  nameWithType: InventoryHUD.SelectSlotSize
+- uid: CatchIo.UI.InventoryHUD.Slots
+  name: Slots
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_Slots
+  commentId: F:CatchIo.UI.InventoryHUD.Slots
+  fullName: CatchIo.UI.InventoryHUD.Slots
+  nameWithType: InventoryHUD.Slots
+- uid: CatchIo.UI.InventoryHUD.Start
+  name: Start()
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_Start
+  commentId: M:CatchIo.UI.InventoryHUD.Start
+  fullName: CatchIo.UI.InventoryHUD.Start()
+  nameWithType: InventoryHUD.Start()
+- uid: CatchIo.UI.InventoryHUD.Start*
+  name: Start
+  href: api/CatchIo.UI.InventoryHUD.html#CatchIo_UI_InventoryHUD_Start_
+  commentId: Overload:CatchIo.UI.InventoryHUD.Start
+  isSpec: "True"
+  fullName: CatchIo.UI.InventoryHUD.Start
+  nameWithType: InventoryHUD.Start
+- uid: CatchIo.UI.InventorySlot
+  name: InventorySlot
+  href: api/CatchIo.UI.InventorySlot.html
+  commentId: T:CatchIo.UI.InventorySlot
+  fullName: CatchIo.UI.InventorySlot
+  nameWithType: InventorySlot
+- uid: CatchIo.UI.InventorySlot.AddItem(Sprite)
+  name: AddItem(Sprite)
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_AddItem_Sprite_
+  commentId: M:CatchIo.UI.InventorySlot.AddItem(Sprite)
+  fullName: CatchIo.UI.InventorySlot.AddItem(Sprite)
+  nameWithType: InventorySlot.AddItem(Sprite)
+- uid: CatchIo.UI.InventorySlot.AddItem*
+  name: AddItem
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_AddItem_
+  commentId: Overload:CatchIo.UI.InventorySlot.AddItem
+  isSpec: "True"
+  fullName: CatchIo.UI.InventorySlot.AddItem
+  nameWithType: InventorySlot.AddItem
+- uid: CatchIo.UI.InventorySlot.IsExistItem
+  name: IsExistItem
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_IsExistItem
+  commentId: F:CatchIo.UI.InventorySlot.IsExistItem
+  fullName: CatchIo.UI.InventorySlot.IsExistItem
+  nameWithType: InventorySlot.IsExistItem
+- uid: CatchIo.UI.InventorySlot.ItemImage
+  name: ItemImage
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_ItemImage
+  commentId: F:CatchIo.UI.InventorySlot.ItemImage
+  fullName: CatchIo.UI.InventorySlot.ItemImage
+  nameWithType: InventorySlot.ItemImage
+- uid: CatchIo.UI.InventorySlot.Release
+  name: Release()
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_Release
+  commentId: M:CatchIo.UI.InventorySlot.Release
+  fullName: CatchIo.UI.InventorySlot.Release()
+  nameWithType: InventorySlot.Release()
+- uid: CatchIo.UI.InventorySlot.Release*
+  name: Release
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_Release_
+  commentId: Overload:CatchIo.UI.InventorySlot.Release
+  isSpec: "True"
+  fullName: CatchIo.UI.InventorySlot.Release
+  nameWithType: InventorySlot.Release
+- uid: CatchIo.UI.InventorySlot.RemoveItem
+  name: RemoveItem()
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_RemoveItem
+  commentId: M:CatchIo.UI.InventorySlot.RemoveItem
+  fullName: CatchIo.UI.InventorySlot.RemoveItem()
+  nameWithType: InventorySlot.RemoveItem()
+- uid: CatchIo.UI.InventorySlot.RemoveItem*
+  name: RemoveItem
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_RemoveItem_
+  commentId: Overload:CatchIo.UI.InventorySlot.RemoveItem
+  isSpec: "True"
+  fullName: CatchIo.UI.InventorySlot.RemoveItem
+  nameWithType: InventorySlot.RemoveItem
+- uid: CatchIo.UI.InventorySlot.Select(System.Int32)
+  name: Select(Int32)
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_Select_System_Int32_
+  commentId: M:CatchIo.UI.InventorySlot.Select(System.Int32)
+  fullName: CatchIo.UI.InventorySlot.Select(System.Int32)
+  nameWithType: InventorySlot.Select(Int32)
+- uid: CatchIo.UI.InventorySlot.Select*
+  name: Select
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_Select_
+  commentId: Overload:CatchIo.UI.InventorySlot.Select
+  isSpec: "True"
+  fullName: CatchIo.UI.InventorySlot.Select
+  nameWithType: InventorySlot.Select
+- uid: CatchIo.UI.InventorySlot.SlotImage
+  name: SlotImage
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_SlotImage
+  commentId: F:CatchIo.UI.InventorySlot.SlotImage
+  fullName: CatchIo.UI.InventorySlot.SlotImage
+  nameWithType: InventorySlot.SlotImage
+- uid: CatchIo.UI.InventorySlot.Start
+  name: Start()
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_Start
+  commentId: M:CatchIo.UI.InventorySlot.Start
+  fullName: CatchIo.UI.InventorySlot.Start()
+  nameWithType: InventorySlot.Start()
+- uid: CatchIo.UI.InventorySlot.Start*
+  name: Start
+  href: api/CatchIo.UI.InventorySlot.html#CatchIo_UI_InventorySlot_Start_
+  commentId: Overload:CatchIo.UI.InventorySlot.Start
+  isSpec: "True"
+  fullName: CatchIo.UI.InventorySlot.Start
+  nameWithType: InventorySlot.Start
 - uid: CatchIo.UI.LobbyRoomsView
   name: LobbyRoomsView
   href: api/CatchIo.UI.LobbyRoomsView.html
