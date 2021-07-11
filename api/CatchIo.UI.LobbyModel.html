@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.PlayerCharacter
+    <title>Class LobbyModel
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.PlayerCharacter
+    <meta name="title" content="Class LobbyModel
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,53 +78,113 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.LobbyModel">
   
-  <h1 id="CatchIo_PlayerCharacter" data-uid="CatchIo.PlayerCharacter" class="text-break">Namespace CatchIo.PlayerCharacter
+  
+  <h1 id="CatchIo_UI_LobbyModel" data-uid="CatchIo.UI.LobbyModel" class="text-break">Class LobbyModel
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">LobbyModel</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_UI_LobbyModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LobbyModel : ViewModelBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
   </h3>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.Character.html">Character</a></h4>
-      <section><p>Base class for all character data control.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterAnimation.html">CharacterAnimation</a></h4>
-      <section><p>This class plays player animations in animator.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterController.html">CharacterController</a></h4>
-      <section><p>Base class for character control by player inputs.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterFOV.html">CharacterFOV</a></h4>
-      <section><p>This class implements the FOV light effect behavior that is controlled by the player character&apos;s view.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterHitbox.html">CharacterHitbox</a></h4>
-      <section><p>This class performs to character collider.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterSkin.html">CharacterSkin</a></h4>
-      <section><p>Base class for character skin.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.InventoryController.html">InventoryController</a></h4>
-      <section><p>This class controls what Inventory class related to.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.InventoryModel.html">InventoryModel</a></h4>
-      <section><p>This class is container for items.</p>
-</section>
-    <h3 id="interfaces">Interfaces
+  
+  
+  <a id="CatchIo_UI_LobbyModel__ctor_" data-uid="CatchIo.UI.LobbyModel.#ctor*"></a>
+  <h4 id="CatchIo_UI_LobbyModel__ctor" data-uid="CatchIo.UI.LobbyModel.#ctor">LobbyModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LobbyModel()</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.IDamageable.html">IDamageable</a></h4>
-      <section><p>Interface for objects that can take damage.
-Object taking damage must implement the OnDamage function, and objects that gives damage should call that function and pass the damage value.</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterActionState.html">CharacterActionState</a></h4>
-      <section><p>Enum for character action states.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterMoveState.html">CharacterMoveState</a></h4>
-      <section><p>Enum for character move state.</p>
-</section>
+  
+  
+  <a id="CatchIo_UI_LobbyModel_Back_" data-uid="CatchIo.UI.LobbyModel.Back*"></a>
+  <h4 id="CatchIo_UI_LobbyModel_Back" data-uid="CatchIo.UI.LobbyModel.Back">Back</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand Back { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_LobbyModel_JoinRequest_" data-uid="CatchIo.UI.LobbyModel.JoinRequest*"></a>
+  <h4 id="CatchIo_UI_LobbyModel_JoinRequest" data-uid="CatchIo.UI.LobbyModel.JoinRequest">JoinRequest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IInteractionRequest JoinRequest { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IInteractionRequest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_LobbyModel_JoinSession_" data-uid="CatchIo.UI.LobbyModel.JoinSession*"></a>
+  <h4 id="CatchIo_UI_LobbyModel_JoinSession" data-uid="CatchIo.UI.LobbyModel.JoinSession">JoinSession</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand JoinSession { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

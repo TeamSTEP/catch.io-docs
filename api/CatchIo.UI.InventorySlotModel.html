@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InventoryHUD
+    <title>Class InventorySlotModel
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InventoryHUD
+    <meta name="title" content="Class InventorySlotModel
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,37 +78,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.InventoryHUD">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.InventorySlotModel">
   
   
-  <h1 id="CatchIo_UI_InventoryHUD" data-uid="CatchIo.UI.InventoryHUD" class="text-break">Class InventoryHUD
+  <h1 id="CatchIo_UI_InventorySlotModel" data-uid="CatchIo.UI.InventorySlotModel" class="text-break">Class InventorySlotModel
   </h1>
-  <div class="markdown level0 summary"><p>This class for displaying Inventory HUD.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">InventoryHUD</span></div>
+    <div class="level1"><span class="xref">InventorySlotModel</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_InventoryHUD_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_InventorySlotModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryHUD : GuiBehavior</code></pre>
+    <pre><code class="lang-csharp hljs">public class InventorySlotModel : ViewModelBase</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="CatchIo_UI_InventoryHUD_Arrow" data-uid="CatchIo.UI.InventoryHUD.Arrow">Arrow</h4>
+  <a id="CatchIo_UI_InventorySlotModel__ctor_" data-uid="CatchIo.UI.InventorySlotModel.#ctor*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel__ctor_Vector2_" data-uid="CatchIo.UI.InventorySlotModel.#ctor(Vector2)">InventorySlotModel(Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform Arrow</code></pre>
+    <pre><code class="lang-csharp hljs">public InventorySlotModel(Vector2 originSize)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">originSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_UI_InventorySlotModel_AddItem_" data-uid="CatchIo.UI.InventorySlotModel.AddItem*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_AddItem" data-uid="CatchIo.UI.InventorySlotModel.AddItem">AddItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand AddItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,21 +147,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
+        <td><span class="xref">ICommand</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_UI_InventoryHUD_SelectSlotSize" data-uid="CatchIo.UI.InventoryHUD.SelectSlotSize">SelectSlotSize</h4>
+  <a id="CatchIo_UI_InventorySlotModel_IsExistItem_" data-uid="CatchIo.UI.InventorySlotModel.IsExistItem*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_IsExistItem" data-uid="CatchIo.UI.InventorySlotModel.IsExistItem">IsExistItem</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SelectSlotSize</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsExistItem { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -142,21 +172,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_UI_InventoryHUD_Slots" data-uid="CatchIo.UI.InventoryHUD.Slots">Slots</h4>
+  <a id="CatchIo_UI_InventorySlotModel_ItemSprite_" data-uid="CatchIo.UI.InventorySlotModel.ItemSprite*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_ItemSprite" data-uid="CatchIo.UI.InventorySlotModel.ItemSprite">ItemSprite</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform Slots</code></pre>
+    <pre><code class="lang-csharp hljs">public Sprite ItemSprite { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -166,7 +197,107 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
+        <td><span class="xref">Sprite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_InventorySlotModel_Release_" data-uid="CatchIo.UI.InventorySlotModel.Release*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_Release" data-uid="CatchIo.UI.InventorySlotModel.Release">Release</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand Release { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_InventorySlotModel_RemoveItem_" data-uid="CatchIo.UI.InventorySlotModel.RemoveItem*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_RemoveItem" data-uid="CatchIo.UI.InventorySlotModel.RemoveItem">RemoveItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand RemoveItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_InventorySlotModel_Select_" data-uid="CatchIo.UI.InventorySlotModel.Select*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_Select" data-uid="CatchIo.UI.InventorySlotModel.Select">Select</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand Select { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_InventorySlotModel_SlotSize_" data-uid="CatchIo.UI.InventorySlotModel.SlotSize*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_SlotSize" data-uid="CatchIo.UI.InventorySlotModel.SlotSize">SlotSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 SlotSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -175,13 +306,13 @@
   </h3>
   
   
-  <a id="CatchIo_UI_InventoryHUD_AddItem_" data-uid="CatchIo.UI.InventoryHUD.AddItem*"></a>
-  <h4 id="CatchIo_UI_InventoryHUD_AddItem_Sprite_" data-uid="CatchIo.UI.InventoryHUD.AddItem(Sprite)">AddItem(Sprite)</h4>
+  <a id="CatchIo_UI_InventorySlotModel_OnAddItem_" data-uid="CatchIo.UI.InventorySlotModel.OnAddItem*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_OnAddItem_Sprite_" data-uid="CatchIo.UI.InventorySlotModel.OnAddItem(Sprite)">OnAddItem(Sprite)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddItem(Sprite itemSprite)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnAddItem(Sprite itemSprite)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,13 +333,33 @@
   </table>
   
   
-  <a id="CatchIo_UI_InventoryHUD_RemoveItem_" data-uid="CatchIo.UI.InventoryHUD.RemoveItem*"></a>
-  <h4 id="CatchIo_UI_InventoryHUD_RemoveItem_System_Int32_" data-uid="CatchIo.UI.InventoryHUD.RemoveItem(System.Int32)">RemoveItem(Int32)</h4>
+  <a id="CatchIo_UI_InventorySlotModel_OnRelease_" data-uid="CatchIo.UI.InventorySlotModel.OnRelease*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_OnRelease" data-uid="CatchIo.UI.InventorySlotModel.OnRelease">OnRelease()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveItem(int index)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnRelease()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_UI_InventorySlotModel_OnRemoveItem_" data-uid="CatchIo.UI.InventorySlotModel.OnRemoveItem*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_OnRemoveItem" data-uid="CatchIo.UI.InventorySlotModel.OnRemoveItem">OnRemoveItem()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRemoveItem()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_UI_InventorySlotModel_OnSelect_" data-uid="CatchIo.UI.InventorySlotModel.OnSelect*"></a>
+  <h4 id="CatchIo_UI_InventorySlotModel_OnSelect_System_Int32_" data-uid="CatchIo.UI.InventorySlotModel.OnSelect(System.Int32)">OnSelect(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelect(int size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,48 +373,11 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
+        <td><span class="parametername">size</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_UI_InventoryHUD_SelectItemHUD_" data-uid="CatchIo.UI.InventoryHUD.SelectItemHUD*"></a>
-  <h4 id="CatchIo_UI_InventoryHUD_SelectItemHUD_System_Int32_" data-uid="CatchIo.UI.InventoryHUD.SelectItemHUD(System.Int32)">SelectItemHUD(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SelectItemHUD(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_InventoryHUD_Start_" data-uid="CatchIo.UI.InventoryHUD.Start*"></a>
-  <h4 id="CatchIo_UI_InventoryHUD_Start" data-uid="CatchIo.UI.InventoryHUD.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
-  </div>
 </article>
           </div>
           

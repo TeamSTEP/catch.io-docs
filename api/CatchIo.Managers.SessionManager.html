@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InventoryController
+    <title>Class SessionManager
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InventoryController
+    <meta name="title" content="Class SessionManager
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,90 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.InventoryController">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Managers.SessionManager">
   
   
-  <h1 id="CatchIo_PlayerCharacter_InventoryController" data-uid="CatchIo.PlayerCharacter.InventoryController" class="text-break">Class InventoryController
+  <h1 id="CatchIo_Managers_SessionManager" data-uid="CatchIo.Managers.SessionManager" class="text-break">Class SessionManager
   </h1>
-  <div class="markdown level0 summary"><p>This class controls what Inventory class related to.</p>
+  <div class="markdown level0 summary"><p>The game manager script that is used to handle various tasks when the game starts.
+Such tasks includes local player instance management, platform controller management, in-game network management, etc.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">InventoryController</span></div>
+    <div class="level1"><span class="xref">SessionManager</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.html">CatchIo.PlayerCharacter</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Managers.html">CatchIo.Managers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_PlayerCharacter_InventoryController_syntax">Syntax</h5>
+  <h5 id="CatchIo_Managers_SessionManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryController : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class SessionManager : NetworkCallback</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Managers_SessionManager_PlayerCamera" data-uid="CatchIo.Managers.SessionManager.PlayerCamera">PlayerCamera</h4>
+  <div class="markdown level1 summary"><p>The game camera that should be instantiated in the game scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject PlayerCamera</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Managers_SessionManager_PlayerPrefab" data-uid="CatchIo.Managers.SessionManager.PlayerPrefab">PlayerPrefab</h4>
+  <div class="markdown level1 summary"><p>The player prefab to instantiate in the game scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject PlayerPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_PlayerCharacter_InventoryController_Inventory_" data-uid="CatchIo.PlayerCharacter.InventoryController.Inventory*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Inventory" data-uid="CatchIo.PlayerCharacter.InventoryController.Inventory">Inventory</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Managers_SessionManager_CurrentTilemapContainer_" data-uid="CatchIo.Managers.SessionManager.CurrentTilemapContainer*"></a>
+  <h4 id="CatchIo_Managers_SessionManager_CurrentTilemapContainer" data-uid="CatchIo.Managers.SessionManager.CurrentTilemapContainer">CurrentTilemapContainer</h4>
+  <div class="markdown level1 summary"><p>Tilemap container reference for the current game scene.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InventoryModel Inventory { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static TilemapContainer CurrentTilemapContainer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,81 +173,38 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CatchIo.PlayerCharacter.InventoryModel.html">InventoryModel</a></td>
+        <td><span class="xref">TilemapContainer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CatchIo_PlayerCharacter_InventoryController_Clear_" data-uid="CatchIo.PlayerCharacter.InventoryController.Clear*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Clear" data-uid="CatchIo.PlayerCharacter.InventoryController.Clear">Clear()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Managers_SessionManager_LocalPlayerInst_" data-uid="CatchIo.Managers.SessionManager.LocalPlayerInst*"></a>
+  <h4 id="CatchIo_Managers_SessionManager_LocalPlayerInst" data-uid="CatchIo.Managers.SessionManager.LocalPlayerInst">LocalPlayerInst</h4>
+  <div class="markdown level1 summary"><p>The local player instance.
+This is generally the same as the local player instance provided by Photon Network.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">public static Character LocalPlayerInst { get; }</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_PlayerCharacter_InventoryController_Draw_" data-uid="CatchIo.PlayerCharacter.InventoryController.Draw*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Draw" data-uid="CatchIo.PlayerCharacter.InventoryController.Draw">Draw()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Draw()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_PlayerCharacter_InventoryController_SelectItem_" data-uid="CatchIo.PlayerCharacter.InventoryController.SelectItem*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_SelectItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.InventoryController.SelectItem(System.Int32)">SelectItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SelectItem(int inputInvIndex)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">inputInvIndex</span></td>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.Character.html">Character</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_InventoryController_Start_" data-uid="CatchIo.PlayerCharacter.InventoryController.Start*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Start" data-uid="CatchIo.PlayerCharacter.InventoryController.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_PlayerCharacter_InventoryController_Update_" data-uid="CatchIo.PlayerCharacter.InventoryController.Update*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Update" data-uid="CatchIo.PlayerCharacter.InventoryController.Update">Update()</h4>
-  <div class="markdown level1 summary"><p>Unity update function (runs every frame)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
-  </div>
 </article>
           </div>
           

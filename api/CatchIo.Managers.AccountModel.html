@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InventoryController
+    <title>Class AccountModel
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InventoryController
+    <meta name="title" content="Class AccountModel
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,83 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.InventoryController">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Managers.AccountModel">
   
   
-  <h1 id="CatchIo_PlayerCharacter_InventoryController" data-uid="CatchIo.PlayerCharacter.InventoryController" class="text-break">Class InventoryController
+  <h1 id="CatchIo_Managers_AccountModel" data-uid="CatchIo.Managers.AccountModel" class="text-break">Class AccountModel
   </h1>
-  <div class="markdown level0 summary"><p>This class controls what Inventory class related to.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">InventoryController</span></div>
+    <div class="level1"><span class="xref">AccountModel</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.html">CatchIo.PlayerCharacter</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Managers.html">CatchIo.Managers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_PlayerCharacter_InventoryController_syntax">Syntax</h5>
+  <h5 id="CatchIo_Managers_AccountModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryController : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class AccountModel : ViewModelBase</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_PlayerCharacter_InventoryController_Inventory_" data-uid="CatchIo.PlayerCharacter.InventoryController.Inventory*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Inventory" data-uid="CatchIo.PlayerCharacter.InventoryController.Inventory">Inventory</h4>
+  <a id="CatchIo_Managers_AccountModel__ctor_" data-uid="CatchIo.Managers.AccountModel.#ctor*"></a>
+  <h4 id="CatchIo_Managers_AccountModel__ctor_Player_" data-uid="CatchIo.Managers.AccountModel.#ctor(Player)">AccountModel(Player)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InventoryModel Inventory { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.PlayerCharacter.InventoryModel.html">InventoryModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="CatchIo_PlayerCharacter_InventoryController_Clear_" data-uid="CatchIo.PlayerCharacter.InventoryController.Clear*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Clear" data-uid="CatchIo.PlayerCharacter.InventoryController.Clear">Clear()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_PlayerCharacter_InventoryController_Draw_" data-uid="CatchIo.PlayerCharacter.InventoryController.Draw*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Draw" data-uid="CatchIo.PlayerCharacter.InventoryController.Draw">Draw()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Draw()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_PlayerCharacter_InventoryController_SelectItem_" data-uid="CatchIo.PlayerCharacter.InventoryController.SelectItem*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_SelectItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.InventoryController.SelectItem(System.Int32)">SelectItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SelectItem(int inputInvIndex)</code></pre>
+    <pre><code class="lang-csharp hljs">public AccountModel(Player player)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,33 +119,114 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">inputInvIndex</span></td>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Managers_AccountModel_IsReady_" data-uid="CatchIo.Managers.AccountModel.IsReady*"></a>
+  <h4 id="CatchIo_Managers_AccountModel_IsReady" data-uid="CatchIo.Managers.AccountModel.IsReady">IsReady</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableProperty&lt;bool&gt; IsReady { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ObservableProperty</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_PlayerCharacter_InventoryController_Start_" data-uid="CatchIo.PlayerCharacter.InventoryController.Start*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Start" data-uid="CatchIo.PlayerCharacter.InventoryController.Start">Start()</h4>
+  <a id="CatchIo_Managers_AccountModel_NickName_" data-uid="CatchIo.Managers.AccountModel.NickName*"></a>
+  <h4 id="CatchIo_Managers_AccountModel_NickName" data-uid="CatchIo.Managers.AccountModel.NickName">NickName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">public string NickName { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="CatchIo_PlayerCharacter_InventoryController_Update_" data-uid="CatchIo.PlayerCharacter.InventoryController.Update*"></a>
-  <h4 id="CatchIo_PlayerCharacter_InventoryController_Update" data-uid="CatchIo.PlayerCharacter.InventoryController.Update">Update()</h4>
-  <div class="markdown level1 summary"><p>Unity update function (runs every frame)</p>
-</div>
+  <a id="CatchIo_Managers_AccountModel_Player_" data-uid="CatchIo.Managers.AccountModel.Player*"></a>
+  <h4 id="CatchIo_Managers_AccountModel_Player" data-uid="CatchIo.Managers.AccountModel.Player">Player</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+    <pre><code class="lang-csharp hljs">public Player Player { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_AccountModel_ReadyStateText_" data-uid="CatchIo.Managers.AccountModel.ReadyStateText*"></a>
+  <h4 id="CatchIo_Managers_AccountModel_ReadyStateText" data-uid="CatchIo.Managers.AccountModel.ReadyStateText">ReadyStateText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ReadyStateText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

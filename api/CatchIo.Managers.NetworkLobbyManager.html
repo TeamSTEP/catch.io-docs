@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SceneControl
+    <title>Class NetworkLobbyManager
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SceneControl
+    <meta name="title" content="Class NetworkLobbyManager
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,93 +78,67 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Util.SceneControl">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Managers.NetworkLobbyManager">
   
   
-  <h1 id="CatchIo_Util_SceneControl" data-uid="CatchIo.Util.SceneControl" class="text-break">Class SceneControl
+  <h1 id="CatchIo_Managers_NetworkLobbyManager" data-uid="CatchIo.Managers.NetworkLobbyManager" class="text-break">Class NetworkLobbyManager
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Photon lobby scene manager. All the lobby logic and network management
+should be handled from here.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SceneControl</span></div>
+    <div class="level1"><span class="xref">NetworkLobbyManager</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Util.html">CatchIo.Util</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Managers.html">CatchIo.Managers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Util_SceneControl_syntax">Syntax</h5>
+  <h5 id="CatchIo_Managers_NetworkLobbyManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SceneControl</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkLobbyManager : NetworkCallback</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Util_SceneControl_GetCurrentSceneName_" data-uid="CatchIo.Util.SceneControl.GetCurrentSceneName*"></a>
-  <h4 id="CatchIo_Util_SceneControl_GetCurrentSceneName" data-uid="CatchIo.Util.SceneControl.GetCurrentSceneName">GetCurrentSceneName()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetCurrentSceneName()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Util_SceneControl_Load_" data-uid="CatchIo.Util.SceneControl.Load*"></a>
-  <h4 id="CatchIo_Util_SceneControl_Load_System_Int32_LoadSceneMode_" data-uid="CatchIo.Util.SceneControl.Load(System.Int32,LoadSceneMode)">Load(Int32, LoadSceneMode)</h4>
-  <div class="markdown level1 summary"><p>Synchronous <pre><code>SceneManager.LoadScene()</code></pre> wrapper</p>
+  <h4 id="CatchIo_Managers_NetworkLobbyManager_Instance" data-uid="CatchIo.Managers.NetworkLobbyManager.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>A static reference to itself.
+This is used to make this object a singleton for the lobby.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Load(int sceneIndex, LoadSceneMode mode = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static GameObject Instance</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">sceneIndex</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">LoadSceneMode</span></td>
-        <td><span class="parametername">mode</span></td>
+        <td><span class="xref">GameObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="CatchIo_Util_SceneControl_Load_" data-uid="CatchIo.Util.SceneControl.Load*"></a>
-  <h4 id="CatchIo_Util_SceneControl_Load_System_String_LoadSceneMode_" data-uid="CatchIo.Util.SceneControl.Load(System.String,LoadSceneMode)">Load(String, LoadSceneMode)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Managers_NetworkLobbyManager_CreateRoom_" data-uid="CatchIo.Managers.NetworkLobbyManager.CreateRoom*"></a>
+  <h4 id="CatchIo_Managers_NetworkLobbyManager_CreateRoom_System_String_System_String_System_Byte_" data-uid="CatchIo.Managers.NetworkLobbyManager.CreateRoom(System.String,System.String,System.Byte)">CreateRoom(String, String, Byte)</h4>
+  <div class="markdown level1 summary"><p>Create a new room from the given parameter.
+The map name will be stored as a custom metadata for room data in photon network.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Load(string sceneName, LoadSceneMode mode = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateRoom(string roomName, string mapName, byte maxPlayer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,25 +152,32 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">sceneName</span></td>
+        <td><span class="parametername">roomName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">LoadSceneMode</span></td>
-        <td><span class="parametername">mode</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">mapName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">maxPlayer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Util_SceneControl_LoadAsync_" data-uid="CatchIo.Util.SceneControl.LoadAsync*"></a>
-  <h4 id="CatchIo_Util_SceneControl_LoadAsync_System_String_LoadSceneMode_" data-uid="CatchIo.Util.SceneControl.LoadAsync(System.String,LoadSceneMode)">LoadAsync(String, LoadSceneMode)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Managers_NetworkLobbyManager_JoinRoom_" data-uid="CatchIo.Managers.NetworkLobbyManager.JoinRoom*"></a>
+  <h4 id="CatchIo_Managers_NetworkLobbyManager_JoinRoom_System_String_" data-uid="CatchIo.Managers.NetworkLobbyManager.JoinRoom(System.String)">JoinRoom(String)</h4>
+  <div class="markdown level1 summary"><p>Joins the room with the given name.
+The actual scene loading is handled by the pun callback method.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEngine.AsyncOperation LoadAsync(string sceneName, LoadSceneMode mode = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void JoinRoom(string roomName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -210,40 +191,40 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">sceneName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">LoadSceneMode</span></td>
-        <td><span class="parametername">mode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/AsyncOperation.html">UnityEngine.AsyncOperation</a></td>
+        <td><span class="parametername">roomName</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Util_SceneControl_UnloadAdditiveScene_" data-uid="CatchIo.Util.SceneControl.UnloadAdditiveScene*"></a>
-  <h4 id="CatchIo_Util_SceneControl_UnloadAdditiveScene_System_String_" data-uid="CatchIo.Util.SceneControl.UnloadAdditiveScene(System.String)">UnloadAdditiveScene(String)</h4>
+  <a id="CatchIo_Managers_NetworkLobbyManager_OnCreatedRoom_" data-uid="CatchIo.Managers.NetworkLobbyManager.OnCreatedRoom*"></a>
+  <h4 id="CatchIo_Managers_NetworkLobbyManager_OnCreatedRoom" data-uid="CatchIo.Managers.NetworkLobbyManager.OnCreatedRoom">OnCreatedRoom()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEngine.AsyncOperation UnloadAdditiveScene(string sceneName)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnCreatedRoom()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Managers_NetworkLobbyManager_OnJoinedRoom_" data-uid="CatchIo.Managers.NetworkLobbyManager.OnJoinedRoom*"></a>
+  <h4 id="CatchIo_Managers_NetworkLobbyManager_OnJoinedRoom" data-uid="CatchIo.Managers.NetworkLobbyManager.OnJoinedRoom">OnJoinedRoom()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnJoinedRoom()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Managers_NetworkLobbyManager_OnJoinRoomFailed_" data-uid="CatchIo.Managers.NetworkLobbyManager.OnJoinRoomFailed*"></a>
+  <h4 id="CatchIo_Managers_NetworkLobbyManager_OnJoinRoomFailed_System_Int16_System_String_" data-uid="CatchIo.Managers.NetworkLobbyManager.OnJoinRoomFailed(System.Int16,System.String)">OnJoinRoomFailed(Int16, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnJoinRoomFailed(short returnCode, string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,23 +237,40 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><span class="parametername">returnCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">sceneName</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="CatchIo_Managers_NetworkLobbyManager_OnRoomListUpdate_" data-uid="CatchIo.Managers.NetworkLobbyManager.OnRoomListUpdate*"></a>
+  <h4 id="CatchIo_Managers_NetworkLobbyManager_OnRoomListUpdate_List_Photon_Realtime_RoomInfo__" data-uid="CatchIo.Managers.NetworkLobbyManager.OnRoomListUpdate(List{Photon.Realtime.RoomInfo})">OnRoomListUpdate(List&lt;Photon.Realtime.RoomInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnRoomListUpdate(List&lt;Photon.Realtime.RoomInfo&gt; roomList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/AsyncOperation.html">UnityEngine.AsyncOperation</a></td>
+        <td><span class="xref">List</span>&lt;<span class="xref">Photon.Realtime.RoomInfo</span>&gt;</td>
+        <td><span class="parametername">roomList</span></td>
         <td></td>
       </tr>
     </tbody>

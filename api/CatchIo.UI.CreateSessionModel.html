@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SceneControl
+    <title>Class CreateSessionModel
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SceneControl
+    <meta name="title" content="Class CreateSessionModel
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,93 +78,199 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Util.SceneControl">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.CreateSessionModel">
   
   
-  <h1 id="CatchIo_Util_SceneControl" data-uid="CatchIo.Util.SceneControl" class="text-break">Class SceneControl
+  <h1 id="CatchIo_UI_CreateSessionModel" data-uid="CatchIo.UI.CreateSessionModel" class="text-break">Class CreateSessionModel
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SceneControl</span></div>
+    <div class="level1"><span class="xref">CreateSessionModel</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Util.html">CatchIo.Util</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Util_SceneControl_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_CreateSessionModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SceneControl</code></pre>
+    <pre><code class="lang-csharp hljs">public class CreateSessionModel : ViewModelBase</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CatchIo_UI_CreateSessionModel__ctor_" data-uid="CatchIo.UI.CreateSessionModel.#ctor*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel__ctor" data-uid="CatchIo.UI.CreateSessionModel.#ctor">CreateSessionModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CreateSessionModel()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_UI_CreateSessionModel_Account_" data-uid="CatchIo.UI.CreateSessionModel.Account*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_Account" data-uid="CatchIo.UI.CreateSessionModel.Account">Account</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoomInfo Account { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.UI.RoomInfo.html">RoomInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_CreateSessionModel_CloseSession_" data-uid="CatchIo.UI.CreateSessionModel.CloseSession*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_CloseSession" data-uid="CatchIo.UI.CreateSessionModel.CloseSession">CloseSession</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand CloseSession { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_CreateSessionModel_CloseSessionRequest_" data-uid="CatchIo.UI.CreateSessionModel.CloseSessionRequest*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_CloseSessionRequest" data-uid="CatchIo.UI.CreateSessionModel.CloseSessionRequest">CloseSessionRequest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IInteractionRequest CloseSessionRequest { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IInteractionRequest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_CreateSessionModel_RoomName_" data-uid="CatchIo.UI.CreateSessionModel.RoomName*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_RoomName" data-uid="CatchIo.UI.CreateSessionModel.RoomName">RoomName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RoomName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_CreateSessionModel_SubmitSession_" data-uid="CatchIo.UI.CreateSessionModel.SubmitSession*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_SubmitSession" data-uid="CatchIo.UI.CreateSessionModel.SubmitSession">SubmitSession</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand SubmitSession { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_CreateSessionModel_SubmitSessionRequest_" data-uid="CatchIo.UI.CreateSessionModel.SubmitSessionRequest*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_SubmitSessionRequest" data-uid="CatchIo.UI.CreateSessionModel.SubmitSessionRequest">SubmitSessionRequest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IInteractionRequest SubmitSessionRequest { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IInteractionRequest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Util_SceneControl_GetCurrentSceneName_" data-uid="CatchIo.Util.SceneControl.GetCurrentSceneName*"></a>
-  <h4 id="CatchIo_Util_SceneControl_GetCurrentSceneName" data-uid="CatchIo.Util.SceneControl.GetCurrentSceneName">GetCurrentSceneName()</h4>
+  <a id="CatchIo_UI_CreateSessionModel_OnRoomNameValueChanged_" data-uid="CatchIo.UI.CreateSessionModel.OnRoomNameValueChanged*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_OnRoomNameValueChanged_System_String_" data-uid="CatchIo.UI.CreateSessionModel.OnRoomNameValueChanged(System.String)">OnRoomNameValueChanged(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetCurrentSceneName()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Util_SceneControl_Load_" data-uid="CatchIo.Util.SceneControl.Load*"></a>
-  <h4 id="CatchIo_Util_SceneControl_Load_System_Int32_LoadSceneMode_" data-uid="CatchIo.Util.SceneControl.Load(System.Int32,LoadSceneMode)">Load(Int32, LoadSceneMode)</h4>
-  <div class="markdown level1 summary"><p>Synchronous <pre><code>SceneManager.LoadScene()</code></pre> wrapper</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Load(int sceneIndex, LoadSceneMode mode = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">sceneIndex</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">LoadSceneMode</span></td>
-        <td><span class="parametername">mode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Util_SceneControl_Load_" data-uid="CatchIo.Util.SceneControl.Load*"></a>
-  <h4 id="CatchIo_Util_SceneControl_Load_System_String_LoadSceneMode_" data-uid="CatchIo.Util.SceneControl.Load(System.String,LoadSceneMode)">Load(String, LoadSceneMode)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Load(string sceneName, LoadSceneMode mode = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnRoomNameValueChanged(string value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,105 +284,21 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">sceneName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">LoadSceneMode</span></td>
-        <td><span class="parametername">mode</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Util_SceneControl_LoadAsync_" data-uid="CatchIo.Util.SceneControl.LoadAsync*"></a>
-  <h4 id="CatchIo_Util_SceneControl_LoadAsync_System_String_LoadSceneMode_" data-uid="CatchIo.Util.SceneControl.LoadAsync(System.String,LoadSceneMode)">LoadAsync(String, LoadSceneMode)</h4>
+  <a id="CatchIo_UI_CreateSessionModel_OnSubmit_" data-uid="CatchIo.UI.CreateSessionModel.OnSubmit*"></a>
+  <h4 id="CatchIo_UI_CreateSessionModel_OnSubmit" data-uid="CatchIo.UI.CreateSessionModel.OnSubmit">OnSubmit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEngine.AsyncOperation LoadAsync(string sceneName, LoadSceneMode mode = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSubmit()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">sceneName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">LoadSceneMode</span></td>
-        <td><span class="parametername">mode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/AsyncOperation.html">UnityEngine.AsyncOperation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Util_SceneControl_UnloadAdditiveScene_" data-uid="CatchIo.Util.SceneControl.UnloadAdditiveScene*"></a>
-  <h4 id="CatchIo_Util_SceneControl_UnloadAdditiveScene_System_String_" data-uid="CatchIo.Util.SceneControl.UnloadAdditiveScene(System.String)">UnloadAdditiveScene(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEngine.AsyncOperation UnloadAdditiveScene(string sceneName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">sceneName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/AsyncOperation.html">UnityEngine.AsyncOperation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
