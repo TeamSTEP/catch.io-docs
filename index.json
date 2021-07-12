@@ -62,17 +62,7 @@
   "api/CatchIo.Environment.html": {
     "href": "api/CatchIo.Environment.html",
     "title": "Namespace CatchIo.Environment | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Environment Classes Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. TileSurface Interfaces IReactsToSurfaceType ISurfaceTrigger Enums Surface.SurfaceType"
-  },
-  "api/CatchIo.Environment.IReactsToSurfaceType.html": {
-    "href": "api/CatchIo.Environment.IReactsToSurfaceType.html",
-    "title": "Interface IReactsToSurfaceType | Catch.io Developer Reference",
-    "keywords": "Interface IReactsToSurfaceType Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public interface IReactsToSurfaceType Methods OnEnteredSurface(TileSurface) Declaration void OnEnteredSurface(TileSurface surface) Parameters Type Name Description TileSurface surface"
-  },
-  "api/CatchIo.Environment.ISurfaceTrigger.html": {
-    "href": "api/CatchIo.Environment.ISurfaceTrigger.html",
-    "title": "Interface ISurfaceTrigger | Catch.io Developer Reference",
-    "keywords": "Interface ISurfaceTrigger Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public interface ISurfaceTrigger Methods OnSurfaceTrigger(GameObject) Declaration void OnSurfaceTrigger(GameObject origin) Parameters Type Name Description GameObject origin"
+    "keywords": "Namespace CatchIo.Environment Classes Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. TileSurface Enums Surface.SurfaceType"
   },
   "api/CatchIo.Environment.Surface.html": {
     "href": "api/CatchIo.Environment.Surface.html",
