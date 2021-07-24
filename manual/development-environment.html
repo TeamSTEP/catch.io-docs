@@ -81,15 +81,15 @@
 
 <h2 id="game-development-environment">Game Development Environment</h2>
 <h3 id="unity-engine">Unity Engine</h3>
-<p>The development for <a href="http://catch.io">Catch.io</a> will be in most cases, done in Unity. We recommend installing Unity Hub as it supports various OS and can install multiple versions of the Unity Editor.</p>
+<p>The development for <a href="https://witchone.io">Witch One</a> (development title Catch.io) will be in most cases, done in Unity. We recommend installing Unity Hub as it supports various OS and can install multiple versions of the Unity Editor.</p>
 <h3 id="installing-unity-hub">Installing Unity Hub</h3>
 <p>You can install the latest version of Unity Hub through <a href="https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe">this link</a> or check the <a href="https://unity3d.com/get-unity/download">official download page</a>.</p>
 <p>Note that for Linux users, the link above will download the <code>.AppImage</code> executable of Unity Hub. Alternatively, you can install Unity Hub through the <a href="https://github.com/pop-os/shop">Pop!_Shop</a> in Debian variant systems.</p>
 <h3 id="engine-version">Engine Version</h3>
-<p>Currently, we are using Unity version <code>2019.4.21f1 (b76dac84db26)</code> and will stay in the <code>2019.4 LTS</code> of Unity unless we must upgrade the engine to the latest major release.</p>
-<p>You can check the official release archive from <a href="https://unity3d.com/unity/qa/lts-releases?version=2019.4">this page</a>, or install directly via Unity Hub by clicking <a href="unityhub://2019.4.21f1/b76dac84db26">this link</a>.</p>
+<p>Currently, we are using Unity version <code>2020.3.12f1 (b3b2c6512326)</code> and will stay in the <code>2020.3 LTS</code> of Unity unless we must upgrade the engine to the latest major release.</p>
+<p>You can check the official release archive from <a href="https://unity3d.com/unity/qa/lts-releases?version=2020.3">this page</a>, or install directly via Unity Hub by clicking <a href="unityhub://2020.3.12f1/b3b2c6512326">this link</a>.</p>
 <p>For Linux users who run Unity through an<code>.AppImage</code> executable, the deep link installation provided by the Unity release archive may not work. Instead, you will have to pass the deep link URL as a parameter for the application file from your terminal.</p>
-<pre><code class="lang-bash">./UnityHub.AppImage unityhub://2019.4.21f1/b76dac84db26
+<pre><code class="lang-bash">./UnityHub.AppImage unityhub://2020.3.12f1/b3b2c6512326
 </code></pre><h2 id="configuring-unity-editor">Configuring Unity Editor</h2>
 <h3 id="setting-the-default-ide">Setting The Default IDE</h3>
 <p>You can change your preferred IDE/Editor in Unity by going to the <code>Edit -&gt; Preferences -&gt; External Tools</code> menu. Regarding how to install the IDE and text editors, please refer to the next section.</p>
@@ -104,18 +104,19 @@ For most developers, our team recommend using GitHub Desktop, as it offers a rob
 <p>You can install GitHub Desktop on Windows 10 and macOS from the official website: <a href="https://desktop.github.com/">GitHub Desktop</a></p>
 <p>For Linux users, you can install a fork of GitHub Desktop maintained by <a href="https://github.com/shiftkey/desktop">Shiftkey</a> (<a href="https://github.com/shiftkey/desktop/releases">releases</a>)</p>
 <p>For Windows users, we also recommend installing the Windows Git client that comes with the Bash terminal.
-Bash on Windows allows you to access applications installed with PowerShell as well.</p>
-<p><a href="https://git-scm.com/download/win">Downloading Git</a></p>
+Bash on Windows allows you to access applications installed with PowerShell as well. <a href="https://git-scm.com/download/win">Downloading Git</a>.</p>
 <h2 id="setting-up-ide--text-editors">Setting Up IDE &amp; Text Editors</h2>
 <h3 id="visual-studio-community">Visual Studio Community</h3>
 <p>Note: Visual Studio Community is not supported on Linux systems</p>
 <p>When working with Unity, we generally recommend using Visual Studio, as it provides full support for Unity including breakpoints and unity game object component reference checking.</p>
 <p>Although Unity will ask you to install Visual Studio before you install the engine in Windows, you might want to have a full installation of Visual Studio if you need extra features.
-In which case, you can install the IDE from the following link:</p>
-<p><a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2019 | Download for free</a></p>
+In which case, you can <a href="https://visualstudio.microsoft.com/vs/">install the IDE</a>.</p>
 <h3 id="monodevelop">MonoDevelop</h3>
+<blockquote><p>Note: MonoDevelop is not a requirement for developing on a Linux environment.
+The guide below adds the package repository from Ubuntu 18, as <a href="https://askubuntu.com/questions/1229982/how-to-install-monodevelop-in-20-04-and-get-it-to-build-something">that is the only way you can install it on later versions</a>.</p>
+</blockquote>
 <p>MonoDevelop is an open-source cross-platform IDE that supports languages like C#, F#, Visual Basic .NET, and Vala. You can find more information on their <a href="https://www.monodevelop.com/">homepage</a>. Generally speaking, MonoDevelop is considered to be a replacement for Visual Studio for Linux systems. If you&#39;re using Windows 10 or macOS, we recommend installing Visual Studio Community instead of MonoDevelop.</p>
-<p>This installation guide will assume that the user is working on a Ubuntu-based system (LTS 20.04 or up).</p>
+<p>This installation guide will assume that the user is working on Ubuntu-based systems (LTS 20.04 or up).</p>
 <p>First, add the Mono repository to your system.</p>
 <pre><code class="lang-bash"># update your repository. Upgrade any packages if you have to
 sudo apt update &amp;&amp; sudo apt upgrade
@@ -146,8 +147,7 @@ mono --version
 <p>This guide was based on the article written by <a href="https://websiteforstudents.com/how-to-install-mono-on-ubuntu-20-04-18-04/">Website For Students</a>.</p>
 <h3 id="visual-studio-code">Visual Studio Code</h3>
 <p>Visual Studio Code is a lightweight text editor (until you install a boatload of extensions) for developers on all major platforms. There are several Visual Studio Code extensions that work with the Unity Engine. It does not support everything that Visual Studio can do with Unity, but we recommend install VS Code as it is great for development that is outside of Unity (such as web development, or PR review/resolving merge conflicts).</p>
-<p>You can install Visual Studio Code from the following link:</p>
-<p><a href="https://code.visualstudio.com/?wt.mc_id=vscom_downloads">Visual Studio Code - Code Editing. Redefined</a></p>
+<p>You can install Visual Studio Code from <a href="https://code.visualstudio.com/?wt.mc_id=vscom_downloads">here</a>.</p>
 <p>Visual Studio Code must be configured properly before it can work with Unity. This is the list of recommended extensions that we use at the time of this writing.</p>
 <p><code>extensions.json</code></p>
 <pre><code class="lang-json">{
@@ -194,8 +194,7 @@ mono --version
 </code></pre><p>Editing the contents of the <code>.vscode/</code> folder in the root directory of the project allows the developer to change the default setting for developers working in VS Code. This means that all developers with a new installation of VS Code has to do is open VS Code from the root of the project folder.</p>
 <h3 id="android-studio">Android Studio</h3>
 <p>Android Studio is a cross-platform IDE for developing applications for Android devices, commonly with Java and Kotlin.</p>
-<p>Our team will rarely develop directly in Android Studio, but installing it allows us to easily install different versions of Android SDK, or access other development tools like the Android Device Emulator. Plus, Android Studio is available for most commonly used OS, so if your disk space can handle it, we recommend installing it from their official installation page.</p>
-<p><a href="https://developer.android.com/studio"></a></p>
+<p>Our team will rarely develop directly in Android Studio, but installing it allows us to easily install different versions of Android SDK, or access other development tools like the Android Device Emulator. Plus, Android Studio is available for most commonly used OS, so if your disk space can handle it, we recommend installing it from their <a href="https://developer.android.com/studio">official installation page</a>.</p>
 <h2 id="system-terminal-and-package-manager">System Terminal and Package Manager</h2>
 <h3 id="windows-10---chocolatey">Windows 10 - Chocolatey</h3>
 <p>No sane developers will use Windows for its terminal or package management, but here we are.</p>
