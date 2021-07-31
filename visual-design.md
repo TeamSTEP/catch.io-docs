@@ -8,7 +8,7 @@ Witch One will have a top-down orthogonal perspective \(ex: Legend of Zelda\) wi
 
 ![\(Figure 2\) Interior design](.gitbook/assets/3.png)
 
-For the art style, a single tile will be 32x32 pixels big while the player will be 32 wide and 60 pixels tall. The world unit is 32 pixels. For other throwable objects, they should fit this proportion and make them smaller than 32x32 pixels.
+For the art style, a single tile will be `32x32` pixels big while the player will be 32 wide and 60 pixels tall. The world unit is 32 pixels. For other throwable objects, they should fit this proportion and make them smaller than 32x32 pixels.
 
 Furthermore, Witch One must follow the following color palette for both the character and prop sprites.
 
