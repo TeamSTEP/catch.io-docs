@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TitleModel
+    <title>Class GameSession
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TitleModel
+    <meta name="title" content="Class GameSession
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,47 +78,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.TitleModel">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Managers.GameSession">
   
   
-  <h1 id="CatchIo_UI_TitleModel" data-uid="CatchIo.UI.TitleModel" class="text-break">Class TitleModel
+  <h1 id="CatchIo_Managers_GameSession" data-uid="CatchIo.Managers.GameSession" class="text-break">Class GameSession
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The game manager script that is used to handle various tasks when the game starts.
+Such tasks includes local player instance management, platform controller management, in-game network management, etc.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">TitleModel</span></div>
+    <div class="level1"><span class="xref">GameSession</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Managers.html">CatchIo.Managers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_TitleModel_syntax">Syntax</h5>
+  <h5 id="CatchIo_Managers_GameSession_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TitleModel : ViewModelBase</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="CatchIo_UI_TitleModel__ctor_" data-uid="CatchIo.UI.TitleModel.#ctor*"></a>
-  <h4 id="CatchIo_UI_TitleModel__ctor" data-uid="CatchIo.UI.TitleModel.#ctor">TitleModel()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TitleModel()</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameSession : MonoBehaviour</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_UI_TitleModel_DismissSessionRequest_" data-uid="CatchIo.UI.TitleModel.DismissSessionRequest*"></a>
-  <h4 id="CatchIo_UI_TitleModel_DismissSessionRequest" data-uid="CatchIo.UI.TitleModel.DismissSessionRequest">DismissSessionRequest</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Managers_GameSession_CurrentTilemapContainer_" data-uid="CatchIo.Managers.GameSession.CurrentTilemapContainer*"></a>
+  <h4 id="CatchIo_Managers_GameSession_CurrentTilemapContainer" data-uid="CatchIo.Managers.GameSession.CurrentTilemapContainer">CurrentTilemapContainer</h4>
+  <div class="markdown level1 summary"><p>Tilemap container reference for the current game scene.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInteractionRequest DismissSessionRequest { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static TilemapContainer CurrentTilemapContainer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -130,20 +121,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IInteractionRequest</span></td>
+        <td><span class="xref">TilemapContainer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_TitleModel_JoinLobbyRequest_" data-uid="CatchIo.UI.TitleModel.JoinLobbyRequest*"></a>
-  <h4 id="CatchIo_UI_TitleModel_JoinLobbyRequest" data-uid="CatchIo.UI.TitleModel.JoinLobbyRequest">JoinLobbyRequest</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Managers_GameSession_LocalPlayerInst_" data-uid="CatchIo.Managers.GameSession.LocalPlayerInst*"></a>
+  <h4 id="CatchIo_Managers_GameSession_LocalPlayerInst" data-uid="CatchIo.Managers.GameSession.LocalPlayerInst">LocalPlayerInst</h4>
+  <div class="markdown level1 summary"><p>The local player instance.
+This is generally the same as the local player instance provided by Photon Network.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInteractionRequest JoinLobbyRequest { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Character LocalPlayerInst { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,107 +148,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IInteractionRequest</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_TitleModel_JoinSession_" data-uid="CatchIo.UI.TitleModel.JoinSession*"></a>
-  <h4 id="CatchIo_UI_TitleModel_JoinSession" data-uid="CatchIo.UI.TitleModel.JoinSession">JoinSession</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand JoinSession { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ICommand</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_TitleModel_OpenSession_" data-uid="CatchIo.UI.TitleModel.OpenSession*"></a>
-  <h4 id="CatchIo_UI_TitleModel_OpenSession" data-uid="CatchIo.UI.TitleModel.OpenSession">OpenSession</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand OpenSession { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ICommand</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_TitleModel_OpenSessionRequest_" data-uid="CatchIo.UI.TitleModel.OpenSessionRequest*"></a>
-  <h4 id="CatchIo_UI_TitleModel_OpenSessionRequest" data-uid="CatchIo.UI.TitleModel.OpenSessionRequest">OpenSessionRequest</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInteractionRequest OpenSessionRequest { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IInteractionRequest</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_TitleModel_OpenSettings_" data-uid="CatchIo.UI.TitleModel.OpenSettings*"></a>
-  <h4 id="CatchIo_UI_TitleModel_OpenSettings" data-uid="CatchIo.UI.TitleModel.OpenSettings">OpenSettings</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand OpenSettings { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ICommand</span></td>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.Character.html">Character</a></td>
         <td></td>
       </tr>
     </tbody>

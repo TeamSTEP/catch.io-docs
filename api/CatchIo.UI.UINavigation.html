@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RoomInfo
+    <title>Class UINavigation
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RoomInfo
+    <meta name="title" content="Class UINavigation
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,37 +78,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.RoomInfo">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.UINavigation">
   
   
-  <h1 id="CatchIo_UI_RoomInfo" data-uid="CatchIo.UI.RoomInfo" class="text-break">Class RoomInfo
+  <h1 id="CatchIo_UI_UINavigation" data-uid="CatchIo.UI.UINavigation" class="text-break">Class UINavigation
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">RoomInfo</span></div>
+    <div class="level1"><span class="xref">UINavigation</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_RoomInfo_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_UINavigation_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RoomInfo : ObservableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class UINavigation : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_UI_RoomInfo_Password_" data-uid="CatchIo.UI.RoomInfo.Password*"></a>
-  <h4 id="CatchIo_UI_RoomInfo_Password" data-uid="CatchIo.UI.RoomInfo.Password">Password</h4>
+  <a id="CatchIo_UI_UINavigation_Awake_" data-uid="CatchIo.UI.UINavigation.Awake*"></a>
+  <h4 id="CatchIo_UI_UINavigation_Awake" data-uid="CatchIo.UI.UINavigation.Awake">Awake()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Password { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void Awake()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  
+  
+  <a id="CatchIo_UI_UINavigation_Pop_" data-uid="CatchIo.UI.UINavigation.Pop*"></a>
+  <h4 id="CatchIo_UI_UINavigation_Pop" data-uid="CatchIo.UI.UINavigation.Pop">Pop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UIView Pop()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,32 +128,71 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">UIView</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_RoomInfo_RoomName_" data-uid="CatchIo.UI.RoomInfo.RoomName*"></a>
-  <h4 id="CatchIo_UI_RoomInfo_RoomName" data-uid="CatchIo.UI.RoomInfo.RoomName">RoomName</h4>
+  <a id="CatchIo_UI_UINavigation_PopAll_" data-uid="CatchIo.UI.UINavigation.PopAll*"></a>
+  <h4 id="CatchIo_UI_UINavigation_PopAll" data-uid="CatchIo.UI.UINavigation.PopAll">PopAll()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RoomName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void PopAll()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  
+  
+  <a id="CatchIo_UI_UINavigation_PopTo_" data-uid="CatchIo.UI.UINavigation.PopTo*"></a>
+  <h4 id="CatchIo_UI_UINavigation_PopTo_System_String_" data-uid="CatchIo.UI.UINavigation.PopTo(System.String)">PopTo(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PopTo(string viewName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">viewName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_UINavigation_Push_" data-uid="CatchIo.UI.UINavigation.Push*"></a>
+  <h4 id="CatchIo_UI_UINavigation_Push_System_String_" data-uid="CatchIo.UI.UINavigation.Push(System.String)">Push(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Push(string uiView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">uiView</span></td>
         <td></td>
       </tr>
     </tbody>

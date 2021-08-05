@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LoginModel
+    <title>Class RoomInfoContext
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LoginModel
+    <meta name="title" content="Class RoomInfoContext
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,47 +78,64 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.LoginModel">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.RoomInfoContext">
   
   
-  <h1 id="CatchIo_UI_LoginModel" data-uid="CatchIo.UI.LoginModel" class="text-break">Class LoginModel
+  <h1 id="CatchIo_UI_RoomInfoContext" data-uid="CatchIo.UI.RoomInfoContext" class="text-break">Class RoomInfoContext
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">LoginModel</span></div>
+    <div class="level1"><span class="xref">RoomInfoContext</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_LoginModel_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_RoomInfoContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LoginModel : ViewModelBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class RoomInfoContext : Context</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_UI_LoginModel__ctor_" data-uid="CatchIo.UI.LoginModel.#ctor*"></a>
-  <h4 id="CatchIo_UI_LoginModel__ctor" data-uid="CatchIo.UI.LoginModel.#ctor">LoginModel()</h4>
+  <a id="CatchIo_UI_RoomInfoContext__ctor_" data-uid="CatchIo.UI.RoomInfoContext.#ctor*"></a>
+  <h4 id="CatchIo_UI_RoomInfoContext__ctor_RoomInfo_" data-uid="CatchIo.UI.RoomInfoContext.#ctor(RoomInfo)">RoomInfoContext(RoomInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LoginModel()</code></pre>
+    <pre><code class="lang-csharp hljs">public RoomInfoContext(RoomInfo roomInfo)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RoomInfo</span></td>
+        <td><span class="parametername">roomInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_UI_LoginModel_Login_" data-uid="CatchIo.UI.LoginModel.Login*"></a>
-  <h4 id="CatchIo_UI_LoginModel_Login" data-uid="CatchIo.UI.LoginModel.Login">Login</h4>
+  <a id="CatchIo_UI_RoomInfoContext_MapName_" data-uid="CatchIo.UI.RoomInfoContext.MapName*"></a>
+  <h4 id="CatchIo_UI_RoomInfoContext_MapName" data-uid="CatchIo.UI.RoomInfoContext.MapName">MapName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand Login { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string MapName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -130,20 +147,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ICommand</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_LoginModel_LoginRequest_" data-uid="CatchIo.UI.LoginModel.LoginRequest*"></a>
-  <h4 id="CatchIo_UI_LoginModel_LoginRequest" data-uid="CatchIo.UI.LoginModel.LoginRequest">LoginRequest</h4>
+  <a id="CatchIo_UI_RoomInfoContext_MaxPlayer_" data-uid="CatchIo.UI.RoomInfoContext.MaxPlayer*"></a>
+  <h4 id="CatchIo_UI_RoomInfoContext_MaxPlayer" data-uid="CatchIo.UI.RoomInfoContext.MaxPlayer">MaxPlayer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInteractionRequest LoginRequest { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string MaxPlayer { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,20 +172,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IInteractionRequest</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_LoginModel_UserID_" data-uid="CatchIo.UI.LoginModel.UserID*"></a>
-  <h4 id="CatchIo_UI_LoginModel_UserID" data-uid="CatchIo.UI.LoginModel.UserID">UserID</h4>
+  <a id="CatchIo_UI_RoomInfoContext_RoomName_" data-uid="CatchIo.UI.RoomInfoContext.RoomName*"></a>
+  <h4 id="CatchIo_UI_RoomInfoContext_RoomName" data-uid="CatchIo.UI.RoomInfoContext.RoomName">RoomName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string UserID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string RoomName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -189,31 +206,14 @@
   </h3>
   
   
-  <a id="CatchIo_UI_LoginModel_OnUserIDValueChanged_" data-uid="CatchIo.UI.LoginModel.OnUserIDValueChanged*"></a>
-  <h4 id="CatchIo_UI_LoginModel_OnUserIDValueChanged_System_String_" data-uid="CatchIo.UI.LoginModel.OnUserIDValueChanged(System.String)">OnUserIDValueChanged(String)</h4>
+  <a id="CatchIo_UI_RoomInfoContext_OnSelectRoom_" data-uid="CatchIo.UI.RoomInfoContext.OnSelectRoom*"></a>
+  <h4 id="CatchIo_UI_RoomInfoContext_OnSelectRoom" data-uid="CatchIo.UI.RoomInfoContext.OnSelectRoom">OnSelectRoom()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnUserIDValueChanged(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSelectRoom()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

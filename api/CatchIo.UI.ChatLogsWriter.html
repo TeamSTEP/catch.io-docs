@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CreateSessionModel
+    <title>Class ChatLogsWriter
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CreateSessionModel
+    <meta name="title" content="Class ChatLogsWriter
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,49 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.CreateSessionModel">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.ChatLogsWriter">
   
   
-  <h1 id="CatchIo_UI_CreateSessionModel" data-uid="CatchIo.UI.CreateSessionModel" class="text-break">Class CreateSessionModel
+  <h1 id="CatchIo_UI_ChatLogsWriter" data-uid="CatchIo.UI.ChatLogsWriter" class="text-break">Class ChatLogsWriter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">CreateSessionModel</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.UI.CollectionTextWriter.html">CollectionTextWriter</a></div>
+    <div class="level2"><span class="xref">ChatLogsWriter</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_CreateSessionModel_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_ChatLogsWriter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CreateSessionModel : ViewModelBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class ChatLogsWriter : CollectionTextWriter</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_UI_CreateSessionModel__ctor_" data-uid="CatchIo.UI.CreateSessionModel.#ctor*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel__ctor" data-uid="CatchIo.UI.CreateSessionModel.#ctor">CreateSessionModel()</h4>
+  <h4 id="CatchIo_UI_ChatLogsWriter_MaxShowLine" data-uid="CatchIo.UI.ChatLogsWriter.MaxShowLine">MaxShowLine</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CreateSessionModel()</code></pre>
+    <pre><code class="lang-csharp hljs">public int MaxShowLine</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_UI_CreateSessionModel_Account_" data-uid="CatchIo.UI.CreateSessionModel.Account*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_Account" data-uid="CatchIo.UI.CreateSessionModel.Account">Account</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RoomInfo Account { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -130,132 +118,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CatchIo.UI.RoomInfo.html">RoomInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_CreateSessionModel_CloseSession_" data-uid="CatchIo.UI.CreateSessionModel.CloseSession*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_CloseSession" data-uid="CatchIo.UI.CreateSessionModel.CloseSession">CloseSession</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand CloseSession { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ICommand</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_CreateSessionModel_CloseSessionRequest_" data-uid="CatchIo.UI.CreateSessionModel.CloseSessionRequest*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_CloseSessionRequest" data-uid="CatchIo.UI.CreateSessionModel.CloseSessionRequest">CloseSessionRequest</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInteractionRequest CloseSessionRequest { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IInteractionRequest</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_CreateSessionModel_RoomName_" data-uid="CatchIo.UI.CreateSessionModel.RoomName*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_RoomName" data-uid="CatchIo.UI.CreateSessionModel.RoomName">RoomName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RoomName { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_CreateSessionModel_SubmitSession_" data-uid="CatchIo.UI.CreateSessionModel.SubmitSession*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_SubmitSession" data-uid="CatchIo.UI.CreateSessionModel.SubmitSession">SubmitSession</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand SubmitSession { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ICommand</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_CreateSessionModel_SubmitSessionRequest_" data-uid="CatchIo.UI.CreateSessionModel.SubmitSessionRequest*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_SubmitSessionRequest" data-uid="CatchIo.UI.CreateSessionModel.SubmitSessionRequest">SubmitSessionRequest</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInteractionRequest SubmitSessionRequest { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IInteractionRequest</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -264,13 +127,100 @@
   </h3>
   
   
-  <a id="CatchIo_UI_CreateSessionModel_OnRoomNameValueChanged_" data-uid="CatchIo.UI.CreateSessionModel.OnRoomNameValueChanged*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_OnRoomNameValueChanged_System_String_" data-uid="CatchIo.UI.CreateSessionModel.OnRoomNameValueChanged(System.String)">OnRoomNameValueChanged(String)</h4>
+  <a id="CatchIo_UI_ChatLogsWriter_CollectionItemAdded_" data-uid="CatchIo.UI.ChatLogsWriter.CollectionItemAdded*"></a>
+  <h4 id="CatchIo_UI_ChatLogsWriter_CollectionItemAdded_System_Object_" data-uid="CatchIo.UI.ChatLogsWriter.CollectionItemAdded(System.Object)">CollectionItemAdded(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnRoomNameValueChanged(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void CollectionItemAdded(object item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.UI.CollectionTextWriter.html#CatchIo_UI_CollectionTextWriter_CollectionItemAdded_System_Object_">CollectionTextWriter.CollectionItemAdded(Object)</a></div>
+  
+  
+  <a id="CatchIo_UI_ChatLogsWriter_CollectionItemRemoved_" data-uid="CatchIo.UI.ChatLogsWriter.CollectionItemRemoved*"></a>
+  <h4 id="CatchIo_UI_ChatLogsWriter_CollectionItemRemoved_System_Object_" data-uid="CatchIo.UI.ChatLogsWriter.CollectionItemRemoved(System.Object)">CollectionItemRemoved(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CollectionItemRemoved(object item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.UI.CollectionTextWriter.html#CatchIo_UI_CollectionTextWriter_CollectionItemRemoved_System_Object_">CollectionTextWriter.CollectionItemRemoved(Object)</a></div>
+  
+  
+  <a id="CatchIo_UI_ChatLogsWriter_CollectionOnClearedItems_" data-uid="CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems*"></a>
+  <h4 id="CatchIo_UI_ChatLogsWriter_CollectionOnClearedItems_IEnumerable_System_Object__" data-uid="CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems(IEnumerable{System.Object})">CollectionOnClearedItems(IEnumerable&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CollectionOnClearedItems(IEnumerable&lt;object&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.UI.CollectionTextWriter.html#CatchIo_UI_CollectionTextWriter_CollectionOnClearedItems_IEnumerable_System_Object__">CollectionTextWriter.CollectionOnClearedItems(IEnumerable&lt;Object&gt;)</a></div>
+  
+  
+  <a id="CatchIo_UI_ChatLogsWriter_OnChatEndEdit_" data-uid="CatchIo.UI.ChatLogsWriter.OnChatEndEdit*"></a>
+  <h4 id="CatchIo_UI_ChatLogsWriter_OnChatEndEdit_System_String_" data-uid="CatchIo.UI.ChatLogsWriter.OnChatEndEdit(System.String)">OnChatEndEdit(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnChatEndEdit(string chatMsg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -284,21 +234,11 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="parametername">chatMsg</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_UI_CreateSessionModel_OnSubmit_" data-uid="CatchIo.UI.CreateSessionModel.OnSubmit*"></a>
-  <h4 id="CatchIo_UI_CreateSessionModel_OnSubmit" data-uid="CatchIo.UI.CreateSessionModel.OnSubmit">OnSubmit()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSubmit()</code></pre>
-  </div>
 </article>
           </div>
           

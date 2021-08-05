@@ -103,13 +103,13 @@ TODO : FIX CLASS NAME.</p>
   </h3>
   
   
-  <a id="CatchIo_Managers_NetworkLauncher_AccountModels_" data-uid="CatchIo.Managers.NetworkLauncher.AccountModels*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_AccountModels" data-uid="CatchIo.Managers.NetworkLauncher.AccountModels">AccountModels</h4>
+  <a id="CatchIo_Managers_NetworkLauncher_LocalPlayerClass_" data-uid="CatchIo.Managers.NetworkLauncher.LocalPlayerClass*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_LocalPlayerClass" data-uid="CatchIo.Managers.NetworkLauncher.LocalPlayerClass">LocalPlayerClass</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableDictionary&lt;Player, AccountModel&gt; AccountModels { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LocalPlayerClass { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,20 +121,20 @@ TODO : FIX CLASS NAME.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObservableDictionary</span>&lt;<span class="xref">Player</span>, <a class="xref" href="CatchIo.Managers.AccountModel.html">AccountModel</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Managers_NetworkLauncher_ChatLogs_" data-uid="CatchIo.Managers.NetworkLauncher.ChatLogs*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_ChatLogs" data-uid="CatchIo.Managers.NetworkLauncher.ChatLogs">ChatLogs</h4>
+  <a id="CatchIo_Managers_NetworkLauncher_LocalPlayerNickName_" data-uid="CatchIo.Managers.NetworkLauncher.LocalPlayerNickName*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_LocalPlayerNickName" data-uid="CatchIo.Managers.NetworkLauncher.LocalPlayerNickName">LocalPlayerNickName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableList&lt;string&gt; ChatLogs { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LocalPlayerNickName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,113 +146,81 @@ TODO : FIX CLASS NAME.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObservableList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_InLobby_" data-uid="CatchIo.Managers.NetworkLauncher.InLobby*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_InLobby" data-uid="CatchIo.Managers.NetworkLauncher.InLobby">InLobby</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool InLobby { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_InRoom_" data-uid="CatchIo.Managers.NetworkLauncher.InRoom*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_InRoom" data-uid="CatchIo.Managers.NetworkLauncher.InRoom">InRoom</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool InRoom { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_IsConnected_" data-uid="CatchIo.Managers.NetworkLauncher.IsConnected*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_IsConnected" data-uid="CatchIo.Managers.NetworkLauncher.IsConnected">IsConnected</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsConnected { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_RoomList_" data-uid="CatchIo.Managers.NetworkLauncher.RoomList*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_RoomList" data-uid="CatchIo.Managers.NetworkLauncher.RoomList">RoomList</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableList&lt;RoomInfo&gt; RoomList { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ObservableList</span>&lt;<span class="xref">RoomInfo</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="CatchIo_Managers_NetworkLauncher_Connect_" data-uid="CatchIo.Managers.NetworkLauncher.Connect*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_Connect_System_String_" data-uid="CatchIo.Managers.NetworkLauncher.Connect(System.String)">Connect(String)</h4>
+  <div class="markdown level1 summary"><p>Start the connection process and make the player go online.
+This is the starting point of the network menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Connect(string nickName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">nickName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_NetworkLauncher_CreateRoom_" data-uid="CatchIo.Managers.NetworkLauncher.CreateRoom*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_CreateRoom_System_String_System_String_System_Byte_" data-uid="CatchIo.Managers.NetworkLauncher.CreateRoom(System.String,System.String,System.Byte)">CreateRoom(String, String, Byte)</h4>
+  <div class="markdown level1 summary"><p>Create a new room from the given parameter.
+The map name will be stored as a custom metadata for room data in photon network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateRoom(string roomName, string mapName, byte maxPlayer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">roomName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">mapName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">maxPlayer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Managers_NetworkLauncher_DisConnect_" data-uid="CatchIo.Managers.NetworkLauncher.DisConnect*"></a>
@@ -263,6 +231,43 @@ TODO : FIX CLASS NAME.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DisConnect()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_Managers_NetworkLauncher_JoinLobby_" data-uid="CatchIo.Managers.NetworkLauncher.JoinLobby*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_JoinLobby" data-uid="CatchIo.Managers.NetworkLauncher.JoinLobby">JoinLobby()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void JoinLobby()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Managers_NetworkLauncher_JoinRoom_" data-uid="CatchIo.Managers.NetworkLauncher.JoinRoom*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_JoinRoom_System_String_" data-uid="CatchIo.Managers.NetworkLauncher.JoinRoom(System.String)">JoinRoom(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void JoinRoom(string roomName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">roomName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Managers_NetworkLauncher_LeaveLobby_" data-uid="CatchIo.Managers.NetworkLauncher.LeaveLobby*"></a>
@@ -486,12 +491,12 @@ TODO : FIX CLASS NAME.</p>
   
   
   <a id="CatchIo_Managers_NetworkLauncher_OnPlayerPropertiesUpdate_" data-uid="CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_OnPlayerPropertiesUpdate_Player_ExitGames_Client_Photon_Hashtable_" data-uid="CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate(Player,ExitGames.Client.Photon.Hashtable)">OnPlayerPropertiesUpdate(Player, ExitGames.Client.Photon.Hashtable)</h4>
+  <h4 id="CatchIo_Managers_NetworkLauncher_OnPlayerPropertiesUpdate_Player_Hashtable_" data-uid="CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate(Player,Hashtable)">OnPlayerPropertiesUpdate(Player, Hashtable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnPlayerPropertiesUpdate(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -509,7 +514,7 @@ TODO : FIX CLASS NAME.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">ExitGames.Client.Photon.Hashtable</span></td>
+        <td><span class="xref">Hashtable</span></td>
         <td><span class="parametername">changedProps</span></td>
         <td></td>
       </tr>
@@ -544,190 +549,6 @@ TODO : FIX CLASS NAME.</p>
   </table>
   
   
-  <a id="CatchIo_Managers_NetworkLauncher_ProcessConnect_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessConnect*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_ProcessConnect" data-uid="CatchIo.Managers.NetworkLauncher.ProcessConnect">ProcessConnect()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator ProcessConnect()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_ProcessCreateRoom_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessCreateRoom*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_ProcessCreateRoom_System_String_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessCreateRoom(System.String)">ProcessCreateRoom(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator ProcessCreateRoom(string roomName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_ProcessJoinLobby_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessJoinLobby*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_ProcessJoinLobby" data-uid="CatchIo.Managers.NetworkLauncher.ProcessJoinLobby">ProcessJoinLobby()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator ProcessJoinLobby()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_ProcessJoinRoom_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessJoinRoom*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_ProcessJoinRoom_System_String_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessJoinRoom(System.String)">ProcessJoinRoom(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator ProcessJoinRoom(string roomName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_ProcessLeaveRoom_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessLeaveRoom*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_ProcessLeaveRoom" data-uid="CatchIo.Managers.NetworkLauncher.ProcessLeaveRoom">ProcessLeaveRoom()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator ProcessLeaveRoom()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_NetworkLauncher_ProcessStartGame_" data-uid="CatchIo.Managers.NetworkLauncher.ProcessStartGame*"></a>
-  <h4 id="CatchIo_Managers_NetworkLauncher_ProcessStartGame" data-uid="CatchIo.Managers.NetworkLauncher.ProcessStartGame">ProcessStartGame()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator ProcessStartGame()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="CatchIo_Managers_NetworkLauncher_SendChat_" data-uid="CatchIo.Managers.NetworkLauncher.SendChat*"></a>
   <h4 id="CatchIo_Managers_NetworkLauncher_SendChat_System_String_" data-uid="CatchIo.Managers.NetworkLauncher.SendChat(System.String)">SendChat(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -749,6 +570,33 @@ TODO : FIX CLASS NAME.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_NetworkLauncher_SetCharacterClass_" data-uid="CatchIo.Managers.NetworkLauncher.SetCharacterClass*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_SetCharacterClass_System_String_" data-uid="CatchIo.Managers.NetworkLauncher.SetCharacterClass(System.String)">SetCharacterClass(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCharacterClass(string className)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">className</span></td>
         <td></td>
       </tr>
     </tbody>

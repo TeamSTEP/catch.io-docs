@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LobbyRoomsView
+    <title>Class Inventory
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LobbyRoomsView
+    <meta name="title" content="Class Inventory
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,39 +78,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.LobbyRoomsView">
+            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.Inventory">
   
   
-  <h1 id="CatchIo_UI_LobbyRoomsView" data-uid="CatchIo.UI.LobbyRoomsView" class="text-break">Class LobbyRoomsView
+  <h1 id="CatchIo_PlayerCharacter_Inventory" data-uid="CatchIo.PlayerCharacter.Inventory" class="text-break">Class Inventory
   </h1>
-  <div class="markdown level0 summary"><p>View controller for the game lobby menu. This class will only expose the GUI methods and
-controls for the scene to render. The actual logic of all this is handled by the lobby manager script.</p>
+  <div class="markdown level0 summary"><p>This class is container for items.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">LobbyRoomsView</span></div>
+    <div class="level1"><span class="xref">Inventory</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.html">CatchIo.PlayerCharacter</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_LobbyRoomsView_syntax">Syntax</h5>
+  <h5 id="CatchIo_PlayerCharacter_Inventory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LobbyRoomsView : GuiBehavior</code></pre>
+    <pre><code class="lang-csharp hljs">public class Inventory</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_UI_LobbyRoomsView_NewRoomMap_" data-uid="CatchIo.UI.LobbyRoomsView.NewRoomMap*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_NewRoomMap" data-uid="CatchIo.UI.LobbyRoomsView.NewRoomMap">NewRoomMap</h4>
+  <a id="CatchIo_PlayerCharacter_Inventory__ctor_" data-uid="CatchIo.PlayerCharacter.Inventory.#ctor*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory__ctor_System_Int32_" data-uid="CatchIo.PlayerCharacter.Inventory.#ctor(System.Int32)">Inventory(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NewRoomMap { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Inventory(int maxInventorySize = 5)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxInventorySize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_Inventory_OnAddItem" data-uid="CatchIo.PlayerCharacter.Inventory.OnAddItem">OnAddItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;int, Item&gt; OnAddItem</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -120,22 +147,133 @@ controls for the scene to render. The actual logic of all this is handled by the
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <span class="xref">Item</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_LobbyRoomsView_NewRoomMaxPlayer_" data-uid="CatchIo.UI.LobbyRoomsView.NewRoomMaxPlayer*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_NewRoomMaxPlayer" data-uid="CatchIo.UI.LobbyRoomsView.NewRoomMaxPlayer">NewRoomMaxPlayer</h4>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_OnReleaseItem" data-uid="CatchIo.PlayerCharacter.Inventory.OnReleaseItem">OnReleaseItem</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int NewRoomMaxPlayer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;int&gt; OnReleaseItem</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_Inventory_OnRemoveItem" data-uid="CatchIo.PlayerCharacter.Inventory.OnRemoveItem">OnRemoveItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;int&gt; OnRemoveItem</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_Inventory_OnSelectItem" data-uid="CatchIo.PlayerCharacter.Inventory.OnSelectItem">OnSelectItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;int&gt; OnSelectItem</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Inventory_AddItem_" data-uid="CatchIo.PlayerCharacter.Inventory.AddItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_AddItem_Item_" data-uid="CatchIo.PlayerCharacter.Inventory.AddItem(Item)">AddItem(Item)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddItem(Item newItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Item</span></td>
+        <td><span class="parametername">newItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Inventory_Draw_" data-uid="CatchIo.PlayerCharacter.Inventory.Draw*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_Draw" data-uid="CatchIo.PlayerCharacter.Inventory.Draw">Draw()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Draw()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Inventory_GetCount_" data-uid="CatchIo.PlayerCharacter.Inventory.GetCount*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_GetCount" data-uid="CatchIo.PlayerCharacter.Inventory.GetCount">GetCount()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -152,40 +290,13 @@ controls for the scene to render. The actual logic of all this is handled by the
   </table>
   
   
-  <a id="CatchIo_UI_LobbyRoomsView_NewRoomName_" data-uid="CatchIo.UI.LobbyRoomsView.NewRoomName*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_NewRoomName" data-uid="CatchIo.UI.LobbyRoomsView.NewRoomName">NewRoomName</h4>
+  <a id="CatchIo_PlayerCharacter_Inventory_GetItem_" data-uid="CatchIo.PlayerCharacter.Inventory.GetItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_GetItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.Inventory.GetItem(System.Int32)">GetItem(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NewRoomName { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_AddRoomRender_" data-uid="CatchIo.UI.LobbyRoomsView.AddRoomRender*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_AddRoomRender_Photon_Realtime_RoomInfo_" data-uid="CatchIo.UI.LobbyRoomsView.AddRoomRender(Photon.Realtime.RoomInfo)">AddRoomRender(Photon.Realtime.RoomInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddRoomRender(Photon.Realtime.RoomInfo room)</code></pre>
+    <pre><code class="lang-csharp hljs">public Item GetItem(int slotNo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,21 +309,96 @@ controls for the scene to render. The actual logic of all this is handled by the
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Photon.Realtime.RoomInfo</span></td>
-        <td><span class="parametername">room</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">slotNo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Item</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_LobbyRoomsView_DisplayLogMessage_" data-uid="CatchIo.UI.LobbyRoomsView.DisplayLogMessage*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_DisplayLogMessage_System_String_Color_" data-uid="CatchIo.UI.LobbyRoomsView.DisplayLogMessage(System.String,Color)">DisplayLogMessage(String, Color)</h4>
+  <a id="CatchIo_PlayerCharacter_Inventory_IsEmpty_" data-uid="CatchIo.PlayerCharacter.Inventory.IsEmpty*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_IsEmpty" data-uid="CatchIo.PlayerCharacter.Inventory.IsEmpty">IsEmpty()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DisplayLogMessage(string message, Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsEmpty()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Inventory_IsFull_" data-uid="CatchIo.PlayerCharacter.Inventory.IsFull*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_IsFull" data-uid="CatchIo.PlayerCharacter.Inventory.IsFull">IsFull()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFull()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Inventory_RemoveItem_" data-uid="CatchIo.PlayerCharacter.Inventory.RemoveItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_RemoveItem" data-uid="CatchIo.PlayerCharacter.Inventory.RemoveItem">RemoveItem()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveItem()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Inventory_RemoveItem_" data-uid="CatchIo.PlayerCharacter.Inventory.RemoveItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_RemoveItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.Inventory.RemoveItem(System.Int32)">RemoveItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveItem(int slotNo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,86 +411,21 @@ controls for the scene to render. The actual logic of all this is handled by the
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">slotNo</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_LobbyRoomsView_OnChange_MapDropdown_" data-uid="CatchIo.UI.LobbyRoomsView.OnChange_MapDropdown*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_OnChange_MapDropdown" data-uid="CatchIo.UI.LobbyRoomsView.OnChange_MapDropdown">OnChange_MapDropdown()</h4>
+  <a id="CatchIo_PlayerCharacter_Inventory_SelectItem_" data-uid="CatchIo.PlayerCharacter.Inventory.SelectItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_SelectItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.Inventory.SelectItem(System.Int32)">SelectItem(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnChange_MapDropdown()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_OnChange_MaxSlider_" data-uid="CatchIo.UI.LobbyRoomsView.OnChange_MaxSlider*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_OnChange_MaxSlider" data-uid="CatchIo.UI.LobbyRoomsView.OnChange_MaxSlider">OnChange_MaxSlider()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnChange_MaxSlider()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_OnChange_RoomNameInput_" data-uid="CatchIo.UI.LobbyRoomsView.OnChange_RoomNameInput*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_OnChange_RoomNameInput" data-uid="CatchIo.UI.LobbyRoomsView.OnChange_RoomNameInput">OnChange_RoomNameInput()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnChange_RoomNameInput()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_OnClick_CloseCreateRoomPanel_" data-uid="CatchIo.UI.LobbyRoomsView.OnClick_CloseCreateRoomPanel*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_OnClick_CloseCreateRoomPanel" data-uid="CatchIo.UI.LobbyRoomsView.OnClick_CloseCreateRoomPanel">OnClick_CloseCreateRoomPanel()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnClick_CloseCreateRoomPanel()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_OnClick_CreateRoomButton_" data-uid="CatchIo.UI.LobbyRoomsView.OnClick_CreateRoomButton*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_OnClick_CreateRoomButton" data-uid="CatchIo.UI.LobbyRoomsView.OnClick_CreateRoomButton">OnClick_CreateRoomButton()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnClick_CreateRoomButton()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_OnClick_OpenCreateRoomPanel_" data-uid="CatchIo.UI.LobbyRoomsView.OnClick_OpenCreateRoomPanel*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_OnClick_OpenCreateRoomPanel" data-uid="CatchIo.UI.LobbyRoomsView.OnClick_OpenCreateRoomPanel">OnClick_OpenCreateRoomPanel()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnClick_OpenCreateRoomPanel()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_RemoveRoomRender_" data-uid="CatchIo.UI.LobbyRoomsView.RemoveRoomRender*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_RemoveRoomRender_Photon_Realtime_RoomInfo_" data-uid="CatchIo.UI.LobbyRoomsView.RemoveRoomRender(Photon.Realtime.RoomInfo)">RemoveRoomRender(Photon.Realtime.RoomInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveRoomRender(Photon.Realtime.RoomInfo room)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SelectItem(int index)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -317,72 +438,33 @@ controls for the scene to render. The actual logic of all this is handled by the
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Photon.Realtime.RoomInfo</span></td>
-        <td><span class="parametername">room</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_LobbyRoomsView_SetInitialRoomData_" data-uid="CatchIo.UI.LobbyRoomsView.SetInitialRoomData*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_SetInitialRoomData" data-uid="CatchIo.UI.LobbyRoomsView.SetInitialRoomData">SetInitialRoomData()</h4>
+  <a id="CatchIo_PlayerCharacter_Inventory_ToArray_" data-uid="CatchIo.PlayerCharacter.Inventory.ToArray*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Inventory_ToArray" data-uid="CatchIo.PlayerCharacter.Inventory.ToArray">ToArray()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetInitialRoomData()</code></pre>
+    <pre><code class="lang-csharp hljs">public Item[] ToArray()</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_SetLoadableScenes_" data-uid="CatchIo.UI.LobbyRoomsView.SetLoadableScenes*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_SetLoadableScenes_List_System_String__" data-uid="CatchIo.UI.LobbyRoomsView.SetLoadableScenes(List{System.String})">SetLoadableScenes(List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetLoadableScenes(List&lt;string&gt; playableList)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td><span class="parametername">playableList</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_UI_LobbyRoomsView_SetPlayerNameLabel_" data-uid="CatchIo.UI.LobbyRoomsView.SetPlayerNameLabel*"></a>
-  <h4 id="CatchIo_UI_LobbyRoomsView_SetPlayerNameLabel_System_String_" data-uid="CatchIo.UI.LobbyRoomsView.SetPlayerNameLabel(System.String)">SetPlayerNameLabel(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetPlayerNameLabel(string name)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">name</span></td>
+        <td><span class="xref">Item</span>[]</td>
         <td></td>
       </tr>
     </tbody>

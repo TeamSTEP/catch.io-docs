@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RoomWindow
+    <title>Class InventoryHUD
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RoomWindow
+    <meta name="title" content="Class InventoryHUD
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,34 +78,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.RoomWindow">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.InventoryHUD">
   
   
-  <h1 id="CatchIo_UI_RoomWindow" data-uid="CatchIo.UI.RoomWindow" class="text-break">Class RoomWindow
+  <h1 id="CatchIo_UI_InventoryHUD" data-uid="CatchIo.UI.InventoryHUD" class="text-break">Class InventoryHUD
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">RoomWindow</span></div>
+    <div class="level1"><span class="xref">InventoryHUD</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_RoomWindow_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_InventoryHUD_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RoomWindow : Window</code></pre>
+    <pre><code class="lang-csharp hljs">public class InventoryHUD : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_UI_RoomWindow_BackRoom" data-uid="CatchIo.UI.RoomWindow.BackRoom">BackRoom</h4>
+  <h4 id="CatchIo_UI_InventoryHUD_SelectSlotSize" data-uid="CatchIo.UI.InventoryHUD.SelectSlotSize">SelectSlotSize</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Button BackRoom</code></pre>
+    <pre><code class="lang-csharp hljs">public int SelectSlotSize</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -117,19 +117,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Button</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_UI_RoomWindow_ChatInput" data-uid="CatchIo.UI.RoomWindow.ChatInput">ChatInput</h4>
+  <h4 id="CatchIo_UI_InventoryHUD_Slots" data-uid="CatchIo.UI.InventoryHUD.Slots">Slots</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InputField ChatInput</code></pre>
+    <pre><code class="lang-csharp hljs">public Transform Slots</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,103 +141,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">InputField</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_UI_RoomWindow_ChatLog" data-uid="CatchIo.UI.RoomWindow.ChatLog">ChatLog</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Text ChatLog</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Text</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_UI_RoomWindow_JoinSession" data-uid="CatchIo.UI.RoomWindow.JoinSession">JoinSession</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Button JoinSession</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Button</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_UI_RoomWindow_PlayerNames" data-uid="CatchIo.UI.RoomWindow.PlayerNames">PlayerNames</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Text PlayerNames</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Text</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_UI_RoomWindow_ReadyText" data-uid="CatchIo.UI.RoomWindow.ReadyText">ReadyText</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Text ReadyText</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Text</span></td>
+        <td><span class="xref">Transform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -246,13 +150,13 @@
   </h3>
   
   
-  <a id="CatchIo_UI_RoomWindow_OnCreate_" data-uid="CatchIo.UI.RoomWindow.OnCreate*"></a>
-  <h4 id="CatchIo_UI_RoomWindow_OnCreate_IBundle_" data-uid="CatchIo.UI.RoomWindow.OnCreate(IBundle)">OnCreate(IBundle)</h4>
+  <a id="CatchIo_UI_InventoryHUD_AddItem_" data-uid="CatchIo.UI.InventoryHUD.AddItem*"></a>
+  <h4 id="CatchIo_UI_InventoryHUD_AddItem_System_Int32_Item_" data-uid="CatchIo.UI.InventoryHUD.AddItem(System.Int32,Item)">AddItem(Int32, Item)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnCreate(IBundle bundle)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddItem(int index, Item newItem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,31 +169,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IBundle</span></td>
-        <td><span class="parametername">bundle</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Item</span></td>
+        <td><span class="parametername">newItem</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_UI_RoomWindow_OnDestroy_" data-uid="CatchIo.UI.RoomWindow.OnDestroy*"></a>
-  <h4 id="CatchIo_UI_RoomWindow_OnDestroy" data-uid="CatchIo.UI.RoomWindow.OnDestroy">OnDestroy()</h4>
+  <a id="CatchIo_UI_InventoryHUD_InitInventoryHUD_" data-uid="CatchIo.UI.InventoryHUD.InitInventoryHUD*"></a>
+  <h4 id="CatchIo_UI_InventoryHUD_InitInventoryHUD_Inventory_" data-uid="CatchIo.UI.InventoryHUD.InitInventoryHUD(Inventory)">InitInventoryHUD(Inventory)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_RoomWindow_OnLeaveRoom_" data-uid="CatchIo.UI.RoomWindow.OnLeaveRoom*"></a>
-  <h4 id="CatchIo_UI_RoomWindow_OnLeaveRoom_System_Object_InteractionEventArgs_" data-uid="CatchIo.UI.RoomWindow.OnLeaveRoom(System.Object,InteractionEventArgs)">OnLeaveRoom(Object, InteractionEventArgs)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void OnLeaveRoom(object sender, InteractionEventArgs args)</code></pre>
+    <pre><code class="lang-csharp hljs">public void InitInventoryHUD(Inventory inventory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -302,13 +201,89 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">sender</span></td>
+        <td><span class="xref">Inventory</span></td>
+        <td><span class="parametername">inventory</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_InventoryHUD_ReleaseItem_" data-uid="CatchIo.UI.InventoryHUD.ReleaseItem*"></a>
+  <h4 id="CatchIo_UI_InventoryHUD_ReleaseItem_System_Int32_" data-uid="CatchIo.UI.InventoryHUD.ReleaseItem(System.Int32)">ReleaseItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseItem(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">InteractionEventArgs</span></td>
-        <td><span class="parametername">args</span></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_InventoryHUD_RemoveItem_" data-uid="CatchIo.UI.InventoryHUD.RemoveItem*"></a>
+  <h4 id="CatchIo_UI_InventoryHUD_RemoveItem_System_Int32_" data-uid="CatchIo.UI.InventoryHUD.RemoveItem(System.Int32)">RemoveItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveItem(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_UI_InventoryHUD_SelectItem_" data-uid="CatchIo.UI.InventoryHUD.SelectItem*"></a>
+  <h4 id="CatchIo_UI_InventoryHUD_SelectItem_System_Int32_" data-uid="CatchIo.UI.InventoryHUD.SelectItem(System.Int32)">SelectItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectItem(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
     </tbody>
