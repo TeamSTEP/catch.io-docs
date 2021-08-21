@@ -180,11 +180,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Environment.ReadableTileSurface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Environment.ReadableTileSurface.html",
+          "hash": "CHOQ32zh+P0ukygUPFPyV0vNfuSIizT5UhtnyKCvV1g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Environment.Surface.SurfaceType.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Environment.Surface.SurfaceType.html",
-          "hash": "0auwXMTcaJ4KDzD8kydb3dgM9qtMlMWKKcCGBp0Sy8s="
+          "hash": "BR4QQ5R0mZ07dPFBvXGcfp2M2RbPVlWxNpy8jeUK0Os="
         }
       },
       "is_incremental": false,
@@ -196,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Environment.Surface.html",
-          "hash": "VSE6LuN7tZ7NK8J7GM9oplZ8kzcsJhpCmuU6lH8XJS8="
+          "hash": "LHTUsCbXtcxJy8/06hJthOl8wn+ttuMqvb1NmEwXPBY="
         }
       },
       "is_incremental": false,
@@ -208,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Environment.TileSurface.html",
-          "hash": "47Ihjj7CIfCE9iFd84Ok0i+jQgIE79rVhWFXXFiBM44="
+          "hash": "fIHFE5MjYfvioEAwR/BVb36+rX6X2D2CsmEYzSmVles="
         }
       },
       "is_incremental": false,
@@ -220,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Environment.html",
-          "hash": "mrFT4rYOthlRnZGQpCt8FJeYjpUiet1w1eqwR+oygms="
+          "hash": "Cw0uo9PWaZa7OYDCuqFiXmIF4MnEgU/rLUNmLnpjR4w="
         }
       },
       "is_incremental": false,
@@ -388,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Managers.GameManager.html",
-          "hash": "qwsYhtS4cLSKnsHB7hHnsSfARqqTrTLUG8SmvIC3XgU="
+          "hash": "hshdzJFGZj5Yg7MMdvr5bFMCvvZ6pCeRcBjLXBL6eY0="
         }
       },
       "is_incremental": false,
@@ -400,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Managers.GameSession.html",
-          "hash": "iFdeqbTHO5OX9AX9p2afyu6Q3QfnnJ+xuobivlY/624="
+          "hash": "mJLQWXPIU/aQIxYcQcjm96i7Sv8utCpfhDTmSMkHZm4="
         }
       },
       "is_incremental": false,
@@ -532,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.CharacterAnimation.html",
-          "hash": "Hae4Z8/u9t2uEHp6bVeVBRlNuZ6/0Tzi9cpefhmZKBU="
+          "hash": "9IBF3t8iKHJVbLhU8EikP/QqMAkt03OTVWyGDLLGO5o="
         }
       },
       "is_incremental": false,
@@ -592,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.CharacterSkin.html",
-          "hash": "Iac5vP1X6FMeNT0p9VqzcKAfyq1cc6dJFfw3MZeZF7Q="
+          "hash": "STBgjGexMxY0f7LDe5gGrN3huJiCZpZ32h5YQR8cOlc="
         }
       },
       "is_incremental": false,
@@ -605,6 +617,18 @@
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.IDamageable.html",
           "hash": "2ox5kkNNvMPEDu4siXxHK+NyYeI6ibVCrVR8svhMmh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.PlayerCharacter.ISurfaceObservable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.PlayerCharacter.ISurfaceObservable.html",
+          "hash": "FMamZswd2UB2px+0FAFNeJsiF8amaJsS5S+q3k3ma1A="
         }
       },
       "is_incremental": false,
@@ -636,11 +660,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.PlayerCharacter.SurfaceDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.PlayerCharacter.SurfaceDetector.html",
+          "hash": "wLRp7UTLy8b4A8pDT9hBem1X/CyN5N3cpmhHHxeGDfE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html",
+          "hash": "genarE+ip1nS7B+mTEgXIUE83uA7pmHWyPFoXyLFk3E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.PlayerCharacter.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.html",
-          "hash": "43xq5Tk0WTDl1O8MOZGe4CcFHUEevTqj28ap/CMQKHo="
+          "hash": "6ZZbahcMsdbqpx2JkVNIZVFG2Un8owulv946OHs2UIk="
         }
       },
       "is_incremental": false,
@@ -688,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.SoundManager.html",
-          "hash": "JMgl7xV0w8TMXBNVhFoZqDK02GI51Tstzkwv9J0deq8="
+          "hash": "3M/IY8tk+O+mPCe8pd02Lqd2IB/BY0mmOoRTtOCQHWU="
         }
       },
       "is_incremental": false,
@@ -976,7 +1024,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Util.ExtensionMethods.html",
-          "hash": "K7e2cPYyJyig+Id5FZMjlNHWs7TYu0/pdwV/XsdstZA="
+          "hash": "AMkOvsKGW9boIr02m2lXCI059BcCRXlYHBtKDZUYgAY="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "6xCcMZzew1y6eDt4cBBV1ZBDLCMrNsQ0r411MhHjMmQ="
+          "hash": "JsrM/Fn9MwKS6mZqRlz/pjB02P1Foz/OTsN+4wSFbnE="
         }
       },
       "is_incremental": false,
@@ -1499,7 +1547,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 92,
+          "total_file_count": 96,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

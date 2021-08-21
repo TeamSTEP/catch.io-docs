@@ -103,12 +103,12 @@ NOTE: Right now everything is hard-coded for surface detection. We need to make 
   </h3>
   
   
-  <h4 id="CatchIo_Environment_Surface_SurfaceTypeToTileMapName" data-uid="CatchIo.Environment.Surface.SurfaceTypeToTileMapName">SurfaceTypeToTileMapName</h4>
+  <h4 id="CatchIo_Environment_Surface_SurfaceNameToSurfaceType" data-uid="CatchIo.Environment.Surface.SurfaceNameToSurfaceType">SurfaceNameToSurfaceType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;Surface.SurfaceType, string&gt; SurfaceTypeToTileMapName</code></pre>
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, Surface.SurfaceType&gt; SurfaceNameToSurfaceType</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,95 +120,7 @@ NOTE: Right now everything is hard-coded for surface detection. We need to make 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="CatchIo.Environment.Surface.SurfaceType.html">Surface.SurfaceType</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="CatchIo_Environment_Surface_GetSurfaceType_" data-uid="CatchIo.Environment.Surface.GetSurfaceType*"></a>
-  <h4 id="CatchIo_Environment_Surface_GetSurfaceType_TileBase_" data-uid="CatchIo.Environment.Surface.GetSurfaceType(TileBase)">GetSurfaceType(TileBase)</h4>
-  <div class="markdown level1 summary"><p>Obtain the surface type based on the given tile information via string comparison.
-Here the name is the asset name on the disk, please make sure to name the tiles appropriately.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Surface.SurfaceType GetSurfaceType(TileBase currentTile)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TileBase</span></td>
-        <td><span class="parametername">currentTile</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Environment.Surface.SurfaceType.html">Surface.SurfaceType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Environment_Surface_LeavesFootprints_" data-uid="CatchIo.Environment.Surface.LeavesFootprints*"></a>
-  <h4 id="CatchIo_Environment_Surface_LeavesFootprints_CatchIo_Environment_Surface_SurfaceType_" data-uid="CatchIo.Environment.Surface.LeavesFootprints(CatchIo.Environment.Surface.SurfaceType)">LeavesFootprints(Surface.SurfaceType)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool LeavesFootprints(Surface.SurfaceType surface)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Environment.Surface.SurfaceType.html">Surface.SurfaceType</a></td>
-        <td><span class="parametername">surface</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="CatchIo.Environment.Surface.SurfaceType.html">Surface.SurfaceType</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
