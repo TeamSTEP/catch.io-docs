@@ -7,7 +7,7 @@
   "api/CatchIo.Camera.GameCamera.html": {
     "href": "api/CatchIo.Camera.GameCamera.html",
     "title": "Class GameCamera | Catch.io Developer Reference",
-    "keywords": "Class GameCamera The main camera class for in-game camera movements. By passing the player object as its member, this object will initialize all the camera setup and follow the provided player. There should only be one instance of this object per scene. Inheritance Object GameCamera Namespace : CatchIo.Camera Assembly : cs.temp.dll.dll Syntax public class GameCamera : MonoBehaviour Fields PlayerToFollow The player object that this camera will follow. Declaration public GameObject PlayerToFollow Field Value Type Description GameObject Methods SetupCamera() Initialization function. This is where the components are obtained and cached to the class. Declaration public void SetupCamera()"
+    "keywords": "Class GameCamera The main camera class for in-game camera movements. By passing the player object as its member, this object will initialize all the camera setup and follow the provided player. There should only be one instance of this object per scene. Inheritance Object GameCamera Namespace : CatchIo.Camera Assembly : cs.temp.dll.dll Syntax public class GameCamera : MonoBehaviour Fields PlayerToFollow The player object that this camera will follow. Declaration public GameObject PlayerToFollow Field Value Type Description GameObject Properties Camera Declaration public UnityEngine.Camera Camera { get; } Property Value Type Description UnityEngine.Camera Methods SetupCamera() Initialization function. This is where the components are obtained and cached to the class. Declaration public void SetupCamera()"
   },
   "api/CatchIo.Camera.html": {
     "href": "api/CatchIo.Camera.html",
@@ -177,7 +177,7 @@
   "api/CatchIo.Managers.MenuUIManager.html": {
     "href": "api/CatchIo.Managers.MenuUIManager.html",
     "title": "Class MenuUIManager | Catch.io Developer Reference",
-    "keywords": "Class MenuUIManager Inheritance Object MenuUIManager Namespace : CatchIo.Managers Assembly : cs.temp.dll.dll Syntax public class MenuUIManager : MonoBehaviour Properties MasterContext Declaration public MasterContext MasterContext { get; } Property Value Type Description MasterContext Methods OnEnable() Declaration public void OnEnable()"
+    "keywords": "Class MenuUIManager Inheritance Object MenuUIManager Namespace : CatchIo.Managers Assembly : cs.temp.dll.dll Syntax public class MenuUIManager : MonoBehaviour Properties MasterContext Declaration public MasterContext MasterContext { get; } Property Value Type Description MasterContext UICamera Declaration public UnityEngine.Camera UICamera { get; } Property Value Type Description UnityEngine.Camera Methods OnEnable() Declaration public void OnEnable()"
   },
   "api/CatchIo.Managers.NetworkLauncher.html": {
     "href": "api/CatchIo.Managers.NetworkLauncher.html",
