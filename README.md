@@ -32,7 +32,7 @@ This project takes inspiration from popular battle-royal games like PUBG or Fort
 
 The game starts by randomly spawning players of 10 ~ 15 within a fixed spawn-point. Predefined spawn-points are done to ensure that no players will ever see each other at the very beginning of the game. Players are only given 6 item slots \(no item stacking\), and they will start with no items on hand. Players will have to be aware of two status values, sanity, and stamina. Stamina will decrease by a certain amount every 5 seconds. When your stamina hits 0, your sanity value will start to drop. And after a certain threshold in your sanity value, you will begin to see soundwaves coming from random places, and your vision will get darker. Players can only catch another player whose sanity level is below a certain amount. Attempting to catch a player with a high sanity value will only push them backward and decrease their sanity and stamina value by a considerable amount. From here, both players are given a tiny window of opportunity to either run away or try to catch them again.
 
-The development will be done through _Unity 2019.4.21f1 LTS_ and it will stay there until released. The engine version can change if there is a critical bug that the later version addresses.
+The development will be done through _Unity 2021.1.19_ and it will stay there until released. The engine version can change if there is a critical bug that the later version addresses.
 
 ![\(Figure 2\) Sound visualization from Mark of the Ninja](.gitbook/assets/1.jpeg)
 
