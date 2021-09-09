@@ -132,11 +132,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Effects.SoundWave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Effects.SoundWave.html",
+          "hash": "cP4T8w1/5ZDILkjwPrpC4qQ7VX0N2njlsgzbUawF1iA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Effects.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Effects.html",
-          "hash": "rD8x232LEtbhYcG7B9DFEiV72rS0i61arTWIa5KQ7rg="
+          "hash": "gIwR/Gr1p49ANX+TMXEmXzrtKdO3LwO/yzecTR/Re6M="
         }
       },
       "is_incremental": false,
@@ -676,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html",
-          "hash": "hxecnxIB1JVg9MiCU9mY3SuohKBoWCn0GhBoOsHLD8s="
+          "hash": "rg1l8ja3858n+iRj1D5Iiuysjs9kCVMsX5XcB20WAAM="
         }
       },
       "is_incremental": false,
@@ -1180,7 +1192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "opt1RmhsNS02C/58omHeyhGCV3ALV0V24cty+KdAlgk="
+          "hash": "ezWTxoeWBxlzh2Q/EzKQCeLJLVj5n5xhDeygeToHpuk="
         }
       },
       "is_incremental": false,
@@ -1547,7 +1559,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 96,
+          "total_file_count": 97,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

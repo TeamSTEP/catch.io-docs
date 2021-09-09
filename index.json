@@ -42,12 +42,17 @@
   "api/CatchIo.Effects.html": {
     "href": "api/CatchIo.Effects.html",
     "title": "Namespace CatchIo.Effects | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Effects Classes DissolveEffect EffectBase Base scriptable object related to effect materials. Interfaces IEffectPlayable Interface inherited by objects that contains a playable effect."
+    "keywords": "Namespace CatchIo.Effects Classes DissolveEffect EffectBase Base scriptable object related to effect materials. SoundWave Interfaces IEffectPlayable Interface inherited by objects that contains a playable effect."
   },
   "api/CatchIo.Effects.IEffectPlayable.html": {
     "href": "api/CatchIo.Effects.IEffectPlayable.html",
     "title": "Interface IEffectPlayable | Catch.io Developer Reference",
     "keywords": "Interface IEffectPlayable Interface inherited by objects that contains a playable effect. Namespace : CatchIo.Effects Assembly : cs.temp.dll.dll Syntax public interface IEffectPlayable Methods EffectSequence() Declaration IEnumerator EffectSequence() Returns Type Description IEnumerator ExecuteEffect() Declaration void ExecuteEffect() OnEndEffect() Declaration void OnEndEffect()"
+  },
+  "api/CatchIo.Effects.SoundWave.html": {
+    "href": "api/CatchIo.Effects.SoundWave.html",
+    "title": "Class SoundWave | Catch.io Developer Reference",
+    "keywords": "Class SoundWave Inheritance Object SoundWave Namespace : CatchIo.Effects Assembly : cs.temp.dll.dll Syntax public class SoundWave : MonoBehaviour"
   },
   "api/CatchIo.Enums.CharacterClassType.html": {
     "href": "api/CatchIo.Enums.CharacterClassType.html",
@@ -277,7 +282,7 @@
   "api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html": {
     "href": "api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html",
     "title": "Class SurfaceEffectPlayer | Catch.io Developer Reference",
-    "keywords": "Class SurfaceEffectPlayer Inheritance Object SurfaceEffectPlayer Implements ISurfaceObservable Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class SurfaceEffectPlayer : MonoBehaviour, ISurfaceObservable Methods OnSurfaceChanged(Nullable<TileSurface>) Declaration public void OnSurfaceChanged(TileSurface? newSurface) Parameters Type Name Description Nullable < TileSurface > newSurface PlayFootStep() Declaration public void PlayFootStep() Implements ISurfaceObservable"
+    "keywords": "Class SurfaceEffectPlayer Inheritance Object SurfaceEffectPlayer Implements ISurfaceObservable Namespace : CatchIo.PlayerCharacter Assembly : cs.temp.dll.dll Syntax public class SurfaceEffectPlayer : MonoBehaviour, ISurfaceObservable Properties Duration Declaration public float Duration { get; } Property Value Type Description Single LastEffectTime Declaration public float LastEffectTime { get; set; } Property Value Type Description Single Methods GenerateSoundWave() Declaration public void GenerateSoundWave() OnSurfaceChanged(Nullable<TileSurface>) Declaration public void OnSurfaceChanged(TileSurface? newSurface) Parameters Type Name Description Nullable < TileSurface > newSurface PlayFootStep() Declaration public void PlayFootStep() Implements ISurfaceObservable"
   },
   "api/CatchIo.ProjectileMotion.html": {
     "href": "api/CatchIo.ProjectileMotion.html",
