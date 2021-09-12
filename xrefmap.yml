@@ -291,6 +291,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.IEffectPlayable.OnEndEffect
   nameWithType: IEffectPlayable.OnEndEffect
+- uid: CatchIo.Effects.SoundWaveEffect
+  name: SoundWaveEffect
+  href: api/CatchIo.Effects.SoundWaveEffect.html
+  commentId: T:CatchIo.Effects.SoundWaveEffect
+  fullName: CatchIo.Effects.SoundWaveEffect
+  nameWithType: SoundWaveEffect
+- uid: CatchIo.Effects.SoundWaveEffect.Play
+  name: Play()
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_Play
+  commentId: M:CatchIo.Effects.SoundWaveEffect.Play
+  fullName: CatchIo.Effects.SoundWaveEffect.Play()
+  nameWithType: SoundWaveEffect.Play()
+- uid: CatchIo.Effects.SoundWaveEffect.Play*
+  name: Play
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_Play_
+  commentId: Overload:CatchIo.Effects.SoundWaveEffect.Play
+  isSpec: "True"
+  fullName: CatchIo.Effects.SoundWaveEffect.Play
+  nameWithType: SoundWaveEffect.Play
 - uid: CatchIo.Enums
   name: CatchIo.Enums
   href: api/CatchIo.Enums.html
@@ -2352,6 +2371,19 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterAnimation
   fullName: CatchIo.PlayerCharacter.CharacterAnimation
   nameWithType: CharacterAnimation
+- uid: CatchIo.PlayerCharacter.CharacterAnimation.Initialize
+  name: Initialize()
+  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_Initialize
+  commentId: M:CatchIo.PlayerCharacter.CharacterAnimation.Initialize
+  fullName: CatchIo.PlayerCharacter.CharacterAnimation.Initialize()
+  nameWithType: CharacterAnimation.Initialize()
+- uid: CatchIo.PlayerCharacter.CharacterAnimation.Initialize*
+  name: Initialize
+  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_Initialize_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterAnimation.Initialize
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterAnimation.Initialize
+  nameWithType: CharacterAnimation.Initialize
 - uid: CatchIo.PlayerCharacter.CharacterAnimation.PlayActionState(CatchIo.PlayerCharacter.CharacterActionState)
   name: PlayActionState(CharacterActionState)
   href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_PlayActionState_CatchIo_PlayerCharacter_CharacterActionState_
@@ -2876,6 +2908,45 @@ references:
   commentId: T:CatchIo.PlayerCharacter.SurfaceEffectPlayer
   fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer
   nameWithType: SurfaceEffectPlayer
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
+  name: Duration
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_Duration
+  commentId: P:CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
+  nameWithType: SurfaceEffectPlayer.Duration
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration*
+  name: Duration
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_Duration_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
+  nameWithType: SurfaceEffectPlayer.Duration
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
+  name: GenerateSoundWave()
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateSoundWave
+  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave()
+  nameWithType: SurfaceEffectPlayer.GenerateSoundWave()
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave*
+  name: GenerateSoundWave
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateSoundWave_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
+  nameWithType: SurfaceEffectPlayer.GenerateSoundWave
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.LastEffectTime
+  name: LastEffectTime
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_LastEffectTime
+  commentId: P:CatchIo.PlayerCharacter.SurfaceEffectPlayer.LastEffectTime
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.LastEffectTime
+  nameWithType: SurfaceEffectPlayer.LastEffectTime
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.LastEffectTime*
+  name: LastEffectTime
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_LastEffectTime_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.LastEffectTime
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.LastEffectTime
+  nameWithType: SurfaceEffectPlayer.LastEffectTime
 - uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.OnSurfaceChanged(System.Nullable{TileSurface})
   name: OnSurfaceChanged(Nullable<TileSurface>)
   href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_OnSurfaceChanged_System_Nullable_TileSurface__
