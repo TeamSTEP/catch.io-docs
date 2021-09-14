@@ -1915,43 +1915,12 @@ references:
   commentId: T:CatchIo.ObjectPool.Footprint
   fullName: CatchIo.ObjectPool.Footprint
   nameWithType: Footprint
-- uid: CatchIo.ObjectPool.Footprint.FootprintSprite
-  name: Footprint.FootprintSprite
-  href: api/CatchIo.ObjectPool.Footprint.FootprintSprite.html
-  commentId: T:CatchIo.ObjectPool.Footprint.FootprintSprite
-  fullName: CatchIo.ObjectPool.Footprint.FootprintSprite
-  nameWithType: Footprint.FootprintSprite
-- uid: CatchIo.ObjectPool.Footprint.FootprintSprite.Sprite
-  name: Sprite
-  href: api/CatchIo.ObjectPool.Footprint.FootprintSprite.html#CatchIo_ObjectPool_Footprint_FootprintSprite_Sprite
-  commentId: F:CatchIo.ObjectPool.Footprint.FootprintSprite.Sprite
-  fullName: CatchIo.ObjectPool.Footprint.FootprintSprite.Sprite
-  nameWithType: Footprint.FootprintSprite.Sprite
-- uid: CatchIo.ObjectPool.Footprint.FootprintSprite.Surface
-  name: Surface
-  href: api/CatchIo.ObjectPool.Footprint.FootprintSprite.html#CatchIo_ObjectPool_Footprint_FootprintSprite_Surface
-  commentId: F:CatchIo.ObjectPool.Footprint.FootprintSprite.Surface
-  fullName: CatchIo.ObjectPool.Footprint.FootprintSprite.Surface
-  nameWithType: Footprint.FootprintSprite.Surface
-- uid: CatchIo.ObjectPool.Footprint.HandleSpawn
-  name: HandleSpawn()
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_HandleSpawn
-  commentId: M:CatchIo.ObjectPool.Footprint.HandleSpawn
-  fullName: CatchIo.ObjectPool.Footprint.HandleSpawn()
-  nameWithType: Footprint.HandleSpawn()
-- uid: CatchIo.ObjectPool.Footprint.HandleSpawn*
-  name: HandleSpawn
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_HandleSpawn_
-  commentId: Overload:CatchIo.ObjectPool.Footprint.HandleSpawn
-  isSpec: "True"
-  fullName: CatchIo.ObjectPool.Footprint.HandleSpawn
-  nameWithType: Footprint.HandleSpawn
-- uid: CatchIo.ObjectPool.Footprint.Initialize
-  name: Initialize()
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_Initialize
-  commentId: M:CatchIo.ObjectPool.Footprint.Initialize
-  fullName: CatchIo.ObjectPool.Footprint.Initialize()
-  nameWithType: Footprint.Initialize()
+- uid: CatchIo.ObjectPool.Footprint.Initialize(RuntimeAnimatorController,System.Single,System.Boolean)
+  name: Initialize(RuntimeAnimatorController, Single, Boolean)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_Initialize_RuntimeAnimatorController_System_Single_System_Boolean_
+  commentId: M:CatchIo.ObjectPool.Footprint.Initialize(RuntimeAnimatorController,System.Single,System.Boolean)
+  fullName: CatchIo.ObjectPool.Footprint.Initialize(RuntimeAnimatorController, System.Single, System.Boolean)
+  nameWithType: Footprint.Initialize(RuntimeAnimatorController, Single, Boolean)
 - uid: CatchIo.ObjectPool.Footprint.Initialize*
   name: Initialize
   href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_Initialize_
@@ -2548,12 +2517,18 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterSkin
   nameWithType: CharacterSkin.CharacterSkin
-- uid: CatchIo.PlayerCharacter.CharacterSkin.Animator
-  name: Animator
-  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_Animator
-  commentId: F:CatchIo.PlayerCharacter.CharacterSkin.Animator
-  fullName: CatchIo.PlayerCharacter.CharacterSkin.Animator
-  nameWithType: CharacterSkin.Animator
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
+  name: CharacterAnimator
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterAnimator
+  commentId: F:CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
+  nameWithType: CharacterSkin.CharacterAnimator
+- uid: CatchIo.PlayerCharacter.CharacterSkin.FootprintRuntimeAnimatorController
+  name: FootprintRuntimeAnimatorController
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_FootprintRuntimeAnimatorController
+  commentId: F:CatchIo.PlayerCharacter.CharacterSkin.FootprintRuntimeAnimatorController
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.FootprintRuntimeAnimatorController
+  nameWithType: CharacterSkin.FootprintRuntimeAnimatorController
 - uid: CatchIo.PlayerCharacter.CharacterSkin.Renderer
   name: Renderer
   href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_Renderer
@@ -2921,6 +2896,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
   nameWithType: SurfaceEffectPlayer.Duration
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
+  name: GenerateFootstep()
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateFootstep
+  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep()
+  nameWithType: SurfaceEffectPlayer.GenerateFootstep()
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep*
+  name: GenerateFootstep
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateFootstep_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
+  nameWithType: SurfaceEffectPlayer.GenerateFootstep
 - uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
   name: GenerateSoundWave()
   href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateSoundWave
