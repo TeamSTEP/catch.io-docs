@@ -91,11 +91,15 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Character</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPunObservable</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.html">CatchIo.PlayerCharacter</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_PlayerCharacter_Character_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Character : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">public class Character : MonoBehaviourPun, IPunObservable</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -191,6 +195,30 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterMoveState.html">CharacterMoveState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_Character_OnDeath" data-uid="CatchIo.PlayerCharacter.Character.OnDeath">OnDeath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action OnDeath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -620,6 +648,70 @@
   </div>
   
   
+  <a id="CatchIo_PlayerCharacter_Character_GenerateFootprint_" data-uid="CatchIo.PlayerCharacter.Character.GenerateFootprint*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_GenerateFootprint_Vector3_System_Boolean_" data-uid="CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3,System.Boolean)">GenerateFootprint(Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateFootprint(Vector3 generatePos, bool flipX)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">flipX</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_GenerateSoundWave_" data-uid="CatchIo.PlayerCharacter.Character.GenerateSoundWave*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_GenerateSoundWave_Vector3_System_Single_" data-uid="CatchIo.PlayerCharacter.Character.GenerateSoundWave(Vector3,System.Single)">GenerateSoundWave(Vector3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateSoundWave(Vector3 generatePos, float duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_PlayerCharacter_Character_HealStamina_" data-uid="CatchIo.PlayerCharacter.Character.HealStamina*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_HealStamina_System_Single_" data-uid="CatchIo.PlayerCharacter.Character.HealStamina(System.Single)">HealStamina(Single)</h4>
   <div class="markdown level1 summary"></div>
@@ -711,6 +803,38 @@
   </table>
   
   
+  <a id="CatchIo_PlayerCharacter_Character_OnPhotonSerializeView_" data-uid="CatchIo.PlayerCharacter.Character.OnPhotonSerializeView*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.PlayerCharacter.Character.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PhotonStream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PhotonMessageInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_PlayerCharacter_Character_PickupItem_" data-uid="CatchIo.PlayerCharacter.Character.PickupItem*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_PickupItem_Item_" data-uid="CatchIo.PlayerCharacter.Character.PickupItem(Item)">PickupItem(Item)</h4>
   <div class="markdown level1 summary"></div>
@@ -738,6 +862,38 @@
   </table>
   
   
+  <a id="CatchIo_PlayerCharacter_Character_PlayFootstepSfx_" data-uid="CatchIo.PlayerCharacter.Character.PlayFootstepSfx*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_PlayFootstepSfx_Vector3_System_String_" data-uid="CatchIo.PlayerCharacter.Character.PlayFootstepSfx(Vector3,System.String)">PlayFootstepSfx(Vector3, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayFootstepSfx(Vector3 generatePos, string terrainName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">terrainName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_PlayerCharacter_Character_ResetActionState_" data-uid="CatchIo.PlayerCharacter.Character.ResetActionState*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_ResetActionState" data-uid="CatchIo.PlayerCharacter.Character.ResetActionState">ResetActionState()</h4>
   <div class="markdown level1 summary"></div>
@@ -746,6 +902,156 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ResetActionState()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_RPC_PlayFootstepSfx_" data-uid="CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_PlayFootstepSfx_Vector3_System_String_" data-uid="CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx(Vector3,System.String)">RPC_PlayFootstepSfx(Vector3, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_PlayFootstepSfx(Vector3 generatePos, string terrainName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">terrainName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterNickName_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterNickName_System_String_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName(System.String)">RPC_SetCharacterNickName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_SetCharacterNickName(string nickName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">nickName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterSkin_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterSkin_System_String_System_String_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin(System.String,System.String)">RPC_SetCharacterSkin(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_SetCharacterSkin(string characterClassName, string characterSkinName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">characterClassName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">characterSkinName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_SetCharacterNickName_" data-uid="CatchIo.PlayerCharacter.Character.SetCharacterNickName*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_SetCharacterNickName_System_String_" data-uid="CatchIo.PlayerCharacter.Character.SetCharacterNickName(System.String)">SetCharacterNickName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCharacterNickName(string nickName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">nickName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_SetCharacterSkin_" data-uid="CatchIo.PlayerCharacter.Character.SetCharacterSkin*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_SetCharacterSkin_System_String_System_String_" data-uid="CatchIo.PlayerCharacter.Character.SetCharacterSkin(System.String,System.String)">SetCharacterSkin(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCharacterSkin(string characterClassName, string characterSkinName = &quot;Default&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">characterClassName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">characterSkinName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_PlayerCharacter_Character_TakeDamage_" data-uid="CatchIo.PlayerCharacter.Character.TakeDamage*"></a>
@@ -805,6 +1111,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPunObservable</span>
+  </div>
 </article>
           </div>
           

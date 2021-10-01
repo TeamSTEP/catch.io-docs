@@ -297,12 +297,25 @@ references:
   commentId: T:CatchIo.Effects.SoundWaveEffect
   fullName: CatchIo.Effects.SoundWaveEffect
   nameWithType: SoundWaveEffect
-- uid: CatchIo.Effects.SoundWaveEffect.Play
-  name: Play()
-  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_Play
-  commentId: M:CatchIo.Effects.SoundWaveEffect.Play
-  fullName: CatchIo.Effects.SoundWaveEffect.Play()
-  nameWithType: SoundWaveEffect.Play()
+- uid: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
+  name: OnPhotonInstantiate(PhotonMessageInfo)
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_OnPhotonInstantiate_PhotonMessageInfo_
+  commentId: M:CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
+  fullName: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
+  nameWithType: SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
+- uid: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate*
+  name: OnPhotonInstantiate
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_OnPhotonInstantiate_
+  commentId: Overload:CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate
+  isSpec: "True"
+  fullName: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate
+  nameWithType: SoundWaveEffect.OnPhotonInstantiate
+- uid: CatchIo.Effects.SoundWaveEffect.Play(System.Single)
+  name: Play(Single)
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_Play_System_Single_
+  commentId: M:CatchIo.Effects.SoundWaveEffect.Play(System.Single)
+  fullName: CatchIo.Effects.SoundWaveEffect.Play(System.Single)
+  nameWithType: SoundWaveEffect.Play(Single)
 - uid: CatchIo.Effects.SoundWaveEffect.Play*
   name: Play
   href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_Play_
@@ -494,15 +507,15 @@ references:
   commentId: T:CatchIo.Helpers.AnimationParser
   fullName: CatchIo.Helpers.AnimationParser
   nameWithType: AnimationParser
-- uid: CatchIo.Helpers.AnimationParser.MapAnimationToActionState(AnimationClip[])
-  name: MapAnimationToActionState(AnimationClip[])
-  href: api/CatchIo.Helpers.AnimationParser.html#CatchIo_Helpers_AnimationParser_MapAnimationToActionState_AnimationClip___
-  commentId: M:CatchIo.Helpers.AnimationParser.MapAnimationToActionState(AnimationClip[])
-  name.vb: MapAnimationToActionState(AnimationClip())
-  fullName: CatchIo.Helpers.AnimationParser.MapAnimationToActionState(AnimationClip[])
-  fullName.vb: CatchIo.Helpers.AnimationParser.MapAnimationToActionState(AnimationClip())
-  nameWithType: AnimationParser.MapAnimationToActionState(AnimationClip[])
-  nameWithType.vb: AnimationParser.MapAnimationToActionState(AnimationClip())
+- uid: CatchIo.Helpers.AnimationParser.MapAnimationToActionState(IEnumerable{AnimationClip})
+  name: MapAnimationToActionState(IEnumerable<AnimationClip>)
+  href: api/CatchIo.Helpers.AnimationParser.html#CatchIo_Helpers_AnimationParser_MapAnimationToActionState_IEnumerable_AnimationClip__
+  commentId: M:CatchIo.Helpers.AnimationParser.MapAnimationToActionState(IEnumerable{AnimationClip})
+  name.vb: MapAnimationToActionState(IEnumerable(Of AnimationClip))
+  fullName: CatchIo.Helpers.AnimationParser.MapAnimationToActionState(IEnumerable<AnimationClip>)
+  fullName.vb: CatchIo.Helpers.AnimationParser.MapAnimationToActionState(IEnumerable(Of AnimationClip))
+  nameWithType: AnimationParser.MapAnimationToActionState(IEnumerable<AnimationClip>)
+  nameWithType.vb: AnimationParser.MapAnimationToActionState(IEnumerable(Of AnimationClip))
 - uid: CatchIo.Helpers.AnimationParser.MapAnimationToActionState*
   name: MapAnimationToActionState
   href: api/CatchIo.Helpers.AnimationParser.html#CatchIo_Helpers_AnimationParser_MapAnimationToActionState_
@@ -1011,19 +1024,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TeleportRune.CanPickup
   nameWithType: TeleportRune.CanPickup
-- uid: CatchIo.Items.TeleportRune.EffectEndSequence
-  name: EffectEndSequence()
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_EffectEndSequence
-  commentId: M:CatchIo.Items.TeleportRune.EffectEndSequence
-  fullName: CatchIo.Items.TeleportRune.EffectEndSequence()
-  nameWithType: TeleportRune.EffectEndSequence()
-- uid: CatchIo.Items.TeleportRune.EffectEndSequence*
-  name: EffectEndSequence
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_EffectEndSequence_
-  commentId: Overload:CatchIo.Items.TeleportRune.EffectEndSequence
-  isSpec: "True"
-  fullName: CatchIo.Items.TeleportRune.EffectEndSequence
-  nameWithType: TeleportRune.EffectEndSequence
 - uid: CatchIo.Items.TeleportRune.EffectSequence
   name: EffectSequence()
   href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_EffectSequence
@@ -1288,12 +1288,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.OnThrow
   nameWithType: ThrowableItem.OnThrow
-- uid: CatchIo.Items.ThrowableItem.PassedPeak
-  name: PassedPeak
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_PassedPeak
-  commentId: F:CatchIo.Items.ThrowableItem.PassedPeak
-  fullName: CatchIo.Items.ThrowableItem.PassedPeak
-  nameWithType: ThrowableItem.PassedPeak
 - uid: CatchIo.Items.ThrowableItem.Rigid2D
   name: Rigid2D
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Rigid2D
@@ -1313,18 +1307,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.Start
   nameWithType: ThrowableItem.Start
-- uid: CatchIo.Items.ThrowableItem.ThrowedTime
-  name: ThrowedTime
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrowedTime
-  commentId: F:CatchIo.Items.ThrowableItem.ThrowedTime
-  fullName: CatchIo.Items.ThrowableItem.ThrowedTime
-  nameWithType: ThrowableItem.ThrowedTime
-- uid: CatchIo.Items.ThrowableItem.ThrowResolution
-  name: ThrowResolution
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrowResolution
-  commentId: F:CatchIo.Items.ThrowableItem.ThrowResolution
-  fullName: CatchIo.Items.ThrowableItem.ThrowResolution
-  nameWithType: ThrowableItem.ThrowResolution
 - uid: CatchIo.Items.ThrowableItem.TrajectoryPath
   name: TrajectoryPath
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryPath
@@ -1389,25 +1371,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.GameManager.IsDirectSession
   nameWithType: GameManager.IsDirectSession
-- uid: CatchIo.Managers.GameManager.IsInGameSession
-  name: IsInGameSession
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_IsInGameSession
-  commentId: F:CatchIo.Managers.GameManager.IsInGameSession
-  fullName: CatchIo.Managers.GameManager.IsInGameSession
-  nameWithType: GameManager.IsInGameSession
-- uid: CatchIo.Managers.GameManager.IsMobile
-  name: IsMobile
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_IsMobile
-  commentId: P:CatchIo.Managers.GameManager.IsMobile
-  fullName: CatchIo.Managers.GameManager.IsMobile
-  nameWithType: GameManager.IsMobile
-- uid: CatchIo.Managers.GameManager.IsMobile*
-  name: IsMobile
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_IsMobile_
-  commentId: Overload:CatchIo.Managers.GameManager.IsMobile
-  isSpec: "True"
-  fullName: CatchIo.Managers.GameManager.IsMobile
-  nameWithType: GameManager.IsMobile
 - uid: CatchIo.Managers.GameManager.MenuUIManager
   name: MenuUIManager
   href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_MenuUIManager
@@ -1434,6 +1397,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.GameManager.NetworkLauncher
   nameWithType: GameManager.NetworkLauncher
+- uid: CatchIo.Managers.GameManager.s_isInGameSession
+  name: s_isInGameSession
+  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_s_isInGameSession
+  commentId: F:CatchIo.Managers.GameManager.s_isInGameSession
+  fullName: CatchIo.Managers.GameManager.s_isInGameSession
+  nameWithType: GameManager.s_isInGameSession
 - uid: CatchIo.Managers.GameManager.SoundManager
   name: SoundManager
   href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_SoundManager
@@ -1479,19 +1448,6 @@ references:
   commentId: T:CatchIo.Managers.GameSession
   fullName: CatchIo.Managers.GameSession
   nameWithType: GameSession
-- uid: CatchIo.Managers.GameSession.CurrentTilemapContainer
-  name: CurrentTilemapContainer
-  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_CurrentTilemapContainer
-  commentId: P:CatchIo.Managers.GameSession.CurrentTilemapContainer
-  fullName: CatchIo.Managers.GameSession.CurrentTilemapContainer
-  nameWithType: GameSession.CurrentTilemapContainer
-- uid: CatchIo.Managers.GameSession.CurrentTilemapContainer*
-  name: CurrentTilemapContainer
-  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_CurrentTilemapContainer_
-  commentId: Overload:CatchIo.Managers.GameSession.CurrentTilemapContainer
-  isSpec: "True"
-  fullName: CatchIo.Managers.GameSession.CurrentTilemapContainer
-  nameWithType: GameSession.CurrentTilemapContainer
 - uid: CatchIo.Managers.GameSession.LocalPlayerInst
   name: LocalPlayerInst
   href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_LocalPlayerInst
@@ -1614,6 +1570,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.NetworkLauncher.DisConnect
   nameWithType: NetworkLauncher.DisConnect
+- uid: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty*
+  name: GetRoomPlayerProperty
+  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_GetRoomPlayerProperty_
+  commentId: Overload:CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty
+  isSpec: "True"
+  fullName: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty
+  nameWithType: NetworkLauncher.GetRoomPlayerProperty
+- uid: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty``1(System.String,Player,``0)
+  name: GetRoomPlayerProperty<T>(String, Player, T)
+  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_GetRoomPlayerProperty__1_System_String_Player___0_
+  commentId: M:CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty``1(System.String,Player,``0)
+  name.vb: GetRoomPlayerProperty(Of T)(String, Player, T)
+  fullName: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty<T>(System.String, Player, T)
+  fullName.vb: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty(Of T)(System.String, Player, T)
+  nameWithType: NetworkLauncher.GetRoomPlayerProperty<T>(String, Player, T)
+  nameWithType.vb: NetworkLauncher.GetRoomPlayerProperty(Of T)(String, Player, T)
 - uid: CatchIo.Managers.NetworkLauncher.JoinLobby
   name: JoinLobby()
   href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_JoinLobby
@@ -1890,6 +1862,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.NetworkLauncher.SetCharacterClass
   nameWithType: NetworkLauncher.SetCharacterClass
+- uid: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty*
+  name: SetRoomPlayerProperty
+  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SetRoomPlayerProperty_
+  commentId: Overload:CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty
+  isSpec: "True"
+  fullName: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty
+  nameWithType: NetworkLauncher.SetRoomPlayerProperty
+- uid: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty``1(System.String,Player,``0)
+  name: SetRoomPlayerProperty<T>(String, Player, T)
+  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SetRoomPlayerProperty__1_System_String_Player___0_
+  commentId: M:CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty``1(System.String,Player,``0)
+  name.vb: SetRoomPlayerProperty(Of T)(String, Player, T)
+  fullName: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty<T>(System.String, Player, T)
+  fullName.vb: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty(Of T)(System.String, Player, T)
+  nameWithType: NetworkLauncher.SetRoomPlayerProperty<T>(String, Player, T)
+  nameWithType.vb: NetworkLauncher.SetRoomPlayerProperty(Of T)(String, Player, T)
 - uid: CatchIo.Managers.NetworkLauncher.StartOrReadyGame
   name: StartOrReadyGame()
   href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_StartOrReadyGame
@@ -1915,57 +1903,32 @@ references:
   commentId: T:CatchIo.ObjectPool.Footprint
   fullName: CatchIo.ObjectPool.Footprint
   nameWithType: Footprint
-- uid: CatchIo.ObjectPool.Footprint.Initialize(RuntimeAnimatorController,System.Single,System.Boolean)
-  name: Initialize(RuntimeAnimatorController, Single, Boolean)
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_Initialize_RuntimeAnimatorController_System_Single_System_Boolean_
-  commentId: M:CatchIo.ObjectPool.Footprint.Initialize(RuntimeAnimatorController,System.Single,System.Boolean)
-  fullName: CatchIo.ObjectPool.Footprint.Initialize(RuntimeAnimatorController, System.Single, System.Boolean)
-  nameWithType: Footprint.Initialize(RuntimeAnimatorController, Single, Boolean)
-- uid: CatchIo.ObjectPool.Footprint.Initialize*
-  name: Initialize
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_Initialize_
-  commentId: Overload:CatchIo.ObjectPool.Footprint.Initialize
+- uid: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)
+  name: OnPhotonInstantiate(PhotonMessageInfo)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_OnPhotonInstantiate_PhotonMessageInfo_
+  commentId: M:CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)
+  fullName: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)
+  nameWithType: Footprint.OnPhotonInstantiate(PhotonMessageInfo)
+- uid: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate*
+  name: OnPhotonInstantiate
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_OnPhotonInstantiate_
+  commentId: Overload:CatchIo.ObjectPool.Footprint.OnPhotonInstantiate
   isSpec: "True"
-  fullName: CatchIo.ObjectPool.Footprint.Initialize
-  nameWithType: Footprint.Initialize
-- uid: CatchIo.ObjectPool.PurePoolManager
-  name: PurePoolManager
-  href: api/CatchIo.ObjectPool.PurePoolManager.html
-  commentId: T:CatchIo.ObjectPool.PurePoolManager
-  fullName: CatchIo.ObjectPool.PurePoolManager
-  nameWithType: PurePoolManager
-- uid: CatchIo.ObjectPool.PurePoolManager.AcquireFootprint(Vector3,Quaternion)
-  name: AcquireFootprint(Vector3, Quaternion)
-  href: api/CatchIo.ObjectPool.PurePoolManager.html#CatchIo_ObjectPool_PurePoolManager_AcquireFootprint_Vector3_Quaternion_
-  commentId: M:CatchIo.ObjectPool.PurePoolManager.AcquireFootprint(Vector3,Quaternion)
-  fullName: CatchIo.ObjectPool.PurePoolManager.AcquireFootprint(Vector3, Quaternion)
-  nameWithType: PurePoolManager.AcquireFootprint(Vector3, Quaternion)
-- uid: CatchIo.ObjectPool.PurePoolManager.AcquireFootprint*
-  name: AcquireFootprint
-  href: api/CatchIo.ObjectPool.PurePoolManager.html#CatchIo_ObjectPool_PurePoolManager_AcquireFootprint_
-  commentId: Overload:CatchIo.ObjectPool.PurePoolManager.AcquireFootprint
+  fullName: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate
+  nameWithType: Footprint.OnPhotonInstantiate
+- uid: CatchIo.ObjectPool.Footprint.SetFlipX(System.Boolean)
+  name: SetFlipX(Boolean)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_SetFlipX_System_Boolean_
+  commentId: M:CatchIo.ObjectPool.Footprint.SetFlipX(System.Boolean)
+  fullName: CatchIo.ObjectPool.Footprint.SetFlipX(System.Boolean)
+  nameWithType: Footprint.SetFlipX(Boolean)
+- uid: CatchIo.ObjectPool.Footprint.SetFlipX*
+  name: SetFlipX
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_SetFlipX_
+  commentId: Overload:CatchIo.ObjectPool.Footprint.SetFlipX
   isSpec: "True"
-  fullName: CatchIo.ObjectPool.PurePoolManager.AcquireFootprint
-  nameWithType: PurePoolManager.AcquireFootprint
-- uid: CatchIo.ObjectPool.PurePoolManager.Instance
-  name: Instance
-  href: api/CatchIo.ObjectPool.PurePoolManager.html#CatchIo_ObjectPool_PurePoolManager_Instance
-  commentId: F:CatchIo.ObjectPool.PurePoolManager.Instance
-  fullName: CatchIo.ObjectPool.PurePoolManager.Instance
-  nameWithType: PurePoolManager.Instance
-- uid: CatchIo.ObjectPool.PurePoolManager.ReleasePool(GameObject)
-  name: ReleasePool(GameObject)
-  href: api/CatchIo.ObjectPool.PurePoolManager.html#CatchIo_ObjectPool_PurePoolManager_ReleasePool_GameObject_
-  commentId: M:CatchIo.ObjectPool.PurePoolManager.ReleasePool(GameObject)
-  fullName: CatchIo.ObjectPool.PurePoolManager.ReleasePool(GameObject)
-  nameWithType: PurePoolManager.ReleasePool(GameObject)
-- uid: CatchIo.ObjectPool.PurePoolManager.ReleasePool*
-  name: ReleasePool
-  href: api/CatchIo.ObjectPool.PurePoolManager.html#CatchIo_ObjectPool_PurePoolManager_ReleasePool_
-  commentId: Overload:CatchIo.ObjectPool.PurePoolManager.ReleasePool
-  isSpec: "True"
-  fullName: CatchIo.ObjectPool.PurePoolManager.ReleasePool
-  nameWithType: PurePoolManager.ReleasePool
+  fullName: CatchIo.ObjectPool.Footprint.SetFlipX
+  nameWithType: Footprint.SetFlipX
 - uid: CatchIo.PlayerCharacter
   name: CatchIo.PlayerCharacter
   href: api/CatchIo.PlayerCharacter.html
@@ -2094,6 +2057,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.Draw
   nameWithType: Character.Draw
+- uid: CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3,System.Boolean)
+  name: GenerateFootprint(Vector3, Boolean)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateFootprint_Vector3_System_Boolean_
+  commentId: M:CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3,System.Boolean)
+  fullName: CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3, System.Boolean)
+  nameWithType: Character.GenerateFootprint(Vector3, Boolean)
+- uid: CatchIo.PlayerCharacter.Character.GenerateFootprint*
+  name: GenerateFootprint
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateFootprint_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.GenerateFootprint
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.GenerateFootprint
+  nameWithType: Character.GenerateFootprint
+- uid: CatchIo.PlayerCharacter.Character.GenerateSoundWave(Vector3,System.Single)
+  name: GenerateSoundWave(Vector3, Single)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateSoundWave_Vector3_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.Character.GenerateSoundWave(Vector3,System.Single)
+  fullName: CatchIo.PlayerCharacter.Character.GenerateSoundWave(Vector3, System.Single)
+  nameWithType: Character.GenerateSoundWave(Vector3, Single)
+- uid: CatchIo.PlayerCharacter.Character.GenerateSoundWave*
+  name: GenerateSoundWave
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateSoundWave_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.GenerateSoundWave
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.GenerateSoundWave
+  nameWithType: Character.GenerateSoundWave
 - uid: CatchIo.PlayerCharacter.Character.HealStamina(System.Single)
   name: HealStamina(Single)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_HealStamina_System_Single_
@@ -2184,6 +2173,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.Name
   nameWithType: Character.Name
+- uid: CatchIo.PlayerCharacter.Character.OnDeath
+  name: OnDeath
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnDeath
+  commentId: F:CatchIo.PlayerCharacter.Character.OnDeath
+  fullName: CatchIo.PlayerCharacter.Character.OnDeath
+  nameWithType: Character.OnDeath
+- uid: CatchIo.PlayerCharacter.Character.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
+  commentId: M:CatchIo.PlayerCharacter.Character.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  fullName: CatchIo.PlayerCharacter.Character.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  nameWithType: Character.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+- uid: CatchIo.PlayerCharacter.Character.OnPhotonSerializeView*
+  name: OnPhotonSerializeView
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnPhotonSerializeView_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.OnPhotonSerializeView
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.OnPhotonSerializeView
+  nameWithType: Character.OnPhotonSerializeView
 - uid: CatchIo.PlayerCharacter.Character.PickupItem(Item)
   name: PickupItem(Item)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_PickupItem_Item_
@@ -2197,6 +2205,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.PickupItem
   nameWithType: Character.PickupItem
+- uid: CatchIo.PlayerCharacter.Character.PlayFootstepSfx(Vector3,System.String)
+  name: PlayFootstepSfx(Vector3, String)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_PlayFootstepSfx_Vector3_System_String_
+  commentId: M:CatchIo.PlayerCharacter.Character.PlayFootstepSfx(Vector3,System.String)
+  fullName: CatchIo.PlayerCharacter.Character.PlayFootstepSfx(Vector3, System.String)
+  nameWithType: Character.PlayFootstepSfx(Vector3, String)
+- uid: CatchIo.PlayerCharacter.Character.PlayFootstepSfx*
+  name: PlayFootstepSfx
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_PlayFootstepSfx_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.PlayFootstepSfx
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.PlayFootstepSfx
+  nameWithType: Character.PlayFootstepSfx
 - uid: CatchIo.PlayerCharacter.Character.RemoveHoldingItemAction
   name: RemoveHoldingItemAction
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RemoveHoldingItemAction
@@ -2216,6 +2237,45 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.ResetActionState
   nameWithType: Character.ResetActionState
+- uid: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx(Vector3,System.String)
+  name: RPC_PlayFootstepSfx(Vector3, String)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_PlayFootstepSfx_Vector3_System_String_
+  commentId: M:CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx(Vector3,System.String)
+  fullName: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx(Vector3, System.String)
+  nameWithType: Character.RPC_PlayFootstepSfx(Vector3, String)
+- uid: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx*
+  name: RPC_PlayFootstepSfx
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_PlayFootstepSfx_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx
+  nameWithType: Character.RPC_PlayFootstepSfx
+- uid: CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName(System.String)
+  name: RPC_SetCharacterNickName(String)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_SetCharacterNickName_System_String_
+  commentId: M:CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName(System.String)
+  fullName: CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName(System.String)
+  nameWithType: Character.RPC_SetCharacterNickName(String)
+- uid: CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName*
+  name: RPC_SetCharacterNickName
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_SetCharacterNickName_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName
+  nameWithType: Character.RPC_SetCharacterNickName
+- uid: CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin(System.String,System.String)
+  name: RPC_SetCharacterSkin(String, String)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_SetCharacterSkin_System_String_System_String_
+  commentId: M:CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin(System.String,System.String)
+  fullName: CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin(System.String, System.String)
+  nameWithType: Character.RPC_SetCharacterSkin(String, String)
+- uid: CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin*
+  name: RPC_SetCharacterSkin
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_SetCharacterSkin_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin
+  nameWithType: Character.RPC_SetCharacterSkin
 - uid: CatchIo.PlayerCharacter.Character.RunningSpeed
   name: RunningSpeed
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RunningSpeed
@@ -2235,6 +2295,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.SanityVal
   nameWithType: Character.SanityVal
+- uid: CatchIo.PlayerCharacter.Character.SetCharacterNickName(System.String)
+  name: SetCharacterNickName(String)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SetCharacterNickName_System_String_
+  commentId: M:CatchIo.PlayerCharacter.Character.SetCharacterNickName(System.String)
+  fullName: CatchIo.PlayerCharacter.Character.SetCharacterNickName(System.String)
+  nameWithType: Character.SetCharacterNickName(String)
+- uid: CatchIo.PlayerCharacter.Character.SetCharacterNickName*
+  name: SetCharacterNickName
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SetCharacterNickName_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.SetCharacterNickName
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.SetCharacterNickName
+  nameWithType: Character.SetCharacterNickName
+- uid: CatchIo.PlayerCharacter.Character.SetCharacterSkin(System.String,System.String)
+  name: SetCharacterSkin(String, String)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SetCharacterSkin_System_String_System_String_
+  commentId: M:CatchIo.PlayerCharacter.Character.SetCharacterSkin(System.String,System.String)
+  fullName: CatchIo.PlayerCharacter.Character.SetCharacterSkin(System.String, System.String)
+  nameWithType: Character.SetCharacterSkin(String, String)
+- uid: CatchIo.PlayerCharacter.Character.SetCharacterSkin*
+  name: SetCharacterSkin
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SetCharacterSkin_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.SetCharacterSkin
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.SetCharacterSkin
+  nameWithType: Character.SetCharacterSkin
 - uid: CatchIo.PlayerCharacter.Character.SneakingSpeed
   name: SneakingSpeed
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SneakingSpeed
@@ -2340,71 +2426,19 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterAnimation
   fullName: CatchIo.PlayerCharacter.CharacterAnimation
   nameWithType: CharacterAnimation
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.Initialize
-  name: Initialize()
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_Initialize
-  commentId: M:CatchIo.PlayerCharacter.CharacterAnimation.Initialize
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.Initialize()
-  nameWithType: CharacterAnimation.Initialize()
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.Initialize*
-  name: Initialize
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_Initialize_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterAnimation.Initialize
+- uid: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepEvents
+  name: PlayFootstepEvents()
+  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_PlayFootstepEvents
+  commentId: M:CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepEvents
+  fullName: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepEvents()
+  nameWithType: CharacterAnimation.PlayFootstepEvents()
+- uid: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepEvents*
+  name: PlayFootstepEvents
+  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_PlayFootstepEvents_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepEvents
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.Initialize
-  nameWithType: CharacterAnimation.Initialize
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.PlayActionState(CatchIo.PlayerCharacter.CharacterActionState)
-  name: PlayActionState(CharacterActionState)
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_PlayActionState_CatchIo_PlayerCharacter_CharacterActionState_
-  commentId: M:CatchIo.PlayerCharacter.CharacterAnimation.PlayActionState(CatchIo.PlayerCharacter.CharacterActionState)
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.PlayActionState(CatchIo.PlayerCharacter.CharacterActionState)
-  nameWithType: CharacterAnimation.PlayActionState(CharacterActionState)
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.PlayActionState*
-  name: PlayActionState
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_PlayActionState_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterAnimation.PlayActionState
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.PlayActionState
-  nameWithType: CharacterAnimation.PlayActionState
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepSound
-  name: PlayFootstepSound()
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_PlayFootstepSound
-  commentId: M:CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepSound
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepSound()
-  nameWithType: CharacterAnimation.PlayFootstepSound()
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepSound*
-  name: PlayFootstepSound
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_PlayFootstepSound_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepSound
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepSound
-  nameWithType: CharacterAnimation.PlayFootstepSound
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.UpdateLookAnimation(System.Single)
-  name: UpdateLookAnimation(Single)
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_UpdateLookAnimation_System_Single_
-  commentId: M:CatchIo.PlayerCharacter.CharacterAnimation.UpdateLookAnimation(System.Single)
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.UpdateLookAnimation(System.Single)
-  nameWithType: CharacterAnimation.UpdateLookAnimation(Single)
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.UpdateLookAnimation*
-  name: UpdateLookAnimation
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_UpdateLookAnimation_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterAnimation.UpdateLookAnimation
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.UpdateLookAnimation
-  nameWithType: CharacterAnimation.UpdateLookAnimation
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.UpdateMoveAnimation(CatchIo.PlayerCharacter.CharacterMoveState)
-  name: UpdateMoveAnimation(CharacterMoveState)
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_UpdateMoveAnimation_CatchIo_PlayerCharacter_CharacterMoveState_
-  commentId: M:CatchIo.PlayerCharacter.CharacterAnimation.UpdateMoveAnimation(CatchIo.PlayerCharacter.CharacterMoveState)
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.UpdateMoveAnimation(CatchIo.PlayerCharacter.CharacterMoveState)
-  nameWithType: CharacterAnimation.UpdateMoveAnimation(CharacterMoveState)
-- uid: CatchIo.PlayerCharacter.CharacterAnimation.UpdateMoveAnimation*
-  name: UpdateMoveAnimation
-  href: api/CatchIo.PlayerCharacter.CharacterAnimation.html#CatchIo_PlayerCharacter_CharacterAnimation_UpdateMoveAnimation_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterAnimation.UpdateMoveAnimation
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterAnimation.UpdateMoveAnimation
-  nameWithType: CharacterAnimation.UpdateMoveAnimation
+  fullName: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepEvents
+  nameWithType: CharacterAnimation.PlayFootstepEvents
 - uid: CatchIo.PlayerCharacter.CharacterController
   name: CharacterController
   href: api/CatchIo.PlayerCharacter.CharacterController.html
@@ -2417,32 +2451,45 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterFOV
   fullName: CatchIo.PlayerCharacter.CharacterFOV
   nameWithType: CharacterFOV
-- uid: CatchIo.PlayerCharacter.CharacterFOV.ToggleLight
-  name: ToggleLight()
-  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_ToggleLight
-  commentId: M:CatchIo.PlayerCharacter.CharacterFOV.ToggleLight
-  fullName: CatchIo.PlayerCharacter.CharacterFOV.ToggleLight()
-  nameWithType: CharacterFOV.ToggleLight()
-- uid: CatchIo.PlayerCharacter.CharacterFOV.ToggleLight*
-  name: ToggleLight
-  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_ToggleLight_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterFOV.ToggleLight
+- uid: CatchIo.PlayerCharacter.CharacterFOV.DisableFOVLight
+  name: DisableFOVLight()
+  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_DisableFOVLight
+  commentId: M:CatchIo.PlayerCharacter.CharacterFOV.DisableFOVLight
+  fullName: CatchIo.PlayerCharacter.CharacterFOV.DisableFOVLight()
+  nameWithType: CharacterFOV.DisableFOVLight()
+- uid: CatchIo.PlayerCharacter.CharacterFOV.DisableFOVLight*
+  name: DisableFOVLight
+  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_DisableFOVLight_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterFOV.DisableFOVLight
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterFOV.ToggleLight
-  nameWithType: CharacterFOV.ToggleLight
-- uid: CatchIo.PlayerCharacter.CharacterFOV.UpdateFOVAngle(System.Single)
-  name: UpdateFOVAngle(Single)
-  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_UpdateFOVAngle_System_Single_
-  commentId: M:CatchIo.PlayerCharacter.CharacterFOV.UpdateFOVAngle(System.Single)
-  fullName: CatchIo.PlayerCharacter.CharacterFOV.UpdateFOVAngle(System.Single)
-  nameWithType: CharacterFOV.UpdateFOVAngle(Single)
-- uid: CatchIo.PlayerCharacter.CharacterFOV.UpdateFOVAngle*
-  name: UpdateFOVAngle
-  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_UpdateFOVAngle_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterFOV.UpdateFOVAngle
+  fullName: CatchIo.PlayerCharacter.CharacterFOV.DisableFOVLight
+  nameWithType: CharacterFOV.DisableFOVLight
+- uid: CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight
+  name: EnableFOVLight()
+  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_EnableFOVLight
+  commentId: M:CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight
+  fullName: CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight()
+  nameWithType: CharacterFOV.EnableFOVLight()
+- uid: CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight*
+  name: EnableFOVLight
+  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_EnableFOVLight_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterFOV.UpdateFOVAngle
-  nameWithType: CharacterFOV.UpdateFOVAngle
+  fullName: CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight
+  nameWithType: CharacterFOV.EnableFOVLight
+- uid: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle(System.Single)
+  name: UpdateFovAngle(Single)
+  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_UpdateFovAngle_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle(System.Single)
+  fullName: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle(System.Single)
+  nameWithType: CharacterFOV.UpdateFovAngle(Single)
+- uid: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle*
+  name: UpdateFovAngle
+  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_UpdateFovAngle_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle
+  nameWithType: CharacterFOV.UpdateFovAngle
 - uid: CatchIo.PlayerCharacter.CharacterHitbox
   name: CharacterHitbox
   href: api/CatchIo.PlayerCharacter.CharacterHitbox.html
@@ -2520,27 +2567,94 @@ references:
 - uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
   name: CharacterAnimator
   href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterAnimator
-  commentId: F:CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
+  commentId: P:CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
   fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
   nameWithType: CharacterSkin.CharacterAnimator
-- uid: CatchIo.PlayerCharacter.CharacterSkin.FootprintRuntimeAnimatorController
-  name: FootprintRuntimeAnimatorController
-  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_FootprintRuntimeAnimatorController
-  commentId: F:CatchIo.PlayerCharacter.CharacterSkin.FootprintRuntimeAnimatorController
-  fullName: CatchIo.PlayerCharacter.CharacterSkin.FootprintRuntimeAnimatorController
-  nameWithType: CharacterSkin.FootprintRuntimeAnimatorController
-- uid: CatchIo.PlayerCharacter.CharacterSkin.Renderer
-  name: Renderer
-  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_Renderer
-  commentId: F:CatchIo.PlayerCharacter.CharacterSkin.Renderer
-  fullName: CatchIo.PlayerCharacter.CharacterSkin.Renderer
-  nameWithType: CharacterSkin.Renderer
-- uid: CatchIo.PlayerCharacter.CharacterSkin.SkinName
-  name: SkinName
-  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_SkinName
-  commentId: F:CatchIo.PlayerCharacter.CharacterSkin.SkinName
-  fullName: CatchIo.PlayerCharacter.CharacterSkin.SkinName
-  nameWithType: CharacterSkin.SkinName
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator*
+  name: CharacterAnimator
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterAnimator_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator
+  nameWithType: CharacterSkin.CharacterAnimator
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName
+  name: CharacterClassName
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterClassName
+  commentId: P:CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName
+  nameWithType: CharacterSkin.CharacterClassName
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName*
+  name: CharacterClassName
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterClassName_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName
+  nameWithType: CharacterSkin.CharacterClassName
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer
+  name: CharacterRenderer
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterRenderer
+  commentId: P:CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer
+  nameWithType: CharacterSkin.CharacterRenderer
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer*
+  name: CharacterRenderer
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterRenderer_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer
+  nameWithType: CharacterSkin.CharacterRenderer
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController
+  name: CharacterRuntimeAnimatorController
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterRuntimeAnimatorController
+  commentId: P:CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController
+  nameWithType: CharacterSkin.CharacterRuntimeAnimatorController
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController*
+  name: CharacterRuntimeAnimatorController
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterRuntimeAnimatorController_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController
+  nameWithType: CharacterSkin.CharacterRuntimeAnimatorController
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName
+  name: CharacterSkinName
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterSkinName
+  commentId: P:CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName
+  nameWithType: CharacterSkin.CharacterSkinName
+- uid: CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName*
+  name: CharacterSkinName
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_CharacterSkinName_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName
+  nameWithType: CharacterSkin.CharacterSkinName
+- uid: CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath
+  name: FootprintPrefabPath
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_FootprintPrefabPath
+  commentId: P:CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath
+  nameWithType: CharacterSkin.FootprintPrefabPath
+- uid: CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath*
+  name: FootprintPrefabPath
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_FootprintPrefabPath_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath
+  nameWithType: CharacterSkin.FootprintPrefabPath
+- uid: CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController(System.String,System.String)
+  name: SetCharacterAnimatorController(String, String)
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_SetCharacterAnimatorController_System_String_System_String_
+  commentId: M:CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController(System.String,System.String)
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController(System.String, System.String)
+  nameWithType: CharacterSkin.SetCharacterAnimatorController(String, String)
+- uid: CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController*
+  name: SetCharacterAnimatorController
+  href: api/CatchIo.PlayerCharacter.CharacterSkin.html#CatchIo_PlayerCharacter_CharacterSkin_SetCharacterAnimatorController_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController
+  nameWithType: CharacterSkin.SetCharacterAnimatorController
 - uid: CatchIo.PlayerCharacter.IDamageable
   name: IDamageable
   href: api/CatchIo.PlayerCharacter.IDamageable.html
@@ -2838,19 +2952,6 @@ references:
   commentId: T:CatchIo.PlayerCharacter.SurfaceDetector
   fullName: CatchIo.PlayerCharacter.SurfaceDetector
   nameWithType: SurfaceDetector
-- uid: CatchIo.PlayerCharacter.SurfaceDetector.CreateSurfaceSoundEffect(CatchIo.PlayerCharacter.CharacterMoveState)
-  name: CreateSurfaceSoundEffect(CharacterMoveState)
-  href: api/CatchIo.PlayerCharacter.SurfaceDetector.html#CatchIo_PlayerCharacter_SurfaceDetector_CreateSurfaceSoundEffect_CatchIo_PlayerCharacter_CharacterMoveState_
-  commentId: M:CatchIo.PlayerCharacter.SurfaceDetector.CreateSurfaceSoundEffect(CatchIo.PlayerCharacter.CharacterMoveState)
-  fullName: CatchIo.PlayerCharacter.SurfaceDetector.CreateSurfaceSoundEffect(CatchIo.PlayerCharacter.CharacterMoveState)
-  nameWithType: SurfaceDetector.CreateSurfaceSoundEffect(CharacterMoveState)
-- uid: CatchIo.PlayerCharacter.SurfaceDetector.CreateSurfaceSoundEffect*
-  name: CreateSurfaceSoundEffect
-  href: api/CatchIo.PlayerCharacter.SurfaceDetector.html#CatchIo_PlayerCharacter_SurfaceDetector_CreateSurfaceSoundEffect_
-  commentId: Overload:CatchIo.PlayerCharacter.SurfaceDetector.CreateSurfaceSoundEffect
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.SurfaceDetector.CreateSurfaceSoundEffect
-  nameWithType: SurfaceDetector.CreateSurfaceSoundEffect
 - uid: CatchIo.PlayerCharacter.SurfaceDetector.CurrentTileSurface
   name: CurrentTileSurface
   href: api/CatchIo.PlayerCharacter.SurfaceDetector.html#CatchIo_PlayerCharacter_SurfaceDetector_CurrentTileSurface
@@ -2883,6 +2984,32 @@ references:
   commentId: T:CatchIo.PlayerCharacter.SurfaceEffectPlayer
   fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer
   nameWithType: SurfaceEffectPlayer
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanGenerateFootprint
+  name: CanGenerateFootprint()
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_CanGenerateFootprint
+  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanGenerateFootprint
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanGenerateFootprint()
+  nameWithType: SurfaceEffectPlayer.CanGenerateFootprint()
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanGenerateFootprint*
+  name: CanGenerateFootprint
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_CanGenerateFootprint_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanGenerateFootprint
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanGenerateFootprint
+  nameWithType: SurfaceEffectPlayer.CanGenerateFootprint
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanPlayFootstepSfx
+  name: CanPlayFootstepSfx()
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_CanPlayFootstepSfx
+  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanPlayFootstepSfx
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanPlayFootstepSfx()
+  nameWithType: SurfaceEffectPlayer.CanPlayFootstepSfx()
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanPlayFootstepSfx*
+  name: CanPlayFootstepSfx
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_CanPlayFootstepSfx_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanPlayFootstepSfx
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanPlayFootstepSfx
+  nameWithType: SurfaceEffectPlayer.CanPlayFootstepSfx
 - uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
   name: Duration
   href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_Duration
@@ -2896,32 +3023,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.Duration
   nameWithType: SurfaceEffectPlayer.Duration
-- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
-  name: GenerateFootstep()
-  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateFootstep
-  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
-  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep()
-  nameWithType: SurfaceEffectPlayer.GenerateFootstep()
-- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep*
-  name: GenerateFootstep
-  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateFootstep_
-  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootprint
+  name: GenerateFootprint()
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateFootprint
+  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootprint
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootprint()
+  nameWithType: SurfaceEffectPlayer.GenerateFootprint()
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootprint*
+  name: GenerateFootprint
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateFootprint_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootprint
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootstep
-  nameWithType: SurfaceEffectPlayer.GenerateFootstep
-- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
-  name: GenerateSoundWave()
-  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateSoundWave
-  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
-  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave()
-  nameWithType: SurfaceEffectPlayer.GenerateSoundWave()
-- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave*
-  name: GenerateSoundWave
-  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateSoundWave_
-  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateSoundWave
-  nameWithType: SurfaceEffectPlayer.GenerateSoundWave
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootprint
+  nameWithType: SurfaceEffectPlayer.GenerateFootprint
 - uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.LastEffectTime
   name: LastEffectTime
   href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_LastEffectTime
@@ -2951,19 +3065,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.OnSurfaceChanged
   nameWithType: SurfaceEffectPlayer.OnSurfaceChanged
-- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstep
-  name: PlayFootstep()
-  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_PlayFootstep
-  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstep
-  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstep()
-  nameWithType: SurfaceEffectPlayer.PlayFootstep()
-- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstep*
-  name: PlayFootstep
-  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_PlayFootstep_
-  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstep
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstepSfx
+  name: PlayFootstepSfx()
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_PlayFootstepSfx
+  commentId: M:CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstepSfx
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstepSfx()
+  nameWithType: SurfaceEffectPlayer.PlayFootstepSfx()
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstepSfx*
+  name: PlayFootstepSfx
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_PlayFootstepSfx_
+  commentId: Overload:CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstepSfx
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstep
-  nameWithType: SurfaceEffectPlayer.PlayFootstep
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.PlayFootstepSfx
+  nameWithType: SurfaceEffectPlayer.PlayFootstepSfx
 - uid: CatchIo.ProjectileMotion
   name: CatchIo.ProjectileMotion
   href: api/CatchIo.ProjectileMotion.html
@@ -3069,12 +3183,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition
   nameWithType: TrajectoryArc.GetFinalPosition
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.InitalVelocity
-  name: InitalVelocity
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_InitalVelocity
-  commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.InitalVelocity
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.InitalVelocity
-  nameWithType: TrajectoryArc.InitalVelocity
+- uid: CatchIo.ProjectileMotion.TrajectoryArc.InitVelocity
+  name: InitVelocity
+  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_InitVelocity
+  commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.InitVelocity
+  fullName: CatchIo.ProjectileMotion.TrajectoryArc.InitVelocity
+  nameWithType: TrajectoryArc.InitVelocity
 - uid: CatchIo.ProjectileMotion.TrajectoryArc.TimeToTarget
   name: TimeToTarget
   href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_TimeToTarget
@@ -3205,25 +3319,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.AccountContext.OnQuit
   nameWithType: AccountContext.OnQuit
-- uid: CatchIo.UI.CatchButtonEnable
-  name: CatchButtonEnable
-  href: api/CatchIo.UI.CatchButtonEnable.html
-  commentId: T:CatchIo.UI.CatchButtonEnable
-  fullName: CatchIo.UI.CatchButtonEnable
-  nameWithType: CatchButtonEnable
-- uid: CatchIo.UI.CatchButtonEnable.Invoke
-  name: Invoke()
-  href: api/CatchIo.UI.CatchButtonEnable.html#CatchIo_UI_CatchButtonEnable_Invoke
-  commentId: M:CatchIo.UI.CatchButtonEnable.Invoke
-  fullName: CatchIo.UI.CatchButtonEnable.Invoke()
-  nameWithType: CatchButtonEnable.Invoke()
-- uid: CatchIo.UI.CatchButtonEnable.Invoke*
-  name: Invoke
-  href: api/CatchIo.UI.CatchButtonEnable.html#CatchIo_UI_CatchButtonEnable_Invoke_
-  commentId: Overload:CatchIo.UI.CatchButtonEnable.Invoke
-  isSpec: "True"
-  fullName: CatchIo.UI.CatchButtonEnable.Invoke
-  nameWithType: CatchButtonEnable.Invoke
 - uid: CatchIo.UI.CharacterClassContext
   name: CharacterClassContext
   href: api/CatchIo.UI.CharacterClassContext.html
@@ -4447,43 +4542,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Util.ExtensionMethods.ToVector3Int
   nameWithType: ExtensionMethods.ToVector3Int
-- uid: CatchIo.Util.FloorTilemaps
-  name: FloorTilemaps
-  href: api/CatchIo.Util.FloorTilemaps.html
-  commentId: T:CatchIo.Util.FloorTilemaps
-  fullName: CatchIo.Util.FloorTilemaps
-  nameWithType: FloorTilemaps
-- uid: CatchIo.Util.FloorTilemaps.Tilemaps
-  name: Tilemaps
-  href: api/CatchIo.Util.FloorTilemaps.html#CatchIo_Util_FloorTilemaps_Tilemaps
-  commentId: F:CatchIo.Util.FloorTilemaps.Tilemaps
-  fullName: CatchIo.Util.FloorTilemaps.Tilemaps
-  nameWithType: FloorTilemaps.Tilemaps
-- uid: CatchIo.Util.GetTilemapAndTileBase
-  name: GetTilemapAndTileBase
-  href: api/CatchIo.Util.GetTilemapAndTileBase.html
-  commentId: T:CatchIo.Util.GetTilemapAndTileBase
-  fullName: CatchIo.Util.GetTilemapAndTileBase
-  nameWithType: GetTilemapAndTileBase
-- uid: CatchIo.Util.GetTilemapAndTileBase.GetStandingTile(Vector3)
-  name: GetStandingTile(Vector3)
-  href: api/CatchIo.Util.GetTilemapAndTileBase.html#CatchIo_Util_GetTilemapAndTileBase_GetStandingTile_Vector3_
-  commentId: M:CatchIo.Util.GetTilemapAndTileBase.GetStandingTile(Vector3)
-  fullName: CatchIo.Util.GetTilemapAndTileBase.GetStandingTile(Vector3)
-  nameWithType: GetTilemapAndTileBase.GetStandingTile(Vector3)
-- uid: CatchIo.Util.GetTilemapAndTileBase.GetStandingTile*
-  name: GetStandingTile
-  href: api/CatchIo.Util.GetTilemapAndTileBase.html#CatchIo_Util_GetTilemapAndTileBase_GetStandingTile_
-  commentId: Overload:CatchIo.Util.GetTilemapAndTileBase.GetStandingTile
-  isSpec: "True"
-  fullName: CatchIo.Util.GetTilemapAndTileBase.GetStandingTile
-  nameWithType: GetTilemapAndTileBase.GetStandingTile
-- uid: CatchIo.Util.GetTilemapAndTileBase.TILE_MAP_TAG
-  name: TILE_MAP_TAG
-  href: api/CatchIo.Util.GetTilemapAndTileBase.html#CatchIo_Util_GetTilemapAndTileBase_TILE_MAP_TAG
-  commentId: F:CatchIo.Util.GetTilemapAndTileBase.TILE_MAP_TAG
-  fullName: CatchIo.Util.GetTilemapAndTileBase.TILE_MAP_TAG
-  nameWithType: GetTilemapAndTileBase.TILE_MAP_TAG
 - uid: CatchIo.Util.Math
   name: Math
   href: api/CatchIo.Util.Math.html
@@ -4503,89 +4561,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Util.Math.IsNaNVector
   nameWithType: Math.IsNaNVector
-- uid: CatchIo.Util.ObserverPattern
-  name: CatchIo.Util.ObserverPattern
-  href: api/CatchIo.Util.ObserverPattern.html
-  commentId: N:CatchIo.Util.ObserverPattern
-  fullName: CatchIo.Util.ObserverPattern
-  nameWithType: CatchIo.Util.ObserverPattern
-- uid: CatchIo.Util.ObserverPattern.ICallback
-  name: ICallback
-  href: api/CatchIo.Util.ObserverPattern.ICallback.html
-  commentId: T:CatchIo.Util.ObserverPattern.ICallback
-  fullName: CatchIo.Util.ObserverPattern.ICallback
-  nameWithType: ICallback
-- uid: CatchIo.Util.ObserverPattern.ICallback.Invoke
-  name: Invoke()
-  href: api/CatchIo.Util.ObserverPattern.ICallback.html#CatchIo_Util_ObserverPattern_ICallback_Invoke
-  commentId: M:CatchIo.Util.ObserverPattern.ICallback.Invoke
-  fullName: CatchIo.Util.ObserverPattern.ICallback.Invoke()
-  nameWithType: ICallback.Invoke()
-- uid: CatchIo.Util.ObserverPattern.ICallback.Invoke*
-  name: Invoke
-  href: api/CatchIo.Util.ObserverPattern.ICallback.html#CatchIo_Util_ObserverPattern_ICallback_Invoke_
-  commentId: Overload:CatchIo.Util.ObserverPattern.ICallback.Invoke
-  isSpec: "True"
-  fullName: CatchIo.Util.ObserverPattern.ICallback.Invoke
-  nameWithType: ICallback.Invoke
-- uid: CatchIo.Util.ObserverPattern.Subject
-  name: Subject
-  href: api/CatchIo.Util.ObserverPattern.Subject.html
-  commentId: T:CatchIo.Util.ObserverPattern.Subject
-  fullName: CatchIo.Util.ObserverPattern.Subject
-  nameWithType: Subject
-- uid: CatchIo.Util.ObserverPattern.Subject.AddObserver(CatchIo.Util.ObserverPattern.ICallback)
-  name: AddObserver(ICallback)
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_AddObserver_CatchIo_Util_ObserverPattern_ICallback_
-  commentId: M:CatchIo.Util.ObserverPattern.Subject.AddObserver(CatchIo.Util.ObserverPattern.ICallback)
-  fullName: CatchIo.Util.ObserverPattern.Subject.AddObserver(CatchIo.Util.ObserverPattern.ICallback)
-  nameWithType: Subject.AddObserver(ICallback)
-- uid: CatchIo.Util.ObserverPattern.Subject.AddObserver*
-  name: AddObserver
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_AddObserver_
-  commentId: Overload:CatchIo.Util.ObserverPattern.Subject.AddObserver
-  isSpec: "True"
-  fullName: CatchIo.Util.ObserverPattern.Subject.AddObserver
-  nameWithType: Subject.AddObserver
-- uid: CatchIo.Util.ObserverPattern.Subject.Clear
-  name: Clear()
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_Clear
-  commentId: M:CatchIo.Util.ObserverPattern.Subject.Clear
-  fullName: CatchIo.Util.ObserverPattern.Subject.Clear()
-  nameWithType: Subject.Clear()
-- uid: CatchIo.Util.ObserverPattern.Subject.Clear*
-  name: Clear
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_Clear_
-  commentId: Overload:CatchIo.Util.ObserverPattern.Subject.Clear
-  isSpec: "True"
-  fullName: CatchIo.Util.ObserverPattern.Subject.Clear
-  nameWithType: Subject.Clear
-- uid: CatchIo.Util.ObserverPattern.Subject.RemoveObserver(CatchIo.Util.ObserverPattern.ICallback)
-  name: RemoveObserver(ICallback)
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_RemoveObserver_CatchIo_Util_ObserverPattern_ICallback_
-  commentId: M:CatchIo.Util.ObserverPattern.Subject.RemoveObserver(CatchIo.Util.ObserverPattern.ICallback)
-  fullName: CatchIo.Util.ObserverPattern.Subject.RemoveObserver(CatchIo.Util.ObserverPattern.ICallback)
-  nameWithType: Subject.RemoveObserver(ICallback)
-- uid: CatchIo.Util.ObserverPattern.Subject.RemoveObserver*
-  name: RemoveObserver
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_RemoveObserver_
-  commentId: Overload:CatchIo.Util.ObserverPattern.Subject.RemoveObserver
-  isSpec: "True"
-  fullName: CatchIo.Util.ObserverPattern.Subject.RemoveObserver
-  nameWithType: Subject.RemoveObserver
-- uid: CatchIo.Util.ObserverPattern.Subject.SignalCallback
-  name: SignalCallback()
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_SignalCallback
-  commentId: M:CatchIo.Util.ObserverPattern.Subject.SignalCallback
-  fullName: CatchIo.Util.ObserverPattern.Subject.SignalCallback()
-  nameWithType: Subject.SignalCallback()
-- uid: CatchIo.Util.ObserverPattern.Subject.SignalCallback*
-  name: SignalCallback
-  href: api/CatchIo.Util.ObserverPattern.Subject.html#CatchIo_Util_ObserverPattern_Subject_SignalCallback_
-  commentId: Overload:CatchIo.Util.ObserverPattern.Subject.SignalCallback
-  isSpec: "True"
-  fullName: CatchIo.Util.ObserverPattern.Subject.SignalCallback
-  nameWithType: Subject.SignalCallback
 - uid: CatchIo.Util.SceneControl
   name: SceneControl
   href: api/CatchIo.Util.SceneControl.html
@@ -4732,93 +4707,3 @@ references:
   fullName.vb: CatchIo.Util.SingletonMonoBehaviour(Of T).OnApplicationQuit
   nameWithType: SingletonMonoBehaviour<T>.OnApplicationQuit
   nameWithType.vb: SingletonMonoBehaviour(Of T).OnApplicationQuit
-- uid: CatchIo.Util.TileInfo
-  name: TileInfo
-  href: api/CatchIo.Util.TileInfo.html
-  commentId: T:CatchIo.Util.TileInfo
-  fullName: CatchIo.Util.TileInfo
-  nameWithType: TileInfo
-- uid: CatchIo.Util.TileInfo.ParantTilemap
-  name: ParantTilemap
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_ParantTilemap
-  commentId: P:CatchIo.Util.TileInfo.ParantTilemap
-  fullName: CatchIo.Util.TileInfo.ParantTilemap
-  nameWithType: TileInfo.ParantTilemap
-- uid: CatchIo.Util.TileInfo.ParantTilemap*
-  name: ParantTilemap
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_ParantTilemap_
-  commentId: Overload:CatchIo.Util.TileInfo.ParantTilemap
-  isSpec: "True"
-  fullName: CatchIo.Util.TileInfo.ParantTilemap
-  nameWithType: TileInfo.ParantTilemap
-- uid: CatchIo.Util.TileInfo.TilemapObject
-  name: TilemapObject
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TilemapObject
-  commentId: P:CatchIo.Util.TileInfo.TilemapObject
-  fullName: CatchIo.Util.TileInfo.TilemapObject
-  nameWithType: TileInfo.TilemapObject
-- uid: CatchIo.Util.TileInfo.TilemapObject*
-  name: TilemapObject
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TilemapObject_
-  commentId: Overload:CatchIo.Util.TileInfo.TilemapObject
-  isSpec: "True"
-  fullName: CatchIo.Util.TileInfo.TilemapObject
-  nameWithType: TileInfo.TilemapObject
-- uid: CatchIo.Util.TileInfo.TilemapSortLayer
-  name: TilemapSortLayer
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TilemapSortLayer
-  commentId: P:CatchIo.Util.TileInfo.TilemapSortLayer
-  fullName: CatchIo.Util.TileInfo.TilemapSortLayer
-  nameWithType: TileInfo.TilemapSortLayer
-- uid: CatchIo.Util.TileInfo.TilemapSortLayer*
-  name: TilemapSortLayer
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TilemapSortLayer_
-  commentId: Overload:CatchIo.Util.TileInfo.TilemapSortLayer
-  isSpec: "True"
-  fullName: CatchIo.Util.TileInfo.TilemapSortLayer
-  nameWithType: TileInfo.TilemapSortLayer
-- uid: CatchIo.Util.TileInfo.TilemapSortOrder
-  name: TilemapSortOrder
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TilemapSortOrder
-  commentId: P:CatchIo.Util.TileInfo.TilemapSortOrder
-  fullName: CatchIo.Util.TileInfo.TilemapSortOrder
-  nameWithType: TileInfo.TilemapSortOrder
-- uid: CatchIo.Util.TileInfo.TilemapSortOrder*
-  name: TilemapSortOrder
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TilemapSortOrder_
-  commentId: Overload:CatchIo.Util.TileInfo.TilemapSortOrder
-  isSpec: "True"
-  fullName: CatchIo.Util.TileInfo.TilemapSortOrder
-  nameWithType: TileInfo.TilemapSortOrder
-- uid: CatchIo.Util.TileInfo.TileRenderer
-  name: TileRenderer
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TileRenderer
-  commentId: P:CatchIo.Util.TileInfo.TileRenderer
-  fullName: CatchIo.Util.TileInfo.TileRenderer
-  nameWithType: TileInfo.TileRenderer
-- uid: CatchIo.Util.TileInfo.TileRenderer*
-  name: TileRenderer
-  href: api/CatchIo.Util.TileInfo.html#CatchIo_Util_TileInfo_TileRenderer_
-  commentId: Overload:CatchIo.Util.TileInfo.TileRenderer
-  isSpec: "True"
-  fullName: CatchIo.Util.TileInfo.TileRenderer
-  nameWithType: TileInfo.TileRenderer
-- uid: CatchIo.Util.TilemapContainer
-  name: TilemapContainer
-  href: api/CatchIo.Util.TilemapContainer.html
-  commentId: T:CatchIo.Util.TilemapContainer
-  fullName: CatchIo.Util.TilemapContainer
-  nameWithType: TilemapContainer
-- uid: CatchIo.Util.TilemapContainer.GetTileMaps
-  name: GetTileMaps()
-  href: api/CatchIo.Util.TilemapContainer.html#CatchIo_Util_TilemapContainer_GetTileMaps
-  commentId: M:CatchIo.Util.TilemapContainer.GetTileMaps
-  fullName: CatchIo.Util.TilemapContainer.GetTileMaps()
-  nameWithType: TilemapContainer.GetTileMaps()
-- uid: CatchIo.Util.TilemapContainer.GetTileMaps*
-  name: GetTileMaps
-  href: api/CatchIo.Util.TilemapContainer.html#CatchIo_Util_TilemapContainer_GetTileMaps_
-  commentId: Overload:CatchIo.Util.TilemapContainer.GetTileMaps
-  isSpec: "True"
-  fullName: CatchIo.Util.TilemapContainer.GetTileMaps
-  nameWithType: TilemapContainer.GetTileMaps

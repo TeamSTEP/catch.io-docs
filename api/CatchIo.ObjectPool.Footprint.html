@@ -91,23 +91,27 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Footprint</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPunInstantiateMagicCallback</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.ObjectPool.html">CatchIo.ObjectPool</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_ObjectPool_Footprint_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Footprint : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Footprint : MonoBehaviourPun, IPunInstantiateMagicCallback</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_ObjectPool_Footprint_Initialize_" data-uid="CatchIo.ObjectPool.Footprint.Initialize*"></a>
-  <h4 id="CatchIo_ObjectPool_Footprint_Initialize_RuntimeAnimatorController_System_Single_System_Boolean_" data-uid="CatchIo.ObjectPool.Footprint.Initialize(RuntimeAnimatorController,System.Single,System.Boolean)">Initialize(RuntimeAnimatorController, Single, Boolean)</h4>
+  <a id="CatchIo_ObjectPool_Footprint_OnPhotonInstantiate_" data-uid="CatchIo.ObjectPool.Footprint.OnPhotonInstantiate*"></a>
+  <h4 id="CatchIo_ObjectPool_Footprint_OnPhotonInstantiate_PhotonMessageInfo_" data-uid="CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)">OnPhotonInstantiate(PhotonMessageInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(RuntimeAnimatorController runtimeAnimatorController, float angle, bool flipped)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPhotonInstantiate(PhotonMessageInfo info)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,22 +124,43 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RuntimeAnimatorController</span></td>
-        <td><span class="parametername">runtimeAnimatorController</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">angle</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">flipped</span></td>
+        <td><span class="xref">PhotonMessageInfo</span></td>
+        <td><span class="parametername">info</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_ObjectPool_Footprint_SetFlipX_" data-uid="CatchIo.ObjectPool.Footprint.SetFlipX*"></a>
+  <h4 id="CatchIo_ObjectPool_Footprint_SetFlipX_System_Boolean_" data-uid="CatchIo.ObjectPool.Footprint.SetFlipX(System.Boolean)">SetFlipX(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFlipX(bool flipX)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">flipX</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPunInstantiateMagicCallback</span>
+  </div>
 </article>
           </div>
           

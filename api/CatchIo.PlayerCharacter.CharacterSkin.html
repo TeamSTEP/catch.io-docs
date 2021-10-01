@@ -107,7 +107,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterSkin(Animator characterAnimator, Renderer renderer)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharacterSkin(Animator characterAnimator, Renderer characterRenderer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,23 +126,24 @@
       </tr>
       <tr>
         <td><span class="xref">Renderer</span></td>
-        <td><span class="parametername">renderer</span></td>
+        <td><span class="parametername">characterRenderer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
+  <a id="CatchIo_PlayerCharacter_CharacterSkin_CharacterAnimator_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator*"></a>
   <h4 id="CatchIo_PlayerCharacter_CharacterSkin_CharacterAnimator" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterAnimator">CharacterAnimator</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator CharacterAnimator</code></pre>
+    <pre><code class="lang-csharp hljs">public Animator CharacterAnimator { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -159,14 +160,15 @@
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_FootprintRuntimeAnimatorController" data-uid="CatchIo.PlayerCharacter.CharacterSkin.FootprintRuntimeAnimatorController">FootprintRuntimeAnimatorController</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterSkin_CharacterClassName_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_CharacterClassName" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterClassName">CharacterClassName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RuntimeAnimatorController FootprintRuntimeAnimatorController</code></pre>
+    <pre><code class="lang-csharp hljs">public string CharacterClassName { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -176,21 +178,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RuntimeAnimatorController</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_Renderer" data-uid="CatchIo.PlayerCharacter.CharacterSkin.Renderer">Renderer</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterSkin_CharacterRenderer_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_CharacterRenderer" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterRenderer">CharacterRenderer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Renderer Renderer</code></pre>
+    <pre><code class="lang-csharp hljs">public Renderer CharacterRenderer { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -207,14 +210,40 @@
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_SkinName" data-uid="CatchIo.PlayerCharacter.CharacterSkin.SkinName">SkinName</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterSkin_CharacterRuntimeAnimatorController_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_CharacterRuntimeAnimatorController" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterRuntimeAnimatorController">CharacterRuntimeAnimatorController</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SkinName</code></pre>
+    <pre><code class="lang-csharp hljs">public RuntimeAnimatorController CharacterRuntimeAnimatorController { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RuntimeAnimatorController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterSkin_CharacterSkinName_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_CharacterSkinName" data-uid="CatchIo.PlayerCharacter.CharacterSkin.CharacterSkinName">CharacterSkinName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CharacterSkinName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -225,6 +254,65 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterSkin_FootprintPrefabPath_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_FootprintPrefabPath" data-uid="CatchIo.PlayerCharacter.CharacterSkin.FootprintPrefabPath">FootprintPrefabPath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FootprintPrefabPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterSkin_SetCharacterAnimatorController_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterSkin_SetCharacterAnimatorController_System_String_System_String_" data-uid="CatchIo.PlayerCharacter.CharacterSkin.SetCharacterAnimatorController(System.String,System.String)">SetCharacterAnimatorController(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCharacterAnimatorController(string characterClassName, string characterSkinName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">characterClassName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">characterSkinName</span></td>
         <td></td>
       </tr>
     </tbody>

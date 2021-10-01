@@ -109,7 +109,7 @@ TODO : FIX CLASS NAME.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string LocalPlayerClass { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string LocalPlayerClass { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,7 +134,7 @@ TODO : FIX CLASS NAME.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string LocalPlayerNickName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string LocalPlayerNickName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,6 +231,73 @@ The map name will be stored as a custom metadata for room data in photon network
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DisConnect()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_Managers_NetworkLauncher_GetRoomPlayerProperty_" data-uid="CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_GetRoomPlayerProperty__1_System_String_Player___0_" data-uid="CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty``1(System.String,Player,``0)">GetRoomPlayerProperty&lt;T&gt;(String, Player, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetRoomPlayerProperty&lt;T&gt;(string key, Player player, T defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Managers_NetworkLauncher_JoinLobby_" data-uid="CatchIo.Managers.NetworkLauncher.JoinLobby*"></a>
@@ -597,6 +664,58 @@ The map name will be stored as a custom metadata for room data in photon network
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">className</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_NetworkLauncher_SetRoomPlayerProperty_" data-uid="CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty*"></a>
+  <h4 id="CatchIo_Managers_NetworkLauncher_SetRoomPlayerProperty__1_System_String_Player___0_" data-uid="CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty``1(System.String,Player,``0)">SetRoomPlayerProperty&lt;T&gt;(String, Player, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRoomPlayerProperty&lt;T&gt;(string key, Player player, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
