@@ -297,6 +297,19 @@ references:
   commentId: T:CatchIo.Effects.SoundWaveEffect
   fullName: CatchIo.Effects.SoundWaveEffect
   nameWithType: SoundWaveEffect
+- uid: CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3,System.Single)
+  name: CreateSoundWave(Vector3, Single)
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_CreateSoundWave_Vector3_System_Single_
+  commentId: M:CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3,System.Single)
+  fullName: CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3, System.Single)
+  nameWithType: SoundWaveEffect.CreateSoundWave(Vector3, Single)
+- uid: CatchIo.Effects.SoundWaveEffect.CreateSoundWave*
+  name: CreateSoundWave
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_CreateSoundWave_
+  commentId: Overload:CatchIo.Effects.SoundWaveEffect.CreateSoundWave
+  isSpec: "True"
+  fullName: CatchIo.Effects.SoundWaveEffect.CreateSoundWave
+  nameWithType: SoundWaveEffect.CreateSoundWave
 - uid: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
   name: OnPhotonInstantiate(PhotonMessageInfo)
   href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_OnPhotonInstantiate_PhotonMessageInfo_
@@ -310,19 +323,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate
   nameWithType: SoundWaveEffect.OnPhotonInstantiate
-- uid: CatchIo.Effects.SoundWaveEffect.Play(System.Single)
-  name: Play(Single)
-  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_Play_System_Single_
-  commentId: M:CatchIo.Effects.SoundWaveEffect.Play(System.Single)
-  fullName: CatchIo.Effects.SoundWaveEffect.Play(System.Single)
-  nameWithType: SoundWaveEffect.Play(Single)
-- uid: CatchIo.Effects.SoundWaveEffect.Play*
-  name: Play
-  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_Play_
-  commentId: Overload:CatchIo.Effects.SoundWaveEffect.Play
-  isSpec: "True"
-  fullName: CatchIo.Effects.SoundWaveEffect.Play
-  nameWithType: SoundWaveEffect.Play
 - uid: CatchIo.Enums
   name: CatchIo.Enums
   href: api/CatchIo.Enums.html
@@ -966,6 +966,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Stone.OnPickup
   nameWithType: Stone.OnPickup
+- uid: CatchIo.Items.Stone.OnSurfaceChanged(System.Nullable{TileSurface})
+  name: OnSurfaceChanged(Nullable<TileSurface>)
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnSurfaceChanged_System_Nullable_TileSurface__
+  commentId: M:CatchIo.Items.Stone.OnSurfaceChanged(System.Nullable{TileSurface})
+  name.vb: OnSurfaceChanged(Nullable(Of TileSurface))
+  fullName: CatchIo.Items.Stone.OnSurfaceChanged(System.Nullable<TileSurface>)
+  fullName.vb: CatchIo.Items.Stone.OnSurfaceChanged(System.Nullable(Of TileSurface))
+  nameWithType: Stone.OnSurfaceChanged(Nullable<TileSurface>)
+  nameWithType.vb: Stone.OnSurfaceChanged(Nullable(Of TileSurface))
+- uid: CatchIo.Items.Stone.OnSurfaceChanged*
+  name: OnSurfaceChanged
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnSurfaceChanged_
+  commentId: Overload:CatchIo.Items.Stone.OnSurfaceChanged
+  isSpec: "True"
+  fullName: CatchIo.Items.Stone.OnSurfaceChanged
+  nameWithType: Stone.OnSurfaceChanged
 - uid: CatchIo.Items.Stone.OnThrow
   name: OnThrow()
   href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnThrow
@@ -1903,6 +1919,19 @@ references:
   commentId: T:CatchIo.ObjectPool.Footprint
   fullName: CatchIo.ObjectPool.Footprint
   nameWithType: Footprint
+- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,System.Single,System.Boolean)
+  name: CreateFootprint(String, Vector3, Single, Boolean)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_Vector3_System_Single_System_Boolean_
+  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,System.Single,System.Boolean)
+  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, Vector3, System.Single, System.Boolean)
+  nameWithType: Footprint.CreateFootprint(String, Vector3, Single, Boolean)
+- uid: CatchIo.ObjectPool.Footprint.CreateFootprint*
+  name: CreateFootprint
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_
+  commentId: Overload:CatchIo.ObjectPool.Footprint.CreateFootprint
+  isSpec: "True"
+  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint
+  nameWithType: Footprint.CreateFootprint
 - uid: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)
   name: OnPhotonInstantiate(PhotonMessageInfo)
   href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_OnPhotonInstantiate_PhotonMessageInfo_
@@ -1916,19 +1945,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate
   nameWithType: Footprint.OnPhotonInstantiate
-- uid: CatchIo.ObjectPool.Footprint.SetFlipX(System.Boolean)
-  name: SetFlipX(Boolean)
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_SetFlipX_System_Boolean_
-  commentId: M:CatchIo.ObjectPool.Footprint.SetFlipX(System.Boolean)
-  fullName: CatchIo.ObjectPool.Footprint.SetFlipX(System.Boolean)
-  nameWithType: Footprint.SetFlipX(Boolean)
-- uid: CatchIo.ObjectPool.Footprint.SetFlipX*
-  name: SetFlipX
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_SetFlipX_
-  commentId: Overload:CatchIo.ObjectPool.Footprint.SetFlipX
-  isSpec: "True"
-  fullName: CatchIo.ObjectPool.Footprint.SetFlipX
-  nameWithType: Footprint.SetFlipX
 - uid: CatchIo.PlayerCharacter
   name: CatchIo.PlayerCharacter
   href: api/CatchIo.PlayerCharacter.html
@@ -2070,19 +2086,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.GenerateFootprint
   nameWithType: Character.GenerateFootprint
-- uid: CatchIo.PlayerCharacter.Character.GenerateSoundWave(Vector3,System.Single)
-  name: GenerateSoundWave(Vector3, Single)
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateSoundWave_Vector3_System_Single_
-  commentId: M:CatchIo.PlayerCharacter.Character.GenerateSoundWave(Vector3,System.Single)
-  fullName: CatchIo.PlayerCharacter.Character.GenerateSoundWave(Vector3, System.Single)
-  nameWithType: Character.GenerateSoundWave(Vector3, Single)
-- uid: CatchIo.PlayerCharacter.Character.GenerateSoundWave*
-  name: GenerateSoundWave
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateSoundWave_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.GenerateSoundWave
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.GenerateSoundWave
-  nameWithType: Character.GenerateSoundWave
 - uid: CatchIo.PlayerCharacter.Character.HealStamina(System.Single)
   name: HealStamina(Single)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_HealStamina_System_Single_
@@ -2205,19 +2208,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.PickupItem
   nameWithType: Character.PickupItem
-- uid: CatchIo.PlayerCharacter.Character.PlayFootstepSfx(Vector3,System.String)
-  name: PlayFootstepSfx(Vector3, String)
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_PlayFootstepSfx_Vector3_System_String_
-  commentId: M:CatchIo.PlayerCharacter.Character.PlayFootstepSfx(Vector3,System.String)
-  fullName: CatchIo.PlayerCharacter.Character.PlayFootstepSfx(Vector3, System.String)
-  nameWithType: Character.PlayFootstepSfx(Vector3, String)
-- uid: CatchIo.PlayerCharacter.Character.PlayFootstepSfx*
-  name: PlayFootstepSfx
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_PlayFootstepSfx_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.PlayFootstepSfx
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.PlayFootstepSfx
-  nameWithType: Character.PlayFootstepSfx
 - uid: CatchIo.PlayerCharacter.Character.RemoveHoldingItemAction
   name: RemoveHoldingItemAction
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RemoveHoldingItemAction
@@ -2237,19 +2227,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.ResetActionState
   nameWithType: Character.ResetActionState
-- uid: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx(Vector3,System.String)
-  name: RPC_PlayFootstepSfx(Vector3, String)
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_PlayFootstepSfx_Vector3_System_String_
-  commentId: M:CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx(Vector3,System.String)
-  fullName: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx(Vector3, System.String)
-  nameWithType: Character.RPC_PlayFootstepSfx(Vector3, String)
-- uid: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx*
-  name: RPC_PlayFootstepSfx
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_PlayFootstepSfx_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.RPC_PlayFootstepSfx
-  nameWithType: Character.RPC_PlayFootstepSfx
 - uid: CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName(System.String)
   name: RPC_SetCharacterNickName(String)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_SetCharacterNickName_System_String_
@@ -3223,12 +3200,134 @@ references:
   commentId: N:CatchIo.Sound
   fullName: CatchIo.Sound
   nameWithType: CatchIo.Sound
+- uid: CatchIo.Sound.FootstepSfx
+  name: FootstepSfx
+  href: api/CatchIo.Sound.FootstepSfx.html
+  commentId: T:CatchIo.Sound.FootstepSfx
+  fullName: CatchIo.Sound.FootstepSfx
+  nameWithType: FootstepSfx
+- uid: CatchIo.Sound.FootstepSfx.#ctor
+  name: FootstepSfx()
+  href: api/CatchIo.Sound.FootstepSfx.html#CatchIo_Sound_FootstepSfx__ctor
+  commentId: M:CatchIo.Sound.FootstepSfx.#ctor
+  fullName: CatchIo.Sound.FootstepSfx.FootstepSfx()
+  nameWithType: FootstepSfx.FootstepSfx()
+- uid: CatchIo.Sound.FootstepSfx.#ctor*
+  name: FootstepSfx
+  href: api/CatchIo.Sound.FootstepSfx.html#CatchIo_Sound_FootstepSfx__ctor_
+  commentId: Overload:CatchIo.Sound.FootstepSfx.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Sound.FootstepSfx.FootstepSfx
+  nameWithType: FootstepSfx.FootstepSfx
+- uid: CatchIo.Sound.FootstepSfx.Play(Vector3,System.String,CharacterMoveState)
+  name: Play(Vector3, String, CharacterMoveState)
+  href: api/CatchIo.Sound.FootstepSfx.html#CatchIo_Sound_FootstepSfx_Play_Vector3_System_String_CharacterMoveState_
+  commentId: M:CatchIo.Sound.FootstepSfx.Play(Vector3,System.String,CharacterMoveState)
+  fullName: CatchIo.Sound.FootstepSfx.Play(Vector3, System.String, CharacterMoveState)
+  nameWithType: FootstepSfx.Play(Vector3, String, CharacterMoveState)
+- uid: CatchIo.Sound.FootstepSfx.Play(Vector3,System.String,System.Single)
+  name: Play(Vector3, String, Single)
+  href: api/CatchIo.Sound.FootstepSfx.html#CatchIo_Sound_FootstepSfx_Play_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Sound.FootstepSfx.Play(Vector3,System.String,System.Single)
+  fullName: CatchIo.Sound.FootstepSfx.Play(Vector3, System.String, System.Single)
+  nameWithType: FootstepSfx.Play(Vector3, String, Single)
+- uid: CatchIo.Sound.FootstepSfx.Play*
+  name: Play
+  href: api/CatchIo.Sound.FootstepSfx.html#CatchIo_Sound_FootstepSfx_Play_
+  commentId: Overload:CatchIo.Sound.FootstepSfx.Play
+  isSpec: "True"
+  fullName: CatchIo.Sound.FootstepSfx.Play
+  nameWithType: FootstepSfx.Play
 - uid: CatchIo.Sound.SoundManager
   name: SoundManager
   href: api/CatchIo.Sound.SoundManager.html
   commentId: T:CatchIo.Sound.SoundManager
   fullName: CatchIo.Sound.SoundManager
   nameWithType: SoundManager
+- uid: CatchIo.Sound.SoundManager.PlayFootstepSfx(Vector3,System.String,CharacterMoveState)
+  name: PlayFootstepSfx(Vector3, String, CharacterMoveState)
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlayFootstepSfx_Vector3_System_String_CharacterMoveState_
+  commentId: M:CatchIo.Sound.SoundManager.PlayFootstepSfx(Vector3,System.String,CharacterMoveState)
+  fullName: CatchIo.Sound.SoundManager.PlayFootstepSfx(Vector3, System.String, CharacterMoveState)
+  nameWithType: SoundManager.PlayFootstepSfx(Vector3, String, CharacterMoveState)
+- uid: CatchIo.Sound.SoundManager.PlayFootstepSfx*
+  name: PlayFootstepSfx
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlayFootstepSfx_
+  commentId: Overload:CatchIo.Sound.SoundManager.PlayFootstepSfx
+  isSpec: "True"
+  fullName: CatchIo.Sound.SoundManager.PlayFootstepSfx
+  nameWithType: SoundManager.PlayFootstepSfx
+- uid: CatchIo.Sound.SoundManager.PlayTerrainSfx(Vector3,System.String)
+  name: PlayTerrainSfx(Vector3, String)
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlayTerrainSfx_Vector3_System_String_
+  commentId: M:CatchIo.Sound.SoundManager.PlayTerrainSfx(Vector3,System.String)
+  fullName: CatchIo.Sound.SoundManager.PlayTerrainSfx(Vector3, System.String)
+  nameWithType: SoundManager.PlayTerrainSfx(Vector3, String)
+- uid: CatchIo.Sound.SoundManager.PlayTerrainSfx*
+  name: PlayTerrainSfx
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlayTerrainSfx_
+  commentId: Overload:CatchIo.Sound.SoundManager.PlayTerrainSfx
+  isSpec: "True"
+  fullName: CatchIo.Sound.SoundManager.PlayTerrainSfx
+  nameWithType: SoundManager.PlayTerrainSfx
+- uid: CatchIo.Sound.SoundManager.RPC_PlayFootstepSfx(Vector3,System.String,System.Int32)
+  name: RPC_PlayFootstepSfx(Vector3, String, Int32)
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_RPC_PlayFootstepSfx_Vector3_System_String_System_Int32_
+  commentId: M:CatchIo.Sound.SoundManager.RPC_PlayFootstepSfx(Vector3,System.String,System.Int32)
+  fullName: CatchIo.Sound.SoundManager.RPC_PlayFootstepSfx(Vector3, System.String, System.Int32)
+  nameWithType: SoundManager.RPC_PlayFootstepSfx(Vector3, String, Int32)
+- uid: CatchIo.Sound.SoundManager.RPC_PlayFootstepSfx*
+  name: RPC_PlayFootstepSfx
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_RPC_PlayFootstepSfx_
+  commentId: Overload:CatchIo.Sound.SoundManager.RPC_PlayFootstepSfx
+  isSpec: "True"
+  fullName: CatchIo.Sound.SoundManager.RPC_PlayFootstepSfx
+  nameWithType: SoundManager.RPC_PlayFootstepSfx
+- uid: CatchIo.Sound.SoundManager.RPC_PlayTerrainSfx(Vector3,System.String)
+  name: RPC_PlayTerrainSfx(Vector3, String)
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_RPC_PlayTerrainSfx_Vector3_System_String_
+  commentId: M:CatchIo.Sound.SoundManager.RPC_PlayTerrainSfx(Vector3,System.String)
+  fullName: CatchIo.Sound.SoundManager.RPC_PlayTerrainSfx(Vector3, System.String)
+  nameWithType: SoundManager.RPC_PlayTerrainSfx(Vector3, String)
+- uid: CatchIo.Sound.SoundManager.RPC_PlayTerrainSfx*
+  name: RPC_PlayTerrainSfx
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_RPC_PlayTerrainSfx_
+  commentId: Overload:CatchIo.Sound.SoundManager.RPC_PlayTerrainSfx
+  isSpec: "True"
+  fullName: CatchIo.Sound.SoundManager.RPC_PlayTerrainSfx
+  nameWithType: SoundManager.RPC_PlayTerrainSfx
+- uid: CatchIo.Sound.TerrainSfx
+  name: TerrainSfx
+  href: api/CatchIo.Sound.TerrainSfx.html
+  commentId: T:CatchIo.Sound.TerrainSfx
+  fullName: CatchIo.Sound.TerrainSfx
+  nameWithType: TerrainSfx
+- uid: CatchIo.Sound.TerrainSfx.#ctor
+  name: TerrainSfx()
+  href: api/CatchIo.Sound.TerrainSfx.html#CatchIo_Sound_TerrainSfx__ctor
+  commentId: M:CatchIo.Sound.TerrainSfx.#ctor
+  fullName: CatchIo.Sound.TerrainSfx.TerrainSfx()
+  nameWithType: TerrainSfx.TerrainSfx()
+- uid: CatchIo.Sound.TerrainSfx.#ctor*
+  name: TerrainSfx
+  href: api/CatchIo.Sound.TerrainSfx.html#CatchIo_Sound_TerrainSfx__ctor_
+  commentId: Overload:CatchIo.Sound.TerrainSfx.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Sound.TerrainSfx.TerrainSfx
+  nameWithType: TerrainSfx.TerrainSfx
+- uid: CatchIo.Sound.TerrainSfx.Play(Vector3,System.String,System.Single)
+  name: Play(Vector3, String, Single)
+  href: api/CatchIo.Sound.TerrainSfx.html#CatchIo_Sound_TerrainSfx_Play_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Sound.TerrainSfx.Play(Vector3,System.String,System.Single)
+  fullName: CatchIo.Sound.TerrainSfx.Play(Vector3, System.String, System.Single)
+  nameWithType: TerrainSfx.Play(Vector3, String, Single)
+- uid: CatchIo.Sound.TerrainSfx.Play*
+  name: Play
+  href: api/CatchIo.Sound.TerrainSfx.html#CatchIo_Sound_TerrainSfx_Play_
+  commentId: Overload:CatchIo.Sound.TerrainSfx.Play
+  isSpec: "True"
+  fullName: CatchIo.Sound.TerrainSfx.Play
+  nameWithType: TerrainSfx.Play
 - uid: CatchIo.UI
   name: CatchIo.UI
   href: api/CatchIo.UI.html

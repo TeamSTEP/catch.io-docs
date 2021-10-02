@@ -97,6 +97,7 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">IThrowable</span></div>
+    <div><span class="xref">ISurfaceObservable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -135,7 +136,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Items_Stone_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Stone : OffensiveThrowableItem, IThrowable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Stone : OffensiveThrowableItem, IThrowable, ISurfaceObservable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -296,6 +297,33 @@
   <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnPickup_Character_">ThrowableItem.OnPickup(Character)</a></div>
   
   
+  <a id="CatchIo_Items_Stone_OnSurfaceChanged_" data-uid="CatchIo.Items.Stone.OnSurfaceChanged*"></a>
+  <h4 id="CatchIo_Items_Stone_OnSurfaceChanged_System_Nullable_TileSurface__" data-uid="CatchIo.Items.Stone.OnSurfaceChanged(System.Nullable{TileSurface})">OnSurfaceChanged(Nullable&lt;TileSurface&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSurfaceChanged(TileSurface? newSurface)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">TileSurface</span>&gt;</td>
+        <td><span class="parametername">newSurface</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Items_Stone_OnThrow_" data-uid="CatchIo.Items.Stone.OnThrow*"></a>
   <h4 id="CatchIo_Items_Stone_OnThrow" data-uid="CatchIo.Items.Stone.OnThrow">OnThrow()</h4>
   <div class="markdown level1 summary"></div>
@@ -365,6 +393,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IThrowable</span>
+  </div>
+  <div>
+      <span class="xref">ISurfaceObservable</span>
   </div>
 </article>
           </div>

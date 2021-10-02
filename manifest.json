@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Effects.SoundWaveEffect.html",
-          "hash": "5kHdaKqlKMkeXQrq1Wnhet0kaz4d1KCN9Its0qbfmRA="
+          "hash": "NUkCCXfKhFHCz//UihvP019+OO835tOmQEtcO9mCDCU="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.Stone.html",
-          "hash": "u2ITSvszrdBCeWnd08lNUKA2CGeDQ7yrm5DoVfuXPDk="
+          "hash": "bIGHEqG1ddcQAbsg5wGJlx7FjpDgRGXjfSelVYaH9fo="
         }
       },
       "is_incremental": false,
@@ -484,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.ObjectPool.Footprint.html",
-          "hash": "A+ai6ZvHVsLVGTmBKLst3EdEvbSD8yjimy4lQjP9m1o="
+          "hash": "4/l5N7SyxdWVaxJa48a/675AEdSlogKQylG12yWl51Q="
         }
       },
       "is_incremental": false,
@@ -508,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.Character.html",
-          "hash": "VglS+GAW8bUw/U5fIFzDilEcrEAlWO+oaOHBp8cz7WI="
+          "hash": "yhiwjvdxmw/HxRNNj7lYhIKfS9MNg/GbPzfqgQzsWLo="
         }
       },
       "is_incremental": false,
@@ -720,11 +720,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Sound.FootstepSfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Sound.FootstepSfx.html",
+          "hash": "ZOBqPrefMAYPCEQaYpgBIuDfppl/8YWDXu0KDN/I0J0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Sound.SoundManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.SoundManager.html",
-          "hash": "0EoZOOXcdcZRq2bVGqjTiFgGcZO7ahV/Og1L18N1Dyg="
+          "hash": "htqqrL+uQb/CjCyuZJ6XNvegSA+0TSW7FJNBChqtRyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Sound.TerrainSfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Sound.TerrainSfx.html",
+          "hash": "pijXS1ZPQ4mDevDcDIRo6pG2B2zC4vi2YTXmZhh/WBU="
         }
       },
       "is_incremental": false,
@@ -736,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.html",
-          "hash": "lqoecmGRvqezBPUTGaezAdDmC9U6jhmm6EIXgJcqcLo="
+          "hash": "edgwDS0GXhxprSpcnHnJiDOCzFnn/XzAWWIPjRbRJEY="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pt9itoGcdle4tY74ZPqJ7KWQTcs4I8LbqZbtCb6jcs8="
+          "hash": "B+KDEu18Ajh5P97X0mGRROltfDbmg1Mfts9UO7Foqbk="
         }
       },
       "is_incremental": false,
@@ -1439,7 +1463,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 87,
+          "total_file_count": 89,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
