@@ -310,19 +310,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.SoundWaveEffect.CreateSoundWave
   nameWithType: SoundWaveEffect.CreateSoundWave
-- uid: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
-  name: OnPhotonInstantiate(PhotonMessageInfo)
-  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_OnPhotonInstantiate_PhotonMessageInfo_
-  commentId: M:CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
-  fullName: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
-  nameWithType: SoundWaveEffect.OnPhotonInstantiate(PhotonMessageInfo)
-- uid: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate*
-  name: OnPhotonInstantiate
-  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_OnPhotonInstantiate_
-  commentId: Overload:CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate
-  isSpec: "True"
-  fullName: CatchIo.Effects.SoundWaveEffect.OnPhotonInstantiate
-  nameWithType: SoundWaveEffect.OnPhotonInstantiate
 - uid: CatchIo.Enums
   name: CatchIo.Enums
   href: api/CatchIo.Enums.html
@@ -2227,6 +2214,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.ResetActionState
   nameWithType: Character.ResetActionState
+- uid: CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave(Vector3,System.Single)
+  name: RPC_GenerateSoundWave(Vector3, Single)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_GenerateSoundWave_Vector3_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave(Vector3,System.Single)
+  fullName: CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave(Vector3, System.Single)
+  nameWithType: Character.RPC_GenerateSoundWave(Vector3, Single)
+- uid: CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave*
+  name: RPC_GenerateSoundWave
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_GenerateSoundWave_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave
+  nameWithType: Character.RPC_GenerateSoundWave
 - uid: CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName(System.String)
   name: RPC_SetCharacterNickName(String)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_SetCharacterNickName_System_String_
