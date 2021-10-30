@@ -8,11 +8,15 @@ description: >-
 
 ## Core Game Mechanics
 
+{% hint style="warning" %}
+Contents in this section are very outdated and will be revised later.
+{% endhint %}
+
 The game will have the following mechanics at a glance:
 
-1 - Line of Sight \(player view cone\) 1.1 - The player will have a visual representation of their character's line-of-sight via the view cone, which looks like a flashlight, but it's just a visual indicator of what the player can see. 1.2 - Only the view area will be visible. Although the rest of the area is still visually shown, dynamic objects and other interests like other players or items will only be visible within the player's line-of-sight. 1.3 - There will be other objects that create light around a specified area that work similarly to character's line-of-sight. 1.4 - The character's line of sight will not be visible to the other players.
+1 - Line of Sight (player view cone) 1.1 - The player will have a visual representation of their character's line-of-sight via the view cone, which looks like a flashlight, but it's just a visual indicator of what the player can see. 1.2 - Only the view area will be visible. Although the rest of the area is still visually shown, dynamic objects and other interests like other players or items will only be visible within the player's line-of-sight. 1.3 - There will be other objects that create light around a specified area that work similarly to character's line-of-sight. 1.4 - The character's line of sight will not be visible to the other players.
 
-2 - "Soul Energy" 2.1 - The "Soul Energy" meter is essentially a character's health meter and stamina meter combined into one. 2.2 - Getting hit by an offensive object will decrease the character's "Soul Energy" meter. 2.3 - The "Soul Energy" meter will decrease when the player moves in any state \(run, walk, sneak\). Each movement state will have different decrease intervals to it. 2.4 - The "Soul Energy" meter is divided into two parts. The first part of it act as a "buffer", and will regenerate if the player stands still. 2.5 - The second part of the "Soul Energy" meter will start to be consumed instead when the first part gets empty. At this point, it will no longer regenerate when standing still. 2.6 - The second part of the "Soul Energy" meter will also slowly decrease over time. 2.7 - When the second part of the "Soul Energy" meter hits 0 after being attacked, the character dies. 2.8 - If it reaches 0 after decreasing over time, the player "looses control" of his character \(essentially the same things as dying\). 2.9 - The "Soul Energy" meter can be fully replenished by drinking a potion. 2.10 - Players can see their Soul Energy meter, but can not see the meter of other players. 2.11 - If the character's "Soul Energy" meter is below a certain amount, the player will hear and see soundwaves from random places while their vision starts to get darker. 2.12 - If the character's "Soul Energy" meter hits 0 after being attacked by another character, the character will die and drop their items on the ground. The character who killed them will have their stamina and sanity meters fully replenished. 2.13 - The "Soul Energy also very slowly decreases itself over time, as to encourage players to seek potions. If a character's sanity-meter hits 0 because of this effect, the player will loose control of his character, which has the same result of their character dying.
+2 - "Soul Energy" 2.1 - The "Soul Energy" meter is essentially a character's health meter and stamina meter combined into one. 2.2 - Getting hit by an offensive object will decrease the character's "Soul Energy" meter. 2.3 - The "Soul Energy" meter will decrease when the player moves in any state (run, walk, sneak). Each movement state will have different decrease intervals to it. 2.4 - The "Soul Energy" meter is divided into two parts. The first part of it act as a "buffer", and will regenerate if the player stands still. 2.5 - The second part of the "Soul Energy" meter will start to be consumed instead when the first part gets empty. At this point, it will no longer regenerate when standing still. 2.6 - The second part of the "Soul Energy" meter will also slowly decrease over time. 2.7 - When the second part of the "Soul Energy" meter hits 0 after being attacked, the character dies. 2.8 - If it reaches 0 after decreasing over time, the player "looses control" of his character (essentially the same things as dying). 2.9 - The "Soul Energy" meter can be fully replenished by drinking a potion. 2.10 - Players can see their Soul Energy meter, but can not see the meter of other players. 2.11 - If the character's "Soul Energy" meter is below a certain amount, the player will hear and see soundwaves from random places while their vision starts to get darker. 2.12 - If the character's "Soul Energy" meter hits 0 after being attacked by another character, the character will die and drop their items on the ground. The character who killed them will have their stamina and sanity meters fully replenished. 2.13 - The "Soul Energy also very slowly decreases itself over time, as to encourage players to seek potions. If a character's sanity-meter hits 0 because of this effect, the player will loose control of his character, which has the same result of their character dying.
 
 3 - Melee attack 3.1- Players can hit enemies by pressing the attack button. It's the most powerful attack in the game. 3.2- Hitting a character with a depleted sanity meter will kill them. 3.3 - if a melee attack does not kill the target, it will push the other character back and decrease their "Soul Energy" meter. 3.4 - If two characters hit themselves with melee attacks at about the same time, their attacks will be blocked, and both of them will be pushed back without loosing any "Soul Energy". 3.5 - A melee attack cannot bet blocked by characters who are hit from behind.
 
@@ -36,24 +40,24 @@ The game will have the following mechanics at a glance:
 
 The player's entire soul energy meter will have a maximum of X, and the default movement degradation will be 5 in n seconds for movement state Y. The countdown will start before the stamina value is reduced.
 
-* Walking -&gt; decreases "Soul Energy" by 5 for every 3 seconds.
-* Running -&gt; decreases "Soul Energy" by 5 for every second.
-* Sneaking -&gt; decreases "Soul Energy" by 5 for every 5 seconds.
+* Walking -> decreases "Soul Energy" by 5 for every 3 seconds.
+* Running -> decreases "Soul Energy" by 5 for every second.
+* Sneaking -> decreases "Soul Energy" by 5 for every 5 seconds.
 
-The degradation timer will not reset when the player's state changes. Instead, the new decrease rate will apply to the existing counter. For example, suppose the player was sneaking for 4 seconds and started to walk before the 5-second mark. In that case, the timer will not reset, but instead, check if the current countdown is above the current state's degradation rate and decrease it accordingly. The timer will reset after when the player's stamina has been reduced. Staying idle for 5 seconds will start to increase their "Soul Energy" by 5 every second. However, the "Soul Energy" meter won't passively regenerate if it gets below Z \(second part of the meter\). However, the player can still run or walk even if it's 0. Every throwable object \(or its bonus effects\) will have an attack value to it. Being in the area of effect will decrease the player's "Soul Energy" meter by the object's attack value.The character's Soul Energy will also slowly degrade, in a rate equivalent to the player's movement state. The main intention is to encourage players to find more potions, while not incentivizing them to start running arround whenever their Soul Energy level is high. When the sanity-meter is low, it will affect what the player sees and hear. The following are the "Energy meter" values and their debuffs: Below X \(second part of the meter\) -&gt; Reduce the player's field of view and visually makes the ambient darker. Below Y-&gt; spawn random footstep sound effect with the soundwave outside of the player's view. Below Z \(almost empty\)-&gt; The player cannot run, and the screen visually gets even darker. Killing another player or drinking a potion can replenish the player's "Soul Energy" meter. After a certain amount of time since the match has started, more potions will start spawning in locations far from the players.
+The degradation timer will not reset when the player's state changes. Instead, the new decrease rate will apply to the existing counter. For example, suppose the player was sneaking for 4 seconds and started to walk before the 5-second mark. In that case, the timer will not reset, but instead, check if the current countdown is above the current state's degradation rate and decrease it accordingly. The timer will reset after when the player's stamina has been reduced. Staying idle for 5 seconds will start to increase their "Soul Energy" by 5 every second. However, the "Soul Energy" meter won't passively regenerate if it gets below Z (second part of the meter). However, the player can still run or walk even if it's 0. Every throwable object (or its bonus effects) will have an attack value to it. Being in the area of effect will decrease the player's "Soul Energy" meter by the object's attack value.The character's Soul Energy will also slowly degrade, in a rate equivalent to the player's movement state. The main intention is to encourage players to find more potions, while not incentivizing them to start running arround whenever their Soul Energy level is high. When the sanity-meter is low, it will affect what the player sees and hear. The following are the "Energy meter" values and their debuffs: Below X (second part of the meter) -> Reduce the player's field of view and visually makes the ambient darker. Below Y-> spawn random footstep sound effect with the soundwave outside of the player's view. Below Z (almost empty)-> The player cannot run, and the screen visually gets even darker. Killing another player or drinking a potion can replenish the player's "Soul Energy" meter. After a certain amount of time since the match has started, more potions will start spawning in locations far from the players.
 
 ### Melee attack
 
 Attack action and collision: When a player presses the attack button, an attack animation will play throughout the entire attack duration. The attack motion should not be longer than 2 seconds. The attack collider will be set to follow the crystal as the attack animation plays. In terms of system mechanics, this is similar to that of swinging a sword. Players can walk while attacking. However, they won't be able to run or crouch in this state.
 
-Cooldown: At the end of an attack, the player will have 0.7 seconds \(adjustable\) of action cooldown. Players will not be able to trigger an attack during this interval.
+Cooldown: At the end of an attack, the player will have 0.7 seconds (adjustable) of action cooldown. Players will not be able to trigger an attack during this interval.
 
 Attack and block: When a player presses the attack button, either an attack or a block will occur, depending on the following circumstances:
 
 1 - Blocking attack
 
-* Condition: both characters are facing each other, and they attack at around the same time \(time limit of 1.5\).
-* Effect: no damage to either of the players. Instead, both of them are pushed back 4 ~ 5 tiles away from each other.
+* Condition: both characters are facing each other, and they attack at around the same time (time limit of 1.5).
+* Effect: no damage to either of the players. Instead, both of them are pushed back 4 \~ 5 tiles away from each other.
 
 2 - Sneak attack
 
@@ -70,12 +74,12 @@ There will be multiple throwable objects that can be collected throughout the ga
 
 * Rock: the most basic and common kind of throwable object. This will generate a small amount of noise when landed. If it hits another player; damage = 25.
 * Slime Egg: very common, but less common than rocks. After it lands, it will bounce in the same direction it was thrown, generating soundwaves that simulate a player walking. If it hits another character;damage=20 and kockbacks the enemy.
-* Exploding egg: rare item that generate an area of effect around where it lands, damaging players who stay inside each second; damage &lt;= 40.
+* Exploding egg: rare item that generate an area of effect around where it lands, damaging players who stay inside each second; damage <= 40.
 
 2 - Evasive:
 
 * Trap rune: a very rare item that will spawn a trap area when it lands, which will not be visible for player who are too far away from it. Any character who walks over this stun rune will be in a stunned. However, characters can throw rocks or other objects into the area to trigger the trap as well. For every player inside the area of effect; canStun = true;
-* Teleport Rune: a very rare item that will teleport the player to the landing point instantly. it will generate a sound \(with sound waves\) when the player is teleported. When thrown, the player will turn into light particles, and those particles will move to where the runestone has landed.
+* Teleport Rune: a very rare item that will teleport the player to the landing point instantly. it will generate a sound (with sound waves) when the player is teleported. When thrown, the player will turn into light particles, and those particles will move to where the runestone has landed.
 
 Every throwable object that can be thrown by a player and can hit a player will have the following properties:
 
@@ -90,11 +94,11 @@ These are static objects that are part of the map’s environment. Most of them 
 1 - Static:
 
 * Trees
-* Large furnitures \(sofas, beds, bookshelf, etc\)
+* Large furnitures (sofas, beds, bookshelf, etc)
 * Buildings
 * Campfires
 
-2 - Dynamic \(Interactive\):
+2 - Dynamic (Interactive):
 
 * Stack of books
 * Doors
@@ -103,15 +107,14 @@ Static objects are game field objects that will be constant throughout the clien
 
 ### Buildings
 
-The game map will contain several buildings that the players can go inside without a loading screen. The buildings should be walled when the player is outside, but when the player is inside the walls will be hiden and the house interior shown. This process should happen dynamically and prevent buildings from having a loading screen. This can be achieved by placing the roof tileset in a separate grid and toggle them during runtime. All buildings will have only one accesible floor, and within it usually there will be with many obstacles that block the player’s line of sight \(usually furniture\), providing a certain sense of security. Most buildings will only have one entrance, which makes it the perfect camping spot for other players, also potentially being a good hiding spot too.
+The game map will contain several buildings that the players can go inside without a loading screen. The buildings should be walled when the player is outside, but when the player is inside the walls will be hiden and the house interior shown. This process should happen dynamically and prevent buildings from having a loading screen. This can be achieved by placing the roof tileset in a separate grid and toggle them during runtime. All buildings will have only one accesible floor, and within it usually there will be with many obstacles that block the player’s line of sight (usually furniture), providing a certain sense of security. Most buildings will only have one entrance, which makes it the perfect camping spot for other players, also potentially being a good hiding spot too.
 
 ![](.gitbook/assets/print7.png)
 
-\(Figure 1\) Building before transition
+(Figure 1) Building before transition
 
 ![](.gitbook/assets/print6.png)
 
-\(Figure 2\) Building after transition
+(Figure 2) Building after transition
 
 When the player enters a building, the game view will be slightly zoomed into the structure and all the outside environment will be darkened, out which will prevent the player from seeing the exterior while being inside a building. To allow space for the player to move, walls must need to be at least 3 tiles tall, since the character sprites occupy almost 2 tiles in height.
-
