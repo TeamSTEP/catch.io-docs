@@ -73,13 +73,13 @@ There will be multiple throwable objects that can be collected throughout the ga
 1 - Offensive:
 
 * Rock: the most basic and common kind of throwable object. This will generate a small amount of noise when landed. If it hits another player; damage = 25.
-* Slime Egg: very common, but less common than rocks. After it lands, it will bounce in the same direction it was thrown, generating soundwaves that simulate a player walking. If it hits another character;damage=20 and kockbacks the enemy.
-* Exploding egg: rare item that generate an area of effect around where it lands, damaging players who stay inside each second; damage <= 40.
+* Exploding Egg: a rare item that generates an area of effect around where it lands, damaging players who stay inside each second; damage <= 40.
 
 2 - Evasive:
 
-* Trap rune: a very rare item that will spawn a trap area when it lands, which will not be visible for player who are too far away from it. Any character who walks over this stun rune will be in a stunned. However, characters can throw rocks or other objects into the area to trigger the trap as well. For every player inside the area of effect; canStun = true;
-* Teleport Rune: a very rare item that will teleport the player to the landing point instantly. it will generate a sound (with sound waves) when the player is teleported. When thrown, the player will turn into light particles, and those particles will move to where the runestone has landed.
+* Slime Egg: When the player throws this item, the egg will crack on the landed area and create a slimy surface that spans through 4 tile radius. Players who walk on this surface cannot run, and their movement speed will be decreased by 50%.
+* Trap rune: When this item is thrown, a huge trap object with 4 tiles of space inside will spawn on the area where it was landed. The visual effect of this object will be different depending on the player's class. The trap will have 200 points of health and it can be attacked from both inside and outside of the object. Once the object's health hits 0, the object will be destroyed.
+* Teleport Rune: When this item is thrown, the player will be teleported to where the rune lands. it will generate a sound (with sound waves) when the player is teleported. When thrown, the player will turn into light particles, and those particles will move to where the runestone has landed.
 
 Every throwable object that can be thrown by a player and can hit a player will have the following properties:
 
