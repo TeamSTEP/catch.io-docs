@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IDamageable
    | Catch.io Developer Reference ">
-    <meta name="generator" content="docfx 2.58.5.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
     <link rel="shortcut icon" href="../resources/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -98,12 +98,12 @@ Object taking damage must implement the OnDamage function, and objects that give
   
   
   <a id="CatchIo_PlayerCharacter_IDamageable_OnDamage_" data-uid="CatchIo.PlayerCharacter.IDamageable.OnDamage*"></a>
-  <h4 id="CatchIo_PlayerCharacter_IDamageable_OnDamage_System_Single_" data-uid="CatchIo.PlayerCharacter.IDamageable.OnDamage(System.Single)">OnDamage(Single)</h4>
+  <h4 id="CatchIo_PlayerCharacter_IDamageable_OnDamage_CatchIo_PlayerCharacter_Character_System_Single_" data-uid="CatchIo.PlayerCharacter.IDamageable.OnDamage(CatchIo.PlayerCharacter.Character,System.Single)">OnDamage(Character, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnDamage(float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnDamage(Character attacker, float damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,6 +115,11 @@ Object taking damage must implement the OnDamage function, and objects that give
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.Character.html">Character</a></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">damage</span></td>
