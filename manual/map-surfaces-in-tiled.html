@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Map surfaces in Tiled | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Map surfaces in Tiled | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="map-surfaces-in-tiled">Map surfaces in Tiled</h1>
+
+<p>Last Edited: November 5, 2021 2:06 PM
+Status: Draft
+Type: Manual</p>
+<h1 id="game-map-architecture">Game Map Architecture</h1>
+<p>The scripting aspect of the project may change depending on the implementation. In order to keep the development flow going, it is important for us to separate the level designing process from the level feature implementation. We do not want the level designers to wait for some coding task to finish or lose their work when we change or optimize the tilemap system. At the same time, we want a flexible and powerful editing tool that allows the level designer to abstract the features. That is why our team had to use external tools for map designing instead of keeping everything in Unity.</p>
+<p><img src="https://user-images.githubusercontent.com/40356749/140515438-1c999df9-f063-4152-9929-9879a3105acd.png" alt="map-architecture.png"></p>
+<p>This guide will describe how you can create a map &quot;wireframe&quot; for <a href="http://Catch.io">Catch.io</a> using Tiled.</p>
+<p>Note that this guide assumes that the reader has basic knowledge of all the tools used in this project and therefore, will only describe the parts that are unique to Catch.io&#39;s map design process.</p>
+<h1 id="creating-a-map-using-tiled">Creating a Map Using Tiled</h1>
+<h2 id="what-is-tiled">What is Tiled</h2>
+<p>There are many options when it comes to implementing 2D tilemap systems in Unity. To keep the project development flow clean, we will use a map editing tool called Tiled. You can download the latest version from the <a href="https://www.mapeditor.org/">official site</a>. Alternatively, you can compile it from <a href="https://github.com/mapeditor/tiled">the source</a>.</p>
+<p>Tiled is a map editing tool that reads and saves the map information as a tilemap file with the extension <code>.tmx</code> which is a form of XML. Tiled comes with various powerful tools and features that make 2D map designing easy. You can add custom properties to petty much everything starting from the map down to the individual tiles. Thanks to this feature, it is possible to create a concept map that contains features that are not yet implemented in the game. Our project uses Tiled as the main map designing tool, therefore, designers can directly link Unity prefabs and tile properties within Tiled.</p>
+<p>To learn more about what this tool is capable of, please refer to the <a href="https://doc.mapeditor.org/en/stable/manual/introduction/">Tiled official documentation</a>.</p>
+<h3 id="tiled-project-file">Tiled Project File</h3>
+<p>All the maps, worlds, tilesets, object templates, and types used within <a href="http://Catch.io">Catch.io</a> are managed by a single project file (<code>.tiled-project</code>). Keeping a project file as a single source of reference for all the Tiled files allows us to keep a consistent working environment across different designers.</p>
+<p>The Tiled project will be part of Catch.io’s source code under the folder <code>TiledMapEditor/</code>. The location of this folder may change depending on how we decide to import the map data to Unity, but as of this writing, the folder will be in the root directory of the project (<code>TiledMapEditor/CatchIoLevels.tiled-project</code>).</p>
+<h3 id="tiled-project-folder-structure">Tiled Project Folder Structure</h3>
+<p>For our project, we will have the following folder structure:</p>
+<ul>
+<li><code>extensions</code>: Contains the Tiled editor extension scripts that can be used by the designer. This folder is a clone of the official extension <a href="https://github.com/mapeditor/tiled-extensions">repository</a>. You can create new extensions and just add them to this folder. The editor will automatically parse through the content.</li>
+<li><code>Maps</code>: Contains the TMX tilemap file that the designer will directly work on, plus the automapping rules entry point. All game levels designed in Tiled should be saved in this folder.<ul>
+<li><code>Rules</code>: A subdirectory of <code>Maps</code>. This folder contains the automapping rule maps that will be used in this project. All TMX files used here must be referenced in the <code>rules.txt</code> file in the <code>Maps</code> folder if you want the editor to read them.</li>
+<li><code>Schemes</code>: A folder that contains a world file. In short, these are the main file that combines the smaller <code>.tmx</code> files into a single large playable map that will be imported to Unity.</li>
+</ul>
+</li>
+<li><code>Templates</code>: Contains the map object template file. Objects are useful when you want to reference a Unity prefab or other complicated game-specific logic that is difficult to add using Tiled. When you create an object that is used in other maps, please create a template of it and save it in this folder.</li>
+<li><code>Tileset</code>: Contains the tileset information that is used in the map. The tileset source image will always be inside the <code>Assets/Textures/Tileset</code> or <code>Assets/Textures/Props</code> folder. This means that all the tilemap used in Tiled are based on the raw sprites that are read by the game engine. Tileset should match the sprite name that it is based on to reduce confusion.</li>
+<li><code>Types</code>: Contains the map object type data. Using types allows the object to have a consistent property which makes it easy for the Unity importer to handle them later on. All types are kept in a single <code>.xml</code> file, so every time you add a new type, you should overwrite the existing one. However, be careful not to change the file name as they are referenced by the <code>.tiled-project</code> file.</li>
+</ul>
+<h3 id="naming-schemes">Naming Schemes</h3>
+<p>In our project, the file naming scheme will differ depending on its type.</p>
+<p>For general naming styles, we have;</p>
+<ul>
+<li><code>PascalCase</code>: <code>.tmx</code> files (tilemap), <code>.world</code> files (tile world), tile layers, terrain names, folder names, and all custom property key-values, <code>.tx</code> files (object templates), object types (<code>Types/ObjectTypes.xml</code>) are written in this case. For example, <code>GrassLand.tmx</code>, <code>BorderColliders</code> layer, custom property <code>surface:Terrain</code> : <code>Ground</code>, etc.</li>
+<li><code>snake_case</code>: only <code>.tsx</code> files (tileset) are written in this style. For example, <code>cave_decorative.tsx</code>.</li>
+<li><code>kebab-case</code>: only <code>.js</code> files (JavaScript Tiled extensions) are written in this case. Note that folders inside the <code>extension</code> folder are also written in this style too.</li>
+</ul>
+<h2 id="maps-and-layers">Maps and Layers</h2>
+<h3 id="tilesets">Tilesets</h3>
+<p><img src="https://user-images.githubusercontent.com/40356749/140515608-4a3fb3ac-f9a5-491b-bdc8-161962335067.jpg" alt="tileset-property-editor"></p>
+<p>Our game works on an orthogonal 32x32 tilemap. So when you create a new tileset, please ensure that it contains the following properties:</p>
+<pre><code class="lang-yaml">Orientation: Orthogonal
+ObjectAlignment: Unspecified
+GridWidth: 32
+GridHeight: 32
+</code></pre><p>The tileset source image will be stored inside <code>Assets/Textures/Tileset/</code>, which is the same location as the in-game tilemap object texture.</p>
+<h3 id="terrains">Terrains</h3>
+<p>All environmental tiles should have a defined terrain so that they can be drawn with the terrain brush. Terrains are essentially a simple <a href="http://www.cr31.co.uk/stagecast/wang/intro.html">Wang Tile</a> algorithm. Defining the terrains in a tileset allows the designers to use terrain brushes for auto mapping. You can learn more about creating terrains in Tiled from the <a href="https://doc.mapeditor.org/en/stable/manual/terrain/#define-the-terrain-information">official documentation</a>.</p>
+<p>As you can see from the image below, the type of terrain is represented by a color code, and the rules are defined by its shape.</p>
+<p><img src="https://user-images.githubusercontent.com/40356749/140515643-c674f3ad-8157-42f0-a9b5-dd0561ea4f19.jpg" alt="map-terrain"></p>
+<p>However, Wang Tile patterns in Tiled can only work on a per-tile basis. Meaning that multi-tile high objects like cliffs cannot be expressed purely using terrains.</p>
+<p>Automapping or rule tiles can solve this. For example, we use a brute-forced one-to-one mapping to automatically add the bottom half of the cliff when the designer places the top half of the cliff on the map.</p>
+<p><img src="https://user-images.githubusercontent.com/40356749/140515729-1701b4ea-847b-4fe0-97aa-cdd28167b353.jpg" alt="rule-map-auto-tiling"></p>
+<p>For more information, please refer to the <a href="https://doc.mapeditor.org/en/stable/manual/automapping/">official documentation</a>.</p>
+<h3 id="tilemaps">Tilemaps</h3>
+<p><img src="https://user-images.githubusercontent.com/40356749/140515822-6d2d1212-5975-466c-b5fb-0c9433d5a990.jpg" alt="map-property.jpg"></p>
+<p>In most cases, our tilemap will need the following property values:</p>
+<pre><code class="lang-yaml">Orientation: Orthogonal
+TileWidth: 32
+TileHeight: 32
+Infinite: true
+TileLayerFormat: Base64
+OutputChunkWidth: 16
+OutputChunkHeight: 16
+TileRenderOrder: RightDown
+</code></pre><p>And the following are custom properties to configure the sorting layer and object tag of the tilemap when it is loaded to Unity. For most maps, we use the following default values:</p>
+<pre><code class="lang-yaml">unity:SortingLayer: GroundTilemap
+unity:Tag: Tilemap
+</code></pre><h3 id="layers">Layers</h3>
+<p><img src="https://user-images.githubusercontent.com/40356749/140515903-fb0683f8-dd60-4b58-aad3-0fbbaf3b836c.jpg" alt="tilemap-layers"></p>
+<p>Our game will only use the <code>Tile Layer</code> and the <code>Object Layer</code> (however we do use the <code>Group Layer</code> to clean up the map layers). Tile layers are used for drawing the map while object layers are used to place custom map objects that are used to either import Unity prefabs to the scene or to add a line collider to the map.</p>
+<p><strong>Layer rules</strong></p>
+<ul>
+<li>Layer names must use the <code>PascalCase</code> without any space.</li>
+<li>All tile layers must be separated based on the type of surface and the sound effect it generates, not the terrain type. For example, our game has two variants of grass terrain. However, they can be in the same layer as both of them will generate the same sound effect.</li>
+<li>Tile layer names must represent the surface type.</li>
+<li>Object layers are limited to <code>SpawnPoints</code>, <code>Items</code>, <code>Environment</code>, and <code>Colliders</code>.</li>
+</ul>
+<h2 id="readable-surfaces">Readable Surfaces</h2>
+<p>A readable surface in <a href="http://Catch.io">Catch.io</a> is defined by the custom property of a tile layer.</p>
+<p>To add layer surface information, click on a tile layer and add the following custom properties.</p>
+<pre><code class="lang-yaml">surface:LeavesMark: &quot;bool&quot;
+surface:Terrain: &quot;string&quot;
+surface:Volume: &quot;float&quot;
+</code></pre><p>Note that surface-related custom properties will have the prefix <code>surface:</code>.</p>
+<p><img src="https://user-images.githubusercontent.com/40356749/140516018-75d43647-e5cd-4640-b699-e1594dfa0b79.jpg" alt="surface-custom-prop"></p>
+<p>For example, a mud layer can have the following custom properties.</p>
+<pre><code class="lang-yaml">surface:LeavesMark: true
+surface:Terrain: &quot;Mud&quot;
+surface:Volume: 4.0
+</code></pre><ul>
+<li><code>surface:LeavesMark</code>: This property will determine whether or not if the surface will leave a footprint when the player walks on top of it.</li>
+<li><code>surface:Terrain</code>: This property will define the sound effect that will be played when an object like the player or throwable items interact with the surface. Note that the string value of this property must match the label value for parameter <code>Terrain</code> in event <code>TerrainSfx</code>. The string value of this custom property is directly passed to the FMOD plugin.</li>
+<li><code>surface:Volume</code>: This property will determine the lifetime of the sound wave that is emitted when an object interacts with the surface. The actual volume of the sound effect is defined in FMOD.</li>
+</ul>
+<h2 id="adding-unity-prefabs-from-the-tilemap">Adding Unity Prefabs from the Tilemap</h2>
+<p>In <a href="http://Catch.io">Catch.io</a>, the designer should be able to define player spawn points, item spawn points, and other environmental objects directly to the game map without having to open Unity. To do this, we use map objects with custom properties that point to the prefab file in the project&#39;s assets folder.</p>
+<p>All objects that are going to be replaced as an actual prefab in the game scene are represented by a point object which can be created by using the <code>Insert Point(I)</code> option when clicked on an object layer.</p>
+<p>Click on the point object that you wish to change, and choose the type <code>Prefab</code> for the property <code>Type</code>.</p>
+<p><img src="https://user-images.githubusercontent.com/40356749/140516094-3685245d-9695-4440-91c2-5acf9f4c2d4e.jpg" alt="custom-object-types"></p>
+<p>This will add the custom property <code>prefabSource</code> which contains the file path of the prefab within the <code>Assets/</code> folder. The <code>unity:FlipX</code> and <code>unity:FlipY</code> properties are used to flip the prefab sprite in the game. Note that once you define the values, the game will replace the point object with the selected prefab in the exact location, layer, and name of the map object.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/development/v0.0.1a/Documentation/manual/map-surfaces-in-tiled.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
