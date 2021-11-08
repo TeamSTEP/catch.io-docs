@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Game Mechanics and Features](game-mechanics-and-features.md)
 * [Game Design and Balancing](game-design-and-balancing.md)
+* [Game Mechanics and Features](game-mechanics-and-features.md)
 * [Release Platform](release-platform.md)
 * [Development Team and Roles](development-team-and-roles.md)
 * [Visual Design](visual-design.md)
@@ -15,5 +15,5 @@
 * [Profit Model](profit-model.md)
 * [Marketing Strategy](marketing-strategy.md)
 * [Pivot Strategy](pivot-strategy.md)
-* [Developer Manual](https://devdocs.witchone.io/)
-
+* [Developer Manual](https://devdocs.witchone.io)
+* [Project Landing Page](https://witchone.io)

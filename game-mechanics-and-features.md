@@ -1,6 +1,6 @@
 ---
 description: >-
-  This section describes the overall game mechanic, features and different
+  This section describes the overall game mechanic, features, and different
   categories of in-game items
 ---
 
@@ -8,35 +8,70 @@ description: >-
 
 ## Core Game Mechanics
 
-{% hint style="warning" %}
-Contents in this section are very outdated and will be revised later.
-{% endhint %}
-
-The game will have the following mechanics at a glance:
-
-1 - Line of Sight (player view cone) 1.1 - The player will have a visual representation of their character's line-of-sight via the view cone, which looks like a flashlight, but it's just a visual indicator of what the player can see. 1.2 - Only the view area will be visible. Although the rest of the area is still visually shown, dynamic objects and other interests like other players or items will only be visible within the player's line-of-sight. 1.3 - There will be other objects that create light around a specified area that work similarly to character's line-of-sight. 1.4 - The character's line of sight will not be visible to the other players.
-
-2 - "Soul Energy" 2.1 - The "Soul Energy" meter is essentially a character's health meter and stamina meter combined into one. 2.2 - Getting hit by an offensive object will decrease the character's "Soul Energy" meter. 2.3 - The "Soul Energy" meter will decrease when the player moves in any state (run, walk, sneak). Each movement state will have different decrease intervals to it. 2.4 - The "Soul Energy" meter is divided into two parts. The first part of it act as a "buffer", and will regenerate if the player stands still. 2.5 - The second part of the "Soul Energy" meter will start to be consumed instead when the first part gets empty. At this point, it will no longer regenerate when standing still. 2.6 - The second part of the "Soul Energy" meter will also slowly decrease over time. 2.7 - When the second part of the "Soul Energy" meter hits 0 after being attacked, the character dies. 2.8 - If it reaches 0 after decreasing over time, the player "looses control" of his character (essentially the same things as dying). 2.9 - The "Soul Energy" meter can be fully replenished by drinking a potion. 2.10 - Players can see their Soul Energy meter, but can not see the meter of other players. 2.11 - If the character's "Soul Energy" meter is below a certain amount, the player will hear and see soundwaves from random places while their vision starts to get darker. 2.12 - If the character's "Soul Energy" meter hits 0 after being attacked by another character, the character will die and drop their items on the ground. The character who killed them will have their stamina and sanity meters fully replenished. 2.13 - The "Soul Energy also very slowly decreases itself over time, as to encourage players to seek potions. If a character's sanity-meter hits 0 because of this effect, the player will loose control of his character, which has the same result of their character dying.
-
-3 - Melee attack 3.1- Players can hit enemies by pressing the attack button. It's the most powerful attack in the game. 3.2- Hitting a character with a depleted sanity meter will kill them. 3.3 - if a melee attack does not kill the target, it will push the other character back and decrease their "Soul Energy" meter. 3.4 - If two characters hit themselves with melee attacks at about the same time, their attacks will be blocked, and both of them will be pushed back without loosing any "Soul Energy". 3.5 - A melee attack cannot bet blocked by characters who are hit from behind.
-
-4 -Throwable Objects 4.1- Throwable objects are scattered throughout the map. Buildings almost always have items inside them. 4.2 - Characters will be able to pick them up and hold up to 4 items in their inventory. Slots are not stackable. 4.3 - Throwable objects will be categorized into two different types, offensive and evasive. 4.4 - Offensive throwables will decrease an enemy's sanity-meter, and may also do additional effects such as pushing them back. 4.5 - Evasive throwables are focused on utilities such as assisting the player in escaping dangerous situations, baiting other players to move to a particular location or affecting an enemy character movement. 4.6 - Each throwable objects will emit a soundwave to represent the landing position with a different wave radius.
-
-5 - Surface Types 5.1 - Different surfaces will have different sound effects. 5.2 - Some surfaces will not generate any sound. 5.3 - There will be tile objects that will affect the player's character movement. For instance, a player may be unable to run on ice.
-
-6 - Footprints 6.1 - Some surfaces will be able to leave a footprint when the player's character walks on it. 6.2 - The footprint will last forever until the player who left them is killed.
-
-7 - Environmental Objects 7.1 - Environmental objects include Trees, Rocks, Bushes, Tall Grasses, Item Crates, etc. 7.2 - These Environmental objects will be imported as a prefab brush inside the Unity engine. 7.3 - There will be objects that illuminate the surrounding area like a torch or any other light source.
-
-8 - Player Movement 8.1 - Characters have three different movement states: Running, Walking and Sneaking. 8.2 - Each movement state will have different speeds attached to it. 8.3 - Sneaking will not generate any soundwaves for most surfaces, while the other modes will.
-
-9 - Player Characters 9.1 - There are multiple player characters. Players can choose their character while in the lobby waiting for the game to start. 9.2 - Characters cannot be changed during the game. 9.3 - The player's character will have no effect in gameplay. 9.4 - Each character in the game will have different visuals, particle effects, animations and footprints.
-
-10 - Win condition 10.1 - When only three players are left, a countdown of 5 minutes will start. 10.2 - If only one character is left alive before the countdown ends, they will be the winner. 10.3 - Otherwise, the player with the most "Soul Energy" left will be the winner. 10.4 - If more than one player have the same amount of "Soul Energy", draw conditions will be implemented. 10.5 - All of the other players will be ranked below the winner, and their place will be corelated to how much they had survived.
+* Cursed One
+  * At the start of the game, a random player will be chosen as the Cursed One.
+  * The Cursed One must kill a player before the timer runs out. If the Cursed One kills another player, a different player will be randomly chosen as the new Cursed One, and the previous one will turn into a normal player. If the Cursed One fails to kill a player before the timer runs out, that player will be killed and a new player will be randomly chosen as the new Cursed One.
+  * The game will last until there is only one player left.
+  * Only the Cursed One will know if she is the Cursed One. Other players will not be able to tell who is the Cursed One.
+  * Cursed One will always deal bleeding damage to other players. Meaning that even if the Cursed One fails to kill a player in one hit, it will still gradually deal damage to the other player for 5 seconds unless the dying player drinks a healing potion.
+  * Cursed One has twice the amount of health and stamina points. Their health points will gradually replenish by 10 points per second after staying idle for 3 seconds.
+  * A clean backstab by any players will kill the Cursed One in one hit.
+  * A player who has been chosen as the Cursed One will not be chosen as the next Cursed One unless everyone in the game has already become one at least once.
+* Line of sight (player view cone)
+  * The player will have a visual representation of their character's line of sight via the view cone, which looks like a flashlight, but it's just a visual indicator of what the player can see.
+  * Only the view area will be visible. Although the rest of the area is still visually shown, dynamic objects and other interests like other players or items will only be visible within the player's line of sight.
+  * There will be other objects that create light around a specified area that work similarly to the character's line of sight.
+  * The character's line of sight will not be visible to the other players.
+  * The radius of the area light will gradually increase if the player is in a crouching state for more than 5 seconds.
+* Health-meter
+  * Health is the main player status that determines how much more damage the player can take.
+  * Every player has a maximum health of 100.
+  * Normal players can only recover their health by using a healing potion.
+  * Melee attacks, being hit by a throwable object, and other damage effects can reduce the player's health.
+  * If the health value is 0 or less, the player will die.
+* Stamina-meter
+  * Stamina represents the number of actions the player can do. Certain actions will cost a certain amount of stamina.
+  * Every player has maximum stamina of 100.
+  * If the player stands in a single location for more than 3 seconds, the stamina value will gradually recover (5 points per second). Players can also recover their stamina by using the healing potion.
+  * Running will decrease stamina by 10 points per second.
+  * Attacking will cost 40 stamina points.
+  * Throwing will cost 20 stamina points.
+* Player movement
+  * Players can either walk, crouch, or run.
+  * Crouching can reduce noise.
+  * Running and walking can emit noise.
+* Melee attack
+  * Players can attack by pressing the attack (throw/use) button.
+  * Attacking a player in the back will trigger a "Backstab" which will kill the player in one hit.
+  * Attacking the player who is also attacking you will deflect the attack and push both players away by 5 tiles.
+  * Players cannot move or perform other actions while the attack animation is playing.
+* Consumable items and throwable items
+  * The game will have different types of items scattered throughout the map.
+  * Players can pick up items by getting close to them. Inventory slots will be limited (5 to 8 slots) and players cannot stack items with each other.
+  * Throwable items are categorized into Evasive throwables and Offensive throwables. Evasive items generally do not deal damage to other players and it is mainly used to support the player to run away or set traps. Offensive items are focused on dealing damage to other players.
+  * Currently, there is only one consumable item which is the healing potion. Consuming the healing potion will completely heal the player's health and stamina.
+  * Players can aim or consume the item by pressing the use button (right mouse button on PC).
+  * Using the consumable item will consume it immediately. Using the throwable item will enter in aim mode. Pressing the action button (attack) while in aim mode will throw the item.
+* Surface types
+  * All tiles in the game will have a surface property attached to them. These properties will be read by the player character or the throwable item when it gets in contact with the tile.
+  * The surface property includes; surface sound, surface volume (sound wave lifespan), and check if it leaves a footprint or not.
+  * The surface sound effect will be different from type to type. Every surface that emits a sound will also emit a visible sound wave, including throwable objects.
+  * Some surfaces can leave footprints by the player. Footprints will last forever in the game until the owner of the footprint is dead. In other words, players will only see footprints of players that are still in the game.
+* Environmental objects and hiding spots
+  * The game will have many environmental objects, props, and hiding spots throughout the map. These objects are meant to blend in with the map environment and it's treated as part of the map that the player can interact with.
+  * Hiding spots are environmental objects that the player can hide behind by pressing crouch. If the player stands behind these objects, there will be an icon on top of the player to let them know that they can hide by crouching. Crouching behind this object will make the player invisible to other players until it collides with another player.
+* Character class
+  * The game will allow the player to choose between multiple classes before the game starts.
+  * We will have 3 classes in the beginning, but we will gradually add more playable characters and class skin variants.
+  * Different character classes will have different visual effects. Examples include footprints, trap rune effects, teleport effects, etc. However, there won't be any class-based special abilities or other mechanics that affect the gameplay. Characters with different classes will mostly play the same.
 
 ## Detailed Mechanics
 
-### "Soul Energy" meter behaviour
+{% hint style="warning" %}
+The content in this section is outdated and will be updated to reflect the latest changes.
+{% endhint %}
+
+### "Soul Energy" meter behavior
 
 The player's entire soul energy meter will have a maximum of X, and the default movement degradation will be 5 in n seconds for movement state Y. The countdown will start before the stamina value is reduced.
 
@@ -94,7 +129,7 @@ These are static objects that are part of the map’s environment. Most of them 
 1 - Static:
 
 * Trees
-* Large furnitures (sofas, beds, bookshelf, etc)
+* Large furniture (sofas, beds, bookshelf, etc)
 * Buildings
 * Campfires
 
@@ -109,12 +144,8 @@ Static objects are game field objects that will be constant throughout the clien
 
 The game map will contain several buildings that the players can go inside without a loading screen. The buildings should be walled when the player is outside, but when the player is inside the walls will be hiden and the house interior shown. This process should happen dynamically and prevent buildings from having a loading screen. This can be achieved by placing the roof tileset in a separate grid and toggle them during runtime. All buildings will have only one accesible floor, and within it usually there will be with many obstacles that block the player’s line of sight (usually furniture), providing a certain sense of security. Most buildings will only have one entrance, which makes it the perfect camping spot for other players, also potentially being a good hiding spot too.
 
-![](.gitbook/assets/print7.png)
+![(Figure 1) Building before transition](.gitbook/assets/print7.png)
 
-(Figure 1) Building before transition
-
-![](.gitbook/assets/print6.png)
-
-(Figure 2) Building after transition
+![(Figure 2) Building after transition](.gitbook/assets/print6.png)
 
 When the player enters a building, the game view will be slightly zoomed into the structure and all the outside environment will be darkened, out which will prevent the player from seeing the exterior while being inside a building. To allow space for the player to move, walls must need to be at least 3 tiles tall, since the character sprites occupy almost 2 tiles in height.

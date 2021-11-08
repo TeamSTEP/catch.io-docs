@@ -29,7 +29,7 @@ The game will randomly choose a "Cursed One" who has to catch a player before th
 Witch One can be broken down into the following game mechanics:
 
 * Melee attack
-* Soul energy
+* Health & stamina
 * Throwable items
 * Consumable items
 * Footprints
