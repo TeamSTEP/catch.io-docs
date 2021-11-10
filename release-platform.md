@@ -2,7 +2,7 @@
 
 ## Target Platform Specs
 
-This project is expected to be released on console platforms and mobile devices. Due to cheating concerns, PC will only be supported through browsers \(WebGL\). However, we will have to discuss the feasibility of this as browsers do not provide a lot of hardware resources for the game.
+This project is expected to be released on console platforms and mobile devices. Due to cheating concerns, PC will only be supported through browsers (WebGL). However, we will have to discuss the feasibility of this as browsers do not provide a lot of hardware resources for the game.
 
 For development purposes, the target platform specs will focus on mobile systems. Once the PC release has been made, the team will slowly port the project onto other platforms.
 
@@ -19,9 +19,8 @@ The size of the throwable objects should be 16 pixels at max. It should have rea
 
 ## Platform Release Strategy
 
-Witch One will first release for **PC** \(Windows and macOS\) browsers, therefore the controls and interface will be focused on PC players with minimum specs. The PC version will be the _Minimum Viable Product_ for the team. This MVP will be used for marketing and attract funding for the project. The release channel for the MVP will be on itch.io and browser application on the team's homepage. The marketing of the MVP will be done for about a month.
+Witch One will be first released for **PC** (Windows and macOS) **browsers**, therefore the controls and interface will be focused on PC players with minimum specs. The browser version will be the _vertical slice_ of the project. This vertical slice will be used for marketing and attracting interest to form a community.&#x20;
 
-Once the project has gathered more than 1000 players and proper funding from investors, we will aim for a Steam release that is estimated to take about a month. This process will be worked on parallel with the mobile port of the project.
+Once the project has gathered more than 400 concurrent players and 500 community members (through Discord or the team subreddit), we will aim for a Steam release alongside the preparation for a mobile version.
 
 The mobile platform release will start with the Android version for Google Playstore. Next will be for iOS devices on Apple Store.
-

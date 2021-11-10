@@ -47,7 +47,7 @@ description: >-
   * Players cannot move or perform other actions while the attack animation is playing.
 * Consumable items and throwable items
   * The game will have different types of items scattered throughout the map.
-  * Players can pick up items by getting close to them. Inventory slots will be limited (5 to 8 slots) and players cannot stack items with each other.
+  * Players can pick up items by getting close to them. Inventory slots will be limited (6 slots) and players cannot stack items with each other.
   * Throwable items are categorized into Evasive throwables and Offensive throwables. Evasive items generally do not deal damage to other players and it is mainly used to support the player to run away or set traps. Offensive items are focused on dealing damage to other players.
   * Currently, there is only one consumable item which is the healing potion. Consuming the healing potion will completely heal the player's health and stamina.
   * Players can aim or consume the item by pressing the use button (right mouse button on PC).

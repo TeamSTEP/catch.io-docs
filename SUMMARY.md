@@ -10,7 +10,6 @@
 * [Story](story.md)
 * [Interface and Menus](interface-and-menus.md)
 * [Game Controls](game-controls.md)
-* [Development Timeline](development-timeline.md)
 * [Post-Development](post-development.md)
 * [Profit Model](profit-model.md)
 * [Marketing Strategy](marketing-strategy.md)
