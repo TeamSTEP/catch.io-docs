@@ -45,7 +45,7 @@ But you can also use the tools and items scattered throughout the world to your 
 
 The items scattered throughout the map can help the player to weaken or trap other players, but none of them will be strong enough to kill another player in one hit. Furthermore, every movement that the player makes will create a visual soundwave that is visible to other players. Certain surfaces will emit a visible sound wave or leave a footprint that will last until that player is out of the game. A single match will consist of 10 \~ 15 players, that will be randomly spawned at a fixed location. Predefined spawn points are used to ensure that no players will ever see each other at the very beginning of the game. Players are only given 6 item slots (with no item stacking), and they will not start with any items.
 
-The development will be done through _Unity 2021.1.19_ and it will stay there until released. The engine version can change if there is a critical bug that the later version addresses.
+The development will be done through _Unity 2021.2.2_ and it will stay there until released. The engine version can change if there is a critical bug that the later version addresses.
 
 ![(Figure 2) Sound visualization from Mark of the Ninja](.gitbook/assets/1.jpeg)
 
