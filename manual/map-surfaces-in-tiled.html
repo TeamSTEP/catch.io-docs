@@ -134,7 +134,7 @@ GridHeight: 32
 <p><img src="https://user-images.githubusercontent.com/40356749/140515729-1701b4ea-847b-4fe0-97aa-cdd28167b353.jpg" alt="rule-map-auto-tiling"></p>
 <p>For more information, please refer to the <a href="https://doc.mapeditor.org/en/stable/manual/automapping/">official documentation</a>.</p>
 <h3 id="tilemaps">Tilemaps</h3>
-<p><img src="https://user-images.githubusercontent.com/40356749/140515822-6d2d1212-5975-466c-b5fb-0c9433d5a990.jpg" alt="map-property.jpg"></p>
+<p><img src="https://user-images.githubusercontent.com/40356749/141650312-f12e4198-9c79-41aa-8d8b-b62523bddca5.png" alt="map-property.jpg"></p>
 <p>In most cases, our tilemap will need the following property values:</p>
 <pre><code class="lang-yaml">Orientation: Orthogonal
 TileWidth: 32
@@ -145,10 +145,10 @@ OutputChunkWidth: 16
 OutputChunkHeight: 16
 TileRenderOrder: RightDown
 </code></pre><p>And the following are custom properties to configure the sorting layer and object tag of the tilemap when it is loaded to Unity. For most maps, we use the following default values:</p>
-<pre><code class="lang-yaml">unity:SortingLayer: GroundTilemap
-unity:Tag: Tilemap
+<pre><code class="lang-yaml">unity:SortingLayer: Ground
+unity:layer: GroundTileMap
 </code></pre><h3 id="layers">Layers</h3>
-<p><img src="https://user-images.githubusercontent.com/40356749/140515903-fb0683f8-dd60-4b58-aad3-0fbbaf3b836c.jpg" alt="tilemap-layers"></p>
+<p><img src="https://user-images.githubusercontent.com/40356749/141650341-365e27f7-ce1e-4e9a-91b9-c78a8791f12b.png" alt="tilemap-layers"></p>
 <p>Our game will only use the <code>Tile Layer</code> and the <code>Object Layer</code> (however we do use the <code>Group Layer</code> to clean up the map layers). Tile layers are used for drawing the map while object layers are used to place custom map objects that are used to either import Unity prefabs to the scene or to add a line collider to the map.</p>
 <p><strong>Layer rules</strong></p>
 <ul>
@@ -164,11 +164,11 @@ unity:Tag: Tilemap
 surface:Terrain: &quot;string&quot;
 surface:Volume: &quot;float&quot;
 </code></pre><p>Note that surface-related custom properties will have the prefix <code>surface:</code>.</p>
-<p><img src="https://user-images.githubusercontent.com/40356749/140516018-75d43647-e5cd-4640-b699-e1594dfa0b79.jpg" alt="surface-custom-prop"></p>
+<p><img width="343" alt="surface-custom-props" src="https://user-images.githubusercontent.com/40356749/141650375-d09c82fd-1d09-44f1-b521-e52ab61a3c01.png"></p>
 <p>For example, a mud layer can have the following custom properties.</p>
 <pre><code class="lang-yaml">surface:LeavesMark: true
 surface:Terrain: &quot;Mud&quot;
-surface:Volume: 4.0
+surface:Volume: 6.0
 </code></pre><ul>
 <li><code>surface:LeavesMark</code>: This property will determine whether or not if the surface will leave a footprint when the player walks on top of it.</li>
 <li><code>surface:Terrain</code>: This property will define the sound effect that will be played when an object like the player or throwable items interact with the surface. Note that the string value of this property must match the label value for parameter <code>Terrain</code> in event <code>TerrainSfx</code>. The string value of this custom property is directly passed to the FMOD plugin.</li>
