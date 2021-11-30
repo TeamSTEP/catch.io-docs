@@ -2484,19 +2484,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.CanControl
   nameWithType: Character.CanControl
-- uid: CatchIo.PlayerCharacter.Character.CharacterSkin
-  name: CharacterSkin
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_CharacterSkin
-  commentId: P:CatchIo.PlayerCharacter.Character.CharacterSkin
-  fullName: CatchIo.PlayerCharacter.Character.CharacterSkin
-  nameWithType: Character.CharacterSkin
-- uid: CatchIo.PlayerCharacter.Character.CharacterSkin*
-  name: CharacterSkin
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_CharacterSkin_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.CharacterSkin
+- uid: CatchIo.PlayerCharacter.Character.CharacterRenderer
+  name: CharacterRenderer
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_CharacterRenderer
+  commentId: P:CatchIo.PlayerCharacter.Character.CharacterRenderer
+  fullName: CatchIo.PlayerCharacter.Character.CharacterRenderer
+  nameWithType: Character.CharacterRenderer
+- uid: CatchIo.PlayerCharacter.Character.CharacterRenderer*
+  name: CharacterRenderer
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_CharacterRenderer_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.CharacterRenderer
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.CharacterSkin
-  nameWithType: Character.CharacterSkin
+  fullName: CatchIo.PlayerCharacter.Character.CharacterRenderer
+  nameWithType: Character.CharacterRenderer
 - uid: CatchIo.PlayerCharacter.Character.CharacterStatus
   name: CharacterStatus
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_CharacterStatus
@@ -3086,6 +3086,58 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterRenderer
   fullName: CatchIo.PlayerCharacter.CharacterRenderer
   nameWithType: CharacterRenderer
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterRuntimeAnimatorController
+  name: CharacterRuntimeAnimatorController
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterRuntimeAnimatorController
+  commentId: P:CatchIo.PlayerCharacter.CharacterRenderer.CharacterRuntimeAnimatorController
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterRuntimeAnimatorController
+  nameWithType: CharacterRenderer.CharacterRuntimeAnimatorController
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterRuntimeAnimatorController*
+  name: CharacterRuntimeAnimatorController
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterRuntimeAnimatorController_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.CharacterRuntimeAnimatorController
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterRuntimeAnimatorController
+  nameWithType: CharacterRenderer.CharacterRuntimeAnimatorController
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkin
+  name: CharacterSkin
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterSkin
+  commentId: P:CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkin
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkin
+  nameWithType: CharacterRenderer.CharacterSkin
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkin*
+  name: CharacterSkin
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterSkin_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkin
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkin
+  nameWithType: CharacterRenderer.CharacterSkin
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinAnimator
+  name: CharacterSkinAnimator
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterSkinAnimator
+  commentId: P:CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinAnimator
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinAnimator
+  nameWithType: CharacterRenderer.CharacterSkinAnimator
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinAnimator*
+  name: CharacterSkinAnimator
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterSkinAnimator_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinAnimator
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinAnimator
+  nameWithType: CharacterRenderer.CharacterSkinAnimator
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinRenderer
+  name: CharacterSkinRenderer
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterSkinRenderer
+  commentId: P:CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinRenderer
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinRenderer
+  nameWithType: CharacterRenderer.CharacterSkinRenderer
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinRenderer*
+  name: CharacterSkinRenderer
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterSkinRenderer_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinRenderer
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinRenderer
+  nameWithType: CharacterRenderer.CharacterSkinRenderer
 - uid: CatchIo.PlayerCharacter.CharacterRenderer.DisappearEffect
   name: DisappearEffect
   href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_DisappearEffect
@@ -3157,19 +3209,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect
   nameWithType: CharacterRenderer.ReverseEffect
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer(CatchIo.PlayerCharacter.CharacterSkin)
-  name: SetHidingRenderer(CharacterSkin)
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_SetHidingRenderer_CatchIo_PlayerCharacter_CharacterSkin_
-  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer(CatchIo.PlayerCharacter.CharacterSkin)
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer(CatchIo.PlayerCharacter.CharacterSkin)
-  nameWithType: CharacterRenderer.SetHidingRenderer(CharacterSkin)
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer*
-  name: SetHidingRenderer
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_SetHidingRenderer_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.SetCharacterSkin(System.String,System.String)
+  name: SetCharacterSkin(String, String)
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_SetCharacterSkin_System_String_System_String_
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.SetCharacterSkin(System.String,System.String)
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.SetCharacterSkin(System.String, System.String)
+  nameWithType: CharacterRenderer.SetCharacterSkin(String, String)
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.SetCharacterSkin*
+  name: SetCharacterSkin
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_SetCharacterSkin_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.SetCharacterSkin
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer
-  nameWithType: CharacterRenderer.SetHidingRenderer
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.SetCharacterSkin
+  nameWithType: CharacterRenderer.SetCharacterSkin
 - uid: CatchIo.PlayerCharacter.CharacterSkin
   name: CharacterSkin
   href: api/CatchIo.PlayerCharacter.CharacterSkin.html
