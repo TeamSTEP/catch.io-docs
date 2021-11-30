@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HUDManager
+    <title>Class CharacterRenderer
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HUDManager
+    <meta name="title" content="Class CharacterRenderer
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.9.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,37 +78,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Managers.HUDManager">
+            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.CharacterRenderer">
   
   
-  <h1 id="CatchIo_Managers_HUDManager" data-uid="CatchIo.Managers.HUDManager" class="text-break">Class HUDManager
+  <h1 id="CatchIo_PlayerCharacter_CharacterRenderer" data-uid="CatchIo.PlayerCharacter.CharacterRenderer" class="text-break">Class CharacterRenderer
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">HUDManager</span></div>
+    <div class="level1"><span class="xref">CharacterRenderer</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Managers.html">CatchIo.Managers</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEffectPlayable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.html">CatchIo.PlayerCharacter</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Managers_HUDManager_syntax">Syntax</h5>
+  <h5 id="CatchIo_PlayerCharacter_CharacterRenderer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HUDManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterRenderer : MonoBehaviour, IEffectPlayable</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Managers_HUDManager_GameCamera_" data-uid="CatchIo.Managers.HUDManager.GameCamera*"></a>
-  <h4 id="CatchIo_Managers_HUDManager_GameCamera" data-uid="CatchIo.Managers.HUDManager.GameCamera">GameCamera</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterRenderer_DisappearEffect" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.DisappearEffect">DisappearEffect</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameCamera GameCamera { set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DisappearEffect DisappearEffect</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,22 +121,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameCamera</span></td>
+        <td><span class="xref">DisappearEffect</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="CatchIo_Managers_HUDManager_LocalCharacter_" data-uid="CatchIo.Managers.HUDManager.LocalCharacter*"></a>
-  <h4 id="CatchIo_Managers_HUDManager_LocalCharacter" data-uid="CatchIo.Managers.HUDManager.LocalCharacter">LocalCharacter</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterRenderer_EffectSequence_" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterRenderer_EffectSequence" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence">EffectSequence()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Character LocalCharacter { set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerator EffectSequence()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -143,11 +148,83 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Character</span></td>
+        <td><span class="xref">IEnumerator</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterRenderer_ExecuteEffect_" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterRenderer_ExecuteEffect" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect">ExecuteEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterRenderer_OnEndEffect_" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterRenderer_OnEndEffect" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect">OnEndEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEndEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterRenderer_RenderHidingEffect_" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterRenderer_RenderHidingEffect" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect">RenderHidingEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RenderHidingEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterRenderer_ReverseEffect_" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterRenderer_ReverseEffect" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect">ReverseEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReverseEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterRenderer_SetHidingRenderer_" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterRenderer_SetHidingRenderer_CatchIo_PlayerCharacter_CharacterSkin_" data-uid="CatchIo.PlayerCharacter.CharacterRenderer.SetHidingRenderer(CatchIo.PlayerCharacter.CharacterSkin)">SetHidingRenderer(CharacterSkin)</h4>
+  <div class="markdown level1 summary"><p>Set hiding renderer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHidingRenderer(CharacterSkin characterSkin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterSkin.html">CharacterSkin</a></td>
+        <td><span class="parametername">characterSkin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEffectPlayable</span>
+  </div>
 </article>
           </div>
           

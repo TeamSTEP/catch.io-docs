@@ -99,33 +99,6 @@ There should only be one instance of this object per scene.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class GameCamera : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="CatchIo_Camera_GameCamera_PlayerToFollow" data-uid="CatchIo.Camera.GameCamera.PlayerToFollow">PlayerToFollow</h4>
-  <div class="markdown level1 summary"><p>The player object that this camera will follow.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject PlayerToFollow</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -158,14 +131,31 @@ There should only be one instance of this object per scene.</p>
   
   
   <a id="CatchIo_Camera_GameCamera_SetupCamera_" data-uid="CatchIo.Camera.GameCamera.SetupCamera*"></a>
-  <h4 id="CatchIo_Camera_GameCamera_SetupCamera" data-uid="CatchIo.Camera.GameCamera.SetupCamera">SetupCamera()</h4>
+  <h4 id="CatchIo_Camera_GameCamera_SetupCamera_GameObject_" data-uid="CatchIo.Camera.GameCamera.SetupCamera(GameObject)">SetupCamera(GameObject)</h4>
   <div class="markdown level1 summary"><p>Initialization function. This is where the components are obtained and cached to the class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetupCamera()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetupCamera(GameObject followingTarget)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">followingTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
