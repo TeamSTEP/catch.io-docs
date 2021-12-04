@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.EvasiveThrowableItem.html",
-          "hash": "QFr25secbs5kwDHFDrhHbXhpPkkninXyiJkyJZ7qL8w="
+          "hash": "qYMPB4QThi+XsV9IMJ7RXHFmqGECMGIYRP2YgTZFn88="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.OffensiveThrowableItem.html",
-          "hash": "zGIRJ9A10MBWvs/pRhDYPmPQ9DlMcTdo/vj7mrSkSPs="
+          "hash": "RVzeYcMOHbUOOG1+8FswBh+ChkbSAZypBGmosv7JhhQ="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.ThrowableItem.html",
-          "hash": "jNZR8Z0P7wx/JdGXqNjh/OnbYRWEHoT/WU4KatSVN9k="
+          "hash": "frlBEiRPtpNjrD6J2ZCeXHGKgQJMoZEk7VqvQ8zWuFk="
         }
       },
       "is_incremental": false,
@@ -852,11 +852,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Sound.CharacterActionSfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Sound.CharacterActionSfx.html",
+          "hash": "ewGCFJvbXTY5osgb+5GCkBdYCqALGq6o/sCWI/tU3DM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Sound.FootstepSfx.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.FootstepSfx.html",
-          "hash": "uZ8TBXw0D07KyigTDTSPKQBKQAvUitJZvtSDtWdh3YU="
+          "hash": "TbRahTywpiDMH4sz4yk1AsnXX2N/zsSmTXoZ4xvHp5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Sound.ItemSfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Sound.ItemSfx.html",
+          "hash": "AaiX366sha+kUoA1m+VDWNQn7Df3OhJFdR1heEeEAoM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Sound.Sfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Sound.Sfx.html",
+          "hash": "MbtdhL3rrfP9+4qbv1XTzda1QnyhEq3eemrGsTYdyvk="
         }
       },
       "is_incremental": false,
@@ -868,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.SoundManager.html",
-          "hash": "0DVrhu6GrT89ACE4XgRunWvRHWaeAo4G7O6Yi4XiFGE="
+          "hash": "klX2gk5TzrSFIihBHiHAZG25PxsBkZvfW6d+GYJqYP0="
         }
       },
       "is_incremental": false,
@@ -880,7 +916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.TerrainSfx.html",
-          "hash": "aJq7sIUy/64Igdk1Vys1sFZQJHVGVAoRJ6ntBLYn+WU="
+          "hash": "NctZPLgDfGe94O1w6QOYTz/9b5GOEFBqSRWdt32qclI="
         }
       },
       "is_incremental": false,
@@ -892,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Sound.html",
-          "hash": "Fbfgh3u2rsMbLdJ7GWb2zwqDjGtY6/tFgNmDPCa3C6o="
+          "hash": "XOlV5dzHcUDz0M46Pwt7zU89MyCJE5KS0IwSyQobRwU="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1288,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "FwvzXFzkX1Kx/Xx6Hrll4OKJD11ki16yHqf2pcdipI8="
+          "hash": "kdGTH8tbHiq5HwGmy8U/Yd0q2jvEa9Juh/pfMhql9Og="
         }
       },
       "is_incremental": false,
@@ -1664,7 +1700,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 102,
+          "total_file_count": 105,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
