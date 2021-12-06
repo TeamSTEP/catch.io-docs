@@ -2334,6 +2334,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.NetworkLauncher.OnRoomListUpdate
   nameWithType: NetworkLauncher.OnRoomListUpdate
+- uid: CatchIo.Managers.NetworkLauncher.RemoveOldRooms
+  name: RemoveOldRooms()
+  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_RemoveOldRooms
+  commentId: M:CatchIo.Managers.NetworkLauncher.RemoveOldRooms
+  fullName: CatchIo.Managers.NetworkLauncher.RemoveOldRooms()
+  nameWithType: NetworkLauncher.RemoveOldRooms()
+- uid: CatchIo.Managers.NetworkLauncher.RemoveOldRooms*
+  name: RemoveOldRooms
+  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_RemoveOldRooms_
+  commentId: Overload:CatchIo.Managers.NetworkLauncher.RemoveOldRooms
+  isSpec: "True"
+  fullName: CatchIo.Managers.NetworkLauncher.RemoveOldRooms
+  nameWithType: NetworkLauncher.RemoveOldRooms
 - uid: CatchIo.Managers.NetworkLauncher.SendChat(System.String)
   name: SendChat(String)
   href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SendChat_System_String_
@@ -5296,6 +5309,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.LoadingContext.LoadingPlayerProgress
   nameWithType: LoadingContext.LoadingPlayerProgress
+- uid: CatchIo.UI.LoadingContext.RemoveProgress(System.String)
+  name: RemoveProgress(String)
+  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_RemoveProgress_System_String_
+  commentId: M:CatchIo.UI.LoadingContext.RemoveProgress(System.String)
+  fullName: CatchIo.UI.LoadingContext.RemoveProgress(System.String)
+  nameWithType: LoadingContext.RemoveProgress(String)
+- uid: CatchIo.UI.LoadingContext.RemoveProgress*
+  name: RemoveProgress
+  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_RemoveProgress_
+  commentId: Overload:CatchIo.UI.LoadingContext.RemoveProgress
+  isSpec: "True"
+  fullName: CatchIo.UI.LoadingContext.RemoveProgress
+  nameWithType: LoadingContext.RemoveProgress
+- uid: CatchIo.UI.LoadingContext.ResetProgress
+  name: ResetProgress()
+  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_ResetProgress
+  commentId: M:CatchIo.UI.LoadingContext.ResetProgress
+  fullName: CatchIo.UI.LoadingContext.ResetProgress()
+  nameWithType: LoadingContext.ResetProgress()
+- uid: CatchIo.UI.LoadingContext.ResetProgress*
+  name: ResetProgress
+  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_ResetProgress_
+  commentId: Overload:CatchIo.UI.LoadingContext.ResetProgress
+  isSpec: "True"
+  fullName: CatchIo.UI.LoadingContext.ResetProgress
+  nameWithType: LoadingContext.ResetProgress
 - uid: CatchIo.UI.LoadingContext.State
   name: State
   href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_State
@@ -5398,12 +5437,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.LobbyContext.OnJoinRoom
   nameWithType: LobbyContext.OnJoinRoom
-- uid: CatchIo.UI.LobbyContext.RemoveRoomInfo(RoomInfo)
-  name: RemoveRoomInfo(RoomInfo)
-  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_RemoveRoomInfo_RoomInfo_
-  commentId: M:CatchIo.UI.LobbyContext.RemoveRoomInfo(RoomInfo)
-  fullName: CatchIo.UI.LobbyContext.RemoveRoomInfo(RoomInfo)
-  nameWithType: LobbyContext.RemoveRoomInfo(RoomInfo)
+- uid: CatchIo.UI.LobbyContext.RemoveRoomInfo(CatchIo.UI.RoomInfoContext)
+  name: RemoveRoomInfo(RoomInfoContext)
+  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_RemoveRoomInfo_CatchIo_UI_RoomInfoContext_
+  commentId: M:CatchIo.UI.LobbyContext.RemoveRoomInfo(CatchIo.UI.RoomInfoContext)
+  fullName: CatchIo.UI.LobbyContext.RemoveRoomInfo(CatchIo.UI.RoomInfoContext)
+  nameWithType: LobbyContext.RemoveRoomInfo(RoomInfoContext)
 - uid: CatchIo.UI.LobbyContext.RemoveRoomInfo*
   name: RemoveRoomInfo
   href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_RemoveRoomInfo_
@@ -5918,6 +5957,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomInfoContext.RoomName
   nameWithType: RoomInfoContext.RoomName
+- uid: CatchIo.UI.RoomInfoContext.Updated
+  name: Updated
+  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext_Updated
+  commentId: P:CatchIo.UI.RoomInfoContext.Updated
+  fullName: CatchIo.UI.RoomInfoContext.Updated
+  nameWithType: RoomInfoContext.Updated
+- uid: CatchIo.UI.RoomInfoContext.Updated*
+  name: Updated
+  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext_Updated_
+  commentId: Overload:CatchIo.UI.RoomInfoContext.Updated
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomInfoContext.Updated
+  nameWithType: RoomInfoContext.Updated
+- uid: CatchIo.UI.RoomInfoContext.UpdateRoomInfo(CatchIo.UI.RoomInfoContext)
+  name: UpdateRoomInfo(RoomInfoContext)
+  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext_UpdateRoomInfo_CatchIo_UI_RoomInfoContext_
+  commentId: M:CatchIo.UI.RoomInfoContext.UpdateRoomInfo(CatchIo.UI.RoomInfoContext)
+  fullName: CatchIo.UI.RoomInfoContext.UpdateRoomInfo(CatchIo.UI.RoomInfoContext)
+  nameWithType: RoomInfoContext.UpdateRoomInfo(RoomInfoContext)
+- uid: CatchIo.UI.RoomInfoContext.UpdateRoomInfo*
+  name: UpdateRoomInfo
+  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext_UpdateRoomInfo_
+  commentId: Overload:CatchIo.UI.RoomInfoContext.UpdateRoomInfo
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomInfoContext.UpdateRoomInfo
+  nameWithType: RoomInfoContext.UpdateRoomInfo
 - uid: CatchIo.UI.RotateJoystick
   name: RotateJoystick
   href: api/CatchIo.UI.RotateJoystick.html
