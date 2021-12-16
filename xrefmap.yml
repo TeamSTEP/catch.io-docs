@@ -3623,12 +3623,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.IsDead
   nameWithType: CharacterStatus.IsDead
+- uid: CatchIo.PlayerCharacter.CharacterStatus.IsHidden
+  name: IsHidden
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHidden
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsHidden
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHidden
+  nameWithType: CharacterStatus.IsHidden
+- uid: CatchIo.PlayerCharacter.CharacterStatus.IsHidden*
+  name: IsHidden
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHidden_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.IsHidden
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHidden
+  nameWithType: CharacterStatus.IsHidden
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsHiding
-  name: IsHiding()
+  name: IsHiding
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHiding
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.IsHiding
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHiding()
-  nameWithType: CharacterStatus.IsHiding()
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsHiding
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHiding
+  nameWithType: CharacterStatus.IsHiding
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsHiding*
   name: IsHiding
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHiding_
@@ -3649,6 +3662,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.IsRunning
   nameWithType: CharacterStatus.IsRunning
+- uid: CatchIo.PlayerCharacter.CharacterStatus.IsStanding
+  name: IsStanding
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStanding
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsStanding
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsStanding
+  nameWithType: CharacterStatus.IsStanding
+- uid: CatchIo.PlayerCharacter.CharacterStatus.IsStanding*
+  name: IsStanding
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStanding_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.IsStanding
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsStanding
+  nameWithType: CharacterStatus.IsStanding
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsStaying
   name: IsStaying()
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStaying
@@ -3776,6 +3802,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea
   nameWithType: CharacterStatus.SetCharacterArea
+- uid: CatchIo.PlayerCharacter.CharacterStatus.SetHiding
+  name: SetHiding()
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetHiding
+  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.SetHiding
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetHiding()
+  nameWithType: CharacterStatus.SetHiding()
+- uid: CatchIo.PlayerCharacter.CharacterStatus.SetHiding*
+  name: SetHiding
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetHiding_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.SetHiding
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetHiding
+  nameWithType: CharacterStatus.SetHiding
 - uid: CatchIo.PlayerCharacter.CharacterStatus.SetMoveState(Vector2,System.Boolean,System.Boolean)
   name: SetMoveState(Vector2, Boolean, Boolean)
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetMoveState_Vector2_System_Boolean_System_Boolean_
@@ -5058,32 +5097,71 @@ references:
   commentId: T:CatchIo.UI.HidingIndicator
   fullName: CatchIo.UI.HidingIndicator
   nameWithType: HidingIndicator
-- uid: CatchIo.UI.HidingIndicator.Disable
-  name: Disable()
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_Disable
-  commentId: M:CatchIo.UI.HidingIndicator.Disable
-  fullName: CatchIo.UI.HidingIndicator.Disable()
-  nameWithType: HidingIndicator.Disable()
-- uid: CatchIo.UI.HidingIndicator.Disable*
-  name: Disable
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_Disable_
-  commentId: Overload:CatchIo.UI.HidingIndicator.Disable
+- uid: CatchIo.UI.HidingIndicator.DisableImage
+  name: DisableImage()
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_DisableImage
+  commentId: M:CatchIo.UI.HidingIndicator.DisableImage
+  fullName: CatchIo.UI.HidingIndicator.DisableImage()
+  nameWithType: HidingIndicator.DisableImage()
+- uid: CatchIo.UI.HidingIndicator.DisableImage*
+  name: DisableImage
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_DisableImage_
+  commentId: Overload:CatchIo.UI.HidingIndicator.DisableImage
   isSpec: "True"
-  fullName: CatchIo.UI.HidingIndicator.Disable
-  nameWithType: HidingIndicator.Disable
-- uid: CatchIo.UI.HidingIndicator.Enable
-  name: Enable()
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_Enable
-  commentId: M:CatchIo.UI.HidingIndicator.Enable
-  fullName: CatchIo.UI.HidingIndicator.Enable()
-  nameWithType: HidingIndicator.Enable()
-- uid: CatchIo.UI.HidingIndicator.Enable*
-  name: Enable
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_Enable_
-  commentId: Overload:CatchIo.UI.HidingIndicator.Enable
+  fullName: CatchIo.UI.HidingIndicator.DisableImage
+  nameWithType: HidingIndicator.DisableImage
+- uid: CatchIo.UI.HidingIndicator.PlayEyeClosingAnim
+  name: PlayEyeClosingAnim()
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_PlayEyeClosingAnim
+  commentId: M:CatchIo.UI.HidingIndicator.PlayEyeClosingAnim
+  fullName: CatchIo.UI.HidingIndicator.PlayEyeClosingAnim()
+  nameWithType: HidingIndicator.PlayEyeClosingAnim()
+- uid: CatchIo.UI.HidingIndicator.PlayEyeClosingAnim*
+  name: PlayEyeClosingAnim
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_PlayEyeClosingAnim_
+  commentId: Overload:CatchIo.UI.HidingIndicator.PlayEyeClosingAnim
   isSpec: "True"
-  fullName: CatchIo.UI.HidingIndicator.Enable
-  nameWithType: HidingIndicator.Enable
+  fullName: CatchIo.UI.HidingIndicator.PlayEyeClosingAnim
+  nameWithType: HidingIndicator.PlayEyeClosingAnim
+- uid: CatchIo.UI.HidingIndicator.PlayEyeOpeningAnim
+  name: PlayEyeOpeningAnim()
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_PlayEyeOpeningAnim
+  commentId: M:CatchIo.UI.HidingIndicator.PlayEyeOpeningAnim
+  fullName: CatchIo.UI.HidingIndicator.PlayEyeOpeningAnim()
+  nameWithType: HidingIndicator.PlayEyeOpeningAnim()
+- uid: CatchIo.UI.HidingIndicator.PlayEyeOpeningAnim*
+  name: PlayEyeOpeningAnim
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_PlayEyeOpeningAnim_
+  commentId: Overload:CatchIo.UI.HidingIndicator.PlayEyeOpeningAnim
+  isSpec: "True"
+  fullName: CatchIo.UI.HidingIndicator.PlayEyeOpeningAnim
+  nameWithType: HidingIndicator.PlayEyeOpeningAnim
+- uid: CatchIo.UI.HidingIndicator.SetEyeCloseImage
+  name: SetEyeCloseImage()
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeCloseImage
+  commentId: M:CatchIo.UI.HidingIndicator.SetEyeCloseImage
+  fullName: CatchIo.UI.HidingIndicator.SetEyeCloseImage()
+  nameWithType: HidingIndicator.SetEyeCloseImage()
+- uid: CatchIo.UI.HidingIndicator.SetEyeCloseImage*
+  name: SetEyeCloseImage
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeCloseImage_
+  commentId: Overload:CatchIo.UI.HidingIndicator.SetEyeCloseImage
+  isSpec: "True"
+  fullName: CatchIo.UI.HidingIndicator.SetEyeCloseImage
+  nameWithType: HidingIndicator.SetEyeCloseImage
+- uid: CatchIo.UI.HidingIndicator.SetEyeOpenImage
+  name: SetEyeOpenImage()
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeOpenImage
+  commentId: M:CatchIo.UI.HidingIndicator.SetEyeOpenImage
+  fullName: CatchIo.UI.HidingIndicator.SetEyeOpenImage()
+  nameWithType: HidingIndicator.SetEyeOpenImage()
+- uid: CatchIo.UI.HidingIndicator.SetEyeOpenImage*
+  name: SetEyeOpenImage
+  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeOpenImage_
+  commentId: Overload:CatchIo.UI.HidingIndicator.SetEyeOpenImage
+  isSpec: "True"
+  fullName: CatchIo.UI.HidingIndicator.SetEyeOpenImage
+  nameWithType: HidingIndicator.SetEyeOpenImage
 - uid: CatchIo.UI.HidingIndicator.TranslatePosition(Vector3)
   name: TranslatePosition(Vector3)
   href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_TranslatePosition_Vector3_
@@ -6246,6 +6324,79 @@ references:
   isSpec: "True"
   fullName: CatchIo.Util.Math.IsNaNVector
   nameWithType: Math.IsNaNVector
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged
+  name: NotifyBooleanPropertyChanged
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html
+  commentId: T:CatchIo.Util.NotifyBooleanPropertyChanged
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged
+  nameWithType: NotifyBooleanPropertyChanged
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedFalse(System.String)
+  name: OnPropertyChangedFalse(String)
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_OnPropertyChangedFalse_System_String_
+  commentId: M:CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedFalse(System.String)
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedFalse(System.String)
+  nameWithType: NotifyBooleanPropertyChanged.OnPropertyChangedFalse(String)
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedFalse*
+  name: OnPropertyChangedFalse
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_OnPropertyChangedFalse_
+  commentId: Overload:CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedFalse
+  isSpec: "True"
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedFalse
+  nameWithType: NotifyBooleanPropertyChanged.OnPropertyChangedFalse
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedTrue(System.String)
+  name: OnPropertyChangedTrue(String)
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_OnPropertyChangedTrue_System_String_
+  commentId: M:CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedTrue(System.String)
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedTrue(System.String)
+  nameWithType: NotifyBooleanPropertyChanged.OnPropertyChangedTrue(String)
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedTrue*
+  name: OnPropertyChangedTrue
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_OnPropertyChangedTrue_
+  commentId: Overload:CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedTrue
+  isSpec: "True"
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.OnPropertyChangedTrue
+  nameWithType: NotifyBooleanPropertyChanged.OnPropertyChangedTrue
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.PropertyChangedFalse
+  name: PropertyChangedFalse
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_PropertyChangedFalse
+  commentId: E:CatchIo.Util.NotifyBooleanPropertyChanged.PropertyChangedFalse
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.PropertyChangedFalse
+  nameWithType: NotifyBooleanPropertyChanged.PropertyChangedFalse
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.PropertyChangedTrue
+  name: PropertyChangedTrue
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_PropertyChangedTrue
+  commentId: E:CatchIo.Util.NotifyBooleanPropertyChanged.PropertyChangedTrue
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.PropertyChangedTrue
+  nameWithType: NotifyBooleanPropertyChanged.PropertyChangedTrue
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.SetField(System.Boolean@,System.Boolean,System.String)
+  name: SetField(ref Boolean, Boolean, String)
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_SetField_System_Boolean__System_Boolean_System_String_
+  commentId: M:CatchIo.Util.NotifyBooleanPropertyChanged.SetField(System.Boolean@,System.Boolean,System.String)
+  name.vb: SetField(ByRef Boolean, Boolean, String)
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.SetField(ref System.Boolean, System.Boolean, System.String)
+  fullName.vb: CatchIo.Util.NotifyBooleanPropertyChanged.SetField(ByRef System.Boolean, System.Boolean, System.String)
+  nameWithType: NotifyBooleanPropertyChanged.SetField(ref Boolean, Boolean, String)
+  nameWithType.vb: NotifyBooleanPropertyChanged.SetField(ByRef Boolean, Boolean, String)
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.SetField*
+  name: SetField
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_SetField_
+  commentId: Overload:CatchIo.Util.NotifyBooleanPropertyChanged.SetField
+  isSpec: "True"
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.SetField
+  nameWithType: NotifyBooleanPropertyChanged.SetField
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.Value
+  name: Value
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_Value
+  commentId: P:CatchIo.Util.NotifyBooleanPropertyChanged.Value
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.Value
+  nameWithType: NotifyBooleanPropertyChanged.Value
+- uid: CatchIo.Util.NotifyBooleanPropertyChanged.Value*
+  name: Value
+  href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html#CatchIo_Util_NotifyBooleanPropertyChanged_Value_
+  commentId: Overload:CatchIo.Util.NotifyBooleanPropertyChanged.Value
+  isSpec: "True"
+  fullName: CatchIo.Util.NotifyBooleanPropertyChanged.Value
+  nameWithType: NotifyBooleanPropertyChanged.Value
 - uid: CatchIo.Util.SceneControl
   name: SceneControl
   href: api/CatchIo.Util.SceneControl.html
