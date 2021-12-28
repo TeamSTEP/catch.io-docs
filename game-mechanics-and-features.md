@@ -64,6 +64,10 @@ description: >-
   * The game will allow the player to choose between multiple classes before the game starts.
   * We will have 3 classes in the beginning, but we will gradually add more playable characters and class skin variants.
   * Different character classes will have different visual effects. Examples include footprints, trap rune effects, teleport effects, etc. However, there won't be any class-based special abilities or other mechanics that affect the gameplay. Characters with different classes will mostly play the same.
+* Spectator mode
+  * Players are given the option to enter spectator mode when they are dead.
+  * Spectating players can see the Cursed One and other spectators.
+  * Spectating players cannot attack or be attacked.
 
 ## Detailed Mechanics
 
