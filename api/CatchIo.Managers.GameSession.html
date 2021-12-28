@@ -96,10 +96,47 @@ Such tasks includes local player instance management, platform controller manage
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Managers_GameSession_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameSession : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameSession</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CatchIo_Managers_GameSession__ctor_" data-uid="CatchIo.Managers.GameSession.#ctor*"></a>
+  <h4 id="CatchIo_Managers_GameSession__ctor" data-uid="CatchIo.Managers.GameSession.#ctor">GameSession()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameSession()</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="CatchIo_Managers_GameSession_GameCamera_" data-uid="CatchIo.Managers.GameSession.GameCamera*"></a>
+  <h4 id="CatchIo_Managers_GameSession_GameCamera" data-uid="CatchIo.Managers.GameSession.GameCamera">GameCamera</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameCamera GameCamera { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCamera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Managers_GameSession_LocalPlayerInst_" data-uid="CatchIo.Managers.GameSession.LocalPlayerInst*"></a>
@@ -123,6 +160,35 @@ This is generally the same as the local player instance provided by Photon Netwo
     <tbody>
       <tr>
         <td><span class="xref">Character</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Managers_GameSession_SpawnPlayer_" data-uid="CatchIo.Managers.GameSession.SpawnPlayer*"></a>
+  <h4 id="CatchIo_Managers_GameSession_SpawnPlayer_Vector3_" data-uid="CatchIo.Managers.GameSession.SpawnPlayer(Vector3)">SpawnPlayer(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnPlayer(Vector3 spawnPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">spawnPosition</span></td>
         <td></td>
       </tr>
     </tbody>

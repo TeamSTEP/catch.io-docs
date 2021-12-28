@@ -88,26 +88,50 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">MainMenuContext</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.UI.UINavigationContext-1.html">UINavigationContext</a>&lt;<a class="xref" href="CatchIo.UI.UIMenuViewType.html">UIMenuViewType</a>&gt;</div>
+    <div class="level2"><span class="xref">MainMenuContext</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.UI.UINavigationContext-1.html#CatchIo_UI_UINavigationContext_1_UINavigation">UINavigationContext&lt;UIMenuViewType&gt;.UINavigation</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_UI_MainMenuContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MainMenuContext : Context</code></pre>
+    <pre><code class="lang-csharp hljs">public class MainMenuContext : UINavigationContext&lt;UIMenuViewType&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="CatchIo_UI_MainMenuContext__ctor_" data-uid="CatchIo.UI.MainMenuContext.#ctor*"></a>
-  <h4 id="CatchIo_UI_MainMenuContext__ctor" data-uid="CatchIo.UI.MainMenuContext.#ctor">MainMenuContext()</h4>
+  <h4 id="CatchIo_UI_MainMenuContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__" data-uid="CatchIo.UI.MainMenuContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})">MainMenuContext(UINavigation&lt;UIMenuViewType&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MainMenuContext()</code></pre>
+    <pre><code class="lang-csharp hljs">public MainMenuContext(UINavigation&lt;UIMenuViewType&gt; nav)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.UI.UINavigation-1.html">UINavigation</a>&lt;<a class="xref" href="CatchIo.UI.UIMenuViewType.html">UIMenuViewType</a>&gt;</td>
+        <td><span class="parametername">nav</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -189,13 +213,23 @@
   </h3>
   
   
-  <a id="CatchIo_UI_MainMenuContext_OnBack_" data-uid="CatchIo.UI.MainMenuContext.OnBack*"></a>
-  <h4 id="CatchIo_UI_MainMenuContext_OnBack" data-uid="CatchIo.UI.MainMenuContext.OnBack">OnBack()</h4>
+  <a id="CatchIo_UI_MainMenuContext_CloseCreateSession_" data-uid="CatchIo.UI.MainMenuContext.CloseCreateSession*"></a>
+  <h4 id="CatchIo_UI_MainMenuContext_CloseCreateSession" data-uid="CatchIo.UI.MainMenuContext.CloseCreateSession">CloseCreateSession()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBack()</code></pre>
+    <pre><code class="lang-csharp hljs">public void CloseCreateSession()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_UI_MainMenuContext_Disconnect_" data-uid="CatchIo.UI.MainMenuContext.Disconnect*"></a>
+  <h4 id="CatchIo_UI_MainMenuContext_Disconnect" data-uid="CatchIo.UI.MainMenuContext.Disconnect">Disconnect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disconnect()</code></pre>
   </div>
   
   
@@ -206,16 +240,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnCreateRoom()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_UI_MainMenuContext_OnCreateSession_" data-uid="CatchIo.UI.MainMenuContext.OnCreateSession*"></a>
-  <h4 id="CatchIo_UI_MainMenuContext_OnCreateSession" data-uid="CatchIo.UI.MainMenuContext.OnCreateSession">OnCreateSession()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnCreateSession()</code></pre>
   </div>
   
   
@@ -236,6 +260,16 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnSettings()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_UI_MainMenuContext_OpenCreateSession_" data-uid="CatchIo.UI.MainMenuContext.OpenCreateSession*"></a>
+  <h4 id="CatchIo_UI_MainMenuContext_OpenCreateSession" data-uid="CatchIo.UI.MainMenuContext.OpenCreateSession">OpenCreateSession()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenCreateSession()</code></pre>
   </div>
 </article>
           </div>

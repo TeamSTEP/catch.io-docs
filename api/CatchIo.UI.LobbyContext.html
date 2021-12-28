@@ -88,26 +88,76 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">LobbyContext</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.UI.UINavigationContext-1.html">UINavigationContext</a>&lt;<a class="xref" href="CatchIo.UI.UIMenuViewType.html">UIMenuViewType</a>&gt;</div>
+    <div class="level2"><span class="xref">LobbyContext</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.UI.UINavigationContext-1.html#CatchIo_UI_UINavigationContext_1_UINavigation">UINavigationContext&lt;UIMenuViewType&gt;.UINavigation</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_UI_LobbyContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LobbyContext : Context</code></pre>
+    <pre><code class="lang-csharp hljs">public class LobbyContext : UINavigationContext&lt;UIMenuViewType&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="CatchIo_UI_LobbyContext__ctor_" data-uid="CatchIo.UI.LobbyContext.#ctor*"></a>
-  <h4 id="CatchIo_UI_LobbyContext__ctor" data-uid="CatchIo.UI.LobbyContext.#ctor">LobbyContext()</h4>
+  <h4 id="CatchIo_UI_LobbyContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__" data-uid="CatchIo.UI.LobbyContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})">LobbyContext(UINavigation&lt;UIMenuViewType&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LobbyContext()</code></pre>
+    <pre><code class="lang-csharp hljs">public LobbyContext(UINavigation&lt;UIMenuViewType&gt; nav)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.UI.UINavigation-1.html">UINavigation</a>&lt;<a class="xref" href="CatchIo.UI.UIMenuViewType.html">UIMenuViewType</a>&gt;</td>
+        <td><span class="parametername">nav</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_UI_LobbyContext_SelectedRoomName" data-uid="CatchIo.UI.LobbyContext.SelectedRoomName">SelectedRoomName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SelectedRoomName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -135,60 +185,8 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_UI_LobbyContext_SelectedRoomName_" data-uid="CatchIo.UI.LobbyContext.SelectedRoomName*"></a>
-  <h4 id="CatchIo_UI_LobbyContext_SelectedRoomName" data-uid="CatchIo.UI.LobbyContext.SelectedRoomName">SelectedRoomName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SelectedRoomName { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
-  <a id="CatchIo_UI_LobbyContext_AddRoomInfo_" data-uid="CatchIo.UI.LobbyContext.AddRoomInfo*"></a>
-  <h4 id="CatchIo_UI_LobbyContext_AddRoomInfo_RoomInfo_" data-uid="CatchIo.UI.LobbyContext.AddRoomInfo(RoomInfo)">AddRoomInfo(RoomInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddRoomInfo(RoomInfo roomInfo)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">RoomInfo</span></td>
-        <td><span class="parametername">roomInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="CatchIo_UI_LobbyContext_OnBack_" data-uid="CatchIo.UI.LobbyContext.OnBack*"></a>
@@ -209,33 +207,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnJoinRoom()</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_UI_LobbyContext_RemoveRoomInfo_" data-uid="CatchIo.UI.LobbyContext.RemoveRoomInfo*"></a>
-  <h4 id="CatchIo_UI_LobbyContext_RemoveRoomInfo_CatchIo_UI_RoomInfoContext_" data-uid="CatchIo.UI.LobbyContext.RemoveRoomInfo(CatchIo.UI.RoomInfoContext)">RemoveRoomInfo(RoomInfoContext)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveRoomInfo(RoomInfoContext roomInfoContext)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.UI.RoomInfoContext.html">RoomInfoContext</a></td>
-        <td><span class="parametername">roomInfoContext</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LoadingTextAnimation
+    <title>Class UINavigationContext&lt;T&gt;
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LoadingTextAnimation
+    <meta name="title" content="Class UINavigationContext&lt;T&gt;
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.9.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,34 +78,85 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.UI.LoadingTextAnimation">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.UINavigationContext`1">
   
   
-  <h1 id="CatchIo_UI_LoadingTextAnimation" data-uid="CatchIo.UI.LoadingTextAnimation" class="text-break">Class LoadingTextAnimation
+  <h1 id="CatchIo_UI_UINavigationContext_1" data-uid="CatchIo.UI.UINavigationContext`1" class="text-break">Class UINavigationContext&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">LoadingTextAnimation</span></div>
+    <div class="level1"><span class="xref">UINavigationContext&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.UI.ErrorMessageContext.html">ErrorMessageContext</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.UI.GameHudContext.html">GameHudContext</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.UI.LoadingContext.html">LoadingContext</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.UI.LobbyContext.html">LobbyContext</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.UI.MainMenuContext.html">MainMenuContext</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.UI.RoomContext.html">RoomContext</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.UI.TitleContext.html">TitleContext</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_UI_LoadingTextAnimation_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_UINavigationContext_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LoadingTextAnimation : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class UINavigationContext&lt;T&gt; : Context where T : struct, Enum</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="CatchIo_UI_LoadingTextAnimation_LoadingText" data-uid="CatchIo.UI.LoadingTextAnimation.LoadingText">LoadingText</h4>
+  <a id="CatchIo_UI_UINavigationContext_1__ctor_" data-uid="CatchIo.UI.UINavigationContext`1.#ctor*"></a>
+  <h4 id="CatchIo_UI_UINavigationContext_1__ctor_CatchIo_UI_UINavigation__0__" data-uid="CatchIo.UI.UINavigationContext`1.#ctor(CatchIo.UI.UINavigation{`0})">UINavigationContext(UINavigation&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Text LoadingText</code></pre>
+    <pre><code class="lang-csharp hljs">public UINavigationContext(UINavigation&lt;T&gt; uiNavigation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.UI.UINavigation-1.html">UINavigation</a>&lt;T&gt;</td>
+        <td><span class="parametername">uiNavigation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_UI_UINavigationContext_1_UINavigation" data-uid="CatchIo.UI.UINavigationContext`1.UINavigation">UINavigation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UINavigation&lt;T&gt; UINavigation</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -117,7 +168,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Text</span></td>
+        <td><a class="xref" href="CatchIo.UI.UINavigation-1.html">UINavigation</a>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>

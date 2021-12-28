@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameManager
+    <title>Class GameUIManager
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameManager
+    <meta name="title" content="Class GameUIManager
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.58.9.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,35 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Managers.GameManager">
+            <article class="content wrap" id="_content" data-uid="CatchIo.UI.GameUIManager">
   
   
-  <h1 id="CatchIo_Managers_GameManager" data-uid="CatchIo.Managers.GameManager" class="text-break">Class GameManager
+  <h1 id="CatchIo_UI_GameUIManager" data-uid="CatchIo.UI.GameUIManager" class="text-break">Class GameUIManager
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">GameManager</span></div>
+    <div class="level1"><span class="xref">GameUIManager</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Managers.html">CatchIo.Managers</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.UI.html">CatchIo.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Managers_GameManager_syntax">Syntax</h5>
+  <h5 id="CatchIo_UI_GameUIManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameManager : MonoBehaviourPunCallbacks</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameUIManager : MonoBehaviour</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_Managers_GameManager_Instance_" data-uid="CatchIo.Managers.GameManager.Instance*"></a>
-  <h4 id="CatchIo_Managers_GameManager_Instance" data-uid="CatchIo.Managers.GameManager.Instance">Instance</h4>
+  <a id="CatchIo_UI_GameUIManager_GameUIContext_" data-uid="CatchIo.UI.GameUIManager.GameUIContext*"></a>
+  <h4 id="CatchIo_UI_GameUIManager_GameUIContext" data-uid="CatchIo.UI.GameUIManager.GameUIContext">GameUIContext</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameManager Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public GameUIContext GameUIContext { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,24 +118,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CatchIo.Managers.GameManager.html">GameManager</a></td>
+        <td><a class="xref" href="CatchIo.UI.GameUIContext.html">GameUIContext</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CatchIo_Managers_GameManager_IsDirectSession_" data-uid="CatchIo.Managers.GameManager.IsDirectSession*"></a>
-  <h4 id="CatchIo_Managers_GameManager_IsDirectSession" data-uid="CatchIo.Managers.GameManager.IsDirectSession">IsDirectSession()</h4>
+  <a id="CatchIo_UI_GameUIManager_Instance_" data-uid="CatchIo.UI.GameUIManager.Instance*"></a>
+  <h4 id="CatchIo_UI_GameUIManager_Instance" data-uid="CatchIo.UI.GameUIManager.Instance">Instance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsDirectSession()</code></pre>
+    <pre><code class="lang-csharp hljs">public static GameUIManager Instance { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -145,11 +143,48 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="CatchIo.UI.GameUIManager.html">GameUIManager</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_UI_GameUIManager_UICamera_" data-uid="CatchIo.UI.GameUIManager.UICamera*"></a>
+  <h4 id="CatchIo_UI_GameUIManager_UICamera" data-uid="CatchIo.UI.GameUIManager.UICamera">UICamera</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Camera UICamera { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Camera.html">UnityEngine.Camera</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_UI_GameUIManager_MakeUIGameViewTypeFile_" data-uid="CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile*"></a>
+  <h4 id="CatchIo_UI_GameUIManager_MakeUIGameViewTypeFile" data-uid="CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile">MakeUIGameViewTypeFile()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MakeUIGameViewTypeFile()</code></pre>
+  </div>
 </article>
           </div>
           

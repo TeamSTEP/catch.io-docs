@@ -1856,83 +1856,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.GameManager.IsDirectSession
   nameWithType: GameManager.IsDirectSession
-- uid: CatchIo.Managers.GameManager.MenuUIManager
-  name: MenuUIManager
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_MenuUIManager
-  commentId: P:CatchIo.Managers.GameManager.MenuUIManager
-  fullName: CatchIo.Managers.GameManager.MenuUIManager
-  nameWithType: GameManager.MenuUIManager
-- uid: CatchIo.Managers.GameManager.MenuUIManager*
-  name: MenuUIManager
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_MenuUIManager_
-  commentId: Overload:CatchIo.Managers.GameManager.MenuUIManager
-  isSpec: "True"
-  fullName: CatchIo.Managers.GameManager.MenuUIManager
-  nameWithType: GameManager.MenuUIManager
-- uid: CatchIo.Managers.GameManager.NetworkLauncher
-  name: NetworkLauncher
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_NetworkLauncher
-  commentId: P:CatchIo.Managers.GameManager.NetworkLauncher
-  fullName: CatchIo.Managers.GameManager.NetworkLauncher
-  nameWithType: GameManager.NetworkLauncher
-- uid: CatchIo.Managers.GameManager.NetworkLauncher*
-  name: NetworkLauncher
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_NetworkLauncher_
-  commentId: Overload:CatchIo.Managers.GameManager.NetworkLauncher
-  isSpec: "True"
-  fullName: CatchIo.Managers.GameManager.NetworkLauncher
-  nameWithType: GameManager.NetworkLauncher
-- uid: CatchIo.Managers.GameManager.s_isInGameSession
-  name: s_isInGameSession
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_s_isInGameSession
-  commentId: F:CatchIo.Managers.GameManager.s_isInGameSession
-  fullName: CatchIo.Managers.GameManager.s_isInGameSession
-  nameWithType: GameManager.s_isInGameSession
-- uid: CatchIo.Managers.GameManager.SoundManager
-  name: SoundManager
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_SoundManager
-  commentId: P:CatchIo.Managers.GameManager.SoundManager
-  fullName: CatchIo.Managers.GameManager.SoundManager
-  nameWithType: GameManager.SoundManager
-- uid: CatchIo.Managers.GameManager.SoundManager*
-  name: SoundManager
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_SoundManager_
-  commentId: Overload:CatchIo.Managers.GameManager.SoundManager
-  isSpec: "True"
-  fullName: CatchIo.Managers.GameManager.SoundManager
-  nameWithType: GameManager.SoundManager
-- uid: CatchIo.Managers.GameManager.Start
-  name: Start()
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_Start
-  commentId: M:CatchIo.Managers.GameManager.Start
-  fullName: CatchIo.Managers.GameManager.Start()
-  nameWithType: GameManager.Start()
-- uid: CatchIo.Managers.GameManager.Start*
-  name: Start
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_Start_
-  commentId: Overload:CatchIo.Managers.GameManager.Start
-  isSpec: "True"
-  fullName: CatchIo.Managers.GameManager.Start
-  nameWithType: GameManager.Start
-- uid: CatchIo.Managers.GameManager.UINavigation
-  name: UINavigation
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_UINavigation
-  commentId: P:CatchIo.Managers.GameManager.UINavigation
-  fullName: CatchIo.Managers.GameManager.UINavigation
-  nameWithType: GameManager.UINavigation
-- uid: CatchIo.Managers.GameManager.UINavigation*
-  name: UINavigation
-  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_UINavigation_
-  commentId: Overload:CatchIo.Managers.GameManager.UINavigation
-  isSpec: "True"
-  fullName: CatchIo.Managers.GameManager.UINavigation
-  nameWithType: GameManager.UINavigation
 - uid: CatchIo.Managers.GameSession
   name: GameSession
   href: api/CatchIo.Managers.GameSession.html
   commentId: T:CatchIo.Managers.GameSession
   fullName: CatchIo.Managers.GameSession
   nameWithType: GameSession
+- uid: CatchIo.Managers.GameSession.#ctor
+  name: GameSession()
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession__ctor
+  commentId: M:CatchIo.Managers.GameSession.#ctor
+  fullName: CatchIo.Managers.GameSession.GameSession()
+  nameWithType: GameSession.GameSession()
+- uid: CatchIo.Managers.GameSession.#ctor*
+  name: GameSession
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession__ctor_
+  commentId: Overload:CatchIo.Managers.GameSession.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Managers.GameSession.GameSession
+  nameWithType: GameSession.GameSession
+- uid: CatchIo.Managers.GameSession.GameCamera
+  name: GameCamera
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_GameCamera
+  commentId: P:CatchIo.Managers.GameSession.GameCamera
+  fullName: CatchIo.Managers.GameSession.GameCamera
+  nameWithType: GameSession.GameCamera
+- uid: CatchIo.Managers.GameSession.GameCamera*
+  name: GameCamera
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_GameCamera_
+  commentId: Overload:CatchIo.Managers.GameSession.GameCamera
+  isSpec: "True"
+  fullName: CatchIo.Managers.GameSession.GameCamera
+  nameWithType: GameSession.GameCamera
 - uid: CatchIo.Managers.GameSession.LocalPlayerInst
   name: LocalPlayerInst
   href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_LocalPlayerInst
@@ -1946,57 +1901,77 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.GameSession.LocalPlayerInst
   nameWithType: GameSession.LocalPlayerInst
-- uid: CatchIo.Managers.HUDManager
-  name: HUDManager
-  href: api/CatchIo.Managers.HUDManager.html
-  commentId: T:CatchIo.Managers.HUDManager
-  fullName: CatchIo.Managers.HUDManager
-  nameWithType: HUDManager
-- uid: CatchIo.Managers.HUDManager.GameCamera
-  name: GameCamera
-  href: api/CatchIo.Managers.HUDManager.html#CatchIo_Managers_HUDManager_GameCamera
-  commentId: P:CatchIo.Managers.HUDManager.GameCamera
-  fullName: CatchIo.Managers.HUDManager.GameCamera
-  nameWithType: HUDManager.GameCamera
-- uid: CatchIo.Managers.HUDManager.GameCamera*
-  name: GameCamera
-  href: api/CatchIo.Managers.HUDManager.html#CatchIo_Managers_HUDManager_GameCamera_
-  commentId: Overload:CatchIo.Managers.HUDManager.GameCamera
+- uid: CatchIo.Managers.GameSession.SpawnPlayer(Vector3)
+  name: SpawnPlayer(Vector3)
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_SpawnPlayer_Vector3_
+  commentId: M:CatchIo.Managers.GameSession.SpawnPlayer(Vector3)
+  fullName: CatchIo.Managers.GameSession.SpawnPlayer(Vector3)
+  nameWithType: GameSession.SpawnPlayer(Vector3)
+- uid: CatchIo.Managers.GameSession.SpawnPlayer*
+  name: SpawnPlayer
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_SpawnPlayer_
+  commentId: Overload:CatchIo.Managers.GameSession.SpawnPlayer
   isSpec: "True"
-  fullName: CatchIo.Managers.HUDManager.GameCamera
-  nameWithType: HUDManager.GameCamera
-- uid: CatchIo.Managers.HUDManager.LocalCharacter
-  name: LocalCharacter
-  href: api/CatchIo.Managers.HUDManager.html#CatchIo_Managers_HUDManager_LocalCharacter
-  commentId: P:CatchIo.Managers.HUDManager.LocalCharacter
-  fullName: CatchIo.Managers.HUDManager.LocalCharacter
-  nameWithType: HUDManager.LocalCharacter
-- uid: CatchIo.Managers.HUDManager.LocalCharacter*
-  name: LocalCharacter
-  href: api/CatchIo.Managers.HUDManager.html#CatchIo_Managers_HUDManager_LocalCharacter_
-  commentId: Overload:CatchIo.Managers.HUDManager.LocalCharacter
-  isSpec: "True"
-  fullName: CatchIo.Managers.HUDManager.LocalCharacter
-  nameWithType: HUDManager.LocalCharacter
+  fullName: CatchIo.Managers.GameSession.SpawnPlayer
+  nameWithType: GameSession.SpawnPlayer
 - uid: CatchIo.Managers.MenuUIManager
   name: MenuUIManager
   href: api/CatchIo.Managers.MenuUIManager.html
   commentId: T:CatchIo.Managers.MenuUIManager
   fullName: CatchIo.Managers.MenuUIManager
   nameWithType: MenuUIManager
-- uid: CatchIo.Managers.MenuUIManager.MasterContext
-  name: MasterContext
-  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MasterContext
-  commentId: P:CatchIo.Managers.MenuUIManager.MasterContext
-  fullName: CatchIo.Managers.MenuUIManager.MasterContext
-  nameWithType: MenuUIManager.MasterContext
-- uid: CatchIo.Managers.MenuUIManager.MasterContext*
-  name: MasterContext
-  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MasterContext_
-  commentId: Overload:CatchIo.Managers.MenuUIManager.MasterContext
+- uid: CatchIo.Managers.MenuUIManager.Instance
+  name: Instance
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_Instance
+  commentId: P:CatchIo.Managers.MenuUIManager.Instance
+  fullName: CatchIo.Managers.MenuUIManager.Instance
+  nameWithType: MenuUIManager.Instance
+- uid: CatchIo.Managers.MenuUIManager.Instance*
+  name: Instance
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_Instance_
+  commentId: Overload:CatchIo.Managers.MenuUIManager.Instance
   isSpec: "True"
-  fullName: CatchIo.Managers.MenuUIManager.MasterContext
-  nameWithType: MenuUIManager.MasterContext
+  fullName: CatchIo.Managers.MenuUIManager.Instance
+  nameWithType: MenuUIManager.Instance
+- uid: CatchIo.Managers.MenuUIManager.MakeUIMenuViewTypeFile
+  name: MakeUIMenuViewTypeFile()
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MakeUIMenuViewTypeFile
+  commentId: M:CatchIo.Managers.MenuUIManager.MakeUIMenuViewTypeFile
+  fullName: CatchIo.Managers.MenuUIManager.MakeUIMenuViewTypeFile()
+  nameWithType: MenuUIManager.MakeUIMenuViewTypeFile()
+- uid: CatchIo.Managers.MenuUIManager.MakeUIMenuViewTypeFile*
+  name: MakeUIMenuViewTypeFile
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MakeUIMenuViewTypeFile_
+  commentId: Overload:CatchIo.Managers.MenuUIManager.MakeUIMenuViewTypeFile
+  isSpec: "True"
+  fullName: CatchIo.Managers.MenuUIManager.MakeUIMenuViewTypeFile
+  nameWithType: MenuUIManager.MakeUIMenuViewTypeFile
+- uid: CatchIo.Managers.MenuUIManager.MenuArrowSet
+  name: MenuArrowSet
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MenuArrowSet
+  commentId: P:CatchIo.Managers.MenuUIManager.MenuArrowSet
+  fullName: CatchIo.Managers.MenuUIManager.MenuArrowSet
+  nameWithType: MenuUIManager.MenuArrowSet
+- uid: CatchIo.Managers.MenuUIManager.MenuArrowSet*
+  name: MenuArrowSet
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MenuArrowSet_
+  commentId: Overload:CatchIo.Managers.MenuUIManager.MenuArrowSet
+  isSpec: "True"
+  fullName: CatchIo.Managers.MenuUIManager.MenuArrowSet
+  nameWithType: MenuUIManager.MenuArrowSet
+- uid: CatchIo.Managers.MenuUIManager.MenuUIContext
+  name: MenuUIContext
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MenuUIContext
+  commentId: P:CatchIo.Managers.MenuUIManager.MenuUIContext
+  fullName: CatchIo.Managers.MenuUIManager.MenuUIContext
+  nameWithType: MenuUIManager.MenuUIContext
+- uid: CatchIo.Managers.MenuUIManager.MenuUIContext*
+  name: MenuUIContext
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_MenuUIContext_
+  commentId: Overload:CatchIo.Managers.MenuUIManager.MenuUIContext
+  isSpec: "True"
+  fullName: CatchIo.Managers.MenuUIManager.MenuUIContext
+  nameWithType: MenuUIManager.MenuUIContext
 - uid: CatchIo.Managers.MenuUIManager.OnEnable
   name: OnEnable()
   href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_OnEnable
@@ -2023,385 +1998,1031 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.MenuUIManager.UICamera
   nameWithType: MenuUIManager.UICamera
-- uid: CatchIo.Managers.NetworkLauncher
-  name: NetworkLauncher
-  href: api/CatchIo.Managers.NetworkLauncher.html
-  commentId: T:CatchIo.Managers.NetworkLauncher
-  fullName: CatchIo.Managers.NetworkLauncher
-  nameWithType: NetworkLauncher
-- uid: CatchIo.Managers.NetworkLauncher.Connect(System.String)
-  name: Connect(String)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_Connect_System_String_
-  commentId: M:CatchIo.Managers.NetworkLauncher.Connect(System.String)
-  fullName: CatchIo.Managers.NetworkLauncher.Connect(System.String)
-  nameWithType: NetworkLauncher.Connect(String)
-- uid: CatchIo.Managers.NetworkLauncher.Connect*
-  name: Connect
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_Connect_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.Connect
+- uid: CatchIo.Managers.MenuUIManager.UINavigation
+  name: UINavigation
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_UINavigation
+  commentId: P:CatchIo.Managers.MenuUIManager.UINavigation
+  fullName: CatchIo.Managers.MenuUIManager.UINavigation
+  nameWithType: MenuUIManager.UINavigation
+- uid: CatchIo.Managers.MenuUIManager.UINavigation*
+  name: UINavigation
+  href: api/CatchIo.Managers.MenuUIManager.html#CatchIo_Managers_MenuUIManager_UINavigation_
+  commentId: Overload:CatchIo.Managers.MenuUIManager.UINavigation
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.Connect
-  nameWithType: NetworkLauncher.Connect
-- uid: CatchIo.Managers.NetworkLauncher.CreateRoom(System.String,System.String,System.Byte)
+  fullName: CatchIo.Managers.MenuUIManager.UINavigation
+  nameWithType: MenuUIManager.UINavigation
+- uid: CatchIo.Network
+  name: CatchIo.Network
+  href: api/CatchIo.Network.html
+  commentId: N:CatchIo.Network
+  fullName: CatchIo.Network
+  nameWithType: CatchIo.Network
+- uid: CatchIo.Network.NetworkDiscoveryData
+  name: NetworkDiscoveryData
+  href: api/CatchIo.Network.NetworkDiscoveryData.html
+  commentId: T:CatchIo.Network.NetworkDiscoveryData
+  fullName: CatchIo.Network.NetworkDiscoveryData
+  nameWithType: NetworkDiscoveryData
+- uid: CatchIo.Network.NetworkDiscoveryData.FullProperties
+  name: FullProperties
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_FullProperties
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.FullProperties
+  fullName: CatchIo.Network.NetworkDiscoveryData.FullProperties
+  nameWithType: NetworkDiscoveryData.FullProperties
+- uid: CatchIo.Network.NetworkDiscoveryData.maxPlayers
+  name: maxPlayers
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_maxPlayers
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.maxPlayers
+  fullName: CatchIo.Network.NetworkDiscoveryData.maxPlayers
+  nameWithType: NetworkDiscoveryData.maxPlayers
+- uid: CatchIo.Network.NetworkDiscoveryData.name
+  name: name
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_name
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.name
+  fullName: CatchIo.Network.NetworkDiscoveryData.name
+  nameWithType: NetworkDiscoveryData.name
+- uid: CatchIo.Network.NetworkDiscoveryData.numPlayers
+  name: numPlayers
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_numPlayers
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.numPlayers
+  fullName: CatchIo.Network.NetworkDiscoveryData.numPlayers
+  nameWithType: NetworkDiscoveryData.numPlayers
+- uid: CatchIo.Network.NetworkDiscoveryData.playerId
+  name: playerId
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_playerId
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.playerId
+  fullName: CatchIo.Network.NetworkDiscoveryData.playerId
+  nameWithType: NetworkDiscoveryData.playerId
+- uid: CatchIo.Network.NetworkDiscoveryData.playerName
+  name: playerName
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_playerName
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.playerName
+  fullName: CatchIo.Network.NetworkDiscoveryData.playerName
+  nameWithType: NetworkDiscoveryData.playerName
+- uid: CatchIo.Network.NetworkDiscoveryData.roomName
+  name: roomName
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_roomName
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.roomName
+  fullName: CatchIo.Network.NetworkDiscoveryData.roomName
+  nameWithType: NetworkDiscoveryData.roomName
+- uid: CatchIo.Network.NetworkDiscoveryData.sceneName
+  name: sceneName
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_sceneName
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.sceneName
+  fullName: CatchIo.Network.NetworkDiscoveryData.sceneName
+  nameWithType: NetworkDiscoveryData.sceneName
+- uid: CatchIo.Network.NetworkDiscoveryData.state
+  name: state
+  href: api/CatchIo.Network.NetworkDiscoveryData.html#CatchIo_Network_NetworkDiscoveryData_state
+  commentId: F:CatchIo.Network.NetworkDiscoveryData.state
+  fullName: CatchIo.Network.NetworkDiscoveryData.state
+  nameWithType: NetworkDiscoveryData.state
+- uid: CatchIo.Network.NetworkManager
+  name: NetworkManager
+  href: api/CatchIo.Network.NetworkManager.html
+  commentId: T:CatchIo.Network.NetworkManager
+  fullName: CatchIo.Network.NetworkManager
+  nameWithType: NetworkManager
+- uid: CatchIo.Network.NetworkManager.CacheRoom(List{RoomInfo})
+  name: CacheRoom(List<RoomInfo>)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CacheRoom_List_RoomInfo__
+  commentId: M:CatchIo.Network.NetworkManager.CacheRoom(List{RoomInfo})
+  name.vb: CacheRoom(List(Of RoomInfo))
+  fullName: CatchIo.Network.NetworkManager.CacheRoom(List<RoomInfo>)
+  fullName.vb: CatchIo.Network.NetworkManager.CacheRoom(List(Of RoomInfo))
+  nameWithType: NetworkManager.CacheRoom(List<RoomInfo>)
+  nameWithType.vb: NetworkManager.CacheRoom(List(Of RoomInfo))
+- uid: CatchIo.Network.NetworkManager.CacheRoom*
+  name: CacheRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CacheRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.CacheRoom
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.CacheRoom
+  nameWithType: NetworkManager.CacheRoom
+- uid: CatchIo.Network.NetworkManager.CanAddRoom(RoomInfo,CatchIo.Network.NetworkDiscoveryData@)
+  name: CanAddRoom(RoomInfo, out NetworkDiscoveryData)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CanAddRoom_RoomInfo_CatchIo_Network_NetworkDiscoveryData__
+  commentId: M:CatchIo.Network.NetworkManager.CanAddRoom(RoomInfo,CatchIo.Network.NetworkDiscoveryData@)
+  name.vb: CanAddRoom(RoomInfo, ByRef NetworkDiscoveryData)
+  fullName: CatchIo.Network.NetworkManager.CanAddRoom(RoomInfo, out CatchIo.Network.NetworkDiscoveryData)
+  fullName.vb: CatchIo.Network.NetworkManager.CanAddRoom(RoomInfo, ByRef CatchIo.Network.NetworkDiscoveryData)
+  nameWithType: NetworkManager.CanAddRoom(RoomInfo, out NetworkDiscoveryData)
+  nameWithType.vb: NetworkManager.CanAddRoom(RoomInfo, ByRef NetworkDiscoveryData)
+- uid: CatchIo.Network.NetworkManager.CanAddRoom*
+  name: CanAddRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CanAddRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.CanAddRoom
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.CanAddRoom
+  nameWithType: NetworkManager.CanAddRoom
+- uid: CatchIo.Network.NetworkManager.ConnectToBestCloudServer
+  name: ConnectToBestCloudServer()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_ConnectToBestCloudServer
+  commentId: M:CatchIo.Network.NetworkManager.ConnectToBestCloudServer
+  fullName: CatchIo.Network.NetworkManager.ConnectToBestCloudServer()
+  nameWithType: NetworkManager.ConnectToBestCloudServer()
+- uid: CatchIo.Network.NetworkManager.ConnectToBestCloudServer*
+  name: ConnectToBestCloudServer
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_ConnectToBestCloudServer_
+  commentId: Overload:CatchIo.Network.NetworkManager.ConnectToBestCloudServer
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.ConnectToBestCloudServer
+  nameWithType: NetworkManager.ConnectToBestCloudServer
+- uid: CatchIo.Network.NetworkManager.ConnectToMaster(System.String)
+  name: ConnectToMaster(String)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_ConnectToMaster_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.ConnectToMaster(System.String)
+  fullName: CatchIo.Network.NetworkManager.ConnectToMaster(System.String)
+  nameWithType: NetworkManager.ConnectToMaster(String)
+- uid: CatchIo.Network.NetworkManager.ConnectToMaster*
+  name: ConnectToMaster
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_ConnectToMaster_
+  commentId: Overload:CatchIo.Network.NetworkManager.ConnectToMaster
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.ConnectToMaster
+  nameWithType: NetworkManager.ConnectToMaster
+- uid: CatchIo.Network.NetworkManager.ConnectToRegion
+  name: ConnectToRegion()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_ConnectToRegion
+  commentId: M:CatchIo.Network.NetworkManager.ConnectToRegion
+  fullName: CatchIo.Network.NetworkManager.ConnectToRegion()
+  nameWithType: NetworkManager.ConnectToRegion()
+- uid: CatchIo.Network.NetworkManager.ConnectToRegion*
+  name: ConnectToRegion
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_ConnectToRegion_
+  commentId: Overload:CatchIo.Network.NetworkManager.ConnectToRegion
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.ConnectToRegion
+  nameWithType: NetworkManager.ConnectToRegion
+- uid: CatchIo.Network.NetworkManager.CountPlayerWithState(CatchIo.Network.NetworkManager.PlayerState)
+  name: CountPlayerWithState(NetworkManager.PlayerState)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CountPlayerWithState_CatchIo_Network_NetworkManager_PlayerState_
+  commentId: M:CatchIo.Network.NetworkManager.CountPlayerWithState(CatchIo.Network.NetworkManager.PlayerState)
+  fullName: CatchIo.Network.NetworkManager.CountPlayerWithState(CatchIo.Network.NetworkManager.PlayerState)
+  nameWithType: NetworkManager.CountPlayerWithState(NetworkManager.PlayerState)
+- uid: CatchIo.Network.NetworkManager.CountPlayerWithState*
+  name: CountPlayerWithState
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CountPlayerWithState_
+  commentId: Overload:CatchIo.Network.NetworkManager.CountPlayerWithState
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.CountPlayerWithState
+  nameWithType: NetworkManager.CountPlayerWithState
+- uid: CatchIo.Network.NetworkManager.CreateRoom(System.String,System.String,System.Byte)
   name: CreateRoom(String, String, Byte)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_CreateRoom_System_String_System_String_System_Byte_
-  commentId: M:CatchIo.Managers.NetworkLauncher.CreateRoom(System.String,System.String,System.Byte)
-  fullName: CatchIo.Managers.NetworkLauncher.CreateRoom(System.String, System.String, System.Byte)
-  nameWithType: NetworkLauncher.CreateRoom(String, String, Byte)
-- uid: CatchIo.Managers.NetworkLauncher.CreateRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CreateRoom_System_String_System_String_System_Byte_
+  commentId: M:CatchIo.Network.NetworkManager.CreateRoom(System.String,System.String,System.Byte)
+  fullName: CatchIo.Network.NetworkManager.CreateRoom(System.String, System.String, System.Byte)
+  nameWithType: NetworkManager.CreateRoom(String, String, Byte)
+- uid: CatchIo.Network.NetworkManager.CreateRoom*
   name: CreateRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_CreateRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.CreateRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CreateRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.CreateRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.CreateRoom
-  nameWithType: NetworkLauncher.CreateRoom
-- uid: CatchIo.Managers.NetworkLauncher.DisConnect
-  name: DisConnect()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_DisConnect
-  commentId: M:CatchIo.Managers.NetworkLauncher.DisConnect
-  fullName: CatchIo.Managers.NetworkLauncher.DisConnect()
-  nameWithType: NetworkLauncher.DisConnect()
-- uid: CatchIo.Managers.NetworkLauncher.DisConnect*
-  name: DisConnect
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_DisConnect_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.DisConnect
+  fullName: CatchIo.Network.NetworkManager.CreateRoom
+  nameWithType: NetworkManager.CreateRoom
+- uid: CatchIo.Network.NetworkManager.CurrentRoomName
+  name: CurrentRoomName
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CurrentRoomName
+  commentId: P:CatchIo.Network.NetworkManager.CurrentRoomName
+  fullName: CatchIo.Network.NetworkManager.CurrentRoomName
+  nameWithType: NetworkManager.CurrentRoomName
+- uid: CatchIo.Network.NetworkManager.CurrentRoomName*
+  name: CurrentRoomName
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CurrentRoomName_
+  commentId: Overload:CatchIo.Network.NetworkManager.CurrentRoomName
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.DisConnect
-  nameWithType: NetworkLauncher.DisConnect
-- uid: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty*
+  fullName: CatchIo.Network.NetworkManager.CurrentRoomName
+  nameWithType: NetworkManager.CurrentRoomName
+- uid: CatchIo.Network.NetworkManager.CUSTOM_PLAYER_CLASS
+  name: CUSTOM_PLAYER_CLASS
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CUSTOM_PLAYER_CLASS
+  commentId: F:CatchIo.Network.NetworkManager.CUSTOM_PLAYER_CLASS
+  fullName: CatchIo.Network.NetworkManager.CUSTOM_PLAYER_CLASS
+  nameWithType: NetworkManager.CUSTOM_PLAYER_CLASS
+- uid: CatchIo.Network.NetworkManager.CUSTOM_PLAYER_STATE
+  name: CUSTOM_PLAYER_STATE
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CUSTOM_PLAYER_STATE
+  commentId: F:CatchIo.Network.NetworkManager.CUSTOM_PLAYER_STATE
+  fullName: CatchIo.Network.NetworkManager.CUSTOM_PLAYER_STATE
+  nameWithType: NetworkManager.CUSTOM_PLAYER_STATE
+- uid: CatchIo.Network.NetworkManager.CUSTOM_ROOM_PLAYER_ID
+  name: CUSTOM_ROOM_PLAYER_ID
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CUSTOM_ROOM_PLAYER_ID
+  commentId: F:CatchIo.Network.NetworkManager.CUSTOM_ROOM_PLAYER_ID
+  fullName: CatchIo.Network.NetworkManager.CUSTOM_ROOM_PLAYER_ID
+  nameWithType: NetworkManager.CUSTOM_ROOM_PLAYER_ID
+- uid: CatchIo.Network.NetworkManager.CUSTOM_ROOM_PLAYER_NAME
+  name: CUSTOM_ROOM_PLAYER_NAME
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CUSTOM_ROOM_PLAYER_NAME
+  commentId: F:CatchIo.Network.NetworkManager.CUSTOM_ROOM_PLAYER_NAME
+  fullName: CatchIo.Network.NetworkManager.CUSTOM_ROOM_PLAYER_NAME
+  nameWithType: NetworkManager.CUSTOM_ROOM_PLAYER_NAME
+- uid: CatchIo.Network.NetworkManager.CUSTOM_ROOM_ROOM_NAME
+  name: CUSTOM_ROOM_ROOM_NAME
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CUSTOM_ROOM_ROOM_NAME
+  commentId: F:CatchIo.Network.NetworkManager.CUSTOM_ROOM_ROOM_NAME
+  fullName: CatchIo.Network.NetworkManager.CUSTOM_ROOM_ROOM_NAME
+  nameWithType: NetworkManager.CUSTOM_ROOM_ROOM_NAME
+- uid: CatchIo.Network.NetworkManager.CUSTOM_ROOM_SCENE_NAME
+  name: CUSTOM_ROOM_SCENE_NAME
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CUSTOM_ROOM_SCENE_NAME
+  commentId: F:CatchIo.Network.NetworkManager.CUSTOM_ROOM_SCENE_NAME
+  fullName: CatchIo.Network.NetworkManager.CUSTOM_ROOM_SCENE_NAME
+  nameWithType: NetworkManager.CUSTOM_ROOM_SCENE_NAME
+- uid: CatchIo.Network.NetworkManager.CUSTOM_ROOM_STATE
+  name: CUSTOM_ROOM_STATE
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_CUSTOM_ROOM_STATE
+  commentId: F:CatchIo.Network.NetworkManager.CUSTOM_ROOM_STATE
+  fullName: CatchIo.Network.NetworkManager.CUSTOM_ROOM_STATE
+  nameWithType: NetworkManager.CUSTOM_ROOM_STATE
+- uid: CatchIo.Network.NetworkManager.Disconnect
+  name: Disconnect()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_Disconnect
+  commentId: M:CatchIo.Network.NetworkManager.Disconnect
+  fullName: CatchIo.Network.NetworkManager.Disconnect()
+  nameWithType: NetworkManager.Disconnect()
+- uid: CatchIo.Network.NetworkManager.Disconnect*
+  name: Disconnect
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_Disconnect_
+  commentId: Overload:CatchIo.Network.NetworkManager.Disconnect
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.Disconnect
+  nameWithType: NetworkManager.Disconnect
+- uid: CatchIo.Network.NetworkManager.GetCustomRoomPropertiesForLobby
+  name: GetCustomRoomPropertiesForLobby()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_GetCustomRoomPropertiesForLobby
+  commentId: M:CatchIo.Network.NetworkManager.GetCustomRoomPropertiesForLobby
+  fullName: CatchIo.Network.NetworkManager.GetCustomRoomPropertiesForLobby()
+  nameWithType: NetworkManager.GetCustomRoomPropertiesForLobby()
+- uid: CatchIo.Network.NetworkManager.GetCustomRoomPropertiesForLobby*
+  name: GetCustomRoomPropertiesForLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_GetCustomRoomPropertiesForLobby_
+  commentId: Overload:CatchIo.Network.NetworkManager.GetCustomRoomPropertiesForLobby
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.GetCustomRoomPropertiesForLobby
+  nameWithType: NetworkManager.GetCustomRoomPropertiesForLobby
+- uid: CatchIo.Network.NetworkManager.GetRoomPlayerProperty*
   name: GetRoomPlayerProperty
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_GetRoomPlayerProperty_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_GetRoomPlayerProperty_
+  commentId: Overload:CatchIo.Network.NetworkManager.GetRoomPlayerProperty
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty
-  nameWithType: NetworkLauncher.GetRoomPlayerProperty
-- uid: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty``1(System.String,Player,``0)
+  fullName: CatchIo.Network.NetworkManager.GetRoomPlayerProperty
+  nameWithType: NetworkManager.GetRoomPlayerProperty
+- uid: CatchIo.Network.NetworkManager.GetRoomPlayerProperty``1(System.String,Player,``0)
   name: GetRoomPlayerProperty<T>(String, Player, T)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_GetRoomPlayerProperty__1_System_String_Player___0_
-  commentId: M:CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty``1(System.String,Player,``0)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_GetRoomPlayerProperty__1_System_String_Player___0_
+  commentId: M:CatchIo.Network.NetworkManager.GetRoomPlayerProperty``1(System.String,Player,``0)
   name.vb: GetRoomPlayerProperty(Of T)(String, Player, T)
-  fullName: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty<T>(System.String, Player, T)
-  fullName.vb: CatchIo.Managers.NetworkLauncher.GetRoomPlayerProperty(Of T)(System.String, Player, T)
-  nameWithType: NetworkLauncher.GetRoomPlayerProperty<T>(String, Player, T)
-  nameWithType.vb: NetworkLauncher.GetRoomPlayerProperty(Of T)(String, Player, T)
-- uid: CatchIo.Managers.NetworkLauncher.JoinLobby
+  fullName: CatchIo.Network.NetworkManager.GetRoomPlayerProperty<T>(System.String, Player, T)
+  fullName.vb: CatchIo.Network.NetworkManager.GetRoomPlayerProperty(Of T)(System.String, Player, T)
+  nameWithType: NetworkManager.GetRoomPlayerProperty<T>(String, Player, T)
+  nameWithType.vb: NetworkManager.GetRoomPlayerProperty(Of T)(String, Player, T)
+- uid: CatchIo.Network.NetworkManager.GetRoomProperty*
+  name: GetRoomProperty
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_GetRoomProperty_
+  commentId: Overload:CatchIo.Network.NetworkManager.GetRoomProperty
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.GetRoomProperty
+  nameWithType: NetworkManager.GetRoomProperty
+- uid: CatchIo.Network.NetworkManager.GetRoomProperty``1(System.String,``0)
+  name: GetRoomProperty<T>(String, T)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_GetRoomProperty__1_System_String___0_
+  commentId: M:CatchIo.Network.NetworkManager.GetRoomProperty``1(System.String,``0)
+  name.vb: GetRoomProperty(Of T)(String, T)
+  fullName: CatchIo.Network.NetworkManager.GetRoomProperty<T>(System.String, T)
+  fullName.vb: CatchIo.Network.NetworkManager.GetRoomProperty(Of T)(System.String, T)
+  nameWithType: NetworkManager.GetRoomProperty<T>(String, T)
+  nameWithType.vb: NetworkManager.GetRoomProperty(Of T)(String, T)
+- uid: CatchIo.Network.NetworkManager.Instance
+  name: Instance
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_Instance
+  commentId: P:CatchIo.Network.NetworkManager.Instance
+  fullName: CatchIo.Network.NetworkManager.Instance
+  nameWithType: NetworkManager.Instance
+- uid: CatchIo.Network.NetworkManager.Instance*
+  name: Instance
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_Instance_
+  commentId: Overload:CatchIo.Network.NetworkManager.Instance
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.Instance
+  nameWithType: NetworkManager.Instance
+- uid: CatchIo.Network.NetworkManager.IsLog
+  name: IsLog
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_IsLog
+  commentId: F:CatchIo.Network.NetworkManager.IsLog
+  fullName: CatchIo.Network.NetworkManager.IsLog
+  nameWithType: NetworkManager.IsLog
+- uid: CatchIo.Network.NetworkManager.IsQuitting
+  name: IsQuitting
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_IsQuitting
+  commentId: F:CatchIo.Network.NetworkManager.IsQuitting
+  fullName: CatchIo.Network.NetworkManager.IsQuitting
+  nameWithType: NetworkManager.IsQuitting
+- uid: CatchIo.Network.NetworkManager.JoinLobby
   name: JoinLobby()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_JoinLobby
-  commentId: M:CatchIo.Managers.NetworkLauncher.JoinLobby
-  fullName: CatchIo.Managers.NetworkLauncher.JoinLobby()
-  nameWithType: NetworkLauncher.JoinLobby()
-- uid: CatchIo.Managers.NetworkLauncher.JoinLobby*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_JoinLobby
+  commentId: M:CatchIo.Network.NetworkManager.JoinLobby
+  fullName: CatchIo.Network.NetworkManager.JoinLobby()
+  nameWithType: NetworkManager.JoinLobby()
+- uid: CatchIo.Network.NetworkManager.JoinLobby*
   name: JoinLobby
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_JoinLobby_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.JoinLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_JoinLobby_
+  commentId: Overload:CatchIo.Network.NetworkManager.JoinLobby
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.JoinLobby
-  nameWithType: NetworkLauncher.JoinLobby
-- uid: CatchIo.Managers.NetworkLauncher.JoinRoom(System.String)
+  fullName: CatchIo.Network.NetworkManager.JoinLobby
+  nameWithType: NetworkManager.JoinLobby
+- uid: CatchIo.Network.NetworkManager.JoinRoom(System.String)
   name: JoinRoom(String)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_JoinRoom_System_String_
-  commentId: M:CatchIo.Managers.NetworkLauncher.JoinRoom(System.String)
-  fullName: CatchIo.Managers.NetworkLauncher.JoinRoom(System.String)
-  nameWithType: NetworkLauncher.JoinRoom(String)
-- uid: CatchIo.Managers.NetworkLauncher.JoinRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_JoinRoom_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.JoinRoom(System.String)
+  fullName: CatchIo.Network.NetworkManager.JoinRoom(System.String)
+  nameWithType: NetworkManager.JoinRoom(String)
+- uid: CatchIo.Network.NetworkManager.JoinRoom*
   name: JoinRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_JoinRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.JoinRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_JoinRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.JoinRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.JoinRoom
-  nameWithType: NetworkLauncher.JoinRoom
-- uid: CatchIo.Managers.NetworkLauncher.LeaveLobby
+  fullName: CatchIo.Network.NetworkManager.JoinRoom
+  nameWithType: NetworkManager.JoinRoom
+- uid: CatchIo.Network.NetworkManager.LeaveLobby
   name: LeaveLobby()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LeaveLobby
-  commentId: M:CatchIo.Managers.NetworkLauncher.LeaveLobby
-  fullName: CatchIo.Managers.NetworkLauncher.LeaveLobby()
-  nameWithType: NetworkLauncher.LeaveLobby()
-- uid: CatchIo.Managers.NetworkLauncher.LeaveLobby*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_LeaveLobby
+  commentId: M:CatchIo.Network.NetworkManager.LeaveLobby
+  fullName: CatchIo.Network.NetworkManager.LeaveLobby()
+  nameWithType: NetworkManager.LeaveLobby()
+- uid: CatchIo.Network.NetworkManager.LeaveLobby*
   name: LeaveLobby
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LeaveLobby_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.LeaveLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_LeaveLobby_
+  commentId: Overload:CatchIo.Network.NetworkManager.LeaveLobby
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.LeaveLobby
-  nameWithType: NetworkLauncher.LeaveLobby
-- uid: CatchIo.Managers.NetworkLauncher.LeaveRoom
+  fullName: CatchIo.Network.NetworkManager.LeaveLobby
+  nameWithType: NetworkManager.LeaveLobby
+- uid: CatchIo.Network.NetworkManager.LeaveRoom
   name: LeaveRoom()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LeaveRoom
-  commentId: M:CatchIo.Managers.NetworkLauncher.LeaveRoom
-  fullName: CatchIo.Managers.NetworkLauncher.LeaveRoom()
-  nameWithType: NetworkLauncher.LeaveRoom()
-- uid: CatchIo.Managers.NetworkLauncher.LeaveRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_LeaveRoom
+  commentId: M:CatchIo.Network.NetworkManager.LeaveRoom
+  fullName: CatchIo.Network.NetworkManager.LeaveRoom()
+  nameWithType: NetworkManager.LeaveRoom()
+- uid: CatchIo.Network.NetworkManager.LeaveRoom*
   name: LeaveRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LeaveRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.LeaveRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_LeaveRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.LeaveRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.LeaveRoom
-  nameWithType: NetworkLauncher.LeaveRoom
-- uid: CatchIo.Managers.NetworkLauncher.LocalPlayerClass
-  name: LocalPlayerClass
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LocalPlayerClass
-  commentId: P:CatchIo.Managers.NetworkLauncher.LocalPlayerClass
-  fullName: CatchIo.Managers.NetworkLauncher.LocalPlayerClass
-  nameWithType: NetworkLauncher.LocalPlayerClass
-- uid: CatchIo.Managers.NetworkLauncher.LocalPlayerClass*
-  name: LocalPlayerClass
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LocalPlayerClass_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.LocalPlayerClass
+  fullName: CatchIo.Network.NetworkManager.LeaveRoom
+  nameWithType: NetworkManager.LeaveRoom
+- uid: CatchIo.Network.NetworkManager.OFFLINE_USER_ID
+  name: OFFLINE_USER_ID
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OFFLINE_USER_ID
+  commentId: F:CatchIo.Network.NetworkManager.OFFLINE_USER_ID
+  fullName: CatchIo.Network.NetworkManager.OFFLINE_USER_ID
+  nameWithType: NetworkManager.OFFLINE_USER_ID
+- uid: CatchIo.Network.NetworkManager.OnApplicationQuit
+  name: OnApplicationQuit()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnApplicationQuit
+  commentId: M:CatchIo.Network.NetworkManager.OnApplicationQuit
+  fullName: CatchIo.Network.NetworkManager.OnApplicationQuit()
+  nameWithType: NetworkManager.OnApplicationQuit()
+- uid: CatchIo.Network.NetworkManager.OnApplicationQuit*
+  name: OnApplicationQuit
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnApplicationQuit_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnApplicationQuit
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.LocalPlayerClass
-  nameWithType: NetworkLauncher.LocalPlayerClass
-- uid: CatchIo.Managers.NetworkLauncher.LocalPlayerNickName
-  name: LocalPlayerNickName
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LocalPlayerNickName
-  commentId: P:CatchIo.Managers.NetworkLauncher.LocalPlayerNickName
-  fullName: CatchIo.Managers.NetworkLauncher.LocalPlayerNickName
-  nameWithType: NetworkLauncher.LocalPlayerNickName
-- uid: CatchIo.Managers.NetworkLauncher.LocalPlayerNickName*
-  name: LocalPlayerNickName
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_LocalPlayerNickName_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.LocalPlayerNickName
-  isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.LocalPlayerNickName
-  nameWithType: NetworkLauncher.LocalPlayerNickName
-- uid: CatchIo.Managers.NetworkLauncher.OnConnectedToMaster
+  fullName: CatchIo.Network.NetworkManager.OnApplicationQuit
+  nameWithType: NetworkManager.OnApplicationQuit
+- uid: CatchIo.Network.NetworkManager.OnConnectedToMaster
   name: OnConnectedToMaster()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnConnectedToMaster
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnConnectedToMaster
-  fullName: CatchIo.Managers.NetworkLauncher.OnConnectedToMaster()
-  nameWithType: NetworkLauncher.OnConnectedToMaster()
-- uid: CatchIo.Managers.NetworkLauncher.OnConnectedToMaster*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnConnectedToMaster
+  commentId: M:CatchIo.Network.NetworkManager.OnConnectedToMaster
+  fullName: CatchIo.Network.NetworkManager.OnConnectedToMaster()
+  nameWithType: NetworkManager.OnConnectedToMaster()
+- uid: CatchIo.Network.NetworkManager.OnConnectedToMaster*
   name: OnConnectedToMaster
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnConnectedToMaster_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnConnectedToMaster
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnConnectedToMaster_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnConnectedToMaster
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnConnectedToMaster
-  nameWithType: NetworkLauncher.OnConnectedToMaster
-- uid: CatchIo.Managers.NetworkLauncher.OnCreatedRoom
+  fullName: CatchIo.Network.NetworkManager.OnConnectedToMaster
+  nameWithType: NetworkManager.OnConnectedToMaster
+- uid: CatchIo.Network.NetworkManager.OnCreatedRoom
   name: OnCreatedRoom()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnCreatedRoom
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnCreatedRoom
-  fullName: CatchIo.Managers.NetworkLauncher.OnCreatedRoom()
-  nameWithType: NetworkLauncher.OnCreatedRoom()
-- uid: CatchIo.Managers.NetworkLauncher.OnCreatedRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnCreatedRoom
+  commentId: M:CatchIo.Network.NetworkManager.OnCreatedRoom
+  fullName: CatchIo.Network.NetworkManager.OnCreatedRoom()
+  nameWithType: NetworkManager.OnCreatedRoom()
+- uid: CatchIo.Network.NetworkManager.OnCreatedRoom*
   name: OnCreatedRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnCreatedRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnCreatedRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnCreatedRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnCreatedRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnCreatedRoom
-  nameWithType: NetworkLauncher.OnCreatedRoom
-- uid: CatchIo.Managers.NetworkLauncher.OnDisconnected(DisconnectCause)
+  fullName: CatchIo.Network.NetworkManager.OnCreatedRoom
+  nameWithType: NetworkManager.OnCreatedRoom
+- uid: CatchIo.Network.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)
+  name: OnCreateRoomFailed(Int16, String)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnCreateRoomFailed_System_Int16_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)
+  fullName: CatchIo.Network.NetworkManager.OnCreateRoomFailed(System.Int16, System.String)
+  nameWithType: NetworkManager.OnCreateRoomFailed(Int16, String)
+- uid: CatchIo.Network.NetworkManager.OnCreateRoomFailed*
+  name: OnCreateRoomFailed
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnCreateRoomFailed_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnCreateRoomFailed
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.OnCreateRoomFailed
+  nameWithType: NetworkManager.OnCreateRoomFailed
+- uid: CatchIo.Network.NetworkManager.OnDisconnected(DisconnectCause)
   name: OnDisconnected(DisconnectCause)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnDisconnected_DisconnectCause_
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnDisconnected(DisconnectCause)
-  fullName: CatchIo.Managers.NetworkLauncher.OnDisconnected(DisconnectCause)
-  nameWithType: NetworkLauncher.OnDisconnected(DisconnectCause)
-- uid: CatchIo.Managers.NetworkLauncher.OnDisconnected*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnDisconnected_DisconnectCause_
+  commentId: M:CatchIo.Network.NetworkManager.OnDisconnected(DisconnectCause)
+  fullName: CatchIo.Network.NetworkManager.OnDisconnected(DisconnectCause)
+  nameWithType: NetworkManager.OnDisconnected(DisconnectCause)
+- uid: CatchIo.Network.NetworkManager.OnDisconnected*
   name: OnDisconnected
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnDisconnected_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnDisconnected
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnDisconnected_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnDisconnected
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnDisconnected
-  nameWithType: NetworkLauncher.OnDisconnected
-- uid: CatchIo.Managers.NetworkLauncher.OnJoinedLobby
+  fullName: CatchIo.Network.NetworkManager.OnDisconnected
+  nameWithType: NetworkManager.OnDisconnected
+- uid: CatchIo.Network.NetworkManager.OnJoinedLobby
   name: OnJoinedLobby()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnJoinedLobby
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnJoinedLobby
-  fullName: CatchIo.Managers.NetworkLauncher.OnJoinedLobby()
-  nameWithType: NetworkLauncher.OnJoinedLobby()
-- uid: CatchIo.Managers.NetworkLauncher.OnJoinedLobby*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinedLobby
+  commentId: M:CatchIo.Network.NetworkManager.OnJoinedLobby
+  fullName: CatchIo.Network.NetworkManager.OnJoinedLobby()
+  nameWithType: NetworkManager.OnJoinedLobby()
+- uid: CatchIo.Network.NetworkManager.OnJoinedLobby*
   name: OnJoinedLobby
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnJoinedLobby_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnJoinedLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinedLobby_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnJoinedLobby
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnJoinedLobby
-  nameWithType: NetworkLauncher.OnJoinedLobby
-- uid: CatchIo.Managers.NetworkLauncher.OnJoinedRoom
+  fullName: CatchIo.Network.NetworkManager.OnJoinedLobby
+  nameWithType: NetworkManager.OnJoinedLobby
+- uid: CatchIo.Network.NetworkManager.OnJoinedRoom
   name: OnJoinedRoom()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnJoinedRoom
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnJoinedRoom
-  fullName: CatchIo.Managers.NetworkLauncher.OnJoinedRoom()
-  nameWithType: NetworkLauncher.OnJoinedRoom()
-- uid: CatchIo.Managers.NetworkLauncher.OnJoinedRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinedRoom
+  commentId: M:CatchIo.Network.NetworkManager.OnJoinedRoom
+  fullName: CatchIo.Network.NetworkManager.OnJoinedRoom()
+  nameWithType: NetworkManager.OnJoinedRoom()
+- uid: CatchIo.Network.NetworkManager.OnJoinedRoom*
   name: OnJoinedRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnJoinedRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnJoinedRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinedRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnJoinedRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnJoinedRoom
-  nameWithType: NetworkLauncher.OnJoinedRoom
-- uid: CatchIo.Managers.NetworkLauncher.OnJoinRoomFailed(System.Int16,System.String)
+  fullName: CatchIo.Network.NetworkManager.OnJoinedRoom
+  nameWithType: NetworkManager.OnJoinedRoom
+- uid: CatchIo.Network.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)
+  name: OnJoinRandomFailed(Int16, String)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinRandomFailed_System_Int16_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)
+  fullName: CatchIo.Network.NetworkManager.OnJoinRandomFailed(System.Int16, System.String)
+  nameWithType: NetworkManager.OnJoinRandomFailed(Int16, String)
+- uid: CatchIo.Network.NetworkManager.OnJoinRandomFailed*
+  name: OnJoinRandomFailed
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinRandomFailed_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnJoinRandomFailed
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.OnJoinRandomFailed
+  nameWithType: NetworkManager.OnJoinRandomFailed
+- uid: CatchIo.Network.NetworkManager.OnJoinRoomFailed(System.Int16,System.String)
   name: OnJoinRoomFailed(Int16, String)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnJoinRoomFailed_System_Int16_System_String_
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnJoinRoomFailed(System.Int16,System.String)
-  fullName: CatchIo.Managers.NetworkLauncher.OnJoinRoomFailed(System.Int16, System.String)
-  nameWithType: NetworkLauncher.OnJoinRoomFailed(Int16, String)
-- uid: CatchIo.Managers.NetworkLauncher.OnJoinRoomFailed*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinRoomFailed_System_Int16_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.OnJoinRoomFailed(System.Int16,System.String)
+  fullName: CatchIo.Network.NetworkManager.OnJoinRoomFailed(System.Int16, System.String)
+  nameWithType: NetworkManager.OnJoinRoomFailed(Int16, String)
+- uid: CatchIo.Network.NetworkManager.OnJoinRoomFailed*
   name: OnJoinRoomFailed
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnJoinRoomFailed_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnJoinRoomFailed
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnJoinRoomFailed_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnJoinRoomFailed
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnJoinRoomFailed
-  nameWithType: NetworkLauncher.OnJoinRoomFailed
-- uid: CatchIo.Managers.NetworkLauncher.OnLeftLobby
+  fullName: CatchIo.Network.NetworkManager.OnJoinRoomFailed
+  nameWithType: NetworkManager.OnJoinRoomFailed
+- uid: CatchIo.Network.NetworkManager.OnLeftLobby
   name: OnLeftLobby()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnLeftLobby
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnLeftLobby
-  fullName: CatchIo.Managers.NetworkLauncher.OnLeftLobby()
-  nameWithType: NetworkLauncher.OnLeftLobby()
-- uid: CatchIo.Managers.NetworkLauncher.OnLeftLobby*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnLeftLobby
+  commentId: M:CatchIo.Network.NetworkManager.OnLeftLobby
+  fullName: CatchIo.Network.NetworkManager.OnLeftLobby()
+  nameWithType: NetworkManager.OnLeftLobby()
+- uid: CatchIo.Network.NetworkManager.OnLeftLobby*
   name: OnLeftLobby
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnLeftLobby_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnLeftLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnLeftLobby_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnLeftLobby
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnLeftLobby
-  nameWithType: NetworkLauncher.OnLeftLobby
-- uid: CatchIo.Managers.NetworkLauncher.OnLeftRoom
+  fullName: CatchIo.Network.NetworkManager.OnLeftLobby
+  nameWithType: NetworkManager.OnLeftLobby
+- uid: CatchIo.Network.NetworkManager.OnLeftRoom
   name: OnLeftRoom()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnLeftRoom
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnLeftRoom
-  fullName: CatchIo.Managers.NetworkLauncher.OnLeftRoom()
-  nameWithType: NetworkLauncher.OnLeftRoom()
-- uid: CatchIo.Managers.NetworkLauncher.OnLeftRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnLeftRoom
+  commentId: M:CatchIo.Network.NetworkManager.OnLeftRoom
+  fullName: CatchIo.Network.NetworkManager.OnLeftRoom()
+  nameWithType: NetworkManager.OnLeftRoom()
+- uid: CatchIo.Network.NetworkManager.OnLeftRoom*
   name: OnLeftRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnLeftRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnLeftRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnLeftRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnLeftRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnLeftRoom
-  nameWithType: NetworkLauncher.OnLeftRoom
-- uid: CatchIo.Managers.NetworkLauncher.OnMasterClientSwitched(Player)
+  fullName: CatchIo.Network.NetworkManager.OnLeftRoom
+  nameWithType: NetworkManager.OnLeftRoom
+- uid: CatchIo.Network.NetworkManager.OnMasterClientSwitched(Player)
   name: OnMasterClientSwitched(Player)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnMasterClientSwitched_Player_
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnMasterClientSwitched(Player)
-  fullName: CatchIo.Managers.NetworkLauncher.OnMasterClientSwitched(Player)
-  nameWithType: NetworkLauncher.OnMasterClientSwitched(Player)
-- uid: CatchIo.Managers.NetworkLauncher.OnMasterClientSwitched*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnMasterClientSwitched_Player_
+  commentId: M:CatchIo.Network.NetworkManager.OnMasterClientSwitched(Player)
+  fullName: CatchIo.Network.NetworkManager.OnMasterClientSwitched(Player)
+  nameWithType: NetworkManager.OnMasterClientSwitched(Player)
+- uid: CatchIo.Network.NetworkManager.OnMasterClientSwitched*
   name: OnMasterClientSwitched
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnMasterClientSwitched_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnMasterClientSwitched
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnMasterClientSwitched_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnMasterClientSwitched
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnMasterClientSwitched
-  nameWithType: NetworkLauncher.OnMasterClientSwitched
-- uid: CatchIo.Managers.NetworkLauncher.OnPlayerEnteredRoom(Player)
+  fullName: CatchIo.Network.NetworkManager.OnMasterClientSwitched
+  nameWithType: NetworkManager.OnMasterClientSwitched
+- uid: CatchIo.Network.NetworkManager.OnPlayerEnteredRoom(Player)
   name: OnPlayerEnteredRoom(Player)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnPlayerEnteredRoom_Player_
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnPlayerEnteredRoom(Player)
-  fullName: CatchIo.Managers.NetworkLauncher.OnPlayerEnteredRoom(Player)
-  nameWithType: NetworkLauncher.OnPlayerEnteredRoom(Player)
-- uid: CatchIo.Managers.NetworkLauncher.OnPlayerEnteredRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnPlayerEnteredRoom_Player_
+  commentId: M:CatchIo.Network.NetworkManager.OnPlayerEnteredRoom(Player)
+  fullName: CatchIo.Network.NetworkManager.OnPlayerEnteredRoom(Player)
+  nameWithType: NetworkManager.OnPlayerEnteredRoom(Player)
+- uid: CatchIo.Network.NetworkManager.OnPlayerEnteredRoom*
   name: OnPlayerEnteredRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnPlayerEnteredRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnPlayerEnteredRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnPlayerEnteredRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnPlayerEnteredRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnPlayerEnteredRoom
-  nameWithType: NetworkLauncher.OnPlayerEnteredRoom
-- uid: CatchIo.Managers.NetworkLauncher.OnPlayerLeftRoom(Player)
+  fullName: CatchIo.Network.NetworkManager.OnPlayerEnteredRoom
+  nameWithType: NetworkManager.OnPlayerEnteredRoom
+- uid: CatchIo.Network.NetworkManager.OnPlayerLeftRoom(Player)
   name: OnPlayerLeftRoom(Player)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnPlayerLeftRoom_Player_
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnPlayerLeftRoom(Player)
-  fullName: CatchIo.Managers.NetworkLauncher.OnPlayerLeftRoom(Player)
-  nameWithType: NetworkLauncher.OnPlayerLeftRoom(Player)
-- uid: CatchIo.Managers.NetworkLauncher.OnPlayerLeftRoom*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnPlayerLeftRoom_Player_
+  commentId: M:CatchIo.Network.NetworkManager.OnPlayerLeftRoom(Player)
+  fullName: CatchIo.Network.NetworkManager.OnPlayerLeftRoom(Player)
+  nameWithType: NetworkManager.OnPlayerLeftRoom(Player)
+- uid: CatchIo.Network.NetworkManager.OnPlayerLeftRoom*
   name: OnPlayerLeftRoom
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnPlayerLeftRoom_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnPlayerLeftRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnPlayerLeftRoom_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnPlayerLeftRoom
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnPlayerLeftRoom
-  nameWithType: NetworkLauncher.OnPlayerLeftRoom
-- uid: CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate(Player,Hashtable)
+  fullName: CatchIo.Network.NetworkManager.OnPlayerLeftRoom
+  nameWithType: NetworkManager.OnPlayerLeftRoom
+- uid: CatchIo.Network.NetworkManager.OnPlayerPropertiesUpdate(Player,Hashtable)
   name: OnPlayerPropertiesUpdate(Player, Hashtable)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnPlayerPropertiesUpdate_Player_Hashtable_
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate(Player,Hashtable)
-  fullName: CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate(Player, Hashtable)
-  nameWithType: NetworkLauncher.OnPlayerPropertiesUpdate(Player, Hashtable)
-- uid: CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate*
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnPlayerPropertiesUpdate_Player_Hashtable_
+  commentId: M:CatchIo.Network.NetworkManager.OnPlayerPropertiesUpdate(Player,Hashtable)
+  fullName: CatchIo.Network.NetworkManager.OnPlayerPropertiesUpdate(Player, Hashtable)
+  nameWithType: NetworkManager.OnPlayerPropertiesUpdate(Player, Hashtable)
+- uid: CatchIo.Network.NetworkManager.OnPlayerPropertiesUpdate*
   name: OnPlayerPropertiesUpdate
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnPlayerPropertiesUpdate_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnPlayerPropertiesUpdate_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnPlayerPropertiesUpdate
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnPlayerPropertiesUpdate
-  nameWithType: NetworkLauncher.OnPlayerPropertiesUpdate
-- uid: CatchIo.Managers.NetworkLauncher.OnRoomListUpdate(List{RoomInfo})
+  fullName: CatchIo.Network.NetworkManager.OnPlayerPropertiesUpdate
+  nameWithType: NetworkManager.OnPlayerPropertiesUpdate
+- uid: CatchIo.Network.NetworkManager.OnRoomListUpdate(List{RoomInfo})
   name: OnRoomListUpdate(List<RoomInfo>)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnRoomListUpdate_List_RoomInfo__
-  commentId: M:CatchIo.Managers.NetworkLauncher.OnRoomListUpdate(List{RoomInfo})
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnRoomListUpdate_List_RoomInfo__
+  commentId: M:CatchIo.Network.NetworkManager.OnRoomListUpdate(List{RoomInfo})
   name.vb: OnRoomListUpdate(List(Of RoomInfo))
-  fullName: CatchIo.Managers.NetworkLauncher.OnRoomListUpdate(List<RoomInfo>)
-  fullName.vb: CatchIo.Managers.NetworkLauncher.OnRoomListUpdate(List(Of RoomInfo))
-  nameWithType: NetworkLauncher.OnRoomListUpdate(List<RoomInfo>)
-  nameWithType.vb: NetworkLauncher.OnRoomListUpdate(List(Of RoomInfo))
-- uid: CatchIo.Managers.NetworkLauncher.OnRoomListUpdate*
+  fullName: CatchIo.Network.NetworkManager.OnRoomListUpdate(List<RoomInfo>)
+  fullName.vb: CatchIo.Network.NetworkManager.OnRoomListUpdate(List(Of RoomInfo))
+  nameWithType: NetworkManager.OnRoomListUpdate(List<RoomInfo>)
+  nameWithType.vb: NetworkManager.OnRoomListUpdate(List(Of RoomInfo))
+- uid: CatchIo.Network.NetworkManager.OnRoomListUpdate*
   name: OnRoomListUpdate
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_OnRoomListUpdate_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.OnRoomListUpdate
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnRoomListUpdate_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnRoomListUpdate
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.OnRoomListUpdate
-  nameWithType: NetworkLauncher.OnRoomListUpdate
-- uid: CatchIo.Managers.NetworkLauncher.RemoveOldRooms
-  name: RemoveOldRooms()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_RemoveOldRooms
-  commentId: M:CatchIo.Managers.NetworkLauncher.RemoveOldRooms
-  fullName: CatchIo.Managers.NetworkLauncher.RemoveOldRooms()
-  nameWithType: NetworkLauncher.RemoveOldRooms()
-- uid: CatchIo.Managers.NetworkLauncher.RemoveOldRooms*
-  name: RemoveOldRooms
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_RemoveOldRooms_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.RemoveOldRooms
+  fullName: CatchIo.Network.NetworkManager.OnRoomListUpdate
+  nameWithType: NetworkManager.OnRoomListUpdate
+- uid: CatchIo.Network.NetworkManager.OnRoomPropertiesUpdate(Hashtable)
+  name: OnRoomPropertiesUpdate(Hashtable)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnRoomPropertiesUpdate_Hashtable_
+  commentId: M:CatchIo.Network.NetworkManager.OnRoomPropertiesUpdate(Hashtable)
+  fullName: CatchIo.Network.NetworkManager.OnRoomPropertiesUpdate(Hashtable)
+  nameWithType: NetworkManager.OnRoomPropertiesUpdate(Hashtable)
+- uid: CatchIo.Network.NetworkManager.OnRoomPropertiesUpdate*
+  name: OnRoomPropertiesUpdate
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_OnRoomPropertiesUpdate_
+  commentId: Overload:CatchIo.Network.NetworkManager.OnRoomPropertiesUpdate
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.RemoveOldRooms
-  nameWithType: NetworkLauncher.RemoveOldRooms
-- uid: CatchIo.Managers.NetworkLauncher.SendChat(System.String)
-  name: SendChat(String)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SendChat_System_String_
-  commentId: M:CatchIo.Managers.NetworkLauncher.SendChat(System.String)
-  fullName: CatchIo.Managers.NetworkLauncher.SendChat(System.String)
-  nameWithType: NetworkLauncher.SendChat(String)
-- uid: CatchIo.Managers.NetworkLauncher.SendChat*
-  name: SendChat
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SendChat_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.SendChat
+  fullName: CatchIo.Network.NetworkManager.OnRoomPropertiesUpdate
+  nameWithType: NetworkManager.OnRoomPropertiesUpdate
+- uid: CatchIo.Network.NetworkManager.PlayerState
+  name: NetworkManager.PlayerState
+  href: api/CatchIo.Network.NetworkManager.PlayerState.html
+  commentId: T:CatchIo.Network.NetworkManager.PlayerState
+  fullName: CatchIo.Network.NetworkManager.PlayerState
+  nameWithType: NetworkManager.PlayerState
+- uid: CatchIo.Network.NetworkManager.PlayerState.NotReady
+  name: NotReady
+  href: api/CatchIo.Network.NetworkManager.PlayerState.html#CatchIo_Network_NetworkManager_PlayerState_NotReady
+  commentId: F:CatchIo.Network.NetworkManager.PlayerState.NotReady
+  fullName: CatchIo.Network.NetworkManager.PlayerState.NotReady
+  nameWithType: NetworkManager.PlayerState.NotReady
+- uid: CatchIo.Network.NetworkManager.PlayerState.Ready
+  name: Ready
+  href: api/CatchIo.Network.NetworkManager.PlayerState.html#CatchIo_Network_NetworkManager_PlayerState_Ready
+  commentId: F:CatchIo.Network.NetworkManager.PlayerState.Ready
+  fullName: CatchIo.Network.NetworkManager.PlayerState.Ready
+  nameWithType: NetworkManager.PlayerState.Ready
+- uid: CatchIo.Network.NetworkManager.PlayOffline(System.String)
+  name: PlayOffline(String)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_PlayOffline_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.PlayOffline(System.String)
+  fullName: CatchIo.Network.NetworkManager.PlayOffline(System.String)
+  nameWithType: NetworkManager.PlayOffline(String)
+- uid: CatchIo.Network.NetworkManager.PlayOffline*
+  name: PlayOffline
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_PlayOffline_
+  commentId: Overload:CatchIo.Network.NetworkManager.PlayOffline
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.SendChat
-  nameWithType: NetworkLauncher.SendChat
-- uid: CatchIo.Managers.NetworkLauncher.SetCharacterClass(System.String)
-  name: SetCharacterClass(String)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SetCharacterClass_System_String_
-  commentId: M:CatchIo.Managers.NetworkLauncher.SetCharacterClass(System.String)
-  fullName: CatchIo.Managers.NetworkLauncher.SetCharacterClass(System.String)
-  nameWithType: NetworkLauncher.SetCharacterClass(String)
-- uid: CatchIo.Managers.NetworkLauncher.SetCharacterClass*
-  name: SetCharacterClass
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SetCharacterClass_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.SetCharacterClass
+  fullName: CatchIo.Network.NetworkManager.PlayOffline
+  nameWithType: NetworkManager.PlayOffline
+- uid: CatchIo.Network.NetworkManager.RoomData
+  name: NetworkManager.RoomData
+  href: api/CatchIo.Network.NetworkManager.RoomData.html
+  commentId: T:CatchIo.Network.NetworkManager.RoomData
+  fullName: CatchIo.Network.NetworkManager.RoomData
+  nameWithType: NetworkManager.RoomData
+- uid: CatchIo.Network.NetworkManager.RoomData.Data
+  name: Data
+  href: api/CatchIo.Network.NetworkManager.RoomData.html#CatchIo_Network_NetworkManager_RoomData_Data
+  commentId: P:CatchIo.Network.NetworkManager.RoomData.Data
+  fullName: CatchIo.Network.NetworkManager.RoomData.Data
+  nameWithType: NetworkManager.RoomData.Data
+- uid: CatchIo.Network.NetworkManager.RoomData.Data*
+  name: Data
+  href: api/CatchIo.Network.NetworkManager.RoomData.html#CatchIo_Network_NetworkManager_RoomData_Data_
+  commentId: Overload:CatchIo.Network.NetworkManager.RoomData.Data
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.SetCharacterClass
-  nameWithType: NetworkLauncher.SetCharacterClass
-- uid: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty*
+  fullName: CatchIo.Network.NetworkManager.RoomData.Data
+  nameWithType: NetworkManager.RoomData.Data
+- uid: CatchIo.Network.NetworkManager.RoomData.HasUpdate
+  name: HasUpdate
+  href: api/CatchIo.Network.NetworkManager.RoomData.html#CatchIo_Network_NetworkManager_RoomData_HasUpdate
+  commentId: P:CatchIo.Network.NetworkManager.RoomData.HasUpdate
+  fullName: CatchIo.Network.NetworkManager.RoomData.HasUpdate
+  nameWithType: NetworkManager.RoomData.HasUpdate
+- uid: CatchIo.Network.NetworkManager.RoomData.HasUpdate*
+  name: HasUpdate
+  href: api/CatchIo.Network.NetworkManager.RoomData.html#CatchIo_Network_NetworkManager_RoomData_HasUpdate_
+  commentId: Overload:CatchIo.Network.NetworkManager.RoomData.HasUpdate
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.RoomData.HasUpdate
+  nameWithType: NetworkManager.RoomData.HasUpdate
+- uid: CatchIo.Network.NetworkManager.RoomData.SetDataTime
+  name: SetDataTime
+  href: api/CatchIo.Network.NetworkManager.RoomData.html#CatchIo_Network_NetworkManager_RoomData_SetDataTime
+  commentId: P:CatchIo.Network.NetworkManager.RoomData.SetDataTime
+  fullName: CatchIo.Network.NetworkManager.RoomData.SetDataTime
+  nameWithType: NetworkManager.RoomData.SetDataTime
+- uid: CatchIo.Network.NetworkManager.RoomData.SetDataTime*
+  name: SetDataTime
+  href: api/CatchIo.Network.NetworkManager.RoomData.html#CatchIo_Network_NetworkManager_RoomData_SetDataTime_
+  commentId: Overload:CatchIo.Network.NetworkManager.RoomData.SetDataTime
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.RoomData.SetDataTime
+  nameWithType: NetworkManager.RoomData.SetDataTime
+- uid: CatchIo.Network.NetworkManager.Rooms
+  name: Rooms
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_Rooms
+  commentId: F:CatchIo.Network.NetworkManager.Rooms
+  fullName: CatchIo.Network.NetworkManager.Rooms
+  nameWithType: NetworkManager.Rooms
+- uid: CatchIo.Network.NetworkManager.RoomState
+  name: NetworkManager.RoomState
+  href: api/CatchIo.Network.NetworkManager.RoomState.html
+  commentId: T:CatchIo.Network.NetworkManager.RoomState
+  fullName: CatchIo.Network.NetworkManager.RoomState
+  nameWithType: NetworkManager.RoomState
+- uid: CatchIo.Network.NetworkManager.RoomState.Playing
+  name: Playing
+  href: api/CatchIo.Network.NetworkManager.RoomState.html#CatchIo_Network_NetworkManager_RoomState_Playing
+  commentId: F:CatchIo.Network.NetworkManager.RoomState.Playing
+  fullName: CatchIo.Network.NetworkManager.RoomState.Playing
+  nameWithType: NetworkManager.RoomState.Playing
+- uid: CatchIo.Network.NetworkManager.RoomState.Waiting
+  name: Waiting
+  href: api/CatchIo.Network.NetworkManager.RoomState.html#CatchIo_Network_NetworkManager_RoomState_Waiting
+  commentId: F:CatchIo.Network.NetworkManager.RoomState.Waiting
+  fullName: CatchIo.Network.NetworkManager.RoomState.Waiting
+  nameWithType: NetworkManager.RoomState.Waiting
+- uid: CatchIo.Network.NetworkManager.RPC_LoadGameWindow
+  name: RPC_LoadGameWindow()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RPC_LoadGameWindow
+  commentId: M:CatchIo.Network.NetworkManager.RPC_LoadGameWindow
+  fullName: CatchIo.Network.NetworkManager.RPC_LoadGameWindow()
+  nameWithType: NetworkManager.RPC_LoadGameWindow()
+- uid: CatchIo.Network.NetworkManager.RPC_LoadGameWindow*
+  name: RPC_LoadGameWindow
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RPC_LoadGameWindow_
+  commentId: Overload:CatchIo.Network.NetworkManager.RPC_LoadGameWindow
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.RPC_LoadGameWindow
+  nameWithType: NetworkManager.RPC_LoadGameWindow
+- uid: CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow
+  name: RPC_LoadLoadingWindow()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RPC_LoadLoadingWindow
+  commentId: M:CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow
+  fullName: CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow()
+  nameWithType: NetworkManager.RPC_LoadLoadingWindow()
+- uid: CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow*
+  name: RPC_LoadLoadingWindow
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RPC_LoadLoadingWindow_
+  commentId: Overload:CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow
+  nameWithType: NetworkManager.RPC_LoadLoadingWindow
+- uid: CatchIo.Network.NetworkManager.RPC_SendChat(System.String)
+  name: RPC_SendChat(String)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RPC_SendChat_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.RPC_SendChat(System.String)
+  fullName: CatchIo.Network.NetworkManager.RPC_SendChat(System.String)
+  nameWithType: NetworkManager.RPC_SendChat(String)
+- uid: CatchIo.Network.NetworkManager.RPC_SendChat*
+  name: RPC_SendChat
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RPC_SendChat_
+  commentId: Overload:CatchIo.Network.NetworkManager.RPC_SendChat
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.RPC_SendChat
+  nameWithType: NetworkManager.RPC_SendChat
+- uid: CatchIo.Network.NetworkManager.s_onConnectedToMaster
+  name: s_onConnectedToMaster
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onConnectedToMaster
+  commentId: F:CatchIo.Network.NetworkManager.s_onConnectedToMaster
+  fullName: CatchIo.Network.NetworkManager.s_onConnectedToMaster
+  nameWithType: NetworkManager.s_onConnectedToMaster
+- uid: CatchIo.Network.NetworkManager.s_onConnectingToMaster
+  name: s_onConnectingToMaster
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onConnectingToMaster
+  commentId: F:CatchIo.Network.NetworkManager.s_onConnectingToMaster
+  fullName: CatchIo.Network.NetworkManager.s_onConnectingToMaster
+  nameWithType: NetworkManager.s_onConnectingToMaster
+- uid: CatchIo.Network.NetworkManager.s_onConnectionError
+  name: s_onConnectionError
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onConnectionError
+  commentId: F:CatchIo.Network.NetworkManager.s_onConnectionError
+  fullName: CatchIo.Network.NetworkManager.s_onConnectionError
+  nameWithType: NetworkManager.s_onConnectionError
+- uid: CatchIo.Network.NetworkManager.s_onCreatedRoom
+  name: s_onCreatedRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onCreatedRoom
+  commentId: F:CatchIo.Network.NetworkManager.s_onCreatedRoom
+  fullName: CatchIo.Network.NetworkManager.s_onCreatedRoom
+  nameWithType: NetworkManager.s_onCreatedRoom
+- uid: CatchIo.Network.NetworkManager.s_onCreateRoomFailed
+  name: s_onCreateRoomFailed
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onCreateRoomFailed
+  commentId: F:CatchIo.Network.NetworkManager.s_onCreateRoomFailed
+  fullName: CatchIo.Network.NetworkManager.s_onCreateRoomFailed
+  nameWithType: NetworkManager.s_onCreateRoomFailed
+- uid: CatchIo.Network.NetworkManager.s_onCreatingRoom
+  name: s_onCreatingRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onCreatingRoom
+  commentId: F:CatchIo.Network.NetworkManager.s_onCreatingRoom
+  fullName: CatchIo.Network.NetworkManager.s_onCreatingRoom
+  nameWithType: NetworkManager.s_onCreatingRoom
+- uid: CatchIo.Network.NetworkManager.s_onCustomRoomPropertiesChanged
+  name: s_onCustomRoomPropertiesChanged
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onCustomRoomPropertiesChanged
+  commentId: F:CatchIo.Network.NetworkManager.s_onCustomRoomPropertiesChanged
+  fullName: CatchIo.Network.NetworkManager.s_onCustomRoomPropertiesChanged
+  nameWithType: NetworkManager.s_onCustomRoomPropertiesChanged
+- uid: CatchIo.Network.NetworkManager.s_onDisconnected
+  name: s_onDisconnected
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onDisconnected
+  commentId: F:CatchIo.Network.NetworkManager.s_onDisconnected
+  fullName: CatchIo.Network.NetworkManager.s_onDisconnected
+  nameWithType: NetworkManager.s_onDisconnected
+- uid: CatchIo.Network.NetworkManager.s_onJoinedLobby
+  name: s_onJoinedLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onJoinedLobby
+  commentId: F:CatchIo.Network.NetworkManager.s_onJoinedLobby
+  fullName: CatchIo.Network.NetworkManager.s_onJoinedLobby
+  nameWithType: NetworkManager.s_onJoinedLobby
+- uid: CatchIo.Network.NetworkManager.s_onJoinedRoom
+  name: s_onJoinedRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onJoinedRoom
+  commentId: F:CatchIo.Network.NetworkManager.s_onJoinedRoom
+  fullName: CatchIo.Network.NetworkManager.s_onJoinedRoom
+  nameWithType: NetworkManager.s_onJoinedRoom
+- uid: CatchIo.Network.NetworkManager.s_onJoiningLobby
+  name: s_onJoiningLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onJoiningLobby
+  commentId: F:CatchIo.Network.NetworkManager.s_onJoiningLobby
+  fullName: CatchIo.Network.NetworkManager.s_onJoiningLobby
+  nameWithType: NetworkManager.s_onJoiningLobby
+- uid: CatchIo.Network.NetworkManager.s_onJoiningRoom
+  name: s_onJoiningRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onJoiningRoom
+  commentId: F:CatchIo.Network.NetworkManager.s_onJoiningRoom
+  fullName: CatchIo.Network.NetworkManager.s_onJoiningRoom
+  nameWithType: NetworkManager.s_onJoiningRoom
+- uid: CatchIo.Network.NetworkManager.s_onJoinRandomFailed
+  name: s_onJoinRandomFailed
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onJoinRandomFailed
+  commentId: F:CatchIo.Network.NetworkManager.s_onJoinRandomFailed
+  fullName: CatchIo.Network.NetworkManager.s_onJoinRandomFailed
+  nameWithType: NetworkManager.s_onJoinRandomFailed
+- uid: CatchIo.Network.NetworkManager.s_onJoinRoomFailed
+  name: s_onJoinRoomFailed
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onJoinRoomFailed
+  commentId: F:CatchIo.Network.NetworkManager.s_onJoinRoomFailed
+  fullName: CatchIo.Network.NetworkManager.s_onJoinRoomFailed
+  nameWithType: NetworkManager.s_onJoinRoomFailed
+- uid: CatchIo.Network.NetworkManager.s_onLeavingLobby
+  name: s_onLeavingLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onLeavingLobby
+  commentId: F:CatchIo.Network.NetworkManager.s_onLeavingLobby
+  fullName: CatchIo.Network.NetworkManager.s_onLeavingLobby
+  nameWithType: NetworkManager.s_onLeavingLobby
+- uid: CatchIo.Network.NetworkManager.s_onLeavingRoom
+  name: s_onLeavingRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onLeavingRoom
+  commentId: F:CatchIo.Network.NetworkManager.s_onLeavingRoom
+  fullName: CatchIo.Network.NetworkManager.s_onLeavingRoom
+  nameWithType: NetworkManager.s_onLeavingRoom
+- uid: CatchIo.Network.NetworkManager.s_onLeftLobby
+  name: s_onLeftLobby
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onLeftLobby
+  commentId: F:CatchIo.Network.NetworkManager.s_onLeftLobby
+  fullName: CatchIo.Network.NetworkManager.s_onLeftLobby
+  nameWithType: NetworkManager.s_onLeftLobby
+- uid: CatchIo.Network.NetworkManager.s_onLeftRoom
+  name: s_onLeftRoom
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onLeftRoom
+  commentId: F:CatchIo.Network.NetworkManager.s_onLeftRoom
+  fullName: CatchIo.Network.NetworkManager.s_onLeftRoom
+  nameWithType: NetworkManager.s_onLeftRoom
+- uid: CatchIo.Network.NetworkManager.s_onLoadedGameScene
+  name: s_onLoadedGameScene
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onLoadedGameScene
+  commentId: F:CatchIo.Network.NetworkManager.s_onLoadedGameScene
+  fullName: CatchIo.Network.NetworkManager.s_onLoadedGameScene
+  nameWithType: NetworkManager.s_onLoadedGameScene
+- uid: CatchIo.Network.NetworkManager.s_onLoadingGameScene
+  name: s_onLoadingGameScene
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onLoadingGameScene
+  commentId: F:CatchIo.Network.NetworkManager.s_onLoadingGameScene
+  fullName: CatchIo.Network.NetworkManager.s_onLoadingGameScene
+  nameWithType: NetworkManager.s_onLoadingGameScene
+- uid: CatchIo.Network.NetworkManager.s_onMasterClientSwitched
+  name: s_onMasterClientSwitched
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onMasterClientSwitched
+  commentId: F:CatchIo.Network.NetworkManager.s_onMasterClientSwitched
+  fullName: CatchIo.Network.NetworkManager.s_onMasterClientSwitched
+  nameWithType: NetworkManager.s_onMasterClientSwitched
+- uid: CatchIo.Network.NetworkManager.s_onPlayerConnected
+  name: s_onPlayerConnected
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onPlayerConnected
+  commentId: F:CatchIo.Network.NetworkManager.s_onPlayerConnected
+  fullName: CatchIo.Network.NetworkManager.s_onPlayerConnected
+  nameWithType: NetworkManager.s_onPlayerConnected
+- uid: CatchIo.Network.NetworkManager.s_onPlayerDisconnected
+  name: s_onPlayerDisconnected
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onPlayerDisconnected
+  commentId: F:CatchIo.Network.NetworkManager.s_onPlayerDisconnected
+  fullName: CatchIo.Network.NetworkManager.s_onPlayerDisconnected
+  nameWithType: NetworkManager.s_onPlayerDisconnected
+- uid: CatchIo.Network.NetworkManager.s_onPlayerPropertiesUpdate
+  name: s_onPlayerPropertiesUpdate
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onPlayerPropertiesUpdate
+  commentId: F:CatchIo.Network.NetworkManager.s_onPlayerPropertiesUpdate
+  fullName: CatchIo.Network.NetworkManager.s_onPlayerPropertiesUpdate
+  nameWithType: NetworkManager.s_onPlayerPropertiesUpdate
+- uid: CatchIo.Network.NetworkManager.s_onReceivedChatMessage
+  name: s_onReceivedChatMessage
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onReceivedChatMessage
+  commentId: F:CatchIo.Network.NetworkManager.s_onReceivedChatMessage
+  fullName: CatchIo.Network.NetworkManager.s_onReceivedChatMessage
+  nameWithType: NetworkManager.s_onReceivedChatMessage
+- uid: CatchIo.Network.NetworkManager.s_onReceivedRoomListUpdate
+  name: s_onReceivedRoomListUpdate
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_s_onReceivedRoomListUpdate
+  commentId: F:CatchIo.Network.NetworkManager.s_onReceivedRoomListUpdate
+  fullName: CatchIo.Network.NetworkManager.s_onReceivedRoomListUpdate
+  nameWithType: NetworkManager.s_onReceivedRoomListUpdate
+- uid: CatchIo.Network.NetworkManager.SEND_RATE
+  name: SEND_RATE
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SEND_RATE
+  commentId: F:CatchIo.Network.NetworkManager.SEND_RATE
+  fullName: CatchIo.Network.NetworkManager.SEND_RATE
+  nameWithType: NetworkManager.SEND_RATE
+- uid: CatchIo.Network.NetworkManager.SetMapName(System.String)
+  name: SetMapName(String)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetMapName_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.SetMapName(System.String)
+  fullName: CatchIo.Network.NetworkManager.SetMapName(System.String)
+  nameWithType: NetworkManager.SetMapName(String)
+- uid: CatchIo.Network.NetworkManager.SetMapName*
+  name: SetMapName
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetMapName_
+  commentId: Overload:CatchIo.Network.NetworkManager.SetMapName
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.SetMapName
+  nameWithType: NetworkManager.SetMapName
+- uid: CatchIo.Network.NetworkManager.SetMaxConnections(System.Byte)
+  name: SetMaxConnections(Byte)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetMaxConnections_System_Byte_
+  commentId: M:CatchIo.Network.NetworkManager.SetMaxConnections(System.Byte)
+  fullName: CatchIo.Network.NetworkManager.SetMaxConnections(System.Byte)
+  nameWithType: NetworkManager.SetMaxConnections(Byte)
+- uid: CatchIo.Network.NetworkManager.SetMaxConnections*
+  name: SetMaxConnections
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetMaxConnections_
+  commentId: Overload:CatchIo.Network.NetworkManager.SetMaxConnections
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.SetMaxConnections
+  nameWithType: NetworkManager.SetMaxConnections
+- uid: CatchIo.Network.NetworkManager.SetPlayerState(CatchIo.Network.NetworkManager.PlayerState)
+  name: SetPlayerState(NetworkManager.PlayerState)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetPlayerState_CatchIo_Network_NetworkManager_PlayerState_
+  commentId: M:CatchIo.Network.NetworkManager.SetPlayerState(CatchIo.Network.NetworkManager.PlayerState)
+  fullName: CatchIo.Network.NetworkManager.SetPlayerState(CatchIo.Network.NetworkManager.PlayerState)
+  nameWithType: NetworkManager.SetPlayerState(NetworkManager.PlayerState)
+- uid: CatchIo.Network.NetworkManager.SetPlayerState*
+  name: SetPlayerState
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetPlayerState_
+  commentId: Overload:CatchIo.Network.NetworkManager.SetPlayerState
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.SetPlayerState
+  nameWithType: NetworkManager.SetPlayerState
+- uid: CatchIo.Network.NetworkManager.SetRoomName(System.String)
+  name: SetRoomName(String)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetRoomName_System_String_
+  commentId: M:CatchIo.Network.NetworkManager.SetRoomName(System.String)
+  fullName: CatchIo.Network.NetworkManager.SetRoomName(System.String)
+  nameWithType: NetworkManager.SetRoomName(String)
+- uid: CatchIo.Network.NetworkManager.SetRoomName*
+  name: SetRoomName
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetRoomName_
+  commentId: Overload:CatchIo.Network.NetworkManager.SetRoomName
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.SetRoomName
+  nameWithType: NetworkManager.SetRoomName
+- uid: CatchIo.Network.NetworkManager.SetRoomPlayerProperty*
   name: SetRoomPlayerProperty
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SetRoomPlayerProperty_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetRoomPlayerProperty_
+  commentId: Overload:CatchIo.Network.NetworkManager.SetRoomPlayerProperty
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty
-  nameWithType: NetworkLauncher.SetRoomPlayerProperty
-- uid: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty``1(System.String,Player,``0)
+  fullName: CatchIo.Network.NetworkManager.SetRoomPlayerProperty
+  nameWithType: NetworkManager.SetRoomPlayerProperty
+- uid: CatchIo.Network.NetworkManager.SetRoomPlayerProperty``1(System.String,Player,``0)
   name: SetRoomPlayerProperty<T>(String, Player, T)
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_SetRoomPlayerProperty__1_System_String_Player___0_
-  commentId: M:CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty``1(System.String,Player,``0)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetRoomPlayerProperty__1_System_String_Player___0_
+  commentId: M:CatchIo.Network.NetworkManager.SetRoomPlayerProperty``1(System.String,Player,``0)
   name.vb: SetRoomPlayerProperty(Of T)(String, Player, T)
-  fullName: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty<T>(System.String, Player, T)
-  fullName.vb: CatchIo.Managers.NetworkLauncher.SetRoomPlayerProperty(Of T)(System.String, Player, T)
-  nameWithType: NetworkLauncher.SetRoomPlayerProperty<T>(String, Player, T)
-  nameWithType.vb: NetworkLauncher.SetRoomPlayerProperty(Of T)(String, Player, T)
-- uid: CatchIo.Managers.NetworkLauncher.StartOrReadyGame
-  name: StartOrReadyGame()
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_StartOrReadyGame
-  commentId: M:CatchIo.Managers.NetworkLauncher.StartOrReadyGame
-  fullName: CatchIo.Managers.NetworkLauncher.StartOrReadyGame()
-  nameWithType: NetworkLauncher.StartOrReadyGame()
-- uid: CatchIo.Managers.NetworkLauncher.StartOrReadyGame*
-  name: StartOrReadyGame
-  href: api/CatchIo.Managers.NetworkLauncher.html#CatchIo_Managers_NetworkLauncher_StartOrReadyGame_
-  commentId: Overload:CatchIo.Managers.NetworkLauncher.StartOrReadyGame
+  fullName: CatchIo.Network.NetworkManager.SetRoomPlayerProperty<T>(System.String, Player, T)
+  fullName.vb: CatchIo.Network.NetworkManager.SetRoomPlayerProperty(Of T)(System.String, Player, T)
+  nameWithType: NetworkManager.SetRoomPlayerProperty<T>(String, Player, T)
+  nameWithType.vb: NetworkManager.SetRoomPlayerProperty(Of T)(String, Player, T)
+- uid: CatchIo.Network.NetworkManager.SetRoomProperty*
+  name: SetRoomProperty
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetRoomProperty_
+  commentId: Overload:CatchIo.Network.NetworkManager.SetRoomProperty
   isSpec: "True"
-  fullName: CatchIo.Managers.NetworkLauncher.StartOrReadyGame
-  nameWithType: NetworkLauncher.StartOrReadyGame
+  fullName: CatchIo.Network.NetworkManager.SetRoomProperty
+  nameWithType: NetworkManager.SetRoomProperty
+- uid: CatchIo.Network.NetworkManager.SetRoomProperty``1(System.String,``0,System.Boolean)
+  name: SetRoomProperty<T>(String, T, Boolean)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_SetRoomProperty__1_System_String___0_System_Boolean_
+  commentId: M:CatchIo.Network.NetworkManager.SetRoomProperty``1(System.String,``0,System.Boolean)
+  name.vb: SetRoomProperty(Of T)(String, T, Boolean)
+  fullName: CatchIo.Network.NetworkManager.SetRoomProperty<T>(System.String, T, System.Boolean)
+  fullName.vb: CatchIo.Network.NetworkManager.SetRoomProperty(Of T)(System.String, T, System.Boolean)
+  nameWithType: NetworkManager.SetRoomProperty<T>(String, T, Boolean)
+  nameWithType.vb: NetworkManager.SetRoomProperty(Of T)(String, T, Boolean)
+- uid: CatchIo.Network.NetworkManager.StartGame
+  name: StartGame()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_StartGame
+  commentId: M:CatchIo.Network.NetworkManager.StartGame
+  fullName: CatchIo.Network.NetworkManager.StartGame()
+  nameWithType: NetworkManager.StartGame()
+- uid: CatchIo.Network.NetworkManager.StartGame*
+  name: StartGame
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_StartGame_
+  commentId: Overload:CatchIo.Network.NetworkManager.StartGame
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.StartGame
+  nameWithType: NetworkManager.StartGame
+- uid: CatchIo.Network.NetworkManager.TogglePlayerState
+  name: TogglePlayerState()
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_TogglePlayerState
+  commentId: M:CatchIo.Network.NetworkManager.TogglePlayerState
+  fullName: CatchIo.Network.NetworkManager.TogglePlayerState()
+  nameWithType: NetworkManager.TogglePlayerState()
+- uid: CatchIo.Network.NetworkManager.TogglePlayerState*
+  name: TogglePlayerState
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_TogglePlayerState_
+  commentId: Overload:CatchIo.Network.NetworkManager.TogglePlayerState
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.TogglePlayerState
+  nameWithType: NetworkManager.TogglePlayerState
+- uid: CatchIo.Network.NetworkManager.UNIQUE_VIEW_ID
+  name: UNIQUE_VIEW_ID
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_UNIQUE_VIEW_ID
+  commentId: F:CatchIo.Network.NetworkManager.UNIQUE_VIEW_ID
+  fullName: CatchIo.Network.NetworkManager.UNIQUE_VIEW_ID
+  nameWithType: NetworkManager.UNIQUE_VIEW_ID
+- uid: CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
+  name: UpdateRoomPropertyInterval
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_UpdateRoomPropertyInterval
+  commentId: F:CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
+  fullName: CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
+  nameWithType: NetworkManager.UpdateRoomPropertyInterval
 - uid: CatchIo.ObjectPool
   name: CatchIo.ObjectPool
   href: api/CatchIo.ObjectPool.html
@@ -4153,6 +4774,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.InventoryController.Inventory
   nameWithType: InventoryController.Inventory
+- uid: CatchIo.PlayerCharacter.InventoryController.OnInventoryCreated
+  name: OnInventoryCreated
+  href: api/CatchIo.PlayerCharacter.InventoryController.html#CatchIo_PlayerCharacter_InventoryController_OnInventoryCreated
+  commentId: F:CatchIo.PlayerCharacter.InventoryController.OnInventoryCreated
+  fullName: CatchIo.PlayerCharacter.InventoryController.OnInventoryCreated
+  nameWithType: InventoryController.OnInventoryCreated
 - uid: CatchIo.PlayerCharacter.InventoryController.SelectItem(System.Int32)
   name: SelectItem(Int32)
   href: api/CatchIo.PlayerCharacter.InventoryController.html#CatchIo_PlayerCharacter_InventoryController_SelectItem_System_Int32_
@@ -4680,6 +5307,19 @@ references:
   commentId: T:CatchIo.Sound.SoundManager
   fullName: CatchIo.Sound.SoundManager
   nameWithType: SoundManager
+- uid: CatchIo.Sound.SoundManager.Instance
+  name: Instance
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_Instance
+  commentId: P:CatchIo.Sound.SoundManager.Instance
+  fullName: CatchIo.Sound.SoundManager.Instance
+  nameWithType: SoundManager.Instance
+- uid: CatchIo.Sound.SoundManager.Instance*
+  name: Instance
+  href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_Instance_
+  commentId: Overload:CatchIo.Sound.SoundManager.Instance
+  isSpec: "True"
+  fullName: CatchIo.Sound.SoundManager.Instance
+  nameWithType: SoundManager.Instance
 - uid: CatchIo.Sound.SoundManager.PlayCharacterActionSfx(Vector3,System.String)
   name: PlayCharacterActionSfx(Vector3, String)
   href: api/CatchIo.Sound.SoundManager.html#CatchIo_Sound_SoundManager_PlayCharacterActionSfx_Vector3_System_String_
@@ -4822,90 +5462,6 @@ references:
   commentId: N:CatchIo.UI
   fullName: CatchIo.UI
   nameWithType: CatchIo.UI
-- uid: CatchIo.UI.AccountContext
-  name: AccountContext
-  href: api/CatchIo.UI.AccountContext.html
-  commentId: T:CatchIo.UI.AccountContext
-  fullName: CatchIo.UI.AccountContext
-  nameWithType: AccountContext
-- uid: CatchIo.UI.AccountContext.#ctor
-  name: AccountContext()
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext__ctor
-  commentId: M:CatchIo.UI.AccountContext.#ctor
-  fullName: CatchIo.UI.AccountContext.AccountContext()
-  nameWithType: AccountContext.AccountContext()
-- uid: CatchIo.UI.AccountContext.#ctor*
-  name: AccountContext
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext__ctor_
-  commentId: Overload:CatchIo.UI.AccountContext.#ctor
-  isSpec: "True"
-  fullName: CatchIo.UI.AccountContext.AccountContext
-  nameWithType: AccountContext.AccountContext
-- uid: CatchIo.UI.AccountContext.NickName
-  name: NickName
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_NickName
-  commentId: P:CatchIo.UI.AccountContext.NickName
-  fullName: CatchIo.UI.AccountContext.NickName
-  nameWithType: AccountContext.NickName
-- uid: CatchIo.UI.AccountContext.NickName*
-  name: NickName
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_NickName_
-  commentId: Overload:CatchIo.UI.AccountContext.NickName
-  isSpec: "True"
-  fullName: CatchIo.UI.AccountContext.NickName
-  nameWithType: AccountContext.NickName
-- uid: CatchIo.UI.AccountContext.OnBack
-  name: OnBack()
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnBack
-  commentId: M:CatchIo.UI.AccountContext.OnBack
-  fullName: CatchIo.UI.AccountContext.OnBack()
-  nameWithType: AccountContext.OnBack()
-- uid: CatchIo.UI.AccountContext.OnBack*
-  name: OnBack
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnBack_
-  commentId: Overload:CatchIo.UI.AccountContext.OnBack
-  isSpec: "True"
-  fullName: CatchIo.UI.AccountContext.OnBack
-  nameWithType: AccountContext.OnBack
-- uid: CatchIo.UI.AccountContext.OnConnect
-  name: OnConnect()
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnConnect
-  commentId: M:CatchIo.UI.AccountContext.OnConnect
-  fullName: CatchIo.UI.AccountContext.OnConnect()
-  nameWithType: AccountContext.OnConnect()
-- uid: CatchIo.UI.AccountContext.OnConnect*
-  name: OnConnect
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnConnect_
-  commentId: Overload:CatchIo.UI.AccountContext.OnConnect
-  isSpec: "True"
-  fullName: CatchIo.UI.AccountContext.OnConnect
-  nameWithType: AccountContext.OnConnect
-- uid: CatchIo.UI.AccountContext.OnLogin
-  name: OnLogin()
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnLogin
-  commentId: M:CatchIo.UI.AccountContext.OnLogin
-  fullName: CatchIo.UI.AccountContext.OnLogin()
-  nameWithType: AccountContext.OnLogin()
-- uid: CatchIo.UI.AccountContext.OnLogin*
-  name: OnLogin
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnLogin_
-  commentId: Overload:CatchIo.UI.AccountContext.OnLogin
-  isSpec: "True"
-  fullName: CatchIo.UI.AccountContext.OnLogin
-  nameWithType: AccountContext.OnLogin
-- uid: CatchIo.UI.AccountContext.OnQuit
-  name: OnQuit()
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnQuit
-  commentId: M:CatchIo.UI.AccountContext.OnQuit
-  fullName: CatchIo.UI.AccountContext.OnQuit()
-  nameWithType: AccountContext.OnQuit()
-- uid: CatchIo.UI.AccountContext.OnQuit*
-  name: OnQuit
-  href: api/CatchIo.UI.AccountContext.html#CatchIo_UI_AccountContext_OnQuit_
-  commentId: Overload:CatchIo.UI.AccountContext.OnQuit
-  isSpec: "True"
-  fullName: CatchIo.UI.AccountContext.OnQuit
-  nameWithType: AccountContext.OnQuit
 - uid: CatchIo.UI.CharacterClassContext
   name: CharacterClassContext
   href: api/CatchIo.UI.CharacterClassContext.html
@@ -4925,6 +5481,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.CharacterClassContext.CharacterClassContext
   nameWithType: CharacterClassContext.CharacterClassContext
+- uid: CatchIo.UI.CharacterClassContext.CharacterSpritePath
+  name: CharacterSpritePath
+  href: api/CatchIo.UI.CharacterClassContext.html#CatchIo_UI_CharacterClassContext_CharacterSpritePath
+  commentId: F:CatchIo.UI.CharacterClassContext.CharacterSpritePath
+  fullName: CatchIo.UI.CharacterClassContext.CharacterSpritePath
+  nameWithType: CharacterClassContext.CharacterSpritePath
 - uid: CatchIo.UI.CharacterClassContext.ClassName
   name: ClassName
   href: api/CatchIo.UI.CharacterClassContext.html#CatchIo_UI_CharacterClassContext_ClassName
@@ -4964,85 +5526,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.CharacterClassContext.SelectCharacterClass
   nameWithType: CharacterClassContext.SelectCharacterClass
-- uid: CatchIo.UI.CharacterClassContext.SpriteName
-  name: SpriteName
-  href: api/CatchIo.UI.CharacterClassContext.html#CatchIo_UI_CharacterClassContext_SpriteName
-  commentId: F:CatchIo.UI.CharacterClassContext.SpriteName
-  fullName: CatchIo.UI.CharacterClassContext.SpriteName
-  nameWithType: CharacterClassContext.SpriteName
-- uid: CatchIo.UI.CharacterClassSpriteSetter
-  name: CharacterClassSpriteSetter
-  href: api/CatchIo.UI.CharacterClassSpriteSetter.html
-  commentId: T:CatchIo.UI.CharacterClassSpriteSetter
-  fullName: CatchIo.UI.CharacterClassSpriteSetter
-  nameWithType: CharacterClassSpriteSetter
-- uid: CatchIo.UI.ChatLogsWriter
-  name: ChatLogsWriter
-  href: api/CatchIo.UI.ChatLogsWriter.html
-  commentId: T:CatchIo.UI.ChatLogsWriter
-  fullName: CatchIo.UI.ChatLogsWriter
-  nameWithType: ChatLogsWriter
-- uid: CatchIo.UI.ChatLogsWriter.CollectionItemAdded(System.Object)
-  name: CollectionItemAdded(Object)
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_CollectionItemAdded_System_Object_
-  commentId: M:CatchIo.UI.ChatLogsWriter.CollectionItemAdded(System.Object)
-  fullName: CatchIo.UI.ChatLogsWriter.CollectionItemAdded(System.Object)
-  nameWithType: ChatLogsWriter.CollectionItemAdded(Object)
-- uid: CatchIo.UI.ChatLogsWriter.CollectionItemAdded*
-  name: CollectionItemAdded
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_CollectionItemAdded_
-  commentId: Overload:CatchIo.UI.ChatLogsWriter.CollectionItemAdded
-  isSpec: "True"
-  fullName: CatchIo.UI.ChatLogsWriter.CollectionItemAdded
-  nameWithType: ChatLogsWriter.CollectionItemAdded
-- uid: CatchIo.UI.ChatLogsWriter.CollectionItemRemoved(System.Object)
-  name: CollectionItemRemoved(Object)
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_CollectionItemRemoved_System_Object_
-  commentId: M:CatchIo.UI.ChatLogsWriter.CollectionItemRemoved(System.Object)
-  fullName: CatchIo.UI.ChatLogsWriter.CollectionItemRemoved(System.Object)
-  nameWithType: ChatLogsWriter.CollectionItemRemoved(Object)
-- uid: CatchIo.UI.ChatLogsWriter.CollectionItemRemoved*
-  name: CollectionItemRemoved
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_CollectionItemRemoved_
-  commentId: Overload:CatchIo.UI.ChatLogsWriter.CollectionItemRemoved
-  isSpec: "True"
-  fullName: CatchIo.UI.ChatLogsWriter.CollectionItemRemoved
-  nameWithType: ChatLogsWriter.CollectionItemRemoved
-- uid: CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems(IEnumerable{System.Object})
-  name: CollectionOnClearedItems(IEnumerable<Object>)
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_CollectionOnClearedItems_IEnumerable_System_Object__
-  commentId: M:CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems(IEnumerable{System.Object})
-  name.vb: CollectionOnClearedItems(IEnumerable(Of Object))
-  fullName: CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems(IEnumerable<System.Object>)
-  fullName.vb: CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems(IEnumerable(Of System.Object))
-  nameWithType: ChatLogsWriter.CollectionOnClearedItems(IEnumerable<Object>)
-  nameWithType.vb: ChatLogsWriter.CollectionOnClearedItems(IEnumerable(Of Object))
-- uid: CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems*
-  name: CollectionOnClearedItems
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_CollectionOnClearedItems_
-  commentId: Overload:CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems
-  isSpec: "True"
-  fullName: CatchIo.UI.ChatLogsWriter.CollectionOnClearedItems
-  nameWithType: ChatLogsWriter.CollectionOnClearedItems
-- uid: CatchIo.UI.ChatLogsWriter.MaxShowLine
-  name: MaxShowLine
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_MaxShowLine
-  commentId: F:CatchIo.UI.ChatLogsWriter.MaxShowLine
-  fullName: CatchIo.UI.ChatLogsWriter.MaxShowLine
-  nameWithType: ChatLogsWriter.MaxShowLine
-- uid: CatchIo.UI.ChatLogsWriter.OnChatEndEdit(System.String)
-  name: OnChatEndEdit(String)
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_OnChatEndEdit_System_String_
-  commentId: M:CatchIo.UI.ChatLogsWriter.OnChatEndEdit(System.String)
-  fullName: CatchIo.UI.ChatLogsWriter.OnChatEndEdit(System.String)
-  nameWithType: ChatLogsWriter.OnChatEndEdit(String)
-- uid: CatchIo.UI.ChatLogsWriter.OnChatEndEdit*
-  name: OnChatEndEdit
-  href: api/CatchIo.UI.ChatLogsWriter.html#CatchIo_UI_ChatLogsWriter_OnChatEndEdit_
-  commentId: Overload:CatchIo.UI.ChatLogsWriter.OnChatEndEdit
-  isSpec: "True"
-  fullName: CatchIo.UI.ChatLogsWriter.OnChatEndEdit
-  nameWithType: ChatLogsWriter.OnChatEndEdit
 - uid: CatchIo.UI.CollectionTextWriter
   name: CollectionTextWriter
   href: api/CatchIo.UI.CollectionTextWriter.html
@@ -5091,6 +5574,166 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.CollectionTextWriter.CollectionOnClearedItems
   nameWithType: CollectionTextWriter.CollectionOnClearedItems
+- uid: CatchIo.UI.ErrorMessageContext
+  name: ErrorMessageContext
+  href: api/CatchIo.UI.ErrorMessageContext.html
+  commentId: T:CatchIo.UI.ErrorMessageContext
+  fullName: CatchIo.UI.ErrorMessageContext
+  nameWithType: ErrorMessageContext
+- uid: CatchIo.UI.ErrorMessageContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name: ErrorMessageContext(UINavigation<UIMenuViewType>)
+  href: api/CatchIo.UI.ErrorMessageContext.html#CatchIo_UI_ErrorMessageContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__
+  commentId: M:CatchIo.UI.ErrorMessageContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name.vb: ErrorMessageContext(UINavigation(Of UIMenuViewType))
+  fullName: CatchIo.UI.ErrorMessageContext.ErrorMessageContext(CatchIo.UI.UINavigation<CatchIo.UI.UIMenuViewType>)
+  fullName.vb: CatchIo.UI.ErrorMessageContext.ErrorMessageContext(CatchIo.UI.UINavigation(Of CatchIo.UI.UIMenuViewType))
+  nameWithType: ErrorMessageContext.ErrorMessageContext(UINavigation<UIMenuViewType>)
+  nameWithType.vb: ErrorMessageContext.ErrorMessageContext(UINavigation(Of UIMenuViewType))
+- uid: CatchIo.UI.ErrorMessageContext.#ctor*
+  name: ErrorMessageContext
+  href: api/CatchIo.UI.ErrorMessageContext.html#CatchIo_UI_ErrorMessageContext__ctor_
+  commentId: Overload:CatchIo.UI.ErrorMessageContext.#ctor
+  isSpec: "True"
+  fullName: CatchIo.UI.ErrorMessageContext.ErrorMessageContext
+  nameWithType: ErrorMessageContext.ErrorMessageContext
+- uid: CatchIo.UI.ErrorMessageContext.ErrorMsg
+  name: ErrorMsg
+  href: api/CatchIo.UI.ErrorMessageContext.html#CatchIo_UI_ErrorMessageContext_ErrorMsg
+  commentId: P:CatchIo.UI.ErrorMessageContext.ErrorMsg
+  fullName: CatchIo.UI.ErrorMessageContext.ErrorMsg
+  nameWithType: ErrorMessageContext.ErrorMsg
+- uid: CatchIo.UI.ErrorMessageContext.ErrorMsg*
+  name: ErrorMsg
+  href: api/CatchIo.UI.ErrorMessageContext.html#CatchIo_UI_ErrorMessageContext_ErrorMsg_
+  commentId: Overload:CatchIo.UI.ErrorMessageContext.ErrorMsg
+  isSpec: "True"
+  fullName: CatchIo.UI.ErrorMessageContext.ErrorMsg
+  nameWithType: ErrorMessageContext.ErrorMsg
+- uid: CatchIo.UI.ErrorMessageContext.Hide
+  name: Hide()
+  href: api/CatchIo.UI.ErrorMessageContext.html#CatchIo_UI_ErrorMessageContext_Hide
+  commentId: M:CatchIo.UI.ErrorMessageContext.Hide
+  fullName: CatchIo.UI.ErrorMessageContext.Hide()
+  nameWithType: ErrorMessageContext.Hide()
+- uid: CatchIo.UI.ErrorMessageContext.Hide*
+  name: Hide
+  href: api/CatchIo.UI.ErrorMessageContext.html#CatchIo_UI_ErrorMessageContext_Hide_
+  commentId: Overload:CatchIo.UI.ErrorMessageContext.Hide
+  isSpec: "True"
+  fullName: CatchIo.UI.ErrorMessageContext.Hide
+  nameWithType: ErrorMessageContext.Hide
+- uid: CatchIo.UI.GameHudContext
+  name: GameHudContext
+  href: api/CatchIo.UI.GameHudContext.html
+  commentId: T:CatchIo.UI.GameHudContext
+  fullName: CatchIo.UI.GameHudContext
+  nameWithType: GameHudContext
+- uid: CatchIo.UI.GameHudContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIGameViewType})
+  name: GameHudContext(UINavigation<UIGameViewType>)
+  href: api/CatchIo.UI.GameHudContext.html#CatchIo_UI_GameHudContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIGameViewType__
+  commentId: M:CatchIo.UI.GameHudContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIGameViewType})
+  name.vb: GameHudContext(UINavigation(Of UIGameViewType))
+  fullName: CatchIo.UI.GameHudContext.GameHudContext(CatchIo.UI.UINavigation<CatchIo.UI.UIGameViewType>)
+  fullName.vb: CatchIo.UI.GameHudContext.GameHudContext(CatchIo.UI.UINavigation(Of CatchIo.UI.UIGameViewType))
+  nameWithType: GameHudContext.GameHudContext(UINavigation<UIGameViewType>)
+  nameWithType.vb: GameHudContext.GameHudContext(UINavigation(Of UIGameViewType))
+- uid: CatchIo.UI.GameHudContext.#ctor*
+  name: GameHudContext
+  href: api/CatchIo.UI.GameHudContext.html#CatchIo_UI_GameHudContext__ctor_
+  commentId: Overload:CatchIo.UI.GameHudContext.#ctor
+  isSpec: "True"
+  fullName: CatchIo.UI.GameHudContext.GameHudContext
+  nameWithType: GameHudContext.GameHudContext
+- uid: CatchIo.UI.GameUIContext
+  name: GameUIContext
+  href: api/CatchIo.UI.GameUIContext.html
+  commentId: T:CatchIo.UI.GameUIContext
+  fullName: CatchIo.UI.GameUIContext
+  nameWithType: GameUIContext
+- uid: CatchIo.UI.GameUIContext.#ctor
+  name: GameUIContext()
+  href: api/CatchIo.UI.GameUIContext.html#CatchIo_UI_GameUIContext__ctor
+  commentId: M:CatchIo.UI.GameUIContext.#ctor
+  fullName: CatchIo.UI.GameUIContext.GameUIContext()
+  nameWithType: GameUIContext.GameUIContext()
+- uid: CatchIo.UI.GameUIContext.#ctor*
+  name: GameUIContext
+  href: api/CatchIo.UI.GameUIContext.html#CatchIo_UI_GameUIContext__ctor_
+  commentId: Overload:CatchIo.UI.GameUIContext.#ctor
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIContext.GameUIContext
+  nameWithType: GameUIContext.GameUIContext
+- uid: CatchIo.UI.GameUIContext.GameHudContext
+  name: GameHudContext
+  href: api/CatchIo.UI.GameUIContext.html#CatchIo_UI_GameUIContext_GameHudContext
+  commentId: P:CatchIo.UI.GameUIContext.GameHudContext
+  fullName: CatchIo.UI.GameUIContext.GameHudContext
+  nameWithType: GameUIContext.GameHudContext
+- uid: CatchIo.UI.GameUIContext.GameHudContext*
+  name: GameHudContext
+  href: api/CatchIo.UI.GameUIContext.html#CatchIo_UI_GameUIContext_GameHudContext_
+  commentId: Overload:CatchIo.UI.GameUIContext.GameHudContext
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIContext.GameHudContext
+  nameWithType: GameUIContext.GameHudContext
+- uid: CatchIo.UI.GameUIManager
+  name: GameUIManager
+  href: api/CatchIo.UI.GameUIManager.html
+  commentId: T:CatchIo.UI.GameUIManager
+  fullName: CatchIo.UI.GameUIManager
+  nameWithType: GameUIManager
+- uid: CatchIo.UI.GameUIManager.GameUIContext
+  name: GameUIContext
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_GameUIContext
+  commentId: P:CatchIo.UI.GameUIManager.GameUIContext
+  fullName: CatchIo.UI.GameUIManager.GameUIContext
+  nameWithType: GameUIManager.GameUIContext
+- uid: CatchIo.UI.GameUIManager.GameUIContext*
+  name: GameUIContext
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_GameUIContext_
+  commentId: Overload:CatchIo.UI.GameUIManager.GameUIContext
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIManager.GameUIContext
+  nameWithType: GameUIManager.GameUIContext
+- uid: CatchIo.UI.GameUIManager.Instance
+  name: Instance
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_Instance
+  commentId: P:CatchIo.UI.GameUIManager.Instance
+  fullName: CatchIo.UI.GameUIManager.Instance
+  nameWithType: GameUIManager.Instance
+- uid: CatchIo.UI.GameUIManager.Instance*
+  name: Instance
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_Instance_
+  commentId: Overload:CatchIo.UI.GameUIManager.Instance
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIManager.Instance
+  nameWithType: GameUIManager.Instance
+- uid: CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile
+  name: MakeUIGameViewTypeFile()
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_MakeUIGameViewTypeFile
+  commentId: M:CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile
+  fullName: CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile()
+  nameWithType: GameUIManager.MakeUIGameViewTypeFile()
+- uid: CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile*
+  name: MakeUIGameViewTypeFile
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_MakeUIGameViewTypeFile_
+  commentId: Overload:CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile
+  nameWithType: GameUIManager.MakeUIGameViewTypeFile
+- uid: CatchIo.UI.GameUIManager.UICamera
+  name: UICamera
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_UICamera
+  commentId: P:CatchIo.UI.GameUIManager.UICamera
+  fullName: CatchIo.UI.GameUIManager.UICamera
+  nameWithType: GameUIManager.UICamera
+- uid: CatchIo.UI.GameUIManager.UICamera*
+  name: UICamera
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_UICamera_
+  commentId: Overload:CatchIo.UI.GameUIManager.UICamera
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIManager.UICamera
+  nameWithType: GameUIManager.UICamera
 - uid: CatchIo.UI.HidingIndicator
   name: HidingIndicator
   href: api/CatchIo.UI.HidingIndicator.html
@@ -5322,12 +5965,15 @@ references:
   commentId: T:CatchIo.UI.LoadingContext
   fullName: CatchIo.UI.LoadingContext
   nameWithType: LoadingContext
-- uid: CatchIo.UI.LoadingContext.#ctor
-  name: LoadingContext()
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext__ctor
-  commentId: M:CatchIo.UI.LoadingContext.#ctor
-  fullName: CatchIo.UI.LoadingContext.LoadingContext()
-  nameWithType: LoadingContext.LoadingContext()
+- uid: CatchIo.UI.LoadingContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name: LoadingContext(UINavigation<UIMenuViewType>)
+  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__
+  commentId: M:CatchIo.UI.LoadingContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name.vb: LoadingContext(UINavigation(Of UIMenuViewType))
+  fullName: CatchIo.UI.LoadingContext.LoadingContext(CatchIo.UI.UINavigation<CatchIo.UI.UIMenuViewType>)
+  fullName.vb: CatchIo.UI.LoadingContext.LoadingContext(CatchIo.UI.UINavigation(Of CatchIo.UI.UIMenuViewType))
+  nameWithType: LoadingContext.LoadingContext(UINavigation<UIMenuViewType>)
+  nameWithType.vb: LoadingContext.LoadingContext(UINavigation(Of UIMenuViewType))
 - uid: CatchIo.UI.LoadingContext.#ctor*
   name: LoadingContext
   href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext__ctor_
@@ -5335,140 +5981,40 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.LoadingContext.LoadingContext
   nameWithType: LoadingContext.LoadingContext
-- uid: CatchIo.UI.LoadingContext.InitProgress(System.String,System.Single)
-  name: InitProgress(String, Single)
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_InitProgress_System_String_System_Single_
-  commentId: M:CatchIo.UI.LoadingContext.InitProgress(System.String,System.Single)
-  fullName: CatchIo.UI.LoadingContext.InitProgress(System.String, System.Single)
-  nameWithType: LoadingContext.InitProgress(String, Single)
-- uid: CatchIo.UI.LoadingContext.InitProgress*
-  name: InitProgress
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_InitProgress_
-  commentId: Overload:CatchIo.UI.LoadingContext.InitProgress
+- uid: CatchIo.UI.LoadingContext.LoadingCauseText
+  name: LoadingCauseText
+  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_LoadingCauseText
+  commentId: P:CatchIo.UI.LoadingContext.LoadingCauseText
+  fullName: CatchIo.UI.LoadingContext.LoadingCauseText
+  nameWithType: LoadingContext.LoadingCauseText
+- uid: CatchIo.UI.LoadingContext.LoadingCauseText*
+  name: LoadingCauseText
+  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_LoadingCauseText_
+  commentId: Overload:CatchIo.UI.LoadingContext.LoadingCauseText
   isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.InitProgress
-  nameWithType: LoadingContext.InitProgress
-- uid: CatchIo.UI.LoadingContext.IsShowPlayerLoadingFrame
-  name: IsShowPlayerLoadingFrame
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_IsShowPlayerLoadingFrame
-  commentId: P:CatchIo.UI.LoadingContext.IsShowPlayerLoadingFrame
-  fullName: CatchIo.UI.LoadingContext.IsShowPlayerLoadingFrame
-  nameWithType: LoadingContext.IsShowPlayerLoadingFrame
-- uid: CatchIo.UI.LoadingContext.IsShowPlayerLoadingFrame*
-  name: IsShowPlayerLoadingFrame
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_IsShowPlayerLoadingFrame_
-  commentId: Overload:CatchIo.UI.LoadingContext.IsShowPlayerLoadingFrame
-  isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.IsShowPlayerLoadingFrame
-  nameWithType: LoadingContext.IsShowPlayerLoadingFrame
-- uid: CatchIo.UI.LoadingContext.LoadingPlayerNickNames
-  name: LoadingPlayerNickNames
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_LoadingPlayerNickNames
-  commentId: P:CatchIo.UI.LoadingContext.LoadingPlayerNickNames
-  fullName: CatchIo.UI.LoadingContext.LoadingPlayerNickNames
-  nameWithType: LoadingContext.LoadingPlayerNickNames
-- uid: CatchIo.UI.LoadingContext.LoadingPlayerNickNames*
-  name: LoadingPlayerNickNames
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_LoadingPlayerNickNames_
-  commentId: Overload:CatchIo.UI.LoadingContext.LoadingPlayerNickNames
-  isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.LoadingPlayerNickNames
-  nameWithType: LoadingContext.LoadingPlayerNickNames
-- uid: CatchIo.UI.LoadingContext.LoadingPlayerProgress
-  name: LoadingPlayerProgress
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_LoadingPlayerProgress
-  commentId: P:CatchIo.UI.LoadingContext.LoadingPlayerProgress
-  fullName: CatchIo.UI.LoadingContext.LoadingPlayerProgress
-  nameWithType: LoadingContext.LoadingPlayerProgress
-- uid: CatchIo.UI.LoadingContext.LoadingPlayerProgress*
-  name: LoadingPlayerProgress
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_LoadingPlayerProgress_
-  commentId: Overload:CatchIo.UI.LoadingContext.LoadingPlayerProgress
-  isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.LoadingPlayerProgress
-  nameWithType: LoadingContext.LoadingPlayerProgress
-- uid: CatchIo.UI.LoadingContext.RemoveProgress(System.String)
-  name: RemoveProgress(String)
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_RemoveProgress_System_String_
-  commentId: M:CatchIo.UI.LoadingContext.RemoveProgress(System.String)
-  fullName: CatchIo.UI.LoadingContext.RemoveProgress(System.String)
-  nameWithType: LoadingContext.RemoveProgress(String)
-- uid: CatchIo.UI.LoadingContext.RemoveProgress*
-  name: RemoveProgress
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_RemoveProgress_
-  commentId: Overload:CatchIo.UI.LoadingContext.RemoveProgress
-  isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.RemoveProgress
-  nameWithType: LoadingContext.RemoveProgress
-- uid: CatchIo.UI.LoadingContext.ResetProgress
-  name: ResetProgress()
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_ResetProgress
-  commentId: M:CatchIo.UI.LoadingContext.ResetProgress
-  fullName: CatchIo.UI.LoadingContext.ResetProgress()
-  nameWithType: LoadingContext.ResetProgress()
-- uid: CatchIo.UI.LoadingContext.ResetProgress*
-  name: ResetProgress
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_ResetProgress_
-  commentId: Overload:CatchIo.UI.LoadingContext.ResetProgress
-  isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.ResetProgress
-  nameWithType: LoadingContext.ResetProgress
-- uid: CatchIo.UI.LoadingContext.State
-  name: State
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_State
-  commentId: P:CatchIo.UI.LoadingContext.State
-  fullName: CatchIo.UI.LoadingContext.State
-  nameWithType: LoadingContext.State
-- uid: CatchIo.UI.LoadingContext.State*
-  name: State
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_State_
-  commentId: Overload:CatchIo.UI.LoadingContext.State
-  isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.State
-  nameWithType: LoadingContext.State
-- uid: CatchIo.UI.LoadingContext.UpdateProgress(System.String,System.Single)
-  name: UpdateProgress(String, Single)
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_UpdateProgress_System_String_System_Single_
-  commentId: M:CatchIo.UI.LoadingContext.UpdateProgress(System.String,System.Single)
-  fullName: CatchIo.UI.LoadingContext.UpdateProgress(System.String, System.Single)
-  nameWithType: LoadingContext.UpdateProgress(String, Single)
-- uid: CatchIo.UI.LoadingContext.UpdateProgress*
-  name: UpdateProgress
-  href: api/CatchIo.UI.LoadingContext.html#CatchIo_UI_LoadingContext_UpdateProgress_
-  commentId: Overload:CatchIo.UI.LoadingContext.UpdateProgress
-  isSpec: "True"
-  fullName: CatchIo.UI.LoadingContext.UpdateProgress
-  nameWithType: LoadingContext.UpdateProgress
+  fullName: CatchIo.UI.LoadingContext.LoadingCauseText
+  nameWithType: LoadingContext.LoadingCauseText
 - uid: CatchIo.UI.LoadingPlayerProgress
   name: LoadingPlayerProgress
   href: api/CatchIo.UI.LoadingPlayerProgress.html
   commentId: T:CatchIo.UI.LoadingPlayerProgress
   fullName: CatchIo.UI.LoadingPlayerProgress
   nameWithType: LoadingPlayerProgress
-- uid: CatchIo.UI.LoadingTextAnimation
-  name: LoadingTextAnimation
-  href: api/CatchIo.UI.LoadingTextAnimation.html
-  commentId: T:CatchIo.UI.LoadingTextAnimation
-  fullName: CatchIo.UI.LoadingTextAnimation
-  nameWithType: LoadingTextAnimation
-- uid: CatchIo.UI.LoadingTextAnimation.LoadingText
-  name: LoadingText
-  href: api/CatchIo.UI.LoadingTextAnimation.html#CatchIo_UI_LoadingTextAnimation_LoadingText
-  commentId: F:CatchIo.UI.LoadingTextAnimation.LoadingText
-  fullName: CatchIo.UI.LoadingTextAnimation.LoadingText
-  nameWithType: LoadingTextAnimation.LoadingText
 - uid: CatchIo.UI.LobbyContext
   name: LobbyContext
   href: api/CatchIo.UI.LobbyContext.html
   commentId: T:CatchIo.UI.LobbyContext
   fullName: CatchIo.UI.LobbyContext
   nameWithType: LobbyContext
-- uid: CatchIo.UI.LobbyContext.#ctor
-  name: LobbyContext()
-  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext__ctor
-  commentId: M:CatchIo.UI.LobbyContext.#ctor
-  fullName: CatchIo.UI.LobbyContext.LobbyContext()
-  nameWithType: LobbyContext.LobbyContext()
+- uid: CatchIo.UI.LobbyContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name: LobbyContext(UINavigation<UIMenuViewType>)
+  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__
+  commentId: M:CatchIo.UI.LobbyContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name.vb: LobbyContext(UINavigation(Of UIMenuViewType))
+  fullName: CatchIo.UI.LobbyContext.LobbyContext(CatchIo.UI.UINavigation<CatchIo.UI.UIMenuViewType>)
+  fullName.vb: CatchIo.UI.LobbyContext.LobbyContext(CatchIo.UI.UINavigation(Of CatchIo.UI.UIMenuViewType))
+  nameWithType: LobbyContext.LobbyContext(UINavigation<UIMenuViewType>)
+  nameWithType.vb: LobbyContext.LobbyContext(UINavigation(Of UIMenuViewType))
 - uid: CatchIo.UI.LobbyContext.#ctor*
   name: LobbyContext
   href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext__ctor_
@@ -5476,19 +6022,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.LobbyContext.LobbyContext
   nameWithType: LobbyContext.LobbyContext
-- uid: CatchIo.UI.LobbyContext.AddRoomInfo(RoomInfo)
-  name: AddRoomInfo(RoomInfo)
-  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_AddRoomInfo_RoomInfo_
-  commentId: M:CatchIo.UI.LobbyContext.AddRoomInfo(RoomInfo)
-  fullName: CatchIo.UI.LobbyContext.AddRoomInfo(RoomInfo)
-  nameWithType: LobbyContext.AddRoomInfo(RoomInfo)
-- uid: CatchIo.UI.LobbyContext.AddRoomInfo*
-  name: AddRoomInfo
-  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_AddRoomInfo_
-  commentId: Overload:CatchIo.UI.LobbyContext.AddRoomInfo
-  isSpec: "True"
-  fullName: CatchIo.UI.LobbyContext.AddRoomInfo
-  nameWithType: LobbyContext.AddRoomInfo
 - uid: CatchIo.UI.LobbyContext.OnBack
   name: OnBack()
   href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_OnBack
@@ -5515,19 +6048,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.LobbyContext.OnJoinRoom
   nameWithType: LobbyContext.OnJoinRoom
-- uid: CatchIo.UI.LobbyContext.RemoveRoomInfo(CatchIo.UI.RoomInfoContext)
-  name: RemoveRoomInfo(RoomInfoContext)
-  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_RemoveRoomInfo_CatchIo_UI_RoomInfoContext_
-  commentId: M:CatchIo.UI.LobbyContext.RemoveRoomInfo(CatchIo.UI.RoomInfoContext)
-  fullName: CatchIo.UI.LobbyContext.RemoveRoomInfo(CatchIo.UI.RoomInfoContext)
-  nameWithType: LobbyContext.RemoveRoomInfo(RoomInfoContext)
-- uid: CatchIo.UI.LobbyContext.RemoveRoomInfo*
-  name: RemoveRoomInfo
-  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_RemoveRoomInfo_
-  commentId: Overload:CatchIo.UI.LobbyContext.RemoveRoomInfo
-  isSpec: "True"
-  fullName: CatchIo.UI.LobbyContext.RemoveRoomInfo
-  nameWithType: LobbyContext.RemoveRoomInfo
 - uid: CatchIo.UI.LobbyContext.RoomInfos
   name: RoomInfos
   href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_RoomInfos
@@ -5544,14 +6064,7 @@ references:
 - uid: CatchIo.UI.LobbyContext.SelectedRoomName
   name: SelectedRoomName
   href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_SelectedRoomName
-  commentId: P:CatchIo.UI.LobbyContext.SelectedRoomName
-  fullName: CatchIo.UI.LobbyContext.SelectedRoomName
-  nameWithType: LobbyContext.SelectedRoomName
-- uid: CatchIo.UI.LobbyContext.SelectedRoomName*
-  name: SelectedRoomName
-  href: api/CatchIo.UI.LobbyContext.html#CatchIo_UI_LobbyContext_SelectedRoomName_
-  commentId: Overload:CatchIo.UI.LobbyContext.SelectedRoomName
-  isSpec: "True"
+  commentId: F:CatchIo.UI.LobbyContext.SelectedRoomName
   fullName: CatchIo.UI.LobbyContext.SelectedRoomName
   nameWithType: LobbyContext.SelectedRoomName
 - uid: CatchIo.UI.MainMenuContext
@@ -5560,12 +6073,15 @@ references:
   commentId: T:CatchIo.UI.MainMenuContext
   fullName: CatchIo.UI.MainMenuContext
   nameWithType: MainMenuContext
-- uid: CatchIo.UI.MainMenuContext.#ctor
-  name: MainMenuContext()
-  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext__ctor
-  commentId: M:CatchIo.UI.MainMenuContext.#ctor
-  fullName: CatchIo.UI.MainMenuContext.MainMenuContext()
-  nameWithType: MainMenuContext.MainMenuContext()
+- uid: CatchIo.UI.MainMenuContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name: MainMenuContext(UINavigation<UIMenuViewType>)
+  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__
+  commentId: M:CatchIo.UI.MainMenuContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name.vb: MainMenuContext(UINavigation(Of UIMenuViewType))
+  fullName: CatchIo.UI.MainMenuContext.MainMenuContext(CatchIo.UI.UINavigation<CatchIo.UI.UIMenuViewType>)
+  fullName.vb: CatchIo.UI.MainMenuContext.MainMenuContext(CatchIo.UI.UINavigation(Of CatchIo.UI.UIMenuViewType))
+  nameWithType: MainMenuContext.MainMenuContext(UINavigation<UIMenuViewType>)
+  nameWithType.vb: MainMenuContext.MainMenuContext(UINavigation(Of UIMenuViewType))
 - uid: CatchIo.UI.MainMenuContext.#ctor*
   name: MainMenuContext
   href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext__ctor_
@@ -5573,6 +6089,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.MainMenuContext.MainMenuContext
   nameWithType: MainMenuContext.MainMenuContext
+- uid: CatchIo.UI.MainMenuContext.CloseCreateSession
+  name: CloseCreateSession()
+  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_CloseCreateSession
+  commentId: M:CatchIo.UI.MainMenuContext.CloseCreateSession
+  fullName: CatchIo.UI.MainMenuContext.CloseCreateSession()
+  nameWithType: MainMenuContext.CloseCreateSession()
+- uid: CatchIo.UI.MainMenuContext.CloseCreateSession*
+  name: CloseCreateSession
+  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_CloseCreateSession_
+  commentId: Overload:CatchIo.UI.MainMenuContext.CloseCreateSession
+  isSpec: "True"
+  fullName: CatchIo.UI.MainMenuContext.CloseCreateSession
+  nameWithType: MainMenuContext.CloseCreateSession
+- uid: CatchIo.UI.MainMenuContext.Disconnect
+  name: Disconnect()
+  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_Disconnect
+  commentId: M:CatchIo.UI.MainMenuContext.Disconnect
+  fullName: CatchIo.UI.MainMenuContext.Disconnect()
+  nameWithType: MainMenuContext.Disconnect()
+- uid: CatchIo.UI.MainMenuContext.Disconnect*
+  name: Disconnect
+  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_Disconnect_
+  commentId: Overload:CatchIo.UI.MainMenuContext.Disconnect
+  isSpec: "True"
+  fullName: CatchIo.UI.MainMenuContext.Disconnect
+  nameWithType: MainMenuContext.Disconnect
 - uid: CatchIo.UI.MainMenuContext.MapName
   name: MapName
   href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_MapName
@@ -5599,19 +6141,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.MainMenuContext.MaxPlayerCount
   nameWithType: MainMenuContext.MaxPlayerCount
-- uid: CatchIo.UI.MainMenuContext.OnBack
-  name: OnBack()
-  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OnBack
-  commentId: M:CatchIo.UI.MainMenuContext.OnBack
-  fullName: CatchIo.UI.MainMenuContext.OnBack()
-  nameWithType: MainMenuContext.OnBack()
-- uid: CatchIo.UI.MainMenuContext.OnBack*
-  name: OnBack
-  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OnBack_
-  commentId: Overload:CatchIo.UI.MainMenuContext.OnBack
-  isSpec: "True"
-  fullName: CatchIo.UI.MainMenuContext.OnBack
-  nameWithType: MainMenuContext.OnBack
 - uid: CatchIo.UI.MainMenuContext.OnCreateRoom
   name: OnCreateRoom()
   href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OnCreateRoom
@@ -5625,19 +6154,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.MainMenuContext.OnCreateRoom
   nameWithType: MainMenuContext.OnCreateRoom
-- uid: CatchIo.UI.MainMenuContext.OnCreateSession
-  name: OnCreateSession()
-  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OnCreateSession
-  commentId: M:CatchIo.UI.MainMenuContext.OnCreateSession
-  fullName: CatchIo.UI.MainMenuContext.OnCreateSession()
-  nameWithType: MainMenuContext.OnCreateSession()
-- uid: CatchIo.UI.MainMenuContext.OnCreateSession*
-  name: OnCreateSession
-  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OnCreateSession_
-  commentId: Overload:CatchIo.UI.MainMenuContext.OnCreateSession
-  isSpec: "True"
-  fullName: CatchIo.UI.MainMenuContext.OnCreateSession
-  nameWithType: MainMenuContext.OnCreateSession
 - uid: CatchIo.UI.MainMenuContext.OnJoinSession
   name: OnJoinSession()
   href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OnJoinSession
@@ -5664,6 +6180,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.MainMenuContext.OnSettings
   nameWithType: MainMenuContext.OnSettings
+- uid: CatchIo.UI.MainMenuContext.OpenCreateSession
+  name: OpenCreateSession()
+  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OpenCreateSession
+  commentId: M:CatchIo.UI.MainMenuContext.OpenCreateSession
+  fullName: CatchIo.UI.MainMenuContext.OpenCreateSession()
+  nameWithType: MainMenuContext.OpenCreateSession()
+- uid: CatchIo.UI.MainMenuContext.OpenCreateSession*
+  name: OpenCreateSession
+  href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_OpenCreateSession_
+  commentId: Overload:CatchIo.UI.MainMenuContext.OpenCreateSession
+  isSpec: "True"
+  fullName: CatchIo.UI.MainMenuContext.OpenCreateSession
+  nameWithType: MainMenuContext.OpenCreateSession
 - uid: CatchIo.UI.MainMenuContext.RoomName
   name: RoomName
   href: api/CatchIo.UI.MainMenuContext.html#CatchIo_UI_MainMenuContext_RoomName
@@ -5677,150 +6206,118 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.MainMenuContext.RoomName
   nameWithType: MainMenuContext.RoomName
-- uid: CatchIo.UI.MasterContext
-  name: MasterContext
-  href: api/CatchIo.UI.MasterContext.html
-  commentId: T:CatchIo.UI.MasterContext
-  fullName: CatchIo.UI.MasterContext
-  nameWithType: MasterContext
-- uid: CatchIo.UI.MasterContext.#ctor
-  name: MasterContext()
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext__ctor
-  commentId: M:CatchIo.UI.MasterContext.#ctor
-  fullName: CatchIo.UI.MasterContext.MasterContext()
-  nameWithType: MasterContext.MasterContext()
-- uid: CatchIo.UI.MasterContext.#ctor*
-  name: MasterContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext__ctor_
-  commentId: Overload:CatchIo.UI.MasterContext.#ctor
+- uid: CatchIo.UI.MenuUIContext
+  name: MenuUIContext
+  href: api/CatchIo.UI.MenuUIContext.html
+  commentId: T:CatchIo.UI.MenuUIContext
+  fullName: CatchIo.UI.MenuUIContext
+  nameWithType: MenuUIContext
+- uid: CatchIo.UI.MenuUIContext.#ctor
+  name: MenuUIContext()
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext__ctor
+  commentId: M:CatchIo.UI.MenuUIContext.#ctor
+  fullName: CatchIo.UI.MenuUIContext.MenuUIContext()
+  nameWithType: MenuUIContext.MenuUIContext()
+- uid: CatchIo.UI.MenuUIContext.#ctor*
+  name: MenuUIContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext__ctor_
+  commentId: Overload:CatchIo.UI.MenuUIContext.#ctor
   isSpec: "True"
-  fullName: CatchIo.UI.MasterContext.MasterContext
-  nameWithType: MasterContext.MasterContext
-- uid: CatchIo.UI.MasterContext.AccountContext
-  name: AccountContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_AccountContext
-  commentId: P:CatchIo.UI.MasterContext.AccountContext
-  fullName: CatchIo.UI.MasterContext.AccountContext
-  nameWithType: MasterContext.AccountContext
-- uid: CatchIo.UI.MasterContext.AccountContext*
-  name: AccountContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_AccountContext_
-  commentId: Overload:CatchIo.UI.MasterContext.AccountContext
+  fullName: CatchIo.UI.MenuUIContext.MenuUIContext
+  nameWithType: MenuUIContext.MenuUIContext
+- uid: CatchIo.UI.MenuUIContext.ErrorMessageContext
+  name: ErrorMessageContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_ErrorMessageContext
+  commentId: P:CatchIo.UI.MenuUIContext.ErrorMessageContext
+  fullName: CatchIo.UI.MenuUIContext.ErrorMessageContext
+  nameWithType: MenuUIContext.ErrorMessageContext
+- uid: CatchIo.UI.MenuUIContext.ErrorMessageContext*
+  name: ErrorMessageContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_ErrorMessageContext_
+  commentId: Overload:CatchIo.UI.MenuUIContext.ErrorMessageContext
   isSpec: "True"
-  fullName: CatchIo.UI.MasterContext.AccountContext
-  nameWithType: MasterContext.AccountContext
-- uid: CatchIo.UI.MasterContext.LoadingContext
+  fullName: CatchIo.UI.MenuUIContext.ErrorMessageContext
+  nameWithType: MenuUIContext.ErrorMessageContext
+- uid: CatchIo.UI.MenuUIContext.LoadingContext
   name: LoadingContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_LoadingContext
-  commentId: P:CatchIo.UI.MasterContext.LoadingContext
-  fullName: CatchIo.UI.MasterContext.LoadingContext
-  nameWithType: MasterContext.LoadingContext
-- uid: CatchIo.UI.MasterContext.LoadingContext*
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_LoadingContext
+  commentId: P:CatchIo.UI.MenuUIContext.LoadingContext
+  fullName: CatchIo.UI.MenuUIContext.LoadingContext
+  nameWithType: MenuUIContext.LoadingContext
+- uid: CatchIo.UI.MenuUIContext.LoadingContext*
   name: LoadingContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_LoadingContext_
-  commentId: Overload:CatchIo.UI.MasterContext.LoadingContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_LoadingContext_
+  commentId: Overload:CatchIo.UI.MenuUIContext.LoadingContext
   isSpec: "True"
-  fullName: CatchIo.UI.MasterContext.LoadingContext
-  nameWithType: MasterContext.LoadingContext
-- uid: CatchIo.UI.MasterContext.LobbyContext
+  fullName: CatchIo.UI.MenuUIContext.LoadingContext
+  nameWithType: MenuUIContext.LoadingContext
+- uid: CatchIo.UI.MenuUIContext.LobbyContext
   name: LobbyContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_LobbyContext
-  commentId: P:CatchIo.UI.MasterContext.LobbyContext
-  fullName: CatchIo.UI.MasterContext.LobbyContext
-  nameWithType: MasterContext.LobbyContext
-- uid: CatchIo.UI.MasterContext.LobbyContext*
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_LobbyContext
+  commentId: P:CatchIo.UI.MenuUIContext.LobbyContext
+  fullName: CatchIo.UI.MenuUIContext.LobbyContext
+  nameWithType: MenuUIContext.LobbyContext
+- uid: CatchIo.UI.MenuUIContext.LobbyContext*
   name: LobbyContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_LobbyContext_
-  commentId: Overload:CatchIo.UI.MasterContext.LobbyContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_LobbyContext_
+  commentId: Overload:CatchIo.UI.MenuUIContext.LobbyContext
   isSpec: "True"
-  fullName: CatchIo.UI.MasterContext.LobbyContext
-  nameWithType: MasterContext.LobbyContext
-- uid: CatchIo.UI.MasterContext.MainMenuContext
+  fullName: CatchIo.UI.MenuUIContext.LobbyContext
+  nameWithType: MenuUIContext.LobbyContext
+- uid: CatchIo.UI.MenuUIContext.MainMenuContext
   name: MainMenuContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_MainMenuContext
-  commentId: P:CatchIo.UI.MasterContext.MainMenuContext
-  fullName: CatchIo.UI.MasterContext.MainMenuContext
-  nameWithType: MasterContext.MainMenuContext
-- uid: CatchIo.UI.MasterContext.MainMenuContext*
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_MainMenuContext
+  commentId: P:CatchIo.UI.MenuUIContext.MainMenuContext
+  fullName: CatchIo.UI.MenuUIContext.MainMenuContext
+  nameWithType: MenuUIContext.MainMenuContext
+- uid: CatchIo.UI.MenuUIContext.MainMenuContext*
   name: MainMenuContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_MainMenuContext_
-  commentId: Overload:CatchIo.UI.MasterContext.MainMenuContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_MainMenuContext_
+  commentId: Overload:CatchIo.UI.MenuUIContext.MainMenuContext
   isSpec: "True"
-  fullName: CatchIo.UI.MasterContext.MainMenuContext
-  nameWithType: MasterContext.MainMenuContext
-- uid: CatchIo.UI.MasterContext.RoomContext
+  fullName: CatchIo.UI.MenuUIContext.MainMenuContext
+  nameWithType: MenuUIContext.MainMenuContext
+- uid: CatchIo.UI.MenuUIContext.RoomContext
   name: RoomContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_RoomContext
-  commentId: P:CatchIo.UI.MasterContext.RoomContext
-  fullName: CatchIo.UI.MasterContext.RoomContext
-  nameWithType: MasterContext.RoomContext
-- uid: CatchIo.UI.MasterContext.RoomContext*
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_RoomContext
+  commentId: P:CatchIo.UI.MenuUIContext.RoomContext
+  fullName: CatchIo.UI.MenuUIContext.RoomContext
+  nameWithType: MenuUIContext.RoomContext
+- uid: CatchIo.UI.MenuUIContext.RoomContext*
   name: RoomContext
-  href: api/CatchIo.UI.MasterContext.html#CatchIo_UI_MasterContext_RoomContext_
-  commentId: Overload:CatchIo.UI.MasterContext.RoomContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_RoomContext_
+  commentId: Overload:CatchIo.UI.MenuUIContext.RoomContext
   isSpec: "True"
-  fullName: CatchIo.UI.MasterContext.RoomContext
-  nameWithType: MasterContext.RoomContext
-- uid: CatchIo.UI.PlayerInfoWriter
-  name: PlayerInfoWriter
-  href: api/CatchIo.UI.PlayerInfoWriter.html
-  commentId: T:CatchIo.UI.PlayerInfoWriter
-  fullName: CatchIo.UI.PlayerInfoWriter
-  nameWithType: PlayerInfoWriter
-- uid: CatchIo.UI.PlayerInfoWriter.CollectionItemAdded(System.Object)
-  name: CollectionItemAdded(Object)
-  href: api/CatchIo.UI.PlayerInfoWriter.html#CatchIo_UI_PlayerInfoWriter_CollectionItemAdded_System_Object_
-  commentId: M:CatchIo.UI.PlayerInfoWriter.CollectionItemAdded(System.Object)
-  fullName: CatchIo.UI.PlayerInfoWriter.CollectionItemAdded(System.Object)
-  nameWithType: PlayerInfoWriter.CollectionItemAdded(Object)
-- uid: CatchIo.UI.PlayerInfoWriter.CollectionItemAdded*
-  name: CollectionItemAdded
-  href: api/CatchIo.UI.PlayerInfoWriter.html#CatchIo_UI_PlayerInfoWriter_CollectionItemAdded_
-  commentId: Overload:CatchIo.UI.PlayerInfoWriter.CollectionItemAdded
+  fullName: CatchIo.UI.MenuUIContext.RoomContext
+  nameWithType: MenuUIContext.RoomContext
+- uid: CatchIo.UI.MenuUIContext.TitleContext
+  name: TitleContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_TitleContext
+  commentId: P:CatchIo.UI.MenuUIContext.TitleContext
+  fullName: CatchIo.UI.MenuUIContext.TitleContext
+  nameWithType: MenuUIContext.TitleContext
+- uid: CatchIo.UI.MenuUIContext.TitleContext*
+  name: TitleContext
+  href: api/CatchIo.UI.MenuUIContext.html#CatchIo_UI_MenuUIContext_TitleContext_
+  commentId: Overload:CatchIo.UI.MenuUIContext.TitleContext
   isSpec: "True"
-  fullName: CatchIo.UI.PlayerInfoWriter.CollectionItemAdded
-  nameWithType: PlayerInfoWriter.CollectionItemAdded
-- uid: CatchIo.UI.PlayerInfoWriter.CollectionItemRemoved(System.Object)
-  name: CollectionItemRemoved(Object)
-  href: api/CatchIo.UI.PlayerInfoWriter.html#CatchIo_UI_PlayerInfoWriter_CollectionItemRemoved_System_Object_
-  commentId: M:CatchIo.UI.PlayerInfoWriter.CollectionItemRemoved(System.Object)
-  fullName: CatchIo.UI.PlayerInfoWriter.CollectionItemRemoved(System.Object)
-  nameWithType: PlayerInfoWriter.CollectionItemRemoved(Object)
-- uid: CatchIo.UI.PlayerInfoWriter.CollectionItemRemoved*
-  name: CollectionItemRemoved
-  href: api/CatchIo.UI.PlayerInfoWriter.html#CatchIo_UI_PlayerInfoWriter_CollectionItemRemoved_
-  commentId: Overload:CatchIo.UI.PlayerInfoWriter.CollectionItemRemoved
-  isSpec: "True"
-  fullName: CatchIo.UI.PlayerInfoWriter.CollectionItemRemoved
-  nameWithType: PlayerInfoWriter.CollectionItemRemoved
-- uid: CatchIo.UI.PlayerInfoWriter.CollectionOnClearedItems(IEnumerable{System.Object})
-  name: CollectionOnClearedItems(IEnumerable<Object>)
-  href: api/CatchIo.UI.PlayerInfoWriter.html#CatchIo_UI_PlayerInfoWriter_CollectionOnClearedItems_IEnumerable_System_Object__
-  commentId: M:CatchIo.UI.PlayerInfoWriter.CollectionOnClearedItems(IEnumerable{System.Object})
-  name.vb: CollectionOnClearedItems(IEnumerable(Of Object))
-  fullName: CatchIo.UI.PlayerInfoWriter.CollectionOnClearedItems(IEnumerable<System.Object>)
-  fullName.vb: CatchIo.UI.PlayerInfoWriter.CollectionOnClearedItems(IEnumerable(Of System.Object))
-  nameWithType: PlayerInfoWriter.CollectionOnClearedItems(IEnumerable<Object>)
-  nameWithType.vb: PlayerInfoWriter.CollectionOnClearedItems(IEnumerable(Of Object))
-- uid: CatchIo.UI.PlayerInfoWriter.CollectionOnClearedItems*
-  name: CollectionOnClearedItems
-  href: api/CatchIo.UI.PlayerInfoWriter.html#CatchIo_UI_PlayerInfoWriter_CollectionOnClearedItems_
-  commentId: Overload:CatchIo.UI.PlayerInfoWriter.CollectionOnClearedItems
-  isSpec: "True"
-  fullName: CatchIo.UI.PlayerInfoWriter.CollectionOnClearedItems
-  nameWithType: PlayerInfoWriter.CollectionOnClearedItems
+  fullName: CatchIo.UI.MenuUIContext.TitleContext
+  nameWithType: MenuUIContext.TitleContext
 - uid: CatchIo.UI.RoomContext
   name: RoomContext
   href: api/CatchIo.UI.RoomContext.html
   commentId: T:CatchIo.UI.RoomContext
   fullName: CatchIo.UI.RoomContext
   nameWithType: RoomContext
-- uid: CatchIo.UI.RoomContext.#ctor
-  name: RoomContext()
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext__ctor
-  commentId: M:CatchIo.UI.RoomContext.#ctor
-  fullName: CatchIo.UI.RoomContext.RoomContext()
-  nameWithType: RoomContext.RoomContext()
+- uid: CatchIo.UI.RoomContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name: RoomContext(UINavigation<UIMenuViewType>)
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__
+  commentId: M:CatchIo.UI.RoomContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name.vb: RoomContext(UINavigation(Of UIMenuViewType))
+  fullName: CatchIo.UI.RoomContext.RoomContext(CatchIo.UI.UINavigation<CatchIo.UI.UIMenuViewType>)
+  fullName.vb: CatchIo.UI.RoomContext.RoomContext(CatchIo.UI.UINavigation(Of CatchIo.UI.UIMenuViewType))
+  nameWithType: RoomContext.RoomContext(UINavigation<UIMenuViewType>)
+  nameWithType.vb: RoomContext.RoomContext(UINavigation(Of UIMenuViewType))
 - uid: CatchIo.UI.RoomContext.#ctor*
   name: RoomContext
   href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext__ctor_
@@ -5828,19 +6325,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomContext.RoomContext
   nameWithType: RoomContext.RoomContext
-- uid: CatchIo.UI.RoomContext.AddPlayer(Player)
-  name: AddPlayer(Player)
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_AddPlayer_Player_
-  commentId: M:CatchIo.UI.RoomContext.AddPlayer(Player)
-  fullName: CatchIo.UI.RoomContext.AddPlayer(Player)
-  nameWithType: RoomContext.AddPlayer(Player)
-- uid: CatchIo.UI.RoomContext.AddPlayer*
-  name: AddPlayer
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_AddPlayer_
-  commentId: Overload:CatchIo.UI.RoomContext.AddPlayer
+- uid: CatchIo.UI.RoomContext.ButtonText
+  name: ButtonText
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_ButtonText
+  commentId: P:CatchIo.UI.RoomContext.ButtonText
+  fullName: CatchIo.UI.RoomContext.ButtonText
+  nameWithType: RoomContext.ButtonText
+- uid: CatchIo.UI.RoomContext.ButtonText*
+  name: ButtonText
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_ButtonText_
+  commentId: Overload:CatchIo.UI.RoomContext.ButtonText
   isSpec: "True"
-  fullName: CatchIo.UI.RoomContext.AddPlayer
-  nameWithType: RoomContext.AddPlayer
+  fullName: CatchIo.UI.RoomContext.ButtonText
+  nameWithType: RoomContext.ButtonText
 - uid: CatchIo.UI.RoomContext.CharacterClasses
   name: CharacterClasses
   href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_CharacterClasses
@@ -5854,32 +6351,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomContext.CharacterClasses
   nameWithType: RoomContext.CharacterClasses
-- uid: CatchIo.UI.RoomContext.ChatLogs
-  name: ChatLogs
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_ChatLogs
-  commentId: P:CatchIo.UI.RoomContext.ChatLogs
-  fullName: CatchIo.UI.RoomContext.ChatLogs
-  nameWithType: RoomContext.ChatLogs
-- uid: CatchIo.UI.RoomContext.ChatLogs*
-  name: ChatLogs
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_ChatLogs_
-  commentId: Overload:CatchIo.UI.RoomContext.ChatLogs
+- uid: CatchIo.UI.RoomContext.HostPlayerID
+  name: HostPlayerID
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_HostPlayerID
+  commentId: P:CatchIo.UI.RoomContext.HostPlayerID
+  fullName: CatchIo.UI.RoomContext.HostPlayerID
+  nameWithType: RoomContext.HostPlayerID
+- uid: CatchIo.UI.RoomContext.HostPlayerID*
+  name: HostPlayerID
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_HostPlayerID_
+  commentId: Overload:CatchIo.UI.RoomContext.HostPlayerID
   isSpec: "True"
-  fullName: CatchIo.UI.RoomContext.ChatLogs
-  nameWithType: RoomContext.ChatLogs
-- uid: CatchIo.UI.RoomContext.CurrentCharacterClassSprite
-  name: CurrentCharacterClassSprite
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_CurrentCharacterClassSprite
-  commentId: P:CatchIo.UI.RoomContext.CurrentCharacterClassSprite
-  fullName: CatchIo.UI.RoomContext.CurrentCharacterClassSprite
-  nameWithType: RoomContext.CurrentCharacterClassSprite
-- uid: CatchIo.UI.RoomContext.CurrentCharacterClassSprite*
-  name: CurrentCharacterClassSprite
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_CurrentCharacterClassSprite_
-  commentId: Overload:CatchIo.UI.RoomContext.CurrentCharacterClassSprite
-  isSpec: "True"
-  fullName: CatchIo.UI.RoomContext.CurrentCharacterClassSprite
-  nameWithType: RoomContext.CurrentCharacterClassSprite
+  fullName: CatchIo.UI.RoomContext.HostPlayerID
+  nameWithType: RoomContext.HostPlayerID
 - uid: CatchIo.UI.RoomContext.OnBack
   name: OnBack()
   href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnBack
@@ -5893,64 +6377,155 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomContext.OnBack
   nameWithType: RoomContext.OnBack
-- uid: CatchIo.UI.RoomContext.OnJoinSession
-  name: OnJoinSession()
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnJoinSession
-  commentId: M:CatchIo.UI.RoomContext.OnJoinSession
-  fullName: CatchIo.UI.RoomContext.OnJoinSession()
-  nameWithType: RoomContext.OnJoinSession()
-- uid: CatchIo.UI.RoomContext.OnJoinSession*
-  name: OnJoinSession
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnJoinSession_
-  commentId: Overload:CatchIo.UI.RoomContext.OnJoinSession
+- uid: CatchIo.UI.RoomContext.OnClickChatLogDown
+  name: OnClickChatLogDown()
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickChatLogDown
+  commentId: M:CatchIo.UI.RoomContext.OnClickChatLogDown
+  fullName: CatchIo.UI.RoomContext.OnClickChatLogDown()
+  nameWithType: RoomContext.OnClickChatLogDown()
+- uid: CatchIo.UI.RoomContext.OnClickChatLogDown*
+  name: OnClickChatLogDown
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickChatLogDown_
+  commentId: Overload:CatchIo.UI.RoomContext.OnClickChatLogDown
   isSpec: "True"
-  fullName: CatchIo.UI.RoomContext.OnJoinSession
-  nameWithType: RoomContext.OnJoinSession
+  fullName: CatchIo.UI.RoomContext.OnClickChatLogDown
+  nameWithType: RoomContext.OnClickChatLogDown
+- uid: CatchIo.UI.RoomContext.OnClickChatLogUp
+  name: OnClickChatLogUp()
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickChatLogUp
+  commentId: M:CatchIo.UI.RoomContext.OnClickChatLogUp
+  fullName: CatchIo.UI.RoomContext.OnClickChatLogUp()
+  nameWithType: RoomContext.OnClickChatLogUp()
+- uid: CatchIo.UI.RoomContext.OnClickChatLogUp*
+  name: OnClickChatLogUp
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickChatLogUp_
+  commentId: Overload:CatchIo.UI.RoomContext.OnClickChatLogUp
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.OnClickChatLogUp
+  nameWithType: RoomContext.OnClickChatLogUp
+- uid: CatchIo.UI.RoomContext.OnClickPlayerListDown
+  name: OnClickPlayerListDown()
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickPlayerListDown
+  commentId: M:CatchIo.UI.RoomContext.OnClickPlayerListDown
+  fullName: CatchIo.UI.RoomContext.OnClickPlayerListDown()
+  nameWithType: RoomContext.OnClickPlayerListDown()
+- uid: CatchIo.UI.RoomContext.OnClickPlayerListDown*
+  name: OnClickPlayerListDown
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickPlayerListDown_
+  commentId: Overload:CatchIo.UI.RoomContext.OnClickPlayerListDown
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.OnClickPlayerListDown
+  nameWithType: RoomContext.OnClickPlayerListDown
+- uid: CatchIo.UI.RoomContext.OnClickPlayerListUp
+  name: OnClickPlayerListUp()
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickPlayerListUp
+  commentId: M:CatchIo.UI.RoomContext.OnClickPlayerListUp
+  fullName: CatchIo.UI.RoomContext.OnClickPlayerListUp()
+  nameWithType: RoomContext.OnClickPlayerListUp()
+- uid: CatchIo.UI.RoomContext.OnClickPlayerListUp*
+  name: OnClickPlayerListUp
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnClickPlayerListUp_
+  commentId: Overload:CatchIo.UI.RoomContext.OnClickPlayerListUp
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.OnClickPlayerListUp
+  nameWithType: RoomContext.OnClickPlayerListUp
+- uid: CatchIo.UI.RoomContext.OnStartOrReady
+  name: OnStartOrReady()
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnStartOrReady
+  commentId: M:CatchIo.UI.RoomContext.OnStartOrReady
+  fullName: CatchIo.UI.RoomContext.OnStartOrReady()
+  nameWithType: RoomContext.OnStartOrReady()
+- uid: CatchIo.UI.RoomContext.OnStartOrReady*
+  name: OnStartOrReady
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnStartOrReady_
+  commentId: Overload:CatchIo.UI.RoomContext.OnStartOrReady
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.OnStartOrReady
+  nameWithType: RoomContext.OnStartOrReady
 - uid: CatchIo.UI.RoomContext.OnUpdatePlayerProperties
   name: OnUpdatePlayerProperties
   href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_OnUpdatePlayerProperties
   commentId: F:CatchIo.UI.RoomContext.OnUpdatePlayerProperties
   fullName: CatchIo.UI.RoomContext.OnUpdatePlayerProperties
   nameWithType: RoomContext.OnUpdatePlayerProperties
-- uid: CatchIo.UI.RoomContext.Players
-  name: Players
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_Players
-  commentId: P:CatchIo.UI.RoomContext.Players
-  fullName: CatchIo.UI.RoomContext.Players
-  nameWithType: RoomContext.Players
-- uid: CatchIo.UI.RoomContext.Players*
-  name: Players
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_Players_
-  commentId: Overload:CatchIo.UI.RoomContext.Players
+- uid: CatchIo.UI.RoomContext.PlayerNames
+  name: PlayerNames
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_PlayerNames
+  commentId: P:CatchIo.UI.RoomContext.PlayerNames
+  fullName: CatchIo.UI.RoomContext.PlayerNames
+  nameWithType: RoomContext.PlayerNames
+- uid: CatchIo.UI.RoomContext.PlayerNames*
+  name: PlayerNames
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_PlayerNames_
+  commentId: Overload:CatchIo.UI.RoomContext.PlayerNames
   isSpec: "True"
-  fullName: CatchIo.UI.RoomContext.Players
-  nameWithType: RoomContext.Players
-- uid: CatchIo.UI.RoomContext.RemovePlayer(Player)
-  name: RemovePlayer(Player)
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_RemovePlayer_Player_
-  commentId: M:CatchIo.UI.RoomContext.RemovePlayer(Player)
-  fullName: CatchIo.UI.RoomContext.RemovePlayer(Player)
-  nameWithType: RoomContext.RemovePlayer(Player)
-- uid: CatchIo.UI.RoomContext.RemovePlayer*
-  name: RemovePlayer
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_RemovePlayer_
-  commentId: Overload:CatchIo.UI.RoomContext.RemovePlayer
+  fullName: CatchIo.UI.RoomContext.PlayerNames
+  nameWithType: RoomContext.PlayerNames
+- uid: CatchIo.UI.RoomContext.PlayerStates
+  name: PlayerStates
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_PlayerStates
+  commentId: P:CatchIo.UI.RoomContext.PlayerStates
+  fullName: CatchIo.UI.RoomContext.PlayerStates
+  nameWithType: RoomContext.PlayerStates
+- uid: CatchIo.UI.RoomContext.PlayerStates*
+  name: PlayerStates
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_PlayerStates_
+  commentId: Overload:CatchIo.UI.RoomContext.PlayerStates
   isSpec: "True"
-  fullName: CatchIo.UI.RoomContext.RemovePlayer
-  nameWithType: RoomContext.RemovePlayer
-- uid: CatchIo.UI.RoomContext.SendChat(System.String)
-  name: SendChat(String)
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_SendChat_System_String_
-  commentId: M:CatchIo.UI.RoomContext.SendChat(System.String)
-  fullName: CatchIo.UI.RoomContext.SendChat(System.String)
-  nameWithType: RoomContext.SendChat(String)
-- uid: CatchIo.UI.RoomContext.SendChat*
-  name: SendChat
-  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_SendChat_
-  commentId: Overload:CatchIo.UI.RoomContext.SendChat
+  fullName: CatchIo.UI.RoomContext.PlayerStates
+  nameWithType: RoomContext.PlayerStates
+- uid: CatchIo.UI.RoomContext.RoomChatLogs
+  name: RoomChatLogs
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_RoomChatLogs
+  commentId: P:CatchIo.UI.RoomContext.RoomChatLogs
+  fullName: CatchIo.UI.RoomContext.RoomChatLogs
+  nameWithType: RoomContext.RoomChatLogs
+- uid: CatchIo.UI.RoomContext.RoomChatLogs*
+  name: RoomChatLogs
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_RoomChatLogs_
+  commentId: Overload:CatchIo.UI.RoomContext.RoomChatLogs
   isSpec: "True"
-  fullName: CatchIo.UI.RoomContext.SendChat
-  nameWithType: RoomContext.SendChat
+  fullName: CatchIo.UI.RoomContext.RoomChatLogs
+  nameWithType: RoomContext.RoomChatLogs
+- uid: CatchIo.UI.RoomContext.RoomName
+  name: RoomName
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_RoomName
+  commentId: P:CatchIo.UI.RoomContext.RoomName
+  fullName: CatchIo.UI.RoomContext.RoomName
+  nameWithType: RoomContext.RoomName
+- uid: CatchIo.UI.RoomContext.RoomName*
+  name: RoomName
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_RoomName_
+  commentId: Overload:CatchIo.UI.RoomContext.RoomName
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.RoomName
+  nameWithType: RoomContext.RoomName
+- uid: CatchIo.UI.RoomContext.SelectedCharacterClass
+  name: SelectedCharacterClass
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_SelectedCharacterClass
+  commentId: P:CatchIo.UI.RoomContext.SelectedCharacterClass
+  fullName: CatchIo.UI.RoomContext.SelectedCharacterClass
+  nameWithType: RoomContext.SelectedCharacterClass
+- uid: CatchIo.UI.RoomContext.SelectedCharacterClass*
+  name: SelectedCharacterClass
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_SelectedCharacterClass_
+  commentId: Overload:CatchIo.UI.RoomContext.SelectedCharacterClass
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.SelectedCharacterClass
+  nameWithType: RoomContext.SelectedCharacterClass
+- uid: CatchIo.UI.RoomContext.SelectedClassSprite
+  name: SelectedClassSprite
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_SelectedClassSprite
+  commentId: P:CatchIo.UI.RoomContext.SelectedClassSprite
+  fullName: CatchIo.UI.RoomContext.SelectedClassSprite
+  nameWithType: RoomContext.SelectedClassSprite
+- uid: CatchIo.UI.RoomContext.SelectedClassSprite*
+  name: SelectedClassSprite
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_SelectedClassSprite_
+  commentId: Overload:CatchIo.UI.RoomContext.SelectedClassSprite
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.SelectedClassSprite
+  nameWithType: RoomContext.SelectedClassSprite
 - uid: CatchIo.UI.RoomContext.SetCharacterClassSprite(Sprite)
   name: SetCharacterClassSprite(Sprite)
   href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_SetCharacterClassSprite_Sprite_
@@ -5964,18 +6539,31 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomContext.SetCharacterClassSprite
   nameWithType: RoomContext.SetCharacterClassSprite
+- uid: CatchIo.UI.RoomContext.UpdateUIRoomData
+  name: UpdateUIRoomData()
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_UpdateUIRoomData
+  commentId: M:CatchIo.UI.RoomContext.UpdateUIRoomData
+  fullName: CatchIo.UI.RoomContext.UpdateUIRoomData()
+  nameWithType: RoomContext.UpdateUIRoomData()
+- uid: CatchIo.UI.RoomContext.UpdateUIRoomData*
+  name: UpdateUIRoomData
+  href: api/CatchIo.UI.RoomContext.html#CatchIo_UI_RoomContext_UpdateUIRoomData_
+  commentId: Overload:CatchIo.UI.RoomContext.UpdateUIRoomData
+  isSpec: "True"
+  fullName: CatchIo.UI.RoomContext.UpdateUIRoomData
+  nameWithType: RoomContext.UpdateUIRoomData
 - uid: CatchIo.UI.RoomInfoContext
   name: RoomInfoContext
   href: api/CatchIo.UI.RoomInfoContext.html
   commentId: T:CatchIo.UI.RoomInfoContext
   fullName: CatchIo.UI.RoomInfoContext
   nameWithType: RoomInfoContext
-- uid: CatchIo.UI.RoomInfoContext.#ctor(RoomInfo)
-  name: RoomInfoContext(RoomInfo)
-  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext__ctor_RoomInfo_
-  commentId: M:CatchIo.UI.RoomInfoContext.#ctor(RoomInfo)
-  fullName: CatchIo.UI.RoomInfoContext.RoomInfoContext(RoomInfo)
-  nameWithType: RoomInfoContext.RoomInfoContext(RoomInfo)
+- uid: CatchIo.UI.RoomInfoContext.#ctor(NetworkDiscoveryData)
+  name: RoomInfoContext(NetworkDiscoveryData)
+  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext__ctor_NetworkDiscoveryData_
+  commentId: M:CatchIo.UI.RoomInfoContext.#ctor(NetworkDiscoveryData)
+  fullName: CatchIo.UI.RoomInfoContext.RoomInfoContext(NetworkDiscoveryData)
+  nameWithType: RoomInfoContext.RoomInfoContext(NetworkDiscoveryData)
 - uid: CatchIo.UI.RoomInfoContext.#ctor*
   name: RoomInfoContext
   href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext__ctor_
@@ -6048,12 +6636,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomInfoContext.Updated
   nameWithType: RoomInfoContext.Updated
-- uid: CatchIo.UI.RoomInfoContext.UpdateRoomInfo(CatchIo.UI.RoomInfoContext)
-  name: UpdateRoomInfo(RoomInfoContext)
-  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext_UpdateRoomInfo_CatchIo_UI_RoomInfoContext_
-  commentId: M:CatchIo.UI.RoomInfoContext.UpdateRoomInfo(CatchIo.UI.RoomInfoContext)
-  fullName: CatchIo.UI.RoomInfoContext.UpdateRoomInfo(CatchIo.UI.RoomInfoContext)
-  nameWithType: RoomInfoContext.UpdateRoomInfo(RoomInfoContext)
+- uid: CatchIo.UI.RoomInfoContext.UpdateRoomInfo(NetworkDiscoveryData)
+  name: UpdateRoomInfo(NetworkDiscoveryData)
+  href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext_UpdateRoomInfo_NetworkDiscoveryData_
+  commentId: M:CatchIo.UI.RoomInfoContext.UpdateRoomInfo(NetworkDiscoveryData)
+  fullName: CatchIo.UI.RoomInfoContext.UpdateRoomInfo(NetworkDiscoveryData)
+  nameWithType: RoomInfoContext.UpdateRoomInfo(NetworkDiscoveryData)
 - uid: CatchIo.UI.RoomInfoContext.UpdateRoomInfo*
   name: UpdateRoomInfo
   href: api/CatchIo.UI.RoomInfoContext.html#CatchIo_UI_RoomInfoContext_UpdateRoomInfo_
@@ -6061,140 +6649,393 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomInfoContext.UpdateRoomInfo
   nameWithType: RoomInfoContext.UpdateRoomInfo
-- uid: CatchIo.UI.RotateJoystick
-  name: RotateJoystick
-  href: api/CatchIo.UI.RotateJoystick.html
-  commentId: T:CatchIo.UI.RotateJoystick
-  fullName: CatchIo.UI.RotateJoystick
-  nameWithType: RotateJoystick
-- uid: CatchIo.UI.RotateJoystick.Start
-  name: Start()
-  href: api/CatchIo.UI.RotateJoystick.html#CatchIo_UI_RotateJoystick_Start
-  commentId: M:CatchIo.UI.RotateJoystick.Start
-  fullName: CatchIo.UI.RotateJoystick.Start()
-  nameWithType: RotateJoystick.Start()
-- uid: CatchIo.UI.RotateJoystick.Start*
-  name: Start
-  href: api/CatchIo.UI.RotateJoystick.html#CatchIo_UI_RotateJoystick_Start_
-  commentId: Overload:CatchIo.UI.RotateJoystick.Start
+- uid: CatchIo.UI.TitleContext
+  name: TitleContext
+  href: api/CatchIo.UI.TitleContext.html
+  commentId: T:CatchIo.UI.TitleContext
+  fullName: CatchIo.UI.TitleContext
+  nameWithType: TitleContext
+- uid: CatchIo.UI.TitleContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name: TitleContext(UINavigation<UIMenuViewType>)
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext__ctor_CatchIo_UI_UINavigation_CatchIo_UI_UIMenuViewType__
+  commentId: M:CatchIo.UI.TitleContext.#ctor(CatchIo.UI.UINavigation{CatchIo.UI.UIMenuViewType})
+  name.vb: TitleContext(UINavigation(Of UIMenuViewType))
+  fullName: CatchIo.UI.TitleContext.TitleContext(CatchIo.UI.UINavigation<CatchIo.UI.UIMenuViewType>)
+  fullName.vb: CatchIo.UI.TitleContext.TitleContext(CatchIo.UI.UINavigation(Of CatchIo.UI.UIMenuViewType))
+  nameWithType: TitleContext.TitleContext(UINavigation<UIMenuViewType>)
+  nameWithType.vb: TitleContext.TitleContext(UINavigation(Of UIMenuViewType))
+- uid: CatchIo.UI.TitleContext.#ctor*
+  name: TitleContext
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext__ctor_
+  commentId: Overload:CatchIo.UI.TitleContext.#ctor
   isSpec: "True"
-  fullName: CatchIo.UI.RotateJoystick.Start
-  nameWithType: RotateJoystick.Start
-- uid: CatchIo.UI.StaminaBar
-  name: StaminaBar
-  href: api/CatchIo.UI.StaminaBar.html
-  commentId: T:CatchIo.UI.StaminaBar
-  fullName: CatchIo.UI.StaminaBar
-  nameWithType: StaminaBar
-- uid: CatchIo.UI.StaminaBar.ControlStaminaBar
-  name: ControlStaminaBar()
-  href: api/CatchIo.UI.StaminaBar.html#CatchIo_UI_StaminaBar_ControlStaminaBar
-  commentId: M:CatchIo.UI.StaminaBar.ControlStaminaBar
-  fullName: CatchIo.UI.StaminaBar.ControlStaminaBar()
-  nameWithType: StaminaBar.ControlStaminaBar()
-- uid: CatchIo.UI.StaminaBar.ControlStaminaBar*
-  name: ControlStaminaBar
-  href: api/CatchIo.UI.StaminaBar.html#CatchIo_UI_StaminaBar_ControlStaminaBar_
-  commentId: Overload:CatchIo.UI.StaminaBar.ControlStaminaBar
+  fullName: CatchIo.UI.TitleContext.TitleContext
+  nameWithType: TitleContext.TitleContext
+- uid: CatchIo.UI.TitleContext.NickName
+  name: NickName
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_NickName
+  commentId: P:CatchIo.UI.TitleContext.NickName
+  fullName: CatchIo.UI.TitleContext.NickName
+  nameWithType: TitleContext.NickName
+- uid: CatchIo.UI.TitleContext.NickName*
+  name: NickName
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_NickName_
+  commentId: Overload:CatchIo.UI.TitleContext.NickName
   isSpec: "True"
-  fullName: CatchIo.UI.StaminaBar.ControlStaminaBar
-  nameWithType: StaminaBar.ControlStaminaBar
-- uid: CatchIo.UI.StaminaBar.ControlStaminaBarPosition
-  name: ControlStaminaBarPosition()
-  href: api/CatchIo.UI.StaminaBar.html#CatchIo_UI_StaminaBar_ControlStaminaBarPosition
-  commentId: M:CatchIo.UI.StaminaBar.ControlStaminaBarPosition
-  fullName: CatchIo.UI.StaminaBar.ControlStaminaBarPosition()
-  nameWithType: StaminaBar.ControlStaminaBarPosition()
-- uid: CatchIo.UI.StaminaBar.ControlStaminaBarPosition*
-  name: ControlStaminaBarPosition
-  href: api/CatchIo.UI.StaminaBar.html#CatchIo_UI_StaminaBar_ControlStaminaBarPosition_
-  commentId: Overload:CatchIo.UI.StaminaBar.ControlStaminaBarPosition
+  fullName: CatchIo.UI.TitleContext.NickName
+  nameWithType: TitleContext.NickName
+- uid: CatchIo.UI.TitleContext.OnBack
+  name: OnBack()
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnBack
+  commentId: M:CatchIo.UI.TitleContext.OnBack
+  fullName: CatchIo.UI.TitleContext.OnBack()
+  nameWithType: TitleContext.OnBack()
+- uid: CatchIo.UI.TitleContext.OnBack*
+  name: OnBack
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnBack_
+  commentId: Overload:CatchIo.UI.TitleContext.OnBack
   isSpec: "True"
-  fullName: CatchIo.UI.StaminaBar.ControlStaminaBarPosition
-  nameWithType: StaminaBar.ControlStaminaBarPosition
-- uid: CatchIo.UI.StaminaBar.HealthBarCorrection
-  name: HealthBarCorrection
-  href: api/CatchIo.UI.StaminaBar.html#CatchIo_UI_StaminaBar_HealthBarCorrection
-  commentId: F:CatchIo.UI.StaminaBar.HealthBarCorrection
-  fullName: CatchIo.UI.StaminaBar.HealthBarCorrection
-  nameWithType: StaminaBar.HealthBarCorrection
-- uid: CatchIo.UI.StaminaBar.StaminaSliderPrefab
-  name: StaminaSliderPrefab
-  href: api/CatchIo.UI.StaminaBar.html#CatchIo_UI_StaminaBar_StaminaSliderPrefab
-  commentId: F:CatchIo.UI.StaminaBar.StaminaSliderPrefab
-  fullName: CatchIo.UI.StaminaBar.StaminaSliderPrefab
-  nameWithType: StaminaBar.StaminaSliderPrefab
-- uid: CatchIo.UI.UINavigation
+  fullName: CatchIo.UI.TitleContext.OnBack
+  nameWithType: TitleContext.OnBack
+- uid: CatchIo.UI.TitleContext.OnConnectToBestCloudServer
+  name: OnConnectToBestCloudServer()
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnConnectToBestCloudServer
+  commentId: M:CatchIo.UI.TitleContext.OnConnectToBestCloudServer
+  fullName: CatchIo.UI.TitleContext.OnConnectToBestCloudServer()
+  nameWithType: TitleContext.OnConnectToBestCloudServer()
+- uid: CatchIo.UI.TitleContext.OnConnectToBestCloudServer*
+  name: OnConnectToBestCloudServer
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnConnectToBestCloudServer_
+  commentId: Overload:CatchIo.UI.TitleContext.OnConnectToBestCloudServer
+  isSpec: "True"
+  fullName: CatchIo.UI.TitleContext.OnConnectToBestCloudServer
+  nameWithType: TitleContext.OnConnectToBestCloudServer
+- uid: CatchIo.UI.TitleContext.OnLogin
+  name: OnLogin()
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnLogin
+  commentId: M:CatchIo.UI.TitleContext.OnLogin
+  fullName: CatchIo.UI.TitleContext.OnLogin()
+  nameWithType: TitleContext.OnLogin()
+- uid: CatchIo.UI.TitleContext.OnLogin*
+  name: OnLogin
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnLogin_
+  commentId: Overload:CatchIo.UI.TitleContext.OnLogin
+  isSpec: "True"
+  fullName: CatchIo.UI.TitleContext.OnLogin
+  nameWithType: TitleContext.OnLogin
+- uid: CatchIo.UI.TitleContext.OnQuit
+  name: OnQuit()
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnQuit
+  commentId: M:CatchIo.UI.TitleContext.OnQuit
+  fullName: CatchIo.UI.TitleContext.OnQuit()
+  nameWithType: TitleContext.OnQuit()
+- uid: CatchIo.UI.TitleContext.OnQuit*
+  name: OnQuit
+  href: api/CatchIo.UI.TitleContext.html#CatchIo_UI_TitleContext_OnQuit_
+  commentId: Overload:CatchIo.UI.TitleContext.OnQuit
+  isSpec: "True"
+  fullName: CatchIo.UI.TitleContext.OnQuit
+  nameWithType: TitleContext.OnQuit
+- uid: CatchIo.UI.UIChatSender
+  name: UIChatSender
+  href: api/CatchIo.UI.UIChatSender.html
+  commentId: T:CatchIo.UI.UIChatSender
+  fullName: CatchIo.UI.UIChatSender
+  nameWithType: UIChatSender
+- uid: CatchIo.UI.UIChatSender.OnClickSend
+  name: OnClickSend()
+  href: api/CatchIo.UI.UIChatSender.html#CatchIo_UI_UIChatSender_OnClickSend
+  commentId: M:CatchIo.UI.UIChatSender.OnClickSend
+  fullName: CatchIo.UI.UIChatSender.OnClickSend()
+  nameWithType: UIChatSender.OnClickSend()
+- uid: CatchIo.UI.UIChatSender.OnClickSend*
+  name: OnClickSend
+  href: api/CatchIo.UI.UIChatSender.html#CatchIo_UI_UIChatSender_OnClickSend_
+  commentId: Overload:CatchIo.UI.UIChatSender.OnClickSend
+  isSpec: "True"
+  fullName: CatchIo.UI.UIChatSender.OnClickSend
+  nameWithType: UIChatSender.OnClickSend
+- uid: CatchIo.UI.UIGameViewType
+  name: UIGameViewType
+  href: api/CatchIo.UI.UIGameViewType.html
+  commentId: T:CatchIo.UI.UIGameViewType
+  fullName: CatchIo.UI.UIGameViewType
+  nameWithType: UIGameViewType
+- uid: CatchIo.UI.UIGameViewType.Hud
+  name: Hud
+  href: api/CatchIo.UI.UIGameViewType.html#CatchIo_UI_UIGameViewType_Hud
+  commentId: F:CatchIo.UI.UIGameViewType.Hud
+  fullName: CatchIo.UI.UIGameViewType.Hud
+  nameWithType: UIGameViewType.Hud
+- uid: CatchIo.UI.UIMenuViewType
+  name: UIMenuViewType
+  href: api/CatchIo.UI.UIMenuViewType.html
+  commentId: T:CatchIo.UI.UIMenuViewType
+  fullName: CatchIo.UI.UIMenuViewType
+  nameWithType: UIMenuViewType
+- uid: CatchIo.UI.UIMenuViewType.CreateSession
+  name: CreateSession
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_CreateSession
+  commentId: F:CatchIo.UI.UIMenuViewType.CreateSession
+  fullName: CatchIo.UI.UIMenuViewType.CreateSession
+  nameWithType: UIMenuViewType.CreateSession
+- uid: CatchIo.UI.UIMenuViewType.ErrorMessage
+  name: ErrorMessage
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_ErrorMessage
+  commentId: F:CatchIo.UI.UIMenuViewType.ErrorMessage
+  fullName: CatchIo.UI.UIMenuViewType.ErrorMessage
+  nameWithType: UIMenuViewType.ErrorMessage
+- uid: CatchIo.UI.UIMenuViewType.Loading
+  name: Loading
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_Loading
+  commentId: F:CatchIo.UI.UIMenuViewType.Loading
+  fullName: CatchIo.UI.UIMenuViewType.Loading
+  nameWithType: UIMenuViewType.Loading
+- uid: CatchIo.UI.UIMenuViewType.Lobby
+  name: Lobby
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_Lobby
+  commentId: F:CatchIo.UI.UIMenuViewType.Lobby
+  fullName: CatchIo.UI.UIMenuViewType.Lobby
+  nameWithType: UIMenuViewType.Lobby
+- uid: CatchIo.UI.UIMenuViewType.Login
+  name: Login
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_Login
+  commentId: F:CatchIo.UI.UIMenuViewType.Login
+  fullName: CatchIo.UI.UIMenuViewType.Login
+  nameWithType: UIMenuViewType.Login
+- uid: CatchIo.UI.UIMenuViewType.MainMenu
+  name: MainMenu
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_MainMenu
+  commentId: F:CatchIo.UI.UIMenuViewType.MainMenu
+  fullName: CatchIo.UI.UIMenuViewType.MainMenu
+  nameWithType: UIMenuViewType.MainMenu
+- uid: CatchIo.UI.UIMenuViewType.Room
+  name: Room
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_Room
+  commentId: F:CatchIo.UI.UIMenuViewType.Room
+  fullName: CatchIo.UI.UIMenuViewType.Room
+  nameWithType: UIMenuViewType.Room
+- uid: CatchIo.UI.UIMenuViewType.Title
+  name: Title
+  href: api/CatchIo.UI.UIMenuViewType.html#CatchIo_UI_UIMenuViewType_Title
+  commentId: F:CatchIo.UI.UIMenuViewType.Title
+  fullName: CatchIo.UI.UIMenuViewType.Title
+  nameWithType: UIMenuViewType.Title
+- uid: CatchIo.UI.UINavigation`1
+  name: UINavigation<T>
+  href: api/CatchIo.UI.UINavigation-1.html
+  commentId: T:CatchIo.UI.UINavigation`1
+  name.vb: UINavigation(Of T)
+  fullName: CatchIo.UI.UINavigation<T>
+  fullName.vb: CatchIo.UI.UINavigation(Of T)
+  nameWithType: UINavigation<T>
+  nameWithType.vb: UINavigation(Of T)
+- uid: CatchIo.UI.UINavigation`1.#ctor
+  name: UINavigation()
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1__ctor
+  commentId: M:CatchIo.UI.UINavigation`1.#ctor
+  fullName: CatchIo.UI.UINavigation<T>.UINavigation()
+  fullName.vb: CatchIo.UI.UINavigation(Of T).UINavigation()
+  nameWithType: UINavigation<T>.UINavigation()
+  nameWithType.vb: UINavigation(Of T).UINavigation()
+- uid: CatchIo.UI.UINavigation`1.#ctor*
   name: UINavigation
-  href: api/CatchIo.UI.UINavigation.html
-  commentId: T:CatchIo.UI.UINavigation
-  fullName: CatchIo.UI.UINavigation
-  nameWithType: UINavigation
-- uid: CatchIo.UI.UINavigation.Awake
-  name: Awake()
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_Awake
-  commentId: M:CatchIo.UI.UINavigation.Awake
-  fullName: CatchIo.UI.UINavigation.Awake()
-  nameWithType: UINavigation.Awake()
-- uid: CatchIo.UI.UINavigation.Awake*
-  name: Awake
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_Awake_
-  commentId: Overload:CatchIo.UI.UINavigation.Awake
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1__ctor_
+  commentId: Overload:CatchIo.UI.UINavigation`1.#ctor
   isSpec: "True"
-  fullName: CatchIo.UI.UINavigation.Awake
-  nameWithType: UINavigation.Awake
-- uid: CatchIo.UI.UINavigation.Pop
+  fullName: CatchIo.UI.UINavigation<T>.UINavigation
+  fullName.vb: CatchIo.UI.UINavigation(Of T).UINavigation
+  nameWithType: UINavigation<T>.UINavigation
+  nameWithType.vb: UINavigation(Of T).UINavigation
+- uid: CatchIo.UI.UINavigation`1.ComparePeakUIView(`0)
+  name: ComparePeakUIView(T)
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_ComparePeakUIView__0_
+  commentId: M:CatchIo.UI.UINavigation`1.ComparePeakUIView(`0)
+  fullName: CatchIo.UI.UINavigation<T>.ComparePeakUIView(T)
+  fullName.vb: CatchIo.UI.UINavigation(Of T).ComparePeakUIView(T)
+  nameWithType: UINavigation<T>.ComparePeakUIView(T)
+  nameWithType.vb: UINavigation(Of T).ComparePeakUIView(T)
+- uid: CatchIo.UI.UINavigation`1.ComparePeakUIView*
+  name: ComparePeakUIView
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_ComparePeakUIView_
+  commentId: Overload:CatchIo.UI.UINavigation`1.ComparePeakUIView
+  isSpec: "True"
+  fullName: CatchIo.UI.UINavigation<T>.ComparePeakUIView
+  fullName.vb: CatchIo.UI.UINavigation(Of T).ComparePeakUIView
+  nameWithType: UINavigation<T>.ComparePeakUIView
+  nameWithType.vb: UINavigation(Of T).ComparePeakUIView
+- uid: CatchIo.UI.UINavigation`1.LoadUiViews(System.String)
+  name: LoadUiViews(String)
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_LoadUiViews_System_String_
+  commentId: M:CatchIo.UI.UINavigation`1.LoadUiViews(System.String)
+  fullName: CatchIo.UI.UINavigation<T>.LoadUiViews(System.String)
+  fullName.vb: CatchIo.UI.UINavigation(Of T).LoadUiViews(System.String)
+  nameWithType: UINavigation<T>.LoadUiViews(String)
+  nameWithType.vb: UINavigation(Of T).LoadUiViews(String)
+- uid: CatchIo.UI.UINavigation`1.LoadUiViews*
+  name: LoadUiViews
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_LoadUiViews_
+  commentId: Overload:CatchIo.UI.UINavigation`1.LoadUiViews
+  isSpec: "True"
+  fullName: CatchIo.UI.UINavigation<T>.LoadUiViews
+  fullName.vb: CatchIo.UI.UINavigation(Of T).LoadUiViews
+  nameWithType: UINavigation<T>.LoadUiViews
+  nameWithType.vb: UINavigation(Of T).LoadUiViews
+- uid: CatchIo.UI.UINavigation`1.Peak
+  name: Peak()
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_Peak
+  commentId: M:CatchIo.UI.UINavigation`1.Peak
+  fullName: CatchIo.UI.UINavigation<T>.Peak()
+  fullName.vb: CatchIo.UI.UINavigation(Of T).Peak()
+  nameWithType: UINavigation<T>.Peak()
+  nameWithType.vb: UINavigation(Of T).Peak()
+- uid: CatchIo.UI.UINavigation`1.Peak*
+  name: Peak
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_Peak_
+  commentId: Overload:CatchIo.UI.UINavigation`1.Peak
+  isSpec: "True"
+  fullName: CatchIo.UI.UINavigation<T>.Peak
+  fullName.vb: CatchIo.UI.UINavigation(Of T).Peak
+  nameWithType: UINavigation<T>.Peak
+  nameWithType.vb: UINavigation(Of T).Peak
+- uid: CatchIo.UI.UINavigation`1.Pop
   name: Pop()
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_Pop
-  commentId: M:CatchIo.UI.UINavigation.Pop
-  fullName: CatchIo.UI.UINavigation.Pop()
-  nameWithType: UINavigation.Pop()
-- uid: CatchIo.UI.UINavigation.Pop*
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_Pop
+  commentId: M:CatchIo.UI.UINavigation`1.Pop
+  fullName: CatchIo.UI.UINavigation<T>.Pop()
+  fullName.vb: CatchIo.UI.UINavigation(Of T).Pop()
+  nameWithType: UINavigation<T>.Pop()
+  nameWithType.vb: UINavigation(Of T).Pop()
+- uid: CatchIo.UI.UINavigation`1.Pop*
   name: Pop
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_Pop_
-  commentId: Overload:CatchIo.UI.UINavigation.Pop
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_Pop_
+  commentId: Overload:CatchIo.UI.UINavigation`1.Pop
   isSpec: "True"
-  fullName: CatchIo.UI.UINavigation.Pop
-  nameWithType: UINavigation.Pop
-- uid: CatchIo.UI.UINavigation.PopAll
+  fullName: CatchIo.UI.UINavigation<T>.Pop
+  fullName.vb: CatchIo.UI.UINavigation(Of T).Pop
+  nameWithType: UINavigation<T>.Pop
+  nameWithType.vb: UINavigation(Of T).Pop
+- uid: CatchIo.UI.UINavigation`1.PopAll
   name: PopAll()
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_PopAll
-  commentId: M:CatchIo.UI.UINavigation.PopAll
-  fullName: CatchIo.UI.UINavigation.PopAll()
-  nameWithType: UINavigation.PopAll()
-- uid: CatchIo.UI.UINavigation.PopAll*
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_PopAll
+  commentId: M:CatchIo.UI.UINavigation`1.PopAll
+  fullName: CatchIo.UI.UINavigation<T>.PopAll()
+  fullName.vb: CatchIo.UI.UINavigation(Of T).PopAll()
+  nameWithType: UINavigation<T>.PopAll()
+  nameWithType.vb: UINavigation(Of T).PopAll()
+- uid: CatchIo.UI.UINavigation`1.PopAll*
   name: PopAll
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_PopAll_
-  commentId: Overload:CatchIo.UI.UINavigation.PopAll
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_PopAll_
+  commentId: Overload:CatchIo.UI.UINavigation`1.PopAll
   isSpec: "True"
-  fullName: CatchIo.UI.UINavigation.PopAll
-  nameWithType: UINavigation.PopAll
-- uid: CatchIo.UI.UINavigation.PopTo(System.String)
-  name: PopTo(String)
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_PopTo_System_String_
-  commentId: M:CatchIo.UI.UINavigation.PopTo(System.String)
-  fullName: CatchIo.UI.UINavigation.PopTo(System.String)
-  nameWithType: UINavigation.PopTo(String)
-- uid: CatchIo.UI.UINavigation.PopTo*
+  fullName: CatchIo.UI.UINavigation<T>.PopAll
+  fullName.vb: CatchIo.UI.UINavigation(Of T).PopAll
+  nameWithType: UINavigation<T>.PopAll
+  nameWithType.vb: UINavigation(Of T).PopAll
+- uid: CatchIo.UI.UINavigation`1.PopTo(`0)
+  name: PopTo(T)
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_PopTo__0_
+  commentId: M:CatchIo.UI.UINavigation`1.PopTo(`0)
+  fullName: CatchIo.UI.UINavigation<T>.PopTo(T)
+  fullName.vb: CatchIo.UI.UINavigation(Of T).PopTo(T)
+  nameWithType: UINavigation<T>.PopTo(T)
+  nameWithType.vb: UINavigation(Of T).PopTo(T)
+- uid: CatchIo.UI.UINavigation`1.PopTo*
   name: PopTo
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_PopTo_
-  commentId: Overload:CatchIo.UI.UINavigation.PopTo
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_PopTo_
+  commentId: Overload:CatchIo.UI.UINavigation`1.PopTo
   isSpec: "True"
-  fullName: CatchIo.UI.UINavigation.PopTo
-  nameWithType: UINavigation.PopTo
-- uid: CatchIo.UI.UINavigation.Push(System.String)
-  name: Push(String)
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_Push_System_String_
-  commentId: M:CatchIo.UI.UINavigation.Push(System.String)
-  fullName: CatchIo.UI.UINavigation.Push(System.String)
-  nameWithType: UINavigation.Push(String)
-- uid: CatchIo.UI.UINavigation.Push*
+  fullName: CatchIo.UI.UINavigation<T>.PopTo
+  fullName.vb: CatchIo.UI.UINavigation(Of T).PopTo
+  nameWithType: UINavigation<T>.PopTo
+  nameWithType.vb: UINavigation(Of T).PopTo
+- uid: CatchIo.UI.UINavigation`1.Push(`0)
+  name: Push(T)
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_Push__0_
+  commentId: M:CatchIo.UI.UINavigation`1.Push(`0)
+  fullName: CatchIo.UI.UINavigation<T>.Push(T)
+  fullName.vb: CatchIo.UI.UINavigation(Of T).Push(T)
+  nameWithType: UINavigation<T>.Push(T)
+  nameWithType.vb: UINavigation(Of T).Push(T)
+- uid: CatchIo.UI.UINavigation`1.Push*
   name: Push
-  href: api/CatchIo.UI.UINavigation.html#CatchIo_UI_UINavigation_Push_
-  commentId: Overload:CatchIo.UI.UINavigation.Push
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_Push_
+  commentId: Overload:CatchIo.UI.UINavigation`1.Push
   isSpec: "True"
-  fullName: CatchIo.UI.UINavigation.Push
-  nameWithType: UINavigation.Push
+  fullName: CatchIo.UI.UINavigation<T>.Push
+  fullName.vb: CatchIo.UI.UINavigation(Of T).Push
+  nameWithType: UINavigation<T>.Push
+  nameWithType.vb: UINavigation(Of T).Push
+- uid: CatchIo.UI.UINavigation`1.UIViews
+  name: UIViews
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_UIViews
+  commentId: P:CatchIo.UI.UINavigation`1.UIViews
+  fullName: CatchIo.UI.UINavigation<T>.UIViews
+  fullName.vb: CatchIo.UI.UINavigation(Of T).UIViews
+  nameWithType: UINavigation<T>.UIViews
+  nameWithType.vb: UINavigation(Of T).UIViews
+- uid: CatchIo.UI.UINavigation`1.UIViews*
+  name: UIViews
+  href: api/CatchIo.UI.UINavigation-1.html#CatchIo_UI_UINavigation_1_UIViews_
+  commentId: Overload:CatchIo.UI.UINavigation`1.UIViews
+  isSpec: "True"
+  fullName: CatchIo.UI.UINavigation<T>.UIViews
+  fullName.vb: CatchIo.UI.UINavigation(Of T).UIViews
+  nameWithType: UINavigation<T>.UIViews
+  nameWithType.vb: UINavigation(Of T).UIViews
+- uid: CatchIo.UI.UINavigationContext`1
+  name: UINavigationContext<T>
+  href: api/CatchIo.UI.UINavigationContext-1.html
+  commentId: T:CatchIo.UI.UINavigationContext`1
+  name.vb: UINavigationContext(Of T)
+  fullName: CatchIo.UI.UINavigationContext<T>
+  fullName.vb: CatchIo.UI.UINavigationContext(Of T)
+  nameWithType: UINavigationContext<T>
+  nameWithType.vb: UINavigationContext(Of T)
+- uid: CatchIo.UI.UINavigationContext`1.#ctor(CatchIo.UI.UINavigation{`0})
+  name: UINavigationContext(UINavigation<T>)
+  href: api/CatchIo.UI.UINavigationContext-1.html#CatchIo_UI_UINavigationContext_1__ctor_CatchIo_UI_UINavigation__0__
+  commentId: M:CatchIo.UI.UINavigationContext`1.#ctor(CatchIo.UI.UINavigation{`0})
+  name.vb: UINavigationContext(UINavigation(Of T))
+  fullName: CatchIo.UI.UINavigationContext<T>.UINavigationContext(CatchIo.UI.UINavigation<T>)
+  fullName.vb: CatchIo.UI.UINavigationContext(Of T).UINavigationContext(CatchIo.UI.UINavigation(Of T))
+  nameWithType: UINavigationContext<T>.UINavigationContext(UINavigation<T>)
+  nameWithType.vb: UINavigationContext(Of T).UINavigationContext(UINavigation(Of T))
+- uid: CatchIo.UI.UINavigationContext`1.#ctor*
+  name: UINavigationContext
+  href: api/CatchIo.UI.UINavigationContext-1.html#CatchIo_UI_UINavigationContext_1__ctor_
+  commentId: Overload:CatchIo.UI.UINavigationContext`1.#ctor
+  isSpec: "True"
+  fullName: CatchIo.UI.UINavigationContext<T>.UINavigationContext
+  fullName.vb: CatchIo.UI.UINavigationContext(Of T).UINavigationContext
+  nameWithType: UINavigationContext<T>.UINavigationContext
+  nameWithType.vb: UINavigationContext(Of T).UINavigationContext
+- uid: CatchIo.UI.UINavigationContext`1.UINavigation
+  name: UINavigation
+  href: api/CatchIo.UI.UINavigationContext-1.html#CatchIo_UI_UINavigationContext_1_UINavigation
+  commentId: F:CatchIo.UI.UINavigationContext`1.UINavigation
+  fullName: CatchIo.UI.UINavigationContext<T>.UINavigation
+  fullName.vb: CatchIo.UI.UINavigationContext(Of T).UINavigation
+  nameWithType: UINavigationContext<T>.UINavigation
+  nameWithType.vb: UINavigationContext(Of T).UINavigation
+- uid: CatchIo.UI.UIWindowFormat
+  name: UIWindowFormat
+  href: api/CatchIo.UI.UIWindowFormat.html
+  commentId: T:CatchIo.UI.UIWindowFormat
+  fullName: CatchIo.UI.UIWindowFormat
+  nameWithType: UIWindowFormat
+- uid: CatchIo.UI.UIWindowFormat.UIWindowEnumFormat
+  name: UIWindowEnumFormat
+  href: api/CatchIo.UI.UIWindowFormat.html#CatchIo_UI_UIWindowFormat_UIWindowEnumFormat
+  commentId: F:CatchIo.UI.UIWindowFormat.UIWindowEnumFormat
+  fullName: CatchIo.UI.UIWindowFormat.UIWindowEnumFormat
+  nameWithType: UIWindowFormat.UIWindowEnumFormat
+- uid: CatchIo.UI.UIWindowFormat.UIWindowTypeFileFormat
+  name: UIWindowTypeFileFormat
+  href: api/CatchIo.UI.UIWindowFormat.html#CatchIo_UI_UIWindowFormat_UIWindowTypeFileFormat
+  commentId: F:CatchIo.UI.UIWindowFormat.UIWindowTypeFileFormat
+  fullName: CatchIo.UI.UIWindowFormat.UIWindowTypeFileFormat
+  nameWithType: UIWindowFormat.UIWindowTypeFileFormat
 - uid: CatchIo.Util
   name: CatchIo.Util
   href: api/CatchIo.Util.html
