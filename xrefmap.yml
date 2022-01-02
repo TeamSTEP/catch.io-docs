@@ -1,6 +1,12 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: CatchIo
+  name: CatchIo
+  href: api/CatchIo.html
+  commentId: N:CatchIo
+  fullName: CatchIo
+  nameWithType: CatchIo
 - uid: CatchIo.Camera
   name: CatchIo.Camera
   href: api/CatchIo.Camera.html
@@ -70,6 +76,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Camera.GameCamera.SetupCamera
   nameWithType: GameCamera.SetupCamera
+- uid: CatchIo.Camera.LobbyCamera
+  name: LobbyCamera
+  href: api/CatchIo.Camera.LobbyCamera.html
+  commentId: T:CatchIo.Camera.LobbyCamera
+  fullName: CatchIo.Camera.LobbyCamera
+  nameWithType: LobbyCamera
+- uid: CatchIo.Camera.LobbyCamera.Camera
+  name: Camera
+  href: api/CatchIo.Camera.LobbyCamera.html#CatchIo_Camera_LobbyCamera_Camera
+  commentId: P:CatchIo.Camera.LobbyCamera.Camera
+  fullName: CatchIo.Camera.LobbyCamera.Camera
+  nameWithType: LobbyCamera.Camera
+- uid: CatchIo.Camera.LobbyCamera.Camera*
+  name: Camera
+  href: api/CatchIo.Camera.LobbyCamera.html#CatchIo_Camera_LobbyCamera_Camera_
+  commentId: Overload:CatchIo.Camera.LobbyCamera.Camera
+  isSpec: "True"
+  fullName: CatchIo.Camera.LobbyCamera.Camera
+  nameWithType: LobbyCamera.Camera
+- uid: CatchIo.Camera.LobbyCamera.SetupCamera
+  name: SetupCamera()
+  href: api/CatchIo.Camera.LobbyCamera.html#CatchIo_Camera_LobbyCamera_SetupCamera
+  commentId: M:CatchIo.Camera.LobbyCamera.SetupCamera
+  fullName: CatchIo.Camera.LobbyCamera.SetupCamera()
+  nameWithType: LobbyCamera.SetupCamera()
+- uid: CatchIo.Camera.LobbyCamera.SetupCamera*
+  name: SetupCamera
+  href: api/CatchIo.Camera.LobbyCamera.html#CatchIo_Camera_LobbyCamera_SetupCamera_
+  commentId: Overload:CatchIo.Camera.LobbyCamera.SetupCamera
+  isSpec: "True"
+  fullName: CatchIo.Camera.LobbyCamera.SetupCamera
+  nameWithType: LobbyCamera.SetupCamera
 - uid: CatchIo.Core
   name: CatchIo.Core
   href: api/CatchIo.Core.html
@@ -1870,6 +1908,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.UpdateProjectilePhysic
   nameWithType: ThrowableItem.UpdateProjectilePhysic
+- uid: CatchIo.LobbyManager
+  name: LobbyManager
+  href: api/CatchIo.LobbyManager.html
+  commentId: T:CatchIo.LobbyManager
+  fullName: CatchIo.LobbyManager
+  nameWithType: LobbyManager
 - uid: CatchIo.Managers
   name: CatchIo.Managers
   href: api/CatchIo.Managers.html
@@ -7309,6 +7353,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Util.SceneControl.GetCurrentSceneName
   nameWithType: SceneControl.GetCurrentSceneName
+- uid: CatchIo.Util.SceneControl.GetPreviousSceneName
+  name: GetPreviousSceneName()
+  href: api/CatchIo.Util.SceneControl.html#CatchIo_Util_SceneControl_GetPreviousSceneName
+  commentId: M:CatchIo.Util.SceneControl.GetPreviousSceneName
+  fullName: CatchIo.Util.SceneControl.GetPreviousSceneName()
+  nameWithType: SceneControl.GetPreviousSceneName()
+- uid: CatchIo.Util.SceneControl.GetPreviousSceneName*
+  name: GetPreviousSceneName
+  href: api/CatchIo.Util.SceneControl.html#CatchIo_Util_SceneControl_GetPreviousSceneName_
+  commentId: Overload:CatchIo.Util.SceneControl.GetPreviousSceneName
+  isSpec: "True"
+  fullName: CatchIo.Util.SceneControl.GetPreviousSceneName
+  nameWithType: SceneControl.GetPreviousSceneName
 - uid: CatchIo.Util.SceneControl.IsSceneCurrentlyLoaded(System.String)
   name: IsSceneCurrentlyLoaded(String)
   href: api/CatchIo.Util.SceneControl.html#CatchIo_Util_SceneControl_IsSceneCurrentlyLoaded_System_String_

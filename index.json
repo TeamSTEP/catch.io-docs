@@ -12,7 +12,12 @@
   "api/CatchIo.Camera.html": {
     "href": "api/CatchIo.Camera.html",
     "title": "Namespace CatchIo.Camera | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Camera Classes CameraTargetMovement Camera movement logic to make view transition smooth. This object should be a child of the main camera object. GameCamera The main camera class for in-game camera movements. By passing the player object as its member, this object will initialize all the camera setup and follow the provided player. There should only be one instance of this object per scene."
+    "keywords": "Namespace CatchIo.Camera Classes CameraTargetMovement Camera movement logic to make view transition smooth. This object should be a child of the main camera object. GameCamera The main camera class for in-game camera movements. By passing the player object as its member, this object will initialize all the camera setup and follow the provided player. There should only be one instance of this object per scene. LobbyCamera"
+  },
+  "api/CatchIo.Camera.LobbyCamera.html": {
+    "href": "api/CatchIo.Camera.LobbyCamera.html",
+    "title": "Class LobbyCamera | Catch.io Developer Reference",
+    "keywords": "Class LobbyCamera Inheritance Object LobbyCamera Namespace : CatchIo.Camera Assembly : cs.temp.dll.dll Syntax public class LobbyCamera : MonoBehaviour Properties Camera Declaration public UnityEngine.Camera Camera { get; } Property Value Type Description UnityEngine.Camera Methods SetupCamera() Basically this SetupCamera function is simmilar with the GameCamera.cs Declaration public void SetupCamera()"
   },
   "api/CatchIo.Core.GuiBehavior.html": {
     "href": "api/CatchIo.Core.GuiBehavior.html",
@@ -144,6 +149,11 @@
     "title": "Class UserInputHelper | Catch.io Developer Reference",
     "keywords": "Class UserInputHelper Inheritance Object UserInputHelper Namespace : CatchIo.Helpers Assembly : cs.temp.dll.dll Syntax public static class UserInputHelper Methods GetAimModeButtonInput() Declaration public static bool GetAimModeButtonInput() Returns Type Description Boolean GetAttackInput() Declaration public static bool GetAttackInput() Returns Type Description Boolean GetCrouchingButtonInput() Declaration public static bool GetCrouchingButtonInput() Returns Type Description Boolean GetItemConsumeButton() Declaration public static bool GetItemConsumeButton() Returns Type Description Boolean GetItemSelectInput() Declaration public static int GetItemSelectInput() Returns Type Description Int32 GetItemThrowButton() Declaration public static bool GetItemThrowButton() Returns Type Description Boolean GetMousePosition() Declaration public static Vector2 GetMousePosition() Returns Type Description Vector2 GetMovementDirectionInput() Declaration public static Vector2 GetMovementDirectionInput() Returns Type Description Vector2 GetRunningButtonInput() Declaration public static bool GetRunningButtonInput() Returns Type Description Boolean"
   },
+  "api/CatchIo.html": {
+    "href": "api/CatchIo.html",
+    "title": "Namespace CatchIo | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo Classes LobbyManager"
+  },
   "api/CatchIo.Items.ConsumableItem.html": {
     "href": "api/CatchIo.Items.ConsumableItem.html",
     "title": "Class ConsumableItem | Catch.io Developer Reference",
@@ -188,6 +198,11 @@
     "href": "api/CatchIo.Items.ThrowableItem.html",
     "title": "Class ThrowableItem | Catch.io Developer Reference",
     "keywords": "Class ThrowableItem Base class for all throwable items. If player throwed this object, it will be placed to mouse-position. Inheritance Object Item ThrowableItem EvasiveThrowableItem OffensiveThrowableItem Implements IThrowable Inherited Members Item.Owner Item.Sprite Item.OnDiscard() Item.CanPickup() Namespace : CatchIo.Items Assembly : cs.temp.dll.dll Syntax public abstract class ThrowableItem : Item, IThrowable Fields CurrentTrajectoryArc Declaration protected TrajectoryArc CurrentTrajectoryArc Field Value Type Description TrajectoryArc GravityMultiplier Declaration protected const float GravityMultiplier = -18F Field Value Type Description Single HasLanded Declaration protected bool HasLanded Field Value Type Description Boolean Rigid2D Declaration protected Rigidbody2D Rigid2D Field Value Type Description Rigidbody2D Properties IsOnFloor Declaration public bool IsOnFloor { get; } Property Value Type Description Boolean TrajectoryPath Declaration public Vector3[] TrajectoryPath { get; } Property Value Type Description Vector3 [] Methods FixedUpdate() Declaration protected virtual void FixedUpdate() GetPeakHeight() Declaration protected float GetPeakHeight() Returns Type Description Single OnBeforeThrow(Vector2, Vector2) Declaration public virtual void OnBeforeThrow(Vector2 throwPos, Vector2 targetPos) Parameters Type Name Description Vector2 throwPos Vector2 targetPos OnLanded() Declaration public virtual void OnLanded() OnPickup(Character) Declaration public override void OnPickup(Character owner) Parameters Type Name Description Character owner Overrides Item.OnPickup(Character) OnThrow() Declaration public virtual void OnThrow() Start() Declaration protected override void Start() Overrides Item.Start() UpdateProjectilePhysic(Vector2, Vector2, Single, Single) Declaration public virtual void UpdateProjectilePhysic(Vector2 throwPos, Vector2 targetPos, float throwRadius, float maxThrowHeight) Parameters Type Name Description Vector2 throwPos Vector2 targetPos Single throwRadius Single maxThrowHeight Implements IThrowable"
+  },
+  "api/CatchIo.LobbyManager.html": {
+    "href": "api/CatchIo.LobbyManager.html",
+    "title": "Class LobbyManager | Catch.io Developer Reference",
+    "keywords": "Class LobbyManager Inheritance Object LobbyManager Namespace : CatchIo Assembly : cs.temp.dll.dll Syntax public class LobbyManager : MonoBehaviour"
   },
   "api/CatchIo.Managers.GameManager.html": {
     "href": "api/CatchIo.Managers.GameManager.html",
@@ -552,7 +567,7 @@
   "api/CatchIo.Util.SceneControl.html": {
     "href": "api/CatchIo.Util.SceneControl.html",
     "title": "Class SceneControl | Catch.io Developer Reference",
-    "keywords": "Class SceneControl Inheritance Object SceneControl Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class SceneControl Methods GetCurrentSceneName() Declaration public static string GetCurrentSceneName() Returns Type Description String IsSceneCurrentlyLoaded(String) Declaration public static bool IsSceneCurrentlyLoaded(string sceneName) Parameters Type Name Description String sceneName Returns Type Description Boolean Load(Int32, LoadSceneMode) Synchronous SceneManager.LoadScene() wrapper Declaration public static void Load(int sceneIndex, LoadSceneMode mode = null) Parameters Type Name Description Int32 sceneIndex LoadSceneMode mode Load(String, LoadSceneMode) Declaration public static void Load(string sceneName, LoadSceneMode mode = null) Parameters Type Name Description String sceneName LoadSceneMode mode LoadAsync(String, LoadSceneMode) Declaration public static UnityEngine.AsyncOperation LoadAsync(string sceneName, LoadSceneMode mode = null) Parameters Type Name Description String sceneName LoadSceneMode mode Returns Type Description UnityEngine.AsyncOperation UnloadAdditiveScene(String) Declaration public static UnityEngine.AsyncOperation UnloadAdditiveScene(string sceneName) Parameters Type Name Description String sceneName Returns Type Description UnityEngine.AsyncOperation"
+    "keywords": "Class SceneControl Inheritance Object SceneControl Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public static class SceneControl Methods GetCurrentSceneName() Declaration public static string GetCurrentSceneName() Returns Type Description String GetPreviousSceneName() Declaration public static string GetPreviousSceneName() Returns Type Description String IsSceneCurrentlyLoaded(String) Declaration public static bool IsSceneCurrentlyLoaded(string sceneName) Parameters Type Name Description String sceneName Returns Type Description Boolean Load(Int32, LoadSceneMode) Synchronous SceneManager.LoadScene() wrapper Declaration public static void Load(int sceneIndex, LoadSceneMode mode = null) Parameters Type Name Description Int32 sceneIndex LoadSceneMode mode Load(String, LoadSceneMode) Declaration public static void Load(string sceneName, LoadSceneMode mode = null) Parameters Type Name Description String sceneName LoadSceneMode mode LoadAsync(String, LoadSceneMode) Declaration public static UnityEngine.AsyncOperation LoadAsync(string sceneName, LoadSceneMode mode = null) Parameters Type Name Description String sceneName LoadSceneMode mode Returns Type Description UnityEngine.AsyncOperation UnloadAdditiveScene(String) Declaration public static UnityEngine.AsyncOperation UnloadAdditiveScene(string sceneName) Parameters Type Name Description String sceneName Returns Type Description UnityEngine.AsyncOperation"
   },
   "api/CatchIo.Util.Singleton-1.html": {
     "href": "api/CatchIo.Util.Singleton-1.html",

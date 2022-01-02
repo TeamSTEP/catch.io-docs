@@ -48,11 +48,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Camera.LobbyCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Camera.LobbyCamera.html",
+          "hash": "e7QIMpaOph3g60S6sLyy3ac08bNUafuPdb3FwWAXBsY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Camera.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Camera.html",
-          "hash": "eyMrSVauv6JM/wFE7gTt24lnTAyw1ZqZTFHKjEYIits="
+          "hash": "uXQbg+jbVCc7vIUK8+PTIesYZcOf84imjLIEYod5IKo="
         }
       },
       "is_incremental": false,
@@ -473,6 +485,18 @@
         ".html": {
           "relative_path": "api/CatchIo.Items.html",
           "hash": "6ZFyuanYIziiQmMhnvOf2nmZ7zn8SANQkRntIwCJlI0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.LobbyManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.LobbyManager.html",
+          "hash": "YS7ZuD6D9noj89pLKLmKTNIAl2mg40Yj+1hdvCrYoc4="
         }
       },
       "is_incremental": false,
@@ -1336,7 +1360,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Util.SceneControl.html",
-          "hash": "Rm/3lTQSb9X9JedPZYeXXtHkr4BoWM0gMJHSxp3sRNs="
+          "hash": "WKKSZYHYKxCku5Ou948qbAjsoLa+AI6GwN4K+BvQ8CU="
         }
       },
       "is_incremental": false,
@@ -1379,12 +1403,24 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.html",
+          "hash": "Wn/jVzY1ZOC2+dZ/+j8BjDf3lyJQY+lkGxRzHbb8dLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "FXqvoDNHjzligb8B7Gls1MHt9fSDz6eW9Yx8FY6zYc4="
+          "hash": "8XgUp3AZtg28yBiHQsdDQfMWtQeNoIO1B+0kSSpNR+0="
         }
       },
       "is_incremental": false,
@@ -1769,7 +1805,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "fMjHwGi+l9UkP+LpX0I9y3sJx0gZTe891Qx1SuZjh/U="
+          "hash": "WUZGGr3rkLetH5hyq9HE9p57KePbnr63YWJXPaYH9AM="
         }
       },
       "is_incremental": false,
@@ -1796,7 +1832,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 113,
+          "total_file_count": 116,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
