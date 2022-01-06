@@ -6,7 +6,7 @@ Witch One will require multiple talents working together in order to ship. Ideal
 
 ### Project Anatomy
 
-![Rough project anatomy with work packages](<.gitbook/assets/Witch One Project Anatomy.jpg>)
+![Project anatomy for Witch One](<.gitbook/assets/Witch One Project Anatomy.jpg>)
 
 ### Required Skills
 
