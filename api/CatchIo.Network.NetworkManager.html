@@ -268,6 +268,30 @@
   </table>
   
   
+  <h4 id="CatchIo_Network_NetworkManager_EnteredGameSession" data-uid="CatchIo.Network.NetworkManager.EnteredGameSession">EnteredGameSession</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool EnteredGameSession</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="CatchIo_Network_NetworkManager_IsLog" data-uid="CatchIo.Network.NetworkManager.IsLog">IsLog</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -801,7 +825,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Action s_onLoadedGameScene</code></pre>
+    <pre><code class="lang-csharp hljs">public static Action&lt;int&gt; s_onLoadedGameScene</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -813,7 +837,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -934,6 +958,30 @@
     <tbody>
       <tr>
         <td><span class="xref">Action</span>&lt;<span class="xref">Player</span>, <span class="xref">Hashtable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_NetworkManager_s_onQuitGameSession" data-uid="CatchIo.Network.NetworkManager.s_onQuitGameSession">s_onQuitGameSession</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action s_onQuitGameSession</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1922,23 +1970,40 @@
   </table>
   
   
-  <a id="CatchIo_Network_NetworkManager_RPC_LoadGameWindow_" data-uid="CatchIo.Network.NetworkManager.RPC_LoadGameWindow*"></a>
-  <h4 id="CatchIo_Network_NetworkManager_RPC_LoadGameWindow" data-uid="CatchIo.Network.NetworkManager.RPC_LoadGameWindow">RPC_LoadGameWindow()</h4>
+  <a id="CatchIo_Network_NetworkManager_RPC_LoadedGameSession_" data-uid="CatchIo.Network.NetworkManager.RPC_LoadedGameSession*"></a>
+  <h4 id="CatchIo_Network_NetworkManager_RPC_LoadedGameSession_System_Int32_" data-uid="CatchIo.Network.NetworkManager.RPC_LoadedGameSession(System.Int32)">RPC_LoadedGameSession(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_LoadGameWindow()</code></pre>
+    <pre><code class="lang-csharp hljs">public void RPC_LoadedGameSession(int spawnPointId)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">spawnPointId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="CatchIo_Network_NetworkManager_RPC_LoadLoadingWindow_" data-uid="CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow*"></a>
-  <h4 id="CatchIo_Network_NetworkManager_RPC_LoadLoadingWindow" data-uid="CatchIo.Network.NetworkManager.RPC_LoadLoadingWindow">RPC_LoadLoadingWindow()</h4>
+  <a id="CatchIo_Network_NetworkManager_RPC_LoadGameSession_" data-uid="CatchIo.Network.NetworkManager.RPC_LoadGameSession*"></a>
+  <h4 id="CatchIo_Network_NetworkManager_RPC_LoadGameSession" data-uid="CatchIo.Network.NetworkManager.RPC_LoadGameSession">RPC_LoadGameSession()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_LoadLoadingWindow()</code></pre>
+    <pre><code class="lang-csharp hljs">public void RPC_LoadGameSession()</code></pre>
   </div>
   
   
