@@ -108,6 +108,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Destructible.TrapObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Destructible.TrapObject.html",
+          "hash": "cTlmgrFsbObLDhy6giQ7uPeqlgau36Fs9HfrNuPB4Hk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Destructible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Destructible.html",
+          "hash": "3Vpj5uVXceJzLYzwsf1ohHlEWJoJhh8FyY9LgaCipKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Effects.DisappearEffect.yml",
       "output": {
         ".html": {
@@ -424,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.EvasiveThrowableItem.html",
-          "hash": "qYMPB4QThi+XsV9IMJ7RXHFmqGECMGIYRP2YgTZFn88="
+          "hash": "yCWrBsgCkHXsoapInohGZ5bWydzwzwRMwaFxUc4wRew="
         }
       },
       "is_incremental": false,
@@ -504,11 +528,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Items.TrapRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Items.TrapRune.html",
+          "hash": "1ZC4JIDUefeT0O99qZDCbviQdAme5pw+LLdf/qSSDw0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Items.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.html",
-          "hash": "6ZFyuanYIziiQmMhnvOf2nmZ7zn8SANQkRntIwCJlI0="
+          "hash": "hlPGKNEZ2gW1NY/O6it55YHzT08iUJqOCj0PGACTyX8="
         }
       },
       "is_incremental": false,
@@ -676,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.Character.html",
-          "hash": "RLPXH5V5DjALqCwl6NIYoBFnFcbt6t41+s+9sxV3XAQ="
+          "hash": "M262EYd2vx5v9C6w00Jy3zz3lw9d+VoLlWgS9xJOrYk="
         }
       },
       "is_incremental": false,
@@ -892,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.TestCharacter.html",
-          "hash": "pqZjwOoSH4XAVQVCppBrhTjU3+MP0vXE5H08E3s13zc="
+          "hash": "aABHL4flDIpmY16kdPhnsEKATC/2SFOYcJdf8Xg5G1g="
         }
       },
       "is_incremental": false,
@@ -1432,7 +1468,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "nJlL9ny0iJVyKeOIJ9/z9dRwrqnJSDEP4k+DM8qbPa4="
+          "hash": "AXM9NOZDiM8CZfwZ7ozmYnZcq3yhBMY97XL9UtrAmPE="
         }
       },
       "is_incremental": false,
@@ -1844,7 +1880,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 117,
+          "total_file_count": 120,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

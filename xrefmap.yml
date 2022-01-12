@@ -165,6 +165,70 @@ references:
   isSpec: "True"
   fullName: CatchIo.Core.NetworkCallback.OnJoinRoomFailed
   nameWithType: NetworkCallback.OnJoinRoomFailed
+- uid: CatchIo.Destructible
+  name: CatchIo.Destructible
+  href: api/CatchIo.Destructible.html
+  commentId: N:CatchIo.Destructible
+  fullName: CatchIo.Destructible
+  nameWithType: CatchIo.Destructible
+- uid: CatchIo.Destructible.TrapObject
+  name: TrapObject
+  href: api/CatchIo.Destructible.TrapObject.html
+  commentId: T:CatchIo.Destructible.TrapObject
+  fullName: CatchIo.Destructible.TrapObject
+  nameWithType: TrapObject
+- uid: CatchIo.Destructible.TrapObject.HealthVal
+  name: HealthVal
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_HealthVal
+  commentId: P:CatchIo.Destructible.TrapObject.HealthVal
+  fullName: CatchIo.Destructible.TrapObject.HealthVal
+  nameWithType: TrapObject.HealthVal
+- uid: CatchIo.Destructible.TrapObject.HealthVal*
+  name: HealthVal
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_HealthVal_
+  commentId: Overload:CatchIo.Destructible.TrapObject.HealthVal
+  isSpec: "True"
+  fullName: CatchIo.Destructible.TrapObject.HealthVal
+  nameWithType: TrapObject.HealthVal
+- uid: CatchIo.Destructible.TrapObject.OnDamage(Character,System.Single)
+  name: OnDamage(Character, Single)
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_OnDamage_Character_System_Single_
+  commentId: M:CatchIo.Destructible.TrapObject.OnDamage(Character,System.Single)
+  fullName: CatchIo.Destructible.TrapObject.OnDamage(Character, System.Single)
+  nameWithType: TrapObject.OnDamage(Character, Single)
+- uid: CatchIo.Destructible.TrapObject.OnDamage*
+  name: OnDamage
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_OnDamage_
+  commentId: Overload:CatchIo.Destructible.TrapObject.OnDamage
+  isSpec: "True"
+  fullName: CatchIo.Destructible.TrapObject.OnDamage
+  nameWithType: TrapObject.OnDamage
+- uid: CatchIo.Destructible.TrapObject.RPC_TakeDamage(System.Single)
+  name: RPC_TakeDamage(Single)
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_RPC_TakeDamage_System_Single_
+  commentId: M:CatchIo.Destructible.TrapObject.RPC_TakeDamage(System.Single)
+  fullName: CatchIo.Destructible.TrapObject.RPC_TakeDamage(System.Single)
+  nameWithType: TrapObject.RPC_TakeDamage(Single)
+- uid: CatchIo.Destructible.TrapObject.RPC_TakeDamage*
+  name: RPC_TakeDamage
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_RPC_TakeDamage_
+  commentId: Overload:CatchIo.Destructible.TrapObject.RPC_TakeDamage
+  isSpec: "True"
+  fullName: CatchIo.Destructible.TrapObject.RPC_TakeDamage
+  nameWithType: TrapObject.RPC_TakeDamage
+- uid: CatchIo.Destructible.TrapObject.TakeDamage(System.Single)
+  name: TakeDamage(Single)
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_TakeDamage_System_Single_
+  commentId: M:CatchIo.Destructible.TrapObject.TakeDamage(System.Single)
+  fullName: CatchIo.Destructible.TrapObject.TakeDamage(System.Single)
+  nameWithType: TrapObject.TakeDamage(Single)
+- uid: CatchIo.Destructible.TrapObject.TakeDamage*
+  name: TakeDamage
+  href: api/CatchIo.Destructible.TrapObject.html#CatchIo_Destructible_TrapObject_TakeDamage_
+  commentId: Overload:CatchIo.Destructible.TrapObject.TakeDamage
+  isSpec: "True"
+  fullName: CatchIo.Destructible.TrapObject.TakeDamage
+  nameWithType: TrapObject.TakeDamage
 - uid: CatchIo.Effects
   name: CatchIo.Effects
   href: api/CatchIo.Effects.html
@@ -2018,6 +2082,122 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.UpdateProjectilePhysic
   nameWithType: ThrowableItem.UpdateProjectilePhysic
+- uid: CatchIo.Items.TrapRune
+  name: TrapRune
+  href: api/CatchIo.Items.TrapRune.html
+  commentId: T:CatchIo.Items.TrapRune
+  fullName: CatchIo.Items.TrapRune
+  nameWithType: TrapRune
+- uid: CatchIo.Items.TrapRune.CanPickup
+  name: CanPickup()
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_CanPickup
+  commentId: M:CatchIo.Items.TrapRune.CanPickup
+  fullName: CatchIo.Items.TrapRune.CanPickup()
+  nameWithType: TrapRune.CanPickup()
+- uid: CatchIo.Items.TrapRune.CanPickup*
+  name: CanPickup
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_CanPickup_
+  commentId: Overload:CatchIo.Items.TrapRune.CanPickup
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.CanPickup
+  nameWithType: TrapRune.CanPickup
+- uid: CatchIo.Items.TrapRune.FixedUpdate
+  name: FixedUpdate()
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_FixedUpdate
+  commentId: M:CatchIo.Items.TrapRune.FixedUpdate
+  fullName: CatchIo.Items.TrapRune.FixedUpdate()
+  nameWithType: TrapRune.FixedUpdate()
+- uid: CatchIo.Items.TrapRune.FixedUpdate*
+  name: FixedUpdate
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_FixedUpdate_
+  commentId: Overload:CatchIo.Items.TrapRune.FixedUpdate
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.FixedUpdate
+  nameWithType: TrapRune.FixedUpdate
+- uid: CatchIo.Items.TrapRune.OnBeforeThrow(Vector2,Vector2)
+  name: OnBeforeThrow(Vector2, Vector2)
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnBeforeThrow_Vector2_Vector2_
+  commentId: M:CatchIo.Items.TrapRune.OnBeforeThrow(Vector2,Vector2)
+  fullName: CatchIo.Items.TrapRune.OnBeforeThrow(Vector2, Vector2)
+  nameWithType: TrapRune.OnBeforeThrow(Vector2, Vector2)
+- uid: CatchIo.Items.TrapRune.OnBeforeThrow*
+  name: OnBeforeThrow
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnBeforeThrow_
+  commentId: Overload:CatchIo.Items.TrapRune.OnBeforeThrow
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.OnBeforeThrow
+  nameWithType: TrapRune.OnBeforeThrow
+- uid: CatchIo.Items.TrapRune.OnDiscard
+  name: OnDiscard()
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnDiscard
+  commentId: M:CatchIo.Items.TrapRune.OnDiscard
+  fullName: CatchIo.Items.TrapRune.OnDiscard()
+  nameWithType: TrapRune.OnDiscard()
+- uid: CatchIo.Items.TrapRune.OnDiscard*
+  name: OnDiscard
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnDiscard_
+  commentId: Overload:CatchIo.Items.TrapRune.OnDiscard
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.OnDiscard
+  nameWithType: TrapRune.OnDiscard
+- uid: CatchIo.Items.TrapRune.OnLanded
+  name: OnLanded()
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnLanded
+  commentId: M:CatchIo.Items.TrapRune.OnLanded
+  fullName: CatchIo.Items.TrapRune.OnLanded()
+  nameWithType: TrapRune.OnLanded()
+- uid: CatchIo.Items.TrapRune.OnLanded*
+  name: OnLanded
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnLanded_
+  commentId: Overload:CatchIo.Items.TrapRune.OnLanded
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.OnLanded
+  nameWithType: TrapRune.OnLanded
+- uid: CatchIo.Items.TrapRune.OnPickup(Character)
+  name: OnPickup(Character)
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnPickup_Character_
+  commentId: M:CatchIo.Items.TrapRune.OnPickup(Character)
+  fullName: CatchIo.Items.TrapRune.OnPickup(Character)
+  nameWithType: TrapRune.OnPickup(Character)
+- uid: CatchIo.Items.TrapRune.OnPickup*
+  name: OnPickup
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnPickup_
+  commentId: Overload:CatchIo.Items.TrapRune.OnPickup
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.OnPickup
+  nameWithType: TrapRune.OnPickup
+- uid: CatchIo.Items.TrapRune.OnThrow
+  name: OnThrow()
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnThrow
+  commentId: M:CatchIo.Items.TrapRune.OnThrow
+  fullName: CatchIo.Items.TrapRune.OnThrow()
+  nameWithType: TrapRune.OnThrow()
+- uid: CatchIo.Items.TrapRune.OnThrow*
+  name: OnThrow
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnThrow_
+  commentId: Overload:CatchIo.Items.TrapRune.OnThrow
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.OnThrow
+  nameWithType: TrapRune.OnThrow
+- uid: CatchIo.Items.TrapRune.Start
+  name: Start()
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_Start
+  commentId: M:CatchIo.Items.TrapRune.Start
+  fullName: CatchIo.Items.TrapRune.Start()
+  nameWithType: TrapRune.Start()
+- uid: CatchIo.Items.TrapRune.Start*
+  name: Start
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_Start_
+  commentId: Overload:CatchIo.Items.TrapRune.Start
+  isSpec: "True"
+  fullName: CatchIo.Items.TrapRune.Start
+  nameWithType: TrapRune.Start
+- uid: CatchIo.Items.TrapRune.TrapObjectPrefab
+  name: TrapObjectPrefab
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_TrapObjectPrefab
+  commentId: F:CatchIo.Items.TrapRune.TrapObjectPrefab
+  fullName: CatchIo.Items.TrapRune.TrapObjectPrefab
+  nameWithType: TrapRune.TrapObjectPrefab
 - uid: CatchIo.Managers
   name: CatchIo.Managers
   href: api/CatchIo.Managers.html
@@ -3601,6 +3781,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave
   nameWithType: Character.RPC_GenerateSoundWave
+- uid: CatchIo.PlayerCharacter.Character.RPC_PickupItem(System.Int32)
+  name: RPC_PickupItem(Int32)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_PickupItem_System_Int32_
+  commentId: M:CatchIo.PlayerCharacter.Character.RPC_PickupItem(System.Int32)
+  fullName: CatchIo.PlayerCharacter.Character.RPC_PickupItem(System.Int32)
+  nameWithType: Character.RPC_PickupItem(Int32)
+- uid: CatchIo.PlayerCharacter.Character.RPC_PickupItem*
+  name: RPC_PickupItem
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_PickupItem_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_PickupItem
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.RPC_PickupItem
+  nameWithType: Character.RPC_PickupItem
 - uid: CatchIo.PlayerCharacter.Character.RPC_SetCharacterNickName(System.String)
   name: RPC_SetCharacterNickName(String)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_SetCharacterNickName_System_String_
@@ -3640,6 +3833,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.RPC_TakeDamage
   nameWithType: Character.RPC_TakeDamage
+- uid: CatchIo.PlayerCharacter.Character.RPC_ThrowItem(System.Int32,Vector2,Vector2)
+  name: RPC_ThrowItem(Int32, Vector2, Vector2)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_ThrowItem_System_Int32_Vector2_Vector2_
+  commentId: M:CatchIo.PlayerCharacter.Character.RPC_ThrowItem(System.Int32,Vector2,Vector2)
+  fullName: CatchIo.PlayerCharacter.Character.RPC_ThrowItem(System.Int32, Vector2, Vector2)
+  nameWithType: Character.RPC_ThrowItem(Int32, Vector2, Vector2)
+- uid: CatchIo.PlayerCharacter.Character.RPC_ThrowItem*
+  name: RPC_ThrowItem
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_ThrowItem_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_ThrowItem
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.RPC_ThrowItem
+  nameWithType: Character.RPC_ThrowItem
 - uid: CatchIo.PlayerCharacter.Character.SetCharacterNickName(System.String)
   name: SetCharacterNickName(String)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SetCharacterNickName_System_String_
