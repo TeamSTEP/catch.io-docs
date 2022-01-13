@@ -229,6 +229,44 @@ references:
   isSpec: "True"
   fullName: CatchIo.Destructible.TrapObject.TakeDamage
   nameWithType: TrapObject.TakeDamage
+- uid: CatchIo.EditorScripts
+  name: CatchIo.EditorScripts
+  href: api/CatchIo.EditorScripts.html
+  commentId: N:CatchIo.EditorScripts
+  fullName: CatchIo.EditorScripts
+  nameWithType: CatchIo.EditorScripts
+- uid: CatchIo.EditorScripts.UIContentSizeFitterEditor
+  name: UIContentSizeFitterEditor
+  href: api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html
+  commentId: T:CatchIo.EditorScripts.UIContentSizeFitterEditor
+  fullName: CatchIo.EditorScripts.UIContentSizeFitterEditor
+  nameWithType: UIContentSizeFitterEditor
+- uid: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnEnable
+  name: OnEnable()
+  href: api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html#CatchIo_EditorScripts_UIContentSizeFitterEditor_OnEnable
+  commentId: M:CatchIo.EditorScripts.UIContentSizeFitterEditor.OnEnable
+  fullName: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnEnable()
+  nameWithType: UIContentSizeFitterEditor.OnEnable()
+- uid: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnEnable*
+  name: OnEnable
+  href: api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html#CatchIo_EditorScripts_UIContentSizeFitterEditor_OnEnable_
+  commentId: Overload:CatchIo.EditorScripts.UIContentSizeFitterEditor.OnEnable
+  isSpec: "True"
+  fullName: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnEnable
+  nameWithType: UIContentSizeFitterEditor.OnEnable
+- uid: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html#CatchIo_EditorScripts_UIContentSizeFitterEditor_OnInspectorGUI
+  commentId: M:CatchIo.EditorScripts.UIContentSizeFitterEditor.OnInspectorGUI
+  fullName: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnInspectorGUI()
+  nameWithType: UIContentSizeFitterEditor.OnInspectorGUI()
+- uid: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html#CatchIo_EditorScripts_UIContentSizeFitterEditor_OnInspectorGUI_
+  commentId: Overload:CatchIo.EditorScripts.UIContentSizeFitterEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: CatchIo.EditorScripts.UIContentSizeFitterEditor.OnInspectorGUI
+  nameWithType: UIContentSizeFitterEditor.OnInspectorGUI
 - uid: CatchIo.Effects
   name: CatchIo.Effects
   href: api/CatchIo.Effects.html
@@ -7099,6 +7137,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.RoomInfoContext.UpdateRoomInfo
   nameWithType: RoomInfoContext.UpdateRoomInfo
+- uid: CatchIo.UI.TextSetting
+  name: TextSetting
+  href: api/CatchIo.UI.TextSetting.html
+  commentId: T:CatchIo.UI.TextSetting
+  fullName: CatchIo.UI.TextSetting
+  nameWithType: TextSetting
+- uid: CatchIo.UI.TextSetting.OnChangeButtonPushed(System.Boolean)
+  name: OnChangeButtonPushed(Boolean)
+  href: api/CatchIo.UI.TextSetting.html#CatchIo_UI_TextSetting_OnChangeButtonPushed_System_Boolean_
+  commentId: M:CatchIo.UI.TextSetting.OnChangeButtonPushed(System.Boolean)
+  fullName: CatchIo.UI.TextSetting.OnChangeButtonPushed(System.Boolean)
+  nameWithType: TextSetting.OnChangeButtonPushed(Boolean)
+- uid: CatchIo.UI.TextSetting.OnChangeButtonPushed*
+  name: OnChangeButtonPushed
+  href: api/CatchIo.UI.TextSetting.html#CatchIo_UI_TextSetting_OnChangeButtonPushed_
+  commentId: Overload:CatchIo.UI.TextSetting.OnChangeButtonPushed
+  isSpec: "True"
+  fullName: CatchIo.UI.TextSetting.OnChangeButtonPushed
+  nameWithType: TextSetting.OnChangeButtonPushed
+- uid: CatchIo.UI.TextSetting.SelectedTextOption
+  name: SelectedTextOption
+  href: api/CatchIo.UI.TextSetting.html#CatchIo_UI_TextSetting_SelectedTextOption
+  commentId: P:CatchIo.UI.TextSetting.SelectedTextOption
+  fullName: CatchIo.UI.TextSetting.SelectedTextOption
+  nameWithType: TextSetting.SelectedTextOption
+- uid: CatchIo.UI.TextSetting.SelectedTextOption*
+  name: SelectedTextOption
+  href: api/CatchIo.UI.TextSetting.html#CatchIo_UI_TextSetting_SelectedTextOption_
+  commentId: Overload:CatchIo.UI.TextSetting.SelectedTextOption
+  isSpec: "True"
+  fullName: CatchIo.UI.TextSetting.SelectedTextOption
+  nameWithType: TextSetting.SelectedTextOption
 - uid: CatchIo.UI.TitleContext
   name: TitleContext
   href: api/CatchIo.UI.TitleContext.html
@@ -7186,6 +7256,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.TitleContext.OnQuit
   nameWithType: TitleContext.OnQuit
+- uid: CatchIo.UI.ToggleText
+  name: ToggleText
+  href: api/CatchIo.UI.ToggleText.html
+  commentId: T:CatchIo.UI.ToggleText
+  fullName: CatchIo.UI.ToggleText
+  nameWithType: ToggleText
+- uid: CatchIo.UI.ToggleText.DoStateTransition(SelectionState,System.Boolean)
+  name: DoStateTransition(SelectionState, Boolean)
+  href: api/CatchIo.UI.ToggleText.html#CatchIo_UI_ToggleText_DoStateTransition_SelectionState_System_Boolean_
+  commentId: M:CatchIo.UI.ToggleText.DoStateTransition(SelectionState,System.Boolean)
+  fullName: CatchIo.UI.ToggleText.DoStateTransition(SelectionState, System.Boolean)
+  nameWithType: ToggleText.DoStateTransition(SelectionState, Boolean)
+- uid: CatchIo.UI.ToggleText.DoStateTransition*
+  name: DoStateTransition
+  href: api/CatchIo.UI.ToggleText.html#CatchIo_UI_ToggleText_DoStateTransition_
+  commentId: Overload:CatchIo.UI.ToggleText.DoStateTransition
+  isSpec: "True"
+  fullName: CatchIo.UI.ToggleText.DoStateTransition
+  nameWithType: ToggleText.DoStateTransition
 - uid: CatchIo.UI.UIChatSender
   name: UIChatSender
   href: api/CatchIo.UI.UIChatSender.html

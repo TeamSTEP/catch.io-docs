@@ -44,6 +44,16 @@
     "title": "Class TrapObject | Catch.io Developer Reference",
     "keywords": "Class TrapObject This class implements the behavior for the TrapObject. It stores HP for the TrapObject and allows it to be destroyed by player attacks. It also sets parameters in the Animation Controller. Inheritance Object TrapObject Implements IDamageable Namespace : CatchIo.Destructible Assembly : cs.temp.dll.dll Syntax public class TrapObject : MonoBehaviourPun, IDamageable Properties HealthVal Declaration public float HealthVal { get; } Property Value Type Description Single Methods OnDamage(Character, Single) Declaration public void OnDamage(Character attacker, float damage) Parameters Type Name Description Character attacker Single damage RPC_TakeDamage(Single) Declaration public void RPC_TakeDamage(float damage) Parameters Type Name Description Single damage TakeDamage(Single) Declaration public void TakeDamage(float damage) Parameters Type Name Description Single damage Implements IDamageable"
   },
+  "api/CatchIo.EditorScripts.html": {
+    "href": "api/CatchIo.EditorScripts.html",
+    "title": "Namespace CatchIo.EditorScripts | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.EditorScripts Classes UIContentSizeFitterEditor This class allows the ToggleText component to display the addditional Text properties alongside the Toggle properties in the inspector."
+  },
+  "api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html": {
+    "href": "api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html",
+    "title": "Class UIContentSizeFitterEditor | Catch.io Developer Reference",
+    "keywords": "Class UIContentSizeFitterEditor This class allows the ToggleText component to display the addditional Text properties alongside the Toggle properties in the inspector. Inheritance Object UIContentSizeFitterEditor Namespace : CatchIo.EditorScripts Assembly : cs.temp.dll.dll Syntax public class UIContentSizeFitterEditor : SelectableEditor Methods OnEnable() Declaration protected override void OnEnable() OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
   "api/CatchIo.Effects.DisappearEffect.html": {
     "href": "api/CatchIo.Effects.DisappearEffect.html",
     "title": "Class DisappearEffect | Catch.io Developer Reference",
@@ -472,7 +482,7 @@
   "api/CatchIo.UI.html": {
     "href": "api/CatchIo.UI.html",
     "title": "Namespace CatchIo.UI | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.UI Classes CharacterClassContext CollectionTextWriter ErrorMessageContext GameHudContext GameUIContext GameUIManager HidingIndicator InventoryHUD InventorySlot LoadingContext LoadingPlayerProgress LobbyContext MainMenuContext MenuUIContext RoomContext RoomInfoContext TitleContext UIChatSender UINavigation<T> UINavigationContext<T> UIWindowFormat Enums UIGameViewType UIMenuViewType"
+    "keywords": "Namespace CatchIo.UI Classes CharacterClassContext CollectionTextWriter ErrorMessageContext GameHudContext GameUIContext GameUIManager HidingIndicator InventoryHUD InventorySlot LoadingContext LoadingPlayerProgress LobbyContext MainMenuContext MenuUIContext RoomContext RoomInfoContext TextSetting This implements the behavior for the \"TextSetting\" UI Object, which allows users to click on adjacent arrows to switch the selected text within the provided text list. TitleContext ToggleText A subclass of Unity UI's Toggle with additional settings for Text to change by SelectionState. UIChatSender UINavigation<T> UINavigationContext<T> UIWindowFormat Enums UIGameViewType UIMenuViewType"
   },
   "api/CatchIo.UI.InventoryHUD.html": {
     "href": "api/CatchIo.UI.InventoryHUD.html",
@@ -519,10 +529,20 @@
     "title": "Class RoomInfoContext | Catch.io Developer Reference",
     "keywords": "Class RoomInfoContext Inheritance Object RoomInfoContext Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class RoomInfoContext : Context Constructors RoomInfoContext(NetworkDiscoveryData) Declaration public RoomInfoContext(NetworkDiscoveryData data) Parameters Type Name Description NetworkDiscoveryData data Properties MapName Declaration public string MapName { get; set; } Property Value Type Description String MaxPlayer Declaration public string MaxPlayer { get; set; } Property Value Type Description String RoomName Declaration public string RoomName { get; set; } Property Value Type Description String Updated Declaration public bool Updated { get; set; } Property Value Type Description Boolean Methods OnSelectRoom() Declaration public void OnSelectRoom() UpdateRoomInfo(NetworkDiscoveryData) Declaration public void UpdateRoomInfo(NetworkDiscoveryData data) Parameters Type Name Description NetworkDiscoveryData data"
   },
+  "api/CatchIo.UI.TextSetting.html": {
+    "href": "api/CatchIo.UI.TextSetting.html",
+    "title": "Class TextSetting | Catch.io Developer Reference",
+    "keywords": "Class TextSetting This implements the behavior for the \"TextSetting\" UI Object, which allows users to click on adjacent arrows to switch the selected text within the provided text list. Inheritance Object TextSetting Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class TextSetting : MonoBehaviour Properties SelectedTextOption Declaration public string SelectedTextOption { get; } Property Value Type Description String Methods OnChangeButtonPushed(Boolean) Sets the selectedTextOption to the next textOption based on the input direction. This is similar to a circular array. Declaration public void OnChangeButtonPushed(bool isLeft) Parameters Type Name Description Boolean isLeft If false, then 'isRight' is assumed."
+  },
   "api/CatchIo.UI.TitleContext.html": {
     "href": "api/CatchIo.UI.TitleContext.html",
     "title": "Class TitleContext | Catch.io Developer Reference",
     "keywords": "Class TitleContext Inheritance Object UINavigationContext < UIMenuViewType > TitleContext Inherited Members UINavigationContext<UIMenuViewType>.UINavigation Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class TitleContext : UINavigationContext<UIMenuViewType> Constructors TitleContext(UINavigation<UIMenuViewType>) Declaration public TitleContext(UINavigation<UIMenuViewType> navigation) Parameters Type Name Description UINavigation < UIMenuViewType > navigation Properties NickName Declaration public string NickName { get; set; } Property Value Type Description String Methods OnBack() Declaration public void OnBack() OnConnectToBestCloudServer() Declaration public void OnConnectToBestCloudServer() OnLogin() Declaration public void OnLogin() OnQuit() Declaration public void OnQuit()"
+  },
+  "api/CatchIo.UI.ToggleText.html": {
+    "href": "api/CatchIo.UI.ToggleText.html",
+    "title": "Class ToggleText | Catch.io Developer Reference",
+    "keywords": "Class ToggleText A subclass of Unity UI's Toggle with additional settings for Text to change by SelectionState. Inheritance Object ToggleText Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class ToggleText : UnityEngine.UI.Toggle Methods DoStateTransition(SelectionState, Boolean) Declaration protected override void DoStateTransition(SelectionState state, bool instant) Parameters Type Name Description SelectionState state Boolean instant"
   },
   "api/CatchIo.UI.UIChatSender.html": {
     "href": "api/CatchIo.UI.UIChatSender.html",

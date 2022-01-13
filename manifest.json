@@ -132,6 +132,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.EditorScripts.UIContentSizeFitterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.EditorScripts.UIContentSizeFitterEditor.html",
+          "hash": "J02bLKCmnTd24FxXImH7V+WJpVuXTOVQH4CapcsPXaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.EditorScripts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.EditorScripts.html",
+          "hash": "kGsdFqY5pvvdQV9R3OXuewP2c/gEbZqkHGMe13C93Bo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Effects.DisappearEffect.yml",
       "output": {
         ".html": {
@@ -1260,11 +1284,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.UI.TextSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.UI.TextSetting.html",
+          "hash": "lBM9j+iT4dMMYBbKt+yh1KymJ4072C3GfsPhBDfmiSs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.UI.TitleContext.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.UI.TitleContext.html",
           "hash": "BIU/Nezw3HVnnChw8c2rKVJvKVgmRQExzm5hZbBMY1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.UI.ToggleText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.UI.ToggleText.html",
+          "hash": "Tjb2cEyLdVWaGtSc2kaKkjrYlBKKLLATJKl1UUNvCSs="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.UI.html",
-          "hash": "39/Cyzv3UFVPbzjm4TuYnIS5Jxls3XM3WDv1sg/n1Dg="
+          "hash": "VGmtU1S05sqmmjR+2tmVUcXDRfO6t2kfdwKQPlgkfNs="
         }
       },
       "is_incremental": false,
@@ -1468,7 +1516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "AXM9NOZDiM8CZfwZ7ozmYnZcq3yhBMY97XL9UtrAmPE="
+          "hash": "ee27yFPZHGMjNtZRod7xiPSSQ3P+w4BsPx35oOFwpSc="
         }
       },
       "is_incremental": false,
@@ -1880,7 +1928,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 120,
+          "total_file_count": 124,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
