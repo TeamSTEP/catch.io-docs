@@ -3710,19 +3710,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Character.OnDeath
   fullName: CatchIo.PlayerCharacter.Character.OnDeath
   nameWithType: Character.OnDeath
-- uid: CatchIo.PlayerCharacter.Character.OnGUI
-  name: OnGUI()
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnGUI
-  commentId: M:CatchIo.PlayerCharacter.Character.OnGUI
-  fullName: CatchIo.PlayerCharacter.Character.OnGUI()
-  nameWithType: Character.OnGUI()
-- uid: CatchIo.PlayerCharacter.Character.OnGUI*
-  name: OnGUI
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnGUI_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.OnGUI
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.OnGUI
-  nameWithType: Character.OnGUI
 - uid: CatchIo.PlayerCharacter.Character.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
   name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
@@ -4778,18 +4765,18 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
   fullName: CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
   nameWithType: CharacterStatus.LookDirectionState
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MaxHealthVal
-  name: MaxHealthVal
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MaxHealthVal
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MaxHealthVal
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MaxHealthVal
-  nameWithType: CharacterStatus.MaxHealthVal
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MaxStaminaVal
-  name: MaxStaminaVal
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MaxStaminaVal
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MaxStaminaVal
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MaxStaminaVal
-  nameWithType: CharacterStatus.MaxStaminaVal
+- uid: CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL
+  name: MAX_HEALTH_VAL
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MAX_HEALTH_VAL
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL
+  nameWithType: CharacterStatus.MAX_HEALTH_VAL
+- uid: CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
+  name: MAX_STAMINA_VAL
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MAX_STAMINA_VAL
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
+  nameWithType: CharacterStatus.MAX_STAMINA_VAL
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MaxThrowHeight
   name: MaxThrowHeight
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MaxThrowHeight
@@ -4841,6 +4828,30 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.Name
   nameWithType: CharacterStatus.Name
+- uid: CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
+  name: OnHealthAmountChanged
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnHealthAmountChanged
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
+  nameWithType: CharacterStatus.OnHealthAmountChanged
+- uid: CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
+  name: OnHealthChanged
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnHealthChanged
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
+  nameWithType: CharacterStatus.OnHealthChanged
+- uid: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
+  name: OnStaminaAmountChanged
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnStaminaAmountChanged
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
+  nameWithType: CharacterStatus.OnStaminaAmountChanged
+- uid: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaChanged
+  name: OnStaminaChanged
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnStaminaChanged
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnStaminaChanged
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaChanged
+  nameWithType: CharacterStatus.OnStaminaChanged
 - uid: CatchIo.PlayerCharacter.CharacterStatus.RecoverStamina
   name: RecoverStamina()
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RecoverStamina
@@ -5460,19 +5471,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.TestCharacter.IsPlayingOnEditor
   fullName: CatchIo.PlayerCharacter.TestCharacter.IsPlayingOnEditor
   nameWithType: TestCharacter.IsPlayingOnEditor
-- uid: CatchIo.PlayerCharacter.TestCharacter.OnGUI
-  name: OnGUI()
-  href: api/CatchIo.PlayerCharacter.TestCharacter.html#CatchIo_PlayerCharacter_TestCharacter_OnGUI
-  commentId: M:CatchIo.PlayerCharacter.TestCharacter.OnGUI
-  fullName: CatchIo.PlayerCharacter.TestCharacter.OnGUI()
-  nameWithType: TestCharacter.OnGUI()
-- uid: CatchIo.PlayerCharacter.TestCharacter.OnGUI*
-  name: OnGUI
-  href: api/CatchIo.PlayerCharacter.TestCharacter.html#CatchIo_PlayerCharacter_TestCharacter_OnGUI_
-  commentId: Overload:CatchIo.PlayerCharacter.TestCharacter.OnGUI
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.TestCharacter.OnGUI
-  nameWithType: TestCharacter.OnGUI
 - uid: CatchIo.PlayerCharacter.TestCharacter.TestingAction
   name: TestingAction
   href: api/CatchIo.PlayerCharacter.TestCharacter.html#CatchIo_PlayerCharacter_TestCharacter_TestingAction
@@ -6158,6 +6156,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.GameUIManager.GameUIContext
   nameWithType: GameUIManager.GameUIContext
+- uid: CatchIo.UI.GameUIManager.HealthMeter
+  name: HealthMeter
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_HealthMeter
+  commentId: P:CatchIo.UI.GameUIManager.HealthMeter
+  fullName: CatchIo.UI.GameUIManager.HealthMeter
+  nameWithType: GameUIManager.HealthMeter
+- uid: CatchIo.UI.GameUIManager.HealthMeter*
+  name: HealthMeter
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_HealthMeter_
+  commentId: Overload:CatchIo.UI.GameUIManager.HealthMeter
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIManager.HealthMeter
+  nameWithType: GameUIManager.HealthMeter
 - uid: CatchIo.UI.GameUIManager.Instance
   name: Instance
   href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_Instance
@@ -6184,6 +6195,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile
   nameWithType: GameUIManager.MakeUIGameViewTypeFile
+- uid: CatchIo.UI.GameUIManager.StaminaMeter
+  name: StaminaMeter
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_StaminaMeter
+  commentId: P:CatchIo.UI.GameUIManager.StaminaMeter
+  fullName: CatchIo.UI.GameUIManager.StaminaMeter
+  nameWithType: GameUIManager.StaminaMeter
+- uid: CatchIo.UI.GameUIManager.StaminaMeter*
+  name: StaminaMeter
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_StaminaMeter_
+  commentId: Overload:CatchIo.UI.GameUIManager.StaminaMeter
+  isSpec: "True"
+  fullName: CatchIo.UI.GameUIManager.StaminaMeter
+  nameWithType: GameUIManager.StaminaMeter
 - uid: CatchIo.UI.GameUIManager.UICamera
   name: UICamera
   href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_UICamera
@@ -6281,6 +6305,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.HidingIndicator.TranslatePosition
   nameWithType: HidingIndicator.TranslatePosition
+- uid: CatchIo.UI.HudMeter
+  name: HudMeter
+  href: api/CatchIo.UI.HudMeter.html
+  commentId: T:CatchIo.UI.HudMeter
+  fullName: CatchIo.UI.HudMeter
+  nameWithType: HudMeter
+- uid: CatchIo.UI.HudMeter.OnValueChanged(System.Single)
+  name: OnValueChanged(Single)
+  href: api/CatchIo.UI.HudMeter.html#CatchIo_UI_HudMeter_OnValueChanged_System_Single_
+  commentId: M:CatchIo.UI.HudMeter.OnValueChanged(System.Single)
+  fullName: CatchIo.UI.HudMeter.OnValueChanged(System.Single)
+  nameWithType: HudMeter.OnValueChanged(Single)
+- uid: CatchIo.UI.HudMeter.OnValueChanged*
+  name: OnValueChanged
+  href: api/CatchIo.UI.HudMeter.html#CatchIo_UI_HudMeter_OnValueChanged_
+  commentId: Overload:CatchIo.UI.HudMeter.OnValueChanged
+  isSpec: "True"
+  fullName: CatchIo.UI.HudMeter.OnValueChanged
+  nameWithType: HudMeter.OnValueChanged
 - uid: CatchIo.UI.InventoryHUD
   name: InventoryHUD
   href: api/CatchIo.UI.InventoryHUD.html
