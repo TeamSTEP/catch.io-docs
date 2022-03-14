@@ -229,6 +229,18 @@ references:
   isSpec: "True"
   fullName: CatchIo.Destructible.TrapObject.TakeDamage
   nameWithType: TrapObject.TakeDamage
+- uid: CatchIo.DevUtil
+  name: CatchIo.DevUtil
+  href: api/CatchIo.DevUtil.html
+  commentId: N:CatchIo.DevUtil
+  fullName: CatchIo.DevUtil
+  nameWithType: CatchIo.DevUtil
+- uid: CatchIo.DevUtil.RoomConsoleCommands
+  name: RoomConsoleCommands
+  href: api/CatchIo.DevUtil.RoomConsoleCommands.html
+  commentId: T:CatchIo.DevUtil.RoomConsoleCommands
+  fullName: CatchIo.DevUtil.RoomConsoleCommands
+  nameWithType: RoomConsoleCommands
 - uid: CatchIo.Effects
   name: CatchIo.Effects
   href: api/CatchIo.Effects.html
@@ -1531,6 +1543,24 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.OffensiveThrowableItem.DamageVal
   nameWithType: OffensiveThrowableItem.DamageVal
+- uid: CatchIo.Items.OffensiveThrowableItem.HitBufferTime
+  name: HitBufferTime
+  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_HitBufferTime
+  commentId: F:CatchIo.Items.OffensiveThrowableItem.HitBufferTime
+  fullName: CatchIo.Items.OffensiveThrowableItem.HitBufferTime
+  nameWithType: OffensiveThrowableItem.HitBufferTime
+- uid: CatchIo.Items.OffensiveThrowableItem.HitTime
+  name: HitTime
+  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_HitTime
+  commentId: F:CatchIo.Items.OffensiveThrowableItem.HitTime
+  fullName: CatchIo.Items.OffensiveThrowableItem.HitTime
+  nameWithType: OffensiveThrowableItem.HitTime
+- uid: CatchIo.Items.OffensiveThrowableItem.IsHitEnemy
+  name: IsHitEnemy
+  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_IsHitEnemy
+  commentId: F:CatchIo.Items.OffensiveThrowableItem.IsHitEnemy
+  fullName: CatchIo.Items.OffensiveThrowableItem.IsHitEnemy
+  nameWithType: OffensiveThrowableItem.IsHitEnemy
 - uid: CatchIo.Items.OffensiveThrowableItem.OnHit(IDamageable)
   name: OnHit(IDamageable)
   href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_OnHit_IDamageable_
@@ -1544,6 +1574,18 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.OffensiveThrowableItem.OnHit
   nameWithType: OffensiveThrowableItem.OnHit
+- uid: CatchIo.Items.OffensiveThrowableItem.ReboundHeight
+  name: ReboundHeight
+  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_ReboundHeight
+  commentId: F:CatchIo.Items.OffensiveThrowableItem.ReboundHeight
+  fullName: CatchIo.Items.OffensiveThrowableItem.ReboundHeight
+  nameWithType: OffensiveThrowableItem.ReboundHeight
+- uid: CatchIo.Items.OffensiveThrowableItem.ReboundRadius
+  name: ReboundRadius
+  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_ReboundRadius
+  commentId: F:CatchIo.Items.OffensiveThrowableItem.ReboundRadius
+  fullName: CatchIo.Items.OffensiveThrowableItem.ReboundRadius
+  nameWithType: OffensiveThrowableItem.ReboundRadius
 - uid: CatchIo.Items.StaminaPotion
   name: StaminaPotion
   href: api/CatchIo.Items.StaminaPotion.html
@@ -2050,6 +2092,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.OnThrow
   nameWithType: ThrowableItem.OnThrow
+- uid: CatchIo.Items.ThrowableItem.PassedPeak
+  name: PassedPeak
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_PassedPeak
+  commentId: F:CatchIo.Items.ThrowableItem.PassedPeak
+  fullName: CatchIo.Items.ThrowableItem.PassedPeak
+  nameWithType: ThrowableItem.PassedPeak
 - uid: CatchIo.Items.ThrowableItem.Rigid2D
   name: Rigid2D
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Rigid2D
@@ -2069,6 +2117,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.Start
   nameWithType: ThrowableItem.Start
+- uid: CatchIo.Items.ThrowableItem.ThrewTime
+  name: ThrewTime
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrewTime
+  commentId: F:CatchIo.Items.ThrowableItem.ThrewTime
+  fullName: CatchIo.Items.ThrowableItem.ThrewTime
+  nameWithType: ThrowableItem.ThrewTime
 - uid: CatchIo.Items.ThrowableItem.TrajectoryPath
   name: TrajectoryPath
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryPath
@@ -2205,12 +2259,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TrapRune.Start
   nameWithType: TrapRune.Start
-- uid: CatchIo.Items.TrapRune.TrapObjectPrefab
-  name: TrapObjectPrefab
-  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_TrapObjectPrefab
-  commentId: F:CatchIo.Items.TrapRune.TrapObjectPrefab
-  fullName: CatchIo.Items.TrapRune.TrapObjectPrefab
-  nameWithType: TrapRune.TrapObjectPrefab
 - uid: CatchIo.Managers
   name: CatchIo.Managers
   href: api/CatchIo.Managers.html
