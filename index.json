@@ -287,7 +287,7 @@
   "api/CatchIo.ObjectPool.Footprint.html": {
     "href": "api/CatchIo.ObjectPool.Footprint.html",
     "title": "Class Footprint | Catch.io Developer Reference",
-    "keywords": "Class Footprint The footprint component for the footprint game object. Inheritance Object Footprint Namespace : CatchIo.ObjectPool Assembly : cs.temp.dll.dll Syntax public class Footprint : MonoBehaviourPun Methods CreateFootprint(String, Vector3, Vector3, Boolean) Declaration public static void CreateFootprint(string prefabPath, Vector3 generatePos, Vector3 pointDirection, bool flipX) Parameters Type Name Description String prefabPath Vector3 generatePos Vector3 pointDirection Boolean flipX"
+    "keywords": "Class Footprint The footprint component for the footprint game object. Inheritance Object Footprint Implements IPunInstantiateMagicCallback Namespace : CatchIo.ObjectPool Assembly : cs.temp.dll.dll Syntax public class Footprint : MonoBehaviourPun Methods CreateFootprint(String, Vector3, Single, Boolean) Declaration public static void CreateFootprint(string prefabPath, Vector3 generatePos, float zRotation, bool flipX) Parameters Type Name Description String prefabPath Vector3 generatePos Single zRotation Boolean flipX OnPhotonInstantiate(PhotonMessageInfo) Declaration public void OnPhotonInstantiate(PhotonMessageInfo info) Parameters Type Name Description PhotonMessageInfo info Implements IPunInstantiateMagicCallback"
   },
   "api/CatchIo.ObjectPool.html": {
     "href": "api/CatchIo.ObjectPool.html",
