@@ -3533,12 +3533,12 @@ references:
   commentId: T:CatchIo.ObjectPool.Footprint
   fullName: CatchIo.ObjectPool.Footprint
   nameWithType: Footprint
-- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,System.Single,System.Boolean)
-  name: CreateFootprint(String, Vector3, Single, Boolean)
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_Vector3_System_Single_System_Boolean_
-  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,System.Single,System.Boolean)
-  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, Vector3, System.Single, System.Boolean)
-  nameWithType: Footprint.CreateFootprint(String, Vector3, Single, Boolean)
+- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean)
+  name: CreateFootprint(String, Vector3, Vector3, Boolean)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_Vector3_Vector3_System_Boolean_
+  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean)
+  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, Vector3, Vector3, System.Boolean)
+  nameWithType: Footprint.CreateFootprint(String, Vector3, Vector3, Boolean)
 - uid: CatchIo.ObjectPool.Footprint.CreateFootprint*
   name: CreateFootprint
   href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_
@@ -3546,19 +3546,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.ObjectPool.Footprint.CreateFootprint
   nameWithType: Footprint.CreateFootprint
-- uid: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)
-  name: OnPhotonInstantiate(PhotonMessageInfo)
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_OnPhotonInstantiate_PhotonMessageInfo_
-  commentId: M:CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)
-  fullName: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate(PhotonMessageInfo)
-  nameWithType: Footprint.OnPhotonInstantiate(PhotonMessageInfo)
-- uid: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate*
-  name: OnPhotonInstantiate
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_OnPhotonInstantiate_
-  commentId: Overload:CatchIo.ObjectPool.Footprint.OnPhotonInstantiate
-  isSpec: "True"
-  fullName: CatchIo.ObjectPool.Footprint.OnPhotonInstantiate
-  nameWithType: Footprint.OnPhotonInstantiate
 - uid: CatchIo.PlayerCharacter
   name: CatchIo.PlayerCharacter
   href: api/CatchIo.PlayerCharacter.html
