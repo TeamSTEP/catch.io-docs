@@ -3092,6 +3092,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Network.NetworkManager.OnRoomPropertiesUpdate
   nameWithType: NetworkManager.OnRoomPropertiesUpdate
+- uid: CatchIo.Network.NetworkManager.PingValue
+  name: PingValue
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_PingValue
+  commentId: P:CatchIo.Network.NetworkManager.PingValue
+  fullName: CatchIo.Network.NetworkManager.PingValue
+  nameWithType: NetworkManager.PingValue
+- uid: CatchIo.Network.NetworkManager.PingValue*
+  name: PingValue
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_PingValue_
+  commentId: Overload:CatchIo.Network.NetworkManager.PingValue
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.PingValue
+  nameWithType: NetworkManager.PingValue
 - uid: CatchIo.Network.NetworkManager.PlayerState
   name: NetworkManager.PlayerState
   href: api/CatchIo.Network.NetworkManager.PlayerState.html
@@ -6144,6 +6157,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.ErrorMessageContext.Hide
   nameWithType: ErrorMessageContext.Hide
+- uid: CatchIo.UI.FpsAndPingUI
+  name: FpsAndPingUI
+  href: api/CatchIo.UI.FpsAndPingUI.html
+  commentId: T:CatchIo.UI.FpsAndPingUI
+  fullName: CatchIo.UI.FpsAndPingUI
+  nameWithType: FpsAndPingUI
+- uid: CatchIo.UI.FpsAndPingUI.OnValueChanged(System.String,System.Boolean)
+  name: OnValueChanged(String, Boolean)
+  href: api/CatchIo.UI.FpsAndPingUI.html#CatchIo_UI_FpsAndPingUI_OnValueChanged_System_String_System_Boolean_
+  commentId: M:CatchIo.UI.FpsAndPingUI.OnValueChanged(System.String,System.Boolean)
+  fullName: CatchIo.UI.FpsAndPingUI.OnValueChanged(System.String, System.Boolean)
+  nameWithType: FpsAndPingUI.OnValueChanged(String, Boolean)
+- uid: CatchIo.UI.FpsAndPingUI.OnValueChanged*
+  name: OnValueChanged
+  href: api/CatchIo.UI.FpsAndPingUI.html#CatchIo_UI_FpsAndPingUI_OnValueChanged_
+  commentId: Overload:CatchIo.UI.FpsAndPingUI.OnValueChanged
+  isSpec: "True"
+  fullName: CatchIo.UI.FpsAndPingUI.OnValueChanged
+  nameWithType: FpsAndPingUI.OnValueChanged
 - uid: CatchIo.UI.GameHudContext
   name: GameHudContext
   href: api/CatchIo.UI.GameHudContext.html
@@ -6204,6 +6236,12 @@ references:
   commentId: T:CatchIo.UI.GameUIManager
   fullName: CatchIo.UI.GameUIManager
   nameWithType: GameUIManager
+- uid: CatchIo.UI.GameUIManager.FpsText
+  name: FpsText
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_FpsText
+  commentId: F:CatchIo.UI.GameUIManager.FpsText
+  fullName: CatchIo.UI.GameUIManager.FpsText
+  nameWithType: GameUIManager.FpsText
 - uid: CatchIo.UI.GameUIManager.GameUIContext
   name: GameUIContext
   href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_GameUIContext
@@ -6256,6 +6294,18 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.GameUIManager.MakeUIGameViewTypeFile
   nameWithType: GameUIManager.MakeUIGameViewTypeFile
+- uid: CatchIo.UI.GameUIManager.PingText
+  name: PingText
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_PingText
+  commentId: F:CatchIo.UI.GameUIManager.PingText
+  fullName: CatchIo.UI.GameUIManager.PingText
+  nameWithType: GameUIManager.PingText
+- uid: CatchIo.UI.GameUIManager.ShowFpsAndPing
+  name: ShowFpsAndPing
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_ShowFpsAndPing
+  commentId: F:CatchIo.UI.GameUIManager.ShowFpsAndPing
+  fullName: CatchIo.UI.GameUIManager.ShowFpsAndPing
+  nameWithType: GameUIManager.ShowFpsAndPing
 - uid: CatchIo.UI.GameUIManager.StaminaMeter
   name: StaminaMeter
   href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_StaminaMeter
