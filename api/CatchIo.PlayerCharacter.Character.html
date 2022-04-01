@@ -364,6 +364,33 @@
   </div>
   
   
+  <a id="CatchIo_PlayerCharacter_Character_Drag_" data-uid="CatchIo.PlayerCharacter.Character.Drag*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_Drag_System_Single_" data-uid="CatchIo.PlayerCharacter.Character.Drag(System.Single)">Drag(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Drag(float amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_PlayerCharacter_Character_Draw_" data-uid="CatchIo.PlayerCharacter.Character.Draw*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_Draw" data-uid="CatchIo.PlayerCharacter.Character.Draw">Draw()</h4>
   <div class="markdown level1 summary"></div>
@@ -461,39 +488,12 @@
   
   
   <a id="CatchIo_PlayerCharacter_Character_Look_" data-uid="CatchIo.PlayerCharacter.Character.Look*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_Look_System_Int32_" data-uid="CatchIo.PlayerCharacter.Character.Look(System.Int32)">Look(Int32)</h4>
+  <h4 id="CatchIo_PlayerCharacter_Character_Look_Vector2_" data-uid="CatchIo.PlayerCharacter.Character.Look(Vector2)">Look(Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Look(int viewAngle)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">viewAngle</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_Character_Move_" data-uid="CatchIo.PlayerCharacter.Character.Move*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_Move_Vector2_System_Boolean_System_Boolean_" data-uid="CatchIo.PlayerCharacter.Character.Move(Vector2,System.Boolean,System.Boolean)">Move(Vector2, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Move(Vector2 moveDir, bool isRunning, bool isCrouching)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Look(Vector2 lookDir)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,17 +507,61 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">moveDir</span></td>
+        <td><span class="parametername">lookDir</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_LookImmediate_" data-uid="CatchIo.PlayerCharacter.Character.LookImmediate*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_LookImmediate_Vector2_" data-uid="CatchIo.PlayerCharacter.Character.LookImmediate(Vector2)">LookImmediate(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookImmediate(Vector2 lookDir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">isRunning</span></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">lookDir</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_Move_" data-uid="CatchIo.PlayerCharacter.Character.Move*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_Move_Vector2_" data-uid="CatchIo.PlayerCharacter.Character.Move(Vector2)">Move(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Move(Vector2 moveVelocity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">isCrouching</span></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">moveVelocity</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -865,6 +909,43 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">characterSkinName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_SetMoveState_" data-uid="CatchIo.PlayerCharacter.Character.SetMoveState*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_SetMoveState_Vector2_System_Boolean_System_Boolean_" data-uid="CatchIo.PlayerCharacter.Character.SetMoveState(Vector2,System.Boolean,System.Boolean)">SetMoveState(Vector2, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMoveState(Vector2 currentCharacterMoveInput, bool isCrouching, bool isRunning)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">currentCharacterMoveInput</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isCrouching</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isRunning</span></td>
         <td></td>
       </tr>
     </tbody>

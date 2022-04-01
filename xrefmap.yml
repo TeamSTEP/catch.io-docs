@@ -3713,6 +3713,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.DiscardHoldingItem
   nameWithType: Character.DiscardHoldingItem
+- uid: CatchIo.PlayerCharacter.Character.Drag(System.Single)
+  name: Drag(Single)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Drag_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.Character.Drag(System.Single)
+  fullName: CatchIo.PlayerCharacter.Character.Drag(System.Single)
+  nameWithType: Character.Drag(Single)
+- uid: CatchIo.PlayerCharacter.Character.Drag*
+  name: Drag
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Drag_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.Drag
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.Drag
+  nameWithType: Character.Drag
 - uid: CatchIo.PlayerCharacter.Character.Draw
   name: Draw()
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Draw
@@ -3784,12 +3797,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.HoldingItem
   nameWithType: Character.HoldingItem
-- uid: CatchIo.PlayerCharacter.Character.Look(System.Int32)
-  name: Look(Int32)
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Look_System_Int32_
-  commentId: M:CatchIo.PlayerCharacter.Character.Look(System.Int32)
-  fullName: CatchIo.PlayerCharacter.Character.Look(System.Int32)
-  nameWithType: Character.Look(Int32)
+- uid: CatchIo.PlayerCharacter.Character.Look(Vector2)
+  name: Look(Vector2)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Look_Vector2_
+  commentId: M:CatchIo.PlayerCharacter.Character.Look(Vector2)
+  fullName: CatchIo.PlayerCharacter.Character.Look(Vector2)
+  nameWithType: Character.Look(Vector2)
 - uid: CatchIo.PlayerCharacter.Character.Look*
   name: Look
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Look_
@@ -3797,12 +3810,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.Look
   nameWithType: Character.Look
-- uid: CatchIo.PlayerCharacter.Character.Move(Vector2,System.Boolean,System.Boolean)
-  name: Move(Vector2, Boolean, Boolean)
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Move_Vector2_System_Boolean_System_Boolean_
-  commentId: M:CatchIo.PlayerCharacter.Character.Move(Vector2,System.Boolean,System.Boolean)
-  fullName: CatchIo.PlayerCharacter.Character.Move(Vector2, System.Boolean, System.Boolean)
-  nameWithType: Character.Move(Vector2, Boolean, Boolean)
+- uid: CatchIo.PlayerCharacter.Character.LookImmediate(Vector2)
+  name: LookImmediate(Vector2)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_LookImmediate_Vector2_
+  commentId: M:CatchIo.PlayerCharacter.Character.LookImmediate(Vector2)
+  fullName: CatchIo.PlayerCharacter.Character.LookImmediate(Vector2)
+  nameWithType: Character.LookImmediate(Vector2)
+- uid: CatchIo.PlayerCharacter.Character.LookImmediate*
+  name: LookImmediate
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_LookImmediate_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.LookImmediate
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.LookImmediate
+  nameWithType: Character.LookImmediate
+- uid: CatchIo.PlayerCharacter.Character.Move(Vector2)
+  name: Move(Vector2)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Move_Vector2_
+  commentId: M:CatchIo.PlayerCharacter.Character.Move(Vector2)
+  fullName: CatchIo.PlayerCharacter.Character.Move(Vector2)
+  nameWithType: Character.Move(Vector2)
 - uid: CatchIo.PlayerCharacter.Character.Move*
   name: Move
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Move_
@@ -3991,6 +4017,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.SetCharacterSkin
   nameWithType: Character.SetCharacterSkin
+- uid: CatchIo.PlayerCharacter.Character.SetMoveState(Vector2,System.Boolean,System.Boolean)
+  name: SetMoveState(Vector2, Boolean, Boolean)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SetMoveState_Vector2_System_Boolean_System_Boolean_
+  commentId: M:CatchIo.PlayerCharacter.Character.SetMoveState(Vector2,System.Boolean,System.Boolean)
+  fullName: CatchIo.PlayerCharacter.Character.SetMoveState(Vector2, System.Boolean, System.Boolean)
+  nameWithType: Character.SetMoveState(Vector2, Boolean, Boolean)
+- uid: CatchIo.PlayerCharacter.Character.SetMoveState*
+  name: SetMoveState
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_SetMoveState_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.SetMoveState
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.SetMoveState
+  nameWithType: Character.SetMoveState
 - uid: CatchIo.PlayerCharacter.Character.TakeDamage(System.Single)
   name: TakeDamage(Single)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_TakeDamage_System_Single_
@@ -4177,19 +4216,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight
   nameWithType: CharacterFOV.EnableFOVLight
-- uid: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle(System.Single)
-  name: UpdateFovAngle(Single)
-  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_UpdateFovAngle_System_Single_
-  commentId: M:CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle(System.Single)
-  fullName: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle(System.Single)
-  nameWithType: CharacterFOV.UpdateFovAngle(Single)
-- uid: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle*
-  name: UpdateFovAngle
-  href: api/CatchIo.PlayerCharacter.CharacterFOV.html#CatchIo_PlayerCharacter_CharacterFOV_UpdateFovAngle_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterFOV.UpdateFovAngle
-  nameWithType: CharacterFOV.UpdateFovAngle
 - uid: CatchIo.PlayerCharacter.CharacterHitbox
   name: CharacterHitbox
   href: api/CatchIo.PlayerCharacter.CharacterHitbox.html
@@ -4554,6 +4580,18 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterStatus
   fullName: CatchIo.PlayerCharacter.CharacterStatus
   nameWithType: CharacterStatus
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Accel
+  name: Accel
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Accel
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Accel
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Accel
+  nameWithType: CharacterStatus.Accel
+- uid: CatchIo.PlayerCharacter.CharacterStatus.AccelPower
+  name: AccelPower
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_AccelPower
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.AccelPower
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.AccelPower
+  nameWithType: CharacterStatus.AccelPower
 - uid: CatchIo.PlayerCharacter.CharacterStatus.ActionState
   name: ActionState
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_ActionState
@@ -4690,6 +4728,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.DamageHealth
   nameWithType: CharacterStatus.DamageHealth
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Decel
+  name: Decel
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Decel
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Decel
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Decel
+  nameWithType: CharacterStatus.Decel
 - uid: CatchIo.PlayerCharacter.CharacterStatus.DecreaseStaminaPerSecWhenRunning
   name: DecreaseStaminaPerSecWhenRunning
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_DecreaseStaminaPerSecWhenRunning
@@ -4735,6 +4779,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.ExitHidingSpot
   nameWithType: CharacterStatus.ExitHidingSpot
+- uid: CatchIo.PlayerCharacter.CharacterStatus.FrictionAmount
+  name: FrictionAmount
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_FrictionAmount
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.FrictionAmount
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.FrictionAmount
+  nameWithType: CharacterStatus.FrictionAmount
+- uid: CatchIo.PlayerCharacter.CharacterStatus.GetDragForce(Vector2)
+  name: GetDragForce(Vector2)
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetDragForce_Vector2_
+  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.GetDragForce(Vector2)
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetDragForce(Vector2)
+  nameWithType: CharacterStatus.GetDragForce(Vector2)
+- uid: CatchIo.PlayerCharacter.CharacterStatus.GetDragForce*
+  name: GetDragForce
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetDragForce_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.GetDragForce
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetDragForce
+  nameWithType: CharacterStatus.GetDragForce
 - uid: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState)
   name: GetMeleeDamage(CharacterDirectionState)
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMeleeDamage_CatchIo_PlayerCharacter_CharacterDirectionState_
@@ -4748,6 +4811,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage
   nameWithType: CharacterStatus.GetMeleeDamage
+- uid: CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity(System.Single,System.Single,System.Single)
+  name: GetMovementVelocity(Single, Single, Single)
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMovementVelocity_System_Single_System_Single_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity(System.Single,System.Single,System.Single)
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity(System.Single, System.Single, System.Single)
+  nameWithType: CharacterStatus.GetMovementVelocity(Single, Single, Single)
+- uid: CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity*
+  name: GetMovementVelocity
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMovementVelocity_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity
+  nameWithType: CharacterStatus.GetMovementVelocity
 - uid: CatchIo.PlayerCharacter.CharacterStatus.GetMoveSpeed
   name: GetMoveSpeed()
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMoveSpeed
@@ -4894,7 +4970,14 @@ references:
 - uid: CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
   name: LookDirectionState
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_LookDirectionState
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
+  nameWithType: CharacterStatus.LookDirectionState
+- uid: CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState*
+  name: LookDirectionState
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_LookDirectionState_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
+  isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
   nameWithType: CharacterStatus.LookDirectionState
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL
@@ -4972,6 +5055,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
   fullName: CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
   nameWithType: CharacterStatus.OnHealthChanged
+- uid: CatchIo.PlayerCharacter.CharacterStatus.OnLookDirectionChanged
+  name: OnLookDirectionChanged
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnLookDirectionChanged
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnLookDirectionChanged
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnLookDirectionChanged
+  nameWithType: CharacterStatus.OnLookDirectionChanged
 - uid: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
   name: OnStaminaAmountChanged
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnStaminaAmountChanged
@@ -4997,12 +5086,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.RecoverStamina
   nameWithType: CharacterStatus.RecoverStamina
-- uid: CatchIo.PlayerCharacter.CharacterStatus.RunningSpeed
-  name: RunningSpeed
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RunningSpeed
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.RunningSpeed
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.RunningSpeed
-  nameWithType: CharacterStatus.RunningSpeed
+- uid: CatchIo.PlayerCharacter.CharacterStatus.RotateSpeed
+  name: RotateSpeed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RotateSpeed
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.RotateSpeed
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.RotateSpeed
+  nameWithType: CharacterStatus.RotateSpeed
+- uid: CatchIo.PlayerCharacter.CharacterStatus.RotateSpeed*
+  name: RotateSpeed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RotateSpeed_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.RotateSpeed
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.RotateSpeed
+  nameWithType: CharacterStatus.RotateSpeed
+- uid: CatchIo.PlayerCharacter.CharacterStatus.RunSpeed
+  name: RunSpeed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RunSpeed
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.RunSpeed
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.RunSpeed
+  nameWithType: CharacterStatus.RunSpeed
 - uid: CatchIo.PlayerCharacter.CharacterStatus.SetCanHide(System.Single,System.Boolean)
   name: SetCanHide(Single, Boolean)
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetCanHide_System_Single_System_Boolean_
@@ -5055,12 +5157,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.SetMoveState
   nameWithType: CharacterStatus.SetMoveState
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle(System.Single)
-  name: SetViewAngle(Single)
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetViewAngle_System_Single_
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle(System.Single)
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle(System.Single)
-  nameWithType: CharacterStatus.SetViewAngle(Single)
+- uid: CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle(System.Int32)
+  name: SetViewAngle(Int32)
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetViewAngle_System_Int32_
+  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle(System.Int32)
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle(System.Int32)
+  nameWithType: CharacterStatus.SetViewAngle(Int32)
 - uid: CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle*
   name: SetViewAngle
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetViewAngle_
@@ -5068,12 +5170,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle
   nameWithType: CharacterStatus.SetViewAngle
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SneakingSpeed
-  name: SneakingSpeed
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SneakingSpeed
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.SneakingSpeed
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SneakingSpeed
-  nameWithType: CharacterStatus.SneakingSpeed
+- uid: CatchIo.PlayerCharacter.CharacterStatus.SneakSpeed
+  name: SneakSpeed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SneakSpeed
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.SneakSpeed
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.SneakSpeed
+  nameWithType: CharacterStatus.SneakSpeed
 - uid: CatchIo.PlayerCharacter.CharacterStatus.StaminaRecoveryPerSec
   name: StaminaRecoveryPerSec
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_StaminaRecoveryPerSec
@@ -5093,6 +5195,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.StaminaVal
   nameWithType: CharacterStatus.StaminaVal
+- uid: CatchIo.PlayerCharacter.CharacterStatus.StopPower
+  name: StopPower
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_StopPower
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.StopPower
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.StopPower
+  nameWithType: CharacterStatus.StopPower
 - uid: CatchIo.PlayerCharacter.CharacterStatus.ThrowRadius
   name: ThrowRadius
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_ThrowRadius
@@ -5105,6 +5213,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.ThrowStamina
   fullName: CatchIo.PlayerCharacter.CharacterStatus.ThrowStamina
   nameWithType: CharacterStatus.ThrowStamina
+- uid: CatchIo.PlayerCharacter.CharacterStatus.TurnPower
+  name: TurnPower
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_TurnPower
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.TurnPower
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.TurnPower
+  nameWithType: CharacterStatus.TurnPower
 - uid: CatchIo.PlayerCharacter.CharacterStatus.UseStamina(System.Single)
   name: UseStamina(Single)
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_UseStamina_System_Single_
@@ -5131,12 +5245,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.UseStaminaPerSec
   nameWithType: CharacterStatus.UseStaminaPerSec
-- uid: CatchIo.PlayerCharacter.CharacterStatus.WalkingSpeed
-  name: WalkingSpeed
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_WalkingSpeed
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.WalkingSpeed
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.WalkingSpeed
-  nameWithType: CharacterStatus.WalkingSpeed
+- uid: CatchIo.PlayerCharacter.CharacterStatus.WalkSpeed
+  name: WalkSpeed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_WalkSpeed
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.WalkSpeed
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.WalkSpeed
+  nameWithType: CharacterStatus.WalkSpeed
 - uid: CatchIo.PlayerCharacter.IDamageable
   name: IDamageable
   href: api/CatchIo.PlayerCharacter.IDamageable.html
@@ -7878,6 +7992,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Util.Math.ClampListIndex
   nameWithType: Math.ClampListIndex
+- uid: CatchIo.Util.Math.GetAngle(System.Single)
+  name: GetAngle(Single)
+  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetAngle_System_Single_
+  commentId: M:CatchIo.Util.Math.GetAngle(System.Single)
+  fullName: CatchIo.Util.Math.GetAngle(System.Single)
+  nameWithType: Math.GetAngle(Single)
+- uid: CatchIo.Util.Math.GetAngle*
+  name: GetAngle
+  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetAngle_
+  commentId: Overload:CatchIo.Util.Math.GetAngle
+  isSpec: "True"
+  fullName: CatchIo.Util.Math.GetAngle
+  nameWithType: Math.GetAngle
+- uid: CatchIo.Util.Math.GetIntAngle(System.Int32)
+  name: GetIntAngle(Int32)
+  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetIntAngle_System_Int32_
+  commentId: M:CatchIo.Util.Math.GetIntAngle(System.Int32)
+  fullName: CatchIo.Util.Math.GetIntAngle(System.Int32)
+  nameWithType: Math.GetIntAngle(Int32)
+- uid: CatchIo.Util.Math.GetIntAngle(System.Single)
+  name: GetIntAngle(Single)
+  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetIntAngle_System_Single_
+  commentId: M:CatchIo.Util.Math.GetIntAngle(System.Single)
+  fullName: CatchIo.Util.Math.GetIntAngle(System.Single)
+  nameWithType: Math.GetIntAngle(Single)
+- uid: CatchIo.Util.Math.GetIntAngle*
+  name: GetIntAngle
+  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetIntAngle_
+  commentId: Overload:CatchIo.Util.Math.GetIntAngle
+  isSpec: "True"
+  fullName: CatchIo.Util.Math.GetIntAngle
+  nameWithType: Math.GetIntAngle
 - uid: CatchIo.Util.Math.IsNaNVector(Vector2)
   name: IsNaNVector(Vector2)
   href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_IsNaNVector_Vector2_
