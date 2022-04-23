@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DeployableThrowableItem
+   | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DeployableThrowableItem
+   | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Items.DeployableThrowableItem">
+  
+  
+  <h1 id="CatchIo_Items_DeployableThrowableItem" data-uid="CatchIo.Items.DeployableThrowableItem" class="text-break">Class DeployableThrowableItem
+  </h1>
+  <div class="markdown level0 summary"><p>This class implements the Trap Rune functionality. It allows the trap rune to be thrown and spawns a TrapObject where it lands.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="CatchIo.Items.Item.html">Item</a></div>
+    <div class="level2"><a class="xref" href="CatchIo.Items.ThrowableItem.html">ThrowableItem</a></div>
+    <div class="level3"><a class="xref" href="CatchIo.Items.EvasiveThrowableItem.html">EvasiveThrowableItem</a></div>
+    <div class="level4"><span class="xref">DeployableThrowableItem</span></div>
+      <div class="level5"><a class="xref" href="CatchIo.Items.TrapRune.html">TrapRune</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IThrowable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GravityMultiplier">ThrowableItem.GravityMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_IsOnFloor">ThrowableItem.IsOnFloor</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryPath">ThrowableItem.TrajectoryPath</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Rigid2D">ThrowableItem.Rigid2D</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_CurrentTrajectoryArc">ThrowableItem.CurrentTrajectoryArc</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_HasLanded">ThrowableItem.HasLanded</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_PassedPeak">ThrowableItem.PassedPeak</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrewTime">ThrowableItem.ThrewTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_">ThrowableItem.UpdateProjectilePhysic(Vector2, Vector2, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight">ThrowableItem.GetPeakHeight()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Owner">Item.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite">Item.Sprite</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Items_DeployableThrowableItem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DeployableThrowableItem : EvasiveThrowableItem</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_CanPickup_" data-uid="CatchIo.Items.DeployableThrowableItem.CanPickup*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_CanPickup" data-uid="CatchIo.Items.DeployableThrowableItem.CanPickup">CanPickup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanPickup()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_CanPickup">Item.CanPickup()</a></div>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_FixedUpdate_" data-uid="CatchIo.Items.DeployableThrowableItem.FixedUpdate*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_FixedUpdate" data-uid="CatchIo.Items.DeployableThrowableItem.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void FixedUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_FixedUpdate">ThrowableItem.FixedUpdate()</a></div>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_OnBeforeThrow_" data-uid="CatchIo.Items.DeployableThrowableItem.OnBeforeThrow*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_OnBeforeThrow_Vector2_Vector2_" data-uid="CatchIo.Items.DeployableThrowableItem.OnBeforeThrow(Vector2,Vector2)">OnBeforeThrow(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnBeforeThrow(Vector2 throwPos, Vector2 targetPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">throwPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">targetPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Vector2_Vector2_">ThrowableItem.OnBeforeThrow(Vector2, Vector2)</a></div>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_OnDiscard_" data-uid="CatchIo.Items.DeployableThrowableItem.OnDiscard*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_OnDiscard" data-uid="CatchIo.Items.DeployableThrowableItem.OnDiscard">OnDiscard()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDiscard()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnDiscard">Item.OnDiscard()</a></div>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_OnLanded_" data-uid="CatchIo.Items.DeployableThrowableItem.OnLanded*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_OnLanded" data-uid="CatchIo.Items.DeployableThrowableItem.OnLanded">OnLanded()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnLanded()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnLanded">ThrowableItem.OnLanded()</a></div>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_OnPickup_" data-uid="CatchIo.Items.DeployableThrowableItem.OnPickup*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_OnPickup_Character_" data-uid="CatchIo.Items.DeployableThrowableItem.OnPickup(Character)">OnPickup(Character)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnPickup(Character owner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Character</span></td>
+        <td><span class="parametername">owner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnPickup_Character_">ThrowableItem.OnPickup(Character)</a></div>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_OnThrow_" data-uid="CatchIo.Items.DeployableThrowableItem.OnThrow*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_OnThrow" data-uid="CatchIo.Items.DeployableThrowableItem.OnThrow">OnThrow()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnThrow()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnThrow">ThrowableItem.OnThrow()</a></div>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_SpawnDeployableObject_" data-uid="CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_SpawnDeployableObject_Vector3_" data-uid="CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject(Vector3)">SpawnDeployableObject(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SpawnDeployableObject(Vector3 spawnPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">spawnPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Items_DeployableThrowableItem_Start_" data-uid="CatchIo.Items.DeployableThrowableItem.Start*"></a>
+  <h4 id="CatchIo_Items_DeployableThrowableItem_Start" data-uid="CatchIo.Items.DeployableThrowableItem.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Start">ThrowableItem.Start()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IThrowable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

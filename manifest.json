@@ -108,11 +108,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Destructible.TrapObject.yml",
+      "source_relative_path": "api/CatchIo.Deployable.TrapObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatchIo.Destructible.TrapObject.html",
-          "hash": "1zF2nss6VPaQVzdJwOBMyVw+WwuGqrB3jaNRBwYiiRs="
+          "relative_path": "api/CatchIo.Deployable.TrapObject.html",
+          "hash": "wfhKI8AeeY5nZRdNtIRiN0lAv41VfY0u/b8p7rTAkcw="
         }
       },
       "is_incremental": false,
@@ -120,11 +120,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Destructible.yml",
+      "source_relative_path": "api/CatchIo.Deployable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatchIo.Destructible.html",
-          "hash": "rueXV3v2A2uRzmjFWqbW5OZkri7x+k+dDkQ4Se19AEc="
+          "relative_path": "api/CatchIo.Deployable.html",
+          "hash": "e6HTGQt0K1oVjlgDQiHhH6OkXTYccE3/c7C9Rf76LaI="
         }
       },
       "is_incremental": false,
@@ -360,6 +360,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.GeneralBehavior.NetworkDestroyTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.GeneralBehavior.NetworkDestroyTimer.html",
+          "hash": "I8XAB0ui+rvht8tyEeAGQeo9wNLDIEj3kZyZofJ3K7M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.GeneralBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.GeneralBehavior.html",
+          "hash": "K/1ARdoBlVNXXuh5vgGsS1whZ6wYzO53ejsz08lKoVk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Helpers.AnimationParser.yml",
       "output": {
         ".html": {
@@ -468,11 +492,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Items.DeployableThrowableItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Items.DeployableThrowableItem.html",
+          "hash": "6QD2ssOe86vDYrS3ICIbsXXFreXMMaMdktUx8X1dquU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Items.EvasiveThrowableItem.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.EvasiveThrowableItem.html",
-          "hash": "r+dCrjI6H9zEgJKiQfEIHfe9a1wPbLdzHwyfyBYmVmA="
+          "hash": "gmb5gVxO0C5qzKFxUsQzuh9mxylV8wWrykNyH/5fxwA="
         }
       },
       "is_incremental": false,
@@ -556,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.TrapRune.html",
-          "hash": "/zYG0G9Ami/LVc1q30zy3NpXbQ38/PG5gAZLur5RNfU="
+          "hash": "bLNO55JhJlJH9FbeUiv1WFBMqZL87mjWtF8Gv/X4kBk="
         }
       },
       "is_incremental": false,
@@ -568,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Items.html",
-          "hash": "gDqClUYrRxW2jyT7KqmcTz9eh9caoGIjqC5Ww+AlSC0="
+          "hash": "cGnM+XZSc/N1lo9MGH+7sjs0s0DDGqmstmLGQXXy5+A="
         }
       },
       "is_incremental": false,
@@ -1540,7 +1576,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "4zk+xtLHOQE/8gemAzNChsVJldNba+OcCnXJ9m1Vahc="
+          "hash": "FF70un+0DaSULn1cZnH8JBJNS+p7LYpx8XAZ3+g+Kjk="
         }
       },
       "is_incremental": false,
@@ -1952,7 +1988,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 126,
+          "total_file_count": 129,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
