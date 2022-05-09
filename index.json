@@ -117,22 +117,12 @@
   "api/CatchIo.Environment.html": {
     "href": "api/CatchIo.Environment.html",
     "title": "Namespace CatchIo.Environment | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Environment Classes CharacterSpawnPoint CharacterSpawnPointManager HidingSpot ReadableTileSurface Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. Structs TileSurface Enums Surface.SurfaceType"
+    "keywords": "Namespace CatchIo.Environment Classes CharacterSpawnPoint CharacterSpawnPointManager HidingSpot ReadableTileSurface Structs TileSurface"
   },
   "api/CatchIo.Environment.ReadableTileSurface.html": {
     "href": "api/CatchIo.Environment.ReadableTileSurface.html",
     "title": "Class ReadableTileSurface | Catch.io Developer Reference",
     "keywords": "Class ReadableTileSurface Inheritance Object ReadableTileSurface Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public class ReadableTileSurface : MonoBehaviour Properties SurfaceData Declaration public TileSurface SurfaceData { get; } Property Value Type Description TileSurface Methods GetSurfaceData(Vector2) Declaration public TileSurface? GetSurfaceData(Vector2 pos) Parameters Type Name Description Vector2 pos Returns Type Description Nullable < TileSurface > SetSurfaceData(TileSurface) Declaration public void SetSurfaceData(TileSurface tileSurface) Parameters Type Name Description TileSurface tileSurface"
-  },
-  "api/CatchIo.Environment.Surface.html": {
-    "href": "api/CatchIo.Environment.Surface.html",
-    "title": "Class Surface | Catch.io Developer Reference",
-    "keywords": "Class Surface Game map surface utility class. This class contains various methods and types for referencing tilemap surfaces. NOTE: Right now everything is hard-coded for surface detection. We need to make this more scalable. Inheritance Object Surface Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public static class Surface Fields SurfaceNameToSurfaceType Declaration public static Dictionary<string, Surface.SurfaceType> SurfaceNameToSurfaceType Field Value Type Description Dictionary < String , Surface.SurfaceType >"
-  },
-  "api/CatchIo.Environment.Surface.SurfaceType.html": {
-    "href": "api/CatchIo.Environment.Surface.SurfaceType.html",
-    "title": "Enum Surface.SurfaceType | Catch.io Developer Reference",
-    "keywords": "Enum Surface.SurfaceType Namespace : CatchIo.Environment Assembly : cs.temp.dll.dll Syntax public enum SurfaceType Fields Name Description Grass Mud Wood"
   },
   "api/CatchIo.Environment.TileSurface.html": {
     "href": "api/CatchIo.Environment.TileSurface.html",
@@ -429,6 +419,11 @@
     "title": "Class CharacterActionSfx | Catch.io Developer Reference",
     "keywords": "Class CharacterActionSfx Inheritance Object Sfx CharacterActionSfx Inherited Members Sfx.EventInstance Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class CharacterActionSfx : Sfx Constructors CharacterActionSfx() Declaration public CharacterActionSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string characterActionType, float volume = 1F) Parameters Type Name Description Vector3 generatePos String characterActionType Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
+  "api/CatchIo.Sound.EnvironmentSFXPlayer.html": {
+    "href": "api/CatchIo.Sound.EnvironmentSFXPlayer.html",
+    "title": "Class EnvironmentSFXPlayer | Catch.io Developer Reference",
+    "keywords": "Class EnvironmentSFXPlayer Inheritance Object EnvironmentSFXPlayer Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class EnvironmentSFXPlayer : MonoBehaviour"
+  },
   "api/CatchIo.Sound.FootstepSfx.html": {
     "href": "api/CatchIo.Sound.FootstepSfx.html",
     "title": "Class FootstepSfx | Catch.io Developer Reference",
@@ -437,7 +432,7 @@
   "api/CatchIo.Sound.html": {
     "href": "api/CatchIo.Sound.html",
     "title": "Namespace CatchIo.Sound | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Sound Classes CharacterActionSfx FootstepSfx ItemSfx Sfx SoundManager TerrainSfx"
+    "keywords": "Namespace CatchIo.Sound Classes CharacterActionSfx EnvironmentSFXPlayer FootstepSfx ItemSfx Sfx SoundManager TerrainSfx"
   },
   "api/CatchIo.Sound.ItemSfx.html": {
     "href": "api/CatchIo.Sound.ItemSfx.html",
@@ -617,7 +612,12 @@
   "api/CatchIo.Util.html": {
     "href": "api/CatchIo.Util.html",
     "title": "Namespace CatchIo.Util | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Util Classes CastTo<T> EditorGameLoader One-time utility component that adds the manager scene and the UI scene to the current game scene and destroys itself. ExtensionMethods Math NotifyBooleanPropertyChanged This class has events called when the boolean value is changed compared to the previous value. SceneControl Singleton<T> SingletonMonoBehaviour<T>"
+    "keywords": "Namespace CatchIo.Util Classes CastTo<T> EditorGameLoader One-time utility component that adds the manager scene and the UI scene to the current game scene and destroys itself. ExtensionMethods LocalPlayerDetector Math NotifyBooleanPropertyChanged This class has events called when the boolean value is changed compared to the previous value. SceneControl Singleton<T> SingletonMonoBehaviour<T>"
+  },
+  "api/CatchIo.Util.LocalPlayerDetector.html": {
+    "href": "api/CatchIo.Util.LocalPlayerDetector.html",
+    "title": "Class LocalPlayerDetector | Catch.io Developer Reference",
+    "keywords": "Class LocalPlayerDetector Inheritance Object LocalPlayerDetector Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public class LocalPlayerDetector : MonoBehaviour Fields OnDetected Declaration public Action OnDetected Field Value Type Description Action OnMissed Declaration public Action OnMissed Field Value Type Description Action"
   },
   "api/CatchIo.Util.Math.html": {
     "href": "api/CatchIo.Util.Math.html",
