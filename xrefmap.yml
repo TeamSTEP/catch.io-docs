@@ -1888,19 +1888,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Stone.Start
   nameWithType: Stone.Start
-- uid: CatchIo.Items.Stone.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  name: UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_
-  commentId: M:CatchIo.Items.Stone.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  fullName: CatchIo.Items.Stone.UpdateProjectilePhysic(Vector2, Vector2, System.Single, System.Single)
-  nameWithType: Stone.UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-- uid: CatchIo.Items.Stone.UpdateProjectilePhysic*
-  name: UpdateProjectilePhysic
-  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_UpdateProjectilePhysic_
-  commentId: Overload:CatchIo.Items.Stone.UpdateProjectilePhysic
+- uid: CatchIo.Items.Stone.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  name: UpdateProjectilePath(Vector2, Vector2, Single)
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_UpdateProjectilePath_Vector2_Vector2_System_Single_
+  commentId: M:CatchIo.Items.Stone.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  fullName: CatchIo.Items.Stone.UpdateProjectilePath(Vector2, Vector2, System.Single)
+  nameWithType: Stone.UpdateProjectilePath(Vector2, Vector2, Single)
+- uid: CatchIo.Items.Stone.UpdateProjectilePath*
+  name: UpdateProjectilePath
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_UpdateProjectilePath_
+  commentId: Overload:CatchIo.Items.Stone.UpdateProjectilePath
   isSpec: "True"
-  fullName: CatchIo.Items.Stone.UpdateProjectilePhysic
-  nameWithType: Stone.UpdateProjectilePhysic
+  fullName: CatchIo.Items.Stone.UpdateProjectilePath
+  nameWithType: Stone.UpdateProjectilePath
 - uid: CatchIo.Items.TeleportRune
   name: TeleportRune
   href: api/CatchIo.Items.TeleportRune.html
@@ -2069,19 +2069,19 @@ references:
   commentId: F:CatchIo.Items.TeleportRune.TeleportDissolve
   fullName: CatchIo.Items.TeleportRune.TeleportDissolve
   nameWithType: TeleportRune.TeleportDissolve
-- uid: CatchIo.Items.TeleportRune.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  name: UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_
-  commentId: M:CatchIo.Items.TeleportRune.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  fullName: CatchIo.Items.TeleportRune.UpdateProjectilePhysic(Vector2, Vector2, System.Single, System.Single)
-  nameWithType: TeleportRune.UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-- uid: CatchIo.Items.TeleportRune.UpdateProjectilePhysic*
-  name: UpdateProjectilePhysic
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_UpdateProjectilePhysic_
-  commentId: Overload:CatchIo.Items.TeleportRune.UpdateProjectilePhysic
+- uid: CatchIo.Items.TeleportRune.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  name: UpdateProjectilePath(Vector2, Vector2, Single)
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_UpdateProjectilePath_Vector2_Vector2_System_Single_
+  commentId: M:CatchIo.Items.TeleportRune.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  fullName: CatchIo.Items.TeleportRune.UpdateProjectilePath(Vector2, Vector2, System.Single)
+  nameWithType: TeleportRune.UpdateProjectilePath(Vector2, Vector2, Single)
+- uid: CatchIo.Items.TeleportRune.UpdateProjectilePath*
+  name: UpdateProjectilePath
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_UpdateProjectilePath_
+  commentId: Overload:CatchIo.Items.TeleportRune.UpdateProjectilePath
   isSpec: "True"
-  fullName: CatchIo.Items.TeleportRune.UpdateProjectilePhysic
-  nameWithType: TeleportRune.UpdateProjectilePhysic
+  fullName: CatchIo.Items.TeleportRune.UpdateProjectilePath
+  nameWithType: TeleportRune.UpdateProjectilePath
 - uid: CatchIo.Items.ThrowableItem
   name: ThrowableItem
   href: api/CatchIo.Items.ThrowableItem.html
@@ -2120,12 +2120,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.GetPeakHeight
   nameWithType: ThrowableItem.GetPeakHeight
-- uid: CatchIo.Items.ThrowableItem.GravityMultiplier
-  name: GravityMultiplier
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GravityMultiplier
-  commentId: F:CatchIo.Items.ThrowableItem.GravityMultiplier
-  fullName: CatchIo.Items.ThrowableItem.GravityMultiplier
-  nameWithType: ThrowableItem.GravityMultiplier
 - uid: CatchIo.Items.ThrowableItem.HasLanded
   name: HasLanded
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_HasLanded
@@ -2228,6 +2222,12 @@ references:
   commentId: F:CatchIo.Items.ThrowableItem.ThrewTime
   fullName: CatchIo.Items.ThrowableItem.ThrewTime
   nameWithType: ThrowableItem.ThrewTime
+- uid: CatchIo.Items.ThrowableItem.TrajectoryCurve
+  name: TrajectoryCurve
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryCurve
+  commentId: F:CatchIo.Items.ThrowableItem.TrajectoryCurve
+  fullName: CatchIo.Items.ThrowableItem.TrajectoryCurve
+  nameWithType: ThrowableItem.TrajectoryCurve
 - uid: CatchIo.Items.ThrowableItem.TrajectoryPath
   name: TrajectoryPath
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryPath
@@ -2241,19 +2241,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.TrajectoryPath
   nameWithType: ThrowableItem.TrajectoryPath
-- uid: CatchIo.Items.ThrowableItem.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  name: UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_
-  commentId: M:CatchIo.Items.ThrowableItem.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  fullName: CatchIo.Items.ThrowableItem.UpdateProjectilePhysic(Vector2, Vector2, System.Single, System.Single)
-  nameWithType: ThrowableItem.UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-- uid: CatchIo.Items.ThrowableItem.UpdateProjectilePhysic*
-  name: UpdateProjectilePhysic
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePhysic_
-  commentId: Overload:CatchIo.Items.ThrowableItem.UpdateProjectilePhysic
+- uid: CatchIo.Items.ThrowableItem.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  name: UpdateProjectilePath(Vector2, Vector2, Single)
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_Vector2_Vector2_System_Single_
+  commentId: M:CatchIo.Items.ThrowableItem.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  fullName: CatchIo.Items.ThrowableItem.UpdateProjectilePath(Vector2, Vector2, System.Single)
+  nameWithType: ThrowableItem.UpdateProjectilePath(Vector2, Vector2, Single)
+- uid: CatchIo.Items.ThrowableItem.UpdateProjectilePath*
+  name: UpdateProjectilePath
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_
+  commentId: Overload:CatchIo.Items.ThrowableItem.UpdateProjectilePath
   isSpec: "True"
-  fullName: CatchIo.Items.ThrowableItem.UpdateProjectilePhysic
-  nameWithType: ThrowableItem.UpdateProjectilePhysic
+  fullName: CatchIo.Items.ThrowableItem.UpdateProjectilePath
+  nameWithType: ThrowableItem.UpdateProjectilePath
 - uid: CatchIo.Items.TrapRune
   name: TrapRune
   href: api/CatchIo.Items.TrapRune.html
@@ -4974,12 +4974,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
   fullName: CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
   nameWithType: CharacterStatus.MAX_STAMINA_VAL
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MaxThrowHeight
-  name: MaxThrowHeight
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MaxThrowHeight
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MaxThrowHeight
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MaxThrowHeight
-  nameWithType: CharacterStatus.MaxThrowHeight
+- uid: CatchIo.PlayerCharacter.CharacterStatus.MAX_THROW_HEIGHT
+  name: MAX_THROW_HEIGHT
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MAX_THROW_HEIGHT
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MAX_THROW_HEIGHT
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.MAX_THROW_HEIGHT
+  nameWithType: CharacterStatus.MAX_THROW_HEIGHT
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
   name: MeleeDamage
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage
@@ -5170,6 +5170,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.StopPower
   fullName: CatchIo.PlayerCharacter.CharacterStatus.StopPower
   nameWithType: CharacterStatus.StopPower
+- uid: CatchIo.PlayerCharacter.CharacterStatus.THROW_DURATION
+  name: THROW_DURATION
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_THROW_DURATION
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.THROW_DURATION
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.THROW_DURATION
+  nameWithType: CharacterStatus.THROW_DURATION
 - uid: CatchIo.PlayerCharacter.CharacterStatus.ThrowRadius
   name: ThrowRadius
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_ThrowRadius
@@ -5756,19 +5762,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.ProjectileMotion.IThrowable.OnLanded
   nameWithType: IThrowable.OnLanded
-- uid: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  name: UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_UpdateProjectilePhysic_Vector2_Vector2_System_Single_System_Single_
-  commentId: M:CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic(Vector2,Vector2,System.Single,System.Single)
-  fullName: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic(Vector2, Vector2, System.Single, System.Single)
-  nameWithType: IThrowable.UpdateProjectilePhysic(Vector2, Vector2, Single, Single)
-- uid: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic*
-  name: UpdateProjectilePhysic
-  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_UpdateProjectilePhysic_
-  commentId: Overload:CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic
+- uid: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  name: UpdateProjectilePath(Vector2, Vector2, Single)
+  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_UpdateProjectilePath_Vector2_Vector2_System_Single_
+  commentId: M:CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath(Vector2,Vector2,System.Single)
+  fullName: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath(Vector2, Vector2, System.Single)
+  nameWithType: IThrowable.UpdateProjectilePath(Vector2, Vector2, Single)
+- uid: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath*
+  name: UpdateProjectilePath
+  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_UpdateProjectilePath_
+  commentId: Overload:CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath
   isSpec: "True"
-  fullName: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePhysic
-  nameWithType: IThrowable.UpdateProjectilePhysic
+  fullName: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath
+  nameWithType: IThrowable.UpdateProjectilePath
 - uid: CatchIo.ProjectileMotion.TrajectoryArc
   name: TrajectoryArc
   href: api/CatchIo.ProjectileMotion.TrajectoryArc.html
@@ -5781,15 +5787,15 @@ references:
   commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.#ctor
   fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc()
   nameWithType: TrajectoryArc.TrajectoryArc()
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.#ctor(Vector3,System.Single,Vector3[])
-  name: TrajectoryArc(Vector3, Single, Vector3[])
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc__ctor_Vector3_System_Single_Vector3___
-  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.#ctor(Vector3,System.Single,Vector3[])
-  name.vb: TrajectoryArc(Vector3, Single, Vector3())
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc(Vector3, System.Single, Vector3[])
-  fullName.vb: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc(Vector3, System.Single, Vector3())
-  nameWithType: TrajectoryArc.TrajectoryArc(Vector3, Single, Vector3[])
-  nameWithType.vb: TrajectoryArc.TrajectoryArc(Vector3, Single, Vector3())
+- uid: CatchIo.ProjectileMotion.TrajectoryArc.#ctor(System.Single,Vector3[])
+  name: TrajectoryArc(Single, Vector3[])
+  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc__ctor_System_Single_Vector3___
+  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.#ctor(System.Single,Vector3[])
+  name.vb: TrajectoryArc(Single, Vector3())
+  fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc(System.Single, Vector3[])
+  fullName.vb: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc(System.Single, Vector3())
+  nameWithType: TrajectoryArc.TrajectoryArc(Single, Vector3[])
+  nameWithType.vb: TrajectoryArc.TrajectoryArc(Single, Vector3())
 - uid: CatchIo.ProjectileMotion.TrajectoryArc.#ctor*
   name: TrajectoryArc
   href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc__ctor_
@@ -5810,12 +5816,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition
   nameWithType: TrajectoryArc.GetFinalPosition
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.InitVelocity
-  name: InitVelocity
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_InitVelocity
-  commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.InitVelocity
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.InitVelocity
-  nameWithType: TrajectoryArc.InitVelocity
+- uid: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
+  name: GetStartPosition()
+  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_GetStartPosition
+  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
+  fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition()
+  nameWithType: TrajectoryArc.GetStartPosition()
+- uid: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition*
+  name: GetStartPosition
+  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_GetStartPosition_
+  commentId: Overload:CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
+  isSpec: "True"
+  fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
+  nameWithType: TrajectoryArc.GetStartPosition
+- uid: CatchIo.ProjectileMotion.TrajectoryArc.NUM_OF_POINTS
+  name: NUM_OF_POINTS
+  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_NUM_OF_POINTS
+  commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.NUM_OF_POINTS
+  fullName: CatchIo.ProjectileMotion.TrajectoryArc.NUM_OF_POINTS
+  nameWithType: TrajectoryArc.NUM_OF_POINTS
 - uid: CatchIo.ProjectileMotion.TrajectoryArc.TimeToTarget
   name: TimeToTarget
   href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_TimeToTarget
@@ -5828,15 +5847,15 @@ references:
   commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryPath
   fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryPath
   nameWithType: TrajectoryArc.TrajectoryPath
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(Vector3,System.Single,Vector3[])
-  name: UpdateTrajectoryArc(Vector3, Single, Vector3[])
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_Vector3_System_Single_Vector3___
-  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(Vector3,System.Single,Vector3[])
-  name.vb: UpdateTrajectoryArc(Vector3, Single, Vector3())
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(Vector3, System.Single, Vector3[])
-  fullName.vb: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(Vector3, System.Single, Vector3())
-  nameWithType: TrajectoryArc.UpdateTrajectoryArc(Vector3, Single, Vector3[])
-  nameWithType.vb: TrajectoryArc.UpdateTrajectoryArc(Vector3, Single, Vector3())
+- uid: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single,Vector3[])
+  name: UpdateTrajectoryArc(Single, Vector3[])
+  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_System_Single_Vector3___
+  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single,Vector3[])
+  name.vb: UpdateTrajectoryArc(Single, Vector3())
+  fullName: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single, Vector3[])
+  fullName.vb: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single, Vector3())
+  nameWithType: TrajectoryArc.UpdateTrajectoryArc(Single, Vector3[])
+  nameWithType.vb: TrajectoryArc.UpdateTrajectoryArc(Single, Vector3())
 - uid: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc*
   name: UpdateTrajectoryArc
   href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_

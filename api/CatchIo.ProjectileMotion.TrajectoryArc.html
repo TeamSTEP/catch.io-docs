@@ -112,12 +112,12 @@
   
   
   <a id="CatchIo_ProjectileMotion_TrajectoryArc__ctor_" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.#ctor*"></a>
-  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc__ctor_Vector3_System_Single_Vector3___" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.#ctor(Vector3,System.Single,Vector3[])">TrajectoryArc(Vector3, Single, Vector3[])</h4>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc__ctor_System_Single_Vector3___" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.#ctor(System.Single,Vector3[])">TrajectoryArc(Single, Vector3[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TrajectoryArc(Vector3 initVelocity, float timeToTarget, Vector3[] trajectoryPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public TrajectoryArc(float timeToTarget, Vector3[] trajectoryPath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,11 +129,6 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">initVelocity</span></td>
-        <td></td>
-      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">timeToTarget</span></td>
@@ -150,12 +145,12 @@
   </h3>
   
   
-  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_InitVelocity" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.InitVelocity">InitVelocity</h4>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_NUM_OF_POINTS" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.NUM_OF_POINTS">NUM_OF_POINTS</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 InitVelocity</code></pre>
+    <pre><code class="lang-csharp hljs">public const int NUM_OF_POINTS = 50</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,7 +162,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -249,13 +244,38 @@
   </table>
   
   
-  <a id="CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc*"></a>
-  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_Vector3_System_Single_Vector3___" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(Vector3,System.Single,Vector3[])">UpdateTrajectoryArc(Vector3, Single, Vector3[])</h4>
+  <a id="CatchIo_ProjectileMotion_TrajectoryArc_GetStartPosition_" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition*"></a>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_GetStartPosition" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition">GetStartPosition()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateTrajectoryArc(Vector3 initVelocity, float timeToTarget, Vector3[] trajectoryPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 GetStartPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc*"></a>
+  <h4 id="CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_System_Single_Vector3___" data-uid="CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single,Vector3[])">UpdateTrajectoryArc(Single, Vector3[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateTrajectoryArc(float timeToTarget, Vector3[] trajectoryPath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -267,11 +287,6 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">initVelocity</span></td>
-        <td></td>
-      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">timeToTarget</span></td>
