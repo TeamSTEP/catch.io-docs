@@ -94,19 +94,18 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_PlayerCharacter_CharacterStatus_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class CharacterStatus</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterStatus : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_Accel" data-uid="CatchIo.PlayerCharacter.CharacterStatus.Accel">Accel</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_Acceleration" data-uid="CatchIo.PlayerCharacter.CharacterStatus.Acceleration">Acceleration</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Accel</code></pre>
+    <pre><code class="lang-csharp hljs">public float Acceleration</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,12 +148,36 @@ public class CharacterStatus</code></pre>
   </table>
   
   
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_ActionState" data-uid="CatchIo.PlayerCharacter.CharacterStatus.ActionState">ActionState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterActionState ActionState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterActionState.html">CharacterActionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="CatchIo_PlayerCharacter_CharacterStatus_AttackStamina" data-uid="CatchIo.PlayerCharacter.CharacterStatus.AttackStamina">AttackStamina</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float AttackStamina = 40F</code></pre>
+    <pre><code class="lang-csharp hljs">public float AttackStamina</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,12 +196,84 @@ public class CharacterStatus</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_Decel" data-uid="CatchIo.PlayerCharacter.CharacterStatus.Decel">Decel</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_BackstabDamageAmplification" data-uid="CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification">BackstabDamageAmplification</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Decel</code></pre>
+    <pre><code class="lang-csharp hljs">public float BackstabDamageAmplification</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_Buffs" data-uid="CatchIo.PlayerCharacter.CharacterStatus.Buffs">Buffs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Buff&gt; Buffs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Buff</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CurrentViewAngle" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle">CurrentViewAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentViewAngle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_Deceleration" data-uid="CatchIo.PlayerCharacter.CharacterStatus.Deceleration">Deceleration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Deceleration</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,7 +297,7 @@ public class CharacterStatus</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float DecreaseStaminaPerSecWhenRunning = 10F</code></pre>
+    <pre><code class="lang-csharp hljs">public float DecreaseStaminaPerSecWhenRunning</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -245,36 +340,12 @@ public class CharacterStatus</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MAX_HEALTH_VAL" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL">MAX_HEALTH_VAL</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_Health" data-uid="CatchIo.PlayerCharacter.CharacterStatus.Health">Health</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float MAX_HEALTH_VAL = 100F</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MAX_STAMINA_VAL" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL">MAX_STAMINA_VAL</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float MAX_STAMINA_VAL = 100F</code></pre>
+    <pre><code class="lang-csharp hljs">public float Health</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -317,6 +388,78 @@ public class CharacterStatus</code></pre>
   </table>
   
   
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MaxHealth" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MaxHealth">MaxHealth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxHealth</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MaxStamina" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MaxStamina">MaxStamina</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxStamina</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage">MeleeDamage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeleeDamage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MIN_VIEW_SLICE" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MIN_VIEW_SLICE">MIN_VIEW_SLICE</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -341,12 +484,12 @@ public class CharacterStatus</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_OnHealthAmountChanged" data-uid="CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged">OnHealthAmountChanged</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MoveSpeed" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MoveSpeed">MoveSpeed</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;float&gt; OnHealthAmountChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public float MoveSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -358,19 +501,43 @@ public class CharacterStatus</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_OnHealthChanged" data-uid="CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged">OnHealthChanged</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MoveState" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MoveState">MoveState</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;float&gt; OnHealthChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public CharacterMoveState MoveState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterMoveState.html">CharacterMoveState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_OnHealthAmountChanged" data-uid="CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged">OnHealthAmountChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;float&gt; OnHealthAmountChanged</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -437,36 +604,12 @@ public class CharacterStatus</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_OnStaminaChanged" data-uid="CatchIo.PlayerCharacter.CharacterStatus.OnStaminaChanged">OnStaminaChanged</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_RunSpeedAmplification" data-uid="CatchIo.PlayerCharacter.CharacterStatus.RunSpeedAmplification">RunSpeedAmplification</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;float&gt; OnStaminaChanged</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_RunSpeed" data-uid="CatchIo.PlayerCharacter.CharacterStatus.RunSpeed">RunSpeed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float RunSpeed</code></pre>
+    <pre><code class="lang-csharp hljs">public float RunSpeedAmplification</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -485,12 +628,36 @@ public class CharacterStatus</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_SneakSpeed" data-uid="CatchIo.PlayerCharacter.CharacterStatus.SneakSpeed">SneakSpeed</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_SneakSpeedAmplification" data-uid="CatchIo.PlayerCharacter.CharacterStatus.SneakSpeedAmplification">SneakSpeedAmplification</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float SneakSpeed</code></pre>
+    <pre><code class="lang-csharp hljs">public float SneakSpeedAmplification</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_Stamina" data-uid="CatchIo.PlayerCharacter.CharacterStatus.Stamina">Stamina</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Stamina</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -514,7 +681,7 @@ public class CharacterStatus</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float StaminaRecoveryPerSec = 10F</code></pre>
+    <pre><code class="lang-csharp hljs">public float StaminaRecoveryPerSec</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -610,7 +777,7 @@ public class CharacterStatus</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float ThrowStamina = 20F</code></pre>
+    <pre><code class="lang-csharp hljs">public float ThrowStamina</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -651,41 +818,17 @@ public class CharacterStatus</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_WalkSpeed" data-uid="CatchIo.PlayerCharacter.CharacterStatus.WalkSpeed">WalkSpeed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float WalkSpeed</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_ActionState_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.ActionState*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_ActionState" data-uid="CatchIo.PlayerCharacter.CharacterStatus.ActionState">ActionState</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanAttack_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanAttack*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanAttack" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanAttack">CanAttack</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterActionState ActionState { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanAttack { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -697,32 +840,7 @@ public class CharacterStatus</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterActionState.html">CharacterActionState</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_BackstabDamageAmplification_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_BackstabDamageAmplification" data-uid="CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification">BackstabDamageAmplification</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float BackstabDamageAmplification { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -735,7 +853,7 @@ public class CharacterStatus</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NotifyBooleanPropertyChanged CanHide { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public NotifyBooleanPropertyChanged CanHide { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -754,13 +872,13 @@ public class CharacterStatus</code></pre>
   </table>
   
   
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_CurrentViewAngle_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CurrentViewAngle" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle">CurrentViewAngle</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanLook_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanLook*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanLook" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanLook">CanLook</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CurrentViewAngle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanLook { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -772,7 +890,107 @@ public class CharacterStatus</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanMove_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanMove*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanMove" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanMove">CanMove</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanMove { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanRecoverStamina_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanRecoverStamina" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina">CanRecoverStamina</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanRecoverStamina { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanRun_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanRun*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanRun" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanRun">CanRun</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanRun { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanThrow_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanThrow*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanThrow" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanThrow">CanThrow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanThrow { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -798,56 +1016,6 @@ public class CharacterStatus</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">HidingSpot</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_HealthVal_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.HealthVal*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_HealthVal" data-uid="CatchIo.PlayerCharacter.CharacterStatus.HealthVal">HealthVal</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float HealthVal { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_IsCrouching_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.IsCrouching*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_IsCrouching" data-uid="CatchIo.PlayerCharacter.CharacterStatus.IsCrouching">IsCrouching</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCrouching { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -979,6 +1147,31 @@ public class CharacterStatus</code></pre>
   </table>
   
   
+  <a id="CatchIo_PlayerCharacter_CharacterStatus_IsStaying_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.IsStaying*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_IsStaying" data-uid="CatchIo.PlayerCharacter.CharacterStatus.IsStaying">IsStaying</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStaying { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_PlayerCharacter_CharacterStatus_LookDirectionState_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState*"></a>
   <h4 id="CatchIo_PlayerCharacter_CharacterStatus_LookDirectionState" data-uid="CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState">LookDirectionState</h4>
   <div class="markdown level1 summary"></div>
@@ -998,56 +1191,6 @@ public class CharacterStatus</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterDirectionState.html">CharacterDirectionState</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage">MeleeDamage</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float MeleeDamage { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_MoveState_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MoveState*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_MoveState" data-uid="CatchIo.PlayerCharacter.CharacterStatus.MoveState">MoveState</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterMoveState MoveState { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterMoveState.html">CharacterMoveState</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1077,158 +1220,8 @@ public class CharacterStatus</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_StaminaVal_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.StaminaVal*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_StaminaVal" data-uid="CatchIo.PlayerCharacter.CharacterStatus.StaminaVal">StaminaVal</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float StaminaVal { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanAttack_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanAttack*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanAttack" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanAttack">CanAttack()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanAttack()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanLook_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanLook*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanLook" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanLook">CanLook()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanLook()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanMove_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanMove*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanMove" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanMove">CanMove()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanMove()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanRecoverStamina_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanRecoverStamina" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina">CanRecoverStamina()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanRecoverStamina()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_CanThrow_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanThrow*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_CanThrow" data-uid="CatchIo.PlayerCharacter.CharacterStatus.CanThrow">CanThrow()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanThrow()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="CatchIo_PlayerCharacter_CharacterStatus_DamageHealth_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.DamageHealth*"></a>
@@ -1462,7 +1455,7 @@ public class CharacterStatus</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HealHealth(float healVal)</code></pre>
+    <pre><code class="lang-csharp hljs">public void HealHealth(float healAmount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1476,7 +1469,7 @@ public class CharacterStatus</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">healVal</span></td>
+        <td><span class="parametername">healAmount</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1489,7 +1482,7 @@ public class CharacterStatus</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HealStamina(float staminaVal)</code></pre>
+    <pre><code class="lang-csharp hljs">public void HealStamina(float healAmount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1503,32 +1496,7 @@ public class CharacterStatus</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">staminaVal</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_IsStaying_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.IsStaying*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_IsStaying" data-uid="CatchIo.PlayerCharacter.CharacterStatus.IsStaying">IsStaying()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsStaying()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">healAmount</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1543,65 +1511,6 @@ public class CharacterStatus</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RecoverStamina()</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_SetCanHide_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.SetCanHide*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_SetCanHide_System_Single_System_Boolean_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.SetCanHide(System.Single,System.Boolean)">SetCanHide(Single, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetCanHide(float overlappedArea, bool isCharacterInsideHidingSpot)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">overlappedArea</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">isCharacterInsideHidingSpot</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_CharacterStatus_SetCharacterArea_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea*"></a>
-  <h4 id="CatchIo_PlayerCharacter_CharacterStatus_SetCharacterArea_System_Single_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea(System.Single)">SetCharacterArea(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetCharacterArea(float area)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">area</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="CatchIo_PlayerCharacter_CharacterStatus_SetHiding_" data-uid="CatchIo.PlayerCharacter.CharacterStatus.SetHiding*"></a>

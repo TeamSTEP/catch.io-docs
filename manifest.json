@@ -72,6 +72,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.CharacterBuff.Buff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.CharacterBuff.Buff.html",
+          "hash": "arZmTMOACNOgga+E2wSzE4rEf3VI604fQ3mzs/GblLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.CharacterBuff.HealthBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.CharacterBuff.HealthBuff.html",
+          "hash": "2JQ/guHOzNWp6gCKuedaO0/wzMbqSvAKGU5c06JNVHc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.CharacterBuff.StaminaBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.CharacterBuff.StaminaBuff.html",
+          "hash": "Lat0uaKWoAv70gOwwPikX9zVuxxXlW6L3TF5GPa9AVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.CharacterBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.CharacterBuff.html",
+          "hash": "1j/YMonz1VHqWeccQd2GE/2VXCSiWXylw0afOBz0BIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Core.GuiBehavior.yml",
       "output": {
         ".html": {
@@ -748,7 +796,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.Character.html",
-          "hash": "sDHRfLqceZpyhsM2GKx20VG4I0Dg8FSfc6W+XGQ7SjQ="
+          "hash": "IUkB2jDLz4AplpyOdxEtH6Wm2T8SRYjNd8fR392T6H8="
         }
       },
       "is_incremental": false,
@@ -880,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.CharacterStatus.html",
-          "hash": "QrhfJ0tPxxX332vNIUAUs5mU2EQPwzIc5G0z8iKpc5A="
+          "hash": "/pR/9Sb99W3JMA9GCQTfB774LgtgNAxNGV/JaDfFEjs="
         }
       },
       "is_incremental": false,
@@ -1576,7 +1624,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OF0u//FCpJLvSRgLQSQwv5VrsFak7tojVxq5Sru3JFY="
+          "hash": "EdE8AfE8ehDBnDC8yg1TdO/QPeB86zkrEiPCtMpXWaA="
         }
       },
       "is_incremental": false,
@@ -1988,7 +2036,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 129,
+          "total_file_count": 133,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

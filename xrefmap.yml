@@ -102,6 +102,81 @@ references:
   isSpec: "True"
   fullName: CatchIo.Camera.LobbyCamera.SetupCamera
   nameWithType: LobbyCamera.SetupCamera
+- uid: CatchIo.CharacterBuff
+  name: CatchIo.CharacterBuff
+  href: api/CatchIo.CharacterBuff.html
+  commentId: N:CatchIo.CharacterBuff
+  fullName: CatchIo.CharacterBuff
+  nameWithType: CatchIo.CharacterBuff
+- uid: CatchIo.CharacterBuff.Buff
+  name: Buff
+  href: api/CatchIo.CharacterBuff.Buff.html
+  commentId: T:CatchIo.CharacterBuff.Buff
+  fullName: CatchIo.CharacterBuff.Buff
+  nameWithType: Buff
+- uid: CatchIo.CharacterBuff.Buff.Assign(CharacterStatus)
+  name: Assign(CharacterStatus)
+  href: api/CatchIo.CharacterBuff.Buff.html#CatchIo_CharacterBuff_Buff_Assign_CharacterStatus_
+  commentId: M:CatchIo.CharacterBuff.Buff.Assign(CharacterStatus)
+  fullName: CatchIo.CharacterBuff.Buff.Assign(CharacterStatus)
+  nameWithType: Buff.Assign(CharacterStatus)
+- uid: CatchIo.CharacterBuff.Buff.Assign*
+  name: Assign
+  href: api/CatchIo.CharacterBuff.Buff.html#CatchIo_CharacterBuff_Buff_Assign_
+  commentId: Overload:CatchIo.CharacterBuff.Buff.Assign
+  isSpec: "True"
+  fullName: CatchIo.CharacterBuff.Buff.Assign
+  nameWithType: Buff.Assign
+- uid: CatchIo.CharacterBuff.HealthBuff
+  name: HealthBuff
+  href: api/CatchIo.CharacterBuff.HealthBuff.html
+  commentId: T:CatchIo.CharacterBuff.HealthBuff
+  fullName: CatchIo.CharacterBuff.HealthBuff
+  nameWithType: HealthBuff
+- uid: CatchIo.CharacterBuff.HealthBuff.Assign(CharacterStatus)
+  name: Assign(CharacterStatus)
+  href: api/CatchIo.CharacterBuff.HealthBuff.html#CatchIo_CharacterBuff_HealthBuff_Assign_CharacterStatus_
+  commentId: M:CatchIo.CharacterBuff.HealthBuff.Assign(CharacterStatus)
+  fullName: CatchIo.CharacterBuff.HealthBuff.Assign(CharacterStatus)
+  nameWithType: HealthBuff.Assign(CharacterStatus)
+- uid: CatchIo.CharacterBuff.HealthBuff.Assign*
+  name: Assign
+  href: api/CatchIo.CharacterBuff.HealthBuff.html#CatchIo_CharacterBuff_HealthBuff_Assign_
+  commentId: Overload:CatchIo.CharacterBuff.HealthBuff.Assign
+  isSpec: "True"
+  fullName: CatchIo.CharacterBuff.HealthBuff.Assign
+  nameWithType: HealthBuff.Assign
+- uid: CatchIo.CharacterBuff.HealthBuff.HealthAmount
+  name: HealthAmount
+  href: api/CatchIo.CharacterBuff.HealthBuff.html#CatchIo_CharacterBuff_HealthBuff_HealthAmount
+  commentId: F:CatchIo.CharacterBuff.HealthBuff.HealthAmount
+  fullName: CatchIo.CharacterBuff.HealthBuff.HealthAmount
+  nameWithType: HealthBuff.HealthAmount
+- uid: CatchIo.CharacterBuff.StaminaBuff
+  name: StaminaBuff
+  href: api/CatchIo.CharacterBuff.StaminaBuff.html
+  commentId: T:CatchIo.CharacterBuff.StaminaBuff
+  fullName: CatchIo.CharacterBuff.StaminaBuff
+  nameWithType: StaminaBuff
+- uid: CatchIo.CharacterBuff.StaminaBuff.Assign(CharacterStatus)
+  name: Assign(CharacterStatus)
+  href: api/CatchIo.CharacterBuff.StaminaBuff.html#CatchIo_CharacterBuff_StaminaBuff_Assign_CharacterStatus_
+  commentId: M:CatchIo.CharacterBuff.StaminaBuff.Assign(CharacterStatus)
+  fullName: CatchIo.CharacterBuff.StaminaBuff.Assign(CharacterStatus)
+  nameWithType: StaminaBuff.Assign(CharacterStatus)
+- uid: CatchIo.CharacterBuff.StaminaBuff.Assign*
+  name: Assign
+  href: api/CatchIo.CharacterBuff.StaminaBuff.html#CatchIo_CharacterBuff_StaminaBuff_Assign_
+  commentId: Overload:CatchIo.CharacterBuff.StaminaBuff.Assign
+  isSpec: "True"
+  fullName: CatchIo.CharacterBuff.StaminaBuff.Assign
+  nameWithType: StaminaBuff.Assign
+- uid: CatchIo.CharacterBuff.StaminaBuff.StaminaAmount
+  name: StaminaAmount
+  href: api/CatchIo.CharacterBuff.StaminaBuff.html#CatchIo_CharacterBuff_StaminaBuff_StaminaAmount
+  commentId: F:CatchIo.CharacterBuff.StaminaBuff.StaminaAmount
+  fullName: CatchIo.CharacterBuff.StaminaBuff.StaminaAmount
+  nameWithType: StaminaBuff.StaminaAmount
 - uid: CatchIo.Core
   name: CatchIo.Core
   href: api/CatchIo.Core.html
@@ -3659,14 +3734,7 @@ references:
 - uid: CatchIo.PlayerCharacter.Character.CharacterStatus
   name: CharacterStatus
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_CharacterStatus
-  commentId: P:CatchIo.PlayerCharacter.Character.CharacterStatus
-  fullName: CatchIo.PlayerCharacter.Character.CharacterStatus
-  nameWithType: Character.CharacterStatus
-- uid: CatchIo.PlayerCharacter.Character.CharacterStatus*
-  name: CharacterStatus
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_CharacterStatus_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.CharacterStatus
-  isSpec: "True"
+  commentId: F:CatchIo.PlayerCharacter.Character.CharacterStatus
   fullName: CatchIo.PlayerCharacter.Character.CharacterStatus
   nameWithType: Character.CharacterStatus
 - uid: CatchIo.PlayerCharacter.Character.ConsumeItem(ConsumableItem)
@@ -4562,12 +4630,12 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterStatus
   fullName: CatchIo.PlayerCharacter.CharacterStatus
   nameWithType: CharacterStatus
-- uid: CatchIo.PlayerCharacter.CharacterStatus.Accel
-  name: Accel
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Accel
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Accel
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.Accel
-  nameWithType: CharacterStatus.Accel
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Acceleration
+  name: Acceleration
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Acceleration
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Acceleration
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Acceleration
+  nameWithType: CharacterStatus.Acceleration
 - uid: CatchIo.PlayerCharacter.CharacterStatus.AccelPower
   name: AccelPower
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_AccelPower
@@ -4577,14 +4645,7 @@ references:
 - uid: CatchIo.PlayerCharacter.CharacterStatus.ActionState
   name: ActionState
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_ActionState
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.ActionState
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.ActionState
-  nameWithType: CharacterStatus.ActionState
-- uid: CatchIo.PlayerCharacter.CharacterStatus.ActionState*
-  name: ActionState
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_ActionState_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.ActionState
-  isSpec: "True"
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.ActionState
   fullName: CatchIo.PlayerCharacter.CharacterStatus.ActionState
   nameWithType: CharacterStatus.ActionState
 - uid: CatchIo.PlayerCharacter.CharacterStatus.AttackStamina
@@ -4596,22 +4657,21 @@ references:
 - uid: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification
   name: BackstabDamageAmplification
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_BackstabDamageAmplification
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification
   fullName: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification
   nameWithType: CharacterStatus.BackstabDamageAmplification
-- uid: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification*
-  name: BackstabDamageAmplification
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_BackstabDamageAmplification_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageAmplification
-  nameWithType: CharacterStatus.BackstabDamageAmplification
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Buffs
+  name: Buffs
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Buffs
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Buffs
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Buffs
+  nameWithType: CharacterStatus.Buffs
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanAttack
-  name: CanAttack()
+  name: CanAttack
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanAttack
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.CanAttack
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanAttack()
-  nameWithType: CharacterStatus.CanAttack()
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CanAttack
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanAttack
+  nameWithType: CharacterStatus.CanAttack
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanAttack*
   name: CanAttack
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanAttack_
@@ -4633,11 +4693,11 @@ references:
   fullName: CatchIo.PlayerCharacter.CharacterStatus.CanHide
   nameWithType: CharacterStatus.CanHide
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanLook
-  name: CanLook()
+  name: CanLook
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanLook
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.CanLook
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanLook()
-  nameWithType: CharacterStatus.CanLook()
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CanLook
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanLook
+  nameWithType: CharacterStatus.CanLook
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanLook*
   name: CanLook
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanLook_
@@ -4646,11 +4706,11 @@ references:
   fullName: CatchIo.PlayerCharacter.CharacterStatus.CanLook
   nameWithType: CharacterStatus.CanLook
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanMove
-  name: CanMove()
+  name: CanMove
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanMove
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.CanMove
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanMove()
-  nameWithType: CharacterStatus.CanMove()
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CanMove
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanMove
+  nameWithType: CharacterStatus.CanMove
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanMove*
   name: CanMove
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanMove_
@@ -4659,11 +4719,11 @@ references:
   fullName: CatchIo.PlayerCharacter.CharacterStatus.CanMove
   nameWithType: CharacterStatus.CanMove
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina
-  name: CanRecoverStamina()
+  name: CanRecoverStamina
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanRecoverStamina
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina()
-  nameWithType: CharacterStatus.CanRecoverStamina()
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina
+  nameWithType: CharacterStatus.CanRecoverStamina
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina*
   name: CanRecoverStamina
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanRecoverStamina_
@@ -4671,12 +4731,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.CanRecoverStamina
   nameWithType: CharacterStatus.CanRecoverStamina
+- uid: CatchIo.PlayerCharacter.CharacterStatus.CanRun
+  name: CanRun
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanRun
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CanRun
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanRun
+  nameWithType: CharacterStatus.CanRun
+- uid: CatchIo.PlayerCharacter.CharacterStatus.CanRun*
+  name: CanRun
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanRun_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.CanRun
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanRun
+  nameWithType: CharacterStatus.CanRun
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanThrow
-  name: CanThrow()
+  name: CanThrow
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanThrow
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.CanThrow
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanThrow()
-  nameWithType: CharacterStatus.CanThrow()
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CanThrow
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanThrow
+  nameWithType: CharacterStatus.CanThrow
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanThrow*
   name: CanThrow
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanThrow_
@@ -4687,14 +4760,7 @@ references:
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle
   name: CurrentViewAngle
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CurrentViewAngle
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle
-  nameWithType: CharacterStatus.CurrentViewAngle
-- uid: CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle*
-  name: CurrentViewAngle
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CurrentViewAngle_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle
-  isSpec: "True"
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle
   fullName: CatchIo.PlayerCharacter.CharacterStatus.CurrentViewAngle
   nameWithType: CharacterStatus.CurrentViewAngle
 - uid: CatchIo.PlayerCharacter.CharacterStatus.DamageHealth(System.Single)
@@ -4710,12 +4776,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.DamageHealth
   nameWithType: CharacterStatus.DamageHealth
-- uid: CatchIo.PlayerCharacter.CharacterStatus.Decel
-  name: Decel
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Decel
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Decel
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.Decel
-  nameWithType: CharacterStatus.Decel
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Deceleration
+  name: Deceleration
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Deceleration
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Deceleration
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Deceleration
+  nameWithType: CharacterStatus.Deceleration
 - uid: CatchIo.PlayerCharacter.CharacterStatus.DecreaseStaminaPerSecWhenRunning
   name: DecreaseStaminaPerSecWhenRunning
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_DecreaseStaminaPerSecWhenRunning
@@ -4845,32 +4911,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.HealStamina
   nameWithType: CharacterStatus.HealStamina
-- uid: CatchIo.PlayerCharacter.CharacterStatus.HealthVal
-  name: HealthVal
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_HealthVal
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.HealthVal
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.HealthVal
-  nameWithType: CharacterStatus.HealthVal
-- uid: CatchIo.PlayerCharacter.CharacterStatus.HealthVal*
-  name: HealthVal
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_HealthVal_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.HealthVal
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.HealthVal
-  nameWithType: CharacterStatus.HealthVal
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsCrouching
-  name: IsCrouching
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsCrouching
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsCrouching
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsCrouching
-  nameWithType: CharacterStatus.IsCrouching
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsCrouching*
-  name: IsCrouching
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsCrouching_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.IsCrouching
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsCrouching
-  nameWithType: CharacterStatus.IsCrouching
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Health
+  name: Health
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Health
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Health
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Health
+  nameWithType: CharacterStatus.Health
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsDead
   name: IsDead
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsDead
@@ -4937,11 +4983,11 @@ references:
   fullName: CatchIo.PlayerCharacter.CharacterStatus.IsStanding
   nameWithType: CharacterStatus.IsStanding
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsStaying
-  name: IsStaying()
+  name: IsStaying
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStaying
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.IsStaying
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsStaying()
-  nameWithType: CharacterStatus.IsStaying()
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsStaying
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsStaying
+  nameWithType: CharacterStatus.IsStaying
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsStaying*
   name: IsStaying
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStaying_
@@ -4962,35 +5008,28 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.LookDirectionState
   nameWithType: CharacterStatus.LookDirectionState
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL
-  name: MAX_HEALTH_VAL
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MAX_HEALTH_VAL
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MAX_HEALTH_VAL
-  nameWithType: CharacterStatus.MAX_HEALTH_VAL
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
-  name: MAX_STAMINA_VAL
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MAX_STAMINA_VAL
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MAX_STAMINA_VAL
-  nameWithType: CharacterStatus.MAX_STAMINA_VAL
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MAX_THROW_HEIGHT
   name: MAX_THROW_HEIGHT
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MAX_THROW_HEIGHT
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MAX_THROW_HEIGHT
   fullName: CatchIo.PlayerCharacter.CharacterStatus.MAX_THROW_HEIGHT
   nameWithType: CharacterStatus.MAX_THROW_HEIGHT
+- uid: CatchIo.PlayerCharacter.CharacterStatus.MaxHealth
+  name: MaxHealth
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MaxHealth
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MaxHealth
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.MaxHealth
+  nameWithType: CharacterStatus.MaxHealth
+- uid: CatchIo.PlayerCharacter.CharacterStatus.MaxStamina
+  name: MaxStamina
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MaxStamina
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MaxStamina
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.MaxStamina
+  nameWithType: CharacterStatus.MaxStamina
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
   name: MeleeDamage
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
-  nameWithType: CharacterStatus.MeleeDamage
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage*
-  name: MeleeDamage
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
-  isSpec: "True"
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
   fullName: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
   nameWithType: CharacterStatus.MeleeDamage
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MIN_VIEW_SLICE
@@ -4999,17 +5038,16 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MIN_VIEW_SLICE
   fullName: CatchIo.PlayerCharacter.CharacterStatus.MIN_VIEW_SLICE
   nameWithType: CharacterStatus.MIN_VIEW_SLICE
+- uid: CatchIo.PlayerCharacter.CharacterStatus.MoveSpeed
+  name: MoveSpeed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MoveSpeed
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MoveSpeed
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.MoveSpeed
+  nameWithType: CharacterStatus.MoveSpeed
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MoveState
   name: MoveState
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MoveState
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.MoveState
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MoveState
-  nameWithType: CharacterStatus.MoveState
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MoveState*
-  name: MoveState
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MoveState_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.MoveState
-  isSpec: "True"
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MoveState
   fullName: CatchIo.PlayerCharacter.CharacterStatus.MoveState
   nameWithType: CharacterStatus.MoveState
 - uid: CatchIo.PlayerCharacter.CharacterStatus.Name
@@ -5031,12 +5069,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
   fullName: CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
   nameWithType: CharacterStatus.OnHealthAmountChanged
-- uid: CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
-  name: OnHealthChanged
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnHealthChanged
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnHealthChanged
-  nameWithType: CharacterStatus.OnHealthChanged
 - uid: CatchIo.PlayerCharacter.CharacterStatus.OnLookDirectionChanged
   name: OnLookDirectionChanged
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnLookDirectionChanged
@@ -5049,12 +5081,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
   fullName: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
   nameWithType: CharacterStatus.OnStaminaAmountChanged
-- uid: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaChanged
-  name: OnStaminaChanged
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnStaminaChanged
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnStaminaChanged
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaChanged
-  nameWithType: CharacterStatus.OnStaminaChanged
 - uid: CatchIo.PlayerCharacter.CharacterStatus.RecoverStamina
   name: RecoverStamina()
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RecoverStamina
@@ -5068,38 +5094,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.RecoverStamina
   nameWithType: CharacterStatus.RecoverStamina
-- uid: CatchIo.PlayerCharacter.CharacterStatus.RunSpeed
-  name: RunSpeed
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RunSpeed
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.RunSpeed
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.RunSpeed
-  nameWithType: CharacterStatus.RunSpeed
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SetCanHide(System.Single,System.Boolean)
-  name: SetCanHide(Single, Boolean)
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetCanHide_System_Single_System_Boolean_
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.SetCanHide(System.Single,System.Boolean)
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetCanHide(System.Single, System.Boolean)
-  nameWithType: CharacterStatus.SetCanHide(Single, Boolean)
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SetCanHide*
-  name: SetCanHide
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetCanHide_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.SetCanHide
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetCanHide
-  nameWithType: CharacterStatus.SetCanHide
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea(System.Single)
-  name: SetCharacterArea(Single)
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetCharacterArea_System_Single_
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea(System.Single)
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea(System.Single)
-  nameWithType: CharacterStatus.SetCharacterArea(Single)
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea*
-  name: SetCharacterArea
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetCharacterArea_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetCharacterArea
-  nameWithType: CharacterStatus.SetCharacterArea
+- uid: CatchIo.PlayerCharacter.CharacterStatus.RunSpeedAmplification
+  name: RunSpeedAmplification
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RunSpeedAmplification
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.RunSpeedAmplification
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.RunSpeedAmplification
+  nameWithType: CharacterStatus.RunSpeedAmplification
 - uid: CatchIo.PlayerCharacter.CharacterStatus.SetHiding
   name: SetHiding()
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetHiding
@@ -5139,31 +5139,24 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.SetViewAngle
   nameWithType: CharacterStatus.SetViewAngle
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SneakSpeed
-  name: SneakSpeed
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SneakSpeed
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.SneakSpeed
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SneakSpeed
-  nameWithType: CharacterStatus.SneakSpeed
+- uid: CatchIo.PlayerCharacter.CharacterStatus.SneakSpeedAmplification
+  name: SneakSpeedAmplification
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SneakSpeedAmplification
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.SneakSpeedAmplification
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.SneakSpeedAmplification
+  nameWithType: CharacterStatus.SneakSpeedAmplification
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Stamina
+  name: Stamina
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Stamina
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Stamina
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Stamina
+  nameWithType: CharacterStatus.Stamina
 - uid: CatchIo.PlayerCharacter.CharacterStatus.StaminaRecoveryPerSec
   name: StaminaRecoveryPerSec
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_StaminaRecoveryPerSec
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.StaminaRecoveryPerSec
   fullName: CatchIo.PlayerCharacter.CharacterStatus.StaminaRecoveryPerSec
   nameWithType: CharacterStatus.StaminaRecoveryPerSec
-- uid: CatchIo.PlayerCharacter.CharacterStatus.StaminaVal
-  name: StaminaVal
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_StaminaVal
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.StaminaVal
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.StaminaVal
-  nameWithType: CharacterStatus.StaminaVal
-- uid: CatchIo.PlayerCharacter.CharacterStatus.StaminaVal*
-  name: StaminaVal
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_StaminaVal_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.StaminaVal
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.StaminaVal
-  nameWithType: CharacterStatus.StaminaVal
 - uid: CatchIo.PlayerCharacter.CharacterStatus.StopPower
   name: StopPower
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_StopPower
@@ -5220,12 +5213,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.UseStaminaPerSec
   nameWithType: CharacterStatus.UseStaminaPerSec
-- uid: CatchIo.PlayerCharacter.CharacterStatus.WalkSpeed
-  name: WalkSpeed
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_WalkSpeed
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.WalkSpeed
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.WalkSpeed
-  nameWithType: CharacterStatus.WalkSpeed
 - uid: CatchIo.PlayerCharacter.IDamageable
   name: IDamageable
   href: api/CatchIo.PlayerCharacter.IDamageable.html
