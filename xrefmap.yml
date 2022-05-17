@@ -4920,7 +4920,14 @@ references:
 - uid: CatchIo.PlayerCharacter.CharacterStatus.Health
   name: Health
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Health
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Health
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.Health
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Health
+  nameWithType: CharacterStatus.Health
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Health*
+  name: Health
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Health_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.Health
+  isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.Health
   nameWithType: CharacterStatus.Health
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsDead
@@ -5069,24 +5076,24 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.Name
   nameWithType: CharacterStatus.Name
-- uid: CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
-  name: OnHealthAmountChanged
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnHealthAmountChanged
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnHealthAmountChanged
-  nameWithType: CharacterStatus.OnHealthAmountChanged
+- uid: CatchIo.PlayerCharacter.CharacterStatus.OnHealth01Changed
+  name: OnHealth01Changed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnHealth01Changed
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnHealth01Changed
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnHealth01Changed
+  nameWithType: CharacterStatus.OnHealth01Changed
 - uid: CatchIo.PlayerCharacter.CharacterStatus.OnLookDirectionChanged
   name: OnLookDirectionChanged
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnLookDirectionChanged
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnLookDirectionChanged
   fullName: CatchIo.PlayerCharacter.CharacterStatus.OnLookDirectionChanged
   nameWithType: CharacterStatus.OnLookDirectionChanged
-- uid: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
-  name: OnStaminaAmountChanged
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnStaminaAmountChanged
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnStaminaAmountChanged
-  nameWithType: CharacterStatus.OnStaminaAmountChanged
+- uid: CatchIo.PlayerCharacter.CharacterStatus.OnStamina01Changed
+  name: OnStamina01Changed
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_OnStamina01Changed
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.OnStamina01Changed
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.OnStamina01Changed
+  nameWithType: CharacterStatus.OnStamina01Changed
 - uid: CatchIo.PlayerCharacter.CharacterStatus.RecoverStamina
   name: RecoverStamina()
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_RecoverStamina
@@ -5154,7 +5161,14 @@ references:
 - uid: CatchIo.PlayerCharacter.CharacterStatus.Stamina
   name: Stamina
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Stamina
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.Stamina
+  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.Stamina
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.Stamina
+  nameWithType: CharacterStatus.Stamina
+- uid: CatchIo.PlayerCharacter.CharacterStatus.Stamina*
+  name: Stamina
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Stamina_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.Stamina
+  isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.Stamina
   nameWithType: CharacterStatus.Stamina
 - uid: CatchIo.PlayerCharacter.CharacterStatus.StaminaRecoveryPerSec
