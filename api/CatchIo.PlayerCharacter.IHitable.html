@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IDamageable
+    <title>Interface IHitable
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IDamageable
+    <meta name="title" content="Interface IHitable
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.2.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.IDamageable">
+            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.IHitable">
   
   
-  <h1 id="CatchIo_PlayerCharacter_IDamageable" data-uid="CatchIo.PlayerCharacter.IDamageable" class="text-break">Interface IDamageable
+  <h1 id="CatchIo_PlayerCharacter_IHitable" data-uid="CatchIo.PlayerCharacter.IHitable" class="text-break">Interface IHitable
   </h1>
   <div class="markdown level0 summary"><p>Interface for objects that can take damage.
 Object taking damage must implement the OnDamage function, and objects that gives damage should call that function and pass the damage value.</p>
@@ -89,21 +89,21 @@ Object taking damage must implement the OnDamage function, and objects that give
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.html">CatchIo.PlayerCharacter</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_PlayerCharacter_IDamageable_syntax">Syntax</h5>
+  <h5 id="CatchIo_PlayerCharacter_IHitable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDamageable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IHitable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_PlayerCharacter_IDamageable_OnDamage_" data-uid="CatchIo.PlayerCharacter.IDamageable.OnDamage*"></a>
-  <h4 id="CatchIo_PlayerCharacter_IDamageable_OnDamage_CatchIo_PlayerCharacter_Character_System_Single_" data-uid="CatchIo.PlayerCharacter.IDamageable.OnDamage(CatchIo.PlayerCharacter.Character,System.Single)">OnDamage(Character, Single)</h4>
+  <a id="CatchIo_PlayerCharacter_IHitable_OnHit_" data-uid="CatchIo.PlayerCharacter.IHitable.OnHit*"></a>
+  <h4 id="CatchIo_PlayerCharacter_IHitable_OnHit_CatchIo_PlayerCharacter_Character_System_Single_" data-uid="CatchIo.PlayerCharacter.IHitable.OnHit(CatchIo.PlayerCharacter.Character,System.Single)">OnHit(Character, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnDamage(Character attacker, float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnHit(Character attacker, float damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

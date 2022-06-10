@@ -96,20 +96,64 @@ Such tasks includes local player instance management, platform controller manage
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Managers_GameSession_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameSession</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class GameSession</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="CatchIo_Managers_GameSession__ctor_" data-uid="CatchIo.Managers.GameSession.#ctor*"></a>
-  <h4 id="CatchIo_Managers_GameSession__ctor" data-uid="CatchIo.Managers.GameSession.#ctor">GameSession()</h4>
+  <h4 id="CatchIo_Managers_GameSession__ctor_CatchIo_GameMode_GameMode_" data-uid="CatchIo.Managers.GameSession.#ctor(CatchIo.GameMode.GameMode)">GameSession(GameMode)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameSession()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameSession(GameMode gameMode)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.GameMode.GameMode.html">GameMode</a></td>
+        <td><span class="parametername">gameMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Managers_GameSession_CharacterKillCounts" data-uid="CatchIo.Managers.GameSession.CharacterKillCounts">CharacterKillCounts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, int&gt; CharacterKillCounts</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -133,6 +177,31 @@ Such tasks includes local player instance management, platform controller manage
     <tbody>
       <tr>
         <td><span class="xref">CharacterSpawnPointManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_GameSession_CurrentGameMode_" data-uid="CatchIo.Managers.GameSession.CurrentGameMode*"></a>
+  <h4 id="CatchIo_Managers_GameSession_CurrentGameMode" data-uid="CatchIo.Managers.GameSession.CurrentGameMode">CurrentGameMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameMode CurrentGameMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.GameMode.GameMode.html">GameMode</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -193,13 +262,45 @@ This is generally the same as the local player instance provided by Photon Netwo
   </h3>
   
   
+  <a id="CatchIo_Managers_GameSession_OnCharacterEvent_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent*"></a>
+  <h4 id="CatchIo_Managers_GameSession_OnCharacterEvent_System_Int32_System_String_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent(System.Int32,System.String)">OnCharacterEvent(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCharacterEvent(int viewId, string msg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">viewId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Managers_GameSession_SpawnCharacter_" data-uid="CatchIo.Managers.GameSession.SpawnCharacter*"></a>
   <h4 id="CatchIo_Managers_GameSession_SpawnCharacter_System_Int32_" data-uid="CatchIo.Managers.GameSession.SpawnCharacter(System.Int32)">SpawnCharacter(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SpawnCharacter(int spawnPointId)</code></pre>
+    <pre><code class="lang-csharp hljs">public Character SpawnCharacter(int spawnPointId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,6 +319,21 @@ This is generally the same as the local player instance provided by Photon Netwo
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Character</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Managers_GameSession_SpawnDummyCharacter_" data-uid="CatchIo.Managers.GameSession.SpawnDummyCharacter*"></a>
@@ -226,8 +342,23 @@ This is generally the same as the local player instance provided by Photon Netwo
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SpawnDummyCharacter()</code></pre>
+    <pre><code class="lang-csharp hljs">public Character SpawnDummyCharacter()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Character</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

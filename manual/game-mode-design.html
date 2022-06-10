@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.PlayerCharacter
-   | Catch.io Developer Reference </title>
+    <title>Game mode design | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.PlayerCharacter
-   | Catch.io Developer Reference ">
+    <meta name="title" content="Game mode design | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.2.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
     <link rel="shortcut icon" href="../resources/favicon.ico">
@@ -78,70 +76,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter">
-  
-  <h1 id="CatchIo_PlayerCharacter" data-uid="CatchIo.PlayerCharacter" class="text-break">Namespace CatchIo.PlayerCharacter
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.Character.html">Character</a></h4>
-      <section><p>Base class for all character data control.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterAnimation.html">CharacterAnimation</a></h4>
-      <section><p>This class plays player animations in animator.
-TODO : Make this an element of CharacterRenderer.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterController.html">CharacterController</a></h4>
-      <section><p>Base class for character control by player inputs.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterFOV.html">CharacterFOV</a></h4>
-      <section><p>This class implements the FOV light effect behavior that is controlled by the player character&apos;s view.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterHitbox.html">CharacterHitbox</a></h4>
-      <section><p>This class performs to character collider.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterItemCollector.html">CharacterItemCollector</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterRenderer.html">CharacterRenderer</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterSkin.html">CharacterSkin</a></h4>
-      <section><p>Base class for character skin.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterStatus.html">CharacterStatus</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.Inventory.html">Inventory</a></h4>
-      <section><p>This class is container for items.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.InventoryController.html">InventoryController</a></h4>
-      <section><p>This class controls what Inventory class related to.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.SurfaceDetector.html">SurfaceDetector</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.SurfaceEffectPlayer.html">SurfaceEffectPlayer</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.TestCharacter.html">TestCharacter</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.IHitable.html">IHitable</a></h4>
-      <section><p>Interface for objects that can take damage.
-Object taking damage must implement the OnDamage function, and objects that gives damage should call that function and pass the damage value.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.ISurfaceObservable.html">ISurfaceObservable</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterActionState.html">CharacterActionState</a></h4>
-      <section><p>Enum for character action states.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterDirectionState.html">CharacterDirectionState</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.PlayerCharacter.CharacterMoveState.html">CharacterMoveState</a></h4>
-      <section><p>Enum for character move state.</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="game-mode-design">Game mode design</h1>
+
+<p>This chapter will explain how to make the game mode and how to implement the game mode. The game mode is a core system of our project.</p>
+<h2 id="game-mode-structure">Game mode structure</h2>
+<p>The game mode is scriptable object and a game session require the game mode that the host(room master) selected.
+<a href="https://mermaid.live/edit#pako:eNptUsFOwzAM_ZUo4tDC-IHeYEzTJAZIBXHpxTRuF9EmVeIC07R9OyZdM1YtlyR-79lPtneytAplJssGvH_QUDtoCyP4hIhYQotrpuyGoBA32pBYw89LA1t0c9sbitB8Aw5KQpcTUO_F5B95VWOBQmoGHL3qFl0EP6xtxBxM3sG3WRG2EXnUng4x5-GU3p9TBmv3fVUdxOnNpJF2G2qsfHSAKkIXvF3AFg10HtWAxupBkaTx_9YpIEzS6xi5817XJthJpt3y4Ur_5TtzmKTiz3YEl0jv2hh0nP_Uion2-WvAp8pxrCvDVU2JiSenTS1ajj0xll7FyQ-y_agejpxJnlkLWvHuhN0oJG2QuyEzfipwn4UszJ55fWjCQmmyTmYVNB5nEnqy-daUMiPX40g67t-Rtf8FACjYPg"><img src="https://mermaid.ink/img/pako:eNptUsFOwzAM_ZUo4tDC-IHeYEzTJAZIBXHpxTRuF9EmVeIC07R9OyZdM1YtlyR-79lPtneytAplJssGvH_QUDtoCyP4hIhYQotrpuyGoBA32pBYw89LA1t0c9sbitB8Aw5KQpcTUO_F5B95VWOBQmoGHL3qFl0EP6xtxBxM3sG3WRG2EXnUng4x5-GU3p9TBmv3fVUdxOnNpJF2G2qsfHSAKkIXvF3AFg10HtWAxupBkaTx_9YpIEzS6xi5817XJthJpt3y4Ur_5TtzmKTiz3YEl0jv2hh0nP_Uion2-WvAp8pxrCvDVU2JiSenTS1ajj0xll7FyQ-y_agejpxJnlkLWvHuhN0oJG2QuyEzfipwn4UszJ55fWjCQmmyTmYVNB5nEnqy-daUMiPX40g67t-Rtf8FACjYPg" alt=""></a></p>
+<p><br>
+<br></p>
+<h2 id="how-to-make-the-game-mode">How to make the game mode</h2>
+<p>If you want to make a new game mode, you have to inherit the <code>GameMode</code> class. (You have to create game mode instance on <em>Resources/ScriptableObjects/GameMode</em> directory)</p>
+<p>For example,</p>
+<pre><code>[CreateAssetMenu(fileName = &quot;GameModeName&quot;, 
+menuName&quot;GameMode/GameModeName&quot;, order = 0)]
+    public class NewGameMode : GameMode
+    {
+        ...
+    }
+</code></pre><p><img src="../resources/game-mode-create.png" alt="game-mode-create">
+<br>
+<br></p>
+<p>And you have to add the game mode dropdown option.
+<img src="../resources/game-mode-dropdown.png" alt="game-mode-dropdown-hierarchy">
+<img src="../resources/game-mode-dropdown-option.png" alt="game-mode-dropdown-option"></p>
 </article>
           </div>
           
@@ -149,6 +107,9 @@ Object taking damage must implement the OnDamage function, and objects that give
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/main/Documentation/manual/game-mode-design.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

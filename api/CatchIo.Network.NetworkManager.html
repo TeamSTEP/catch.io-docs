@@ -100,6 +100,54 @@
   </h3>
   
   
+  <h4 id="CatchIo_Network_NetworkManager_CUSTOM_GAME_MODE" data-uid="CatchIo.Network.NetworkManager.CUSTOM_GAME_MODE">CUSTOM_GAME_MODE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string CUSTOM_GAME_MODE = &quot;CGM&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_NetworkManager_CUSTOM_GAME_SESSION_LOADED" data-uid="CatchIo.Network.NetworkManager.CUSTOM_GAME_SESSION_LOADED">CUSTOM_GAME_SESSION_LOADED</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string CUSTOM_GAME_SESSION_LOADED = &quot;CGSL&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="CatchIo_Network_NetworkManager_CUSTOM_PLAYER_CLASS" data-uid="CatchIo.Network.NetworkManager.CUSTOM_PLAYER_CLASS">CUSTOM_PLAYER_CLASS</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -1183,6 +1231,31 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Network_NetworkManager_SelectedGameMode_" data-uid="CatchIo.Network.NetworkManager.SelectedGameMode*"></a>
+  <h4 id="CatchIo_Network_NetworkManager_SelectedGameMode" data-uid="CatchIo.Network.NetworkManager.SelectedGameMode">SelectedGameMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameMode SelectedGameMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.GameMode.GameMode.html">GameMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -1361,12 +1434,12 @@
   
   
   <a id="CatchIo_Network_NetworkManager_CreateRoom_" data-uid="CatchIo.Network.NetworkManager.CreateRoom*"></a>
-  <h4 id="CatchIo_Network_NetworkManager_CreateRoom_System_String_System_String_System_Byte_" data-uid="CatchIo.Network.NetworkManager.CreateRoom(System.String,System.String,System.Byte)">CreateRoom(String, String, Byte)</h4>
+  <h4 id="CatchIo_Network_NetworkManager_CreateRoom_System_String_System_String_System_String_" data-uid="CatchIo.Network.NetworkManager.CreateRoom(System.String,System.String,System.String)">CreateRoom(String, String, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateRoom(string roomName, string mapName, byte maxConnections)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateRoom(string roomName, string mapName, string gameMode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1389,8 +1462,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
-        <td><span class="parametername">maxConnections</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">gameMode</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2111,60 +2184,6 @@
   </table>
   
   
-  <a id="CatchIo_Network_NetworkManager_SetMapName_" data-uid="CatchIo.Network.NetworkManager.SetMapName*"></a>
-  <h4 id="CatchIo_Network_NetworkManager_SetMapName_System_String_" data-uid="CatchIo.Network.NetworkManager.SetMapName(System.String)">SetMapName(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetMapName(string mapName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">mapName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Network_NetworkManager_SetMaxConnections_" data-uid="CatchIo.Network.NetworkManager.SetMaxConnections*"></a>
-  <h4 id="CatchIo_Network_NetworkManager_SetMaxConnections_System_Byte_" data-uid="CatchIo.Network.NetworkManager.SetMaxConnections(System.Byte)">SetMaxConnections(Byte)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetMaxConnections(byte maxConnections)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
-        <td><span class="parametername">maxConnections</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="CatchIo_Network_NetworkManager_SetPlayerState_" data-uid="CatchIo.Network.NetworkManager.SetPlayerState*"></a>
   <h4 id="CatchIo_Network_NetworkManager_SetPlayerState_CatchIo_Network_NetworkManager_PlayerState_" data-uid="CatchIo.Network.NetworkManager.SetPlayerState(CatchIo.Network.NetworkManager.PlayerState)">SetPlayerState(NetworkManager.PlayerState)</h4>
   <div class="markdown level1 summary"></div>
@@ -2186,33 +2205,6 @@
       <tr>
         <td><a class="xref" href="CatchIo.Network.NetworkManager.PlayerState.html">NetworkManager.PlayerState</a></td>
         <td><span class="parametername">playerState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Network_NetworkManager_SetRoomName_" data-uid="CatchIo.Network.NetworkManager.SetRoomName*"></a>
-  <h4 id="CatchIo_Network_NetworkManager_SetRoomName_System_String_" data-uid="CatchIo.Network.NetworkManager.SetRoomName(System.String)">SetRoomName(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetRoomName(string roomName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NetworkDiscoveryData
+    <title>Class GameMode
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NetworkDiscoveryData
+    <meta name="title" content="Class GameMode
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.2.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,30 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Network.NetworkDiscoveryData">
+            <article class="content wrap" id="_content" data-uid="CatchIo.GameMode.GameMode">
   
   
-  <h1 id="CatchIo_Network_NetworkDiscoveryData" data-uid="CatchIo.Network.NetworkDiscoveryData" class="text-break">Struct NetworkDiscoveryData
+  <h1 id="CatchIo_GameMode_GameMode" data-uid="CatchIo.GameMode.GameMode" class="text-break">Class GameMode
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Network.html">CatchIo.Network</a></h6>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">GameMode</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.GameMode.CursedOneGameMode.html">CursedOneGameMode</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.GameMode.SandboxGameMode.html">SandboxGameMode</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.GameMode.TestGameMode.html">TestGameMode</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.GameMode.html">CatchIo.GameMode</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Network_NetworkDiscoveryData_syntax">Syntax</h5>
+  <h5 id="CatchIo_GameMode_GameMode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public struct NetworkDiscoveryData</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class GameMode : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_FullProperties" data-uid="CatchIo.Network.NetworkDiscoveryData.FullProperties">FullProperties</h4>
+  <h4 id="CatchIo_GameMode_GameMode_CanSpawnItem" data-uid="CatchIo.GameMode.GameMode.CanSpawnItem">CanSpawnItem</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Hashtable FullProperties</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanSpawnItem</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -113,19 +120,19 @@ public struct NetworkDiscoveryData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Hashtable</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_gameMode" data-uid="CatchIo.Network.NetworkDiscoveryData.gameMode">gameMode</h4>
+  <h4 id="CatchIo_GameMode_GameMode_Characters" data-uid="CatchIo.GameMode.GameMode.Characters">Characters</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string gameMode</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, Character&gt; Characters</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,19 +144,139 @@ public struct NetworkDiscoveryData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <span class="xref">Character</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_maxPlayers" data-uid="CatchIo.Network.NetworkDiscoveryData.maxPlayers">maxPlayers</h4>
+  <h4 id="CatchIo_GameMode_GameMode_CharacterStatus" data-uid="CatchIo.GameMode.GameMode.CharacterStatus">CharacterStatus</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int maxPlayers</code></pre>
+    <pre><code class="lang-csharp hljs">public CharacterStatus CharacterStatus</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_GameMode_GameElapsedTime" data-uid="CatchIo.GameMode.GameMode.GameElapsedTime">GameElapsedTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float GameElapsedTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_GameMode_GameStartTime" data-uid="CatchIo.GameMode.GameMode.GameStartTime">GameStartTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float GameStartTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_GameMode_GameStartTimer" data-uid="CatchIo.GameMode.GameMode.GameStartTimer">GameStartTimer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GameStartTimer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_GameMode_IsStarted" data-uid="CatchIo.GameMode.GameMode.IsStarted">IsStarted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsStarted</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_GameMode_MaxPlayerCount" data-uid="CatchIo.GameMode.GameMode.MaxPlayerCount">MaxPlayerCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxPlayerCount</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,38 +295,85 @@ public struct NetworkDiscoveryData</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_name" data-uid="CatchIo.Network.NetworkDiscoveryData.name">name</h4>
+  <h4 id="CatchIo_GameMode_GameMode_PlayerBuffs" data-uid="CatchIo.GameMode.GameMode.PlayerBuffs">PlayerBuffs</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string name</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Buff&gt; PlayerBuffs</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Buff</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_GameMode_GameMode_AssignBuffs_" data-uid="CatchIo.GameMode.GameMode.AssignBuffs*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_AssignBuffs_CharacterStatus_" data-uid="CatchIo.GameMode.GameMode.AssignBuffs(CharacterStatus)">AssignBuffs(CharacterStatus)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void AssignBuffs(CharacterStatus status)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStatus</span></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_GameMode_GameMode_GetGameModeInstance_" data-uid="CatchIo.GameMode.GameMode.GetGameModeInstance*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_GetGameModeInstance_System_String_" data-uid="CatchIo.GameMode.GameMode.GetGameModeInstance(System.String)">GetGameModeInstance(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameMode GetGameModeInstance(string modeName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">modeName</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_numPlayers" data-uid="CatchIo.Network.NetworkDiscoveryData.numPlayers">numPlayers</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int numPlayers</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -209,21 +383,22 @@ public struct NetworkDiscoveryData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="CatchIo.GameMode.GameMode.html">GameMode</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_playerId" data-uid="CatchIo.Network.NetworkDiscoveryData.playerId">playerId</h4>
+  <a id="CatchIo_GameMode_GameMode_GetWinner_" data-uid="CatchIo.GameMode.GameMode.GetWinner*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_GetWinner" data-uid="CatchIo.GameMode.GameMode.GetWinner">GetWinner()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string playerId</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract Character GetWinner()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -233,21 +408,22 @@ public struct NetworkDiscoveryData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">Character</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_playerName" data-uid="CatchIo.Network.NetworkDiscoveryData.playerName">playerName</h4>
+  <a id="CatchIo_GameMode_GameMode_IsGameOver_" data-uid="CatchIo.GameMode.GameMode.IsGameOver*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_IsGameOver" data-uid="CatchIo.GameMode.GameMode.IsGameOver">IsGameOver()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string playerName</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract bool IsGameOver()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -257,21 +433,22 @@ public struct NetworkDiscoveryData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_roomName" data-uid="CatchIo.Network.NetworkDiscoveryData.roomName">roomName</h4>
+  <a id="CatchIo_GameMode_GameMode_IsGameStarted_" data-uid="CatchIo.GameMode.GameMode.IsGameStarted*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_IsGameStarted" data-uid="CatchIo.GameMode.GameMode.IsGameStarted">IsGameStarted()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string roomName</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsGameStarted()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -281,59 +458,31 @@ public struct NetworkDiscoveryData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_sceneName" data-uid="CatchIo.Network.NetworkDiscoveryData.sceneName">sceneName</h4>
+  <a id="CatchIo_GameMode_GameMode_Logic_" data-uid="CatchIo.GameMode.GameMode.Logic*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_Logic" data-uid="CatchIo.GameMode.GameMode.Logic">Logic()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string sceneName</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Logic()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_state" data-uid="CatchIo.Network.NetworkDiscoveryData.state">state</h4>
+  <a id="CatchIo_GameMode_GameMode_Start_" data-uid="CatchIo.GameMode.GameMode.Start*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_Start" data-uid="CatchIo.GameMode.GameMode.Start">Start()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte state</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
