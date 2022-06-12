@@ -464,11 +464,6 @@
     "title": "Class CharacterActionSfx | Catch.io Developer Reference",
     "keywords": "Class CharacterActionSfx Inheritance Object Sfx CharacterActionSfx Inherited Members Sfx.EventInstance Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class CharacterActionSfx : Sfx Constructors CharacterActionSfx() Declaration public CharacterActionSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string characterActionType, float volume = 1F) Parameters Type Name Description Vector3 generatePos String characterActionType Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
-  "api/CatchIo.Sound.EnvironmentSFXPlayer.html": {
-    "href": "api/CatchIo.Sound.EnvironmentSFXPlayer.html",
-    "title": "Class EnvironmentSFXPlayer | Catch.io Developer Reference",
-    "keywords": "Class EnvironmentSFXPlayer Inheritance Object EnvironmentSFXPlayer Namespace : CatchIo.Sound Assembly : cs.temp.dll.dll Syntax public class EnvironmentSFXPlayer : MonoBehaviour"
-  },
   "api/CatchIo.Sound.FootstepSfx.html": {
     "href": "api/CatchIo.Sound.FootstepSfx.html",
     "title": "Class FootstepSfx | Catch.io Developer Reference",
@@ -477,7 +472,7 @@
   "api/CatchIo.Sound.html": {
     "href": "api/CatchIo.Sound.html",
     "title": "Namespace CatchIo.Sound | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Sound Classes CharacterActionSfx EnvironmentSFXPlayer FootstepSfx ItemSfx Sfx SoundManager TerrainSfx"
+    "keywords": "Namespace CatchIo.Sound Classes CharacterActionSfx FootstepSfx ItemSfx Sfx SoundManager TerrainSfx"
   },
   "api/CatchIo.Sound.ItemSfx.html": {
     "href": "api/CatchIo.Sound.ItemSfx.html",
@@ -657,12 +652,7 @@
   "api/CatchIo.Util.html": {
     "href": "api/CatchIo.Util.html",
     "title": "Namespace CatchIo.Util | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Util Classes CastTo<T> EditorGameLoader One-time utility component that adds the manager scene and the UI scene to the current game scene and destroys itself. ExtensionMethods LocalPlayerDetector Math NotifyBooleanPropertyChanged This class has events called when the boolean value is changed compared to the previous value. SceneControl Singleton<T> SingletonMonoBehaviour<T>"
-  },
-  "api/CatchIo.Util.LocalPlayerDetector.html": {
-    "href": "api/CatchIo.Util.LocalPlayerDetector.html",
-    "title": "Class LocalPlayerDetector | Catch.io Developer Reference",
-    "keywords": "Class LocalPlayerDetector Inheritance Object LocalPlayerDetector Namespace : CatchIo.Util Assembly : cs.temp.dll.dll Syntax public class LocalPlayerDetector : MonoBehaviour Fields OnDetected Declaration public Action OnDetected Field Value Type Description Action OnMissed Declaration public Action OnMissed Field Value Type Description Action"
+    "keywords": "Namespace CatchIo.Util Classes CastTo<T> EditorGameLoader One-time utility component that adds the manager scene and the UI scene to the current game scene and destroys itself. ExtensionMethods Math NotifyBooleanPropertyChanged This class has events called when the boolean value is changed compared to the previous value. SceneControl Singleton<T> SingletonMonoBehaviour<T>"
   },
   "api/CatchIo.Util.Math.html": {
     "href": "api/CatchIo.Util.Math.html",
