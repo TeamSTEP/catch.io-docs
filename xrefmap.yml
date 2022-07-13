@@ -278,6 +278,37 @@ references:
   isSpec: "True"
   fullName: CatchIo.Deployable.TrapObject.OnHit
   nameWithType: TrapObject.OnHit
+- uid: CatchIo.Deployable.TrapObject.OverlapCircleOffset
+  name: OverlapCircleOffset
+  href: api/CatchIo.Deployable.TrapObject.html#CatchIo_Deployable_TrapObject_OverlapCircleOffset
+  commentId: F:CatchIo.Deployable.TrapObject.OverlapCircleOffset
+  fullName: CatchIo.Deployable.TrapObject.OverlapCircleOffset
+  nameWithType: TrapObject.OverlapCircleOffset
+- uid: CatchIo.Deployable.TrapObject.OverlapCircleRadius
+  name: OverlapCircleRadius
+  href: api/CatchIo.Deployable.TrapObject.html#CatchIo_Deployable_TrapObject_OverlapCircleRadius
+  commentId: F:CatchIo.Deployable.TrapObject.OverlapCircleRadius
+  fullName: CatchIo.Deployable.TrapObject.OverlapCircleRadius
+  nameWithType: TrapObject.OverlapCircleRadius
+- uid: CatchIo.Deployable.TrapObject.Owner
+  name: Owner
+  href: api/CatchIo.Deployable.TrapObject.html#CatchIo_Deployable_TrapObject_Owner
+  commentId: F:CatchIo.Deployable.TrapObject.Owner
+  fullName: CatchIo.Deployable.TrapObject.Owner
+  nameWithType: TrapObject.Owner
+- uid: CatchIo.Deployable.TrapObject.RPC_SetOwner(System.Int32)
+  name: RPC_SetOwner(Int32)
+  href: api/CatchIo.Deployable.TrapObject.html#CatchIo_Deployable_TrapObject_RPC_SetOwner_System_Int32_
+  commentId: M:CatchIo.Deployable.TrapObject.RPC_SetOwner(System.Int32)
+  fullName: CatchIo.Deployable.TrapObject.RPC_SetOwner(System.Int32)
+  nameWithType: TrapObject.RPC_SetOwner(Int32)
+- uid: CatchIo.Deployable.TrapObject.RPC_SetOwner*
+  name: RPC_SetOwner
+  href: api/CatchIo.Deployable.TrapObject.html#CatchIo_Deployable_TrapObject_RPC_SetOwner_
+  commentId: Overload:CatchIo.Deployable.TrapObject.RPC_SetOwner
+  isSpec: "True"
+  fullName: CatchIo.Deployable.TrapObject.RPC_SetOwner
+  nameWithType: TrapObject.RPC_SetOwner
 - uid: CatchIo.Deployable.TrapObject.RPC_TakeDamage(System.Single)
   name: RPC_TakeDamage(Single)
   href: api/CatchIo.Deployable.TrapObject.html#CatchIo_Deployable_TrapObject_RPC_TakeDamage_System_Single_
@@ -304,6 +335,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Deployable.TrapObject.TakeDamage
   nameWithType: TrapObject.TakeDamage
+- uid: CatchIo.Deployable.TrapObject.TargetLayerMask
+  name: TargetLayerMask
+  href: api/CatchIo.Deployable.TrapObject.html#CatchIo_Deployable_TrapObject_TargetLayerMask
+  commentId: F:CatchIo.Deployable.TrapObject.TargetLayerMask
+  fullName: CatchIo.Deployable.TrapObject.TargetLayerMask
+  nameWithType: TrapObject.TargetLayerMask
 - uid: CatchIo.DevUtil
   name: CatchIo.DevUtil
   href: api/CatchIo.DevUtil.html
@@ -709,6 +746,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Environment.CharacterSpawnPoint.CanSpawn
   nameWithType: CharacterSpawnPoint.CanSpawn
+- uid: CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint
+  name: GetRespawnPoint()
+  href: api/CatchIo.Environment.CharacterSpawnPoint.html#CatchIo_Environment_CharacterSpawnPoint_GetRespawnPoint
+  commentId: M:CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint
+  fullName: CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint()
+  nameWithType: CharacterSpawnPoint.GetRespawnPoint()
+- uid: CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint*
+  name: GetRespawnPoint
+  href: api/CatchIo.Environment.CharacterSpawnPoint.html#CatchIo_Environment_CharacterSpawnPoint_GetRespawnPoint_
+  commentId: Overload:CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint
+  isSpec: "True"
+  fullName: CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint
+  nameWithType: CharacterSpawnPoint.GetRespawnPoint
 - uid: CatchIo.Environment.CharacterSpawnPoint.GetSpawnPoint
   name: GetSpawnPoint()
   href: api/CatchIo.Environment.CharacterSpawnPoint.html#CatchIo_Environment_CharacterSpawnPoint_GetSpawnPoint
@@ -780,6 +830,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Environment.CharacterSpawnPointManager.FindSpawnPoints
   nameWithType: CharacterSpawnPointManager.FindSpawnPoints
+- uid: CatchIo.Environment.CharacterSpawnPointManager.GetRandomRespawnPoint
+  name: GetRandomRespawnPoint()
+  href: api/CatchIo.Environment.CharacterSpawnPointManager.html#CatchIo_Environment_CharacterSpawnPointManager_GetRandomRespawnPoint
+  commentId: M:CatchIo.Environment.CharacterSpawnPointManager.GetRandomRespawnPoint
+  fullName: CatchIo.Environment.CharacterSpawnPointManager.GetRandomRespawnPoint()
+  nameWithType: CharacterSpawnPointManager.GetRandomRespawnPoint()
+- uid: CatchIo.Environment.CharacterSpawnPointManager.GetRandomRespawnPoint*
+  name: GetRandomRespawnPoint
+  href: api/CatchIo.Environment.CharacterSpawnPointManager.html#CatchIo_Environment_CharacterSpawnPointManager_GetRandomRespawnPoint_
+  commentId: Overload:CatchIo.Environment.CharacterSpawnPointManager.GetRandomRespawnPoint
+  isSpec: "True"
+  fullName: CatchIo.Environment.CharacterSpawnPointManager.GetRandomRespawnPoint
+  nameWithType: CharacterSpawnPointManager.GetRandomRespawnPoint
 - uid: CatchIo.Environment.CharacterSpawnPointManager.GetRandomSpawnPointId
   name: GetRandomSpawnPointId()
   href: api/CatchIo.Environment.CharacterSpawnPointManager.html#CatchIo_Environment_CharacterSpawnPointManager_GetRandomSpawnPointId
@@ -1009,6 +1072,19 @@ references:
   commentId: T:CatchIo.GameMode.CursedOneGameMode
   fullName: CatchIo.GameMode.CursedOneGameMode
   nameWithType: CursedOneGameMode
+- uid: CatchIo.GameMode.CursedOneGameMode.GetPointSystem
+  name: GetPointSystem()
+  href: api/CatchIo.GameMode.CursedOneGameMode.html#CatchIo_GameMode_CursedOneGameMode_GetPointSystem
+  commentId: M:CatchIo.GameMode.CursedOneGameMode.GetPointSystem
+  fullName: CatchIo.GameMode.CursedOneGameMode.GetPointSystem()
+  nameWithType: CursedOneGameMode.GetPointSystem()
+- uid: CatchIo.GameMode.CursedOneGameMode.GetPointSystem*
+  name: GetPointSystem
+  href: api/CatchIo.GameMode.CursedOneGameMode.html#CatchIo_GameMode_CursedOneGameMode_GetPointSystem_
+  commentId: Overload:CatchIo.GameMode.CursedOneGameMode.GetPointSystem
+  isSpec: "True"
+  fullName: CatchIo.GameMode.CursedOneGameMode.GetPointSystem
+  nameWithType: CursedOneGameMode.GetPointSystem
 - uid: CatchIo.GameMode.CursedOneGameMode.GetWinner
   name: GetWinner()
   href: api/CatchIo.GameMode.CursedOneGameMode.html#CatchIo_GameMode_CursedOneGameMode_GetWinner
@@ -1035,19 +1111,121 @@ references:
   isSpec: "True"
   fullName: CatchIo.GameMode.CursedOneGameMode.IsGameOver
   nameWithType: CursedOneGameMode.IsGameOver
-- uid: CatchIo.GameMode.CursedOneGameMode.Logic
-  name: Logic()
-  href: api/CatchIo.GameMode.CursedOneGameMode.html#CatchIo_GameMode_CursedOneGameMode_Logic
-  commentId: M:CatchIo.GameMode.CursedOneGameMode.Logic
-  fullName: CatchIo.GameMode.CursedOneGameMode.Logic()
-  nameWithType: CursedOneGameMode.Logic()
-- uid: CatchIo.GameMode.CursedOneGameMode.Logic*
-  name: Logic
-  href: api/CatchIo.GameMode.CursedOneGameMode.html#CatchIo_GameMode_CursedOneGameMode_Logic_
-  commentId: Overload:CatchIo.GameMode.CursedOneGameMode.Logic
+- uid: CatchIo.GameMode.CursedOneGameMode.UpdateMasterClientOnly
+  name: UpdateMasterClientOnly()
+  href: api/CatchIo.GameMode.CursedOneGameMode.html#CatchIo_GameMode_CursedOneGameMode_UpdateMasterClientOnly
+  commentId: M:CatchIo.GameMode.CursedOneGameMode.UpdateMasterClientOnly
+  fullName: CatchIo.GameMode.CursedOneGameMode.UpdateMasterClientOnly()
+  nameWithType: CursedOneGameMode.UpdateMasterClientOnly()
+- uid: CatchIo.GameMode.CursedOneGameMode.UpdateMasterClientOnly*
+  name: UpdateMasterClientOnly
+  href: api/CatchIo.GameMode.CursedOneGameMode.html#CatchIo_GameMode_CursedOneGameMode_UpdateMasterClientOnly_
+  commentId: Overload:CatchIo.GameMode.CursedOneGameMode.UpdateMasterClientOnly
   isSpec: "True"
-  fullName: CatchIo.GameMode.CursedOneGameMode.Logic
-  nameWithType: CursedOneGameMode.Logic
+  fullName: CatchIo.GameMode.CursedOneGameMode.UpdateMasterClientOnly
+  nameWithType: CursedOneGameMode.UpdateMasterClientOnly
+- uid: CatchIo.GameMode.DeathMatchGameMode
+  name: DeathMatchGameMode
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html
+  commentId: T:CatchIo.GameMode.DeathMatchGameMode
+  fullName: CatchIo.GameMode.DeathMatchGameMode
+  nameWithType: DeathMatchGameMode
+- uid: CatchIo.GameMode.DeathMatchGameMode.DeathMatchPointSystem
+  name: DeathMatchPointSystem
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_DeathMatchPointSystem
+  commentId: F:CatchIo.GameMode.DeathMatchGameMode.DeathMatchPointSystem
+  fullName: CatchIo.GameMode.DeathMatchGameMode.DeathMatchPointSystem
+  nameWithType: DeathMatchGameMode.DeathMatchPointSystem
+- uid: CatchIo.GameMode.DeathMatchGameMode.GameDurationTime
+  name: GameDurationTime
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_GameDurationTime
+  commentId: F:CatchIo.GameMode.DeathMatchGameMode.GameDurationTime
+  fullName: CatchIo.GameMode.DeathMatchGameMode.GameDurationTime
+  nameWithType: DeathMatchGameMode.GameDurationTime
+- uid: CatchIo.GameMode.DeathMatchGameMode.GetPointSystem
+  name: GetPointSystem()
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_GetPointSystem
+  commentId: M:CatchIo.GameMode.DeathMatchGameMode.GetPointSystem
+  fullName: CatchIo.GameMode.DeathMatchGameMode.GetPointSystem()
+  nameWithType: DeathMatchGameMode.GetPointSystem()
+- uid: CatchIo.GameMode.DeathMatchGameMode.GetPointSystem*
+  name: GetPointSystem
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_GetPointSystem_
+  commentId: Overload:CatchIo.GameMode.DeathMatchGameMode.GetPointSystem
+  isSpec: "True"
+  fullName: CatchIo.GameMode.DeathMatchGameMode.GetPointSystem
+  nameWithType: DeathMatchGameMode.GetPointSystem
+- uid: CatchIo.GameMode.DeathMatchGameMode.GetWinner
+  name: GetWinner()
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_GetWinner
+  commentId: M:CatchIo.GameMode.DeathMatchGameMode.GetWinner
+  fullName: CatchIo.GameMode.DeathMatchGameMode.GetWinner()
+  nameWithType: DeathMatchGameMode.GetWinner()
+- uid: CatchIo.GameMode.DeathMatchGameMode.GetWinner*
+  name: GetWinner
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_GetWinner_
+  commentId: Overload:CatchIo.GameMode.DeathMatchGameMode.GetWinner
+  isSpec: "True"
+  fullName: CatchIo.GameMode.DeathMatchGameMode.GetWinner
+  nameWithType: DeathMatchGameMode.GetWinner
+- uid: CatchIo.GameMode.DeathMatchGameMode.Init
+  name: Init()
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_Init
+  commentId: M:CatchIo.GameMode.DeathMatchGameMode.Init
+  fullName: CatchIo.GameMode.DeathMatchGameMode.Init()
+  nameWithType: DeathMatchGameMode.Init()
+- uid: CatchIo.GameMode.DeathMatchGameMode.Init*
+  name: Init
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_Init_
+  commentId: Overload:CatchIo.GameMode.DeathMatchGameMode.Init
+  isSpec: "True"
+  fullName: CatchIo.GameMode.DeathMatchGameMode.Init
+  nameWithType: DeathMatchGameMode.Init
+- uid: CatchIo.GameMode.DeathMatchGameMode.IsGameOver
+  name: IsGameOver()
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_IsGameOver
+  commentId: M:CatchIo.GameMode.DeathMatchGameMode.IsGameOver
+  fullName: CatchIo.GameMode.DeathMatchGameMode.IsGameOver()
+  nameWithType: DeathMatchGameMode.IsGameOver()
+- uid: CatchIo.GameMode.DeathMatchGameMode.IsGameOver*
+  name: IsGameOver
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_IsGameOver_
+  commentId: Overload:CatchIo.GameMode.DeathMatchGameMode.IsGameOver
+  isSpec: "True"
+  fullName: CatchIo.GameMode.DeathMatchGameMode.IsGameOver
+  nameWithType: DeathMatchGameMode.IsGameOver
+- uid: CatchIo.GameMode.DeathMatchGameMode.RespawnDelayTime
+  name: RespawnDelayTime
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_RespawnDelayTime
+  commentId: F:CatchIo.GameMode.DeathMatchGameMode.RespawnDelayTime
+  fullName: CatchIo.GameMode.DeathMatchGameMode.RespawnDelayTime
+  nameWithType: DeathMatchGameMode.RespawnDelayTime
+- uid: CatchIo.GameMode.DeathMatchGameMode.UpdateAllClients
+  name: UpdateAllClients()
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_UpdateAllClients
+  commentId: M:CatchIo.GameMode.DeathMatchGameMode.UpdateAllClients
+  fullName: CatchIo.GameMode.DeathMatchGameMode.UpdateAllClients()
+  nameWithType: DeathMatchGameMode.UpdateAllClients()
+- uid: CatchIo.GameMode.DeathMatchGameMode.UpdateAllClients*
+  name: UpdateAllClients
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_UpdateAllClients_
+  commentId: Overload:CatchIo.GameMode.DeathMatchGameMode.UpdateAllClients
+  isSpec: "True"
+  fullName: CatchIo.GameMode.DeathMatchGameMode.UpdateAllClients
+  nameWithType: DeathMatchGameMode.UpdateAllClients
+- uid: CatchIo.GameMode.DeathMatchGameMode.UpdateMasterClientOnly
+  name: UpdateMasterClientOnly()
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_UpdateMasterClientOnly
+  commentId: M:CatchIo.GameMode.DeathMatchGameMode.UpdateMasterClientOnly
+  fullName: CatchIo.GameMode.DeathMatchGameMode.UpdateMasterClientOnly()
+  nameWithType: DeathMatchGameMode.UpdateMasterClientOnly()
+- uid: CatchIo.GameMode.DeathMatchGameMode.UpdateMasterClientOnly*
+  name: UpdateMasterClientOnly
+  href: api/CatchIo.GameMode.DeathMatchGameMode.html#CatchIo_GameMode_DeathMatchGameMode_UpdateMasterClientOnly_
+  commentId: Overload:CatchIo.GameMode.DeathMatchGameMode.UpdateMasterClientOnly
+  isSpec: "True"
+  fullName: CatchIo.GameMode.DeathMatchGameMode.UpdateMasterClientOnly
+  nameWithType: DeathMatchGameMode.UpdateMasterClientOnly
 - uid: CatchIo.GameMode.GameMode
   name: GameMode
   href: api/CatchIo.GameMode.GameMode.html
@@ -1073,12 +1251,6 @@ references:
   commentId: F:CatchIo.GameMode.GameMode.CanSpawnItem
   fullName: CatchIo.GameMode.GameMode.CanSpawnItem
   nameWithType: GameMode.CanSpawnItem
-- uid: CatchIo.GameMode.GameMode.Characters
-  name: Characters
-  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Characters
-  commentId: F:CatchIo.GameMode.GameMode.Characters
-  fullName: CatchIo.GameMode.GameMode.Characters
-  nameWithType: GameMode.Characters
 - uid: CatchIo.GameMode.GameMode.CharacterStatus
   name: CharacterStatus
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_CharacterStatus
@@ -1088,15 +1260,22 @@ references:
 - uid: CatchIo.GameMode.GameMode.GameElapsedTime
   name: GameElapsedTime
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameElapsedTime
-  commentId: F:CatchIo.GameMode.GameMode.GameElapsedTime
+  commentId: P:CatchIo.GameMode.GameMode.GameElapsedTime
   fullName: CatchIo.GameMode.GameMode.GameElapsedTime
   nameWithType: GameMode.GameElapsedTime
-- uid: CatchIo.GameMode.GameMode.GameStartTime
-  name: GameStartTime
-  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameStartTime
-  commentId: F:CatchIo.GameMode.GameMode.GameStartTime
-  fullName: CatchIo.GameMode.GameMode.GameStartTime
-  nameWithType: GameMode.GameStartTime
+- uid: CatchIo.GameMode.GameMode.GameElapsedTime*
+  name: GameElapsedTime
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameElapsedTime_
+  commentId: Overload:CatchIo.GameMode.GameMode.GameElapsedTime
+  isSpec: "True"
+  fullName: CatchIo.GameMode.GameMode.GameElapsedTime
+  nameWithType: GameMode.GameElapsedTime
+- uid: CatchIo.GameMode.GameMode.GameModeInitTime
+  name: GameModeInitTime
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameModeInitTime
+  commentId: F:CatchIo.GameMode.GameMode.GameModeInitTime
+  fullName: CatchIo.GameMode.GameMode.GameModeInitTime
+  nameWithType: GameMode.GameModeInitTime
 - uid: CatchIo.GameMode.GameMode.GameStartTimer
   name: GameStartTimer
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameStartTimer
@@ -1116,6 +1295,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.GameMode.GameMode.GetGameModeInstance
   nameWithType: GameMode.GetGameModeInstance
+- uid: CatchIo.GameMode.GameMode.GetPointSystem
+  name: GetPointSystem()
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GetPointSystem
+  commentId: M:CatchIo.GameMode.GameMode.GetPointSystem
+  fullName: CatchIo.GameMode.GameMode.GetPointSystem()
+  nameWithType: GameMode.GetPointSystem()
+- uid: CatchIo.GameMode.GameMode.GetPointSystem*
+  name: GetPointSystem
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GetPointSystem_
+  commentId: Overload:CatchIo.GameMode.GameMode.GetPointSystem
+  isSpec: "True"
+  fullName: CatchIo.GameMode.GameMode.GetPointSystem
+  nameWithType: GameMode.GetPointSystem
 - uid: CatchIo.GameMode.GameMode.GetWinner
   name: GetWinner()
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GetWinner
@@ -1129,6 +1321,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.GameMode.GameMode.GetWinner
   nameWithType: GameMode.GetWinner
+- uid: CatchIo.GameMode.GameMode.Init
+  name: Init()
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Init
+  commentId: M:CatchIo.GameMode.GameMode.Init
+  fullName: CatchIo.GameMode.GameMode.Init()
+  nameWithType: GameMode.Init()
+- uid: CatchIo.GameMode.GameMode.Init*
+  name: Init
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Init_
+  commentId: Overload:CatchIo.GameMode.GameMode.Init
+  isSpec: "True"
+  fullName: CatchIo.GameMode.GameMode.Init
+  nameWithType: GameMode.Init
+- uid: CatchIo.GameMode.GameMode.IsEnded
+  name: IsEnded
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsEnded
+  commentId: P:CatchIo.GameMode.GameMode.IsEnded
+  fullName: CatchIo.GameMode.GameMode.IsEnded
+  nameWithType: GameMode.IsEnded
+- uid: CatchIo.GameMode.GameMode.IsEnded*
+  name: IsEnded
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsEnded_
+  commentId: Overload:CatchIo.GameMode.GameMode.IsEnded
+  isSpec: "True"
+  fullName: CatchIo.GameMode.GameMode.IsEnded
+  nameWithType: GameMode.IsEnded
 - uid: CatchIo.GameMode.GameMode.IsGameOver
   name: IsGameOver()
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsGameOver
@@ -1158,53 +1376,183 @@ references:
 - uid: CatchIo.GameMode.GameMode.IsStarted
   name: IsStarted
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsStarted
-  commentId: F:CatchIo.GameMode.GameMode.IsStarted
+  commentId: P:CatchIo.GameMode.GameMode.IsStarted
   fullName: CatchIo.GameMode.GameMode.IsStarted
   nameWithType: GameMode.IsStarted
-- uid: CatchIo.GameMode.GameMode.Logic
-  name: Logic()
-  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Logic
-  commentId: M:CatchIo.GameMode.GameMode.Logic
-  fullName: CatchIo.GameMode.GameMode.Logic()
-  nameWithType: GameMode.Logic()
-- uid: CatchIo.GameMode.GameMode.Logic*
-  name: Logic
-  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Logic_
-  commentId: Overload:CatchIo.GameMode.GameMode.Logic
+- uid: CatchIo.GameMode.GameMode.IsStarted*
+  name: IsStarted
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsStarted_
+  commentId: Overload:CatchIo.GameMode.GameMode.IsStarted
   isSpec: "True"
-  fullName: CatchIo.GameMode.GameMode.Logic
-  nameWithType: GameMode.Logic
+  fullName: CatchIo.GameMode.GameMode.IsStarted
+  nameWithType: GameMode.IsStarted
 - uid: CatchIo.GameMode.GameMode.MaxPlayerCount
   name: MaxPlayerCount
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_MaxPlayerCount
   commentId: F:CatchIo.GameMode.GameMode.MaxPlayerCount
   fullName: CatchIo.GameMode.GameMode.MaxPlayerCount
   nameWithType: GameMode.MaxPlayerCount
+- uid: CatchIo.GameMode.GameMode.OnCharacterDead
+  name: OnCharacterDead
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_OnCharacterDead
+  commentId: F:CatchIo.GameMode.GameMode.OnCharacterDead
+  fullName: CatchIo.GameMode.GameMode.OnCharacterDead
+  nameWithType: GameMode.OnCharacterDead
+- uid: CatchIo.GameMode.GameMode.OnCharacterKilled
+  name: OnCharacterKilled
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_OnCharacterKilled
+  commentId: F:CatchIo.GameMode.GameMode.OnCharacterKilled
+  fullName: CatchIo.GameMode.GameMode.OnCharacterKilled
+  nameWithType: GameMode.OnCharacterKilled
+- uid: CatchIo.GameMode.GameMode.OnCharacterTrapped
+  name: OnCharacterTrapped
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_OnCharacterTrapped
+  commentId: F:CatchIo.GameMode.GameMode.OnCharacterTrapped
+  fullName: CatchIo.GameMode.GameMode.OnCharacterTrapped
+  nameWithType: GameMode.OnCharacterTrapped
+- uid: CatchIo.GameMode.GameMode.OnGameModeEnded
+  name: OnGameModeEnded
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_OnGameModeEnded
+  commentId: F:CatchIo.GameMode.GameMode.OnGameModeEnded
+  fullName: CatchIo.GameMode.GameMode.OnGameModeEnded
+  nameWithType: GameMode.OnGameModeEnded
+- uid: CatchIo.GameMode.GameMode.OnGameModePaused
+  name: OnGameModePaused
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_OnGameModePaused
+  commentId: F:CatchIo.GameMode.GameMode.OnGameModePaused
+  fullName: CatchIo.GameMode.GameMode.OnGameModePaused
+  nameWithType: GameMode.OnGameModePaused
+- uid: CatchIo.GameMode.GameMode.OnGameModeStarted
+  name: OnGameModeStarted
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_OnGameModeStarted
+  commentId: F:CatchIo.GameMode.GameMode.OnGameModeStarted
+  fullName: CatchIo.GameMode.GameMode.OnGameModeStarted
+  nameWithType: GameMode.OnGameModeStarted
+- uid: CatchIo.GameMode.GameMode.OnGameModeUpdatedWithElapsedTime
+  name: OnGameModeUpdatedWithElapsedTime
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_OnGameModeUpdatedWithElapsedTime
+  commentId: F:CatchIo.GameMode.GameMode.OnGameModeUpdatedWithElapsedTime
+  fullName: CatchIo.GameMode.GameMode.OnGameModeUpdatedWithElapsedTime
+  nameWithType: GameMode.OnGameModeUpdatedWithElapsedTime
 - uid: CatchIo.GameMode.GameMode.PlayerBuffs
   name: PlayerBuffs
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_PlayerBuffs
   commentId: F:CatchIo.GameMode.GameMode.PlayerBuffs
   fullName: CatchIo.GameMode.GameMode.PlayerBuffs
   nameWithType: GameMode.PlayerBuffs
-- uid: CatchIo.GameMode.GameMode.Start
-  name: Start()
-  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Start
-  commentId: M:CatchIo.GameMode.GameMode.Start
-  fullName: CatchIo.GameMode.GameMode.Start()
-  nameWithType: GameMode.Start()
-- uid: CatchIo.GameMode.GameMode.Start*
-  name: Start
-  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Start_
-  commentId: Overload:CatchIo.GameMode.GameMode.Start
+- uid: CatchIo.GameMode.GameMode.UpdateAllClients
+  name: UpdateAllClients()
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_UpdateAllClients
+  commentId: M:CatchIo.GameMode.GameMode.UpdateAllClients
+  fullName: CatchIo.GameMode.GameMode.UpdateAllClients()
+  nameWithType: GameMode.UpdateAllClients()
+- uid: CatchIo.GameMode.GameMode.UpdateAllClients*
+  name: UpdateAllClients
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_UpdateAllClients_
+  commentId: Overload:CatchIo.GameMode.GameMode.UpdateAllClients
   isSpec: "True"
-  fullName: CatchIo.GameMode.GameMode.Start
-  nameWithType: GameMode.Start
+  fullName: CatchIo.GameMode.GameMode.UpdateAllClients
+  nameWithType: GameMode.UpdateAllClients
+- uid: CatchIo.GameMode.GameMode.UpdateMasterClientOnly
+  name: UpdateMasterClientOnly()
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_UpdateMasterClientOnly
+  commentId: M:CatchIo.GameMode.GameMode.UpdateMasterClientOnly
+  fullName: CatchIo.GameMode.GameMode.UpdateMasterClientOnly()
+  nameWithType: GameMode.UpdateMasterClientOnly()
+- uid: CatchIo.GameMode.GameMode.UpdateMasterClientOnly*
+  name: UpdateMasterClientOnly
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_UpdateMasterClientOnly_
+  commentId: Overload:CatchIo.GameMode.GameMode.UpdateMasterClientOnly
+  isSpec: "True"
+  fullName: CatchIo.GameMode.GameMode.UpdateMasterClientOnly
+  nameWithType: GameMode.UpdateMasterClientOnly
+- uid: CatchIo.GameMode.GameMode.ViewIdToCharacterMap
+  name: ViewIdToCharacterMap
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_ViewIdToCharacterMap
+  commentId: F:CatchIo.GameMode.GameMode.ViewIdToCharacterMap
+  fullName: CatchIo.GameMode.GameMode.ViewIdToCharacterMap
+  nameWithType: GameMode.ViewIdToCharacterMap
+- uid: CatchIo.GameMode.PointSystem
+  name: PointSystem
+  href: api/CatchIo.GameMode.PointSystem.html
+  commentId: T:CatchIo.GameMode.PointSystem
+  fullName: CatchIo.GameMode.PointSystem
+  nameWithType: PointSystem
+- uid: CatchIo.GameMode.PointSystem.BeKilledPoint
+  name: BeKilledPoint
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_BeKilledPoint
+  commentId: F:CatchIo.GameMode.PointSystem.BeKilledPoint
+  fullName: CatchIo.GameMode.PointSystem.BeKilledPoint
+  nameWithType: PointSystem.BeKilledPoint
+- uid: CatchIo.GameMode.PointSystem.BeTrappedPoint
+  name: BeTrappedPoint
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_BeTrappedPoint
+  commentId: F:CatchIo.GameMode.PointSystem.BeTrappedPoint
+  fullName: CatchIo.GameMode.PointSystem.BeTrappedPoint
+  nameWithType: PointSystem.BeTrappedPoint
+- uid: CatchIo.GameMode.PointSystem.DecreasePoint(Photon.Realtime.Player,System.Int32)
+  name: DecreasePoint(Photon.Realtime.Player, Int32)
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_DecreasePoint_Photon_Realtime_Player_System_Int32_
+  commentId: M:CatchIo.GameMode.PointSystem.DecreasePoint(Photon.Realtime.Player,System.Int32)
+  fullName: CatchIo.GameMode.PointSystem.DecreasePoint(Photon.Realtime.Player, System.Int32)
+  nameWithType: PointSystem.DecreasePoint(Photon.Realtime.Player, Int32)
+- uid: CatchIo.GameMode.PointSystem.DecreasePoint*
+  name: DecreasePoint
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_DecreasePoint_
+  commentId: Overload:CatchIo.GameMode.PointSystem.DecreasePoint
+  isSpec: "True"
+  fullName: CatchIo.GameMode.PointSystem.DecreasePoint
+  nameWithType: PointSystem.DecreasePoint
+- uid: CatchIo.GameMode.PointSystem.IncreasePoint(Photon.Realtime.Player,System.Int32)
+  name: IncreasePoint(Photon.Realtime.Player, Int32)
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_IncreasePoint_Photon_Realtime_Player_System_Int32_
+  commentId: M:CatchIo.GameMode.PointSystem.IncreasePoint(Photon.Realtime.Player,System.Int32)
+  fullName: CatchIo.GameMode.PointSystem.IncreasePoint(Photon.Realtime.Player, System.Int32)
+  nameWithType: PointSystem.IncreasePoint(Photon.Realtime.Player, Int32)
+- uid: CatchIo.GameMode.PointSystem.IncreasePoint*
+  name: IncreasePoint
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_IncreasePoint_
+  commentId: Overload:CatchIo.GameMode.PointSystem.IncreasePoint
+  isSpec: "True"
+  fullName: CatchIo.GameMode.PointSystem.IncreasePoint
+  nameWithType: PointSystem.IncreasePoint
+- uid: CatchIo.GameMode.PointSystem.KillPoint
+  name: KillPoint
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_KillPoint
+  commentId: F:CatchIo.GameMode.PointSystem.KillPoint
+  fullName: CatchIo.GameMode.PointSystem.KillPoint
+  nameWithType: PointSystem.KillPoint
+- uid: CatchIo.GameMode.PointSystem.OnPointUpdated
+  name: OnPointUpdated
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_OnPointUpdated
+  commentId: F:CatchIo.GameMode.PointSystem.OnPointUpdated
+  fullName: CatchIo.GameMode.PointSystem.OnPointUpdated
+  nameWithType: PointSystem.OnPointUpdated
+- uid: CatchIo.GameMode.PointSystem.POINT_SYSTEM
+  name: POINT_SYSTEM
+  href: api/CatchIo.GameMode.PointSystem.html#CatchIo_GameMode_PointSystem_POINT_SYSTEM
+  commentId: F:CatchIo.GameMode.PointSystem.POINT_SYSTEM
+  fullName: CatchIo.GameMode.PointSystem.POINT_SYSTEM
+  nameWithType: PointSystem.POINT_SYSTEM
 - uid: CatchIo.GameMode.SandboxGameMode
   name: SandboxGameMode
   href: api/CatchIo.GameMode.SandboxGameMode.html
   commentId: T:CatchIo.GameMode.SandboxGameMode
   fullName: CatchIo.GameMode.SandboxGameMode
   nameWithType: SandboxGameMode
+- uid: CatchIo.GameMode.SandboxGameMode.GetPointSystem
+  name: GetPointSystem()
+  href: api/CatchIo.GameMode.SandboxGameMode.html#CatchIo_GameMode_SandboxGameMode_GetPointSystem
+  commentId: M:CatchIo.GameMode.SandboxGameMode.GetPointSystem
+  fullName: CatchIo.GameMode.SandboxGameMode.GetPointSystem()
+  nameWithType: SandboxGameMode.GetPointSystem()
+- uid: CatchIo.GameMode.SandboxGameMode.GetPointSystem*
+  name: GetPointSystem
+  href: api/CatchIo.GameMode.SandboxGameMode.html#CatchIo_GameMode_SandboxGameMode_GetPointSystem_
+  commentId: Overload:CatchIo.GameMode.SandboxGameMode.GetPointSystem
+  isSpec: "True"
+  fullName: CatchIo.GameMode.SandboxGameMode.GetPointSystem
+  nameWithType: SandboxGameMode.GetPointSystem
 - uid: CatchIo.GameMode.SandboxGameMode.GetWinner
   name: GetWinner()
   href: api/CatchIo.GameMode.SandboxGameMode.html#CatchIo_GameMode_SandboxGameMode_GetWinner
@@ -1231,70 +1579,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.GameMode.SandboxGameMode.IsGameOver
   nameWithType: SandboxGameMode.IsGameOver
-- uid: CatchIo.GameMode.SandboxGameMode.Logic
-  name: Logic()
-  href: api/CatchIo.GameMode.SandboxGameMode.html#CatchIo_GameMode_SandboxGameMode_Logic
-  commentId: M:CatchIo.GameMode.SandboxGameMode.Logic
-  fullName: CatchIo.GameMode.SandboxGameMode.Logic()
-  nameWithType: SandboxGameMode.Logic()
-- uid: CatchIo.GameMode.SandboxGameMode.Logic*
-  name: Logic
-  href: api/CatchIo.GameMode.SandboxGameMode.html#CatchIo_GameMode_SandboxGameMode_Logic_
-  commentId: Overload:CatchIo.GameMode.SandboxGameMode.Logic
+- uid: CatchIo.GameMode.SandboxGameMode.UpdateMasterClientOnly
+  name: UpdateMasterClientOnly()
+  href: api/CatchIo.GameMode.SandboxGameMode.html#CatchIo_GameMode_SandboxGameMode_UpdateMasterClientOnly
+  commentId: M:CatchIo.GameMode.SandboxGameMode.UpdateMasterClientOnly
+  fullName: CatchIo.GameMode.SandboxGameMode.UpdateMasterClientOnly()
+  nameWithType: SandboxGameMode.UpdateMasterClientOnly()
+- uid: CatchIo.GameMode.SandboxGameMode.UpdateMasterClientOnly*
+  name: UpdateMasterClientOnly
+  href: api/CatchIo.GameMode.SandboxGameMode.html#CatchIo_GameMode_SandboxGameMode_UpdateMasterClientOnly_
+  commentId: Overload:CatchIo.GameMode.SandboxGameMode.UpdateMasterClientOnly
   isSpec: "True"
-  fullName: CatchIo.GameMode.SandboxGameMode.Logic
-  nameWithType: SandboxGameMode.Logic
-- uid: CatchIo.GameMode.TestGameMode
-  name: TestGameMode
-  href: api/CatchIo.GameMode.TestGameMode.html
-  commentId: T:CatchIo.GameMode.TestGameMode
-  fullName: CatchIo.GameMode.TestGameMode
-  nameWithType: TestGameMode
-- uid: CatchIo.GameMode.TestGameMode.GetWinner
-  name: GetWinner()
-  href: api/CatchIo.GameMode.TestGameMode.html#CatchIo_GameMode_TestGameMode_GetWinner
-  commentId: M:CatchIo.GameMode.TestGameMode.GetWinner
-  fullName: CatchIo.GameMode.TestGameMode.GetWinner()
-  nameWithType: TestGameMode.GetWinner()
-- uid: CatchIo.GameMode.TestGameMode.GetWinner*
-  name: GetWinner
-  href: api/CatchIo.GameMode.TestGameMode.html#CatchIo_GameMode_TestGameMode_GetWinner_
-  commentId: Overload:CatchIo.GameMode.TestGameMode.GetWinner
-  isSpec: "True"
-  fullName: CatchIo.GameMode.TestGameMode.GetWinner
-  nameWithType: TestGameMode.GetWinner
-- uid: CatchIo.GameMode.TestGameMode.IsGameOver
-  name: IsGameOver()
-  href: api/CatchIo.GameMode.TestGameMode.html#CatchIo_GameMode_TestGameMode_IsGameOver
-  commentId: M:CatchIo.GameMode.TestGameMode.IsGameOver
-  fullName: CatchIo.GameMode.TestGameMode.IsGameOver()
-  nameWithType: TestGameMode.IsGameOver()
-- uid: CatchIo.GameMode.TestGameMode.IsGameOver*
-  name: IsGameOver
-  href: api/CatchIo.GameMode.TestGameMode.html#CatchIo_GameMode_TestGameMode_IsGameOver_
-  commentId: Overload:CatchIo.GameMode.TestGameMode.IsGameOver
-  isSpec: "True"
-  fullName: CatchIo.GameMode.TestGameMode.IsGameOver
-  nameWithType: TestGameMode.IsGameOver
-- uid: CatchIo.GameMode.TestGameMode.Logic
-  name: Logic()
-  href: api/CatchIo.GameMode.TestGameMode.html#CatchIo_GameMode_TestGameMode_Logic
-  commentId: M:CatchIo.GameMode.TestGameMode.Logic
-  fullName: CatchIo.GameMode.TestGameMode.Logic()
-  nameWithType: TestGameMode.Logic()
-- uid: CatchIo.GameMode.TestGameMode.Logic*
-  name: Logic
-  href: api/CatchIo.GameMode.TestGameMode.html#CatchIo_GameMode_TestGameMode_Logic_
-  commentId: Overload:CatchIo.GameMode.TestGameMode.Logic
-  isSpec: "True"
-  fullName: CatchIo.GameMode.TestGameMode.Logic
-  nameWithType: TestGameMode.Logic
-- uid: CatchIo.GameMode.TestGameMode.WinnerKillCount
-  name: WinnerKillCount
-  href: api/CatchIo.GameMode.TestGameMode.html#CatchIo_GameMode_TestGameMode_WinnerKillCount
-  commentId: F:CatchIo.GameMode.TestGameMode.WinnerKillCount
-  fullName: CatchIo.GameMode.TestGameMode.WinnerKillCount
-  nameWithType: TestGameMode.WinnerKillCount
+  fullName: CatchIo.GameMode.SandboxGameMode.UpdateMasterClientOnly
+  nameWithType: SandboxGameMode.UpdateMasterClientOnly
 - uid: CatchIo.GeneralBehavior
   name: CatchIo.GeneralBehavior
   href: api/CatchIo.GeneralBehavior.html
@@ -2793,12 +3090,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.GameSession.LocalPlayerInst
   nameWithType: GameSession.LocalPlayerInst
-- uid: CatchIo.Managers.GameSession.OnCharacterEvent(System.Int32,System.String)
-  name: OnCharacterEvent(Int32, String)
-  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnCharacterEvent_System_Int32_System_String_
-  commentId: M:CatchIo.Managers.GameSession.OnCharacterEvent(System.Int32,System.String)
-  fullName: CatchIo.Managers.GameSession.OnCharacterEvent(System.Int32, System.String)
-  nameWithType: GameSession.OnCharacterEvent(Int32, String)
+- uid: CatchIo.Managers.GameSession.OnCharacterBroadCastEvent(System.String,System.Int32)
+  name: OnCharacterBroadCastEvent(String, Int32)
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnCharacterBroadCastEvent_System_String_System_Int32_
+  commentId: M:CatchIo.Managers.GameSession.OnCharacterBroadCastEvent(System.String,System.Int32)
+  fullName: CatchIo.Managers.GameSession.OnCharacterBroadCastEvent(System.String, System.Int32)
+  nameWithType: GameSession.OnCharacterBroadCastEvent(String, Int32)
+- uid: CatchIo.Managers.GameSession.OnCharacterBroadCastEvent*
+  name: OnCharacterBroadCastEvent
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnCharacterBroadCastEvent_
+  commentId: Overload:CatchIo.Managers.GameSession.OnCharacterBroadCastEvent
+  isSpec: "True"
+  fullName: CatchIo.Managers.GameSession.OnCharacterBroadCastEvent
+  nameWithType: GameSession.OnCharacterBroadCastEvent
+- uid: CatchIo.Managers.GameSession.OnCharacterEvent(System.String,System.Int32)
+  name: OnCharacterEvent(String, Int32)
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnCharacterEvent_System_String_System_Int32_
+  commentId: M:CatchIo.Managers.GameSession.OnCharacterEvent(System.String,System.Int32)
+  fullName: CatchIo.Managers.GameSession.OnCharacterEvent(System.String, System.Int32)
+  nameWithType: GameSession.OnCharacterEvent(String, Int32)
 - uid: CatchIo.Managers.GameSession.OnCharacterEvent*
   name: OnCharacterEvent
   href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnCharacterEvent_
@@ -2806,6 +3116,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.GameSession.OnCharacterEvent
   nameWithType: GameSession.OnCharacterEvent
+- uid: CatchIo.Managers.GameSession.OnGameModeEvent(System.String)
+  name: OnGameModeEvent(String)
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnGameModeEvent_System_String_
+  commentId: M:CatchIo.Managers.GameSession.OnGameModeEvent(System.String)
+  fullName: CatchIo.Managers.GameSession.OnGameModeEvent(System.String)
+  nameWithType: GameSession.OnGameModeEvent(String)
+- uid: CatchIo.Managers.GameSession.OnGameModeEvent*
+  name: OnGameModeEvent
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnGameModeEvent_
+  commentId: Overload:CatchIo.Managers.GameSession.OnGameModeEvent
+  isSpec: "True"
+  fullName: CatchIo.Managers.GameSession.OnGameModeEvent
+  nameWithType: GameSession.OnGameModeEvent
+- uid: CatchIo.Managers.GameSession.OnPointUpdate(System.String,System.Int32)
+  name: OnPointUpdate(String, Int32)
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnPointUpdate_System_String_System_Int32_
+  commentId: M:CatchIo.Managers.GameSession.OnPointUpdate(System.String,System.Int32)
+  fullName: CatchIo.Managers.GameSession.OnPointUpdate(System.String, System.Int32)
+  nameWithType: GameSession.OnPointUpdate(String, Int32)
+- uid: CatchIo.Managers.GameSession.OnPointUpdate*
+  name: OnPointUpdate
+  href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_OnPointUpdate_
+  commentId: Overload:CatchIo.Managers.GameSession.OnPointUpdate
+  isSpec: "True"
+  fullName: CatchIo.Managers.GameSession.OnPointUpdate
+  nameWithType: GameSession.OnPointUpdate
 - uid: CatchIo.Managers.GameSession.SpawnCharacter(System.Int32)
   name: SpawnCharacter(Int32)
   href: api/CatchIo.Managers.GameSession.html#CatchIo_Managers_GameSession_SpawnCharacter_System_Int32_
@@ -3618,12 +3954,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Network.NetworkManager.PlayOffline
   nameWithType: NetworkManager.PlayOffline
-- uid: CatchIo.Network.NetworkManager.RespawnPlayer
-  name: RespawnPlayer()
-  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RespawnPlayer
-  commentId: M:CatchIo.Network.NetworkManager.RespawnPlayer
-  fullName: CatchIo.Network.NetworkManager.RespawnPlayer()
-  nameWithType: NetworkManager.RespawnPlayer()
+- uid: CatchIo.Network.NetworkManager.RespawnCharacterAfterDelay(System.Int32,System.Single)
+  name: RespawnCharacterAfterDelay(Int32, Single)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RespawnCharacterAfterDelay_System_Int32_System_Single_
+  commentId: M:CatchIo.Network.NetworkManager.RespawnCharacterAfterDelay(System.Int32,System.Single)
+  fullName: CatchIo.Network.NetworkManager.RespawnCharacterAfterDelay(System.Int32, System.Single)
+  nameWithType: NetworkManager.RespawnCharacterAfterDelay(Int32, Single)
+- uid: CatchIo.Network.NetworkManager.RespawnCharacterAfterDelay*
+  name: RespawnCharacterAfterDelay
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RespawnCharacterAfterDelay_
+  commentId: Overload:CatchIo.Network.NetworkManager.RespawnCharacterAfterDelay
+  isSpec: "True"
+  fullName: CatchIo.Network.NetworkManager.RespawnCharacterAfterDelay
+  nameWithType: NetworkManager.RespawnCharacterAfterDelay
+- uid: CatchIo.Network.NetworkManager.RespawnPlayer(System.Int32)
+  name: RespawnPlayer(Int32)
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RespawnPlayer_System_Int32_
+  commentId: M:CatchIo.Network.NetworkManager.RespawnPlayer(System.Int32)
+  fullName: CatchIo.Network.NetworkManager.RespawnPlayer(System.Int32)
+  nameWithType: NetworkManager.RespawnPlayer(Int32)
 - uid: CatchIo.Network.NetworkManager.RespawnPlayer*
   name: RespawnPlayer
   href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_RespawnPlayer_
@@ -4059,19 +4408,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Character.AddItemToInventoryAction
   fullName: CatchIo.PlayerCharacter.Character.AddItemToInventoryAction
   nameWithType: Character.AddItemToInventoryAction
-- uid: CatchIo.PlayerCharacter.Character.Attack
-  name: Attack()
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Attack
-  commentId: M:CatchIo.PlayerCharacter.Character.Attack
-  fullName: CatchIo.PlayerCharacter.Character.Attack()
-  nameWithType: Character.Attack()
-- uid: CatchIo.PlayerCharacter.Character.Attack*
-  name: Attack
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Attack_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.Attack
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.Attack
-  nameWithType: Character.Attack
 - uid: CatchIo.PlayerCharacter.Character.Awake
   name: Awake()
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Awake
@@ -4202,6 +4538,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.GenerateFootprint
   nameWithType: Character.GenerateFootprint
+- uid: CatchIo.PlayerCharacter.Character.GetClosestTransform*
+  name: GetClosestTransform
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GetClosestTransform_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.GetClosestTransform
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.GetClosestTransform
+  nameWithType: Character.GetClosestTransform
+- uid: CatchIo.PlayerCharacter.Character.GetClosestTransform``1(Vector3,List{``0},System.Boolean)
+  name: GetClosestTransform<T>(Vector3, List<T>, Boolean)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GetClosestTransform__1_Vector3_List___0__System_Boolean_
+  commentId: M:CatchIo.PlayerCharacter.Character.GetClosestTransform``1(Vector3,List{``0},System.Boolean)
+  name.vb: GetClosestTransform(Of T)(Vector3, List(Of T), Boolean)
+  fullName: CatchIo.PlayerCharacter.Character.GetClosestTransform<T>(Vector3, List<T>, System.Boolean)
+  fullName.vb: CatchIo.PlayerCharacter.Character.GetClosestTransform(Of T)(Vector3, List(Of T), System.Boolean)
+  nameWithType: Character.GetClosestTransform<T>(Vector3, List<T>, Boolean)
+  nameWithType.vb: Character.GetClosestTransform(Of T)(Vector3, List(Of T), Boolean)
 - uid: CatchIo.PlayerCharacter.Character.GetVelocity
   name: GetVelocity()
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GetVelocity
@@ -4599,6 +4951,50 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterAnimation.PlayFootstepEvents
   nameWithType: CharacterAnimation.PlayFootstepEvents
+- uid: CatchIo.PlayerCharacter.CharacterAttack
+  name: CharacterAttack
+  href: api/CatchIo.PlayerCharacter.CharacterAttack.html
+  commentId: T:CatchIo.PlayerCharacter.CharacterAttack
+  fullName: CatchIo.PlayerCharacter.CharacterAttack
+  nameWithType: CharacterAttack
+- uid: CatchIo.PlayerCharacter.CharacterAttack.Attack(CatchIo.PlayerCharacter.Character)
+  name: Attack(Character)
+  href: api/CatchIo.PlayerCharacter.CharacterAttack.html#CatchIo_PlayerCharacter_CharacterAttack_Attack_CatchIo_PlayerCharacter_Character_
+  commentId: M:CatchIo.PlayerCharacter.CharacterAttack.Attack(CatchIo.PlayerCharacter.Character)
+  fullName: CatchIo.PlayerCharacter.CharacterAttack.Attack(CatchIo.PlayerCharacter.Character)
+  nameWithType: CharacterAttack.Attack(Character)
+- uid: CatchIo.PlayerCharacter.CharacterAttack.Attack*
+  name: Attack
+  href: api/CatchIo.PlayerCharacter.CharacterAttack.html#CatchIo_PlayerCharacter_CharacterAttack_Attack_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterAttack.Attack
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterAttack.Attack
+  nameWithType: CharacterAttack.Attack
+- uid: CatchIo.PlayerCharacter.CharacterAttack.BackstabDamageMultiplier
+  name: BackstabDamageMultiplier
+  href: api/CatchIo.PlayerCharacter.CharacterAttack.html#CatchIo_PlayerCharacter_CharacterAttack_BackstabDamageMultiplier
+  commentId: F:CatchIo.PlayerCharacter.CharacterAttack.BackstabDamageMultiplier
+  fullName: CatchIo.PlayerCharacter.CharacterAttack.BackstabDamageMultiplier
+  nameWithType: CharacterAttack.BackstabDamageMultiplier
+- uid: CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState,CatchIo.PlayerCharacter.CharacterDirectionState)
+  name: GetMeleeDamage(CharacterDirectionState, CharacterDirectionState)
+  href: api/CatchIo.PlayerCharacter.CharacterAttack.html#CatchIo_PlayerCharacter_CharacterAttack_GetMeleeDamage_CatchIo_PlayerCharacter_CharacterDirectionState_CatchIo_PlayerCharacter_CharacterDirectionState_
+  commentId: M:CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState,CatchIo.PlayerCharacter.CharacterDirectionState)
+  fullName: CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState, CatchIo.PlayerCharacter.CharacterDirectionState)
+  nameWithType: CharacterAttack.GetMeleeDamage(CharacterDirectionState, CharacterDirectionState)
+- uid: CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage*
+  name: GetMeleeDamage
+  href: api/CatchIo.PlayerCharacter.CharacterAttack.html#CatchIo_PlayerCharacter_CharacterAttack_GetMeleeDamage_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage
+  nameWithType: CharacterAttack.GetMeleeDamage
+- uid: CatchIo.PlayerCharacter.CharacterAttack.MeleeDamage
+  name: MeleeDamage
+  href: api/CatchIo.PlayerCharacter.CharacterAttack.html#CatchIo_PlayerCharacter_CharacterAttack_MeleeDamage
+  commentId: F:CatchIo.PlayerCharacter.CharacterAttack.MeleeDamage
+  fullName: CatchIo.PlayerCharacter.CharacterAttack.MeleeDamage
+  nameWithType: CharacterAttack.MeleeDamage
 - uid: CatchIo.PlayerCharacter.CharacterController
   name: CharacterController
   href: api/CatchIo.PlayerCharacter.CharacterController.html
@@ -5066,12 +5462,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.AttackStamina
   fullName: CatchIo.PlayerCharacter.CharacterStatus.AttackStamina
   nameWithType: CharacterStatus.AttackStamina
-- uid: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageMultiplier
-  name: BackstabDamageMultiplier
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_BackstabDamageMultiplier
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageMultiplier
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageMultiplier
-  nameWithType: CharacterStatus.BackstabDamageMultiplier
 - uid: CatchIo.PlayerCharacter.CharacterStatus.Buffs
   name: Buffs
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Buffs
@@ -5258,19 +5648,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.GetDragForce
   nameWithType: CharacterStatus.GetDragForce
-- uid: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState)
-  name: GetMeleeDamage(CharacterDirectionState)
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMeleeDamage_CatchIo_PlayerCharacter_CharacterDirectionState_
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState)
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState)
-  nameWithType: CharacterStatus.GetMeleeDamage(CharacterDirectionState)
-- uid: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage*
-  name: GetMeleeDamage
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMeleeDamage_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage
-  nameWithType: CharacterStatus.GetMeleeDamage
 - uid: CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity(System.Single,System.Single,System.Single)
   name: GetMovementVelocity(Single, Single, Single)
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMovementVelocity_System_Single_System_Single_System_Single_
@@ -5451,12 +5828,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MaxStamina
   fullName: CatchIo.PlayerCharacter.CharacterStatus.MaxStamina
   nameWithType: CharacterStatus.MaxStamina
-- uid: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
-  name: MeleeDamage
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage
-  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
-  nameWithType: CharacterStatus.MeleeDamage
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MIN_VIEW_SLICE
   name: MIN_VIEW_SLICE
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MIN_VIEW_SLICE
@@ -6940,12 +7311,30 @@ references:
   commentId: T:CatchIo.UI.GameUIManager
   fullName: CatchIo.UI.GameUIManager
   nameWithType: GameUIManager
+- uid: CatchIo.UI.GameUIManager.DeathMatchInfoText
+  name: DeathMatchInfoText
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_DeathMatchInfoText
+  commentId: F:CatchIo.UI.GameUIManager.DeathMatchInfoText
+  fullName: CatchIo.UI.GameUIManager.DeathMatchInfoText
+  nameWithType: GameUIManager.DeathMatchInfoText
+- uid: CatchIo.UI.GameUIManager.DeathMatchUIPanel
+  name: DeathMatchUIPanel
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_DeathMatchUIPanel
+  commentId: F:CatchIo.UI.GameUIManager.DeathMatchUIPanel
+  fullName: CatchIo.UI.GameUIManager.DeathMatchUIPanel
+  nameWithType: GameUIManager.DeathMatchUIPanel
 - uid: CatchIo.UI.GameUIManager.FpsText
   name: FpsText
   href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_FpsText
   commentId: F:CatchIo.UI.GameUIManager.FpsText
   fullName: CatchIo.UI.GameUIManager.FpsText
   nameWithType: GameUIManager.FpsText
+- uid: CatchIo.UI.GameUIManager.GameElapsedTime
+  name: GameElapsedTime
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_GameElapsedTime
+  commentId: F:CatchIo.UI.GameUIManager.GameElapsedTime
+  fullName: CatchIo.UI.GameUIManager.GameElapsedTime
+  nameWithType: GameUIManager.GameElapsedTime
 - uid: CatchIo.UI.GameUIManager.GameOver
   name: GameOver
   href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_GameOver
@@ -7029,6 +7418,12 @@ references:
   commentId: F:CatchIo.UI.GameUIManager.PingText
   fullName: CatchIo.UI.GameUIManager.PingText
   nameWithType: GameUIManager.PingText
+- uid: CatchIo.UI.GameUIManager.PointText
+  name: PointText
+  href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_PointText
+  commentId: F:CatchIo.UI.GameUIManager.PointText
+  fullName: CatchIo.UI.GameUIManager.PointText
+  nameWithType: GameUIManager.PointText
 - uid: CatchIo.UI.GameUIManager.RestartView
   name: RestartView()
   href: api/CatchIo.UI.GameUIManager.html#CatchIo_UI_GameUIManager_RestartView
@@ -7675,6 +8070,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.MenuUIContext.TitleContext
   nameWithType: MenuUIContext.TitleContext
+- uid: CatchIo.UI.PointText
+  name: PointText
+  href: api/CatchIo.UI.PointText.html
+  commentId: T:CatchIo.UI.PointText
+  fullName: CatchIo.UI.PointText
+  nameWithType: PointText
 - uid: CatchIo.UI.RoomContext
   name: RoomContext
   href: api/CatchIo.UI.RoomContext.html

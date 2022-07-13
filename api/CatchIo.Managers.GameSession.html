@@ -262,13 +262,13 @@ This is generally the same as the local player instance provided by Photon Netwo
   </h3>
   
   
-  <a id="CatchIo_Managers_GameSession_OnCharacterEvent_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent*"></a>
-  <h4 id="CatchIo_Managers_GameSession_OnCharacterEvent_System_Int32_System_String_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent(System.Int32,System.String)">OnCharacterEvent(Int32, String)</h4>
+  <a id="CatchIo_Managers_GameSession_OnCharacterBroadCastEvent_" data-uid="CatchIo.Managers.GameSession.OnCharacterBroadCastEvent*"></a>
+  <h4 id="CatchIo_Managers_GameSession_OnCharacterBroadCastEvent_System_String_System_Int32_" data-uid="CatchIo.Managers.GameSession.OnCharacterBroadCastEvent(System.String,System.Int32)">OnCharacterBroadCastEvent(String, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnCharacterEvent(int viewId, string msg)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnCharacterBroadCastEvent(string msg, int viewId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -281,13 +281,104 @@ This is generally the same as the local player instance provided by Photon Netwo
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">viewId</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_GameSession_OnCharacterEvent_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent*"></a>
+  <h4 id="CatchIo_Managers_GameSession_OnCharacterEvent_System_String_System_Int32_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent(System.String,System.Int32)">OnCharacterEvent(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCharacterEvent(string msg, int viewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">viewId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_GameSession_OnGameModeEvent_" data-uid="CatchIo.Managers.GameSession.OnGameModeEvent*"></a>
+  <h4 id="CatchIo_Managers_GameSession_OnGameModeEvent_System_String_" data-uid="CatchIo.Managers.GameSession.OnGameModeEvent(System.String)">OnGameModeEvent(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnGameModeEvent(string msg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Managers_GameSession_OnPointUpdate_" data-uid="CatchIo.Managers.GameSession.OnPointUpdate*"></a>
+  <h4 id="CatchIo_Managers_GameSession_OnPointUpdate_System_String_System_Int32_" data-uid="CatchIo.Managers.GameSession.OnPointUpdate(System.String,System.Int32)">OnPointUpdate(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointUpdate(string msg, int viewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">viewId</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TestGameMode
+    <title>Class PointSystem
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TestGameMode
+    <meta name="title" content="Class PointSystem
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.3.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,77 +78,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.GameMode.TestGameMode">
+            <article class="content wrap" id="_content" data-uid="CatchIo.GameMode.PointSystem">
   
   
-  <h1 id="CatchIo_GameMode_TestGameMode" data-uid="CatchIo.GameMode.TestGameMode" class="text-break">Class TestGameMode
+  <h1 id="CatchIo_GameMode_PointSystem" data-uid="CatchIo.GameMode.PointSystem" class="text-break">Class PointSystem
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="CatchIo.GameMode.GameMode.html">GameMode</a></div>
-    <div class="level2"><span class="xref">TestGameMode</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_MaxPlayerCount">GameMode.MaxPlayerCount</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_CharacterStatus">GameMode.CharacterStatus</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameStartTimer">GameMode.GameStartTimer</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_CanSpawnItem">GameMode.CanSpawnItem</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsStarted">GameMode.IsStarted</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Characters">GameMode.Characters</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_PlayerBuffs">GameMode.PlayerBuffs</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameStartTime">GameMode.GameStartTime</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GameElapsedTime">GameMode.GameElapsedTime</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Start">GameMode.Start()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsGameStarted">GameMode.IsGameStarted()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_AssignBuffs_CharacterStatus_">GameMode.AssignBuffs(CharacterStatus)</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GetGameModeInstance_System_String_">GameMode.GetGameModeInstance(String)</a>
-    </div>
+    <div class="level1"><span class="xref">PointSystem</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.GameMode.html">CatchIo.GameMode</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_GameMode_TestGameMode_syntax">Syntax</h5>
+  <h5 id="CatchIo_GameMode_PointSystem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TestGameMode : GameMode</code></pre>
+    <pre><code class="lang-csharp hljs">public class PointSystem : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_GameMode_TestGameMode_WinnerKillCount" data-uid="CatchIo.GameMode.TestGameMode.WinnerKillCount">WinnerKillCount</h4>
+  <h4 id="CatchIo_GameMode_PointSystem_BeKilledPoint" data-uid="CatchIo.GameMode.PointSystem.BeKilledPoint">BeKilledPoint</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int WinnerKillCount</code></pre>
+    <pre><code class="lang-csharp hljs">public int BeKilledPoint</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,74 +122,168 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="CatchIo_GameMode_PointSystem_BeTrappedPoint" data-uid="CatchIo.GameMode.PointSystem.BeTrappedPoint">BeTrappedPoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BeTrappedPoint</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_PointSystem_KillPoint" data-uid="CatchIo.GameMode.PointSystem.KillPoint">KillPoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KillPoint</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_PointSystem_OnPointUpdated" data-uid="CatchIo.GameMode.PointSystem.OnPointUpdated">OnPointUpdated</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityEngine.Events.UnityEvent&lt;int&gt; OnPointUpdated</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Events.UnityEvent_1.html">UnityEngine.Events.UnityEvent</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_GameMode_PointSystem_POINT_SYSTEM" data-uid="CatchIo.GameMode.PointSystem.POINT_SYSTEM">POINT_SYSTEM</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string POINT_SYSTEM = &quot;POINT_SYSTEM&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_GameMode_TestGameMode_GetWinner_" data-uid="CatchIo.GameMode.TestGameMode.GetWinner*"></a>
-  <h4 id="CatchIo_GameMode_TestGameMode_GetWinner" data-uid="CatchIo.GameMode.TestGameMode.GetWinner">GetWinner()</h4>
+  <a id="CatchIo_GameMode_PointSystem_DecreasePoint_" data-uid="CatchIo.GameMode.PointSystem.DecreasePoint*"></a>
+  <h4 id="CatchIo_GameMode_PointSystem_DecreasePoint_Photon_Realtime_Player_System_Int32_" data-uid="CatchIo.GameMode.PointSystem.DecreasePoint(Photon.Realtime.Player,System.Int32)">DecreasePoint(Photon.Realtime.Player, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Character GetWinner()</code></pre>
+    <pre><code class="lang-csharp hljs">public void DecreasePoint(Photon.Realtime.Player player, int amount)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Character</span></td>
+        <td><span class="xref">Photon.Realtime.Player</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_GetWinner">GameMode.GetWinner()</a></div>
   
   
-  <a id="CatchIo_GameMode_TestGameMode_IsGameOver_" data-uid="CatchIo.GameMode.TestGameMode.IsGameOver*"></a>
-  <h4 id="CatchIo_GameMode_TestGameMode_IsGameOver" data-uid="CatchIo.GameMode.TestGameMode.IsGameOver">IsGameOver()</h4>
+  <a id="CatchIo_GameMode_PointSystem_IncreasePoint_" data-uid="CatchIo.GameMode.PointSystem.IncreasePoint*"></a>
+  <h4 id="CatchIo_GameMode_PointSystem_IncreasePoint_Photon_Realtime_Player_System_Int32_" data-uid="CatchIo.GameMode.PointSystem.IncreasePoint(Photon.Realtime.Player,System.Int32)">IncreasePoint(Photon.Realtime.Player, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool IsGameOver()</code></pre>
+    <pre><code class="lang-csharp hljs">public void IncreasePoint(Photon.Realtime.Player player, int amount)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">Photon.Realtime.Player</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_IsGameOver">GameMode.IsGameOver()</a></div>
-  
-  
-  <a id="CatchIo_GameMode_TestGameMode_Logic_" data-uid="CatchIo.GameMode.TestGameMode.Logic*"></a>
-  <h4 id="CatchIo_GameMode_TestGameMode_Logic" data-uid="CatchIo.GameMode.TestGameMode.Logic">Logic()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Logic()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Logic">GameMode.Logic()</a></div>
 </article>
           </div>
           

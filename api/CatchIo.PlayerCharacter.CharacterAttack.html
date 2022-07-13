@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CharacterSpawnPoint
+    <title>Class CharacterAttack
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CharacterSpawnPoint
+    <meta name="title" content="Class CharacterAttack
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.3.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,37 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Environment.CharacterSpawnPoint">
+            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.CharacterAttack">
   
   
-  <h1 id="CatchIo_Environment_CharacterSpawnPoint" data-uid="CatchIo.Environment.CharacterSpawnPoint" class="text-break">Class CharacterSpawnPoint
+  <h1 id="CatchIo_PlayerCharacter_CharacterAttack" data-uid="CatchIo.PlayerCharacter.CharacterAttack" class="text-break">Class CharacterAttack
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">CharacterSpawnPoint</span></div>
+    <div class="level1"><span class="xref">CharacterAttack</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Environment.html">CatchIo.Environment</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.html">CatchIo.PlayerCharacter</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Environment_CharacterSpawnPoint_syntax">Syntax</h5>
+  <h5 id="CatchIo_PlayerCharacter_CharacterAttack_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CharacterSpawnPoint : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterAttack : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_Id_" data-uid="CatchIo.Environment.CharacterSpawnPoint.Id*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_Id" data-uid="CatchIo.Environment.CharacterSpawnPoint.Id">Id</h4>
+  <h4 id="CatchIo_PlayerCharacter_CharacterAttack_BackstabDamageMultiplier" data-uid="CatchIo.PlayerCharacter.CharacterAttack.BackstabDamageMultiplier">BackstabDamageMultiplier</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float BackstabDamageMultiplier</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,7 +117,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_PlayerCharacter_CharacterAttack_MeleeDamage" data-uid="CatchIo.PlayerCharacter.CharacterAttack.MeleeDamage">MeleeDamage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeleeDamage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -127,88 +150,13 @@
   </h3>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_CanSpawn_" data-uid="CatchIo.Environment.CharacterSpawnPoint.CanSpawn*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_CanSpawn" data-uid="CatchIo.Environment.CharacterSpawnPoint.CanSpawn">CanSpawn()</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterAttack_Attack_" data-uid="CatchIo.PlayerCharacter.CharacterAttack.Attack*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterAttack_Attack_CatchIo_PlayerCharacter_Character_" data-uid="CatchIo.PlayerCharacter.CharacterAttack.Attack(CatchIo.PlayerCharacter.Character)">Attack(Character)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanSpawn()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Environment_CharacterSpawnPoint_GetRespawnPoint_" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_GetRespawnPoint" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint">GetRespawnPoint()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetRespawnPoint()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Environment_CharacterSpawnPoint_GetSpawnPoint_" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetSpawnPoint*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_GetSpawnPoint" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetSpawnPoint">GetSpawnPoint()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetSpawnPoint()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Environment_CharacterSpawnPoint_SetMaxPlayerCount_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetMaxPlayerCount*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_SetMaxPlayerCount_System_Int32_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetMaxPlayerCount(System.Int32)">SetMaxPlayerCount(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetMaxPlayerCount(int maxCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Attack(Character character)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,21 +169,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">maxCount</span></td>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.Character.html">Character</a></td>
+        <td><span class="parametername">character</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_SetRadius_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetRadius*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_SetRadius_System_Int32_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetRadius(System.Int32)">SetRadius(Int32)</h4>
+  <a id="CatchIo_PlayerCharacter_CharacterAttack_GetMeleeDamage_" data-uid="CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage*"></a>
+  <h4 id="CatchIo_PlayerCharacter_CharacterAttack_GetMeleeDamage_CatchIo_PlayerCharacter_CharacterDirectionState_CatchIo_PlayerCharacter_CharacterDirectionState_" data-uid="CatchIo.PlayerCharacter.CharacterAttack.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState,CatchIo.PlayerCharacter.CharacterDirectionState)">GetMeleeDamage(CharacterDirectionState, CharacterDirectionState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetRadius(int radius)</code></pre>
+    <pre><code class="lang-csharp hljs">public float GetMeleeDamage(CharacterDirectionState myCharacterDir, CharacterDirectionState targetCharacterDir)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -248,8 +196,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">radius</span></td>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterDirectionState.html">CharacterDirectionState</a></td>
+        <td><span class="parametername">myCharacterDir</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.CharacterDirectionState.html">CharacterDirectionState</a></td>
+        <td><span class="parametername">targetCharacterDir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
