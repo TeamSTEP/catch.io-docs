@@ -430,6 +430,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.DisappearEffect.IsPlaying
   nameWithType: DisappearEffect.IsPlaying
+- uid: CatchIo.Effects.DisappearEffect.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_OnAfterDeserialize
+  commentId: M:CatchIo.Effects.DisappearEffect.OnAfterDeserialize
+  fullName: CatchIo.Effects.DisappearEffect.OnAfterDeserialize()
+  nameWithType: DisappearEffect.OnAfterDeserialize()
+- uid: CatchIo.Effects.DisappearEffect.OnAfterDeserialize*
+  name: OnAfterDeserialize
+  href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_OnAfterDeserialize_
+  commentId: Overload:CatchIo.Effects.DisappearEffect.OnAfterDeserialize
+  isSpec: "True"
+  fullName: CatchIo.Effects.DisappearEffect.OnAfterDeserialize
+  nameWithType: DisappearEffect.OnAfterDeserialize
+- uid: CatchIo.Effects.DisappearEffect.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_OnBeforeSerialize
+  commentId: M:CatchIo.Effects.DisappearEffect.OnBeforeSerialize
+  fullName: CatchIo.Effects.DisappearEffect.OnBeforeSerialize()
+  nameWithType: DisappearEffect.OnBeforeSerialize()
+- uid: CatchIo.Effects.DisappearEffect.OnBeforeSerialize*
+  name: OnBeforeSerialize
+  href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_OnBeforeSerialize_
+  commentId: Overload:CatchIo.Effects.DisappearEffect.OnBeforeSerialize
+  isSpec: "True"
+  fullName: CatchIo.Effects.DisappearEffect.OnBeforeSerialize
+  nameWithType: DisappearEffect.OnBeforeSerialize
 - uid: CatchIo.Effects.DisappearEffect.Play(CatchIo.Effects.IEffectPlayable,Renderer)
   name: Play(IEffectPlayable, Renderer)
   href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_Play_CatchIo_Effects_IEffectPlayable_Renderer_
@@ -443,6 +469,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.DisappearEffect.Play
   nameWithType: DisappearEffect.Play
+- uid: CatchIo.Effects.DisappearEffect.PlayImmediately
+  name: PlayImmediately()
+  href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_PlayImmediately
+  commentId: M:CatchIo.Effects.DisappearEffect.PlayImmediately
+  fullName: CatchIo.Effects.DisappearEffect.PlayImmediately()
+  nameWithType: DisappearEffect.PlayImmediately()
+- uid: CatchIo.Effects.DisappearEffect.PlayImmediately*
+  name: PlayImmediately
+  href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_PlayImmediately_
+  commentId: Overload:CatchIo.Effects.DisappearEffect.PlayImmediately
+  isSpec: "True"
+  fullName: CatchIo.Effects.DisappearEffect.PlayImmediately
+  nameWithType: DisappearEffect.PlayImmediately
 - uid: CatchIo.Effects.DisappearEffect.Reset
   name: Reset()
   href: api/CatchIo.Effects.DisappearEffect.html#CatchIo_Effects_DisappearEffect_Reset
@@ -602,12 +641,12 @@ references:
   commentId: T:CatchIo.Effects.IEffectPlayable
   fullName: CatchIo.Effects.IEffectPlayable
   nameWithType: IEffectPlayable
-- uid: CatchIo.Effects.IEffectPlayable.EffectSequence
-  name: EffectSequence()
-  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_EffectSequence
-  commentId: M:CatchIo.Effects.IEffectPlayable.EffectSequence
-  fullName: CatchIo.Effects.IEffectPlayable.EffectSequence()
-  nameWithType: IEffectPlayable.EffectSequence()
+- uid: CatchIo.Effects.IEffectPlayable.EffectSequence(CatchIo.Effects.EffectBase)
+  name: EffectSequence(EffectBase)
+  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_EffectSequence_CatchIo_Effects_EffectBase_
+  commentId: M:CatchIo.Effects.IEffectPlayable.EffectSequence(CatchIo.Effects.EffectBase)
+  fullName: CatchIo.Effects.IEffectPlayable.EffectSequence(CatchIo.Effects.EffectBase)
+  nameWithType: IEffectPlayable.EffectSequence(EffectBase)
 - uid: CatchIo.Effects.IEffectPlayable.EffectSequence*
   name: EffectSequence
   href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_EffectSequence_
@@ -615,12 +654,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.IEffectPlayable.EffectSequence
   nameWithType: IEffectPlayable.EffectSequence
-- uid: CatchIo.Effects.IEffectPlayable.ExecuteEffect
-  name: ExecuteEffect()
-  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_ExecuteEffect
-  commentId: M:CatchIo.Effects.IEffectPlayable.ExecuteEffect
-  fullName: CatchIo.Effects.IEffectPlayable.ExecuteEffect()
-  nameWithType: IEffectPlayable.ExecuteEffect()
+- uid: CatchIo.Effects.IEffectPlayable.ExecuteEffect(CatchIo.Effects.EffectBase)
+  name: ExecuteEffect(EffectBase)
+  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_ExecuteEffect_CatchIo_Effects_EffectBase_
+  commentId: M:CatchIo.Effects.IEffectPlayable.ExecuteEffect(CatchIo.Effects.EffectBase)
+  fullName: CatchIo.Effects.IEffectPlayable.ExecuteEffect(CatchIo.Effects.EffectBase)
+  nameWithType: IEffectPlayable.ExecuteEffect(EffectBase)
 - uid: CatchIo.Effects.IEffectPlayable.ExecuteEffect*
   name: ExecuteEffect
   href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_ExecuteEffect_
@@ -628,12 +667,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.IEffectPlayable.ExecuteEffect
   nameWithType: IEffectPlayable.ExecuteEffect
-- uid: CatchIo.Effects.IEffectPlayable.OnEndEffect
-  name: OnEndEffect()
-  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_OnEndEffect
-  commentId: M:CatchIo.Effects.IEffectPlayable.OnEndEffect
-  fullName: CatchIo.Effects.IEffectPlayable.OnEndEffect()
-  nameWithType: IEffectPlayable.OnEndEffect()
+- uid: CatchIo.Effects.IEffectPlayable.OnEndEffect(CatchIo.Effects.EffectBase)
+  name: OnEndEffect(EffectBase)
+  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_OnEndEffect_CatchIo_Effects_EffectBase_
+  commentId: M:CatchIo.Effects.IEffectPlayable.OnEndEffect(CatchIo.Effects.EffectBase)
+  fullName: CatchIo.Effects.IEffectPlayable.OnEndEffect(CatchIo.Effects.EffectBase)
+  nameWithType: IEffectPlayable.OnEndEffect(EffectBase)
 - uid: CatchIo.Effects.IEffectPlayable.OnEndEffect*
   name: OnEndEffect
   href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_OnEndEffect_
@@ -641,12 +680,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.IEffectPlayable.OnEndEffect
   nameWithType: IEffectPlayable.OnEndEffect
-- uid: CatchIo.Effects.IEffectPlayable.ReverseEffect
-  name: ReverseEffect()
-  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_ReverseEffect
-  commentId: M:CatchIo.Effects.IEffectPlayable.ReverseEffect
-  fullName: CatchIo.Effects.IEffectPlayable.ReverseEffect()
-  nameWithType: IEffectPlayable.ReverseEffect()
+- uid: CatchIo.Effects.IEffectPlayable.ReverseEffect(CatchIo.Effects.EffectBase)
+  name: ReverseEffect(EffectBase)
+  href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_ReverseEffect_CatchIo_Effects_EffectBase_
+  commentId: M:CatchIo.Effects.IEffectPlayable.ReverseEffect(CatchIo.Effects.EffectBase)
+  fullName: CatchIo.Effects.IEffectPlayable.ReverseEffect(CatchIo.Effects.EffectBase)
+  nameWithType: IEffectPlayable.ReverseEffect(EffectBase)
 - uid: CatchIo.Effects.IEffectPlayable.ReverseEffect*
   name: ReverseEffect
   href: api/CatchIo.Effects.IEffectPlayable.html#CatchIo_Effects_IEffectPlayable_ReverseEffect_
@@ -888,6 +927,19 @@ references:
   commentId: T:CatchIo.Environment.HidingSpot
   fullName: CatchIo.Environment.HidingSpot
   nameWithType: HidingSpot
+- uid: CatchIo.Environment.HidingSpot.AddCharacter(Character)
+  name: AddCharacter(Character)
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_AddCharacter_Character_
+  commentId: M:CatchIo.Environment.HidingSpot.AddCharacter(Character)
+  fullName: CatchIo.Environment.HidingSpot.AddCharacter(Character)
+  nameWithType: HidingSpot.AddCharacter(Character)
+- uid: CatchIo.Environment.HidingSpot.AddCharacter*
+  name: AddCharacter
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_AddCharacter_
+  commentId: Overload:CatchIo.Environment.HidingSpot.AddCharacter
+  isSpec: "True"
+  fullName: CatchIo.Environment.HidingSpot.AddCharacter
+  nameWithType: HidingSpot.AddCharacter
 - uid: CatchIo.Environment.HidingSpot.Disable
   name: Disable()
   href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_Disable
@@ -901,12 +953,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Environment.HidingSpot.Disable
   nameWithType: HidingSpot.Disable
-- uid: CatchIo.Environment.HidingSpot.DisplayPolygon
-  name: DisplayPolygon
-  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_DisplayPolygon
-  commentId: F:CatchIo.Environment.HidingSpot.DisplayPolygon
-  fullName: CatchIo.Environment.HidingSpot.DisplayPolygon
-  nameWithType: HidingSpot.DisplayPolygon
 - uid: CatchIo.Environment.HidingSpot.Enable
   name: Enable()
   href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_Enable
@@ -920,32 +966,45 @@ references:
   isSpec: "True"
   fullName: CatchIo.Environment.HidingSpot.Enable
   nameWithType: HidingSpot.Enable
-- uid: CatchIo.Environment.HidingSpot.Enabled
-  name: Enabled
-  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_Enabled
-  commentId: P:CatchIo.Environment.HidingSpot.Enabled
-  fullName: CatchIo.Environment.HidingSpot.Enabled
-  nameWithType: HidingSpot.Enabled
-- uid: CatchIo.Environment.HidingSpot.Enabled*
-  name: Enabled
-  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_Enabled_
-  commentId: Overload:CatchIo.Environment.HidingSpot.Enabled
+- uid: CatchIo.Environment.HidingSpot.IsEnabled
+  name: IsEnabled
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_IsEnabled
+  commentId: P:CatchIo.Environment.HidingSpot.IsEnabled
+  fullName: CatchIo.Environment.HidingSpot.IsEnabled
+  nameWithType: HidingSpot.IsEnabled
+- uid: CatchIo.Environment.HidingSpot.IsEnabled*
+  name: IsEnabled
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_IsEnabled_
+  commentId: Overload:CatchIo.Environment.HidingSpot.IsEnabled
   isSpec: "True"
-  fullName: CatchIo.Environment.HidingSpot.Enabled
-  nameWithType: HidingSpot.Enabled
-- uid: CatchIo.Environment.HidingSpot.PosY
-  name: PosY
-  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_PosY
-  commentId: P:CatchIo.Environment.HidingSpot.PosY
-  fullName: CatchIo.Environment.HidingSpot.PosY
-  nameWithType: HidingSpot.PosY
-- uid: CatchIo.Environment.HidingSpot.PosY*
-  name: PosY
-  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_PosY_
-  commentId: Overload:CatchIo.Environment.HidingSpot.PosY
+  fullName: CatchIo.Environment.HidingSpot.IsEnabled
+  nameWithType: HidingSpot.IsEnabled
+- uid: CatchIo.Environment.HidingSpot.PivotY
+  name: PivotY
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_PivotY
+  commentId: P:CatchIo.Environment.HidingSpot.PivotY
+  fullName: CatchIo.Environment.HidingSpot.PivotY
+  nameWithType: HidingSpot.PivotY
+- uid: CatchIo.Environment.HidingSpot.PivotY*
+  name: PivotY
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_PivotY_
+  commentId: Overload:CatchIo.Environment.HidingSpot.PivotY
   isSpec: "True"
-  fullName: CatchIo.Environment.HidingSpot.PosY
-  nameWithType: HidingSpot.PosY
+  fullName: CatchIo.Environment.HidingSpot.PivotY
+  nameWithType: HidingSpot.PivotY
+- uid: CatchIo.Environment.HidingSpot.RemoveCharacter(Character)
+  name: RemoveCharacter(Character)
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_RemoveCharacter_Character_
+  commentId: M:CatchIo.Environment.HidingSpot.RemoveCharacter(Character)
+  fullName: CatchIo.Environment.HidingSpot.RemoveCharacter(Character)
+  nameWithType: HidingSpot.RemoveCharacter(Character)
+- uid: CatchIo.Environment.HidingSpot.RemoveCharacter*
+  name: RemoveCharacter
+  href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_RemoveCharacter_
+  commentId: Overload:CatchIo.Environment.HidingSpot.RemoveCharacter
+  isSpec: "True"
+  fullName: CatchIo.Environment.HidingSpot.RemoveCharacter
+  nameWithType: HidingSpot.RemoveCharacter
 - uid: CatchIo.Environment.HidingSpot.SetHidingSpot
   name: SetHidingSpot()
   href: api/CatchIo.Environment.HidingSpot.html#CatchIo_Environment_HidingSpot_SetHidingSpot
@@ -2061,6 +2120,69 @@ references:
   isSpec: "True"
   fullName: CatchIo.Helpers.UserInputHelper.GetRunningButtonInput
   nameWithType: UserInputHelper.GetRunningButtonInput
+- uid: CatchIo.Inputs
+  name: CatchIo.Inputs
+  href: api/CatchIo.Inputs.html
+  commentId: N:CatchIo.Inputs
+  fullName: CatchIo.Inputs
+  nameWithType: CatchIo.Inputs
+- uid: CatchIo.Inputs.InputReader
+  name: InputReader
+  href: api/CatchIo.Inputs.InputReader.html
+  commentId: T:CatchIo.Inputs.InputReader
+  fullName: CatchIo.Inputs.InputReader
+  nameWithType: InputReader
+- uid: CatchIo.Inputs.InputReader.CrouchCanceledEvent
+  name: CrouchCanceledEvent
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_CrouchCanceledEvent
+  commentId: E:CatchIo.Inputs.InputReader.CrouchCanceledEvent
+  fullName: CatchIo.Inputs.InputReader.CrouchCanceledEvent
+  nameWithType: InputReader.CrouchCanceledEvent
+- uid: CatchIo.Inputs.InputReader.CrouchEvent
+  name: CrouchEvent
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_CrouchEvent
+  commentId: E:CatchIo.Inputs.InputReader.CrouchEvent
+  fullName: CatchIo.Inputs.InputReader.CrouchEvent
+  nameWithType: InputReader.CrouchEvent
+- uid: CatchIo.Inputs.InputReader.EnableGameplayInput
+  name: EnableGameplayInput()
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_EnableGameplayInput
+  commentId: M:CatchIo.Inputs.InputReader.EnableGameplayInput
+  fullName: CatchIo.Inputs.InputReader.EnableGameplayInput()
+  nameWithType: InputReader.EnableGameplayInput()
+- uid: CatchIo.Inputs.InputReader.EnableGameplayInput*
+  name: EnableGameplayInput
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_EnableGameplayInput_
+  commentId: Overload:CatchIo.Inputs.InputReader.EnableGameplayInput
+  isSpec: "True"
+  fullName: CatchIo.Inputs.InputReader.EnableGameplayInput
+  nameWithType: InputReader.EnableGameplayInput
+- uid: CatchIo.Inputs.InputReader.EnableMenusInput
+  name: EnableMenusInput()
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_EnableMenusInput
+  commentId: M:CatchIo.Inputs.InputReader.EnableMenusInput
+  fullName: CatchIo.Inputs.InputReader.EnableMenusInput()
+  nameWithType: InputReader.EnableMenusInput()
+- uid: CatchIo.Inputs.InputReader.EnableMenusInput*
+  name: EnableMenusInput
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_EnableMenusInput_
+  commentId: Overload:CatchIo.Inputs.InputReader.EnableMenusInput
+  isSpec: "True"
+  fullName: CatchIo.Inputs.InputReader.EnableMenusInput
+  nameWithType: InputReader.EnableMenusInput
+- uid: CatchIo.Inputs.InputReader.OnCrouch(InputAction.CallbackContext)
+  name: OnCrouch(InputAction.CallbackContext)
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_OnCrouch_InputAction_CallbackContext_
+  commentId: M:CatchIo.Inputs.InputReader.OnCrouch(InputAction.CallbackContext)
+  fullName: CatchIo.Inputs.InputReader.OnCrouch(InputAction.CallbackContext)
+  nameWithType: InputReader.OnCrouch(InputAction.CallbackContext)
+- uid: CatchIo.Inputs.InputReader.OnCrouch*
+  name: OnCrouch
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_OnCrouch_
+  commentId: Overload:CatchIo.Inputs.InputReader.OnCrouch
+  isSpec: "True"
+  fullName: CatchIo.Inputs.InputReader.OnCrouch
+  nameWithType: InputReader.OnCrouch
 - uid: CatchIo.Items
   name: CatchIo.Items
   href: api/CatchIo.Items.html
@@ -2590,12 +2712,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TeleportRune.CanPickup
   nameWithType: TeleportRune.CanPickup
-- uid: CatchIo.Items.TeleportRune.EffectSequence
-  name: EffectSequence()
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_EffectSequence
-  commentId: M:CatchIo.Items.TeleportRune.EffectSequence
-  fullName: CatchIo.Items.TeleportRune.EffectSequence()
-  nameWithType: TeleportRune.EffectSequence()
+- uid: CatchIo.Items.TeleportRune.EffectSequence(EffectBase)
+  name: EffectSequence(EffectBase)
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_EffectSequence_EffectBase_
+  commentId: M:CatchIo.Items.TeleportRune.EffectSequence(EffectBase)
+  fullName: CatchIo.Items.TeleportRune.EffectSequence(EffectBase)
+  nameWithType: TeleportRune.EffectSequence(EffectBase)
 - uid: CatchIo.Items.TeleportRune.EffectSequence*
   name: EffectSequence
   href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_EffectSequence_
@@ -2603,12 +2725,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TeleportRune.EffectSequence
   nameWithType: TeleportRune.EffectSequence
-- uid: CatchIo.Items.TeleportRune.ExecuteEffect
-  name: ExecuteEffect()
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_ExecuteEffect
-  commentId: M:CatchIo.Items.TeleportRune.ExecuteEffect
-  fullName: CatchIo.Items.TeleportRune.ExecuteEffect()
-  nameWithType: TeleportRune.ExecuteEffect()
+- uid: CatchIo.Items.TeleportRune.ExecuteEffect(EffectBase)
+  name: ExecuteEffect(EffectBase)
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_ExecuteEffect_EffectBase_
+  commentId: M:CatchIo.Items.TeleportRune.ExecuteEffect(EffectBase)
+  fullName: CatchIo.Items.TeleportRune.ExecuteEffect(EffectBase)
+  nameWithType: TeleportRune.ExecuteEffect(EffectBase)
 - uid: CatchIo.Items.TeleportRune.ExecuteEffect*
   name: ExecuteEffect
   href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_ExecuteEffect_
@@ -2655,12 +2777,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TeleportRune.OnDiscard
   nameWithType: TeleportRune.OnDiscard
-- uid: CatchIo.Items.TeleportRune.OnEndEffect
-  name: OnEndEffect()
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnEndEffect
-  commentId: M:CatchIo.Items.TeleportRune.OnEndEffect
-  fullName: CatchIo.Items.TeleportRune.OnEndEffect()
-  nameWithType: TeleportRune.OnEndEffect()
+- uid: CatchIo.Items.TeleportRune.OnEndEffect(EffectBase)
+  name: OnEndEffect(EffectBase)
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnEndEffect_EffectBase_
+  commentId: M:CatchIo.Items.TeleportRune.OnEndEffect(EffectBase)
+  fullName: CatchIo.Items.TeleportRune.OnEndEffect(EffectBase)
+  nameWithType: TeleportRune.OnEndEffect(EffectBase)
 - uid: CatchIo.Items.TeleportRune.OnEndEffect*
   name: OnEndEffect
   href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnEndEffect_
@@ -2707,12 +2829,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TeleportRune.OnThrow
   nameWithType: TeleportRune.OnThrow
-- uid: CatchIo.Items.TeleportRune.ReverseEffect
-  name: ReverseEffect()
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_ReverseEffect
-  commentId: M:CatchIo.Items.TeleportRune.ReverseEffect
-  fullName: CatchIo.Items.TeleportRune.ReverseEffect()
-  nameWithType: TeleportRune.ReverseEffect()
+- uid: CatchIo.Items.TeleportRune.ReverseEffect(EffectBase)
+  name: ReverseEffect(EffectBase)
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_ReverseEffect_EffectBase_
+  commentId: M:CatchIo.Items.TeleportRune.ReverseEffect(EffectBase)
+  fullName: CatchIo.Items.TeleportRune.ReverseEffect(EffectBase)
+  nameWithType: TeleportRune.ReverseEffect(EffectBase)
 - uid: CatchIo.Items.TeleportRune.ReverseEffect*
   name: ReverseEffect
   href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_ReverseEffect_
@@ -4365,6 +4487,24 @@ references:
   commentId: F:CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
   fullName: CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
   nameWithType: NetworkManager.UpdateRoomPropertyInterval
+- uid: CatchIo.Network.SendEvent
+  name: SendEvent
+  href: api/CatchIo.Network.SendEvent.html
+  commentId: T:CatchIo.Network.SendEvent
+  fullName: CatchIo.Network.SendEvent
+  nameWithType: SendEvent
+- uid: CatchIo.Network.SendEvent.EnteredHidingStateEvent
+  name: EnteredHidingStateEvent
+  href: api/CatchIo.Network.SendEvent.html#CatchIo_Network_SendEvent_EnteredHidingStateEvent
+  commentId: F:CatchIo.Network.SendEvent.EnteredHidingStateEvent
+  fullName: CatchIo.Network.SendEvent.EnteredHidingStateEvent
+  nameWithType: SendEvent.EnteredHidingStateEvent
+- uid: CatchIo.Network.SendEvent.ExitedHidingStateEvent
+  name: ExitedHidingStateEvent
+  href: api/CatchIo.Network.SendEvent.html#CatchIo_Network_SendEvent_ExitedHidingStateEvent
+  commentId: F:CatchIo.Network.SendEvent.ExitedHidingStateEvent
+  fullName: CatchIo.Network.SendEvent.ExitedHidingStateEvent
+  nameWithType: SendEvent.ExitedHidingStateEvent
 - uid: CatchIo.ObjectPool
   name: CatchIo.ObjectPool
   href: api/CatchIo.ObjectPool.html
@@ -4708,19 +4848,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.ResetActionState
   nameWithType: Character.ResetActionState
-- uid: CatchIo.PlayerCharacter.Character.RPC_ControlDisappearEffect
-  name: RPC_ControlDisappearEffect()
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_ControlDisappearEffect
-  commentId: M:CatchIo.PlayerCharacter.Character.RPC_ControlDisappearEffect
-  fullName: CatchIo.PlayerCharacter.Character.RPC_ControlDisappearEffect()
-  nameWithType: Character.RPC_ControlDisappearEffect()
-- uid: CatchIo.PlayerCharacter.Character.RPC_ControlDisappearEffect*
-  name: RPC_ControlDisappearEffect
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_ControlDisappearEffect_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_ControlDisappearEffect
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.RPC_ControlDisappearEffect
-  nameWithType: Character.RPC_ControlDisappearEffect
 - uid: CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave(Vector3,System.Single)
   name: RPC_GenerateSoundWave(Vector3, Single)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_GenerateSoundWave_Vector3_System_Single_
@@ -5087,6 +5214,57 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterFOV.EnableFOVLight
   nameWithType: CharacterFOV.EnableFOVLight
+- uid: CatchIo.PlayerCharacter.CharacterHide
+  name: CharacterHide
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html
+  commentId: T:CatchIo.PlayerCharacter.CharacterHide
+  fullName: CatchIo.PlayerCharacter.CharacterHide
+  nameWithType: CharacterHide
+- uid: CatchIo.PlayerCharacter.CharacterHide.IsHiding
+  name: IsHiding
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html#CatchIo_PlayerCharacter_CharacterHide_IsHiding
+  commentId: P:CatchIo.PlayerCharacter.CharacterHide.IsHiding
+  fullName: CatchIo.PlayerCharacter.CharacterHide.IsHiding
+  nameWithType: CharacterHide.IsHiding
+- uid: CatchIo.PlayerCharacter.CharacterHide.IsHiding*
+  name: IsHiding
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html#CatchIo_PlayerCharacter_CharacterHide_IsHiding_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterHide.IsHiding
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterHide.IsHiding
+  nameWithType: CharacterHide.IsHiding
+- uid: CatchIo.PlayerCharacter.CharacterHide.OnEvent(EventData)
+  name: OnEvent(EventData)
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html#CatchIo_PlayerCharacter_CharacterHide_OnEvent_EventData_
+  commentId: M:CatchIo.PlayerCharacter.CharacterHide.OnEvent(EventData)
+  fullName: CatchIo.PlayerCharacter.CharacterHide.OnEvent(EventData)
+  nameWithType: CharacterHide.OnEvent(EventData)
+- uid: CatchIo.PlayerCharacter.CharacterHide.OnEvent*
+  name: OnEvent
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html#CatchIo_PlayerCharacter_CharacterHide_OnEvent_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterHide.OnEvent
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterHide.OnEvent
+  nameWithType: CharacterHide.OnEvent
+- uid: CatchIo.PlayerCharacter.CharacterHide.PercentageBeingOverlapped
+  name: PercentageBeingOverlapped
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html#CatchIo_PlayerCharacter_CharacterHide_PercentageBeingOverlapped
+  commentId: F:CatchIo.PlayerCharacter.CharacterHide.PercentageBeingOverlapped
+  fullName: CatchIo.PlayerCharacter.CharacterHide.PercentageBeingOverlapped
+  nameWithType: CharacterHide.PercentageBeingOverlapped
+- uid: CatchIo.PlayerCharacter.CharacterHide.Renderer
+  name: Renderer
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html#CatchIo_PlayerCharacter_CharacterHide_Renderer
+  commentId: P:CatchIo.PlayerCharacter.CharacterHide.Renderer
+  fullName: CatchIo.PlayerCharacter.CharacterHide.Renderer
+  nameWithType: CharacterHide.Renderer
+- uid: CatchIo.PlayerCharacter.CharacterHide.Renderer*
+  name: Renderer
+  href: api/CatchIo.PlayerCharacter.CharacterHide.html#CatchIo_PlayerCharacter_CharacterHide_Renderer_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterHide.Renderer
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterHide.Renderer
+  nameWithType: CharacterHide.Renderer
 - uid: CatchIo.PlayerCharacter.CharacterHitbox
   name: CharacterHitbox
   href: api/CatchIo.PlayerCharacter.CharacterHitbox.html
@@ -5173,6 +5351,19 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterRenderer
   fullName: CatchIo.PlayerCharacter.CharacterRenderer
   nameWithType: CharacterRenderer
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CancelHidingEffect
+  name: CancelHidingEffect()
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CancelHidingEffect
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.CancelHidingEffect
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CancelHidingEffect()
+  nameWithType: CharacterRenderer.CancelHidingEffect()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.CancelHidingEffect*
+  name: CancelHidingEffect
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CancelHidingEffect_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.CancelHidingEffect
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.CancelHidingEffect
+  nameWithType: CharacterRenderer.CancelHidingEffect
 - uid: CatchIo.PlayerCharacter.CharacterRenderer.CharacterRuntimeAnimatorController
   name: CharacterRuntimeAnimatorController
   href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_CharacterRuntimeAnimatorController
@@ -5225,18 +5416,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterRenderer.CharacterSkinRenderer
   nameWithType: CharacterRenderer.CharacterSkinRenderer
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.DisappearEffect
-  name: DisappearEffect
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_DisappearEffect
-  commentId: F:CatchIo.PlayerCharacter.CharacterRenderer.DisappearEffect
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.DisappearEffect
-  nameWithType: CharacterRenderer.DisappearEffect
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence
-  name: EffectSequence()
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_EffectSequence
-  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence()
-  nameWithType: CharacterRenderer.EffectSequence()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.DisableMaskRenderer
+  name: DisableMaskRenderer()
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_DisableMaskRenderer
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.DisableMaskRenderer
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.DisableMaskRenderer()
+  nameWithType: CharacterRenderer.DisableMaskRenderer()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.DisableMaskRenderer*
+  name: DisableMaskRenderer
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_DisableMaskRenderer_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.DisableMaskRenderer
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.DisableMaskRenderer
+  nameWithType: CharacterRenderer.DisableMaskRenderer
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence(EffectBase)
+  name: EffectSequence(EffectBase)
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_EffectSequence_EffectBase_
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence(EffectBase)
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence(EffectBase)
+  nameWithType: CharacterRenderer.EffectSequence(EffectBase)
 - uid: CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence*
   name: EffectSequence
   href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_EffectSequence_
@@ -5244,12 +5442,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterRenderer.EffectSequence
   nameWithType: CharacterRenderer.EffectSequence
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect
-  name: ExecuteEffect()
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ExecuteEffect
-  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect()
-  nameWithType: CharacterRenderer.ExecuteEffect()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.EnableMaskRenderer
+  name: EnableMaskRenderer()
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_EnableMaskRenderer
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.EnableMaskRenderer
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.EnableMaskRenderer()
+  nameWithType: CharacterRenderer.EnableMaskRenderer()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.EnableMaskRenderer*
+  name: EnableMaskRenderer
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_EnableMaskRenderer_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.EnableMaskRenderer
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.EnableMaskRenderer
+  nameWithType: CharacterRenderer.EnableMaskRenderer
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.EnterHidingEffect
+  name: EnterHidingEffect()
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_EnterHidingEffect
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.EnterHidingEffect
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.EnterHidingEffect()
+  nameWithType: CharacterRenderer.EnterHidingEffect()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.EnterHidingEffect*
+  name: EnterHidingEffect
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_EnterHidingEffect_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.EnterHidingEffect
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.EnterHidingEffect
+  nameWithType: CharacterRenderer.EnterHidingEffect
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect(EffectBase)
+  name: ExecuteEffect(EffectBase)
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ExecuteEffect_EffectBase_
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect(EffectBase)
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect(EffectBase)
+  nameWithType: CharacterRenderer.ExecuteEffect(EffectBase)
 - uid: CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect*
   name: ExecuteEffect
   href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ExecuteEffect_
@@ -5257,12 +5481,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterRenderer.ExecuteEffect
   nameWithType: CharacterRenderer.ExecuteEffect
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect
-  name: OnEndEffect()
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_OnEndEffect
-  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect()
-  nameWithType: CharacterRenderer.OnEndEffect()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.ExitHideEffect
+  name: ExitHideEffect()
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ExitHideEffect
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.ExitHideEffect
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.ExitHideEffect()
+  nameWithType: CharacterRenderer.ExitHideEffect()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.ExitHideEffect*
+  name: ExitHideEffect
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ExitHideEffect_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.ExitHideEffect
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.ExitHideEffect
+  nameWithType: CharacterRenderer.ExitHideEffect
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect(EffectBase)
+  name: OnEndEffect(EffectBase)
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_OnEndEffect_EffectBase_
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect(EffectBase)
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect(EffectBase)
+  nameWithType: CharacterRenderer.OnEndEffect(EffectBase)
 - uid: CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect*
   name: OnEndEffect
   href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_OnEndEffect_
@@ -5270,25 +5507,31 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterRenderer.OnEndEffect
   nameWithType: CharacterRenderer.OnEndEffect
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect
-  name: RenderHidingEffect()
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_RenderHidingEffect
-  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect()
-  nameWithType: CharacterRenderer.RenderHidingEffect()
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect*
-  name: RenderHidingEffect
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_RenderHidingEffect_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.OnSkinLoaded
+  name: OnSkinLoaded
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_OnSkinLoaded
+  commentId: F:CatchIo.PlayerCharacter.CharacterRenderer.OnSkinLoaded
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.OnSkinLoaded
+  nameWithType: CharacterRenderer.OnSkinLoaded
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.PlayHidingEffectImmediately
+  name: PlayHidingEffectImmediately()
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_PlayHidingEffectImmediately
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.PlayHidingEffectImmediately
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.PlayHidingEffectImmediately()
+  nameWithType: CharacterRenderer.PlayHidingEffectImmediately()
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.PlayHidingEffectImmediately*
+  name: PlayHidingEffectImmediately
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_PlayHidingEffectImmediately_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterRenderer.PlayHidingEffectImmediately
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.RenderHidingEffect
-  nameWithType: CharacterRenderer.RenderHidingEffect
-- uid: CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect
-  name: ReverseEffect()
-  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ReverseEffect
-  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect
-  fullName: CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect()
-  nameWithType: CharacterRenderer.ReverseEffect()
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.PlayHidingEffectImmediately
+  nameWithType: CharacterRenderer.PlayHidingEffectImmediately
+- uid: CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect(EffectBase)
+  name: ReverseEffect(EffectBase)
+  href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ReverseEffect_EffectBase_
+  commentId: M:CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect(EffectBase)
+  fullName: CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect(EffectBase)
+  nameWithType: CharacterRenderer.ReverseEffect(EffectBase)
 - uid: CatchIo.PlayerCharacter.CharacterRenderer.ReverseEffect*
   name: ReverseEffect
   href: api/CatchIo.PlayerCharacter.CharacterRenderer.html#CatchIo_PlayerCharacter_CharacterRenderer_ReverseEffect_
@@ -5462,6 +5705,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.AttackStamina
   fullName: CatchIo.PlayerCharacter.CharacterStatus.AttackStamina
   nameWithType: CharacterStatus.AttackStamina
+- uid: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageMultiplier
+  name: BackstabDamageMultiplier
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_BackstabDamageMultiplier
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageMultiplier
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.BackstabDamageMultiplier
+  nameWithType: CharacterStatus.BackstabDamageMultiplier
 - uid: CatchIo.PlayerCharacter.CharacterStatus.Buffs
   name: Buffs
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_Buffs
@@ -5481,19 +5730,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.CanAttack
   nameWithType: CharacterStatus.CanAttack
-- uid: CatchIo.PlayerCharacter.CharacterStatus.CanHide
-  name: CanHide
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanHide
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.CanHide
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanHide
-  nameWithType: CharacterStatus.CanHide
-- uid: CatchIo.PlayerCharacter.CharacterStatus.CanHide*
-  name: CanHide
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanHide_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.CanHide
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.CanHide
-  nameWithType: CharacterStatus.CanHide
 - uid: CatchIo.PlayerCharacter.CharacterStatus.CanLook
   name: CanLook
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_CanLook
@@ -5590,45 +5826,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.DecreaseStaminaPerSecWhenRunning
   fullName: CatchIo.PlayerCharacter.CharacterStatus.DecreaseStaminaPerSecWhenRunning
   nameWithType: CharacterStatus.DecreaseStaminaPerSecWhenRunning
-- uid: CatchIo.PlayerCharacter.CharacterStatus.EnteredHidingSpot
-  name: EnteredHidingSpot
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_EnteredHidingSpot
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.EnteredHidingSpot
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.EnteredHidingSpot
-  nameWithType: CharacterStatus.EnteredHidingSpot
-- uid: CatchIo.PlayerCharacter.CharacterStatus.EnteredHidingSpot*
-  name: EnteredHidingSpot
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_EnteredHidingSpot_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.EnteredHidingSpot
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.EnteredHidingSpot
-  nameWithType: CharacterStatus.EnteredHidingSpot
-- uid: CatchIo.PlayerCharacter.CharacterStatus.EnterHidingSpot(HidingSpot)
-  name: EnterHidingSpot(HidingSpot)
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_EnterHidingSpot_HidingSpot_
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.EnterHidingSpot(HidingSpot)
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.EnterHidingSpot(HidingSpot)
-  nameWithType: CharacterStatus.EnterHidingSpot(HidingSpot)
-- uid: CatchIo.PlayerCharacter.CharacterStatus.EnterHidingSpot*
-  name: EnterHidingSpot
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_EnterHidingSpot_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.EnterHidingSpot
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.EnterHidingSpot
-  nameWithType: CharacterStatus.EnterHidingSpot
-- uid: CatchIo.PlayerCharacter.CharacterStatus.ExitHidingSpot
-  name: ExitHidingSpot()
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_ExitHidingSpot
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.ExitHidingSpot
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.ExitHidingSpot()
-  nameWithType: CharacterStatus.ExitHidingSpot()
-- uid: CatchIo.PlayerCharacter.CharacterStatus.ExitHidingSpot*
-  name: ExitHidingSpot
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_ExitHidingSpot_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.ExitHidingSpot
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.ExitHidingSpot
-  nameWithType: CharacterStatus.ExitHidingSpot
 - uid: CatchIo.PlayerCharacter.CharacterStatus.FrictionAmount
   name: FrictionAmount
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_FrictionAmount
@@ -5648,6 +5845,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.GetDragForce
   nameWithType: CharacterStatus.GetDragForce
+- uid: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState)
+  name: GetMeleeDamage(CharacterDirectionState)
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMeleeDamage_CatchIo_PlayerCharacter_CharacterDirectionState_
+  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState)
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage(CatchIo.PlayerCharacter.CharacterDirectionState)
+  nameWithType: CharacterStatus.GetMeleeDamage(CharacterDirectionState)
+- uid: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage*
+  name: GetMeleeDamage
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMeleeDamage_
+  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.GetMeleeDamage
+  nameWithType: CharacterStatus.GetMeleeDamage
 - uid: CatchIo.PlayerCharacter.CharacterStatus.GetMovementVelocity(System.Single,System.Single,System.Single)
   name: GetMovementVelocity(Single, Single, Single)
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_GetMovementVelocity_System_Single_System_Single_System_Single_
@@ -5726,32 +5936,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.CharacterStatus.IsDead
   nameWithType: CharacterStatus.IsDead
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsHidden
-  name: IsHidden
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHidden
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsHidden
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHidden
-  nameWithType: CharacterStatus.IsHidden
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsHidden*
-  name: IsHidden
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHidden_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.IsHidden
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHidden
-  nameWithType: CharacterStatus.IsHidden
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsHiding
-  name: IsHiding
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHiding
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsHiding
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHiding
-  nameWithType: CharacterStatus.IsHiding
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsHiding*
-  name: IsHiding
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsHiding_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.IsHiding
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsHiding
-  nameWithType: CharacterStatus.IsHiding
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsRunning
   name: IsRunning
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsRunning
@@ -5771,19 +5955,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.IsSpectator
   fullName: CatchIo.PlayerCharacter.CharacterStatus.IsSpectator
   nameWithType: CharacterStatus.IsSpectator
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsStanding
-  name: IsStanding
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStanding
-  commentId: P:CatchIo.PlayerCharacter.CharacterStatus.IsStanding
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsStanding
-  nameWithType: CharacterStatus.IsStanding
-- uid: CatchIo.PlayerCharacter.CharacterStatus.IsStanding*
-  name: IsStanding
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStanding_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.IsStanding
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.IsStanding
-  nameWithType: CharacterStatus.IsStanding
 - uid: CatchIo.PlayerCharacter.CharacterStatus.IsStaying
   name: IsStaying
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_IsStaying
@@ -5828,6 +5999,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MaxStamina
   fullName: CatchIo.PlayerCharacter.CharacterStatus.MaxStamina
   nameWithType: CharacterStatus.MaxStamina
+- uid: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
+  name: MeleeDamage
+  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MeleeDamage
+  commentId: F:CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
+  fullName: CatchIo.PlayerCharacter.CharacterStatus.MeleeDamage
+  nameWithType: CharacterStatus.MeleeDamage
 - uid: CatchIo.PlayerCharacter.CharacterStatus.MIN_VIEW_SLICE
   name: MIN_VIEW_SLICE
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_MIN_VIEW_SLICE
@@ -5896,19 +6073,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.CharacterStatus.RunSpeedMultiplier
   fullName: CatchIo.PlayerCharacter.CharacterStatus.RunSpeedMultiplier
   nameWithType: CharacterStatus.RunSpeedMultiplier
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SetHiding
-  name: SetHiding()
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetHiding
-  commentId: M:CatchIo.PlayerCharacter.CharacterStatus.SetHiding
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetHiding()
-  nameWithType: CharacterStatus.SetHiding()
-- uid: CatchIo.PlayerCharacter.CharacterStatus.SetHiding*
-  name: SetHiding
-  href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetHiding_
-  commentId: Overload:CatchIo.PlayerCharacter.CharacterStatus.SetHiding
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.CharacterStatus.SetHiding
-  nameWithType: CharacterStatus.SetHiding
 - uid: CatchIo.PlayerCharacter.CharacterStatus.SetMoveState(Vector2,System.Boolean,System.Boolean)
   name: SetMoveState(Vector2, Boolean, Boolean)
   href: api/CatchIo.PlayerCharacter.CharacterStatus.html#CatchIo_PlayerCharacter_CharacterStatus_SetMoveState_Vector2_System_Boolean_System_Boolean_
@@ -6716,6 +6880,296 @@ references:
   isSpec: "True"
   fullName: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc
   nameWithType: TrajectoryArc.UpdateTrajectoryArc
+- uid: CatchIo.ScriptableObjects
+  name: CatchIo.ScriptableObjects
+  href: api/CatchIo.ScriptableObjects.html
+  commentId: N:CatchIo.ScriptableObjects
+  fullName: CatchIo.ScriptableObjects
+  nameWithType: CatchIo.ScriptableObjects
+- uid: CatchIo.ScriptableObjects.DescriptionBaseSO
+  name: DescriptionBaseSO
+  href: api/CatchIo.ScriptableObjects.DescriptionBaseSO.html
+  commentId: T:CatchIo.ScriptableObjects.DescriptionBaseSO
+  fullName: CatchIo.ScriptableObjects.DescriptionBaseSO
+  nameWithType: DescriptionBaseSO
+- uid: CatchIo.ScriptableObjects.DescriptionBaseSO.description
+  name: description
+  href: api/CatchIo.ScriptableObjects.DescriptionBaseSO.html#CatchIo_ScriptableObjects_DescriptionBaseSO_description
+  commentId: F:CatchIo.ScriptableObjects.DescriptionBaseSO.description
+  fullName: CatchIo.ScriptableObjects.DescriptionBaseSO.description
+  nameWithType: DescriptionBaseSO.description
+- uid: CatchIo.ScriptableObjects.Events
+  name: CatchIo.ScriptableObjects.Events
+  href: api/CatchIo.ScriptableObjects.Events.html
+  commentId: N:CatchIo.ScriptableObjects.Events
+  fullName: CatchIo.ScriptableObjects.Events
+  nameWithType: CatchIo.ScriptableObjects.Events
+- uid: CatchIo.ScriptableObjects.Events.BoolEventChannelSO
+  name: BoolEventChannelSO
+  href: api/CatchIo.ScriptableObjects.Events.BoolEventChannelSO.html
+  commentId: T:CatchIo.ScriptableObjects.Events.BoolEventChannelSO
+  fullName: CatchIo.ScriptableObjects.Events.BoolEventChannelSO
+  nameWithType: BoolEventChannelSO
+- uid: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.AddListener(UnityAction{System.Boolean})
+  name: AddListener(UnityAction<Boolean>)
+  href: api/CatchIo.ScriptableObjects.Events.BoolEventChannelSO.html#CatchIo_ScriptableObjects_Events_BoolEventChannelSO_AddListener_UnityAction_System_Boolean__
+  commentId: M:CatchIo.ScriptableObjects.Events.BoolEventChannelSO.AddListener(UnityAction{System.Boolean})
+  name.vb: AddListener(UnityAction(Of Boolean))
+  fullName: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.AddListener(UnityAction<System.Boolean>)
+  fullName.vb: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.AddListener(UnityAction(Of System.Boolean))
+  nameWithType: BoolEventChannelSO.AddListener(UnityAction<Boolean>)
+  nameWithType.vb: BoolEventChannelSO.AddListener(UnityAction(Of Boolean))
+- uid: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.AddListener*
+  name: AddListener
+  href: api/CatchIo.ScriptableObjects.Events.BoolEventChannelSO.html#CatchIo_ScriptableObjects_Events_BoolEventChannelSO_AddListener_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.BoolEventChannelSO.AddListener
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.AddListener
+  nameWithType: BoolEventChannelSO.AddListener
+- uid: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RaiseEvent(System.Boolean)
+  name: RaiseEvent(Boolean)
+  href: api/CatchIo.ScriptableObjects.Events.BoolEventChannelSO.html#CatchIo_ScriptableObjects_Events_BoolEventChannelSO_RaiseEvent_System_Boolean_
+  commentId: M:CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RaiseEvent(System.Boolean)
+  fullName: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RaiseEvent(System.Boolean)
+  nameWithType: BoolEventChannelSO.RaiseEvent(Boolean)
+- uid: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RaiseEvent*
+  name: RaiseEvent
+  href: api/CatchIo.ScriptableObjects.Events.BoolEventChannelSO.html#CatchIo_ScriptableObjects_Events_BoolEventChannelSO_RaiseEvent_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RaiseEvent
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RaiseEvent
+  nameWithType: BoolEventChannelSO.RaiseEvent
+- uid: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RemoveListener(UnityAction{System.Boolean})
+  name: RemoveListener(UnityAction<Boolean>)
+  href: api/CatchIo.ScriptableObjects.Events.BoolEventChannelSO.html#CatchIo_ScriptableObjects_Events_BoolEventChannelSO_RemoveListener_UnityAction_System_Boolean__
+  commentId: M:CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RemoveListener(UnityAction{System.Boolean})
+  name.vb: RemoveListener(UnityAction(Of Boolean))
+  fullName: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RemoveListener(UnityAction<System.Boolean>)
+  fullName.vb: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RemoveListener(UnityAction(Of System.Boolean))
+  nameWithType: BoolEventChannelSO.RemoveListener(UnityAction<Boolean>)
+  nameWithType.vb: BoolEventChannelSO.RemoveListener(UnityAction(Of Boolean))
+- uid: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RemoveListener*
+  name: RemoveListener
+  href: api/CatchIo.ScriptableObjects.Events.BoolEventChannelSO.html#CatchIo_ScriptableObjects_Events_BoolEventChannelSO_RemoveListener_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RemoveListener
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.BoolEventChannelSO.RemoveListener
+  nameWithType: BoolEventChannelSO.RemoveListener
+- uid: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO
+  name: HidingSpotEventChannelSO
+  href: api/CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.html
+  commentId: T:CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO
+  fullName: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO
+  nameWithType: HidingSpotEventChannelSO
+- uid: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.AddListener(UnityAction{HidingSpot})
+  name: AddListener(UnityAction<HidingSpot>)
+  href: api/CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.html#CatchIo_ScriptableObjects_Events_HidingSpotEventChannelSO_AddListener_UnityAction_HidingSpot__
+  commentId: M:CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.AddListener(UnityAction{HidingSpot})
+  name.vb: AddListener(UnityAction(Of HidingSpot))
+  fullName: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.AddListener(UnityAction<HidingSpot>)
+  fullName.vb: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.AddListener(UnityAction(Of HidingSpot))
+  nameWithType: HidingSpotEventChannelSO.AddListener(UnityAction<HidingSpot>)
+  nameWithType.vb: HidingSpotEventChannelSO.AddListener(UnityAction(Of HidingSpot))
+- uid: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.AddListener*
+  name: AddListener
+  href: api/CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.html#CatchIo_ScriptableObjects_Events_HidingSpotEventChannelSO_AddListener_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.AddListener
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.AddListener
+  nameWithType: HidingSpotEventChannelSO.AddListener
+- uid: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RaiseEvent(HidingSpot)
+  name: RaiseEvent(HidingSpot)
+  href: api/CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.html#CatchIo_ScriptableObjects_Events_HidingSpotEventChannelSO_RaiseEvent_HidingSpot_
+  commentId: M:CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RaiseEvent(HidingSpot)
+  fullName: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RaiseEvent(HidingSpot)
+  nameWithType: HidingSpotEventChannelSO.RaiseEvent(HidingSpot)
+- uid: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RaiseEvent*
+  name: RaiseEvent
+  href: api/CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.html#CatchIo_ScriptableObjects_Events_HidingSpotEventChannelSO_RaiseEvent_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RaiseEvent
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RaiseEvent
+  nameWithType: HidingSpotEventChannelSO.RaiseEvent
+- uid: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RemoveListener(UnityAction{HidingSpot})
+  name: RemoveListener(UnityAction<HidingSpot>)
+  href: api/CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.html#CatchIo_ScriptableObjects_Events_HidingSpotEventChannelSO_RemoveListener_UnityAction_HidingSpot__
+  commentId: M:CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RemoveListener(UnityAction{HidingSpot})
+  name.vb: RemoveListener(UnityAction(Of HidingSpot))
+  fullName: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RemoveListener(UnityAction<HidingSpot>)
+  fullName.vb: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RemoveListener(UnityAction(Of HidingSpot))
+  nameWithType: HidingSpotEventChannelSO.RemoveListener(UnityAction<HidingSpot>)
+  nameWithType.vb: HidingSpotEventChannelSO.RemoveListener(UnityAction(Of HidingSpot))
+- uid: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RemoveListener*
+  name: RemoveListener
+  href: api/CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.html#CatchIo_ScriptableObjects_Events_HidingSpotEventChannelSO_RemoveListener_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RemoveListener
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.HidingSpotEventChannelSO.RemoveListener
+  nameWithType: HidingSpotEventChannelSO.RemoveListener
+- uid: CatchIo.ScriptableObjects.Events.VoidEventChannelSO
+  name: VoidEventChannelSO
+  href: api/CatchIo.ScriptableObjects.Events.VoidEventChannelSO.html
+  commentId: T:CatchIo.ScriptableObjects.Events.VoidEventChannelSO
+  fullName: CatchIo.ScriptableObjects.Events.VoidEventChannelSO
+  nameWithType: VoidEventChannelSO
+- uid: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.AddListener(UnityAction)
+  name: AddListener(UnityAction)
+  href: api/CatchIo.ScriptableObjects.Events.VoidEventChannelSO.html#CatchIo_ScriptableObjects_Events_VoidEventChannelSO_AddListener_UnityAction_
+  commentId: M:CatchIo.ScriptableObjects.Events.VoidEventChannelSO.AddListener(UnityAction)
+  fullName: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.AddListener(UnityAction)
+  nameWithType: VoidEventChannelSO.AddListener(UnityAction)
+- uid: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.AddListener*
+  name: AddListener
+  href: api/CatchIo.ScriptableObjects.Events.VoidEventChannelSO.html#CatchIo_ScriptableObjects_Events_VoidEventChannelSO_AddListener_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.VoidEventChannelSO.AddListener
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.AddListener
+  nameWithType: VoidEventChannelSO.AddListener
+- uid: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RaiseEvent
+  name: RaiseEvent()
+  href: api/CatchIo.ScriptableObjects.Events.VoidEventChannelSO.html#CatchIo_ScriptableObjects_Events_VoidEventChannelSO_RaiseEvent
+  commentId: M:CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RaiseEvent
+  fullName: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RaiseEvent()
+  nameWithType: VoidEventChannelSO.RaiseEvent()
+- uid: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RaiseEvent*
+  name: RaiseEvent
+  href: api/CatchIo.ScriptableObjects.Events.VoidEventChannelSO.html#CatchIo_ScriptableObjects_Events_VoidEventChannelSO_RaiseEvent_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RaiseEvent
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RaiseEvent
+  nameWithType: VoidEventChannelSO.RaiseEvent
+- uid: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RemoveListener(UnityAction)
+  name: RemoveListener(UnityAction)
+  href: api/CatchIo.ScriptableObjects.Events.VoidEventChannelSO.html#CatchIo_ScriptableObjects_Events_VoidEventChannelSO_RemoveListener_UnityAction_
+  commentId: M:CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RemoveListener(UnityAction)
+  fullName: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RemoveListener(UnityAction)
+  nameWithType: VoidEventChannelSO.RemoveListener(UnityAction)
+- uid: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RemoveListener*
+  name: RemoveListener
+  href: api/CatchIo.ScriptableObjects.Events.VoidEventChannelSO.html#CatchIo_ScriptableObjects_Events_VoidEventChannelSO_RemoveListener_
+  commentId: Overload:CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RemoveListener
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Events.VoidEventChannelSO.RemoveListener
+  nameWithType: VoidEventChannelSO.RemoveListener
+- uid: CatchIo.ScriptableObjects.SerializableScriptableObject
+  name: SerializableScriptableObject
+  href: api/CatchIo.ScriptableObjects.SerializableScriptableObject.html
+  commentId: T:CatchIo.ScriptableObjects.SerializableScriptableObject
+  fullName: CatchIo.ScriptableObjects.SerializableScriptableObject
+  nameWithType: SerializableScriptableObject
+- uid: CatchIo.ScriptableObjects.SerializableScriptableObject.Guid
+  name: Guid
+  href: api/CatchIo.ScriptableObjects.SerializableScriptableObject.html#CatchIo_ScriptableObjects_SerializableScriptableObject_Guid
+  commentId: P:CatchIo.ScriptableObjects.SerializableScriptableObject.Guid
+  fullName: CatchIo.ScriptableObjects.SerializableScriptableObject.Guid
+  nameWithType: SerializableScriptableObject.Guid
+- uid: CatchIo.ScriptableObjects.SerializableScriptableObject.Guid*
+  name: Guid
+  href: api/CatchIo.ScriptableObjects.SerializableScriptableObject.html#CatchIo_ScriptableObjects_SerializableScriptableObject_Guid_
+  commentId: Overload:CatchIo.ScriptableObjects.SerializableScriptableObject.Guid
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.SerializableScriptableObject.Guid
+  nameWithType: SerializableScriptableObject.Guid
+- uid: CatchIo.ScriptableObjects.Variables
+  name: CatchIo.ScriptableObjects.Variables
+  href: api/CatchIo.ScriptableObjects.Variables.html
+  commentId: N:CatchIo.ScriptableObjects.Variables
+  fullName: CatchIo.ScriptableObjects.Variables
+  nameWithType: CatchIo.ScriptableObjects.Variables
+- uid: CatchIo.ScriptableObjects.Variables.BoolReference
+  name: BoolReference
+  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html
+  commentId: T:CatchIo.ScriptableObjects.Variables.BoolReference
+  fullName: CatchIo.ScriptableObjects.Variables.BoolReference
+  nameWithType: BoolReference
+- uid: CatchIo.ScriptableObjects.Variables.BoolReference.Value
+  name: Value
+  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html#CatchIo_ScriptableObjects_Variables_BoolReference_Value
+  commentId: P:CatchIo.ScriptableObjects.Variables.BoolReference.Value
+  fullName: CatchIo.ScriptableObjects.Variables.BoolReference.Value
+  nameWithType: BoolReference.Value
+- uid: CatchIo.ScriptableObjects.Variables.BoolReference.Value*
+  name: Value
+  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html#CatchIo_ScriptableObjects_Variables_BoolReference_Value_
+  commentId: Overload:CatchIo.ScriptableObjects.Variables.BoolReference.Value
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Variables.BoolReference.Value
+  nameWithType: BoolReference.Value
+- uid: CatchIo.ScriptableObjects.Variables.BoolReference.Variable
+  name: Variable
+  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html#CatchIo_ScriptableObjects_Variables_BoolReference_Variable
+  commentId: F:CatchIo.ScriptableObjects.Variables.BoolReference.Variable
+  fullName: CatchIo.ScriptableObjects.Variables.BoolReference.Variable
+  nameWithType: BoolReference.Variable
+- uid: CatchIo.ScriptableObjects.Variables.BoolVariable
+  name: BoolVariable
+  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html
+  commentId: T:CatchIo.ScriptableObjects.Variables.BoolVariable
+  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable
+  nameWithType: BoolVariable
+- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnAfterDeserialize
+  commentId: M:CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
+  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize()
+  nameWithType: BoolVariable.OnAfterDeserialize()
+- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize*
+  name: OnAfterDeserialize
+  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnAfterDeserialize_
+  commentId: Overload:CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
+  nameWithType: BoolVariable.OnAfterDeserialize
+- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnBeforeSerialize
+  commentId: M:CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
+  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize()
+  nameWithType: BoolVariable.OnBeforeSerialize()
+- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize*
+  name: OnBeforeSerialize
+  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnBeforeSerialize_
+  commentId: Overload:CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
+  nameWithType: BoolVariable.OnBeforeSerialize
+- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.RuntimeValue
+  name: RuntimeValue
+  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_RuntimeValue
+  commentId: F:CatchIo.ScriptableObjects.Variables.BoolVariable.RuntimeValue
+  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.RuntimeValue
+  nameWithType: BoolVariable.RuntimeValue
+- uid: CatchIo.ScriptableObjects.Variables.FloatReference
+  name: FloatReference
+  href: api/CatchIo.ScriptableObjects.Variables.FloatReference.html
+  commentId: T:CatchIo.ScriptableObjects.Variables.FloatReference
+  fullName: CatchIo.ScriptableObjects.Variables.FloatReference
+  nameWithType: FloatReference
+- uid: CatchIo.ScriptableObjects.Variables.FloatReference.Value
+  name: Value
+  href: api/CatchIo.ScriptableObjects.Variables.FloatReference.html#CatchIo_ScriptableObjects_Variables_FloatReference_Value
+  commentId: P:CatchIo.ScriptableObjects.Variables.FloatReference.Value
+  fullName: CatchIo.ScriptableObjects.Variables.FloatReference.Value
+  nameWithType: FloatReference.Value
+- uid: CatchIo.ScriptableObjects.Variables.FloatReference.Value*
+  name: Value
+  href: api/CatchIo.ScriptableObjects.Variables.FloatReference.html#CatchIo_ScriptableObjects_Variables_FloatReference_Value_
+  commentId: Overload:CatchIo.ScriptableObjects.Variables.FloatReference.Value
+  isSpec: "True"
+  fullName: CatchIo.ScriptableObjects.Variables.FloatReference.Value
+  nameWithType: FloatReference.Value
+- uid: CatchIo.ScriptableObjects.Variables.FloatVariable
+  name: FloatVariable
+  href: api/CatchIo.ScriptableObjects.Variables.FloatVariable.html
+  commentId: T:CatchIo.ScriptableObjects.Variables.FloatVariable
+  fullName: CatchIo.ScriptableObjects.Variables.FloatVariable
+  nameWithType: FloatVariable
+- uid: CatchIo.ScriptableObjects.Variables.FloatVariable.Value
+  name: Value
+  href: api/CatchIo.ScriptableObjects.Variables.FloatVariable.html#CatchIo_ScriptableObjects_Variables_FloatVariable_Value
+  commentId: F:CatchIo.ScriptableObjects.Variables.FloatVariable.Value
+  fullName: CatchIo.ScriptableObjects.Variables.FloatVariable.Value
+  nameWithType: FloatVariable.Value
 - uid: CatchIo.Sound
   name: CatchIo.Sound
   href: api/CatchIo.Sound.html
@@ -7533,32 +7987,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.UI.HidingIndicator.PlayEyeOpeningAnim
   nameWithType: HidingIndicator.PlayEyeOpeningAnim
-- uid: CatchIo.UI.HidingIndicator.SetEyeCloseImage
-  name: SetEyeCloseImage()
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeCloseImage
-  commentId: M:CatchIo.UI.HidingIndicator.SetEyeCloseImage
-  fullName: CatchIo.UI.HidingIndicator.SetEyeCloseImage()
-  nameWithType: HidingIndicator.SetEyeCloseImage()
-- uid: CatchIo.UI.HidingIndicator.SetEyeCloseImage*
-  name: SetEyeCloseImage
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeCloseImage_
-  commentId: Overload:CatchIo.UI.HidingIndicator.SetEyeCloseImage
-  isSpec: "True"
-  fullName: CatchIo.UI.HidingIndicator.SetEyeCloseImage
-  nameWithType: HidingIndicator.SetEyeCloseImage
-- uid: CatchIo.UI.HidingIndicator.SetEyeOpenImage
-  name: SetEyeOpenImage()
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeOpenImage
-  commentId: M:CatchIo.UI.HidingIndicator.SetEyeOpenImage
-  fullName: CatchIo.UI.HidingIndicator.SetEyeOpenImage()
-  nameWithType: HidingIndicator.SetEyeOpenImage()
-- uid: CatchIo.UI.HidingIndicator.SetEyeOpenImage*
-  name: SetEyeOpenImage
-  href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_SetEyeOpenImage_
-  commentId: Overload:CatchIo.UI.HidingIndicator.SetEyeOpenImage
-  isSpec: "True"
-  fullName: CatchIo.UI.HidingIndicator.SetEyeOpenImage
-  nameWithType: HidingIndicator.SetEyeOpenImage
 - uid: CatchIo.UI.HidingIndicator.TranslatePosition(Vector3)
   name: TranslatePosition(Vector3)
   href: api/CatchIo.UI.HidingIndicator.html#CatchIo_UI_HidingIndicator_TranslatePosition_Vector3_
