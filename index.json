@@ -169,10 +169,15 @@
     "title": "Class GameMode | Catch.io Developer Reference",
     "keywords": "Class GameMode Inheritance Object GameMode CursedOneGameMode DeathMatchGameMode SandboxGameMode Namespace : CatchIo.GameMode Assembly : cs.temp.dll.dll Syntax public abstract class GameMode : ScriptableObject Fields _gameModeTimer Declaration protected readonly Timer _gameModeTimer Field Value Type Description Timer _pointSystem Declaration protected PointSystem _pointSystem Field Value Type Description PointSystem _preloadTimer Declaration protected readonly Timer _preloadTimer Field Value Type Description Timer CanRespawn Declaration public bool CanRespawn Field Value Type Description Boolean CanSpawnItem Declaration public bool CanSpawnItem Field Value Type Description Boolean CharacterStatus Declaration public CharacterStatus CharacterStatus Field Value Type Description CharacterStatus GameDuration Declaration public float GameDuration Field Value Type Description Single MaxPlayerCount Declaration public int MaxPlayerCount Field Value Type Description Int32 OnCharacterDead Declaration public Action<int> OnCharacterDead Field Value Type Description Action < Int32 > OnCharacterKilled Declaration public Action<int> OnCharacterKilled Field Value Type Description Action < Int32 > OnCharacterTrapped Declaration public Action<int> OnCharacterTrapped Field Value Type Description Action < Int32 > OnGameModeEnd Declaration public Action OnGameModeEnd Field Value Type Description Action OnGameModeStart Declaration public Action OnGameModeStart Field Value Type Description Action OnGameModeStop Declaration public Action OnGameModeStop Field Value Type Description Action PlayerBuffs Declaration public List<Buff> PlayerBuffs Field Value Type Description List < Buff > PreloadingTime Declaration public float PreloadingTime Field Value Type Description Single RespawnDelayTime Declaration public float RespawnDelayTime Field Value Type Description Single Type Declaration public GameModeType Type Field Value Type Description GameModeType ViewIdToCharacterMap Declaration public Dictionary<int, Character> ViewIdToCharacterMap Field Value Type Description Dictionary < Int32 , Character > Properties GameModeCurrentTime Declaration public float GameModeCurrentTime { get; } Property Value Type Description Single Methods GetGameModeInstance(String) Declaration public static GameMode GetGameModeInstance(string modeName) Parameters Type Name Description String modeName Returns Type Description GameMode GetPointSystem() Declaration public virtual PointSystem GetPointSystem() Returns Type Description PointSystem GetWinner() Declaration public abstract Character GetWinner() Returns Type Description Character Initialize() Declaration public virtual void Initialize() OnGameModeFinished() Declaration protected virtual void OnGameModeFinished() OnGameModeStarted() Declaration protected virtual void OnGameModeStarted() OnGameModeStopped() Declaration protected abstract void OnGameModeStopped() RespawnCharacter(Int32) Declaration public void RespawnCharacter(int viewId) Parameters Type Name Description Int32 viewId UpdateGameMode(Single) Declaration public void UpdateGameMode(float deltaTime) Parameters Type Name Description Single deltaTime"
   },
+  "api/CatchIo.GameMode.GameModeContainer.html": {
+    "href": "api/CatchIo.GameMode.GameModeContainer.html",
+    "title": "Class GameModeContainer | Catch.io Developer Reference",
+    "keywords": "Class GameModeContainer Inheritance Object GameModeContainer Namespace : CatchIo.GameMode Assembly : cs.temp.dll.dll Syntax public class GameModeContainer : ScriptableObject Fields GameModes Declaration public List<GameMode> GameModes Field Value Type Description List < GameMode >"
+  },
   "api/CatchIo.GameMode.html": {
     "href": "api/CatchIo.GameMode.html",
     "title": "Namespace CatchIo.GameMode | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.GameMode Classes CursedOneGameMode DeathMatchGameMode GameMode PointSystem SandboxGameMode"
+    "keywords": "Namespace CatchIo.GameMode Classes CursedOneGameMode DeathMatchGameMode GameMode GameModeContainer PointSystem SandboxGameMode"
   },
   "api/CatchIo.GameMode.PointSystem.html": {
     "href": "api/CatchIo.GameMode.PointSystem.html",
@@ -552,7 +557,12 @@
   "api/CatchIo.ScriptableObjects.html": {
     "href": "api/CatchIo.ScriptableObjects.html",
     "title": "Namespace CatchIo.ScriptableObjects | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.ScriptableObjects Classes DescriptionBaseSO Base class for ScriptableObjects that need a public description field. SerializableScriptableObject"
+    "keywords": "Namespace CatchIo.ScriptableObjects Classes DescriptionBaseSO Base class for ScriptableObjects that need a public description field. SceneContainer SerializableScriptableObject"
+  },
+  "api/CatchIo.ScriptableObjects.SceneContainer.html": {
+    "href": "api/CatchIo.ScriptableObjects.SceneContainer.html",
+    "title": "Class SceneContainer | Catch.io Developer Reference",
+    "keywords": "Class SceneContainer Inheritance Object SceneContainer Namespace : CatchIo.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public class SceneContainer : ScriptableObject Fields Scenes Declaration public List<AssetReference> Scenes Field Value Type Description List < AssetReference >"
   },
   "api/CatchIo.ScriptableObjects.SerializableScriptableObject.html": {
     "href": "api/CatchIo.ScriptableObjects.SerializableScriptableObject.html",
@@ -649,6 +659,11 @@
     "title": "Class GameLoadingContext | Catch.io Developer Reference",
     "keywords": "Class GameLoadingContext Inheritance Object UINavigationContext < UIGameViewType > GameLoadingContext Inherited Members UINavigationContext<UIGameViewType>.UINavigation Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class GameLoadingContext : UINavigationContext<UIGameViewType> Constructors GameLoadingContext(UINavigation<UIGameViewType>) Declaration public GameLoadingContext(UINavigation<UIGameViewType> nav) Parameters Type Name Description UINavigation < UIGameViewType > nav Properties LoadingCauseText Declaration public string LoadingCauseText { get; set; } Property Value Type Description String"
   },
+  "api/CatchIo.UI.GameModeDropdown.html": {
+    "href": "api/CatchIo.UI.GameModeDropdown.html",
+    "title": "Class GameModeDropdown | Catch.io Developer Reference",
+    "keywords": "Class GameModeDropdown Inheritance Object GameModeDropdown Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class GameModeDropdown : MonoBehaviour Fields Container Declaration public GameModeContainer Container Field Value Type Description GameModeContainer"
+  },
   "api/CatchIo.UI.GameUIContext.html": {
     "href": "api/CatchIo.UI.GameUIContext.html",
     "title": "Class GameUIContext | Catch.io Developer Reference",
@@ -667,7 +682,7 @@
   "api/CatchIo.UI.html": {
     "href": "api/CatchIo.UI.html",
     "title": "Namespace CatchIo.UI | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.UI Classes CharacterClassContext CollectionTextWriter ErrorMessageContext FpsAndPingUI GameHudContext GameLoadingContext GameUIContext GameUIManager HidingIndicator HudMeter InventoryHUD InventorySlot LoadingContext LoadingPlayerProgress LobbyContext MainMenuContext MenuUIContext PointText RoomContext RoomInfoContext TextSetting This implements the behavior for the \"TextSetting\" UI Object, which allows users to click on adjacent arrows to switch the selected text within the provided text list. TitleContext ToggleText A subclass of Unity UI's Toggle with additional settings for Text to change by SelectionState. UIChatSender UINavigation<T> UINavigationContext<T> UIWindowFormat Enums UIGameViewType UIMenuViewType"
+    "keywords": "Namespace CatchIo.UI Classes CharacterClassContext CollectionTextWriter ErrorMessageContext FpsAndPingUI GameHudContext GameLoadingContext GameModeDropdown GameUIContext GameUIManager HidingIndicator HudMeter InventoryHUD InventorySlot LoadingContext LoadingPlayerProgress LobbyContext MainMenuContext MapDropdown MenuUIContext PointText RoomContext RoomInfoContext TextSetting This implements the behavior for the \"TextSetting\" UI Object, which allows users to click on adjacent arrows to switch the selected text within the provided text list. TitleContext ToggleText A subclass of Unity UI's Toggle with additional settings for Text to change by SelectionState. UIChatSender UINavigation<T> UINavigationContext<T> UIWindowFormat Enums UIGameViewType UIMenuViewType"
   },
   "api/CatchIo.UI.HudMeter.html": {
     "href": "api/CatchIo.UI.HudMeter.html",
@@ -703,6 +718,11 @@
     "href": "api/CatchIo.UI.MainMenuContext.html",
     "title": "Class MainMenuContext | Catch.io Developer Reference",
     "keywords": "Class MainMenuContext Inheritance Object UINavigationContext < UIMenuViewType > MainMenuContext Inherited Members UINavigationContext<UIMenuViewType>.UINavigation Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class MainMenuContext : UINavigationContext<UIMenuViewType> Constructors MainMenuContext(UINavigation<UIMenuViewType>) Declaration public MainMenuContext(UINavigation<UIMenuViewType> nav) Parameters Type Name Description UINavigation < UIMenuViewType > nav Properties GameMode Declaration public string GameMode { get; set; } Property Value Type Description String MapName Declaration public string MapName { get; set; } Property Value Type Description String RoomName Declaration public string RoomName { get; set; } Property Value Type Description String Methods CloseCreateSession() Declaration public void CloseCreateSession() Disconnect() Declaration public void Disconnect() OnCreateRoom() Declaration public void OnCreateRoom() OnJoinSession() Declaration public void OnJoinSession() OnSettings() Declaration public void OnSettings() OpenCreateSession() Declaration public void OpenCreateSession()"
+  },
+  "api/CatchIo.UI.MapDropdown.html": {
+    "href": "api/CatchIo.UI.MapDropdown.html",
+    "title": "Class MapDropdown | Catch.io Developer Reference",
+    "keywords": "Class MapDropdown Inheritance Object MapDropdown Namespace : CatchIo.UI Assembly : cs.temp.dll.dll Syntax public class MapDropdown : MonoBehaviour Fields Container Declaration public SceneContainer Container Field Value Type Description SceneContainer"
   },
   "api/CatchIo.UI.MenuUIContext.html": {
     "href": "api/CatchIo.UI.MenuUIContext.html",
