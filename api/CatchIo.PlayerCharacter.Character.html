@@ -203,6 +203,30 @@
   </table>
   
   
+  <h4 id="CatchIo_PlayerCharacter_Character_OnRespawn" data-uid="CatchIo.PlayerCharacter.Character.OnRespawn">OnRespawn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;Vector3&gt; OnRespawn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="CatchIo_PlayerCharacter_Character_RemoveHoldingItemAction" data-uid="CatchIo.PlayerCharacter.Character.RemoveHoldingItemAction">RemoveHoldingItemAction</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -789,33 +813,6 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
   </table>
   
   
-  <a id="CatchIo_PlayerCharacter_Character_RPC_OnKilled_" data-uid="CatchIo.PlayerCharacter.Character.RPC_OnKilled*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_RPC_OnKilled_System_Int32_" data-uid="CatchIo.PlayerCharacter.Character.RPC_OnKilled(System.Int32)">RPC_OnKilled(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_OnKilled(int viewId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">viewId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="CatchIo_PlayerCharacter_Character_RPC_PickupItem_" data-uid="CatchIo.PlayerCharacter.Character.RPC_PickupItem*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_RPC_PickupItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.Character.RPC_PickupItem(System.Int32)">RPC_PickupItem(Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -837,65 +834,6 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">itemViewID</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterSkin_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterSkin_System_String_System_String_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterSkin(System.String,System.String)">RPC_SetCharacterSkin(String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_SetCharacterSkin(string characterClassName, string characterSkinName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">characterClassName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">characterSkinName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterStatus_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterStatus*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_RPC_SetCharacterStatus_System_String_" data-uid="CatchIo.PlayerCharacter.Character.RPC_SetCharacterStatus(System.String)">RPC_SetCharacterStatus(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_SetCharacterStatus(string nickName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">nickName</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameSession
+    <title>Class RoomExtension
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameSession
+    <meta name="title" content="Class RoomExtension
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.3.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,197 +78,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Managers.GameSession">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Network.RoomExtension">
   
   
-  <h1 id="CatchIo_Managers_GameSession" data-uid="CatchIo.Managers.GameSession" class="text-break">Class GameSession
+  <h1 id="CatchIo_Network_RoomExtension" data-uid="CatchIo.Network.RoomExtension" class="text-break">Class RoomExtension
   </h1>
-  <div class="markdown level0 summary"><p>The game manager script that is used to handle various tasks when the game starts.
-Such tasks includes local player instance management, platform controller management, in-game network management, etc.</p>
+  <div class="markdown level0 summary"><p>Player Extension to wrap up access to player&apos;s Custom properties
+Extension for PhotonPlayer class to wrap up access to the player&apos;s custom properties.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">GameSession</span></div>
+    <div class="level1"><span class="xref">RoomExtension</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Managers.html">CatchIo.Managers</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Network.html">CatchIo.Network</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Managers_GameSession_syntax">Syntax</h5>
+  <h5 id="CatchIo_Network_RoomExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class GameSession</code></pre>
+    <pre><code class="lang-csharp hljs">public static class RoomExtension</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="CatchIo_Managers_GameSession__ctor_" data-uid="CatchIo.Managers.GameSession.#ctor*"></a>
-  <h4 id="CatchIo_Managers_GameSession__ctor_CatchIo_GameMode_GameMode_" data-uid="CatchIo.Managers.GameSession.#ctor(CatchIo.GameMode.GameMode)">GameSession(GameMode)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameSession(GameMode gameMode)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.GameMode.GameMode.html">GameMode</a></td>
-        <td><span class="parametername">gameMode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="CatchIo_Managers_GameSession_CharacterKillCounts" data-uid="CatchIo.Managers.GameSession.CharacterKillCounts">CharacterKillCounts</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, int&gt; CharacterKillCounts</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Managers_GameSession_CharacterSpawnPointManager_" data-uid="CatchIo.Managers.GameSession.CharacterSpawnPointManager*"></a>
-  <h4 id="CatchIo_Managers_GameSession_CharacterSpawnPointManager" data-uid="CatchIo.Managers.GameSession.CharacterSpawnPointManager">CharacterSpawnPointManager</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterSpawnPointManager CharacterSpawnPointManager { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CharacterSpawnPointManager</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_GameSession_CurrentGameMode_" data-uid="CatchIo.Managers.GameSession.CurrentGameMode*"></a>
-  <h4 id="CatchIo_Managers_GameSession_CurrentGameMode" data-uid="CatchIo.Managers.GameSession.CurrentGameMode">CurrentGameMode</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameMode CurrentGameMode { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.GameMode.GameMode.html">GameMode</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_GameSession_GameCamera_" data-uid="CatchIo.Managers.GameSession.GameCamera*"></a>
-  <h4 id="CatchIo_Managers_GameSession_GameCamera" data-uid="CatchIo.Managers.GameSession.GameCamera">GameCamera</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameCamera GameCamera { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameCamera</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_GameSession_LocalPlayerInst_" data-uid="CatchIo.Managers.GameSession.LocalPlayerInst*"></a>
-  <h4 id="CatchIo_Managers_GameSession_LocalPlayerInst" data-uid="CatchIo.Managers.GameSession.LocalPlayerInst">LocalPlayerInst</h4>
-  <div class="markdown level1 summary"><p>The local player instance.
-This is generally the same as the local player instance provided by Photon Network.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Character LocalPlayerInst { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Character</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Managers_GameSession_OnCharacterBroadCastEvent_" data-uid="CatchIo.Managers.GameSession.OnCharacterBroadCastEvent*"></a>
-  <h4 id="CatchIo_Managers_GameSession_OnCharacterBroadCastEvent_System_String_System_Int32_" data-uid="CatchIo.Managers.GameSession.OnCharacterBroadCastEvent(System.String,System.Int32)">OnCharacterBroadCastEvent(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Network_RoomExtension_GetGameModeName_" data-uid="CatchIo.Network.RoomExtension.GetGameModeName*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_GetGameModeName_Room_" data-uid="CatchIo.Network.RoomExtension.GetGameModeName(Room)">GetGameModeName(Room)</h4>
+  <div class="markdown level1 summary"><p>Checks Room Properties for stored string.
+Creates a instance and returns it as GameMode.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnCharacterBroadCastEvent(string msg, int viewId)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetGameModeName(this Room room)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,31 +118,42 @@ This is generally the same as the local player instance provided by Photon Netwo
       <tr>
         <th>Type</th>
         <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>Stored Mode instance casted into GameMode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">viewId</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Managers_GameSession_OnCharacterEvent_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent*"></a>
-  <h4 id="CatchIo_Managers_GameSession_OnCharacterEvent_System_String_System_Int32_" data-uid="CatchIo.Managers.GameSession.OnCharacterEvent(System.String,System.Int32)">OnCharacterEvent(String, Int32)</h4>
+  <a id="CatchIo_Network_RoomExtension_GetGameModeTime_" data-uid="CatchIo.Network.RoomExtension.GetGameModeTime*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_GetGameModeTime_Room_" data-uid="CatchIo.Network.RoomExtension.GetGameModeTime(Room)">GetGameModeTime(Room)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnCharacterEvent(string msg, int viewId)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetGameModeTime(this Room room)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -313,99 +166,8 @@ This is generally the same as the local player instance provided by Photon Netwo
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">viewId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_GameSession_OnGameModeEvent_" data-uid="CatchIo.Managers.GameSession.OnGameModeEvent*"></a>
-  <h4 id="CatchIo_Managers_GameSession_OnGameModeEvent_System_String_" data-uid="CatchIo.Managers.GameSession.OnGameModeEvent(System.String)">OnGameModeEvent(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnGameModeEvent(string msg)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_GameSession_OnPointUpdate_" data-uid="CatchIo.Managers.GameSession.OnPointUpdate*"></a>
-  <h4 id="CatchIo_Managers_GameSession_OnPointUpdate_System_String_System_Int32_" data-uid="CatchIo.Managers.GameSession.OnPointUpdate(System.String,System.Int32)">OnPointUpdate(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointUpdate(string msg, int viewId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">viewId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Managers_GameSession_SpawnCharacter_" data-uid="CatchIo.Managers.GameSession.SpawnCharacter*"></a>
-  <h4 id="CatchIo_Managers_GameSession_SpawnCharacter_System_Int32_" data-uid="CatchIo.Managers.GameSession.SpawnCharacter(System.Int32)">SpawnCharacter(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Character SpawnCharacter(int spawnPointId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">spawnPointId</span></td>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -420,21 +182,39 @@ This is generally the same as the local player instance provided by Photon Netwo
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Character</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Managers_GameSession_SpawnDummyCharacter_" data-uid="CatchIo.Managers.GameSession.SpawnDummyCharacter*"></a>
-  <h4 id="CatchIo_Managers_GameSession_SpawnDummyCharacter" data-uid="CatchIo.Managers.GameSession.SpawnDummyCharacter">SpawnDummyCharacter()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Network_RoomExtension_GetMap_" data-uid="CatchIo.Network.RoomExtension.GetMap*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_GetMap_Room_" data-uid="CatchIo.Network.RoomExtension.GetMap(Room)">GetMap(Room)</h4>
+  <div class="markdown level1 summary"><p>Get Map Name from Room Properties.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Character SpawnDummyCharacter()</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetMap(this Room room)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -445,7 +225,259 @@ This is generally the same as the local player instance provided by Photon Netwo
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Character</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Network_RoomExtension_GetPing_" data-uid="CatchIo.Network.RoomExtension.GetPing*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_GetPing_Room_" data-uid="CatchIo.Network.RoomExtension.GetPing(Room)">GetPing(Room)</h4>
+  <div class="markdown level1 summary"><p>Get Ping from Room Propertiess</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetPing(this Room room)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Network_RoomExtension_GetRoomState_" data-uid="CatchIo.Network.RoomExtension.GetRoomState*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_GetRoomState_Room_" data-uid="CatchIo.Network.RoomExtension.GetRoomState(Room)">GetRoomState(Room)</h4>
+  <div class="markdown level1 summary"><p>Checks Room Properties for stored string.
+Creates a instance and returns it as GameMode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetworkManager.RoomState GetRoomState(this Room room)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>Stored Mode instance casted into GameMode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Network.NetworkManager.RoomState.html">NetworkManager.RoomState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Network_RoomExtension_SetGameModeName_" data-uid="CatchIo.Network.RoomExtension.SetGameModeName*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_SetGameModeName_Room_System_String_" data-uid="CatchIo.Network.RoomExtension.SetGameModeName(Room,System.String)">SetGameModeName(Room, String)</h4>
+  <div class="markdown level1 summary"><p>Store GameMode in Room Properties.
+Should be set by Room creation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetGameModeName(this Room room, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Network_RoomExtension_SetGameModeTime_" data-uid="CatchIo.Network.RoomExtension.SetGameModeTime*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_SetGameModeTime_Room_System_Single_" data-uid="CatchIo.Network.RoomExtension.SetGameModeTime(Room,System.Single)">SetGameModeTime(Room, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetGameModeTime(this Room room, float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Network_RoomExtension_SetMap_" data-uid="CatchIo.Network.RoomExtension.SetMap*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_SetMap_Room_System_String_" data-uid="CatchIo.Network.RoomExtension.SetMap(Room,System.String)">SetMap(Room, String)</h4>
+  <div class="markdown level1 summary"><p>Store picked Map in Room Properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMap(this Room room, string mapName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">mapName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Network_RoomExtension_SetPing_" data-uid="CatchIo.Network.RoomExtension.SetPing*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_SetPing_Room_System_Int32_" data-uid="CatchIo.Network.RoomExtension.SetPing(Room,System.Int32)">SetPing(Room, Int32)</h4>
+  <div class="markdown level1 summary"><p>Store Ping in Room Properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPing(this Room room, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Network_RoomExtension_SetRoomState_" data-uid="CatchIo.Network.RoomExtension.SetRoomState*"></a>
+  <h4 id="CatchIo_Network_RoomExtension_SetRoomState_Room_CatchIo_Network_NetworkManager_RoomState_" data-uid="CatchIo.Network.RoomExtension.SetRoomState(Room,CatchIo.Network.NetworkManager.RoomState)">SetRoomState(Room, NetworkManager.RoomState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetRoomState(this Room room, NetworkManager.RoomState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Room</span></td>
+        <td><span class="parametername">room</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CatchIo.Network.NetworkManager.RoomState.html">NetworkManager.RoomState</a></td>
+        <td><span class="parametername">state</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NetworkDiscoveryData
+    <title>Struct RoomData
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NetworkDiscoveryData
+    <meta name="title" content="Struct RoomData
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.3.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,49 +78,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Network.NetworkDiscoveryData">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Network.RoomData">
   
   
-  <h1 id="CatchIo_Network_NetworkDiscoveryData" data-uid="CatchIo.Network.NetworkDiscoveryData" class="text-break">Struct NetworkDiscoveryData
+  <h1 id="CatchIo_Network_RoomData" data-uid="CatchIo.Network.RoomData" class="text-break">Struct RoomData
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Network.html">CatchIo.Network</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Network_NetworkDiscoveryData_syntax">Syntax</h5>
+  <h5 id="CatchIo_Network_RoomData_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public struct NetworkDiscoveryData</code></pre>
+public struct RoomData</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_FullProperties" data-uid="CatchIo.Network.NetworkDiscoveryData.FullProperties">FullProperties</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Hashtable FullProperties</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Hashtable</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_gameMode" data-uid="CatchIo.Network.NetworkDiscoveryData.gameMode">gameMode</h4>
+  <h4 id="CatchIo_Network_RoomData_gameMode" data-uid="CatchIo.Network.RoomData.gameMode">gameMode</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -144,12 +120,36 @@ public struct NetworkDiscoveryData</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_maxPlayers" data-uid="CatchIo.Network.NetworkDiscoveryData.maxPlayers">maxPlayers</h4>
+  <h4 id="CatchIo_Network_RoomData_map" data-uid="CatchIo.Network.RoomData.map">map</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int maxPlayers</code></pre>
+    <pre><code class="lang-csharp hljs">public string map</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_RoomData_maxPlayerCount" data-uid="CatchIo.Network.RoomData.maxPlayerCount">maxPlayerCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxPlayerCount</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,36 +168,12 @@ public struct NetworkDiscoveryData</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_name" data-uid="CatchIo.Network.NetworkDiscoveryData.name">name</h4>
+  <h4 id="CatchIo_Network_RoomData_playerCount" data-uid="CatchIo.Network.RoomData.playerCount">playerCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string name</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_numPlayers" data-uid="CatchIo.Network.NetworkDiscoveryData.numPlayers">numPlayers</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int numPlayers</code></pre>
+    <pre><code class="lang-csharp hljs">public int playerCount</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,55 +192,7 @@ public struct NetworkDiscoveryData</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_playerId" data-uid="CatchIo.Network.NetworkDiscoveryData.playerId">playerId</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string playerId</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_playerName" data-uid="CatchIo.Network.NetworkDiscoveryData.playerName">playerName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string playerName</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_roomName" data-uid="CatchIo.Network.NetworkDiscoveryData.roomName">roomName</h4>
+  <h4 id="CatchIo_Network_RoomData_roomName" data-uid="CatchIo.Network.RoomData.roomName">roomName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -288,12 +216,12 @@ public struct NetworkDiscoveryData</code></pre>
   </table>
   
   
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_sceneName" data-uid="CatchIo.Network.NetworkDiscoveryData.sceneName">sceneName</h4>
+  <h4 id="CatchIo_Network_RoomData_state" data-uid="CatchIo.Network.RoomData.state">state</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string sceneName</code></pre>
+    <pre><code class="lang-csharp hljs">public NetworkManager.RoomState state</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -305,31 +233,7 @@ public struct NetworkDiscoveryData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_NetworkDiscoveryData_state" data-uid="CatchIo.Network.NetworkDiscoveryData.state">state</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte state</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><a class="xref" href="CatchIo.Network.NetworkManager.RoomState.html">NetworkManager.RoomState</a></td>
         <td></td>
       </tr>
     </tbody>

@@ -100,12 +100,12 @@
   </h3>
   
   
-  <h4 id="CatchIo_GameMode_PointSystem_BeKilledPoint" data-uid="CatchIo.GameMode.PointSystem.BeKilledPoint">BeKilledPoint</h4>
+  <h4 id="CatchIo_GameMode_PointSystem_BeTrappedPoint" data-uid="CatchIo.GameMode.PointSystem.BeTrappedPoint">BeTrappedPoint</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int BeKilledPoint</code></pre>
+    <pre><code class="lang-csharp hljs">public int BeTrappedPoint</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,12 +124,12 @@
   </table>
   
   
-  <h4 id="CatchIo_GameMode_PointSystem_BeTrappedPoint" data-uid="CatchIo.GameMode.PointSystem.BeTrappedPoint">BeTrappedPoint</h4>
+  <h4 id="CatchIo_GameMode_PointSystem_DeathPoint" data-uid="CatchIo.GameMode.PointSystem.DeathPoint">DeathPoint</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int BeTrappedPoint</code></pre>
+    <pre><code class="lang-csharp hljs">public int DeathPoint</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,12 +172,12 @@
   </table>
   
   
-  <h4 id="CatchIo_GameMode_PointSystem_OnPointUpdated" data-uid="CatchIo.GameMode.PointSystem.OnPointUpdated">OnPointUpdated</h4>
+  <h4 id="CatchIo_GameMode_PointSystem_TrapPoint" data-uid="CatchIo.GameMode.PointSystem.TrapPoint">TrapPoint</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEngine.Events.UnityEvent&lt;int&gt; OnPointUpdated</code></pre>
+    <pre><code class="lang-csharp hljs">public int TrapPoint</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -189,31 +189,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Events.UnityEvent_1.html">UnityEngine.Events.UnityEvent</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_GameMode_PointSystem_POINT_SYSTEM" data-uid="CatchIo.GameMode.PointSystem.POINT_SYSTEM">POINT_SYSTEM</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string POINT_SYSTEM = &quot;POINT_SYSTEM&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -222,68 +198,14 @@
   </h3>
   
   
-  <a id="CatchIo_GameMode_PointSystem_DecreasePoint_" data-uid="CatchIo.GameMode.PointSystem.DecreasePoint*"></a>
-  <h4 id="CatchIo_GameMode_PointSystem_DecreasePoint_Photon_Realtime_Player_System_Int32_" data-uid="CatchIo.GameMode.PointSystem.DecreasePoint(Photon.Realtime.Player,System.Int32)">DecreasePoint(Photon.Realtime.Player, Int32)</h4>
+  <a id="CatchIo_GameMode_PointSystem_CalculatePoint_" data-uid="CatchIo.GameMode.PointSystem.CalculatePoint*"></a>
+  <h4 id="CatchIo_GameMode_PointSystem_CalculatePoint" data-uid="CatchIo.GameMode.PointSystem.CalculatePoint">CalculatePoint()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DecreasePoint(Photon.Realtime.Player player, int amount)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CalculatePoint()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Photon.Realtime.Player</span></td>
-        <td><span class="parametername">player</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">amount</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_GameMode_PointSystem_IncreasePoint_" data-uid="CatchIo.GameMode.PointSystem.IncreasePoint*"></a>
-  <h4 id="CatchIo_GameMode_PointSystem_IncreasePoint_Photon_Realtime_Player_System_Int32_" data-uid="CatchIo.GameMode.PointSystem.IncreasePoint(Photon.Realtime.Player,System.Int32)">IncreasePoint(Photon.Realtime.Player, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void IncreasePoint(Photon.Realtime.Player player, int amount)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Photon.Realtime.Player</span></td>
-        <td><span class="parametername">player</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">amount</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

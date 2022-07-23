@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CharacterSpawnPoint
+    <title>Class PlayerProperties
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CharacterSpawnPoint
+    <meta name="title" content="Class PlayerProperties
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.3.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,37 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Environment.CharacterSpawnPoint">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Network.PlayerProperties">
   
   
-  <h1 id="CatchIo_Environment_CharacterSpawnPoint" data-uid="CatchIo.Environment.CharacterSpawnPoint" class="text-break">Class CharacterSpawnPoint
+  <h1 id="CatchIo_Network_PlayerProperties" data-uid="CatchIo.Network.PlayerProperties" class="text-break">Class PlayerProperties
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">CharacterSpawnPoint</span></div>
+    <div class="level1"><span class="xref">PlayerProperties</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Environment.html">CatchIo.Environment</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Network.html">CatchIo.Network</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Environment_CharacterSpawnPoint_syntax">Syntax</h5>
+  <h5 id="CatchIo_Network_PlayerProperties_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CharacterSpawnPoint : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public static class PlayerProperties</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_Id_" data-uid="CatchIo.Environment.CharacterSpawnPoint.Id*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_Id" data-uid="CatchIo.Environment.CharacterSpawnPoint.Id">Id</h4>
+  <h4 id="CatchIo_Network_PlayerProperties_Alive" data-uid="CatchIo.Network.PlayerProperties.Alive">Alive</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public const string Alive = &quot;ale&quot;</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,49 +117,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="CatchIo_Environment_CharacterSpawnPoint_CanSpawn_" data-uid="CatchIo.Environment.CharacterSpawnPoint.CanSpawn*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_CanSpawn" data-uid="CatchIo.Environment.CharacterSpawnPoint.CanSpawn">CanSpawn()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanSpawn()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_GetRespawnPoint_" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_GetRespawnPoint" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetRespawnPoint">GetRespawnPoint()</h4>
+  <h4 id="CatchIo_Network_PlayerProperties_BeTrappedCount" data-uid="CatchIo.Network.PlayerProperties.BeTrappedCount">BeTrappedCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetRespawnPoint()</code></pre>
+    <pre><code class="lang-csharp hljs">public const string BeTrappedCount = &quot;btc&quot;</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -170,22 +141,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_GetSpawnPoint_" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetSpawnPoint*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_GetSpawnPoint" data-uid="CatchIo.Environment.CharacterSpawnPoint.GetSpawnPoint">GetSpawnPoint()</h4>
+  <h4 id="CatchIo_Network_PlayerProperties_CharacterSpawned" data-uid="CatchIo.Network.PlayerProperties.CharacterSpawned">CharacterSpawned</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetSpawnPoint()</code></pre>
+    <pre><code class="lang-csharp hljs">public const string CharacterSpawned = &quot;csp&quot;</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -195,61 +165,199 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_SetMaxPlayerCount_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetMaxPlayerCount*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_SetMaxPlayerCount_System_Int32_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetMaxPlayerCount(System.Int32)">SetMaxPlayerCount(Int32)</h4>
+  <h4 id="CatchIo_Network_PlayerProperties_Class" data-uid="CatchIo.Network.PlayerProperties.Class">Class</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetMaxPlayerCount(int maxCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public const string Class = &quot;cls&quot;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">maxCount</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Environment_CharacterSpawnPoint_SetRadius_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetRadius*"></a>
-  <h4 id="CatchIo_Environment_CharacterSpawnPoint_SetRadius_System_Int32_" data-uid="CatchIo.Environment.CharacterSpawnPoint.SetRadius(System.Int32)">SetRadius(Int32)</h4>
+  <h4 id="CatchIo_Network_PlayerProperties_Deaths" data-uid="CatchIo.Network.PlayerProperties.Deaths">Deaths</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetRadius(int radius)</code></pre>
+    <pre><code class="lang-csharp hljs">public const string Deaths = &quot;dth&quot;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">radius</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_PlayerProperties_GameSceneLoaded" data-uid="CatchIo.Network.PlayerProperties.GameSceneLoaded">GameSceneLoaded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string GameSceneLoaded = &quot;gsl&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_PlayerProperties_Kills" data-uid="CatchIo.Network.PlayerProperties.Kills">Kills</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string Kills = &quot;kls&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_PlayerProperties_Point" data-uid="CatchIo.Network.PlayerProperties.Point">Point</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string Point = &quot;pnt&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_PlayerProperties_Ready" data-uid="CatchIo.Network.PlayerProperties.Ready">Ready</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string Ready = &quot;rdy&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_PlayerProperties_Skin" data-uid="CatchIo.Network.PlayerProperties.Skin">Skin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string Skin = &quot;skn&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Network_PlayerProperties_TrapCount" data-uid="CatchIo.Network.PlayerProperties.TrapCount">TrapCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string TrapCount = &quot;tpc&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>

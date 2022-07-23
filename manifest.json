@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Camera.GameCamera.html",
-          "hash": "jI8qpcBeGgBYP1c7X3JPJaFNDGGYOFmaXd9Xlf7uGwU="
+          "hash": "/DUaXOTFP5iRewJmQwsYAf7e7+6JkVv6bhc80qFWCKI="
         }
       },
       "is_incremental": false,
@@ -288,6 +288,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Enums.GameModeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Enums.GameModeType.html",
+          "hash": "dfVgVjtV7tC4AqrSC1Gw4yCws8x9/mw1ddDTrTe6xNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Enums.MenuScenes.yml",
       "output": {
         ".html": {
@@ -304,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Enums.html",
-          "hash": "ZXaksZQ/OLp0OQmbZH+tsgAioGjsp5Vev+xJCojB+AU="
+          "hash": "w4zs8R2/ES7SZLid8io+fjqulBvFDUSxY3xPAIwlIik="
         }
       },
       "is_incremental": false,
@@ -312,11 +324,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Environment.CharacterSpawnPoint.yml",
+      "source_relative_path": "api/CatchIo.Environment.CharacterSpawner.SpawnPoint.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatchIo.Environment.CharacterSpawnPoint.html",
-          "hash": "zD3ubm7V35uOV6H8oE5n2odRm36kQ4vFrOP5jheIxdk="
+          "relative_path": "api/CatchIo.Environment.CharacterSpawner.SpawnPoint.html",
+          "hash": "Zjk2E0rTfYMcaYfqwFuQDr1kbzmQPLAx2Anw5x5CXZY="
         }
       },
       "is_incremental": false,
@@ -324,11 +336,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Environment.CharacterSpawnPointManager.yml",
+      "source_relative_path": "api/CatchIo.Environment.CharacterSpawner.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatchIo.Environment.CharacterSpawnPointManager.html",
-          "hash": "JPkcGSOupPaAOblRmxJfdHnCv2kC+KhHNDz7r8gDp0E="
+          "relative_path": "api/CatchIo.Environment.CharacterSpawner.html",
+          "hash": "L1M71tfeo/X1Y3l7gtL0SG4bKh6uHPJrhLEustPpT90="
         }
       },
       "is_incremental": false,
@@ -376,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Environment.html",
-          "hash": "+y0uQWBFD+YGcINXZKrE9tLiYJy1OIIJl34QmEzKxo4="
+          "hash": "b9QbXQCfjB0dcLrlmAjfsA585UXKaY9fS3ib7ZbY5hQ="
         }
       },
       "is_incremental": false,
@@ -388,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.GameMode.CursedOneGameMode.html",
-          "hash": "+PBNEINQJLLxoAblueaGF3M+1+hJprx6hf91KS7INuk="
+          "hash": "PA2oUvjKuSWLb6ftkQISxZf342hnVx3j/ifz1PHI1gY="
         }
       },
       "is_incremental": false,
@@ -400,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.GameMode.DeathMatchGameMode.html",
-          "hash": "IfGL+zl5pWxVzLHd8PsJy8pmhf1DSFbalxCUf7f2j1I="
+          "hash": "JuEAd/Tx+9aBbrseTBHTqGQf8n786VfzsqTAyZv8lHY="
         }
       },
       "is_incremental": false,
@@ -412,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.GameMode.GameMode.html",
-          "hash": "RV903zoqClKCitRyRRLvnYeXyURO1jNy24M4UWGeXTA="
+          "hash": "gXtbzSdWet5Ql5qk+CsP/Jgz1BG/kACE+aTzH3cRK8s="
         }
       },
       "is_incremental": false,
@@ -424,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.GameMode.PointSystem.html",
-          "hash": "KUQuyIOjRObmRndZpoYVIUkKtxsO/TEqItXE7Iy5AZ0="
+          "hash": "NugN5R4QVG2IjubNyhljzPW8DfkJ/y2dfgpPZO7qzN4="
         }
       },
       "is_incremental": false,
@@ -436,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.GameMode.SandboxGameMode.html",
-          "hash": "w5qpUt5juTclFr0XLu8V1MmR/2rIrX3OhfNm33BYT9g="
+          "hash": "/bCmBcBzLv5qQSCLYkAWuzfXy99s40tf1CCsUSks3O8="
         }
       },
       "is_incremental": false,
@@ -736,19 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Managers.GameManager.html",
-          "hash": "D/P76uotOw7NIspxZ80kHDrNS5eKPVC2W9PkIaF0F1Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Managers.GameSession.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Managers.GameSession.html",
-          "hash": "+iS3bGBVgFM+Rghp6JJ+XiLmu2rz5gkHIA3xbIWVHAk="
+          "hash": "AQt5FzXW/QgtBI2aKevib9ypSlt6suJIFtjyGyE1+hc="
         }
       },
       "is_incremental": false,
@@ -784,19 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Managers.html",
-          "hash": "5pdaFibq2ekqc4BiKqq27YFWJnnO9e9bHtnVwaT9bTk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Network.NetworkDiscoveryData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Network.NetworkDiscoveryData.html",
-          "hash": "Ay9x2WNAZHhz+GPfR0ANHlPz1+Lb52epmlvcXXPY3KI="
+          "hash": "/zUJsiC7HZ0zz8ltsvjjmFhBOLRnJL986Wb7W52RpF4="
         }
       },
       "is_incremental": false,
@@ -816,23 +804,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Network.NetworkManager.RoomData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Network.NetworkManager.RoomData.html",
-          "hash": "LKWNaxM6IKoLxAvB/cVvj85A4Q82lX59fXBiCiiQq9Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Network.NetworkManager.RoomState.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Network.NetworkManager.RoomState.html",
-          "hash": "S8QgEBSaPcP5JS4LzoLS+nza5VUS8qdfxaeaQ+Brryw="
+          "hash": "thpSh7ngbkdrLv720CBKQQXN+7BmeEC9QuAuMM9mTwU="
         }
       },
       "is_incremental": false,
@@ -844,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Network.NetworkManager.html",
-          "hash": "Y0GrSNnkMklbrapXR/rb9qjrtMps4w4F+9HUSYRDi2s="
+          "hash": "k6ua0eFJ+2u0Xx801BnIANG0h+H3UnjedYIbXJjcJSw="
         }
       },
       "is_incremental": false,
@@ -852,11 +828,95 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Network.SendEvent.yml",
+      "source_relative_path": "api/CatchIo.Network.PlayerExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatchIo.Network.SendEvent.html",
-          "hash": "hcm8+XpxOTto27FSyCbZXFL7nL1Wa4HpasL2+fr+dlE="
+          "relative_path": "api/CatchIo.Network.PlayerExtension.html",
+          "hash": "aMh49fbDXdgd2/+ofi22axhA3tNA02btbiEPq6Diqko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Network.PlayerProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Network.PlayerProperties.html",
+          "hash": "fX2Ji1/wpFz3KzMAgft3Iro6HUMUHn7XIXO/fAKg2AQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Network.PropertyHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Network.PropertyHelper.html",
+          "hash": "y7Yf1zTB6Tya5z12CczA14JDt60Zd1frADppHDmr6+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Network.RoomData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Network.RoomData.html",
+          "hash": "f2alA9yEZR+/NvaIx1AcumnB+FVRIyzp4qQa2OXZZB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Network.RoomExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Network.RoomExtension.html",
+          "hash": "qB1e/1fqrhQIKmKo4LNIh+oaZZ4cH/zbr68XemDE3/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Network.RoomProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Network.RoomProperties.html",
+          "hash": "Ho97HeLODwbSjQazKPavAmSqgCdrWiNiPhwWhVJ4rMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Network.SendEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Network.SendEventType.html",
+          "hash": "1JO7arht8y6+o8jTNlnXtWN0YBVyEZIdXQnrHJqBtgs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Network.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Network.Timer.html",
+          "hash": "77iWnOzLydBmRT3uTloLuaaZF+SICvUHwwVT5Q+gRoU="
         }
       },
       "is_incremental": false,
@@ -868,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Network.html",
-          "hash": "jRW+OM1XgY37kcueYNqw+v7IsO3Esv+pN/PqngrwQa0="
+          "hash": "TagjIM9VE6MgM9qauCypuWsjpUY5dI7lLDJyfW2pK6U="
         }
       },
       "is_incremental": false,
@@ -904,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.Character.html",
-          "hash": "S1Q5aEBuZyDPkg7zBv5TcIuaCxOTUt1s3Hl64l2rT8Y="
+          "hash": "dCQC3MjlPZIrdv9wL+Jk8nJR9MbydzfqFnh50vC2vsI="
         }
       },
       "is_incremental": false,
@@ -1060,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.CharacterStatus.html",
-          "hash": "ONHaKH1oKKUM9v4DKPCXZmbri+I1D8lmLEmwH9BLVpU="
+          "hash": "GCFXU680CNjMnLvr96NJCOKBbg32joPNKpMCtEddt8c="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.InventoryController.html",
-          "hash": "eTY47JNkqpmUkkZGfLND2gfgmE75SK7/qxa5E9jyCjw="
+          "hash": "ll7Sg8YWuNE1AMbwAJw+7zziKiCMZfSittozuJA8yn0="
         }
       },
       "is_incremental": false,
@@ -1168,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.PlayerCharacter.TestCharacter.html",
-          "hash": "obCMNlIyZELprBI3lT/sH4uOX/duQu1AKHcDq5ofOTE="
+          "hash": "pws8CJeFI0VZLrf5fq0JNR0QALuPJUfLiMT96LhU2fo="
         }
       },
       "is_incremental": false,
@@ -1540,7 +1600,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.UI.GameUIManager.html",
-          "hash": "7fjTh9nUaq/mBOypK+JTdZDIdqX8YYm2EmHxKVXsOBo="
+          "hash": "naAgQVEKy5b1PcqHtHwWVaB9tHYTnMZ/PgaRWGxgACI="
         }
       },
       "is_incremental": false,
@@ -1672,7 +1732,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.UI.RoomContext.html",
-          "hash": "mjHX8DJ6qWWJmSdUEgp2t+OMDw46MOBOoYN/qw/5kKQ="
+          "hash": "2Mlt8DqRNfgj0uh8QUnIgxm0qXImsCbQSoOxzWjN1MU="
         }
       },
       "is_incremental": false,
@@ -1684,7 +1744,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.UI.RoomInfoContext.html",
-          "hash": "rcGh9t+E27kLIlGLqKBYq/5yqTKGeHgEmbXUNLSrEhc="
+          "hash": "7aA/JHVkDzGRnQHYG8LAiaP2ETM1zFzDDo3dQPGHlJs="
         }
       },
       "is_incremental": false,
@@ -1924,7 +1984,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "wsSZs8km8cwXKCjTdGHNWNJ2NOAAscksELeX6Fu2/wI="
+          "hash": "36PF78Y0VZeOukYJpHHoQlKfaC07xrLVLGVtiDhR0TY="
         }
       },
       "is_incremental": false,
@@ -2381,7 +2441,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 158,
+          "total_file_count": 163,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
