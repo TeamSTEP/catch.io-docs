@@ -885,12 +885,12 @@ references:
   commentId: F:CatchIo.Environment.CharacterSpawner.SpawnPoint.transform
   fullName: CatchIo.Environment.CharacterSpawner.SpawnPoint.transform
   nameWithType: CharacterSpawner.SpawnPoint.transform
-- uid: CatchIo.Environment.CharacterSpawner.SpawnPoint.usedCount
-  name: usedCount
-  href: api/CatchIo.Environment.CharacterSpawner.SpawnPoint.html#CatchIo_Environment_CharacterSpawner_SpawnPoint_usedCount
-  commentId: F:CatchIo.Environment.CharacterSpawner.SpawnPoint.usedCount
-  fullName: CatchIo.Environment.CharacterSpawner.SpawnPoint.usedCount
-  nameWithType: CharacterSpawner.SpawnPoint.usedCount
+- uid: CatchIo.Environment.CharacterSpawner.SpawnPoint.used
+  name: used
+  href: api/CatchIo.Environment.CharacterSpawner.SpawnPoint.html#CatchIo_Environment_CharacterSpawner_SpawnPoint_used
+  commentId: F:CatchIo.Environment.CharacterSpawner.SpawnPoint.used
+  fullName: CatchIo.Environment.CharacterSpawner.SpawnPoint.used
+  nameWithType: CharacterSpawner.SpawnPoint.used
 - uid: CatchIo.Environment.HidingSpot
   name: HidingSpot
   href: api/CatchIo.Environment.HidingSpot.html
@@ -1397,6 +1397,19 @@ references:
   commentId: F:CatchIo.GameMode.GameMode.RespawnDelayTime
   fullName: CatchIo.GameMode.GameMode.RespawnDelayTime
   nameWithType: GameMode.RespawnDelayTime
+- uid: CatchIo.GameMode.GameMode.SpawnDummyCharacter
+  name: SpawnDummyCharacter()
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_SpawnDummyCharacter
+  commentId: M:CatchIo.GameMode.GameMode.SpawnDummyCharacter
+  fullName: CatchIo.GameMode.GameMode.SpawnDummyCharacter()
+  nameWithType: GameMode.SpawnDummyCharacter()
+- uid: CatchIo.GameMode.GameMode.SpawnDummyCharacter*
+  name: SpawnDummyCharacter
+  href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_SpawnDummyCharacter_
+  commentId: Overload:CatchIo.GameMode.GameMode.SpawnDummyCharacter
+  isSpec: "True"
+  fullName: CatchIo.GameMode.GameMode.SpawnDummyCharacter
+  nameWithType: GameMode.SpawnDummyCharacter
 - uid: CatchIo.GameMode.GameMode.Type
   name: Type
   href: api/CatchIo.GameMode.GameMode.html#CatchIo_GameMode_GameMode_Type
@@ -4709,6 +4722,12 @@ references:
   commentId: F:CatchIo.Network.SendEventType.CharacterSpawn
   fullName: CatchIo.Network.SendEventType.CharacterSpawn
   nameWithType: SendEventType.CharacterSpawn
+- uid: CatchIo.Network.SendEventType.DummyCharacterSpawn
+  name: DummyCharacterSpawn
+  href: api/CatchIo.Network.SendEventType.html#CatchIo_Network_SendEventType_DummyCharacterSpawn
+  commentId: F:CatchIo.Network.SendEventType.DummyCharacterSpawn
+  fullName: CatchIo.Network.SendEventType.DummyCharacterSpawn
+  nameWithType: SendEventType.DummyCharacterSpawn
 - uid: CatchIo.Network.SendEventType.EnteredHidingStateEvent
   name: EnteredHidingStateEvent
   href: api/CatchIo.Network.SendEventType.html#CatchIo_Network_SendEventType_EnteredHidingStateEvent
@@ -5445,6 +5464,12 @@ references:
   commentId: T:CatchIo.PlayerCharacter.CharacterController
   fullName: CatchIo.PlayerCharacter.CharacterController
   nameWithType: CharacterController
+- uid: CatchIo.PlayerCharacter.CharacterController.IsDummyClient
+  name: IsDummyClient
+  href: api/CatchIo.PlayerCharacter.CharacterController.html#CatchIo_PlayerCharacter_CharacterController_IsDummyClient
+  commentId: F:CatchIo.PlayerCharacter.CharacterController.IsDummyClient
+  fullName: CatchIo.PlayerCharacter.CharacterController.IsDummyClient
+  nameWithType: CharacterController.IsDummyClient
 - uid: CatchIo.PlayerCharacter.CharacterDirectionState
   name: CharacterDirectionState
   href: api/CatchIo.PlayerCharacter.CharacterDirectionState.html
