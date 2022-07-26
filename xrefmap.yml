@@ -4886,12 +4886,12 @@ references:
   commentId: T:CatchIo.ObjectPool.Footprint
   fullName: CatchIo.ObjectPool.Footprint
   nameWithType: Footprint
-- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean)
-  name: CreateFootprint(String, Vector3, Vector3, Boolean)
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_Vector3_Vector3_System_Boolean_
-  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean)
-  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, Vector3, Vector3, System.Boolean)
-  nameWithType: Footprint.CreateFootprint(String, Vector3, Vector3, Boolean)
+- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean,System.Single)
+  name: CreateFootprint(String, Vector3, Vector3, Boolean, Single)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_Vector3_Vector3_System_Boolean_System_Single_
+  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean,System.Single)
+  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, Vector3, Vector3, System.Boolean, System.Single)
+  nameWithType: Footprint.CreateFootprint(String, Vector3, Vector3, Boolean, Single)
 - uid: CatchIo.ObjectPool.Footprint.CreateFootprint*
   name: CreateFootprint
   href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_
@@ -5034,12 +5034,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.Draw
   nameWithType: Character.Draw
-- uid: CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3,System.Boolean)
-  name: GenerateFootprint(Vector3, Boolean)
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateFootprint_Vector3_System_Boolean_
-  commentId: M:CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3,System.Boolean)
-  fullName: CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3, System.Boolean)
-  nameWithType: Character.GenerateFootprint(Vector3, Boolean)
+- uid: CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3,System.Boolean,System.Single)
+  name: GenerateFootprint(Vector3, Boolean, Single)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateFootprint_Vector3_System_Boolean_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3,System.Boolean,System.Single)
+  fullName: CatchIo.PlayerCharacter.Character.GenerateFootprint(Vector3, System.Boolean, System.Single)
+  nameWithType: Character.GenerateFootprint(Vector3, Boolean, Single)
 - uid: CatchIo.PlayerCharacter.Character.GenerateFootprint*
   name: GenerateFootprint
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_GenerateFootprint_
@@ -6972,6 +6972,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.CanPlayFootstepSfx
   nameWithType: SurfaceEffectPlayer.CanPlayFootstepSfx
+- uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.FootprintLifeTime
+  name: FootprintLifeTime
+  href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_FootprintLifeTime
+  commentId: F:CatchIo.PlayerCharacter.SurfaceEffectPlayer.FootprintLifeTime
+  fullName: CatchIo.PlayerCharacter.SurfaceEffectPlayer.FootprintLifeTime
+  nameWithType: SurfaceEffectPlayer.FootprintLifeTime
 - uid: CatchIo.PlayerCharacter.SurfaceEffectPlayer.GenerateFootprint
   name: GenerateFootprint()
   href: api/CatchIo.PlayerCharacter.SurfaceEffectPlayer.html#CatchIo_PlayerCharacter_SurfaceEffectPlayer_GenerateFootprint
