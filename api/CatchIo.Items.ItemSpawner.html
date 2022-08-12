@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Footprint
+    <title>Class ItemSpawner
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Footprint
+    <meta name="title" content="Class ItemSpawner
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.3.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,73 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.ObjectPool.Footprint">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Items.ItemSpawner">
   
   
-  <h1 id="CatchIo_ObjectPool_Footprint" data-uid="CatchIo.ObjectPool.Footprint" class="text-break">Class Footprint
+  <h1 id="CatchIo_Items_ItemSpawner" data-uid="CatchIo.Items.ItemSpawner" class="text-break">Class ItemSpawner
   </h1>
-  <div class="markdown level0 summary"><p>The footprint component for the footprint game object.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Footprint</span></div>
+    <div class="level1"><span class="xref">ItemSpawner</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.ObjectPool.html">CatchIo.ObjectPool</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_ObjectPool_Footprint_syntax">Syntax</h5>
+  <h5 id="CatchIo_Items_ItemSpawner_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Footprint : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class ItemSpawner : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_ObjectPool_Footprint_CreateFootprint_" data-uid="CatchIo.ObjectPool.Footprint.CreateFootprint*"></a>
-  <h4 id="CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_Vector3_Vector3_System_Boolean_System_Single_" data-uid="CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean,System.Single)">CreateFootprint(String, Vector3, Vector3, Boolean, Single)</h4>
+  <a id="CatchIo_Items_ItemSpawner_ID_" data-uid="CatchIo.Items.ItemSpawner.ID*"></a>
+  <h4 id="CatchIo_Items_ItemSpawner_ID" data-uid="CatchIo.Items.ItemSpawner.ID">ID</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void CreateFootprint(string prefabPath, Vector3 generatePos, Vector3 pointDirection, bool flipX, float lifeTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public int ID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Items_ItemSpawner_RespawnItem_" data-uid="CatchIo.Items.ItemSpawner.RespawnItem*"></a>
+  <h4 id="CatchIo_Items_ItemSpawner_RespawnItem" data-uid="CatchIo.Items.ItemSpawner.RespawnItem">RespawnItem()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RespawnItem()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Items_ItemSpawner_SetUp_" data-uid="CatchIo.Items.ItemSpawner.SetUp*"></a>
+  <h4 id="CatchIo_Items_ItemSpawner_SetUp_System_Int32_GameObject_System_Int32_" data-uid="CatchIo.Items.ItemSpawner.SetUp(System.Int32,GameObject,System.Int32)">SetUp(Int32, GameObject, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetUp(int index, GameObject spawnItem, int spawnTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,28 +157,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">prefabPath</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">generatePos</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">spawnItem</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">pointDirection</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">flipX</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">lifeTime</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">spawnTime</span></td>
         <td></td>
       </tr>
     </tbody>

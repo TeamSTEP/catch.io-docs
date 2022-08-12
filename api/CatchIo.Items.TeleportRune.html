@@ -129,6 +129,12 @@
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_SpriteRenderer">ThrowableItem.SpriteRenderer</a>
     </div>
     <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_FixedUpdate">ThrowableItem.FixedUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_Vector2_Vector2_System_Single_">ThrowableItem.UpdateProjectilePath(Vector2, Vector2, Single)</a>
+    </div>
+    <div>
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight">ThrowableItem.GetPeakHeight()</a>
     </div>
     <div>
@@ -136,6 +142,12 @@
     </div>
     <div>
       <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite">Item.Sprite</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_SpawnerId">Item.SpawnerId</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_PoolName">Item.PoolName</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
@@ -198,7 +210,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_CanPickup">Item.CanPickup()</a></div>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_CanPickup">ThrowableItem.CanPickup()</a></div>
   
   
   <a id="CatchIo_Items_TeleportRune_EffectSequence_" data-uid="CatchIo.Items.TeleportRune.EffectSequence*"></a>
@@ -270,25 +282,13 @@
   </table>
   
   
-  <a id="CatchIo_Items_TeleportRune_FixedUpdate_" data-uid="CatchIo.Items.TeleportRune.FixedUpdate*"></a>
-  <h4 id="CatchIo_Items_TeleportRune_FixedUpdate" data-uid="CatchIo.Items.TeleportRune.FixedUpdate">FixedUpdate()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void FixedUpdate()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_FixedUpdate">ThrowableItem.FixedUpdate()</a></div>
-  
-  
   <a id="CatchIo_Items_TeleportRune_OnBeforeThrow_" data-uid="CatchIo.Items.TeleportRune.OnBeforeThrow*"></a>
-  <h4 id="CatchIo_Items_TeleportRune_OnBeforeThrow_Vector2_Vector2_" data-uid="CatchIo.Items.TeleportRune.OnBeforeThrow(Vector2,Vector2)">OnBeforeThrow(Vector2, Vector2)</h4>
+  <h4 id="CatchIo_Items_TeleportRune_OnBeforeThrow_Character_Vector2_" data-uid="CatchIo.Items.TeleportRune.OnBeforeThrow(Character,Vector2)">OnBeforeThrow(Character, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnBeforeThrow(Vector2 throwPos, Vector2 targetPos)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnBeforeThrow(Character owner, Vector2 targetPos)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,8 +301,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">throwPos</span></td>
+        <td><span class="xref">Character</span></td>
+        <td><span class="parametername">owner</span></td>
         <td></td>
       </tr>
       <tr>
@@ -313,7 +313,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Vector2_Vector2_">ThrowableItem.OnBeforeThrow(Vector2, Vector2)</a></div>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Character_Vector2_">ThrowableItem.OnBeforeThrow(Character, Vector2)</a></div>
   
   
   <a id="CatchIo_Items_TeleportRune_OnDiscard_" data-uid="CatchIo.Items.TeleportRune.OnDiscard*"></a>
@@ -396,6 +396,40 @@
   <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnPickup_Character_">ThrowableItem.OnPickup(Character)</a></div>
   
   
+  <a id="CatchIo_Items_TeleportRune_OnSpawned_" data-uid="CatchIo.Items.TeleportRune.OnSpawned*"></a>
+  <h4 id="CatchIo_Items_TeleportRune_OnSpawned_System_Int32_System_String_" data-uid="CatchIo.Items.TeleportRune.OnSpawned(System.Int32,System.String)">OnSpawned(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnSpawned(int spawnerId, string poolName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">spawnerId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">poolName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnSpawned_System_Int32_System_String_">ThrowableItem.OnSpawned(Int32, String)</a></div>
+  
+  
   <a id="CatchIo_Items_TeleportRune_OnThrow_" data-uid="CatchIo.Items.TeleportRune.OnThrow*"></a>
   <h4 id="CatchIo_Items_TeleportRune_OnThrow" data-uid="CatchIo.Items.TeleportRune.OnThrow">OnThrow()</h4>
   <div class="markdown level1 summary"></div>
@@ -433,57 +467,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Items_TeleportRune_Start_" data-uid="CatchIo.Items.TeleportRune.Start*"></a>
-  <h4 id="CatchIo_Items_TeleportRune_Start" data-uid="CatchIo.Items.TeleportRune.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Start">ThrowableItem.Start()</a></div>
-  
-  
-  <a id="CatchIo_Items_TeleportRune_UpdateProjectilePath_" data-uid="CatchIo.Items.TeleportRune.UpdateProjectilePath*"></a>
-  <h4 id="CatchIo_Items_TeleportRune_UpdateProjectilePath_Vector2_Vector2_System_Single_" data-uid="CatchIo.Items.TeleportRune.UpdateProjectilePath(Vector2,Vector2,System.Single)">UpdateProjectilePath(Vector2, Vector2, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void UpdateProjectilePath(Vector2 thrownPos, Vector2 targetPos, float throwRadius)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">thrownPos</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">targetPos</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">throwRadius</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_Vector2_Vector2_System_Single_">ThrowableItem.UpdateProjectilePath(Vector2, Vector2, Single)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IThrowable</span>

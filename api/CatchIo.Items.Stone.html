@@ -147,6 +147,9 @@
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_SpriteRenderer">ThrowableItem.SpriteRenderer</a>
     </div>
     <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnSpawned_System_Int32_System_String_">ThrowableItem.OnSpawned(Int32, String)</a>
+    </div>
+    <div>
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight">ThrowableItem.GetPeakHeight()</a>
     </div>
     <div>
@@ -154,6 +157,12 @@
     </div>
     <div>
       <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite">Item.Sprite</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_SpawnerId">Item.SpawnerId</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_PoolName">Item.PoolName</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
@@ -219,7 +228,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_CanPickup">Item.CanPickup()</a></div>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_CanPickup">ThrowableItem.CanPickup()</a></div>
   
   
   <a id="CatchIo_Items_Stone_FixedUpdate_" data-uid="CatchIo.Items.Stone.FixedUpdate*"></a>
@@ -235,12 +244,12 @@
   
   
   <a id="CatchIo_Items_Stone_OnBeforeThrow_" data-uid="CatchIo.Items.Stone.OnBeforeThrow*"></a>
-  <h4 id="CatchIo_Items_Stone_OnBeforeThrow_Vector2_Vector2_" data-uid="CatchIo.Items.Stone.OnBeforeThrow(Vector2,Vector2)">OnBeforeThrow(Vector2, Vector2)</h4>
+  <h4 id="CatchIo_Items_Stone_OnBeforeThrow_Character_Vector2_" data-uid="CatchIo.Items.Stone.OnBeforeThrow(Character,Vector2)">OnBeforeThrow(Character, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnBeforeThrow(Vector2 throwPos, Vector2 targetPos)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnBeforeThrow(Character owner, Vector2 targetPos)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -253,8 +262,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">throwPos</span></td>
+        <td><span class="xref">Character</span></td>
+        <td><span class="parametername">owner</span></td>
         <td></td>
       </tr>
       <tr>
@@ -265,7 +274,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Vector2_Vector2_">ThrowableItem.OnBeforeThrow(Vector2, Vector2)</a></div>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Character_Vector2_">ThrowableItem.OnBeforeThrow(Character, Vector2)</a></div>
   
   
   <a id="CatchIo_Items_Stone_OnDiscard_" data-uid="CatchIo.Items.Stone.OnDiscard*"></a>
@@ -358,18 +367,6 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnThrow">ThrowableItem.OnThrow()</a></div>
-  
-  
-  <a id="CatchIo_Items_Stone_Start_" data-uid="CatchIo.Items.Stone.Start*"></a>
-  <h4 id="CatchIo_Items_Stone_Start" data-uid="CatchIo.Items.Stone.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Start">ThrowableItem.Start()</a></div>
   
   
   <a id="CatchIo_Items_Stone_UpdateProjectilePath_" data-uid="CatchIo.Items.Stone.UpdateProjectilePath*"></a>

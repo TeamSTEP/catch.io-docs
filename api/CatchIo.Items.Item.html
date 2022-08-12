@@ -109,7 +109,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Character Owner { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Character Owner { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,6 +122,56 @@
     <tbody>
       <tr>
         <td><span class="xref">Character</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Items_Item_PoolName_" data-uid="CatchIo.Items.Item.PoolName*"></a>
+  <h4 id="CatchIo_Items_Item_PoolName" data-uid="CatchIo.Items.Item.PoolName">PoolName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PoolName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Items_Item_SpawnerId_" data-uid="CatchIo.Items.Item.SpawnerId*"></a>
+  <h4 id="CatchIo_Items_Item_SpawnerId" data-uid="CatchIo.Items.Item.SpawnerId">SpawnerId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SpawnerId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -217,14 +267,36 @@
   </table>
   
   
-  <a id="CatchIo_Items_Item_Start_" data-uid="CatchIo.Items.Item.Start*"></a>
-  <h4 id="CatchIo_Items_Item_Start" data-uid="CatchIo.Items.Item.Start">Start()</h4>
+  <a id="CatchIo_Items_Item_OnSpawned_" data-uid="CatchIo.Items.Item.OnSpawned*"></a>
+  <h4 id="CatchIo_Items_Item_OnSpawned_System_Int32_System_String_" data-uid="CatchIo.Items.Item.OnSpawned(System.Int32,System.String)">OnSpawned(Int32, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnSpawned(int spawnerId, string poolName)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">spawnerId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">poolName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
