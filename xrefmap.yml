@@ -5019,12 +5019,6 @@ references:
   commentId: T:CatchIo.PlayerCharacter.Character
   fullName: CatchIo.PlayerCharacter.Character
   nameWithType: Character
-- uid: CatchIo.PlayerCharacter.Character.AddItemToInventoryAction
-  name: AddItemToInventoryAction
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_AddItemToInventoryAction
-  commentId: F:CatchIo.PlayerCharacter.Character.AddItemToInventoryAction
-  fullName: CatchIo.PlayerCharacter.Character.AddItemToInventoryAction
-  nameWithType: Character.AddItemToInventoryAction
 - uid: CatchIo.PlayerCharacter.Character.Awake
   name: Awake()
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_Awake
@@ -5293,25 +5287,18 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.OnPhotonSerializeView
   nameWithType: Character.OnPhotonSerializeView
+- uid: CatchIo.PlayerCharacter.Character.OnPickupItem
+  name: OnPickupItem
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnPickupItem
+  commentId: F:CatchIo.PlayerCharacter.Character.OnPickupItem
+  fullName: CatchIo.PlayerCharacter.Character.OnPickupItem
+  nameWithType: Character.OnPickupItem
 - uid: CatchIo.PlayerCharacter.Character.OnRespawn
   name: OnRespawn
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_OnRespawn
   commentId: F:CatchIo.PlayerCharacter.Character.OnRespawn
   fullName: CatchIo.PlayerCharacter.Character.OnRespawn
   nameWithType: Character.OnRespawn
-- uid: CatchIo.PlayerCharacter.Character.PickupItem(Item)
-  name: PickupItem(Item)
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_PickupItem_Item_
-  commentId: M:CatchIo.PlayerCharacter.Character.PickupItem(Item)
-  fullName: CatchIo.PlayerCharacter.Character.PickupItem(Item)
-  nameWithType: Character.PickupItem(Item)
-- uid: CatchIo.PlayerCharacter.Character.PickupItem*
-  name: PickupItem
-  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_PickupItem_
-  commentId: Overload:CatchIo.PlayerCharacter.Character.PickupItem
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Character.PickupItem
-  nameWithType: Character.PickupItem
 - uid: CatchIo.PlayerCharacter.Character.RemoveHoldingItemAction
   name: RemoveHoldingItemAction
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RemoveHoldingItemAction
