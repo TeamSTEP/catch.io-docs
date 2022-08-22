@@ -725,6 +725,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Effects.SoundWaveEffect.CreateSoundWave
   nameWithType: SoundWaveEffect.CreateSoundWave
+- uid: CatchIo.Effects.SoundWaveEffect.SOUND_WAVE_POOL_NAME
+  name: SOUND_WAVE_POOL_NAME
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_SOUND_WAVE_POOL_NAME
+  commentId: F:CatchIo.Effects.SoundWaveEffect.SOUND_WAVE_POOL_NAME
+  fullName: CatchIo.Effects.SoundWaveEffect.SOUND_WAVE_POOL_NAME
+  nameWithType: SoundWaveEffect.SOUND_WAVE_POOL_NAME
 - uid: CatchIo.Enums
   name: CatchIo.Enums
   href: api/CatchIo.Enums.html
@@ -822,6 +828,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Environment.CharacterSpawner.AddSpawnPoint
   nameWithType: CharacterSpawner.AddSpawnPoint
+- uid: CatchIo.Environment.CharacterSpawner.CHARACTER_POOL_NAME
+  name: CHARACTER_POOL_NAME
+  href: api/CatchIo.Environment.CharacterSpawner.html#CatchIo_Environment_CharacterSpawner_CHARACTER_POOL_NAME
+  commentId: F:CatchIo.Environment.CharacterSpawner.CHARACTER_POOL_NAME
+  fullName: CatchIo.Environment.CharacterSpawner.CHARACTER_POOL_NAME
+  nameWithType: CharacterSpawner.CHARACTER_POOL_NAME
 - uid: CatchIo.Environment.CharacterSpawner.GetRandomSpawnPoint
   name: GetRandomSpawnPoint()
   href: api/CatchIo.Environment.CharacterSpawner.html#CatchIo_Environment_CharacterSpawner_GetRandomSpawnPoint
@@ -4994,12 +5006,12 @@ references:
   commentId: T:CatchIo.ObjectPool.Footprint
   fullName: CatchIo.ObjectPool.Footprint
   nameWithType: Footprint
-- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean,System.Single)
-  name: CreateFootprint(String, Vector3, Vector3, Boolean, Single)
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_Vector3_Vector3_System_Boolean_System_Single_
-  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,Vector3,Vector3,System.Boolean,System.Single)
-  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, Vector3, Vector3, System.Boolean, System.Single)
-  nameWithType: Footprint.CreateFootprint(String, Vector3, Vector3, Boolean, Single)
+- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)
+  name: CreateFootprint(String, String, Vector3, Single, Boolean, Single)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_System_String_Vector3_System_Single_System_Boolean_System_Single_
+  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)
+  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, System.String, Vector3, System.Single, System.Boolean, System.Single)
+  nameWithType: Footprint.CreateFootprint(String, String, Vector3, Single, Boolean, Single)
 - uid: CatchIo.ObjectPool.Footprint.CreateFootprint*
   name: CreateFootprint
   href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_
@@ -5318,6 +5330,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Character.ResetActionState
   nameWithType: Character.ResetActionState
+- uid: CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)
+  name: RPC_GenerateFootprint(String, String, Vector3, Single, Boolean, Single)
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_GenerateFootprint_System_String_System_String_Vector3_System_Single_System_Boolean_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)
+  fullName: CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint(System.String, System.String, Vector3, System.Single, System.Boolean, System.Single)
+  nameWithType: Character.RPC_GenerateFootprint(String, String, Vector3, Single, Boolean, Single)
+- uid: CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint*
+  name: RPC_GenerateFootprint
+  href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_GenerateFootprint_
+  commentId: Overload:CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint
+  nameWithType: Character.RPC_GenerateFootprint
 - uid: CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave(Vector3,System.Single)
   name: RPC_GenerateSoundWave(Vector3, Single)
   href: api/CatchIo.PlayerCharacter.Character.html#CatchIo_PlayerCharacter_Character_RPC_GenerateSoundWave_Vector3_System_Single_

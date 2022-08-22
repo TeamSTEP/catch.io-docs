@@ -669,7 +669,7 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Move(Vector2 moveVelocity)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Move(Vector2 moveInput)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -683,7 +683,7 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">moveVelocity</span></td>
+        <td><span class="parametername">moveInput</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -757,6 +757,58 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ResetActionState()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_RPC_GenerateFootprint_" data-uid="CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_GenerateFootprint_System_String_System_String_Vector3_System_Single_System_Boolean_System_Single_" data-uid="CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)">RPC_GenerateFootprint(String, String, Vector3, Single, Boolean, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_GenerateFootprint(string className, string skinName, Vector3 generatePos, float angle, bool flipX, float lifeTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">className</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">skinName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">flipX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">lifeTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_PlayerCharacter_Character_RPC_GenerateSoundWave_" data-uid="CatchIo.PlayerCharacter.Character.RPC_GenerateSoundWave*"></a>
