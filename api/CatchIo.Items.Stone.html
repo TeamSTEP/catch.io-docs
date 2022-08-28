@@ -108,9 +108,6 @@
       <a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_HitTime">OffensiveThrowableItem.HitTime</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_HitBufferTime">OffensiveThrowableItem.HitBufferTime</a>
-    </div>
-    <div>
       <a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_ReboundRadius">OffensiveThrowableItem.ReboundRadius</a>
     </div>
     <div>
@@ -150,7 +147,13 @@
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_SpriteRenderer">ThrowableItem.SpriteRenderer</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnSpawned_System_Int32_System_String_">ThrowableItem.OnSpawned(Int32, String)</a>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Start">ThrowableItem.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_Vector2_Vector2_System_Single_">ThrowableItem.UpdateProjectilePath(Vector2, Vector2, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnThrow">ThrowableItem.OnThrow()</a>
     </div>
     <div>
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight">ThrowableItem.GetPeakHeight()</a>
@@ -162,10 +165,13 @@
       <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite">Item.Sprite</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_SpawnerId">Item.SpawnerId</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryCurve">Item.DiscardTrajectoryCurve</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_PoolName">Item.PoolName</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryArc">Item.DiscardTrajectoryArc</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_RPC_SetSpawnerID_System_Int32_">Item.RPC_SetSpawnerID(Int32)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
@@ -289,7 +295,7 @@
     <pre><code class="lang-csharp hljs">public override void OnDiscard()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnDiscard">Item.OnDiscard()</a></div>
+  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnDiscard">ThrowableItem.OnDiscard()</a></div>
   
   
   <a id="CatchIo_Items_Stone_OnLanded_" data-uid="CatchIo.Items.Stone.OnLanded*"></a>
@@ -358,57 +364,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Items_Stone_OnThrow_" data-uid="CatchIo.Items.Stone.OnThrow*"></a>
-  <h4 id="CatchIo_Items_Stone_OnThrow" data-uid="CatchIo.Items.Stone.OnThrow">OnThrow()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnThrow()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnThrow">ThrowableItem.OnThrow()</a></div>
-  
-  
-  <a id="CatchIo_Items_Stone_UpdateProjectilePath_" data-uid="CatchIo.Items.Stone.UpdateProjectilePath*"></a>
-  <h4 id="CatchIo_Items_Stone_UpdateProjectilePath_Vector2_Vector2_System_Single_" data-uid="CatchIo.Items.Stone.UpdateProjectilePath(Vector2,Vector2,System.Single)">UpdateProjectilePath(Vector2, Vector2, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void UpdateProjectilePath(Vector2 thrownPos, Vector2 targetPos, float throwRadius)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">thrownPos</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">targetPos</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">throwRadius</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_Vector2_Vector2_System_Single_">ThrowableItem.UpdateProjectilePath(Vector2, Vector2, Single)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IThrowable</span>

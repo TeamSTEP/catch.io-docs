@@ -334,7 +334,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HoldingItem HoldingItem { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Item HoldingItem { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -346,7 +346,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HoldingItem</span></td>
+        <td><span class="xref">Item</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -375,43 +375,6 @@
   </div>
   
   
-  <a id="CatchIo_PlayerCharacter_Character_ConsumeItem_" data-uid="CatchIo.PlayerCharacter.Character.ConsumeItem*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_ConsumeItem_ConsumableItem_" data-uid="CatchIo.PlayerCharacter.Character.ConsumeItem(ConsumableItem)">ConsumeItem(ConsumableItem)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ConsumeItem(ConsumableItem item)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ConsumableItem</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_Character_DiscardHoldingItem_" data-uid="CatchIo.PlayerCharacter.Character.DiscardHoldingItem*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_DiscardHoldingItem" data-uid="CatchIo.PlayerCharacter.Character.DiscardHoldingItem">DiscardHoldingItem()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DiscardHoldingItem()</code></pre>
-  </div>
-  
-  
   <a id="CatchIo_PlayerCharacter_Character_Drag_" data-uid="CatchIo.PlayerCharacter.Character.Drag*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_Drag_System_Single_" data-uid="CatchIo.PlayerCharacter.Character.Drag(System.Single)">Drag(Single)</h4>
   <div class="markdown level1 summary"></div>
@@ -437,16 +400,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_Character_Draw_" data-uid="CatchIo.PlayerCharacter.Character.Draw*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_Draw" data-uid="CatchIo.PlayerCharacter.Character.Draw">Draw()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Draw()</code></pre>
-  </div>
   
   
   <a id="CatchIo_PlayerCharacter_Character_GenerateFootprint_" data-uid="CatchIo.PlayerCharacter.Character.GenerateFootprint*"></a>
@@ -759,6 +712,60 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
   </div>
   
   
+  <a id="CatchIo_PlayerCharacter_Character_RPC_ConsumeItem_" data-uid="CatchIo.PlayerCharacter.Character.RPC_ConsumeItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_ConsumeItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.Character.RPC_ConsumeItem(System.Int32)">RPC_ConsumeItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_ConsumeItem(int consumerViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">consumerViewId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Character_RPC_DiscardHoldingItem_" data-uid="CatchIo.PlayerCharacter.Character.RPC_DiscardHoldingItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_DiscardHoldingItem_System_Int32_" data-uid="CatchIo.PlayerCharacter.Character.RPC_DiscardHoldingItem(System.Int32)">RPC_DiscardHoldingItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_DiscardHoldingItem(int ownerViewID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">ownerViewID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_PlayerCharacter_Character_RPC_GenerateFootprint_" data-uid="CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_RPC_GenerateFootprint_System_String_System_String_Vector3_System_Single_System_Boolean_System_Single_" data-uid="CatchIo.PlayerCharacter.Character.RPC_GenerateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)">RPC_GenerateFootprint(String, String, Vector3, Single, Boolean, Single)</h4>
   <div class="markdown level1 summary"></div>
@@ -843,6 +850,38 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
   </table>
   
   
+  <a id="CatchIo_PlayerCharacter_Character_RPC_PickUpItem_" data-uid="CatchIo.PlayerCharacter.Character.RPC_PickUpItem*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_PickUpItem_System_Int32_System_Int32_" data-uid="CatchIo.PlayerCharacter.Character.RPC_PickUpItem(System.Int32,System.Int32)">RPC_PickUpItem(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_PickUpItem(int pickedUpCharacterViewId, int itemViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">pickedUpCharacterViewId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">itemViewId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_PlayerCharacter_Character_RPC_TakeDamage_" data-uid="CatchIo.PlayerCharacter.Character.RPC_TakeDamage*"></a>
   <h4 id="CatchIo_PlayerCharacter_Character_RPC_TakeDamage_System_Int32_System_Single_" data-uid="CatchIo.PlayerCharacter.Character.RPC_TakeDamage(System.Int32,System.Single)">RPC_TakeDamage(Int32, Single)</h4>
   <div class="markdown level1 summary"></div>
@@ -876,12 +915,12 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
   
   
   <a id="CatchIo_PlayerCharacter_Character_RPC_ThrowItem_" data-uid="CatchIo.PlayerCharacter.Character.RPC_ThrowItem*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_RPC_ThrowItem_System_String_Vector2_" data-uid="CatchIo.PlayerCharacter.Character.RPC_ThrowItem(System.String,Vector2)">RPC_ThrowItem(String, Vector2)</h4>
+  <h4 id="CatchIo_PlayerCharacter_Character_RPC_ThrowItem_System_Int32_Vector2_" data-uid="CatchIo.PlayerCharacter.Character.RPC_ThrowItem(System.Int32,Vector2)">RPC_ThrowItem(Int32, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_ThrowItem(string itemPoolName, Vector2 targetPosWorld)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RPC_ThrowItem(int throwerViewId, Vector2 targetPosWorld)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -894,8 +933,8 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">itemPoolName</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">throwerViewId</span></td>
         <td></td>
       </tr>
       <tr>
@@ -1029,38 +1068,6 @@ The generic specifies the type of the list of &apos;other&apos; objects. It is a
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">damage</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_PlayerCharacter_Character_ThrowItem_" data-uid="CatchIo.PlayerCharacter.Character.ThrowItem*"></a>
-  <h4 id="CatchIo_PlayerCharacter_Character_ThrowItem_Item_Vector2_" data-uid="CatchIo.PlayerCharacter.Character.ThrowItem(Item,Vector2)">ThrowItem(Item, Vector2)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ThrowItem(Item item, Vector2 targetPos)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Item</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">targetPos</span></td>
         <td></td>
       </tr>
     </tbody>

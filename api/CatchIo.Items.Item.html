@@ -97,8 +97,58 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Items_Item_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Item : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Item : MonoBehaviourPun</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Items_Item_DiscardTrajectoryArc" data-uid="CatchIo.Items.Item.DiscardTrajectoryArc">DiscardTrajectoryArc</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TrajectoryArc DiscardTrajectoryArc</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TrajectoryArc</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Items_Item_DiscardTrajectoryCurve" data-uid="CatchIo.Items.Item.DiscardTrajectoryCurve">DiscardTrajectoryCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationCurve DiscardTrajectoryCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AnimationCurve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -122,56 +172,6 @@
     <tbody>
       <tr>
         <td><span class="xref">Character</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Items_Item_PoolName_" data-uid="CatchIo.Items.Item.PoolName*"></a>
-  <h4 id="CatchIo_Items_Item_PoolName" data-uid="CatchIo.Items.Item.PoolName">PoolName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PoolName { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Items_Item_SpawnerId_" data-uid="CatchIo.Items.Item.SpawnerId*"></a>
-  <h4 id="CatchIo_Items_Item_SpawnerId" data-uid="CatchIo.Items.Item.SpawnerId">SpawnerId</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SpawnerId { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -267,13 +267,13 @@
   </table>
   
   
-  <a id="CatchIo_Items_Item_OnSpawned_" data-uid="CatchIo.Items.Item.OnSpawned*"></a>
-  <h4 id="CatchIo_Items_Item_OnSpawned_System_Int32_System_String_" data-uid="CatchIo.Items.Item.OnSpawned(System.Int32,System.String)">OnSpawned(Int32, String)</h4>
+  <a id="CatchIo_Items_Item_RPC_SetSpawnerID_" data-uid="CatchIo.Items.Item.RPC_SetSpawnerID*"></a>
+  <h4 id="CatchIo_Items_Item_RPC_SetSpawnerID_System_Int32_" data-uid="CatchIo.Items.Item.RPC_SetSpawnerID(System.Int32)">RPC_SetSpawnerID(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnSpawned(int spawnerId, string poolName)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RPC_SetSpawnerID(int spawnerID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -287,16 +287,21 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">spawnerId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">poolName</span></td>
+        <td><span class="parametername">spawnerID</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Items_Item_Start_" data-uid="CatchIo.Items.Item.Start*"></a>
+  <h4 id="CatchIo_Items_Item_Start" data-uid="CatchIo.Items.Item.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+  </div>
 </article>
           </div>
           

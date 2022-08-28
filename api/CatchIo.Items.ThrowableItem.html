@@ -108,13 +108,13 @@ If player throwed this object, it will be placed to mouse-position.</p>
       <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite">Item.Sprite</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_SpawnerId">Item.SpawnerId</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryCurve">Item.DiscardTrajectoryCurve</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_PoolName">Item.PoolName</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryArc">Item.DiscardTrajectoryArc</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnDiscard">Item.OnDiscard()</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_RPC_SetSpawnerID_System_Int32_">Item.RPC_SetSpawnerID(Int32)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
@@ -467,6 +467,18 @@ If player throwed this object, it will be placed to mouse-position.</p>
   </table>
   
   
+  <a id="CatchIo_Items_ThrowableItem_OnDiscard_" data-uid="CatchIo.Items.ThrowableItem.OnDiscard*"></a>
+  <h4 id="CatchIo_Items_ThrowableItem_OnDiscard" data-uid="CatchIo.Items.ThrowableItem.OnDiscard">OnDiscard()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDiscard()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnDiscard">Item.OnDiscard()</a></div>
+  
+  
   <a id="CatchIo_Items_ThrowableItem_OnLanded_" data-uid="CatchIo.Items.ThrowableItem.OnLanded*"></a>
   <h4 id="CatchIo_Items_ThrowableItem_OnLanded" data-uid="CatchIo.Items.ThrowableItem.OnLanded">OnLanded()</h4>
   <div class="markdown level1 summary"></div>
@@ -506,40 +518,6 @@ If player throwed this object, it will be placed to mouse-position.</p>
   <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnPickup_Character_">Item.OnPickup(Character)</a></div>
   
   
-  <a id="CatchIo_Items_ThrowableItem_OnSpawned_" data-uid="CatchIo.Items.ThrowableItem.OnSpawned*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_OnSpawned_System_Int32_System_String_" data-uid="CatchIo.Items.ThrowableItem.OnSpawned(System.Int32,System.String)">OnSpawned(Int32, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnSpawned(int spawnerId, string poolName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">spawnerId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">poolName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnSpawned_System_Int32_System_String_">Item.OnSpawned(Int32, String)</a></div>
-  
-  
   <a id="CatchIo_Items_ThrowableItem_OnThrow_" data-uid="CatchIo.Items.ThrowableItem.OnThrow*"></a>
   <h4 id="CatchIo_Items_ThrowableItem_OnThrow" data-uid="CatchIo.Items.ThrowableItem.OnThrow">OnThrow()</h4>
   <div class="markdown level1 summary"></div>
@@ -548,6 +526,18 @@ If player throwed this object, it will be placed to mouse-position.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual void OnThrow()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_Items_ThrowableItem_Start_" data-uid="CatchIo.Items.ThrowableItem.Start*"></a>
+  <h4 id="CatchIo_Items_ThrowableItem_Start" data-uid="CatchIo.Items.ThrowableItem.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Start">Item.Start()</a></div>
   
   
   <a id="CatchIo_Items_ThrowableItem_UpdateProjectilePath_" data-uid="CatchIo.Items.ThrowableItem.UpdateProjectilePath*"></a>
