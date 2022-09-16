@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Character state machine | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Character state machine | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="character-state-machine">Character state machine</h1>
+
+<h2 id="what-is-fsm">What is FSM?</h2>
+<p>For more information about FSM, <a href="https://www.youtube.com/watch?v=Vt8aZDPzRjI">check this video</a> and <a href="https://gameprogrammingpatterns.com/state.html">this page</a></p>
+<h2 id="why-we-choose-the-fsm-pattern">Why we choose the FSM pattern?</h2>
+<p>The character class is so huge and do a lot of works so when the error is occurred, we can&#39;t find the any clues to fix it.<br>But FSM pattern can separate the character features. Therefore, we can easy to debug the error and find it.<br>We can understand the character&#39;s behavior each character states.</p>
+<h2 id="how-to-create-character-state">How to create character state?</h2>
+<ol>
+<li><p>You have to open the character state machine window (You can open <code>Tools/Generate/CharacterStateMachine</code>).
+<img src="../resources/how-to-open-the-character-state-machine-window.png" alt="how-to-open-the-character-state-machine-window"></p>
+</li>
+<li><p>You can see the this Window.
+<img src="../resources/character-state-window-editor.png" alt="character-state-window-editor"></p>
+</li>
+</ol>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Read the character move and action types that provide by designer(you).
+Find the character state script If cannot find the script, create a new character script. If find the unnecessary the script, delete it.
+Finally, add character states dictionary and states getter to character state factory script.</p>
+<h2 id="migration-guide">Migration guide</h2>
+<p>If you want to change the CharacterStateType(<code>Scripts\PlayerCharacter\FSM\Type\.cs</code>) script location, you have to fix the <code>CharacterStateTypeFormat.FileFormat</code> namespace and <code>MOVE_STATE_TYPE_FILE_PATH</code>. <code>ACTION_STATE_TYPE_FILE_PATH</code> in <code>Editor\Windows\CharacterStateMachineWindow\CharacterStateMachineWindow.cs</code>.
+Same the CharacterState(<code>Scripts\PlayerCharacter\FSM\States\MoveStates(ActionStates)\.cs</code>) you have to fix the <code>CharacterStateClassFormat.FileFormat</code> namespace, <code>MOVE_STATES_FOLDER_PATH</code> and <code>Action_STATES_FOLDER_PATH</code>.  Same the CharacterStateFactory(<code>Scripts\PlayerCharacter\FSM\States\CharacterStateFactory.cs</code>) class you have to fix the <code>CharacterStateFactoryFormat.FileFormat</code> namespace and <code>CHARACTER_STATE_FACTORY_PATH</code>.</p>
+<h2 id="character-states">Character states</h2>
+<pre><code class="lang-mermaid">graph
+    subgraph Character move states
+    direction TB
+    Static --&gt; Walk
+    Walk --&gt; Static
+    Static --&gt; SneakStatic
+    Walk --&gt; Run
+    Run --&gt; Walk
+    SneakStatic --&gt; Static
+    SneakStatic --&gt; Sneak
+    Sneak --&gt; SneakStatic
+    end
+</code></pre><pre><code class="lang-mermaid">graph
+    subgraph Character action states
+        direction TB
+        AnyState --&gt; DiscardItem &amp; ThrowItem &amp; Attack &amp; Death &amp; ConsumeItem
+        DiscardItem &amp; ThrowItem &amp; Attack &amp; ConsumeItem --&gt; Static
+    end
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TeamSTEP/Catch.io/blob/main/Documentation/manual/character-state-machine.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

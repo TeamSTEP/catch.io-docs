@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Stone
    | Catch.io Developer Reference ">
-    <meta name="generator" content="docfx 2.59.3.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
     <link rel="shortcut icon" href="../resources/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -114,7 +114,7 @@
       <a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_ReboundHeight">OffensiveThrowableItem.ReboundHeight</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_OnHit_IHitable_">OffensiveThrowableItem.OnHit(IHitable)</a>
+      <a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_OnHit_ICharacterHitable_">OffensiveThrowableItem.OnHit(ICharacterHitable)</a>
     </div>
     <div>
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_IsOnFloor">ThrowableItem.IsOnFloor</a>
@@ -150,10 +150,16 @@
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_Start">ThrowableItem.Start()</a>
     </div>
     <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Character_Vector2_">ThrowableItem.OnBeforeThrow(Character, Vector2)</a>
+    </div>
+    <div>
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_Vector2_Vector2_System_Single_">ThrowableItem.UpdateProjectilePath(Vector2, Vector2, Single)</a>
     </div>
     <div>
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnThrow">ThrowableItem.OnThrow()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnPickup_Character_">ThrowableItem.OnPickup(Character)</a>
     </div>
     <div>
       <a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight">ThrowableItem.GetPeakHeight()</a>
@@ -253,7 +259,7 @@
   
   
   <a id="CatchIo_Items_Stone_OnBeforeThrow_" data-uid="CatchIo.Items.Stone.OnBeforeThrow*"></a>
-  <h4 id="CatchIo_Items_Stone_OnBeforeThrow_Character_Vector2_" data-uid="CatchIo.Items.Stone.OnBeforeThrow(Character,Vector2)">OnBeforeThrow(Character, Vector2)</h4>
+  <h4 id="CatchIo_Items_Stone_OnBeforeThrow_CatchIo_PlayerCharacter_Core_Character_Vector2_" data-uid="CatchIo.Items.Stone.OnBeforeThrow(CatchIo.PlayerCharacter.Core.Character,Vector2)">OnBeforeThrow(Character, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -271,7 +277,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Character</span></td>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.Core.Character.html">Character</a></td>
         <td><span class="parametername">owner</span></td>
         <td></td>
       </tr>
@@ -282,8 +288,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Character_Vector2_">ThrowableItem.OnBeforeThrow(Character, Vector2)</a></div>
   
   
   <a id="CatchIo_Items_Stone_OnDiscard_" data-uid="CatchIo.Items.Stone.OnDiscard*"></a>
@@ -311,7 +315,7 @@
   
   
   <a id="CatchIo_Items_Stone_OnPickup_" data-uid="CatchIo.Items.Stone.OnPickup*"></a>
-  <h4 id="CatchIo_Items_Stone_OnPickup_Character_" data-uid="CatchIo.Items.Stone.OnPickup(Character)">OnPickup(Character)</h4>
+  <h4 id="CatchIo_Items_Stone_OnPickup_CatchIo_PlayerCharacter_Core_Character_" data-uid="CatchIo.Items.Stone.OnPickup(CatchIo.PlayerCharacter.Core.Character)">OnPickup(Character)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -329,14 +333,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Character</span></td>
+        <td><a class="xref" href="CatchIo.PlayerCharacter.Core.Character.html">Character</a></td>
         <td><span class="parametername">owner</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnPickup_Character_">ThrowableItem.OnPickup(Character)</a></div>
   
   
   <a id="CatchIo_Items_Stone_OnSurfaceChanged_" data-uid="CatchIo.Items.Stone.OnSurfaceChanged*"></a>

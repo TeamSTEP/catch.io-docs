@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class GameMode
    | Catch.io Developer Reference ">
-    <meta name="generator" content="docfx 2.59.3.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
     <link rel="shortcut icon" href="../resources/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -588,6 +588,31 @@
   </h3>
   
   
+  <a id="CatchIo_GameMode_GameMode_GetCharacterStatusInstance_" data-uid="CatchIo.GameMode.GameMode.GetCharacterStatusInstance*"></a>
+  <h4 id="CatchIo_GameMode_GameMode_GetCharacterStatusInstance" data-uid="CatchIo.GameMode.GameMode.GetCharacterStatusInstance">GetCharacterStatusInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterStatus GetCharacterStatusInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_GameMode_GameMode_GetGameModeInstance_" data-uid="CatchIo.GameMode.GameMode.GetGameModeInstance*"></a>
   <h4 id="CatchIo_GameMode_GameMode_GetGameModeInstance_System_String_" data-uid="CatchIo.GameMode.GameMode.GetGameModeInstance(System.String)">GetGameModeInstance(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -721,12 +746,12 @@
   
   
   <a id="CatchIo_GameMode_GameMode_RespawnCharacter_" data-uid="CatchIo.GameMode.GameMode.RespawnCharacter*"></a>
-  <h4 id="CatchIo_GameMode_GameMode_RespawnCharacter_System_Int32_" data-uid="CatchIo.GameMode.GameMode.RespawnCharacter(System.Int32)">RespawnCharacter(Int32)</h4>
+  <h4 id="CatchIo_GameMode_GameMode_RespawnCharacter_System_Int32_System_Boolean_" data-uid="CatchIo.GameMode.GameMode.RespawnCharacter(System.Int32,System.Boolean)">RespawnCharacter(Int32, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RespawnCharacter(int viewId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RespawnCharacter(int viewId, bool forciblyRespawn = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -741,6 +766,11 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">viewId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">forciblyRespawn</span></td>
         <td></td>
       </tr>
     </tbody>
