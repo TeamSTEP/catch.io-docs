@@ -5807,12 +5807,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.OnDeath
   fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.OnDeath
   nameWithType: CharacterStatus.OnDeath
-- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina
-  name: RecoveryStamina()
-  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_RecoveryStamina
-  commentId: M:CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina
-  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina()
-  nameWithType: CharacterStatus.RecoveryStamina()
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina(System.Single)
+  name: RecoveryStamina(Single)
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_RecoveryStamina_System_Single_
+  commentId: M:CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina(System.Single)
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina(System.Single)
+  nameWithType: CharacterStatus.RecoveryStamina(Single)
 - uid: CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina*
   name: RecoveryStamina
   href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_RecoveryStamina_
@@ -5870,12 +5870,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.Stamina
   nameWithType: CharacterStatus.Stamina
-- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.StaminaRecoveryInSeconds
-  name: StaminaRecoveryInSeconds
-  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_StaminaRecoveryInSeconds
-  commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.StaminaRecoveryInSeconds
-  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.StaminaRecoveryInSeconds
-  nameWithType: CharacterStatus.StaminaRecoveryInSeconds
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.StandingStaminaRecoveryPerSec
+  name: StandingStaminaRecoveryPerSec
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_StandingStaminaRecoveryPerSec
+  commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.StandingStaminaRecoveryPerSec
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.StandingStaminaRecoveryPerSec
+  nameWithType: CharacterStatus.StandingStaminaRecoveryPerSec
 - uid: CatchIo.PlayerCharacter.Core.CharacterStatus.ThrowingStaminaCost
   name: ThrowingStaminaCost
   href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_ThrowingStaminaCost
@@ -5914,6 +5914,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.WaitingTimeForStaminaRecovery
   fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.WaitingTimeForStaminaRecovery
   nameWithType: CharacterStatus.WaitingTimeForStaminaRecovery
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.WalkingStaminaRecoveryPerSec
+  name: WalkingStaminaRecoveryPerSec
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_WalkingStaminaRecoveryPerSec
+  commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.WalkingStaminaRecoveryPerSec
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.WalkingStaminaRecoveryPerSec
+  nameWithType: CharacterStatus.WalkingStaminaRecoveryPerSec
 - uid: CatchIo.PlayerCharacter.Core.CharacterStatus.WalkSpeed
   name: WalkSpeed
   href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_WalkSpeed
@@ -6233,6 +6239,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.FSM.CharacterStateMachine.Log
   nameWithType: CharacterStateMachine.Log
+- uid: CatchIo.PlayerCharacter.FSM.CharacterStateMachine.PreviousState
+  name: PreviousState
+  href: api/CatchIo.PlayerCharacter.FSM.CharacterStateMachine.html#CatchIo_PlayerCharacter_FSM_CharacterStateMachine_PreviousState
+  commentId: P:CatchIo.PlayerCharacter.FSM.CharacterStateMachine.PreviousState
+  fullName: CatchIo.PlayerCharacter.FSM.CharacterStateMachine.PreviousState
+  nameWithType: CharacterStateMachine.PreviousState
+- uid: CatchIo.PlayerCharacter.FSM.CharacterStateMachine.PreviousState*
+  name: PreviousState
+  href: api/CatchIo.PlayerCharacter.FSM.CharacterStateMachine.html#CatchIo_PlayerCharacter_FSM_CharacterStateMachine_PreviousState_
+  commentId: Overload:CatchIo.PlayerCharacter.FSM.CharacterStateMachine.PreviousState
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.FSM.CharacterStateMachine.PreviousState
+  nameWithType: CharacterStateMachine.PreviousState
 - uid: CatchIo.PlayerCharacter.FSM.CharacterStateMachine.Rigidbody2D
   name: Rigidbody2D
   href: api/CatchIo.PlayerCharacter.FSM.CharacterStateMachine.html#CatchIo_PlayerCharacter_FSM_CharacterStateMachine_Rigidbody2D

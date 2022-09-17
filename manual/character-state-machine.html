@@ -100,25 +100,8 @@ Finally, add character states dictionary and states getter to character state fa
 <p>If you want to change the CharacterStateType(<code>Scripts\PlayerCharacter\FSM\Type\.cs</code>) script location, you have to fix the <code>CharacterStateTypeFormat.FileFormat</code> namespace and <code>MOVE_STATE_TYPE_FILE_PATH</code>. <code>ACTION_STATE_TYPE_FILE_PATH</code> in <code>Editor\Windows\CharacterStateMachineWindow\CharacterStateMachineWindow.cs</code>.
 Same the CharacterState(<code>Scripts\PlayerCharacter\FSM\States\MoveStates(ActionStates)\.cs</code>) you have to fix the <code>CharacterStateClassFormat.FileFormat</code> namespace, <code>MOVE_STATES_FOLDER_PATH</code> and <code>Action_STATES_FOLDER_PATH</code>.  Same the CharacterStateFactory(<code>Scripts\PlayerCharacter\FSM\States\CharacterStateFactory.cs</code>) class you have to fix the <code>CharacterStateFactoryFormat.FileFormat</code> namespace and <code>CHARACTER_STATE_FACTORY_PATH</code>.</p>
 <h2 id="character-states">Character states</h2>
-<pre><code class="lang-mermaid">graph
-    subgraph Character move states
-    direction TB
-    Static --&gt; Walk
-    Walk --&gt; Static
-    Static --&gt; SneakStatic
-    Walk --&gt; Run
-    Run --&gt; Walk
-    SneakStatic --&gt; Static
-    SneakStatic --&gt; Sneak
-    Sneak --&gt; SneakStatic
-    end
-</code></pre><pre><code class="lang-mermaid">graph
-    subgraph Character action states
-        direction TB
-        AnyState --&gt; DiscardItem &amp; ThrowItem &amp; Attack &amp; Death &amp; ConsumeItem
-        DiscardItem &amp; ThrowItem &amp; Attack &amp; ConsumeItem --&gt; Static
-    end
-</code></pre></article>
+<p><img src="../resources/character-states-graph.png" alt="character-states-graph"></p>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
