@@ -2075,12 +2075,6 @@ references:
   commentId: E:CatchIo.Inputs.InputReader.ConsumeItemInput
   fullName: CatchIo.Inputs.InputReader.ConsumeItemInput
   nameWithType: InputReader.ConsumeItemInput
-- uid: CatchIo.Inputs.InputReader.CrouchCanceledInput
-  name: CrouchCanceledInput
-  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_CrouchCanceledInput
-  commentId: E:CatchIo.Inputs.InputReader.CrouchCanceledInput
-  fullName: CatchIo.Inputs.InputReader.CrouchCanceledInput
-  nameWithType: InputReader.CrouchCanceledInput
 - uid: CatchIo.Inputs.InputReader.CrouchInput
   name: CrouchInput
   href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_CrouchInput
@@ -2132,6 +2126,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Inputs.InputReader.EnableMenusInput
   nameWithType: InputReader.EnableMenusInput
+- uid: CatchIo.Inputs.InputReader.ItemSelectInput
+  name: ItemSelectInput
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_ItemSelectInput
+  commentId: E:CatchIo.Inputs.InputReader.ItemSelectInput
+  fullName: CatchIo.Inputs.InputReader.ItemSelectInput
+  nameWithType: InputReader.ItemSelectInput
 - uid: CatchIo.Inputs.InputReader.MovementInput
   name: MovementInput
   href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_MovementInput
@@ -2203,6 +2203,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Inputs.InputReader.OnDiscardItem
   nameWithType: InputReader.OnDiscardItem
+- uid: CatchIo.Inputs.InputReader.OnItemSelect(InputAction.CallbackContext)
+  name: OnItemSelect(InputAction.CallbackContext)
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_OnItemSelect_InputAction_CallbackContext_
+  commentId: M:CatchIo.Inputs.InputReader.OnItemSelect(InputAction.CallbackContext)
+  fullName: CatchIo.Inputs.InputReader.OnItemSelect(InputAction.CallbackContext)
+  nameWithType: InputReader.OnItemSelect(InputAction.CallbackContext)
+- uid: CatchIo.Inputs.InputReader.OnItemSelect*
+  name: OnItemSelect
+  href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_OnItemSelect_
+  commentId: Overload:CatchIo.Inputs.InputReader.OnItemSelect
+  isSpec: "True"
+  fullName: CatchIo.Inputs.InputReader.OnItemSelect
+  nameWithType: InputReader.OnItemSelect
 - uid: CatchIo.Inputs.InputReader.OnMove(InputAction.CallbackContext)
   name: OnMove(InputAction.CallbackContext)
   href: api/CatchIo.Inputs.InputReader.html#CatchIo_Inputs_InputReader_OnMove_InputAction_CallbackContext_
@@ -5597,6 +5610,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Core.CharacterInput.OnDiscardItem
   fullName: CatchIo.PlayerCharacter.Core.CharacterInput.OnDiscardItem
   nameWithType: CharacterInput.OnDiscardItem
+- uid: CatchIo.PlayerCharacter.Core.CharacterInput.OnItemSelect
+  name: OnItemSelect
+  href: api/CatchIo.PlayerCharacter.Core.CharacterInput.html#CatchIo_PlayerCharacter_Core_CharacterInput_OnItemSelect
+  commentId: F:CatchIo.PlayerCharacter.Core.CharacterInput.OnItemSelect
+  fullName: CatchIo.PlayerCharacter.Core.CharacterInput.OnItemSelect
+  nameWithType: CharacterInput.OnItemSelect
 - uid: CatchIo.PlayerCharacter.Core.CharacterInput.OnThrowItem
   name: OnThrowItem
   href: api/CatchIo.PlayerCharacter.Core.CharacterInput.html#CatchIo_PlayerCharacter_Core_CharacterInput_OnThrowItem
@@ -7893,19 +7912,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Inventory.Inventory.GetCount
   nameWithType: Inventory.GetCount
-- uid: CatchIo.PlayerCharacter.Inventory.Inventory.GetExistInventoryIndex
-  name: GetExistInventoryIndex()
-  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_GetExistInventoryIndex
-  commentId: M:CatchIo.PlayerCharacter.Inventory.Inventory.GetExistInventoryIndex
-  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.GetExistInventoryIndex()
-  nameWithType: Inventory.GetExistInventoryIndex()
-- uid: CatchIo.PlayerCharacter.Inventory.Inventory.GetExistInventoryIndex*
-  name: GetExistInventoryIndex
-  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_GetExistInventoryIndex_
-  commentId: Overload:CatchIo.PlayerCharacter.Inventory.Inventory.GetExistInventoryIndex
+- uid: CatchIo.PlayerCharacter.Inventory.Inventory.GetCursorIndex(System.Int32,System.Int32)
+  name: GetCursorIndex(Int32, Int32)
+  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_GetCursorIndex_System_Int32_System_Int32_
+  commentId: M:CatchIo.PlayerCharacter.Inventory.Inventory.GetCursorIndex(System.Int32,System.Int32)
+  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.GetCursorIndex(System.Int32, System.Int32)
+  nameWithType: Inventory.GetCursorIndex(Int32, Int32)
+- uid: CatchIo.PlayerCharacter.Inventory.Inventory.GetCursorIndex*
+  name: GetCursorIndex
+  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_GetCursorIndex_
+  commentId: Overload:CatchIo.PlayerCharacter.Inventory.Inventory.GetCursorIndex
   isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.GetExistInventoryIndex
-  nameWithType: Inventory.GetExistInventoryIndex
+  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.GetCursorIndex
+  nameWithType: Inventory.GetCursorIndex
+- uid: CatchIo.PlayerCharacter.Inventory.Inventory.GetFirstExistedIndex
+  name: GetFirstExistedIndex()
+  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_GetFirstExistedIndex
+  commentId: M:CatchIo.PlayerCharacter.Inventory.Inventory.GetFirstExistedIndex
+  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.GetFirstExistedIndex()
+  nameWithType: Inventory.GetFirstExistedIndex()
+- uid: CatchIo.PlayerCharacter.Inventory.Inventory.GetFirstExistedIndex*
+  name: GetFirstExistedIndex
+  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_GetFirstExistedIndex_
+  commentId: Overload:CatchIo.PlayerCharacter.Inventory.Inventory.GetFirstExistedIndex
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.GetFirstExistedIndex
+  nameWithType: Inventory.GetFirstExistedIndex
 - uid: CatchIo.PlayerCharacter.Inventory.Inventory.GetItem(System.Int32)
   name: GetItem(Int32)
   href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_GetItem_System_Int32_
@@ -7945,6 +7977,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Inventory.Inventory.IsFull
   nameWithType: Inventory.IsFull
+- uid: CatchIo.PlayerCharacter.Inventory.Inventory.MaxInventorySize
+  name: MaxInventorySize
+  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_MaxInventorySize
+  commentId: P:CatchIo.PlayerCharacter.Inventory.Inventory.MaxInventorySize
+  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.MaxInventorySize
+  nameWithType: Inventory.MaxInventorySize
+- uid: CatchIo.PlayerCharacter.Inventory.Inventory.MaxInventorySize*
+  name: MaxInventorySize
+  href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_MaxInventorySize_
+  commentId: Overload:CatchIo.PlayerCharacter.Inventory.Inventory.MaxInventorySize
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Inventory.Inventory.MaxInventorySize
+  nameWithType: Inventory.MaxInventorySize
 - uid: CatchIo.PlayerCharacter.Inventory.Inventory.OnAddItem
   name: OnAddItem
   href: api/CatchIo.PlayerCharacter.Inventory.Inventory.html#CatchIo_PlayerCharacter_Inventory_Inventory_OnAddItem
@@ -8084,19 +8129,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Inventory.InventoryController.Start
   nameWithType: InventoryController.Start
-- uid: CatchIo.PlayerCharacter.Inventory.InventoryController.Update
-  name: Update()
-  href: api/CatchIo.PlayerCharacter.Inventory.InventoryController.html#CatchIo_PlayerCharacter_Inventory_InventoryController_Update
-  commentId: M:CatchIo.PlayerCharacter.Inventory.InventoryController.Update
-  fullName: CatchIo.PlayerCharacter.Inventory.InventoryController.Update()
-  nameWithType: InventoryController.Update()
-- uid: CatchIo.PlayerCharacter.Inventory.InventoryController.Update*
-  name: Update
-  href: api/CatchIo.PlayerCharacter.Inventory.InventoryController.html#CatchIo_PlayerCharacter_Inventory_InventoryController_Update_
-  commentId: Overload:CatchIo.PlayerCharacter.Inventory.InventoryController.Update
-  isSpec: "True"
-  fullName: CatchIo.PlayerCharacter.Inventory.InventoryController.Update
-  nameWithType: InventoryController.Update
 - uid: CatchIo.PlayerCharacter.Lighting
   name: CatchIo.PlayerCharacter.Lighting
   href: api/CatchIo.PlayerCharacter.Lighting.html
