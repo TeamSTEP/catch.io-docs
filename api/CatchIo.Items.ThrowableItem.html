@@ -92,11 +92,13 @@ If player throwed this object, it will be placed to mouse-position.</p>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="CatchIo.Items.Item.html">Item</a></div>
     <div class="level2"><span class="xref">ThrowableItem</span></div>
-      <div class="level3"><a class="xref" href="CatchIo.Items.EvasiveThrowableItem.html">EvasiveThrowableItem</a></div>
-      <div class="level3"><a class="xref" href="CatchIo.Items.OffensiveThrowableItem.html">OffensiveThrowableItem</a></div>
+      <div class="level3"><a class="xref" href="CatchIo.Items.Stone.html">Stone</a></div>
+      <div class="level3"><a class="xref" href="CatchIo.Items.TeleportRune.html">TeleportRune</a></div>
+      <div class="level3"><a class="xref" href="CatchIo.Items.TrapRune.html">TrapRune</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><span class="xref">IPunInstantiateMagicCallback</span></div>
     <div><span class="xref">IThrowable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -108,13 +110,13 @@ If player throwed this object, it will be placed to mouse-position.</p>
       <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite">Item.Sprite</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryCurve">Item.DiscardTrajectoryCurve</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_TrajectoryData">Item.TrajectoryData</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryArc">Item.DiscardTrajectoryArc</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectory">Item.DiscardTrajectory</a>
     </div>
     <div>
-      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_RPC_SetSpawnerID_System_Int32_">Item.RPC_SetSpawnerID(Int32)</a>
+      <a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_OnPhotonInstantiate_PhotonMessageInfo_">Item.OnPhotonInstantiate(PhotonMessageInfo)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Items.html">CatchIo.Items</a></h6>
@@ -127,12 +129,12 @@ If player throwed this object, it will be placed to mouse-position.</p>
   </h3>
   
   
-  <h4 id="CatchIo_Items_ThrowableItem_CurrentTrajectoryArc" data-uid="CatchIo.Items.ThrowableItem.CurrentTrajectoryArc">CurrentTrajectoryArc</h4>
+  <h4 id="CatchIo_Items_ThrowableItem_MovingCoroutine" data-uid="CatchIo.Items.ThrowableItem.MovingCoroutine">MovingCoroutine</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TrajectoryArc CurrentTrajectoryArc</code></pre>
+    <pre><code class="lang-csharp hljs">protected IEnumerator MovingCoroutine</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,55 +146,7 @@ If player throwed this object, it will be placed to mouse-position.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TrajectoryArc</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_HasLanded" data-uid="CatchIo.Items.ThrowableItem.HasLanded">HasLanded</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool HasLanded</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Items_ThrowableItem_HasThrown" data-uid="CatchIo.Items.ThrowableItem.HasThrown">HasThrown</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool HasThrown</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">IEnumerator</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -295,12 +249,12 @@ If player throwed this object, it will be placed to mouse-position.</p>
   </table>
   
   
-  <h4 id="CatchIo_Items_ThrowableItem_TrajectoryCurve" data-uid="CatchIo.Items.ThrowableItem.TrajectoryCurve">TrajectoryCurve</h4>
+  <h4 id="CatchIo_Items_ThrowableItem_ThrowTrajectoryData" data-uid="CatchIo.Items.ThrowableItem.ThrowTrajectoryData">ThrowTrajectoryData</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnimationCurve TrajectoryCurve</code></pre>
+    <pre><code class="lang-csharp hljs">public TrajectoryData ThrowTrajectoryData</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,7 +266,7 @@ If player throwed this object, it will be placed to mouse-position.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AnimationCurve</span></td>
+        <td><a class="xref" href="CatchIo.Items.TrajectoryData.html">TrajectoryData</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -327,7 +281,7 @@ If player throwed this object, it will be placed to mouse-position.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsOnFloor { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsOnFloor { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -346,13 +300,13 @@ If player throwed this object, it will be placed to mouse-position.</p>
   </table>
   
   
-  <a id="CatchIo_Items_ThrowableItem_TrajectoryPath_" data-uid="CatchIo.Items.ThrowableItem.TrajectoryPath*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_TrajectoryPath" data-uid="CatchIo.Items.ThrowableItem.TrajectoryPath">TrajectoryPath</h4>
+  <a id="CatchIo_Items_ThrowableItem_ThrowTrajectory_" data-uid="CatchIo.Items.ThrowableItem.ThrowTrajectory*"></a>
+  <h4 id="CatchIo_Items_ThrowableItem_ThrowTrajectory" data-uid="CatchIo.Items.ThrowableItem.ThrowTrajectory">ThrowTrajectory</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3[] TrajectoryPath { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Trajectory ThrowTrajectory { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -364,7 +318,7 @@ If player throwed this object, it will be placed to mouse-position.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="xref">Trajectory</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -400,23 +354,13 @@ If player throwed this object, it will be placed to mouse-position.</p>
   <div><a class="xref" href="CatchIo.Items.Item.html#CatchIo_Items_Item_CanPickup">Item.CanPickup()</a></div>
   
   
-  <a id="CatchIo_Items_ThrowableItem_FixedUpdate_" data-uid="CatchIo.Items.ThrowableItem.FixedUpdate*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_FixedUpdate" data-uid="CatchIo.Items.ThrowableItem.FixedUpdate">FixedUpdate()</h4>
+  <a id="CatchIo_Items_ThrowableItem_MovingTrajectoryPath_" data-uid="CatchIo.Items.ThrowableItem.MovingTrajectoryPath*"></a>
+  <h4 id="CatchIo_Items_ThrowableItem_MovingTrajectoryPath" data-uid="CatchIo.Items.ThrowableItem.MovingTrajectoryPath">MovingTrajectoryPath()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void FixedUpdate()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Items_ThrowableItem_GetPeakHeight_" data-uid="CatchIo.Items.ThrowableItem.GetPeakHeight*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_GetPeakHeight" data-uid="CatchIo.Items.ThrowableItem.GetPeakHeight">GetPeakHeight()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float GetPeakHeight()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual IEnumerator MovingTrajectoryPath()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -428,7 +372,7 @@ If player throwed this object, it will be placed to mouse-position.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">IEnumerator</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -436,12 +380,12 @@ If player throwed this object, it will be placed to mouse-position.</p>
   
   
   <a id="CatchIo_Items_ThrowableItem_OnBeforeThrow_" data-uid="CatchIo.Items.ThrowableItem.OnBeforeThrow*"></a>
-  <h4 id="CatchIo_Items_ThrowableItem_OnBeforeThrow_Character_Vector2_" data-uid="CatchIo.Items.ThrowableItem.OnBeforeThrow(Character,Vector2)">OnBeforeThrow(Character, Vector2)</h4>
+  <h4 id="CatchIo_Items_ThrowableItem_OnBeforeThrow_Vector2_Vector2_" data-uid="CatchIo.Items.ThrowableItem.OnBeforeThrow(Vector2,Vector2)">OnBeforeThrow(Vector2, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnBeforeThrow(Character owner, Vector2 targetPos)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnBeforeThrow(Vector2 startPos, Vector2 targetPos)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -454,8 +398,8 @@ If player throwed this object, it will be placed to mouse-position.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Character</span></td>
-        <td><span class="parametername">owner</span></td>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">startPos</span></td>
         <td></td>
       </tr>
       <tr>
@@ -593,6 +537,9 @@ If player throwed this object, it will be placed to mouse-position.</p>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPunInstantiateMagicCallback</span>
+  </div>
   <div>
       <span class="xref">IThrowable</span>
   </div>

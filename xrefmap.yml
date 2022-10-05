@@ -2317,96 +2317,51 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ConsumableItem.Consume
   nameWithType: ConsumableItem.Consume
-- uid: CatchIo.Items.DeployableThrowableItem
-  name: DeployableThrowableItem
-  href: api/CatchIo.Items.DeployableThrowableItem.html
-  commentId: T:CatchIo.Items.DeployableThrowableItem
-  fullName: CatchIo.Items.DeployableThrowableItem
-  nameWithType: DeployableThrowableItem
-- uid: CatchIo.Items.DeployableThrowableItem.OnBeforeThrow(Character,Vector2)
-  name: OnBeforeThrow(Character, Vector2)
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnBeforeThrow_Character_Vector2_
-  commentId: M:CatchIo.Items.DeployableThrowableItem.OnBeforeThrow(Character,Vector2)
-  fullName: CatchIo.Items.DeployableThrowableItem.OnBeforeThrow(Character, Vector2)
-  nameWithType: DeployableThrowableItem.OnBeforeThrow(Character, Vector2)
-- uid: CatchIo.Items.DeployableThrowableItem.OnBeforeThrow*
-  name: OnBeforeThrow
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnBeforeThrow_
-  commentId: Overload:CatchIo.Items.DeployableThrowableItem.OnBeforeThrow
+- uid: CatchIo.Items.IDamagable
+  name: IDamagable
+  href: api/CatchIo.Items.IDamagable.html
+  commentId: T:CatchIo.Items.IDamagable
+  fullName: CatchIo.Items.IDamagable
+  nameWithType: IDamagable
+- uid: CatchIo.Items.IDamagable.DamageVal
+  name: DamageVal
+  href: api/CatchIo.Items.IDamagable.html#CatchIo_Items_IDamagable_DamageVal
+  commentId: P:CatchIo.Items.IDamagable.DamageVal
+  fullName: CatchIo.Items.IDamagable.DamageVal
+  nameWithType: IDamagable.DamageVal
+- uid: CatchIo.Items.IDamagable.DamageVal*
+  name: DamageVal
+  href: api/CatchIo.Items.IDamagable.html#CatchIo_Items_IDamagable_DamageVal_
+  commentId: Overload:CatchIo.Items.IDamagable.DamageVal
   isSpec: "True"
-  fullName: CatchIo.Items.DeployableThrowableItem.OnBeforeThrow
-  nameWithType: DeployableThrowableItem.OnBeforeThrow
-- uid: CatchIo.Items.DeployableThrowableItem.OnDiscard(Vector2)
-  name: OnDiscard(Vector2)
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnDiscard_Vector2_
-  commentId: M:CatchIo.Items.DeployableThrowableItem.OnDiscard(Vector2)
-  fullName: CatchIo.Items.DeployableThrowableItem.OnDiscard(Vector2)
-  nameWithType: DeployableThrowableItem.OnDiscard(Vector2)
-- uid: CatchIo.Items.DeployableThrowableItem.OnDiscard*
-  name: OnDiscard
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnDiscard_
-  commentId: Overload:CatchIo.Items.DeployableThrowableItem.OnDiscard
+  fullName: CatchIo.Items.IDamagable.DamageVal
+  nameWithType: IDamagable.DamageVal
+- uid: CatchIo.Items.IDamagable.IsHitEnemy
+  name: IsHitEnemy
+  href: api/CatchIo.Items.IDamagable.html#CatchIo_Items_IDamagable_IsHitEnemy
+  commentId: P:CatchIo.Items.IDamagable.IsHitEnemy
+  fullName: CatchIo.Items.IDamagable.IsHitEnemy
+  nameWithType: IDamagable.IsHitEnemy
+- uid: CatchIo.Items.IDamagable.IsHitEnemy*
+  name: IsHitEnemy
+  href: api/CatchIo.Items.IDamagable.html#CatchIo_Items_IDamagable_IsHitEnemy_
+  commentId: Overload:CatchIo.Items.IDamagable.IsHitEnemy
   isSpec: "True"
-  fullName: CatchIo.Items.DeployableThrowableItem.OnDiscard
-  nameWithType: DeployableThrowableItem.OnDiscard
-- uid: CatchIo.Items.DeployableThrowableItem.OnLanded
-  name: OnLanded()
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnLanded
-  commentId: M:CatchIo.Items.DeployableThrowableItem.OnLanded
-  fullName: CatchIo.Items.DeployableThrowableItem.OnLanded()
-  nameWithType: DeployableThrowableItem.OnLanded()
-- uid: CatchIo.Items.DeployableThrowableItem.OnLanded*
-  name: OnLanded
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnLanded_
-  commentId: Overload:CatchIo.Items.DeployableThrowableItem.OnLanded
+  fullName: CatchIo.Items.IDamagable.IsHitEnemy
+  nameWithType: IDamagable.IsHitEnemy
+- uid: CatchIo.Items.IDamagable.OnHit(ICharacterHitable)
+  name: OnHit(ICharacterHitable)
+  href: api/CatchIo.Items.IDamagable.html#CatchIo_Items_IDamagable_OnHit_ICharacterHitable_
+  commentId: M:CatchIo.Items.IDamagable.OnHit(ICharacterHitable)
+  fullName: CatchIo.Items.IDamagable.OnHit(ICharacterHitable)
+  nameWithType: IDamagable.OnHit(ICharacterHitable)
+- uid: CatchIo.Items.IDamagable.OnHit*
+  name: OnHit
+  href: api/CatchIo.Items.IDamagable.html#CatchIo_Items_IDamagable_OnHit_
+  commentId: Overload:CatchIo.Items.IDamagable.OnHit
   isSpec: "True"
-  fullName: CatchIo.Items.DeployableThrowableItem.OnLanded
-  nameWithType: DeployableThrowableItem.OnLanded
-- uid: CatchIo.Items.DeployableThrowableItem.OnPickup(Character)
-  name: OnPickup(Character)
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnPickup_Character_
-  commentId: M:CatchIo.Items.DeployableThrowableItem.OnPickup(Character)
-  fullName: CatchIo.Items.DeployableThrowableItem.OnPickup(Character)
-  nameWithType: DeployableThrowableItem.OnPickup(Character)
-- uid: CatchIo.Items.DeployableThrowableItem.OnPickup*
-  name: OnPickup
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnPickup_
-  commentId: Overload:CatchIo.Items.DeployableThrowableItem.OnPickup
-  isSpec: "True"
-  fullName: CatchIo.Items.DeployableThrowableItem.OnPickup
-  nameWithType: DeployableThrowableItem.OnPickup
-- uid: CatchIo.Items.DeployableThrowableItem.OnThrow
-  name: OnThrow()
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnThrow
-  commentId: M:CatchIo.Items.DeployableThrowableItem.OnThrow
-  fullName: CatchIo.Items.DeployableThrowableItem.OnThrow()
-  nameWithType: DeployableThrowableItem.OnThrow()
-- uid: CatchIo.Items.DeployableThrowableItem.OnThrow*
-  name: OnThrow
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_OnThrow_
-  commentId: Overload:CatchIo.Items.DeployableThrowableItem.OnThrow
-  isSpec: "True"
-  fullName: CatchIo.Items.DeployableThrowableItem.OnThrow
-  nameWithType: DeployableThrowableItem.OnThrow
-- uid: CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject(Vector3)
-  name: SpawnDeployableObject(Vector3)
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_SpawnDeployableObject_Vector3_
-  commentId: M:CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject(Vector3)
-  fullName: CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject(Vector3)
-  nameWithType: DeployableThrowableItem.SpawnDeployableObject(Vector3)
-- uid: CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject*
-  name: SpawnDeployableObject
-  href: api/CatchIo.Items.DeployableThrowableItem.html#CatchIo_Items_DeployableThrowableItem_SpawnDeployableObject_
-  commentId: Overload:CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject
-  isSpec: "True"
-  fullName: CatchIo.Items.DeployableThrowableItem.SpawnDeployableObject
-  nameWithType: DeployableThrowableItem.SpawnDeployableObject
-- uid: CatchIo.Items.EvasiveThrowableItem
-  name: EvasiveThrowableItem
-  href: api/CatchIo.Items.EvasiveThrowableItem.html
-  commentId: T:CatchIo.Items.EvasiveThrowableItem
-  fullName: CatchIo.Items.EvasiveThrowableItem
-  nameWithType: EvasiveThrowableItem
+  fullName: CatchIo.Items.IDamagable.OnHit
+  nameWithType: IDamagable.OnHit
 - uid: CatchIo.Items.Item
   name: Item
   href: api/CatchIo.Items.Item.html
@@ -2426,18 +2381,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Item.CanPickup
   nameWithType: Item.CanPickup
-- uid: CatchIo.Items.Item.DiscardTrajectoryArc
-  name: DiscardTrajectoryArc
-  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryArc
-  commentId: F:CatchIo.Items.Item.DiscardTrajectoryArc
-  fullName: CatchIo.Items.Item.DiscardTrajectoryArc
-  nameWithType: Item.DiscardTrajectoryArc
-- uid: CatchIo.Items.Item.DiscardTrajectoryCurve
-  name: DiscardTrajectoryCurve
-  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectoryCurve
-  commentId: F:CatchIo.Items.Item.DiscardTrajectoryCurve
-  fullName: CatchIo.Items.Item.DiscardTrajectoryCurve
-  nameWithType: Item.DiscardTrajectoryCurve
+- uid: CatchIo.Items.Item.DiscardTrajectory
+  name: DiscardTrajectory
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_DiscardTrajectory
+  commentId: F:CatchIo.Items.Item.DiscardTrajectory
+  fullName: CatchIo.Items.Item.DiscardTrajectory
+  nameWithType: Item.DiscardTrajectory
 - uid: CatchIo.Items.Item.OnDiscard(Vector2)
   name: OnDiscard(Vector2)
   href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_OnDiscard_Vector2_
@@ -2451,6 +2400,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Item.OnDiscard
   nameWithType: Item.OnDiscard
+- uid: CatchIo.Items.Item.OnPhotonInstantiate(PhotonMessageInfo)
+  name: OnPhotonInstantiate(PhotonMessageInfo)
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_OnPhotonInstantiate_PhotonMessageInfo_
+  commentId: M:CatchIo.Items.Item.OnPhotonInstantiate(PhotonMessageInfo)
+  fullName: CatchIo.Items.Item.OnPhotonInstantiate(PhotonMessageInfo)
+  nameWithType: Item.OnPhotonInstantiate(PhotonMessageInfo)
+- uid: CatchIo.Items.Item.OnPhotonInstantiate*
+  name: OnPhotonInstantiate
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_OnPhotonInstantiate_
+  commentId: Overload:CatchIo.Items.Item.OnPhotonInstantiate
+  isSpec: "True"
+  fullName: CatchIo.Items.Item.OnPhotonInstantiate
+  nameWithType: Item.OnPhotonInstantiate
 - uid: CatchIo.Items.Item.OnPickup(Character)
   name: OnPickup(Character)
   href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_OnPickup_Character_
@@ -2477,19 +2439,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Item.Owner
   nameWithType: Item.Owner
-- uid: CatchIo.Items.Item.RPC_SetSpawnerID(System.Int32)
-  name: RPC_SetSpawnerID(Int32)
-  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_RPC_SetSpawnerID_System_Int32_
-  commentId: M:CatchIo.Items.Item.RPC_SetSpawnerID(System.Int32)
-  fullName: CatchIo.Items.Item.RPC_SetSpawnerID(System.Int32)
-  nameWithType: Item.RPC_SetSpawnerID(Int32)
-- uid: CatchIo.Items.Item.RPC_SetSpawnerID*
-  name: RPC_SetSpawnerID
-  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_RPC_SetSpawnerID_
-  commentId: Overload:CatchIo.Items.Item.RPC_SetSpawnerID
-  isSpec: "True"
-  fullName: CatchIo.Items.Item.RPC_SetSpawnerID
-  nameWithType: Item.RPC_SetSpawnerID
 - uid: CatchIo.Items.Item.Sprite
   name: Sprite
   href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_Sprite
@@ -2516,6 +2465,56 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Item.Start
   nameWithType: Item.Start
+- uid: CatchIo.Items.Item.TrajectoryData
+  name: TrajectoryData
+  href: api/CatchIo.Items.Item.html#CatchIo_Items_Item_TrajectoryData
+  commentId: F:CatchIo.Items.Item.TrajectoryData
+  fullName: CatchIo.Items.Item.TrajectoryData
+  nameWithType: Item.TrajectoryData
+- uid: CatchIo.Items.ItemRebounder
+  name: ItemRebounder
+  href: api/CatchIo.Items.ItemRebounder.html
+  commentId: T:CatchIo.Items.ItemRebounder
+  fullName: CatchIo.Items.ItemRebounder
+  nameWithType: ItemRebounder
+- uid: CatchIo.Items.ItemRebounder.CalculateReboundTrajectory(Vector2,Vector2)
+  name: CalculateReboundTrajectory(Vector2, Vector2)
+  href: api/CatchIo.Items.ItemRebounder.html#CatchIo_Items_ItemRebounder_CalculateReboundTrajectory_Vector2_Vector2_
+  commentId: M:CatchIo.Items.ItemRebounder.CalculateReboundTrajectory(Vector2,Vector2)
+  fullName: CatchIo.Items.ItemRebounder.CalculateReboundTrajectory(Vector2, Vector2)
+  nameWithType: ItemRebounder.CalculateReboundTrajectory(Vector2, Vector2)
+- uid: CatchIo.Items.ItemRebounder.CalculateReboundTrajectory*
+  name: CalculateReboundTrajectory
+  href: api/CatchIo.Items.ItemRebounder.html#CatchIo_Items_ItemRebounder_CalculateReboundTrajectory_
+  commentId: Overload:CatchIo.Items.ItemRebounder.CalculateReboundTrajectory
+  isSpec: "True"
+  fullName: CatchIo.Items.ItemRebounder.CalculateReboundTrajectory
+  nameWithType: ItemRebounder.CalculateReboundTrajectory
+- uid: CatchIo.Items.ItemRebounder.OnCompleted
+  name: OnCompleted
+  href: api/CatchIo.Items.ItemRebounder.html#CatchIo_Items_ItemRebounder_OnCompleted
+  commentId: F:CatchIo.Items.ItemRebounder.OnCompleted
+  fullName: CatchIo.Items.ItemRebounder.OnCompleted
+  nameWithType: ItemRebounder.OnCompleted
+- uid: CatchIo.Items.ItemRebounder.Rebound
+  name: Rebound()
+  href: api/CatchIo.Items.ItemRebounder.html#CatchIo_Items_ItemRebounder_Rebound
+  commentId: M:CatchIo.Items.ItemRebounder.Rebound
+  fullName: CatchIo.Items.ItemRebounder.Rebound()
+  nameWithType: ItemRebounder.Rebound()
+- uid: CatchIo.Items.ItemRebounder.Rebound*
+  name: Rebound
+  href: api/CatchIo.Items.ItemRebounder.html#CatchIo_Items_ItemRebounder_Rebound_
+  commentId: Overload:CatchIo.Items.ItemRebounder.Rebound
+  isSpec: "True"
+  fullName: CatchIo.Items.ItemRebounder.Rebound
+  nameWithType: ItemRebounder.Rebound
+- uid: CatchIo.Items.ItemRebounder.ReboundTrajectoryData
+  name: ReboundTrajectoryData
+  href: api/CatchIo.Items.ItemRebounder.html#CatchIo_Items_ItemRebounder_ReboundTrajectoryData
+  commentId: F:CatchIo.Items.ItemRebounder.ReboundTrajectoryData
+  fullName: CatchIo.Items.ItemRebounder.ReboundTrajectoryData
+  nameWithType: ItemRebounder.ReboundTrajectoryData
 - uid: CatchIo.Items.ItemSpawner
   name: ItemSpawner
   href: api/CatchIo.Items.ItemSpawner.html
@@ -2593,62 +2592,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ItemSpawnerController.RegisterItemSpawner
   nameWithType: ItemSpawnerController.RegisterItemSpawner
-- uid: CatchIo.Items.OffensiveThrowableItem
-  name: OffensiveThrowableItem
-  href: api/CatchIo.Items.OffensiveThrowableItem.html
-  commentId: T:CatchIo.Items.OffensiveThrowableItem
-  fullName: CatchIo.Items.OffensiveThrowableItem
-  nameWithType: OffensiveThrowableItem
-- uid: CatchIo.Items.OffensiveThrowableItem.DamageVal
-  name: DamageVal
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_DamageVal
-  commentId: P:CatchIo.Items.OffensiveThrowableItem.DamageVal
-  fullName: CatchIo.Items.OffensiveThrowableItem.DamageVal
-  nameWithType: OffensiveThrowableItem.DamageVal
-- uid: CatchIo.Items.OffensiveThrowableItem.DamageVal*
-  name: DamageVal
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_DamageVal_
-  commentId: Overload:CatchIo.Items.OffensiveThrowableItem.DamageVal
-  isSpec: "True"
-  fullName: CatchIo.Items.OffensiveThrowableItem.DamageVal
-  nameWithType: OffensiveThrowableItem.DamageVal
-- uid: CatchIo.Items.OffensiveThrowableItem.HitTime
-  name: HitTime
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_HitTime
-  commentId: F:CatchIo.Items.OffensiveThrowableItem.HitTime
-  fullName: CatchIo.Items.OffensiveThrowableItem.HitTime
-  nameWithType: OffensiveThrowableItem.HitTime
-- uid: CatchIo.Items.OffensiveThrowableItem.IsHitEnemy
-  name: IsHitEnemy
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_IsHitEnemy
-  commentId: F:CatchIo.Items.OffensiveThrowableItem.IsHitEnemy
-  fullName: CatchIo.Items.OffensiveThrowableItem.IsHitEnemy
-  nameWithType: OffensiveThrowableItem.IsHitEnemy
-- uid: CatchIo.Items.OffensiveThrowableItem.OnHit(ICharacterHitable)
-  name: OnHit(ICharacterHitable)
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_OnHit_ICharacterHitable_
-  commentId: M:CatchIo.Items.OffensiveThrowableItem.OnHit(ICharacterHitable)
-  fullName: CatchIo.Items.OffensiveThrowableItem.OnHit(ICharacterHitable)
-  nameWithType: OffensiveThrowableItem.OnHit(ICharacterHitable)
-- uid: CatchIo.Items.OffensiveThrowableItem.OnHit*
-  name: OnHit
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_OnHit_
-  commentId: Overload:CatchIo.Items.OffensiveThrowableItem.OnHit
-  isSpec: "True"
-  fullName: CatchIo.Items.OffensiveThrowableItem.OnHit
-  nameWithType: OffensiveThrowableItem.OnHit
-- uid: CatchIo.Items.OffensiveThrowableItem.ReboundHeight
-  name: ReboundHeight
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_ReboundHeight
-  commentId: F:CatchIo.Items.OffensiveThrowableItem.ReboundHeight
-  fullName: CatchIo.Items.OffensiveThrowableItem.ReboundHeight
-  nameWithType: OffensiveThrowableItem.ReboundHeight
-- uid: CatchIo.Items.OffensiveThrowableItem.ReboundRadius
-  name: ReboundRadius
-  href: api/CatchIo.Items.OffensiveThrowableItem.html#CatchIo_Items_OffensiveThrowableItem_ReboundRadius
-  commentId: F:CatchIo.Items.OffensiveThrowableItem.ReboundRadius
-  fullName: CatchIo.Items.OffensiveThrowableItem.ReboundRadius
-  nameWithType: OffensiveThrowableItem.ReboundRadius
 - uid: CatchIo.Items.StaminaPotion
   name: StaminaPotion
   href: api/CatchIo.Items.StaminaPotion.html
@@ -2739,32 +2682,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Stone.DamageVal
   nameWithType: Stone.DamageVal
-- uid: CatchIo.Items.Stone.FixedUpdate
-  name: FixedUpdate()
-  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_FixedUpdate
-  commentId: M:CatchIo.Items.Stone.FixedUpdate
-  fullName: CatchIo.Items.Stone.FixedUpdate()
-  nameWithType: Stone.FixedUpdate()
-- uid: CatchIo.Items.Stone.FixedUpdate*
-  name: FixedUpdate
-  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_FixedUpdate_
-  commentId: Overload:CatchIo.Items.Stone.FixedUpdate
+- uid: CatchIo.Items.Stone.IsHitEnemy
+  name: IsHitEnemy
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_IsHitEnemy
+  commentId: P:CatchIo.Items.Stone.IsHitEnemy
+  fullName: CatchIo.Items.Stone.IsHitEnemy
+  nameWithType: Stone.IsHitEnemy
+- uid: CatchIo.Items.Stone.IsHitEnemy*
+  name: IsHitEnemy
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_IsHitEnemy_
+  commentId: Overload:CatchIo.Items.Stone.IsHitEnemy
   isSpec: "True"
-  fullName: CatchIo.Items.Stone.FixedUpdate
-  nameWithType: Stone.FixedUpdate
-- uid: CatchIo.Items.Stone.OnBeforeThrow(CatchIo.PlayerCharacter.Core.Character,Vector2)
-  name: OnBeforeThrow(Character, Vector2)
-  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnBeforeThrow_CatchIo_PlayerCharacter_Core_Character_Vector2_
-  commentId: M:CatchIo.Items.Stone.OnBeforeThrow(CatchIo.PlayerCharacter.Core.Character,Vector2)
-  fullName: CatchIo.Items.Stone.OnBeforeThrow(CatchIo.PlayerCharacter.Core.Character, Vector2)
-  nameWithType: Stone.OnBeforeThrow(Character, Vector2)
-- uid: CatchIo.Items.Stone.OnBeforeThrow*
-  name: OnBeforeThrow
-  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnBeforeThrow_
-  commentId: Overload:CatchIo.Items.Stone.OnBeforeThrow
-  isSpec: "True"
-  fullName: CatchIo.Items.Stone.OnBeforeThrow
-  nameWithType: Stone.OnBeforeThrow
+  fullName: CatchIo.Items.Stone.IsHitEnemy
+  nameWithType: Stone.IsHitEnemy
 - uid: CatchIo.Items.Stone.OnDiscard(Vector2)
   name: OnDiscard(Vector2)
   href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnDiscard_Vector2_
@@ -2778,6 +2708,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Stone.OnDiscard
   nameWithType: Stone.OnDiscard
+- uid: CatchIo.Items.Stone.OnHit(ICharacterHitable)
+  name: OnHit(ICharacterHitable)
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnHit_ICharacterHitable_
+  commentId: M:CatchIo.Items.Stone.OnHit(ICharacterHitable)
+  fullName: CatchIo.Items.Stone.OnHit(ICharacterHitable)
+  nameWithType: Stone.OnHit(ICharacterHitable)
+- uid: CatchIo.Items.Stone.OnHit*
+  name: OnHit
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnHit_
+  commentId: Overload:CatchIo.Items.Stone.OnHit
+  isSpec: "True"
+  fullName: CatchIo.Items.Stone.OnHit
+  nameWithType: Stone.OnHit
 - uid: CatchIo.Items.Stone.OnLanded
   name: OnLanded()
   href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_OnLanded
@@ -2820,6 +2763,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.Stone.OnSurfaceChanged
   nameWithType: Stone.OnSurfaceChanged
+- uid: CatchIo.Items.Stone.Start
+  name: Start()
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_Start
+  commentId: M:CatchIo.Items.Stone.Start
+  fullName: CatchIo.Items.Stone.Start()
+  nameWithType: Stone.Start()
+- uid: CatchIo.Items.Stone.Start*
+  name: Start
+  href: api/CatchIo.Items.Stone.html#CatchIo_Items_Stone_Start_
+  commentId: Overload:CatchIo.Items.Stone.Start
+  isSpec: "True"
+  fullName: CatchIo.Items.Stone.Start
+  nameWithType: Stone.Start
 - uid: CatchIo.Items.TeleportRune
   name: TeleportRune
   href: api/CatchIo.Items.TeleportRune.html
@@ -2865,12 +2821,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TeleportRune.ExecuteEffect
   nameWithType: TeleportRune.ExecuteEffect
-- uid: CatchIo.Items.TeleportRune.OnBeforeThrow(Character,Vector2)
-  name: OnBeforeThrow(Character, Vector2)
-  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnBeforeThrow_Character_Vector2_
-  commentId: M:CatchIo.Items.TeleportRune.OnBeforeThrow(Character,Vector2)
-  fullName: CatchIo.Items.TeleportRune.OnBeforeThrow(Character, Vector2)
-  nameWithType: TeleportRune.OnBeforeThrow(Character, Vector2)
+- uid: CatchIo.Items.TeleportRune.OnBeforeThrow(Vector2,Vector2)
+  name: OnBeforeThrow(Vector2, Vector2)
+  href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnBeforeThrow_Vector2_Vector2_
+  commentId: M:CatchIo.Items.TeleportRune.OnBeforeThrow(Vector2,Vector2)
+  fullName: CatchIo.Items.TeleportRune.OnBeforeThrow(Vector2, Vector2)
+  nameWithType: TeleportRune.OnBeforeThrow(Vector2, Vector2)
 - uid: CatchIo.Items.TeleportRune.OnBeforeThrow*
   name: OnBeforeThrow
   href: api/CatchIo.Items.TeleportRune.html#CatchIo_Items_TeleportRune_OnBeforeThrow_
@@ -2994,50 +2950,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.CanPickup
   nameWithType: ThrowableItem.CanPickup
-- uid: CatchIo.Items.ThrowableItem.CurrentTrajectoryArc
-  name: CurrentTrajectoryArc
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_CurrentTrajectoryArc
-  commentId: F:CatchIo.Items.ThrowableItem.CurrentTrajectoryArc
-  fullName: CatchIo.Items.ThrowableItem.CurrentTrajectoryArc
-  nameWithType: ThrowableItem.CurrentTrajectoryArc
-- uid: CatchIo.Items.ThrowableItem.FixedUpdate
-  name: FixedUpdate()
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_FixedUpdate
-  commentId: M:CatchIo.Items.ThrowableItem.FixedUpdate
-  fullName: CatchIo.Items.ThrowableItem.FixedUpdate()
-  nameWithType: ThrowableItem.FixedUpdate()
-- uid: CatchIo.Items.ThrowableItem.FixedUpdate*
-  name: FixedUpdate
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_FixedUpdate_
-  commentId: Overload:CatchIo.Items.ThrowableItem.FixedUpdate
-  isSpec: "True"
-  fullName: CatchIo.Items.ThrowableItem.FixedUpdate
-  nameWithType: ThrowableItem.FixedUpdate
-- uid: CatchIo.Items.ThrowableItem.GetPeakHeight
-  name: GetPeakHeight()
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight
-  commentId: M:CatchIo.Items.ThrowableItem.GetPeakHeight
-  fullName: CatchIo.Items.ThrowableItem.GetPeakHeight()
-  nameWithType: ThrowableItem.GetPeakHeight()
-- uid: CatchIo.Items.ThrowableItem.GetPeakHeight*
-  name: GetPeakHeight
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_GetPeakHeight_
-  commentId: Overload:CatchIo.Items.ThrowableItem.GetPeakHeight
-  isSpec: "True"
-  fullName: CatchIo.Items.ThrowableItem.GetPeakHeight
-  nameWithType: ThrowableItem.GetPeakHeight
-- uid: CatchIo.Items.ThrowableItem.HasLanded
-  name: HasLanded
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_HasLanded
-  commentId: F:CatchIo.Items.ThrowableItem.HasLanded
-  fullName: CatchIo.Items.ThrowableItem.HasLanded
-  nameWithType: ThrowableItem.HasLanded
-- uid: CatchIo.Items.ThrowableItem.HasThrown
-  name: HasThrown
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_HasThrown
-  commentId: F:CatchIo.Items.ThrowableItem.HasThrown
-  fullName: CatchIo.Items.ThrowableItem.HasThrown
-  nameWithType: ThrowableItem.HasThrown
 - uid: CatchIo.Items.ThrowableItem.IsOnFloor
   name: IsOnFloor
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_IsOnFloor
@@ -3051,12 +2963,31 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.IsOnFloor
   nameWithType: ThrowableItem.IsOnFloor
-- uid: CatchIo.Items.ThrowableItem.OnBeforeThrow(Character,Vector2)
-  name: OnBeforeThrow(Character, Vector2)
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Character_Vector2_
-  commentId: M:CatchIo.Items.ThrowableItem.OnBeforeThrow(Character,Vector2)
-  fullName: CatchIo.Items.ThrowableItem.OnBeforeThrow(Character, Vector2)
-  nameWithType: ThrowableItem.OnBeforeThrow(Character, Vector2)
+- uid: CatchIo.Items.ThrowableItem.MovingCoroutine
+  name: MovingCoroutine
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_MovingCoroutine
+  commentId: F:CatchIo.Items.ThrowableItem.MovingCoroutine
+  fullName: CatchIo.Items.ThrowableItem.MovingCoroutine
+  nameWithType: ThrowableItem.MovingCoroutine
+- uid: CatchIo.Items.ThrowableItem.MovingTrajectoryPath
+  name: MovingTrajectoryPath()
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_MovingTrajectoryPath
+  commentId: M:CatchIo.Items.ThrowableItem.MovingTrajectoryPath
+  fullName: CatchIo.Items.ThrowableItem.MovingTrajectoryPath()
+  nameWithType: ThrowableItem.MovingTrajectoryPath()
+- uid: CatchIo.Items.ThrowableItem.MovingTrajectoryPath*
+  name: MovingTrajectoryPath
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_MovingTrajectoryPath_
+  commentId: Overload:CatchIo.Items.ThrowableItem.MovingTrajectoryPath
+  isSpec: "True"
+  fullName: CatchIo.Items.ThrowableItem.MovingTrajectoryPath
+  nameWithType: ThrowableItem.MovingTrajectoryPath
+- uid: CatchIo.Items.ThrowableItem.OnBeforeThrow(Vector2,Vector2)
+  name: OnBeforeThrow(Vector2, Vector2)
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_Vector2_Vector2_
+  commentId: M:CatchIo.Items.ThrowableItem.OnBeforeThrow(Vector2,Vector2)
+  fullName: CatchIo.Items.ThrowableItem.OnBeforeThrow(Vector2, Vector2)
+  nameWithType: ThrowableItem.OnBeforeThrow(Vector2, Vector2)
 - uid: CatchIo.Items.ThrowableItem.OnBeforeThrow*
   name: OnBeforeThrow
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_OnBeforeThrow_
@@ -3153,25 +3084,25 @@ references:
   commentId: F:CatchIo.Items.ThrowableItem.ThrewTime
   fullName: CatchIo.Items.ThrowableItem.ThrewTime
   nameWithType: ThrowableItem.ThrewTime
-- uid: CatchIo.Items.ThrowableItem.TrajectoryCurve
-  name: TrajectoryCurve
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryCurve
-  commentId: F:CatchIo.Items.ThrowableItem.TrajectoryCurve
-  fullName: CatchIo.Items.ThrowableItem.TrajectoryCurve
-  nameWithType: ThrowableItem.TrajectoryCurve
-- uid: CatchIo.Items.ThrowableItem.TrajectoryPath
-  name: TrajectoryPath
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryPath
-  commentId: P:CatchIo.Items.ThrowableItem.TrajectoryPath
-  fullName: CatchIo.Items.ThrowableItem.TrajectoryPath
-  nameWithType: ThrowableItem.TrajectoryPath
-- uid: CatchIo.Items.ThrowableItem.TrajectoryPath*
-  name: TrajectoryPath
-  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_TrajectoryPath_
-  commentId: Overload:CatchIo.Items.ThrowableItem.TrajectoryPath
+- uid: CatchIo.Items.ThrowableItem.ThrowTrajectory
+  name: ThrowTrajectory
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrowTrajectory
+  commentId: P:CatchIo.Items.ThrowableItem.ThrowTrajectory
+  fullName: CatchIo.Items.ThrowableItem.ThrowTrajectory
+  nameWithType: ThrowableItem.ThrowTrajectory
+- uid: CatchIo.Items.ThrowableItem.ThrowTrajectory*
+  name: ThrowTrajectory
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrowTrajectory_
+  commentId: Overload:CatchIo.Items.ThrowableItem.ThrowTrajectory
   isSpec: "True"
-  fullName: CatchIo.Items.ThrowableItem.TrajectoryPath
-  nameWithType: ThrowableItem.TrajectoryPath
+  fullName: CatchIo.Items.ThrowableItem.ThrowTrajectory
+  nameWithType: ThrowableItem.ThrowTrajectory
+- uid: CatchIo.Items.ThrowableItem.ThrowTrajectoryData
+  name: ThrowTrajectoryData
+  href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_ThrowTrajectoryData
+  commentId: F:CatchIo.Items.ThrowableItem.ThrowTrajectoryData
+  fullName: CatchIo.Items.ThrowableItem.ThrowTrajectoryData
+  nameWithType: ThrowableItem.ThrowTrajectoryData
 - uid: CatchIo.Items.ThrowableItem.UpdateProjectilePath(Vector2,Vector2,System.Single)
   name: UpdateProjectilePath(Vector2, Vector2, Single)
   href: api/CatchIo.Items.ThrowableItem.html#CatchIo_Items_ThrowableItem_UpdateProjectilePath_Vector2_Vector2_System_Single_
@@ -3185,6 +3116,30 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.ThrowableItem.UpdateProjectilePath
   nameWithType: ThrowableItem.UpdateProjectilePath
+- uid: CatchIo.Items.TrajectoryData
+  name: TrajectoryData
+  href: api/CatchIo.Items.TrajectoryData.html
+  commentId: T:CatchIo.Items.TrajectoryData
+  fullName: CatchIo.Items.TrajectoryData
+  nameWithType: TrajectoryData
+- uid: CatchIo.Items.TrajectoryData.Curve
+  name: Curve
+  href: api/CatchIo.Items.TrajectoryData.html#CatchIo_Items_TrajectoryData_Curve
+  commentId: F:CatchIo.Items.TrajectoryData.Curve
+  fullName: CatchIo.Items.TrajectoryData.Curve
+  nameWithType: TrajectoryData.Curve
+- uid: CatchIo.Items.TrajectoryData.MaxHeight
+  name: MaxHeight
+  href: api/CatchIo.Items.TrajectoryData.html#CatchIo_Items_TrajectoryData_MaxHeight
+  commentId: F:CatchIo.Items.TrajectoryData.MaxHeight
+  fullName: CatchIo.Items.TrajectoryData.MaxHeight
+  nameWithType: TrajectoryData.MaxHeight
+- uid: CatchIo.Items.TrajectoryData.TimeToTarget
+  name: TimeToTarget
+  href: api/CatchIo.Items.TrajectoryData.html#CatchIo_Items_TrajectoryData_TimeToTarget
+  commentId: F:CatchIo.Items.TrajectoryData.TimeToTarget
+  fullName: CatchIo.Items.TrajectoryData.TimeToTarget
+  nameWithType: TrajectoryData.TimeToTarget
 - uid: CatchIo.Items.TrapRune
   name: TrapRune
   href: api/CatchIo.Items.TrapRune.html
@@ -3204,19 +3159,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Items.TrapRune.OnDiscard
   nameWithType: TrapRune.OnDiscard
-- uid: CatchIo.Items.TrapRune.SpawnDeployableObject(Vector3)
-  name: SpawnDeployableObject(Vector3)
-  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_SpawnDeployableObject_Vector3_
-  commentId: M:CatchIo.Items.TrapRune.SpawnDeployableObject(Vector3)
-  fullName: CatchIo.Items.TrapRune.SpawnDeployableObject(Vector3)
-  nameWithType: TrapRune.SpawnDeployableObject(Vector3)
-- uid: CatchIo.Items.TrapRune.SpawnDeployableObject*
-  name: SpawnDeployableObject
-  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_SpawnDeployableObject_
-  commentId: Overload:CatchIo.Items.TrapRune.SpawnDeployableObject
+- uid: CatchIo.Items.TrapRune.OnLanded
+  name: OnLanded()
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnLanded
+  commentId: M:CatchIo.Items.TrapRune.OnLanded
+  fullName: CatchIo.Items.TrapRune.OnLanded()
+  nameWithType: TrapRune.OnLanded()
+- uid: CatchIo.Items.TrapRune.OnLanded*
+  name: OnLanded
+  href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_OnLanded_
+  commentId: Overload:CatchIo.Items.TrapRune.OnLanded
   isSpec: "True"
-  fullName: CatchIo.Items.TrapRune.SpawnDeployableObject
-  nameWithType: TrapRune.SpawnDeployableObject
+  fullName: CatchIo.Items.TrapRune.OnLanded
+  nameWithType: TrapRune.OnLanded
 - uid: CatchIo.Items.TrapRune.TrapObjectDuration
   name: TrapObjectDuration
   href: api/CatchIo.Items.TrapRune.html#CatchIo_Items_TrapRune_TrapObjectDuration
@@ -3261,6 +3216,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Managers.GameManager.IsDirectSession
   nameWithType: GameManager.IsDirectSession
+- uid: CatchIo.Managers.GameManager.SceneContainer
+  name: SceneContainer
+  href: api/CatchIo.Managers.GameManager.html#CatchIo_Managers_GameManager_SceneContainer
+  commentId: F:CatchIo.Managers.GameManager.SceneContainer
+  fullName: CatchIo.Managers.GameManager.SceneContainer
+  nameWithType: GameManager.SceneContainer
 - uid: CatchIo.Managers.LobbyManager
   name: LobbyManager
   href: api/CatchIo.Managers.LobbyManager.html
@@ -5245,6 +5206,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Core.Character.AddStamina
   nameWithType: Character.AddStamina
+- uid: CatchIo.PlayerCharacter.Core.Character.ChestOffset
+  name: ChestOffset
+  href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_ChestOffset
+  commentId: F:CatchIo.PlayerCharacter.Core.Character.ChestOffset
+  fullName: CatchIo.PlayerCharacter.Core.Character.ChestOffset
+  nameWithType: Character.ChestOffset
 - uid: CatchIo.PlayerCharacter.Core.Character.ConsumeItem
   name: ConsumeItem()
   href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_ConsumeItem
@@ -5808,18 +5775,6 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingDistance
   fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingDistance
   nameWithType: CharacterStatus.MaxThrowingDistance
-- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingDuration
-  name: MaxThrowingDuration
-  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_MaxThrowingDuration
-  commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingDuration
-  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingDuration
-  nameWithType: CharacterStatus.MaxThrowingDuration
-- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingHeight
-  name: MaxThrowingHeight
-  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_MaxThrowingHeight
-  commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingHeight
-  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.MaxThrowingHeight
-  nameWithType: CharacterStatus.MaxThrowingHeight
 - uid: CatchIo.PlayerCharacter.Core.CharacterStatus.MeleeDamage
   name: MeleeDamage
   href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_MeleeDamage
@@ -6029,6 +5984,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Core.NetworkCharacter.GenerateSoundWave
   nameWithType: NetworkCharacter.GenerateSoundWave
+- uid: CatchIo.PlayerCharacter.Core.NetworkCharacter.IsDummyClient
+  name: IsDummyClient
+  href: api/CatchIo.PlayerCharacter.Core.NetworkCharacter.html#CatchIo_PlayerCharacter_Core_NetworkCharacter_IsDummyClient
+  commentId: P:CatchIo.PlayerCharacter.Core.NetworkCharacter.IsDummyClient
+  fullName: CatchIo.PlayerCharacter.Core.NetworkCharacter.IsDummyClient
+  nameWithType: NetworkCharacter.IsDummyClient
+- uid: CatchIo.PlayerCharacter.Core.NetworkCharacter.IsDummyClient*
+  name: IsDummyClient
+  href: api/CatchIo.PlayerCharacter.Core.NetworkCharacter.html#CatchIo_PlayerCharacter_Core_NetworkCharacter_IsDummyClient_
+  commentId: Overload:CatchIo.PlayerCharacter.Core.NetworkCharacter.IsDummyClient
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Core.NetworkCharacter.IsDummyClient
+  nameWithType: NetworkCharacter.IsDummyClient
 - uid: CatchIo.PlayerCharacter.Core.NetworkCharacter.OnPhotonInstantiate(PhotonMessageInfo)
   name: OnPhotonInstantiate(PhotonMessageInfo)
   href: api/CatchIo.PlayerCharacter.Core.NetworkCharacter.html#CatchIo_PlayerCharacter_Core_NetworkCharacter_OnPhotonInstantiate_PhotonMessageInfo_
@@ -8265,25 +8233,12 @@ references:
   commentId: T:CatchIo.ProjectileMotion.IThrowable
   fullName: CatchIo.ProjectileMotion.IThrowable
   nameWithType: IThrowable
-- uid: CatchIo.ProjectileMotion.IThrowable.IsOnFloor
-  name: IsOnFloor
-  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_IsOnFloor
-  commentId: P:CatchIo.ProjectileMotion.IThrowable.IsOnFloor
-  fullName: CatchIo.ProjectileMotion.IThrowable.IsOnFloor
-  nameWithType: IThrowable.IsOnFloor
-- uid: CatchIo.ProjectileMotion.IThrowable.IsOnFloor*
-  name: IsOnFloor
-  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_IsOnFloor_
-  commentId: Overload:CatchIo.ProjectileMotion.IThrowable.IsOnFloor
-  isSpec: "True"
-  fullName: CatchIo.ProjectileMotion.IThrowable.IsOnFloor
-  nameWithType: IThrowable.IsOnFloor
-- uid: CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow(CatchIo.PlayerCharacter.Core.Character,Vector2)
-  name: OnBeforeThrow(Character, Vector2)
-  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_OnBeforeThrow_CatchIo_PlayerCharacter_Core_Character_Vector2_
-  commentId: M:CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow(CatchIo.PlayerCharacter.Core.Character,Vector2)
-  fullName: CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow(CatchIo.PlayerCharacter.Core.Character, Vector2)
-  nameWithType: IThrowable.OnBeforeThrow(Character, Vector2)
+- uid: CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow(Vector2,Vector2)
+  name: OnBeforeThrow(Vector2, Vector2)
+  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_OnBeforeThrow_Vector2_Vector2_
+  commentId: M:CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow(Vector2,Vector2)
+  fullName: CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow(Vector2, Vector2)
+  nameWithType: IThrowable.OnBeforeThrow(Vector2, Vector2)
 - uid: CatchIo.ProjectileMotion.IThrowable.OnBeforeThrow*
   name: OnBeforeThrow
   href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_OnBeforeThrow_
@@ -8304,6 +8259,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.ProjectileMotion.IThrowable.OnLanded
   nameWithType: IThrowable.OnLanded
+- uid: CatchIo.ProjectileMotion.IThrowable.OnThrow
+  name: OnThrow()
+  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_OnThrow
+  commentId: M:CatchIo.ProjectileMotion.IThrowable.OnThrow
+  fullName: CatchIo.ProjectileMotion.IThrowable.OnThrow()
+  nameWithType: IThrowable.OnThrow()
+- uid: CatchIo.ProjectileMotion.IThrowable.OnThrow*
+  name: OnThrow
+  href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_OnThrow_
+  commentId: Overload:CatchIo.ProjectileMotion.IThrowable.OnThrow
+  isSpec: "True"
+  fullName: CatchIo.ProjectileMotion.IThrowable.OnThrow
+  nameWithType: IThrowable.OnThrow
 - uid: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath(Vector2,Vector2,System.Single)
   name: UpdateProjectilePath(Vector2, Vector2, Single)
   href: api/CatchIo.ProjectileMotion.IThrowable.html#CatchIo_ProjectileMotion_IThrowable_UpdateProjectilePath_Vector2_Vector2_System_Single_
@@ -8317,94 +8285,110 @@ references:
   isSpec: "True"
   fullName: CatchIo.ProjectileMotion.IThrowable.UpdateProjectilePath
   nameWithType: IThrowable.UpdateProjectilePath
-- uid: CatchIo.ProjectileMotion.TrajectoryArc
-  name: TrajectoryArc
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html
-  commentId: T:CatchIo.ProjectileMotion.TrajectoryArc
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc
-  nameWithType: TrajectoryArc
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.#ctor
-  name: TrajectoryArc()
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc__ctor
-  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.#ctor
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc()
-  nameWithType: TrajectoryArc.TrajectoryArc()
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.#ctor(System.Single,Vector3[])
-  name: TrajectoryArc(Single, Vector3[])
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc__ctor_System_Single_Vector3___
-  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.#ctor(System.Single,Vector3[])
-  name.vb: TrajectoryArc(Single, Vector3())
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc(System.Single, Vector3[])
-  fullName.vb: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc(System.Single, Vector3())
-  nameWithType: TrajectoryArc.TrajectoryArc(Single, Vector3[])
-  nameWithType.vb: TrajectoryArc.TrajectoryArc(Single, Vector3())
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.#ctor*
-  name: TrajectoryArc
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc__ctor_
-  commentId: Overload:CatchIo.ProjectileMotion.TrajectoryArc.#ctor
+- uid: CatchIo.ProjectileMotion.Trajectory
+  name: Trajectory
+  href: api/CatchIo.ProjectileMotion.Trajectory.html
+  commentId: T:CatchIo.ProjectileMotion.Trajectory
+  fullName: CatchIo.ProjectileMotion.Trajectory
+  nameWithType: Trajectory
+- uid: CatchIo.ProjectileMotion.Trajectory.#ctor(System.Single,Vector3[])
+  name: Trajectory(Single, Vector3[])
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory__ctor_System_Single_Vector3___
+  commentId: M:CatchIo.ProjectileMotion.Trajectory.#ctor(System.Single,Vector3[])
+  name.vb: Trajectory(Single, Vector3())
+  fullName: CatchIo.ProjectileMotion.Trajectory.Trajectory(System.Single, Vector3[])
+  fullName.vb: CatchIo.ProjectileMotion.Trajectory.Trajectory(System.Single, Vector3())
+  nameWithType: Trajectory.Trajectory(Single, Vector3[])
+  nameWithType.vb: Trajectory.Trajectory(Single, Vector3())
+- uid: CatchIo.ProjectileMotion.Trajectory.#ctor(TrajectoryData)
+  name: Trajectory(TrajectoryData)
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory__ctor_TrajectoryData_
+  commentId: M:CatchIo.ProjectileMotion.Trajectory.#ctor(TrajectoryData)
+  fullName: CatchIo.ProjectileMotion.Trajectory.Trajectory(TrajectoryData)
+  nameWithType: Trajectory.Trajectory(TrajectoryData)
+- uid: CatchIo.ProjectileMotion.Trajectory.#ctor*
+  name: Trajectory
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory__ctor_
+  commentId: Overload:CatchIo.ProjectileMotion.Trajectory.#ctor
   isSpec: "True"
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryArc
-  nameWithType: TrajectoryArc.TrajectoryArc
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition
+  fullName: CatchIo.ProjectileMotion.Trajectory.Trajectory
+  nameWithType: Trajectory.Trajectory
+- uid: CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory(Vector2,Vector2,System.Single)
+  name: CalculateTrajectory(Vector2, Vector2, Single)
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_CalculateTrajectory_Vector2_Vector2_System_Single_
+  commentId: M:CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory(Vector2,Vector2,System.Single)
+  fullName: CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory(Vector2, Vector2, System.Single)
+  nameWithType: Trajectory.CalculateTrajectory(Vector2, Vector2, Single)
+- uid: CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory(Vector2,Vector2,Vector2,System.Single)
+  name: CalculateTrajectory(Vector2, Vector2, Vector2, Single)
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_CalculateTrajectory_Vector2_Vector2_Vector2_System_Single_
+  commentId: M:CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory(Vector2,Vector2,Vector2,System.Single)
+  fullName: CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory(Vector2, Vector2, Vector2, System.Single)
+  nameWithType: Trajectory.CalculateTrajectory(Vector2, Vector2, Vector2, Single)
+- uid: CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory*
+  name: CalculateTrajectory
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_CalculateTrajectory_
+  commentId: Overload:CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory
+  isSpec: "True"
+  fullName: CatchIo.ProjectileMotion.Trajectory.CalculateTrajectory
+  nameWithType: Trajectory.CalculateTrajectory
+- uid: CatchIo.ProjectileMotion.Trajectory.GetFinalPosition
   name: GetFinalPosition()
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_GetFinalPosition
-  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition()
-  nameWithType: TrajectoryArc.GetFinalPosition()
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition*
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_GetFinalPosition
+  commentId: M:CatchIo.ProjectileMotion.Trajectory.GetFinalPosition
+  fullName: CatchIo.ProjectileMotion.Trajectory.GetFinalPosition()
+  nameWithType: Trajectory.GetFinalPosition()
+- uid: CatchIo.ProjectileMotion.Trajectory.GetFinalPosition*
   name: GetFinalPosition
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_GetFinalPosition_
-  commentId: Overload:CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_GetFinalPosition_
+  commentId: Overload:CatchIo.ProjectileMotion.Trajectory.GetFinalPosition
   isSpec: "True"
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetFinalPosition
-  nameWithType: TrajectoryArc.GetFinalPosition
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
+  fullName: CatchIo.ProjectileMotion.Trajectory.GetFinalPosition
+  nameWithType: Trajectory.GetFinalPosition
+- uid: CatchIo.ProjectileMotion.Trajectory.GetHeight(System.Single)
+  name: GetHeight(Single)
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_GetHeight_System_Single_
+  commentId: M:CatchIo.ProjectileMotion.Trajectory.GetHeight(System.Single)
+  fullName: CatchIo.ProjectileMotion.Trajectory.GetHeight(System.Single)
+  nameWithType: Trajectory.GetHeight(Single)
+- uid: CatchIo.ProjectileMotion.Trajectory.GetHeight*
+  name: GetHeight
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_GetHeight_
+  commentId: Overload:CatchIo.ProjectileMotion.Trajectory.GetHeight
+  isSpec: "True"
+  fullName: CatchIo.ProjectileMotion.Trajectory.GetHeight
+  nameWithType: Trajectory.GetHeight
+- uid: CatchIo.ProjectileMotion.Trajectory.GetStartPosition
   name: GetStartPosition()
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_GetStartPosition
-  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition()
-  nameWithType: TrajectoryArc.GetStartPosition()
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition*
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_GetStartPosition
+  commentId: M:CatchIo.ProjectileMotion.Trajectory.GetStartPosition
+  fullName: CatchIo.ProjectileMotion.Trajectory.GetStartPosition()
+  nameWithType: Trajectory.GetStartPosition()
+- uid: CatchIo.ProjectileMotion.Trajectory.GetStartPosition*
   name: GetStartPosition
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_GetStartPosition_
-  commentId: Overload:CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_GetStartPosition_
+  commentId: Overload:CatchIo.ProjectileMotion.Trajectory.GetStartPosition
   isSpec: "True"
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.GetStartPosition
-  nameWithType: TrajectoryArc.GetStartPosition
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.NUM_OF_POINTS
+  fullName: CatchIo.ProjectileMotion.Trajectory.GetStartPosition
+  nameWithType: Trajectory.GetStartPosition
+- uid: CatchIo.ProjectileMotion.Trajectory.NUM_OF_POINTS
   name: NUM_OF_POINTS
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_NUM_OF_POINTS
-  commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.NUM_OF_POINTS
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.NUM_OF_POINTS
-  nameWithType: TrajectoryArc.NUM_OF_POINTS
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.TimeToTarget
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_NUM_OF_POINTS
+  commentId: F:CatchIo.ProjectileMotion.Trajectory.NUM_OF_POINTS
+  fullName: CatchIo.ProjectileMotion.Trajectory.NUM_OF_POINTS
+  nameWithType: Trajectory.NUM_OF_POINTS
+- uid: CatchIo.ProjectileMotion.Trajectory.TimeToTarget
   name: TimeToTarget
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_TimeToTarget
-  commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.TimeToTarget
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.TimeToTarget
-  nameWithType: TrajectoryArc.TimeToTarget
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryPath
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_TimeToTarget
+  commentId: F:CatchIo.ProjectileMotion.Trajectory.TimeToTarget
+  fullName: CatchIo.ProjectileMotion.Trajectory.TimeToTarget
+  nameWithType: Trajectory.TimeToTarget
+- uid: CatchIo.ProjectileMotion.Trajectory.TrajectoryPath
   name: TrajectoryPath
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_TrajectoryPath
-  commentId: F:CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryPath
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.TrajectoryPath
-  nameWithType: TrajectoryArc.TrajectoryPath
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single,Vector3[])
-  name: UpdateTrajectoryArc(Single, Vector3[])
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_System_Single_Vector3___
-  commentId: M:CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single,Vector3[])
-  name.vb: UpdateTrajectoryArc(Single, Vector3())
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single, Vector3[])
-  fullName.vb: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc(System.Single, Vector3())
-  nameWithType: TrajectoryArc.UpdateTrajectoryArc(Single, Vector3[])
-  nameWithType.vb: TrajectoryArc.UpdateTrajectoryArc(Single, Vector3())
-- uid: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc*
-  name: UpdateTrajectoryArc
-  href: api/CatchIo.ProjectileMotion.TrajectoryArc.html#CatchIo_ProjectileMotion_TrajectoryArc_UpdateTrajectoryArc_
-  commentId: Overload:CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc
-  isSpec: "True"
-  fullName: CatchIo.ProjectileMotion.TrajectoryArc.UpdateTrajectoryArc
-  nameWithType: TrajectoryArc.UpdateTrajectoryArc
+  href: api/CatchIo.ProjectileMotion.Trajectory.html#CatchIo_ProjectileMotion_Trajectory_TrajectoryPath
+  commentId: F:CatchIo.ProjectileMotion.Trajectory.TrajectoryPath
+  fullName: CatchIo.ProjectileMotion.Trajectory.TrajectoryPath
+  nameWithType: Trajectory.TrajectoryPath
 - uid: CatchIo.ScriptableObjects
   name: CatchIo.ScriptableObjects
   href: api/CatchIo.ScriptableObjects.html
@@ -8607,106 +8591,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.ScriptableObjects.SerializableScriptableObject.Guid
   nameWithType: SerializableScriptableObject.Guid
-- uid: CatchIo.ScriptableObjects.Variables
-  name: CatchIo.ScriptableObjects.Variables
-  href: api/CatchIo.ScriptableObjects.Variables.html
-  commentId: N:CatchIo.ScriptableObjects.Variables
-  fullName: CatchIo.ScriptableObjects.Variables
-  nameWithType: CatchIo.ScriptableObjects.Variables
-- uid: CatchIo.ScriptableObjects.Variables.BoolReference
-  name: BoolReference
-  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html
-  commentId: T:CatchIo.ScriptableObjects.Variables.BoolReference
-  fullName: CatchIo.ScriptableObjects.Variables.BoolReference
-  nameWithType: BoolReference
-- uid: CatchIo.ScriptableObjects.Variables.BoolReference.Value
-  name: Value
-  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html#CatchIo_ScriptableObjects_Variables_BoolReference_Value
-  commentId: P:CatchIo.ScriptableObjects.Variables.BoolReference.Value
-  fullName: CatchIo.ScriptableObjects.Variables.BoolReference.Value
-  nameWithType: BoolReference.Value
-- uid: CatchIo.ScriptableObjects.Variables.BoolReference.Value*
-  name: Value
-  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html#CatchIo_ScriptableObjects_Variables_BoolReference_Value_
-  commentId: Overload:CatchIo.ScriptableObjects.Variables.BoolReference.Value
-  isSpec: "True"
-  fullName: CatchIo.ScriptableObjects.Variables.BoolReference.Value
-  nameWithType: BoolReference.Value
-- uid: CatchIo.ScriptableObjects.Variables.BoolReference.Variable
-  name: Variable
-  href: api/CatchIo.ScriptableObjects.Variables.BoolReference.html#CatchIo_ScriptableObjects_Variables_BoolReference_Variable
-  commentId: F:CatchIo.ScriptableObjects.Variables.BoolReference.Variable
-  fullName: CatchIo.ScriptableObjects.Variables.BoolReference.Variable
-  nameWithType: BoolReference.Variable
-- uid: CatchIo.ScriptableObjects.Variables.BoolVariable
-  name: BoolVariable
-  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html
-  commentId: T:CatchIo.ScriptableObjects.Variables.BoolVariable
-  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable
-  nameWithType: BoolVariable
-- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
-  name: OnAfterDeserialize()
-  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnAfterDeserialize
-  commentId: M:CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
-  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize()
-  nameWithType: BoolVariable.OnAfterDeserialize()
-- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize*
-  name: OnAfterDeserialize
-  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnAfterDeserialize_
-  commentId: Overload:CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
-  isSpec: "True"
-  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnAfterDeserialize
-  nameWithType: BoolVariable.OnAfterDeserialize
-- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
-  name: OnBeforeSerialize()
-  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnBeforeSerialize
-  commentId: M:CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
-  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize()
-  nameWithType: BoolVariable.OnBeforeSerialize()
-- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize*
-  name: OnBeforeSerialize
-  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_OnBeforeSerialize_
-  commentId: Overload:CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
-  isSpec: "True"
-  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.OnBeforeSerialize
-  nameWithType: BoolVariable.OnBeforeSerialize
-- uid: CatchIo.ScriptableObjects.Variables.BoolVariable.RuntimeValue
-  name: RuntimeValue
-  href: api/CatchIo.ScriptableObjects.Variables.BoolVariable.html#CatchIo_ScriptableObjects_Variables_BoolVariable_RuntimeValue
-  commentId: F:CatchIo.ScriptableObjects.Variables.BoolVariable.RuntimeValue
-  fullName: CatchIo.ScriptableObjects.Variables.BoolVariable.RuntimeValue
-  nameWithType: BoolVariable.RuntimeValue
-- uid: CatchIo.ScriptableObjects.Variables.FloatReference
-  name: FloatReference
-  href: api/CatchIo.ScriptableObjects.Variables.FloatReference.html
-  commentId: T:CatchIo.ScriptableObjects.Variables.FloatReference
-  fullName: CatchIo.ScriptableObjects.Variables.FloatReference
-  nameWithType: FloatReference
-- uid: CatchIo.ScriptableObjects.Variables.FloatReference.Value
-  name: Value
-  href: api/CatchIo.ScriptableObjects.Variables.FloatReference.html#CatchIo_ScriptableObjects_Variables_FloatReference_Value
-  commentId: P:CatchIo.ScriptableObjects.Variables.FloatReference.Value
-  fullName: CatchIo.ScriptableObjects.Variables.FloatReference.Value
-  nameWithType: FloatReference.Value
-- uid: CatchIo.ScriptableObjects.Variables.FloatReference.Value*
-  name: Value
-  href: api/CatchIo.ScriptableObjects.Variables.FloatReference.html#CatchIo_ScriptableObjects_Variables_FloatReference_Value_
-  commentId: Overload:CatchIo.ScriptableObjects.Variables.FloatReference.Value
-  isSpec: "True"
-  fullName: CatchIo.ScriptableObjects.Variables.FloatReference.Value
-  nameWithType: FloatReference.Value
-- uid: CatchIo.ScriptableObjects.Variables.FloatVariable
-  name: FloatVariable
-  href: api/CatchIo.ScriptableObjects.Variables.FloatVariable.html
-  commentId: T:CatchIo.ScriptableObjects.Variables.FloatVariable
-  fullName: CatchIo.ScriptableObjects.Variables.FloatVariable
-  nameWithType: FloatVariable
-- uid: CatchIo.ScriptableObjects.Variables.FloatVariable.Value
-  name: Value
-  href: api/CatchIo.ScriptableObjects.Variables.FloatVariable.html#CatchIo_ScriptableObjects_Variables_FloatVariable_Value
-  commentId: F:CatchIo.ScriptableObjects.Variables.FloatVariable.Value
-  fullName: CatchIo.ScriptableObjects.Variables.FloatVariable.Value
-  nameWithType: FloatVariable.Value
 - uid: CatchIo.Sound
   name: CatchIo.Sound
   href: api/CatchIo.Sound.html
