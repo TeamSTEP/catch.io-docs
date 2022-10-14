@@ -815,12 +815,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Environment.CharacterSpawner.AddSpawnPoint
   nameWithType: CharacterSpawner.AddSpawnPoint
-- uid: CatchIo.Environment.CharacterSpawner.CHARACTER_POOL_NAME
-  name: CHARACTER_POOL_NAME
-  href: api/CatchIo.Environment.CharacterSpawner.html#CatchIo_Environment_CharacterSpawner_CHARACTER_POOL_NAME
-  commentId: F:CatchIo.Environment.CharacterSpawner.CHARACTER_POOL_NAME
-  fullName: CatchIo.Environment.CharacterSpawner.CHARACTER_POOL_NAME
-  nameWithType: CharacterSpawner.CHARACTER_POOL_NAME
 - uid: CatchIo.Environment.CharacterSpawner.GetRandomSpawnPoint
   name: GetRandomSpawnPoint()
   href: api/CatchIo.Environment.CharacterSpawner.html#CatchIo_Environment_CharacterSpawner_GetRandomSpawnPoint
@@ -4283,6 +4277,12 @@ references:
   commentId: F:CatchIo.Network.NetworkManager.RoomState.Loading
   fullName: CatchIo.Network.NetworkManager.RoomState.Loading
   nameWithType: NetworkManager.RoomState.Loading
+- uid: CatchIo.Network.NetworkManager.RoomState.None
+  name: None
+  href: api/CatchIo.Network.NetworkManager.RoomState.html#CatchIo_Network_NetworkManager_RoomState_None
+  commentId: F:CatchIo.Network.NetworkManager.RoomState.None
+  fullName: CatchIo.Network.NetworkManager.RoomState.None
+  nameWithType: NetworkManager.RoomState.None
 - uid: CatchIo.Network.NetworkManager.RoomState.Playing
   name: Playing
   href: api/CatchIo.Network.NetworkManager.RoomState.html#CatchIo_Network_NetworkManager_RoomState_Playing
@@ -4547,6 +4547,12 @@ references:
   commentId: F:CatchIo.Network.NetworkManager.UNIQUE_VIEW_ID
   fullName: CatchIo.Network.NetworkManager.UNIQUE_VIEW_ID
   nameWithType: NetworkManager.UNIQUE_VIEW_ID
+- uid: CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
+  name: UpdateRoomPropertyInterval
+  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_UpdateRoomPropertyInterval
+  commentId: F:CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
+  fullName: CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
+  nameWithType: NetworkManager.UpdateRoomPropertyInterval
 - uid: CatchIo.Network.PlayerProperties
   name: PlayerProperties
   href: api/CatchIo.Network.PlayerProperties.html
@@ -4650,19 +4656,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Network.PropertyHelper.AddValueToProperty
   nameWithType: PropertyHelper.AddValueToProperty
-- uid: CatchIo.Network.PropertyHelper.DeleteProperty(Player,System.String)
-  name: DeleteProperty(Player, String)
-  href: api/CatchIo.Network.PropertyHelper.html#CatchIo_Network_PropertyHelper_DeleteProperty_Player_System_String_
-  commentId: M:CatchIo.Network.PropertyHelper.DeleteProperty(Player,System.String)
-  fullName: CatchIo.Network.PropertyHelper.DeleteProperty(Player, System.String)
-  nameWithType: PropertyHelper.DeleteProperty(Player, String)
-- uid: CatchIo.Network.PropertyHelper.DeleteProperty*
-  name: DeleteProperty
-  href: api/CatchIo.Network.PropertyHelper.html#CatchIo_Network_PropertyHelper_DeleteProperty_
-  commentId: Overload:CatchIo.Network.PropertyHelper.DeleteProperty
-  isSpec: "True"
-  fullName: CatchIo.Network.PropertyHelper.DeleteProperty
-  nameWithType: PropertyHelper.DeleteProperty
 - uid: CatchIo.Network.PropertyHelper.GetPropertyValue*
   name: GetPropertyValue
   href: api/CatchIo.Network.PropertyHelper.html#CatchIo_Network_PropertyHelper_GetPropertyValue_
@@ -5379,12 +5372,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Core.Character.OnRespawn
   fullName: CatchIo.PlayerCharacter.Core.Character.OnRespawn
   nameWithType: Character.OnRespawn
-- uid: CatchIo.PlayerCharacter.Core.Character.OnStatusLoaded
-  name: OnStatusLoaded
-  href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_OnStatusLoaded
-  commentId: F:CatchIo.PlayerCharacter.Core.Character.OnStatusLoaded
-  fullName: CatchIo.PlayerCharacter.Core.Character.OnStatusLoaded
-  nameWithType: Character.OnStatusLoaded
+- uid: CatchIo.PlayerCharacter.Core.Character.OnStatusChanged
+  name: OnStatusChanged
+  href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_OnStatusChanged
+  commentId: F:CatchIo.PlayerCharacter.Core.Character.OnStatusChanged
+  fullName: CatchIo.PlayerCharacter.Core.Character.OnStatusChanged
+  nameWithType: Character.OnStatusChanged
 - uid: CatchIo.PlayerCharacter.Core.Character.PickupItem(System.Int32)
   name: PickupItem(Int32)
   href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_PickupItem_System_Int32_
