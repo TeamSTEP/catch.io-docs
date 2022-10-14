@@ -699,12 +699,12 @@ references:
   commentId: T:CatchIo.Effects.SoundWaveEffect
   fullName: CatchIo.Effects.SoundWaveEffect
   nameWithType: SoundWaveEffect
-- uid: CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3,System.Single)
-  name: CreateSoundWave(Vector3, Single)
-  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_CreateSoundWave_Vector3_System_Single_
-  commentId: M:CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3,System.Single)
-  fullName: CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3, System.Single)
-  nameWithType: SoundWaveEffect.CreateSoundWave(Vector3, Single)
+- uid: CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3,Color,System.Single)
+  name: CreateSoundWave(Vector3, Color, Single)
+  href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_CreateSoundWave_Vector3_Color_System_Single_
+  commentId: M:CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3,Color,System.Single)
+  fullName: CatchIo.Effects.SoundWaveEffect.CreateSoundWave(Vector3, Color, System.Single)
+  nameWithType: SoundWaveEffect.CreateSoundWave(Vector3, Color, Single)
 - uid: CatchIo.Effects.SoundWaveEffect.CreateSoundWave*
   name: CreateSoundWave
   href: api/CatchIo.Effects.SoundWaveEffect.html#CatchIo_Effects_SoundWaveEffect_CreateSoundWave_
@@ -3331,6 +3331,395 @@ references:
   commentId: N:CatchIo.Network
   fullName: CatchIo.Network
   nameWithType: CatchIo.Network
+- uid: CatchIo.Network.Extensions
+  name: CatchIo.Network.Extensions
+  href: api/CatchIo.Network.Extensions.html
+  commentId: N:CatchIo.Network.Extensions
+  fullName: CatchIo.Network.Extensions
+  nameWithType: CatchIo.Network.Extensions
+- uid: CatchIo.Network.Extensions.PlayerExtension
+  name: PlayerExtension
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html
+  commentId: T:CatchIo.Network.Extensions.PlayerExtension
+  fullName: CatchIo.Network.Extensions.PlayerExtension
+  nameWithType: PlayerExtension
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddBeTrappedCount(Player,System.Int32)
+  name: AddBeTrappedCount(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddBeTrappedCount_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.AddBeTrappedCount(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddBeTrappedCount(Player, System.Int32)
+  nameWithType: PlayerExtension.AddBeTrappedCount(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddBeTrappedCount*
+  name: AddBeTrappedCount
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddBeTrappedCount_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.AddBeTrappedCount
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddBeTrappedCount
+  nameWithType: PlayerExtension.AddBeTrappedCount
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddDeath(Player,System.Int32)
+  name: AddDeath(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddDeath_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.AddDeath(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddDeath(Player, System.Int32)
+  nameWithType: PlayerExtension.AddDeath(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddDeath*
+  name: AddDeath
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddDeath_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.AddDeath
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddDeath
+  nameWithType: PlayerExtension.AddDeath
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddKill(Player,System.Int32)
+  name: AddKill(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddKill_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.AddKill(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddKill(Player, System.Int32)
+  nameWithType: PlayerExtension.AddKill(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddKill*
+  name: AddKill
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddKill_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.AddKill
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddKill
+  nameWithType: PlayerExtension.AddKill
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddTrapCount(Player,System.Int32)
+  name: AddTrapCount(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddTrapCount_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.AddTrapCount(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddTrapCount(Player, System.Int32)
+  nameWithType: PlayerExtension.AddTrapCount(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.AddTrapCount*
+  name: AddTrapCount
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_AddTrapCount_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.AddTrapCount
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.AddTrapCount
+  nameWithType: PlayerExtension.AddTrapCount
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetBeTrappedCount(Player)
+  name: GetBeTrappedCount(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetBeTrappedCount_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetBeTrappedCount(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetBeTrappedCount(Player)
+  nameWithType: PlayerExtension.GetBeTrappedCount(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetBeTrappedCount*
+  name: GetBeTrappedCount
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetBeTrappedCount_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetBeTrappedCount
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetBeTrappedCount
+  nameWithType: PlayerExtension.GetBeTrappedCount
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetClass(Player)
+  name: GetClass(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetClass_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetClass(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetClass(Player)
+  nameWithType: PlayerExtension.GetClass(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetClass*
+  name: GetClass
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetClass_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetClass
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetClass
+  nameWithType: PlayerExtension.GetClass
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetColor(Player)
+  name: GetColor(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetColor_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetColor(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetColor(Player)
+  nameWithType: PlayerExtension.GetColor(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetColor*
+  name: GetColor
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetColor_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetColor
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetColor
+  nameWithType: PlayerExtension.GetColor
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetDeaths(Player)
+  name: GetDeaths(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetDeaths_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetDeaths(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetDeaths(Player)
+  nameWithType: PlayerExtension.GetDeaths(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetDeaths*
+  name: GetDeaths
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetDeaths_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetDeaths
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetDeaths
+  nameWithType: PlayerExtension.GetDeaths
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetKills(Player)
+  name: GetKills(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetKills_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetKills(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetKills(Player)
+  nameWithType: PlayerExtension.GetKills(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetKills*
+  name: GetKills
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetKills_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetKills
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetKills
+  nameWithType: PlayerExtension.GetKills
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetPoint(Player)
+  name: GetPoint(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetPoint_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetPoint(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetPoint(Player)
+  nameWithType: PlayerExtension.GetPoint(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetPoint*
+  name: GetPoint
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetPoint_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetPoint
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetPoint
+  nameWithType: PlayerExtension.GetPoint
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetSkinName(Player)
+  name: GetSkinName(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetSkinName_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetSkinName(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetSkinName(Player)
+  nameWithType: PlayerExtension.GetSkinName(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetSkinName*
+  name: GetSkinName
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetSkinName_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetSkinName
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetSkinName
+  nameWithType: PlayerExtension.GetSkinName
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetTrapCount(Player)
+  name: GetTrapCount(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetTrapCount_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.GetTrapCount(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetTrapCount(Player)
+  nameWithType: PlayerExtension.GetTrapCount(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.GetTrapCount*
+  name: GetTrapCount
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_GetTrapCount_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.GetTrapCount
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.GetTrapCount
+  nameWithType: PlayerExtension.GetTrapCount
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsAlive(Player)
+  name: IsAlive(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsAlive_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.IsAlive(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsAlive(Player)
+  nameWithType: PlayerExtension.IsAlive(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsAlive*
+  name: IsAlive
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsAlive_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.IsAlive
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsAlive
+  nameWithType: PlayerExtension.IsAlive
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsCharacterSpawned(Player)
+  name: IsCharacterSpawned(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsCharacterSpawned_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.IsCharacterSpawned(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsCharacterSpawned(Player)
+  nameWithType: PlayerExtension.IsCharacterSpawned(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsCharacterSpawned*
+  name: IsCharacterSpawned
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsCharacterSpawned_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.IsCharacterSpawned
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsCharacterSpawned
+  nameWithType: PlayerExtension.IsCharacterSpawned
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsGameSceneLoaded(Player)
+  name: IsGameSceneLoaded(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsGameSceneLoaded_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.IsGameSceneLoaded(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsGameSceneLoaded(Player)
+  nameWithType: PlayerExtension.IsGameSceneLoaded(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsGameSceneLoaded*
+  name: IsGameSceneLoaded
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsGameSceneLoaded_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.IsGameSceneLoaded
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsGameSceneLoaded
+  nameWithType: PlayerExtension.IsGameSceneLoaded
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsReady(Player)
+  name: IsReady(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsReady_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.IsReady(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsReady(Player)
+  nameWithType: PlayerExtension.IsReady(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.IsReady*
+  name: IsReady
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_IsReady_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.IsReady
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.IsReady
+  nameWithType: PlayerExtension.IsReady
+- uid: CatchIo.Network.Extensions.PlayerExtension.ResetProperties(Player)
+  name: ResetProperties(Player)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_ResetProperties_Player_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.ResetProperties(Player)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.ResetProperties(Player)
+  nameWithType: PlayerExtension.ResetProperties(Player)
+- uid: CatchIo.Network.Extensions.PlayerExtension.ResetProperties*
+  name: ResetProperties
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_ResetProperties_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.ResetProperties
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.ResetProperties
+  nameWithType: PlayerExtension.ResetProperties
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetAlive(Player,System.Boolean)
+  name: SetAlive(Player, Boolean)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetAlive_Player_System_Boolean_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetAlive(Player,System.Boolean)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetAlive(Player, System.Boolean)
+  nameWithType: PlayerExtension.SetAlive(Player, Boolean)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetAlive*
+  name: SetAlive
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetAlive_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetAlive
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetAlive
+  nameWithType: PlayerExtension.SetAlive
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetBeTrappedCount(Player,System.Int32)
+  name: SetBeTrappedCount(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetBeTrappedCount_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetBeTrappedCount(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetBeTrappedCount(Player, System.Int32)
+  nameWithType: PlayerExtension.SetBeTrappedCount(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetBeTrappedCount*
+  name: SetBeTrappedCount
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetBeTrappedCount_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetBeTrappedCount
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetBeTrappedCount
+  nameWithType: PlayerExtension.SetBeTrappedCount
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetCharacterSpawned(Player,System.Boolean)
+  name: SetCharacterSpawned(Player, Boolean)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetCharacterSpawned_Player_System_Boolean_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetCharacterSpawned(Player,System.Boolean)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetCharacterSpawned(Player, System.Boolean)
+  nameWithType: PlayerExtension.SetCharacterSpawned(Player, Boolean)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetCharacterSpawned*
+  name: SetCharacterSpawned
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetCharacterSpawned_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetCharacterSpawned
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetCharacterSpawned
+  nameWithType: PlayerExtension.SetCharacterSpawned
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetClass(Player,System.String)
+  name: SetClass(Player, String)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetClass_Player_System_String_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetClass(Player,System.String)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetClass(Player, System.String)
+  nameWithType: PlayerExtension.SetClass(Player, String)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetClass*
+  name: SetClass
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetClass_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetClass
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetClass
+  nameWithType: PlayerExtension.SetClass
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetColor(Player,CharacterColorType)
+  name: SetColor(Player, CharacterColorType)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetColor_Player_CharacterColorType_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetColor(Player,CharacterColorType)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetColor(Player, CharacterColorType)
+  nameWithType: PlayerExtension.SetColor(Player, CharacterColorType)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetColor*
+  name: SetColor
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetColor_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetColor
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetColor
+  nameWithType: PlayerExtension.SetColor
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetDeaths(Player,System.Int32)
+  name: SetDeaths(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetDeaths_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetDeaths(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetDeaths(Player, System.Int32)
+  nameWithType: PlayerExtension.SetDeaths(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetDeaths*
+  name: SetDeaths
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetDeaths_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetDeaths
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetDeaths
+  nameWithType: PlayerExtension.SetDeaths
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetGameSceneLoaded(Player,System.Boolean)
+  name: SetGameSceneLoaded(Player, Boolean)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetGameSceneLoaded_Player_System_Boolean_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetGameSceneLoaded(Player,System.Boolean)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetGameSceneLoaded(Player, System.Boolean)
+  nameWithType: PlayerExtension.SetGameSceneLoaded(Player, Boolean)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetGameSceneLoaded*
+  name: SetGameSceneLoaded
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetGameSceneLoaded_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetGameSceneLoaded
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetGameSceneLoaded
+  nameWithType: PlayerExtension.SetGameSceneLoaded
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetKill(Player,System.Int32)
+  name: SetKill(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetKill_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetKill(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetKill(Player, System.Int32)
+  nameWithType: PlayerExtension.SetKill(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetKill*
+  name: SetKill
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetKill_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetKill
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetKill
+  nameWithType: PlayerExtension.SetKill
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetPoint(Player,System.Int32)
+  name: SetPoint(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetPoint_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetPoint(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetPoint(Player, System.Int32)
+  nameWithType: PlayerExtension.SetPoint(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetPoint*
+  name: SetPoint
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetPoint_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetPoint
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetPoint
+  nameWithType: PlayerExtension.SetPoint
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetReady(Player,System.Boolean)
+  name: SetReady(Player, Boolean)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetReady_Player_System_Boolean_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetReady(Player,System.Boolean)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetReady(Player, System.Boolean)
+  nameWithType: PlayerExtension.SetReady(Player, Boolean)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetReady*
+  name: SetReady
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetReady_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetReady
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetReady
+  nameWithType: PlayerExtension.SetReady
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetSkinName(Player,System.String)
+  name: SetSkinName(Player, String)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetSkinName_Player_System_String_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetSkinName(Player,System.String)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetSkinName(Player, System.String)
+  nameWithType: PlayerExtension.SetSkinName(Player, String)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetSkinName*
+  name: SetSkinName
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetSkinName_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetSkinName
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetSkinName
+  nameWithType: PlayerExtension.SetSkinName
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetTrapCount(Player,System.Int32)
+  name: SetTrapCount(Player, Int32)
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetTrapCount_Player_System_Int32_
+  commentId: M:CatchIo.Network.Extensions.PlayerExtension.SetTrapCount(Player,System.Int32)
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetTrapCount(Player, System.Int32)
+  nameWithType: PlayerExtension.SetTrapCount(Player, Int32)
+- uid: CatchIo.Network.Extensions.PlayerExtension.SetTrapCount*
+  name: SetTrapCount
+  href: api/CatchIo.Network.Extensions.PlayerExtension.html#CatchIo_Network_Extensions_PlayerExtension_SetTrapCount_
+  commentId: Overload:CatchIo.Network.Extensions.PlayerExtension.SetTrapCount
+  isSpec: "True"
+  fullName: CatchIo.Network.Extensions.PlayerExtension.SetTrapCount
+  nameWithType: PlayerExtension.SetTrapCount
 - uid: CatchIo.Network.NetworkManager
   name: NetworkManager
   href: api/CatchIo.Network.NetworkManager.html
@@ -3518,12 +3907,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Network.NetworkManager.Instance
   nameWithType: NetworkManager.Instance
-- uid: CatchIo.Network.NetworkManager.IsLoading
-  name: IsLoading
-  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_IsLoading
-  commentId: F:CatchIo.Network.NetworkManager.IsLoading
-  fullName: CatchIo.Network.NetworkManager.IsLoading
-  nameWithType: NetworkManager.IsLoading
 - uid: CatchIo.Network.NetworkManager.IsLog
   name: IsLog
   href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_IsLog
@@ -4164,369 +4547,6 @@ references:
   commentId: F:CatchIo.Network.NetworkManager.UNIQUE_VIEW_ID
   fullName: CatchIo.Network.NetworkManager.UNIQUE_VIEW_ID
   nameWithType: NetworkManager.UNIQUE_VIEW_ID
-- uid: CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
-  name: UpdateRoomPropertyInterval
-  href: api/CatchIo.Network.NetworkManager.html#CatchIo_Network_NetworkManager_UpdateRoomPropertyInterval
-  commentId: F:CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
-  fullName: CatchIo.Network.NetworkManager.UpdateRoomPropertyInterval
-  nameWithType: NetworkManager.UpdateRoomPropertyInterval
-- uid: CatchIo.Network.PlayerExtension
-  name: PlayerExtension
-  href: api/CatchIo.Network.PlayerExtension.html
-  commentId: T:CatchIo.Network.PlayerExtension
-  fullName: CatchIo.Network.PlayerExtension
-  nameWithType: PlayerExtension
-- uid: CatchIo.Network.PlayerExtension.AddBeTrappedCount(Player,System.Int32)
-  name: AddBeTrappedCount(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddBeTrappedCount_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.AddBeTrappedCount(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.AddBeTrappedCount(Player, System.Int32)
-  nameWithType: PlayerExtension.AddBeTrappedCount(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.AddBeTrappedCount*
-  name: AddBeTrappedCount
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddBeTrappedCount_
-  commentId: Overload:CatchIo.Network.PlayerExtension.AddBeTrappedCount
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.AddBeTrappedCount
-  nameWithType: PlayerExtension.AddBeTrappedCount
-- uid: CatchIo.Network.PlayerExtension.AddDeath(Player,System.Int32)
-  name: AddDeath(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddDeath_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.AddDeath(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.AddDeath(Player, System.Int32)
-  nameWithType: PlayerExtension.AddDeath(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.AddDeath*
-  name: AddDeath
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddDeath_
-  commentId: Overload:CatchIo.Network.PlayerExtension.AddDeath
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.AddDeath
-  nameWithType: PlayerExtension.AddDeath
-- uid: CatchIo.Network.PlayerExtension.AddKill(Player,System.Int32)
-  name: AddKill(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddKill_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.AddKill(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.AddKill(Player, System.Int32)
-  nameWithType: PlayerExtension.AddKill(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.AddKill*
-  name: AddKill
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddKill_
-  commentId: Overload:CatchIo.Network.PlayerExtension.AddKill
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.AddKill
-  nameWithType: PlayerExtension.AddKill
-- uid: CatchIo.Network.PlayerExtension.AddTrapCount(Player,System.Int32)
-  name: AddTrapCount(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddTrapCount_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.AddTrapCount(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.AddTrapCount(Player, System.Int32)
-  nameWithType: PlayerExtension.AddTrapCount(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.AddTrapCount*
-  name: AddTrapCount
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_AddTrapCount_
-  commentId: Overload:CatchIo.Network.PlayerExtension.AddTrapCount
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.AddTrapCount
-  nameWithType: PlayerExtension.AddTrapCount
-- uid: CatchIo.Network.PlayerExtension.GetBeTrappedCount(Player)
-  name: GetBeTrappedCount(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetBeTrappedCount_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.GetBeTrappedCount(Player)
-  fullName: CatchIo.Network.PlayerExtension.GetBeTrappedCount(Player)
-  nameWithType: PlayerExtension.GetBeTrappedCount(Player)
-- uid: CatchIo.Network.PlayerExtension.GetBeTrappedCount*
-  name: GetBeTrappedCount
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetBeTrappedCount_
-  commentId: Overload:CatchIo.Network.PlayerExtension.GetBeTrappedCount
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.GetBeTrappedCount
-  nameWithType: PlayerExtension.GetBeTrappedCount
-- uid: CatchIo.Network.PlayerExtension.GetClass(Player)
-  name: GetClass(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetClass_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.GetClass(Player)
-  fullName: CatchIo.Network.PlayerExtension.GetClass(Player)
-  nameWithType: PlayerExtension.GetClass(Player)
-- uid: CatchIo.Network.PlayerExtension.GetClass*
-  name: GetClass
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetClass_
-  commentId: Overload:CatchIo.Network.PlayerExtension.GetClass
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.GetClass
-  nameWithType: PlayerExtension.GetClass
-- uid: CatchIo.Network.PlayerExtension.GetDeaths(Player)
-  name: GetDeaths(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetDeaths_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.GetDeaths(Player)
-  fullName: CatchIo.Network.PlayerExtension.GetDeaths(Player)
-  nameWithType: PlayerExtension.GetDeaths(Player)
-- uid: CatchIo.Network.PlayerExtension.GetDeaths*
-  name: GetDeaths
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetDeaths_
-  commentId: Overload:CatchIo.Network.PlayerExtension.GetDeaths
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.GetDeaths
-  nameWithType: PlayerExtension.GetDeaths
-- uid: CatchIo.Network.PlayerExtension.GetKills(Player)
-  name: GetKills(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetKills_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.GetKills(Player)
-  fullName: CatchIo.Network.PlayerExtension.GetKills(Player)
-  nameWithType: PlayerExtension.GetKills(Player)
-- uid: CatchIo.Network.PlayerExtension.GetKills*
-  name: GetKills
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetKills_
-  commentId: Overload:CatchIo.Network.PlayerExtension.GetKills
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.GetKills
-  nameWithType: PlayerExtension.GetKills
-- uid: CatchIo.Network.PlayerExtension.GetPoint(Player)
-  name: GetPoint(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetPoint_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.GetPoint(Player)
-  fullName: CatchIo.Network.PlayerExtension.GetPoint(Player)
-  nameWithType: PlayerExtension.GetPoint(Player)
-- uid: CatchIo.Network.PlayerExtension.GetPoint*
-  name: GetPoint
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetPoint_
-  commentId: Overload:CatchIo.Network.PlayerExtension.GetPoint
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.GetPoint
-  nameWithType: PlayerExtension.GetPoint
-- uid: CatchIo.Network.PlayerExtension.GetSkinName(Player)
-  name: GetSkinName(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetSkinName_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.GetSkinName(Player)
-  fullName: CatchIo.Network.PlayerExtension.GetSkinName(Player)
-  nameWithType: PlayerExtension.GetSkinName(Player)
-- uid: CatchIo.Network.PlayerExtension.GetSkinName*
-  name: GetSkinName
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetSkinName_
-  commentId: Overload:CatchIo.Network.PlayerExtension.GetSkinName
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.GetSkinName
-  nameWithType: PlayerExtension.GetSkinName
-- uid: CatchIo.Network.PlayerExtension.GetTrapCount(Player)
-  name: GetTrapCount(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetTrapCount_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.GetTrapCount(Player)
-  fullName: CatchIo.Network.PlayerExtension.GetTrapCount(Player)
-  nameWithType: PlayerExtension.GetTrapCount(Player)
-- uid: CatchIo.Network.PlayerExtension.GetTrapCount*
-  name: GetTrapCount
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_GetTrapCount_
-  commentId: Overload:CatchIo.Network.PlayerExtension.GetTrapCount
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.GetTrapCount
-  nameWithType: PlayerExtension.GetTrapCount
-- uid: CatchIo.Network.PlayerExtension.IsAlive(Player)
-  name: IsAlive(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsAlive_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.IsAlive(Player)
-  fullName: CatchIo.Network.PlayerExtension.IsAlive(Player)
-  nameWithType: PlayerExtension.IsAlive(Player)
-- uid: CatchIo.Network.PlayerExtension.IsAlive*
-  name: IsAlive
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsAlive_
-  commentId: Overload:CatchIo.Network.PlayerExtension.IsAlive
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.IsAlive
-  nameWithType: PlayerExtension.IsAlive
-- uid: CatchIo.Network.PlayerExtension.IsCharacterSpawned(Player)
-  name: IsCharacterSpawned(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsCharacterSpawned_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.IsCharacterSpawned(Player)
-  fullName: CatchIo.Network.PlayerExtension.IsCharacterSpawned(Player)
-  nameWithType: PlayerExtension.IsCharacterSpawned(Player)
-- uid: CatchIo.Network.PlayerExtension.IsCharacterSpawned*
-  name: IsCharacterSpawned
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsCharacterSpawned_
-  commentId: Overload:CatchIo.Network.PlayerExtension.IsCharacterSpawned
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.IsCharacterSpawned
-  nameWithType: PlayerExtension.IsCharacterSpawned
-- uid: CatchIo.Network.PlayerExtension.IsGameSceneLoaded(Player)
-  name: IsGameSceneLoaded(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsGameSceneLoaded_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.IsGameSceneLoaded(Player)
-  fullName: CatchIo.Network.PlayerExtension.IsGameSceneLoaded(Player)
-  nameWithType: PlayerExtension.IsGameSceneLoaded(Player)
-- uid: CatchIo.Network.PlayerExtension.IsGameSceneLoaded*
-  name: IsGameSceneLoaded
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsGameSceneLoaded_
-  commentId: Overload:CatchIo.Network.PlayerExtension.IsGameSceneLoaded
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.IsGameSceneLoaded
-  nameWithType: PlayerExtension.IsGameSceneLoaded
-- uid: CatchIo.Network.PlayerExtension.IsReady(Player)
-  name: IsReady(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsReady_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.IsReady(Player)
-  fullName: CatchIo.Network.PlayerExtension.IsReady(Player)
-  nameWithType: PlayerExtension.IsReady(Player)
-- uid: CatchIo.Network.PlayerExtension.IsReady*
-  name: IsReady
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_IsReady_
-  commentId: Overload:CatchIo.Network.PlayerExtension.IsReady
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.IsReady
-  nameWithType: PlayerExtension.IsReady
-- uid: CatchIo.Network.PlayerExtension.ResetProperties(Player)
-  name: ResetProperties(Player)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_ResetProperties_Player_
-  commentId: M:CatchIo.Network.PlayerExtension.ResetProperties(Player)
-  fullName: CatchIo.Network.PlayerExtension.ResetProperties(Player)
-  nameWithType: PlayerExtension.ResetProperties(Player)
-- uid: CatchIo.Network.PlayerExtension.ResetProperties*
-  name: ResetProperties
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_ResetProperties_
-  commentId: Overload:CatchIo.Network.PlayerExtension.ResetProperties
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.ResetProperties
-  nameWithType: PlayerExtension.ResetProperties
-- uid: CatchIo.Network.PlayerExtension.SetAlive(Player,System.Boolean)
-  name: SetAlive(Player, Boolean)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetAlive_Player_System_Boolean_
-  commentId: M:CatchIo.Network.PlayerExtension.SetAlive(Player,System.Boolean)
-  fullName: CatchIo.Network.PlayerExtension.SetAlive(Player, System.Boolean)
-  nameWithType: PlayerExtension.SetAlive(Player, Boolean)
-- uid: CatchIo.Network.PlayerExtension.SetAlive*
-  name: SetAlive
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetAlive_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetAlive
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetAlive
-  nameWithType: PlayerExtension.SetAlive
-- uid: CatchIo.Network.PlayerExtension.SetBeTrappedCount(Player,System.Int32)
-  name: SetBeTrappedCount(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetBeTrappedCount_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.SetBeTrappedCount(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.SetBeTrappedCount(Player, System.Int32)
-  nameWithType: PlayerExtension.SetBeTrappedCount(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.SetBeTrappedCount*
-  name: SetBeTrappedCount
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetBeTrappedCount_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetBeTrappedCount
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetBeTrappedCount
-  nameWithType: PlayerExtension.SetBeTrappedCount
-- uid: CatchIo.Network.PlayerExtension.SetCharacterSpawned(Player,System.Boolean)
-  name: SetCharacterSpawned(Player, Boolean)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetCharacterSpawned_Player_System_Boolean_
-  commentId: M:CatchIo.Network.PlayerExtension.SetCharacterSpawned(Player,System.Boolean)
-  fullName: CatchIo.Network.PlayerExtension.SetCharacterSpawned(Player, System.Boolean)
-  nameWithType: PlayerExtension.SetCharacterSpawned(Player, Boolean)
-- uid: CatchIo.Network.PlayerExtension.SetCharacterSpawned*
-  name: SetCharacterSpawned
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetCharacterSpawned_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetCharacterSpawned
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetCharacterSpawned
-  nameWithType: PlayerExtension.SetCharacterSpawned
-- uid: CatchIo.Network.PlayerExtension.SetClass(Player,System.String)
-  name: SetClass(Player, String)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetClass_Player_System_String_
-  commentId: M:CatchIo.Network.PlayerExtension.SetClass(Player,System.String)
-  fullName: CatchIo.Network.PlayerExtension.SetClass(Player, System.String)
-  nameWithType: PlayerExtension.SetClass(Player, String)
-- uid: CatchIo.Network.PlayerExtension.SetClass*
-  name: SetClass
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetClass_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetClass
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetClass
-  nameWithType: PlayerExtension.SetClass
-- uid: CatchIo.Network.PlayerExtension.SetDeaths(Player,System.Int32)
-  name: SetDeaths(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetDeaths_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.SetDeaths(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.SetDeaths(Player, System.Int32)
-  nameWithType: PlayerExtension.SetDeaths(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.SetDeaths*
-  name: SetDeaths
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetDeaths_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetDeaths
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetDeaths
-  nameWithType: PlayerExtension.SetDeaths
-- uid: CatchIo.Network.PlayerExtension.SetGameSceneLoaded(Player,System.Boolean)
-  name: SetGameSceneLoaded(Player, Boolean)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetGameSceneLoaded_Player_System_Boolean_
-  commentId: M:CatchIo.Network.PlayerExtension.SetGameSceneLoaded(Player,System.Boolean)
-  fullName: CatchIo.Network.PlayerExtension.SetGameSceneLoaded(Player, System.Boolean)
-  nameWithType: PlayerExtension.SetGameSceneLoaded(Player, Boolean)
-- uid: CatchIo.Network.PlayerExtension.SetGameSceneLoaded*
-  name: SetGameSceneLoaded
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetGameSceneLoaded_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetGameSceneLoaded
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetGameSceneLoaded
-  nameWithType: PlayerExtension.SetGameSceneLoaded
-- uid: CatchIo.Network.PlayerExtension.SetKill(Player,System.Int32)
-  name: SetKill(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetKill_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.SetKill(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.SetKill(Player, System.Int32)
-  nameWithType: PlayerExtension.SetKill(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.SetKill*
-  name: SetKill
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetKill_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetKill
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetKill
-  nameWithType: PlayerExtension.SetKill
-- uid: CatchIo.Network.PlayerExtension.SetPoint(Player,System.Int32)
-  name: SetPoint(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetPoint_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.SetPoint(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.SetPoint(Player, System.Int32)
-  nameWithType: PlayerExtension.SetPoint(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.SetPoint*
-  name: SetPoint
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetPoint_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetPoint
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetPoint
-  nameWithType: PlayerExtension.SetPoint
-- uid: CatchIo.Network.PlayerExtension.SetReady(Player,System.Boolean)
-  name: SetReady(Player, Boolean)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetReady_Player_System_Boolean_
-  commentId: M:CatchIo.Network.PlayerExtension.SetReady(Player,System.Boolean)
-  fullName: CatchIo.Network.PlayerExtension.SetReady(Player, System.Boolean)
-  nameWithType: PlayerExtension.SetReady(Player, Boolean)
-- uid: CatchIo.Network.PlayerExtension.SetReady*
-  name: SetReady
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetReady_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetReady
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetReady
-  nameWithType: PlayerExtension.SetReady
-- uid: CatchIo.Network.PlayerExtension.SetSkinName(Player,System.String)
-  name: SetSkinName(Player, String)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetSkinName_Player_System_String_
-  commentId: M:CatchIo.Network.PlayerExtension.SetSkinName(Player,System.String)
-  fullName: CatchIo.Network.PlayerExtension.SetSkinName(Player, System.String)
-  nameWithType: PlayerExtension.SetSkinName(Player, String)
-- uid: CatchIo.Network.PlayerExtension.SetSkinName*
-  name: SetSkinName
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetSkinName_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetSkinName
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetSkinName
-  nameWithType: PlayerExtension.SetSkinName
-- uid: CatchIo.Network.PlayerExtension.SetTrapCount(Player,System.Int32)
-  name: SetTrapCount(Player, Int32)
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetTrapCount_Player_System_Int32_
-  commentId: M:CatchIo.Network.PlayerExtension.SetTrapCount(Player,System.Int32)
-  fullName: CatchIo.Network.PlayerExtension.SetTrapCount(Player, System.Int32)
-  nameWithType: PlayerExtension.SetTrapCount(Player, Int32)
-- uid: CatchIo.Network.PlayerExtension.SetTrapCount*
-  name: SetTrapCount
-  href: api/CatchIo.Network.PlayerExtension.html#CatchIo_Network_PlayerExtension_SetTrapCount_
-  commentId: Overload:CatchIo.Network.PlayerExtension.SetTrapCount
-  isSpec: "True"
-  fullName: CatchIo.Network.PlayerExtension.SetTrapCount
-  nameWithType: PlayerExtension.SetTrapCount
 - uid: CatchIo.Network.PlayerProperties
   name: PlayerProperties
   href: api/CatchIo.Network.PlayerProperties.html
@@ -4557,6 +4577,12 @@ references:
   commentId: F:CatchIo.Network.PlayerProperties.Class
   fullName: CatchIo.Network.PlayerProperties.Class
   nameWithType: PlayerProperties.Class
+- uid: CatchIo.Network.PlayerProperties.Color
+  name: Color
+  href: api/CatchIo.Network.PlayerProperties.html#CatchIo_Network_PlayerProperties_Color
+  commentId: F:CatchIo.Network.PlayerProperties.Color
+  fullName: CatchIo.Network.PlayerProperties.Color
+  nameWithType: PlayerProperties.Color
 - uid: CatchIo.Network.PlayerProperties.Deaths
   name: Deaths
   href: api/CatchIo.Network.PlayerProperties.html#CatchIo_Network_PlayerProperties_Deaths
@@ -5095,12 +5121,12 @@ references:
   commentId: T:CatchIo.ObjectPool.Footprint
   fullName: CatchIo.ObjectPool.Footprint
   nameWithType: Footprint
-- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)
-  name: CreateFootprint(String, String, Vector3, Single, Boolean, Single)
-  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_System_String_Vector3_System_Single_System_Boolean_System_Single_
-  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,System.Single)
-  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, System.String, Vector3, System.Single, System.Boolean, System.Single)
-  nameWithType: Footprint.CreateFootprint(String, String, Vector3, Single, Boolean, Single)
+- uid: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,Color,System.Single)
+  name: CreateFootprint(String, String, Vector3, Single, Boolean, Color, Single)
+  href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_System_String_System_String_Vector3_System_Single_System_Boolean_Color_System_Single_
+  commentId: M:CatchIo.ObjectPool.Footprint.CreateFootprint(System.String,System.String,Vector3,System.Single,System.Boolean,Color,System.Single)
+  fullName: CatchIo.ObjectPool.Footprint.CreateFootprint(System.String, System.String, Vector3, System.Single, System.Boolean, Color, System.Single)
+  nameWithType: Footprint.CreateFootprint(String, String, Vector3, Single, Boolean, Color, Single)
 - uid: CatchIo.ObjectPool.Footprint.CreateFootprint*
   name: CreateFootprint
   href: api/CatchIo.ObjectPool.Footprint.html#CatchIo_ObjectPool_Footprint_CreateFootprint_
@@ -5264,6 +5290,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Core.Character.GenerateSoundWave
   nameWithType: Character.GenerateSoundWave
+- uid: CatchIo.PlayerCharacter.Core.Character.GetCenterPosition
+  name: GetCenterPosition()
+  href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_GetCenterPosition
+  commentId: M:CatchIo.PlayerCharacter.Core.Character.GetCenterPosition
+  fullName: CatchIo.PlayerCharacter.Core.Character.GetCenterPosition()
+  nameWithType: Character.GetCenterPosition()
+- uid: CatchIo.PlayerCharacter.Core.Character.GetCenterPosition*
+  name: GetCenterPosition
+  href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_GetCenterPosition_
+  commentId: Overload:CatchIo.PlayerCharacter.Core.Character.GetCenterPosition
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Core.Character.GetCenterPosition
+  nameWithType: Character.GetCenterPosition
 - uid: CatchIo.PlayerCharacter.Core.Character.HeadUpOffset
   name: HeadUpOffset
   href: api/CatchIo.PlayerCharacter.Core.Character.html#CatchIo_PlayerCharacter_Core_Character_HeadUpOffset
@@ -5589,6 +5628,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Core.CharacterInput.OnThrowItem
   fullName: CatchIo.PlayerCharacter.Core.CharacterInput.OnThrowItem
   nameWithType: CharacterInput.OnThrowItem
+- uid: CatchIo.PlayerCharacter.Core.CharacterNickNameText
+  name: CharacterNickNameText
+  href: api/CatchIo.PlayerCharacter.Core.CharacterNickNameText.html
+  commentId: T:CatchIo.PlayerCharacter.Core.CharacterNickNameText
+  fullName: CatchIo.PlayerCharacter.Core.CharacterNickNameText
+  nameWithType: CharacterNickNameText
 - uid: CatchIo.PlayerCharacter.Core.CharacterRotator
   name: CharacterRotator
   href: api/CatchIo.PlayerCharacter.Core.CharacterRotator.html
@@ -5700,6 +5745,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.CurrentViewAngle
   nameWithType: CharacterStatus.CurrentViewAngle
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.Detected
+  name: Detected
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_Detected
+  commentId: P:CatchIo.PlayerCharacter.Core.CharacterStatus.Detected
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.Detected
+  nameWithType: CharacterStatus.Detected
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.Detected*
+  name: Detected
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_Detected_
+  commentId: Overload:CatchIo.PlayerCharacter.Core.CharacterStatus.Detected
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.Detected
+  nameWithType: CharacterStatus.Detected
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.EnteredHidingSpot
+  name: EnteredHidingSpot
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_EnteredHidingSpot
+  commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.EnteredHidingSpot
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.EnteredHidingSpot
+  nameWithType: CharacterStatus.EnteredHidingSpot
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.Forward
+  name: Forward
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_Forward
+  commentId: P:CatchIo.PlayerCharacter.Core.CharacterStatus.Forward
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.Forward
+  nameWithType: CharacterStatus.Forward
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.Forward*
+  name: Forward
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_Forward_
+  commentId: Overload:CatchIo.PlayerCharacter.Core.CharacterStatus.Forward
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.Forward
+  nameWithType: CharacterStatus.Forward
 - uid: CatchIo.PlayerCharacter.Core.CharacterStatus.Health
   name: Health
   href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_Health
@@ -5719,6 +5796,19 @@ references:
   commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.HoldingItem
   fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.HoldingItem
   nameWithType: CharacterStatus.HoldingItem
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.IdentityColor
+  name: IdentityColor
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_IdentityColor
+  commentId: P:CatchIo.PlayerCharacter.Core.CharacterStatus.IdentityColor
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.IdentityColor
+  nameWithType: CharacterStatus.IdentityColor
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.IdentityColor*
+  name: IdentityColor
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_IdentityColor_
+  commentId: Overload:CatchIo.PlayerCharacter.Core.CharacterStatus.IdentityColor
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.IdentityColor
+  nameWithType: CharacterStatus.IdentityColor
 - uid: CatchIo.PlayerCharacter.Core.CharacterStatus.IsAiming
   name: IsAiming
   href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_IsAiming
@@ -5794,6 +5884,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.Name
   nameWithType: CharacterStatus.Name
+- uid: CatchIo.PlayerCharacter.Core.CharacterStatus.OnChangedIdentityColor
+  name: OnChangedIdentityColor
+  href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_OnChangedIdentityColor
+  commentId: F:CatchIo.PlayerCharacter.Core.CharacterStatus.OnChangedIdentityColor
+  fullName: CatchIo.PlayerCharacter.Core.CharacterStatus.OnChangedIdentityColor
+  nameWithType: CharacterStatus.OnChangedIdentityColor
 - uid: CatchIo.PlayerCharacter.Core.CharacterStatus.RecoveryStamina(System.Single)
   name: RecoveryStamina(Single)
   href: api/CatchIo.PlayerCharacter.Core.CharacterStatus.html#CatchIo_PlayerCharacter_Core_CharacterStatus_RecoveryStamina_System_Single_
@@ -6138,6 +6234,102 @@ references:
   commentId: N:CatchIo.PlayerCharacter.Detector
   fullName: CatchIo.PlayerCharacter.Detector
   nameWithType: CatchIo.PlayerCharacter.Detector
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV
+  name: CharacterDetectorInFOV
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html
+  commentId: T:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV
+  nameWithType: CharacterDetectorInFOV
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CharacterLayer
+  name: CharacterLayer
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_CharacterLayer
+  commentId: F:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CharacterLayer
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CharacterLayer
+  nameWithType: CharacterDetectorInFOV.CharacterLayer
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle
+  name: CurrentViewAngle
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_CurrentViewAngle
+  commentId: P:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle
+  nameWithType: CharacterDetectorInFOV.CurrentViewAngle
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle*
+  name: CurrentViewAngle
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_CurrentViewAngle_
+  commentId: Overload:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle
+  nameWithType: CharacterDetectorInFOV.CurrentViewAngle
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward
+  name: Forward
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Forward
+  commentId: P:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward
+  nameWithType: CharacterDetectorInFOV.Forward
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward*
+  name: Forward
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Forward_
+  commentId: Overload:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward
+  nameWithType: CharacterDetectorInFOV.Forward
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle
+  name: FOVAngle
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVAngle
+  commentId: P:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle
+  nameWithType: CharacterDetectorInFOV.FOVAngle
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle*
+  name: FOVAngle
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVAngle_
+  commentId: Overload:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle
+  nameWithType: CharacterDetectorInFOV.FOVAngle
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize
+  name: FOVSize
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVSize
+  commentId: P:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize
+  nameWithType: CharacterDetectorInFOV.FOVSize
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize*
+  name: FOVSize
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVSize_
+  commentId: Overload:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize
+  nameWithType: CharacterDetectorInFOV.FOVSize
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.ObstacleLayer
+  name: ObstacleLayer
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_ObstacleLayer
+  commentId: F:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.ObstacleLayer
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.ObstacleLayer
+  nameWithType: CharacterDetectorInFOV.ObstacleLayer
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position
+  name: Position
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Position
+  commentId: P:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position
+  nameWithType: CharacterDetectorInFOV.Position
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position*
+  name: Position
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Position_
+  commentId: Overload:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position
+  nameWithType: CharacterDetectorInFOV.Position
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters
+  name: VisibleCharacters
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_VisibleCharacters
+  commentId: P:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters
+  nameWithType: CharacterDetectorInFOV.VisibleCharacters
+- uid: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters*
+  name: VisibleCharacters
+  href: api/CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.html#CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_VisibleCharacters_
+  commentId: Overload:CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters
+  nameWithType: CharacterDetectorInFOV.VisibleCharacters
 - uid: CatchIo.PlayerCharacter.Detector.CharacterItemCollector
   name: CharacterItemCollector
   href: api/CatchIo.PlayerCharacter.Detector.CharacterItemCollector.html
@@ -7518,6 +7710,90 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Graphics.CharacterAnimator.RuntimeAnimatorController
   nameWithType: CharacterAnimator.RuntimeAnimatorController
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType
+  name: CharacterColorType
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html
+  commentId: T:CatchIo.PlayerCharacter.Graphics.CharacterColorType
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType
+  nameWithType: CharacterColorType
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Black
+  name: Black
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Black
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Black
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Black
+  nameWithType: CharacterColorType.Black
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Blue
+  name: Blue
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Blue
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Blue
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Blue
+  nameWithType: CharacterColorType.Blue
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Brown
+  name: Brown
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Brown
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Brown
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Brown
+  nameWithType: CharacterColorType.Brown
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Cyan
+  name: Cyan
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Cyan
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Cyan
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Cyan
+  nameWithType: CharacterColorType.Cyan
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.DarkBlue
+  name: DarkBlue
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_DarkBlue
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.DarkBlue
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.DarkBlue
+  nameWithType: CharacterColorType.DarkBlue
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Green
+  name: Green
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Green
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Green
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Green
+  nameWithType: CharacterColorType.Green
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Last
+  name: Last
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Last
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Last
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Last
+  nameWithType: CharacterColorType.Last
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Lime
+  name: Lime
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Lime
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Lime
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Lime
+  nameWithType: CharacterColorType.Lime
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Magenta
+  name: Magenta
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Magenta
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Magenta
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Magenta
+  nameWithType: CharacterColorType.Magenta
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Orange
+  name: Orange
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Orange
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Orange
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Orange
+  nameWithType: CharacterColorType.Orange
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Red
+  name: Red
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Red
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Red
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Red
+  nameWithType: CharacterColorType.Red
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Teal
+  name: Teal
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Teal
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Teal
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Teal
+  nameWithType: CharacterColorType.Teal
+- uid: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Yellow
+  name: Yellow
+  href: api/CatchIo.PlayerCharacter.Graphics.CharacterColorType.html#CatchIo_PlayerCharacter_Graphics_CharacterColorType_Yellow
+  commentId: F:CatchIo.PlayerCharacter.Graphics.CharacterColorType.Yellow
+  fullName: CatchIo.PlayerCharacter.Graphics.CharacterColorType.Yellow
+  nameWithType: CharacterColorType.Yellow
 - uid: CatchIo.PlayerCharacter.Graphics.CharacterHidingEffect
   name: CharacterHidingEffect
   href: api/CatchIo.PlayerCharacter.Graphics.CharacterHidingEffect.html
@@ -8168,6 +8444,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.PlayerCharacter.Lighting.CharacterLighting.DisableLight
   nameWithType: CharacterLighting.DisableLight
+- uid: CatchIo.PlayerCharacter.Lighting.CharacterLighting.GetFOVLight(System.Int32)
+  name: GetFOVLight(Int32)
+  href: api/CatchIo.PlayerCharacter.Lighting.CharacterLighting.html#CatchIo_PlayerCharacter_Lighting_CharacterLighting_GetFOVLight_System_Int32_
+  commentId: M:CatchIo.PlayerCharacter.Lighting.CharacterLighting.GetFOVLight(System.Int32)
+  fullName: CatchIo.PlayerCharacter.Lighting.CharacterLighting.GetFOVLight(System.Int32)
+  nameWithType: CharacterLighting.GetFOVLight(Int32)
+- uid: CatchIo.PlayerCharacter.Lighting.CharacterLighting.GetFOVLight*
+  name: GetFOVLight
+  href: api/CatchIo.PlayerCharacter.Lighting.CharacterLighting.html#CatchIo_PlayerCharacter_Lighting_CharacterLighting_GetFOVLight_
+  commentId: Overload:CatchIo.PlayerCharacter.Lighting.CharacterLighting.GetFOVLight
+  isSpec: "True"
+  fullName: CatchIo.PlayerCharacter.Lighting.CharacterLighting.GetFOVLight
+  nameWithType: CharacterLighting.GetFOVLight
 - uid: CatchIo.PlayerCharacter.SurfaceEffect
   name: CatchIo.PlayerCharacter.SurfaceEffect
   href: api/CatchIo.PlayerCharacter.SurfaceEffect.html
@@ -10838,76 +11127,108 @@ references:
   fullName.vb: CatchIo.Util.CastTo(Of T).From(Of S)(S)
   nameWithType: CastTo<T>.From<S>(S)
   nameWithType.vb: CastTo(Of T).From(Of S)(S)
+- uid: CatchIo.Util.ColorExtensions
+  name: ColorExtensions
+  href: api/CatchIo.Util.ColorExtensions.html
+  commentId: T:CatchIo.Util.ColorExtensions
+  fullName: CatchIo.Util.ColorExtensions
+  nameWithType: ColorExtensions
+- uid: CatchIo.Util.ColorExtensions.GetColorUsingCharacterColorType(CharacterColorType)
+  name: GetColorUsingCharacterColorType(CharacterColorType)
+  href: api/CatchIo.Util.ColorExtensions.html#CatchIo_Util_ColorExtensions_GetColorUsingCharacterColorType_CharacterColorType_
+  commentId: M:CatchIo.Util.ColorExtensions.GetColorUsingCharacterColorType(CharacterColorType)
+  fullName: CatchIo.Util.ColorExtensions.GetColorUsingCharacterColorType(CharacterColorType)
+  nameWithType: ColorExtensions.GetColorUsingCharacterColorType(CharacterColorType)
+- uid: CatchIo.Util.ColorExtensions.GetColorUsingCharacterColorType*
+  name: GetColorUsingCharacterColorType
+  href: api/CatchIo.Util.ColorExtensions.html#CatchIo_Util_ColorExtensions_GetColorUsingCharacterColorType_
+  commentId: Overload:CatchIo.Util.ColorExtensions.GetColorUsingCharacterColorType
+  isSpec: "True"
+  fullName: CatchIo.Util.ColorExtensions.GetColorUsingCharacterColorType
+  nameWithType: ColorExtensions.GetColorUsingCharacterColorType
 - uid: CatchIo.Util.EditorGameLoader
   name: EditorGameLoader
   href: api/CatchIo.Util.EditorGameLoader.html
   commentId: T:CatchIo.Util.EditorGameLoader
   fullName: CatchIo.Util.EditorGameLoader
   nameWithType: EditorGameLoader
-- uid: CatchIo.Util.Math
-  name: Math
-  href: api/CatchIo.Util.Math.html
-  commentId: T:CatchIo.Util.Math
-  fullName: CatchIo.Util.Math
-  nameWithType: Math
-- uid: CatchIo.Util.Math.ClampListIndex(System.Int32,System.Int32)
+- uid: CatchIo.Util.MathUtil
+  name: MathUtil
+  href: api/CatchIo.Util.MathUtil.html
+  commentId: T:CatchIo.Util.MathUtil
+  fullName: CatchIo.Util.MathUtil
+  nameWithType: MathUtil
+- uid: CatchIo.Util.MathUtil.ClampListIndex(System.Int32,System.Int32)
   name: ClampListIndex(Int32, Int32)
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_ClampListIndex_System_Int32_System_Int32_
-  commentId: M:CatchIo.Util.Math.ClampListIndex(System.Int32,System.Int32)
-  fullName: CatchIo.Util.Math.ClampListIndex(System.Int32, System.Int32)
-  nameWithType: Math.ClampListIndex(Int32, Int32)
-- uid: CatchIo.Util.Math.ClampListIndex*
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_ClampListIndex_System_Int32_System_Int32_
+  commentId: M:CatchIo.Util.MathUtil.ClampListIndex(System.Int32,System.Int32)
+  fullName: CatchIo.Util.MathUtil.ClampListIndex(System.Int32, System.Int32)
+  nameWithType: MathUtil.ClampListIndex(Int32, Int32)
+- uid: CatchIo.Util.MathUtil.ClampListIndex*
   name: ClampListIndex
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_ClampListIndex_
-  commentId: Overload:CatchIo.Util.Math.ClampListIndex
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_ClampListIndex_
+  commentId: Overload:CatchIo.Util.MathUtil.ClampListIndex
   isSpec: "True"
-  fullName: CatchIo.Util.Math.ClampListIndex
-  nameWithType: Math.ClampListIndex
-- uid: CatchIo.Util.Math.GetAngle(System.Single)
+  fullName: CatchIo.Util.MathUtil.ClampListIndex
+  nameWithType: MathUtil.ClampListIndex
+- uid: CatchIo.Util.MathUtil.DirectionFromAngle(System.Single)
+  name: DirectionFromAngle(Single)
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_DirectionFromAngle_System_Single_
+  commentId: M:CatchIo.Util.MathUtil.DirectionFromAngle(System.Single)
+  fullName: CatchIo.Util.MathUtil.DirectionFromAngle(System.Single)
+  nameWithType: MathUtil.DirectionFromAngle(Single)
+- uid: CatchIo.Util.MathUtil.DirectionFromAngle*
+  name: DirectionFromAngle
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_DirectionFromAngle_
+  commentId: Overload:CatchIo.Util.MathUtil.DirectionFromAngle
+  isSpec: "True"
+  fullName: CatchIo.Util.MathUtil.DirectionFromAngle
+  nameWithType: MathUtil.DirectionFromAngle
+- uid: CatchIo.Util.MathUtil.GetAngle(System.Single)
   name: GetAngle(Single)
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetAngle_System_Single_
-  commentId: M:CatchIo.Util.Math.GetAngle(System.Single)
-  fullName: CatchIo.Util.Math.GetAngle(System.Single)
-  nameWithType: Math.GetAngle(Single)
-- uid: CatchIo.Util.Math.GetAngle*
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_GetAngle_System_Single_
+  commentId: M:CatchIo.Util.MathUtil.GetAngle(System.Single)
+  fullName: CatchIo.Util.MathUtil.GetAngle(System.Single)
+  nameWithType: MathUtil.GetAngle(Single)
+- uid: CatchIo.Util.MathUtil.GetAngle*
   name: GetAngle
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetAngle_
-  commentId: Overload:CatchIo.Util.Math.GetAngle
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_GetAngle_
+  commentId: Overload:CatchIo.Util.MathUtil.GetAngle
   isSpec: "True"
-  fullName: CatchIo.Util.Math.GetAngle
-  nameWithType: Math.GetAngle
-- uid: CatchIo.Util.Math.GetIntAngle(System.Int32)
+  fullName: CatchIo.Util.MathUtil.GetAngle
+  nameWithType: MathUtil.GetAngle
+- uid: CatchIo.Util.MathUtil.GetIntAngle(System.Int32)
   name: GetIntAngle(Int32)
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetIntAngle_System_Int32_
-  commentId: M:CatchIo.Util.Math.GetIntAngle(System.Int32)
-  fullName: CatchIo.Util.Math.GetIntAngle(System.Int32)
-  nameWithType: Math.GetIntAngle(Int32)
-- uid: CatchIo.Util.Math.GetIntAngle(System.Single)
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_GetIntAngle_System_Int32_
+  commentId: M:CatchIo.Util.MathUtil.GetIntAngle(System.Int32)
+  fullName: CatchIo.Util.MathUtil.GetIntAngle(System.Int32)
+  nameWithType: MathUtil.GetIntAngle(Int32)
+- uid: CatchIo.Util.MathUtil.GetIntAngle(System.Single)
   name: GetIntAngle(Single)
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetIntAngle_System_Single_
-  commentId: M:CatchIo.Util.Math.GetIntAngle(System.Single)
-  fullName: CatchIo.Util.Math.GetIntAngle(System.Single)
-  nameWithType: Math.GetIntAngle(Single)
-- uid: CatchIo.Util.Math.GetIntAngle*
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_GetIntAngle_System_Single_
+  commentId: M:CatchIo.Util.MathUtil.GetIntAngle(System.Single)
+  fullName: CatchIo.Util.MathUtil.GetIntAngle(System.Single)
+  nameWithType: MathUtil.GetIntAngle(Single)
+- uid: CatchIo.Util.MathUtil.GetIntAngle*
   name: GetIntAngle
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_GetIntAngle_
-  commentId: Overload:CatchIo.Util.Math.GetIntAngle
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_GetIntAngle_
+  commentId: Overload:CatchIo.Util.MathUtil.GetIntAngle
   isSpec: "True"
-  fullName: CatchIo.Util.Math.GetIntAngle
-  nameWithType: Math.GetIntAngle
-- uid: CatchIo.Util.Math.IsNaNVector(Vector2)
+  fullName: CatchIo.Util.MathUtil.GetIntAngle
+  nameWithType: MathUtil.GetIntAngle
+- uid: CatchIo.Util.MathUtil.IsNaNVector(Vector2)
   name: IsNaNVector(Vector2)
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_IsNaNVector_Vector2_
-  commentId: M:CatchIo.Util.Math.IsNaNVector(Vector2)
-  fullName: CatchIo.Util.Math.IsNaNVector(Vector2)
-  nameWithType: Math.IsNaNVector(Vector2)
-- uid: CatchIo.Util.Math.IsNaNVector*
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_IsNaNVector_Vector2_
+  commentId: M:CatchIo.Util.MathUtil.IsNaNVector(Vector2)
+  fullName: CatchIo.Util.MathUtil.IsNaNVector(Vector2)
+  nameWithType: MathUtil.IsNaNVector(Vector2)
+- uid: CatchIo.Util.MathUtil.IsNaNVector*
   name: IsNaNVector
-  href: api/CatchIo.Util.Math.html#CatchIo_Util_Math_IsNaNVector_
-  commentId: Overload:CatchIo.Util.Math.IsNaNVector
+  href: api/CatchIo.Util.MathUtil.html#CatchIo_Util_MathUtil_IsNaNVector_
+  commentId: Overload:CatchIo.Util.MathUtil.IsNaNVector
   isSpec: "True"
-  fullName: CatchIo.Util.Math.IsNaNVector
-  nameWithType: Math.IsNaNVector
+  fullName: CatchIo.Util.MathUtil.IsNaNVector
+  nameWithType: MathUtil.IsNaNVector
 - uid: CatchIo.Util.NotifyBooleanPropertyChanged
   name: NotifyBooleanPropertyChanged
   href: api/CatchIo.Util.NotifyBooleanPropertyChanged.html

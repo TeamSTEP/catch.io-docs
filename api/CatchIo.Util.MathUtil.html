@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerProperties
+    <title>Class MathUtil
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerProperties
+    <meta name="title" content="Class MathUtil
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,59 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Network.PlayerProperties">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Util.MathUtil">
   
   
-  <h1 id="CatchIo_Network_PlayerProperties" data-uid="CatchIo.Network.PlayerProperties" class="text-break">Class PlayerProperties
+  <h1 id="CatchIo_Util_MathUtil" data-uid="CatchIo.Util.MathUtil" class="text-break">Class MathUtil
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">PlayerProperties</span></div>
+    <div class="level1"><span class="xref">MathUtil</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Network.html">CatchIo.Network</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Util.html">CatchIo.Util</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Network_PlayerProperties_syntax">Syntax</h5>
+  <h5 id="CatchIo_Util_MathUtil_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class PlayerProperties</code></pre>
+    <pre><code class="lang-csharp hljs">public static class MathUtil</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   
   
-  <h4 id="CatchIo_Network_PlayerProperties_Alive" data-uid="CatchIo.Network.PlayerProperties.Alive">Alive</h4>
+  <a id="CatchIo_Util_MathUtil_ClampListIndex_" data-uid="CatchIo.Util.MathUtil.ClampListIndex*"></a>
+  <h4 id="CatchIo_Util_MathUtil_ClampListIndex_System_Int32_System_Int32_" data-uid="CatchIo.Util.MathUtil.ClampListIndex(System.Int32,System.Int32)">ClampListIndex(Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Alive = &quot;ale&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static int ClampListIndex(int index, int listSize)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">listSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -117,21 +140,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_PlayerProperties_BeTrappedCount" data-uid="CatchIo.Network.PlayerProperties.BeTrappedCount">BeTrappedCount</h4>
+  <a id="CatchIo_Util_MathUtil_DirectionFromAngle_" data-uid="CatchIo.Util.MathUtil.DirectionFromAngle*"></a>
+  <h4 id="CatchIo_Util_MathUtil_DirectionFromAngle_System_Single_" data-uid="CatchIo.Util.MathUtil.DirectionFromAngle(System.Single)">DirectionFromAngle(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string BeTrappedCount = &quot;btc&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector2 DirectionFromAngle(float angleInDegrees)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">angleInDegrees</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -141,21 +182,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_PlayerProperties_CharacterSpawned" data-uid="CatchIo.Network.PlayerProperties.CharacterSpawned">CharacterSpawned</h4>
+  <a id="CatchIo_Util_MathUtil_GetAngle_" data-uid="CatchIo.Util.MathUtil.GetAngle*"></a>
+  <h4 id="CatchIo_Util_MathUtil_GetAngle_System_Single_" data-uid="CatchIo.Util.MathUtil.GetAngle(System.Single)">GetAngle(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string CharacterSpawned = &quot;csp&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetAngle(float angle)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -165,21 +224,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_PlayerProperties_Class" data-uid="CatchIo.Network.PlayerProperties.Class">Class</h4>
+  <a id="CatchIo_Util_MathUtil_GetIntAngle_" data-uid="CatchIo.Util.MathUtil.GetIntAngle*"></a>
+  <h4 id="CatchIo_Util_MathUtil_GetIntAngle_System_Int32_" data-uid="CatchIo.Util.MathUtil.GetIntAngle(System.Int32)">GetIntAngle(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Class = &quot;cls&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static int GetIntAngle(int angle)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -189,21 +266,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_PlayerProperties_Color" data-uid="CatchIo.Network.PlayerProperties.Color">Color</h4>
+  <a id="CatchIo_Util_MathUtil_GetIntAngle_" data-uid="CatchIo.Util.MathUtil.GetIntAngle*"></a>
+  <h4 id="CatchIo_Util_MathUtil_GetIntAngle_System_Single_" data-uid="CatchIo.Util.MathUtil.GetIntAngle(System.Single)">GetIntAngle(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Color = &quot;color&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static int GetIntAngle(float angle)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -213,45 +308,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Network_PlayerProperties_Deaths" data-uid="CatchIo.Network.PlayerProperties.Deaths">Deaths</h4>
+  <a id="CatchIo_Util_MathUtil_IsNaNVector_" data-uid="CatchIo.Util.MathUtil.IsNaNVector*"></a>
+  <h4 id="CatchIo_Util_MathUtil_IsNaNVector_Vector2_" data-uid="CatchIo.Util.MathUtil.IsNaNVector(Vector2)">IsNaNVector(Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Deaths = &quot;dth&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNaNVector(Vector2 vector2)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">vector2</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="CatchIo_Network_PlayerProperties_GameSceneLoaded" data-uid="CatchIo.Network.PlayerProperties.GameSceneLoaded">GameSceneLoaded</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string GameSceneLoaded = &quot;gsl&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -261,127 +350,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_PlayerProperties_Kills" data-uid="CatchIo.Network.PlayerProperties.Kills">Kills</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Kills = &quot;kls&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_PlayerProperties_Point" data-uid="CatchIo.Network.PlayerProperties.Point">Point</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Point = &quot;pnt&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_PlayerProperties_Ready" data-uid="CatchIo.Network.PlayerProperties.Ready">Ready</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Ready = &quot;rdy&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_PlayerProperties_Skin" data-uid="CatchIo.Network.PlayerProperties.Skin">Skin</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Skin = &quot;skn&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Network_PlayerProperties_TrapCount" data-uid="CatchIo.Network.PlayerProperties.TrapCount">TrapCount</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string TrapCount = &quot;tpc&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Math
+    <title>Class CharacterDetectorInFOV
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Math
+    <meta name="title" content="Class CharacterDetectorInFOV
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,59 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Util.Math">
+            <article class="content wrap" id="_content" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV">
   
   
-  <h1 id="CatchIo_Util_Math" data-uid="CatchIo.Util.Math" class="text-break">Class Math
+  <h1 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV" class="text-break">Class CharacterDetectorInFOV
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Math</span></div>
+    <div class="level1"><span class="xref">CharacterDetectorInFOV</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Util.html">CatchIo.Util</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.PlayerCharacter.Detector.html">CatchIo.PlayerCharacter.Detector</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Util_Math_syntax">Syntax</h5>
+  <h5 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Math</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterDetectorInFOV : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Util_Math_ClampListIndex_" data-uid="CatchIo.Util.Math.ClampListIndex*"></a>
-  <h4 id="CatchIo_Util_Math_ClampListIndex_System_Int32_System_Int32_" data-uid="CatchIo.Util.Math.ClampListIndex(System.Int32,System.Int32)">ClampListIndex(Int32, Int32)</h4>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_CharacterLayer" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CharacterLayer">CharacterLayer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int ClampListIndex(int index, int listSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public LayerMask CharacterLayer</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">listSize</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -140,39 +117,48 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">LayerMask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Util_Math_GetAngle_" data-uid="CatchIo.Util.Math.GetAngle*"></a>
-  <h4 id="CatchIo_Util_Math_GetAngle_System_Single_" data-uid="CatchIo.Util.Math.GetAngle(System.Single)">GetAngle(Single)</h4>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_ObstacleLayer" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.ObstacleLayer">ObstacleLayer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float GetAngle(float angle)</code></pre>
+    <pre><code class="lang-csharp hljs">public LayerMask ObstacleLayer</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">angle</span></td>
+        <td><span class="xref">LayerMask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_CurrentViewAngle_" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_CurrentViewAngle" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.CurrentViewAngle">CurrentViewAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CurrentViewAngle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -189,116 +175,40 @@
   </table>
   
   
-  <a id="CatchIo_Util_Math_GetIntAngle_" data-uid="CatchIo.Util.Math.GetIntAngle*"></a>
-  <h4 id="CatchIo_Util_Math_GetIntAngle_System_Int32_" data-uid="CatchIo.Util.Math.GetIntAngle(System.Int32)">GetIntAngle(Int32)</h4>
+  <a id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Forward_" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Forward" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Forward">Forward</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetIntAngle(int angle)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2 Forward { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">angle</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Util_Math_GetIntAngle_" data-uid="CatchIo.Util.Math.GetIntAngle*"></a>
-  <h4 id="CatchIo_Util_Math_GetIntAngle_System_Single_" data-uid="CatchIo.Util.Math.GetIntAngle(System.Single)">GetIntAngle(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetIntAngle(float angle)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">angle</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Util_Math_IsNaNVector_" data-uid="CatchIo.Util.Math.IsNaNVector*"></a>
-  <h4 id="CatchIo_Util_Math_IsNaNVector_Vector2_" data-uid="CatchIo.Util.Math.IsNaNVector(Vector2)">IsNaNVector(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNaNVector(Vector2 vector2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">vector2</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVAngle_" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVAngle" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVAngle">FOVAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FOVAngle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -308,7 +218,82 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVSize_" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_FOVSize" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.FOVSize">FOVSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FOVSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Position_" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_Position" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.Position">Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_VisibleCharacters_" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters*"></a>
+  <h4 id="CatchIo_PlayerCharacter_Detector_CharacterDetectorInFOV_VisibleCharacters" data-uid="CatchIo.PlayerCharacter.Detector.CharacterDetectorInFOV.VisibleCharacters">VisibleCharacters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Character&gt; VisibleCharacters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Character</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
