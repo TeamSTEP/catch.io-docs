@@ -1,0 +1,742 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GameMode
+   | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GameMode
+   | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode">
+  
+  
+  <h1 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode" class="text-break">Class GameMode
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">GameMode</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.ScriptableObjects.GameModes.CursedOneGameMode.html">CursedOneGameMode</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.ScriptableObjects.GameModes.DeathMatchGameMode.html">DeathMatchGameMode</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.ScriptableObjects.GameModes.SandboxGameMode.html">SandboxGameMode</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.ScriptableObjects.GameModes.html">CatchIo.Runtime.ScriptableObjects.GameModes</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class GameMode : ScriptableObject</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode__gameModeTimer" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode._gameModeTimer">_gameModeTimer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly NetworkTimer _gameModeTimer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NetworkTimer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode__isFinished" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode._isFinished">_isFinished</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _isFinished</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode__preloadTimer" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode._preloadTimer">_preloadTimer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly NetworkTimer _preloadTimer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NetworkTimer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_AllowRespawnItem" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.AllowRespawnItem">AllowRespawnItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowRespawnItem</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_CanRespawn" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.CanRespawn">CanRespawn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanRespawn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_CharacterStatus" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.CharacterStatus">CharacterStatus</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterStatus CharacterStatus</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GameDuration" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GameDuration">GameDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GameDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_MaxPlayerCount" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.MaxPlayerCount">MaxPlayerCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxPlayerCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeEnd" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeEnd">OnGameModeEnd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnGameModeEnd</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeStart" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeStart">OnGameModeStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnGameModeStart</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeStop" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeStop">OnGameModeStop</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnGameModeStop</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OverlayScene" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OverlayScene">OverlayScene</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneObject OverlayScene</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SceneObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_PlayerBuffs" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.PlayerBuffs">PlayerBuffs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CharacterBuff&gt; PlayerBuffs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">CharacterBuff</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_PreloadingTime" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.PreloadingTime">PreloadingTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PreloadingTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_RespawnDelayTime" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.RespawnDelayTime">RespawnDelayTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RespawnDelayTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_ViewIdToCharacterMap" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.ViewIdToCharacterMap">ViewIdToCharacterMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, Character&gt; ViewIdToCharacterMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="CatchIo.Runtime.Character.Character.html">Character</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GameModeCountDownTime_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GameModeCountDownTime*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GameModeCountDownTime" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GameModeCountDownTime">GameModeCountDownTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GameModeCountDownTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GameModeCurrentTime_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GameModeCurrentTime*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GameModeCurrentTime" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GameModeCurrentTime">GameModeCurrentTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GameModeCurrentTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_CharacterBeTrapped_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.CharacterBeTrapped*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_CharacterBeTrapped_TrapObject_CatchIo_Runtime_Character_Character_CatchIo_Runtime_Character_Character_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.CharacterBeTrapped(TrapObject,CatchIo.Runtime.Character.Character,CatchIo.Runtime.Character.Character)">CharacterBeTrapped(TrapObject, Character, Character)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void CharacterBeTrapped(TrapObject trapObject, Character trapOwner, Character trappedCharacter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TrapObject</span></td>
+        <td><span class="parametername">trapObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Character.Character.html">Character</a></td>
+        <td><span class="parametername">trapOwner</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Character.Character.html">Character</a></td>
+        <td><span class="parametername">trappedCharacter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_Clear_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.Clear*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_Clear" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.Clear">Clear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GetCharacterStatusInstance_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GetCharacterStatusInstance*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GetCharacterStatusInstance" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GetCharacterStatusInstance">GetCharacterStatusInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterStatus GetCharacterStatusInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GetWinner_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GetWinner*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_GetWinner" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.GetWinner">GetWinner()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract GameModeWinner GetWinner()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.ScriptableObjects.GameModes.GameModeWinner.html">GameModeWinner</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_Initialize_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.Initialize*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_Initialize" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeFinished_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeFinished*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeFinished" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeFinished">OnGameModeFinished()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnGameModeFinished()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeStarted_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeStarted*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeStarted" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeStarted">OnGameModeStarted()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnGameModeStarted()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeStopped_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeStopped*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_OnGameModeStopped" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.OnGameModeStopped">OnGameModeStopped()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnGameModeStopped()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_UpdateGameMode_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.UpdateGameMode*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_GameModes_GameMode_UpdateGameMode_System_Single_" data-uid="CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.UpdateGameMode(System.Single)">UpdateGameMode(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UpdateGameMode(float deltaTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">deltaTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
