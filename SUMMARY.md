@@ -14,5 +14,5 @@
 * [Profit Model](profit-model.md)
 * [Marketing Strategy](marketing-strategy.md)
 * [Pivot Strategy](pivot-strategy.md)
-* [Developer Manual](https://devdocs.witchone.io)
+* [Developer Manual](https://devdocs.witchone.io/)
 * [Project Landing Page](https://witchone.io)
