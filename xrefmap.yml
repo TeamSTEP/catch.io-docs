@@ -868,6 +868,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Camera.GameCamera.SetFollowingTarget
   nameWithType: GameCamera.SetFollowingTarget
+- uid: CatchIo.Runtime.Camera.GameCamera.StudioListener
+  name: StudioListener
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_StudioListener
+  commentId: P:CatchIo.Runtime.Camera.GameCamera.StudioListener
+  fullName: CatchIo.Runtime.Camera.GameCamera.StudioListener
+  nameWithType: GameCamera.StudioListener
+- uid: CatchIo.Runtime.Camera.GameCamera.StudioListener*
+  name: StudioListener
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_StudioListener_
+  commentId: Overload:CatchIo.Runtime.Camera.GameCamera.StudioListener
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Camera.GameCamera.StudioListener
+  nameWithType: GameCamera.StudioListener
 - uid: CatchIo.Runtime.Camera.GameCameraMovement
   name: GameCameraMovement
   href: api/CatchIo.Runtime.Camera.GameCameraMovement.html
@@ -5114,6 +5127,12 @@ references:
   commentId: T:CatchIo.Runtime.Items.Item
   fullName: CatchIo.Runtime.Items.Item
   nameWithType: Item
+- uid: CatchIo.Runtime.Items.Item._itemSfx
+  name: _itemSfx
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item__itemSfx
+  commentId: F:CatchIo.Runtime.Items.Item._itemSfx
+  fullName: CatchIo.Runtime.Items.Item._itemSfx
+  nameWithType: Item._itemSfx
 - uid: CatchIo.Runtime.Items.Item.CanPickup
   name: CanPickup()
   href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_CanPickup
@@ -6413,6 +6432,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.GetSelectedGameMode
   nameWithType: GameModeDropdown.GetSelectedGameMode
+- uid: CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.OnDestroy
+  name: OnDestroy()
+  href: api/CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.html#CatchIo_Runtime_Menu_UI_Dropdown_GameModeDropdown_OnDestroy
+  commentId: M:CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.OnDestroy
+  fullName: CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.OnDestroy()
+  nameWithType: GameModeDropdown.OnDestroy()
+- uid: CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.OnDestroy*
+  name: OnDestroy
+  href: api/CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.html#CatchIo_Runtime_Menu_UI_Dropdown_GameModeDropdown_OnDestroy_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.OnDestroy
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.OnDestroy
+  nameWithType: GameModeDropdown.OnDestroy
 - uid: CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.Start
   name: Start()
   href: api/CatchIo.Runtime.Menu.UI.Dropdown.GameModeDropdown.html#CatchIo_Runtime_Menu_UI_Dropdown_GameModeDropdown_Start
@@ -9766,19 +9798,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter
   nameWithType: GameSceneMode.GetLocalCharacter
-- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.LoadMainSceneAsync
-  name: LoadMainSceneAsync()
-  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_LoadMainSceneAsync
-  commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.LoadMainSceneAsync
-  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.LoadMainSceneAsync()
-  nameWithType: GameSceneMode.LoadMainSceneAsync()
-- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.LoadMainSceneAsync*
-  name: LoadMainSceneAsync
-  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_LoadMainSceneAsync_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.LoadMainSceneAsync
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.LoadMainSceneAsync
-  nameWithType: GameSceneMode.LoadMainSceneAsync
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.LoadOverlaySceneAsync(GameMode)
   name: LoadOverlaySceneAsync(GameMode)
   href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_LoadOverlaySceneAsync_GameMode_
@@ -9811,6 +9830,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.OnEnd
   nameWithType: GameSceneMode.OnEnd
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.OnOverlayScenesLoaded
+  name: OnOverlayScenesLoaded
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_OnOverlayScenesLoaded
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.OnOverlayScenesLoaded
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.OnOverlayScenesLoaded
+  nameWithType: GameSceneMode.OnOverlayScenesLoaded
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.OnStart(MonoBehaviour)
   name: OnStart(MonoBehaviour)
   href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_OnStart_MonoBehaviour_
@@ -10316,19 +10341,19 @@ references:
   commentId: T:CatchIo.Runtime.Services.SceneSwitchingService
   fullName: CatchIo.Runtime.Services.SceneSwitchingService
   nameWithType: SceneSwitchingService
-- uid: CatchIo.Runtime.Services.SceneSwitchingService.HandleSwitch(System.Type)
-  name: HandleSwitch(Type)
-  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_HandleSwitch_System_Type_
-  commentId: M:CatchIo.Runtime.Services.SceneSwitchingService.HandleSwitch(System.Type)
-  fullName: CatchIo.Runtime.Services.SceneSwitchingService.HandleSwitch(System.Type)
-  nameWithType: SceneSwitchingService.HandleSwitch(Type)
-- uid: CatchIo.Runtime.Services.SceneSwitchingService.HandleSwitch*
-  name: HandleSwitch
-  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_HandleSwitch_
-  commentId: Overload:CatchIo.Runtime.Services.SceneSwitchingService.HandleSwitch
+- uid: CatchIo.Runtime.Services.SceneSwitchingService.MenuSceneSwitchAsync(System.Type,System.Boolean)
+  name: MenuSceneSwitchAsync(Type, Boolean)
+  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_MenuSceneSwitchAsync_System_Type_System_Boolean_
+  commentId: M:CatchIo.Runtime.Services.SceneSwitchingService.MenuSceneSwitchAsync(System.Type,System.Boolean)
+  fullName: CatchIo.Runtime.Services.SceneSwitchingService.MenuSceneSwitchAsync(System.Type, System.Boolean)
+  nameWithType: SceneSwitchingService.MenuSceneSwitchAsync(Type, Boolean)
+- uid: CatchIo.Runtime.Services.SceneSwitchingService.MenuSceneSwitchAsync*
+  name: MenuSceneSwitchAsync
+  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_MenuSceneSwitchAsync_
+  commentId: Overload:CatchIo.Runtime.Services.SceneSwitchingService.MenuSceneSwitchAsync
   isSpec: "True"
-  fullName: CatchIo.Runtime.Services.SceneSwitchingService.HandleSwitch
-  nameWithType: SceneSwitchingService.HandleSwitch
+  fullName: CatchIo.Runtime.Services.SceneSwitchingService.MenuSceneSwitchAsync
+  nameWithType: SceneSwitchingService.MenuSceneSwitchAsync
 - uid: CatchIo.Runtime.Services.SceneSwitchingService.OnAfterSceneLoaded
   name: OnAfterSceneLoaded
   href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_OnAfterSceneLoaded
@@ -10341,19 +10366,19 @@ references:
   commentId: F:CatchIo.Runtime.Services.SceneSwitchingService.OnBeforeSceneLoaded
   fullName: CatchIo.Runtime.Services.SceneSwitchingService.OnBeforeSceneLoaded
   nameWithType: SceneSwitchingService.OnBeforeSceneLoaded
-- uid: CatchIo.Runtime.Services.SceneSwitchingService.SwitchGameSceneOfAllClients
-  name: SwitchGameSceneOfAllClients()
-  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_SwitchGameSceneOfAllClients
-  commentId: M:CatchIo.Runtime.Services.SceneSwitchingService.SwitchGameSceneOfAllClients
-  fullName: CatchIo.Runtime.Services.SceneSwitchingService.SwitchGameSceneOfAllClients()
-  nameWithType: SceneSwitchingService.SwitchGameSceneOfAllClients()
-- uid: CatchIo.Runtime.Services.SceneSwitchingService.SwitchGameSceneOfAllClients*
-  name: SwitchGameSceneOfAllClients
-  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_SwitchGameSceneOfAllClients_
-  commentId: Overload:CatchIo.Runtime.Services.SceneSwitchingService.SwitchGameSceneOfAllClients
+- uid: CatchIo.Runtime.Services.SceneSwitchingService.SwitchToGameSceneMode
+  name: SwitchToGameSceneMode()
+  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_SwitchToGameSceneMode
+  commentId: M:CatchIo.Runtime.Services.SceneSwitchingService.SwitchToGameSceneMode
+  fullName: CatchIo.Runtime.Services.SceneSwitchingService.SwitchToGameSceneMode()
+  nameWithType: SceneSwitchingService.SwitchToGameSceneMode()
+- uid: CatchIo.Runtime.Services.SceneSwitchingService.SwitchToGameSceneMode*
+  name: SwitchToGameSceneMode
+  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_SwitchToGameSceneMode_
+  commentId: Overload:CatchIo.Runtime.Services.SceneSwitchingService.SwitchToGameSceneMode
   isSpec: "True"
-  fullName: CatchIo.Runtime.Services.SceneSwitchingService.SwitchGameSceneOfAllClients
-  nameWithType: SceneSwitchingService.SwitchGameSceneOfAllClients
+  fullName: CatchIo.Runtime.Services.SceneSwitchingService.SwitchToGameSceneMode
+  nameWithType: SceneSwitchingService.SwitchToGameSceneMode
 - uid: CatchIo.Runtime.Sound
   name: CatchIo.Runtime.Sound
   href: api/CatchIo.Runtime.Sound.html
@@ -10430,19 +10455,6 @@ references:
   commentId: T:CatchIo.Runtime.Sound.ItemSfx
   fullName: CatchIo.Runtime.Sound.ItemSfx
   nameWithType: ItemSfx
-- uid: CatchIo.Runtime.Sound.ItemSfx.#ctor
-  name: ItemSfx()
-  href: api/CatchIo.Runtime.Sound.ItemSfx.html#CatchIo_Runtime_Sound_ItemSfx__ctor
-  commentId: M:CatchIo.Runtime.Sound.ItemSfx.#ctor
-  fullName: CatchIo.Runtime.Sound.ItemSfx.ItemSfx()
-  nameWithType: ItemSfx.ItemSfx()
-- uid: CatchIo.Runtime.Sound.ItemSfx.#ctor*
-  name: ItemSfx
-  href: api/CatchIo.Runtime.Sound.ItemSfx.html#CatchIo_Runtime_Sound_ItemSfx__ctor_
-  commentId: Overload:CatchIo.Runtime.Sound.ItemSfx.#ctor
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Sound.ItemSfx.ItemSfx
-  nameWithType: ItemSfx.ItemSfx
 - uid: CatchIo.Runtime.Sound.ItemSfx.Play(Vector3,System.String,System.Single)
   name: Play(Vector3, String, Single)
   href: api/CatchIo.Runtime.Sound.ItemSfx.html#CatchIo_Runtime_Sound_ItemSfx_Play_Vector3_System_String_System_Single_
