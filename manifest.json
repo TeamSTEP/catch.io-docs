@@ -1740,6 +1740,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Menu.UI.DisableByPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Menu.UI.DisableByPlatform.html",
+          "hash": "RQ8AKpGE46L5t++CkuXpXQaqgPuk0M39Et0zAYLCiGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Menu.UI.Dropdown.BaseDropdown.yml",
       "output": {
         ".html": {
@@ -1997,6 +2009,18 @@
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Updater.html",
           "hash": "wmJJdXDaosxVkNB+dVpbmiW9CngCgOO3rd8WRQ3mkpE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Menu.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Menu.UI.html",
+          "hash": "3xERTPTAGqmILp8GRbXZUlxsG66wNzjaBE6QrDuc+hk="
         }
       },
       "is_incremental": false,
@@ -3280,7 +3304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "3coB2T0xYUOFV8SZrgsmi7xWdBdQbkake2jCnxredvs="
+          "hash": "hNoRw4PdH7E97UjdXnGhKB8+wAX52FN/wbq7n1nf07A="
         }
       },
       "is_incremental": false,
@@ -3849,7 +3873,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 271,
+          "total_file_count": 273,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
