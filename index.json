@@ -777,17 +777,22 @@
   "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html",
     "title": "Class BasePopup | Catch.io Developer Reference",
-    "keywords": "Class BasePopup Inheritance Object BasePopup CreateSessionPopup Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class BasePopup : MonoBehaviour Methods Clear() Declaration protected virtual void Clear() OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start()"
+    "keywords": "Class BasePopup Inheritance Object BasePopup CreateSessionPopup JoinRoomPopup Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class BasePopup : MonoBehaviour Fields _popup Declaration protected UIPopup _popup Field Value Type Description UIPopup Methods Clear() Declaration protected virtual void Clear() OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start()"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html",
     "title": "Class CreateSessionPopup | Catch.io Developer Reference",
-    "keywords": "Class CreateSessionPopup Inheritance Object BasePopup CreateSessionPopup Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class CreateSessionPopup : BasePopup Methods Clear() Declaration protected override void Clear() Overrides BasePopup.Clear() OnDestroy() Declaration protected override void OnDestroy() Overrides BasePopup.OnDestroy() Start() Declaration protected override void Start() Overrides BasePopup.Start()"
+    "keywords": "Class CreateSessionPopup Inheritance Object BasePopup CreateSessionPopup Inherited Members BasePopup._popup Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class CreateSessionPopup : BasePopup Methods Clear() Declaration protected override void Clear() Overrides BasePopup.Clear() OnDestroy() Declaration protected override void OnDestroy() Overrides BasePopup.OnDestroy() Start() Declaration protected override void Start() Overrides BasePopup.Start()"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.Popup | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Popup Classes BasePopup CreateSessionPopup"
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Popup Classes BasePopup CreateSessionPopup JoinRoomPopup"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html",
+    "title": "Class JoinRoomPopup | Catch.io Developer Reference",
+    "keywords": "Class JoinRoomPopup Inheritance Object BasePopup JoinRoomPopup Inherited Members BasePopup._popup Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class JoinRoomPopup : BasePopup Methods Clear() Declaration protected override void Clear() Overrides BasePopup.Clear() OnDestroy() Declaration protected override void OnDestroy() Overrides BasePopup.OnDestroy() Start() Declaration protected override void Start() Overrides BasePopup.Start()"
   },
   "api/CatchIo.Runtime.Menu.UI.Selector.CharacterClassSelector.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Selector.CharacterClassSelector.html",
