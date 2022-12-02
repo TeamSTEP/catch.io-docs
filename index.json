@@ -1119,10 +1119,15 @@
     "title": "Class SerializableScriptableObject | Catch.io Developer Reference",
     "keywords": "Class SerializableScriptableObject Inheritance Object SerializableScriptableObject DescriptionScriptableObject Namespace : CatchIo.Runtime.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public class SerializableScriptableObject : ScriptableObject Properties Guid Declaration public string Guid { get; } Property Value Type Description String"
   },
+  "api/CatchIo.Runtime.Services.ConsoleService.html": {
+    "href": "api/CatchIo.Runtime.Services.ConsoleService.html",
+    "title": "Class ConsoleService | Catch.io Developer Reference",
+    "keywords": "Class ConsoleService This class stores custom console commands that can be run within a room. (not in the launcher or menus) Inheritance Object ConsoleService Namespace : CatchIo.Runtime.Services Assembly : cs.temp.dll.dll Syntax public class ConsoleService : MonoBehaviourPun"
+  },
   "api/CatchIo.Runtime.Services.html": {
     "href": "api/CatchIo.Runtime.Services.html",
     "title": "Namespace CatchIo.Runtime.Services | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Services Classes LoadingScreenService NetworkService SceneSwitchingService Enums NetworkService.NetworkState"
+    "keywords": "Namespace CatchIo.Runtime.Services Classes ConsoleService This class stores custom console commands that can be run within a room. (not in the launcher or menus) LoadingScreenService NetworkService SceneSwitchingService Enums NetworkService.NetworkState"
   },
   "api/CatchIo.Runtime.Services.LoadingScreenService.html": {
     "href": "api/CatchIo.Runtime.Services.LoadingScreenService.html",
@@ -1219,11 +1224,6 @@
     "title": "Class ColorHelper | Catch.io Developer Reference",
     "keywords": "Class ColorHelper Inheritance Object ColorHelper Namespace : CatchIo.Runtime.Utility Assembly : cs.temp.dll.dll Syntax public static class ColorHelper Methods GetColorUsingCharacterColorType(CharacterColorType) Declaration public static Color GetColorUsingCharacterColorType(CharacterColorType colorType) Parameters Type Name Description CharacterColorType colorType Returns Type Description Color"
   },
-  "api/CatchIo.Runtime.Utility.ConsoleHelper.html": {
-    "href": "api/CatchIo.Runtime.Utility.ConsoleHelper.html",
-    "title": "Class ConsoleHelper | Catch.io Developer Reference",
-    "keywords": "Class ConsoleHelper This class stores custom console commands that can be run within a room. (not in the launcher or menus) Inheritance Object ConsoleHelper Namespace : CatchIo.Runtime.Utility Assembly : cs.temp.dll.dll Syntax public class ConsoleHelper : MonoBehaviourPun"
-  },
   "api/CatchIo.Runtime.Utility.Extensions.ArrayExtensions.html": {
     "href": "api/CatchIo.Runtime.Utility.Extensions.ArrayExtensions.html",
     "title": "Class ArrayExtensions | Catch.io Developer Reference",
@@ -1292,7 +1292,7 @@
   "api/CatchIo.Runtime.Utility.html": {
     "href": "api/CatchIo.Runtime.Utility.html",
     "title": "Namespace CatchIo.Runtime.Utility | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Utility Classes AnimationParser ColorHelper ConsoleHelper This class stores custom console commands that can be run within a room. (not in the launcher or menus) GizmoHelper GizmoHelper.GizmoItem MathHelper PolygonHelper PropertyHelper Structs StateAnimation Enums GizmoHelper.DrawType"
+    "keywords": "Namespace CatchIo.Runtime.Utility Classes AnimationParser ColorHelper GizmoHelper GizmoHelper.GizmoItem MathHelper PolygonHelper PropertyHelper Structs StateAnimation Enums GizmoHelper.DrawType"
   },
   "api/CatchIo.Runtime.Utility.MathHelper.html": {
     "href": "api/CatchIo.Runtime.Utility.MathHelper.html",
