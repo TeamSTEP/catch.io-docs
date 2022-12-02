@@ -197,12 +197,12 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_OnSelectItem" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItem">OnSelectItem</h4>
+  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_OnSelectItemSlot" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItemSlot">OnSelectItemSlot</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;ItemSlot&gt; OnSelectItem</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;ItemSlot&gt; OnSelectItemSlot</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,13 +223,13 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_SelectedItemSlotIndex_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex*"></a>
-  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_SelectedItemSlotIndex" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex">SelectedItemSlotIndex</h4>
+  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_InventoryCursor_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_InventoryCursor" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor">InventoryCursor</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SelectedItemSlotIndex { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int InventoryCursor { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,6 +258,36 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ClearInventory()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_EmptySlot_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_EmptySlot_System_Int32_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot(System.Int32)">EmptySlot(Int32)</h4>
+  <div class="markdown level1 summary"><p> Make the inventory slot[index] to empty slot.  </p>
+<p>And automatically move inventory cursor to right direction to find a valid item slot. </p>
+<p> If cannot find a valid item slot, set _inventoryCursor to -1. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EmptySlot(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_Character_Inventory_InventoryController_GetAllItems_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.GetAllItems*"></a>
@@ -352,13 +382,13 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSelected_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected*"></a>
-  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSelected_System_Int32_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected(System.Int32)">OnItemSelected(Int32)</h4>
+  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSlotSelected_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSlotSelected_System_Int32_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected(System.Int32)">OnItemSlotSelected(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnItemSelected(int direction)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnItemSlotSelected(int direction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -400,33 +430,6 @@
       <tr>
         <td><span class="xref">Item</span></td>
         <td><span class="parametername">item</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_RemoveItem_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem*"></a>
-  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_RemoveItem_System_Int32_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem(System.Int32)">RemoveItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveItem(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -3243,32 +3243,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.Inventory.ToArray
   nameWithType: Inventory.ToArray
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItem(System.Int32,Item)
-  name: TryAddItem(Int32, Item)
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryAddItem_System_Int32_Item_
-  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.TryAddItem(System.Int32,Item)
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItem(System.Int32, Item)
-  nameWithType: Inventory.TryAddItem(Int32, Item)
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItem*
-  name: TryAddItem
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryAddItem_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.TryAddItem
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItemToItemSlot(System.Int32,Item)
+  name: TryAddItemToItemSlot(Int32, Item)
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryAddItemToItemSlot_System_Int32_Item_
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.TryAddItemToItemSlot(System.Int32,Item)
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItemToItemSlot(System.Int32, Item)
+  nameWithType: Inventory.TryAddItemToItemSlot(Int32, Item)
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItemToItemSlot*
+  name: TryAddItemToItemSlot
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryAddItemToItemSlot_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.TryAddItemToItemSlot
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItem
-  nameWithType: Inventory.TryAddItem
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryRemoveItem(System.Int32)
-  name: TryRemoveItem(Int32)
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryRemoveItem_System_Int32_
-  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.TryRemoveItem(System.Int32)
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryRemoveItem(System.Int32)
-  nameWithType: Inventory.TryRemoveItem(Int32)
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryRemoveItem*
-  name: TryRemoveItem
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryRemoveItem_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.TryRemoveItem
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryAddItemToItemSlot
+  nameWithType: Inventory.TryAddItemToItemSlot
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryMakeEmptySlot(System.Int32)
+  name: TryMakeEmptySlot(Int32)
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryMakeEmptySlot_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.TryMakeEmptySlot(System.Int32)
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryMakeEmptySlot(System.Int32)
+  nameWithType: Inventory.TryMakeEmptySlot(Int32)
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.TryMakeEmptySlot*
+  name: TryMakeEmptySlot
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_TryMakeEmptySlot_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.TryMakeEmptySlot
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryRemoveItem
-  nameWithType: Inventory.TryRemoveItem
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.TryMakeEmptySlot
+  nameWithType: Inventory.TryMakeEmptySlot
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController
   name: InventoryController
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html
@@ -3288,6 +3288,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.InventoryController.ClearInventory
   nameWithType: InventoryController.ClearInventory
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot(System.Int32)
+  name: EmptySlot(Int32)
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_EmptySlot_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot(System.Int32)
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot(System.Int32)
+  nameWithType: InventoryController.EmptySlot(Int32)
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot*
+  name: EmptySlot
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_EmptySlot_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.EmptySlot
+  nameWithType: InventoryController.EmptySlot
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController.GetAllItems
   name: GetAllItems()
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_GetAllItems
@@ -3327,6 +3340,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.InventoryController.GetItem
   nameWithType: InventoryController.GetItem
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor
+  name: InventoryCursor
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_InventoryCursor
+  commentId: P:CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor
+  nameWithType: InventoryController.InventoryCursor
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor*
+  name: InventoryCursor
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_InventoryCursor_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.InventoryCursor
+  nameWithType: InventoryController.InventoryCursor
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController.MaxItemSlotCount
   name: MaxItemSlotCount
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_MaxItemSlotCount
@@ -3339,19 +3365,19 @@ references:
   commentId: F:CatchIo.Runtime.Character.Inventory.InventoryController.OnAddItem
   fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnAddItem
   nameWithType: InventoryController.OnAddItem
-- uid: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected(System.Int32)
-  name: OnItemSelected(Int32)
-  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSelected_System_Int32_
-  commentId: M:CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected(System.Int32)
-  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected(System.Int32)
-  nameWithType: InventoryController.OnItemSelected(Int32)
-- uid: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected*
-  name: OnItemSelected
-  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSelected_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected(System.Int32)
+  name: OnItemSlotSelected(Int32)
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSlotSelected_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected(System.Int32)
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected(System.Int32)
+  nameWithType: InventoryController.OnItemSlotSelected(Int32)
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected*
+  name: OnItemSlotSelected
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_OnItemSlotSelected_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSelected
-  nameWithType: InventoryController.OnItemSelected
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnItemSlotSelected
+  nameWithType: InventoryController.OnItemSlotSelected
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController.OnReleaseItem
   name: OnReleaseItem
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_OnReleaseItem
@@ -3364,12 +3390,12 @@ references:
   commentId: F:CatchIo.Runtime.Character.Inventory.InventoryController.OnRemoveItem
   fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnRemoveItem
   nameWithType: InventoryController.OnRemoveItem
-- uid: CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItem
-  name: OnSelectItem
-  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_OnSelectItem
-  commentId: F:CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItem
-  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItem
-  nameWithType: InventoryController.OnSelectItem
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItemSlot
+  name: OnSelectItemSlot
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_OnSelectItemSlot
+  commentId: F:CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItemSlot
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItemSlot
+  nameWithType: InventoryController.OnSelectItemSlot
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController.PickupItem(Item)
   name: PickupItem(Item)
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_PickupItem_Item_
@@ -3383,32 +3409,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.InventoryController.PickupItem
   nameWithType: InventoryController.PickupItem
-- uid: CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem(System.Int32)
-  name: RemoveItem(Int32)
-  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_RemoveItem_System_Int32_
-  commentId: M:CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem(System.Int32)
-  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem(System.Int32)
-  nameWithType: InventoryController.RemoveItem(Int32)
-- uid: CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem*
-  name: RemoveItem
-  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_RemoveItem_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.RemoveItem
-  nameWithType: InventoryController.RemoveItem
-- uid: CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex
-  name: SelectedItemSlotIndex
-  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_SelectedItemSlotIndex
-  commentId: P:CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex
-  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex
-  nameWithType: InventoryController.SelectedItemSlotIndex
-- uid: CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex*
-  name: SelectedItemSlotIndex
-  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_SelectedItemSlotIndex_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.SelectedItemSlotIndex
-  nameWithType: InventoryController.SelectedItemSlotIndex
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController.Start
   name: Start()
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_Start
@@ -7900,6 +7900,12 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.Effects.EffectBase
   fullName: CatchIo.Runtime.ScriptableObjects.Effects.EffectBase
   nameWithType: EffectBase
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.DefaultMaterial
+  name: DefaultMaterial
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.html#CatchIo_Runtime_ScriptableObjects_Effects_EffectBase_DefaultMaterial
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.DefaultMaterial
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.DefaultMaterial
+  nameWithType: EffectBase.DefaultMaterial
 - uid: CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.Duration
   name: Duration
   href: api/CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.html#CatchIo_Runtime_ScriptableObjects_Effects_EffectBase_Duration
