@@ -336,6 +336,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html",
+          "hash": "isWze5yjG2HDKrdNJNdjKpnmiTV99mudjWTsS5DSf+Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.PlayerCharacter.FSM.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.PlayerCharacter.FSM.Type.html",
+          "hash": "2bBdIGezcJ85IT3dRXo+8/AxbmsSwYAsvFfKFhOcFRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Boot.BootStrapper.yml",
       "output": {
         ".html": {
@@ -364,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Camera.GameCamera.html",
-          "hash": "agZl/GDXmW9gRSlXMq+JaH2aDCQMlBEksCxLblWr4PA="
+          "hash": "R3LX1v5yT5oNSdWZNahLUi3zJTmdAa7XLMUVGC2eojQ="
         }
       },
       "is_incremental": false,
@@ -412,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.Character.html",
-          "hash": "whoIzh+Il/UGSPxyRAllbQ5ZTelwaDbTAEi98Fp/rpQ="
+          "hash": "Iiv0UrrPm5N9NkMfE1G19Px40gqzFLipS79nJaTHWpg="
         }
       },
       "is_incremental": false,
@@ -424,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.CharacterHitbox.html",
-          "hash": "O/KB4AKwqw5S4tFgcSIp3w4ThWUyGhlj12PECJAAlkA="
+          "hash": "m3qhB/gvca8gI5PpEjrd3yvlZ4sGrGc+yu+vrW3DcQA="
         }
       },
       "is_incremental": false,
@@ -436,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.CharacterInput.html",
-          "hash": "b1UHOCMb01iXk4BMDQomcCxrYH6qCpNvDpNs0WDce8U="
+          "hash": "e84gZElneRPz5atjWluKLYPpraUyulPb4Tz3lsIEw8M="
         }
       },
       "is_incremental": false,
@@ -532,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterActionState.html",
-          "hash": "eI2XRLEZwQRbO7o6L/o/WdZiU1b6i02w+XyuPx7UHeI="
+          "hash": "tR4qAs4N2lG7LSyMvhPiFmHeIyteQo4oiMhXLfpvkZc="
         }
       },
       "is_incremental": false,
@@ -588,18 +612,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpectateState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpectateState.html",
-          "hash": "lKEP3HnnuljGXfeC96Q3Cre4c1fVQGgJxq96JyLkAu4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterThrowState.yml",
       "output": {
         ".html": {
@@ -616,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.FSM.States.ActionStates.html",
-          "hash": "z7w4HV3PTs7F26PceXhB2gxxPr+BXuCwe/L+LU0cGAo="
+          "hash": "XBR4tUrZ2cjFrKANGDdo4Hv8vgcA2q63jiisi/1CMX8="
         }
       },
       "is_incremental": false,
@@ -640,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html",
-          "hash": "ngIE8QikYcr5R7WGOY2zUuFAnlSOWx/tnz0hb3sdP1g="
+          "hash": "31Vik1G4bP/7NG++wSd6FxYNbxq3bgZI3bJjcLF2Opc="
         }
       },
       "is_incremental": false,
@@ -652,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html",
-          "hash": "skk3+hHhhQIHbgmCDNcowg1/ewTyTHfcMTZM/7VVglo="
+          "hash": "Bd2XQdfaIvnROu065l+uvZNHs4t4bLkyMM9m/rqu3lo="
         }
       },
       "is_incremental": false,
@@ -696,6 +708,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSpectateState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSpectateState.html",
+          "hash": "7hParyfaVxjGi5Rgf1SNzyXHCInkd1xCsDbAEzwoUO4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.yml",
       "output": {
         ".html": {
@@ -724,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.FSM.States.MoveStates.html",
-          "hash": "ZV6DlV7BrIO29F1Ze2GYwV3YblWnTNNx6y8GPaeLYZA="
+          "hash": "jvb3JdaBQrbvNQB58vegG6n9JeaeCQEKhAOIqfTTwQs="
         }
       },
       "is_incremental": false,
@@ -880,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.Lighting.CharacterLighting.html",
-          "hash": "LqaZK4p/owAIDjkYkTfWT6PWHn+08a5aPIsMY5eb7dE="
+          "hash": "VAtVLy8nmMylmVkBOvwj7T5hyjxFsNYvUaN36XfHmvQ="
         }
       },
       "is_incremental": false,
@@ -904,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.NetworkCharacter.html",
-          "hash": "eQ0EXWblU5zSu+eVFu5Fdqp4uzDuP2SxGKXzY6eZ+Sk="
+          "hash": "RYgKnopWquuXjhkwGg5IBBOFlNcMoOcLWuZdB1T1GMQ="
         }
       },
       "is_incremental": false,
@@ -1092,18 +1116,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Runtime.Enums.CharacterActionType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Runtime.Enums.CharacterActionType.html",
-          "hash": "KX5MBX5BI+LoSUOpQ8g76Jqttd8MgOdhlrE9L6qt8n0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Enums.CharacterClassType.yml",
       "output": {
         ".html": {
@@ -1132,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Enums.CharacterMoveType.html",
-          "hash": "ETwopJaSW6vRs7CNQU42G1ZkIo2Wpx/XQnT4rTxtxos="
+          "hash": "9nweWgjkd9MJcen+8anZsxwE7NqNrQfm0wZdlmpMkh4="
         }
       },
       "is_incremental": false,
@@ -1192,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Enums.html",
-          "hash": "pVmX0VP2tpEFIGTgd36GQoz8EicbQ8GGNfee5XOPz/E="
+          "hash": "YSRjq6k30Uf2G5eVf3SRudDR4QB8ERWhad8F8zqkX9w="
         }
       },
       "is_incremental": false,
@@ -1240,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Environment.ItemSpawner.html",
-          "hash": "EefcT9Wu+niySD4OZmWnffcekNeL6BCwsC3Zy7nBB6E="
+          "hash": "HP3iCooOc1vJZKpml9k099UOPNIIxIYVIfe3pSSU3aM="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Environment.ItemSpawnerController.html",
-          "hash": "Tax1K6e6TAcDFcj+W0vaIjodc7PlGLrTpxdXbiJO6lM="
+          "hash": "Lxb6QNopRhNYenV9lnk850xGw37vJAFIlt98g/u/qH0="
         }
       },
       "is_incremental": false,
@@ -1584,6 +1596,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.ExitSessionPopup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.ExitSessionPopup.html",
+          "hash": "4uViHUxqZWG18wULiMblaowGGv3bJVqTpVSoSYCdJow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CharacterDeathPopup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CharacterDeathPopup.html",
+          "hash": "99xcwD9UQ+S6+dUN6XpcRmJ61xGMbOjtl/ORXPY8PNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.GameModeTimerText.yml",
       "output": {
         ".html": {
@@ -1612,7 +1648,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.html",
-          "hash": "EqGKvR6NuXZzYICW017s3rmL6XlhACHct6nhTRe+iFU="
+          "hash": "UBKQ2Yp1AgtyYAue1HD0UN1mn8hJMgW/RO1T5TkbNnA="
         }
       },
       "is_incremental": false,
@@ -1685,6 +1721,18 @@
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.html",
           "hash": "2BpdY69Uc42wDMEZjIXWNW8j6WurFqgFOwVX/g32G8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.html",
+          "hash": "XeqMB4+SNL/9TPJ5em4gSOG2RPkBfTGakxoUfALQ6L8="
         }
       },
       "is_incremental": false,
@@ -1876,7 +1924,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html",
-          "hash": "J1w0+2OC34b1BcguGLwB/sc3fHJdPtnU1h3PRYn9AOw="
+          "hash": "POGjv0KgDqmvqa/aeftcyi3jLr3R9Ju3cwkbaJkNrJs="
         }
       },
       "is_incremental": false,
@@ -1888,7 +1936,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html",
-          "hash": "Nb4JR0BexNT+iysZ29r4NVl6IFxYrDPEKTxJBL5wpXU="
+          "hash": "GuU8GmBqEYxz2ovyQ0X2CVtV3BQcsWNsx0FqEk93f+U="
         }
       },
       "is_incremental": false,
@@ -1900,7 +1948,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html",
-          "hash": "gjlsr0wcQ4OfeySw8aOytSAKdggF4hQeWgyT7nD1bjw="
+          "hash": "9KWOz7Plg8j2/LuIQKp8gfuraqSaOxd/Sn/JvYjfYv4="
         }
       },
       "is_incremental": false,
@@ -2164,7 +2212,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html",
-          "hash": "1nwsdP7pp6pvzOdoTdLlCC1B/6xK7CNyT3qQoKjKIUw="
+          "hash": "K7+ZlrDVcBAiCWLajvrxX1GJPlOhp8srTMs0JW2JTYI="
         }
       },
       "is_incremental": false,
@@ -2356,7 +2404,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.GameModes.CursedOneGameMode.html",
-          "hash": "wjOyjcFdSjRK57mkNlt3UQ09TxHYW4AgNndOO8zFg2o="
+          "hash": "yuvtjqU1VBje0TR20ODGMPefGQk5+6lM1s8dWjVeTq8="
         }
       },
       "is_incremental": false,
@@ -2368,7 +2416,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.GameModes.DeathMatchGameMode.html",
-          "hash": "J2UQCWPt9o7jlqtG6MqZz3/LVzGQEkmAn04dEh1BE3E="
+          "hash": "btHlYoB9wM0oVFUyIkdQ4yn2bvndMRgQlxgkafGSB6E="
         }
       },
       "is_incremental": false,
@@ -2380,7 +2428,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.GameModes.GameMode.html",
-          "hash": "QOfvxiW5k8dk1t7mu58gZ+xP+UTZFkFxqZ3b+OJZc6E="
+          "hash": "m+4mMEskdrKSUVvnJWQ8cpQnAlmUMFUeGUZqy8PN5G4="
         }
       },
       "is_incremental": false,
@@ -2428,7 +2476,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.GameModes.SandboxGameMode.html",
-          "hash": "xEmYxeE3LrPqnTAi9gFwCe5EXJxpZwnfT3gI/ugw26s="
+          "hash": "zMA8HUhfF8hlmfjMQEF9Ehp/7rFnkBrrX7OYYF9fmhc="
         }
       },
       "is_incremental": false,
@@ -2452,7 +2500,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html",
-          "hash": "x/Aa4x0dl4FZ6QZxLgDU4FCbScsTkx0Oe0HR3Q1PDcE="
+          "hash": "byglTbf+FxbfF5n0/Nz0aWekMai67gUtpehqSueIsgE="
         }
       },
       "is_incremental": false,
@@ -3316,7 +3364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "DzFtxIFx6TJbp7UWNisExqYuGszrvokQkEEcttcNmhU="
+          "hash": "cZfJFAFrEqKNdc3jypPzeDYUkbQL/EM1TyXP12qJs6I="
         }
       },
       "is_incremental": false,
@@ -3885,7 +3933,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 274,
+          "total_file_count": 278,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
