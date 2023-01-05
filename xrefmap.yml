@@ -2150,6 +2150,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.CharacterBaseState.CheckSwitchStates
   nameWithType: CharacterBaseState.CheckSwitchStates
+- uid: CatchIo.Runtime.Character.FSM.States.CharacterBaseState.EnteredStateTime
+  name: EnteredStateTime
+  href: api/CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_EnteredStateTime
+  commentId: F:CatchIo.Runtime.Character.FSM.States.CharacterBaseState.EnteredStateTime
+  fullName: CatchIo.Runtime.Character.FSM.States.CharacterBaseState.EnteredStateTime
+  nameWithType: CharacterBaseState.EnteredStateTime
 - uid: CatchIo.Runtime.Character.FSM.States.CharacterBaseState.EnterState
   name: EnterState()
   href: api/CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_EnterState
@@ -7653,19 +7659,19 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Buffs
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Buffs
   nameWithType: CharacterStatus.Buffs
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina(System.Single)
-  name: CanRecoveryStamina(Single)
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoveryStamina_System_Single_
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina(System.Single)
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina(System.Single)
-  nameWithType: CharacterStatus.CanRecoveryStamina(Single)
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina*
-  name: CanRecoveryStamina
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoveryStamina_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina(System.Single)
+  name: CanRecoverStamina(Single)
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoverStamina_System_Single_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina(System.Single)
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina(System.Single)
+  nameWithType: CharacterStatus.CanRecoverStamina(Single)
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina*
+  name: CanRecoverStamina
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoverStamina_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina
   isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina
-  nameWithType: CharacterStatus.CanRecoveryStamina
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina
+  nameWithType: CharacterStatus.CanRecoverStamina
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ClassName
   name: ClassName
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_ClassName
@@ -7811,6 +7817,19 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsHiding
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsHiding
   nameWithType: CharacterStatus.IsHiding
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina
+  name: IsRecoveringStamina
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsRecoveringStamina
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina
+  nameWithType: CharacterStatus.IsRecoveringStamina
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina*
+  name: IsRecoveringStamina
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsRecoveringStamina_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina
+  nameWithType: CharacterStatus.IsRecoveringStamina
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsSneaking
   name: IsSneaking
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsSneaking
@@ -7861,12 +7880,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Name
   nameWithType: CharacterStatus.Name
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnChangedIdentityColor
-  name: OnChangedIdentityColor
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnChangedIdentityColor
-  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnChangedIdentityColor
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnChangedIdentityColor
-  nameWithType: CharacterStatus.OnChangedIdentityColor
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnHealthChanged
   name: OnHealthChanged
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnHealthChanged
@@ -7879,19 +7892,19 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnStaminaChanged
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnStaminaChanged
   nameWithType: CharacterStatus.OnStaminaChanged
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina(System.Single)
-  name: RecoveryStamina(Single)
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoveryStamina_System_Single_
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina(System.Single)
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina(System.Single)
-  nameWithType: CharacterStatus.RecoveryStamina(Single)
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina*
-  name: RecoveryStamina
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoveryStamina_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina(System.Single)
+  name: RecoverStamina(Single)
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoverStamina_System_Single_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina(System.Single)
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina(System.Single)
+  nameWithType: CharacterStatus.RecoverStamina(Single)
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina*
+  name: RecoverStamina
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoverStamina_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina
   isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina
-  nameWithType: CharacterStatus.RecoveryStamina
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina
+  nameWithType: CharacterStatus.RecoverStamina
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Reset
   name: Reset()
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Reset

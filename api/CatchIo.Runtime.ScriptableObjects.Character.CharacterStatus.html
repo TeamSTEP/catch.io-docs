@@ -532,30 +532,6 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnChangedIdentityColor" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnChangedIdentityColor">OnChangedIdentityColor</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action OnChangedIdentityColor</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnHealthChanged" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnHealthChanged">OnHealthChanged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -1045,6 +1021,31 @@
   </table>
   
   
+  <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsRecoveringStamina_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsRecoveringStamina" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina">IsRecoveringStamina</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRecoveringStamina { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsSneaking_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsSneaking*"></a>
   <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsSneaking" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsSneaking">IsSneaking</h4>
   <div class="markdown level1 summary"></div>
@@ -1122,13 +1123,16 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoveryStamina_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina*"></a>
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoveryStamina_System_Single_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoveryStamina(System.Single)">CanRecoveryStamina(Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoverStamina_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoverStamina_System_Single_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina(System.Single)">CanRecoverStamina(Single)</h4>
+  <div class="markdown level1 summary"><p>Check if the player can recover its stamina based on the given time to start checking.
+Because our stamina recovery logic relies on time passing, this function will check the delta between
+the required time for start recovery and the current time.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanRecoveryStamina(float startTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanRecoverStamina(float startTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1143,7 +1147,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">startTime</span></td>
-        <td></td>
+        <td><p>The time when the previous condition has started (ex: staying still)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1158,19 +1163,22 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
+        <td><p>Can the player recover their stamina</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoveryStamina_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina*"></a>
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoveryStamina_System_Single_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoveryStamina(System.Single)">RecoveryStamina(Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoverStamina_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoverStamina_System_Single_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina(System.Single)">RecoverStamina(Single)</h4>
+  <div class="markdown level1 summary"><p>Recovers the player&apos;s stamina with the given amount.
+We use the Clamp function so the stamina will not exceed the max value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RecoveryStamina(float staminaRecoveryAmount)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RecoverStamina(float staminaRecoveryAmount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1185,7 +1193,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">staminaRecoveryAmount</span></td>
-        <td></td>
+        <td><p>The amount of stamina to recover every second</p>
+</td>
       </tr>
     </tbody>
   </table>
