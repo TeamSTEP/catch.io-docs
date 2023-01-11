@@ -22,9 +22,9 @@ For people who want to support this project directly or are interested in joinin
 
 <figure><img src=".gitbook/assets/Ffm0tP-WIAAGJhz.png" alt=""><figcaption></figcaption></figure>
 
-**Witch One** (internal project alias: `Catch.io`) will be an indie online stealth-focused rotative asymmetric hide-and-seek game. The game is set in a medieval fantasy world full of history. The game's objective is to hide away or kill other players to become the player with the most points by the end of the session.
+**Witch One** (internal project alias: `Catch.io`) will be an indie online stealth-focused rotative asymmetric hide-and-seek game. The game is set in a medieval fantasy world full of history. The game's objective is to hide away or kill other players and become the last player alive in a stealthy environment.
 
-At the start of the game, one random player will be chosen as the "Cursed One," who must kill a player without being caught. The Cursed One will be invisible to the players, but they cannot use any items. The Cursed One can still leave footprints and generate sound waves if they are not careful where they step. If the Cursed One fails to kill a player within the given time, they will lose a significant amount of points, while all the other surviving players will gain a little. On the other hand, the Cursed One can gain points by killing a player. After the Cursed One kills a player or the timer runs out, the game will change the Cursed One to a different player. This process will repeat until every player in the game becomes a Cursed One at least once.
+At the start of the game, one random player will be chosen as the "Cursed One," who must kill a player without being caught. The Cursed One will be invisible to the players, but they cannot use any items, while other players can use items to trap or run away from the Cursed One. The Cursed One can still leave footprints and generate sound waves if they are not careful where they step. In this game, the Cursed One must kill a player within the countdown, while other players must survive. If the Cursed One kills someone, the game chooses a different player to be the next Cursed One while the killed player gets the game over. This loop will repeat until only one player is left in the game, hence the battle-royal aspect.
 
 Witch One can be broken down into the following game mechanics:
 

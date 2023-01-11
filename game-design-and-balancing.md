@@ -15,16 +15,16 @@ The following is the general condition for choosing the winner from a system per
 
 In this chart, there are two timeframes the player must be aware of:
 
-* Intermission: the `intermission` is the time between a new Cursed One is chosen. This will be 100 seconds for the first round, and 30 seconds for all proceeding rounds. During this time, the players will be looking for a hiding spot or collecting items on the map.
-* Survival period: the `survival period` is the time frame in which the Cursed One must catch another player. If the Cursed One fails to catch someone within the countdown, that player will get a game over and a new Cursed One will be chosen. The length of the survival period has a negative relationship with the number of players that are currently in the game (i.e., fewer players are in the game, the longer the survival period will be).
+* Intermission: the `intermission` is the time between a new Cursed One being chosen. This will be 100 seconds for the first round and 30 seconds for all proceeding rounds. During this time, the players will look for a hiding spot or collect items on the map.
+* Survival period: the `survival period` is the time frame in which the Cursed One must catch another player. If the Cursed One fails to catch someone within the countdown, that player will get a game-over, and a new Cursed One will be chosen. The length of the survival period has a negative relationship with the number of players currently in the game (i.e., the fewer players are in the game, the longer the survival period will be).
 
-The game map contains various items that allow the player to trap others, escape from others, or deal heavy damage. Potions will have a very important role as they can save a player from the Cursed One's attack that is not a backstab. These items can be used by the Cursed One, and because the game is designed so that every player will become the Cursed One at least once, some may want to prepare themselves just in case they're the next Cursed One.
+The game map contains various items that allow the player to trap others, escape from others, or deal heavy damage. Potions will have a vital role as they can save a player from the Cursed One's attack that is not a backstab. The Cursed One can use these items, and because the game is designed so that every player will become the Cursed One at least once, some may want to prepare themselves just in case they're the next Cursed One.
 
 Players are expected to move around the map to find these items while hiding from the Cursed One (or searching for other players if the player is the Cursed One).
 
 ## Expected Playstyles and Strategies
 
-Witch One will have a large and replayable stage such as the ones that can be seen in a typical Battle Royal type game. The map will have hiding spots and items that most players will be interested in while they try to survive or kill.
+Witch One will have a large and replayable stage such as the ones seen in a typical Battle Royal type game. The map will have hiding spots and items that most players will be interested in while they try to survive or kill.
 
 Normal players will only know that the Cursed One has been chosen, but will not know who the Cursed One is. This means that the Cursed One can blend in with other players and wait for the perfect moment to kill them. Furthermore, _the game will only choose the Cursed One from a pool of player who has not been chosen as the Cursed One. This pool will reset if all the players that are currently in the game have been chosen as the Cursed One already_. This means that if you have been a Cursed One before or you know a player has been a Cursed One before, you can count on the fact that they won't be chosen as the next Cursed One for a while.
 
