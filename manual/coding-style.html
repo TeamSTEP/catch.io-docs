@@ -118,6 +118,8 @@ So we recommend using the development version of <a href="https://github.com/dot
 </code></pre><p>To format the entire script folder, you will have to first open a script in Unity with Visual Studio so that Unity engine can generate the <code>.csproj</code> file.
 Once that is done, use the following command from the root of this project folder:</p>
 <pre><code class="lang-bash">dotnet-format Catch.io.sln --fix-style warn
+</code></pre><p>If the above command doesn&#39;t work due to <a href="https://github.com/dotnet/format/issues/1560">this error</a> or multiple build files, you can use the following command to fix at least the white spaces.</p>
+<pre><code class="lang-bash">dotnet format whitespace --folder --verbosity
 </code></pre></article>
           </div>
           
