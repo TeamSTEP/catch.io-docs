@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Sfx
+    <title>Class StaminaSfx
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Sfx
+    <meta name="title" content="Class StaminaSfx
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,40 +78,44 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Sound.Sfx">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Sound.StaminaSfx">
   
   
-  <h1 id="CatchIo_Runtime_Sound_Sfx" data-uid="CatchIo.Runtime.Sound.Sfx" class="text-break">Class Sfx
+  <h1 id="CatchIo_Runtime_Sound_StaminaSfx" data-uid="CatchIo.Runtime.Sound.StaminaSfx" class="text-break">Class StaminaSfx
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Sfx</span></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.CharacterActionSfx.html">CharacterActionSfx</a></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.ItemSfx.html">ItemSfx</a></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.StaminaSfx.html">StaminaSfx</a></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.TerrainSfx.html">TerrainSfx</a></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Sound.Sfx.html">Sfx</a></div>
+    <div class="level2"><span class="xref">StaminaSfx</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_EventInstance">Sfx.EventInstance</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Sound.html">CatchIo.Runtime.Sound</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Sound_Sfx_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Sound_StaminaSfx_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Sfx</code></pre>
+    <pre><code class="lang-csharp hljs">public class StaminaSfx : Sfx</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Sound_Sfx_EventInstance" data-uid="CatchIo.Runtime.Sound.Sfx.EventInstance">EventInstance</h4>
+  <a id="CatchIo_Runtime_Sound_StaminaSfx_CurrentState_" data-uid="CatchIo.Runtime.Sound.StaminaSfx.CurrentState*"></a>
+  <h4 id="CatchIo_Runtime_Sound_StaminaSfx_CurrentState" data-uid="CatchIo.Runtime.Sound.StaminaSfx.CurrentState">CurrentState</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EventInstance EventInstance</code></pre>
+    <pre><code class="lang-csharp hljs">public string CurrentState { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -121,7 +125,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EventInstance</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -130,13 +134,38 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Sound_Sfx_Play_" data-uid="CatchIo.Runtime.Sound.Sfx.Play*"></a>
-  <h4 id="CatchIo_Runtime_Sound_Sfx_Play_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.Sfx.Play(Vector3,System.String,System.Single)">Play(Vector3, String, Single)</h4>
+  <a id="CatchIo_Runtime_Sound_StaminaSfx_IsPlaying_" data-uid="CatchIo.Runtime.Sound.StaminaSfx.IsPlaying*"></a>
+  <h4 id="CatchIo_Runtime_Sound_StaminaSfx_IsPlaying" data-uid="CatchIo.Runtime.Sound.StaminaSfx.IsPlaying">IsPlaying()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Play(Vector3 generatePos, string labelName, float volume = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsPlaying()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Sound_StaminaSfx_Play_" data-uid="CatchIo.Runtime.Sound.StaminaSfx.Play*"></a>
+  <h4 id="CatchIo_Runtime_Sound_StaminaSfx_Play_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.StaminaSfx.Play(Vector3,System.String,System.Single)">Play(Vector3, String, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Play(Vector3 generatePos, string staminaStateType, float volume = 1F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,7 +184,7 @@
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">labelName</span></td>
+        <td><span class="parametername">staminaStateType</span></td>
         <td></td>
       </tr>
       <tr>
@@ -165,6 +194,18 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_Play_Vector3_System_String_System_Single_">Sfx.Play(Vector3, String, Single)</a></div>
+  
+  
+  <a id="CatchIo_Runtime_Sound_StaminaSfx_Stop_" data-uid="CatchIo.Runtime.Sound.StaminaSfx.Stop*"></a>
+  <h4 id="CatchIo_Runtime_Sound_StaminaSfx_Stop" data-uid="CatchIo.Runtime.Sound.StaminaSfx.Stop">Stop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
 </article>
           </div>
           
