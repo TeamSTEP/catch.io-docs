@@ -7760,6 +7760,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
   nameWithType: CharacterStatus.Forward
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
+  name: HandleStaminaStateEffect()
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_HandleStaminaStateEffect
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect()
+  nameWithType: CharacterStatus.HandleStaminaStateEffect()
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect*
+  name: HandleStaminaStateEffect
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_HandleStaminaStateEffect_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
+  nameWithType: CharacterStatus.HandleStaminaStateEffect
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Health
   name: Health
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Health
@@ -7892,19 +7905,6 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnStaminaChanged
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnStaminaChanged
   nameWithType: CharacterStatus.OnStaminaChanged
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.PlayStaminaStatusEffect
-  name: PlayStaminaStatusEffect()
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_PlayStaminaStatusEffect
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.PlayStaminaStatusEffect
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.PlayStaminaStatusEffect()
-  nameWithType: CharacterStatus.PlayStaminaStatusEffect()
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.PlayStaminaStatusEffect*
-  name: PlayStaminaStatusEffect
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_PlayStaminaStatusEffect_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.PlayStaminaStatusEffect
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.PlayStaminaStatusEffect
-  nameWithType: CharacterStatus.PlayStaminaStatusEffect
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RecoverStamina(System.Single)
   name: RecoverStamina(Single)
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RecoverStamina_System_Single_
@@ -10999,6 +10999,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.Instance
   nameWithType: SoundManager.Instance
+- uid: CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx(System.String)
+  name: IsPlayingStaminaSfx(String)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_IsPlayingStaminaSfx_System_String_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx(System.String)
+  fullName: CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx(System.String)
+  nameWithType: SoundManager.IsPlayingStaminaSfx(String)
+- uid: CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx*
+  name: IsPlayingStaminaSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_IsPlayingStaminaSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx
+  nameWithType: SoundManager.IsPlayingStaminaSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.PlayCharacterActionSfx(Vector3,System.String,System.Boolean)
   name: PlayCharacterActionSfx(Vector3, String, Boolean)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayCharacterActionSfx_Vector3_System_String_System_Boolean_
