@@ -840,6 +840,12 @@ references:
   commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.None
   fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.None
   nameWithType: CharacterActionType.None
+- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Spawn
+  name: Spawn
+  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Spawn
+  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Spawn
+  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Spawn
+  nameWithType: CharacterActionType.Spawn
 - uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Throw
   name: Throw
   href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Throw
@@ -1222,6 +1228,12 @@ references:
   commentId: F:CatchIo.Runtime.Character.Character.OnRespawn
   fullName: CatchIo.Runtime.Character.Character.OnRespawn
   nameWithType: Character.OnRespawn
+- uid: CatchIo.Runtime.Character.Character.OnSpawn
+  name: OnSpawn
+  href: api/CatchIo.Runtime.Character.Character.html#CatchIo_Runtime_Character_Character_OnSpawn
+  commentId: F:CatchIo.Runtime.Character.Character.OnSpawn
+  fullName: CatchIo.Runtime.Character.Character.OnSpawn
+  nameWithType: Character.OnSpawn
 - uid: CatchIo.Runtime.Character.Character.PickupItem(System.Int32)
   name: PickupItem(Int32)
   href: api/CatchIo.Runtime.Character.Character.html#CatchIo_Runtime_Character_Character_PickupItem_System_Int32_
@@ -2073,6 +2085,51 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDiscardState.ExitState
   nameWithType: CharacterDiscardState.ExitState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState
+  name: CharacterSpawnState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.html
+  commentId: T:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState
+  nameWithType: CharacterSpawnState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  name: CharacterSpawnState(CharacterStateMachine, CharacterStateFactory)
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterSpawnState__ctor_CatchIo_Runtime_Character_FSM_CharacterStateMachine_CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.CharacterSpawnState(CatchIo.Runtime.Character.FSM.CharacterStateMachine, CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  nameWithType: CharacterSpawnState.CharacterSpawnState(CharacterStateMachine, CharacterStateFactory)
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.#ctor*
+  name: CharacterSpawnState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterSpawnState__ctor_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.CharacterSpawnState
+  nameWithType: CharacterSpawnState.CharacterSpawnState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.EnterState
+  name: EnterState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterSpawnState_EnterState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.EnterState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.EnterState()
+  nameWithType: CharacterSpawnState.EnterState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.EnterState*
+  name: EnterState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterSpawnState_EnterState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.EnterState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.EnterState
+  nameWithType: CharacterSpawnState.EnterState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.ExitState
+  name: ExitState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterSpawnState_ExitState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.ExitState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.ExitState()
+  nameWithType: CharacterSpawnState.ExitState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.ExitState*
+  name: ExitState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterSpawnState_ExitState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.ExitState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterSpawnState.ExitState
+  nameWithType: CharacterSpawnState.ExitState
 - uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterThrowState
   name: CharacterThrowState
   href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterThrowState.html
@@ -2330,6 +2387,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.SneakStatic
   nameWithType: CharacterStateFactory.SneakStatic
+- uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Spawn
+  name: Spawn()
+  href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_Spawn
+  commentId: M:CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Spawn
+  fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Spawn()
+  nameWithType: CharacterStateFactory.Spawn()
+- uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Spawn*
+  name: Spawn
+  href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_Spawn_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Spawn
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Spawn
+  nameWithType: CharacterStateFactory.Spawn
 - uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Spectate
   name: Spectate()
   href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_Spectate
@@ -10605,6 +10675,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Services.LoadingScreenService.Require
   nameWithType: LoadingScreenService.Require
+- uid: CatchIo.Runtime.Services.LoadingScreenService.WaitForLoadingEnd
+  name: WaitForLoadingEnd()
+  href: api/CatchIo.Runtime.Services.LoadingScreenService.html#CatchIo_Runtime_Services_LoadingScreenService_WaitForLoadingEnd
+  commentId: M:CatchIo.Runtime.Services.LoadingScreenService.WaitForLoadingEnd
+  fullName: CatchIo.Runtime.Services.LoadingScreenService.WaitForLoadingEnd()
+  nameWithType: LoadingScreenService.WaitForLoadingEnd()
+- uid: CatchIo.Runtime.Services.LoadingScreenService.WaitForLoadingEnd*
+  name: WaitForLoadingEnd
+  href: api/CatchIo.Runtime.Services.LoadingScreenService.html#CatchIo_Runtime_Services_LoadingScreenService_WaitForLoadingEnd_
+  commentId: Overload:CatchIo.Runtime.Services.LoadingScreenService.WaitForLoadingEnd
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.LoadingScreenService.WaitForLoadingEnd
+  nameWithType: LoadingScreenService.WaitForLoadingEnd
 - uid: CatchIo.Runtime.Services.NetworkService
   name: NetworkService
   href: api/CatchIo.Runtime.Services.NetworkService.html
@@ -11025,6 +11108,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.PlayCharacterActionSfx
   nameWithType: SoundManager.PlayCharacterActionSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayCharacterSpawnSfx(Vector3,System.String,System.Single)
+  name: PlayCharacterSpawnSfx(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayCharacterSpawnSfx_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.PlayCharacterSpawnSfx(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayCharacterSpawnSfx(Vector3, System.String, System.Single)
+  nameWithType: SoundManager.PlayCharacterSpawnSfx(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayCharacterSpawnSfx*
+  name: PlayCharacterSpawnSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayCharacterSpawnSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.PlayCharacterSpawnSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayCharacterSpawnSfx
+  nameWithType: SoundManager.PlayCharacterSpawnSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.PlayFootstepSfx(Vector3,System.String,CharacterMoveType)
   name: PlayFootstepSfx(Vector3, String, CharacterMoveType)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayFootstepSfx_Vector3_System_String_CharacterMoveType_
@@ -11142,6 +11238,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.StopStaminaSfx
   nameWithType: SoundManager.StopStaminaSfx
+- uid: CatchIo.Runtime.Sound.SpawnSfx
+  name: SpawnSfx
+  href: api/CatchIo.Runtime.Sound.SpawnSfx.html
+  commentId: T:CatchIo.Runtime.Sound.SpawnSfx
+  fullName: CatchIo.Runtime.Sound.SpawnSfx
+  nameWithType: SpawnSfx
+- uid: CatchIo.Runtime.Sound.SpawnSfx.#ctor
+  name: SpawnSfx()
+  href: api/CatchIo.Runtime.Sound.SpawnSfx.html#CatchIo_Runtime_Sound_SpawnSfx__ctor
+  commentId: M:CatchIo.Runtime.Sound.SpawnSfx.#ctor
+  fullName: CatchIo.Runtime.Sound.SpawnSfx.SpawnSfx()
+  nameWithType: SpawnSfx.SpawnSfx()
+- uid: CatchIo.Runtime.Sound.SpawnSfx.#ctor*
+  name: SpawnSfx
+  href: api/CatchIo.Runtime.Sound.SpawnSfx.html#CatchIo_Runtime_Sound_SpawnSfx__ctor_
+  commentId: Overload:CatchIo.Runtime.Sound.SpawnSfx.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SpawnSfx.SpawnSfx
+  nameWithType: SpawnSfx.SpawnSfx
+- uid: CatchIo.Runtime.Sound.SpawnSfx.Play(Vector3,System.String,System.Single)
+  name: Play(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.SpawnSfx.html#CatchIo_Runtime_Sound_SpawnSfx_Play_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SpawnSfx.Play(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.SpawnSfx.Play(Vector3, System.String, System.Single)
+  nameWithType: SpawnSfx.Play(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.SpawnSfx.Play*
+  name: Play
+  href: api/CatchIo.Runtime.Sound.SpawnSfx.html#CatchIo_Runtime_Sound_SpawnSfx_Play_
+  commentId: Overload:CatchIo.Runtime.Sound.SpawnSfx.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SpawnSfx.Play
+  nameWithType: SpawnSfx.Play
 - uid: CatchIo.Runtime.Sound.StaminaSfx
   name: StaminaSfx
   href: api/CatchIo.Runtime.Sound.StaminaSfx.html
