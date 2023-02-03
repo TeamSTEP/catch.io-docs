@@ -1212,7 +1212,7 @@
   "api/CatchIo.Runtime.Sound.StaminaSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.StaminaSfx.html",
     "title": "Class StaminaSfx | Catch.io Developer Reference",
-    "keywords": "Class StaminaSfx Inheritance Object Sfx StaminaSfx Inherited Members Sfx.EventInstance Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class StaminaSfx : Sfx Properties CurrentState Declaration public string CurrentState { get; } Property Value Type Description String Methods IsPlaying() Declaration public bool IsPlaying() Returns Type Description Boolean Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string staminaStateType, float volume = 1F) Parameters Type Name Description Vector3 generatePos String staminaStateType Single volume Overrides Sfx.Play(Vector3, String, Single) Stop() Declaration public void Stop()"
+    "keywords": "Class StaminaSfx Inheritance Object Sfx StaminaSfx Inherited Members Sfx.EventInstance Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class StaminaSfx : Sfx Properties CurrentState Declaration public string CurrentState { get; } Property Value Type Description String Methods IsPlaying() Declaration public bool IsPlaying() Returns Type Description Boolean Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string staminaStateType = \"None\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String staminaStateType Single volume Overrides Sfx.Play(Vector3, String, Single) Stop() Declaration public void Stop()"
   },
   "api/CatchIo.Runtime.Sound.TerrainSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.TerrainSfx.html",
