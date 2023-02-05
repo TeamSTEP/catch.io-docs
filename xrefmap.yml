@@ -3050,19 +3050,6 @@ references:
   commentId: T:CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer
   fullName: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer
   nameWithType: CharacterHidingEffectPlayer
-- uid: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.CancelHidingEffect
-  name: CancelHidingEffect()
-  href: api/CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.html#CatchIo_Runtime_Character_Graphics_CharacterHidingEffectPlayer_CancelHidingEffect
-  commentId: M:CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.CancelHidingEffect
-  fullName: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.CancelHidingEffect()
-  nameWithType: CharacterHidingEffectPlayer.CancelHidingEffect()
-- uid: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.CancelHidingEffect*
-  name: CancelHidingEffect
-  href: api/CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.html#CatchIo_Runtime_Character_Graphics_CharacterHidingEffectPlayer_CancelHidingEffect_
-  commentId: Overload:CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.CancelHidingEffect
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.CancelHidingEffect
-  nameWithType: CharacterHidingEffectPlayer.CancelHidingEffect
 - uid: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.OnEvent(EventData)
   name: OnEvent(EventData)
   href: api/CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.html#CatchIo_Runtime_Character_Graphics_CharacterHidingEffectPlayer_OnEvent_EventData_
@@ -3095,6 +3082,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.PlayHidingEffectImmediately
   nameWithType: CharacterHidingEffectPlayer.PlayHidingEffectImmediately
+- uid: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.ReverseHidingEffect
+  name: ReverseHidingEffect()
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.html#CatchIo_Runtime_Character_Graphics_CharacterHidingEffectPlayer_ReverseHidingEffect
+  commentId: M:CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.ReverseHidingEffect
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.ReverseHidingEffect()
+  nameWithType: CharacterHidingEffectPlayer.ReverseHidingEffect()
+- uid: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.ReverseHidingEffect*
+  name: ReverseHidingEffect
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.html#CatchIo_Runtime_Character_Graphics_CharacterHidingEffectPlayer_ReverseHidingEffect_
+  commentId: Overload:CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.ReverseHidingEffect
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterHidingEffectPlayer.ReverseHidingEffect
+  nameWithType: CharacterHidingEffectPlayer.ReverseHidingEffect
 - uid: CatchIo.Runtime.Character.Graphics.CharacterMaskRenderer
   name: CharacterMaskRenderer
   href: api/CatchIo.Runtime.Character.Graphics.CharacterMaskRenderer.html
@@ -8130,19 +8130,6 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect
   fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect
   nameWithType: DisappearEffect
-- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel
-  name: Cancel()
-  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Cancel
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel
-  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel()
-  nameWithType: DisappearEffect.Cancel()
-- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel*
-  name: Cancel
-  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Cancel_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel
-  nameWithType: DisappearEffect.Cancel
 - uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.EffectExecutor
   name: EffectExecutor()
   href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_EffectExecutor
@@ -8195,32 +8182,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsPlaying
   nameWithType: DisappearEffect.IsPlaying
-- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize
-  name: OnAfterDeserialize()
-  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnAfterDeserialize
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize
-  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize()
-  nameWithType: DisappearEffect.OnAfterDeserialize()
-- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize*
-  name: OnAfterDeserialize
-  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnAfterDeserialize_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing
+  name: IsReversing
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_IsReversing
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing
+  nameWithType: DisappearEffect.IsReversing
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing*
+  name: IsReversing
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_IsReversing_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing
   isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize
-  nameWithType: DisappearEffect.OnAfterDeserialize
-- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize
-  name: OnBeforeSerialize()
-  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnBeforeSerialize
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize
-  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize()
-  nameWithType: DisappearEffect.OnBeforeSerialize()
-- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize*
-  name: OnBeforeSerialize
-  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnBeforeSerialize_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize
-  nameWithType: DisappearEffect.OnBeforeSerialize
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing
+  nameWithType: DisappearEffect.IsReversing
 - uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Play(IEffectPlayable,Renderer)
   name: Play(IEffectPlayable, Renderer)
   href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Play_IEffectPlayable_Renderer_
@@ -8234,12 +8208,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Play
   nameWithType: DisappearEffect.Play
-- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately
-  name: PlayImmediately()
-  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_PlayImmediately
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately
-  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately()
-  nameWithType: DisappearEffect.PlayImmediately()
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately(Renderer)
+  name: PlayImmediately(Renderer)
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_PlayImmediately_Renderer_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately(Renderer)
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately(Renderer)
+  nameWithType: DisappearEffect.PlayImmediately(Renderer)
 - uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately*
   name: PlayImmediately
   href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_PlayImmediately_
@@ -8273,6 +8247,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Reverse
   nameWithType: DisappearEffect.Reverse
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately(Renderer)
+  name: ReverseImmediately(Renderer)
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_ReverseImmediately_Renderer_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately(Renderer)
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately(Renderer)
+  nameWithType: DisappearEffect.ReverseImmediately(Renderer)
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately*
+  name: ReverseImmediately
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_ReverseImmediately_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately
+  nameWithType: DisappearEffect.ReverseImmediately
 - uid: CatchIo.Runtime.ScriptableObjects.Effects.DissolveEffect
   name: DissolveEffect
   href: api/CatchIo.Runtime.ScriptableObjects.Effects.DissolveEffect.html
@@ -12293,189 +12280,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.Extensions.Vector3Extensions.ToVector3Int
   nameWithType: Vector3Extensions.ToVector3Int
-- uid: CatchIo.Runtime.Utility.GizmoHelper
-  name: GizmoHelper
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html
-  commentId: T:CatchIo.Runtime.Utility.GizmoHelper
-  fullName: CatchIo.Runtime.Utility.GizmoHelper
-  nameWithType: GizmoHelper
-- uid: CatchIo.Runtime.Utility.GizmoHelper.Awake
-  name: Awake()
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_Awake
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.Awake
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.Awake()
-  nameWithType: GizmoHelper.Awake()
-- uid: CatchIo.Runtime.Utility.GizmoHelper.Awake*
-  name: Awake
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_Awake_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.Awake
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.Awake
-  nameWithType: GizmoHelper.Awake
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawCircle(Vector3,System.Single,Color,System.Single)
-  name: DrawCircle(Vector3, Single, Color, Single)
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawCircle_Vector3_System_Single_Color_System_Single_
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.DrawCircle(Vector3,System.Single,Color,System.Single)
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawCircle(Vector3, System.Single, Color, System.Single)
-  nameWithType: GizmoHelper.DrawCircle(Vector3, Single, Color, Single)
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawCircle(Vector3,System.Single,Quaternion,Color,System.Single)
-  name: DrawCircle(Vector3, Single, Quaternion, Color, Single)
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawCircle_Vector3_System_Single_Quaternion_Color_System_Single_
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.DrawCircle(Vector3,System.Single,Quaternion,Color,System.Single)
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawCircle(Vector3, System.Single, Quaternion, Color, System.Single)
-  nameWithType: GizmoHelper.DrawCircle(Vector3, Single, Quaternion, Color, Single)
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawCircle*
-  name: DrawCircle
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawCircle_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.DrawCircle
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawCircle
-  nameWithType: GizmoHelper.DrawCircle
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawCone(Vector3,Quaternion,System.Single,System.Single,System.Single)
-  name: DrawCone(Vector3, Quaternion, Single, Single, Single)
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawCone_Vector3_Quaternion_System_Single_System_Single_System_Single_
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.DrawCone(Vector3,Quaternion,System.Single,System.Single,System.Single)
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawCone(Vector3, Quaternion, System.Single, System.Single, System.Single)
-  nameWithType: GizmoHelper.DrawCone(Vector3, Quaternion, Single, Single, Single)
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawCone*
-  name: DrawCone
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawCone_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.DrawCone
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawCone
-  nameWithType: GizmoHelper.DrawCone
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawLine(Vector3,Vector3,Color,System.Single)
-  name: DrawLine(Vector3, Vector3, Color, Single)
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawLine_Vector3_Vector3_Color_System_Single_
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.DrawLine(Vector3,Vector3,Color,System.Single)
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawLine(Vector3, Vector3, Color, System.Single)
-  nameWithType: GizmoHelper.DrawLine(Vector3, Vector3, Color, Single)
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawLine*
-  name: DrawLine
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawLine_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.DrawLine
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawLine
-  nameWithType: GizmoHelper.DrawLine
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawRectangle(Vector3,Vector2,System.Single,Color,System.Single)
-  name: DrawRectangle(Vector3, Vector2, Single, Color, Single)
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawRectangle_Vector3_Vector2_System_Single_Color_System_Single_
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.DrawRectangle(Vector3,Vector2,System.Single,Color,System.Single)
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawRectangle(Vector3, Vector2, System.Single, Color, System.Single)
-  nameWithType: GizmoHelper.DrawRectangle(Vector3, Vector2, Single, Color, Single)
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawRectangle*
-  name: DrawRectangle
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawRectangle_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.DrawRectangle
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawRectangle
-  nameWithType: GizmoHelper.DrawRectangle
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawSphere(Vector3,System.Single,Color,System.Single)
-  name: DrawSphere(Vector3, Single, Color, Single)
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawSphere_Vector3_System_Single_Color_System_Single_
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.DrawSphere(Vector3,System.Single,Color,System.Single)
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawSphere(Vector3, System.Single, Color, System.Single)
-  nameWithType: GizmoHelper.DrawSphere(Vector3, Single, Color, Single)
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawSphere*
-  name: DrawSphere
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_DrawSphere_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.DrawSphere
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawSphere
-  nameWithType: GizmoHelper.DrawSphere
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawType
-  name: GizmoHelper.DrawType
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.DrawType.html
-  commentId: T:CatchIo.Runtime.Utility.GizmoHelper.DrawType
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawType
-  nameWithType: GizmoHelper.DrawType
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawType.Line
-  name: Line
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.DrawType.html#CatchIo_Runtime_Utility_GizmoHelper_DrawType_Line
-  commentId: F:CatchIo.Runtime.Utility.GizmoHelper.DrawType.Line
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawType.Line
-  nameWithType: GizmoHelper.DrawType.Line
-- uid: CatchIo.Runtime.Utility.GizmoHelper.DrawType.Point
-  name: Point
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.DrawType.html#CatchIo_Runtime_Utility_GizmoHelper_DrawType_Point
-  commentId: F:CatchIo.Runtime.Utility.GizmoHelper.DrawType.Point
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.DrawType.Point
-  nameWithType: GizmoHelper.DrawType.Point
-- uid: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem
-  name: GizmoHelper.GizmoItem
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.html
-  commentId: T:CatchIo.Runtime.Utility.GizmoHelper.GizmoItem
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem
-  nameWithType: GizmoHelper.GizmoItem
-- uid: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Color
-  name: Color
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.html#CatchIo_Runtime_Utility_GizmoHelper_GizmoItem_Color
-  commentId: F:CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Color
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Color
-  nameWithType: GizmoHelper.GizmoItem.Color
-- uid: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.DrawedTime
-  name: DrawedTime
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.html#CatchIo_Runtime_Utility_GizmoHelper_GizmoItem_DrawedTime
-  commentId: F:CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.DrawedTime
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.DrawedTime
-  nameWithType: GizmoHelper.GizmoItem.DrawedTime
-- uid: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Duration
-  name: Duration
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.html#CatchIo_Runtime_Utility_GizmoHelper_GizmoItem_Duration
-  commentId: F:CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Duration
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Duration
-  nameWithType: GizmoHelper.GizmoItem.Duration
-- uid: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Points
-  name: Points
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.html#CatchIo_Runtime_Utility_GizmoHelper_GizmoItem_Points
-  commentId: F:CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Points
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Points
-  nameWithType: GizmoHelper.GizmoItem.Points
-- uid: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Type
-  name: Type
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.html#CatchIo_Runtime_Utility_GizmoHelper_GizmoItem_Type
-  commentId: F:CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Type
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.GizmoItem.Type
-  nameWithType: GizmoHelper.GizmoItem.Type
-- uid: CatchIo.Runtime.Utility.GizmoHelper.Instance
-  name: Instance
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_Instance
-  commentId: P:CatchIo.Runtime.Utility.GizmoHelper.Instance
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.Instance
-  nameWithType: GizmoHelper.Instance
-- uid: CatchIo.Runtime.Utility.GizmoHelper.Instance*
-  name: Instance
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_Instance_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.Instance
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.Instance
-  nameWithType: GizmoHelper.Instance
-- uid: CatchIo.Runtime.Utility.GizmoHelper.OnDrawGizmos
-  name: OnDrawGizmos()
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_OnDrawGizmos
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.OnDrawGizmos
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.OnDrawGizmos()
-  nameWithType: GizmoHelper.OnDrawGizmos()
-- uid: CatchIo.Runtime.Utility.GizmoHelper.OnDrawGizmos*
-  name: OnDrawGizmos
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_OnDrawGizmos_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.OnDrawGizmos
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.OnDrawGizmos
-  nameWithType: GizmoHelper.OnDrawGizmos
-- uid: CatchIo.Runtime.Utility.GizmoHelper.SetSingleton(CatchIo.Runtime.Utility.GizmoHelper)
-  name: SetSingleton(GizmoHelper)
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_SetSingleton_CatchIo_Runtime_Utility_GizmoHelper_
-  commentId: M:CatchIo.Runtime.Utility.GizmoHelper.SetSingleton(CatchIo.Runtime.Utility.GizmoHelper)
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.SetSingleton(CatchIo.Runtime.Utility.GizmoHelper)
-  nameWithType: GizmoHelper.SetSingleton(GizmoHelper)
-- uid: CatchIo.Runtime.Utility.GizmoHelper.SetSingleton*
-  name: SetSingleton
-  href: api/CatchIo.Runtime.Utility.GizmoHelper.html#CatchIo_Runtime_Utility_GizmoHelper_SetSingleton_
-  commentId: Overload:CatchIo.Runtime.Utility.GizmoHelper.SetSingleton
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.GizmoHelper.SetSingleton
-  nameWithType: GizmoHelper.SetSingleton
 - uid: CatchIo.Runtime.Utility.MathHelper
   name: MathHelper
   href: api/CatchIo.Runtime.Utility.MathHelper.html
@@ -12521,6 +12325,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.MathHelper.GetAngle
   nameWithType: MathHelper.GetAngle
+- uid: CatchIo.Runtime.Utility.MathHelper.GetCentroidOfPolygon(List{Vector2})
+  name: GetCentroidOfPolygon(List<Vector2>)
+  href: api/CatchIo.Runtime.Utility.MathHelper.html#CatchIo_Runtime_Utility_MathHelper_GetCentroidOfPolygon_List_Vector2__
+  commentId: M:CatchIo.Runtime.Utility.MathHelper.GetCentroidOfPolygon(List{Vector2})
+  name.vb: GetCentroidOfPolygon(List(Of Vector2))
+  fullName: CatchIo.Runtime.Utility.MathHelper.GetCentroidOfPolygon(List<Vector2>)
+  fullName.vb: CatchIo.Runtime.Utility.MathHelper.GetCentroidOfPolygon(List(Of Vector2))
+  nameWithType: MathHelper.GetCentroidOfPolygon(List<Vector2>)
+  nameWithType.vb: MathHelper.GetCentroidOfPolygon(List(Of Vector2))
+- uid: CatchIo.Runtime.Utility.MathHelper.GetCentroidOfPolygon*
+  name: GetCentroidOfPolygon
+  href: api/CatchIo.Runtime.Utility.MathHelper.html#CatchIo_Runtime_Utility_MathHelper_GetCentroidOfPolygon_
+  commentId: Overload:CatchIo.Runtime.Utility.MathHelper.GetCentroidOfPolygon
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.MathHelper.GetCentroidOfPolygon
+  nameWithType: MathHelper.GetCentroidOfPolygon
 - uid: CatchIo.Runtime.Utility.MathHelper.GetIntAngle(System.Int32)
   name: GetIntAngle(Int32)
   href: api/CatchIo.Runtime.Utility.MathHelper.html#CatchIo_Runtime_Utility_MathHelper_GetIntAngle_System_Int32_
@@ -12588,15 +12408,15 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.PolygonHelper.CalculatePolygonArea
   nameWithType: PolygonHelper.CalculatePolygonArea
-- uid: CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List{Vector2},Color)
-  name: DisplayPolygon(List<Vector2>, Color)
-  href: api/CatchIo.Runtime.Utility.PolygonHelper.html#CatchIo_Runtime_Utility_PolygonHelper_DisplayPolygon_List_Vector2__Color_
-  commentId: M:CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List{Vector2},Color)
-  name.vb: DisplayPolygon(List(Of Vector2), Color)
-  fullName: CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List<Vector2>, Color)
-  fullName.vb: CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List(Of Vector2), Color)
-  nameWithType: PolygonHelper.DisplayPolygon(List<Vector2>, Color)
-  nameWithType.vb: PolygonHelper.DisplayPolygon(List(Of Vector2), Color)
+- uid: CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List{Vector2})
+  name: DisplayPolygon(List<Vector2>)
+  href: api/CatchIo.Runtime.Utility.PolygonHelper.html#CatchIo_Runtime_Utility_PolygonHelper_DisplayPolygon_List_Vector2__
+  commentId: M:CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List{Vector2})
+  name.vb: DisplayPolygon(List(Of Vector2))
+  fullName: CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List<Vector2>)
+  fullName.vb: CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon(List(Of Vector2))
+  nameWithType: PolygonHelper.DisplayPolygon(List<Vector2>)
+  nameWithType.vb: PolygonHelper.DisplayPolygon(List(Of Vector2))
 - uid: CatchIo.Runtime.Utility.PolygonHelper.DisplayPolygon*
   name: DisplayPolygon
   href: api/CatchIo.Runtime.Utility.PolygonHelper.html#CatchIo_Runtime_Utility_PolygonHelper_DisplayPolygon_
@@ -12620,22 +12440,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.PolygonHelper.GetClippedPolygonResult
   nameWithType: PolygonHelper.GetClippedPolygonResult
-- uid: CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesAntiClockwise(List{Vector2})
-  name: GetPolygonVerticesAntiClockwise(List<Vector2>)
-  href: api/CatchIo.Runtime.Utility.PolygonHelper.html#CatchIo_Runtime_Utility_PolygonHelper_GetPolygonVerticesAntiClockwise_List_Vector2__
-  commentId: M:CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesAntiClockwise(List{Vector2})
-  name.vb: GetPolygonVerticesAntiClockwise(List(Of Vector2))
-  fullName: CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesAntiClockwise(List<Vector2>)
-  fullName.vb: CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesAntiClockwise(List(Of Vector2))
-  nameWithType: PolygonHelper.GetPolygonVerticesAntiClockwise(List<Vector2>)
-  nameWithType.vb: PolygonHelper.GetPolygonVerticesAntiClockwise(List(Of Vector2))
-- uid: CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesAntiClockwise*
-  name: GetPolygonVerticesAntiClockwise
-  href: api/CatchIo.Runtime.Utility.PolygonHelper.html#CatchIo_Runtime_Utility_PolygonHelper_GetPolygonVerticesAntiClockwise_
-  commentId: Overload:CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesAntiClockwise
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesAntiClockwise
-  nameWithType: PolygonHelper.GetPolygonVerticesAntiClockwise
 - uid: CatchIo.Runtime.Utility.PolygonHelper.GetPolygonVerticesClockwise(List{Vector2})
   name: GetPolygonVerticesClockwise(List<Vector2>)
   href: api/CatchIo.Runtime.Utility.PolygonHelper.html#CatchIo_Runtime_Utility_PolygonHelper_GetPolygonVerticesClockwise_List_Vector2__

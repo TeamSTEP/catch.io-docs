@@ -91,10 +91,6 @@
     <div class="level1"><a class="xref" href="CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.html">EffectBase</a></div>
     <div class="level2"><span class="xref">DisappearEffect</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">ISerializationCallbackReceiver</span></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -171,18 +167,33 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Cancel_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel*"></a>
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Cancel" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Cancel">Cancel()</h4>
+  <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_IsReversing_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_IsReversing" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.IsReversing">IsReversing</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsReversing { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
   <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_EffectExecutor_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.EffectExecutor*"></a>
@@ -239,26 +250,6 @@
   <div><a class="xref" href="CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.html#CatchIo_Runtime_ScriptableObjects_Effects_EffectBase_EffectReverser">EffectBase.EffectReverser()</a></div>
   
   
-  <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnAfterDeserialize_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize*"></a>
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnAfterDeserialize" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnAfterDeserialize">OnAfterDeserialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnBeforeSerialize_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize*"></a>
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_OnBeforeSerialize" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.OnBeforeSerialize">OnBeforeSerialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
-  </div>
-  
-  
   <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Play_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Play*"></a>
   <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Play_IEffectPlayable_Renderer_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Play(IEffectPlayable,Renderer)">Play(IEffectPlayable, Renderer)</h4>
   <div class="markdown level1 summary"></div>
@@ -294,13 +285,30 @@
   
   
   <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_PlayImmediately_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately*"></a>
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_PlayImmediately" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately">PlayImmediately()</h4>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_PlayImmediately_Renderer_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.PlayImmediately(Renderer)">PlayImmediately(Renderer)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayImmediately()</code></pre>
+    <pre><code class="lang-csharp hljs">public void PlayImmediately(Renderer renderer)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_Reset_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.Reset*"></a>
@@ -345,10 +353,33 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="CatchIo.Runtime.ScriptableObjects.Effects.EffectBase.html#CatchIo_Runtime_ScriptableObjects_Effects_EffectBase_Reverse_IEffectPlayable_Renderer_">EffectBase.Reverse(IEffectPlayable, Renderer)</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">ISerializationCallbackReceiver</span>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_ReverseImmediately_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Effects_DisappearEffect_ReverseImmediately_Renderer_" data-uid="CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.ReverseImmediately(Renderer)">ReverseImmediately(Renderer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReverseImmediately(Renderer renderer)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
