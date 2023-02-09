@@ -79,28 +79,120 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="game-mode-design">Game mode design</h1>
 
-<p>This chapter will explain how to make the game mode and how to implement the game mode. The game mode is a core system of our project.</p>
-<h2 id="game-mode-structure">Game mode structure</h2>
-<p>The game mode is scriptable object and a game session require the game mode that the host(room master) selected.
-<a href="https://mermaid.live/edit#pako:eNptUsFOwzAM_ZUo4tDC-IHeYEzTJAZIBXHpxTRuF9EmVeIC07R9OyZdM1YtlyR-79lPtneytAplJssGvH_QUDtoCyP4hIhYQotrpuyGoBA32pBYw89LA1t0c9sbitB8Aw5KQpcTUO_F5B95VWOBQmoGHL3qFl0EP6xtxBxM3sG3WRG2EXnUng4x5-GU3p9TBmv3fVUdxOnNpJF2G2qsfHSAKkIXvF3AFg10HtWAxupBkaTx_9YpIEzS6xi5817XJthJpt3y4Ur_5TtzmKTiz3YEl0jv2hh0nP_Uion2-WvAp8pxrCvDVU2JiSenTS1ajj0xll7FyQ-y_agejpxJnlkLWvHuhN0oJG2QuyEzfipwn4UszJ55fWjCQmmyTmYVNB5nEnqy-daUMiPX40g67t-Rtf8FACjYPg"><img src="https://mermaid.ink/img/pako:eNptUsFOwzAM_ZUo4tDC-IHeYEzTJAZIBXHpxTRuF9EmVeIC07R9OyZdM1YtlyR-79lPtneytAplJssGvH_QUDtoCyP4hIhYQotrpuyGoBA32pBYw89LA1t0c9sbitB8Aw5KQpcTUO_F5B95VWOBQmoGHL3qFl0EP6xtxBxM3sG3WRG2EXnUng4x5-GU3p9TBmv3fVUdxOnNpJF2G2qsfHSAKkIXvF3AFg10HtWAxupBkaTx_9YpIEzS6xi5817XJthJpt3y4Ur_5TtzmKTiz3YEl0jv2hh0nP_Uion2-WvAp8pxrCvDVU2JiSenTS1ajj0xll7FyQ-y_agejpxJnlkLWvHuhN0oJG2QuyEzfipwn4UszJ55fWjCQmmyTmYVNB5nEnqy-daUMiPX40g67t-Rtf8FACjYPg" alt=""></a></p>
-<p><br>
-<br></p>
-<h2 id="how-to-make-the-game-mode">How to make the game mode</h2>
-<p>If you want to make a new game mode, you have to inherit the <code>GameMode</code> class. (You have to create game mode instance on <em>Resources/ScriptableObjects/GameMode</em> directory)</p>
-<p>For example,</p>
-<pre><code>[CreateAssetMenu(fileName = &quot;GameModeName&quot;, 
-menuName&quot;GameMode/GameModeName&quot;, order = 0)]
-    public class NewGameMode : GameMode
+<p>This chapter will explain how to make the game mode and how to implement the game mode.</p>
+<h2 id="what-is-the-game-mode-on-our-project">What is the game mode on our project?</h2>
+<p>The game mode is a core system of our project. The game mode will control everything related to game session. For example, spawning characters, loading game mode overlay, re-spawning characters, re-spawning items, etc...</p>
+<p>So how do we use the game mode that someone created?
+you can find the game modes in <code>Assets/ScriptableObjects/GameModes</code> folder.</p>
+<p><img src="../resources/game-mode/game-mode-asset-in-project.png" alt="Game Mode Assets In Project"></p>
+<h3 id="what-is-game-mode-container">What is Game mode Container?</h3>
+<p>The Game mode Container contains all game modes in <code>Assets/ScriptableObjects/GameModes</code> folder. Press the load button to contain game modes.</p>
+<p><img src="../resources/game-mode/game-mode-container.png" alt="Game Mode Container"></p>
+<p>The game mode container is using for UI and get Game mode using name(string).</p>
+<h2 id="how-to-edit-the-game-mode">How to edit the game mode?</h2>
+<p>Can open the game mode window editor with double click the game mode asset that you want to open.</p>
+<p><img src="../resources/game-mode/game-mode-window-editor.png" alt="Game Mode Window Editor"></p>
+<p>It&#39;s default game mode window editor. you can set the max players and overlay scene Game mode element You can add and remove Game mode element only here.</p>
+<h3 id="how-to-control-the-game-mode-element">How to control the Game mode Element?</h3>
+<p>Click the <code>Create Element</code> button located in the upper right corner.</p>
+<p><img src="../resources/game-mode/create-element-button.png" alt="Create Element Button"></p>
+<p>And select the element you want to add. The <code>Game mode Element</code> cannot be added in duplicate.</p>
+<p>It looks like a <code>Preload</code> element was added.</p>
+<p><img src="../resources/game-mode/game-mode-element-sample.png" alt="Create Element Button"></p>
+<p>You can set the Preload time and broadcast events and click the <code>Delete</code> button to remove by self.</p>
+<h3 id="how-does-it-work-in-code">How does it work in code?</h3>
+<p>The example code shows how to use <code>Game Mode element</code> in <code>Game Mode</code>.</p>
+<pre><code>// you have to set the create asset menu for this game mode.
+[CreateAssetMenu(fileName = &quot;NEW_GAME_MODE&quot;, menuName = &quot;ScriptableObject/GameMode/Mode/NEW_GAME_MODE&quot;, order = 0)]
+class NEW_GAME_MODE : GameMode
+{
+    // Let&#39;s load the Preload element in this example.
+    private Preload _preload;
+
+    override IEnumerator Initialize()
     {
-        ...
+        // initialize GameMode.
+        yield return base.Initialize();
+
+        // get preload element
+        _preload = (Preload)GetGameModeElement(typeof(Preload));
     }
-</code></pre><p><img src="../resources/game-mode-create.png" alt="game-mode-create">
-<br>
-<br></p>
-<p>And you have to add the game mode dropdown option.
-<img src="../resources/game-mode-dropdown.png" alt="game-mode-dropdown-hierarchy">
-<img src="../resources/game-mode-dropdown-option.png" alt="game-mode-dropdown-option"></p>
-</article>
+
+    override void StartGameMode()
+    {
+        // start game mode element
+        _preload.StartElement();
+        // add OnFinishedEvent
+        _preload.OnFinished.AddListener(OnPreloadFinished);
+    }
+
+    override void UpdateGameMode()
+    {
+        // update preload element
+        _preload.UpdateElement();
+    }
+
+    void OnPreloadFinished()
+    {
+        // start game mode timer or enable point text...
+    }
+}
+</code></pre><p>The example code shows how to create new <code>Game mode Element</code>.</p>
+<pre><code>
+// This sample game mode element will control item re-spawn.
+class ItemRespawn : GameModeElement, IOnEventCallback
+{
+    private ItemSpawnerController _itemSpawnerController
+
+    override void Initialize()
+    {
+        // find item spawner controller in current scene.
+        _itemSpawnerController = FindObjectOfType&lt;ItemSpawnerController&gt;();
+        // add photon callback target for IOnEventCallback.
+        PhotonNetwork.AddCallbackTarget(this);
+    }
+
+    override void Terminate()
+    {
+        _itemSpawnerController = null;
+        // remove photon callback target
+        PhotonNetwork.RemoveCallbackTarget(this);
+    }
+
+    override void StartElement() 
+    {
+        // do nothing.
+    }
+
+    override void UpdateElement() 
+    {
+        // do nothing.
+    }
+
+    void OnEvent(EventData photonEvent)
+    {
+        var eventCode = photonEvent.Code;
+        // we controls only ItemRespawnEvent and this event only received on master client.
+        if (eventCode != SendEventType.ItemRespawnEvent)
+        {
+            return;
+        }
+
+        var data = (object[])photonEvent.CustomData;
+
+        // convert received data[0] to spawner Id.
+        var spawnerId = (int)data[0];
+
+        // find spawner using spawner id.
+        var spawner = _itemSpawnerController.GetItemSpawner(spawnerId);
+        if (spawner != null)
+        {
+            // respawn item using found item spawner.
+            spawner.RespawnItem();
+        }
+    }
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

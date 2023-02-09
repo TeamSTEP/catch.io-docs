@@ -105,7 +105,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action OnFinished</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnFinished</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -117,7 +117,83 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Network_NetworkTimer_OnStarted" data-uid="CatchIo.Runtime.Network.NetworkTimer.OnStarted">OnStarted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnStarted</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Network_NetworkTimer_IsFinished_" data-uid="CatchIo.Runtime.Network.NetworkTimer.IsFinished*"></a>
+  <h4 id="CatchIo_Runtime_Network_NetworkTimer_IsFinished" data-uid="CatchIo.Runtime.Network.NetworkTimer.IsFinished">IsFinished</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFinished { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Network_NetworkTimer_IsStarted_" data-uid="CatchIo.Runtime.Network.NetworkTimer.IsStarted*"></a>
+  <h4 id="CatchIo_Runtime_Network_NetworkTimer_IsStarted" data-uid="CatchIo.Runtime.Network.NetworkTimer.IsStarted">IsStarted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStarted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -126,13 +202,13 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Network_NetworkTimer_GetCountDownTime_" data-uid="CatchIo.Runtime.Network.NetworkTimer.GetCountDownTime*"></a>
-  <h4 id="CatchIo_Runtime_Network_NetworkTimer_GetCountDownTime" data-uid="CatchIo.Runtime.Network.NetworkTimer.GetCountDownTime">GetCountDownTime()</h4>
+  <a id="CatchIo_Runtime_Network_NetworkTimer_GetRemainingTime_" data-uid="CatchIo.Runtime.Network.NetworkTimer.GetRemainingTime*"></a>
+  <h4 id="CatchIo_Runtime_Network_NetworkTimer_GetRemainingTime" data-uid="CatchIo.Runtime.Network.NetworkTimer.GetRemainingTime">GetRemainingTime()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double GetCountDownTime()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetRemainingTime()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,32 +220,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Network_NetworkTimer_GetTime_" data-uid="CatchIo.Runtime.Network.NetworkTimer.GetTime*"></a>
-  <h4 id="CatchIo_Runtime_Network_NetworkTimer_GetTime" data-uid="CatchIo.Runtime.Network.NetworkTimer.GetTime">GetTime()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double GetTime()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -251,12 +302,12 @@
   
   
   <a id="CatchIo_Runtime_Network_NetworkTimer_Start_" data-uid="CatchIo.Runtime.Network.NetworkTimer.Start*"></a>
-  <h4 id="CatchIo_Runtime_Network_NetworkTimer_Start_System_Double_" data-uid="CatchIo.Runtime.Network.NetworkTimer.Start(System.Double)">Start(Double)</h4>
+  <h4 id="CatchIo_Runtime_Network_NetworkTimer_Start_System_Single_" data-uid="CatchIo.Runtime.Network.NetworkTimer.Start(System.Single)">Start(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Start(double newTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Start(float newTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,7 +320,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">newTime</span></td>
         <td></td>
       </tr>
