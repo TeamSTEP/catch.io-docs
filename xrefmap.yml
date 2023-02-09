@@ -1260,6 +1260,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Character.Renderer
   nameWithType: Character.Renderer
+- uid: CatchIo.Runtime.Character.Character.Respawn(Vector3,System.Single,IntEventChannel)
+  name: Respawn(Vector3, Single, IntEventChannel)
+  href: api/CatchIo.Runtime.Character.Character.html#CatchIo_Runtime_Character_Character_Respawn_Vector3_System_Single_IntEventChannel_
+  commentId: M:CatchIo.Runtime.Character.Character.Respawn(Vector3,System.Single,IntEventChannel)
+  fullName: CatchIo.Runtime.Character.Character.Respawn(Vector3, System.Single, IntEventChannel)
+  nameWithType: Character.Respawn(Vector3, Single, IntEventChannel)
+- uid: CatchIo.Runtime.Character.Character.Respawn*
+  name: Respawn
+  href: api/CatchIo.Runtime.Character.Character.html#CatchIo_Runtime_Character_Character_Respawn_
+  commentId: Overload:CatchIo.Runtime.Character.Character.Respawn
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Character.Respawn
+  nameWithType: Character.Respawn
 - uid: CatchIo.Runtime.Character.Character.Status
   name: Status
   href: api/CatchIo.Runtime.Character.Character.html#CatchIo_Runtime_Character_Character_Status
@@ -4807,19 +4820,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Environment.CharacterSpawner.OnEvent
   nameWithType: CharacterSpawner.OnEvent
-- uid: CatchIo.Runtime.Environment.CharacterSpawner.RespawnCharacter(System.Int32,Vector3,System.Single)
-  name: RespawnCharacter(Int32, Vector3, Single)
-  href: api/CatchIo.Runtime.Environment.CharacterSpawner.html#CatchIo_Runtime_Environment_CharacterSpawner_RespawnCharacter_System_Int32_Vector3_System_Single_
-  commentId: M:CatchIo.Runtime.Environment.CharacterSpawner.RespawnCharacter(System.Int32,Vector3,System.Single)
-  fullName: CatchIo.Runtime.Environment.CharacterSpawner.RespawnCharacter(System.Int32, Vector3, System.Single)
-  nameWithType: CharacterSpawner.RespawnCharacter(Int32, Vector3, Single)
-- uid: CatchIo.Runtime.Environment.CharacterSpawner.RespawnCharacter*
-  name: RespawnCharacter
-  href: api/CatchIo.Runtime.Environment.CharacterSpawner.html#CatchIo_Runtime_Environment_CharacterSpawner_RespawnCharacter_
-  commentId: Overload:CatchIo.Runtime.Environment.CharacterSpawner.RespawnCharacter
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Environment.CharacterSpawner.RespawnCharacter
-  nameWithType: CharacterSpawner.RespawnCharacter
 - uid: CatchIo.Runtime.Environment.CharacterSpawner.SpawnCharacterOnOffline
   name: SpawnCharacterOnOffline()
   href: api/CatchIo.Runtime.Environment.CharacterSpawner.html#CatchIo_Runtime_Environment_CharacterSpawner_SpawnCharacterOnOffline
@@ -7228,6 +7228,18 @@ references:
   commentId: T:CatchIo.Runtime.Menu.UI.Updater.RoomTitleUpdater
   fullName: CatchIo.Runtime.Menu.UI.Updater.RoomTitleUpdater
   nameWithType: RoomTitleUpdater
+- uid: CatchIo.Runtime.Menu.UI.View
+  name: CatchIo.Runtime.Menu.UI.View
+  href: api/CatchIo.Runtime.Menu.UI.View.html
+  commentId: N:CatchIo.Runtime.Menu.UI.View
+  fullName: CatchIo.Runtime.Menu.UI.View
+  nameWithType: CatchIo.Runtime.Menu.UI.View
+- uid: CatchIo.Runtime.Menu.UI.View.RespawnView
+  name: RespawnView
+  href: api/CatchIo.Runtime.Menu.UI.View.RespawnView.html
+  commentId: T:CatchIo.Runtime.Menu.UI.View.RespawnView
+  fullName: CatchIo.Runtime.Menu.UI.View.RespawnView
+  nameWithType: RespawnView
 - uid: CatchIo.Runtime.Network
   name: CatchIo.Runtime.Network
   href: api/CatchIo.Runtime.Network.html
