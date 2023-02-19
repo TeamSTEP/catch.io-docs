@@ -79,29 +79,29 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="game-mode-design">Game mode design</h1>
 
-<p>This chapter will explain how to make the game mode and how to implement the game mode.</p>
-<h2 id="what-is-the-game-mode-on-our-project">What is the game mode on our project?</h2>
-<p>The game mode is a core system of our project. The game mode will control everything related to game session. For example, spawning characters, loading game mode overlay, re-spawning characters, re-spawning items, etc...</p>
+<p>This chapter will explain how to create and implement the game mode.</p>
+<h2 id="what-is-a-game-mode-in-our-project">What is a game mode in our project?</h2>
+<p>The game mode is the core system of our project. The game mode will control everything related to the game session. For example: spawning characters, loading game mode overlay, re-spawning characters, re-spawning items, etc...</p>
 <p>So how do we use the game mode that someone created?
-you can find the game modes in <code>Assets/ScriptableObjects/GameModes</code> folder.</p>
+you can find the game modes in the <code>Assets/ScriptableObjects/GameModes</code> folder.</p>
 <p><img src="../resources/game-mode/game-mode-asset-in-project.png" alt="Game Mode Assets In Project"></p>
-<h3 id="what-is-game-mode-container">What is Game mode Container?</h3>
-<p>The Game mode Container contains all game modes in <code>Assets/ScriptableObjects/GameModes</code> folder. Press the load button to contain game modes.</p>
+<h3 id="what-is-the-game-mode-container">What is the Game mode Container?</h3>
+<p>The Game mode Container contains all game modes in the <code>Assets/ScriptableObjects/GameModes</code> folder. Press the load button to add game modes to the container.</p>
 <p><img src="../resources/game-mode/game-mode-container.png" alt="Game Mode Container"></p>
-<p>The game mode container is using for UI and get Game mode using name(string).</p>
+<p>The game mode container is being used for UI and getting Game mode using name(string).</p>
 <h2 id="how-to-edit-the-game-mode">How to edit the game mode?</h2>
-<p>Can open the game mode window editor with double click the game mode asset that you want to open.</p>
+<p>Open the game mode window editor with a double click on the game mode asset that you want to open.</p>
 <p><img src="../resources/game-mode/game-mode-window-editor.png" alt="Game Mode Window Editor"></p>
-<p>It&#39;s default game mode window editor. you can set the max players and overlay scene Game mode element You can add and remove Game mode element only here.</p>
+<p>The default game mode window editor. You can set the max players and overlay the scene Game mode element. The only place to add and remove Game mode elements.</p>
 <h3 id="how-to-control-the-game-mode-element">How to control the Game mode Element?</h3>
 <p>Click the <code>Create Element</code> button located in the upper right corner.</p>
 <p><img src="../resources/game-mode/create-element-button.png" alt="Create Element Button"></p>
-<p>And select the element you want to add. The <code>Game mode Element</code> cannot be added in duplicate.</p>
+<p>And select the element you want to add. The <code>Game mode Element</code> cannot be duplicated.</p>
 <p>It looks like a <code>Preload</code> element was added.</p>
 <p><img src="../resources/game-mode/game-mode-element-sample.png" alt="Create Element Button"></p>
-<p>You can set the Preload time and broadcast events and click the <code>Delete</code> button to remove by self.</p>
+<p>You can set the Preload time and broadcast events and click the <code>Delete</code> button to remove by itself.</p>
 <h3 id="how-does-it-work-in-code">How does it work in code?</h3>
-<p>The example code shows how to use <code>Game Mode element</code> in <code>Game Mode</code>.</p>
+<p>The example code shows how to use the <code>Game Mode element</code> in <code>Game Mode</code>.</p>
 <pre><code>// you have to set the create asset menu for this game mode.
 [CreateAssetMenu(fileName = &quot;NEW_GAME_MODE&quot;, menuName = &quot;ScriptableObject/GameMode/Mode/NEW_GAME_MODE&quot;, order = 0)]
 class NEW_GAME_MODE : GameMode
