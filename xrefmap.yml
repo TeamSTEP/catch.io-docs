@@ -1554,6 +1554,12 @@ references:
   commentId: T:CatchIo.Runtime.Character.CharacterRotator
   fullName: CatchIo.Runtime.Character.CharacterRotator
   nameWithType: CharacterRotator
+- uid: CatchIo.Runtime.Character.CharacterSfxEmitter
+  name: CharacterSfxEmitter
+  href: api/CatchIo.Runtime.Character.CharacterSfxEmitter.html
+  commentId: T:CatchIo.Runtime.Character.CharacterSfxEmitter
+  fullName: CatchIo.Runtime.Character.CharacterSfxEmitter
+  nameWithType: CharacterSfxEmitter
 - uid: CatchIo.Runtime.Character.Detector
   name: CatchIo.Runtime.Character.Detector
   href: api/CatchIo.Runtime.Character.Detector.html
@@ -1770,6 +1776,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.Log
   nameWithType: CharacterStateMachine.Log
+- uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.OnFailedToChangeActionState
+  name: OnFailedToChangeActionState
+  href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_OnFailedToChangeActionState
+  commentId: F:CatchIo.Runtime.Character.FSM.CharacterStateMachine.OnFailedToChangeActionState
+  fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.OnFailedToChangeActionState
+  nameWithType: CharacterStateMachine.OnFailedToChangeActionState
 - uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousState
   name: PreviousState
   href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_PreviousState
@@ -7861,19 +7873,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
   nameWithType: CharacterStatus.Forward
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
-  name: HandleStaminaStateEffect()
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_HandleStaminaStateEffect
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect()
-  nameWithType: CharacterStatus.HandleStaminaStateEffect()
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect*
-  name: HandleStaminaStateEffect
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_HandleStaminaStateEffect_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HandleStaminaStateEffect
-  nameWithType: CharacterStatus.HandleStaminaStateEffect
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Health
   name: Health
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Health
@@ -7931,6 +7930,19 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsHiding
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsHiding
   nameWithType: CharacterStatus.IsHiding
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsLowStamina
+  name: IsLowStamina
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsLowStamina
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsLowStamina
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsLowStamina
+  nameWithType: CharacterStatus.IsLowStamina
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsLowStamina*
+  name: IsLowStamina
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsLowStamina_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsLowStamina
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsLowStamina
+  nameWithType: CharacterStatus.IsLowStamina
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsRecoveringStamina
   name: IsRecoveringStamina
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsRecoveringStamina
