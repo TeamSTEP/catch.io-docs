@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Character
+    <title>Class CharacterFacade
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Character
+    <meta name="title" content="Class CharacterFacade
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,29 +78,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Character">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.CharacterFacade">
   
   
-  <h1 id="CatchIo_Runtime_Character_Character" data-uid="CatchIo.Runtime.Character.Character" class="text-break">Class Character
+  <h1 id="CatchIo_Runtime_Character_CharacterFacade" data-uid="CatchIo.Runtime.Character.CharacterFacade" class="text-break">Class CharacterFacade
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Character</span></div>
+    <div class="level1"><span class="xref">CharacterFacade</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.html">CatchIo.Runtime.Character</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Character_Character_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Character_CharacterFacade_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Character : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterFacade : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Character_Character_ChestOffset" data-uid="CatchIo.Runtime.Character.Character.ChestOffset">ChestOffset</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_ChestOffset" data-uid="CatchIo.Runtime.Character.CharacterFacade.ChestOffset">ChestOffset</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -124,7 +124,7 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_Character_HeadUpOffset" data-uid="CatchIo.Runtime.Character.Character.HeadUpOffset">HeadUpOffset</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_HeadUpOffset" data-uid="CatchIo.Runtime.Character.CharacterFacade.HeadUpOffset">HeadUpOffset</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -148,7 +148,31 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_Character_OnDeath" data-uid="CatchIo.Runtime.Character.Character.OnDeath">OnDeath</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnCursed" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnCursed">OnCursed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;CharacterFacade&gt; OnCursed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnDeath" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnDeath">OnDeath</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -172,7 +196,31 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_Character_OnPickupItem" data-uid="CatchIo.Runtime.Character.Character.OnPickupItem">OnPickupItem</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnLiftCursed" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnLiftCursed">OnLiftCursed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;CharacterFacade&gt; OnLiftCursed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnPickupItem" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnPickupItem">OnPickupItem</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -196,7 +244,7 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_Character_OnRespawn" data-uid="CatchIo.Runtime.Character.Character.OnRespawn">OnRespawn</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnRespawn" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnRespawn">OnRespawn</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -220,7 +268,7 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_Character_OnSpawn" data-uid="CatchIo.Runtime.Character.Character.OnSpawn">OnSpawn</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnSpawn" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnSpawn">OnSpawn</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -246,8 +294,8 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_Character_Input_" data-uid="CatchIo.Runtime.Character.Character.Input*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_Input" data-uid="CatchIo.Runtime.Character.Character.Input">Input</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_Input_" data-uid="CatchIo.Runtime.Character.CharacterFacade.Input*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_Input" data-uid="CatchIo.Runtime.Character.CharacterFacade.Input">Input</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -271,8 +319,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_InventoryController_" data-uid="CatchIo.Runtime.Character.Character.InventoryController*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_InventoryController" data-uid="CatchIo.Runtime.Character.Character.InventoryController">InventoryController</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_InventoryController_" data-uid="CatchIo.Runtime.Character.CharacterFacade.InventoryController*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_InventoryController" data-uid="CatchIo.Runtime.Character.CharacterFacade.InventoryController">InventoryController</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -296,8 +344,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_IsConnectedNetwork_" data-uid="CatchIo.Runtime.Character.Character.IsConnectedNetwork*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_IsConnectedNetwork" data-uid="CatchIo.Runtime.Character.Character.IsConnectedNetwork">IsConnectedNetwork</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_IsConnectedNetwork_" data-uid="CatchIo.Runtime.Character.CharacterFacade.IsConnectedNetwork*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_IsConnectedNetwork" data-uid="CatchIo.Runtime.Character.CharacterFacade.IsConnectedNetwork">IsConnectedNetwork</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -321,8 +369,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_IsMine_" data-uid="CatchIo.Runtime.Character.Character.IsMine*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_IsMine" data-uid="CatchIo.Runtime.Character.Character.IsMine">IsMine</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_IsMine_" data-uid="CatchIo.Runtime.Character.CharacterFacade.IsMine*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_IsMine" data-uid="CatchIo.Runtime.Character.CharacterFacade.IsMine">IsMine</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -346,8 +394,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_NetworkPlayer_" data-uid="CatchIo.Runtime.Character.Character.NetworkPlayer*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_NetworkPlayer" data-uid="CatchIo.Runtime.Character.Character.NetworkPlayer">NetworkPlayer</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_NetworkPlayer_" data-uid="CatchIo.Runtime.Character.CharacterFacade.NetworkPlayer*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_NetworkPlayer" data-uid="CatchIo.Runtime.Character.CharacterFacade.NetworkPlayer">NetworkPlayer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -371,8 +419,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_Renderer_" data-uid="CatchIo.Runtime.Character.Character.Renderer*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_Renderer" data-uid="CatchIo.Runtime.Character.Character.Renderer">Renderer</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_Renderer_" data-uid="CatchIo.Runtime.Character.CharacterFacade.Renderer*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_Renderer" data-uid="CatchIo.Runtime.Character.CharacterFacade.Renderer">Renderer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -396,8 +444,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_Status_" data-uid="CatchIo.Runtime.Character.Character.Status*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_Status" data-uid="CatchIo.Runtime.Character.Character.Status">Status</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_Status_" data-uid="CatchIo.Runtime.Character.CharacterFacade.Status*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_Status" data-uid="CatchIo.Runtime.Character.CharacterFacade.Status">Status</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -421,8 +469,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_ViewID_" data-uid="CatchIo.Runtime.Character.Character.ViewID*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_ViewID" data-uid="CatchIo.Runtime.Character.Character.ViewID">ViewID</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_ViewID_" data-uid="CatchIo.Runtime.Character.CharacterFacade.ViewID*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_ViewID" data-uid="CatchIo.Runtime.Character.CharacterFacade.ViewID">ViewID</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -448,8 +496,8 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_Character_AddHealth_" data-uid="CatchIo.Runtime.Character.Character.AddHealth*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_AddHealth_System_Single_" data-uid="CatchIo.Runtime.Character.Character.AddHealth(System.Single)">AddHealth(Single)</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_AddHealth_" data-uid="CatchIo.Runtime.Character.CharacterFacade.AddHealth*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_AddHealth_System_Single_" data-uid="CatchIo.Runtime.Character.CharacterFacade.AddHealth(System.Single)">AddHealth(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -475,8 +523,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_AddStamina_" data-uid="CatchIo.Runtime.Character.Character.AddStamina*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_AddStamina_System_Single_" data-uid="CatchIo.Runtime.Character.Character.AddStamina(System.Single)">AddStamina(Single)</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_AddStamina_" data-uid="CatchIo.Runtime.Character.CharacterFacade.AddStamina*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_AddStamina_System_Single_" data-uid="CatchIo.Runtime.Character.CharacterFacade.AddStamina(System.Single)">AddStamina(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -502,8 +550,18 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_ConsumeItem_" data-uid="CatchIo.Runtime.Character.Character.ConsumeItem*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_ConsumeItem" data-uid="CatchIo.Runtime.Character.Character.ConsumeItem">ConsumeItem()</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_BeCursed_" data-uid="CatchIo.Runtime.Character.CharacterFacade.BeCursed*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_BeCursed" data-uid="CatchIo.Runtime.Character.CharacterFacade.BeCursed">BeCursed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BeCursed()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterFacade_ConsumeItem_" data-uid="CatchIo.Runtime.Character.CharacterFacade.ConsumeItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_ConsumeItem" data-uid="CatchIo.Runtime.Character.CharacterFacade.ConsumeItem">ConsumeItem()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -512,8 +570,18 @@
   </div>
   
   
-  <a id="CatchIo_Runtime_Character_Character_DiscardItem_" data-uid="CatchIo.Runtime.Character.Character.DiscardItem*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_DiscardItem" data-uid="CatchIo.Runtime.Character.Character.DiscardItem">DiscardItem()</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_DiscardAllItem_" data-uid="CatchIo.Runtime.Character.CharacterFacade.DiscardAllItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_DiscardAllItem" data-uid="CatchIo.Runtime.Character.CharacterFacade.DiscardAllItem">DiscardAllItem()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DiscardAllItem()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterFacade_DiscardItem_" data-uid="CatchIo.Runtime.Character.CharacterFacade.DiscardItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_DiscardItem" data-uid="CatchIo.Runtime.Character.CharacterFacade.DiscardItem">DiscardItem()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -522,8 +590,8 @@
   </div>
   
   
-  <a id="CatchIo_Runtime_Character_Character_EnterSpectate_" data-uid="CatchIo.Runtime.Character.Character.EnterSpectate*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_EnterSpectate" data-uid="CatchIo.Runtime.Character.Character.EnterSpectate">EnterSpectate()</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_EnterSpectate_" data-uid="CatchIo.Runtime.Character.CharacterFacade.EnterSpectate*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_EnterSpectate" data-uid="CatchIo.Runtime.Character.CharacterFacade.EnterSpectate">EnterSpectate()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -532,8 +600,8 @@
   </div>
   
   
-  <a id="CatchIo_Runtime_Character_Character_GenerateFootprint_" data-uid="CatchIo.Runtime.Character.Character.GenerateFootprint*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_GenerateFootprint_Vector3_System_Boolean_System_Single_" data-uid="CatchIo.Runtime.Character.Character.GenerateFootprint(Vector3,System.Boolean,System.Single)">GenerateFootprint(Vector3, Boolean, Single)</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_GenerateFootprint_" data-uid="CatchIo.Runtime.Character.CharacterFacade.GenerateFootprint*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_GenerateFootprint_Vector3_System_Boolean_System_Single_" data-uid="CatchIo.Runtime.Character.CharacterFacade.GenerateFootprint(Vector3,System.Boolean,System.Single)">GenerateFootprint(Vector3, Boolean, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -569,8 +637,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_GenerateSoundWave_" data-uid="CatchIo.Runtime.Character.Character.GenerateSoundWave*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_GenerateSoundWave_Vector3_System_Single_" data-uid="CatchIo.Runtime.Character.Character.GenerateSoundWave(Vector3,System.Single)">GenerateSoundWave(Vector3, Single)</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_GenerateSoundWave_" data-uid="CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_GenerateSoundWave_Vector3_System_Single_" data-uid="CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave(Vector3,System.Single)">GenerateSoundWave(Vector3, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -601,8 +669,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_GetCenterPosition_" data-uid="CatchIo.Runtime.Character.Character.GetCenterPosition*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_GetCenterPosition" data-uid="CatchIo.Runtime.Character.Character.GetCenterPosition">GetCenterPosition()</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_GetCenterPosition_" data-uid="CatchIo.Runtime.Character.CharacterFacade.GetCenterPosition*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_GetCenterPosition" data-uid="CatchIo.Runtime.Character.CharacterFacade.GetCenterPosition">GetCenterPosition()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -626,8 +694,18 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_PickupItem_" data-uid="CatchIo.Runtime.Character.Character.PickupItem*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_PickupItem_System_Int32_" data-uid="CatchIo.Runtime.Character.Character.PickupItem(System.Int32)">PickupItem(Int32)</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_LiftCursed_" data-uid="CatchIo.Runtime.Character.CharacterFacade.LiftCursed*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_LiftCursed" data-uid="CatchIo.Runtime.Character.CharacterFacade.LiftCursed">LiftCursed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LiftCursed()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterFacade_PickupItem_" data-uid="CatchIo.Runtime.Character.CharacterFacade.PickupItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_PickupItem_System_Int32_" data-uid="CatchIo.Runtime.Character.CharacterFacade.PickupItem(System.Int32)">PickupItem(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -653,8 +731,18 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_Respawn_" data-uid="CatchIo.Runtime.Character.Character.Respawn*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_Respawn_Vector3_System_Single_IntEventChannel_" data-uid="CatchIo.Runtime.Character.Character.Respawn(Vector3,System.Single,IntEventChannel)">Respawn(Vector3, Single, IntEventChannel)</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_PlayCursedEffect_" data-uid="CatchIo.Runtime.Character.CharacterFacade.PlayCursedEffect*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_PlayCursedEffect" data-uid="CatchIo.Runtime.Character.CharacterFacade.PlayCursedEffect">PlayCursedEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayCursedEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterFacade_Respawn_" data-uid="CatchIo.Runtime.Character.CharacterFacade.Respawn*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_Respawn_Vector3_System_Single_IntEventChannel_" data-uid="CatchIo.Runtime.Character.CharacterFacade.Respawn(Vector3,System.Single,IntEventChannel)">Respawn(Vector3, Single, IntEventChannel)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -690,13 +778,23 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_TakeDamage_" data-uid="CatchIo.Runtime.Character.Character.TakeDamage*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_TakeDamage_System_Int32_System_Single_" data-uid="CatchIo.Runtime.Character.Character.TakeDamage(System.Int32,System.Single)">TakeDamage(Int32, Single)</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_ReverseCursedEffect_" data-uid="CatchIo.Runtime.Character.CharacterFacade.ReverseCursedEffect*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_ReverseCursedEffect" data-uid="CatchIo.Runtime.Character.CharacterFacade.ReverseCursedEffect">ReverseCursedEffect()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage(int attackerViewID, float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ReverseCursedEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterFacade_TakeDamage_" data-uid="CatchIo.Runtime.Character.CharacterFacade.TakeDamage*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_TakeDamage_System_Single_" data-uid="CatchIo.Runtime.Character.CharacterFacade.TakeDamage(System.Single)">TakeDamage(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -709,11 +807,6 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">attackerViewID</span></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">damage</span></td>
         <td></td>
@@ -722,8 +815,8 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Character_ThrowItem_" data-uid="CatchIo.Runtime.Character.Character.ThrowItem*"></a>
-  <h4 id="CatchIo_Runtime_Character_Character_ThrowItem" data-uid="CatchIo.Runtime.Character.Character.ThrowItem">ThrowItem()</h4>
+  <a id="CatchIo_Runtime_Character_CharacterFacade_ThrowItem_" data-uid="CatchIo.Runtime.Character.CharacterFacade.ThrowItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_ThrowItem" data-uid="CatchIo.Runtime.Character.CharacterFacade.ThrowItem">ThrowItem()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

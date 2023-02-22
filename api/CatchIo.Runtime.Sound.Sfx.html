@@ -90,6 +90,7 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Sfx</span></div>
       <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.CharacterActionSfx.html">CharacterActionSfx</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.CursedOneSfx.html">CursedOneSfx</a></div>
       <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.ItemSfx.html">ItemSfx</a></div>
       <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.SpawnSfx.html">SpawnSfx</a></div>
       <div class="level2"><a class="xref" href="CatchIo.Runtime.Sound.StaminaSfx.html">StaminaSfx</a></div>
@@ -131,13 +132,38 @@
   </h3>
   
   
+  <a id="CatchIo_Runtime_Sound_Sfx_GetPlayBackState_" data-uid="CatchIo.Runtime.Sound.Sfx.GetPlayBackState*"></a>
+  <h4 id="CatchIo_Runtime_Sound_Sfx_GetPlayBackState" data-uid="CatchIo.Runtime.Sound.Sfx.GetPlayBackState">GetPlayBackState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PLAYBACK_STATE GetPlayBackState()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PLAYBACK_STATE</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Sound_Sfx_Play_" data-uid="CatchIo.Runtime.Sound.Sfx.Play*"></a>
   <h4 id="CatchIo_Runtime_Sound_Sfx_Play_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.Sfx.Play(Vector3,System.String,System.Single)">Play(Vector3, String, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Play(Vector3 generatePos, string labelName, float volume = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Play(Vector3 generatePos, string labelName = &quot;&quot;, float volume = 1F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,6 +188,33 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">volume</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Sound_Sfx_Stop_" data-uid="CatchIo.Runtime.Sound.Sfx.Stop*"></a>
+  <h4 id="CatchIo_Runtime_Sound_Sfx_Stop_STOP_MODE_" data-uid="CatchIo.Runtime.Sound.Sfx.Stop(STOP_MODE)">Stop(STOP_MODE)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop(STOP_MODE stopMode = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">STOP_MODE</span></td>
+        <td><span class="parametername">stopMode</span></td>
         <td></td>
       </tr>
     </tbody>
