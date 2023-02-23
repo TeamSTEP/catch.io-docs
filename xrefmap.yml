@@ -1447,6 +1447,45 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox
   nameWithType: CharacterHitbox.EnableHitbox
+- uid: CatchIo.Runtime.Character.CharacterHitbox.GetPosition
+  name: GetPosition()
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_GetPosition
+  commentId: M:CatchIo.Runtime.Character.CharacterHitbox.GetPosition
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.GetPosition()
+  nameWithType: CharacterHitbox.GetPosition()
+- uid: CatchIo.Runtime.Character.CharacterHitbox.GetPosition*
+  name: GetPosition
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_GetPosition_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterHitbox.GetPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.GetPosition
+  nameWithType: CharacterHitbox.GetPosition
+- uid: CatchIo.Runtime.Character.CharacterHitbox.IsDetected
+  name: IsDetected
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_IsDetected
+  commentId: P:CatchIo.Runtime.Character.CharacterHitbox.IsDetected
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.IsDetected
+  nameWithType: CharacterHitbox.IsDetected
+- uid: CatchIo.Runtime.Character.CharacterHitbox.IsDetected*
+  name: IsDetected
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_IsDetected_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterHitbox.IsDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.IsDetected
+  nameWithType: CharacterHitbox.IsDetected
+- uid: CatchIo.Runtime.Character.CharacterHitbox.OnDetected
+  name: OnDetected()
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnDetected
+  commentId: M:CatchIo.Runtime.Character.CharacterHitbox.OnDetected
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.OnDetected()
+  nameWithType: CharacterHitbox.OnDetected()
+- uid: CatchIo.Runtime.Character.CharacterHitbox.OnDetected*
+  name: OnDetected
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnDetected_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterHitbox.OnDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.OnDetected
+  nameWithType: CharacterHitbox.OnDetected
 - uid: CatchIo.Runtime.Character.CharacterHitbox.OnHit(System.Single)
   name: OnHit(Single)
   href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnHit_System_Single_
@@ -1460,6 +1499,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterHitbox.OnHit
   nameWithType: CharacterHitbox.OnHit
+- uid: CatchIo.Runtime.Character.CharacterHitbox.OnMissed
+  name: OnMissed()
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnMissed
+  commentId: M:CatchIo.Runtime.Character.CharacterHitbox.OnMissed
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.OnMissed()
+  nameWithType: CharacterHitbox.OnMissed()
+- uid: CatchIo.Runtime.Character.CharacterHitbox.OnMissed*
+  name: OnMissed
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnMissed_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterHitbox.OnMissed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.OnMissed
+  nameWithType: CharacterHitbox.OnMissed
 - uid: CatchIo.Runtime.Character.CharacterHitbox.Owner
   name: Owner
   href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_Owner
@@ -1682,102 +1734,96 @@ references:
   commentId: N:CatchIo.Runtime.Character.Detector
   fullName: CatchIo.Runtime.Character.Detector
   nameWithType: CatchIo.Runtime.Character.Detector
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV
-  name: CharacterDetectorInFOV
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html
-  commentId: T:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV
-  nameWithType: CharacterDetectorInFOV
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CharacterLayer
-  name: CharacterLayer
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_CharacterLayer
-  commentId: F:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CharacterLayer
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CharacterLayer
-  nameWithType: CharacterDetectorInFOV.CharacterLayer
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CurrentViewAngle
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector
+  name: CharacterDetector
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html
+  commentId: T:CatchIo.Runtime.Character.Detector.CharacterDetector
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector
+  nameWithType: CharacterDetector
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.AreaSize
+  name: AreaSize
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_AreaSize
+  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.AreaSize
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.AreaSize
+  nameWithType: CharacterDetector.AreaSize
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.AreaSize*
+  name: AreaSize
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_AreaSize_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.AreaSize
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.AreaSize
+  nameWithType: CharacterDetector.AreaSize
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
   name: CurrentViewAngle
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_CurrentViewAngle
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CurrentViewAngle
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CurrentViewAngle
-  nameWithType: CharacterDetectorInFOV.CurrentViewAngle
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CurrentViewAngle*
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_CurrentViewAngle
+  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
+  nameWithType: CharacterDetector.CurrentViewAngle
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle*
   name: CurrentViewAngle
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_CurrentViewAngle_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CurrentViewAngle
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_CurrentViewAngle_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.CurrentViewAngle
-  nameWithType: CharacterDetectorInFOV.CurrentViewAngle
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Forward
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
+  nameWithType: CharacterDetector.CurrentViewAngle
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
   name: Forward
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_Forward
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Forward
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Forward
-  nameWithType: CharacterDetectorInFOV.Forward
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Forward*
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_Forward
+  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
+  nameWithType: CharacterDetector.Forward
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward*
   name: Forward
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_Forward_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Forward
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_Forward_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Forward
-  nameWithType: CharacterDetectorInFOV.Forward
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVAngle
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
+  nameWithType: CharacterDetector.Forward
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVAngle
   name: FOVAngle
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_FOVAngle
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVAngle
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVAngle
-  nameWithType: CharacterDetectorInFOV.FOVAngle
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVAngle*
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_FOVAngle
+  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.FOVAngle
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVAngle
+  nameWithType: CharacterDetector.FOVAngle
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVAngle*
   name: FOVAngle
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_FOVAngle_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVAngle
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_FOVAngle_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.FOVAngle
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVAngle
-  nameWithType: CharacterDetectorInFOV.FOVAngle
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVSize
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVAngle
+  nameWithType: CharacterDetector.FOVAngle
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVSize
   name: FOVSize
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_FOVSize
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVSize
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVSize
-  nameWithType: CharacterDetectorInFOV.FOVSize
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVSize*
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_FOVSize
+  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.FOVSize
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVSize
+  nameWithType: CharacterDetector.FOVSize
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVSize*
   name: FOVSize
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_FOVSize_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVSize
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_FOVSize_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.FOVSize
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.FOVSize
-  nameWithType: CharacterDetectorInFOV.FOVSize
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.ObstacleLayer
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVSize
+  nameWithType: CharacterDetector.FOVSize
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.ObstacleLayer
   name: ObstacleLayer
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_ObstacleLayer
-  commentId: F:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.ObstacleLayer
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.ObstacleLayer
-  nameWithType: CharacterDetectorInFOV.ObstacleLayer
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Position
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_ObstacleLayer
+  commentId: F:CatchIo.Runtime.Character.Detector.CharacterDetector.ObstacleLayer
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.ObstacleLayer
+  nameWithType: CharacterDetector.ObstacleLayer
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.Position
   name: Position
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_Position
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Position
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Position
-  nameWithType: CharacterDetectorInFOV.Position
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Position*
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_Position
+  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.Position
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.Position
+  nameWithType: CharacterDetector.Position
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.Position*
   name: Position
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_Position_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Position
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_Position_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.Position
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.Position
-  nameWithType: CharacterDetectorInFOV.Position
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.VisibleCharacters
-  name: VisibleCharacters
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_VisibleCharacters
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.VisibleCharacters
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.VisibleCharacters
-  nameWithType: CharacterDetectorInFOV.VisibleCharacters
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.VisibleCharacters*
-  name: VisibleCharacters
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.html#CatchIo_Runtime_Character_Detector_CharacterDetectorInFOV_VisibleCharacters_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.VisibleCharacters
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetectorInFOV.VisibleCharacters
-  nameWithType: CharacterDetectorInFOV.VisibleCharacters
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.Position
+  nameWithType: CharacterDetector.Position
 - uid: CatchIo.Runtime.Character.Detector.CharacterItemCollector
   name: CharacterItemCollector
   href: api/CatchIo.Runtime.Character.Detector.CharacterItemCollector.html
@@ -3989,6 +4035,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Lighting.CharacterLighting.DisableLight
   nameWithType: CharacterLighting.DisableLight
+- uid: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLight(System.Int32)
+  name: GetAreaLight(Int32)
+  href: api/CatchIo.Runtime.Character.Lighting.CharacterLighting.html#CatchIo_Runtime_Character_Lighting_CharacterLighting_GetAreaLight_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLight(System.Int32)
+  fullName: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLight(System.Int32)
+  nameWithType: CharacterLighting.GetAreaLight(Int32)
+- uid: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLight*
+  name: GetAreaLight
+  href: api/CatchIo.Runtime.Character.Lighting.CharacterLighting.html#CatchIo_Runtime_Character_Lighting_CharacterLighting_GetAreaLight_
+  commentId: Overload:CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLight
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLight
+  nameWithType: CharacterLighting.GetAreaLight
+- uid: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLightSize(System.Int32)
+  name: GetAreaLightSize(Int32)
+  href: api/CatchIo.Runtime.Character.Lighting.CharacterLighting.html#CatchIo_Runtime_Character_Lighting_CharacterLighting_GetAreaLightSize_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLightSize(System.Int32)
+  fullName: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLightSize(System.Int32)
+  nameWithType: CharacterLighting.GetAreaLightSize(Int32)
+- uid: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLightSize*
+  name: GetAreaLightSize
+  href: api/CatchIo.Runtime.Character.Lighting.CharacterLighting.html#CatchIo_Runtime_Character_Lighting_CharacterLighting_GetAreaLightSize_
+  commentId: Overload:CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLightSize
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetAreaLightSize
+  nameWithType: CharacterLighting.GetAreaLightSize
 - uid: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetFOVLight(System.Int32)
   name: GetFOVLight(Int32)
   href: api/CatchIo.Runtime.Character.Lighting.CharacterLighting.html#CatchIo_Runtime_Character_Lighting_CharacterLighting_GetFOVLight_System_Int32_
@@ -5496,6 +5568,64 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IDamagable.OnHit
   nameWithType: IDamagable.OnHit
+- uid: CatchIo.Runtime.Interfaces.IDetectable
+  name: IDetectable
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html
+  commentId: T:CatchIo.Runtime.Interfaces.IDetectable
+  fullName: CatchIo.Runtime.Interfaces.IDetectable
+  nameWithType: IDetectable
+- uid: CatchIo.Runtime.Interfaces.IDetectable.GetPosition
+  name: GetPosition()
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_GetPosition
+  commentId: M:CatchIo.Runtime.Interfaces.IDetectable.GetPosition
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.GetPosition()
+  nameWithType: IDetectable.GetPosition()
+- uid: CatchIo.Runtime.Interfaces.IDetectable.GetPosition*
+  name: GetPosition
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_GetPosition_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDetectable.GetPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.GetPosition
+  nameWithType: IDetectable.GetPosition
+- uid: CatchIo.Runtime.Interfaces.IDetectable.IsDetected
+  name: IsDetected
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_IsDetected
+  commentId: P:CatchIo.Runtime.Interfaces.IDetectable.IsDetected
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.IsDetected
+  nameWithType: IDetectable.IsDetected
+- uid: CatchIo.Runtime.Interfaces.IDetectable.IsDetected*
+  name: IsDetected
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_IsDetected_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDetectable.IsDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.IsDetected
+  nameWithType: IDetectable.IsDetected
+- uid: CatchIo.Runtime.Interfaces.IDetectable.OnDetected
+  name: OnDetected()
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_OnDetected
+  commentId: M:CatchIo.Runtime.Interfaces.IDetectable.OnDetected
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.OnDetected()
+  nameWithType: IDetectable.OnDetected()
+- uid: CatchIo.Runtime.Interfaces.IDetectable.OnDetected*
+  name: OnDetected
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_OnDetected_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDetectable.OnDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.OnDetected
+  nameWithType: IDetectable.OnDetected
+- uid: CatchIo.Runtime.Interfaces.IDetectable.OnMissed
+  name: OnMissed()
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_OnMissed
+  commentId: M:CatchIo.Runtime.Interfaces.IDetectable.OnMissed
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.OnMissed()
+  nameWithType: IDetectable.OnMissed()
+- uid: CatchIo.Runtime.Interfaces.IDetectable.OnMissed*
+  name: OnMissed
+  href: api/CatchIo.Runtime.Interfaces.IDetectable.html#CatchIo_Runtime_Interfaces_IDetectable_OnMissed_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDetectable.OnMissed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDetectable.OnMissed
+  nameWithType: IDetectable.OnMissed
 - uid: CatchIo.Runtime.Interfaces.IEffectPlayable
   name: IEffectPlayable
   href: api/CatchIo.Runtime.Interfaces.IEffectPlayable.html
@@ -5703,6 +5833,12 @@ references:
   commentId: F:CatchIo.Runtime.Items.Item._itemSfx
   fullName: CatchIo.Runtime.Items.Item._itemSfx
   nameWithType: Item._itemSfx
+- uid: CatchIo.Runtime.Items.Item._nameText
+  name: _nameText
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item__nameText
+  commentId: F:CatchIo.Runtime.Items.Item._nameText
+  fullName: CatchIo.Runtime.Items.Item._nameText
+  nameWithType: Item._nameText
 - uid: CatchIo.Runtime.Items.Item.CanPickup
   name: CanPickup()
   href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_CanPickup
@@ -5728,6 +5864,64 @@ references:
   commentId: F:CatchIo.Runtime.Items.Item.DiscardTrajectory
   fullName: CatchIo.Runtime.Items.Item.DiscardTrajectory
   nameWithType: Item.DiscardTrajectory
+- uid: CatchIo.Runtime.Items.Item.GetDetectableObject
+  name: GetDetectableObject()
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_GetDetectableObject
+  commentId: M:CatchIo.Runtime.Items.Item.GetDetectableObject
+  fullName: CatchIo.Runtime.Items.Item.GetDetectableObject()
+  nameWithType: Item.GetDetectableObject()
+- uid: CatchIo.Runtime.Items.Item.GetDetectableObject*
+  name: GetDetectableObject
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_GetDetectableObject_
+  commentId: Overload:CatchIo.Runtime.Items.Item.GetDetectableObject
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Item.GetDetectableObject
+  nameWithType: Item.GetDetectableObject
+- uid: CatchIo.Runtime.Items.Item.GetPosition
+  name: GetPosition()
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_GetPosition
+  commentId: M:CatchIo.Runtime.Items.Item.GetPosition
+  fullName: CatchIo.Runtime.Items.Item.GetPosition()
+  nameWithType: Item.GetPosition()
+- uid: CatchIo.Runtime.Items.Item.GetPosition*
+  name: GetPosition
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_GetPosition_
+  commentId: Overload:CatchIo.Runtime.Items.Item.GetPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Item.GetPosition
+  nameWithType: Item.GetPosition
+- uid: CatchIo.Runtime.Items.Item.IsDetected
+  name: IsDetected
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_IsDetected
+  commentId: P:CatchIo.Runtime.Items.Item.IsDetected
+  fullName: CatchIo.Runtime.Items.Item.IsDetected
+  nameWithType: Item.IsDetected
+- uid: CatchIo.Runtime.Items.Item.IsDetected*
+  name: IsDetected
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_IsDetected_
+  commentId: Overload:CatchIo.Runtime.Items.Item.IsDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Item.IsDetected
+  nameWithType: Item.IsDetected
+- uid: CatchIo.Runtime.Items.Item.ItemName
+  name: ItemName
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_ItemName
+  commentId: F:CatchIo.Runtime.Items.Item.ItemName
+  fullName: CatchIo.Runtime.Items.Item.ItemName
+  nameWithType: Item.ItemName
+- uid: CatchIo.Runtime.Items.Item.OnDetected
+  name: OnDetected()
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnDetected
+  commentId: M:CatchIo.Runtime.Items.Item.OnDetected
+  fullName: CatchIo.Runtime.Items.Item.OnDetected()
+  nameWithType: Item.OnDetected()
+- uid: CatchIo.Runtime.Items.Item.OnDetected*
+  name: OnDetected
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnDetected_
+  commentId: Overload:CatchIo.Runtime.Items.Item.OnDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Item.OnDetected
+  nameWithType: Item.OnDetected
 - uid: CatchIo.Runtime.Items.Item.OnDiscard(Vector2)
   name: OnDiscard(Vector2)
   href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnDiscard_Vector2_
@@ -5741,6 +5935,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Item.OnDiscard
   nameWithType: Item.OnDiscard
+- uid: CatchIo.Runtime.Items.Item.OnMissed
+  name: OnMissed()
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnMissed
+  commentId: M:CatchIo.Runtime.Items.Item.OnMissed
+  fullName: CatchIo.Runtime.Items.Item.OnMissed()
+  nameWithType: Item.OnMissed()
+- uid: CatchIo.Runtime.Items.Item.OnMissed*
+  name: OnMissed
+  href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnMissed_
+  commentId: Overload:CatchIo.Runtime.Items.Item.OnMissed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Item.OnMissed
+  nameWithType: Item.OnMissed
 - uid: CatchIo.Runtime.Items.Item.OnPhotonInstantiate(PhotonMessageInfo)
   name: OnPhotonInstantiate(PhotonMessageInfo)
   href: api/CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnPhotonInstantiate_PhotonMessageInfo_
@@ -6253,6 +6460,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.ThrowableItem.OnBeforeThrow
   nameWithType: ThrowableItem.OnBeforeThrow
+- uid: CatchIo.Runtime.Items.ThrowableItem.OnDetected
+  name: OnDetected()
+  href: api/CatchIo.Runtime.Items.ThrowableItem.html#CatchIo_Runtime_Items_ThrowableItem_OnDetected
+  commentId: M:CatchIo.Runtime.Items.ThrowableItem.OnDetected
+  fullName: CatchIo.Runtime.Items.ThrowableItem.OnDetected()
+  nameWithType: ThrowableItem.OnDetected()
+- uid: CatchIo.Runtime.Items.ThrowableItem.OnDetected*
+  name: OnDetected
+  href: api/CatchIo.Runtime.Items.ThrowableItem.html#CatchIo_Runtime_Items_ThrowableItem_OnDetected_
+  commentId: Overload:CatchIo.Runtime.Items.ThrowableItem.OnDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.ThrowableItem.OnDetected
+  nameWithType: ThrowableItem.OnDetected
 - uid: CatchIo.Runtime.Items.ThrowableItem.OnDiscard(Vector2)
   name: OnDiscard(Vector2)
   href: api/CatchIo.Runtime.Items.ThrowableItem.html#CatchIo_Runtime_Items_ThrowableItem_OnDiscard_Vector2_
@@ -8123,19 +8343,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BeCursed
   nameWithType: CharacterStatus.BeCursed
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BeMissed
-  name: BeMissed()
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_BeMissed
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BeMissed
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BeMissed()
-  nameWithType: CharacterStatus.BeMissed()
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BeMissed*
-  name: BeMissed
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_BeMissed_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BeMissed
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BeMissed
-  nameWithType: CharacterStatus.BeMissed
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina(System.Single)
   name: CanRecoverStamina(Single)
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoverStamina_System_Single_
@@ -8205,19 +8412,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentViewAngle
   nameWithType: CharacterStatus.CurrentViewAngle
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detect
-  name: Detect()
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Detect
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detect
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detect()
-  nameWithType: CharacterStatus.Detect()
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detect*
-  name: Detect
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Detect_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detect
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detect
-  nameWithType: CharacterStatus.Detect
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detected
   name: Detected
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Detected

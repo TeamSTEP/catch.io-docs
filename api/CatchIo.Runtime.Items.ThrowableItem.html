@@ -99,6 +99,7 @@ If player throwed this object, it will be placed to mouse-position.</p>
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">IPunInstantiateMagicCallback</span></div>
+    <div><span class="xref">IDetectable</span></div>
     <div><span class="xref">IThrowable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -110,6 +111,9 @@ If player throwed this object, it will be placed to mouse-position.</p>
       <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_Sprite">Item.Sprite</a>
     </div>
     <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_ItemName">Item.ItemName</a>
+    </div>
+    <div>
       <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item__itemSfx">Item._itemSfx</a>
     </div>
     <div>
@@ -119,7 +123,22 @@ If player throwed this object, it will be placed to mouse-position.</p>
       <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_DiscardTrajectory">Item.DiscardTrajectory</a>
     </div>
     <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item__nameText">Item._nameText</a>
+    </div>
+    <div>
       <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnPhotonInstantiate_PhotonMessageInfo_">Item.OnPhotonInstantiate(PhotonMessageInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_IsDetected">Item.IsDetected</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnMissed">Item.OnMissed()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_GetPosition">Item.GetPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_GetDetectableObject">Item.GetDetectableObject()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.html">CatchIo.Runtime.Items</a></h6>
@@ -414,6 +433,18 @@ If player throwed this object, it will be placed to mouse-position.</p>
   </table>
   
   
+  <a id="CatchIo_Runtime_Items_ThrowableItem_OnDetected_" data-uid="CatchIo.Runtime.Items.ThrowableItem.OnDetected*"></a>
+  <h4 id="CatchIo_Runtime_Items_ThrowableItem_OnDetected" data-uid="CatchIo.Runtime.Items.ThrowableItem.OnDetected">OnDetected()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDetected()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Items.Item.html#CatchIo_Runtime_Items_Item_OnDetected">Item.OnDetected()</a></div>
+  
+  
   <a id="CatchIo_Runtime_Items_ThrowableItem_OnDiscard_" data-uid="CatchIo.Runtime.Items.ThrowableItem.OnDiscard*"></a>
   <h4 id="CatchIo_Runtime_Items_ThrowableItem_OnDiscard_Vector2_" data-uid="CatchIo.Runtime.Items.ThrowableItem.OnDiscard(Vector2)">OnDiscard(Vector2)</h4>
   <div class="markdown level1 summary"></div>
@@ -542,6 +573,9 @@ If player throwed this object, it will be placed to mouse-position.</p>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IPunInstantiateMagicCallback</span>
+  </div>
+  <div>
+      <span class="xref">IDetectable</span>
   </div>
   <div>
       <span class="xref">IThrowable</span>
