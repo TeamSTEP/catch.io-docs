@@ -13033,19 +13033,32 @@ references:
   commentId: T:CatchIo.Runtime.Utility.Scene.SceneObject
   fullName: CatchIo.Runtime.Utility.Scene.SceneObject
   nameWithType: SceneObject
-- uid: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneName
-  name: GetSceneName()
-  href: api/CatchIo.Runtime.Utility.Scene.SceneObject.html#CatchIo_Runtime_Utility_Scene_SceneObject_GetSceneName
-  commentId: M:CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneName
-  fullName: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneName()
-  nameWithType: SceneObject.GetSceneName()
-- uid: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneName*
-  name: GetSceneName
-  href: api/CatchIo.Runtime.Utility.Scene.SceneObject.html#CatchIo_Runtime_Utility_Scene_SceneObject_GetSceneName_
-  commentId: Overload:CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneName
+- uid: CatchIo.Runtime.Utility.Scene.SceneObject.GetFormattedSceneName
+  name: GetFormattedSceneName()
+  href: api/CatchIo.Runtime.Utility.Scene.SceneObject.html#CatchIo_Runtime_Utility_Scene_SceneObject_GetFormattedSceneName
+  commentId: M:CatchIo.Runtime.Utility.Scene.SceneObject.GetFormattedSceneName
+  fullName: CatchIo.Runtime.Utility.Scene.SceneObject.GetFormattedSceneName()
+  nameWithType: SceneObject.GetFormattedSceneName()
+- uid: CatchIo.Runtime.Utility.Scene.SceneObject.GetFormattedSceneName*
+  name: GetFormattedSceneName
+  href: api/CatchIo.Runtime.Utility.Scene.SceneObject.html#CatchIo_Runtime_Utility_Scene_SceneObject_GetFormattedSceneName_
+  commentId: Overload:CatchIo.Runtime.Utility.Scene.SceneObject.GetFormattedSceneName
   isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneName
-  nameWithType: SceneObject.GetSceneName
+  fullName: CatchIo.Runtime.Utility.Scene.SceneObject.GetFormattedSceneName
+  nameWithType: SceneObject.GetFormattedSceneName
+- uid: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneAssetName
+  name: GetSceneAssetName()
+  href: api/CatchIo.Runtime.Utility.Scene.SceneObject.html#CatchIo_Runtime_Utility_Scene_SceneObject_GetSceneAssetName
+  commentId: M:CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneAssetName
+  fullName: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneAssetName()
+  nameWithType: SceneObject.GetSceneAssetName()
+- uid: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneAssetName*
+  name: GetSceneAssetName
+  href: api/CatchIo.Runtime.Utility.Scene.SceneObject.html#CatchIo_Runtime_Utility_Scene_SceneObject_GetSceneAssetName_
+  commentId: Overload:CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneAssetName
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Scene.SceneObject.GetSceneAssetName
+  nameWithType: SceneObject.GetSceneAssetName
 - uid: CatchIo.Runtime.Utility.Scene.SceneObject.op_Implicit(CatchIo.Runtime.Utility.Scene.SceneObject)~System.String
   name: Implicit(SceneObject to String)
   href: api/CatchIo.Runtime.Utility.Scene.SceneObject.html#CatchIo_Runtime_Utility_Scene_SceneObject_op_Implicit_CatchIo_Runtime_Utility_Scene_SceneObject__System_String
@@ -13322,3 +13335,22 @@ references:
   commentId: F:CatchIo.Runtime.Utility.StateAnimation.Name
   fullName: CatchIo.Runtime.Utility.StateAnimation.Name
   nameWithType: StateAnimation.Name
+- uid: CatchIo.Runtime.Utility.StringHelper
+  name: StringHelper
+  href: api/CatchIo.Runtime.Utility.StringHelper.html
+  commentId: T:CatchIo.Runtime.Utility.StringHelper
+  fullName: CatchIo.Runtime.Utility.StringHelper
+  nameWithType: StringHelper
+- uid: CatchIo.Runtime.Utility.StringHelper.PutSpaceAfterUpperCase(System.String)
+  name: PutSpaceAfterUpperCase(String)
+  href: api/CatchIo.Runtime.Utility.StringHelper.html#CatchIo_Runtime_Utility_StringHelper_PutSpaceAfterUpperCase_System_String_
+  commentId: M:CatchIo.Runtime.Utility.StringHelper.PutSpaceAfterUpperCase(System.String)
+  fullName: CatchIo.Runtime.Utility.StringHelper.PutSpaceAfterUpperCase(System.String)
+  nameWithType: StringHelper.PutSpaceAfterUpperCase(String)
+- uid: CatchIo.Runtime.Utility.StringHelper.PutSpaceAfterUpperCase*
+  name: PutSpaceAfterUpperCase
+  href: api/CatchIo.Runtime.Utility.StringHelper.html#CatchIo_Runtime_Utility_StringHelper_PutSpaceAfterUpperCase_
+  commentId: Overload:CatchIo.Runtime.Utility.StringHelper.PutSpaceAfterUpperCase
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.StringHelper.PutSpaceAfterUpperCase
+  nameWithType: StringHelper.PutSpaceAfterUpperCase

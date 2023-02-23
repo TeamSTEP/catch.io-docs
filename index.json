@@ -417,7 +417,7 @@
   "api/CatchIo.Runtime.Container.GameModeContainer.html": {
     "href": "api/CatchIo.Runtime.Container.GameModeContainer.html",
     "title": "Class GameModeContainer | Catch.io Developer Reference",
-    "keywords": "Class GameModeContainer Inheritance Object GameModeContainer Namespace : CatchIo.Runtime.Container Assembly : cs.temp.dll.dll Syntax public class GameModeContainer : ScriptableObject Fields GameModes Declaration public List<GameMode> GameModes Field Value Type Description List < GameMode > Methods GetGameMode(Int32) Declaration public GameMode GetGameMode(int index) Parameters Type Name Description Int32 index Returns Type Description GameMode GetGameMode(String) Declaration public GameMode GetGameMode(string name) Parameters Type Name Description String name Returns Type Description GameMode GetGameModeNames() Declaration public List<string> GetGameModeNames() Returns Type Description List < String >"
+    "keywords": "Class GameModeContainer Inheritance Object GameModeContainer Namespace : CatchIo.Runtime.Container Assembly : cs.temp.dll.dll Syntax public class GameModeContainer : ScriptableObject Fields GameModes Declaration public List<GameMode> GameModes Field Value Type Description List < GameMode > Methods GetGameMode(Int32) Declaration public GameMode GetGameMode(int index) Parameters Type Name Description Int32 index Returns Type Description GameMode GetGameMode(String) Declaration public GameMode GetGameMode(string modeName) Parameters Type Name Description String modeName Returns Type Description GameMode GetGameModeNames() Declaration public List<string> GetGameModeNames() Returns Type Description List < String >"
   },
   "api/CatchIo.Runtime.Container.html": {
     "href": "api/CatchIo.Runtime.Container.html",
@@ -1347,7 +1347,7 @@
   "api/CatchIo.Runtime.Utility.html": {
     "href": "api/CatchIo.Runtime.Utility.html",
     "title": "Namespace CatchIo.Runtime.Utility | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Utility Classes AnimationParser ColorHelper MathHelper Optional<T> PolygonHelper PropertyHelper Structs StateAnimation"
+    "keywords": "Namespace CatchIo.Runtime.Utility Classes AnimationParser ColorHelper MathHelper Optional<T> PolygonHelper PropertyHelper StringHelper Structs StateAnimation"
   },
   "api/CatchIo.Runtime.Utility.MathHelper.html": {
     "href": "api/CatchIo.Runtime.Utility.MathHelper.html",
@@ -1377,7 +1377,7 @@
   "api/CatchIo.Runtime.Utility.Scene.SceneObject.html": {
     "href": "api/CatchIo.Runtime.Utility.Scene.SceneObject.html",
     "title": "Class SceneObject | Catch.io Developer Reference",
-    "keywords": "Class SceneObject Inheritance Object SceneObject Namespace : CatchIo.Runtime.Utility.Scene Assembly : cs.temp.dll.dll Syntax [Serializable] public class SceneObject Methods GetSceneName() Declaration public string GetSceneName() Returns Type Description String Operators Implicit(SceneObject to String) Declaration public static implicit operator string (SceneObject sceneObject) Parameters Type Name Description SceneObject sceneObject Returns Type Description String Implicit(String to SceneObject) Declaration public static implicit operator SceneObject(string sceneName) Parameters Type Name Description String sceneName Returns Type Description SceneObject"
+    "keywords": "Class SceneObject Inheritance Object SceneObject Namespace : CatchIo.Runtime.Utility.Scene Assembly : cs.temp.dll.dll Syntax [Serializable] public class SceneObject Methods GetFormattedSceneName() Declaration public string GetFormattedSceneName() Returns Type Description String GetSceneAssetName() Declaration public string GetSceneAssetName() Returns Type Description String Operators Implicit(SceneObject to String) Declaration public static implicit operator string (SceneObject sceneObject) Parameters Type Name Description SceneObject sceneObject Returns Type Description String Implicit(String to SceneObject) Declaration public static implicit operator SceneObject(string sceneName) Parameters Type Name Description String sceneName Returns Type Description SceneObject"
   },
   "api/CatchIo.Runtime.Utility.ServiceLocator.html": {
     "href": "api/CatchIo.Runtime.Utility.ServiceLocator.html",
@@ -1428,6 +1428,11 @@
     "href": "api/CatchIo.Runtime.Utility.StateAnimation.html",
     "title": "Struct StateAnimation | Catch.io Developer Reference",
     "keywords": "Struct StateAnimation Namespace : CatchIo.Runtime.Utility Assembly : cs.temp.dll.dll Syntax public readonly struct StateAnimation Constructors StateAnimation(String, AnimationClip) Declaration public StateAnimation(string name, AnimationClip clip) Parameters Type Name Description String name AnimationClip clip Fields Clip Declaration public readonly AnimationClip Clip Field Value Type Description AnimationClip Name Declaration public readonly string Name Field Value Type Description String"
+  },
+  "api/CatchIo.Runtime.Utility.StringHelper.html": {
+    "href": "api/CatchIo.Runtime.Utility.StringHelper.html",
+    "title": "Class StringHelper | Catch.io Developer Reference",
+    "keywords": "Class StringHelper Inheritance Object StringHelper Namespace : CatchIo.Runtime.Utility Assembly : cs.temp.dll.dll Syntax public static class StringHelper Methods PutSpaceAfterUpperCase(String) Declaration public static string PutSpaceAfterUpperCase(string input) Parameters Type Name Description String input Returns Type Description String"
   },
   "index.html": {
     "href": "index.html",
