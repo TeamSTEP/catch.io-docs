@@ -7089,6 +7089,25 @@ references:
   commentId: N:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD
   nameWithType: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow
+  name: InventoryArrow
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow
+  nameWithType: InventoryArrow
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.MoveHorizontally(Vector2)
+  name: MoveHorizontally(Vector2)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryArrow_MoveHorizontally_Vector2_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.MoveHorizontally(Vector2)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.MoveHorizontally(Vector2)
+  nameWithType: InventoryArrow.MoveHorizontally(Vector2)
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.MoveHorizontally*
+  name: MoveHorizontally
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryArrow_MoveHorizontally_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.MoveHorizontally
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.MoveHorizontally
+  nameWithType: InventoryArrow.MoveHorizontally
 - uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD
   name: InventoryHUD
   href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.html
@@ -7165,19 +7184,19 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD
   nameWithType: InventorySlotHUD
-- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected
-  name: IsSelected
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_IsSelected
-  commentId: P:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected
-  nameWithType: InventorySlotHUD.IsSelected
-- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected*
-  name: IsSelected
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_IsSelected_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition
+  name: GetLocalPosition()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_GetLocalPosition
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition()
+  nameWithType: InventorySlotHUD.GetLocalPosition()
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition*
+  name: GetLocalPosition
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_GetLocalPosition_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition
   isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected
-  nameWithType: InventorySlotHUD.IsSelected
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition
+  nameWithType: InventorySlotHUD.GetLocalPosition
 - uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.ReleaseSlot
   name: ReleaseSlot()
   href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_ReleaseSlot
@@ -7191,12 +7210,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.ReleaseSlot
   nameWithType: InventorySlotHUD.ReleaseSlot
-- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot(System.Int32)
-  name: SelectSlot(Int32)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot_System_Int32_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot(System.Int32)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot(System.Int32)
-  nameWithType: InventorySlotHUD.SelectSlot(Int32)
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot
+  name: SelectSlot()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot()
+  nameWithType: InventorySlotHUD.SelectSlot()
 - uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot*
   name: SelectSlot
   href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot_
@@ -7204,6 +7223,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot
   nameWithType: InventorySlotHUD.SelectSlot
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize(System.Int32)
+  name: SetSelectedSize(Int32)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SetSelectedSize_System_Int32_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize(System.Int32)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize(System.Int32)
+  nameWithType: InventorySlotHUD.SetSelectedSize(Int32)
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize*
+  name: SetSelectedSize
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SetSelectedSize_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize
+  nameWithType: InventorySlotHUD.SetSelectedSize
 - uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSprite(Sprite)
   name: SetSprite(Sprite)
   href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SetSprite_Sprite_

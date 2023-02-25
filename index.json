@@ -722,7 +722,12 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.html",
     "title": "Namespace CatchIo.Runtime.Menu.GameOverlay.InventoryHUD | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.InventoryHUD Classes InventoryHUD InventorySlotHUD"
+    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.InventoryHUD Classes InventoryArrow InventoryHUD InventorySlotHUD"
+  },
+  "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.html": {
+    "href": "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryArrow.html",
+    "title": "Class InventoryArrow | Catch.io Developer Reference",
+    "keywords": "Class InventoryArrow Inheritance Object InventoryArrow Namespace : CatchIo.Runtime.Menu.GameOverlay.InventoryHUD Assembly : cs.temp.dll.dll Syntax public class InventoryArrow : MonoBehaviour Methods MoveHorizontally(Vector2) Declaration public void MoveHorizontally(Vector2 targetPos) Parameters Type Name Description Vector2 targetPos"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.html",
@@ -732,7 +737,7 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html",
     "title": "Class InventorySlotHUD | Catch.io Developer Reference",
-    "keywords": "Class InventorySlotHUD Inheritance Object InventorySlotHUD Namespace : CatchIo.Runtime.Menu.GameOverlay.InventoryHUD Assembly : cs.temp.dll.dll Syntax public class InventorySlotHUD : MonoBehaviour Properties IsSelected Declaration public bool IsSelected { get; } Property Value Type Description Boolean Methods ReleaseSlot() Declaration public void ReleaseSlot() SelectSlot(Int32) Declaration public void SelectSlot(int size) Parameters Type Name Description Int32 size SetSprite(Sprite) Declaration public void SetSprite(Sprite itemSprite) Parameters Type Name Description Sprite itemSprite"
+    "keywords": "Class InventorySlotHUD Inheritance Object InventorySlotHUD Namespace : CatchIo.Runtime.Menu.GameOverlay.InventoryHUD Assembly : cs.temp.dll.dll Syntax public class InventorySlotHUD : MonoBehaviour Methods GetLocalPosition() Declaration public Vector2 GetLocalPosition() Returns Type Description Vector2 ReleaseSlot() Declaration public void ReleaseSlot() SelectSlot() Declaration public void SelectSlot() SetSelectedSize(Int32) Declaration public void SetSelectedSize(int selectedSize) Parameters Type Name Description Int32 selectedSize SetSprite(Sprite) Declaration public void SetSprite(Sprite itemSprite) Parameters Type Name Description Sprite itemSprite"
   },
   "api/CatchIo.Runtime.Menu.UI.Button.ButtonClickBroadcaster.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Button.ButtonClickBroadcaster.html",

@@ -96,19 +96,19 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class InventorySlotHUD : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_IsSelected_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_IsSelected" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.IsSelected">IsSelected</h4>
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_GetLocalPosition_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_GetLocalPosition" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.GetLocalPosition">GetLocalPosition()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsSelected { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2 GetLocalPosition()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,13 +118,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
   <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_ReleaseSlot_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.ReleaseSlot*"></a>
@@ -138,12 +136,22 @@
   
   
   <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot_System_Int32_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot(System.Int32)">SelectSlot(Int32)</h4>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot">SelectSlot()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SelectSlot(int size)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SelectSlot()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SetSelectedSize_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SetSelectedSize_System_Int32_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSelectedSize(System.Int32)">SetSelectedSize(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSelectedSize(int selectedSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,7 +165,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">size</span></td>
+        <td><span class="parametername">selectedSize</span></td>
         <td></td>
       </tr>
     </tbody>
