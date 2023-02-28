@@ -98,7 +98,8 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InputReader : DescriptionScriptableObject, GameInput.IGameplayActions</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class InputReader : DescriptionScriptableObject, GameInput.IGameplayActions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -404,6 +405,33 @@
   </table>
   
   
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnTab_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnTab_InputAction_CallbackContext_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab(InputAction.CallbackContext)">OnTab(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnTab(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnThrowItem_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnThrowItem*"></a>
   <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnThrowItem_InputAction_CallbackContext_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnThrowItem(InputAction.CallbackContext)">OnThrowItem(InputAction.CallbackContext)</h4>
   <div class="markdown level1 summary"></div>
@@ -679,6 +707,54 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public event UnityAction RunInput</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_TabCanceled" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabCanceled">TabCanceled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction TabCanceled</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_TabStarted" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabStarted">TabStarted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction TabStarted</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

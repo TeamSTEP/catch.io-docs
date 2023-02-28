@@ -1698,12 +1698,6 @@ references:
   commentId: F:CatchIo.Runtime.Character.CharacterInput.OnDiscardItem
   fullName: CatchIo.Runtime.Character.CharacterInput.OnDiscardItem
   nameWithType: CharacterInput.OnDiscardItem
-- uid: CatchIo.Runtime.Character.CharacterInput.OnEscapeGameSession
-  name: OnEscapeGameSession
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_OnEscapeGameSession
-  commentId: F:CatchIo.Runtime.Character.CharacterInput.OnEscapeGameSession
-  fullName: CatchIo.Runtime.Character.CharacterInput.OnEscapeGameSession
-  nameWithType: CharacterInput.OnEscapeGameSession
 - uid: CatchIo.Runtime.Character.CharacterInput.OnItemSelect
   name: OnItemSelect
   href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_OnItemSelect
@@ -7557,19 +7551,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Clear
   nameWithType: BasePopup.Clear
-- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
-  name: Hide()
-  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_Hide
-  commentId: M:CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
-  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide()
-  nameWithType: BasePopup.Hide()
-- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide*
-  name: Hide
-  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_Hide_
-  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
-  nameWithType: BasePopup.Hide
 - uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.InstantHide
   name: InstantHide()
   href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_InstantHide
@@ -9880,25 +9861,64 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint
   fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint
   nameWithType: DeathMatchPoint
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddBeTrappedPoint(Player)
+  name: AddBeTrappedPoint(Player)
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddBeTrappedPoint_Player_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddBeTrappedPoint(Player)
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddBeTrappedPoint(Player)
+  nameWithType: DeathMatchPoint.AddBeTrappedPoint(Player)
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddBeTrappedPoint*
+  name: AddBeTrappedPoint
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddBeTrappedPoint_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddBeTrappedPoint
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddBeTrappedPoint
+  nameWithType: DeathMatchPoint.AddBeTrappedPoint
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddDeathPoint(Player)
+  name: AddDeathPoint(Player)
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddDeathPoint_Player_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddDeathPoint(Player)
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddDeathPoint(Player)
+  nameWithType: DeathMatchPoint.AddDeathPoint(Player)
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddDeathPoint*
+  name: AddDeathPoint
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddDeathPoint_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddDeathPoint
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddDeathPoint
+  nameWithType: DeathMatchPoint.AddDeathPoint
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddKillPoint(Player)
+  name: AddKillPoint(Player)
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddKillPoint_Player_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddKillPoint(Player)
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddKillPoint(Player)
+  nameWithType: DeathMatchPoint.AddKillPoint(Player)
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddKillPoint*
+  name: AddKillPoint
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddKillPoint_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddKillPoint
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddKillPoint
+  nameWithType: DeathMatchPoint.AddKillPoint
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddTrapPoint(Player)
+  name: AddTrapPoint(Player)
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddTrapPoint_Player_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddTrapPoint(Player)
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddTrapPoint(Player)
+  nameWithType: DeathMatchPoint.AddTrapPoint(Player)
+- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddTrapPoint*
+  name: AddTrapPoint
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_AddTrapPoint_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddTrapPoint
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.AddTrapPoint
+  nameWithType: DeathMatchPoint.AddTrapPoint
 - uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.BeTrappedPoint
   name: BeTrappedPoint
   href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_BeTrappedPoint
   commentId: F:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.BeTrappedPoint
   fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.BeTrappedPoint
   nameWithType: DeathMatchPoint.BeTrappedPoint
-- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.CalculateLocalPlayerPoint
-  name: CalculateLocalPlayerPoint()
-  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_CalculateLocalPlayerPoint
-  commentId: M:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.CalculateLocalPlayerPoint
-  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.CalculateLocalPlayerPoint()
-  nameWithType: DeathMatchPoint.CalculateLocalPlayerPoint()
-- uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.CalculateLocalPlayerPoint*
-  name: CalculateLocalPlayerPoint
-  href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_CalculateLocalPlayerPoint_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.CalculateLocalPlayerPoint
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.CalculateLocalPlayerPoint
-  nameWithType: DeathMatchPoint.CalculateLocalPlayerPoint
 - uid: CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.DeathPoint
   name: DeathPoint
   href: api/CatchIo.Runtime.ScriptableObjects.GameModes.Point.DeathMatchPoint.html#CatchIo_Runtime_ScriptableObjects_GameModes_Point_DeathMatchPoint_DeathPoint
@@ -10146,6 +10166,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnRun
   nameWithType: InputReader.OnRun
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab(InputAction.CallbackContext)
+  name: OnTab(InputAction.CallbackContext)
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnTab_InputAction_CallbackContext_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab(InputAction.CallbackContext)
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab(InputAction.CallbackContext)
+  nameWithType: InputReader.OnTab(InputAction.CallbackContext)
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab*
+  name: OnTab
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnTab_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnTab
+  nameWithType: InputReader.OnTab
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnThrowItem(InputAction.CallbackContext)
   name: OnThrowItem(InputAction.CallbackContext)
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnThrowItem_InputAction_CallbackContext_
@@ -10177,6 +10210,18 @@ references:
   commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.RunInput
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.RunInput
   nameWithType: InputReader.RunInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabCanceled
+  name: TabCanceled
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_TabCanceled
+  commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabCanceled
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabCanceled
+  nameWithType: InputReader.TabCanceled
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabStarted
+  name: TabStarted
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_TabStarted
+  commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabStarted
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabStarted
+  nameWithType: InputReader.TabStarted
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.ThrowItemInput
   name: ThrowItemInput
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_ThrowItemInput
@@ -10812,6 +10857,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.GetPlayers
   nameWithType: PlayersInRoom.GetPlayers
+- uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnPlayerLeft
+  name: OnPlayerLeft
+  href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnPlayerLeft
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnPlayerLeft
+  fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnPlayerLeft
+  nameWithType: PlayersInRoom.OnPlayerLeft
 - uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnPropertiesUpdated
   name: OnPropertiesUpdated
   href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnPropertiesUpdated
@@ -12347,6 +12398,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddKill
   nameWithType: PlayerExtensions.AddKill
+- uid: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddPoint(Player,System.Int32)
+  name: AddPoint(Player, Int32)
+  href: api/CatchIo.Runtime.Utility.Extensions.PlayerExtensions.html#CatchIo_Runtime_Utility_Extensions_PlayerExtensions_AddPoint_Player_System_Int32_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddPoint(Player,System.Int32)
+  fullName: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddPoint(Player, System.Int32)
+  nameWithType: PlayerExtensions.AddPoint(Player, Int32)
+- uid: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddPoint*
+  name: AddPoint
+  href: api/CatchIo.Runtime.Utility.Extensions.PlayerExtensions.html#CatchIo_Runtime_Utility_Extensions_PlayerExtensions_AddPoint_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddPoint
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddPoint
+  nameWithType: PlayerExtensions.AddPoint
 - uid: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.AddTrapCount(Player,System.Int32)
   name: AddTrapCount(Player, Int32)
   href: api/CatchIo.Runtime.Utility.Extensions.PlayerExtensions.html#CatchIo_Runtime_Utility_Extensions_PlayerExtensions_AddTrapCount_Player_System_Int32_
