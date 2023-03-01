@@ -11106,12 +11106,6 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode
   nameWithType: LoginSceneMode
-- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode.Banks
-  name: Banks
-  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_LoginSceneMode_Banks
-  commentId: F:CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode.Banks
-  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode.Banks
-  nameWithType: LoginSceneMode.Banks
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode.Login
   name: Login()
   href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.LoginSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_LoginSceneMode_Login
@@ -11323,6 +11317,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Services.NetworkService.ConnectToServer
   nameWithType: NetworkService.ConnectToServer
+- uid: CatchIo.Runtime.Services.NetworkService.ConnectToServerOnWebGL(System.String)
+  name: ConnectToServerOnWebGL(String)
+  href: api/CatchIo.Runtime.Services.NetworkService.html#CatchIo_Runtime_Services_NetworkService_ConnectToServerOnWebGL_System_String_
+  commentId: M:CatchIo.Runtime.Services.NetworkService.ConnectToServerOnWebGL(System.String)
+  fullName: CatchIo.Runtime.Services.NetworkService.ConnectToServerOnWebGL(System.String)
+  nameWithType: NetworkService.ConnectToServerOnWebGL(String)
+- uid: CatchIo.Runtime.Services.NetworkService.ConnectToServerOnWebGL*
+  name: ConnectToServerOnWebGL
+  href: api/CatchIo.Runtime.Services.NetworkService.html#CatchIo_Runtime_Services_NetworkService_ConnectToServerOnWebGL_
+  commentId: Overload:CatchIo.Runtime.Services.NetworkService.ConnectToServerOnWebGL
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.NetworkService.ConnectToServerOnWebGL
+  nameWithType: NetworkService.ConnectToServerOnWebGL
 - uid: CatchIo.Runtime.Services.NetworkService.CreateRoom(RoomData)
   name: CreateRoom(RoomData)
   href: api/CatchIo.Runtime.Services.NetworkService.html#CatchIo_Runtime_Services_NetworkService_CreateRoom_RoomData_
