@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CharacterMoveState
+    <title>Class CharacterDamageState
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CharacterMoveState
+    <meta name="title" content="Class CharacterDamageState
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState">
   
   
-  <h1 id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState" class="text-break">Class CharacterMoveState
+  <h1 id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState" class="text-break">Class CharacterDamageState
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -89,16 +89,17 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html">CharacterBaseState</a></div>
-    <div class="level2"><span class="xref">CharacterMoveState</span></div>
-      <div class="level3"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterRunState.html">CharacterRunState</a></div>
-      <div class="level3"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakState.html">CharacterSneakState</a></div>
-      <div class="level3"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.html">CharacterSneakStaticState</a></div>
-      <div class="level3"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSpectateState.html">CharacterSpectateState</a></div>
-      <div class="level3"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.html">CharacterStaticState</a></div>
-      <div class="level3"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterWalkState.html">CharacterWalkState</a></div>
+    <div class="level2"><a class="xref" href="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterActionState.html">CharacterActionState</a></div>
+    <div class="level3"><span class="xref">CharacterDamageState</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterActionState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterActionState_UpdateState">CharacterActionState.UpdateState()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterActionState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterActionState_FixedUpdateState">CharacterActionState.FixedUpdateState()</a>
+    </div>
     <div>
       <a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_StateMachine">CharacterBaseState.StateMachine</a>
     </div>
@@ -108,37 +109,24 @@
     <div>
       <a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_EnteredStateTime">CharacterBaseState.EnteredStateTime</a>
     </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_EnterState">CharacterBaseState.EnterState()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_UpdateState">CharacterBaseState.UpdateState()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_FixedUpdateState">CharacterBaseState.FixedUpdateState()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_CheckSwitchStates">CharacterBaseState.CheckSwitchStates()</a>
-    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.FSM.States.MoveStates.html">CatchIo.Runtime.Character.FSM.States.MoveStates</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.FSM.States.ActionStates.html">CatchIo.Runtime.Character.FSM.States.ActionStates</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public abstract class CharacterMoveState : CharacterBaseState</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterDamageState : CharacterActionState</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState__ctor_" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.#ctor*"></a>
-  <h4 id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState__ctor_CatchIo_Runtime_Character_FSM_CharacterStateMachine_CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)">CharacterMoveState(CharacterStateMachine, CharacterStateFactory)</h4>
+  <a id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState__ctor_" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.#ctor*"></a>
+  <h4 id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState__ctor_CatchIo_Runtime_Character_FSM_CharacterStateMachine_CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)">CharacterDamageState(CharacterStateMachine, CharacterStateFactory)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected CharacterMoveState(CharacterStateMachine stateMachine, CharacterStateFactory factory)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharacterDamageState(CharacterStateMachine stateMachine, CharacterStateFactory factory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,8 +154,32 @@ public abstract class CharacterMoveState : CharacterBaseState</code></pre>
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_ExitState_" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.ExitState*"></a>
-  <h4 id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_ExitState" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.ExitState">ExitState()</h4>
+  <a id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_CheckSwitchStates_" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates*"></a>
+  <h4 id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_CheckSwitchStates" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates">CheckSwitchStates()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void CheckSwitchStates()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterActionState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterActionState_CheckSwitchStates">CharacterActionState.CheckSwitchStates()</a></div>
+  
+  
+  <a id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_EnterState_" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState*"></a>
+  <h4 id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_EnterState" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState">EnterState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void EnterState()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterActionState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterActionState_EnterState">CharacterActionState.EnterState()</a></div>
+  
+  
+  <a id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_ExitState_" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState*"></a>
+  <h4 id="CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_ExitState" data-uid="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState">ExitState()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -175,34 +187,7 @@ public abstract class CharacterMoveState : CharacterBaseState</code></pre>
     <pre><code class="lang-csharp hljs">public override void ExitState()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html#CatchIo_Runtime_Character_FSM_States_CharacterBaseState_ExitState">CharacterBaseState.ExitState()</a></div>
-  
-  
-  <a id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_Move_" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Move*"></a>
-  <h4 id="CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_Move_System_Single_" data-uid="CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Move(System.Single)">Move(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Move(float moveSpeed)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">moveSpeed</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <div><a class="xref" href="CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterActionState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterActionState_ExitState">CharacterActionState.ExitState()</a></div>
 </article>
           </div>
           

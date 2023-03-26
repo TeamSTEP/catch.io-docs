@@ -792,66 +792,6 @@ references:
   commentId: F:CatchIo.Game.Characters.Enums.CharacterColorType.Yellow
   fullName: CatchIo.Game.Characters.Enums.CharacterColorType.Yellow
   nameWithType: CharacterColorType.Yellow
-- uid: CatchIo.PlayerCharacter.FSM.Type
-  name: CatchIo.PlayerCharacter.FSM.Type
-  href: api/CatchIo.PlayerCharacter.FSM.Type.html
-  commentId: N:CatchIo.PlayerCharacter.FSM.Type
-  fullName: CatchIo.PlayerCharacter.FSM.Type
-  nameWithType: CatchIo.PlayerCharacter.FSM.Type
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType
-  name: CharacterActionType
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html
-  commentId: T:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType
-  nameWithType: CharacterActionType
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Attack
-  name: Attack
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Attack
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Attack
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Attack
-  nameWithType: CharacterActionType.Attack
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Consume
-  name: Consume
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Consume
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Consume
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Consume
-  nameWithType: CharacterActionType.Consume
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Death
-  name: Death
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Death
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Death
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Death
-  nameWithType: CharacterActionType.Death
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Discard
-  name: Discard
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Discard
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Discard
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Discard
-  nameWithType: CharacterActionType.Discard
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.End
-  name: End
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_End
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.End
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.End
-  nameWithType: CharacterActionType.End
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.None
-  name: None
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_None
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.None
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.None
-  nameWithType: CharacterActionType.None
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Spawn
-  name: Spawn
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Spawn
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Spawn
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Spawn
-  nameWithType: CharacterActionType.Spawn
-- uid: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Throw
-  name: Throw
-  href: api/CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.html#CatchIo_PlayerCharacter_FSM_Type_CharacterActionType_Throw
-  commentId: F:CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Throw
-  fullName: CatchIo.PlayerCharacter.FSM.Type.CharacterActionType.Throw
-  nameWithType: CharacterActionType.Throw
 - uid: CatchIo.Runtime.Boot
   name: CatchIo.Runtime.Boot
   href: api/CatchIo.Runtime.Boot.html
@@ -1268,6 +1208,12 @@ references:
   commentId: F:CatchIo.Runtime.Character.CharacterFacade.OnCursed
   fullName: CatchIo.Runtime.Character.CharacterFacade.OnCursed
   nameWithType: CharacterFacade.OnCursed
+- uid: CatchIo.Runtime.Character.CharacterFacade.OnDamage
+  name: OnDamage
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_OnDamage
+  commentId: F:CatchIo.Runtime.Character.CharacterFacade.OnDamage
+  fullName: CatchIo.Runtime.Character.CharacterFacade.OnDamage
+  nameWithType: CharacterFacade.OnDamage
 - uid: CatchIo.Runtime.Character.CharacterFacade.OnDeath
   name: OnDeath
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_OnDeath
@@ -1531,19 +1477,45 @@ references:
   commentId: T:CatchIo.Runtime.Character.CharacterInput
   fullName: CatchIo.Runtime.Character.CharacterInput
   nameWithType: CharacterInput
-- uid: CatchIo.Runtime.Character.CharacterInput.DisableInput
-  name: DisableInput()
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableInput
-  commentId: M:CatchIo.Runtime.Character.CharacterInput.DisableInput
-  fullName: CatchIo.Runtime.Character.CharacterInput.DisableInput()
-  nameWithType: CharacterInput.DisableInput()
-- uid: CatchIo.Runtime.Character.CharacterInput.DisableInput*
-  name: DisableInput
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableInput_
-  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.DisableInput
+- uid: CatchIo.Runtime.Character.CharacterInput.DisableCharacterActionInput
+  name: DisableCharacterActionInput()
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableCharacterActionInput
+  commentId: M:CatchIo.Runtime.Character.CharacterInput.DisableCharacterActionInput
+  fullName: CatchIo.Runtime.Character.CharacterInput.DisableCharacterActionInput()
+  nameWithType: CharacterInput.DisableCharacterActionInput()
+- uid: CatchIo.Runtime.Character.CharacterInput.DisableCharacterActionInput*
+  name: DisableCharacterActionInput
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableCharacterActionInput_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.DisableCharacterActionInput
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.CharacterInput.DisableInput
-  nameWithType: CharacterInput.DisableInput
+  fullName: CatchIo.Runtime.Character.CharacterInput.DisableCharacterActionInput
+  nameWithType: CharacterInput.DisableCharacterActionInput
+- uid: CatchIo.Runtime.Character.CharacterInput.DisableCharacterControls
+  name: DisableCharacterControls()
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableCharacterControls
+  commentId: M:CatchIo.Runtime.Character.CharacterInput.DisableCharacterControls
+  fullName: CatchIo.Runtime.Character.CharacterInput.DisableCharacterControls()
+  nameWithType: CharacterInput.DisableCharacterControls()
+- uid: CatchIo.Runtime.Character.CharacterInput.DisableCharacterControls*
+  name: DisableCharacterControls
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableCharacterControls_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.DisableCharacterControls
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterInput.DisableCharacterControls
+  nameWithType: CharacterInput.DisableCharacterControls
+- uid: CatchIo.Runtime.Character.CharacterInput.DisableCharacterMoveInput
+  name: DisableCharacterMoveInput()
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableCharacterMoveInput
+  commentId: M:CatchIo.Runtime.Character.CharacterInput.DisableCharacterMoveInput
+  fullName: CatchIo.Runtime.Character.CharacterInput.DisableCharacterMoveInput()
+  nameWithType: CharacterInput.DisableCharacterMoveInput()
+- uid: CatchIo.Runtime.Character.CharacterInput.DisableCharacterMoveInput*
+  name: DisableCharacterMoveInput
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableCharacterMoveInput_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.DisableCharacterMoveInput
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterInput.DisableCharacterMoveInput
+  nameWithType: CharacterInput.DisableCharacterMoveInput
 - uid: CatchIo.Runtime.Character.CharacterInput.DisableInventoryInput
   name: DisableInventoryInput()
   href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_DisableInventoryInput
@@ -1557,19 +1529,45 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterInput.DisableInventoryInput
   nameWithType: CharacterInput.DisableInventoryInput
-- uid: CatchIo.Runtime.Character.CharacterInput.EnableInput
-  name: EnableInput()
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableInput
-  commentId: M:CatchIo.Runtime.Character.CharacterInput.EnableInput
-  fullName: CatchIo.Runtime.Character.CharacterInput.EnableInput()
-  nameWithType: CharacterInput.EnableInput()
-- uid: CatchIo.Runtime.Character.CharacterInput.EnableInput*
-  name: EnableInput
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableInput_
-  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.EnableInput
+- uid: CatchIo.Runtime.Character.CharacterInput.EnableCharacterActionInput
+  name: EnableCharacterActionInput()
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableCharacterActionInput
+  commentId: M:CatchIo.Runtime.Character.CharacterInput.EnableCharacterActionInput
+  fullName: CatchIo.Runtime.Character.CharacterInput.EnableCharacterActionInput()
+  nameWithType: CharacterInput.EnableCharacterActionInput()
+- uid: CatchIo.Runtime.Character.CharacterInput.EnableCharacterActionInput*
+  name: EnableCharacterActionInput
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableCharacterActionInput_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.EnableCharacterActionInput
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.CharacterInput.EnableInput
-  nameWithType: CharacterInput.EnableInput
+  fullName: CatchIo.Runtime.Character.CharacterInput.EnableCharacterActionInput
+  nameWithType: CharacterInput.EnableCharacterActionInput
+- uid: CatchIo.Runtime.Character.CharacterInput.EnableCharacterControls
+  name: EnableCharacterControls()
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableCharacterControls
+  commentId: M:CatchIo.Runtime.Character.CharacterInput.EnableCharacterControls
+  fullName: CatchIo.Runtime.Character.CharacterInput.EnableCharacterControls()
+  nameWithType: CharacterInput.EnableCharacterControls()
+- uid: CatchIo.Runtime.Character.CharacterInput.EnableCharacterControls*
+  name: EnableCharacterControls
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableCharacterControls_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.EnableCharacterControls
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterInput.EnableCharacterControls
+  nameWithType: CharacterInput.EnableCharacterControls
+- uid: CatchIo.Runtime.Character.CharacterInput.EnableCharacterMoveInput
+  name: EnableCharacterMoveInput()
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableCharacterMoveInput
+  commentId: M:CatchIo.Runtime.Character.CharacterInput.EnableCharacterMoveInput
+  fullName: CatchIo.Runtime.Character.CharacterInput.EnableCharacterMoveInput()
+  nameWithType: CharacterInput.EnableCharacterMoveInput()
+- uid: CatchIo.Runtime.Character.CharacterInput.EnableCharacterMoveInput*
+  name: EnableCharacterMoveInput
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableCharacterMoveInput_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.EnableCharacterMoveInput
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterInput.EnableCharacterMoveInput
+  nameWithType: CharacterInput.EnableCharacterMoveInput
 - uid: CatchIo.Runtime.Character.CharacterInput.EnableInventoryInput
   name: EnableInventoryInput()
   href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_EnableInventoryInput
@@ -1609,32 +1607,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterInput.GetMoveDirectionInput
   nameWithType: CharacterInput.GetMoveDirectionInput
-- uid: CatchIo.Runtime.Character.CharacterInput.InitCharacterActionInput
-  name: InitCharacterActionInput()
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_InitCharacterActionInput
-  commentId: M:CatchIo.Runtime.Character.CharacterInput.InitCharacterActionInput
-  fullName: CatchIo.Runtime.Character.CharacterInput.InitCharacterActionInput()
-  nameWithType: CharacterInput.InitCharacterActionInput()
-- uid: CatchIo.Runtime.Character.CharacterInput.InitCharacterActionInput*
-  name: InitCharacterActionInput
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_InitCharacterActionInput_
-  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.InitCharacterActionInput
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.CharacterInput.InitCharacterActionInput
-  nameWithType: CharacterInput.InitCharacterActionInput
-- uid: CatchIo.Runtime.Character.CharacterInput.InitCharacterMoveInput
-  name: InitCharacterMoveInput()
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_InitCharacterMoveInput
-  commentId: M:CatchIo.Runtime.Character.CharacterInput.InitCharacterMoveInput
-  fullName: CatchIo.Runtime.Character.CharacterInput.InitCharacterMoveInput()
-  nameWithType: CharacterInput.InitCharacterMoveInput()
-- uid: CatchIo.Runtime.Character.CharacterInput.InitCharacterMoveInput*
-  name: InitCharacterMoveInput
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_InitCharacterMoveInput_
-  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.InitCharacterMoveInput
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.CharacterInput.InitCharacterMoveInput
-  nameWithType: CharacterInput.InitCharacterMoveInput
 - uid: CatchIo.Runtime.Character.CharacterInput.InputCrouch
   name: InputCrouch
   href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_InputCrouch
@@ -1970,6 +1942,19 @@ references:
   commentId: F:CatchIo.Runtime.Character.FSM.CharacterStateMachine.OnFailedToChangeActionState
   fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.OnFailedToChangeActionState
   nameWithType: CharacterStateMachine.OnFailedToChangeActionState
+- uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousMoveState
+  name: PreviousMoveState
+  href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_PreviousMoveState
+  commentId: P:CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousMoveState
+  fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousMoveState
+  nameWithType: CharacterStateMachine.PreviousMoveState
+- uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousMoveState*
+  name: PreviousMoveState
+  href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_PreviousMoveState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousMoveState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousMoveState
+  nameWithType: CharacterStateMachine.PreviousMoveState
 - uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.PreviousState
   name: PreviousState
   href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_PreviousState
@@ -2195,6 +2180,64 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterConsumeState.ExitState
   nameWithType: CharacterConsumeState.ExitState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState
+  name: CharacterDamageState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html
+  commentId: T:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState
+  nameWithType: CharacterDamageState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  name: CharacterDamageState(CharacterStateMachine, CharacterStateFactory)
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState__ctor_CatchIo_Runtime_Character_FSM_CharacterStateMachine_CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CharacterDamageState(CatchIo.Runtime.Character.FSM.CharacterStateMachine, CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  nameWithType: CharacterDamageState.CharacterDamageState(CharacterStateMachine, CharacterStateFactory)
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.#ctor*
+  name: CharacterDamageState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState__ctor_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CharacterDamageState
+  nameWithType: CharacterDamageState.CharacterDamageState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates
+  name: CheckSwitchStates()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_CheckSwitchStates
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates()
+  nameWithType: CharacterDamageState.CheckSwitchStates()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates*
+  name: CheckSwitchStates
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_CheckSwitchStates_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.CheckSwitchStates
+  nameWithType: CharacterDamageState.CheckSwitchStates
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState
+  name: EnterState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_EnterState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState()
+  nameWithType: CharacterDamageState.EnterState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState*
+  name: EnterState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_EnterState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.EnterState
+  nameWithType: CharacterDamageState.EnterState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState
+  name: ExitState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_ExitState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState()
+  nameWithType: CharacterDamageState.ExitState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState*
+  name: ExitState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDamageState_ExitState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDamageState.ExitState
+  nameWithType: CharacterDamageState.ExitState
 - uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState
   name: CharacterDeathState
   href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.html
@@ -2490,6 +2533,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Consume
   nameWithType: CharacterStateFactory.Consume
+- uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Damage
+  name: Damage()
+  href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_Damage
+  commentId: M:CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Damage
+  fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Damage()
+  nameWithType: CharacterStateFactory.Damage()
+- uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Damage*
+  name: Damage
+  href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_Damage_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Damage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Damage
+  nameWithType: CharacterStateFactory.Damage
 - uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Death
   name: Death()
   href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_Death
@@ -3193,6 +3249,19 @@ references:
   commentId: T:CatchIo.Runtime.Character.Graphics.CharacterAnimator
   fullName: CatchIo.Runtime.Character.Graphics.CharacterAnimator
   nameWithType: CharacterAnimator
+- uid: CatchIo.Runtime.Character.Graphics.CharacterAnimator.HasActionAnimation(CharacterActionType)
+  name: HasActionAnimation(CharacterActionType)
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterAnimator.html#CatchIo_Runtime_Character_Graphics_CharacterAnimator_HasActionAnimation_CharacterActionType_
+  commentId: M:CatchIo.Runtime.Character.Graphics.CharacterAnimator.HasActionAnimation(CharacterActionType)
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterAnimator.HasActionAnimation(CharacterActionType)
+  nameWithType: CharacterAnimator.HasActionAnimation(CharacterActionType)
+- uid: CatchIo.Runtime.Character.Graphics.CharacterAnimator.HasActionAnimation*
+  name: HasActionAnimation
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterAnimator.html#CatchIo_Runtime_Character_Graphics_CharacterAnimator_HasActionAnimation_
+  commentId: Overload:CatchIo.Runtime.Character.Graphics.CharacterAnimator.HasActionAnimation
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterAnimator.HasActionAnimation
+  nameWithType: CharacterAnimator.HasActionAnimation
 - uid: CatchIo.Runtime.Character.Graphics.CharacterAnimator.OnActionAnimCompleted
   name: OnActionAnimCompleted
   href: api/CatchIo.Runtime.Character.Graphics.CharacterAnimator.html#CatchIo_Runtime_Character_Graphics_CharacterAnimator_OnActionAnimCompleted
@@ -3457,6 +3526,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Graphics.CharacterRenderer.PlayCursedEffectToOtherClients
   nameWithType: CharacterRenderer.PlayCursedEffectToOtherClients
+- uid: CatchIo.Runtime.Character.Graphics.CharacterRenderer.PlayDamageEffect
+  name: PlayDamageEffect()
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterRenderer.html#CatchIo_Runtime_Character_Graphics_CharacterRenderer_PlayDamageEffect
+  commentId: M:CatchIo.Runtime.Character.Graphics.CharacterRenderer.PlayDamageEffect
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterRenderer.PlayDamageEffect()
+  nameWithType: CharacterRenderer.PlayDamageEffect()
+- uid: CatchIo.Runtime.Character.Graphics.CharacterRenderer.PlayDamageEffect*
+  name: PlayDamageEffect
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterRenderer.html#CatchIo_Runtime_Character_Graphics_CharacterRenderer_PlayDamageEffect_
+  commentId: Overload:CatchIo.Runtime.Character.Graphics.CharacterRenderer.PlayDamageEffect
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterRenderer.PlayDamageEffect
+  nameWithType: CharacterRenderer.PlayDamageEffect
 - uid: CatchIo.Runtime.Character.Graphics.CharacterRenderer.ReverseCursedEffectToLocalClient
   name: ReverseCursedEffectToLocalClient()
   href: api/CatchIo.Runtime.Character.Graphics.CharacterRenderer.html#CatchIo_Runtime_Character_Graphics_CharacterRenderer_ReverseCursedEffectToLocalClient
@@ -4816,6 +4898,66 @@ references:
   commentId: N:CatchIo.Runtime.Enums
   fullName: CatchIo.Runtime.Enums
   nameWithType: CatchIo.Runtime.Enums
+- uid: CatchIo.Runtime.Enums.CharacterActionType
+  name: CharacterActionType
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html
+  commentId: T:CatchIo.Runtime.Enums.CharacterActionType
+  fullName: CatchIo.Runtime.Enums.CharacterActionType
+  nameWithType: CharacterActionType
+- uid: CatchIo.Runtime.Enums.CharacterActionType.Attack
+  name: Attack
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_Attack
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Attack
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.Attack
+  nameWithType: CharacterActionType.Attack
+- uid: CatchIo.Runtime.Enums.CharacterActionType.Consume
+  name: Consume
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_Consume
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Consume
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.Consume
+  nameWithType: CharacterActionType.Consume
+- uid: CatchIo.Runtime.Enums.CharacterActionType.Damage
+  name: Damage
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_Damage
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Damage
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.Damage
+  nameWithType: CharacterActionType.Damage
+- uid: CatchIo.Runtime.Enums.CharacterActionType.Death
+  name: Death
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_Death
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Death
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.Death
+  nameWithType: CharacterActionType.Death
+- uid: CatchIo.Runtime.Enums.CharacterActionType.Discard
+  name: Discard
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_Discard
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Discard
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.Discard
+  nameWithType: CharacterActionType.Discard
+- uid: CatchIo.Runtime.Enums.CharacterActionType.End
+  name: End
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_End
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.End
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.End
+  nameWithType: CharacterActionType.End
+- uid: CatchIo.Runtime.Enums.CharacterActionType.None
+  name: None
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_None
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.None
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.None
+  nameWithType: CharacterActionType.None
+- uid: CatchIo.Runtime.Enums.CharacterActionType.Spawn
+  name: Spawn
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_Spawn
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Spawn
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.Spawn
+  nameWithType: CharacterActionType.Spawn
+- uid: CatchIo.Runtime.Enums.CharacterActionType.Throw
+  name: Throw
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_Throw
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Throw
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.Throw
+  nameWithType: CharacterActionType.Throw
 - uid: CatchIo.Runtime.Enums.CharacterClassType
   name: CharacterClassType
   href: api/CatchIo.Runtime.Enums.CharacterClassType.html
@@ -8874,6 +9016,51 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Effects.CursedOneEffect.Reverse
   nameWithType: CursedOneEffect.Reverse
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect
+  name: DamageEffect
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.html
+  commentId: T:CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect
+  nameWithType: DamageEffect
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectExecutor
+  name: EffectExecutor()
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DamageEffect_EffectExecutor
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectExecutor
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectExecutor()
+  nameWithType: DamageEffect.EffectExecutor()
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectExecutor*
+  name: EffectExecutor
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DamageEffect_EffectExecutor_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectExecutor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectExecutor
+  nameWithType: DamageEffect.EffectExecutor
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectReverser
+  name: EffectReverser()
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DamageEffect_EffectReverser
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectReverser
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectReverser()
+  nameWithType: DamageEffect.EffectReverser()
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectReverser*
+  name: EffectReverser
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DamageEffect_EffectReverser_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectReverser
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.EffectReverser
+  nameWithType: DamageEffect.EffectReverser
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.Play(IEffectPlayable,Renderer)
+  name: Play(IEffectPlayable, Renderer)
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DamageEffect_Play_IEffectPlayable_Renderer_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.Play(IEffectPlayable,Renderer)
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.Play(IEffectPlayable, Renderer)
+  nameWithType: DamageEffect.Play(IEffectPlayable, Renderer)
+- uid: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.Play*
+  name: Play
+  href: api/CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.html#CatchIo_Runtime_ScriptableObjects_Effects_DamageEffect_Play_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Effects.DamageEffect.Play
+  nameWithType: DamageEffect.Play
 - uid: CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect
   name: DisappearEffect
   href: api/CatchIo.Runtime.ScriptableObjects.Effects.DisappearEffect.html
@@ -10011,51 +10198,38 @@ references:
   commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.CrouchInput
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.CrouchInput
   nameWithType: InputReader.CrouchInput
-- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableGameplayInput
-  name: DisableGameplayInput()
-  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableGameplayInput
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableGameplayInput
-  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableGameplayInput()
-  nameWithType: InputReader.DisableGameplayInput()
-- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableGameplayInput*
-  name: DisableGameplayInput
-  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableGameplayInput_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableGameplayInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableCharacterInput
+  name: DisableCharacterInput()
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableCharacterInput
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableCharacterInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableCharacterInput()
+  nameWithType: InputReader.DisableCharacterInput()
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableCharacterInput*
+  name: DisableCharacterInput
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableCharacterInput_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableCharacterInput
   isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableGameplayInput
-  nameWithType: InputReader.DisableGameplayInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableCharacterInput
+  nameWithType: InputReader.DisableCharacterInput
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DiscardItemInput
   name: DiscardItemInput
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DiscardItemInput
   commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.DiscardItemInput
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DiscardItemInput
   nameWithType: InputReader.DiscardItemInput
-- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableGameplayInput
-  name: EnableGameplayInput()
-  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableGameplayInput
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableGameplayInput
-  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableGameplayInput()
-  nameWithType: InputReader.EnableGameplayInput()
-- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableGameplayInput*
-  name: EnableGameplayInput
-  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableGameplayInput_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableGameplayInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableCharacterInput
+  name: EnableCharacterInput()
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableCharacterInput
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableCharacterInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableCharacterInput()
+  nameWithType: InputReader.EnableCharacterInput()
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableCharacterInput*
+  name: EnableCharacterInput
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableCharacterInput_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableCharacterInput
   isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableGameplayInput
-  nameWithType: InputReader.EnableGameplayInput
-- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMenusInput
-  name: EnableMenusInput()
-  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableMenusInput
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMenusInput
-  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMenusInput()
-  nameWithType: InputReader.EnableMenusInput()
-- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMenusInput*
-  name: EnableMenusInput
-  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableMenusInput_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMenusInput
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMenusInput
-  nameWithType: InputReader.EnableMenusInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableCharacterInput
+  nameWithType: InputReader.EnableCharacterInput
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EscapeGameSession
   name: EscapeGameSession
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EscapeGameSession
