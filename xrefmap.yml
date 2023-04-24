@@ -11892,6 +11892,76 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.ItemSfx.Play
   nameWithType: ItemSfx.Play
+- uid: CatchIo.Runtime.Sound.MainMusic
+  name: MainMusic
+  href: api/CatchIo.Runtime.Sound.MainMusic.html
+  commentId: T:CatchIo.Runtime.Sound.MainMusic
+  fullName: CatchIo.Runtime.Sound.MainMusic
+  nameWithType: MainMusic
+- uid: CatchIo.Runtime.Sound.MainMusic.Play(System.String)
+  name: Play(String)
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_Play_System_String_
+  commentId: M:CatchIo.Runtime.Sound.MainMusic.Play(System.String)
+  fullName: CatchIo.Runtime.Sound.MainMusic.Play(System.String)
+  nameWithType: MainMusic.Play(String)
+- uid: CatchIo.Runtime.Sound.MainMusic.Play*
+  name: Play
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_Play_
+  commentId: Overload:CatchIo.Runtime.Sound.MainMusic.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.MainMusic.Play
+  nameWithType: MainMusic.Play
+- uid: CatchIo.Runtime.Sound.Music
+  name: Music
+  href: api/CatchIo.Runtime.Sound.Music.html
+  commentId: T:CatchIo.Runtime.Sound.Music
+  fullName: CatchIo.Runtime.Sound.Music
+  nameWithType: Music
+- uid: CatchIo.Runtime.Sound.Music.EventInstance
+  name: EventInstance
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_EventInstance
+  commentId: F:CatchIo.Runtime.Sound.Music.EventInstance
+  fullName: CatchIo.Runtime.Sound.Music.EventInstance
+  nameWithType: Music.EventInstance
+- uid: CatchIo.Runtime.Sound.Music.GetPlayBackState
+  name: GetPlayBackState()
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_GetPlayBackState
+  commentId: M:CatchIo.Runtime.Sound.Music.GetPlayBackState
+  fullName: CatchIo.Runtime.Sound.Music.GetPlayBackState()
+  nameWithType: Music.GetPlayBackState()
+- uid: CatchIo.Runtime.Sound.Music.GetPlayBackState*
+  name: GetPlayBackState
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_GetPlayBackState_
+  commentId: Overload:CatchIo.Runtime.Sound.Music.GetPlayBackState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.Music.GetPlayBackState
+  nameWithType: Music.GetPlayBackState
+- uid: CatchIo.Runtime.Sound.Music.Play(System.String)
+  name: Play(String)
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_Play_System_String_
+  commentId: M:CatchIo.Runtime.Sound.Music.Play(System.String)
+  fullName: CatchIo.Runtime.Sound.Music.Play(System.String)
+  nameWithType: Music.Play(String)
+- uid: CatchIo.Runtime.Sound.Music.Play*
+  name: Play
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_Play_
+  commentId: Overload:CatchIo.Runtime.Sound.Music.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.Music.Play
+  nameWithType: Music.Play
+- uid: CatchIo.Runtime.Sound.Music.Stop(STOP_MODE)
+  name: Stop(STOP_MODE)
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_Stop_STOP_MODE_
+  commentId: M:CatchIo.Runtime.Sound.Music.Stop(STOP_MODE)
+  fullName: CatchIo.Runtime.Sound.Music.Stop(STOP_MODE)
+  nameWithType: Music.Stop(STOP_MODE)
+- uid: CatchIo.Runtime.Sound.Music.Stop*
+  name: Stop
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_Stop_
+  commentId: Overload:CatchIo.Runtime.Sound.Music.Stop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.Music.Stop
+  nameWithType: Music.Stop
 - uid: CatchIo.Runtime.Sound.Sfx
   name: Sfx
   href: api/CatchIo.Runtime.Sound.Sfx.html
@@ -12266,6 +12336,36 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.TerrainSfx.Play
   nameWithType: TerrainSfx.Play
+- uid: CatchIo.Runtime.Sound.TransitionParameter
+  name: TransitionParameter
+  href: api/CatchIo.Runtime.Sound.TransitionParameter.html
+  commentId: T:CatchIo.Runtime.Sound.TransitionParameter
+  fullName: CatchIo.Runtime.Sound.TransitionParameter
+  nameWithType: TransitionParameter
+- uid: CatchIo.Runtime.Sound.TransitionParameter.Chase
+  name: Chase
+  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_Chase
+  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.Chase
+  fullName: CatchIo.Runtime.Sound.TransitionParameter.Chase
+  nameWithType: TransitionParameter.Chase
+- uid: CatchIo.Runtime.Sound.TransitionParameter.None
+  name: None
+  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_None
+  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.None
+  fullName: CatchIo.Runtime.Sound.TransitionParameter.None
+  nameWithType: TransitionParameter.None
+- uid: CatchIo.Runtime.Sound.TransitionParameter.PlayableScene
+  name: PlayableScene
+  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_PlayableScene
+  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.PlayableScene
+  fullName: CatchIo.Runtime.Sound.TransitionParameter.PlayableScene
+  nameWithType: TransitionParameter.PlayableScene
+- uid: CatchIo.Runtime.Sound.TransitionParameter.TitleScreen
+  name: TitleScreen
+  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_TitleScreen
+  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.TitleScreen
+  fullName: CatchIo.Runtime.Sound.TransitionParameter.TitleScreen
+  nameWithType: TransitionParameter.TitleScreen
 - uid: CatchIo.Runtime.Trajectory
   name: CatchIo.Runtime.Trajectory
   href: api/CatchIo.Runtime.Trajectory.html

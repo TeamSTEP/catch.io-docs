@@ -3000,6 +3000,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Sound.MainMusic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Sound.MainMusic.html",
+          "hash": "5i7I+bSwrginzjiuzZI60Xv+y4utOxlUn8QtRq5fKv0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Sound.Music.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Sound.Music.html",
+          "hash": "xmQ+gP1ir4Q3Ym6ZWzLlv6IkAXAUHJQDvIJXysTI6Ds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Sound.Sfx.yml",
       "output": {
         ".html": {
@@ -3060,11 +3084,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Sound.TransitionParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Sound.TransitionParameter.html",
+          "hash": "KXP+y155/wKHCuwDuKlCZwPVnhY360b8d5ADoTjcuTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Sound.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Sound.html",
-          "hash": "hBwe7kkCwvuV0PERTqEon++ti4fmPCnTGj6Acj6kM9g="
+          "hash": "3clElrnAYVQvIOMUXQn0E9H4P5euZN7GBY+1IeUUDIE="
         }
       },
       "is_incremental": false,
@@ -3508,7 +3544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "4QB3VH/uyIAlSPFjgrheEhjtAeZhOwaAlq7LY+Nztu4="
+          "hash": "u8BE4aYe5KF3izrtdNRa1QlKQp6FznJMFMsEHIVi2E0="
         }
       },
       "is_incremental": false,
@@ -4099,7 +4135,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 290,
+          "total_file_count": 293,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
