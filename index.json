@@ -1237,7 +1237,7 @@
   "api/CatchIo.Runtime.Sound.html": {
     "href": "api/CatchIo.Runtime.Sound.html",
     "title": "Namespace CatchIo.Runtime.Sound | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Sound Classes CharacterActionSfx CursedOneSfx FootstepSfx ItemSfx MainMusic Music Sfx SoundManager SpawnSfx StaminaSfx TerrainSfx Enums TransitionParameter"
+    "keywords": "Namespace CatchIo.Runtime.Sound Classes CharacterActionSfx CursedOneSfx FootstepSfx ItemSfx MainMusic Music Sfx SoundManager SpawnSfx StaminaSfx TerrainSfx UiSfx Enums TransitionParameter UiSfx.SfxParameter"
   },
   "api/CatchIo.Runtime.Sound.ItemSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.ItemSfx.html",
@@ -1257,7 +1257,7 @@
   "api/CatchIo.Runtime.Sound.Sfx.html": {
     "href": "api/CatchIo.Runtime.Sound.Sfx.html",
     "title": "Class Sfx | Catch.io Developer Reference",
-    "keywords": "Class Sfx Inheritance Object Sfx CharacterActionSfx CursedOneSfx ItemSfx SpawnSfx StaminaSfx TerrainSfx Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public abstract class Sfx Fields EventInstance Declaration protected EventInstance EventInstance Field Value Type Description EventInstance Methods GetPlayBackState() Declaration public PLAYBACK_STATE GetPlayBackState() Returns Type Description PLAYBACK_STATE Play(Vector3, String, Single) Declaration public abstract void Play(Vector3 generatePos, string labelName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String labelName Single volume Stop(STOP_MODE) Declaration public void Stop(STOP_MODE stopMode = null) Parameters Type Name Description STOP_MODE stopMode"
+    "keywords": "Class Sfx Inheritance Object Sfx CharacterActionSfx CursedOneSfx ItemSfx SpawnSfx StaminaSfx TerrainSfx UiSfx Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public abstract class Sfx Fields EventInstance Declaration protected EventInstance EventInstance Field Value Type Description EventInstance Methods GetPlayBackState() Declaration public PLAYBACK_STATE GetPlayBackState() Returns Type Description PLAYBACK_STATE Play(Vector3, String, Single) Declaration public abstract void Play(Vector3 generatePos, string labelName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String labelName Single volume Stop(STOP_MODE) Declaration public void Stop(STOP_MODE stopMode = null) Parameters Type Name Description STOP_MODE stopMode"
   },
   "api/CatchIo.Runtime.Sound.SoundManager.html": {
     "href": "api/CatchIo.Runtime.Sound.SoundManager.html",
@@ -1283,6 +1283,16 @@
     "href": "api/CatchIo.Runtime.Sound.TransitionParameter.html",
     "title": "Enum TransitionParameter | Catch.io Developer Reference",
     "keywords": "Enum TransitionParameter Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public enum TransitionParameter Fields Name Description Chase ForestAmbience None PlayableScene TitleScreen"
+  },
+  "api/CatchIo.Runtime.Sound.UiSfx.html": {
+    "href": "api/CatchIo.Runtime.Sound.UiSfx.html",
+    "title": "Class UiSfx | Catch.io Developer Reference",
+    "keywords": "Class UiSfx Inheritance Object Sfx UiSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class UiSfx : Sfx Constructors UiSfx() Declaration public UiSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string uiSfx, float volume = 1F) Parameters Type Name Description Vector3 generatePos String uiSfx Single volume Overrides Sfx.Play(Vector3, String, Single)"
+  },
+  "api/CatchIo.Runtime.Sound.UiSfx.SfxParameter.html": {
+    "href": "api/CatchIo.Runtime.Sound.UiSfx.SfxParameter.html",
+    "title": "Enum UiSfx.SfxParameter | Catch.io Developer Reference",
+    "keywords": "Enum UiSfx.SfxParameter Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public enum SfxParameter Fields Name Description StartSfx StoneButton UnfoldingPaper"
   },
   "api/CatchIo.Runtime.Trajectory.html": {
     "href": "api/CatchIo.Runtime.Trajectory.html",
