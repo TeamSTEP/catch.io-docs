@@ -1322,12 +1322,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.Status
   nameWithType: CharacterFacade.Status
-- uid: CatchIo.Runtime.Character.CharacterFacade.TakeDamage(System.Single)
-  name: TakeDamage(Single)
-  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_TakeDamage_System_Single_
-  commentId: M:CatchIo.Runtime.Character.CharacterFacade.TakeDamage(System.Single)
-  fullName: CatchIo.Runtime.Character.CharacterFacade.TakeDamage(System.Single)
-  nameWithType: CharacterFacade.TakeDamage(Single)
+- uid: CatchIo.Runtime.Character.CharacterFacade.TakeDamage(IDamage)
+  name: TakeDamage(IDamage)
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_TakeDamage_IDamage_
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.TakeDamage(IDamage)
+  fullName: CatchIo.Runtime.Character.CharacterFacade.TakeDamage(IDamage)
+  nameWithType: CharacterFacade.TakeDamage(IDamage)
 - uid: CatchIo.Runtime.Character.CharacterFacade.TakeDamage*
   name: TakeDamage
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_TakeDamage_
@@ -1386,6 +1386,12 @@ references:
   commentId: M:CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox
   fullName: CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox()
   nameWithType: CharacterHitbox.EnableHitbox()
+- uid: CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox(System.Single)
+  name: EnableHitbox(Single)
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_EnableHitbox_System_Single_
+  commentId: M:CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox(System.Single)
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox(System.Single)
+  nameWithType: CharacterHitbox.EnableHitbox(Single)
 - uid: CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox*
   name: EnableHitbox
   href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_EnableHitbox_
@@ -1419,6 +1425,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterHitbox.IsDetected
   nameWithType: CharacterHitbox.IsDetected
+- uid: CatchIo.Runtime.Character.CharacterHitbox.IsEnabled
+  name: IsEnabled
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_IsEnabled
+  commentId: P:CatchIo.Runtime.Character.CharacterHitbox.IsEnabled
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.IsEnabled
+  nameWithType: CharacterHitbox.IsEnabled
+- uid: CatchIo.Runtime.Character.CharacterHitbox.IsEnabled*
+  name: IsEnabled
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_IsEnabled_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterHitbox.IsEnabled
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.IsEnabled
+  nameWithType: CharacterHitbox.IsEnabled
 - uid: CatchIo.Runtime.Character.CharacterHitbox.OnDetected
   name: OnDetected()
   href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnDetected
@@ -1432,12 +1451,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterHitbox.OnDetected
   nameWithType: CharacterHitbox.OnDetected
-- uid: CatchIo.Runtime.Character.CharacterHitbox.OnHit(System.Single)
-  name: OnHit(Single)
-  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnHit_System_Single_
-  commentId: M:CatchIo.Runtime.Character.CharacterHitbox.OnHit(System.Single)
-  fullName: CatchIo.Runtime.Character.CharacterHitbox.OnHit(System.Single)
-  nameWithType: CharacterHitbox.OnHit(Single)
+- uid: CatchIo.Runtime.Character.CharacterHitbox.OnHit(IDamage)
+  name: OnHit(IDamage)
+  href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnHit_IDamage_
+  commentId: M:CatchIo.Runtime.Character.CharacterHitbox.OnHit(IDamage)
+  fullName: CatchIo.Runtime.Character.CharacterHitbox.OnHit(IDamage)
+  nameWithType: CharacterHitbox.OnHit(IDamage)
 - uid: CatchIo.Runtime.Character.CharacterHitbox.OnHit*
   name: OnHit
   href: api/CatchIo.Runtime.Character.CharacterHitbox.html#CatchIo_Runtime_Character_CharacterHitbox_OnHit_
@@ -4816,12 +4835,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.DynmaicObjects.TrapObject.HealthVal
   nameWithType: TrapObject.HealthVal
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObject.OnHit(System.Single)
-  name: OnHit(Single)
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObject.html#CatchIo_Runtime_DynmaicObjects_TrapObject_OnHit_System_Single_
-  commentId: M:CatchIo.Runtime.DynmaicObjects.TrapObject.OnHit(System.Single)
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObject.OnHit(System.Single)
-  nameWithType: TrapObject.OnHit(Single)
+- uid: CatchIo.Runtime.DynmaicObjects.TrapObject.OnHit(IDamage)
+  name: OnHit(IDamage)
+  href: api/CatchIo.Runtime.DynmaicObjects.TrapObject.html#CatchIo_Runtime_DynmaicObjects_TrapObject_OnHit_IDamage_
+  commentId: M:CatchIo.Runtime.DynmaicObjects.TrapObject.OnHit(IDamage)
+  fullName: CatchIo.Runtime.DynmaicObjects.TrapObject.OnHit(IDamage)
+  nameWithType: TrapObject.OnHit(IDamage)
 - uid: CatchIo.Runtime.DynmaicObjects.TrapObject.OnHit*
   name: OnHit
   href: api/CatchIo.Runtime.DynmaicObjects.TrapObject.html#CatchIo_Runtime_DynmaicObjects_TrapObject_OnHit_
@@ -5365,6 +5384,51 @@ references:
   commentId: F:CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.used
   fullName: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.used
   nameWithType: CharacterSpawner.SpawnPoint.used
+- uid: CatchIo.Runtime.Environment.DamagableObject
+  name: DamagableObject
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html
+  commentId: T:CatchIo.Runtime.Environment.DamagableObject
+  fullName: CatchIo.Runtime.Environment.DamagableObject
+  nameWithType: DamagableObject
+- uid: CatchIo.Runtime.Environment.DamagableObject.DamagePercentage
+  name: DamagePercentage
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_DamagePercentage
+  commentId: P:CatchIo.Runtime.Environment.DamagableObject.DamagePercentage
+  fullName: CatchIo.Runtime.Environment.DamagableObject.DamagePercentage
+  nameWithType: DamagableObject.DamagePercentage
+- uid: CatchIo.Runtime.Environment.DamagableObject.DamagePercentage*
+  name: DamagePercentage
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_DamagePercentage_
+  commentId: Overload:CatchIo.Runtime.Environment.DamagableObject.DamagePercentage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.DamagableObject.DamagePercentage
+  nameWithType: DamagableObject.DamagePercentage
+- uid: CatchIo.Runtime.Environment.DamagableObject.DamageVal
+  name: DamageVal
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_DamageVal
+  commentId: P:CatchIo.Runtime.Environment.DamagableObject.DamageVal
+  fullName: CatchIo.Runtime.Environment.DamagableObject.DamageVal
+  nameWithType: DamagableObject.DamageVal
+- uid: CatchIo.Runtime.Environment.DamagableObject.DamageVal*
+  name: DamageVal
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_DamageVal_
+  commentId: Overload:CatchIo.Runtime.Environment.DamagableObject.DamageVal
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.DamagableObject.DamageVal
+  nameWithType: DamagableObject.DamageVal
+- uid: CatchIo.Runtime.Environment.DamagableObject.OnHit(ICharacterHitable)
+  name: OnHit(ICharacterHitable)
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHit_ICharacterHitable_
+  commentId: M:CatchIo.Runtime.Environment.DamagableObject.OnHit(ICharacterHitable)
+  fullName: CatchIo.Runtime.Environment.DamagableObject.OnHit(ICharacterHitable)
+  nameWithType: DamagableObject.OnHit(ICharacterHitable)
+- uid: CatchIo.Runtime.Environment.DamagableObject.OnHit*
+  name: OnHit
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHit_
+  commentId: Overload:CatchIo.Runtime.Environment.DamagableObject.OnHit
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.DamagableObject.OnHit
+  nameWithType: DamagableObject.OnHit
 - uid: CatchIo.Runtime.Environment.HidingSpot
   name: HidingSpot
   href: api/CatchIo.Runtime.Environment.HidingSpot.html
@@ -5678,12 +5742,12 @@ references:
   commentId: T:CatchIo.Runtime.Interfaces.ICharacterHitable
   fullName: CatchIo.Runtime.Interfaces.ICharacterHitable
   nameWithType: ICharacterHitable
-- uid: CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit(System.Single)
-  name: OnHit(Single)
-  href: api/CatchIo.Runtime.Interfaces.ICharacterHitable.html#CatchIo_Runtime_Interfaces_ICharacterHitable_OnHit_System_Single_
-  commentId: M:CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit(System.Single)
-  fullName: CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit(System.Single)
-  nameWithType: ICharacterHitable.OnHit(Single)
+- uid: CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit(CatchIo.Runtime.Interfaces.IDamage)
+  name: OnHit(IDamage)
+  href: api/CatchIo.Runtime.Interfaces.ICharacterHitable.html#CatchIo_Runtime_Interfaces_ICharacterHitable_OnHit_CatchIo_Runtime_Interfaces_IDamage_
+  commentId: M:CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit(CatchIo.Runtime.Interfaces.IDamage)
+  fullName: CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit(CatchIo.Runtime.Interfaces.IDamage)
+  nameWithType: ICharacterHitable.OnHit(IDamage)
 - uid: CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit*
   name: OnHit
   href: api/CatchIo.Runtime.Interfaces.ICharacterHitable.html#CatchIo_Runtime_Interfaces_ICharacterHitable_OnHit_
@@ -5710,19 +5774,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IDamagable.DamageVal
   nameWithType: IDamagable.DamageVal
-- uid: CatchIo.Runtime.Interfaces.IDamagable.IsHitEnemy
-  name: IsHitEnemy
-  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_IsHitEnemy
-  commentId: P:CatchIo.Runtime.Interfaces.IDamagable.IsHitEnemy
-  fullName: CatchIo.Runtime.Interfaces.IDamagable.IsHitEnemy
-  nameWithType: IDamagable.IsHitEnemy
-- uid: CatchIo.Runtime.Interfaces.IDamagable.IsHitEnemy*
-  name: IsHitEnemy
-  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_IsHitEnemy_
-  commentId: Overload:CatchIo.Runtime.Interfaces.IDamagable.IsHitEnemy
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Interfaces.IDamagable.IsHitEnemy
-  nameWithType: IDamagable.IsHitEnemy
 - uid: CatchIo.Runtime.Interfaces.IDamagable.OnHit(CatchIo.Runtime.Interfaces.ICharacterHitable)
   name: OnHit(ICharacterHitable)
   href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_OnHit_CatchIo_Runtime_Interfaces_ICharacterHitable_
@@ -5736,6 +5787,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IDamagable.OnHit
   nameWithType: IDamagable.OnHit
+- uid: CatchIo.Runtime.Interfaces.IDamage
+  name: IDamage
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html
+  commentId: T:CatchIo.Runtime.Interfaces.IDamage
+  fullName: CatchIo.Runtime.Interfaces.IDamage
+  nameWithType: IDamage
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetDamage(System.Single)
+  name: GetDamage(Single)
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetDamage_System_Single_
+  commentId: M:CatchIo.Runtime.Interfaces.IDamage.GetDamage(System.Single)
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetDamage(System.Single)
+  nameWithType: IDamage.GetDamage(Single)
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetDamage*
+  name: GetDamage
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetDamage_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDamage.GetDamage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetDamage
+  nameWithType: IDamage.GetDamage
 - uid: CatchIo.Runtime.Interfaces.IDetectable
   name: IDetectable
   href: api/CatchIo.Runtime.Interfaces.IDetectable.html
@@ -6321,19 +6391,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Stone.DamageVal
   nameWithType: Stone.DamageVal
-- uid: CatchIo.Runtime.Items.Stone.IsHitEnemy
-  name: IsHitEnemy
-  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_IsHitEnemy
-  commentId: P:CatchIo.Runtime.Items.Stone.IsHitEnemy
-  fullName: CatchIo.Runtime.Items.Stone.IsHitEnemy
-  nameWithType: Stone.IsHitEnemy
-- uid: CatchIo.Runtime.Items.Stone.IsHitEnemy*
-  name: IsHitEnemy
-  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_IsHitEnemy_
-  commentId: Overload:CatchIo.Runtime.Items.Stone.IsHitEnemy
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.Stone.IsHitEnemy
-  nameWithType: Stone.IsHitEnemy
 - uid: CatchIo.Runtime.Items.Stone.OnDiscard(Vector2)
   name: OnDiscard(Vector2)
   href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnDiscard_Vector2_
@@ -14037,3 +14094,73 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.StringHelper.PutSpaceAfterUpperCase
   nameWithType: StringHelper.PutSpaceAfterUpperCase
+- uid: CatchIo.Runtime.Values
+  name: CatchIo.Runtime.Values
+  href: api/CatchIo.Runtime.Values.html
+  commentId: N:CatchIo.Runtime.Values
+  fullName: CatchIo.Runtime.Values
+  nameWithType: CatchIo.Runtime.Values
+- uid: CatchIo.Runtime.Values.FixedDamage
+  name: FixedDamage
+  href: api/CatchIo.Runtime.Values.FixedDamage.html
+  commentId: T:CatchIo.Runtime.Values.FixedDamage
+  fullName: CatchIo.Runtime.Values.FixedDamage
+  nameWithType: FixedDamage
+- uid: CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single)
+  name: FixedDamage(Single)
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single)
+  fullName: CatchIo.Runtime.Values.FixedDamage.FixedDamage(System.Single)
+  nameWithType: FixedDamage.FixedDamage(Single)
+- uid: CatchIo.Runtime.Values.FixedDamage.#ctor*
+  name: FixedDamage
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_
+  commentId: Overload:CatchIo.Runtime.Values.FixedDamage.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.FixedDamage.FixedDamage
+  nameWithType: FixedDamage.FixedDamage
+- uid: CatchIo.Runtime.Values.FixedDamage.GetDamage(System.Single)
+  name: GetDamage(Single)
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetDamage_System_Single_
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.GetDamage(System.Single)
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetDamage(System.Single)
+  nameWithType: FixedDamage.GetDamage(Single)
+- uid: CatchIo.Runtime.Values.FixedDamage.GetDamage*
+  name: GetDamage
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetDamage_
+  commentId: Overload:CatchIo.Runtime.Values.FixedDamage.GetDamage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetDamage
+  nameWithType: FixedDamage.GetDamage
+- uid: CatchIo.Runtime.Values.PercentageDamage
+  name: PercentageDamage
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html
+  commentId: T:CatchIo.Runtime.Values.PercentageDamage
+  fullName: CatchIo.Runtime.Values.PercentageDamage
+  nameWithType: PercentageDamage
+- uid: CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single)
+  name: PercentageDamage(Single)
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_System_Single_
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single)
+  fullName: CatchIo.Runtime.Values.PercentageDamage.PercentageDamage(System.Single)
+  nameWithType: PercentageDamage.PercentageDamage(Single)
+- uid: CatchIo.Runtime.Values.PercentageDamage.#ctor*
+  name: PercentageDamage
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_
+  commentId: Overload:CatchIo.Runtime.Values.PercentageDamage.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.PercentageDamage.PercentageDamage
+  nameWithType: PercentageDamage.PercentageDamage
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetDamage(System.Single)
+  name: GetDamage(Single)
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetDamage_System_Single_
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.GetDamage(System.Single)
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetDamage(System.Single)
+  nameWithType: PercentageDamage.GetDamage(Single)
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetDamage*
+  name: GetDamage
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetDamage_
+  commentId: Overload:CatchIo.Runtime.Values.PercentageDamage.GetDamage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetDamage
+  nameWithType: PercentageDamage.GetDamage

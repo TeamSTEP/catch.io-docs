@@ -130,6 +130,31 @@
   </table>
   
   
+  <a id="CatchIo_Runtime_Character_CharacterHitbox_IsEnabled_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.IsEnabled*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterHitbox_IsEnabled" data-uid="CatchIo.Runtime.Character.CharacterHitbox.IsEnabled">IsEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_CharacterHitbox_Owner_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.Owner*"></a>
   <h4 id="CatchIo_Runtime_Character_CharacterHitbox_Owner" data-uid="CatchIo.Runtime.Character.CharacterHitbox.Owner">Owner</h4>
   <div class="markdown level1 summary"></div>
@@ -177,6 +202,33 @@
   </div>
   
   
+  <a id="CatchIo_Runtime_Character_CharacterHitbox_EnableHitbox_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterHitbox_EnableHitbox_System_Single_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.EnableHitbox(System.Single)">EnableHitbox(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableHitbox(float delay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_CharacterHitbox_GetPosition_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.GetPosition*"></a>
   <h4 id="CatchIo_Runtime_Character_CharacterHitbox_GetPosition" data-uid="CatchIo.Runtime.Character.CharacterHitbox.GetPosition">GetPosition()</h4>
   <div class="markdown level1 summary"></div>
@@ -213,12 +265,12 @@
   
   
   <a id="CatchIo_Runtime_Character_CharacterHitbox_OnHit_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.OnHit*"></a>
-  <h4 id="CatchIo_Runtime_Character_CharacterHitbox_OnHit_System_Single_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.OnHit(System.Single)">OnHit(Single)</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterHitbox_OnHit_IDamage_" data-uid="CatchIo.Runtime.Character.CharacterHitbox.OnHit(IDamage)">OnHit(IDamage)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnHit(float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnHit(IDamage damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,7 +283,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">IDamage</span></td>
         <td><span class="parametername">damage</span></td>
         <td></td>
       </tr>

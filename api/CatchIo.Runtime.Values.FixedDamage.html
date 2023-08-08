@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ICharacterHitable
+    <title>Class FixedDamage
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ICharacterHitable
+    <meta name="title" content="Class FixedDamage
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,32 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Interfaces.ICharacterHitable">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Values.FixedDamage">
   
   
-  <h1 id="CatchIo_Runtime_Interfaces_ICharacterHitable" data-uid="CatchIo.Runtime.Interfaces.ICharacterHitable" class="text-break">Interface ICharacterHitable
+  <h1 id="CatchIo_Runtime_Values_FixedDamage" data-uid="CatchIo.Runtime.Values.FixedDamage" class="text-break">Class FixedDamage
   </h1>
-  <div class="markdown level0 summary"><p>Interface for objects that can take damage.
-Object taking damage must implement the OnDamage function, and objects that gives damage should call that function and pass the damage value.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Interfaces.html">CatchIo.Runtime.Interfaces</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Interfaces_ICharacterHitable_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ICharacterHitable</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">FixedDamage</span></div>
   </div>
-  <h3 id="methods">Methods
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Values.html">CatchIo.Runtime.Values</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Values_FixedDamage_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FixedDamage : IDamage</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_Runtime_Interfaces_ICharacterHitable_OnHit_" data-uid="CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit*"></a>
-  <h4 id="CatchIo_Runtime_Interfaces_ICharacterHitable_OnHit_CatchIo_Runtime_Interfaces_IDamage_" data-uid="CatchIo.Runtime.Interfaces.ICharacterHitable.OnHit(CatchIo.Runtime.Interfaces.IDamage)">OnHit(IDamage)</h4>
+  <a id="CatchIo_Runtime_Values_FixedDamage__ctor_" data-uid="CatchIo.Runtime.Values.FixedDamage.#ctor*"></a>
+  <h4 id="CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_" data-uid="CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single)">FixedDamage(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnHit(IDamage damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public FixedDamage(float damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,8 +119,52 @@ Object taking damage must implement the OnDamage function, and objects that give
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CatchIo.Runtime.Interfaces.IDamage.html">IDamage</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Values_FixedDamage_GetDamage_" data-uid="CatchIo.Runtime.Values.FixedDamage.GetDamage*"></a>
+  <h4 id="CatchIo_Runtime_Values_FixedDamage_GetDamage_System_Single_" data-uid="CatchIo.Runtime.Values.FixedDamage.GetDamage(System.Single)">GetDamage(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetDamage(float remainHealth)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">remainHealth</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>

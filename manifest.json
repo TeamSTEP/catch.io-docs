@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.CharacterFacade.html",
-          "hash": "NJ1WwyOactAgTiWEw51nEZADLhfeF9zZvFBigK76WBw="
+          "hash": "qZqcg/NtNMOtJyca4F7jYe2KUjyCf4flOOZa8nR89n4="
         }
       },
       "is_incremental": false,
@@ -424,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.CharacterHitbox.html",
-          "hash": "5kssLK1h3YlDiOkl7PqU0ne4pXqIeDLeLqjY8iCmaUY="
+          "hash": "P3nMGfOzUaPZGEMkdZDDD6Htg3O+lVjFpXlTSwzccDE="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.DynmaicObjects.TrapObject.html",
-          "hash": "bTqNvLL4bN6iyHpk/0QIFct2Mp2W1tTA9pOXM81Sqw8="
+          "hash": "Ur5T9e+XY7m1d7pqiOcjP21ogiXtViR2fj0zmfvaeoA="
         }
       },
       "is_incremental": false,
@@ -1260,6 +1260,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Environment.DamagableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Environment.DamagableObject.html",
+          "hash": "59BZS2FtkIIyNlERz98q/L0sgKHZ7secqfm2Iu2LMl4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Environment.HidingSpot.yml",
       "output": {
         ".html": {
@@ -1324,7 +1336,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Environment.html",
-          "hash": "+xlizN365Aqs2gCETPmY2pskYxZQJEDz5PZUIrgZiMU="
+          "hash": "lg6pdRz2FP9FLybrQcIOA3jqz1qNAOjAeKHw8LqmqoU="
         }
       },
       "is_incremental": false,
@@ -1336,7 +1348,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Interfaces.ICharacterHitable.html",
-          "hash": "0cMz6ANslXcV1wVgtxTKGUW2qOZ7pQUNPMCAM+QaJ3I="
+          "hash": "vOu17nOf91vD11eeAQeQCU4DAA8lXFssgO1N76or348="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1360,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Interfaces.IDamagable.html",
-          "hash": "HcbtbynA18ruysf4TturDWganxFtBnjmSuRq2ivZ9aw="
+          "hash": "mEWaACjPknDawMQZPq7E5r7vo4N70ccNVb+xHJVMK5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Interfaces.IDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Interfaces.IDamage.html",
+          "hash": "ohQ2TRKtwXVMwp+PKTRFVmf+p6e3E4rL7tZsQxi04U0="
         }
       },
       "is_incremental": false,
@@ -1420,7 +1444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Interfaces.html",
-          "hash": "vwzyf/s0CXXQGyD0PWEvG+28XUGJbHsFyh40ktJ78a8="
+          "hash": "B2brxtPMUaxejz7p3LaWfuCouhl7mG8XNeBCcTgAMsY="
         }
       },
       "is_incremental": false,
@@ -1480,7 +1504,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.Stone.html",
-          "hash": "SltavECMzTNUyi9vMmHtd9e0xBulhdTL/rcAwGqtyfQ="
+          "hash": "JGxCtbOC6com56X8kR0bwbcsJ/FBHDC53QL9eeeUkp8="
         }
       },
       "is_incremental": false,
@@ -3563,12 +3587,48 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Values.FixedDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Values.FixedDamage.html",
+          "hash": "9ni8Iz6jLiFN073twbau40dGsFBSVIe3Yer0b8GusBA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Values.PercentageDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Values.PercentageDamage.html",
+          "hash": "5ZkciW2BgPXAERUSg1PTHv9ClMxtQpjusDI3epHj60I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Values.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Values.html",
+          "hash": "7AKigta3vXMmcHaXZQxsp4dzanY3fRGfr9ieD1bLgJY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dkQVLG6a/xnXsTodfKDe7qR/OSekbzLouiHYIUKh8uE="
+          "hash": "pG30p7ur+6C3dInLhTSIYgDiWnhFUIaNzGjc/4gE9VI="
         }
       },
       "is_incremental": false,
@@ -4159,7 +4219,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 295,
+          "total_file_count": 300,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
