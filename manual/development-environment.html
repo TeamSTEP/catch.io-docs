@@ -95,10 +95,45 @@ Read <a href="https://forum.unity.com/threads/running-unity-on-ubuntu-22-04.1284
 <p>You can check the official release archive from <a href="https://unity3d.com/unity/whats-new/2021.3.12">this page</a>, or install directly via Unity Hub by clicking <a href="unityhub://2021.3.12f1/8af3c3e441b1">this link</a>.</p>
 <p>For Linux users who run Unity through an<code>.AppImage</code> executable, the deep link installation provided by the Unity release archive may not work. Instead, you will have to pass the deep link URL as a parameter for the application file from your terminal.</p>
 <pre><code class="lang-bash">./UnityHub.AppImage unityhub://2021.3.12f1/8af3c3e441b1
-</code></pre><h2 id="configuring-unity-editor">Configuring Unity Editor</h2>
-<h3 id="setting-the-default-ide">Setting The Default IDE</h3>
+</code></pre><h3 id="setting-the-default-ide">Setting The Default IDE</h3>
 <p>You can change your preferred IDE/Editor in Unity by going to the <code>Edit -&gt; Preferences -&gt; External Tools</code> menu. Regarding how to install the IDE and text editors, please refer to the next section.</p>
 <p><img src="../resources/preferred-ide.jpg" alt="../resources/preferred-ide.jpg"></p>
+<h3 id="using-the-staging-environment">Using The Staging Environment</h3>
+<p>Testing the development build on the fly is very important for our project.
+Because our game is using a custom web interface for some important features, it is challenging for us to quickly test a build by using the default UI or websites like itch.io.</p>
+<p>Therefore, we created a custom solution to facilitate a simple and quick way to prepare multiple builds test them through a single interface.
+In theory, this solution can work for any cloud database services, but for our solution, we will use <a href="https://apillon.io/">Apillon</a>, as they provide free storage solutions at the moment.</p>
+<p>Prerequisites:</p>
+<ul>
+<li>An Apillon account.</li>
+<li>Access to the Witch One project page and the storage bucket.</li>
+<li>Unity or a WebGL build of the game compiled from Unity.</li>
+</ul>
+<p>You can ask the current project admin to grant you access to the project page once you made a new Apillon account.</p>
+<p><img src="../resources/unity-compile-webgl.png" alt="../resources/unity-compile-webgl.png"></p>
+<p>Step 1: Compile the project into a WebGL build and keep note of where you kept the build folder.
+Note that it is important that the folder contains the <code>Build</code> and <code>StreamingAssets</code> folder. Everything else will not be used.</p>
+<p><img src="../resources/apillon-storage-bucket.png" alt="../resources/apillon-storage-bucket.png"></p>
+<p>Step 2: Click the &#39;Storage&#39; tab and access the &#39;Staging WebGL Build&#39; bucket.</p>
+<p><img src="../resources/apillon-upload-build.png" alt="../resources/apillon-upload-build.png"></p>
+<p>Step 3: Click the yellow &#39;Upload&#39; button to show the upload field.
+Click or drag and drop the contents of the folder that contains the game build made in &#39;Step 1.&#39;</p>
+<p><img src="../resources/apillon-upload-wrap-dir.png" alt="../resources/apillon-upload-wrap-dir.png"></p>
+<p>Step 4: When the &#39;Confirm your upload&#39; panel is shown, make sure the check the &#39;Wrap to directory&#39; option.
+This is very important as this option allows the folders to be streamed online, while not having this option will only allow the files to be streamed, while folders will remain virtual.
+When you&#39;re ready, click the &#39;Upload now&#39; button.</p>
+<p><img src="../resources/apillon-upload-folder-name.png" alt="../resources/apillon-upload-folder-name.png"></p>
+<p>Step 5: When you press the upload button while wrapping the directories, the page will ask you to make a name for the folder.
+Choose a name that describes the changes made in the build, and the <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO-8601 date</a> of upload to make sure that we know when the change was made.
+Although we do not have a standard naming scheme yet, I recommend that we use the following scheme:</p>
+<blockquote><p>[upload date]-[build title]</p>
+</blockquote>
+<p>For example, a build that adds the healing item that was uploaded on the 24th of August 2023, should have the following folder name:</p>
+<blockquote><p>20230824-Add Healing Item</p>
+</blockquote>
+<p>As long as the name is something that is easy to understand and manage, it should not matter too much.</p>
+<p><img src="../resources/witch-one-staging-option.png" alt="../resources/witch-one-staging-option.png"></p>
+<p>Step 6: After uploading everything in &#39;Step 5,&#39; visit the game&#39;s <a href="https://staging.witchone.io/">staging link</a> and you should see the uploaded build render on the drop-down box above the game view.</p>
 <h1 id="general-development-environment">General Development Environment</h1>
 <h2 id="version-control-software">Version Control Software</h2>
 <h3 id="git--github">Git &amp; GitHub</h3>
