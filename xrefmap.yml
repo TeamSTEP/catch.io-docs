@@ -4487,6 +4487,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayFootstepEvents
   nameWithType: SurfaceEffectPlayer.PlayFootstepEvents
+- uid: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx(System.String)
+  name: PlaySurfaceSfx(String)
+  href: api/CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.html#CatchIo_Runtime_Character_SurfaceEffect_SurfaceEffectPlayer_PlaySurfaceSfx_System_String_
+  commentId: M:CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx(System.String)
+  fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx(System.String)
+  nameWithType: SurfaceEffectPlayer.PlaySurfaceSfx(String)
+- uid: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx*
+  name: PlaySurfaceSfx
+  href: api/CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.html#CatchIo_Runtime_Character_SurfaceEffect_SurfaceEffectPlayer_PlaySurfaceSfx_
+  commentId: Overload:CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx
+  nameWithType: SurfaceEffectPlayer.PlaySurfaceSfx
+- uid: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.SurfaceDetector
+  name: SurfaceDetector
+  href: api/CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.html#CatchIo_Runtime_Character_SurfaceEffect_SurfaceEffectPlayer_SurfaceDetector
+  commentId: F:CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.SurfaceDetector
+  fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.SurfaceDetector
+  nameWithType: SurfaceEffectPlayer.SurfaceDetector
 - uid: CatchIo.Runtime.Container
   name: CatchIo.Runtime.Container
   href: api/CatchIo.Runtime.Container.html
@@ -6474,22 +6493,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Stone.OnPickup
   nameWithType: Stone.OnPickup
-- uid: CatchIo.Runtime.Items.Stone.OnSurfaceChanged(System.Nullable{CatchIo.Runtime.Environment.TileSurface})
-  name: OnSurfaceChanged(Nullable<TileSurface>)
-  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnSurfaceChanged_System_Nullable_CatchIo_Runtime_Environment_TileSurface__
-  commentId: M:CatchIo.Runtime.Items.Stone.OnSurfaceChanged(System.Nullable{CatchIo.Runtime.Environment.TileSurface})
-  name.vb: OnSurfaceChanged(Nullable(Of TileSurface))
-  fullName: CatchIo.Runtime.Items.Stone.OnSurfaceChanged(System.Nullable<CatchIo.Runtime.Environment.TileSurface>)
-  fullName.vb: CatchIo.Runtime.Items.Stone.OnSurfaceChanged(System.Nullable(Of CatchIo.Runtime.Environment.TileSurface))
-  nameWithType: Stone.OnSurfaceChanged(Nullable<TileSurface>)
-  nameWithType.vb: Stone.OnSurfaceChanged(Nullable(Of TileSurface))
-- uid: CatchIo.Runtime.Items.Stone.OnSurfaceChanged*
-  name: OnSurfaceChanged
-  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnSurfaceChanged_
-  commentId: Overload:CatchIo.Runtime.Items.Stone.OnSurfaceChanged
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.Stone.OnSurfaceChanged
-  nameWithType: Stone.OnSurfaceChanged
 - uid: CatchIo.Runtime.Items.Stone.Start
   name: Start()
   href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_Start
@@ -6818,6 +6821,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.ThrowableItem.Start
   nameWithType: ThrowableItem.Start
+- uid: CatchIo.Runtime.Items.ThrowableItem.SurfaceEffectPlayer
+  name: SurfaceEffectPlayer
+  href: api/CatchIo.Runtime.Items.ThrowableItem.html#CatchIo_Runtime_Items_ThrowableItem_SurfaceEffectPlayer
+  commentId: F:CatchIo.Runtime.Items.ThrowableItem.SurfaceEffectPlayer
+  fullName: CatchIo.Runtime.Items.ThrowableItem.SurfaceEffectPlayer
+  nameWithType: ThrowableItem.SurfaceEffectPlayer
 - uid: CatchIo.Runtime.Items.ThrowableItem.ThrewTime
   name: ThrewTime
   href: api/CatchIo.Runtime.Items.ThrowableItem.html#CatchIo_Runtime_Items_ThrowableItem_ThrewTime
@@ -12480,6 +12489,12 @@ references:
   commentId: F:CatchIo.Runtime.Sound.TransitionParameter.ForestAmbience
   fullName: CatchIo.Runtime.Sound.TransitionParameter.ForestAmbience
   nameWithType: TransitionParameter.ForestAmbience
+- uid: CatchIo.Runtime.Sound.TransitionParameter.ForestVillageMusic
+  name: ForestVillageMusic
+  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_ForestVillageMusic
+  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.ForestVillageMusic
+  fullName: CatchIo.Runtime.Sound.TransitionParameter.ForestVillageMusic
+  nameWithType: TransitionParameter.ForestVillageMusic
 - uid: CatchIo.Runtime.Sound.TransitionParameter.None
   name: None
   href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_None
