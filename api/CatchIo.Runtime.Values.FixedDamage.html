@@ -101,12 +101,12 @@
   
   
   <a id="CatchIo_Runtime_Values_FixedDamage__ctor_" data-uid="CatchIo.Runtime.Values.FixedDamage.#ctor*"></a>
-  <h4 id="CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_" data-uid="CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single)">FixedDamage(Single)</h4>
+  <h4 id="CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_System_Single_Vector2_" data-uid="CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single,System.Single,Vector2)">FixedDamage(Single, Single, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FixedDamage(float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public FixedDamage(float damage, float knockback = 0F, Vector2 damageOrigin = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,6 +121,16 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">knockback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">damageOrigin</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -165,6 +175,83 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Values_FixedDamage_GetKnockback_" data-uid="CatchIo.Runtime.Values.FixedDamage.GetKnockback*"></a>
+  <h4 id="CatchIo_Runtime_Values_FixedDamage_GetKnockback" data-uid="CatchIo.Runtime.Values.FixedDamage.GetKnockback">GetKnockback()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetKnockback()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Values_FixedDamage_GetOrigin_" data-uid="CatchIo.Runtime.Values.FixedDamage.GetOrigin*"></a>
+  <h4 id="CatchIo_Runtime_Values_FixedDamage_GetOrigin" data-uid="CatchIo.Runtime.Values.FixedDamage.GetOrigin">GetOrigin()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 GetOrigin()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Values_FixedDamage_SetOrigin_" data-uid="CatchIo.Runtime.Values.FixedDamage.SetOrigin*"></a>
+  <h4 id="CatchIo_Runtime_Values_FixedDamage_SetOrigin_Vector2_" data-uid="CatchIo.Runtime.Values.FixedDamage.SetOrigin(Vector2)">SetOrigin(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOrigin(Vector2 damageOrigin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">damageOrigin</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -1923,6 +1923,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.Character
   nameWithType: CharacterStateMachine.Character
+- uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.CharacterRenderer
+  name: CharacterRenderer
+  href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_CharacterRenderer
+  commentId: P:CatchIo.Runtime.Character.FSM.CharacterStateMachine.CharacterRenderer
+  fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.CharacterRenderer
+  nameWithType: CharacterStateMachine.CharacterRenderer
+- uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.CharacterRenderer*
+  name: CharacterRenderer
+  href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_CharacterRenderer_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.CharacterStateMachine.CharacterRenderer
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.CharacterRenderer
+  nameWithType: CharacterStateMachine.CharacterRenderer
 - uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.Input
   name: Input
   href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_Input
@@ -4408,12 +4421,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.NetworkCharacter.ReverseCursedEffect
   nameWithType: NetworkCharacter.ReverseCursedEffect
-- uid: CatchIo.Runtime.Character.NetworkCharacter.TakeDamage(System.Single)
-  name: TakeDamage(Single)
-  href: api/CatchIo.Runtime.Character.NetworkCharacter.html#CatchIo_Runtime_Character_NetworkCharacter_TakeDamage_System_Single_
-  commentId: M:CatchIo.Runtime.Character.NetworkCharacter.TakeDamage(System.Single)
-  fullName: CatchIo.Runtime.Character.NetworkCharacter.TakeDamage(System.Single)
-  nameWithType: NetworkCharacter.TakeDamage(Single)
+- uid: CatchIo.Runtime.Character.NetworkCharacter.TakeDamage(IDamage)
+  name: TakeDamage(IDamage)
+  href: api/CatchIo.Runtime.Character.NetworkCharacter.html#CatchIo_Runtime_Character_NetworkCharacter_TakeDamage_IDamage_
+  commentId: M:CatchIo.Runtime.Character.NetworkCharacter.TakeDamage(IDamage)
+  fullName: CatchIo.Runtime.Character.NetworkCharacter.TakeDamage(IDamage)
+  nameWithType: NetworkCharacter.TakeDamage(IDamage)
 - uid: CatchIo.Runtime.Character.NetworkCharacter.TakeDamage*
   name: TakeDamage
   href: api/CatchIo.Runtime.Character.NetworkCharacter.html#CatchIo_Runtime_Character_NetworkCharacter_TakeDamage_
@@ -5467,6 +5480,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Environment.DamagableObject.DamageVal
   nameWithType: DamagableObject.DamageVal
+- uid: CatchIo.Runtime.Environment.DamagableObject.HitboxTag
+  name: HitboxTag
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_HitboxTag
+  commentId: F:CatchIo.Runtime.Environment.DamagableObject.HitboxTag
+  fullName: CatchIo.Runtime.Environment.DamagableObject.HitboxTag
+  nameWithType: DamagableObject.HitboxTag
+- uid: CatchIo.Runtime.Environment.DamagableObject.Knockback
+  name: Knockback
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_Knockback
+  commentId: P:CatchIo.Runtime.Environment.DamagableObject.Knockback
+  fullName: CatchIo.Runtime.Environment.DamagableObject.Knockback
+  nameWithType: DamagableObject.Knockback
+- uid: CatchIo.Runtime.Environment.DamagableObject.Knockback*
+  name: Knockback
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_Knockback_
+  commentId: Overload:CatchIo.Runtime.Environment.DamagableObject.Knockback
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.DamagableObject.Knockback
+  nameWithType: DamagableObject.Knockback
 - uid: CatchIo.Runtime.Environment.DamagableObject.OnHit(ICharacterHitable)
   name: OnHit(ICharacterHitable)
   href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHit_ICharacterHitable_
@@ -5870,6 +5902,45 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IDamage.GetDamage
   nameWithType: IDamage.GetDamage
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetKnockback
+  name: GetKnockback()
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetKnockback
+  commentId: M:CatchIo.Runtime.Interfaces.IDamage.GetKnockback
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetKnockback()
+  nameWithType: IDamage.GetKnockback()
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetKnockback*
+  name: GetKnockback
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetKnockback_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDamage.GetKnockback
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetKnockback
+  nameWithType: IDamage.GetKnockback
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetOrigin
+  name: GetOrigin()
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetOrigin
+  commentId: M:CatchIo.Runtime.Interfaces.IDamage.GetOrigin
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetOrigin()
+  nameWithType: IDamage.GetOrigin()
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetOrigin*
+  name: GetOrigin
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetOrigin_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDamage.GetOrigin
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetOrigin
+  nameWithType: IDamage.GetOrigin
+- uid: CatchIo.Runtime.Interfaces.IDamage.SetOrigin(Vector2)
+  name: SetOrigin(Vector2)
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_SetOrigin_Vector2_
+  commentId: M:CatchIo.Runtime.Interfaces.IDamage.SetOrigin(Vector2)
+  fullName: CatchIo.Runtime.Interfaces.IDamage.SetOrigin(Vector2)
+  nameWithType: IDamage.SetOrigin(Vector2)
+- uid: CatchIo.Runtime.Interfaces.IDamage.SetOrigin*
+  name: SetOrigin
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_SetOrigin_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDamage.SetOrigin
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDamage.SetOrigin
+  nameWithType: IDamage.SetOrigin
 - uid: CatchIo.Runtime.Interfaces.IDetectable
   name: IDetectable
   href: api/CatchIo.Runtime.Interfaces.IDetectable.html
@@ -6455,6 +6526,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Stone.DamageVal
   nameWithType: Stone.DamageVal
+- uid: CatchIo.Runtime.Items.Stone.KnockbackVal
+  name: KnockbackVal
+  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_KnockbackVal
+  commentId: P:CatchIo.Runtime.Items.Stone.KnockbackVal
+  fullName: CatchIo.Runtime.Items.Stone.KnockbackVal
+  nameWithType: Stone.KnockbackVal
+- uid: CatchIo.Runtime.Items.Stone.KnockbackVal*
+  name: KnockbackVal
+  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_KnockbackVal_
+  commentId: Overload:CatchIo.Runtime.Items.Stone.KnockbackVal
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Stone.KnockbackVal
+  nameWithType: Stone.KnockbackVal
 - uid: CatchIo.Runtime.Items.Stone.OnDiscard(Vector2)
   name: OnDiscard(Vector2)
   href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnDiscard_Vector2_
@@ -8939,6 +9023,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.MeleeDamage
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.MeleeDamage
   nameWithType: CharacterStatus.MeleeDamage
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.MeleeKnockback
+  name: MeleeKnockback
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_MeleeKnockback
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.MeleeKnockback
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.MeleeKnockback
+  nameWithType: CharacterStatus.MeleeKnockback
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Name
   name: Name
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Name
@@ -14198,12 +14288,12 @@ references:
   commentId: T:CatchIo.Runtime.Values.FixedDamage
   fullName: CatchIo.Runtime.Values.FixedDamage
   nameWithType: FixedDamage
-- uid: CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single)
-  name: FixedDamage(Single)
-  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_
-  commentId: M:CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single)
-  fullName: CatchIo.Runtime.Values.FixedDamage.FixedDamage(System.Single)
-  nameWithType: FixedDamage.FixedDamage(Single)
+- uid: CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single,System.Single,Vector2)
+  name: FixedDamage(Single, Single, Vector2)
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_System_Single_Vector2_
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single,System.Single,Vector2)
+  fullName: CatchIo.Runtime.Values.FixedDamage.FixedDamage(System.Single, System.Single, Vector2)
+  nameWithType: FixedDamage.FixedDamage(Single, Single, Vector2)
 - uid: CatchIo.Runtime.Values.FixedDamage.#ctor*
   name: FixedDamage
   href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_
@@ -14224,18 +14314,57 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Values.FixedDamage.GetDamage
   nameWithType: FixedDamage.GetDamage
+- uid: CatchIo.Runtime.Values.FixedDamage.GetKnockback
+  name: GetKnockback()
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetKnockback
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.GetKnockback
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetKnockback()
+  nameWithType: FixedDamage.GetKnockback()
+- uid: CatchIo.Runtime.Values.FixedDamage.GetKnockback*
+  name: GetKnockback
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetKnockback_
+  commentId: Overload:CatchIo.Runtime.Values.FixedDamage.GetKnockback
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetKnockback
+  nameWithType: FixedDamage.GetKnockback
+- uid: CatchIo.Runtime.Values.FixedDamage.GetOrigin
+  name: GetOrigin()
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetOrigin
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.GetOrigin
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetOrigin()
+  nameWithType: FixedDamage.GetOrigin()
+- uid: CatchIo.Runtime.Values.FixedDamage.GetOrigin*
+  name: GetOrigin
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetOrigin_
+  commentId: Overload:CatchIo.Runtime.Values.FixedDamage.GetOrigin
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetOrigin
+  nameWithType: FixedDamage.GetOrigin
+- uid: CatchIo.Runtime.Values.FixedDamage.SetOrigin(Vector2)
+  name: SetOrigin(Vector2)
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_SetOrigin_Vector2_
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.SetOrigin(Vector2)
+  fullName: CatchIo.Runtime.Values.FixedDamage.SetOrigin(Vector2)
+  nameWithType: FixedDamage.SetOrigin(Vector2)
+- uid: CatchIo.Runtime.Values.FixedDamage.SetOrigin*
+  name: SetOrigin
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_SetOrigin_
+  commentId: Overload:CatchIo.Runtime.Values.FixedDamage.SetOrigin
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.FixedDamage.SetOrigin
+  nameWithType: FixedDamage.SetOrigin
 - uid: CatchIo.Runtime.Values.PercentageDamage
   name: PercentageDamage
   href: api/CatchIo.Runtime.Values.PercentageDamage.html
   commentId: T:CatchIo.Runtime.Values.PercentageDamage
   fullName: CatchIo.Runtime.Values.PercentageDamage
   nameWithType: PercentageDamage
-- uid: CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single)
-  name: PercentageDamage(Single)
-  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_System_Single_
-  commentId: M:CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single)
-  fullName: CatchIo.Runtime.Values.PercentageDamage.PercentageDamage(System.Single)
-  nameWithType: PercentageDamage.PercentageDamage(Single)
+- uid: CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,System.Single,Vector2)
+  name: PercentageDamage(Single, Single, Vector2)
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_System_Single_System_Single_Vector2_
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,System.Single,Vector2)
+  fullName: CatchIo.Runtime.Values.PercentageDamage.PercentageDamage(System.Single, System.Single, Vector2)
+  nameWithType: PercentageDamage.PercentageDamage(Single, Single, Vector2)
 - uid: CatchIo.Runtime.Values.PercentageDamage.#ctor*
   name: PercentageDamage
   href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_
@@ -14256,3 +14385,42 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Values.PercentageDamage.GetDamage
   nameWithType: PercentageDamage.GetDamage
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetKnockback
+  name: GetKnockback()
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetKnockback
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.GetKnockback
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetKnockback()
+  nameWithType: PercentageDamage.GetKnockback()
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetKnockback*
+  name: GetKnockback
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetKnockback_
+  commentId: Overload:CatchIo.Runtime.Values.PercentageDamage.GetKnockback
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetKnockback
+  nameWithType: PercentageDamage.GetKnockback
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetOrigin
+  name: GetOrigin()
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetOrigin
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.GetOrigin
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetOrigin()
+  nameWithType: PercentageDamage.GetOrigin()
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetOrigin*
+  name: GetOrigin
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetOrigin_
+  commentId: Overload:CatchIo.Runtime.Values.PercentageDamage.GetOrigin
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetOrigin
+  nameWithType: PercentageDamage.GetOrigin
+- uid: CatchIo.Runtime.Values.PercentageDamage.SetOrigin(Vector2)
+  name: SetOrigin(Vector2)
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_SetOrigin_Vector2_
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.SetOrigin(Vector2)
+  fullName: CatchIo.Runtime.Values.PercentageDamage.SetOrigin(Vector2)
+  nameWithType: PercentageDamage.SetOrigin(Vector2)
+- uid: CatchIo.Runtime.Values.PercentageDamage.SetOrigin*
+  name: SetOrigin
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_SetOrigin_
+  commentId: Overload:CatchIo.Runtime.Values.PercentageDamage.SetOrigin
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.PercentageDamage.SetOrigin
+  nameWithType: PercentageDamage.SetOrigin
