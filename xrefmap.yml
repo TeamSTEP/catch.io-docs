@@ -4507,19 +4507,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayFootstepEvents
   nameWithType: SurfaceEffectPlayer.PlayFootstepEvents
-- uid: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx(System.String)
-  name: PlaySurfaceSfx(String)
-  href: api/CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.html#CatchIo_Runtime_Character_SurfaceEffect_SurfaceEffectPlayer_PlaySurfaceSfx_System_String_
-  commentId: M:CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx(System.String)
-  fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx(System.String)
-  nameWithType: SurfaceEffectPlayer.PlaySurfaceSfx(String)
-- uid: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx*
-  name: PlaySurfaceSfx
-  href: api/CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.html#CatchIo_Runtime_Character_SurfaceEffect_SurfaceEffectPlayer_PlaySurfaceSfx_
-  commentId: Overload:CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx
+- uid: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayItemSurfaceSfx(System.String)
+  name: PlayItemSurfaceSfx(String)
+  href: api/CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.html#CatchIo_Runtime_Character_SurfaceEffect_SurfaceEffectPlayer_PlayItemSurfaceSfx_System_String_
+  commentId: M:CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayItemSurfaceSfx(System.String)
+  fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayItemSurfaceSfx(System.String)
+  nameWithType: SurfaceEffectPlayer.PlayItemSurfaceSfx(String)
+- uid: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayItemSurfaceSfx*
+  name: PlayItemSurfaceSfx
+  href: api/CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.html#CatchIo_Runtime_Character_SurfaceEffect_SurfaceEffectPlayer_PlayItemSurfaceSfx_
+  commentId: Overload:CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayItemSurfaceSfx
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlaySurfaceSfx
-  nameWithType: SurfaceEffectPlayer.PlaySurfaceSfx
+  fullName: CatchIo.Runtime.Character.SurfaceEffect.SurfaceEffectPlayer.PlayItemSurfaceSfx
+  nameWithType: SurfaceEffectPlayer.PlayItemSurfaceSfx
 - uid: CatchIo.Runtime.Container
   name: CatchIo.Runtime.Container
   href: api/CatchIo.Runtime.Container.html
@@ -12131,6 +12131,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.ItemSfx.Play
   nameWithType: ItemSfx.Play
+- uid: CatchIo.Runtime.Sound.ItemTerrainSfx
+  name: ItemTerrainSfx
+  href: api/CatchIo.Runtime.Sound.ItemTerrainSfx.html
+  commentId: T:CatchIo.Runtime.Sound.ItemTerrainSfx
+  fullName: CatchIo.Runtime.Sound.ItemTerrainSfx
+  nameWithType: ItemTerrainSfx
+- uid: CatchIo.Runtime.Sound.ItemTerrainSfx.Play(Vector3,System.String,System.Single)
+  name: Play(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.ItemTerrainSfx.html#CatchIo_Runtime_Sound_ItemTerrainSfx_Play_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.ItemTerrainSfx.Play(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.ItemTerrainSfx.Play(Vector3, System.String, System.Single)
+  nameWithType: ItemTerrainSfx.Play(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.ItemTerrainSfx.Play*
+  name: Play
+  href: api/CatchIo.Runtime.Sound.ItemTerrainSfx.html#CatchIo_Runtime_Sound_ItemTerrainSfx_Play_
+  commentId: Overload:CatchIo.Runtime.Sound.ItemTerrainSfx.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.ItemTerrainSfx.Play
+  nameWithType: ItemTerrainSfx.Play
 - uid: CatchIo.Runtime.Sound.MainMusic
   name: MainMusic
   href: api/CatchIo.Runtime.Sound.MainMusic.html
@@ -12336,6 +12355,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.PlayItemSfx
   nameWithType: SoundManager.PlayItemSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayItemTerrainSfx(Vector3,System.String,System.Single)
+  name: PlayItemTerrainSfx(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayItemTerrainSfx_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.PlayItemTerrainSfx(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayItemTerrainSfx(Vector3, System.String, System.Single)
+  nameWithType: SoundManager.PlayItemTerrainSfx(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayItemTerrainSfx*
+  name: PlayItemTerrainSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayItemTerrainSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.PlayItemTerrainSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayItemTerrainSfx
+  nameWithType: SoundManager.PlayItemTerrainSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.PlayStaminaSfx(System.String,System.Single)
   name: PlayStaminaSfx(String, Single)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayStaminaSfx_System_String_System_Single_
@@ -12401,6 +12433,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemSfx
   nameWithType: SoundManager.RPC_PlayItemSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemTerrainSfx(Vector3,System.String,System.Single)
+  name: RPC_PlayItemTerrainSfx(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_RPC_PlayItemTerrainSfx_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemTerrainSfx(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemTerrainSfx(Vector3, System.String, System.Single)
+  nameWithType: SoundManager.RPC_PlayItemTerrainSfx(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemTerrainSfx*
+  name: RPC_PlayItemTerrainSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_RPC_PlayItemTerrainSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemTerrainSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemTerrainSfx
+  nameWithType: SoundManager.RPC_PlayItemTerrainSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.RPC_PlayTerrainSfx(Vector3,System.String)
   name: RPC_PlayTerrainSfx(Vector3, String)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_RPC_PlayTerrainSfx_Vector3_System_String_
