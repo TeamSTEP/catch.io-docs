@@ -12156,31 +12156,60 @@ references:
   commentId: T:CatchIo.Runtime.Sound.MainMusic
   fullName: CatchIo.Runtime.Sound.MainMusic
   nameWithType: MainMusic
-- uid: CatchIo.Runtime.Sound.MainMusic.Play(System.String)
-  name: Play(String)
-  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_Play_System_String_
-  commentId: M:CatchIo.Runtime.Sound.MainMusic.Play(System.String)
-  fullName: CatchIo.Runtime.Sound.MainMusic.Play(System.String)
-  nameWithType: MainMusic.Play(String)
-- uid: CatchIo.Runtime.Sound.MainMusic.Play*
-  name: Play
-  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_Play_
-  commentId: Overload:CatchIo.Runtime.Sound.MainMusic.Play
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Sound.MainMusic.Play
-  nameWithType: MainMusic.Play
+- uid: CatchIo.Runtime.Sound.MainTrackType
+  name: MainTrackType
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html
+  commentId: T:CatchIo.Runtime.Sound.MainTrackType
+  fullName: CatchIo.Runtime.Sound.MainTrackType
+  nameWithType: MainTrackType
+- uid: CatchIo.Runtime.Sound.MainTrackType.Chase
+  name: Chase
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html#CatchIo_Runtime_Sound_MainTrackType_Chase
+  commentId: F:CatchIo.Runtime.Sound.MainTrackType.Chase
+  fullName: CatchIo.Runtime.Sound.MainTrackType.Chase
+  nameWithType: MainTrackType.Chase
+- uid: CatchIo.Runtime.Sound.MainTrackType.ForestAmbience
+  name: ForestAmbience
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html#CatchIo_Runtime_Sound_MainTrackType_ForestAmbience
+  commentId: F:CatchIo.Runtime.Sound.MainTrackType.ForestAmbience
+  fullName: CatchIo.Runtime.Sound.MainTrackType.ForestAmbience
+  nameWithType: MainTrackType.ForestAmbience
+- uid: CatchIo.Runtime.Sound.MainTrackType.ForestVillageMusic
+  name: ForestVillageMusic
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html#CatchIo_Runtime_Sound_MainTrackType_ForestVillageMusic
+  commentId: F:CatchIo.Runtime.Sound.MainTrackType.ForestVillageMusic
+  fullName: CatchIo.Runtime.Sound.MainTrackType.ForestVillageMusic
+  nameWithType: MainTrackType.ForestVillageMusic
+- uid: CatchIo.Runtime.Sound.MainTrackType.Last
+  name: Last
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html#CatchIo_Runtime_Sound_MainTrackType_Last
+  commentId: F:CatchIo.Runtime.Sound.MainTrackType.Last
+  fullName: CatchIo.Runtime.Sound.MainTrackType.Last
+  nameWithType: MainTrackType.Last
+- uid: CatchIo.Runtime.Sound.MainTrackType.None
+  name: None
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html#CatchIo_Runtime_Sound_MainTrackType_None
+  commentId: F:CatchIo.Runtime.Sound.MainTrackType.None
+  fullName: CatchIo.Runtime.Sound.MainTrackType.None
+  nameWithType: MainTrackType.None
+- uid: CatchIo.Runtime.Sound.MainTrackType.PlayableScene
+  name: PlayableScene
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html#CatchIo_Runtime_Sound_MainTrackType_PlayableScene
+  commentId: F:CatchIo.Runtime.Sound.MainTrackType.PlayableScene
+  fullName: CatchIo.Runtime.Sound.MainTrackType.PlayableScene
+  nameWithType: MainTrackType.PlayableScene
+- uid: CatchIo.Runtime.Sound.MainTrackType.TitleScreen
+  name: TitleScreen
+  href: api/CatchIo.Runtime.Sound.MainTrackType.html#CatchIo_Runtime_Sound_MainTrackType_TitleScreen
+  commentId: F:CatchIo.Runtime.Sound.MainTrackType.TitleScreen
+  fullName: CatchIo.Runtime.Sound.MainTrackType.TitleScreen
+  nameWithType: MainTrackType.TitleScreen
 - uid: CatchIo.Runtime.Sound.Music
   name: Music
   href: api/CatchIo.Runtime.Sound.Music.html
   commentId: T:CatchIo.Runtime.Sound.Music
   fullName: CatchIo.Runtime.Sound.Music
   nameWithType: Music
-- uid: CatchIo.Runtime.Sound.Music.EventInstance
-  name: EventInstance
-  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_EventInstance
-  commentId: F:CatchIo.Runtime.Sound.Music.EventInstance
-  fullName: CatchIo.Runtime.Sound.Music.EventInstance
-  nameWithType: Music.EventInstance
 - uid: CatchIo.Runtime.Sound.Music.GetPlayBackState
   name: GetPlayBackState()
   href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_GetPlayBackState
@@ -12194,12 +12223,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.Music.GetPlayBackState
   nameWithType: Music.GetPlayBackState
-- uid: CatchIo.Runtime.Sound.Music.Play(System.String)
-  name: Play(String)
-  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_Play_System_String_
-  commentId: M:CatchIo.Runtime.Sound.Music.Play(System.String)
-  fullName: CatchIo.Runtime.Sound.Music.Play(System.String)
-  nameWithType: Music.Play(String)
+- uid: CatchIo.Runtime.Sound.Music.Play
+  name: Play()
+  href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_Play
+  commentId: M:CatchIo.Runtime.Sound.Music.Play
+  fullName: CatchIo.Runtime.Sound.Music.Play()
+  nameWithType: Music.Play()
 - uid: CatchIo.Runtime.Sound.Music.Play*
   name: Play
   href: api/CatchIo.Runtime.Sound.Music.html#CatchIo_Runtime_Sound_Music_Play_
@@ -12620,48 +12649,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.TerrainSfx.Play
   nameWithType: TerrainSfx.Play
-- uid: CatchIo.Runtime.Sound.TransitionParameter
-  name: TransitionParameter
-  href: api/CatchIo.Runtime.Sound.TransitionParameter.html
-  commentId: T:CatchIo.Runtime.Sound.TransitionParameter
-  fullName: CatchIo.Runtime.Sound.TransitionParameter
-  nameWithType: TransitionParameter
-- uid: CatchIo.Runtime.Sound.TransitionParameter.Chase
-  name: Chase
-  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_Chase
-  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.Chase
-  fullName: CatchIo.Runtime.Sound.TransitionParameter.Chase
-  nameWithType: TransitionParameter.Chase
-- uid: CatchIo.Runtime.Sound.TransitionParameter.ForestAmbience
-  name: ForestAmbience
-  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_ForestAmbience
-  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.ForestAmbience
-  fullName: CatchIo.Runtime.Sound.TransitionParameter.ForestAmbience
-  nameWithType: TransitionParameter.ForestAmbience
-- uid: CatchIo.Runtime.Sound.TransitionParameter.ForestVillageMusic
-  name: ForestVillageMusic
-  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_ForestVillageMusic
-  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.ForestVillageMusic
-  fullName: CatchIo.Runtime.Sound.TransitionParameter.ForestVillageMusic
-  nameWithType: TransitionParameter.ForestVillageMusic
-- uid: CatchIo.Runtime.Sound.TransitionParameter.None
-  name: None
-  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_None
-  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.None
-  fullName: CatchIo.Runtime.Sound.TransitionParameter.None
-  nameWithType: TransitionParameter.None
-- uid: CatchIo.Runtime.Sound.TransitionParameter.PlayableScene
-  name: PlayableScene
-  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_PlayableScene
-  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.PlayableScene
-  fullName: CatchIo.Runtime.Sound.TransitionParameter.PlayableScene
-  nameWithType: TransitionParameter.PlayableScene
-- uid: CatchIo.Runtime.Sound.TransitionParameter.TitleScreen
-  name: TitleScreen
-  href: api/CatchIo.Runtime.Sound.TransitionParameter.html#CatchIo_Runtime_Sound_TransitionParameter_TitleScreen
-  commentId: F:CatchIo.Runtime.Sound.TransitionParameter.TitleScreen
-  fullName: CatchIo.Runtime.Sound.TransitionParameter.TitleScreen
-  nameWithType: TransitionParameter.TitleScreen
 - uid: CatchIo.Runtime.Sound.UiSfx
   name: UiSfx
   href: api/CatchIo.Runtime.Sound.UiSfx.html

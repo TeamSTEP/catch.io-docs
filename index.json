@@ -1247,7 +1247,7 @@
   "api/CatchIo.Runtime.Sound.html": {
     "href": "api/CatchIo.Runtime.Sound.html",
     "title": "Namespace CatchIo.Runtime.Sound | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Sound Classes CharacterActionSfx CursedOneSfx FootstepSfx ItemSfx ItemTerrainSfx MainMusic Music Sfx SoundManager SpawnSfx StaminaSfx TerrainSfx UiSfx Enums TransitionParameter UiSfx.SfxParameter"
+    "keywords": "Namespace CatchIo.Runtime.Sound Classes CharacterActionSfx CursedOneSfx FootstepSfx ItemSfx ItemTerrainSfx MainMusic Music Sfx SoundManager SpawnSfx StaminaSfx TerrainSfx UiSfx Enums MainTrackType UiSfx.SfxParameter"
   },
   "api/CatchIo.Runtime.Sound.ItemSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.ItemSfx.html",
@@ -1262,12 +1262,17 @@
   "api/CatchIo.Runtime.Sound.MainMusic.html": {
     "href": "api/CatchIo.Runtime.Sound.MainMusic.html",
     "title": "Class MainMusic | Catch.io Developer Reference",
-    "keywords": "Class MainMusic Inheritance Object Music MainMusic Inherited Members Music.EventInstance Music.GetPlayBackState() Music.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class MainMusic : Music Methods Play(String) Declaration public override void Play(string labelName) Parameters Type Name Description String labelName Overrides Music.Play(String)"
+    "keywords": "Class MainMusic Inheritance Object MainMusic Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class MainMusic : MonoBehaviour"
+  },
+  "api/CatchIo.Runtime.Sound.MainTrackType.html": {
+    "href": "api/CatchIo.Runtime.Sound.MainTrackType.html",
+    "title": "Enum MainTrackType | Catch.io Developer Reference",
+    "keywords": "Enum MainTrackType Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public enum MainTrackType Fields Name Description Chase ForestAmbience ForestVillageMusic Last None PlayableScene TitleScreen"
   },
   "api/CatchIo.Runtime.Sound.Music.html": {
     "href": "api/CatchIo.Runtime.Sound.Music.html",
     "title": "Class Music | Catch.io Developer Reference",
-    "keywords": "Class Music Inheritance Object Music MainMusic Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public abstract class Music : MonoBehaviour Fields EventInstance Declaration protected EventInstance EventInstance Field Value Type Description EventInstance Methods GetPlayBackState() Declaration public PLAYBACK_STATE GetPlayBackState() Returns Type Description PLAYBACK_STATE Play(String) Declaration public abstract void Play(string labelName) Parameters Type Name Description String labelName Stop(STOP_MODE) Declaration public void Stop(STOP_MODE stopMode = null) Parameters Type Name Description STOP_MODE stopMode"
+    "keywords": "Class Music Inheritance Object Music Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public abstract class Music : MonoBehaviour Methods GetPlayBackState() Declaration public abstract PLAYBACK_STATE GetPlayBackState() Returns Type Description PLAYBACK_STATE Play() Declaration public abstract void Play() Stop(STOP_MODE) Declaration public abstract void Stop(STOP_MODE stopMode = null) Parameters Type Name Description STOP_MODE stopMode"
   },
   "api/CatchIo.Runtime.Sound.Sfx.html": {
     "href": "api/CatchIo.Runtime.Sound.Sfx.html",
@@ -1293,11 +1298,6 @@
     "href": "api/CatchIo.Runtime.Sound.TerrainSfx.html",
     "title": "Class TerrainSfx | Catch.io Developer Reference",
     "keywords": "Class TerrainSfx Inheritance Object Sfx TerrainSfx FootstepSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class TerrainSfx : Sfx Constructors TerrainSfx() Declaration public TerrainSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string terrainName = \"\", float terrainVolume = 1F) Parameters Type Name Description Vector3 generatePos String terrainName Single terrainVolume Overrides Sfx.Play(Vector3, String, Single)"
-  },
-  "api/CatchIo.Runtime.Sound.TransitionParameter.html": {
-    "href": "api/CatchIo.Runtime.Sound.TransitionParameter.html",
-    "title": "Enum TransitionParameter | Catch.io Developer Reference",
-    "keywords": "Enum TransitionParameter Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public enum TransitionParameter Fields Name Description Chase ForestAmbience ForestVillageMusic None PlayableScene TitleScreen"
   },
   "api/CatchIo.Runtime.Sound.UiSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.UiSfx.html",
