@@ -754,6 +754,49 @@ e.g Player dies, set prop to false.</p>
   </table>
   
   
+  <a id="CatchIo_Runtime_Utility_Extensions_PlayerExtensions_IsPropertiesReset_" data-uid="CatchIo.Runtime.Utility.Extensions.PlayerExtensions.IsPropertiesReset*"></a>
+  <h4 id="CatchIo_Runtime_Utility_Extensions_PlayerExtensions_IsPropertiesReset_Player_" data-uid="CatchIo.Runtime.Utility.Extensions.PlayerExtensions.IsPropertiesReset(Player)">IsPropertiesReset(Player)</h4>
+  <div class="markdown level1 summary"><p>Just to make sure that the player&apos;s reset is already finished</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPropertiesReset(this Player player)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Utility_Extensions_PlayerExtensions_IsReady_" data-uid="CatchIo.Runtime.Utility.Extensions.PlayerExtensions.IsReady*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_PlayerExtensions_IsReady_Player_" data-uid="CatchIo.Runtime.Utility.Extensions.PlayerExtensions.IsReady(Player)">IsReady(Player)</h4>
   <div class="markdown level1 summary"><p>Get PhotonPlayer Ready State, if null its not set.</p>
@@ -821,6 +864,53 @@ e.g Player dies, set prop to false.</p>
         <td><span class="parametername">player</span></td>
         <td><p>Target Player</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Utility_Extensions_PlayerExtensions_ResetPropertiesEnum_" data-uid="CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetPropertiesEnum*"></a>
+  <h4 id="CatchIo_Runtime_Utility_Extensions_PlayerExtensions_ResetPropertiesEnum_Player_System_Func_IEnumerator__" data-uid="CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetPropertiesEnum(Player,System.Func{IEnumerator})">ResetPropertiesEnum(Player, Func&lt;IEnumerator&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerator ResetPropertiesEnum(this Player player, Func&lt;IEnumerator&gt; onOperationDone = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<span class="xref">IEnumerator</span>&gt;</td>
+        <td><span class="parametername">onOperationDone</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
