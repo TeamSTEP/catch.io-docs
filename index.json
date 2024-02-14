@@ -484,6 +484,11 @@
     "title": "Enum CharacterMoveType | Catch.io Developer Reference",
     "keywords": "Enum CharacterMoveType Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum CharacterMoveType Fields Name Description End None Run Sneak SneakStatic Spectate Static Walk"
   },
+  "api/CatchIo.Runtime.Enums.GameLanguage.html": {
+    "href": "api/CatchIo.Runtime.Enums.GameLanguage.html",
+    "title": "Enum GameLanguage | Catch.io Developer Reference",
+    "keywords": "Enum GameLanguage Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum GameLanguage Fields Name Description English"
+  },
   "api/CatchIo.Runtime.Enums.GameModeType.html": {
     "href": "api/CatchIo.Runtime.Enums.GameModeType.html",
     "title": "Enum GameModeType | Catch.io Developer Reference",
@@ -492,7 +497,7 @@
   "api/CatchIo.Runtime.Enums.html": {
     "href": "api/CatchIo.Runtime.Enums.html",
     "title": "Namespace CatchIo.Runtime.Enums | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Enums Classes SendEventType Enums CharacterActionType CharacterClassType CharacterDirectionState CharacterMoveType GameModeType RoomState SceneSwitchingState"
+    "keywords": "Namespace CatchIo.Runtime.Enums Classes SendEventType Enums CharacterActionType CharacterClassType CharacterDirectionState CharacterMoveType GameLanguage GameModeType RoomState SceneSwitchingState ScreenResolutionSettings"
   },
   "api/CatchIo.Runtime.Enums.RoomState.html": {
     "href": "api/CatchIo.Runtime.Enums.RoomState.html",
@@ -503,6 +508,11 @@
     "href": "api/CatchIo.Runtime.Enums.SceneSwitchingState.html",
     "title": "Enum SceneSwitchingState | Catch.io Developer Reference",
     "keywords": "Enum SceneSwitchingState Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum SceneSwitchingState Fields Name Description Ended Ending Starting Stated"
+  },
+  "api/CatchIo.Runtime.Enums.ScreenResolutionSettings.html": {
+    "href": "api/CatchIo.Runtime.Enums.ScreenResolutionSettings.html",
+    "title": "Enum ScreenResolutionSettings | Catch.io Developer Reference",
+    "keywords": "Enum ScreenResolutionSettings Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum ScreenResolutionSettings Fields Name Description English"
   },
   "api/CatchIo.Runtime.Enums.SendEventType.html": {
     "href": "api/CatchIo.Runtime.Enums.SendEventType.html",
@@ -774,6 +784,16 @@
     "title": "Class ReadyButton | Catch.io Developer Reference",
     "keywords": "Class ReadyButton Inheritance Object ReadyButton Namespace : CatchIo.Runtime.Menu.UI.Button Assembly : cs.temp.dll.dll Syntax public class ReadyButton : MonoBehaviour"
   },
+  "api/CatchIo.Runtime.Menu.UI.Checkbox.CheckboxBroadcaster.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Checkbox.CheckboxBroadcaster.html",
+    "title": "Class CheckboxBroadcaster | Catch.io Developer Reference",
+    "keywords": "Class CheckboxBroadcaster Inheritance Object CheckboxBroadcaster Namespace : CatchIo.Runtime.Menu.UI.Checkbox Assembly : cs.temp.dll.dll Syntax public class CheckboxBroadcaster : MonoBehaviour"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Checkbox.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Checkbox.html",
+    "title": "Namespace CatchIo.Runtime.Menu.UI.Checkbox | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Checkbox Classes CheckboxBroadcaster"
+  },
   "api/CatchIo.Runtime.Menu.UI.DisableByPlatform.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.DisableByPlatform.html",
     "title": "Class DisableByPlatform | Catch.io Developer Reference",
@@ -837,7 +857,7 @@
   "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html",
     "title": "Class BasePopup | Catch.io Developer Reference",
-    "keywords": "Class BasePopup Inheritance Object BasePopup CreateSessionPopup JoinRoomPopup Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class BasePopup : MonoBehaviour Fields _popup Declaration protected UIPopup _popup Field Value Type Description UIPopup Methods Clear() Declaration protected virtual void Clear() InstantHide() Declaration protected void InstantHide() OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start()"
+    "keywords": "Class BasePopup Inheritance Object BasePopup CreateSessionPopup JoinRoomPopup SettingsPopup Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class BasePopup : MonoBehaviour Fields _popup Declaration protected UIPopup _popup Field Value Type Description UIPopup Methods Clear() Declaration protected virtual void Clear() InstantHide() Declaration protected void InstantHide() OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start()"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html",
@@ -847,12 +867,17 @@
   "api/CatchIo.Runtime.Menu.UI.Popup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.Popup | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Popup Classes BasePopup CreateSessionPopup JoinRoomPopup"
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Popup Classes BasePopup CreateSessionPopup JoinRoomPopup SettingsPopup"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html",
     "title": "Class JoinRoomPopup | Catch.io Developer Reference",
     "keywords": "Class JoinRoomPopup Inheritance Object BasePopup JoinRoomPopup Inherited Members BasePopup._popup BasePopup.InstantHide() Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class JoinRoomPopup : BasePopup Methods Clear() Declaration protected override void Clear() Overrides BasePopup.Clear() OnDestroy() Declaration protected override void OnDestroy() Overrides BasePopup.OnDestroy() Start() Declaration protected override void Start() Overrides BasePopup.Start()"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html",
+    "title": "Class SettingsPopup | Catch.io Developer Reference",
+    "keywords": "Class SettingsPopup Inheritance Object BasePopup SettingsPopup Inherited Members BasePopup._popup BasePopup.Clear() BasePopup.InstantHide() Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class SettingsPopup : BasePopup Methods OnDestroy() Declaration protected override void OnDestroy() Overrides BasePopup.OnDestroy() Start() Declaration protected override void Start() Overrides BasePopup.Start()"
   },
   "api/CatchIo.Runtime.Menu.UI.Selector.CharacterClassSelector.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Selector.CharacterClassSelector.html",
@@ -863,6 +888,16 @@
     "href": "api/CatchIo.Runtime.Menu.UI.Selector.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.Selector | Catch.io Developer Reference",
     "keywords": "Namespace CatchIo.Runtime.Menu.UI.Selector Classes CharacterClassSelector"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Slider.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Slider.html",
+    "title": "Namespace CatchIo.Runtime.Menu.UI.Slider | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Slider Classes InputSliderBroadcaster"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.html",
+    "title": "Class InputSliderBroadcaster | Catch.io Developer Reference",
+    "keywords": "Class InputSliderBroadcaster Inheritance Object InputSliderBroadcaster Implements IPointerUpHandler Namespace : CatchIo.Runtime.Menu.UI.Slider Assembly : cs.temp.dll.dll Syntax public class InputSliderBroadcaster : MonoBehaviour Methods OnPointerUp(PointerEventData) Declaration public void OnPointerUp(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerUpHandler"
   },
   "api/CatchIo.Runtime.Menu.UI.Text.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Text.html",
@@ -1234,20 +1269,35 @@
     "title": "Class SceneSwitchingService | Catch.io Developer Reference",
     "keywords": "Class SceneSwitchingService Inheritance Object SceneSwitchingService Namespace : CatchIo.Runtime.Services Assembly : cs.temp.dll.dll Syntax public class SceneSwitchingService : MonoRegistrable Fields OnAfterSceneLoaded Declaration public static Action OnAfterSceneLoaded Field Value Type Description Action OnBeforeSceneLoaded Declaration public static Action OnBeforeSceneLoaded Field Value Type Description Action Methods MenuSceneSwitchAsync(Type, Boolean) Declaration public IEnumerator MenuSceneSwitchAsync(Type modeType, bool useLoadingScreen = false) Parameters Type Name Description Type modeType Boolean useLoadingScreen Returns Type Description IEnumerator SwitchToGameSceneMode() Declaration public void SwitchToGameSceneMode()"
   },
+  "api/CatchIo.Runtime.Settings.html": {
+    "href": "api/CatchIo.Runtime.Settings.html",
+    "title": "Namespace CatchIo.Runtime.Settings | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Settings Classes PlayerSettingsManager PlayerSettingsModel"
+  },
+  "api/CatchIo.Runtime.Settings.PlayerSettingsManager.html": {
+    "href": "api/CatchIo.Runtime.Settings.PlayerSettingsManager.html",
+    "title": "Class PlayerSettingsManager | Catch.io Developer Reference",
+    "keywords": "Class PlayerSettingsManager Inheritance Object PlayerSettingsManager Namespace : CatchIo.Runtime.Settings Assembly : cs.temp.dll.dll Syntax public class PlayerSettingsManager Fields MAX_VOLUME_ON_SLIDER Declaration public const float MAX_VOLUME_ON_SLIDER = 100F Field Value Type Description Single Properties Instance Declaration public static PlayerSettingsManager Instance { get; } Property Value Type Description PlayerSettingsManager Methods AddBgmVolumeDelegate(UnityAction<Single>) Declaration public void AddBgmVolumeDelegate(UnityAction<float> inDelegate) Parameters Type Name Description UnityAction < Single > inDelegate AddSfxVolumeDelegate(UnityAction<Single>) Declaration public void AddSfxVolumeDelegate(UnityAction<float> inDelegate) Parameters Type Name Description UnityAction < Single > inDelegate ApplySettings(PlayerSettingsModel) Declaration public void ApplySettings(PlayerSettingsModel newModel) Parameters Type Name Description PlayerSettingsModel newModel GetCurrentSettings() Declaration public PlayerSettingsModel GetCurrentSettings() Returns Type Description PlayerSettingsModel GetCurrentSettingsNormalized() Declaration public PlayerSettingsModel GetCurrentSettingsNormalized() Returns Type Description PlayerSettingsModel Init() Declaration public void Init() LoadSettingsFromFile(String) Declaration public void LoadSettingsFromFile(string savedFileName) Parameters Type Name Description String savedFileName RemoveBgmVolumeDelegate(UnityAction<Single>) Declaration public void RemoveBgmVolumeDelegate(UnityAction<float> inDelegate) Parameters Type Name Description UnityAction < Single > inDelegate RemoveSfxVolumeDelegate(UnityAction<Single>) Declaration public void RemoveSfxVolumeDelegate(UnityAction<float> inDelegate) Parameters Type Name Description UnityAction < Single > inDelegate SaveSettingsToFile() Declaration public void SaveSettingsToFile()"
+  },
+  "api/CatchIo.Runtime.Settings.PlayerSettingsModel.html": {
+    "href": "api/CatchIo.Runtime.Settings.PlayerSettingsModel.html",
+    "title": "Class PlayerSettingsModel | Catch.io Developer Reference",
+    "keywords": "Class PlayerSettingsModel Inheritance Object PlayerSettingsModel Namespace : CatchIo.Runtime.Settings Assembly : cs.temp.dll.dll Syntax public class PlayerSettingsModel Constructors PlayerSettingsModel() Declaration public PlayerSettingsModel() Fields BGMVolume Declaration public float BGMVolume Field Value Type Description Single EffectBrightness Declaration public float EffectBrightness Field Value Type Description Single GameLanguage Declaration public GameLanguage GameLanguage Field Value Type Description GameLanguage HUDOpacity Declaration public float HUDOpacity Field Value Type Description Single IsFullScreen Declaration public bool IsFullScreen Field Value Type Description Boolean SoundEffectVolume Declaration public float SoundEffectVolume Field Value Type Description Single XResolution Declaration public int XResolution Field Value Type Description Int32 YResolution Declaration public int YResolution Field Value Type Description Int32"
+  },
   "api/CatchIo.Runtime.Sound.CharacterActionSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.CharacterActionSfx.html",
     "title": "Class CharacterActionSfx | Catch.io Developer Reference",
-    "keywords": "Class CharacterActionSfx Inheritance Object Sfx CharacterActionSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class CharacterActionSfx : Sfx Constructors CharacterActionSfx() Declaration public CharacterActionSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string characterActionType, float volume = 1F) Parameters Type Name Description Vector3 generatePos String characterActionType Single volume Overrides Sfx.Play(Vector3, String, Single)"
+    "keywords": "Class CharacterActionSfx Inheritance Object Sfx CharacterActionSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class CharacterActionSfx : Sfx Constructors CharacterActionSfx() Declaration public CharacterActionSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string characterActionType, float volume = 1F) Parameters Type Name Description Vector3 generatePos String characterActionType Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
   "api/CatchIo.Runtime.Sound.CursedOneSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.CursedOneSfx.html",
     "title": "Class CursedOneSfx | Catch.io Developer Reference",
-    "keywords": "Class CursedOneSfx Inheritance Object Sfx CursedOneSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class CursedOneSfx : Sfx Constructors CursedOneSfx() Declaration public CursedOneSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string labelName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String labelName Single volume Overrides Sfx.Play(Vector3, String, Single) SetDistanceParameter(Single) Declaration public void SetDistanceParameter(float distance) Parameters Type Name Description Single distance UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 pos) Parameters Type Name Description Vector3 pos"
+    "keywords": "Class CursedOneSfx Inheritance Object Sfx CursedOneSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class CursedOneSfx : Sfx Constructors CursedOneSfx() Declaration public CursedOneSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string labelName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String labelName Single volume Overrides Sfx.Play(Vector3, String, Single) SetDistanceParameter(Single) Declaration public void SetDistanceParameter(float distance) Parameters Type Name Description Single distance UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 pos) Parameters Type Name Description Vector3 pos"
   },
   "api/CatchIo.Runtime.Sound.FootstepSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.FootstepSfx.html",
     "title": "Class FootstepSfx | Catch.io Developer Reference",
-    "keywords": "Class FootstepSfx Inheritance Object Sfx TerrainSfx FootstepSfx Inherited Members TerrainSfx.Play(Vector3, String, Single) Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class FootstepSfx : TerrainSfx"
+    "keywords": "Class FootstepSfx Inheritance Object Sfx TerrainSfx FootstepSfx Inherited Members TerrainSfx.Play(Vector3, String, Single) Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class FootstepSfx : TerrainSfx"
   },
   "api/CatchIo.Runtime.Sound.html": {
     "href": "api/CatchIo.Runtime.Sound.html",
@@ -1257,12 +1307,12 @@
   "api/CatchIo.Runtime.Sound.ItemSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.ItemSfx.html",
     "title": "Class ItemSfx | Catch.io Developer Reference",
-    "keywords": "Class ItemSfx Inheritance Object Sfx ItemSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class ItemSfx : Sfx Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string itemType = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String itemType Single volume Overrides Sfx.Play(Vector3, String, Single)"
+    "keywords": "Class ItemSfx Inheritance Object Sfx ItemSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class ItemSfx : Sfx Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string itemType = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String itemType Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
   "api/CatchIo.Runtime.Sound.ItemTerrainSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.ItemTerrainSfx.html",
     "title": "Class ItemTerrainSfx | Catch.io Developer Reference",
-    "keywords": "Class ItemTerrainSfx Inheritance Object Sfx ItemTerrainSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class ItemTerrainSfx : Sfx Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string itemTerrainName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String itemTerrainName Single volume Overrides Sfx.Play(Vector3, String, Single)"
+    "keywords": "Class ItemTerrainSfx Inheritance Object Sfx ItemTerrainSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class ItemTerrainSfx : Sfx Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string itemTerrainName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String itemTerrainName Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
   "api/CatchIo.Runtime.Sound.MainMusic.html": {
     "href": "api/CatchIo.Runtime.Sound.MainMusic.html",
@@ -1282,32 +1332,32 @@
   "api/CatchIo.Runtime.Sound.Sfx.html": {
     "href": "api/CatchIo.Runtime.Sound.Sfx.html",
     "title": "Class Sfx | Catch.io Developer Reference",
-    "keywords": "Class Sfx Inheritance Object Sfx CharacterActionSfx CursedOneSfx ItemSfx ItemTerrainSfx SpawnSfx StaminaSfx TerrainSfx UiSfx Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public abstract class Sfx Fields EventInstance Declaration protected EventInstance EventInstance Field Value Type Description EventInstance Methods GetPlayBackState() Declaration public PLAYBACK_STATE GetPlayBackState() Returns Type Description PLAYBACK_STATE Play(Vector3, String, Single) Declaration public abstract void Play(Vector3 generatePos, string labelName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String labelName Single volume Stop(STOP_MODE) Declaration public void Stop(STOP_MODE stopMode = null) Parameters Type Name Description STOP_MODE stopMode"
+    "keywords": "Class Sfx Inheritance Object Sfx CharacterActionSfx CursedOneSfx ItemSfx ItemTerrainSfx SpawnSfx StaminaSfx TerrainSfx UiSfx Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public abstract class Sfx Fields EventInstance Declaration protected EventInstance EventInstance Field Value Type Description EventInstance Methods GetCurrentFinalVolume() Declaration public float GetCurrentFinalVolume() Returns Type Description Single GetCurrentVolume() Declaration public float GetCurrentVolume() Returns Type Description Single GetPlayBackState() Declaration public PLAYBACK_STATE GetPlayBackState() Returns Type Description PLAYBACK_STATE Play(Vector3, String, Single) Declaration public abstract void Play(Vector3 generatePos, string labelName = \"\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String labelName Single volume SetNewVolume(Single) Declaration public void SetNewVolume(float volume) Parameters Type Name Description Single volume Stop(STOP_MODE) Declaration public void Stop(STOP_MODE stopMode = null) Parameters Type Name Description STOP_MODE stopMode"
   },
   "api/CatchIo.Runtime.Sound.SoundManager.html": {
     "href": "api/CatchIo.Runtime.Sound.SoundManager.html",
     "title": "Class SoundManager | Catch.io Developer Reference",
-    "keywords": "Class SoundManager Inheritance Object SoundManager Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class SoundManager : MonoBehaviourPun Properties Instance Declaration public static SoundManager Instance { get; protected set; } Property Value Type Description SoundManager Methods IsPlayingStaminaSfx(String) Declaration public bool IsPlayingStaminaSfx(string staminaState) Parameters Type Name Description String staminaState Returns Type Description Boolean PlayCharacterActionSfx(Vector3, String, Boolean) Declaration public void PlayCharacterActionSfx(Vector3 generatePos, string actionType, bool usingRPC = true) Parameters Type Name Description Vector3 generatePos String actionType Boolean usingRPC PlayCharacterSpawnSfx(Vector3, String, Single) Declaration public void PlayCharacterSpawnSfx(Vector3 generatePos, string characterClass, float volume) Parameters Type Name Description Vector3 generatePos String characterClass Single volume PlayFootstepSfx(Vector3, String, CharacterMoveType) Declaration public void PlayFootstepSfx(Vector3 generatePos, string terrainName, CharacterMoveType moveState) Parameters Type Name Description Vector3 generatePos String terrainName CharacterMoveType moveState PlayItemSfx(Vector3, String, Single) Declaration public void PlayItemSfx(Vector3 generatePos, string itemType, float volume) Parameters Type Name Description Vector3 generatePos String itemType Single volume PlayItemTerrainSfx(Vector3, String, Single) Declaration public void PlayItemTerrainSfx(Vector3 generatePos, string itemType, float volume) Parameters Type Name Description Vector3 generatePos String itemType Single volume PlayStaminaSfx(String, Single) Declaration public void PlayStaminaSfx(string staminaState, float volume) Parameters Type Name Description String staminaState Single volume PlayTerrainSfx(Vector3, String) Declaration public void PlayTerrainSfx(Vector3 generatePos, string terrainName) Parameters Type Name Description Vector3 generatePos String terrainName RPC_PlayCharacterActionSfx(Vector3, String) Declaration public void RPC_PlayCharacterActionSfx(Vector3 generatePos, string actionType) Parameters Type Name Description Vector3 generatePos String actionType RPC_PlayFootstepSfx(Vector3, String, Single) Declaration public void RPC_PlayFootstepSfx(Vector3 generatePos, string terrainName, float volume) Parameters Type Name Description Vector3 generatePos String terrainName Single volume RPC_PlayItemSfx(Vector3, String, Single) Declaration public void RPC_PlayItemSfx(Vector3 generatePos, string itemSfxName, float volume) Parameters Type Name Description Vector3 generatePos String itemSfxName Single volume RPC_PlayItemTerrainSfx(Vector3, String, Single) Declaration public void RPC_PlayItemTerrainSfx(Vector3 generatePos, string itemTerrainName, float volume) Parameters Type Name Description Vector3 generatePos String itemTerrainName Single volume RPC_PlayTerrainSfx(Vector3, String) Declaration public void RPC_PlayTerrainSfx(Vector3 generatePos, string terrainName) Parameters Type Name Description Vector3 generatePos String terrainName SetAttenuationObject(GameObject) Declaration public void SetAttenuationObject(GameObject attenuationObject) Parameters Type Name Description GameObject attenuationObject StopStaminaSfx() Declaration public void StopStaminaSfx()"
+    "keywords": "Class SoundManager Inheritance Object SoundManager Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class SoundManager : MonoBehaviourPun Properties Instance Declaration public static SoundManager Instance { get; protected set; } Property Value Type Description SoundManager Methods IsPlayingStaminaSfx(String) Declaration public bool IsPlayingStaminaSfx(string staminaState) Parameters Type Name Description String staminaState Returns Type Description Boolean PlayCharacterActionSfx(Vector3, String, Boolean) Declaration public void PlayCharacterActionSfx(Vector3 generatePos, string actionType, bool usingRPC = true) Parameters Type Name Description Vector3 generatePos String actionType Boolean usingRPC PlayCharacterSpawnSfx(Vector3, String, Single) Declaration public void PlayCharacterSpawnSfx(Vector3 generatePos, string characterClass, float volume) Parameters Type Name Description Vector3 generatePos String characterClass Single volume PlayFootstepSfx(Vector3, String, CharacterMoveType) Declaration public void PlayFootstepSfx(Vector3 generatePos, string terrainName, CharacterMoveType moveState) Parameters Type Name Description Vector3 generatePos String terrainName CharacterMoveType moveState PlayItemSfx(Vector3, String, Single) Declaration public void PlayItemSfx(Vector3 generatePos, string itemType, float volume) Parameters Type Name Description Vector3 generatePos String itemType Single volume PlayItemTerrainSfx(Vector3, String, Single) Declaration public void PlayItemTerrainSfx(Vector3 generatePos, string itemType, float volume) Parameters Type Name Description Vector3 generatePos String itemType Single volume PlayNewVolumeSample(Single) Declaration public void PlayNewVolumeSample(float newVolume) Parameters Type Name Description Single newVolume PlayStaminaSfx(String, Single) Declaration public void PlayStaminaSfx(string staminaState, float volume) Parameters Type Name Description String staminaState Single volume PlayTerrainSfx(Vector3, String) Declaration public void PlayTerrainSfx(Vector3 generatePos, string terrainName) Parameters Type Name Description Vector3 generatePos String terrainName RPC_PlayCharacterActionSfx(Vector3, String, Single) Declaration public void RPC_PlayCharacterActionSfx(Vector3 generatePos, string actionType, float volume) Parameters Type Name Description Vector3 generatePos String actionType Single volume RPC_PlayFootstepSfx(Vector3, String, Single) Declaration public void RPC_PlayFootstepSfx(Vector3 generatePos, string terrainName, float volume) Parameters Type Name Description Vector3 generatePos String terrainName Single volume RPC_PlayItemSfx(Vector3, String, Single) Declaration public void RPC_PlayItemSfx(Vector3 generatePos, string itemSfxName, float volume) Parameters Type Name Description Vector3 generatePos String itemSfxName Single volume RPC_PlayItemTerrainSfx(Vector3, String, Single) Declaration public void RPC_PlayItemTerrainSfx(Vector3 generatePos, string itemTerrainName, float volume) Parameters Type Name Description Vector3 generatePos String itemTerrainName Single volume RPC_PlayTerrainSfx(Vector3, String) Declaration public void RPC_PlayTerrainSfx(Vector3 generatePos, string terrainName) Parameters Type Name Description Vector3 generatePos String terrainName SetAttenuationObject(GameObject) Declaration public void SetAttenuationObject(GameObject attenuationObject) Parameters Type Name Description GameObject attenuationObject StopStaminaSfx() Declaration public void StopStaminaSfx()"
   },
   "api/CatchIo.Runtime.Sound.SpawnSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.SpawnSfx.html",
     "title": "Class SpawnSfx | Catch.io Developer Reference",
-    "keywords": "Class SpawnSfx Inheritance Object Sfx SpawnSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class SpawnSfx : Sfx Constructors SpawnSfx() Declaration public SpawnSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string characterClass, float volume = 1F) Parameters Type Name Description Vector3 generatePos String characterClass Single volume Overrides Sfx.Play(Vector3, String, Single)"
+    "keywords": "Class SpawnSfx Inheritance Object Sfx SpawnSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class SpawnSfx : Sfx Constructors SpawnSfx() Declaration public SpawnSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string characterClass, float volume = 1F) Parameters Type Name Description Vector3 generatePos String characterClass Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
   "api/CatchIo.Runtime.Sound.StaminaSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.StaminaSfx.html",
     "title": "Class StaminaSfx | Catch.io Developer Reference",
-    "keywords": "Class StaminaSfx Inheritance Object Sfx StaminaSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class StaminaSfx : Sfx Properties CurrentState Declaration public string CurrentState { get; } Property Value Type Description String Methods IsPlaying() Declaration public bool IsPlaying() Returns Type Description Boolean IsRepeating(String) Declaration public bool IsRepeating(string staminaStateType) Parameters Type Name Description String staminaStateType Returns Type Description Boolean Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string staminaStateType = \"None\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String staminaStateType Single volume Overrides Sfx.Play(Vector3, String, Single) Stop() Declaration public void Stop()"
+    "keywords": "Class StaminaSfx Inheritance Object Sfx StaminaSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class StaminaSfx : Sfx Properties CurrentState Declaration public string CurrentState { get; } Property Value Type Description String Methods IsPlaying() Declaration public bool IsPlaying() Returns Type Description Boolean IsRepeating(String) Declaration public bool IsRepeating(string staminaStateType) Parameters Type Name Description String staminaStateType Returns Type Description Boolean Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string staminaStateType = \"None\", float volume = 1F) Parameters Type Name Description Vector3 generatePos String staminaStateType Single volume Overrides Sfx.Play(Vector3, String, Single) Stop() Declaration public void Stop()"
   },
   "api/CatchIo.Runtime.Sound.TerrainSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.TerrainSfx.html",
     "title": "Class TerrainSfx | Catch.io Developer Reference",
-    "keywords": "Class TerrainSfx Inheritance Object Sfx TerrainSfx FootstepSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class TerrainSfx : Sfx Constructors TerrainSfx() Declaration public TerrainSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string terrainName = \"\", float terrainVolume = 1F) Parameters Type Name Description Vector3 generatePos String terrainName Single terrainVolume Overrides Sfx.Play(Vector3, String, Single)"
+    "keywords": "Class TerrainSfx Inheritance Object Sfx TerrainSfx FootstepSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class TerrainSfx : Sfx Constructors TerrainSfx() Declaration public TerrainSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string terrainName = \"\", float terrainVolume = 1F) Parameters Type Name Description Vector3 generatePos String terrainName Single terrainVolume Overrides Sfx.Play(Vector3, String, Single)"
   },
   "api/CatchIo.Runtime.Sound.UiSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.UiSfx.html",
     "title": "Class UiSfx | Catch.io Developer Reference",
-    "keywords": "Class UiSfx Inheritance Object Sfx UiSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class UiSfx : Sfx Constructors UiSfx() Declaration public UiSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string uiSfx, float volume = 1F) Parameters Type Name Description Vector3 generatePos String uiSfx Single volume Overrides Sfx.Play(Vector3, String, Single)"
+    "keywords": "Class UiSfx Inheritance Object Sfx UiSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class UiSfx : Sfx Constructors UiSfx() Declaration public UiSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string uiSfx, float volume = 1F) Parameters Type Name Description Vector3 generatePos String uiSfx Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
   "api/CatchIo.Runtime.Sound.UiSfx.SfxParameter.html": {
     "href": "api/CatchIo.Runtime.Sound.UiSfx.SfxParameter.html",

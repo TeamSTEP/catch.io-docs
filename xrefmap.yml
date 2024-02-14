@@ -5146,6 +5146,18 @@ references:
   commentId: F:CatchIo.Runtime.Enums.CharacterMoveType.Walk
   fullName: CatchIo.Runtime.Enums.CharacterMoveType.Walk
   nameWithType: CharacterMoveType.Walk
+- uid: CatchIo.Runtime.Enums.GameLanguage
+  name: GameLanguage
+  href: api/CatchIo.Runtime.Enums.GameLanguage.html
+  commentId: T:CatchIo.Runtime.Enums.GameLanguage
+  fullName: CatchIo.Runtime.Enums.GameLanguage
+  nameWithType: GameLanguage
+- uid: CatchIo.Runtime.Enums.GameLanguage.English
+  name: English
+  href: api/CatchIo.Runtime.Enums.GameLanguage.html#CatchIo_Runtime_Enums_GameLanguage_English
+  commentId: F:CatchIo.Runtime.Enums.GameLanguage.English
+  fullName: CatchIo.Runtime.Enums.GameLanguage.English
+  nameWithType: GameLanguage.English
 - uid: CatchIo.Runtime.Enums.GameModeType
   name: GameModeType
   href: api/CatchIo.Runtime.Enums.GameModeType.html
@@ -5218,6 +5230,18 @@ references:
   commentId: F:CatchIo.Runtime.Enums.SceneSwitchingState.Stated
   fullName: CatchIo.Runtime.Enums.SceneSwitchingState.Stated
   nameWithType: SceneSwitchingState.Stated
+- uid: CatchIo.Runtime.Enums.ScreenResolutionSettings
+  name: ScreenResolutionSettings
+  href: api/CatchIo.Runtime.Enums.ScreenResolutionSettings.html
+  commentId: T:CatchIo.Runtime.Enums.ScreenResolutionSettings
+  fullName: CatchIo.Runtime.Enums.ScreenResolutionSettings
+  nameWithType: ScreenResolutionSettings
+- uid: CatchIo.Runtime.Enums.ScreenResolutionSettings.English
+  name: English
+  href: api/CatchIo.Runtime.Enums.ScreenResolutionSettings.html#CatchIo_Runtime_Enums_ScreenResolutionSettings_English
+  commentId: F:CatchIo.Runtime.Enums.ScreenResolutionSettings.English
+  fullName: CatchIo.Runtime.Enums.ScreenResolutionSettings.English
+  nameWithType: ScreenResolutionSettings.English
 - uid: CatchIo.Runtime.Enums.SendEventType
   name: SendEventType
   href: api/CatchIo.Runtime.Enums.SendEventType.html
@@ -7621,6 +7645,18 @@ references:
   commentId: T:CatchIo.Runtime.Menu.UI.Button.ReadyButton
   fullName: CatchIo.Runtime.Menu.UI.Button.ReadyButton
   nameWithType: ReadyButton
+- uid: CatchIo.Runtime.Menu.UI.Checkbox
+  name: CatchIo.Runtime.Menu.UI.Checkbox
+  href: api/CatchIo.Runtime.Menu.UI.Checkbox.html
+  commentId: N:CatchIo.Runtime.Menu.UI.Checkbox
+  fullName: CatchIo.Runtime.Menu.UI.Checkbox
+  nameWithType: CatchIo.Runtime.Menu.UI.Checkbox
+- uid: CatchIo.Runtime.Menu.UI.Checkbox.CheckboxBroadcaster
+  name: CheckboxBroadcaster
+  href: api/CatchIo.Runtime.Menu.UI.Checkbox.CheckboxBroadcaster.html
+  commentId: T:CatchIo.Runtime.Menu.UI.Checkbox.CheckboxBroadcaster
+  fullName: CatchIo.Runtime.Menu.UI.Checkbox.CheckboxBroadcaster
+  nameWithType: CheckboxBroadcaster
 - uid: CatchIo.Runtime.Menu.UI.DisableByPlatform
   name: DisableByPlatform
   href: api/CatchIo.Runtime.Menu.UI.DisableByPlatform.html
@@ -8028,6 +8064,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.Start
   nameWithType: JoinRoomPopup.Start
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup
+  name: SettingsPopup
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html
+  commentId: T:CatchIo.Runtime.Menu.UI.Popup.SettingsPopup
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup
+  nameWithType: SettingsPopup
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnDestroy
+  name: OnDestroy()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopup_OnDestroy
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnDestroy
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnDestroy()
+  nameWithType: SettingsPopup.OnDestroy()
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnDestroy*
+  name: OnDestroy
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopup_OnDestroy_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnDestroy
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnDestroy
+  nameWithType: SettingsPopup.OnDestroy
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopup_Start
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.Start
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.Start()
+  nameWithType: SettingsPopup.Start()
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopup_Start_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.Start
+  nameWithType: SettingsPopup.Start
 - uid: CatchIo.Runtime.Menu.UI.Selector
   name: CatchIo.Runtime.Menu.UI.Selector
   href: api/CatchIo.Runtime.Menu.UI.Selector.html
@@ -8066,6 +8134,31 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Selector.CharacterClassSelector.StopAnimationUI
   nameWithType: CharacterClassSelector.StopAnimationUI
+- uid: CatchIo.Runtime.Menu.UI.Slider
+  name: CatchIo.Runtime.Menu.UI.Slider
+  href: api/CatchIo.Runtime.Menu.UI.Slider.html
+  commentId: N:CatchIo.Runtime.Menu.UI.Slider
+  fullName: CatchIo.Runtime.Menu.UI.Slider
+  nameWithType: CatchIo.Runtime.Menu.UI.Slider
+- uid: CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster
+  name: InputSliderBroadcaster
+  href: api/CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.html
+  commentId: T:CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster
+  fullName: CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster
+  nameWithType: InputSliderBroadcaster
+- uid: CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.OnPointerUp(PointerEventData)
+  name: OnPointerUp(PointerEventData)
+  href: api/CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.html#CatchIo_Runtime_Menu_UI_Slider_InputSliderBroadcaster_OnPointerUp_PointerEventData_
+  commentId: M:CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.OnPointerUp(PointerEventData)
+  fullName: CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.OnPointerUp(PointerEventData)
+  nameWithType: InputSliderBroadcaster.OnPointerUp(PointerEventData)
+- uid: CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.OnPointerUp*
+  name: OnPointerUp
+  href: api/CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.html#CatchIo_Runtime_Menu_UI_Slider_InputSliderBroadcaster_OnPointerUp_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.OnPointerUp
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.OnPointerUp
+  nameWithType: InputSliderBroadcaster.OnPointerUp
 - uid: CatchIo.Runtime.Menu.UI.Text
   name: CatchIo.Runtime.Menu.UI.Text
   href: api/CatchIo.Runtime.Menu.UI.Text.html
@@ -11977,6 +12070,246 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Services.SceneSwitchingService.SwitchToGameSceneMode
   nameWithType: SceneSwitchingService.SwitchToGameSceneMode
+- uid: CatchIo.Runtime.Settings
+  name: CatchIo.Runtime.Settings
+  href: api/CatchIo.Runtime.Settings.html
+  commentId: N:CatchIo.Runtime.Settings
+  fullName: CatchIo.Runtime.Settings
+  nameWithType: CatchIo.Runtime.Settings
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager
+  name: PlayerSettingsManager
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html
+  commentId: T:CatchIo.Runtime.Settings.PlayerSettingsManager
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager
+  nameWithType: PlayerSettingsManager
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.AddBgmVolumeDelegate(UnityAction{System.Single})
+  name: AddBgmVolumeDelegate(UnityAction<Single>)
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_AddBgmVolumeDelegate_UnityAction_System_Single__
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.AddBgmVolumeDelegate(UnityAction{System.Single})
+  name.vb: AddBgmVolumeDelegate(UnityAction(Of Single))
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.AddBgmVolumeDelegate(UnityAction<System.Single>)
+  fullName.vb: CatchIo.Runtime.Settings.PlayerSettingsManager.AddBgmVolumeDelegate(UnityAction(Of System.Single))
+  nameWithType: PlayerSettingsManager.AddBgmVolumeDelegate(UnityAction<Single>)
+  nameWithType.vb: PlayerSettingsManager.AddBgmVolumeDelegate(UnityAction(Of Single))
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.AddBgmVolumeDelegate*
+  name: AddBgmVolumeDelegate
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_AddBgmVolumeDelegate_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.AddBgmVolumeDelegate
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.AddBgmVolumeDelegate
+  nameWithType: PlayerSettingsManager.AddBgmVolumeDelegate
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.AddSfxVolumeDelegate(UnityAction{System.Single})
+  name: AddSfxVolumeDelegate(UnityAction<Single>)
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_AddSfxVolumeDelegate_UnityAction_System_Single__
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.AddSfxVolumeDelegate(UnityAction{System.Single})
+  name.vb: AddSfxVolumeDelegate(UnityAction(Of Single))
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.AddSfxVolumeDelegate(UnityAction<System.Single>)
+  fullName.vb: CatchIo.Runtime.Settings.PlayerSettingsManager.AddSfxVolumeDelegate(UnityAction(Of System.Single))
+  nameWithType: PlayerSettingsManager.AddSfxVolumeDelegate(UnityAction<Single>)
+  nameWithType.vb: PlayerSettingsManager.AddSfxVolumeDelegate(UnityAction(Of Single))
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.AddSfxVolumeDelegate*
+  name: AddSfxVolumeDelegate
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_AddSfxVolumeDelegate_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.AddSfxVolumeDelegate
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.AddSfxVolumeDelegate
+  nameWithType: PlayerSettingsManager.AddSfxVolumeDelegate
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.ApplySettings(CatchIo.Runtime.Settings.PlayerSettingsModel)
+  name: ApplySettings(PlayerSettingsModel)
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_ApplySettings_CatchIo_Runtime_Settings_PlayerSettingsModel_
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.ApplySettings(CatchIo.Runtime.Settings.PlayerSettingsModel)
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.ApplySettings(CatchIo.Runtime.Settings.PlayerSettingsModel)
+  nameWithType: PlayerSettingsManager.ApplySettings(PlayerSettingsModel)
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.ApplySettings*
+  name: ApplySettings
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_ApplySettings_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.ApplySettings
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.ApplySettings
+  nameWithType: PlayerSettingsManager.ApplySettings
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettings
+  name: GetCurrentSettings()
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_GetCurrentSettings
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettings
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettings()
+  nameWithType: PlayerSettingsManager.GetCurrentSettings()
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettings*
+  name: GetCurrentSettings
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_GetCurrentSettings_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettings
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettings
+  nameWithType: PlayerSettingsManager.GetCurrentSettings
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettingsNormalized
+  name: GetCurrentSettingsNormalized()
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_GetCurrentSettingsNormalized
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettingsNormalized
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettingsNormalized()
+  nameWithType: PlayerSettingsManager.GetCurrentSettingsNormalized()
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettingsNormalized*
+  name: GetCurrentSettingsNormalized
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_GetCurrentSettingsNormalized_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettingsNormalized
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.GetCurrentSettingsNormalized
+  nameWithType: PlayerSettingsManager.GetCurrentSettingsNormalized
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.Init
+  name: Init()
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_Init
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.Init
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.Init()
+  nameWithType: PlayerSettingsManager.Init()
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.Init*
+  name: Init
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_Init_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.Init
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.Init
+  nameWithType: PlayerSettingsManager.Init
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.Instance
+  name: Instance
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_Instance
+  commentId: P:CatchIo.Runtime.Settings.PlayerSettingsManager.Instance
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.Instance
+  nameWithType: PlayerSettingsManager.Instance
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.Instance*
+  name: Instance
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_Instance_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.Instance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.Instance
+  nameWithType: PlayerSettingsManager.Instance
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.LoadSettingsFromFile(System.String)
+  name: LoadSettingsFromFile(String)
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_LoadSettingsFromFile_System_String_
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.LoadSettingsFromFile(System.String)
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.LoadSettingsFromFile(System.String)
+  nameWithType: PlayerSettingsManager.LoadSettingsFromFile(String)
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.LoadSettingsFromFile*
+  name: LoadSettingsFromFile
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_LoadSettingsFromFile_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.LoadSettingsFromFile
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.LoadSettingsFromFile
+  nameWithType: PlayerSettingsManager.LoadSettingsFromFile
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.MAX_VOLUME_ON_SLIDER
+  name: MAX_VOLUME_ON_SLIDER
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_MAX_VOLUME_ON_SLIDER
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsManager.MAX_VOLUME_ON_SLIDER
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.MAX_VOLUME_ON_SLIDER
+  nameWithType: PlayerSettingsManager.MAX_VOLUME_ON_SLIDER
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveBgmVolumeDelegate(UnityAction{System.Single})
+  name: RemoveBgmVolumeDelegate(UnityAction<Single>)
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_RemoveBgmVolumeDelegate_UnityAction_System_Single__
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveBgmVolumeDelegate(UnityAction{System.Single})
+  name.vb: RemoveBgmVolumeDelegate(UnityAction(Of Single))
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveBgmVolumeDelegate(UnityAction<System.Single>)
+  fullName.vb: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveBgmVolumeDelegate(UnityAction(Of System.Single))
+  nameWithType: PlayerSettingsManager.RemoveBgmVolumeDelegate(UnityAction<Single>)
+  nameWithType.vb: PlayerSettingsManager.RemoveBgmVolumeDelegate(UnityAction(Of Single))
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveBgmVolumeDelegate*
+  name: RemoveBgmVolumeDelegate
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_RemoveBgmVolumeDelegate_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveBgmVolumeDelegate
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveBgmVolumeDelegate
+  nameWithType: PlayerSettingsManager.RemoveBgmVolumeDelegate
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveSfxVolumeDelegate(UnityAction{System.Single})
+  name: RemoveSfxVolumeDelegate(UnityAction<Single>)
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_RemoveSfxVolumeDelegate_UnityAction_System_Single__
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveSfxVolumeDelegate(UnityAction{System.Single})
+  name.vb: RemoveSfxVolumeDelegate(UnityAction(Of Single))
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveSfxVolumeDelegate(UnityAction<System.Single>)
+  fullName.vb: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveSfxVolumeDelegate(UnityAction(Of System.Single))
+  nameWithType: PlayerSettingsManager.RemoveSfxVolumeDelegate(UnityAction<Single>)
+  nameWithType.vb: PlayerSettingsManager.RemoveSfxVolumeDelegate(UnityAction(Of Single))
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveSfxVolumeDelegate*
+  name: RemoveSfxVolumeDelegate
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_RemoveSfxVolumeDelegate_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveSfxVolumeDelegate
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.RemoveSfxVolumeDelegate
+  nameWithType: PlayerSettingsManager.RemoveSfxVolumeDelegate
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.SaveSettingsToFile
+  name: SaveSettingsToFile()
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_SaveSettingsToFile
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsManager.SaveSettingsToFile
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.SaveSettingsToFile()
+  nameWithType: PlayerSettingsManager.SaveSettingsToFile()
+- uid: CatchIo.Runtime.Settings.PlayerSettingsManager.SaveSettingsToFile*
+  name: SaveSettingsToFile
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsManager.html#CatchIo_Runtime_Settings_PlayerSettingsManager_SaveSettingsToFile_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsManager.SaveSettingsToFile
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsManager.SaveSettingsToFile
+  nameWithType: PlayerSettingsManager.SaveSettingsToFile
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel
+  name: PlayerSettingsModel
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html
+  commentId: T:CatchIo.Runtime.Settings.PlayerSettingsModel
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel
+  nameWithType: PlayerSettingsModel
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.#ctor
+  name: PlayerSettingsModel()
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel__ctor
+  commentId: M:CatchIo.Runtime.Settings.PlayerSettingsModel.#ctor
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.PlayerSettingsModel()
+  nameWithType: PlayerSettingsModel.PlayerSettingsModel()
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.#ctor*
+  name: PlayerSettingsModel
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel__ctor_
+  commentId: Overload:CatchIo.Runtime.Settings.PlayerSettingsModel.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.PlayerSettingsModel
+  nameWithType: PlayerSettingsModel.PlayerSettingsModel
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.BGMVolume
+  name: BGMVolume
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_BGMVolume
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.BGMVolume
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.BGMVolume
+  nameWithType: PlayerSettingsModel.BGMVolume
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.EffectBrightness
+  name: EffectBrightness
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_EffectBrightness
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.EffectBrightness
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.EffectBrightness
+  nameWithType: PlayerSettingsModel.EffectBrightness
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.GameLanguage
+  name: GameLanguage
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_GameLanguage
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.GameLanguage
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.GameLanguage
+  nameWithType: PlayerSettingsModel.GameLanguage
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.HUDOpacity
+  name: HUDOpacity
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_HUDOpacity
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.HUDOpacity
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.HUDOpacity
+  nameWithType: PlayerSettingsModel.HUDOpacity
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.IsFullScreen
+  name: IsFullScreen
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_IsFullScreen
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.IsFullScreen
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.IsFullScreen
+  nameWithType: PlayerSettingsModel.IsFullScreen
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.SoundEffectVolume
+  name: SoundEffectVolume
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_SoundEffectVolume
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.SoundEffectVolume
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.SoundEffectVolume
+  nameWithType: PlayerSettingsModel.SoundEffectVolume
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.XResolution
+  name: XResolution
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_XResolution
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.XResolution
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.XResolution
+  nameWithType: PlayerSettingsModel.XResolution
+- uid: CatchIo.Runtime.Settings.PlayerSettingsModel.YResolution
+  name: YResolution
+  href: api/CatchIo.Runtime.Settings.PlayerSettingsModel.html#CatchIo_Runtime_Settings_PlayerSettingsModel_YResolution
+  commentId: F:CatchIo.Runtime.Settings.PlayerSettingsModel.YResolution
+  fullName: CatchIo.Runtime.Settings.PlayerSettingsModel.YResolution
+  nameWithType: PlayerSettingsModel.YResolution
 - uid: CatchIo.Runtime.Sound
   name: CatchIo.Runtime.Sound
   href: api/CatchIo.Runtime.Sound.html
@@ -12228,6 +12561,32 @@ references:
   commentId: F:CatchIo.Runtime.Sound.Sfx.EventInstance
   fullName: CatchIo.Runtime.Sound.Sfx.EventInstance
   nameWithType: Sfx.EventInstance
+- uid: CatchIo.Runtime.Sound.Sfx.GetCurrentFinalVolume
+  name: GetCurrentFinalVolume()
+  href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentFinalVolume
+  commentId: M:CatchIo.Runtime.Sound.Sfx.GetCurrentFinalVolume
+  fullName: CatchIo.Runtime.Sound.Sfx.GetCurrentFinalVolume()
+  nameWithType: Sfx.GetCurrentFinalVolume()
+- uid: CatchIo.Runtime.Sound.Sfx.GetCurrentFinalVolume*
+  name: GetCurrentFinalVolume
+  href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentFinalVolume_
+  commentId: Overload:CatchIo.Runtime.Sound.Sfx.GetCurrentFinalVolume
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.Sfx.GetCurrentFinalVolume
+  nameWithType: Sfx.GetCurrentFinalVolume
+- uid: CatchIo.Runtime.Sound.Sfx.GetCurrentVolume
+  name: GetCurrentVolume()
+  href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentVolume
+  commentId: M:CatchIo.Runtime.Sound.Sfx.GetCurrentVolume
+  fullName: CatchIo.Runtime.Sound.Sfx.GetCurrentVolume()
+  nameWithType: Sfx.GetCurrentVolume()
+- uid: CatchIo.Runtime.Sound.Sfx.GetCurrentVolume*
+  name: GetCurrentVolume
+  href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentVolume_
+  commentId: Overload:CatchIo.Runtime.Sound.Sfx.GetCurrentVolume
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.Sfx.GetCurrentVolume
+  nameWithType: Sfx.GetCurrentVolume
 - uid: CatchIo.Runtime.Sound.Sfx.GetPlayBackState
   name: GetPlayBackState()
   href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetPlayBackState
@@ -12254,6 +12613,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.Sfx.Play
   nameWithType: Sfx.Play
+- uid: CatchIo.Runtime.Sound.Sfx.SetNewVolume(System.Single)
+  name: SetNewVolume(Single)
+  href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_SetNewVolume_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.Sfx.SetNewVolume(System.Single)
+  fullName: CatchIo.Runtime.Sound.Sfx.SetNewVolume(System.Single)
+  nameWithType: Sfx.SetNewVolume(Single)
+- uid: CatchIo.Runtime.Sound.Sfx.SetNewVolume*
+  name: SetNewVolume
+  href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_SetNewVolume_
+  commentId: Overload:CatchIo.Runtime.Sound.Sfx.SetNewVolume
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.Sfx.SetNewVolume
+  nameWithType: Sfx.SetNewVolume
 - uid: CatchIo.Runtime.Sound.Sfx.Stop(STOP_MODE)
   name: Stop(STOP_MODE)
   href: api/CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_Stop_STOP_MODE_
@@ -12364,6 +12736,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.PlayItemTerrainSfx
   nameWithType: SoundManager.PlayItemTerrainSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample(System.Single)
+  name: PlayNewVolumeSample(Single)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayNewVolumeSample_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample(System.Single)
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample(System.Single)
+  nameWithType: SoundManager.PlayNewVolumeSample(Single)
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample*
+  name: PlayNewVolumeSample
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayNewVolumeSample_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample
+  nameWithType: SoundManager.PlayNewVolumeSample
 - uid: CatchIo.Runtime.Sound.SoundManager.PlayStaminaSfx(System.String,System.Single)
   name: PlayStaminaSfx(String, Single)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayStaminaSfx_System_String_System_Single_
@@ -12390,12 +12775,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.PlayTerrainSfx
   nameWithType: SoundManager.PlayTerrainSfx
-- uid: CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3,System.String)
-  name: RPC_PlayCharacterActionSfx(Vector3, String)
-  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_Vector3_System_String_
-  commentId: M:CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3,System.String)
-  fullName: CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3, System.String)
-  nameWithType: SoundManager.RPC_PlayCharacterActionSfx(Vector3, String)
+- uid: CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3,System.String,System.Single)
+  name: RPC_PlayCharacterActionSfx(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3, System.String, System.Single)
+  nameWithType: SoundManager.RPC_PlayCharacterActionSfx(Vector3, String, Single)
 - uid: CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx*
   name: RPC_PlayCharacterActionSfx
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_

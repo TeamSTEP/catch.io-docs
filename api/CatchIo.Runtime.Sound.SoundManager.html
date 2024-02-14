@@ -354,6 +354,33 @@
   </table>
   
   
+  <a id="CatchIo_Runtime_Sound_SoundManager_PlayNewVolumeSample_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample*"></a>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_PlayNewVolumeSample_System_Single_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample(System.Single)">PlayNewVolumeSample(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayNewVolumeSample(float newVolume)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">newVolume</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Sound_SoundManager_PlayStaminaSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayStaminaSfx*"></a>
   <h4 id="CatchIo_Runtime_Sound_SoundManager_PlayStaminaSfx_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayStaminaSfx(System.String,System.Single)">PlayStaminaSfx(String, Single)</h4>
   <div class="markdown level1 summary"></div>
@@ -419,12 +446,12 @@
   
   
   <a id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx*"></a>
-  <h4 id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_Vector3_System_String_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3,System.String)">RPC_PlayCharacterActionSfx(Vector3, String)</h4>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3,System.String,System.Single)">RPC_PlayCharacterActionSfx(Vector3, String, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_PlayCharacterActionSfx(Vector3 generatePos, string actionType)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RPC_PlayCharacterActionSfx(Vector3 generatePos, string actionType, float volume)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -444,6 +471,11 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">actionType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">volume</span></td>
         <td></td>
       </tr>
     </tbody>
