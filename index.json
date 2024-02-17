@@ -677,7 +677,7 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.html",
     "title": "Class HealthHUDMeter | Catch.io Developer Reference",
-    "keywords": "Class HealthHUDMeter Inheritance Object HUDMeter HealthHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.MeterUpdate(Single) Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HealthHUDMeter : HUDMeter Methods OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
+    "keywords": "Class HealthHUDMeter Inheritance Object HUDMeter HealthHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.Update() HUDMeter.MeterUpdate(Single) Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HealthHUDMeter : HUDMeter Methods OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html",
@@ -692,12 +692,12 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html",
     "title": "Class HUDMeter | Catch.io Developer Reference",
-    "keywords": "Class HUDMeter Inheritance Object HUDMeter HealthHUDMeter StaminaHUDMeter Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HUDMeter : MonoBehaviour Fields LocalCharacter Declaration protected CharacterFacade LocalCharacter Field Value Type Description CharacterFacade Methods MeterUpdate(Single) Declaration protected void MeterUpdate(float newValue) Parameters Type Name Description Single newValue OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start()"
+    "keywords": "Class HUDMeter Inheritance Object HUDMeter HealthHUDMeter StaminaHUDMeter Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HUDMeter : MonoBehaviour Fields LocalCharacter Declaration protected CharacterFacade LocalCharacter Field Value Type Description CharacterFacade Methods MeterUpdate(Single) Declaration protected virtual void MeterUpdate(float newValue) Parameters Type Name Description Single newValue OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start() Update() Declaration protected virtual void Update()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter.html",
     "title": "Class StaminaHUDMeter | Catch.io Developer Reference",
-    "keywords": "Class StaminaHUDMeter Inheritance Object HUDMeter StaminaHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.MeterUpdate(Single) Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class StaminaHUDMeter : HUDMeter Methods OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
+    "keywords": "Class StaminaHUDMeter Inheritance Object HUDMeter StaminaHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.Update() Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class StaminaHUDMeter : HUDMeter Methods MeterUpdate(Single) Declaration protected override void MeterUpdate(float newValue) Parameters Type Name Description Single newValue Overrides HUDMeter.MeterUpdate(Single) OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.ExitSessionPopup.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.ExitSessionPopup.html",
