@@ -101,12 +101,12 @@
   
   
   <a id="CatchIo_Runtime_Values_PercentageDamage__ctor_" data-uid="CatchIo.Runtime.Values.PercentageDamage.#ctor*"></a>
-  <h4 id="CatchIo_Runtime_Values_PercentageDamage__ctor_System_Single_System_Single_Vector2_" data-uid="CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,System.Single,Vector2)">PercentageDamage(Single, Single, Vector2)</h4>
+  <h4 id="CatchIo_Runtime_Values_PercentageDamage__ctor_System_Single_DamageSfxType_System_Single_Vector2_" data-uid="CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,DamageSfxType,System.Single,Vector2)">PercentageDamage(Single, DamageSfxType, Single, Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PercentageDamage(float percentage, float knockback, Vector2 damageOrigin)</code></pre>
+    <pre><code class="lang-csharp hljs">public PercentageDamage(float percentage, DamageSfxType takeDamageSfx, float knockback, Vector2 damageOrigin)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,6 +121,11 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">percentage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DamageSfxType</span></td>
+        <td><span class="parametername">takeDamageSfx</span></td>
         <td></td>
       </tr>
       <tr>
@@ -225,6 +230,31 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Values_PercentageDamage_GetTakeDamageSfx_" data-uid="CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx*"></a>
+  <h4 id="CatchIo_Runtime_Values_PercentageDamage_GetTakeDamageSfx" data-uid="CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx">GetTakeDamageSfx()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DamageSfxType GetTakeDamageSfx()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DamageSfxType</span></td>
         <td></td>
       </tr>
     </tbody>

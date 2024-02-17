@@ -5146,6 +5146,24 @@ references:
   commentId: F:CatchIo.Runtime.Enums.CharacterMoveType.Walk
   fullName: CatchIo.Runtime.Enums.CharacterMoveType.Walk
   nameWithType: CharacterMoveType.Walk
+- uid: CatchIo.Runtime.Enums.DamageSfxType
+  name: DamageSfxType
+  href: api/CatchIo.Runtime.Enums.DamageSfxType.html
+  commentId: T:CatchIo.Runtime.Enums.DamageSfxType
+  fullName: CatchIo.Runtime.Enums.DamageSfxType
+  nameWithType: DamageSfxType
+- uid: CatchIo.Runtime.Enums.DamageSfxType.BurnDamage
+  name: BurnDamage
+  href: api/CatchIo.Runtime.Enums.DamageSfxType.html#CatchIo_Runtime_Enums_DamageSfxType_BurnDamage
+  commentId: F:CatchIo.Runtime.Enums.DamageSfxType.BurnDamage
+  fullName: CatchIo.Runtime.Enums.DamageSfxType.BurnDamage
+  nameWithType: DamageSfxType.BurnDamage
+- uid: CatchIo.Runtime.Enums.DamageSfxType.TakeDamage
+  name: TakeDamage
+  href: api/CatchIo.Runtime.Enums.DamageSfxType.html#CatchIo_Runtime_Enums_DamageSfxType_TakeDamage
+  commentId: F:CatchIo.Runtime.Enums.DamageSfxType.TakeDamage
+  fullName: CatchIo.Runtime.Enums.DamageSfxType.TakeDamage
+  nameWithType: DamageSfxType.TakeDamage
 - uid: CatchIo.Runtime.Enums.GameLanguage
   name: GameLanguage
   href: api/CatchIo.Runtime.Enums.GameLanguage.html
@@ -5458,6 +5476,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Environment.DamagableObject.DamagePercentage
   nameWithType: DamagableObject.DamagePercentage
+- uid: CatchIo.Runtime.Environment.DamagableObject.DamageSfxType
+  name: DamageSfxType
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_DamageSfxType
+  commentId: P:CatchIo.Runtime.Environment.DamagableObject.DamageSfxType
+  fullName: CatchIo.Runtime.Environment.DamagableObject.DamageSfxType
+  nameWithType: DamagableObject.DamageSfxType
+- uid: CatchIo.Runtime.Environment.DamagableObject.DamageSfxType*
+  name: DamageSfxType
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_DamageSfxType_
+  commentId: Overload:CatchIo.Runtime.Environment.DamagableObject.DamageSfxType
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.DamagableObject.DamageSfxType
+  nameWithType: DamagableObject.DamageSfxType
 - uid: CatchIo.Runtime.Environment.DamagableObject.DamageVal
   name: DamageVal
   href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_DamageVal
@@ -5848,6 +5879,19 @@ references:
   commentId: T:CatchIo.Runtime.Interfaces.IDamagable
   fullName: CatchIo.Runtime.Interfaces.IDamagable
   nameWithType: IDamagable
+- uid: CatchIo.Runtime.Interfaces.IDamagable.DamageSfxType
+  name: DamageSfxType
+  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_DamageSfxType
+  commentId: P:CatchIo.Runtime.Interfaces.IDamagable.DamageSfxType
+  fullName: CatchIo.Runtime.Interfaces.IDamagable.DamageSfxType
+  nameWithType: IDamagable.DamageSfxType
+- uid: CatchIo.Runtime.Interfaces.IDamagable.DamageSfxType*
+  name: DamageSfxType
+  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_DamageSfxType_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDamagable.DamageSfxType
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDamagable.DamageSfxType
+  nameWithType: IDamagable.DamageSfxType
 - uid: CatchIo.Runtime.Interfaces.IDamagable.DamageVal
   name: DamageVal
   href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_DamageVal
@@ -5919,6 +5963,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IDamage.GetOrigin
   nameWithType: IDamage.GetOrigin
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetTakeDamageSfx
+  name: GetTakeDamageSfx()
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetTakeDamageSfx
+  commentId: M:CatchIo.Runtime.Interfaces.IDamage.GetTakeDamageSfx
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetTakeDamageSfx()
+  nameWithType: IDamage.GetTakeDamageSfx()
+- uid: CatchIo.Runtime.Interfaces.IDamage.GetTakeDamageSfx*
+  name: GetTakeDamageSfx
+  href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_GetTakeDamageSfx_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDamage.GetTakeDamageSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDamage.GetTakeDamageSfx
+  nameWithType: IDamage.GetTakeDamageSfx
 - uid: CatchIo.Runtime.Interfaces.IDamage.SetOrigin(Vector2)
   name: SetOrigin(Vector2)
   href: api/CatchIo.Runtime.Interfaces.IDamage.html#CatchIo_Runtime_Interfaces_IDamage_SetOrigin_Vector2_
@@ -6504,6 +6561,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Stone.CanPickup
   nameWithType: Stone.CanPickup
+- uid: CatchIo.Runtime.Items.Stone.DamageSfxType
+  name: DamageSfxType
+  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_DamageSfxType
+  commentId: P:CatchIo.Runtime.Items.Stone.DamageSfxType
+  fullName: CatchIo.Runtime.Items.Stone.DamageSfxType
+  nameWithType: Stone.DamageSfxType
+- uid: CatchIo.Runtime.Items.Stone.DamageSfxType*
+  name: DamageSfxType
+  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_DamageSfxType_
+  commentId: Overload:CatchIo.Runtime.Items.Stone.DamageSfxType
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Stone.DamageSfxType
+  nameWithType: Stone.DamageSfxType
 - uid: CatchIo.Runtime.Items.Stone.DamageVal
   name: DamageVal
   href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_DamageVal
@@ -14701,12 +14771,12 @@ references:
   commentId: T:CatchIo.Runtime.Values.FixedDamage
   fullName: CatchIo.Runtime.Values.FixedDamage
   nameWithType: FixedDamage
-- uid: CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single,System.Single,Vector2)
-  name: FixedDamage(Single, Single, Vector2)
-  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_System_Single_Vector2_
-  commentId: M:CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single,System.Single,Vector2)
-  fullName: CatchIo.Runtime.Values.FixedDamage.FixedDamage(System.Single, System.Single, Vector2)
-  nameWithType: FixedDamage.FixedDamage(Single, Single, Vector2)
+- uid: CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single,DamageSfxType,System.Single,Vector2)
+  name: FixedDamage(Single, DamageSfxType, Single, Vector2)
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_System_Single_DamageSfxType_System_Single_Vector2_
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.#ctor(System.Single,DamageSfxType,System.Single,Vector2)
+  fullName: CatchIo.Runtime.Values.FixedDamage.FixedDamage(System.Single, DamageSfxType, System.Single, Vector2)
+  nameWithType: FixedDamage.FixedDamage(Single, DamageSfxType, Single, Vector2)
 - uid: CatchIo.Runtime.Values.FixedDamage.#ctor*
   name: FixedDamage
   href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage__ctor_
@@ -14753,6 +14823,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Values.FixedDamage.GetOrigin
   nameWithType: FixedDamage.GetOrigin
+- uid: CatchIo.Runtime.Values.FixedDamage.GetTakeDamageSfx
+  name: GetTakeDamageSfx()
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetTakeDamageSfx
+  commentId: M:CatchIo.Runtime.Values.FixedDamage.GetTakeDamageSfx
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetTakeDamageSfx()
+  nameWithType: FixedDamage.GetTakeDamageSfx()
+- uid: CatchIo.Runtime.Values.FixedDamage.GetTakeDamageSfx*
+  name: GetTakeDamageSfx
+  href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_GetTakeDamageSfx_
+  commentId: Overload:CatchIo.Runtime.Values.FixedDamage.GetTakeDamageSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.FixedDamage.GetTakeDamageSfx
+  nameWithType: FixedDamage.GetTakeDamageSfx
 - uid: CatchIo.Runtime.Values.FixedDamage.SetOrigin(Vector2)
   name: SetOrigin(Vector2)
   href: api/CatchIo.Runtime.Values.FixedDamage.html#CatchIo_Runtime_Values_FixedDamage_SetOrigin_Vector2_
@@ -14772,12 +14855,12 @@ references:
   commentId: T:CatchIo.Runtime.Values.PercentageDamage
   fullName: CatchIo.Runtime.Values.PercentageDamage
   nameWithType: PercentageDamage
-- uid: CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,System.Single,Vector2)
-  name: PercentageDamage(Single, Single, Vector2)
-  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_System_Single_System_Single_Vector2_
-  commentId: M:CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,System.Single,Vector2)
-  fullName: CatchIo.Runtime.Values.PercentageDamage.PercentageDamage(System.Single, System.Single, Vector2)
-  nameWithType: PercentageDamage.PercentageDamage(Single, Single, Vector2)
+- uid: CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,DamageSfxType,System.Single,Vector2)
+  name: PercentageDamage(Single, DamageSfxType, Single, Vector2)
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_System_Single_DamageSfxType_System_Single_Vector2_
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.#ctor(System.Single,DamageSfxType,System.Single,Vector2)
+  fullName: CatchIo.Runtime.Values.PercentageDamage.PercentageDamage(System.Single, DamageSfxType, System.Single, Vector2)
+  nameWithType: PercentageDamage.PercentageDamage(Single, DamageSfxType, Single, Vector2)
 - uid: CatchIo.Runtime.Values.PercentageDamage.#ctor*
   name: PercentageDamage
   href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage__ctor_
@@ -14824,6 +14907,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Values.PercentageDamage.GetOrigin
   nameWithType: PercentageDamage.GetOrigin
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx
+  name: GetTakeDamageSfx()
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetTakeDamageSfx
+  commentId: M:CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx()
+  nameWithType: PercentageDamage.GetTakeDamageSfx()
+- uid: CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx*
+  name: GetTakeDamageSfx
+  href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_GetTakeDamageSfx_
+  commentId: Overload:CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.PercentageDamage.GetTakeDamageSfx
+  nameWithType: PercentageDamage.GetTakeDamageSfx
 - uid: CatchIo.Runtime.Values.PercentageDamage.SetOrigin(Vector2)
   name: SetOrigin(Vector2)
   href: api/CatchIo.Runtime.Values.PercentageDamage.html#CatchIo_Runtime_Values_PercentageDamage_SetOrigin_Vector2_
