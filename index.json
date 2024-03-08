@@ -782,7 +782,12 @@
   "api/CatchIo.Runtime.Menu.UI.Button.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Button.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.Button | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Button Classes ButtonClickBroadcaster GameStartButton ReadyButton"
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Button Classes ButtonClickBroadcaster GameStartButton QuitButton ReadyButton"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Button.QuitButton.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Button.QuitButton.html",
+    "title": "Class QuitButton | Catch.io Developer Reference",
+    "keywords": "Class QuitButton Inheritance Object QuitButton Namespace : CatchIo.Runtime.Menu.UI.Button Assembly : cs.temp.dll.dll Syntax public class QuitButton : MonoBehaviour Methods QuitApplication() Declaration public void QuitApplication()"
   },
   "api/CatchIo.Runtime.Menu.UI.Button.ReadyButton.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Button.ReadyButton.html",
@@ -837,7 +842,7 @@
   "api/CatchIo.Runtime.Menu.UI.Element.PlayerInfoElement.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Element.PlayerInfoElement.html",
     "title": "Class PlayerInfoElement | Catch.io Developer Reference",
-    "keywords": "Class PlayerInfoElement Inheritance Object PlayerInfoElement Namespace : CatchIo.Runtime.Menu.UI.Element Assembly : cs.temp.dll.dll Syntax public class PlayerInfoElement : MonoBehaviour Methods Initialize(Player) Declaration public void Initialize(Player player) Parameters Type Name Description Player player UpdateElement(ExitGames.Client.Photon.Hashtable) Declaration public void UpdateElement(ExitGames.Client.Photon.Hashtable changedProps) Parameters Type Name Description ExitGames.Client.Photon.Hashtable changedProps"
+    "keywords": "Class PlayerInfoElement Inheritance Object PlayerInfoElement Namespace : CatchIo.Runtime.Menu.UI.Element Assembly : cs.temp.dll.dll Syntax public class PlayerInfoElement : MonoBehaviour Methods Compare(Player) Declaration public bool Compare(Player newPlayer) Parameters Type Name Description Player newPlayer Returns Type Description Boolean Initialize(Player) Declaration public void Initialize(Player player) Parameters Type Name Description Player player UpdateElement(ExitGames.Client.Photon.Hashtable) Declaration public void UpdateElement(ExitGames.Client.Photon.Hashtable changedProps) Parameters Type Name Description ExitGames.Client.Photon.Hashtable changedProps"
   },
   "api/CatchIo.Runtime.Menu.UI.Element.RoomInfoElement.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Element.RoomInfoElement.html",
