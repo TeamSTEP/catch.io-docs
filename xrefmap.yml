@@ -8076,6 +8076,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnDestroy
   nameWithType: BasePopup.OnDestroy
+- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnHide
+  name: OnHide()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_OnHide
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnHide
+  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnHide()
+  nameWithType: BasePopup.OnHide()
+- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnHide*
+  name: OnHide
+  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_OnHide_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnHide
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnHide
+  nameWithType: BasePopup.OnHide
 - uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Show
   name: Show()
   href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_Show
@@ -8211,6 +8224,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnDestroy
   nameWithType: SettingsPopup.OnDestroy
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnHide
+  name: OnHide()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopup_OnHide
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnHide
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnHide()
+  nameWithType: SettingsPopup.OnHide()
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnHide*
+  name: OnHide
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopup_OnHide_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnHide
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.OnHide
+  nameWithType: SettingsPopup.OnHide
 - uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.Show
   name: Show()
   href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopup_Show
@@ -12649,6 +12675,45 @@ references:
   commentId: T:CatchIo.Runtime.Sound.MainMusic
   fullName: CatchIo.Runtime.Sound.MainMusic
   nameWithType: MainMusic
+- uid: CatchIo.Runtime.Sound.MainMusic.ChangeCurrentTrackVolume(System.Single)
+  name: ChangeCurrentTrackVolume(Single)
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_ChangeCurrentTrackVolume_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.MainMusic.ChangeCurrentTrackVolume(System.Single)
+  fullName: CatchIo.Runtime.Sound.MainMusic.ChangeCurrentTrackVolume(System.Single)
+  nameWithType: MainMusic.ChangeCurrentTrackVolume(Single)
+- uid: CatchIo.Runtime.Sound.MainMusic.ChangeCurrentTrackVolume*
+  name: ChangeCurrentTrackVolume
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_ChangeCurrentTrackVolume_
+  commentId: Overload:CatchIo.Runtime.Sound.MainMusic.ChangeCurrentTrackVolume
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.MainMusic.ChangeCurrentTrackVolume
+  nameWithType: MainMusic.ChangeCurrentTrackVolume
+- uid: CatchIo.Runtime.Sound.MainMusic.CurrentVolume
+  name: CurrentVolume
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_CurrentVolume
+  commentId: P:CatchIo.Runtime.Sound.MainMusic.CurrentVolume
+  fullName: CatchIo.Runtime.Sound.MainMusic.CurrentVolume
+  nameWithType: MainMusic.CurrentVolume
+- uid: CatchIo.Runtime.Sound.MainMusic.CurrentVolume*
+  name: CurrentVolume
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_CurrentVolume_
+  commentId: Overload:CatchIo.Runtime.Sound.MainMusic.CurrentVolume
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.MainMusic.CurrentVolume
+  nameWithType: MainMusic.CurrentVolume
+- uid: CatchIo.Runtime.Sound.MainMusic.Instance
+  name: Instance
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_Instance
+  commentId: P:CatchIo.Runtime.Sound.MainMusic.Instance
+  fullName: CatchIo.Runtime.Sound.MainMusic.Instance
+  nameWithType: MainMusic.Instance
+- uid: CatchIo.Runtime.Sound.MainMusic.Instance*
+  name: Instance
+  href: api/CatchIo.Runtime.Sound.MainMusic.html#CatchIo_Runtime_Sound_MainMusic_Instance_
+  commentId: Overload:CatchIo.Runtime.Sound.MainMusic.Instance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.MainMusic.Instance
+  nameWithType: MainMusic.Instance
 - uid: CatchIo.Runtime.Sound.MainTrackType
   name: MainTrackType
   href: api/CatchIo.Runtime.Sound.MainTrackType.html
@@ -12838,6 +12903,19 @@ references:
   commentId: T:CatchIo.Runtime.Sound.SoundManager
   fullName: CatchIo.Runtime.Sound.SoundManager
   nameWithType: SoundManager
+- uid: CatchIo.Runtime.Sound.SoundManager.CurrentSfxVolume
+  name: CurrentSfxVolume
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_CurrentSfxVolume
+  commentId: P:CatchIo.Runtime.Sound.SoundManager.CurrentSfxVolume
+  fullName: CatchIo.Runtime.Sound.SoundManager.CurrentSfxVolume
+  nameWithType: SoundManager.CurrentSfxVolume
+- uid: CatchIo.Runtime.Sound.SoundManager.CurrentSfxVolume*
+  name: CurrentSfxVolume
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_CurrentSfxVolume_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.CurrentSfxVolume
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.CurrentSfxVolume
+  nameWithType: SoundManager.CurrentSfxVolume
 - uid: CatchIo.Runtime.Sound.SoundManager.Instance
   name: Instance
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_Instance
