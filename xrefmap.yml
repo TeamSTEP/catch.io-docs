@@ -829,6 +829,19 @@ references:
   commentId: T:CatchIo.Runtime.Camera.GameCamera
   fullName: CatchIo.Runtime.Camera.GameCamera
   nameWithType: GameCamera
+- uid: CatchIo.Runtime.Camera.GameCamera._overlayCamera
+  name: _overlayCamera
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera__overlayCamera
+  commentId: P:CatchIo.Runtime.Camera.GameCamera._overlayCamera
+  fullName: CatchIo.Runtime.Camera.GameCamera._overlayCamera
+  nameWithType: GameCamera._overlayCamera
+- uid: CatchIo.Runtime.Camera.GameCamera._overlayCamera*
+  name: _overlayCamera
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera__overlayCamera_
+  commentId: Overload:CatchIo.Runtime.Camera.GameCamera._overlayCamera
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Camera.GameCamera._overlayCamera
+  nameWithType: GameCamera._overlayCamera
 - uid: CatchIo.Runtime.Camera.GameCamera.AddCursedOneCullingMask
   name: AddCursedOneCullingMask()
   href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_AddCursedOneCullingMask
@@ -881,6 +894,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Camera.GameCamera.Camera
   nameWithType: GameCamera.Camera
+- uid: CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera(System.Int32)
+  name: GetOverlayCamera(Int32)
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_GetOverlayCamera_System_Int32_
+  commentId: M:CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera(System.Int32)
+  fullName: CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera(System.Int32)
+  nameWithType: GameCamera.GetOverlayCamera(Int32)
+- uid: CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera*
+  name: GetOverlayCamera
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_GetOverlayCamera_
+  commentId: Overload:CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera
+  nameWithType: GameCamera.GetOverlayCamera
 - uid: CatchIo.Runtime.Camera.GameCamera.RemoveCursedOneCullingMask
   name: RemoveCursedOneCullingMask()
   href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_RemoveCursedOneCullingMask
@@ -943,6 +969,36 @@ references:
   commentId: N:CatchIo.Runtime.Character
   fullName: CatchIo.Runtime.Character
   nameWithType: CatchIo.Runtime.Character
+- uid: CatchIo.Runtime.Character.CharacterCollision
+  name: CharacterCollision
+  href: api/CatchIo.Runtime.Character.CharacterCollision.html
+  commentId: T:CatchIo.Runtime.Character.CharacterCollision
+  fullName: CatchIo.Runtime.Character.CharacterCollision
+  nameWithType: CharacterCollision
+- uid: CatchIo.Runtime.Character.CharacterCollision.CollisionEntered
+  name: CollisionEntered
+  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_CollisionEntered
+  commentId: F:CatchIo.Runtime.Character.CharacterCollision.CollisionEntered
+  fullName: CatchIo.Runtime.Character.CharacterCollision.CollisionEntered
+  nameWithType: CharacterCollision.CollisionEntered
+- uid: CatchIo.Runtime.Character.CharacterCollision.CollisionExited
+  name: CollisionExited
+  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_CollisionExited
+  commentId: F:CatchIo.Runtime.Character.CharacterCollision.CollisionExited
+  fullName: CatchIo.Runtime.Character.CharacterCollision.CollisionExited
+  nameWithType: CharacterCollision.CollisionExited
+- uid: CatchIo.Runtime.Character.CharacterCollision.TriggerEntered
+  name: TriggerEntered
+  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_TriggerEntered
+  commentId: F:CatchIo.Runtime.Character.CharacterCollision.TriggerEntered
+  fullName: CatchIo.Runtime.Character.CharacterCollision.TriggerEntered
+  nameWithType: CharacterCollision.TriggerEntered
+- uid: CatchIo.Runtime.Character.CharacterCollision.TriggerExited
+  name: TriggerExited
+  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_TriggerExited
+  commentId: F:CatchIo.Runtime.Character.CharacterCollision.TriggerExited
+  fullName: CatchIo.Runtime.Character.CharacterCollision.TriggerExited
+  nameWithType: CharacterCollision.TriggerExited
 - uid: CatchIo.Runtime.Character.CharacterFacade
   name: CharacterFacade
   href: api/CatchIo.Runtime.Character.CharacterFacade.html
@@ -1820,6 +1876,12 @@ references:
   commentId: T:CatchIo.Runtime.Character.Detector.HidingSpotDetector
   fullName: CatchIo.Runtime.Character.Detector.HidingSpotDetector
   nameWithType: HidingSpotDetector
+- uid: CatchIo.Runtime.Character.Detector.LightSourceDetector
+  name: LightSourceDetector
+  href: api/CatchIo.Runtime.Character.Detector.LightSourceDetector.html
+  commentId: T:CatchIo.Runtime.Character.Detector.LightSourceDetector
+  fullName: CatchIo.Runtime.Character.Detector.LightSourceDetector
+  nameWithType: LightSourceDetector
 - uid: CatchIo.Runtime.Character.Detector.SurfaceDetector
   name: SurfaceDetector
   href: api/CatchIo.Runtime.Character.Detector.SurfaceDetector.html
@@ -7214,19 +7276,32 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator
   nameWithType: HidingIndicator
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.DisableImage
-  name: DisableImage()
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_DisableImage
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.DisableImage
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.DisableImage()
-  nameWithType: HidingIndicator.DisableImage()
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.DisableImage*
-  name: DisableImage
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_DisableImage_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.DisableImage
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Awake
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake()
+  nameWithType: HidingIndicator.Awake()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Awake_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake
   isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.DisableImage
-  nameWithType: HidingIndicator.DisableImage
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake
+  nameWithType: HidingIndicator.Awake
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable
+  name: Enable()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Enable
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable()
+  nameWithType: HidingIndicator.Enable()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable*
+  name: Enable
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Enable_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable
+  nameWithType: HidingIndicator.Enable
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.PlayEyeClosingAnim
   name: PlayEyeClosingAnim()
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_PlayEyeClosingAnim
@@ -7253,19 +7328,122 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.PlayEyeOpeningAnim
   nameWithType: HidingIndicator.PlayEyeOpeningAnim
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.TranslatePosition(Vector3)
-  name: TranslatePosition(Vector3)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_TranslatePosition_Vector3_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.TranslatePosition(Vector3)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.TranslatePosition(Vector3)
-  nameWithType: HidingIndicator.TranslatePosition(Vector3)
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.TranslatePosition*
-  name: TranslatePosition
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_TranslatePosition_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.TranslatePosition
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Start
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start()
+  nameWithType: HidingIndicator.Start()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Start_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start
   isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.TranslatePosition
-  nameWithType: HidingIndicator.TranslatePosition
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start
+  nameWithType: HidingIndicator.Start
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator
+  name: HUDIndicator
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator
+  nameWithType: HUDIndicator
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator._characterFacade
+  name: _characterFacade
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator__characterFacade
+  commentId: F:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator._characterFacade
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator._characterFacade
+  nameWithType: HUDIndicator._characterFacade
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Awake
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake()
+  nameWithType: HUDIndicator.Awake()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Awake_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake
+  nameWithType: HUDIndicator.Awake
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable
+  name: Disable()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Disable
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable()
+  nameWithType: HUDIndicator.Disable()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable*
+  name: Disable
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Disable_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable
+  nameWithType: HUDIndicator.Disable
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable
+  name: Enable()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Enable
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable()
+  nameWithType: HUDIndicator.Enable()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable*
+  name: Enable
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Enable_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable
+  nameWithType: HUDIndicator.Enable
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image
+  name: Image
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Image
+  commentId: P:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image
+  nameWithType: HUDIndicator.Image
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image*
+  name: Image
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Image_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image
+  nameWithType: HUDIndicator.Image
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable
+  name: IsEnable
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_IsEnable
+  commentId: P:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable
+  nameWithType: HUDIndicator.IsEnable
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable*
+  name: IsEnable
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_IsEnable_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable
+  nameWithType: HUDIndicator.IsEnable
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform
+  name: RectTransform
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_RectTransform
+  commentId: P:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform
+  nameWithType: HUDIndicator.RectTransform
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform*
+  name: RectTransform
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_RectTransform_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform
+  nameWithType: HUDIndicator.RectTransform
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Start
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start()
+  nameWithType: HUDIndicator.Start()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Start_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start
+  nameWithType: HUDIndicator.Start
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter
   name: HUDMeter
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html
@@ -7330,6 +7508,51 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.Update
   nameWithType: HUDMeter.Update
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator
+  name: LightingIndicator
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator
+  nameWithType: LightingIndicator
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Awake
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake()
+  nameWithType: LightingIndicator.Awake()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Awake_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
+  nameWithType: LightingIndicator.Awake
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
+  name: Enable()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Enable
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable()
+  nameWithType: LightingIndicator.Enable()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable*
+  name: Enable
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Enable_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
+  nameWithType: LightingIndicator.Enable
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Start
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Start
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Start()
+  nameWithType: LightingIndicator.Start()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Start_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Start
+  nameWithType: LightingIndicator.Start
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter
   name: StaminaHUDMeter
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter.html

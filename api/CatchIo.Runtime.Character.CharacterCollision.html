@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HidingIndicator
+    <title>Class CharacterCollision
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HidingIndicator
+    <meta name="title" content="Class CharacterCollision
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,101 +78,122 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.CharacterCollision">
   
   
-  <h1 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator" class="text-break">Class HidingIndicator
+  <h1 id="CatchIo_Runtime_Character_CharacterCollision" data-uid="CatchIo.Runtime.Character.CharacterCollision" class="text-break">Class CharacterCollision
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html">HUDIndicator</a></div>
-    <div class="level2"><span class="xref">HidingIndicator</span></div>
+    <div class="level1"><span class="xref">CharacterCollision</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_RectTransform">HUDIndicator.RectTransform</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Image">HUDIndicator.Image</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_IsEnable">HUDIndicator.IsEnable</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator__characterFacade">HUDIndicator._characterFacade</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Disable">HUDIndicator.Disable()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html">CatchIo.Runtime.Menu.GameOverlay.CharacterHUD</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.html">CatchIo.Runtime.Character</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Character_CharacterCollision_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HidingIndicator : HUDIndicator</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CharacterCollision : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Awake_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Awake" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Awake">Awake()</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterCollision_CollisionEntered" data-uid="CatchIo.Runtime.Character.CharacterCollision.CollisionEntered">CollisionEntered</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;Collision2D&gt; CollisionEntered</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Awake">HUDIndicator.Awake()</a></div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Enable_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Enable" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable">Enable()</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterCollision_CollisionExited" data-uid="CatchIo.Runtime.Character.CharacterCollision.CollisionExited">CollisionExited</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Enable()</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;Collision2D&gt; CollisionExited</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Enable">HUDIndicator.Enable()</a></div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_PlayEyeClosingAnim_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.PlayEyeClosingAnim*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_PlayEyeClosingAnim" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.PlayEyeClosingAnim">PlayEyeClosingAnim()</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterCollision_TriggerEntered" data-uid="CatchIo.Runtime.Character.CharacterCollision.TriggerEntered">TriggerEntered</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayEyeClosingAnim()</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;Collider2D&gt; TriggerEntered</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_PlayEyeOpeningAnim_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.PlayEyeOpeningAnim*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_PlayEyeOpeningAnim" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.PlayEyeOpeningAnim">PlayEyeOpeningAnim()</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterCollision_TriggerExited" data-uid="CatchIo.Runtime.Character.CharacterCollision.TriggerExited">TriggerExited</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayEyeOpeningAnim()</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;Collider2D&gt; TriggerExited</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Start_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Start" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Start">HUDIndicator.Start()</a></div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

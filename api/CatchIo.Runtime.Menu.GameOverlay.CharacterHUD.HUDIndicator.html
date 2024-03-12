@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameCamera
+    <title>Class HUDIndicator
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameCamera
+    <meta name="title" content="Class HUDIndicator
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,38 +78,63 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Camera.GameCamera">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator">
   
   
-  <h1 id="CatchIo_Runtime_Camera_GameCamera" data-uid="CatchIo.Runtime.Camera.GameCamera" class="text-break">Class GameCamera
+  <h1 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator" class="text-break">Class HUDIndicator
   </h1>
-  <div class="markdown level0 summary"><p>The main camera class for in-game camera movements.
-By passing the player object as its member, this object will initialize all the camera setup and follow the provided player.
-There should only be one instance of this object per scene.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">GameCamera</span></div>
+    <div class="level1"><span class="xref">HUDIndicator</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html">HidingIndicator</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html">LightingIndicator</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Camera.html">CatchIo.Runtime.Camera</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html">CatchIo.Runtime.Menu.GameOverlay.CharacterHUD</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Camera_GameCamera_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameCamera : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class HUDIndicator : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera__overlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera._overlayCamera*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera__overlayCamera" data-uid="CatchIo.Runtime.Camera.GameCamera._overlayCamera">_overlayCamera</h4>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator__characterFacade" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator._characterFacade">_characterFacade</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;OverlayCamera&gt; _overlayCamera { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected CharacterFacade _characterFacade</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterFacade</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Image_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Image" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Image">Image</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image Image { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,20 +146,20 @@ There should only be one instance of this object per scene.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a>&gt;</td>
+        <td><span class="xref">Image</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera_Camera_" data-uid="CatchIo.Runtime.Camera.GameCamera.Camera*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_Camera" data-uid="CatchIo.Runtime.Camera.GameCamera.Camera">Camera</h4>
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_IsEnable_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_IsEnable" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.IsEnable">IsEnable</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEngine.Camera Camera { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsEnable { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,7 +171,32 @@ There should only be one instance of this object per scene.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Camera.html">UnityEngine.Camera</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_RectTransform_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_RectTransform" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.RectTransform">RectTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform RectTransform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -155,105 +205,43 @@ There should only be one instance of this object per scene.</p>
   </h3>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera_AddCursedOneCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddCursedOneCullingMask*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_AddCursedOneCullingMask" data-uid="CatchIo.Runtime.Camera.GameCamera.AddCursedOneCullingMask">AddCursedOneCullingMask()</h4>
-  <div class="markdown level1 summary"><p>Add CursedOne layer to the camera culling mask.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddCursedOneCullingMask()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Camera_GameCamera_AddOverlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddOverlayCamera*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_AddOverlayCamera_CatchIo_Runtime_Camera_OverlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddOverlayCamera(CatchIo.Runtime.Camera.OverlayCamera)">AddOverlayCamera(OverlayCamera)</h4>
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Awake_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Awake" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Awake">Awake()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddOverlayCamera(OverlayCamera overlayCamera)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a></td>
-        <td><span class="parametername">overlayCamera</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Camera_GameCamera_AddSpectateCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddSpectateCullingMask*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_AddSpectateCullingMask" data-uid="CatchIo.Runtime.Camera.GameCamera.AddSpectateCullingMask">AddSpectateCullingMask()</h4>
-  <div class="markdown level1 summary"><p>Add Spectate layer to the camera culling mask.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddSpectateCullingMask()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
   </div>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera_GetOverlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_GetOverlayCamera_System_Int32_" data-uid="CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera(System.Int32)">GetOverlayCamera(Int32)</h4>
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Disable_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Disable" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Disable">Disable()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OverlayCamera GetOverlayCamera(int index)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Disable()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera_RemoveCursedOneCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.RemoveCursedOneCullingMask*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_RemoveCursedOneCullingMask" data-uid="CatchIo.Runtime.Camera.GameCamera.RemoveCursedOneCullingMask">RemoveCursedOneCullingMask()</h4>
-  <div class="markdown level1 summary"><p>Remove CursedOne layer to the camera culling mask.</p>
-</div>
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Enable_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Enable" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Enable">Enable()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveCursedOneCullingMask()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Enable()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Start_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Start" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
   </div>
 </article>
           </div>

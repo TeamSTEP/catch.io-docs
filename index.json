@@ -142,7 +142,7 @@
   "api/CatchIo.Runtime.Camera.GameCamera.html": {
     "href": "api/CatchIo.Runtime.Camera.GameCamera.html",
     "title": "Class GameCamera | Catch.io Developer Reference",
-    "keywords": "Class GameCamera The main camera class for in-game camera movements. By passing the player object as its member, this object will initialize all the camera setup and follow the provided player. There should only be one instance of this object per scene. Inheritance Object GameCamera Namespace : CatchIo.Runtime.Camera Assembly : cs.temp.dll.dll Syntax public class GameCamera : MonoBehaviour Properties Camera Declaration public UnityEngine.Camera Camera { get; } Property Value Type Description UnityEngine.Camera Methods AddCursedOneCullingMask() Add CursedOne layer to the camera culling mask. Declaration public void AddCursedOneCullingMask() AddOverlayCamera(OverlayCamera) Declaration public void AddOverlayCamera(OverlayCamera overlayCamera) Parameters Type Name Description OverlayCamera overlayCamera AddSpectateCullingMask() Add Spectate layer to the camera culling mask. Declaration public void AddSpectateCullingMask() RemoveCursedOneCullingMask() Remove CursedOne layer to the camera culling mask. Declaration public void RemoveCursedOneCullingMask()"
+    "keywords": "Class GameCamera The main camera class for in-game camera movements. By passing the player object as its member, this object will initialize all the camera setup and follow the provided player. There should only be one instance of this object per scene. Inheritance Object GameCamera Namespace : CatchIo.Runtime.Camera Assembly : cs.temp.dll.dll Syntax public class GameCamera : MonoBehaviour Properties _overlayCamera Declaration public List<OverlayCamera> _overlayCamera { get; } Property Value Type Description List < OverlayCamera > Camera Declaration public UnityEngine.Camera Camera { get; } Property Value Type Description UnityEngine.Camera Methods AddCursedOneCullingMask() Add CursedOne layer to the camera culling mask. Declaration public void AddCursedOneCullingMask() AddOverlayCamera(OverlayCamera) Declaration public void AddOverlayCamera(OverlayCamera overlayCamera) Parameters Type Name Description OverlayCamera overlayCamera AddSpectateCullingMask() Add Spectate layer to the camera culling mask. Declaration public void AddSpectateCullingMask() GetOverlayCamera(Int32) Declaration public OverlayCamera GetOverlayCamera(int index) Parameters Type Name Description Int32 index Returns Type Description OverlayCamera RemoveCursedOneCullingMask() Remove CursedOne layer to the camera culling mask. Declaration public void RemoveCursedOneCullingMask()"
   },
   "api/CatchIo.Runtime.Camera.GameCameraMovement.html": {
     "href": "api/CatchIo.Runtime.Camera.GameCameraMovement.html",
@@ -163,6 +163,11 @@
     "href": "api/CatchIo.Runtime.Camera.OverlayCamera.html",
     "title": "Class OverlayCamera | Catch.io Developer Reference",
     "keywords": "Class OverlayCamera Inheritance Object OverlayCamera Namespace : CatchIo.Runtime.Camera Assembly : cs.temp.dll.dll Syntax public class OverlayCamera : MonoBehaviour Properties Camera Declaration public UnityEngine.Camera Camera { get; } Property Value Type Description UnityEngine.Camera"
+  },
+  "api/CatchIo.Runtime.Character.CharacterCollision.html": {
+    "href": "api/CatchIo.Runtime.Character.CharacterCollision.html",
+    "title": "Class CharacterCollision | Catch.io Developer Reference",
+    "keywords": "Class CharacterCollision Inheritance Object CharacterCollision Namespace : CatchIo.Runtime.Character Assembly : cs.temp.dll.dll Syntax public sealed class CharacterCollision : MonoBehaviour Fields CollisionEntered Declaration public Action<Collision2D> CollisionEntered Field Value Type Description Action < Collision2D > CollisionExited Declaration public Action<Collision2D> CollisionExited Field Value Type Description Action < Collision2D > TriggerEntered Declaration public Action<Collider2D> TriggerEntered Field Value Type Description Action < Collider2D > TriggerExited Declaration public Action<Collider2D> TriggerExited Field Value Type Description Action < Collider2D >"
   },
   "api/CatchIo.Runtime.Character.CharacterFacade.html": {
     "href": "api/CatchIo.Runtime.Character.CharacterFacade.html",
@@ -212,7 +217,12 @@
   "api/CatchIo.Runtime.Character.Detector.html": {
     "href": "api/CatchIo.Runtime.Character.Detector.html",
     "title": "Namespace CatchIo.Runtime.Character.Detector | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Character.Detector Classes CharacterDetector CharacterItemCollector CursedOneDetector HidingSpotDetector SurfaceDetector"
+    "keywords": "Namespace CatchIo.Runtime.Character.Detector Classes CharacterDetector CharacterItemCollector CursedOneDetector HidingSpotDetector LightSourceDetector SurfaceDetector"
+  },
+  "api/CatchIo.Runtime.Character.Detector.LightSourceDetector.html": {
+    "href": "api/CatchIo.Runtime.Character.Detector.LightSourceDetector.html",
+    "title": "Class LightSourceDetector | Catch.io Developer Reference",
+    "keywords": "Class LightSourceDetector Inheritance Object LightSourceDetector Namespace : CatchIo.Runtime.Character.Detector Assembly : cs.temp.dll.dll Syntax public class LightSourceDetector : MonoBehaviour"
   },
   "api/CatchIo.Runtime.Character.Detector.SurfaceDetector.html": {
     "href": "api/CatchIo.Runtime.Character.Detector.SurfaceDetector.html",
@@ -357,7 +367,7 @@
   "api/CatchIo.Runtime.Character.html": {
     "href": "api/CatchIo.Runtime.Character.html",
     "title": "Namespace CatchIo.Runtime.Character | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Character Classes CharacterFacade CharacterHitbox CharacterInput CharacterRotator CharacterSfxEmitter NetworkCharacter"
+    "keywords": "Namespace CatchIo.Runtime.Character Classes CharacterCollision CharacterFacade CharacterHitbox CharacterInput CharacterRotator CharacterSfxEmitter NetworkCharacter"
   },
   "api/CatchIo.Runtime.Character.Inventory.html": {
     "href": "api/CatchIo.Runtime.Character.Inventory.html",
@@ -682,17 +692,27 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html",
     "title": "Class HidingIndicator | Catch.io Developer Reference",
-    "keywords": "Class HidingIndicator Inheritance Object HidingIndicator Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HidingIndicator : MonoBehaviour Methods DisableImage() Declaration public void DisableImage() PlayEyeClosingAnim() Declaration public void PlayEyeClosingAnim() PlayEyeOpeningAnim() Declaration public void PlayEyeOpeningAnim() TranslatePosition(Vector3) Declaration public void TranslatePosition(Vector3 characterScreenPos) Parameters Type Name Description Vector3 characterScreenPos"
+    "keywords": "Class HidingIndicator Inheritance Object HUDIndicator HidingIndicator Inherited Members HUDIndicator.RectTransform HUDIndicator.Image HUDIndicator.IsEnable HUDIndicator._characterFacade HUDIndicator.Disable() Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HidingIndicator : HUDIndicator Methods Awake() Declaration protected override void Awake() Overrides HUDIndicator.Awake() Enable() Declaration protected override void Enable() Overrides HUDIndicator.Enable() PlayEyeClosingAnim() Declaration public void PlayEyeClosingAnim() PlayEyeOpeningAnim() Declaration public void PlayEyeOpeningAnim() Start() Declaration protected override void Start() Overrides HUDIndicator.Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html",
     "title": "Namespace CatchIo.Runtime.Menu.GameOverlay.CharacterHUD | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Classes CharacterNickNameText HealthHUDMeter HidingIndicator HUDMeter StaminaHUDMeter"
+    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Classes CharacterNickNameText HealthHUDMeter HidingIndicator HUDIndicator HUDMeter LightingIndicator StaminaHUDMeter"
+  },
+  "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html": {
+    "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html",
+    "title": "Class HUDIndicator | Catch.io Developer Reference",
+    "keywords": "Class HUDIndicator Inheritance Object HUDIndicator HidingIndicator LightingIndicator Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public abstract class HUDIndicator : MonoBehaviour Fields _characterFacade Declaration protected CharacterFacade _characterFacade Field Value Type Description CharacterFacade Properties Image Declaration public Image Image { get; } Property Value Type Description Image IsEnable Declaration public bool IsEnable { get; } Property Value Type Description Boolean RectTransform Declaration public RectTransform RectTransform { get; } Property Value Type Description RectTransform Methods Awake() Declaration protected virtual void Awake() Disable() Declaration protected virtual void Disable() Enable() Declaration protected virtual void Enable() Start() Declaration protected virtual void Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html",
     "title": "Class HUDMeter | Catch.io Developer Reference",
     "keywords": "Class HUDMeter Inheritance Object HUDMeter HealthHUDMeter StaminaHUDMeter Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HUDMeter : MonoBehaviour Fields LocalCharacter Declaration protected CharacterFacade LocalCharacter Field Value Type Description CharacterFacade Methods MeterUpdate(Single) Declaration protected virtual void MeterUpdate(float newValue) Parameters Type Name Description Single newValue OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start() Update() Declaration protected virtual void Update()"
+  },
+  "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html": {
+    "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html",
+    "title": "Class LightingIndicator | Catch.io Developer Reference",
+    "keywords": "Class LightingIndicator Inheritance Object HUDIndicator LightingIndicator Inherited Members HUDIndicator.RectTransform HUDIndicator.Image HUDIndicator.IsEnable HUDIndicator._characterFacade HUDIndicator.Disable() Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class LightingIndicator : HUDIndicator Methods Awake() Declaration protected override void Awake() Overrides HUDIndicator.Awake() Enable() Declaration protected override void Enable() Overrides HUDIndicator.Enable() Start() Declaration protected override void Start() Overrides HUDIndicator.Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter.html",
