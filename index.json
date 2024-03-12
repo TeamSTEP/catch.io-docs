@@ -512,7 +512,7 @@
   "api/CatchIo.Runtime.Enums.html": {
     "href": "api/CatchIo.Runtime.Enums.html",
     "title": "Namespace CatchIo.Runtime.Enums | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Enums Classes SendEventType Enums CharacterActionType CharacterClassType CharacterDirectionState CharacterMoveType DamageSfxType GameLanguage GameModeType RoomState SceneSwitchingState ScreenResolutionSettings"
+    "keywords": "Namespace CatchIo.Runtime.Enums Classes SendEventType Enums CharacterActionType CharacterClassType CharacterDirectionState CharacterMoveType DamageSfxType GameLanguage GameModeType RoomState SceneSwitchingState ScreenResolutionSettings ShownCharacterStatsType"
   },
   "api/CatchIo.Runtime.Enums.RoomState.html": {
     "href": "api/CatchIo.Runtime.Enums.RoomState.html",
@@ -533,6 +533,11 @@
     "href": "api/CatchIo.Runtime.Enums.SendEventType.html",
     "title": "Class SendEventType | Catch.io Developer Reference",
     "keywords": "Class SendEventType Inheritance Object SendEventType Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public class SendEventType Fields CharacterBeTrapped Declaration public const byte CharacterBeTrapped = 6 Field Value Type Description Byte CharacterDead Declaration public const byte CharacterDead = 3 Field Value Type Description Byte CharacterKill Declaration public const byte CharacterKill = 5 Field Value Type Description Byte CharacterRespawn Declaration public const byte CharacterRespawn = 2 Field Value Type Description Byte CharacterSpawn Declaration public const byte CharacterSpawn = 1 Field Value Type Description Byte CursedOneDeathEvent Declaration public const byte CursedOneDeathEvent = 31 Field Value Type Description Byte CursedOneSelectEvent Declaration public const byte CursedOneSelectEvent = 30 Field Value Type Description Byte DummyCharacterSpawn Declaration public const byte DummyCharacterSpawn = 4 Field Value Type Description Byte EnteredHidingStateEvent Declaration public const byte EnteredHidingStateEvent = 10 Field Value Type Description Byte ExitedHidingStateEvent Declaration public const byte ExitedHidingStateEvent = 11 Field Value Type Description Byte ItemRespawnEvent Declaration public const byte ItemRespawnEvent = 12 Field Value Type Description Byte NetworkTimerEndEvent Declaration public const byte NetworkTimerEndEvent = 51 Field Value Type Description Byte NetworkTimerStartEvent Declaration public const byte NetworkTimerStartEvent = 50 Field Value Type Description Byte NetworkTimerStopEvent Declaration public const byte NetworkTimerStopEvent = 52 Field Value Type Description Byte"
+  },
+  "api/CatchIo.Runtime.Enums.ShownCharacterStatsType.html": {
+    "href": "api/CatchIo.Runtime.Enums.ShownCharacterStatsType.html",
+    "title": "Enum ShownCharacterStatsType | Catch.io Developer Reference",
+    "keywords": "Enum ShownCharacterStatsType Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax [Serializable] public enum ShownCharacterStatsType Fields Name Description Class DeathCount DeathMatchPoint Extras GetBeTrapperdCount GetCursedCount GetTrapCount KillCount Name"
   },
   "api/CatchIo.Runtime.Environment.CharacterSpawner.html": {
     "href": "api/CatchIo.Runtime.Environment.CharacterSpawner.html",
@@ -724,6 +729,11 @@
     "title": "Class ExitSessionPopup | Catch.io Developer Reference",
     "keywords": "Class ExitSessionPopup Inheritance Object ExitSessionPopup Namespace : CatchIo.Runtime.Menu.GameOverlay Assembly : cs.temp.dll.dll Syntax public class ExitSessionPopup : BasePopup Methods OnDestroy() Declaration protected override void OnDestroy() Start() Declaration protected override void Start()"
   },
+  "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.DeathMatchLeaderBoard.html": {
+    "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.DeathMatchLeaderBoard.html",
+    "title": "Class DeathMatchLeaderBoard | Catch.io Developer Reference",
+    "keywords": "Class DeathMatchLeaderBoard Inheritance Object DeathMatchLeaderBoard Namespace : CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Assembly : cs.temp.dll.dll Syntax public class DeathMatchLeaderBoard : MonoBehaviour"
+  },
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.GameTimerText.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.GameTimerText.html",
     "title": "Class GameTimerText | Catch.io Developer Reference",
@@ -732,7 +742,7 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.html",
     "title": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Classes GameTimerText PointText"
+    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Classes DeathMatchLeaderBoard GameTimerText PointText"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText.html",
@@ -857,7 +867,17 @@
   "api/CatchIo.Runtime.Menu.UI.Element.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Element.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.Element | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Element Classes PlayerInfoElement RoomInfoElement"
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Element Classes LeaderboardInfoElement LeaderboardPlayerElement PlayerInfoElement RoomInfoElement"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.html",
+    "title": "Class LeaderboardInfoElement | Catch.io Developer Reference",
+    "keywords": "Class LeaderboardInfoElement Inheritance Object LeaderboardInfoElement Namespace : CatchIo.Runtime.Menu.UI.Element Assembly : cs.temp.dll.dll Syntax public class LeaderboardInfoElement : MonoBehaviour Methods ClearText() Declaration public void ClearText() Initialize(String, Boolean) Declaration public void Initialize(string inString, bool hideIcon = false) Parameters Type Name Description String inString Boolean hideIcon"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardPlayerElement.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardPlayerElement.html",
+    "title": "Class LeaderboardPlayerElement | Catch.io Developer Reference",
+    "keywords": "Class LeaderboardPlayerElement Inheritance Object LeaderboardPlayerElement Namespace : CatchIo.Runtime.Menu.UI.Element Assembly : cs.temp.dll.dll Syntax public class LeaderboardPlayerElement : MonoBehaviour Methods ClearValues() Declaration public void ClearValues() Initialize(Int32, List<ShownCharacterStatsType>) Declaration public void Initialize(int numberOfAttribute, List<ShownCharacterStatsType> attributeKeys) Parameters Type Name Description Int32 numberOfAttribute List < ShownCharacterStatsType > attributeKeys UpdateValues(Dictionary<ShownCharacterStatsType, String>, String) Declaration public void UpdateValues(Dictionary<ShownCharacterStatsType, string> newValues, string playerNickName = \"\") Parameters Type Name Description Dictionary < ShownCharacterStatsType , String > newValues String playerNickName"
   },
   "api/CatchIo.Runtime.Menu.UI.Element.PlayerInfoElement.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Element.PlayerInfoElement.html",
