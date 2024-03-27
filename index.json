@@ -1,4 +1,14 @@
 {
+  "api/CatchIo.Editor.CustomInspectors.ButtonClickBroadcasterCustomInspector.html": {
+    "href": "api/CatchIo.Editor.CustomInspectors.ButtonClickBroadcasterCustomInspector.html",
+    "title": "Class ButtonClickBroadcasterCustomInspector | Catch.io Developer Reference",
+    "keywords": "Class ButtonClickBroadcasterCustomInspector Inheritance Object ButtonClickBroadcasterCustomInspector Namespace : CatchIo.Editor.CustomInspectors Assembly : cs.temp.dll.dll Syntax public class ButtonClickBroadcasterCustomInspector : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/CatchIo.Editor.CustomInspectors.html": {
+    "href": "api/CatchIo.Editor.CustomInspectors.html",
+    "title": "Namespace CatchIo.Editor.CustomInspectors | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Editor.CustomInspectors Classes ButtonClickBroadcasterCustomInspector"
+  },
   "api/CatchIo.Editor.html": {
     "href": "api/CatchIo.Editor.html",
     "title": "Namespace CatchIo.Editor | Catch.io Developer Reference",
@@ -1407,7 +1417,7 @@
   "api/CatchIo.Runtime.Sound.UiSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.UiSfx.html",
     "title": "Class UiSfx | Catch.io Developer Reference",
-    "keywords": "Class UiSfx Inheritance Object Sfx UiSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class UiSfx : Sfx Constructors UiSfx() Declaration public UiSfx() Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string uiSfx, float volume = 1F) Parameters Type Name Description Vector3 generatePos String uiSfx Single volume Overrides Sfx.Play(Vector3, String, Single)"
+    "keywords": "Class UiSfx Inheritance Object Sfx UiSfx Inherited Members Sfx.EventInstance Sfx.GetPlayBackState() Sfx.Stop(STOP_MODE) Sfx.SetNewVolume(Single) Sfx.GetCurrentVolume() Sfx.GetCurrentFinalVolume() Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class UiSfx : Sfx Constructors UiSfx() Declaration public UiSfx() Fields EVENT_PARAM_NAME Declaration public const string EVENT_PARAM_NAME = \"UiSfx\" Field Value Type Description String EVENT_PATH Declaration public const string EVENT_PATH = \"event:/Sfx/UiSfx\" Field Value Type Description String Methods Play(Vector3, String, Single) Declaration public override void Play(Vector3 generatePos, string uiSfx, float volume = 1F) Parameters Type Name Description Vector3 generatePos String uiSfx Single volume Overrides Sfx.Play(Vector3, String, Single)"
   },
   "api/CatchIo.Runtime.Sound.UiSfx.SfxParameter.html": {
     "href": "api/CatchIo.Runtime.Sound.UiSfx.SfxParameter.html",
