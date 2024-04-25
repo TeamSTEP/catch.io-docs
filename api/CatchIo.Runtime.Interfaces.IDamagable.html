@@ -148,12 +148,25 @@
   
   
   <a id="CatchIo_Runtime_Interfaces_IDamagable_OnHit_" data-uid="CatchIo.Runtime.Interfaces.IDamagable.OnHit*"></a>
-  <h4 id="CatchIo_Runtime_Interfaces_IDamagable_OnHit_CatchIo_Runtime_Interfaces_ICharacterHitable_" data-uid="CatchIo.Runtime.Interfaces.IDamagable.OnHit(CatchIo.Runtime.Interfaces.ICharacterHitable)">OnHit(ICharacterHitable)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Interfaces_IDamagable_OnHit" data-uid="CatchIo.Runtime.Interfaces.IDamagable.OnHit">OnHit()</h4>
+  <div class="markdown level1 summary"><p>Called when the object is hit.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnHit(ICharacterHitable other)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnHit()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Interfaces_IDamagable_OnHitDamage_" data-uid="CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage*"></a>
+  <h4 id="CatchIo_Runtime_Interfaces_IDamagable_OnHitDamage_CatchIo_Runtime_Interfaces_ICharacterHitable_" data-uid="CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage(CatchIo.Runtime.Interfaces.ICharacterHitable)">OnHitDamage(ICharacterHitable)</h4>
+  <div class="markdown level1 summary"><p>Called when the object needs to do damage to another object.
+Invoke only by the host </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnHitDamage(ICharacterHitable other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,7 +181,8 @@
       <tr>
         <td><a class="xref" href="CatchIo.Runtime.Interfaces.ICharacterHitable.html">ICharacterHitable</a></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>object that will take damage</p>
+</td>
       </tr>
     </tbody>
   </table>

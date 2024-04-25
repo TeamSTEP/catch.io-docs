@@ -5841,12 +5841,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Environment.DamagableObject.Knockback
   nameWithType: DamagableObject.Knockback
-- uid: CatchIo.Runtime.Environment.DamagableObject.OnHit(ICharacterHitable)
-  name: OnHit(ICharacterHitable)
-  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHit_ICharacterHitable_
-  commentId: M:CatchIo.Runtime.Environment.DamagableObject.OnHit(ICharacterHitable)
-  fullName: CatchIo.Runtime.Environment.DamagableObject.OnHit(ICharacterHitable)
-  nameWithType: DamagableObject.OnHit(ICharacterHitable)
+- uid: CatchIo.Runtime.Environment.DamagableObject.OnHit
+  name: OnHit()
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHit
+  commentId: M:CatchIo.Runtime.Environment.DamagableObject.OnHit
+  fullName: CatchIo.Runtime.Environment.DamagableObject.OnHit()
+  nameWithType: DamagableObject.OnHit()
 - uid: CatchIo.Runtime.Environment.DamagableObject.OnHit*
   name: OnHit
   href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHit_
@@ -5854,6 +5854,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Environment.DamagableObject.OnHit
   nameWithType: DamagableObject.OnHit
+- uid: CatchIo.Runtime.Environment.DamagableObject.OnHitDamage(ICharacterHitable)
+  name: OnHitDamage(ICharacterHitable)
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHitDamage_ICharacterHitable_
+  commentId: M:CatchIo.Runtime.Environment.DamagableObject.OnHitDamage(ICharacterHitable)
+  fullName: CatchIo.Runtime.Environment.DamagableObject.OnHitDamage(ICharacterHitable)
+  nameWithType: DamagableObject.OnHitDamage(ICharacterHitable)
+- uid: CatchIo.Runtime.Environment.DamagableObject.OnHitDamage*
+  name: OnHitDamage
+  href: api/CatchIo.Runtime.Environment.DamagableObject.html#CatchIo_Runtime_Environment_DamagableObject_OnHitDamage_
+  commentId: Overload:CatchIo.Runtime.Environment.DamagableObject.OnHitDamage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.DamagableObject.OnHitDamage
+  nameWithType: DamagableObject.OnHitDamage
 - uid: CatchIo.Runtime.Environment.HidingSpot
   name: HidingSpot
   href: api/CatchIo.Runtime.Environment.HidingSpot.html
@@ -6225,12 +6238,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IDamagable.DamageVal
   nameWithType: IDamagable.DamageVal
-- uid: CatchIo.Runtime.Interfaces.IDamagable.OnHit(CatchIo.Runtime.Interfaces.ICharacterHitable)
-  name: OnHit(ICharacterHitable)
-  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_OnHit_CatchIo_Runtime_Interfaces_ICharacterHitable_
-  commentId: M:CatchIo.Runtime.Interfaces.IDamagable.OnHit(CatchIo.Runtime.Interfaces.ICharacterHitable)
-  fullName: CatchIo.Runtime.Interfaces.IDamagable.OnHit(CatchIo.Runtime.Interfaces.ICharacterHitable)
-  nameWithType: IDamagable.OnHit(ICharacterHitable)
+- uid: CatchIo.Runtime.Interfaces.IDamagable.OnHit
+  name: OnHit()
+  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_OnHit
+  commentId: M:CatchIo.Runtime.Interfaces.IDamagable.OnHit
+  fullName: CatchIo.Runtime.Interfaces.IDamagable.OnHit()
+  nameWithType: IDamagable.OnHit()
 - uid: CatchIo.Runtime.Interfaces.IDamagable.OnHit*
   name: OnHit
   href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_OnHit_
@@ -6238,6 +6251,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IDamagable.OnHit
   nameWithType: IDamagable.OnHit
+- uid: CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage(CatchIo.Runtime.Interfaces.ICharacterHitable)
+  name: OnHitDamage(ICharacterHitable)
+  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_OnHitDamage_CatchIo_Runtime_Interfaces_ICharacterHitable_
+  commentId: M:CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage(CatchIo.Runtime.Interfaces.ICharacterHitable)
+  fullName: CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage(CatchIo.Runtime.Interfaces.ICharacterHitable)
+  nameWithType: IDamagable.OnHitDamage(ICharacterHitable)
+- uid: CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage*
+  name: OnHitDamage
+  href: api/CatchIo.Runtime.Interfaces.IDamagable.html#CatchIo_Runtime_Interfaces_IDamagable_OnHitDamage_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IDamagable.OnHitDamage
+  nameWithType: IDamagable.OnHitDamage
 - uid: CatchIo.Runtime.Interfaces.IDamage
   name: IDamage
   href: api/CatchIo.Runtime.Interfaces.IDamage.html
@@ -6818,6 +6844,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.ItemRebounder.CalculateReboundTrajectory
   nameWithType: ItemRebounder.CalculateReboundTrajectory
+- uid: CatchIo.Runtime.Items.ItemRebounder.IsRebounding
+  name: IsRebounding
+  href: api/CatchIo.Runtime.Items.ItemRebounder.html#CatchIo_Runtime_Items_ItemRebounder_IsRebounding
+  commentId: P:CatchIo.Runtime.Items.ItemRebounder.IsRebounding
+  fullName: CatchIo.Runtime.Items.ItemRebounder.IsRebounding
+  nameWithType: ItemRebounder.IsRebounding
+- uid: CatchIo.Runtime.Items.ItemRebounder.IsRebounding*
+  name: IsRebounding
+  href: api/CatchIo.Runtime.Items.ItemRebounder.html#CatchIo_Runtime_Items_ItemRebounder_IsRebounding_
+  commentId: Overload:CatchIo.Runtime.Items.ItemRebounder.IsRebounding
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.ItemRebounder.IsRebounding
+  nameWithType: ItemRebounder.IsRebounding
 - uid: CatchIo.Runtime.Items.ItemRebounder.OnCompleted
   name: OnCompleted
   href: api/CatchIo.Runtime.Items.ItemRebounder.html#CatchIo_Runtime_Items_ItemRebounder_OnCompleted
@@ -6972,12 +7011,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Stone.OnDiscard
   nameWithType: Stone.OnDiscard
-- uid: CatchIo.Runtime.Items.Stone.OnHit(ICharacterHitable)
-  name: OnHit(ICharacterHitable)
-  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnHit_ICharacterHitable_
-  commentId: M:CatchIo.Runtime.Items.Stone.OnHit(ICharacterHitable)
-  fullName: CatchIo.Runtime.Items.Stone.OnHit(ICharacterHitable)
-  nameWithType: Stone.OnHit(ICharacterHitable)
+- uid: CatchIo.Runtime.Items.Stone.OnHit
+  name: OnHit()
+  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnHit
+  commentId: M:CatchIo.Runtime.Items.Stone.OnHit
+  fullName: CatchIo.Runtime.Items.Stone.OnHit()
+  nameWithType: Stone.OnHit()
 - uid: CatchIo.Runtime.Items.Stone.OnHit*
   name: OnHit
   href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnHit_
@@ -6985,6 +7024,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Stone.OnHit
   nameWithType: Stone.OnHit
+- uid: CatchIo.Runtime.Items.Stone.OnHitDamage(ICharacterHitable)
+  name: OnHitDamage(ICharacterHitable)
+  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnHitDamage_ICharacterHitable_
+  commentId: M:CatchIo.Runtime.Items.Stone.OnHitDamage(ICharacterHitable)
+  fullName: CatchIo.Runtime.Items.Stone.OnHitDamage(ICharacterHitable)
+  nameWithType: Stone.OnHitDamage(ICharacterHitable)
+- uid: CatchIo.Runtime.Items.Stone.OnHitDamage*
+  name: OnHitDamage
+  href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnHitDamage_
+  commentId: Overload:CatchIo.Runtime.Items.Stone.OnHitDamage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Stone.OnHitDamage
+  nameWithType: Stone.OnHitDamage
 - uid: CatchIo.Runtime.Items.Stone.OnLanded
   name: OnLanded()
   href: api/CatchIo.Runtime.Items.Stone.html#CatchIo_Runtime_Items_Stone_OnLanded
