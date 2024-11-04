@@ -87,13 +87,11 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ICharacterHitable.html">ICharacterHitable</a></h4>
-      <section><p>Interface for objects that can take damage.
-Object taking damage must implement the OnDamage function, and objects that gives damage should call that function and pass the damage value.</p>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ICharacterDetectable.html">ICharacterDetectable</a></h4>
+      <section><p>Interface for character detecting, providing methods for handling detection and missing events.
+Each character implementing this interface has a unique ViewID for identification in networked environment.</p>
 </section>
-      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IDamagable.html">IDamagable</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IDamage.html">IDamage</a></h4>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ICharacterInteractable.html">ICharacterInteractable</a></h4>
       <section></section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IDetectable.html">IDetectable</a></h4>
       <section></section>
@@ -101,6 +99,8 @@ Object taking damage must implement the OnDamage function, and objects that give
       <section><p>Interface inherited by objects that contains a playable effect.</p>
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISceneMode.html">ISceneMode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISoundDetectable.html">ISoundDetectable</a></h4>
       <section></section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISurfaceObservable.html">ISurfaceObservable</a></h4>
       <section></section>

@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TrapObjectDamageReceiver
+   | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TrapObjectDamageReceiver
+   | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver">
+  
+  
+  <h1 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver" class="text-break">Class TrapObjectDamageReceiver
+  </h1>
+  <div class="markdown level0 summary"><p>Class that handles damage specifically for trap objects.
+Inherits from DamageReceiver and manages how traps receive direct damage, but ignores DOT (damage-over-time).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TrapObjectDamageReceiver</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ICharacterInteractable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.DynmaicObjects.TrapObjects.html">CatchIo.Runtime.DynmaicObjects.TrapObjects</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TrapObjectDamageReceiver : DamageReceiver</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_Health_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.Health*"></a>
+  <h4 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_Health" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.Health">Health</h4>
+  <div class="markdown level1 summary"><p>Property to get the current health of the trap object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Health { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetIndicatorPosition_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition*"></a>
+  <h4 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetIndicatorPosition" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition">GetIndicatorPosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetIndicatorPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetPosition_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition*"></a>
+  <h4 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetPosition" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition">GetPosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetected_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected*"></a>
+  <h4 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetected_CharacterFacade_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected(CharacterFacade)">OnDetected(CharacterFacade)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDetected(CharacterFacade byCharacter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterFacade</span></td>
+        <td><span class="parametername">byCharacter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetectionRemoved_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved*"></a>
+  <h4 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetectionRemoved_CharacterFacade_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved(CharacterFacade)">OnDetectionRemoved(CharacterFacade)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDetectionRemoved(CharacterFacade byCharacter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterFacade</span></td>
+        <td><span class="parametername">byCharacter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_TakeDamage_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.TakeDamage*"></a>
+  <h4 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_TakeDamage_IDamage_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.TakeDamage(IDamage)">TakeDamage(IDamage)</h4>
+  <div class="markdown level1 summary"><p>Overrides the TakeDamage method to apply direct damage to the trap object.
+This method handles two types of damage: FixedDamage and PercentageDamage.</p>
+<ul>
+<li>FixedDamage applies a constant amount of damage.</li>
+<li>PercentageDamage applies a percentage of the trap&apos;s current health as damage.
+If the trap&apos;s health is zero or below, no damage is applied.</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void TakeDamage(IDamage damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDamage</span></td>
+        <td><span class="parametername">damage</span></td>
+        <td><p>An instance of IDamage containing details about the damage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_TakeDOTDamage_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.TakeDOTDamage*"></a>
+  <h4 id="CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_TakeDOTDamage_DOTDamage_" data-uid="CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.TakeDOTDamage(DOTDamage)">TakeDOTDamage(DOTDamage)</h4>
+  <div class="markdown level1 summary"><p>Overrides the TakeDOTDamage method but does nothing, as trap objects do not take damage-over-time (DOT).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void TakeDOTDamage(DOTDamage dotDamage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DOTDamage</span></td>
+        <td><span class="parametername">dotDamage</span></td>
+        <td><p>An instance of DOTDamage containing details about the DOT damage (ignored).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ICharacterInteractable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

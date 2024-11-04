@@ -89,67 +89,52 @@ This object should be a child of the main camera object.</p>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">GameCameraMovement</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CatchIo.Runtime.Camera.ICameraElement.html">ICameraElement</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Camera.html">CatchIo.Runtime.Camera</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_Camera_GameCameraMovement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameCameraMovement : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameCameraMovement : MonoBehaviour, ICameraElement</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Camera_GameCameraMovement_ClampXDistance" data-uid="CatchIo.Runtime.Camera.GameCameraMovement.ClampXDistance">ClampXDistance</h4>
-  <div class="markdown level1 summary"><p>Clamp X distance for the smooth effect</p>
-</div>
+  <a id="CatchIo_Runtime_Camera_GameCameraMovement_Initialize_" data-uid="CatchIo.Runtime.Camera.GameCameraMovement.Initialize*"></a>
+  <h4 id="CatchIo_Runtime_Camera_GameCameraMovement_Initialize_UnityEngine_Camera_" data-uid="CatchIo.Runtime.Camera.GameCameraMovement.Initialize(UnityEngine.Camera)">Initialize(UnityEngine.Camera)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float ClampXDistance</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize(UnityEngine.Camera mainCamera)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Camera.html">UnityEngine.Camera</a></td>
+        <td><span class="parametername">mainCamera</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Camera_GameCameraMovement_ClampYDistance" data-uid="CatchIo.Runtime.Camera.GameCameraMovement.ClampYDistance">ClampYDistance</h4>
-  <div class="markdown level1 summary"><p>Clamp Y distance of the smooth effect</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float ClampYDistance</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CatchIo.Runtime.Camera.ICameraElement.html">ICameraElement</a>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

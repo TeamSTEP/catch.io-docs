@@ -87,7 +87,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">CharacterInput</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.html">CatchIo.Runtime.Character</a></h6>
@@ -124,12 +124,12 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_CharacterInput_OnAttack" data-uid="CatchIo.Runtime.Character.CharacterInput.OnAttack">OnAttack</h4>
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_OnAttackChargeCancelled" data-uid="CatchIo.Runtime.Character.CharacterInput.OnAttackChargeCancelled">OnAttackChargeCancelled</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent OnAttack</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnAttackChargeCancelled</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,6 +196,78 @@
   </table>
   
   
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_OnHeavyAttack" data-uid="CatchIo.Runtime.Character.CharacterInput.OnHeavyAttack">OnHeavyAttack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;float&gt; OnHeavyAttack</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_OnHeavyAttackCharge" data-uid="CatchIo.Runtime.Character.CharacterInput.OnHeavyAttackCharge">OnHeavyAttackCharge</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnHeavyAttackCharge</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_OnInteract" data-uid="CatchIo.Runtime.Character.CharacterInput.OnInteract">OnInteract</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnInteract</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="CatchIo_Runtime_Character_CharacterInput_OnItemSelect" data-uid="CatchIo.Runtime.Character.CharacterInput.OnItemSelect">OnItemSelect</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -213,7 +285,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="xref">UnityEvent</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_OnLightAttack" data-uid="CatchIo.Runtime.Character.CharacterInput.OnLightAttack">OnLightAttack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnLightAttack</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -237,7 +333,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="xref">UnityEvent</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -261,7 +357,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="xref">UnityEvent</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -312,7 +408,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -362,7 +458,57 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterInput_IsCharging_" data-uid="CatchIo.Runtime.Character.CharacterInput.IsCharging*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_IsCharging" data-uid="CatchIo.Runtime.Character.CharacterInput.IsCharging">IsCharging</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCharging { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterInput_IsGamePadActive_" data-uid="CatchIo.Runtime.Character.CharacterInput.IsGamePadActive*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_IsGamePadActive" data-uid="CatchIo.Runtime.Character.CharacterInput.IsGamePadActive">IsGamePadActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGamePadActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -398,6 +544,16 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DisableCharacterMoveInput()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterInput_DisableInteractInput_" data-uid="CatchIo.Runtime.Character.CharacterInput.DisableInteractInput*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_DisableInteractInput" data-uid="CatchIo.Runtime.Character.CharacterInput.DisableInteractInput">DisableInteractInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisableInteractInput()</code></pre>
   </div>
   
   
@@ -448,6 +604,16 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void EnableCharacterMoveInput()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterInput_EnableInteractInput_" data-uid="CatchIo.Runtime.Character.CharacterInput.EnableInteractInput*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_EnableInteractInput" data-uid="CatchIo.Runtime.Character.CharacterInput.EnableInteractInput">EnableInteractInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableInteractInput()</code></pre>
   </div>
   
   
@@ -521,6 +687,31 @@
   </table>
   
   
+  <a id="CatchIo_Runtime_Character_CharacterInput_GetPanDirection_" data-uid="CatchIo.Runtime.Character.CharacterInput.GetPanDirection*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterInput_GetPanDirection" data-uid="CatchIo.Runtime.Character.CharacterInput.GetPanDirection">GetPanDirection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 GetPanDirection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_CharacterInput_IsPointerOverUI_" data-uid="CatchIo.Runtime.Character.CharacterInput.IsPointerOverUI*"></a>
   <h4 id="CatchIo_Runtime_Character_CharacterInput_IsPointerOverUI" data-uid="CatchIo.Runtime.Character.CharacterInput.IsPointerOverUI">IsPointerOverUI()</h4>
   <div class="markdown level1 summary"></div>
@@ -539,7 +730,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

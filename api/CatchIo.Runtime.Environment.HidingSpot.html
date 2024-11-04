@@ -87,7 +87,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">HidingSpot</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Environment.html">CatchIo.Runtime.Environment</a></h6>
@@ -117,13 +117,38 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="CatchIo_Runtime_Environment_HidingSpot_CharactersInHidingSpot_" data-uid="CatchIo.Runtime.Environment.HidingSpot.CharactersInHidingSpot*"></a>
+  <h4 id="CatchIo_Runtime_Environment_HidingSpot_CharactersInHidingSpot" data-uid="CatchIo.Runtime.Environment.HidingSpot.CharactersInHidingSpot">CharactersInHidingSpot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CharacterFacade&gt; CharactersInHidingSpot { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">CharacterFacade</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_Environment_HidingSpot_IsEnabled_" data-uid="CatchIo.Runtime.Environment.HidingSpot.IsEnabled*"></a>
@@ -144,7 +169,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -169,7 +194,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -194,7 +219,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Vector2</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Vector2</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -203,23 +228,13 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Environment_HidingSpot_Disable_" data-uid="CatchIo.Runtime.Environment.HidingSpot.Disable*"></a>
-  <h4 id="CatchIo_Runtime_Environment_HidingSpot_Disable" data-uid="CatchIo.Runtime.Environment.HidingSpot.Disable">Disable()</h4>
+  <a id="CatchIo_Runtime_Environment_HidingSpot_AddCollision_" data-uid="CatchIo.Runtime.Environment.HidingSpot.AddCollision*"></a>
+  <h4 id="CatchIo_Runtime_Environment_HidingSpot_AddCollision" data-uid="CatchIo.Runtime.Environment.HidingSpot.AddCollision">AddCollision()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Disable()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Environment_HidingSpot_Enable_" data-uid="CatchIo.Runtime.Environment.HidingSpot.Enable*"></a>
-  <h4 id="CatchIo_Runtime_Environment_HidingSpot_Enable" data-uid="CatchIo.Runtime.Environment.HidingSpot.Enable">Enable()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Enable()</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddCollision()</code></pre>
   </div>
   
   
@@ -229,7 +244,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void EnterCharacter(CharacterFacade character)</code></pre>
+    <pre><code class="lang-csharp hljs">public void EnterCharacter(CharacterFacade enterCharacter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,7 +258,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a></td>
-        <td><span class="parametername">character</span></td>
+        <td><span class="parametername">enterCharacter</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -256,7 +271,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ExitCharacter(CharacterFacade character)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ExitCharacter(CharacterFacade exitCharacter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -270,7 +285,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a></td>
-        <td><span class="parametername">character</span></td>
+        <td><span class="parametername">exitCharacter</span></td>
         <td></td>
       </tr>
     </tbody>

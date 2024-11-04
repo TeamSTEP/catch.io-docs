@@ -87,29 +87,26 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">DamagableObject</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IDamagable</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Environment.CampFire.html">CampFire</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Environment.html">CatchIo.Runtime.Environment</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_Environment_DamagableObject_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DamagableObject : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class DamagableObject : MonoBehaviourPun</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Environment_DamagableObject_HitboxTag" data-uid="CatchIo.Runtime.Environment.DamagableObject.HitboxTag">HitboxTag</h4>
+  <h4 id="CatchIo_Runtime_Environment_DamagableObject__damage" data-uid="CatchIo.Runtime.Environment.DamagableObject._damage">_damage</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string HitboxTag</code></pre>
+    <pre><code class="lang-csharp hljs">protected IDamage _damage</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,24 +118,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">IDamage</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="CatchIo_Runtime_Environment_DamagableObject_DamagePercentage_" data-uid="CatchIo.Runtime.Environment.DamagableObject.DamagePercentage*"></a>
-  <h4 id="CatchIo_Runtime_Environment_DamagableObject_DamagePercentage" data-uid="CatchIo.Runtime.Environment.DamagableObject.DamagePercentage">DamagePercentage</h4>
+  <h4 id="CatchIo_Runtime_Environment_DamagableObject__knockBackData" data-uid="CatchIo.Runtime.Environment.DamagableObject._knockBackData">_knockBackData</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float DamagePercentage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected KnockBackData _knockBackData</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -148,82 +142,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Environment_DamagableObject_DamageSfxType_" data-uid="CatchIo.Runtime.Environment.DamagableObject.DamageSfxType*"></a>
-  <h4 id="CatchIo_Runtime_Environment_DamagableObject_DamageSfxType" data-uid="CatchIo.Runtime.Environment.DamagableObject.DamageSfxType">DamageSfxType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DamageSfxType DamageSfxType { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DamageSfxType</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Environment_DamagableObject_DamageVal_" data-uid="CatchIo.Runtime.Environment.DamagableObject.DamageVal*"></a>
-  <h4 id="CatchIo_Runtime_Environment_DamagableObject_DamageVal" data-uid="CatchIo.Runtime.Environment.DamagableObject.DamageVal">DamageVal</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float DamageVal { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Environment_DamagableObject_Knockback_" data-uid="CatchIo.Runtime.Environment.DamagableObject.Knockback*"></a>
-  <h4 id="CatchIo_Runtime_Environment_DamagableObject_Knockback" data-uid="CatchIo.Runtime.Environment.DamagableObject.Knockback">Knockback</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Knockback { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">KnockBackData</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -232,23 +151,13 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Environment_DamagableObject_OnHit_" data-uid="CatchIo.Runtime.Environment.DamagableObject.OnHit*"></a>
-  <h4 id="CatchIo_Runtime_Environment_DamagableObject_OnHit" data-uid="CatchIo.Runtime.Environment.DamagableObject.OnHit">OnHit()</h4>
+  <a id="CatchIo_Runtime_Environment_DamagableObject_OnTriggerEnter2D_" data-uid="CatchIo.Runtime.Environment.DamagableObject.OnTriggerEnter2D*"></a>
+  <h4 id="CatchIo_Runtime_Environment_DamagableObject_OnTriggerEnter2D_Collider2D_" data-uid="CatchIo.Runtime.Environment.DamagableObject.OnTriggerEnter2D(Collider2D)">OnTriggerEnter2D(Collider2D)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnHit()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Environment_DamagableObject_OnHitDamage_" data-uid="CatchIo.Runtime.Environment.DamagableObject.OnHitDamage*"></a>
-  <h4 id="CatchIo_Runtime_Environment_DamagableObject_OnHitDamage_ICharacterHitable_" data-uid="CatchIo.Runtime.Environment.DamagableObject.OnHitDamage(ICharacterHitable)">OnHitDamage(ICharacterHitable)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnHitDamage(ICharacterHitable other)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnTriggerEnter2D(Collider2D other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,15 +170,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ICharacterHitable</span></td>
+        <td><span class="xref">Collider2D</span></td>
         <td><span class="parametername">other</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IDamagable</span>
+  
+  
+  <a id="CatchIo_Runtime_Environment_DamagableObject_Start_" data-uid="CatchIo.Runtime.Environment.DamagableObject.Start*"></a>
+  <h4 id="CatchIo_Runtime_Environment_DamagableObject_Start" data-uid="CatchIo.Runtime.Environment.DamagableObject.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
   </div>
 </article>
           </div>

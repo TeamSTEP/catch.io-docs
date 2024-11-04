@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ITransmorphableReceiver
+   | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ITransmorphableReceiver
+   | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver">
+  
+  
+  <h1 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver" class="text-break">Interface ITransmorphableReceiver
+  </h1>
+  <div class="markdown level0 summary"><p>Interfaces that defines a structure for an object that can be transmorph to this object.
+This allows objects, such as agent or entities, to handle change object&apos;s animator.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Transmorphs.html">CatchIo.Runtime.Transmorphs</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ITransmorphableReceiver</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_ViewID_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.ViewID*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_ViewID" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.ViewID">ViewID</h4>
+  <div class="markdown level1 summary"><p>Refers to current network viewID associated with this object in Photon-View
+Used to find Photon-View when CharacterTransmorphEvent received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ViewID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_ActivateTransmorphIndicator_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.ActivateTransmorphIndicator*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_ActivateTransmorphIndicator" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.ActivateTransmorphIndicator">ActivateTransmorphIndicator()</h4>
+  <div class="markdown level1 summary"><p>Activates the visual indicator for the transmorphing process,
+signaling that the object is about to transmorph or has the capability
+to transmorph. This can be used for UI feedback or animations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ActivateTransmorphIndicator()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_CanSelect_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.CanSelect*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_CanSelect_Vector2_System_Single_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.CanSelect(Vector2,System.Single)">CanSelect(Vector2, Single)</h4>
+  <div class="markdown level1 summary"><p>Returns this object can select from another object.
+Checks for obstacles, wall between this object and interacting object and compare distance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CanSelect(Vector2 position, float distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the interacting object&apos;s position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>The distance that can interact</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean representing that can select this object for transmorphing</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_DeactiveTransmorphIndicator_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.DeactiveTransmorphIndicator*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_DeactiveTransmorphIndicator" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.DeactiveTransmorphIndicator">DeactiveTransmorphIndicator()</h4>
+  <div class="markdown level1 summary"><p>Deactivates the visual indicator for the transmorphing prcess,
+signaling that the object has finished transmorph or is no longer
+in a state of transmorph. This should revert any UI feedback or
+animations related to the transmorph.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeactiveTransmorphIndicator()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_Deselect_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.Deselect*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_Deselect" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.Deselect">Deselect()</h4>
+  <div class="markdown level1 summary"><p>Deselects as the target(this) of transmorph from another object.
+Example, Out of interaction distance or cancel interact before over an interaction time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Deselect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_GetAnimatorController_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.GetAnimatorController*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_GetAnimatorController" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.GetAnimatorController">GetAnimatorController()</h4>
+  <div class="markdown level1 summary"><p>Returns the RuntimeAnimatorController for transmorphing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RuntimeAnimatorController GetAnimatorController()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RuntimeAnimatorController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_GetDistance_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.GetDistance*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_GetDistance_Vector2_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.GetDistance(Vector2)">GetDistance(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Return the distance between this object and position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetDistance(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position value to compare to the position of this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>A float representing distance between object and position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_Select_" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.Select*"></a>
+  <h4 id="CatchIo_Runtime_Transmorphs_ITransmorphableReceiver_Select" data-uid="CatchIo.Runtime.Transmorphs.ITransmorphableReceiver.Select">Select()</h4>
+  <div class="markdown level1 summary"><p>Selects as the target(this) of transmorph from another object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Select()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

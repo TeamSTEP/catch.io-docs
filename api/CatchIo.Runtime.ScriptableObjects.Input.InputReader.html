@@ -87,7 +87,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">InputReader</span></div>
   </div>
   <div classs="implements">
@@ -102,6 +102,33 @@
     <pre><code class="lang-csharp hljs">[Serializable]
 public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInputActions, GameInput.IObserverInputActions</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsGamepadActive_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsGamepadActive*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsGamepadActive" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsGamepadActive">IsGamepadActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGamepadActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -308,6 +335,33 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   </table>
   
   
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnInteract_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnInteract*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnInteract_InputAction_CallbackContext_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnInteract(InputAction.CallbackContext)">OnInteract(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnInteract(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnItemSelect_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnItemSelect*"></a>
   <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnItemSelect_InputAction_CallbackContext_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnItemSelect(InputAction.CallbackContext)">OnItemSelect(InputAction.CallbackContext)</h4>
   <div class="markdown level1 summary"></div>
@@ -315,6 +369,60 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnItemSelect(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnPan_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnPan*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnPan_InputAction_CallbackContext_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnPan(InputAction.CallbackContext)">OnPan(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPan(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnPanEnabler_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnPanEnabler*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnPanEnabler_InputAction_CallbackContext_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnPanEnabler(InputAction.CallbackContext)">OnPanEnabler(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPanEnabler(InputAction.CallbackContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -474,7 +582,7 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event UnityAction AttackInput</code></pre>
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;bool&gt; AttackInput</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -486,7 +594,7 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span></td>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -589,6 +697,30 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   </table>
   
   
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_InteractInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.InteractInput">InteractInput</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction InteractInput</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_ItemSelectInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.ItemSelectInput">ItemSelectInput</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -606,7 +738,7 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -654,7 +786,7 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -678,7 +810,31 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_PanInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.PanInput">PanInput</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;Vector2&gt; PanInput</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">Vector2</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
