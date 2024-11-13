@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Editor.TmxImporters
+    <title>Class NPCData
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Editor.TmxImporters
+    <meta name="title" content="Class NPCData
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,28 +78,81 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Editor.TmxImporters">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.NPC.Data.NPCData">
   
-  <h1 id="CatchIo_Editor_TmxImporters" data-uid="CatchIo.Editor.TmxImporters" class="text-break">Namespace CatchIo.Editor.TmxImporters
+  
+  <h1 id="CatchIo_Runtime_NPC_Data_NPCData" data-uid="CatchIo.Runtime.NPC.Data.NPCData" class="text-break">Class NPCData
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Holds data for NPC configuration, including NPC type and prefab.
+Changes to the NPC type automatically update the prefab based on predefined paths.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NPCData</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.NPC.Data.html">CatchIo.Runtime.NPC.Data</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_NPC_Data_NPCData_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NPCData : DescriptionScriptableObject</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.LightAreaImporter.html">LightAreaImporter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.LightSourcesImporter.html">LightSourcesImporter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.NpcImporter.html">NpcImporter</a></h4>
-      <section><p>Custom Tmx importer for handling NPC import in maps. 
-It processes specific object layers in Tiled maps, identifies NPC spawn points, 
-and automatically instantiates and configures NPCs based on provided data.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.TileObjectsImporter.html">TileObjectsImporter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.TmxPrefabReplacer.html">TmxPrefabReplacer</a></h4>
-      <section></section>
+  
+  
+  <a id="CatchIo_Runtime_NPC_Data_NPCData_NPCType_" data-uid="CatchIo.Runtime.NPC.Data.NPCData.NPCType*"></a>
+  <h4 id="CatchIo_Runtime_NPC_Data_NPCData_NPCType" data-uid="CatchIo.Runtime.NPC.Data.NPCData.NPCType">NPCType</h4>
+  <div class="markdown level1 summary"><p>The type of the NPC, which determines the associated prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NPCType NPCType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NPCType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_NPC_Data_NPCData_Prefab_" data-uid="CatchIo.Runtime.NPC.Data.NPCData.Prefab*"></a>
+  <h4 id="CatchIo_Runtime_NPC_Data_NPCData_Prefab" data-uid="CatchIo.Runtime.NPC.Data.NPCData.Prefab">Prefab</h4>
+  <div class="markdown level1 summary"><p>The prefab to be used for this NPC type.
+Automatically selected based on the NPC type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject Prefab { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

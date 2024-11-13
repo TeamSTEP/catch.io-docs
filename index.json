@@ -27,7 +27,7 @@
   "api/CatchIo.Editor.TmxImporters.html": {
     "href": "api/CatchIo.Editor.TmxImporters.html",
     "title": "Namespace CatchIo.Editor.TmxImporters | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Editor.TmxImporters Classes LightAreaImporter LightSourcesImporter TileObjectsImporter TmxPrefabReplacer"
+    "keywords": "Namespace CatchIo.Editor.TmxImporters Classes LightAreaImporter LightSourcesImporter NpcImporter Custom Tmx importer for handling NPC import in maps. It processes specific object layers in Tiled maps, identifies NPC spawn points, and automatically instantiates and configures NPCs based on provided data. TileObjectsImporter TmxPrefabReplacer"
   },
   "api/CatchIo.Editor.TmxImporters.LightAreaImporter.html": {
     "href": "api/CatchIo.Editor.TmxImporters.LightAreaImporter.html",
@@ -38,6 +38,11 @@
     "href": "api/CatchIo.Editor.TmxImporters.LightSourcesImporter.html",
     "title": "Class LightSourcesImporter | Catch.io Developer Reference",
     "keywords": "Class LightSourcesImporter Inheritance System.Object LightSourcesImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class LightSourcesImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args UsesSoftShadows(Light2D) Declaration public bool UsesSoftShadows(Light2D light2D) Parameters Type Name Description Light2D light2D Returns Type Description System.Boolean"
+  },
+  "api/CatchIo.Editor.TmxImporters.NpcImporter.html": {
+    "href": "api/CatchIo.Editor.TmxImporters.NpcImporter.html",
+    "title": "Class NpcImporter | Catch.io Developer Reference",
+    "keywords": "Class NpcImporter Custom Tmx importer for handling NPC import in maps. It processes specific object layers in Tiled maps, identifies NPC spawn points, and automatically instantiates and configures NPCs based on provided data. Inheritance System.Object NpcImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class NpcImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Processes imported TMX assets, identifies object layers, and spawns NPCs at predefined locations. Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args Arguments from the TMX import event, including the imported map and asset path."
   },
   "api/CatchIo.Editor.TmxImporters.TileObjectsImporter.html": {
     "href": "api/CatchIo.Editor.TmxImporters.TileObjectsImporter.html",
@@ -173,76 +178,6 @@
     "href": "api/CatchIo.Game.Characters.Enums.html",
     "title": "Namespace CatchIo.Game.Characters.Enums | Catch.io Developer Reference",
     "keywords": "Namespace CatchIo.Game.Characters.Enums Enums CharacterColorType"
-  },
-  "api/CatchIo.Runtime.Agent.AgentFootprintGenerator.html": {
-    "href": "api/CatchIo.Runtime.Agent.AgentFootprintGenerator.html",
-    "title": "Class AgentFootprintGenerator | Catch.io Developer Reference",
-    "keywords": "Class AgentFootprintGenerator Inheritance System.Object AgentFootprintGenerator Implements ISurfaceObservable Namespace : CatchIo.Runtime.Agent Assembly : cs.temp.dll.dll Syntax public class AgentFootprintGenerator : MonoBehaviour Fields FootprintLifeTime Declaration public float FootprintLifeTime Field Value Type Description System.Single Properties CurrentTileSurface Declaration public TileSurface? CurrentTileSurface { get; } Property Value Type Description System.Nullable < TileSurface > Methods OnSurfaceChanged(Nullable<TileSurface>) Declaration public void OnSurfaceChanged(TileSurface? newSurface) Parameters Type Name Description System.Nullable < TileSurface > newSurface PlayFootstepEvents() Declaration public void PlayFootstepEvents() Implements ISurfaceObservable"
-  },
-  "api/CatchIo.Runtime.Agent.AgentNetworking.html": {
-    "href": "api/CatchIo.Runtime.Agent.AgentNetworking.html",
-    "title": "Class AgentNetworking | Catch.io Developer Reference",
-    "keywords": "Class AgentNetworking Inheritance System.Object AgentNetworking Namespace : CatchIo.Runtime.Agent Assembly : cs.temp.dll.dll Syntax public class AgentNetworking : MonoBehaviourPun Properties AgentClassType Declaration public CharacterClassType AgentClassType { get; } Property Value Type Description CharacterClassType Methods KnockBack(KnockBackData) Declaration public void KnockBack(KnockBackData knockBackData) Parameters Type Name Description KnockBackData knockBackData RPC_KnockBack(Int32, Vector2, Single) Declaration protected void RPC_KnockBack(int viewId, Vector2 knockBack, float delay) Parameters Type Name Description System.Int32 viewId Vector2 knockBack System.Single delay"
-  },
-  "api/CatchIo.Runtime.Agent.AgentRotation.html": {
-    "href": "api/CatchIo.Runtime.Agent.AgentRotation.html",
-    "title": "Class AgentRotation | Catch.io Developer Reference",
-    "keywords": "Class AgentRotation Inheritance System.Object AgentRotation Implements IPunObservable Namespace : CatchIo.Runtime.Agent Assembly : cs.temp.dll.dll Syntax public class AgentRotation : MonoBehaviour Methods DirectionState() Declaration public CharacterDirectionState DirectionState() Returns Type Description CharacterDirectionState GetViewAngle() Declaration public float GetViewAngle() Returns Type Description System.Single OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info Implements IPunObservable"
-  },
-  "api/CatchIo.Runtime.Agent.Core.AgentHealth.html": {
-    "href": "api/CatchIo.Runtime.Agent.Core.AgentHealth.html",
-    "title": "Class AgentHealth | Catch.io Developer Reference",
-    "keywords": "Class AgentHealth Inheritance System.Object AgentHealth Namespace : CatchIo.Runtime.Agent.Core Assembly : cs.temp.dll.dll Syntax public class AgentHealth : MonoBehaviour Fields OnDamage Declaration public Action OnDamage Field Value Type Description System.Action Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description System.Single IsAlive Declaration public bool IsAlive { get; } Property Value Type Description System.Boolean Methods TakeDamage(Single, DamageSfxType) Declaration public void TakeDamage(float damage, DamageSfxType sfxType) Parameters Type Name Description System.Single damage DamageSfxType sfxType"
-  },
-  "api/CatchIo.Runtime.Agent.Core.AgentPathFinder.html": {
-    "href": "api/CatchIo.Runtime.Agent.Core.AgentPathFinder.html",
-    "title": "Class AgentPathFinder | Catch.io Developer Reference",
-    "keywords": "Class AgentPathFinder Inheritance System.Object AgentPathFinder Implements IPunObservable Namespace : CatchIo.Runtime.Agent.Core Assembly : cs.temp.dll.dll Syntax public class AgentPathFinder : MonoBehaviour Methods GetSpeed() Declaration public float GetSpeed() Returns Type Description System.Single GetVelocity() Declaration public Vector2 GetVelocity() Returns Type Description Vector2 IsMoving() Declaration public bool IsMoving() Returns Type Description System.Boolean OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info Implements IPunObservable"
-  },
-  "api/CatchIo.Runtime.Agent.Core.html": {
-    "href": "api/CatchIo.Runtime.Agent.Core.html",
-    "title": "Namespace CatchIo.Runtime.Agent.Core | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Agent.Core Classes AgentHealth AgentPathFinder"
-  },
-  "api/CatchIo.Runtime.Agent.EntityRigidbody.html": {
-    "href": "api/CatchIo.Runtime.Agent.EntityRigidbody.html",
-    "title": "Class EntityRigidbody | Catch.io Developer Reference",
-    "keywords": "Class EntityRigidbody Inheritance System.Object EntityRigidbody Namespace : CatchIo.Runtime.Agent Assembly : cs.temp.dll.dll Syntax public class EntityRigidbody : MonoBehaviour Methods AddVelocity(Vector2) Declaration public void AddVelocity(Vector2 velocity) Parameters Type Name Description Vector2 velocity Lock() Declaration public void Lock() Magnitude() Declaration public float Magnitude() Returns Type Description System.Single Position() Declaration public Vector2 Position() Returns Type Description Vector2 SetVelocity(Vector2) Declaration public void SetVelocity(Vector2 velocity) Parameters Type Name Description Vector2 velocity Unlock() Declaration public void Unlock() Velocity() Declaration public Vector2 Velocity() Returns Type Description Vector2"
-  },
-  "api/CatchIo.Runtime.Agent.Graphics.AgentRenderer.html": {
-    "href": "api/CatchIo.Runtime.Agent.Graphics.AgentRenderer.html",
-    "title": "Class AgentRenderer | Catch.io Developer Reference",
-    "keywords": "Class AgentRenderer Inheritance System.Object AgentRenderer Namespace : CatchIo.Runtime.Agent.Graphics Assembly : cs.temp.dll.dll Syntax public class AgentRenderer : MonoBehaviour"
-  },
-  "api/CatchIo.Runtime.Agent.Graphics.html": {
-    "href": "api/CatchIo.Runtime.Agent.Graphics.html",
-    "title": "Namespace CatchIo.Runtime.Agent.Graphics | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Agent.Graphics Classes AgentRenderer"
-  },
-  "api/CatchIo.Runtime.Agent.html": {
-    "href": "api/CatchIo.Runtime.Agent.html",
-    "title": "Namespace CatchIo.Runtime.Agent | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Agent Classes AgentFootprintGenerator AgentNetworking AgentRotation EntityRigidbody"
-  },
-  "api/CatchIo.Runtime.Agent.Receivers.AgentDamageReceiver.html": {
-    "href": "api/CatchIo.Runtime.Agent.Receivers.AgentDamageReceiver.html",
-    "title": "Class AgentDamageReceiver | Catch.io Developer Reference",
-    "keywords": "Class AgentDamageReceiver Inheritance System.Object AgentDamageReceiver Implements IKnockBackable ICharacterInteractable Namespace : CatchIo.Runtime.Agent.Receivers Assembly : cs.temp.dll.dll Syntax public class AgentDamageReceiver : DamageReceiver Properties IsAlive Declaration public bool IsAlive { get; } Property Value Type Description System.Boolean Methods GetIndicatorPosition() Declaration public Vector3 GetIndicatorPosition() Returns Type Description Vector3 GetPosition() Declaration public Vector3 GetPosition() Returns Type Description Vector3 KnockBack(KnockBackData) Applies knockback to the agent based on the provided KnockBackData. Declaration public void KnockBack(KnockBackData knockBackData) Parameters Type Name Description KnockBackData knockBackData An instance of KnockBackData containing details about the knockback force and direction. OnDetected(CharacterFacade) Declaration public void OnDetected(CharacterFacade byCharacter) Parameters Type Name Description CharacterFacade byCharacter OnDetectionRemoved(CharacterFacade) Declaration public void OnDetectionRemoved(CharacterFacade byCharacter) Parameters Type Name Description CharacterFacade byCharacter TakeDamage(IDamage) Overrides the TakeDamage method to apply direct damage to the agent. This method handles two types of damage: FixedDamage and PercentageDamage. FixedDamage applies a constant amount of damage. PercentageDamage applies a percentage of the agent's current health as damage. If the agent's health is zero or below, no damage is applied. Declaration public override void TakeDamage(IDamage damage) Parameters Type Name Description IDamage damage An instance of IDamage containing details about the damage. TakeDOTDamage(DOTDamage) Overrides the TakeDOTDamage method but does nothing, as agent do not take damage-over-time. Declaration public override void TakeDOTDamage(DOTDamage dotDamage) Parameters Type Name Description DOTDamage dotDamage An instance of DOTDamage containing details about the DOT damage(ignored). Implements IKnockBackable ICharacterInteractable"
-  },
-  "api/CatchIo.Runtime.Agent.Receivers.AgentDetectable.html": {
-    "href": "api/CatchIo.Runtime.Agent.Receivers.AgentDetectable.html",
-    "title": "Class AgentDetectable | Catch.io Developer Reference",
-    "keywords": "Class AgentDetectable Inheritance System.Object AgentDetectable Implements ICharacterDetectable Namespace : CatchIo.Runtime.Agent.Receivers Assembly : cs.temp.dll.dll Syntax public class AgentDetectable : MonoBehaviour Properties ViewID Declaration public int ViewID { get; } Property Value Type Description System.Int32 Methods Detect() Declaration public void Detect() Miss() Declaration public void Miss() Implements ICharacterDetectable"
-  },
-  "api/CatchIo.Runtime.Agent.Receivers.AgentTransmorphableReceiver.html": {
-    "href": "api/CatchIo.Runtime.Agent.Receivers.AgentTransmorphableReceiver.html",
-    "title": "Class AgentTransmorphableReceiver | Catch.io Developer Reference",
-    "keywords": "Class AgentTransmorphableReceiver Inheritance System.Object AgentTransmorphableReceiver Namespace : CatchIo.Runtime.Agent.Receivers Assembly : cs.temp.dll.dll Syntax public sealed class AgentTransmorphableReceiver : TransmorphableReceiver Methods CanSelect(Vector2, Single) Declaration public override bool CanSelect(Vector2 position, float distance) Parameters Type Name Description Vector2 position System.Single distance Returns Type Description System.Boolean Deselect() Declaration public override void Deselect() Select() Declaration public override void Select()"
-  },
-  "api/CatchIo.Runtime.Agent.Receivers.html": {
-    "href": "api/CatchIo.Runtime.Agent.Receivers.html",
-    "title": "Namespace CatchIo.Runtime.Agent.Receivers | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Agent.Receivers Classes AgentDamageReceiver AgentDetectable AgentTransmorphableReceiver"
   },
   "api/CatchIo.Runtime.Boot.BootStrapper.html": {
     "href": "api/CatchIo.Runtime.Boot.BootStrapper.html",
@@ -1483,6 +1418,96 @@
     "href": "api/CatchIo.Runtime.Network.RoomData.html",
     "title": "Class RoomData | Catch.io Developer Reference",
     "keywords": "Class RoomData Inheritance System.Object RoomData Namespace : CatchIo.Runtime.Network Assembly : cs.temp.dll.dll Syntax [Serializable] public class RoomData Constructors RoomData() Declaration public RoomData() RoomData(String) Declaration public RoomData(string roomName) Parameters Type Name Description System.String roomName Properties GameModeName Declaration public string GameModeName { get; set; } Property Value Type Description System.String MapName Declaration public string MapName { get; set; } Property Value Type Description System.String MaxPlayerCount Declaration public int MaxPlayerCount { get; set; } Property Value Type Description System.Int32 PlayerCount Declaration public int PlayerCount { get; set; } Property Value Type Description System.Int32 RoomName Declaration public string RoomName { get; set; } Property Value Type Description System.String State Declaration public RoomState State { get; set; } Property Value Type Description RoomState Methods Reset() Declaration public void Reset() UpdateRoomData(Hashtable) Declaration public void UpdateRoomData(Hashtable propertiesThatChanged) Parameters Type Name Description Hashtable propertiesThatChanged"
+  },
+  "api/CatchIo.Runtime.NPC.Core.html": {
+    "href": "api/CatchIo.Runtime.NPC.Core.html",
+    "title": "Namespace CatchIo.Runtime.NPC.Core | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.NPC.Core Classes NPCHealth NPCPathFinder"
+  },
+  "api/CatchIo.Runtime.NPC.Core.NPCHealth.html": {
+    "href": "api/CatchIo.Runtime.NPC.Core.NPCHealth.html",
+    "title": "Class NPCHealth | Catch.io Developer Reference",
+    "keywords": "Class NPCHealth Inheritance System.Object NPCHealth Namespace : CatchIo.Runtime.NPC.Core Assembly : cs.temp.dll.dll Syntax public class NPCHealth : MonoBehaviour Fields OnDamage Declaration public Action OnDamage Field Value Type Description System.Action Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description System.Single IsAlive Declaration public bool IsAlive { get; } Property Value Type Description System.Boolean Methods TakeDamage(Single, DamageSfxType) Declaration public void TakeDamage(float damage, DamageSfxType sfxType) Parameters Type Name Description System.Single damage DamageSfxType sfxType"
+  },
+  "api/CatchIo.Runtime.NPC.Core.NPCPathFinder.html": {
+    "href": "api/CatchIo.Runtime.NPC.Core.NPCPathFinder.html",
+    "title": "Class NPCPathFinder | Catch.io Developer Reference",
+    "keywords": "Class NPCPathFinder Inheritance System.Object NPCPathFinder Implements IPunObservable Namespace : CatchIo.Runtime.NPC.Core Assembly : cs.temp.dll.dll Syntax public class NPCPathFinder : MonoBehaviour Methods GetSpeed() Declaration public float GetSpeed() Returns Type Description System.Single GetVelocity() Declaration public Vector2 GetVelocity() Returns Type Description Vector2 IsMoving() Declaration public bool IsMoving() Returns Type Description System.Boolean OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info Implements IPunObservable"
+  },
+  "api/CatchIo.Runtime.NPC.Data.html": {
+    "href": "api/CatchIo.Runtime.NPC.Data.html",
+    "title": "Namespace CatchIo.Runtime.NPC.Data | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.NPC.Data Classes NPCData Holds data for NPC configuration, including NPC type and prefab. Changes to the NPC type automatically update the prefab based on predefined paths."
+  },
+  "api/CatchIo.Runtime.NPC.Data.NPCData.html": {
+    "href": "api/CatchIo.Runtime.NPC.Data.NPCData.html",
+    "title": "Class NPCData | Catch.io Developer Reference",
+    "keywords": "Class NPCData Holds data for NPC configuration, including NPC type and prefab. Changes to the NPC type automatically update the prefab based on predefined paths. Inheritance System.Object NPCData Namespace : CatchIo.Runtime.NPC.Data Assembly : cs.temp.dll.dll Syntax public class NPCData : DescriptionScriptableObject Properties NPCType The type of the NPC, which determines the associated prefab. Declaration public NPCType NPCType { get; } Property Value Type Description NPCType Prefab The prefab to be used for this NPC type. Automatically selected based on the NPC type. Declaration public GameObject Prefab { get; } Property Value Type Description GameObject"
+  },
+  "api/CatchIo.Runtime.NPC.EntityRigidbody.html": {
+    "href": "api/CatchIo.Runtime.NPC.EntityRigidbody.html",
+    "title": "Class EntityRigidbody | Catch.io Developer Reference",
+    "keywords": "Class EntityRigidbody Inheritance System.Object EntityRigidbody Namespace : CatchIo.Runtime.NPC Assembly : cs.temp.dll.dll Syntax public class EntityRigidbody : MonoBehaviour Methods AddVelocity(Vector2) Declaration public void AddVelocity(Vector2 velocity) Parameters Type Name Description Vector2 velocity Lock() Declaration public void Lock() Magnitude() Declaration public float Magnitude() Returns Type Description System.Single Position() Declaration public Vector2 Position() Returns Type Description Vector2 SetVelocity(Vector2) Declaration public void SetVelocity(Vector2 velocity) Parameters Type Name Description Vector2 velocity Unlock() Declaration public void Unlock() Velocity() Declaration public Vector2 Velocity() Returns Type Description Vector2"
+  },
+  "api/CatchIo.Runtime.NPC.Enums.html": {
+    "href": "api/CatchIo.Runtime.NPC.Enums.html",
+    "title": "Namespace CatchIo.Runtime.NPC.Enums | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.NPC.Enums Enums NPCType"
+  },
+  "api/CatchIo.Runtime.NPC.Enums.NPCType.html": {
+    "href": "api/CatchIo.Runtime.NPC.Enums.NPCType.html",
+    "title": "Enum NPCType | Catch.io Developer Reference",
+    "keywords": "Enum NPCType Namespace : CatchIo.Runtime.NPC.Enums Assembly : cs.temp.dll.dll Syntax public enum NPCType Fields Name Description Druid Necro Pyro"
+  },
+  "api/CatchIo.Runtime.NPC.Graphics.html": {
+    "href": "api/CatchIo.Runtime.NPC.Graphics.html",
+    "title": "Namespace CatchIo.Runtime.NPC.Graphics | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.NPC.Graphics Classes NPCRenderer"
+  },
+  "api/CatchIo.Runtime.NPC.Graphics.NPCRenderer.html": {
+    "href": "api/CatchIo.Runtime.NPC.Graphics.NPCRenderer.html",
+    "title": "Class NPCRenderer | Catch.io Developer Reference",
+    "keywords": "Class NPCRenderer Inheritance System.Object NPCRenderer Namespace : CatchIo.Runtime.NPC.Graphics Assembly : cs.temp.dll.dll Syntax public class NPCRenderer : MonoBehaviour"
+  },
+  "api/CatchIo.Runtime.NPC.html": {
+    "href": "api/CatchIo.Runtime.NPC.html",
+    "title": "Namespace CatchIo.Runtime.NPC | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.NPC Classes EntityRigidbody NPCFootprintGenerator NPCNetworking NPCRotation"
+  },
+  "api/CatchIo.Runtime.NPC.NPCFootprintGenerator.html": {
+    "href": "api/CatchIo.Runtime.NPC.NPCFootprintGenerator.html",
+    "title": "Class NPCFootprintGenerator | Catch.io Developer Reference",
+    "keywords": "Class NPCFootprintGenerator Inheritance System.Object NPCFootprintGenerator Implements ISurfaceObservable Namespace : CatchIo.Runtime.NPC Assembly : cs.temp.dll.dll Syntax public class NPCFootprintGenerator : MonoBehaviour Fields FootprintLifeTime Declaration public float FootprintLifeTime Field Value Type Description System.Single Properties CurrentTileSurface Declaration public TileSurface? CurrentTileSurface { get; } Property Value Type Description System.Nullable < TileSurface > Methods OnSurfaceChanged(Nullable<TileSurface>) Declaration public void OnSurfaceChanged(TileSurface? newSurface) Parameters Type Name Description System.Nullable < TileSurface > newSurface PlayFootstepEvents() Declaration public void PlayFootstepEvents() Implements ISurfaceObservable"
+  },
+  "api/CatchIo.Runtime.NPC.NPCNetworking.html": {
+    "href": "api/CatchIo.Runtime.NPC.NPCNetworking.html",
+    "title": "Class NPCNetworking | Catch.io Developer Reference",
+    "keywords": "Class NPCNetworking Inheritance System.Object NPCNetworking Namespace : CatchIo.Runtime.NPC Assembly : cs.temp.dll.dll Syntax public class NPCNetworking : MonoBehaviourPun Properties NPCType Declaration public NPCType NPCType { get; } Property Value Type Description NPCType Methods KnockBack(KnockBackData) Declaration public void KnockBack(KnockBackData knockBackData) Parameters Type Name Description KnockBackData knockBackData OnImported(NPCData) Declaration public void OnImported(NPCData data) Parameters Type Name Description NPCData data RPC_KnockBack(Int32, Vector2, Single) Declaration protected void RPC_KnockBack(int viewId, Vector2 knockBack, float delay) Parameters Type Name Description System.Int32 viewId Vector2 knockBack System.Single delay"
+  },
+  "api/CatchIo.Runtime.NPC.NPCRotation.html": {
+    "href": "api/CatchIo.Runtime.NPC.NPCRotation.html",
+    "title": "Class NPCRotation | Catch.io Developer Reference",
+    "keywords": "Class NPCRotation Inheritance System.Object NPCRotation Implements IPunObservable Namespace : CatchIo.Runtime.NPC Assembly : cs.temp.dll.dll Syntax public class NPCRotation : MonoBehaviour Methods DirectionState() Declaration public CharacterDirectionState DirectionState() Returns Type Description CharacterDirectionState GetViewAngle() Declaration public float GetViewAngle() Returns Type Description System.Single OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info Implements IPunObservable"
+  },
+  "api/CatchIo.Runtime.NPC.Receivers.html": {
+    "href": "api/CatchIo.Runtime.NPC.Receivers.html",
+    "title": "Namespace CatchIo.Runtime.NPC.Receivers | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.NPC.Receivers Classes NPCDamageReceiver NPCDetectable NPCTransmorphableReceiver"
+  },
+  "api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html": {
+    "href": "api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html",
+    "title": "Class NPCDamageReceiver | Catch.io Developer Reference",
+    "keywords": "Class NPCDamageReceiver Inheritance System.Object NPCDamageReceiver Implements IKnockBackable ICharacterInteractable Namespace : CatchIo.Runtime.NPC.Receivers Assembly : cs.temp.dll.dll Syntax public class NPCDamageReceiver : DamageReceiver Properties IsAlive Declaration public bool IsAlive { get; } Property Value Type Description System.Boolean Methods GetIndicatorPosition() Declaration public Vector3 GetIndicatorPosition() Returns Type Description Vector3 GetPosition() Declaration public Vector3 GetPosition() Returns Type Description Vector3 KnockBack(KnockBackData) Applies knockback to the agent based on the provided KnockBackData. Declaration public void KnockBack(KnockBackData knockBackData) Parameters Type Name Description KnockBackData knockBackData An instance of KnockBackData containing details about the knockback force and direction. OnDetected(CharacterFacade) Declaration public void OnDetected(CharacterFacade byCharacter) Parameters Type Name Description CharacterFacade byCharacter OnDetectionRemoved(CharacterFacade) Declaration public void OnDetectionRemoved(CharacterFacade byCharacter) Parameters Type Name Description CharacterFacade byCharacter TakeDamage(IDamage) Overrides the TakeDamage method to apply direct damage to the agent. This method handles two types of damage: FixedDamage and PercentageDamage. FixedDamage applies a constant amount of damage. PercentageDamage applies a percentage of the agent's current health as damage. If the agent's health is zero or below, no damage is applied. Declaration public override void TakeDamage(IDamage damage) Parameters Type Name Description IDamage damage An instance of IDamage containing details about the damage. TakeDOTDamage(DOTDamage) Overrides the TakeDOTDamage method but does nothing, as agent do not take damage-over-time. Declaration public override void TakeDOTDamage(DOTDamage dotDamage) Parameters Type Name Description DOTDamage dotDamage An instance of DOTDamage containing details about the DOT damage(ignored). Implements IKnockBackable ICharacterInteractable"
+  },
+  "api/CatchIo.Runtime.NPC.Receivers.NPCDetectable.html": {
+    "href": "api/CatchIo.Runtime.NPC.Receivers.NPCDetectable.html",
+    "title": "Class NPCDetectable | Catch.io Developer Reference",
+    "keywords": "Class NPCDetectable Inheritance System.Object NPCDetectable Implements ICharacterDetectable Namespace : CatchIo.Runtime.NPC.Receivers Assembly : cs.temp.dll.dll Syntax public class NPCDetectable : MonoBehaviour Properties ViewID Declaration public int ViewID { get; } Property Value Type Description System.Int32 Methods Detect() Declaration public void Detect() Miss() Declaration public void Miss() Implements ICharacterDetectable"
+  },
+  "api/CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.html": {
+    "href": "api/CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.html",
+    "title": "Class NPCTransmorphableReceiver | Catch.io Developer Reference",
+    "keywords": "Class NPCTransmorphableReceiver Inheritance System.Object NPCTransmorphableReceiver Namespace : CatchIo.Runtime.NPC.Receivers Assembly : cs.temp.dll.dll Syntax public sealed class NPCTransmorphableReceiver : TransmorphableReceiver Methods CanSelect(Vector2, Single) Declaration public override bool CanSelect(Vector2 position, float distance) Parameters Type Name Description Vector2 position System.Single distance Returns Type Description System.Boolean Deselect() Declaration public override void Deselect() Select() Declaration public override void Select()"
   },
   "api/CatchIo.Runtime.ScriptableObjects.Character.Buff.CharacterBuff.html": {
     "href": "api/CatchIo.Runtime.ScriptableObjects.Character.Buff.CharacterBuff.html",

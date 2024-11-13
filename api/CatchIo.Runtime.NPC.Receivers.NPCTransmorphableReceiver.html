@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AgentHealth
+    <title>Class NPCTransmorphableReceiver
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AgentHealth
+    <meta name="title" content="Class NPCTransmorphableReceiver
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,88 +78,59 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver">
   
   
-  <h1 id="CatchIo_Runtime_Agent_Core_AgentHealth" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth" class="text-break">Class AgentHealth
+  <h1 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver" class="text-break">Class NPCTransmorphableReceiver
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">AgentHealth</span></div>
+    <div class="level1"><span class="xref">NPCTransmorphableReceiver</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Agent.Core.html">CatchIo.Runtime.Agent.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.NPC.Receivers.html">CatchIo.Runtime.NPC.Receivers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Agent_Core_AgentHealth_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AgentHealth : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NPCTransmorphableReceiver : TransmorphableReceiver</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Agent_Core_AgentHealth_OnDamage" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth.OnDamage">OnDamage</h4>
+  <a id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_CanSelect_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.CanSelect*"></a>
+  <h4 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_CanSelect_Vector2_System_Single_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.CanSelect(Vector2,System.Single)">CanSelect(Vector2, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action OnDamage</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool CanSelect(Vector2 position, float distance)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span></td>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Runtime_Agent_Core_AgentHealth_CurrentHealth_" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth.CurrentHealth*"></a>
-  <h4 id="CatchIo_Runtime_Agent_Core_AgentHealth_CurrentHealth" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth.CurrentHealth">CurrentHealth</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float CurrentHealth { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distance</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Runtime_Agent_Core_AgentHealth_IsAlive_" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth.IsAlive*"></a>
-  <h4 id="CatchIo_Runtime_Agent_Core_AgentHealth_IsAlive" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth.IsAlive">IsAlive</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsAlive { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -174,40 +145,26 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CatchIo_Runtime_Agent_Core_AgentHealth_TakeDamage_" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth.TakeDamage*"></a>
-  <h4 id="CatchIo_Runtime_Agent_Core_AgentHealth_TakeDamage_System_Single_DamageSfxType_" data-uid="CatchIo.Runtime.Agent.Core.AgentHealth.TakeDamage(System.Single,DamageSfxType)">TakeDamage(Single, DamageSfxType)</h4>
+  <a id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Deselect_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Deselect*"></a>
+  <h4 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Deselect" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Deselect">Deselect()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage, DamageSfxType sfxType)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Deselect()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">damage</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">DamageSfxType</span></td>
-        <td><span class="parametername">sfxType</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  
+  
+  <a id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Select_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Select*"></a>
+  <h4 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Select" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Select">Select()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Select()</code></pre>
+  </div>
 </article>
           </div>
           
