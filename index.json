@@ -1422,7 +1422,7 @@
   "api/CatchIo.Runtime.NPC.Core.html": {
     "href": "api/CatchIo.Runtime.NPC.Core.html",
     "title": "Namespace CatchIo.Runtime.NPC.Core | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.NPC.Core Classes NPCHealth NPCPathFinder"
+    "keywords": "Namespace CatchIo.Runtime.NPC.Core Classes NPCHealth NPCPathFinder NPCPathFinder handles the movement pathfinding for NPCs, including random wandering within specified movement radii and interaction with the Photon network for synchronization."
   },
   "api/CatchIo.Runtime.NPC.Core.NPCHealth.html": {
     "href": "api/CatchIo.Runtime.NPC.Core.NPCHealth.html",
@@ -1432,7 +1432,7 @@
   "api/CatchIo.Runtime.NPC.Core.NPCPathFinder.html": {
     "href": "api/CatchIo.Runtime.NPC.Core.NPCPathFinder.html",
     "title": "Class NPCPathFinder | Catch.io Developer Reference",
-    "keywords": "Class NPCPathFinder Inheritance System.Object NPCPathFinder Implements IPunObservable Namespace : CatchIo.Runtime.NPC.Core Assembly : cs.temp.dll.dll Syntax public class NPCPathFinder : MonoBehaviour Methods GetSpeed() Declaration public float GetSpeed() Returns Type Description System.Single GetVelocity() Declaration public Vector2 GetVelocity() Returns Type Description Vector2 IsMoving() Declaration public bool IsMoving() Returns Type Description System.Boolean OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream PhotonMessageInfo info Implements IPunObservable"
+    "keywords": "Class NPCPathFinder NPCPathFinder handles the movement pathfinding for NPCs, including random wandering within specified movement radii and interaction with the Photon network for synchronization. Inheritance System.Object NPCPathFinder Implements IPunObservable Namespace : CatchIo.Runtime.NPC.Core Assembly : cs.temp.dll.dll Syntax public class NPCPathFinder : MonoBehaviour Methods GetSpeed() Gets the NPC's current speed. Declaration public float GetSpeed() Returns Type Description System.Single A float representing the current speed. GetVelocity() Gets the NPC's current velocity. Declaration public Vector2 GetVelocity() Returns Type Description Vector2 A Vector2 representing the current velocity. IsMoving() Checks if the NPC is currently moving. Declaration public bool IsMoving() Returns Type Description System.Boolean True if the NPC has a non-zero velocity, otherwise false. OnPhotonSerializeView(PhotonStream, PhotonMessageInfo) Synchronizes the NPC's velocity across the network using Photon. Declaration public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) Parameters Type Name Description PhotonStream stream The PhotonStream used for data serialization. PhotonMessageInfo info Information about the Photon message. Implements IPunObservable"
   },
   "api/CatchIo.Runtime.NPC.Data.html": {
     "href": "api/CatchIo.Runtime.NPC.Data.html",
