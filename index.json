@@ -282,7 +282,7 @@
   "api/CatchIo.Runtime.Character.Detector.html": {
     "href": "api/CatchIo.Runtime.Character.Detector.html",
     "title": "Namespace CatchIo.Runtime.Character.Detector | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Character.Detector Classes CharacterDetector CharacterInteractableDetector Detect character interactable and filter out the best interactable CharacterItemCollector HidingSpotDetector LightSourceDetector PlayerDetector Detect nearby players in given distance and play sfx SoundDetector Component responsible for detecting sound events within a specified range. Listens for SoundWaveEvent events and triggers appropriate responses in the local character. SurfaceDetector"
+    "keywords": "Namespace CatchIo.Runtime.Character.Detector Classes CharacterDetector CharacterInteractableDetector Detect character interactable and filter out the best interactable CharacterItemCollector HidingSpotDetector LightSourceDetector PlayerDetector Detect nearby players in given distance and play sfx DeathMatch mode : Players can detect any other player Cursed one mode : Cursed player only detect non-cursed players and non-cursed players only detect cursed one. SoundDetector Component responsible for detecting sound events within a specified range. Listens for SoundWaveEvent events and triggers appropriate responses in the local character. SurfaceDetector"
   },
   "api/CatchIo.Runtime.Character.Detector.LightSourceDetector.html": {
     "href": "api/CatchIo.Runtime.Character.Detector.LightSourceDetector.html",
@@ -292,7 +292,7 @@
   "api/CatchIo.Runtime.Character.Detector.PlayerDetector.html": {
     "href": "api/CatchIo.Runtime.Character.Detector.PlayerDetector.html",
     "title": "Class PlayerDetector | Catch.io Developer Reference",
-    "keywords": "Class PlayerDetector Detect nearby players in given distance and play sfx Inheritance System.Object PlayerDetector Namespace : CatchIo.Runtime.Character.Detector Assembly : cs.temp.dll.dll Syntax public class PlayerDetector : MonoBehaviour Methods Initialize() Initialize the detector Declaration public void Initialize() UpdateDetectionRadius(Single) Change detection radius Declaration public void UpdateDetectionRadius(float radius) Parameters Type Name Description System.Single radius new radius to detect nearby players"
+    "keywords": "Class PlayerDetector Detect nearby players in given distance and play sfx DeathMatch mode : Players can detect any other player Cursed one mode : Cursed player only detect non-cursed players and non-cursed players only detect cursed one. Inheritance System.Object PlayerDetector Namespace : CatchIo.Runtime.Character.Detector Assembly : cs.temp.dll.dll Syntax public class PlayerDetector : MonoBehaviour Methods Initialize() Initialize the detector Declaration public void Initialize() UpdateDetectionRadius(Single) Change detection radius Declaration public void UpdateDetectionRadius(float radius) Parameters Type Name Description System.Single radius New radius to detect nearby players"
   },
   "api/CatchIo.Runtime.Character.Detector.SoundDetector.html": {
     "href": "api/CatchIo.Runtime.Character.Detector.SoundDetector.html",
@@ -1002,7 +1002,7 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.html",
     "title": "Class HealthHUDMeter | Catch.io Developer Reference",
-    "keywords": "Class HealthHUDMeter Inheritance System.Object HUDMeter HealthHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.Update() HUDMeter.MeterUpdate(Single) Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HealthHUDMeter : HUDMeter Methods OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
+    "keywords": "Class HealthHUDMeter Inheritance System.Object HUDMeter HealthHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.MaxFillValue HUDMeter.Update() HUDMeter.ResetMeter() Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HealthHUDMeter : HUDMeter Methods MeterUpdate(Single) Declaration protected override void MeterUpdate(float newValue) Parameters Type Name Description System.Single newValue Overrides HUDMeter.MeterUpdate(Single) OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.html",
@@ -1022,7 +1022,7 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html",
     "title": "Class HUDMeter | Catch.io Developer Reference",
-    "keywords": "Class HUDMeter Inheritance System.Object HUDMeter HealthHUDMeter StaminaHUDMeter Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HUDMeter : MonoBehaviour Fields LocalCharacter Declaration protected CharacterFacade LocalCharacter Field Value Type Description CharacterFacade Methods MeterUpdate(Single) Declaration protected virtual void MeterUpdate(float newValue) Parameters Type Name Description System.Single newValue OnDestroy() Declaration protected virtual void OnDestroy() Start() Declaration protected virtual void Start() Update() Declaration protected virtual void Update()"
+    "keywords": "Class HUDMeter Inheritance System.Object HUDMeter HealthHUDMeter StaminaHUDMeter Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class HUDMeter : MonoBehaviour Fields LocalCharacter Declaration protected CharacterFacade LocalCharacter Field Value Type Description CharacterFacade MaxFillValue Declaration protected float MaxFillValue Field Value Type Description System.Single Methods MeterUpdate(Single) Declaration protected virtual void MeterUpdate(float newValue) Parameters Type Name Description System.Single newValue OnDestroy() Declaration protected virtual void OnDestroy() ResetMeter() Declaration protected void ResetMeter() Start() Declaration protected virtual void Start() Update() Declaration protected virtual void Update()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html",
@@ -1047,7 +1047,7 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.StaminaHUDMeter.html",
     "title": "Class StaminaHUDMeter | Catch.io Developer Reference",
-    "keywords": "Class StaminaHUDMeter Inheritance System.Object HUDMeter StaminaHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.Update() Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class StaminaHUDMeter : HUDMeter Methods MeterUpdate(Single) Declaration protected override void MeterUpdate(float newValue) Parameters Type Name Description System.Single newValue Overrides HUDMeter.MeterUpdate(Single) OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
+    "keywords": "Class StaminaHUDMeter Inheritance System.Object HUDMeter StaminaHUDMeter Inherited Members HUDMeter.LocalCharacter HUDMeter.MaxFillValue HUDMeter.Update() HUDMeter.ResetMeter() Namespace : CatchIo.Runtime.Menu.GameOverlay.CharacterHUD Assembly : cs.temp.dll.dll Syntax public class StaminaHUDMeter : HUDMeter Methods MeterUpdate(Single) Declaration protected override void MeterUpdate(float newValue) Parameters Type Name Description System.Single newValue Overrides HUDMeter.MeterUpdate(Single) OnDestroy() Declaration protected override void OnDestroy() Overrides HUDMeter.OnDestroy() Start() Declaration protected override void Start() Overrides HUDMeter.Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.ExitSessionPopup.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.ExitSessionPopup.html",
@@ -1057,7 +1057,12 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html",
     "title": "Class CursedOneCountdownImage | Catch.io Developer Reference",
-    "keywords": "Class CursedOneCountdownImage Inheritance System.Object CursedOneCountdownImage Namespace : CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Assembly : cs.temp.dll.dll Syntax public class CursedOneCountdownImage : MonoBehaviour Methods InitializeTimer() Declaration public void InitializeTimer() ReceiveCursedTimerEvent(GameObjectiveEventEnum) Declaration public void ReceiveCursedTimerEvent(GameObjectiveEventEnum objectiveEvent) Parameters Type Name Description GameObjectiveEventEnum objectiveEvent ResetAnimatorToDefault(Int32) Declaration public void ResetAnimatorToDefault(int forcedReset) Parameters Type Name Description System.Int32 forcedReset SyncSigilAnimator() Declaration public void SyncSigilAnimator() SyncTimerAnimator() Declaration public void SyncTimerAnimator() UpdateCursedTimerNumbers(Boolean) Declaration public void UpdateCursedTimerNumbers(bool disableImages) Parameters Type Name Description System.Boolean disableImages"
+    "keywords": "Class CursedOneCountdownImage Inheritance System.Object CursedOneCountdownImage Namespace : CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Assembly : cs.temp.dll.dll Syntax public class CursedOneCountdownImage : MonoBehaviour Methods SyncSigilAnimator() Declaration public void SyncSigilAnimator() SyncTimerAnimator() Declaration public void SyncTimerAnimator()"
+  },
+  "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.html": {
+    "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.html",
+    "title": "Class CursedOneHealthIndicator | Catch.io Developer Reference",
+    "keywords": "Class CursedOneHealthIndicator Use to indicator cursed one health for other players Inheritance System.Object CursedOneHealthIndicator Namespace : CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Assembly : cs.temp.dll.dll Syntax public class CursedOneHealthIndicator : HUDMeter Methods OnDestroy() Declaration protected override void OnDestroy() Start() Declaration protected override void Start()"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.DeathMatchLeaderBoard.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.DeathMatchLeaderBoard.html",
@@ -1077,12 +1082,17 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.html",
     "title": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Classes CursedOneCountdownImage DeathMatchLeaderBoard GameModeEventUIManager GameTimerText PointText"
+    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Classes CursedOneCountdownImage CursedOneHealthIndicator Use to indicator cursed one health for other players DeathMatchLeaderBoard GameModeEventUIManager GameTimerText PointText TimeReductionIndicator"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText.html",
     "title": "Class PointText | Catch.io Developer Reference",
     "keywords": "Class PointText Inheritance System.Object PointText Namespace : CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Assembly : cs.temp.dll.dll Syntax public class PointText : MonoBehaviour"
+  },
+  "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.html": {
+    "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.html",
+    "title": "Class TimeReductionIndicator | Catch.io Developer Reference",
+    "keywords": "Class TimeReductionIndicator Inheritance System.Object TimeReductionIndicator Namespace : CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Assembly : cs.temp.dll.dll Syntax public class TimeReductionIndicator : MonoBehaviour Methods Show(List<Sprite>) Declaration public void Show(List<Sprite> sprites) Parameters Type Name Description System.Collections.Generic.List < Sprite > sprites"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.CursedOneWinnerText.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.CursedOneWinnerText.html",
@@ -1412,7 +1422,7 @@
   "api/CatchIo.Runtime.Network.NetworkTimer.html": {
     "href": "api/CatchIo.Runtime.Network.NetworkTimer.html",
     "title": "Class NetworkTimer | Catch.io Developer Reference",
-    "keywords": "Class NetworkTimer Inheritance System.Object NetworkTimer Namespace : CatchIo.Runtime.Network Assembly : cs.temp.dll.dll Syntax public class NetworkTimer : IOnEventCallback Fields OnFinished Declaration public UnityEvent OnFinished Field Value Type Description UnityEvent OnStarted Declaration public UnityEvent OnStarted Field Value Type Description UnityEvent Properties IsFinished Declaration public bool IsFinished { get; } Property Value Type Description System.Boolean IsStarted Declaration public bool IsStarted { get; } Property Value Type Description System.Boolean Methods GetRemainingTime() Declaration public float GetRemainingTime() Returns Type Description System.Single GetRemainingTimeRounded() Declaration public int GetRemainingTimeRounded() Returns Type Description System.Int32 Initialize(String) Declaration public void Initialize(string key) Parameters Type Name Description System.String key OnEvent(EventData) Declaration public void OnEvent(EventData photonEvent) Parameters Type Name Description EventData photonEvent Release() Declaration public void Release() Reset() Declaration public void Reset() Start(Single) Declaration public void Start(float newTime) Parameters Type Name Description System.Single newTime Stop() Declaration public void Stop() Update(Single) Declaration public void Update(float networkTime) Parameters Type Name Description System.Single networkTime"
+    "keywords": "Class NetworkTimer Inheritance System.Object NetworkTimer Namespace : CatchIo.Runtime.Network Assembly : cs.temp.dll.dll Syntax public class NetworkTimer : IOnEventCallback Fields OnFinished Declaration public UnityEvent OnFinished Field Value Type Description UnityEvent OnStarted Declaration public UnityEvent OnStarted Field Value Type Description UnityEvent Properties IsFinished Declaration public bool IsFinished { get; } Property Value Type Description System.Boolean IsStarted Declaration public bool IsStarted { get; } Property Value Type Description System.Boolean Methods GetRemainingTime() Declaration public float GetRemainingTime() Returns Type Description System.Single GetRemainingTimeRounded() Declaration public int GetRemainingTimeRounded() Returns Type Description System.Int32 Initialize(String) Declaration public void Initialize(string key) Parameters Type Name Description System.String key OnEvent(EventData) Declaration public void OnEvent(EventData photonEvent) Parameters Type Name Description EventData photonEvent ReduceTimeBy(Single) Declaration public void ReduceTimeBy(float seconds) Parameters Type Name Description System.Single seconds Release() Declaration public void Release() Reset() Declaration public void Reset() Start(Single) Declaration public void Start(float newTime) Parameters Type Name Description System.Single newTime Stop() Declaration public void Stop() Update(Single) Declaration public void Update(float networkTime) Parameters Type Name Description System.Single networkTime"
   },
   "api/CatchIo.Runtime.Network.RoomData.html": {
     "href": "api/CatchIo.Runtime.Network.RoomData.html",

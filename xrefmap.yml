@@ -10417,6 +10417,19 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter
   nameWithType: HealthHUDMeter
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.MeterUpdate(System.Single)
+  name: MeterUpdate(Single)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HealthHUDMeter_MeterUpdate_System_Single_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.MeterUpdate(System.Single)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.MeterUpdate(System.Single)
+  nameWithType: HealthHUDMeter.MeterUpdate(Single)
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.MeterUpdate*
+  name: MeterUpdate
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HealthHUDMeter_MeterUpdate_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.MeterUpdate
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.MeterUpdate
+  nameWithType: HealthHUDMeter.MeterUpdate
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.OnDestroy
   name: OnDestroy()
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HealthHUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HealthHUDMeter_OnDestroy
@@ -10616,6 +10629,12 @@ references:
   commentId: F:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.LocalCharacter
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.LocalCharacter
   nameWithType: HUDMeter.LocalCharacter
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.MaxFillValue
+  name: MaxFillValue
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDMeter_MaxFillValue
+  commentId: F:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.MaxFillValue
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.MaxFillValue
+  nameWithType: HUDMeter.MaxFillValue
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.MeterUpdate(System.Single)
   name: MeterUpdate(Single)
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDMeter_MeterUpdate_System_Single_
@@ -10642,6 +10661,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.OnDestroy
   nameWithType: HUDMeter.OnDestroy
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.ResetMeter
+  name: ResetMeter()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDMeter_ResetMeter
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.ResetMeter
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.ResetMeter()
+  nameWithType: HUDMeter.ResetMeter()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.ResetMeter*
+  name: ResetMeter
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDMeter_ResetMeter_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.ResetMeter
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.ResetMeter
+  nameWithType: HUDMeter.ResetMeter
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.Start
   name: Start()
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDMeter.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDMeter_Start
@@ -10885,45 +10917,6 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage
   fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage
   nameWithType: CursedOneCountdownImage
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.InitializeTimer
-  name: InitializeTimer()
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_InitializeTimer
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.InitializeTimer
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.InitializeTimer()
-  nameWithType: CursedOneCountdownImage.InitializeTimer()
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.InitializeTimer*
-  name: InitializeTimer
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_InitializeTimer_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.InitializeTimer
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.InitializeTimer
-  nameWithType: CursedOneCountdownImage.InitializeTimer
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ReceiveCursedTimerEvent(GameObjectiveEventEnum)
-  name: ReceiveCursedTimerEvent(GameObjectiveEventEnum)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_ReceiveCursedTimerEvent_GameObjectiveEventEnum_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ReceiveCursedTimerEvent(GameObjectiveEventEnum)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ReceiveCursedTimerEvent(GameObjectiveEventEnum)
-  nameWithType: CursedOneCountdownImage.ReceiveCursedTimerEvent(GameObjectiveEventEnum)
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ReceiveCursedTimerEvent*
-  name: ReceiveCursedTimerEvent
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_ReceiveCursedTimerEvent_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ReceiveCursedTimerEvent
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ReceiveCursedTimerEvent
-  nameWithType: CursedOneCountdownImage.ReceiveCursedTimerEvent
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ResetAnimatorToDefault(System.Int32)
-  name: ResetAnimatorToDefault(Int32)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_ResetAnimatorToDefault_System_Int32_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ResetAnimatorToDefault(System.Int32)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ResetAnimatorToDefault(System.Int32)
-  nameWithType: CursedOneCountdownImage.ResetAnimatorToDefault(Int32)
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ResetAnimatorToDefault*
-  name: ResetAnimatorToDefault
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_ResetAnimatorToDefault_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ResetAnimatorToDefault
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.ResetAnimatorToDefault
-  nameWithType: CursedOneCountdownImage.ResetAnimatorToDefault
 - uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.SyncSigilAnimator
   name: SyncSigilAnimator()
   href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_SyncSigilAnimator
@@ -10950,19 +10943,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.SyncTimerAnimator
   nameWithType: CursedOneCountdownImage.SyncTimerAnimator
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.UpdateCursedTimerNumbers(System.Boolean)
-  name: UpdateCursedTimerNumbers(Boolean)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_UpdateCursedTimerNumbers_System_Boolean_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.UpdateCursedTimerNumbers(System.Boolean)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.UpdateCursedTimerNumbers(System.Boolean)
-  nameWithType: CursedOneCountdownImage.UpdateCursedTimerNumbers(Boolean)
-- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.UpdateCursedTimerNumbers*
-  name: UpdateCursedTimerNumbers
-  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneCountdownImage_UpdateCursedTimerNumbers_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.UpdateCursedTimerNumbers
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator
+  name: CursedOneHealthIndicator
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator
+  nameWithType: CursedOneHealthIndicator
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.OnDestroy
+  name: OnDestroy()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneHealthIndicator_OnDestroy
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.OnDestroy
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.OnDestroy()
+  nameWithType: CursedOneHealthIndicator.OnDestroy()
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.OnDestroy*
+  name: OnDestroy
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneHealthIndicator_OnDestroy_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.OnDestroy
   isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneCountdownImage.UpdateCursedTimerNumbers
-  nameWithType: CursedOneCountdownImage.UpdateCursedTimerNumbers
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.OnDestroy
+  nameWithType: CursedOneHealthIndicator.OnDestroy
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneHealthIndicator_Start
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.Start
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.Start()
+  nameWithType: CursedOneHealthIndicator.Start()
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_CursedOneHealthIndicator_Start_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.CursedOneHealthIndicator.Start
+  nameWithType: CursedOneHealthIndicator.Start
 - uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.DeathMatchLeaderBoard
   name: DeathMatchLeaderBoard
   href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.DeathMatchLeaderBoard.html
@@ -10987,6 +10999,28 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText
   fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText
   nameWithType: PointText
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator
+  name: TimeReductionIndicator
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator
+  nameWithType: TimeReductionIndicator
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.Show(System.Collections.Generic.List{Sprite})
+  name: Show(List<Sprite>)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_TimeReductionIndicator_Show_System_Collections_Generic_List_Sprite__
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.Show(System.Collections.Generic.List{Sprite})
+  name.vb: Show(List(Of Sprite))
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.Show(System.Collections.Generic.List<Sprite>)
+  fullName.vb: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.Show(System.Collections.Generic.List(Of Sprite))
+  nameWithType: TimeReductionIndicator.Show(List<Sprite>)
+  nameWithType.vb: TimeReductionIndicator.Show(List(Of Sprite))
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.Show*
+  name: Show
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.html#CatchIo_Runtime_Menu_GameOverlay_GameModeHUD_TimeReductionIndicator_Show_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.Show
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.TimeReductionIndicator.Show
+  nameWithType: TimeReductionIndicator.Show
 - uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD
   name: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD
   href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.html
@@ -12642,6 +12676,19 @@ references:
   commentId: F:CatchIo.Runtime.Network.NetworkTimer.OnStarted
   fullName: CatchIo.Runtime.Network.NetworkTimer.OnStarted
   nameWithType: NetworkTimer.OnStarted
+- uid: CatchIo.Runtime.Network.NetworkTimer.ReduceTimeBy(System.Single)
+  name: ReduceTimeBy(Single)
+  href: api/CatchIo.Runtime.Network.NetworkTimer.html#CatchIo_Runtime_Network_NetworkTimer_ReduceTimeBy_System_Single_
+  commentId: M:CatchIo.Runtime.Network.NetworkTimer.ReduceTimeBy(System.Single)
+  fullName: CatchIo.Runtime.Network.NetworkTimer.ReduceTimeBy(System.Single)
+  nameWithType: NetworkTimer.ReduceTimeBy(Single)
+- uid: CatchIo.Runtime.Network.NetworkTimer.ReduceTimeBy*
+  name: ReduceTimeBy
+  href: api/CatchIo.Runtime.Network.NetworkTimer.html#CatchIo_Runtime_Network_NetworkTimer_ReduceTimeBy_
+  commentId: Overload:CatchIo.Runtime.Network.NetworkTimer.ReduceTimeBy
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Network.NetworkTimer.ReduceTimeBy
+  nameWithType: NetworkTimer.ReduceTimeBy
 - uid: CatchIo.Runtime.Network.NetworkTimer.Release
   name: Release()
   href: api/CatchIo.Runtime.Network.NetworkTimer.html#CatchIo_Runtime_Network_NetworkTimer_Release
