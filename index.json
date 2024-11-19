@@ -1862,7 +1862,7 @@
   "api/CatchIo.Runtime.Sound.html": {
     "href": "api/CatchIo.Runtime.Sound.html",
     "title": "Namespace CatchIo.Runtime.Sound | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Sound Classes CharacterActionSfx CursedOneSfx EnvironmentSfx FootstepSfx ItemSfx ItemTerrainSfx MainMusic Music Sfx SoundManager SpawnSfx StaminaSfx TerrainSfx UiGameSfx UiSfx Enums MainTrackType"
+    "keywords": "Namespace CatchIo.Runtime.Sound Classes CharacterActionSfx CursedOneSfx EnvironmentSfx FootstepSfx ItemSfx ItemTerrainSfx MainMusic Handle all the main music in game Music Sfx SoundManager SpawnSfx StaminaSfx TerrainSfx UiGameSfx UiSfx"
   },
   "api/CatchIo.Runtime.Sound.ItemSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.ItemSfx.html",
@@ -1877,12 +1877,7 @@
   "api/CatchIo.Runtime.Sound.MainMusic.html": {
     "href": "api/CatchIo.Runtime.Sound.MainMusic.html",
     "title": "Class MainMusic | Catch.io Developer Reference",
-    "keywords": "Class MainMusic Inheritance System.Object MainMusic Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class MainMusic : MonoBehaviour Properties CurrentVolume Declaration public float CurrentVolume { get; } Property Value Type Description System.Single Instance Declaration public static MainMusic Instance { get; } Property Value Type Description MainMusic Methods ChangeCurrentTrackVolume(Single) Declaration public void ChangeCurrentTrackVolume(float volume) Parameters Type Name Description System.Single volume"
-  },
-  "api/CatchIo.Runtime.Sound.MainTrackType.html": {
-    "href": "api/CatchIo.Runtime.Sound.MainTrackType.html",
-    "title": "Enum MainTrackType | Catch.io Developer Reference",
-    "keywords": "Enum MainTrackType Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public enum MainTrackType Fields Name Description CaveAmbience Chase CursedOneActive CursedOnePassive ForestAmbience ForestVillageMusic Last None PlayableSceneGeneric TitleScreen"
+    "keywords": "Class MainMusic Handle all the main music in game Inheritance System.Object MainMusic Namespace : CatchIo.Runtime.Sound Assembly : cs.temp.dll.dll Syntax public class MainMusic : MonoBehaviour Properties CurrentVolume Declaration public float CurrentVolume { get; } Property Value Type Description System.Single Instance Declaration public static MainMusic Instance { get; } Property Value Type Description MainMusic Methods ChangeCurrentTrackVolume(Single) Declaration public void ChangeCurrentTrackVolume(float volume) Parameters Type Name Description System.Single volume"
   },
   "api/CatchIo.Runtime.Sound.Music.html": {
     "href": "api/CatchIo.Runtime.Sound.Music.html",
