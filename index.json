@@ -2079,6 +2079,26 @@
     "title": "Class SceneObject | Catch.io Developer Reference",
     "keywords": "Class SceneObject Inheritance System.Object SceneObject Namespace : CatchIo.Runtime.Utility.Scene Assembly : cs.temp.dll.dll Syntax [Serializable] public class SceneObject Methods GetFormattedSceneName() Declaration public string GetFormattedSceneName() Returns Type Description System.String GetSceneAssetName() Declaration public string GetSceneAssetName() Returns Type Description System.String Operators Implicit(SceneObject to String) Declaration public static implicit operator string (SceneObject sceneObject) Parameters Type Name Description SceneObject sceneObject Returns Type Description System.String Implicit(String to SceneObject) Declaration public static implicit operator SceneObject(string sceneName) Parameters Type Name Description System.String sceneName Returns Type Description SceneObject"
   },
+  "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.html": {
+    "href": "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.html",
+    "title": "Namespace CatchIo.Runtime.Utility.SceneScopedObjectPool | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Utility.SceneScopedObjectPool Classes Pool SceneScopedObjectPoolManager SceneScopedPoolObject Component attached to a pooled object managed by SceneScopedObjectPoolManager"
+  },
+  "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.Pool.html": {
+    "href": "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.Pool.html",
+    "title": "Class Pool | Catch.io Developer Reference",
+    "keywords": "Class Pool Inheritance System.Object Pool Namespace : CatchIo.Runtime.Utility.SceneScopedObjectPool Assembly : cs.temp.dll.dll Syntax [Serializable] public class Pool Fields Count Declaration public int Count Field Value Type Description System.Int32 Prefab Declaration public GameObject Prefab Field Value Type Description GameObject"
+  },
+  "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.SceneScopedObjectPoolManager.html": {
+    "href": "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.SceneScopedObjectPoolManager.html",
+    "title": "Class SceneScopedObjectPoolManager | Catch.io Developer Reference",
+    "keywords": "Class SceneScopedObjectPoolManager Inheritance System.Object SceneScopedObjectPoolManager Namespace : CatchIo.Runtime.Utility.SceneScopedObjectPool Assembly : cs.temp.dll.dll Syntax public class SceneScopedObjectPoolManager : MonoBehaviour Properties Instance Declaration public static SceneScopedObjectPoolManager Instance { get; } Property Value Type Description SceneScopedObjectPoolManager Methods CreatePool(GameObject, Int32) Adds a new GameObject pool. Declaration public void CreatePool(GameObject prefab, int count) Parameters Type Name Description GameObject prefab The prefab to pool. System.Int32 count Number of initial instances to create. GetFromPool(GameObject) Retrieves an object from the pool. Declaration public GameObject GetFromPool(GameObject prefab) Parameters Type Name Description GameObject prefab The prefab to retrieve. Returns Type Description GameObject An inactive pooled GameObject. GetFromPool(GameObject, Vector3, Single) Retrieves object from pool and place on given location with rotation. Declaration public GameObject GetFromPool(GameObject prefab, Vector3 position, float angle) Parameters Type Name Description GameObject prefab The prefab to retrieve. Vector3 position Position to set the object to. System.Single angle Rotation of the retrieved object. Returns Type Description GameObject An inactive pooled GameObject. ReleaseToPoolWithDelay(GameObject, Single) Releases a GameObject back to the pool after a countdown. Declaration public void ReleaseToPoolWithDelay(GameObject obj, float delay) Parameters Type Name Description GameObject obj The GameObject to release. System.Single delay The countdown time before releasing. ReturnToPool(GameObject) Returns an object back to the pool. Declaration public void ReturnToPool(GameObject obj) Parameters Type Name Description GameObject obj The GameObject to deactivate and pool."
+  },
+  "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.SceneScopedPoolObject.html": {
+    "href": "api/CatchIo.Runtime.Utility.SceneScopedObjectPool.SceneScopedPoolObject.html",
+    "title": "Class SceneScopedPoolObject | Catch.io Developer Reference",
+    "keywords": "Class SceneScopedPoolObject Component attached to a pooled object managed by SceneScopedObjectPoolManager Inheritance System.Object SceneScopedPoolObject Namespace : CatchIo.Runtime.Utility.SceneScopedObjectPool Assembly : cs.temp.dll.dll Syntax public class SceneScopedPoolObject : MonoBehaviour Methods GetPoolPrefab() Get the prefab that this object is belongs to Declaration public GameObject GetPoolPrefab() Returns Type Description GameObject prefab that this object is belongs to SetPoolPrefab(GameObject) Set the prefab that object belongs to Declaration public void SetPoolPrefab(GameObject poolPrefab) Parameters Type Name Description GameObject poolPrefab prefab that this object is belongs to"
+  },
   "api/CatchIo.Runtime.Utility.ServiceLocator.html": {
     "href": "api/CatchIo.Runtime.Utility.ServiceLocator.html",
     "title": "Namespace CatchIo.Runtime.Utility.ServiceLocator | Catch.io Developer Reference",
