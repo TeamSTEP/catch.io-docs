@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NPCTransmorphableReceiver
+    <title>Class CountdownTimer
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NPCTransmorphableReceiver
+    <meta name="title" content="Class CountdownTimer
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,35 +78,69 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer">
   
   
-  <h1 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver" class="text-break">Class NPCTransmorphableReceiver
+  <h1 id="CatchIo_Runtime_Values_Timers_CountdownTimer" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer" class="text-break">Class CountdownTimer
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">NPCTransmorphableReceiver</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html">Timer</a></div>
+    <div class="level2"><span class="xref">CountdownTimer</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.NPC.Receivers.html">CatchIo.Runtime.NPC.Receivers</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer__initialTime">Timer._initialTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_CurrentTime">Timer.CurrentTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_IsRunning">Timer.IsRunning</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_Progress">Timer.Progress</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_OnTimerStart">Timer.OnTimerStart</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_OnTimerStop">Timer.OnTimerStop</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_Start">Timer.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_Stop">Timer.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_Resume">Timer.Resume()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_Pause">Timer.Pause()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Values.Timers.html">CatchIo.Runtime.Values.Timers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Values_Timers_CountdownTimer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NPCTransmorphableReceiver : TransmorphableReceiver</code></pre>
+    <pre><code class="lang-csharp hljs">public class CountdownTimer : Timer</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_CanSelect_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.CanSelect*"></a>
-  <h4 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_CanSelect_Vector2_System_Single_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.CanSelect(Vector2,System.Single)">CanSelect(Vector2, Single)</h4>
+  <a id="CatchIo_Runtime_Values_Timers_CountdownTimer__ctor_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.#ctor*"></a>
+  <h4 id="CatchIo_Runtime_Values_Timers_CountdownTimer__ctor_System_Single_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.#ctor(System.Single)">CountdownTimer(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool CanSelect(Vector2 position, float distance)</code></pre>
+    <pre><code class="lang-csharp hljs">public CountdownTimer(float value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,18 +153,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">distance</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Values_Timers_CountdownTimer_IsFinished_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.IsFinished*"></a>
+  <h4 id="CatchIo_Runtime_Values_Timers_CountdownTimer_IsFinished" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.IsFinished">IsFinished</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFinished { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -145,26 +186,74 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Deselect_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Deselect*"></a>
-  <h4 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Deselect" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Deselect">Deselect()</h4>
+  <a id="CatchIo_Runtime_Values_Timers_CountdownTimer_Reset_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.Reset*"></a>
+  <h4 id="CatchIo_Runtime_Values_Timers_CountdownTimer_Reset" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.Reset">Reset()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Deselect()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
   </div>
   
   
-  <a id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Select_" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Select*"></a>
-  <h4 id="CatchIo_Runtime_NPC_Receivers_NPCTransmorphableReceiver_Select" data-uid="CatchIo.Runtime.NPC.Receivers.NPCTransmorphableReceiver.Select">Select()</h4>
+  <a id="CatchIo_Runtime_Values_Timers_CountdownTimer_Reset_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.Reset*"></a>
+  <h4 id="CatchIo_Runtime_Values_Timers_CountdownTimer_Reset_System_Single_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.Reset(System.Single)">Reset(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Select()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Reset(float newTime)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">newTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Values_Timers_CountdownTimer_Tick_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.Tick*"></a>
+  <h4 id="CatchIo_Runtime_Values_Timers_CountdownTimer_Tick_System_Single_" data-uid="CatchIo.Runtime.Values.Timers.CountdownTimer.Tick(System.Single)">Tick(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Tick(float deltaTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Values.Timers.Timer.html#CatchIo_Runtime_Values_Timers_Timer_Tick_System_Single_">Timer.Tick(Single)</a></div>
 </article>
           </div>
           

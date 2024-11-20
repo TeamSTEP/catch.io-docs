@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Vector3Extensions
+    <title>Class CharacterTransmorpher
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Vector3Extensions
+    <meta name="title" content="Class CharacterTransmorpher
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,35 +78,61 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher">
   
   
-  <h1 id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions" class="text-break">Class Vector3Extensions
+  <h1 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher" class="text-break">Class CharacterTransmorpher
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manages the character&apos;s transmorphing state, allowing it to change appearance 
+by swapping animator controllers and canceling based on specific conditions. 
+Synchronizes transmorph events across networked clients.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Vector3Extensions</span></div>
+    <div class="level1"><span class="xref">CharacterTransmorpher</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Utility.Extensions.html">CatchIo.Runtime.Utility.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Transmorphs.html">CatchIo.Runtime.Character.Transmorphs</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Vector3Extensions</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterTransmorpher : Transmorpher</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions_IsZero_" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions.IsZero*"></a>
-  <h4 id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions_IsZero_Vector2_" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions.IsZero(Vector2)">IsZero(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_Awake_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.Awake*"></a>
+  <h4 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_Awake" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Initializes key references and subscribes to necessary events.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsZero(this Vector2 vec)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnDestroy_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnDestroy*"></a>
+  <h4 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnDestroy" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"><p>Cleans up event subscriptions when the component is destroyed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnTransmorph_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnTransmorph*"></a>
+  <h4 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnTransmorph_ITransmorphableReceiver_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnTransmorph(ITransmorphableReceiver)">OnTransmorph(ITransmorphableReceiver)</h4>
+  <div class="markdown level1 summary"><p>Changes the character&apos;s animator to reflect the new transmorph state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnTransmorph(ITransmorphableReceiver receiver)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,36 +145,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">vec</span></td>
+        <td><span class="xref">ITransmorphableReceiver</span></td>
+        <td><span class="parametername">receiver</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnTransmorphCanceled_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnTransmorphCanceled*"></a>
+  <h4 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnTransmorphCanceled_System_Boolean_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnTransmorphCanceled(System.Boolean)">OnTransmorphCanceled(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Reverts the character&apos;s animator to its original state, ending the transmorph.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnTransmorphCanceled(bool isPermanentCancel = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPermanentCancel</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions_ToVector2_" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions.ToVector2*"></a>
-  <h4 id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions_ToVector2_Vector3_" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions.ToVector2(Vector3)">ToVector2(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnTransmorphRestored_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnTransmorphRestored*"></a>
+  <h4 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_OnTransmorphRestored" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.OnTransmorphRestored">OnTransmorphRestored()</h4>
+  <div class="markdown level1 summary"><p>Restores the transmorph state for the character, reapplying the animator controller.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector2 ToVector2(this Vector3 vec3)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnTransmorphRestored()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_Transmorph_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.Transmorph*"></a>
+  <h4 id="CatchIo_Runtime_Character_Transmorphs_CharacterTransmorpher_Transmorph_ITransmorphableReceiver_" data-uid="CatchIo.Runtime.Character.Transmorphs.CharacterTransmorpher.Transmorph(ITransmorphableReceiver)">Transmorph(ITransmorphableReceiver)</h4>
+  <div class="markdown level1 summary"><p>Initiates transmorph, syncing with other clients via a network event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Transmorph(ITransmorphableReceiver receiver)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,65 +212,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">vec3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions_ToVector3Int_" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions.ToVector3Int*"></a>
-  <h4 id="CatchIo_Runtime_Utility_Extensions_Vector3Extensions_ToVector3Int_Vector2_" data-uid="CatchIo.Runtime.Utility.Extensions.Vector3Extensions.ToVector3Int(Vector2)">ToVector3Int(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3Int ToVector3Int(this Vector2 vector2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3Int</span></td>
+        <td><span class="xref">ITransmorphableReceiver</span></td>
+        <td><span class="parametername">receiver</span></td>
         <td></td>
       </tr>
     </tbody>

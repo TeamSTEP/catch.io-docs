@@ -124,30 +124,6 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentActionType" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentActionType">CurrentActionType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterActionType CurrentActionType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CharacterActionType</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentChargeDuration" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentChargeDuration">CurrentChargeDuration</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -238,30 +214,6 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentMoveType" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentMoveType">CurrentMoveType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterMoveType CurrentMoveType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CharacterMoveType</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1302,6 +1254,31 @@
   </h3>
   
   
+  <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentActionType_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentActionType*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentActionType" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentActionType">CurrentActionType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterActionType CurrentActionType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterActionType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentLookDirection_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection*"></a>
   <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentLookDirection" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection">CurrentLookDirection</h4>
   <div class="markdown level1 summary"></div>
@@ -1321,6 +1298,31 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentMoveType_" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentMoveType*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentMoveType" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentMoveType">CurrentMoveType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterMoveType CurrentMoveType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterMoveType</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2009,6 +2011,56 @@ We use the Clamp function so the stamina will not exceed the max value.</p>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">decreaseStaminaPerSec</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnActionTypeChanged" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnActionTypeChanged">OnActionTypeChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;CharacterActionType&gt; OnActionTypeChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">CharacterActionType</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnMoveTypeChanged" data-uid="CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnMoveTypeChanged">OnMoveTypeChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;CharacterMoveType&gt; OnMoveTypeChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">CharacterMoveType</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
