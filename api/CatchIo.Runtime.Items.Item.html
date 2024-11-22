@@ -83,19 +83,21 @@
   
   <h1 id="CatchIo_Runtime_Items_Item" data-uid="CatchIo.Runtime.Items.Item" class="text-break">Class Item
   </h1>
-  <div class="markdown level0 summary"><p>Base class for all items.</p>
+  <div class="markdown level0 summary"><p>Base class for all items in the game, handling item data, collection, and interactions.
+Provides methods to manage item state (grounded, collected), detectability, and networked actions
+such as item pickup, drop, and destruction. Implements IDetectable for detection in the game world 
+and IPoolable for pooling.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Item</span></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.ConsumableItem.html">ConsumableItem</a></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.ThrowableItem.html">ThrowableItem</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Core.ThrowableItem.html">ThrowableItem</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Core.UsableItem.html">UsableItem</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IPunInstantiateMagicCallback</span></div>
     <div><span class="xref">IDetectable</span></div>
     <div><span class="xref">IPoolable</span></div>
   </div>
@@ -109,12 +111,12 @@
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Items_Item__isDiscarding" data-uid="CatchIo.Runtime.Items.Item._isDiscarding">_isDiscarding</h4>
+  <h4 id="CatchIo_Runtime_Items_Item__itemData" data-uid="CatchIo.Runtime.Items.Item._itemData">_itemData</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool _isDiscarding</code></pre>
+    <pre><code class="lang-csharp hljs">protected ItemData _itemData</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,55 +128,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Items_Item__isDropping" data-uid="CatchIo.Runtime.Items.Item._isDropping">_isDropping</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool _isDropping</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Items_Item__itemSfx" data-uid="CatchIo.Runtime.Items.Item._itemSfx">_itemSfx</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ItemSfx _itemSfx</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ItemSfx</span></td>
+        <td><span class="xref">ItemData</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -205,12 +159,12 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Items_Item_DisacrdTrajectoryData" data-uid="CatchIo.Runtime.Items.Item.DisacrdTrajectoryData">DisacrdTrajectoryData</h4>
+  <h4 id="CatchIo_Runtime_Items_Item__poolManager" data-uid="CatchIo.Runtime.Items.Item._poolManager">_poolManager</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TrajectoryData DisacrdTrajectoryData</code></pre>
+    <pre><code class="lang-csharp hljs">protected GameObjectPoolManager _poolManager</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,19 +176,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TrajectoryData</span></td>
+        <td><span class="xref">GameObjectPoolManager</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Items_Item_DiscardCoroutine" data-uid="CatchIo.Runtime.Items.Item.DiscardCoroutine">DiscardCoroutine</h4>
+  <h4 id="CatchIo_Runtime_Items_Item__spriteRenderer" data-uid="CatchIo.Runtime.Items.Item._spriteRenderer">_spriteRenderer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IEnumerator DiscardCoroutine</code></pre>
+    <pre><code class="lang-csharp hljs">protected SpriteRenderer _spriteRenderer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -246,55 +200,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Items_Item_DiscardTrajectory" data-uid="CatchIo.Runtime.Items.Item.DiscardTrajectory">DiscardTrajectory</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Trajectory DiscardTrajectory</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Runtime.Trajectory.Trajectory.html">Trajectory</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Items_Item_ItemName" data-uid="CatchIo.Runtime.Items.Item.ItemName">ItemName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ItemName</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">SpriteRenderer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -303,9 +209,35 @@
   </h3>
   
   
+  <a id="CatchIo_Runtime_Items_Item_IsCollected_" data-uid="CatchIo.Runtime.Items.Item.IsCollected*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_IsCollected" data-uid="CatchIo.Runtime.Items.Item.IsCollected">IsCollected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCollected { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Items_Item_IsDetected_" data-uid="CatchIo.Runtime.Items.Item.IsDetected*"></a>
   <h4 id="CatchIo_Runtime_Items_Item_IsDetected" data-uid="CatchIo.Runtime.Items.Item.IsDetected">IsDetected</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets the detection state of the item, enabling name display when detected.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -328,13 +260,13 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Items_Item_Owner_" data-uid="CatchIo.Runtime.Items.Item.Owner*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_Owner" data-uid="CatchIo.Runtime.Items.Item.Owner">Owner</h4>
+  <a id="CatchIo_Runtime_Items_Item_IsGrounded_" data-uid="CatchIo.Runtime.Items.Item.IsGrounded*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_IsGrounded" data-uid="CatchIo.Runtime.Items.Item.IsGrounded">IsGrounded</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterFacade Owner { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsGrounded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -346,20 +278,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Items_Item_Sprite_" data-uid="CatchIo.Runtime.Items.Item.Sprite*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_Sprite" data-uid="CatchIo.Runtime.Items.Item.Sprite">Sprite</h4>
+  <a id="CatchIo_Runtime_Items_Item_ItemData_" data-uid="CatchIo.Runtime.Items.Item.ItemData*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_ItemData" data-uid="CatchIo.Runtime.Items.Item.ItemData">ItemData</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Sprite Sprite { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemData ItemData { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -371,7 +303,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Sprite</span></td>
+        <td><span class="xref">ItemData</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -382,7 +314,8 @@
   
   <a id="CatchIo_Runtime_Items_Item_Acquire_" data-uid="CatchIo.Runtime.Items.Item.Acquire*"></a>
   <h4 id="CatchIo_Runtime_Items_Item_Acquire" data-uid="CatchIo.Runtime.Items.Item.Acquire">Acquire()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets item as acquired, triggers OnAcquired event, and resets collection state.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -390,13 +323,25 @@
   </div>
   
   
-  <a id="CatchIo_Runtime_Items_Item_CanPickup_" data-uid="CatchIo.Runtime.Items.Item.CanPickup*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_CanPickup" data-uid="CatchIo.Runtime.Items.Item.CanPickup">CanPickup()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Items_Item_Awake_" data-uid="CatchIo.Runtime.Items.Item.Awake*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_Awake" data-uid="CatchIo.Runtime.Items.Item.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Initializes required components and disables name display at start.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool CanPickup()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Items_Item_CanCollect_" data-uid="CatchIo.Runtime.Items.Item.CanCollect*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_CanCollect" data-uid="CatchIo.Runtime.Items.Item.CanCollect">CanCollect()</h4>
+  <div class="markdown level1 summary"><p>Determines if the item is collectible, based on its grounded and collection state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanCollect()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -415,13 +360,14 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Items_Item_GetDetectableObject_" data-uid="CatchIo.Runtime.Items.Item.GetDetectableObject*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_GetDetectableObject" data-uid="CatchIo.Runtime.Items.Item.GetDetectableObject">GetDetectableObject()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Items_Item_Collect_" data-uid="CatchIo.Runtime.Items.Item.Collect*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_Collect" data-uid="CatchIo.Runtime.Items.Item.Collect">Collect()</h4>
+  <div class="markdown level1 summary"><p>Collects the item, playing a pickup sound and destroying it in the pool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object GetDetectableObject()</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemData Collect()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -433,8 +379,54 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">ItemData</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Items_Item_Destroy_" data-uid="CatchIo.Runtime.Items.Item.Destroy*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_Destroy" data-uid="CatchIo.Runtime.Items.Item.Destroy">Destroy()</h4>
+  <div class="markdown level1 summary"><p>Releases the item back to the pool or destroys it based on network mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Items_Item_DropItem_" data-uid="CatchIo.Runtime.Items.Item.DropItem*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_DropItem_Vector2_Vector2_" data-uid="CatchIo.Runtime.Items.Item.DropItem(Vector2,Vector2)">DropItem(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Drops the item from a specified position in a certain direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DropItem(Vector2 startPosition, Vector2 dropDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>Starting position of the item drop.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">dropDirection</span></td>
+        <td><p>Direction to drop the item in.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -442,7 +434,8 @@
   
   <a id="CatchIo_Runtime_Items_Item_GetPosition_" data-uid="CatchIo.Runtime.Items.Item.GetPosition*"></a>
   <h4 id="CatchIo_Runtime_Items_Item_GetPosition" data-uid="CatchIo.Runtime.Items.Item.GetPosition">GetPosition()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the item&apos;s current position in world space.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -467,7 +460,8 @@
   
   <a id="CatchIo_Runtime_Items_Item_OnDetected_" data-uid="CatchIo.Runtime.Items.Item.OnDetected*"></a>
   <h4 id="CatchIo_Runtime_Items_Item_OnDetected" data-uid="CatchIo.Runtime.Items.Item.OnDetected">OnDetected()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Marks the item as detected and enables the name display.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -475,36 +469,10 @@
   </div>
   
   
-  <a id="CatchIo_Runtime_Items_Item_OnDiscard_" data-uid="CatchIo.Runtime.Items.Item.OnDiscard*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_OnDiscard_Vector2_" data-uid="CatchIo.Runtime.Items.Item.OnDiscard(Vector2)">OnDiscard(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnDiscard(Vector2 discardingDirection)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">discardingDirection</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="CatchIo_Runtime_Items_Item_OnMissed_" data-uid="CatchIo.Runtime.Items.Item.OnMissed*"></a>
   <h4 id="CatchIo_Runtime_Items_Item_OnMissed" data-uid="CatchIo.Runtime.Items.Item.OnMissed">OnMissed()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Marks the item as missed (no longer detected) and disables the name display.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -512,74 +480,10 @@
   </div>
   
   
-  <a id="CatchIo_Runtime_Items_Item_OnPhotonInstantiate_" data-uid="CatchIo.Runtime.Items.Item.OnPhotonInstantiate*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_OnPhotonInstantiate_PhotonMessageInfo_" data-uid="CatchIo.Runtime.Items.Item.OnPhotonInstantiate(PhotonMessageInfo)">OnPhotonInstantiate(PhotonMessageInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPhotonInstantiate(PhotonMessageInfo info)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PhotonMessageInfo</span></td>
-        <td><span class="parametername">info</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_Item_OnPickup_" data-uid="CatchIo.Runtime.Items.Item.OnPickup*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_OnPickup_CatchIo_Runtime_Character_CharacterFacade_" data-uid="CatchIo.Runtime.Items.Item.OnPickup(CatchIo.Runtime.Character.CharacterFacade)">OnPickup(CharacterFacade)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnPickup(CharacterFacade owner)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a></td>
-        <td><span class="parametername">owner</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_Item_OnRelease_" data-uid="CatchIo.Runtime.Items.Item.OnRelease*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_OnRelease" data-uid="CatchIo.Runtime.Items.Item.OnRelease">OnRelease()</h4>
-  <div class="markdown level1 summary"><p>On released to the object pool</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnRelease()</code></pre>
-  </div>
-  
-  
   <a id="CatchIo_Runtime_Items_Item_Release_" data-uid="CatchIo.Runtime.Items.Item.Release*"></a>
   <h4 id="CatchIo_Runtime_Items_Item_Release" data-uid="CatchIo.Runtime.Items.Item.Release">Release()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets item as released, triggers OnReleased event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -587,18 +491,194 @@
   </div>
   
   
-  <a id="CatchIo_Runtime_Items_Item_Start_" data-uid="CatchIo.Runtime.Items.Item.Start*"></a>
-  <h4 id="CatchIo_Runtime_Items_Item_Start" data-uid="CatchIo.Runtime.Items.Item.Start">Start()</h4>
+  <a id="CatchIo_Runtime_Items_Item_RPC_DestroyItem_" data-uid="CatchIo.Runtime.Items.Item.RPC_DestroyItem*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_RPC_DestroyItem" data-uid="CatchIo.Runtime.Items.Item.RPC_DestroyItem">RPC_DestroyItem()</h4>
+  <div class="markdown level1 summary"><p>RPC call to destroy the item on the master client in networked mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RPC_DestroyItem()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Items_Item_RPC_DropItem_" data-uid="CatchIo.Runtime.Items.Item.RPC_DropItem*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_RPC_DropItem_System_Int32_Vector2_Vector2_" data-uid="CatchIo.Runtime.Items.Item.RPC_DropItem(System.Int32,Vector2,Vector2)">RPC_DropItem(Int32, Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>RPC call to drop the item asynchronously, simulating a trajectory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RPC_DropItem(int itemViewID, Vector2 startPosition, Vector2 dropDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">itemViewID</span></td>
+        <td><p>PhotonView ID of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>Starting position of the item drop.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">dropDirection</span></td>
+        <td><p>Direction to drop the item in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Items_Item_RPC_PlayPickUpSFX_" data-uid="CatchIo.Runtime.Items.Item.RPC_PlayPickUpSFX*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_RPC_PlayPickUpSFX_System_String_" data-uid="CatchIo.Runtime.Items.Item.RPC_PlayPickUpSFX(System.String)">RPC_PlayPickUpSFX(String)</h4>
+  <div class="markdown level1 summary"><p>RPC call to play a pickup sound effect at the item&apos;s position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RPC_PlayPickUpSFX(string pickUpSFX)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pickUpSFX</span></td>
+        <td><p>Name of the sound effect to play.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Items_Item_RPC_SetData_" data-uid="CatchIo.Runtime.Items.Item.RPC_SetData*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_RPC_SetData_System_String_" data-uid="CatchIo.Runtime.Items.Item.RPC_SetData(System.String)">RPC_SetData(String)</h4>
+  <div class="markdown level1 summary"><p>RPC call to set data from a given path and initialize the item&apos;s visual and textual representation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void RPC_SetData(string dataPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataPath</span></td>
+        <td><p>Path to the ItemData asset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Items_Item_SetData_" data-uid="CatchIo.Runtime.Items.Item.SetData*"></a>
+  <h4 id="CatchIo_Runtime_Items_Item_SetData_ItemData_" data-uid="CatchIo.Runtime.Items.Item.SetData(ItemData)">SetData(ItemData)</h4>
+  <div class="markdown level1 summary"><p>Sets item data, initializing based on local or networked game mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetData(ItemData itemData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ItemData</span></td>
+        <td><span class="parametername">itemData</span></td>
+        <td><p>ItemData to be assigned to the item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Item_OnAcquired" data-uid="CatchIo.Runtime.Items.Item.OnAcquired">OnAcquired</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">public event UnityAction OnAcquired</code></pre>
   </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Item_OnReleased" data-uid="CatchIo.Runtime.Items.Item.OnReleased">OnReleased</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction OnReleased</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPunInstantiateMagicCallback</span>
-  </div>
   <div>
       <span class="xref">IDetectable</span>
   </div>

@@ -83,7 +83,9 @@
   
   <h1 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD" class="text-break">Class InventoryHUD
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manages the HUD display for the character&apos;s inventory, updating slot icons and managing
+cursor movement for item selection.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -96,67 +98,18 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class InventoryHUD : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_SelectSlotSize" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.SelectSlotSize">SelectSlotSize</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SelectSlotSize</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_Slots" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.Slots">Slots</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform Slots</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_AddItem_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.AddItem*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_AddItem_System_Int32_Item_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.AddItem(System.Int32,Item)">AddItem(Int32, Item)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_MoveCursor_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.MoveCursor*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_MoveCursor_System_Int32_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.MoveCursor(System.Int32)">MoveCursor(Int32)</h4>
+  <div class="markdown level1 summary"><p>Moves the cursor to a new slot based on the specified index.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddItem(int index, Item newItem)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MoveCursor(int cursor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,79 +123,22 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Item</span></td>
-        <td><span class="parametername">newItem</span></td>
-        <td></td>
+        <td><span class="parametername">cursor</span></td>
+        <td><p>The index of the slot to move the cursor to.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_ReleaseItem_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.ReleaseItem*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_ReleaseItem_System_Int32_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.ReleaseItem(System.Int32)">ReleaseItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_OnSlotUpdated_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.OnSlotUpdated*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_OnSlotUpdated_ItemSlot_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.OnSlotUpdated(ItemSlot)">OnSlotUpdated(ItemSlot)</h4>
+  <div class="markdown level1 summary"><p>Updates the sprite icon of the specified inventory slot in the HUD.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReleaseItem(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_RemoveItem_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.RemoveItem*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_RemoveItem_System_Int32_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.RemoveItem(System.Int32)">RemoveItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveItem(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_SelectItem_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.SelectItem*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventoryHUD_SelectItem_ItemSlot_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventoryHUD.SelectItem(ItemSlot)">SelectItem(ItemSlot)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SelectItem(ItemSlot slot)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSlotUpdated(ItemSlot updatedSlot)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,8 +152,9 @@
     <tbody>
       <tr>
         <td><span class="xref">ItemSlot</span></td>
-        <td><span class="parametername">slot</span></td>
-        <td></td>
+        <td><span class="parametername">updatedSlot</span></td>
+        <td><p>The slot with updated item data.</p>
+</td>
       </tr>
     </tbody>
   </table>

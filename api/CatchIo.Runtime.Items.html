@@ -87,29 +87,16 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Items.ConsumableItem.html">ConsumableItem</a></h4>
-      <section><p>Base class for consumable items.</p>
-</section>
       <h4><a class="xref" href="CatchIo.Runtime.Items.Item.html">Item</a></h4>
-      <section><p>Base class for all items.</p>
+      <section><p>Base class for all items in the game, handling item data, collection, and interactions.
+Provides methods to manage item state (grounded, collected), detectability, and networked actions
+such as item pickup, drop, and destruction. Implements IDetectable for detection in the game world 
+and IPoolable for pooling.</p>
 </section>
-      <h4><a class="xref" href="CatchIo.Runtime.Items.ItemRebounder.html">ItemRebounder</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Items.StaminaPotion.html">StaminaPotion</a></h4>
-      <section><p>This class recovers by HealVal the character when used by the player.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Items.Stone.html">Stone</a></h4>
-      <section><p>High-level implementation for the stone object.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Items.TeleportRune.html">TeleportRune</a></h4>
-      <section><p>This class can teleport to item landed position with teleport dissolve effect.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Items.ThrowableItem.html">ThrowableItem</a></h4>
-      <section><p>Base class for all throwable items.
-If player throwed this object, it will be placed to mouse-position.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Items.TrapRune.html">TrapRune</a></h4>
-      <section><p>This class implements the Trap Rune functionality.</p>
+      <h4><a class="xref" href="CatchIo.Runtime.Items.ItemSpawner.html">ItemSpawner</a></h4>
+      <section><p>Handles the spawning and respawning of items in the game. 
+This class uses a countdown timer to manage item respawn intervals 
+and coordinates item instantiation across clients in a multiplayer environment.</p>
 </section>
 </article>
           </div>

@@ -438,30 +438,6 @@ First element is footprint position and Second element is footprint direction.</
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnPickupItem" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnPickupItem">OnPickupItem</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;Item&gt; OnPickupItem</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Item</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="CatchIo_Runtime_Character_CharacterFacade_OnRemoveCursed" data-uid="CatchIo.Runtime.Character.CharacterFacade.OnRemoveCursed">OnRemoveCursed</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -882,6 +858,56 @@ First element is footprint position and Second element is footprint direction.</
   </table>
   
   
+  <a id="CatchIo_Runtime_Character_CharacterFacade_ItemFactory_" data-uid="CatchIo.Runtime.Character.CharacterFacade.ItemFactory*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_ItemFactory" data-uid="CatchIo.Runtime.Character.CharacterFacade.ItemFactory">ItemFactory</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryItemFactory ItemFactory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryItemFactory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_CharacterFacade_ItemThrower_" data-uid="CatchIo.Runtime.Character.CharacterFacade.ItemThrower*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_ItemThrower" data-uid="CatchIo.Runtime.Character.CharacterFacade.ItemThrower">ItemThrower</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterItemThrower ItemThrower { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterItemThrower</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_CharacterFacade_NearestCharacterInteractable_" data-uid="CatchIo.Runtime.Character.CharacterFacade.NearestCharacterInteractable*"></a>
   <h4 id="CatchIo_Runtime_Character_CharacterFacade_NearestCharacterInteractable" data-uid="CatchIo.Runtime.Character.CharacterFacade.NearestCharacterInteractable">NearestCharacterInteractable</h4>
   <div class="markdown level1 summary"></div>
@@ -1170,6 +1196,49 @@ First element is footprint position and Second element is footprint direction.</
   </div>
   
   
+  <a id="CatchIo_Runtime_Character_CharacterFacade_CreateItem_" data-uid="CatchIo.Runtime.Character.CharacterFacade.CreateItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_CharacterFacade_CreateItem__1_ItemData_" data-uid="CatchIo.Runtime.Character.CharacterFacade.CreateItem``1(ItemData)">CreateItem&lt;T&gt;(ItemData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateItem&lt;T&gt;(ItemData itemData)
+    where T : Item</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ItemData</span></td>
+        <td><span class="parametername">itemData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_CharacterFacade_DisableHitboxes_" data-uid="CatchIo.Runtime.Character.CharacterFacade.DisableHitboxes*"></a>
   <h4 id="CatchIo_Runtime_Character_CharacterFacade_DisableHitboxes" data-uid="CatchIo.Runtime.Character.CharacterFacade.DisableHitboxes">DisableHitboxes()</h4>
   <div class="markdown level1 summary"></div>
@@ -1380,33 +1449,6 @@ First element is footprint position and Second element is footprint direction.</
       <tr>
         <td><span class="xref">KnockBackData</span></td>
         <td><span class="parametername">knockBackData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_CharacterFacade_PickupItem_" data-uid="CatchIo.Runtime.Character.CharacterFacade.PickupItem*"></a>
-  <h4 id="CatchIo_Runtime_Character_CharacterFacade_PickupItem_System_Int32_" data-uid="CatchIo.Runtime.Character.CharacterFacade.PickupItem(System.Int32)">PickupItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PickupItem(int itemViewId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">itemViewId</span></td>
         <td></td>
       </tr>
     </tbody>

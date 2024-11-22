@@ -98,6 +98,7 @@ This class is responsible for handling damage, knockback, and stun effects for c
     <h5>Implements</h5>
     <div><span class="xref">IKnockBackable</span></div>
     <div><span class="xref">IStunnable</span></div>
+    <div><span class="xref">IItemImpactable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Receivers.html">CatchIo.Runtime.Character.Receivers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -217,6 +218,31 @@ Returns true if the character is not dead.</p>
   </h3>
   
   
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_GetViewID_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.GetViewID*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_GetViewID" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.GetViewID">GetViewID()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetViewID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_KnockBack_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.KnockBack*"></a>
   <h4 id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_KnockBack_KnockBackData_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.KnockBack(KnockBackData)">KnockBack(KnockBackData)</h4>
   <div class="markdown level1 summary"><p>Applies knockback to the character based on the provided KnockBackData.</p>
@@ -333,12 +359,73 @@ If the character is dead (Health is 0 or below), the damage is not applied.</p>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_TakeImpact_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.TakeImpact*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_TakeImpact_System_Int32_IItemImpact_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.TakeImpact(System.Int32,IItemImpact)">TakeImpact(Int32, IItemImpact)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeImpact(int instigator, IItemImpact effect)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">instigator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IItemImpact</span></td>
+        <td><span class="parametername">effect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_OnImpactTaken" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.OnImpactTaken">OnImpactTaken</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;int, IItemImpact&gt; OnImpactTaken</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">IItemImpact</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IKnockBackable</span>
   </div>
   <div>
       <span class="xref">IStunnable</span>
+  </div>
+  <div>
+      <span class="xref">IItemImpactable</span>
   </div>
 </article>
           </div>
