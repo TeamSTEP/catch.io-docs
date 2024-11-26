@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct SliceVector
+    <title>Class AnimationEventBlendTreeBehaviour
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct SliceVector
+    <meta name="title" content="Class AnimationEventBlendTreeBehaviour
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,31 +78,89 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour">
   
   
-  <h1 id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector" class="text-break">Struct SliceVector
+  <h1 id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour" class="text-break">Class AnimationEventBlendTreeBehaviour
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A StateMachineBehaviour for handling animation events within a blend tree.
+Triggers an event based on a specified time during the animation state.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Editor.Windows.CharacterAnimationWindow.html">CatchIo.Editor.Windows.CharacterAnimationWindow</a></h6>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AnimationEventBlendTreeBehaviour</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.AnimationEvents.html">CatchIo.Runtime.AnimationEvents</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public struct SliceVector</code></pre>
+    <pre><code class="lang-csharp hljs">public class AnimationEventBlendTreeBehaviour : StateMachineBehaviour</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector__ctor_" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.#ctor*"></a>
-  <h4 id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector__ctor_System_String_" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.#ctor(System.String)">SliceVector(String)</h4>
+  <h4 id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour_EventName" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour.EventName">EventName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SliceVector(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public string EventName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour_TriggerTime" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour.TriggerTime">TriggerTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TriggerTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour_OnStateEnter_" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour.OnStateEnter*"></a>
+  <h4 id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour_OnStateEnter_Animator_AnimatorStateInfo_System_Int32_" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour.OnStateEnter(Animator,AnimatorStateInfo,System.Int32)">OnStateEnter(Animator, AnimatorStateInfo, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called when the state is first entered.
+Initializes the trigger flag and attempts to get the AnimationEventReceiver component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,21 +173,36 @@ public struct SliceVector</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><span class="xref">Animator</span></td>
+        <td><span class="parametername">animator</span></td>
+        <td><p>The Animator playing the state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">AnimatorStateInfo</span></td>
+        <td><span class="parametername">stateInfo</span></td>
+        <td><p>Information about the current animation state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">layerIndex</span></td>
+        <td><p>The index of the layer playing the animation state.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector__ctor_" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.#ctor*"></a>
-  <h4 id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector__ctor_System_String_System_Int32_System_Int32_" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.#ctor(System.String,System.Int32,System.Int32)">SliceVector(String, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour_OnStateUpdate_" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour.OnStateUpdate*"></a>
+  <h4 id="CatchIo_Runtime_AnimationEvents_AnimationEventBlendTreeBehaviour_OnStateUpdate_Animator_AnimatorStateInfo_System_Int32_" data-uid="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour.OnStateUpdate(Animator,AnimatorStateInfo,System.Int32)">OnStateUpdate(Animator, AnimatorStateInfo, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called on each update frame between OnStateEnter and OnStateExit.
+Checks if the animation has reached the trigger time and triggers the event if it has not been triggered yet.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SliceVector(string name, int column, int row)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,96 +215,22 @@ public struct SliceVector</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><span class="xref">Animator</span></td>
+        <td><span class="parametername">animator</span></td>
+        <td><p>The Animator playing the state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">AnimatorStateInfo</span></td>
+        <td><span class="parametername">stateInfo</span></td>
+        <td><p>Information about the current animation state.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">column</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">row</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector_Column_" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.Column*"></a>
-  <h4 id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector_Column" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.Column">Column</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int Column { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector_Name_" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.Name*"></a>
-  <h4 id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector_Name" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector_Row_" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.Row*"></a>
-  <h4 id="CatchIo_Editor_Windows_CharacterAnimationWindow_SliceVector_Row" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.SliceVector.Row">Row</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int Row { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><span class="parametername">layerIndex</span></td>
+        <td><p>The index of the layer playing the animation state.</p>
+</td>
       </tr>
     </tbody>
   </table>

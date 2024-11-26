@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct AnimInfo
+    <title>Namespace CatchIo.Runtime.AnimationEvents
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct AnimInfo
+    <meta name="title" content="Namespace CatchIo.Runtime.AnimationEvents
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,70 +78,31 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.AnimInfo">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.AnimationEvents">
   
-  
-  <h1 id="CatchIo_Editor_Windows_CharacterAnimationWindow_AnimInfo" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.AnimInfo" class="text-break">Struct AnimInfo
+  <h1 id="CatchIo_Runtime_AnimationEvents" data-uid="CatchIo.Runtime.AnimationEvents" class="text-break">Namespace CatchIo.Runtime.AnimationEvents
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Editor.Windows.CharacterAnimationWindow.html">CatchIo.Editor.Windows.CharacterAnimationWindow</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Editor_Windows_CharacterAnimationWindow_AnimInfo_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public struct AnimInfo</code></pre>
-  </div>
-  <h3 id="fields">Fields
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
   </h3>
-  
-  
-  <h4 id="CatchIo_Editor_Windows_CharacterAnimationWindow_AnimInfo_Clip" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.AnimInfo.Clip">Clip</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnimationClip Clip</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">AnimationClip</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Editor_Windows_CharacterAnimationWindow_AnimInfo_Direction" data-uid="CatchIo.Editor.Windows.CharacterAnimationWindow.AnimInfo.Direction">Direction</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DirType Direction</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Editor.Windows.CharacterAnimationWindow.DirType.html">DirType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+      <h4><a class="xref" href="CatchIo.Runtime.AnimationEvents.AnimationEvent.html">AnimationEvent</a></h4>
+      <section><p>Represents an animation event that can be triggered within an animation.
+Contains an event name and a UnityEvent that can be invoked during the animation.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.AnimationEvents.AnimationEventBlendTreeBehaviour.html">AnimationEventBlendTreeBehaviour</a></h4>
+      <section><p>A StateMachineBehaviour for handling animation events within a blend tree.
+Triggers an event based on a specified time during the animation state.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.AnimationEvents.AnimationEventReceiver.html">AnimationEventReceiver</a></h4>
+      <section><p>Receives animation events triggered by StateMachineBehaviours.
+Finds and invokes the corresponding UnityEvent based on the event name.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.AnimationEvents.AnimationEventStateBehaviour.html">AnimationEventStateBehaviour</a></h4>
+      <section><p>A StateMachineBehaviour for handling animation events during a specific animation state.
+Triggers an event based on a specified time within the animation state.</p>
+</section>
 </article>
           </div>
           
