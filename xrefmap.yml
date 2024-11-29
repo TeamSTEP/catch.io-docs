@@ -2557,19 +2557,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterInput.InputRun
   nameWithType: CharacterInput.InputRun
-- uid: CatchIo.Runtime.Character.CharacterInput.IsCharging
-  name: IsCharging
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_IsCharging
-  commentId: P:CatchIo.Runtime.Character.CharacterInput.IsCharging
-  fullName: CatchIo.Runtime.Character.CharacterInput.IsCharging
-  nameWithType: CharacterInput.IsCharging
-- uid: CatchIo.Runtime.Character.CharacterInput.IsCharging*
-  name: IsCharging
-  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_IsCharging_
-  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.IsCharging
+- uid: CatchIo.Runtime.Character.CharacterInput.IsAttackButtonHeld
+  name: IsAttackButtonHeld
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_IsAttackButtonHeld
+  commentId: P:CatchIo.Runtime.Character.CharacterInput.IsAttackButtonHeld
+  fullName: CatchIo.Runtime.Character.CharacterInput.IsAttackButtonHeld
+  nameWithType: CharacterInput.IsAttackButtonHeld
+- uid: CatchIo.Runtime.Character.CharacterInput.IsAttackButtonHeld*
+  name: IsAttackButtonHeld
+  href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_IsAttackButtonHeld_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterInput.IsAttackButtonHeld
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.CharacterInput.IsCharging
-  nameWithType: CharacterInput.IsCharging
+  fullName: CatchIo.Runtime.Character.CharacterInput.IsAttackButtonHeld
+  nameWithType: CharacterInput.IsAttackButtonHeld
 - uid: CatchIo.Runtime.Character.CharacterInput.IsGamePadActive
   name: IsGamePadActive
   href: api/CatchIo.Runtime.Character.CharacterInput.html#CatchIo_Runtime_Character_CharacterInput_IsGamePadActive
@@ -14736,6 +14736,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
   nameWithType: CharacterStatus.Forward
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HasStamina(System.Single)
+  name: HasStamina(Single)
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_HasStamina_System_Single_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HasStamina(System.Single)
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HasStamina(System.Single)
+  nameWithType: CharacterStatus.HasStamina(Single)
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HasStamina*
+  name: HasStamina
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_HasStamina_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HasStamina
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HasStamina
+  nameWithType: CharacterStatus.HasStamina
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Health
   name: Health
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Health
@@ -14846,19 +14859,6 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsAiming
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsAiming
   nameWithType: CharacterStatus.IsAiming
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsChargingAttack
-  name: IsChargingAttack
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsChargingAttack
-  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsChargingAttack
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsChargingAttack
-  nameWithType: CharacterStatus.IsChargingAttack
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsChargingAttack*
-  name: IsChargingAttack
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsChargingAttack_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsChargingAttack
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsChargingAttack
-  nameWithType: CharacterStatus.IsChargingAttack
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsCursed
   name: IsCursed
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsCursed
