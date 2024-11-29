@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Runtime.Services
+    <title>Class FullScreenEffectService
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Runtime.Services
+    <meta name="title" content="Class FullScreenEffectService
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,31 +78,79 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Services">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Services.FullScreenEffectService">
   
-  <h1 id="CatchIo_Runtime_Services" data-uid="CatchIo.Runtime.Services" class="text-break">Namespace CatchIo.Runtime.Services
+  
+  <h1 id="CatchIo_Runtime_Services_FullScreenEffectService" data-uid="CatchIo.Runtime.Services.FullScreenEffectService" class="text-break">Class FullScreenEffectService
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A class that Manages full screen overlay effect based on the Blit shader</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">FullScreenEffectService</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Services.html">CatchIo.Runtime.Services</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Services_FullScreenEffectService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FullScreenEffectService : MonoRegistrable</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Services.ConsoleService.html">ConsoleService</a></h4>
-      <section><p>This class stores custom console commands that can be run within a room. (not in the launcher or menus)</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Services.FullScreenEffectService.html">FullScreenEffectService</a></h4>
-      <section><p>A class that Manages full screen overlay effect based on the Blit shader</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Services.LoadingScreenService.html">LoadingScreenService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Services.NetworkService.html">NetworkService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Services.SceneSwitchingService.html">SceneSwitchingService</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Services.NetworkService.NetworkState.html">NetworkService.NetworkState</a></h4>
-      <section></section>
+  
+  
+  <a id="CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect*"></a>
+  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect">ActivateEffect()</h4>
+  <div class="markdown level1 summary"><p>Act as trigger to activate the fullscreen effect</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ActivateEffect()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial*"></a>
+  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_Material_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)">ChangeMaterial(Material)</h4>
+  <div class="markdown level1 summary"><p>Chage the intended fullscreen overlay material
+Then attach it to the existing blit</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeMaterial(Material material)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Material</span></td>
+        <td><span class="parametername">material</span></td>
+        <td><p>fullscreen overlay material</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect*"></a>
+  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect">DeactivateEffect()</h4>
+  <div class="markdown level1 summary"><p>Act as trigger to deactivate the fullscreen effect</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeactivateEffect()</code></pre>
+  </div>
 </article>
           </div>
           

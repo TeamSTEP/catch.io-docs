@@ -11274,6 +11274,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Managers.GameManager.CurrentGameSceneMode
   nameWithType: GameManager.CurrentGameSceneMode
+- uid: CatchIo.Runtime.Managers.GameManager.FullScreenEffectService
+  name: FullScreenEffectService
+  href: api/CatchIo.Runtime.Managers.GameManager.html#CatchIo_Runtime_Managers_GameManager_FullScreenEffectService
+  commentId: P:CatchIo.Runtime.Managers.GameManager.FullScreenEffectService
+  fullName: CatchIo.Runtime.Managers.GameManager.FullScreenEffectService
+  nameWithType: GameManager.FullScreenEffectService
+- uid: CatchIo.Runtime.Managers.GameManager.FullScreenEffectService*
+  name: FullScreenEffectService
+  href: api/CatchIo.Runtime.Managers.GameManager.html#CatchIo_Runtime_Managers_GameManager_FullScreenEffectService_
+  commentId: Overload:CatchIo.Runtime.Managers.GameManager.FullScreenEffectService
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Managers.GameManager.FullScreenEffectService
+  nameWithType: GameManager.FullScreenEffectService
 - uid: CatchIo.Runtime.Managers.GameManager.LoadingScreenService
   name: LoadingScreenService
   href: api/CatchIo.Runtime.Managers.GameManager.html#CatchIo_Runtime_Managers_GameManager_LoadingScreenService
@@ -18004,6 +18017,51 @@ references:
   commentId: T:CatchIo.Runtime.Services.ConsoleService
   fullName: CatchIo.Runtime.Services.ConsoleService
   nameWithType: ConsoleService
+- uid: CatchIo.Runtime.Services.FullScreenEffectService
+  name: FullScreenEffectService
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html
+  commentId: T:CatchIo.Runtime.Services.FullScreenEffectService
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService
+  nameWithType: FullScreenEffectService
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect
+  name: ActivateEffect()
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect()
+  nameWithType: FullScreenEffectService.ActivateEffect()
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect*
+  name: ActivateEffect
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_
+  commentId: Overload:CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect
+  nameWithType: FullScreenEffectService.ActivateEffect
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)
+  name: ChangeMaterial(Material)
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_Material_
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)
+  nameWithType: FullScreenEffectService.ChangeMaterial(Material)
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial*
+  name: ChangeMaterial
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_
+  commentId: Overload:CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial
+  nameWithType: FullScreenEffectService.ChangeMaterial
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
+  name: DeactivateEffect()
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect()
+  nameWithType: FullScreenEffectService.DeactivateEffect()
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect*
+  name: DeactivateEffect
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_
+  commentId: Overload:CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
+  nameWithType: FullScreenEffectService.DeactivateEffect
 - uid: CatchIo.Runtime.Services.LoadingScreenService
   name: LoadingScreenService
   href: api/CatchIo.Runtime.Services.LoadingScreenService.html
@@ -19517,6 +19575,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.StaminaSfx.Play
   nameWithType: StaminaSfx.Play
+- uid: CatchIo.Runtime.Sound.StaminaSfx.ResetCurrentState
+  name: ResetCurrentState()
+  href: api/CatchIo.Runtime.Sound.StaminaSfx.html#CatchIo_Runtime_Sound_StaminaSfx_ResetCurrentState
+  commentId: M:CatchIo.Runtime.Sound.StaminaSfx.ResetCurrentState
+  fullName: CatchIo.Runtime.Sound.StaminaSfx.ResetCurrentState()
+  nameWithType: StaminaSfx.ResetCurrentState()
+- uid: CatchIo.Runtime.Sound.StaminaSfx.ResetCurrentState*
+  name: ResetCurrentState
+  href: api/CatchIo.Runtime.Sound.StaminaSfx.html#CatchIo_Runtime_Sound_StaminaSfx_ResetCurrentState_
+  commentId: Overload:CatchIo.Runtime.Sound.StaminaSfx.ResetCurrentState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.StaminaSfx.ResetCurrentState
+  nameWithType: StaminaSfx.ResetCurrentState
 - uid: CatchIo.Runtime.Sound.StaminaSfx.Stop
   name: Stop()
   href: api/CatchIo.Runtime.Sound.StaminaSfx.html#CatchIo_Runtime_Sound_StaminaSfx_Stop
