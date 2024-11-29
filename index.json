@@ -99,10 +99,15 @@
     "title": "Class StringSignalListenerEditor | Catch.io Developer Reference",
     "keywords": "Class StringSignalListenerEditor Inheritance System.Object StringSignalListenerEditor Namespace : CatchIo.Editor.SignalListenerEditors Assembly : cs.temp.dll.dll Syntax public class StringSignalListenerEditor : SignalListenerEditor Methods Compose() Declaration protected override void Compose() FindProperties() Declaration protected override void FindProperties() InitializeEditor() Declaration protected override void InitializeEditor()"
   },
+  "api/CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.html": {
+    "href": "api/CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.html",
+    "title": "Class AmbientMusicAreaImporter | Catch.io Developer Reference",
+    "keywords": "Class AmbientMusicAreaImporter Inheritance System.Object AmbientMusicAreaImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class AmbientMusicAreaImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args"
+  },
   "api/CatchIo.Editor.TmxImporters.html": {
     "href": "api/CatchIo.Editor.TmxImporters.html",
     "title": "Namespace CatchIo.Editor.TmxImporters | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Editor.TmxImporters Classes ItemSpawnerImporter LightAreaImporter LightSourcesImporter NpcImporter Custom Tmx importer for handling NPC import in maps. It processes specific object layers in Tiled maps, identifies NPC spawn points, and automatically instantiates and configures NPCs based on provided data. TileObjectsImporter TmxPrefabReplacer"
+    "keywords": "Namespace CatchIo.Editor.TmxImporters Classes AmbientMusicAreaImporter ItemSpawnerImporter LightAreaImporter LightSourcesImporter NpcImporter Custom Tmx importer for handling NPC import in maps. It processes specific object layers in Tiled maps, identifies NPC spawn points, and automatically instantiates and configures NPCs based on provided data. TileObjectsImporter TmxPrefabReplacer"
   },
   "api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html": {
     "href": "api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html",
@@ -139,15 +144,15 @@
     "title": "Class UnityPathUtil | Catch.io Developer Reference",
     "keywords": "Class UnityPathUtil Inheritance System.Object UnityPathUtil Namespace : CatchIo.Editor Assembly : cs.temp.dll.dll Syntax public static class UnityPathUtil Methods GetFullPathFromRelative(String, String, Char) Path utility that combines the original path with the relative path with all the directory change operations. This is a simple implementation focusing on readability, but we can expand this class to do more. Declaration public static string GetFullPathFromRelative(string originPath, string relativeTarget, char separator = '/') Parameters Type Name Description System.String originPath The reference path System.String relativeTarget Relative path from the origin path System.Char separator File separator. Default is the Unix style Returns Type Description System.String The full path to the given relative path"
   },
-  "api/CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.html": {
-    "href": "api/CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.html",
-    "title": "Class FMODEventParameterDrawer | Catch.io Developer Reference",
-    "keywords": "Class FMODEventParameterDrawer Inheritance System.Object FMODEventParameterDrawer Namespace : CatchIo.Editor.Utility.Attributes Assembly : cs.temp.dll.dll Syntax public class FMODEventParameterDrawer : PropertyDrawer Methods OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  "api/CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.html": {
+    "href": "api/CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.html",
+    "title": "Class FMODEventParameterValueDrawer | Catch.io Developer Reference",
+    "keywords": "Class FMODEventParameterValueDrawer Inheritance System.Object FMODEventParameterValueDrawer Namespace : CatchIo.Editor.Utility.Attributes Assembly : cs.temp.dll.dll Syntax public class FMODEventParameterValueDrawer : PropertyDrawer Methods OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
   },
   "api/CatchIo.Editor.Utility.Attributes.html": {
     "href": "api/CatchIo.Editor.Utility.Attributes.html",
     "title": "Namespace CatchIo.Editor.Utility.Attributes | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Editor.Utility.Attributes Classes FMODEventParameterDrawer MonoScriptPropertyDrawer"
+    "keywords": "Namespace CatchIo.Editor.Utility.Attributes Classes FMODEventParameterValueDrawer MonoScriptPropertyDrawer"
   },
   "api/CatchIo.Editor.Utility.Attributes.MonoScriptPropertyDrawer.html": {
     "href": "api/CatchIo.Editor.Utility.Attributes.MonoScriptPropertyDrawer.html",
@@ -163,6 +168,16 @@
     "href": "api/CatchIo.Editor.Utility.MapItemViewIDUpdateUtil.html",
     "title": "Class MapItemViewIDUpdateUtil | Catch.io Developer Reference",
     "keywords": "Class MapItemViewIDUpdateUtil Inheritance System.Object MapItemViewIDUpdateUtil Namespace : CatchIo.Editor.Utility Assembly : cs.temp.dll.dll Syntax public class MapItemViewIDUpdateUtil : AssetPostprocessor"
+  },
+  "api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.html": {
+    "href": "api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.html",
+    "title": "Class AmbienceMusicSettingsGenerator | Catch.io Developer Reference",
+    "keywords": "Class AmbienceMusicSettingsGenerator A Unity EditorWindow tool for generating scriptable classes for FMOD Ambience settings. Inheritance System.Object AmbienceMusicSettingsGenerator Namespace : CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow Assembly : cs.temp.dll.dll Syntax public class AmbienceMusicSettingsGenerator : EditorWindow Remarks This tool scans FMOD events for ambience-related paths and allows the user to generate scriptable object classes representing the parameters of these events. The generated classes are saved to a specified directory. Methods Init() Declaration public static void Init()"
+  },
+  "api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.html": {
+    "href": "api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.html",
+    "title": "Namespace CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow Classes AmbienceMusicSettingsGenerator A Unity EditorWindow tool for generating scriptable classes for FMOD Ambience settings."
   },
   "api/CatchIo.Game.Characters.Enums.CharacterColorType.html": {
     "href": "api/CatchIo.Game.Characters.Enums.CharacterColorType.html",
@@ -1974,6 +1989,21 @@
     "title": "Struct ScreenResolutionUtils.ScreenResolutionWidthHeightValue | Catch.io Developer Reference",
     "keywords": "Struct ScreenResolutionUtils.ScreenResolutionWidthHeightValue Namespace : CatchIo.Runtime.Settings Assembly : cs.temp.dll.dll Syntax public struct ScreenResolutionWidthHeightValue Constructors ScreenResolutionWidthHeightValue(Int32, Int32) Declaration public ScreenResolutionWidthHeightValue(int width, int height) Parameters Type Name Description System.Int32 width System.Int32 height Properties Height Declaration public int Height { readonly get; } Property Value Type Description System.Int32 Width Declaration public int Width { readonly get; } Property Value Type Description System.Int32"
   },
+  "api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html": {
+    "href": "api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html",
+    "title": "Class AmbientMusicManager | Catch.io Developer Reference",
+    "keywords": "Class AmbientMusicManager Handle ambience music changes within map scene. Inheritance System.Object AmbientMusicManager Namespace : CatchIo.Runtime.Sound.AmbientMusic Assembly : cs.temp.dll.dll Syntax public class AmbientMusicManager : MonoBehaviour Remarks Placed only withing the map scenes. Properties Instance Declaration public static AmbientMusicManager Instance { get; } Property Value Type Description AmbientMusicManager Methods SetParameter(String, String, Object) Set FMOD event parameter with given parameter value Declaration public void SetParameter(string eventPath, string parameterName, object parameterValue) Parameters Type Name Description System.String eventPath FMOD event to set parameter System.String parameterName FMOD para meter on FMOD event System.Object parameterValue Parameter Value to set SetPosition(Vector3) Uses for 3d attribute sfx (scatter effect, etc.) Declaration public void SetPosition(Vector3 pos) Parameters Type Name Description Vector3 pos center position of area"
+  },
+  "api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.html": {
+    "href": "api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.html",
+    "title": "Class AmbientMusicTrigger | Catch.io Developer Reference",
+    "keywords": "Class AmbientMusicTrigger Use to handle player entering and exiting of ambient music area trigger Inheritance System.Object AmbientMusicTrigger Namespace : CatchIo.Runtime.Sound.AmbientMusic Assembly : cs.temp.dll.dll Syntax public class AmbientMusicTrigger : MonoBehaviour Methods SetTriggerData(List<AmbientMusicSetting>, List<AmbientMusicSetting>) Declaration public void SetTriggerData(List<AmbientMusicSetting> triggerEnterSettings, List<AmbientMusicSetting> triggerExitSettings) Parameters Type Name Description System.Collections.Generic.List < AmbientMusicSetting > triggerEnterSettings System.Collections.Generic.List < AmbientMusicSetting > triggerExitSettings"
+  },
+  "api/CatchIo.Runtime.Sound.AmbientMusic.html": {
+    "href": "api/CatchIo.Runtime.Sound.AmbientMusic.html",
+    "title": "Namespace CatchIo.Runtime.Sound.AmbientMusic | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Sound.AmbientMusic Classes AmbientMusicManager Handle ambience music changes within map scene. AmbientMusicTrigger Use to handle player entering and exiting of ambient music area trigger"
+  },
   "api/CatchIo.Runtime.Sound.CharacterActionSfx.html": {
     "href": "api/CatchIo.Runtime.Sound.CharacterActionSfx.html",
     "title": "Class CharacterActionSfx | Catch.io Developer Reference",
@@ -2179,15 +2209,20 @@
     "title": "Class AutoRegisteredService | Catch.io Developer Reference",
     "keywords": "Class AutoRegisteredService Inheritance System.Object System.Attribute AutoRegisteredService Namespace : CatchIo.Runtime.Utility.Attributes Assembly : cs.temp.dll.dll Syntax [AttributeUsage(AttributeTargets.Class)] public class AutoRegisteredService : Attribute, _Attribute"
   },
-  "api/CatchIo.Runtime.Utility.Attributes.FMODEventParameter.html": {
-    "href": "api/CatchIo.Runtime.Utility.Attributes.FMODEventParameter.html",
-    "title": "Class FMODEventParameter | Catch.io Developer Reference",
-    "keywords": "Class FMODEventParameter Inheritance System.Object FMODEventParameter Namespace : CatchIo.Runtime.Utility.Attributes Assembly : cs.temp.dll.dll Syntax public class FMODEventParameter : PropertyAttribute Constructors FMODEventParameter(String) Create a new FMODEventParameter with the given event path. Declaration public FMODEventParameter(string eventPath) Parameters Type Name Description System.String eventPath FMOD event path Properties EventPath Declaration public string EventPath { get; } Property Value Type Description System.String"
+  "api/CatchIo.Runtime.Utility.Attributes.FMODEvent.html": {
+    "href": "api/CatchIo.Runtime.Utility.Attributes.FMODEvent.html",
+    "title": "Class FMODEvent | Catch.io Developer Reference",
+    "keywords": "Class FMODEvent Mark this as a FMOD event, this show a event selector. Inheritance System.Object FMODEvent Namespace : CatchIo.Runtime.Utility.Attributes Assembly : cs.temp.dll.dll Syntax public class FMODEvent : PropertyAttribute"
+  },
+  "api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html": {
+    "href": "api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html",
+    "title": "Class FMODEventParameterValue | Catch.io Developer Reference",
+    "keywords": "Class FMODEventParameterValue Mark this as a FMOD event parameter vale. Show parameter changer based on parameter type Need to provide FMOD event. Can provide FMOD parameter label as optional parameter. Inheritance System.Object FMODEventParameterValue Namespace : CatchIo.Runtime.Utility.Attributes Assembly : cs.temp.dll.dll Syntax public class FMODEventParameterValue : PropertyAttribute Constructors FMODEventParameterValue(String) Create a new FMODEventParameter with the given event path. Declaration public FMODEventParameterValue(string eventPath) Parameters Type Name Description System.String eventPath FMOD event path FMODEventParameterValue(String, String) Create a new FMODEventParameter with the given event path and parameter name. Declaration public FMODEventParameterValue(string eventPath, string eventParameterName) Parameters Type Name Description System.String eventPath FMOD event path System.String eventParameterName FMOD event parameter name Properties EventParameterName Declaration public string EventParameterName { get; } Property Value Type Description System.String EventPath Declaration public string EventPath { get; } Property Value Type Description System.String"
   },
   "api/CatchIo.Runtime.Utility.Attributes.html": {
     "href": "api/CatchIo.Runtime.Utility.Attributes.html",
     "title": "Namespace CatchIo.Runtime.Utility.Attributes | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Utility.Attributes Classes AutoRegisteredService FMODEventParameter MonoScriptAttribute TagSelectorAttribute"
+    "keywords": "Namespace CatchIo.Runtime.Utility.Attributes Classes AutoRegisteredService FMODEvent Mark this as a FMOD event, this show a event selector. FMODEventParameterValue Mark this as a FMOD event parameter vale. Show parameter changer based on parameter type Need to provide FMOD event. Can provide FMOD parameter label as optional parameter. MonoScriptAttribute TagSelectorAttribute"
   },
   "api/CatchIo.Runtime.Utility.Attributes.MonoScriptAttribute.html": {
     "href": "api/CatchIo.Runtime.Utility.Attributes.MonoScriptAttribute.html",

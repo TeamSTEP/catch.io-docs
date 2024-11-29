@@ -669,6 +669,25 @@ references:
   commentId: N:CatchIo.Editor.TmxImporters
   fullName: CatchIo.Editor.TmxImporters
   nameWithType: CatchIo.Editor.TmxImporters
+- uid: CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter
+  name: AmbientMusicAreaImporter
+  href: api/CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.html
+  commentId: T:CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter
+  fullName: CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter
+  nameWithType: AmbientMusicAreaImporter
+- uid: CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.TmxAssetImported(TmxAssetImportedArgs)
+  name: TmxAssetImported(TmxAssetImportedArgs)
+  href: api/CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.html#CatchIo_Editor_TmxImporters_AmbientMusicAreaImporter_TmxAssetImported_TmxAssetImportedArgs_
+  commentId: M:CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.TmxAssetImported(TmxAssetImportedArgs)
+  fullName: CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.TmxAssetImported(TmxAssetImportedArgs)
+  nameWithType: AmbientMusicAreaImporter.TmxAssetImported(TmxAssetImportedArgs)
+- uid: CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.TmxAssetImported*
+  name: TmxAssetImported
+  href: api/CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.html#CatchIo_Editor_TmxImporters_AmbientMusicAreaImporter_TmxAssetImported_
+  commentId: Overload:CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.TmxAssetImported
+  isSpec: "True"
+  fullName: CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.TmxAssetImported
+  nameWithType: AmbientMusicAreaImporter.TmxAssetImported
 - uid: CatchIo.Editor.TmxImporters.ItemSpawnerImporter
   name: ItemSpawnerImporter
   href: api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html
@@ -827,25 +846,25 @@ references:
   commentId: N:CatchIo.Editor.Utility.Attributes
   fullName: CatchIo.Editor.Utility.Attributes
   nameWithType: CatchIo.Editor.Utility.Attributes
-- uid: CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer
-  name: FMODEventParameterDrawer
-  href: api/CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.html
-  commentId: T:CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer
-  fullName: CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer
-  nameWithType: FMODEventParameterDrawer
-- uid: CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+- uid: CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer
+  name: FMODEventParameterValueDrawer
+  href: api/CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.html
+  commentId: T:CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer
+  fullName: CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer
+  nameWithType: FMODEventParameterValueDrawer
+- uid: CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
   name: OnGUI(Rect, SerializedProperty, GUIContent)
-  href: api/CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.html#CatchIo_Editor_Utility_Attributes_FMODEventParameterDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
-  commentId: M:CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
-  fullName: CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
-  nameWithType: FMODEventParameterDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
-- uid: CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.OnGUI*
+  href: api/CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.html#CatchIo_Editor_Utility_Attributes_FMODEventParameterValueDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: FMODEventParameterValueDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.OnGUI*
   name: OnGUI
-  href: api/CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.html#CatchIo_Editor_Utility_Attributes_FMODEventParameterDrawer_OnGUI_
-  commentId: Overload:CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.OnGUI
+  href: api/CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.html#CatchIo_Editor_Utility_Attributes_FMODEventParameterValueDrawer_OnGUI_
+  commentId: Overload:CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.OnGUI
   isSpec: "True"
-  fullName: CatchIo.Editor.Utility.Attributes.FMODEventParameterDrawer.OnGUI
-  nameWithType: FMODEventParameterDrawer.OnGUI
+  fullName: CatchIo.Editor.Utility.Attributes.FMODEventParameterValueDrawer.OnGUI
+  nameWithType: FMODEventParameterValueDrawer.OnGUI
 - uid: CatchIo.Editor.Utility.Attributes.MonoScriptPropertyDrawer
   name: MonoScriptPropertyDrawer
   href: api/CatchIo.Editor.Utility.Attributes.MonoScriptPropertyDrawer.html
@@ -871,6 +890,31 @@ references:
   commentId: T:CatchIo.Editor.Utility.MapItemViewIDUpdateUtil
   fullName: CatchIo.Editor.Utility.MapItemViewIDUpdateUtil
   nameWithType: MapItemViewIDUpdateUtil
+- uid: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow
+  name: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow
+  href: api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.html
+  commentId: N:CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow
+  fullName: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow
+  nameWithType: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow
+- uid: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator
+  name: AmbienceMusicSettingsGenerator
+  href: api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.html
+  commentId: T:CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator
+  fullName: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator
+  nameWithType: AmbienceMusicSettingsGenerator
+- uid: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.Init
+  name: Init()
+  href: api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.html#CatchIo_Editor_Windows_AmbienceSettingGeneratorWindow_AmbienceMusicSettingsGenerator_Init
+  commentId: M:CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.Init
+  fullName: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.Init()
+  nameWithType: AmbienceMusicSettingsGenerator.Init()
+- uid: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.Init*
+  name: Init
+  href: api/CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.html#CatchIo_Editor_Windows_AmbienceSettingGeneratorWindow_AmbienceMusicSettingsGenerator_Init_
+  commentId: Overload:CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.Init
+  isSpec: "True"
+  fullName: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.Init
+  nameWithType: AmbienceMusicSettingsGenerator.Init
 - uid: CatchIo.Game.Characters.Enums
   name: CatchIo.Game.Characters.Enums
   href: api/CatchIo.Game.Characters.Enums.html
@@ -18699,6 +18743,79 @@ references:
   commentId: N:CatchIo.Runtime.Sound
   fullName: CatchIo.Runtime.Sound
   nameWithType: CatchIo.Runtime.Sound
+- uid: CatchIo.Runtime.Sound.AmbientMusic
+  name: CatchIo.Runtime.Sound.AmbientMusic
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.html
+  commentId: N:CatchIo.Runtime.Sound.AmbientMusic
+  fullName: CatchIo.Runtime.Sound.AmbientMusic
+  nameWithType: CatchIo.Runtime.Sound.AmbientMusic
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager
+  name: AmbientMusicManager
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html
+  commentId: T:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager
+  nameWithType: AmbientMusicManager
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.Instance
+  name: Instance
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicManager_Instance
+  commentId: P:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.Instance
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.Instance
+  nameWithType: AmbientMusicManager.Instance
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.Instance*
+  name: Instance
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicManager_Instance_
+  commentId: Overload:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.Instance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.Instance
+  nameWithType: AmbientMusicManager.Instance
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetParameter(System.String,System.String,System.Object)
+  name: SetParameter(String, String, Object)
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicManager_SetParameter_System_String_System_String_System_Object_
+  commentId: M:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetParameter(System.String,System.String,System.Object)
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetParameter(System.String, System.String, System.Object)
+  nameWithType: AmbientMusicManager.SetParameter(String, String, Object)
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetParameter*
+  name: SetParameter
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicManager_SetParameter_
+  commentId: Overload:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetParameter
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetParameter
+  nameWithType: AmbientMusicManager.SetParameter
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetPosition(Vector3)
+  name: SetPosition(Vector3)
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicManager_SetPosition_Vector3_
+  commentId: M:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetPosition(Vector3)
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetPosition(Vector3)
+  nameWithType: AmbientMusicManager.SetPosition(Vector3)
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetPosition*
+  name: SetPosition
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicManager_SetPosition_
+  commentId: Overload:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.SetPosition
+  nameWithType: AmbientMusicManager.SetPosition
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger
+  name: AmbientMusicTrigger
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.html
+  commentId: T:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger
+  nameWithType: AmbientMusicTrigger
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.SetTriggerData(System.Collections.Generic.List{AmbientMusicSetting},System.Collections.Generic.List{AmbientMusicSetting})
+  name: SetTriggerData(List<AmbientMusicSetting>, List<AmbientMusicSetting>)
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicTrigger_SetTriggerData_System_Collections_Generic_List_AmbientMusicSetting__System_Collections_Generic_List_AmbientMusicSetting__
+  commentId: M:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.SetTriggerData(System.Collections.Generic.List{AmbientMusicSetting},System.Collections.Generic.List{AmbientMusicSetting})
+  name.vb: SetTriggerData(List(Of AmbientMusicSetting), List(Of AmbientMusicSetting))
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.SetTriggerData(System.Collections.Generic.List<AmbientMusicSetting>, System.Collections.Generic.List<AmbientMusicSetting>)
+  fullName.vb: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.SetTriggerData(System.Collections.Generic.List(Of AmbientMusicSetting), System.Collections.Generic.List(Of AmbientMusicSetting))
+  nameWithType: AmbientMusicTrigger.SetTriggerData(List<AmbientMusicSetting>, List<AmbientMusicSetting>)
+  nameWithType.vb: AmbientMusicTrigger.SetTriggerData(List(Of AmbientMusicSetting), List(Of AmbientMusicSetting))
+- uid: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.SetTriggerData*
+  name: SetTriggerData
+  href: api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.html#CatchIo_Runtime_Sound_AmbientMusic_AmbientMusicTrigger_SetTriggerData_
+  commentId: Overload:CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.SetTriggerData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicTrigger.SetTriggerData
+  nameWithType: AmbientMusicTrigger.SetTriggerData
 - uid: CatchIo.Runtime.Sound.CharacterActionSfx
   name: CharacterActionSfx
   href: api/CatchIo.Runtime.Sound.CharacterActionSfx.html
@@ -20539,38 +20656,63 @@ references:
   commentId: T:CatchIo.Runtime.Utility.Attributes.AutoRegisteredService
   fullName: CatchIo.Runtime.Utility.Attributes.AutoRegisteredService
   nameWithType: AutoRegisteredService
-- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameter
-  name: FMODEventParameter
-  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameter.html
-  commentId: T:CatchIo.Runtime.Utility.Attributes.FMODEventParameter
-  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameter
-  nameWithType: FMODEventParameter
-- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.#ctor(System.String)
-  name: FMODEventParameter(String)
-  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameter.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameter__ctor_System_String_
-  commentId: M:CatchIo.Runtime.Utility.Attributes.FMODEventParameter.#ctor(System.String)
-  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.FMODEventParameter(System.String)
-  nameWithType: FMODEventParameter.FMODEventParameter(String)
-- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.#ctor*
-  name: FMODEventParameter
-  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameter.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameter__ctor_
-  commentId: Overload:CatchIo.Runtime.Utility.Attributes.FMODEventParameter.#ctor
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEvent
+  name: FMODEvent
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEvent.html
+  commentId: T:CatchIo.Runtime.Utility.Attributes.FMODEvent
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEvent
+  nameWithType: FMODEvent
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue
+  name: FMODEventParameterValue
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html
+  commentId: T:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue
+  nameWithType: FMODEventParameterValue
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.#ctor(System.String)
+  name: FMODEventParameterValue(String)
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameterValue__ctor_System_String_
+  commentId: M:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.#ctor(System.String)
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.FMODEventParameterValue(System.String)
+  nameWithType: FMODEventParameterValue.FMODEventParameterValue(String)
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.#ctor(System.String,System.String)
+  name: FMODEventParameterValue(String, String)
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameterValue__ctor_System_String_System_String_
+  commentId: M:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.#ctor(System.String,System.String)
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.FMODEventParameterValue(System.String, System.String)
+  nameWithType: FMODEventParameterValue.FMODEventParameterValue(String, String)
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.#ctor*
+  name: FMODEventParameterValue
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameterValue__ctor_
+  commentId: Overload:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.#ctor
   isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.FMODEventParameter
-  nameWithType: FMODEventParameter.FMODEventParameter
-- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.EventPath
-  name: EventPath
-  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameter.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameter_EventPath
-  commentId: P:CatchIo.Runtime.Utility.Attributes.FMODEventParameter.EventPath
-  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.EventPath
-  nameWithType: FMODEventParameter.EventPath
-- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.EventPath*
-  name: EventPath
-  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameter.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameter_EventPath_
-  commentId: Overload:CatchIo.Runtime.Utility.Attributes.FMODEventParameter.EventPath
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.FMODEventParameterValue
+  nameWithType: FMODEventParameterValue.FMODEventParameterValue
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventParameterName
+  name: EventParameterName
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameterValue_EventParameterName
+  commentId: P:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventParameterName
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventParameterName
+  nameWithType: FMODEventParameterValue.EventParameterName
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventParameterName*
+  name: EventParameterName
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameterValue_EventParameterName_
+  commentId: Overload:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventParameterName
   isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameter.EventPath
-  nameWithType: FMODEventParameter.EventPath
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventParameterName
+  nameWithType: FMODEventParameterValue.EventParameterName
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventPath
+  name: EventPath
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameterValue_EventPath
+  commentId: P:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventPath
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventPath
+  nameWithType: FMODEventParameterValue.EventPath
+- uid: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventPath*
+  name: EventPath
+  href: api/CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.html#CatchIo_Runtime_Utility_Attributes_FMODEventParameterValue_EventPath_
+  commentId: Overload:CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventPath
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Attributes.FMODEventParameterValue.EventPath
+  nameWithType: FMODEventParameterValue.EventPath
 - uid: CatchIo.Runtime.Utility.Attributes.MonoScriptAttribute
   name: MonoScriptAttribute
   href: api/CatchIo.Runtime.Utility.Attributes.MonoScriptAttribute.html
