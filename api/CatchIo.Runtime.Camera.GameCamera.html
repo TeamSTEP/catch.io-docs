@@ -84,8 +84,7 @@
   <h1 id="CatchIo_Runtime_Camera_GameCamera" data-uid="CatchIo.Runtime.Camera.GameCamera" class="text-break">Class GameCamera
   </h1>
   <div class="markdown level0 summary"><p>The main camera class for in-game camera movements.
-By passing the player object as its member, this object will initialize all the camera setup and follow the provided player.
-There should only be one instance of this object per scene.</p>
+Manages all the camera setup and features for a single instance per scene, including zoom, follow, and overlay cameras.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -103,34 +102,10 @@ There should only be one instance of this object per scene.</p>
   </h3>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera__overlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera._overlayCamera*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera__overlayCamera" data-uid="CatchIo.Runtime.Camera.GameCamera._overlayCamera">_overlayCamera</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;OverlayCamera&gt; _overlayCamera { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="CatchIo_Runtime_Camera_GameCamera_Camera_" data-uid="CatchIo.Runtime.Camera.GameCamera.Camera*"></a>
   <h4 id="CatchIo_Runtime_Camera_GameCamera_Camera" data-uid="CatchIo.Runtime.Camera.GameCamera.Camera">Camera</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the main camera instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -151,24 +126,92 @@ There should only be one instance of this object per scene.</p>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera_AddCursedOneCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddCursedOneCullingMask*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_AddCursedOneCullingMask" data-uid="CatchIo.Runtime.Camera.GameCamera.AddCursedOneCullingMask">AddCursedOneCullingMask()</h4>
-  <div class="markdown level1 summary"><p>Add CursedOne layer to the camera culling mask.</p>
+  <a id="CatchIo_Runtime_Camera_GameCamera_Follow_" data-uid="CatchIo.Runtime.Camera.GameCamera.Follow*"></a>
+  <h4 id="CatchIo_Runtime_Camera_GameCamera_Follow" data-uid="CatchIo.Runtime.Camera.GameCamera.Follow">Follow</h4>
+  <div class="markdown level1 summary"><p>Gets the follow functionality of the camera.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddCursedOneCullingMask()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameCameraFollow Follow { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Camera.GameCameraFollow.html">GameCameraFollow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Camera_GameCamera_OverlayCameras_" data-uid="CatchIo.Runtime.Camera.GameCamera.OverlayCameras*"></a>
+  <h4 id="CatchIo_Runtime_Camera_GameCamera_OverlayCameras" data-uid="CatchIo.Runtime.Camera.GameCamera.OverlayCameras">OverlayCameras</h4>
+  <div class="markdown level1 summary"><p>List of overlay cameras associated with this camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;OverlayCamera&gt; OverlayCameras { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Camera_GameCamera_Zoom_" data-uid="CatchIo.Runtime.Camera.GameCamera.Zoom*"></a>
+  <h4 id="CatchIo_Runtime_Camera_GameCamera_Zoom" data-uid="CatchIo.Runtime.Camera.GameCamera.Zoom">Zoom</h4>
+  <div class="markdown level1 summary"><p>Gets the zoom functionality of the camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameCameraZoom Zoom { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Camera.GameCameraZoom.html">GameCameraZoom</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
   <a id="CatchIo_Runtime_Camera_GameCamera_AddOverlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddOverlayCamera*"></a>
   <h4 id="CatchIo_Runtime_Camera_GameCamera_AddOverlayCamera_CatchIo_Runtime_Camera_OverlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddOverlayCamera(CatchIo.Runtime.Camera.OverlayCamera)">AddOverlayCamera(OverlayCamera)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds an overlay camera to the stack if it is not already added.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -187,26 +230,17 @@ There should only be one instance of this object per scene.</p>
       <tr>
         <td><a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a></td>
         <td><span class="parametername">overlayCamera</span></td>
-        <td></td>
+        <td><p>The overlay camera to add.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera_AddSpectateCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.AddSpectateCullingMask*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_AddSpectateCullingMask" data-uid="CatchIo.Runtime.Camera.GameCamera.AddSpectateCullingMask">AddSpectateCullingMask()</h4>
-  <div class="markdown level1 summary"><p>Add Spectate layer to the camera culling mask.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddSpectateCullingMask()</code></pre>
-  </div>
-  
-  
   <a id="CatchIo_Runtime_Camera_GameCamera_GetOverlayCamera_" data-uid="CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera*"></a>
   <h4 id="CatchIo_Runtime_Camera_GameCamera_GetOverlayCamera_System_Int32_" data-uid="CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera(System.Int32)">GetOverlayCamera(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves an overlay camera by its index in the overlay camera list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -225,7 +259,8 @@ There should only be one instance of this object per scene.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index of the overlay camera.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -240,52 +275,21 @@ There should only be one instance of this object per scene.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a></td>
-        <td></td>
+        <td><p>The overlay camera if the index is valid, otherwise null.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Camera_GameCamera_Initialize_" data-uid="CatchIo.Runtime.Camera.GameCamera.Initialize*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_Initialize" data-uid="CatchIo.Runtime.Camera.GameCamera.Initialize">Initialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Camera_GameCamera_RemoveCursedOneCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.RemoveCursedOneCullingMask*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_RemoveCursedOneCullingMask" data-uid="CatchIo.Runtime.Camera.GameCamera.RemoveCursedOneCullingMask">RemoveCursedOneCullingMask()</h4>
-  <div class="markdown level1 summary"><p>Remove CursedOne layer to the camera culling mask.</p>
+  <a id="CatchIo_Runtime_Camera_GameCamera_SetCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.SetCullingMask*"></a>
+  <h4 id="CatchIo_Runtime_Camera_GameCamera_SetCullingMask_System_String_System_Boolean_" data-uid="CatchIo.Runtime.Camera.GameCamera.SetCullingMask(System.String,System.Boolean)">SetCullingMask(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the culling mask for the camera by adding or removing the specified layer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveCursedOneCullingMask()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Camera_GameCamera_RemoveSpectateCullingMask_" data-uid="CatchIo.Runtime.Camera.GameCamera.RemoveSpectateCullingMask*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_RemoveSpectateCullingMask" data-uid="CatchIo.Runtime.Camera.GameCamera.RemoveSpectateCullingMask">RemoveSpectateCullingMask()</h4>
-  <div class="markdown level1 summary"><p>Remove Spectate layer to the camera culling mask.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveSpectateCullingMask()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Camera_GameCamera_SetAttenuationObject_" data-uid="CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject*"></a>
-  <h4 id="CatchIo_Runtime_Camera_GameCamera_SetAttenuationObject_GameObject_" data-uid="CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject(GameObject)">SetAttenuationObject(GameObject)</h4>
-  <div class="markdown level1 summary"><p>Set fmod Listener attenuation Object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAttenuationObject(GameObject attenuationObject)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetCullingMask(string layerName, bool add)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,9 +302,16 @@ There should only be one instance of this object per scene.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">attenuationObject</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">layerName</span></td>
+        <td><p>The name of the layer to modify in the culling mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">add</span></td>
+        <td><p>True to add the layer, false to remove it.</p>
+</td>
       </tr>
     </tbody>
   </table>

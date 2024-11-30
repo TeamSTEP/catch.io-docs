@@ -134,6 +134,9 @@ This is used when objects can apply damage only to the feet collider of the char
     <div>
       <a class="xref" href="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_TakeImpact_System_Int32_IItemImpact_">CharacterDamageReceiver.TakeImpact(Int32, IItemImpact)</a>
     </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_CanInteract_HitBox_">CharacterDamageReceiver.CanInteract(HitBox)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Receivers.html">CatchIo.Runtime.Character.Receivers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -141,6 +144,60 @@ This is used when objects can apply damage only to the feet collider of the char
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class CharacterFeetDamageReceiver : CharacterDamageReceiver</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterFeetDamageReceiver_ViewID_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterFeetDamageReceiver.ViewID*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterFeetDamageReceiver_ViewID" data-uid="CatchIo.Runtime.Character.Receivers.CharacterFeetDamageReceiver.ViewID">ViewID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int ViewID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterFeetDamageReceiver_GetHurtBoxPosition_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterFeetDamageReceiver.GetHurtBoxPosition*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterFeetDamageReceiver_GetHurtBoxPosition" data-uid="CatchIo.Runtime.Character.Receivers.CharacterFeetDamageReceiver.GetHurtBoxPosition">GetHurtBoxPosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector2 GetHurtBoxPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IKnockBackable</span>

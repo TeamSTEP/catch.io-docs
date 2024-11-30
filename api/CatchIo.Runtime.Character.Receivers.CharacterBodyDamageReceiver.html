@@ -100,6 +100,7 @@ This is used when objects can apply damage only to the body collider of the char
     <div><span class="xref">IItemImpactable</span></div>
     <div><span class="xref">ICharacterInteractable</span></div>
     <div><span class="xref">ITransmorphableReceiver</span></div>
+    <div><span class="xref">IHUDDisplayable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -136,6 +137,9 @@ This is used when objects can apply damage only to the body collider of the char
     <div>
       <a class="xref" href="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_TakeImpact_System_Int32_IItemImpact_">CharacterDamageReceiver.TakeImpact(Int32, IItemImpact)</a>
     </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_CanInteract_HitBox_">CharacterDamageReceiver.CanInteract(HitBox)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Receivers.html">CatchIo.Runtime.Character.Receivers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -147,13 +151,63 @@ This is used when objects can apply damage only to the body collider of the char
   </h3>
   
   
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_HUDPositionProvider_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.HUDPositionProvider*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_HUDPositionProvider" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.HUDPositionProvider">HUDPositionProvider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityHUDPositionProvider HUDPositionProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityHUDPositionProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_HUDStream_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.HUDStream*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_HUDStream" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.HUDStream">HUDStream</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StreamId.EntityHUD HUDStream { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StreamId.EntityHUD</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ViewID_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ViewID*"></a>
   <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ViewID" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ViewID">ViewID</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ViewID { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override int ViewID { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -193,6 +247,56 @@ This is used when objects can apply damage only to the body collider of the char
     <tbody>
       <tr>
         <td><span class="xref">RuntimeAnimatorController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetHUDPositionProvider_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetHUDPositionProvider*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetHUDPositionProvider" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetHUDPositionProvider">GetHUDPositionProvider()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPositionProvider GetHUDPositionProvider()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPositionProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetHurtBoxPosition_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetHurtBoxPosition*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetHurtBoxPosition" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetHurtBoxPosition">GetHurtBoxPosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector2 GetHurtBoxPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -301,6 +405,38 @@ This is used when objects can apply damage only to the body collider of the char
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ToggleHUD_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ToggleHUD*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ToggleHUD_ACTION_TYPE_System_Boolean_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ToggleHUD(ACTION_TYPE,System.Boolean)">ToggleHUD(ACTION_TYPE, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleHUD(ACTION_TYPE actionType, bool active)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ACTION_TYPE</span></td>
+        <td><span class="parametername">actionType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IKnockBackable</span>
@@ -316,6 +452,9 @@ This is used when objects can apply damage only to the body collider of the char
   </div>
   <div>
       <span class="xref">ITransmorphableReceiver</span>
+  </div>
+  <div>
+      <span class="xref">IHUDDisplayable</span>
   </div>
 </article>
           </div>

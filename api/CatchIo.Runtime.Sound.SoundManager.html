@@ -152,43 +152,6 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Sound_SoundManager_DisableCharacterAudioListener_" data-uid="CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener*"></a>
-  <h4 id="CatchIo_Runtime_Sound_SoundManager_DisableCharacterAudioListener" data-uid="CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener">DisableCharacterAudioListener()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DisableCharacterAudioListener()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Sound_SoundManager_EnableCharacterAudioListener_" data-uid="CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener*"></a>
-  <h4 id="CatchIo_Runtime_Sound_SoundManager_EnableCharacterAudioListener_GameObject_" data-uid="CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener(GameObject)">EnableCharacterAudioListener(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void EnableCharacterAudioListener(GameObject localCharacter)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">localCharacter</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="CatchIo_Runtime_Sound_SoundManager_IsPlayingStaminaSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx*"></a>
   <h4 id="CatchIo_Runtime_Sound_SoundManager_IsPlayingStaminaSfx_System_String_" data-uid="CatchIo.Runtime.Sound.SoundManager.IsPlayingStaminaSfx(System.String)">IsPlayingStaminaSfx(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -348,12 +311,12 @@
   
   
   <a id="CatchIo_Runtime_Sound_SoundManager_PlayItemSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayItemSfx*"></a>
-  <h4 id="CatchIo_Runtime_Sound_SoundManager_PlayItemSfx_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayItemSfx(Vector3,System.String,System.Single)">PlayItemSfx(Vector3, String, Single)</h4>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_PlayItemSfx_Vector3_System_String_System_Boolean_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayItemSfx(Vector3,System.String,System.Boolean)">PlayItemSfx(Vector3, String, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayItemSfx(Vector3 generatePos, string itemType, float volume)</code></pre>
+    <pre><code class="lang-csharp hljs">public void PlayItemSfx(Vector3 generatePos, string itemType, bool usingRPC = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,8 +339,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">volume</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">usingRPC</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -554,6 +517,33 @@
   </table>
   
   
+  <a id="CatchIo_Runtime_Sound_SoundManager_PlayWhisperSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayWhisperSfx*"></a>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_PlayWhisperSfx_Vector2_" data-uid="CatchIo.Runtime.Sound.SoundManager.PlayWhisperSfx(Vector2)">PlayWhisperSfx(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayWhisperSfx(Vector2 generatePos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx*"></a>
   <h4 id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayCharacterActionSfx_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayCharacterActionSfx(Vector3,System.String,System.Single)">RPC_PlayCharacterActionSfx(Vector3, String, Single)</h4>
   <div class="markdown level1 summary"></div>
@@ -629,12 +619,12 @@
   
   
   <a id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayItemSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemSfx*"></a>
-  <h4 id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayItemSfx_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemSfx(Vector3,System.String,System.Single)">RPC_PlayItemSfx(Vector3, String, Single)</h4>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_RPC_PlayItemSfx_Vector3_System_String_" data-uid="CatchIo.Runtime.Sound.SoundManager.RPC_PlayItemSfx(Vector3,System.String)">RPC_PlayItemSfx(Vector3, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RPC_PlayItemSfx(Vector3 generatePos, string itemSfxName, float volume)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RPC_PlayItemSfx(Vector3 generatePos, string itemSfxName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -654,11 +644,6 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">itemSfxName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">volume</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -734,6 +719,33 @@
   </table>
   
   
+  <a id="CatchIo_Runtime_Sound_SoundManager_SetAttenuationObject_" data-uid="CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject*"></a>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_SetAttenuationObject_Transform_" data-uid="CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject(Transform)">SetAttenuationObject(Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAttenuationObject(Transform attenuationObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">attenuationObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Sound_SoundManager_StopStaminaSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.StopStaminaSfx*"></a>
   <h4 id="CatchIo_Runtime_Sound_SoundManager_StopStaminaSfx" data-uid="CatchIo.Runtime.Sound.SoundManager.StopStaminaSfx">StopStaminaSfx()</h4>
   <div class="markdown level1 summary"></div>
@@ -742,6 +754,48 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StopStaminaSfx()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_Runtime_Sound_SoundManager_StopWhisperSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.StopWhisperSfx*"></a>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_StopWhisperSfx" data-uid="CatchIo.Runtime.Sound.SoundManager.StopWhisperSfx">StopWhisperSfx()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopWhisperSfx()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Sound_SoundManager_UpdateWhisperSfx_" data-uid="CatchIo.Runtime.Sound.SoundManager.UpdateWhisperSfx*"></a>
+  <h4 id="CatchIo_Runtime_Sound_SoundManager_UpdateWhisperSfx_Vector2_System_Single_" data-uid="CatchIo.Runtime.Sound.SoundManager.UpdateWhisperSfx(Vector2,System.Single)">UpdateWhisperSfx(Vector2, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateWhisperSfx(Vector2 generatePos, float distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

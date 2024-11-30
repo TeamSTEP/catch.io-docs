@@ -100,6 +100,86 @@
   </h3>
   
   
+  <a id="CatchIo_Runtime_Utility_Extensions_IEnumerableExtensions_FindClosest_" data-uid="CatchIo.Runtime.Utility.Extensions.IEnumerableExtensions.FindClosest*"></a>
+  <h4 id="CatchIo_Runtime_Utility_Extensions_IEnumerableExtensions_FindClosest__1_System_Collections_Generic_IEnumerable___0__Vector2_System_Func___0_System_Boolean__System_Func___0_Vector2__" data-uid="CatchIo.Runtime.Utility.Extensions.IEnumerableExtensions.FindClosest``1(System.Collections.Generic.IEnumerable{``0},Vector2,System.Func{``0,System.Boolean},System.Func{``0,Vector2})">FindClosest&lt;T&gt;(IEnumerable&lt;T&gt;, Vector2, Func&lt;T, Boolean&gt;, Func&lt;T, Vector2&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds the closest element in the collection to the given position that matches the filter predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FindClosest&lt;T&gt;(this IEnumerable&lt;T&gt; source, Vector2 position, Func&lt;T, bool&gt; filter = null, Func&lt;T, Vector2&gt; positionSelector = null)
+    where T : Collider2D</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The source collection to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position to measure distance from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>An optional predicate to filter the collection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">Vector2</span>&gt;</td>
+        <td><span class="parametername">positionSelector</span></td>
+        <td><p>A function to retrieve the position of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The closest element that matches the filter, or default if none found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of elements in the collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Utility_Extensions_IEnumerableExtensions_ForEach_" data-uid="CatchIo.Runtime.Utility.Extensions.IEnumerableExtensions.ForEach*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_IEnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="CatchIo.Runtime.Utility.Extensions.IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>

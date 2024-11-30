@@ -83,7 +83,7 @@
   
   <h1 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator" class="text-break">Class InteractionIndicator
   </h1>
-  <div class="markdown level0 summary"><p>Handle display of a single action indication</p>
+  <div class="markdown level0 summary"><p>Manages the display of interaction indicators, supporting multiple actions with pooled HUD elements.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -103,7 +103,8 @@
   
   <a id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_IsActive_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.IsActive*"></a>
   <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_IsActive" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.IsActive">IsActive</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Indicates whether the interaction indicator is currently active.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -129,22 +130,13 @@
   
   
   <a id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Hide_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Hide" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide">Hide()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Hide_CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_ACTION_TYPE_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide(CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.ACTION_TYPE)">Hide(ACTION_TYPE)</h4>
+  <div class="markdown level1 summary"><p>Hides the specified actions based on the flags in the action type and removes them from active actions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Hide()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Show_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Show*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Show_Sprite_System_String_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Show(Sprite,System.String)">Show(Sprite, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Show(Sprite actionImage, string actionText)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Hide(ACTION_TYPE actionType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,14 +149,89 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.ACTION_TYPE.html">ACTION_TYPE</a></td>
+        <td><span class="parametername">actionType</span></td>
+        <td><p>The action type containing flags to hide.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_HideAll_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.HideAll*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_HideAll" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.HideAll">HideAll()</h4>
+  <div class="markdown level1 summary"><p>Hides all active actions and clears the set of active actions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideAll()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_InitializeActionHUDPool_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.InitializeActionHUDPool*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_InitializeActionHUDPool" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.InitializeActionHUDPool">InitializeActionHUDPool()</h4>
+  <div class="markdown level1 summary"><p>Initializes the pool of HUD elements based on the maximum count.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeActionHUDPool()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Show_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Show*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Show_CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_ACTION_TYPE_Sprite_System_String_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Show(CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.ACTION_TYPE,Sprite,System.String)">Show(ACTION_TYPE, Sprite, String)</h4>
+  <div class="markdown level1 summary"><p>Displays interaction actions for all flags in the specified action type that are not already active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Show(ACTION_TYPE actionType, Sprite sprite, string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.ACTION_TYPE.html">ACTION_TYPE</a></td>
+        <td><span class="parametername">actionType</span></td>
+        <td><p>The action type containing flags to display.</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">Sprite</span></td>
-        <td><span class="parametername">actionImage</span></td>
-        <td></td>
+        <td><span class="parametername">sprite</span></td>
+        <td><p>The icon to display for each action.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">actionText</span></td>
-        <td></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text description for each action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if any actions were successfully displayed; otherwise, false.</p>
+</td>
       </tr>
     </tbody>
   </table>

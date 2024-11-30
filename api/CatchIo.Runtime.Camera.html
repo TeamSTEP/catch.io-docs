@@ -89,21 +89,21 @@
   </h3>
       <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCamera.html">GameCamera</a></h4>
       <section><p>The main camera class for in-game camera movements.
-By passing the player object as its member, this object will initialize all the camera setup and follow the provided player.
-There should only be one instance of this object per scene.</p>
+Manages all the camera setup and features for a single instance per scene, including zoom, follow, and overlay cameras.</p>
 </section>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraMovement.html">GameCameraMovement</a></h4>
-      <section><p>Camera movement logic to make view transition smooth.
-This object should be a child of the main camera object.</p>
+      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraFollow.html">GameCameraFollow</a></h4>
+      <section><p>Handles camera movement logic for smoothly following the target using Cinemachine.
+Includes functionality for panning the camera based on user input.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraInputHandler.html">GameCameraInputHandler</a></h4>
+      <section><p>Handles input for controlling camera movements such as panning.
+Manages enabling, disabling, and cleanup of input actions.</p>
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraZoom.html">GameCameraZoom</a></h4>
-      <section><p>This object should be a child of the main camera object.</p>
+      <section><p>Handles zooming logic for the game camera using Cinemachine.
+Provides smooth transitions and constraints for zoom levels.</p>
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.ICameraElement.html">ICameraElement</a></h4>
       <section></section>
 </article>
           </div>

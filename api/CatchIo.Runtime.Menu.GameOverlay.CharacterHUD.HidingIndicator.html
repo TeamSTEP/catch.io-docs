@@ -88,35 +88,20 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html">HUDIndicator</a></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.CharacterHUDIndicator.html">CharacterHUDIndicator</a></div>
     <div class="level2"><span class="xref">HidingIndicator</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_RectTransform">HUDIndicator.RectTransform</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Image">HUDIndicator.Image</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_IsEnable">HUDIndicator.IsEnable</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator__characterFacade">HUDIndicator._characterFacade</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Start">HUDIndicator.Start()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Update">HUDIndicator.Update()</a>
+      <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.CharacterHUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_CharacterHUDIndicator__characterFacade">CharacterHUDIndicator._characterFacade</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html">CatchIo.Runtime.Menu.GameOverlay.CharacterHUD</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HidingIndicator : HUDIndicator</code></pre>
+    <pre><code class="lang-csharp hljs">public class HidingIndicator : CharacterHUDIndicator</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -131,7 +116,7 @@
     <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Awake">HUDIndicator.Awake()</a></div>
+  <div><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.CharacterHUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_CharacterHUDIndicator_Awake">CharacterHUDIndicator.Awake()</a></div>
   
   
   <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Disable_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Disable*"></a>
@@ -142,8 +127,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void Disable()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Disable">HUDIndicator.Disable()</a></div>
   
   
   <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_Enable_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.Enable*"></a>
@@ -154,8 +137,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void Enable()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HUDIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HUDIndicator_Enable">HUDIndicator.Enable()</a></div>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_OnHidingStateChanged_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.OnHidingStateChanged*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HidingIndicator_OnHidingStateChanged_System_Boolean_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HidingIndicator.OnHidingStateChanged(System.Boolean)">OnHidingStateChanged(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnHidingStateChanged(bool state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

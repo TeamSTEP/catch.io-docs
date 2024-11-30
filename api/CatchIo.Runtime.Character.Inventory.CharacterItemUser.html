@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CharacterItemUser
+   | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CharacterItemUser
+   | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser">
+  
+  
+  <h1 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser" class="text-break">Class CharacterItemUser
+  </h1>
+  <div class="markdown level0 summary"><p>Manages the character&apos;s interaction with items, including usage, stamina management, and inventory control.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CharacterItemUser</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Inventory.html">CatchIo.Runtime.Character.Inventory</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CharacterItemUser : IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser__ctor_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.#ctor*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser__ctor_CatchIo_Runtime_Character_CharacterFacade_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.#ctor(CatchIo.Runtime.Character.CharacterFacade)">CharacterItemUser(CharacterFacade)</h4>
+  <div class="markdown level1 summary"><p>Constructor to initialize the CharacterItemUser with the associated character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterItemUser(CharacterFacade character)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a></td>
+        <td><span class="parametername">character</span></td>
+        <td><p>The character facade associated with this item user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_IsLockStaminaRecovery_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.IsLockStaminaRecovery*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_IsLockStaminaRecovery" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.IsLockStaminaRecovery">IsLockStaminaRecovery</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLockStaminaRecovery { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_LookDirection_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.LookDirection*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_LookDirection" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.LookDirection">LookDirection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 LookDirection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_Position_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.Position*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_Position" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Gets the character&apos;s current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_PositionProvider_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_PositionProvider" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider">PositionProvider</h4>
+  <div class="markdown level1 summary"><p>Gets the position provider for the character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPositionProvider PositionProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPositionProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_Transform_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_Transform" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform">Transform</h4>
+  <div class="markdown level1 summary"><p>Gets the character&apos;s transform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Transform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_ViewID_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.ViewID*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_ViewID" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.ViewID">ViewID</h4>
+  <div class="markdown level1 summary"><p>Gets the character&apos;s PhotonView ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ViewID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_Dispose_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.Dispose*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_Dispose" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_EnableUseItemEvent_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.EnableUseItemEvent*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_EnableUseItemEvent" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.EnableUseItemEvent">EnableUseItemEvent()</h4>
+  <div class="markdown level1 summary"><p>Enables the event for using an item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableUseItemEvent()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_IsStaminaEmpty_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.IsStaminaEmpty*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_IsStaminaEmpty" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.IsStaminaEmpty">IsStaminaEmpty()</h4>
+  <div class="markdown level1 summary"><p>Checks if the character&apos;s stamina is depleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStaminaEmpty()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if stamina is empty; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_LockInventory_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.LockInventory*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_LockInventory" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.LockInventory">LockInventory()</h4>
+  <div class="markdown level1 summary"><p>Locks the character&apos;s inventory, preventing changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LockInventory()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_LockStaminaRecovery_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.LockStaminaRecovery*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_LockStaminaRecovery" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.LockStaminaRecovery">LockStaminaRecovery()</h4>
+  <div class="markdown level1 summary"><p>Locks stamina recovery for the character, preventing it from regenerating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LockStaminaRecovery()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_ReleaseItem_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.ReleaseItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_ReleaseItem" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.ReleaseItem">ReleaseItem()</h4>
+  <div class="markdown level1 summary"><p>Releases the currently held item in the inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseItem()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_SetCharacterControlEnabled_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.SetCharacterControlEnabled*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_SetCharacterControlEnabled_System_Boolean_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.SetCharacterControlEnabled(System.Boolean)">SetCharacterControlEnabled(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enables or disables the character&apos;s control inputs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCharacterControlEnabled(bool enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td><p>True to enable controls, false to disable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UnlockInventory_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UnlockInventory*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UnlockInventory" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UnlockInventory">UnlockInventory()</h4>
+  <div class="markdown level1 summary"><p>Unlocks the character&apos;s inventory, allowing changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlockInventory()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UnlockStaminaRecovery_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UnlockStaminaRecovery*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UnlockStaminaRecovery" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UnlockStaminaRecovery">UnlockStaminaRecovery()</h4>
+  <div class="markdown level1 summary"><p>Unlocks stamina recovery for the character, allowing it to regenerate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlockStaminaRecovery()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UseItem_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UseItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UseItem" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UseItem">UseItem()</h4>
+  <div class="markdown level1 summary"><p>Uses the currently selected item in the inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseItem()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UseStaminaPerSec_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UseStaminaPerSec*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemUser_UseStaminaPerSec_System_Single_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemUser.UseStaminaPerSec(System.Single)">UseStaminaPerSec(Single)</h4>
+  <div class="markdown level1 summary"><p>Consumes stamina per second for the character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseStaminaPerSec(float amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of stamina to consume per second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

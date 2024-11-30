@@ -92,8 +92,9 @@ located in Resources, allowing for easy loading in Unity.</p>
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ItemData</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Data.ConsumableItemData.html">ConsumableItemData</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Data.EquippableItemData.html">EquippableItemData</a></div>
       <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Data.ThrowableItemData.html">ThrowableItemData</a></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Data.UsableItemData.html">UsableItemData</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Data.html">CatchIo.Runtime.Items.Data</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -319,6 +320,66 @@ located in Resources, allowing for easy loading in Unity.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Items_Data_ItemData_GetResourcesPath_" data-uid="CatchIo.Runtime.Items.Data.ItemData.GetResourcesPath*"></a>
+  <h4 id="CatchIo_Runtime_Items_Data_ItemData_GetResourcesPath_System_String_" data-uid="CatchIo.Runtime.Items.Data.ItemData.GetResourcesPath(System.String)">GetResourcesPath(String)</h4>
+  <div class="markdown level1 summary"><p>Converts the full asset path to a relative path compatible with Resources.Load.
+Assumes the asset is within a Resources folder; if not, returns an empty string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string GetResourcesPath(string fullPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullPath</span></td>
+        <td><p>The full path of the asset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The path relative to the Resources folder, without file extension.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Items_Data_ItemData_UpdateItemDataPath_" data-uid="CatchIo.Runtime.Items.Data.ItemData.UpdateItemDataPath*"></a>
+  <h4 id="CatchIo_Runtime_Items_Data_ItemData_UpdateItemDataPath" data-uid="CatchIo.Runtime.Items.Data.ItemData.UpdateItemDataPath">UpdateItemDataPath()</h4>
+  <div class="markdown level1 summary"><p>Updates the data path of the ItemData ScriptableObject to the relative Resources path.
+This enables the asset to be loaded from the Resources folder during runtime.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdateItemDataPath()</code></pre>
+  </div>
 </article>
           </div>
           

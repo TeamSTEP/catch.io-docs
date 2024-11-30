@@ -83,7 +83,8 @@
   
   <h1 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicatorOverlay" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicatorOverlay" class="text-break">Class InteractionIndicatorOverlay
   </h1>
-  <div class="markdown level0 summary"><p>Handle interaction overlay display</p>
+  <div class="markdown level0 summary"><p>Manages the display of interaction indicators on the HUD.
+Handles activation and deactivation of indicators based on received signals.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -97,6 +98,37 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class InteractionIndicatorOverlay : MonoBehaviour</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicatorOverlay_HandleInteractionSignal_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicatorOverlay.HandleInteractionSignal*"></a>
+  <h4 id="CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicatorOverlay_HandleInteractionSignal_CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionHUDSignal_" data-uid="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicatorOverlay.HandleInteractionSignal(CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionHUDSignal)">HandleInteractionSignal(InteractionHUDSignal)</h4>
+  <div class="markdown level1 summary"><p>Processes an interaction signal to activate or deactivate indicators.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HandleInteractionSignal(InteractionHUDSignal signal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionHUDSignal.html">InteractionHUDSignal</a></td>
+        <td><span class="parametername">signal</span></td>
+        <td><p>The interaction signal to process.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
