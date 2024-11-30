@@ -1335,6 +1335,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Camera.GameCamera.OverlayCameras
   nameWithType: GameCamera.OverlayCameras
+- uid: CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject(GameObject)
+  name: SetAttenuationObject(GameObject)
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_SetAttenuationObject_GameObject_
+  commentId: M:CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject(GameObject)
+  fullName: CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject(GameObject)
+  nameWithType: GameCamera.SetAttenuationObject(GameObject)
+- uid: CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject*
+  name: SetAttenuationObject
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_SetAttenuationObject_
+  commentId: Overload:CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Camera.GameCamera.SetAttenuationObject
+  nameWithType: GameCamera.SetAttenuationObject
 - uid: CatchIo.Runtime.Camera.GameCamera.SetCullingMask(System.String,System.Boolean)
   name: SetCullingMask(String, Boolean)
   href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_SetCullingMask_System_String_System_Boolean_
@@ -1367,12 +1380,12 @@ references:
   commentId: T:CatchIo.Runtime.Camera.GameCameraFollow
   fullName: CatchIo.Runtime.Camera.GameCameraFollow
   nameWithType: GameCameraFollow
-- uid: CatchIo.Runtime.Camera.GameCameraFollow.SetFollowingTarget(Transform,System.Boolean)
-  name: SetFollowingTarget(Transform, Boolean)
-  href: api/CatchIo.Runtime.Camera.GameCameraFollow.html#CatchIo_Runtime_Camera_GameCameraFollow_SetFollowingTarget_Transform_System_Boolean_
-  commentId: M:CatchIo.Runtime.Camera.GameCameraFollow.SetFollowingTarget(Transform,System.Boolean)
-  fullName: CatchIo.Runtime.Camera.GameCameraFollow.SetFollowingTarget(Transform, System.Boolean)
-  nameWithType: GameCameraFollow.SetFollowingTarget(Transform, Boolean)
+- uid: CatchIo.Runtime.Camera.GameCameraFollow.SetFollowingTarget(Transform)
+  name: SetFollowingTarget(Transform)
+  href: api/CatchIo.Runtime.Camera.GameCameraFollow.html#CatchIo_Runtime_Camera_GameCameraFollow_SetFollowingTarget_Transform_
+  commentId: M:CatchIo.Runtime.Camera.GameCameraFollow.SetFollowingTarget(Transform)
+  fullName: CatchIo.Runtime.Camera.GameCameraFollow.SetFollowingTarget(Transform)
+  nameWithType: GameCameraFollow.SetFollowingTarget(Transform)
 - uid: CatchIo.Runtime.Camera.GameCameraFollow.SetFollowingTarget*
   name: SetFollowingTarget
   href: api/CatchIo.Runtime.Camera.GameCameraFollow.html#CatchIo_Runtime_Camera_GameCameraFollow_SetFollowingTarget_
@@ -22470,6 +22483,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.CurrentSfxVolume
   nameWithType: SoundManager.CurrentSfxVolume
+- uid: CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener
+  name: DisableCharacterAudioListener()
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_DisableCharacterAudioListener
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener
+  fullName: CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener()
+  nameWithType: SoundManager.DisableCharacterAudioListener()
+- uid: CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener*
+  name: DisableCharacterAudioListener
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_DisableCharacterAudioListener_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener
+  nameWithType: SoundManager.DisableCharacterAudioListener
+- uid: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener(GameObject)
+  name: EnableCharacterAudioListener(GameObject)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_EnableCharacterAudioListener_GameObject_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener(GameObject)
+  fullName: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener(GameObject)
+  nameWithType: SoundManager.EnableCharacterAudioListener(GameObject)
+- uid: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener*
+  name: EnableCharacterAudioListener
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_EnableCharacterAudioListener_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener
+  nameWithType: SoundManager.EnableCharacterAudioListener
 - uid: CatchIo.Runtime.Sound.SoundManager.Instance
   name: Instance
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_Instance
@@ -22691,19 +22730,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.RPC_PlayTerrainSfx
   nameWithType: SoundManager.RPC_PlayTerrainSfx
-- uid: CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject(Transform)
-  name: SetAttenuationObject(Transform)
-  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_SetAttenuationObject_Transform_
-  commentId: M:CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject(Transform)
-  fullName: CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject(Transform)
-  nameWithType: SoundManager.SetAttenuationObject(Transform)
-- uid: CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject*
-  name: SetAttenuationObject
-  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_SetAttenuationObject_
-  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Sound.SoundManager.SetAttenuationObject
-  nameWithType: SoundManager.SetAttenuationObject
 - uid: CatchIo.Runtime.Sound.SoundManager.StopStaminaSfx
   name: StopStaminaSfx()
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopStaminaSfx
