@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ScoutingArrow
+    <title>Class CharacterMarkReceiver
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ScoutingArrow
+    <meta name="title" content="Class CharacterMarkReceiver
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,25 +78,119 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.ScoutingArrow">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver">
   
   
-  <h1 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_ScoutingArrow" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.ScoutingArrow" class="text-break">Class ScoutingArrow
+  <h1 id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver" class="text-break">Class CharacterMarkReceiver
   </h1>
-  <div class="markdown level0 summary"><p>Manages the display and behavior of scouting arrows in the character HUD.</p>
+  <div class="markdown level0 summary"><p>Handles character-specific mark behavior.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ScoutingArrow</span></div>
+    <div class="level1"><span class="xref">CharacterMarkReceiver</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html">CatchIo.Runtime.Menu.GameOverlay.CharacterHUD</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Marks.html">CatchIo.Runtime.Character.Marks</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_ScoutingArrow_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ScoutingArrow : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterMarkReceiver : EntityMarkReceiver</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_ApplyMark_" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark*"></a>
+  <h4 id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_ApplyMark_System_Int32_System_String_System_Boolean_" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)">ApplyMark(Int32, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Applies a mark to this character and handles additional logic for cursed status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ApplyMark(int markerViewID, string markSFX, bool isNetworkCall = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">markerViewID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">markSFX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isNetworkCall</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_CanMark_" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark*"></a>
+  <h4 id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_CanMark" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark">CanMark()</h4>
+  <div class="markdown level1 summary"><p>Determines if this character can be marked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanMark()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_RemoveReceivedMark_" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark*"></a>
+  <h4 id="CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_RemoveReceivedMark_System_Int32_" data-uid="CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark(System.Int32)">RemoveReceivedMark(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes a specific received mark from this character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RemoveReceivedMark(int markerViewID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">markerViewID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
