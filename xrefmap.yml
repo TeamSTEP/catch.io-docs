@@ -1553,18 +1553,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterCollision.ActiveCollision
   nameWithType: CharacterCollision.ActiveCollision
-- uid: CatchIo.Runtime.Character.CharacterCollision.CollisionEntered
-  name: CollisionEntered
-  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_CollisionEntered
-  commentId: F:CatchIo.Runtime.Character.CharacterCollision.CollisionEntered
-  fullName: CatchIo.Runtime.Character.CharacterCollision.CollisionEntered
-  nameWithType: CharacterCollision.CollisionEntered
-- uid: CatchIo.Runtime.Character.CharacterCollision.CollisionExited
-  name: CollisionExited
-  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_CollisionExited
-  commentId: F:CatchIo.Runtime.Character.CharacterCollision.CollisionExited
-  fullName: CatchIo.Runtime.Character.CharacterCollision.CollisionExited
-  nameWithType: CharacterCollision.CollisionExited
 - uid: CatchIo.Runtime.Character.CharacterCollision.InactiveCollision
   name: InactiveCollision()
   href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_InactiveCollision
@@ -1578,6 +1566,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterCollision.InactiveCollision
   nameWithType: CharacterCollision.InactiveCollision
+- uid: CatchIo.Runtime.Character.CharacterCollision.Owner
+  name: Owner
+  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_Owner
+  commentId: P:CatchIo.Runtime.Character.CharacterCollision.Owner
+  fullName: CatchIo.Runtime.Character.CharacterCollision.Owner
+  nameWithType: CharacterCollision.Owner
+- uid: CatchIo.Runtime.Character.CharacterCollision.Owner*
+  name: Owner
+  href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_Owner_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterCollision.Owner
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterCollision.Owner
+  nameWithType: CharacterCollision.Owner
 - uid: CatchIo.Runtime.Character.CharacterCollision.TriggerEntered
   name: TriggerEntered
   href: api/CatchIo.Runtime.Character.CharacterCollision.html#CatchIo_Runtime_Character_CharacterCollision_TriggerEntered
@@ -1790,6 +1791,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.AttackChargePfx
   nameWithType: CharacterFacade.AttackChargePfx
+- uid: CatchIo.Runtime.Character.CharacterFacade.CharacterBodyDamageReceiver
+  name: CharacterBodyDamageReceiver
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CharacterBodyDamageReceiver
+  commentId: P:CatchIo.Runtime.Character.CharacterFacade.CharacterBodyDamageReceiver
+  fullName: CatchIo.Runtime.Character.CharacterFacade.CharacterBodyDamageReceiver
+  nameWithType: CharacterFacade.CharacterBodyDamageReceiver
+- uid: CatchIo.Runtime.Character.CharacterFacade.CharacterBodyDamageReceiver*
+  name: CharacterBodyDamageReceiver
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CharacterBodyDamageReceiver_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.CharacterBodyDamageReceiver
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.CharacterBodyDamageReceiver
+  nameWithType: CharacterFacade.CharacterBodyDamageReceiver
 - uid: CatchIo.Runtime.Character.CharacterFacade.ChestOffset
   name: ChestOffset
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_ChestOffset
@@ -4325,6 +4339,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Move
   nameWithType: CharacterMoveState.Move
+- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Stop
+  name: Stop()
+  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_Stop
+  commentId: M:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Stop
+  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Stop()
+  nameWithType: CharacterMoveState.Stop()
+- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Stop*
+  name: Stop
+  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_Stop_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Stop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Stop
+  nameWithType: CharacterMoveState.Stop
 - uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.UpdateState
   name: UpdateState()
   href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_UpdateState
@@ -8420,6 +8447,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.CanInteract
   nameWithType: HurtBox.CanInteract
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority
+  name: DecreasePriority()
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_DecreasePriority
+  commentId: M:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority()
+  nameWithType: HurtBox.DecreasePriority()
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority*
+  name: DecreasePriority
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_DecreasePriority_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority
+  nameWithType: HurtBox.DecreasePriority
 - uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.GetHurtBoxPosition
   name: GetHurtBoxPosition()
   href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_GetHurtBoxPosition
@@ -8433,6 +8473,45 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.GetHurtBoxPosition
   nameWithType: HurtBox.GetHurtBoxPosition
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority
+  name: IncreasePriority()
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IncreasePriority
+  commentId: M:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority()
+  nameWithType: HurtBox.IncreasePriority()
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority*
+  name: IncreasePriority
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IncreasePriority_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority
+  nameWithType: HurtBox.IncreasePriority
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided
+  name: IsCollided
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IsCollided
+  commentId: P:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided
+  nameWithType: HurtBox.IsCollided
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided*
+  name: IsCollided
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IsCollided_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided
+  nameWithType: HurtBox.IsCollided
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue
+  name: PriorityValue
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_PriorityValue
+  commentId: P:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue
+  nameWithType: HurtBox.PriorityValue
+- uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue*
+  name: PriorityValue
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_PriorityValue_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue
+  nameWithType: HurtBox.PriorityValue
 - uid: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.ViewID
   name: ViewID
   href: api/CatchIo.Runtime.Combat.HurtBoxes.HurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_HurtBox_ViewID
@@ -16748,6 +16827,31 @@ references:
   commentId: N:CatchIo.Runtime.NPC.Core
   fullName: CatchIo.Runtime.NPC.Core
   nameWithType: CatchIo.Runtime.NPC.Core
+- uid: CatchIo.Runtime.NPC.Core.NPCEntityDetector
+  name: NPCEntityDetector
+  href: api/CatchIo.Runtime.NPC.Core.NPCEntityDetector.html
+  commentId: T:CatchIo.Runtime.NPC.Core.NPCEntityDetector
+  fullName: CatchIo.Runtime.NPC.Core.NPCEntityDetector
+  nameWithType: NPCEntityDetector
+- uid: CatchIo.Runtime.NPC.Core.NPCEntityDetector.CanMoveToward(Vector2)
+  name: CanMoveToward(Vector2)
+  href: api/CatchIo.Runtime.NPC.Core.NPCEntityDetector.html#CatchIo_Runtime_NPC_Core_NPCEntityDetector_CanMoveToward_Vector2_
+  commentId: M:CatchIo.Runtime.NPC.Core.NPCEntityDetector.CanMoveToward(Vector2)
+  fullName: CatchIo.Runtime.NPC.Core.NPCEntityDetector.CanMoveToward(Vector2)
+  nameWithType: NPCEntityDetector.CanMoveToward(Vector2)
+- uid: CatchIo.Runtime.NPC.Core.NPCEntityDetector.CanMoveToward*
+  name: CanMoveToward
+  href: api/CatchIo.Runtime.NPC.Core.NPCEntityDetector.html#CatchIo_Runtime_NPC_Core_NPCEntityDetector_CanMoveToward_
+  commentId: Overload:CatchIo.Runtime.NPC.Core.NPCEntityDetector.CanMoveToward
+  isSpec: "True"
+  fullName: CatchIo.Runtime.NPC.Core.NPCEntityDetector.CanMoveToward
+  nameWithType: NPCEntityDetector.CanMoveToward
+- uid: CatchIo.Runtime.NPC.Core.NPCEntityDetector.OnEntityDetected
+  name: OnEntityDetected
+  href: api/CatchIo.Runtime.NPC.Core.NPCEntityDetector.html#CatchIo_Runtime_NPC_Core_NPCEntityDetector_OnEntityDetected
+  commentId: F:CatchIo.Runtime.NPC.Core.NPCEntityDetector.OnEntityDetected
+  fullName: CatchIo.Runtime.NPC.Core.NPCEntityDetector.OnEntityDetected
+  nameWithType: NPCEntityDetector.OnEntityDetected
 - uid: CatchIo.Runtime.NPC.Core.NPCHealth
   name: NPCHealth
   href: api/CatchIo.Runtime.NPC.Core.NPCHealth.html
