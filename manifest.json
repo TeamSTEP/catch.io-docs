@@ -688,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.CharacterFacade.html",
-          "hash": "l6x0imHJS2GmtPnM0jpe0otNjkueXAvPpgnpbiQOqRw="
+          "hash": "viZ8yBDbqMxkAiiL1iwdywj81sPlpekxEhuMGaH3a9c="
         }
       },
       "is_incremental": false,
@@ -1408,7 +1408,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html",
-          "hash": "ckIrZ7cTPv+Y08g0/1EtG9rGwk8JsU30g2VF7ca+gk8="
+          "hash": "qvXg2uSb50j70HFJ1U1LhfH6MMkL5IB+Q3llbScCTKI="
         }
       },
       "is_incremental": false,
@@ -1512,6 +1512,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html",
+          "hash": "iScLWmHjvf3vt7uPS7I3Di1zovdJKAjodq+gzKiUGUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html",
+          "hash": "IY0G9ocbgbHoGRuMgsHi8PeBe9+JhWyeOLUiqVkbeRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Character.Marks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Character.Marks.html",
+          "hash": "VbukuTyNCLH32Mt+NDibn2XChfEBYs0qPNDoe/U7m2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Character.NetworkCharacter.yml",
       "output": {
         ".html": {
@@ -1584,11 +1620,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.yml",
+      "source_relative_path": "api/CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html",
-          "hash": "J/rVEyGQAvd4rOakyfUmtxaCIg5bUhj94E1L6DgqmZI="
+          "relative_path": "api/CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.html",
+          "hash": "zEQV1OEQJcVXw9qehkhbD1UoiTIlsayLxxxBPwTbnwY="
         }
       },
       "is_incremental": false,
@@ -1600,7 +1636,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.ScoutingMarker.html",
-          "hash": "UmQaJcEGlAsh2PXdBiq0LCp0ASKiBWyJMO/BLssKJag="
+          "hash": "ljnaKzwXYqRRlA6yscoq6ZJIWFuGWmzqm2PZIY+GPJI="
         }
       },
       "is_incremental": false,
@@ -2232,23 +2268,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Runtime.Entities.EntityScoutingMarker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Runtime.Entities.EntityScoutingMarker.html",
-          "hash": "EFjnb+bmk8eKG3zr1I0MAQzoOtBOWJSBb0WOliM+Gts="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.html",
-          "hash": "IaAatNcF+En4KTTSUlSo0UOj8EPoAuCkQDddjLXi8pU="
+          "hash": "Lxs4JRml2u4UuPuaZFPGI/4wHRrZIKRoLtNFqj0RPEM="
         }
       },
       "is_incremental": false,
@@ -2328,6 +2352,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html",
+          "hash": "+3eQhX7y4nbXoqdM52h/tcngAFCZnQ79Id1qxjfH6eY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html",
+          "hash": "b62++iB9uiaf3eN5ag1jxHfdf6HTkR172WPNqBv7lIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Entities.Marks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Entities.Marks.html",
+          "hash": "OkjpZTNH+krNh4eSbrzJSF2TA+wLgPNZWqw14RB/TCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.html",
+          "hash": "qOO+RzX+q9L7otVSyjeeJ8lZDNg+TxEBz5yaTupX34M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Entities.Networking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Entities.Networking.html",
+          "hash": "27epFY9xSdXMTqrvLaO/uFg6Zwt7NkKL4cH7S2dPHz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Entities.Senders.EntityHUDDisplayer.yml",
       "output": {
         ".html": {
@@ -2368,7 +2452,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Entities.html",
-          "hash": "lns9mr2BptAgwFYDfnEJZAchE8U8vROQ0w2XeyW1dgc="
+          "hash": "VB3ZEzIq5rxtt+HspFdAPTRb/FaEf6Vg+AJNHCN9RjI="
         }
       },
       "is_incremental": false,
@@ -2512,7 +2596,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Enums.SendEventType.html",
-          "hash": "gQFGCS+wNww2tNKdLsqPe8q2M5O0JbkKaqH2VfeimJA="
+          "hash": "c7MwJTULSQKcrFt7MfYdUD9rF78pGGXuoWGa2i7UaoM="
         }
       },
       "is_incremental": false,
@@ -2980,7 +3064,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.html",
-          "hash": "1cXjLdyPC/ovXpvWz/vRdG8hVu3QMIAo5lI/9ugWb3k="
+          "hash": "G/Ij2Jy2z9wJSbX7l4ZngYDv3yKDmGTKr3A81suGYrg="
         }
       },
       "is_incremental": false,
@@ -3016,7 +3100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.Data.ScoutingRingData.html",
-          "hash": "qRQT0ta19h0o9mQSwnCgvQelz2rR8yRRTd9At8ldWdI="
+          "hash": "1Idc1j5taabMft98jJXv40Tzw81CIAtVT7pJZ7ytUDA="
         }
       },
       "is_incremental": false,
@@ -3364,7 +3448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.ScoutingArrow.html",
-          "hash": "tfPUG+y9N0Ja+Bos0pZzt8ZsQg60ic9hwhgALJW2YlY="
+          "hash": "Vmc0BFrjCxcvehAkCZfAViKZ4fGvJ6lOVhEF6ZWVMMA="
         }
       },
       "is_incremental": false,
@@ -3400,7 +3484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html",
-          "hash": "XXLoMPq+co49tlgiHafLhgkRwTL6fNzTWt1Axw1G0Dg="
+          "hash": "EBeS9xBj8MtlyW2Sn4TWthMW8nYBmO4He3yFT7/i82I="
         }
       },
       "is_incremental": false,
@@ -3472,7 +3556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.ScoutingMarkIndicator.html",
-          "hash": "sFyvGYz9Kx5na3Q0Pp2LtwbQRxvOttse3J8Jcb/JGpk="
+          "hash": "i0Ph0Nrh/lL5X1AJRe9uUAiANtcDDEFNKt6AxpMuBYs="
         }
       },
       "is_incremental": false,
@@ -3484,7 +3568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.html",
-          "hash": "VEFPLDVbOY7x2ggGJFeZPdfN/y81ADcJdD++UyMwtR8="
+          "hash": "lKRGJumquzHwVLFTra5cWniNEZp8vHDaSKOmsX5DHX8="
         }
       },
       "is_incremental": false,
@@ -4372,7 +4456,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.NPC.Core.NPCHealth.html",
-          "hash": "EqEHcZQlA6aHMkIVbUXJ/2kybKIDFSzCFf0nU/th3ac="
+          "hash": "ozxJeXL/PVVY+Ifua9sGk8+vYBCAN/j3li0PJRzEWis="
         }
       },
       "is_incremental": false,
@@ -4492,7 +4576,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.NPC.NPCNetworking.html",
-          "hash": "e3dnQdfT6hwuV7X3E+Z2XfeIgLPzGnloSQn1szISBw0="
+          "hash": "hUFXAkv5Ofewq2zmMHrPunO1ZYMxhA3d3sDizeYEXZo="
         }
       },
       "is_incremental": false,
@@ -6676,7 +6760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "hhoZ4fmn6O9qTmDHkGp4EprGdeShWvVzZeaZR6gRlnU="
+          "hash": "DTrhRDgr/EIuMkOVu3hrgcNSvKYMSazL6lKIrySJ8Ao="
         }
       },
       "is_incremental": false,
@@ -7333,7 +7417,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 554,
+          "total_file_count": 561,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

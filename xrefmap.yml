@@ -5726,12 +5726,12 @@ references:
   commentId: T:CatchIo.Runtime.Character.Inventory.CharacterItemUser
   fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser
   nameWithType: CharacterItemUser
-- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.#ctor(CatchIo.Runtime.Character.CharacterFacade)
-  name: CharacterItemUser(CharacterFacade)
-  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser__ctor_CatchIo_Runtime_Character_CharacterFacade_
-  commentId: M:CatchIo.Runtime.Character.Inventory.CharacterItemUser.#ctor(CatchIo.Runtime.Character.CharacterFacade)
-  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterItemUser(CatchIo.Runtime.Character.CharacterFacade)
-  nameWithType: CharacterItemUser.CharacterItemUser(CharacterFacade)
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.#ctor(CatchIo.Runtime.Character.CharacterFacade,EntityMarkSender,EntityMarkReceiver)
+  name: CharacterItemUser(CharacterFacade, EntityMarkSender, EntityMarkReceiver)
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser__ctor_CatchIo_Runtime_Character_CharacterFacade_EntityMarkSender_EntityMarkReceiver_
+  commentId: M:CatchIo.Runtime.Character.Inventory.CharacterItemUser.#ctor(CatchIo.Runtime.Character.CharacterFacade,EntityMarkSender,EntityMarkReceiver)
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterItemUser(CatchIo.Runtime.Character.CharacterFacade, EntityMarkSender, EntityMarkReceiver)
+  nameWithType: CharacterItemUser.CharacterItemUser(CharacterFacade, EntityMarkSender, EntityMarkReceiver)
 - uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.#ctor*
   name: CharacterItemUser
   href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser__ctor_
@@ -6614,6 +6614,102 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Lighting.CharacterLighting.GetFOVLight
   nameWithType: CharacterLighting.GetFOVLight
+- uid: CatchIo.Runtime.Character.Marks
+  name: CatchIo.Runtime.Character.Marks
+  href: api/CatchIo.Runtime.Character.Marks.html
+  commentId: N:CatchIo.Runtime.Character.Marks
+  fullName: CatchIo.Runtime.Character.Marks
+  nameWithType: CatchIo.Runtime.Character.Marks
+- uid: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver
+  name: CharacterMarkReceiver
+  href: api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html
+  commentId: T:CatchIo.Runtime.Character.Marks.CharacterMarkReceiver
+  fullName: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver
+  nameWithType: CharacterMarkReceiver
+- uid: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)
+  name: ApplyMark(Int32, String, Boolean)
+  href: api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html#CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_ApplyMark_System_Int32_System_String_System_Boolean_
+  commentId: M:CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)
+  fullName: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark(System.Int32, System.String, System.Boolean)
+  nameWithType: CharacterMarkReceiver.ApplyMark(Int32, String, Boolean)
+- uid: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark*
+  name: ApplyMark
+  href: api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html#CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_ApplyMark_
+  commentId: Overload:CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.ApplyMark
+  nameWithType: CharacterMarkReceiver.ApplyMark
+- uid: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark
+  name: CanMark()
+  href: api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html#CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_CanMark
+  commentId: M:CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark
+  fullName: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark()
+  nameWithType: CharacterMarkReceiver.CanMark()
+- uid: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark*
+  name: CanMark
+  href: api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html#CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_CanMark_
+  commentId: Overload:CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.CanMark
+  nameWithType: CharacterMarkReceiver.CanMark
+- uid: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark(System.Int32)
+  name: RemoveReceivedMark(Int32)
+  href: api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html#CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_RemoveReceivedMark_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark(System.Int32)
+  fullName: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark(System.Int32)
+  nameWithType: CharacterMarkReceiver.RemoveReceivedMark(Int32)
+- uid: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark*
+  name: RemoveReceivedMark
+  href: api/CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.html#CatchIo_Runtime_Character_Marks_CharacterMarkReceiver_RemoveReceivedMark_
+  commentId: Overload:CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Marks.CharacterMarkReceiver.RemoveReceivedMark
+  nameWithType: CharacterMarkReceiver.RemoveReceivedMark
+- uid: CatchIo.Runtime.Character.Marks.NPCMarkReceiver
+  name: NPCMarkReceiver
+  href: api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html
+  commentId: T:CatchIo.Runtime.Character.Marks.NPCMarkReceiver
+  fullName: CatchIo.Runtime.Character.Marks.NPCMarkReceiver
+  nameWithType: NPCMarkReceiver
+- uid: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)
+  name: ApplyMark(Int32, String, Boolean)
+  href: api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html#CatchIo_Runtime_Character_Marks_NPCMarkReceiver_ApplyMark_System_Int32_System_String_System_Boolean_
+  commentId: M:CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)
+  fullName: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark(System.Int32, System.String, System.Boolean)
+  nameWithType: NPCMarkReceiver.ApplyMark(Int32, String, Boolean)
+- uid: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark*
+  name: ApplyMark
+  href: api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html#CatchIo_Runtime_Character_Marks_NPCMarkReceiver_ApplyMark_
+  commentId: Overload:CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark
+  nameWithType: NPCMarkReceiver.ApplyMark
+- uid: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark
+  name: CanMark()
+  href: api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html#CatchIo_Runtime_Character_Marks_NPCMarkReceiver_CanMark
+  commentId: M:CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark
+  fullName: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark()
+  nameWithType: NPCMarkReceiver.CanMark()
+- uid: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark*
+  name: CanMark
+  href: api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html#CatchIo_Runtime_Character_Marks_NPCMarkReceiver_CanMark_
+  commentId: Overload:CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark
+  nameWithType: NPCMarkReceiver.CanMark
+- uid: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark(System.Int32)
+  name: RemoveReceivedMark(Int32)
+  href: api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html#CatchIo_Runtime_Character_Marks_NPCMarkReceiver_RemoveReceivedMark_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark(System.Int32)
+  fullName: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark(System.Int32)
+  nameWithType: NPCMarkReceiver.RemoveReceivedMark(Int32)
+- uid: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark*
+  name: RemoveReceivedMark
+  href: api/CatchIo.Runtime.Character.Marks.NPCMarkReceiver.html#CatchIo_Runtime_Character_Marks_NPCMarkReceiver_RemoveReceivedMark_
+  commentId: Overload:CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark
+  nameWithType: NPCMarkReceiver.RemoveReceivedMark
 - uid: CatchIo.Runtime.Character.NetworkCharacter
   name: NetworkCharacter
   href: api/CatchIo.Runtime.Character.NetworkCharacter.html
@@ -7379,90 +7475,38 @@ references:
   commentId: N:CatchIo.Runtime.Character.ScoutingMarker
   fullName: CatchIo.Runtime.Character.ScoutingMarker
   nameWithType: CatchIo.Runtime.Character.ScoutingMarker
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker
-  name: CharacterScoutingMarker
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html
-  commentId: T:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker
-  nameWithType: CharacterScoutingMarker
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark(System.Int32,System.String)
-  name: ApplyMark(Int32, String)
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ApplyMark_System_Int32_System_String_
-  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark(System.Int32,System.String)
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark(System.Int32, System.String)
-  nameWithType: CharacterScoutingMarker.ApplyMark(Int32, String)
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark*
-  name: ApplyMark
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ApplyMark_
-  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark
-  nameWithType: CharacterScoutingMarker.ApplyMark
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark
-  name: CanMark()
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_CanMark
-  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark()
-  nameWithType: CharacterScoutingMarker.CanMark()
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark*
-  name: CanMark
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_CanMark_
-  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark
-  nameWithType: CharacterScoutingMarker.CanMark
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived
-  name: ClearMarksReceived()
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ClearMarksReceived
-  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived()
-  nameWithType: CharacterScoutingMarker.ClearMarksReceived()
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived*
-  name: ClearMarksReceived
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ClearMarksReceived_
-  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived
-  nameWithType: CharacterScoutingMarker.ClearMarksReceived
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark(IEntityScoutingMarkable,System.String)
-  name: Mark(IEntityScoutingMarkable, String)
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Mark_IEntityScoutingMarkable_System_String_
-  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark(IEntityScoutingMarkable,System.String)
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark(IEntityScoutingMarkable, System.String)
-  nameWithType: CharacterScoutingMarker.Mark(IEntityScoutingMarkable, String)
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark*
+- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender
+  name: CharacterMarkSender
+  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.html
+  commentId: T:CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender
+  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender
+  nameWithType: CharacterMarkSender
+- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.Mark(IEntityScoutingMarkable,System.String,System.Boolean)
+  name: Mark(IEntityScoutingMarkable, String, Boolean)
+  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_Mark_IEntityScoutingMarkable_System_String_System_Boolean_
+  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.Mark(IEntityScoutingMarkable,System.String,System.Boolean)
+  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.Mark(IEntityScoutingMarkable, System.String, System.Boolean)
+  nameWithType: CharacterMarkSender.Mark(IEntityScoutingMarkable, String, Boolean)
+- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.Mark*
   name: Mark
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Mark_
-  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark
+  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_Mark_
+  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.Mark
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark
-  nameWithType: CharacterScoutingMarker.Mark
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark(System.Int32)
-  name: RemoveReceivedMark(Int32)
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_RemoveReceivedMark_System_Int32_
-  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark(System.Int32)
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark(System.Int32)
-  nameWithType: CharacterScoutingMarker.RemoveReceivedMark(Int32)
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark*
-  name: RemoveReceivedMark
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_RemoveReceivedMark_
-  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark
+  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.Mark
+  nameWithType: CharacterMarkSender.Mark
+- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark(System.Int32,System.Boolean)
+  name: RemoveSentMark(Int32, Boolean)
+  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_RemoveSentMark_System_Int32_System_Boolean_
+  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark(System.Int32,System.Boolean)
+  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark(System.Int32, System.Boolean)
+  nameWithType: CharacterMarkSender.RemoveSentMark(Int32, Boolean)
+- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark*
+  name: RemoveSentMark
+  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_RemoveSentMark_
+  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark
-  nameWithType: CharacterScoutingMarker.RemoveReceivedMark
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start
-  name: Start()
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Start
-  commentId: M:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start()
-  nameWithType: CharacterScoutingMarker.Start()
-- uid: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start*
-  name: Start
-  href: api/CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.html#CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Start_
-  commentId: Overload:CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start
-  nameWithType: CharacterScoutingMarker.Start
+  fullName: CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark
+  nameWithType: CharacterMarkSender.RemoveSentMark
 - uid: CatchIo.Runtime.Character.SurfaceEffect
   name: CatchIo.Runtime.Character.SurfaceEffect
   href: api/CatchIo.Runtime.Character.SurfaceEffect.html
@@ -9758,108 +9802,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.EntityHUDPositionProvider.GetPosition
   nameWithType: EntityHUDPositionProvider.GetPosition
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker
-  name: EntityScoutingMarker
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html
-  commentId: T:CatchIo.Runtime.Entities.EntityScoutingMarker
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker
-  nameWithType: EntityScoutingMarker
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker._isMarked
-  name: _isMarked
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker__isMarked
-  commentId: F:CatchIo.Runtime.Entities.EntityScoutingMarker._isMarked
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker._isMarked
-  nameWithType: EntityScoutingMarker._isMarked
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker._marksReceived
-  name: _marksReceived
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker__marksReceived
-  commentId: F:CatchIo.Runtime.Entities.EntityScoutingMarker._marksReceived
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker._marksReceived
-  nameWithType: EntityScoutingMarker._marksReceived
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker._photonView
-  name: _photonView
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker__photonView
-  commentId: F:CatchIo.Runtime.Entities.EntityScoutingMarker._photonView
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker._photonView
-  nameWithType: EntityScoutingMarker._photonView
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.ApplyMark(System.Int32,System.String)
-  name: ApplyMark(Int32, String)
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_ApplyMark_System_Int32_System_String_
-  commentId: M:CatchIo.Runtime.Entities.EntityScoutingMarker.ApplyMark(System.Int32,System.String)
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.ApplyMark(System.Int32, System.String)
-  nameWithType: EntityScoutingMarker.ApplyMark(Int32, String)
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.ApplyMark*
-  name: ApplyMark
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_ApplyMark_
-  commentId: Overload:CatchIo.Runtime.Entities.EntityScoutingMarker.ApplyMark
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.ApplyMark
-  nameWithType: EntityScoutingMarker.ApplyMark
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.CanMark
-  name: CanMark()
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_CanMark
-  commentId: M:CatchIo.Runtime.Entities.EntityScoutingMarker.CanMark
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.CanMark()
-  nameWithType: EntityScoutingMarker.CanMark()
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.CanMark*
-  name: CanMark
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_CanMark_
-  commentId: Overload:CatchIo.Runtime.Entities.EntityScoutingMarker.CanMark
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.CanMark
-  nameWithType: EntityScoutingMarker.CanMark
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.ClearMarksReceived
-  name: ClearMarksReceived()
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_ClearMarksReceived
-  commentId: M:CatchIo.Runtime.Entities.EntityScoutingMarker.ClearMarksReceived
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.ClearMarksReceived()
-  nameWithType: EntityScoutingMarker.ClearMarksReceived()
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.ClearMarksReceived*
-  name: ClearMarksReceived
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_ClearMarksReceived_
-  commentId: Overload:CatchIo.Runtime.Entities.EntityScoutingMarker.ClearMarksReceived
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.ClearMarksReceived
-  nameWithType: EntityScoutingMarker.ClearMarksReceived
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.RemoveReceivedMark(System.Int32)
-  name: RemoveReceivedMark(Int32)
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_RemoveReceivedMark_System_Int32_
-  commentId: M:CatchIo.Runtime.Entities.EntityScoutingMarker.RemoveReceivedMark(System.Int32)
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.RemoveReceivedMark(System.Int32)
-  nameWithType: EntityScoutingMarker.RemoveReceivedMark(Int32)
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.RemoveReceivedMark*
-  name: RemoveReceivedMark
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_RemoveReceivedMark_
-  commentId: Overload:CatchIo.Runtime.Entities.EntityScoutingMarker.RemoveReceivedMark
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.RemoveReceivedMark
-  nameWithType: EntityScoutingMarker.RemoveReceivedMark
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.Start
-  name: Start()
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_Start
-  commentId: M:CatchIo.Runtime.Entities.EntityScoutingMarker.Start
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.Start()
-  nameWithType: EntityScoutingMarker.Start()
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.Start*
-  name: Start
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_Start_
-  commentId: Overload:CatchIo.Runtime.Entities.EntityScoutingMarker.Start
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.Start
-  nameWithType: EntityScoutingMarker.Start
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.ViewID
-  name: ViewID
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_ViewID
-  commentId: P:CatchIo.Runtime.Entities.EntityScoutingMarker.ViewID
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.ViewID
-  nameWithType: EntityScoutingMarker.ViewID
-- uid: CatchIo.Runtime.Entities.EntityScoutingMarker.ViewID*
-  name: ViewID
-  href: api/CatchIo.Runtime.Entities.EntityScoutingMarker.html#CatchIo_Runtime_Entities_EntityScoutingMarker_ViewID_
-  commentId: Overload:CatchIo.Runtime.Entities.EntityScoutingMarker.ViewID
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.EntityScoutingMarker.ViewID
-  nameWithType: EntityScoutingMarker.ViewID
 - uid: CatchIo.Runtime.Entities.HurtBoxes
   name: CatchIo.Runtime.Entities.HurtBoxes
   href: api/CatchIo.Runtime.Entities.HurtBoxes.html
@@ -9872,6 +9814,12 @@ references:
   commentId: T:CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox
   fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox
   nameWithType: EntityScoutingMarkHurtBox
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox._photonView
+  name: _photonView
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityScoutingMarkHurtBox__photonView
+  commentId: F:CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox._photonView
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox._photonView
+  nameWithType: EntityScoutingMarkHurtBox._photonView
 - uid: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.CanInteract(HitBox)
   name: CanInteract(HitBox)
   href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityScoutingMarkHurtBox_CanInteract_HitBox_
@@ -10420,6 +10368,182 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle
   nameWithType: EntityRotator.UpdateViewAngle
+- uid: CatchIo.Runtime.Entities.Marks
+  name: CatchIo.Runtime.Entities.Marks
+  href: api/CatchIo.Runtime.Entities.Marks.html
+  commentId: N:CatchIo.Runtime.Entities.Marks
+  fullName: CatchIo.Runtime.Entities.Marks
+  nameWithType: CatchIo.Runtime.Entities.Marks
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver
+  name: EntityMarkReceiver
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html
+  commentId: T:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver
+  nameWithType: EntityMarkReceiver
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._isMarked
+  name: _isMarked
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver__isMarked
+  commentId: F:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._isMarked
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._isMarked
+  nameWithType: EntityMarkReceiver._isMarked
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._marksReceived
+  name: _marksReceived
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver__marksReceived
+  commentId: F:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._marksReceived
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._marksReceived
+  nameWithType: EntityMarkReceiver._marksReceived
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)
+  name: ApplyMark(Int32, String, Boolean)
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ApplyMark_System_Int32_System_String_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark(System.Int32, System.String, System.Boolean)
+  nameWithType: EntityMarkReceiver.ApplyMark(Int32, String, Boolean)
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark*
+  name: ApplyMark
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ApplyMark_
+  commentId: Overload:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark
+  nameWithType: EntityMarkReceiver.ApplyMark
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark
+  name: CanMark()
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_CanMark
+  commentId: M:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark()
+  nameWithType: EntityMarkReceiver.CanMark()
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark*
+  name: CanMark
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_CanMark_
+  commentId: Overload:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark
+  nameWithType: EntityMarkReceiver.CanMark
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived
+  name: ClearMarksReceived()
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ClearMarksReceived
+  commentId: M:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived()
+  nameWithType: EntityMarkReceiver.ClearMarksReceived()
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived*
+  name: ClearMarksReceived
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ClearMarksReceived_
+  commentId: Overload:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived
+  nameWithType: EntityMarkReceiver.ClearMarksReceived
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkReceived
+  name: OnMarkReceived
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_OnMarkReceived
+  commentId: E:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkReceived
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkReceived
+  nameWithType: EntityMarkReceiver.OnMarkReceived
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkRemoved
+  name: OnMarkRemoved
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_OnMarkRemoved
+  commentId: E:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkRemoved
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkRemoved
+  nameWithType: EntityMarkReceiver.OnMarkRemoved
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark(System.Int32)
+  name: RemoveReceivedMark(Int32)
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_RemoveReceivedMark_System_Int32_
+  commentId: M:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark(System.Int32)
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark(System.Int32)
+  nameWithType: EntityMarkReceiver.RemoveReceivedMark(Int32)
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark*
+  name: RemoveReceivedMark
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.html#CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_RemoveReceivedMark_
+  commentId: Overload:CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark
+  nameWithType: EntityMarkReceiver.RemoveReceivedMark
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender
+  name: EntityMarkSender
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html
+  commentId: T:CatchIo.Runtime.Entities.Marks.EntityMarkSender
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender
+  nameWithType: EntityMarkSender
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender._marksSent
+  name: _marksSent
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender__marksSent
+  commentId: F:CatchIo.Runtime.Entities.Marks.EntityMarkSender._marksSent
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender._marksSent
+  nameWithType: EntityMarkSender._marksSent
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.ClearMarksSent
+  name: ClearMarksSent()
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_ClearMarksSent
+  commentId: M:CatchIo.Runtime.Entities.Marks.EntityMarkSender.ClearMarksSent
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.ClearMarksSent()
+  nameWithType: EntityMarkSender.ClearMarksSent()
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.ClearMarksSent*
+  name: ClearMarksSent
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_ClearMarksSent_
+  commentId: Overload:CatchIo.Runtime.Entities.Marks.EntityMarkSender.ClearMarksSent
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.ClearMarksSent
+  nameWithType: EntityMarkSender.ClearMarksSent
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.Mark(IEntityScoutingMarkable,System.String,System.Boolean)
+  name: Mark(IEntityScoutingMarkable, String, Boolean)
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_Mark_IEntityScoutingMarkable_System_String_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Marks.EntityMarkSender.Mark(IEntityScoutingMarkable,System.String,System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.Mark(IEntityScoutingMarkable, System.String, System.Boolean)
+  nameWithType: EntityMarkSender.Mark(IEntityScoutingMarkable, String, Boolean)
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.Mark*
+  name: Mark
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_Mark_
+  commentId: Overload:CatchIo.Runtime.Entities.Marks.EntityMarkSender.Mark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.Mark
+  nameWithType: EntityMarkSender.Mark
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.OnMarkRemoved
+  name: OnMarkRemoved
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_OnMarkRemoved
+  commentId: E:CatchIo.Runtime.Entities.Marks.EntityMarkSender.OnMarkRemoved
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.OnMarkRemoved
+  nameWithType: EntityMarkSender.OnMarkRemoved
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.OnMarkSent
+  name: OnMarkSent
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_OnMarkSent
+  commentId: E:CatchIo.Runtime.Entities.Marks.EntityMarkSender.OnMarkSent
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.OnMarkSent
+  nameWithType: EntityMarkSender.OnMarkSent
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.RemoveSentMark(System.Int32,System.Boolean)
+  name: RemoveSentMark(Int32, Boolean)
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_RemoveSentMark_System_Int32_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Marks.EntityMarkSender.RemoveSentMark(System.Int32,System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.RemoveSentMark(System.Int32, System.Boolean)
+  nameWithType: EntityMarkSender.RemoveSentMark(Int32, Boolean)
+- uid: CatchIo.Runtime.Entities.Marks.EntityMarkSender.RemoveSentMark*
+  name: RemoveSentMark
+  href: api/CatchIo.Runtime.Entities.Marks.EntityMarkSender.html#CatchIo_Runtime_Entities_Marks_EntityMarkSender_RemoveSentMark_
+  commentId: Overload:CatchIo.Runtime.Entities.Marks.EntityMarkSender.RemoveSentMark
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Marks.EntityMarkSender.RemoveSentMark
+  nameWithType: EntityMarkSender.RemoveSentMark
+- uid: CatchIo.Runtime.Entities.Networking
+  name: CatchIo.Runtime.Entities.Networking
+  href: api/CatchIo.Runtime.Entities.Networking.html
+  commentId: N:CatchIo.Runtime.Entities.Networking
+  fullName: CatchIo.Runtime.Entities.Networking
+  nameWithType: CatchIo.Runtime.Entities.Networking
+- uid: CatchIo.Runtime.Entities.Networking.MarkNetworkRelay
+  name: MarkNetworkRelay
+  href: api/CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.html
+  commentId: T:CatchIo.Runtime.Entities.Networking.MarkNetworkRelay
+  fullName: CatchIo.Runtime.Entities.Networking.MarkNetworkRelay
+  nameWithType: MarkNetworkRelay
+- uid: CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.OnEvent(EventData)
+  name: OnEvent(EventData)
+  href: api/CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.html#CatchIo_Runtime_Entities_Networking_MarkNetworkRelay_OnEvent_EventData_
+  commentId: M:CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.OnEvent(EventData)
+  fullName: CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.OnEvent(EventData)
+  nameWithType: MarkNetworkRelay.OnEvent(EventData)
+- uid: CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.OnEvent*
+  name: OnEvent
+  href: api/CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.html#CatchIo_Runtime_Entities_Networking_MarkNetworkRelay_OnEvent_
+  commentId: Overload:CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.OnEvent
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.OnEvent
+  nameWithType: MarkNetworkRelay.OnEvent
 - uid: CatchIo.Runtime.Entities.Senders
   name: CatchIo.Runtime.Entities.Senders
   href: api/CatchIo.Runtime.Entities.Senders.html
@@ -11077,12 +11201,24 @@ references:
   commentId: F:CatchIo.Runtime.Enums.SendEventType.CursedOneMadeKillEvent
   fullName: CatchIo.Runtime.Enums.SendEventType.CursedOneMadeKillEvent
   nameWithType: SendEventType.CursedOneMadeKillEvent
+- uid: CatchIo.Runtime.Enums.SendEventType.CursedOneMarkEvent
+  name: CursedOneMarkEvent
+  href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_CursedOneMarkEvent
+  commentId: F:CatchIo.Runtime.Enums.SendEventType.CursedOneMarkEvent
+  fullName: CatchIo.Runtime.Enums.SendEventType.CursedOneMarkEvent
+  nameWithType: SendEventType.CursedOneMarkEvent
 - uid: CatchIo.Runtime.Enums.SendEventType.CursedOneSelectEvent
   name: CursedOneSelectEvent
   href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_CursedOneSelectEvent
   commentId: F:CatchIo.Runtime.Enums.SendEventType.CursedOneSelectEvent
   fullName: CatchIo.Runtime.Enums.SendEventType.CursedOneSelectEvent
   nameWithType: SendEventType.CursedOneSelectEvent
+- uid: CatchIo.Runtime.Enums.SendEventType.CursedOneUnmarkEvent
+  name: CursedOneUnmarkEvent
+  href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_CursedOneUnmarkEvent
+  commentId: F:CatchIo.Runtime.Enums.SendEventType.CursedOneUnmarkEvent
+  fullName: CatchIo.Runtime.Enums.SendEventType.CursedOneUnmarkEvent
+  nameWithType: SendEventType.CursedOneUnmarkEvent
 - uid: CatchIo.Runtime.Enums.SendEventType.DeathMatchStartEvent
   name: DeathMatchStartEvent
   href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_DeathMatchStartEvent
@@ -12824,12 +12960,12 @@ references:
   commentId: T:CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState
   fullName: CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState
   nameWithType: ScoutingRingRuntimeState
-- uid: CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.#ctor(CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig,CharacterScoutingMarker)
-  name: ScoutingRingRuntimeState(ScoutingRingData.ScoutingRingConfig, CharacterScoutingMarker)
-  href: api/CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.html#CatchIo_Runtime_Items_Data_RuntimeStates_ScoutingRingRuntimeState__ctor_CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_CharacterScoutingMarker_
-  commentId: M:CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.#ctor(CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig,CharacterScoutingMarker)
-  fullName: CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.ScoutingRingRuntimeState(CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig, CharacterScoutingMarker)
-  nameWithType: ScoutingRingRuntimeState.ScoutingRingRuntimeState(ScoutingRingData.ScoutingRingConfig, CharacterScoutingMarker)
+- uid: CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.#ctor(CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig,EntityMarkSender)
+  name: ScoutingRingRuntimeState(ScoutingRingData.ScoutingRingConfig, EntityMarkSender)
+  href: api/CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.html#CatchIo_Runtime_Items_Data_RuntimeStates_ScoutingRingRuntimeState__ctor_CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_EntityMarkSender_
+  commentId: M:CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.#ctor(CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig,EntityMarkSender)
+  fullName: CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.ScoutingRingRuntimeState(CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig, EntityMarkSender)
+  nameWithType: ScoutingRingRuntimeState.ScoutingRingRuntimeState(ScoutingRingData.ScoutingRingConfig, EntityMarkSender)
 - uid: CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.#ctor*
   name: ScoutingRingRuntimeState
   href: api/CatchIo.Runtime.Items.Data.RuntimeStates.ScoutingRingRuntimeState.html#CatchIo_Runtime_Items_Data_RuntimeStates_ScoutingRingRuntimeState__ctor_
@@ -12901,12 +13037,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.Equip
   nameWithType: ScoutingRingData.Equip
-- uid: CatchIo.Runtime.Items.Data.ScoutingRingData.Initialize(CharacterScoutingMarker)
-  name: Initialize(CharacterScoutingMarker)
-  href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.html#CatchIo_Runtime_Items_Data_ScoutingRingData_Initialize_CharacterScoutingMarker_
-  commentId: M:CatchIo.Runtime.Items.Data.ScoutingRingData.Initialize(CharacterScoutingMarker)
-  fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.Initialize(CharacterScoutingMarker)
-  nameWithType: ScoutingRingData.Initialize(CharacterScoutingMarker)
+- uid: CatchIo.Runtime.Items.Data.ScoutingRingData.Initialize(EntityMarkSender)
+  name: Initialize(EntityMarkSender)
+  href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.html#CatchIo_Runtime_Items_Data_ScoutingRingData_Initialize_EntityMarkSender_
+  commentId: M:CatchIo.Runtime.Items.Data.ScoutingRingData.Initialize(EntityMarkSender)
+  fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.Initialize(EntityMarkSender)
+  nameWithType: ScoutingRingData.Initialize(EntityMarkSender)
 - uid: CatchIo.Runtime.Items.Data.ScoutingRingData.Initialize*
   name: Initialize
   href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.html#CatchIo_Runtime_Items_Data_ScoutingRingData_Initialize_
@@ -16650,6 +16786,12 @@ references:
   commentId: F:CatchIo.Runtime.NPC.Core.NPCHealth.OnDamage
   fullName: CatchIo.Runtime.NPC.Core.NPCHealth.OnDamage
   nameWithType: NPCHealth.OnDamage
+- uid: CatchIo.Runtime.NPC.Core.NPCHealth.OnDeath
+  name: OnDeath
+  href: api/CatchIo.Runtime.NPC.Core.NPCHealth.html#CatchIo_Runtime_NPC_Core_NPCHealth_OnDeath
+  commentId: E:CatchIo.Runtime.NPC.Core.NPCHealth.OnDeath
+  fullName: CatchIo.Runtime.NPC.Core.NPCHealth.OnDeath
+  nameWithType: NPCHealth.OnDeath
 - uid: CatchIo.Runtime.NPC.Core.NPCHealth.TakeDamage(System.Single,DamageSfxType)
   name: TakeDamage(Single, DamageSfxType)
   href: api/CatchIo.Runtime.NPC.Core.NPCHealth.html#CatchIo_Runtime_NPC_Core_NPCHealth_TakeDamage_System_Single_DamageSfxType_
@@ -16948,19 +17090,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.NPCNetworking.OnImported
   nameWithType: NPCNetworking.OnImported
-- uid: CatchIo.Runtime.NPC.NPCNetworking.RemoveScoutingMark
-  name: RemoveScoutingMark()
-  href: api/CatchIo.Runtime.NPC.NPCNetworking.html#CatchIo_Runtime_NPC_NPCNetworking_RemoveScoutingMark
-  commentId: M:CatchIo.Runtime.NPC.NPCNetworking.RemoveScoutingMark
-  fullName: CatchIo.Runtime.NPC.NPCNetworking.RemoveScoutingMark()
-  nameWithType: NPCNetworking.RemoveScoutingMark()
-- uid: CatchIo.Runtime.NPC.NPCNetworking.RemoveScoutingMark*
-  name: RemoveScoutingMark
-  href: api/CatchIo.Runtime.NPC.NPCNetworking.html#CatchIo_Runtime_NPC_NPCNetworking_RemoveScoutingMark_
-  commentId: Overload:CatchIo.Runtime.NPC.NPCNetworking.RemoveScoutingMark
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.NPCNetworking.RemoveScoutingMark
-  nameWithType: NPCNetworking.RemoveScoutingMark
 - uid: CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack(System.Int32,Vector2,System.Single)
   name: RPC_KnockBack(Int32, Vector2, Single)
   href: api/CatchIo.Runtime.NPC.NPCNetworking.html#CatchIo_Runtime_NPC_NPCNetworking_RPC_KnockBack_System_Int32_Vector2_System_Single_
@@ -16974,19 +17103,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack
   nameWithType: NPCNetworking.RPC_KnockBack
-- uid: CatchIo.Runtime.NPC.NPCNetworking.ScoutingMark(System.String)
-  name: ScoutingMark(String)
-  href: api/CatchIo.Runtime.NPC.NPCNetworking.html#CatchIo_Runtime_NPC_NPCNetworking_ScoutingMark_System_String_
-  commentId: M:CatchIo.Runtime.NPC.NPCNetworking.ScoutingMark(System.String)
-  fullName: CatchIo.Runtime.NPC.NPCNetworking.ScoutingMark(System.String)
-  nameWithType: NPCNetworking.ScoutingMark(String)
-- uid: CatchIo.Runtime.NPC.NPCNetworking.ScoutingMark*
-  name: ScoutingMark
-  href: api/CatchIo.Runtime.NPC.NPCNetworking.html#CatchIo_Runtime_NPC_NPCNetworking_ScoutingMark_
-  commentId: Overload:CatchIo.Runtime.NPC.NPCNetworking.ScoutingMark
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.NPCNetworking.ScoutingMark
-  nameWithType: NPCNetworking.ScoutingMark
 - uid: CatchIo.Runtime.NPC.NPCRotator
   name: NPCRotator
   href: api/CatchIo.Runtime.NPC.NPCRotator.html

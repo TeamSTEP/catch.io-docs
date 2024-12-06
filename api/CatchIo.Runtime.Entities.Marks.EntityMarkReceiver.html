@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NPCNetworking
+    <title>Class EntityMarkReceiver
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NPCNetworking
+    <meta name="title" content="Class EntityMarkReceiver
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,38 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.NPC.NPCNetworking">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver">
   
   
-  <h1 id="CatchIo_Runtime_NPC_NPCNetworking" data-uid="CatchIo.Runtime.NPC.NPCNetworking" class="text-break">Class NPCNetworking
+  <h1 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver" class="text-break">Class EntityMarkReceiver
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Base class for entities that can be marked and unmarked.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">NPCNetworking</span></div>
+    <div class="level1"><span class="xref">EntityMarkReceiver</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPositionProvider</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.NPC.html">CatchIo.Runtime.NPC</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Marks.html">CatchIo.Runtime.Entities.Marks</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_NPC_NPCNetworking_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NPCNetworking : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">public class EntityMarkReceiver : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_ChestOffset" data-uid="CatchIo.Runtime.NPC.NPCNetworking.ChestOffset">ChestOffset</h4>
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver__isMarked" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._isMarked">_isMarked</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Vector3 ChestOffset</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool _isMarked</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,24 +118,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_NPCType_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.NPCType*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_NPCType" data-uid="CatchIo.Runtime.NPC.NPCNetworking.NPCType">NPCType</h4>
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver__marksReceived" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver._marksReceived">_marksReceived</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NPCType NPCType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected readonly LinkedList&lt;int&gt; _marksReceived</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -148,7 +142,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NPCType</span></td>
+        <td><span class="xref">System.Collections.Generic.LinkedList</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -157,92 +151,14 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_GetPosition_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.GetPosition*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_GetPosition" data-uid="CatchIo.Runtime.NPC.NPCNetworking.GetPosition">GetPosition()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ApplyMark_" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ApplyMark_System_Int32_System_String_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)">ApplyMark(Int32, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Applies a mark to this entity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_KnockBack_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.KnockBack*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_KnockBack_KnockBackData_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.KnockBack(KnockBackData)">KnockBack(KnockBackData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void KnockBack(KnockBackData knockBackData)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">KnockBackData</span></td>
-        <td><span class="parametername">knockBackData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_OnImported_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.OnImported*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_OnImported_NPCData_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.OnImported(NPCData)">OnImported(NPCData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnImported(NPCData data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NPCData</span></td>
-        <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_RPC_KnockBack_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_RPC_KnockBack_System_Int32_Vector2_System_Single_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack(System.Int32,Vector2,System.Single)">RPC_KnockBack(Int32, Vector2, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void RPC_KnockBack(int viewId, Vector2 knockBack, float delay)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void ApplyMark(int markerViewID, string markSFX, bool isNetworkCall = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,25 +172,143 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">viewId</span></td>
-        <td></td>
+        <td><span class="parametername">markerViewID</span></td>
+        <td><p>The ID of the marker applying the mark.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">knockBack</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">markSFX</span></td>
+        <td><p>Sound effect to play when the mark is applied.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">delay</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isNetworkCall</span></td>
+        <td><p>Indicates if this action is a network call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_CanMark_" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_CanMark" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.CanMark">CanMark()</h4>
+  <div class="markdown level1 summary"><p>Determines if this entity can be marked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanMark()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the entity is not already marked; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ClearMarksReceived_" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_ClearMarksReceived" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.ClearMarksReceived">ClearMarksReceived()</h4>
+  <div class="markdown level1 summary"><p>Clears all marks from this entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMarksReceived()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_RemoveReceivedMark_" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_RemoveReceivedMark_System_Int32_" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.RemoveReceivedMark(System.Int32)">RemoveReceivedMark(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes a specific mark from this entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RemoveReceivedMark(int markerViewID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">markerViewID</span></td>
+        <td><p>The ID of the marker whose mark will be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_OnMarkReceived" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkReceived">OnMarkReceived</h4>
+  <div class="markdown level1 summary"><p>Event triggered when a mark is received by this entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;int, string&gt; OnMarkReceived</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPositionProvider</span>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Marks_EntityMarkReceiver_OnMarkRemoved" data-uid="CatchIo.Runtime.Entities.Marks.EntityMarkReceiver.OnMarkRemoved">OnMarkRemoved</h4>
+  <div class="markdown level1 summary"><p>Event triggered when a mark is removed from this entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;int&gt; OnMarkRemoved</code></pre>
   </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

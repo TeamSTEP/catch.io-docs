@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CharacterScoutingMarker
+    <title>Class NPCMarkReceiver
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CharacterScoutingMarker
+    <meta name="title" content="Class NPCMarkReceiver
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver">
   
   
-  <h1 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker" class="text-break">Class CharacterScoutingMarker
+  <h1 id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver" class="text-break">Class NPCMarkReceiver
   </h1>
-  <div class="markdown level0 summary"><p>Handles character-specific mark behavior.</p>
+  <div class="markdown level0 summary"><p>Handles NPC-specific mark behavior, including tracking and managing marks received from players.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CharacterScoutingMarker</span></div>
+    <div class="level1"><span class="xref">NPCMarkReceiver</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.ScoutingMarker.html">CatchIo.Runtime.Character.ScoutingMarker</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Marks.html">CatchIo.Runtime.Character.Marks</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CharacterScoutingMarker : EntityScoutingMarker</code></pre>
+    <pre><code class="lang-csharp hljs">public class NPCMarkReceiver : EntityMarkReceiver</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ApplyMark_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ApplyMark_System_Int32_System_String_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ApplyMark(System.Int32,System.String)">ApplyMark(Int32, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver_ApplyMark_" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark*"></a>
+  <h4 id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver_ApplyMark_System_Int32_System_String_System_Boolean_" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver.ApplyMark(System.Int32,System.String,System.Boolean)">ApplyMark(Int32, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Applies a mark to this NPC and updates the marking clients&apos; state.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void ApplyMark(int markerViewID, string markSFX)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void ApplyMark(int markerViewID, string markSFX, bool isNetworkCall = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,13 +130,19 @@
         <td><span class="parametername">markSFX</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isNetworkCall</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_CanMark_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_CanMark" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.CanMark">CanMark()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver_CanMark_" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark*"></a>
+  <h4 id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver_CanMark" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver.CanMark">CanMark()</h4>
+  <div class="markdown level1 summary"><p>Determines if this NPC can be marked.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -158,51 +165,10 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ClearMarksReceived_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_ClearMarksReceived" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.ClearMarksReceived">ClearMarksReceived()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void ClearMarksReceived()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Mark_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Mark_IEntityScoutingMarkable_System_String_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Mark(IEntityScoutingMarkable,System.String)">Mark(IEntityScoutingMarkable, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Mark(IEntityScoutingMarkable markable, string markSFX)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEntityScoutingMarkable</span></td>
-        <td><span class="parametername">markable</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">markSFX</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_RemoveReceivedMark_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_RemoveReceivedMark_System_Int32_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.RemoveReceivedMark(System.Int32)">RemoveReceivedMark(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver_RemoveReceivedMark_" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark*"></a>
+  <h4 id="CatchIo_Runtime_Character_Marks_NPCMarkReceiver_RemoveReceivedMark_System_Int32_" data-uid="CatchIo.Runtime.Character.Marks.NPCMarkReceiver.RemoveReceivedMark(System.Int32)">RemoveReceivedMark(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes a specific received mark from this NPC and updates the marking clients&apos; state.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -225,16 +191,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Start_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterScoutingMarker_Start" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterScoutingMarker.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
-  </div>
 </article>
           </div>
           
