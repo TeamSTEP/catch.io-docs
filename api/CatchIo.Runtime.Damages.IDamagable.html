@@ -127,14 +127,14 @@ Used to determine if the taking damage target is the local player.</p>
   
   
   <a id="CatchIo_Runtime_Damages_IDamagable_TakeDamage_" data-uid="CatchIo.Runtime.Damages.IDamagable.TakeDamage*"></a>
-  <h4 id="CatchIo_Runtime_Damages_IDamagable_TakeDamage_CatchIo_Runtime_Damages_IDamage_" data-uid="CatchIo.Runtime.Damages.IDamagable.TakeDamage(CatchIo.Runtime.Damages.IDamage)">TakeDamage(IDamage)</h4>
+  <h4 id="CatchIo_Runtime_Damages_IDamagable_TakeDamage_CatchIo_Runtime_Damages_IDamage_System_Int32_" data-uid="CatchIo.Runtime.Damages.IDamagable.TakeDamage(CatchIo.Runtime.Damages.IDamage,System.Int32)">TakeDamage(IDamage, Int32)</h4>
   <div class="markdown level1 summary"><p>Applies direct damage to the object.
 The damage is received immediately upon calling this method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void TakeDamage(IDamage damage)</code></pre>
+    <pre><code class="lang-csharp hljs">void TakeDamage(IDamage damage, int attackerViewID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,19 +152,24 @@ The damage is received immediately upon calling this method.</p>
         <td><p>An instance of IDamage that holds information about type and amount of damage dealt.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">attackerViewID</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="CatchIo_Runtime_Damages_IDamagable_TakeDOTDamage_" data-uid="CatchIo.Runtime.Damages.IDamagable.TakeDOTDamage*"></a>
-  <h4 id="CatchIo_Runtime_Damages_IDamagable_TakeDOTDamage_CatchIo_Runtime_Damages_DOTDamage_" data-uid="CatchIo.Runtime.Damages.IDamagable.TakeDOTDamage(CatchIo.Runtime.Damages.DOTDamage)">TakeDOTDamage(DOTDamage)</h4>
+  <h4 id="CatchIo_Runtime_Damages_IDamagable_TakeDOTDamage_CatchIo_Runtime_Damages_DOTDamage_System_Int32_" data-uid="CatchIo.Runtime.Damages.IDamagable.TakeDOTDamage(CatchIo.Runtime.Damages.DOTDamage,System.Int32)">TakeDOTDamage(DOTDamage, Int32)</h4>
   <div class="markdown level1 summary"><p>Applies damage-over-time(DOT) to the object.
 This causes the object to take damage gradually over a specified duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void TakeDOTDamage(DOTDamage dotDamage)</code></pre>
+    <pre><code class="lang-csharp hljs">void TakeDOTDamage(DOTDamage dotDamage, int attackerViewID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,6 +186,11 @@ This causes the object to take damage gradually over a specified duration.</p>
         <td><span class="parametername">dotDamage</span></td>
         <td><p>An instance of DOTDamage that contains information about the DOT, including damage per tick and duration and etc.</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">attackerViewID</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

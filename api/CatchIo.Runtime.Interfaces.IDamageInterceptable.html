@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CharacterMarkSender
+    <title>Interface IDamageInterceptable
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CharacterMarkSender
+    <meta name="title" content="Interface IDamageInterceptable
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,69 +78,57 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Interfaces.IDamageInterceptable">
   
   
-  <h1 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender" class="text-break">Class CharacterMarkSender
+  <h1 id="CatchIo_Runtime_Interfaces_IDamageInterceptable" data-uid="CatchIo.Runtime.Interfaces.IDamageInterceptable" class="text-break">Interface IDamageInterceptable
   </h1>
-  <div class="markdown level0 summary"><p>Manages the sending of marks from a character, handling limits and events.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CharacterMarkSender</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.ScoutingMarker.html">CatchIo.Runtime.Character.ScoutingMarker</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Interfaces.html">CatchIo.Runtime.Interfaces</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Interfaces_IDamageInterceptable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CharacterMarkSender : EntityMarkSender</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IDamageInterceptable</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_ApplyMark_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.ApplyMark*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_ApplyMark_IEntityScoutingMarkable_System_String_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.ApplyMark(IEntityScoutingMarkable,System.String)">ApplyMark(IEntityScoutingMarkable, String)</h4>
+  <a id="CatchIo_Runtime_Interfaces_IDamageInterceptable_UniqueId_" data-uid="CatchIo.Runtime.Interfaces.IDamageInterceptable.UniqueId*"></a>
+  <h4 id="CatchIo_Runtime_Interfaces_IDamageInterceptable_UniqueId" data-uid="CatchIo.Runtime.Interfaces.IDamageInterceptable.UniqueId">UniqueId</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void ApplyMark(IEntityScoutingMarkable target, string markSFX)</code></pre>
+    <pre><code class="lang-csharp hljs">Guid UniqueId { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEntityScoutingMarkable</span></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">markSFX</span></td>
+        <td><span class="xref">System.Guid</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_RemoveSentMark_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark*"></a>
-  <h4 id="CatchIo_Runtime_Character_ScoutingMarker_CharacterMarkSender_RemoveSentMark_System_Int32_System_Boolean_" data-uid="CatchIo.Runtime.Character.ScoutingMarker.CharacterMarkSender.RemoveSentMark(System.Int32,System.Boolean)">RemoveSentMark(Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Removes a sent mark from a target entity.</p>
-</div>
+  <a id="CatchIo_Runtime_Interfaces_IDamageInterceptable_InterceptDamage_" data-uid="CatchIo.Runtime.Interfaces.IDamageInterceptable.InterceptDamage*"></a>
+  <h4 id="CatchIo_Runtime_Interfaces_IDamageInterceptable_InterceptDamage_DamageContext_System_Action_DamageContext__" data-uid="CatchIo.Runtime.Interfaces.IDamageInterceptable.InterceptDamage(DamageContext,System.Action{DamageContext})">InterceptDamage(DamageContext, Action&lt;DamageContext&gt;)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void RemoveSentMark(int targetViewID, bool isNetworkCall = true)</code></pre>
+    <pre><code class="lang-csharp hljs">void InterceptDamage(DamageContext context, Action&lt;DamageContext&gt; next)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -153,13 +141,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">targetViewID</span></td>
+        <td><span class="xref">DamageContext</span></td>
+        <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isNetworkCall</span></td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">DamageContext</span>&gt;</td>
+        <td><span class="parametername">next</span></td>
         <td></td>
       </tr>
     </tbody>

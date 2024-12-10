@@ -324,6 +324,38 @@ and selected through cursor-based navigation. Integrates with input handling for
   
   
   <a id="CatchIo_Runtime_Character_Inventory_InventoryController_ReleaseItem_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.ReleaseItem*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_ReleaseItem_ItemData_System_Boolean_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.ReleaseItem(ItemData,System.Boolean)">ReleaseItem(ItemData, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseItem(ItemData itemData, bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ItemData</span></td>
+        <td><span class="parametername">itemData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_ReleaseItem_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.ReleaseItem*"></a>
   <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_ReleaseItem_System_Boolean_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.ReleaseItem(System.Boolean)">ReleaseItem(Boolean)</h4>
   <div class="markdown level1 summary"><p>Releases the currently selected item from the inventory, unless locked (unless forced).</p>
 </div>
@@ -342,41 +374,6 @@ and selected through cursor-based navigation. Integrates with input handling for
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">force</span></td>
-        <td><p>Whether to force release even if the inventory is locked.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_Inventory_InventoryController_ReleaseItem_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.ReleaseItem*"></a>
-  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_ReleaseItem_System_Int32_System_Boolean_" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.ReleaseItem(System.Int32,System.Boolean)">ReleaseItem(Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Releases the item at the specified slot number, unless locked (unless forced).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReleaseItem(int slotNumber, bool force = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">slotNumber</span></td>
-        <td><p>Slot number of the item to release.</p>
-</td>
-      </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">force</span></td>
@@ -443,6 +440,54 @@ and selected through cursor-based navigation. Integrates with input handling for
   </div>
   <h3 id="events">Events
   </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_OnAddedItem" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnAddedItem">OnAddedItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;ItemData&gt; OnAddedItem</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">ItemData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_OnReleasedItem" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnReleasedItem">OnReleasedItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;ItemData&gt; OnReleasedItem</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">ItemData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <h4 id="CatchIo_Runtime_Character_Inventory_InventoryController_OnSelectItemSlot" data-uid="CatchIo.Runtime.Character.Inventory.InventoryController.OnSelectItemSlot">OnSelectItemSlot</h4>
