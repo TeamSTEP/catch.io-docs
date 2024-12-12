@@ -2027,6 +2027,19 @@ references:
   commentId: F:CatchIo.Runtime.Character.CharacterFacade.Footprints
   fullName: CatchIo.Runtime.Character.CharacterFacade.Footprints
   nameWithType: CharacterFacade.Footprints
+- uid: CatchIo.Runtime.Character.CharacterFacade.ForceRespawn
+  name: ForceRespawn()
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_ForceRespawn
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.ForceRespawn
+  fullName: CatchIo.Runtime.Character.CharacterFacade.ForceRespawn()
+  nameWithType: CharacterFacade.ForceRespawn()
+- uid: CatchIo.Runtime.Character.CharacterFacade.ForceRespawn*
+  name: ForceRespawn
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_ForceRespawn_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.ForceRespawn
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.ForceRespawn
+  nameWithType: CharacterFacade.ForceRespawn
 - uid: CatchIo.Runtime.Character.CharacterFacade.GenerateFootprint(Vector3,System.Boolean,System.Single)
   name: GenerateFootprint(Vector3, Boolean, Single)
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_GenerateFootprint_Vector3_System_Boolean_System_Single_
@@ -2421,12 +2434,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.Renderer
   nameWithType: CharacterFacade.Renderer
-- uid: CatchIo.Runtime.Character.CharacterFacade.Respawn(Vector3,System.Single,IntEventChannel)
-  name: Respawn(Vector3, Single, IntEventChannel)
-  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Respawn_Vector3_System_Single_IntEventChannel_
-  commentId: M:CatchIo.Runtime.Character.CharacterFacade.Respawn(Vector3,System.Single,IntEventChannel)
-  fullName: CatchIo.Runtime.Character.CharacterFacade.Respawn(Vector3, System.Single, IntEventChannel)
-  nameWithType: CharacterFacade.Respawn(Vector3, Single, IntEventChannel)
+- uid: CatchIo.Runtime.Character.CharacterFacade.Respawn(Vector3,IntEventChannel)
+  name: Respawn(Vector3, IntEventChannel)
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Respawn_Vector3_IntEventChannel_
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.Respawn(Vector3,IntEventChannel)
+  fullName: CatchIo.Runtime.Character.CharacterFacade.Respawn(Vector3, IntEventChannel)
+  nameWithType: CharacterFacade.Respawn(Vector3, IntEventChannel)
 - uid: CatchIo.Runtime.Character.CharacterFacade.Respawn*
   name: Respawn
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Respawn_
@@ -19284,6 +19297,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Reset
   nameWithType: CharacterStatus.Reset
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RespawnDelay
+  name: RespawnDelay
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RespawnDelay
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RespawnDelay
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RespawnDelay
+  nameWithType: CharacterStatus.RespawnDelay
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RespawnDelay*
+  name: RespawnDelay
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RespawnDelay_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RespawnDelay
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RespawnDelay
+  nameWithType: CharacterStatus.RespawnDelay
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RunningStaminaCost
   name: RunningStaminaCost
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RunningStaminaCost
