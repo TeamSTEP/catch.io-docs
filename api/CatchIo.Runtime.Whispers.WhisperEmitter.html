@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CharacterWhisperHurtBox
+    <title>Class WhisperEmitter
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CharacterWhisperHurtBox
+    <meta name="title" content="Class WhisperEmitter
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,91 +78,149 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter">
   
   
-  <h1 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox" class="text-break">Class CharacterWhisperHurtBox
+  <h1 id="CatchIo_Runtime_Whispers_WhisperEmitter" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter" class="text-break">Class WhisperEmitter
   </h1>
-  <div class="markdown level0 summary"><p>Handles receiving whisper events and communicates them to other components.
-Inherits from <see cref="!:HurtBox"></see>.</p>
+  <div class="markdown level0 summary"><p>can use for any object that needs to emit Whispers other than players
+Should be add as Child game object</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CharacterWhisperHurtBox</span></div>
+    <div class="level1"><span class="xref">WhisperEmitter</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Receivers.html">CatchIo.Runtime.Character.Receivers</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CatchIo.Runtime.Whispers.IWhisperEmitter.html">IWhisperEmitter</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Whispers.html">CatchIo.Runtime.Whispers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Whispers_WhisperEmitter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CharacterWhisperHurtBox : HurtBox</code></pre>
+    <pre><code class="lang-csharp hljs">public class WhisperEmitter : MonoBehaviour, IWhisperEmitter</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_Owner_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.Owner*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_Owner" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.Owner">Owner</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterFacade Owner { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_ViewID_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.ViewID*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_ViewID" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.ViewID">ViewID</h4>
-  <div class="markdown level1 summary"><p>Gets the Photon View ID of the associated character.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int ViewID { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_CanInteract_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.CanInteract*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_CanInteract_HitBox_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.CanInteract(HitBox)">CanInteract(HitBox)</h4>
-  <div class="markdown level1 summary"><p>Determines if the hurtbox can interact with a given hitbox.</p>
+  <a id="CatchIo_Runtime_Whispers_WhisperEmitter_CanPlay_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.CanPlay*"></a>
+  <h4 id="CatchIo_Runtime_Whispers_WhisperEmitter_CanPlay" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.CanPlay">CanPlay()</h4>
+  <div class="markdown level1 summary"><p>Check if whisper can be played</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool CanInteract(HitBox hitBox)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanPlay()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>If the Whispers can be played or not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Whispers_WhisperEmitter_GetPlayer_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.GetPlayer*"></a>
+  <h4 id="CatchIo_Runtime_Whispers_WhisperEmitter_GetPlayer" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.GetPlayer">GetPlayer()</h4>
+  <div class="markdown level1 summary"><p>Get player facade if this is a player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterFacade GetPlayer()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterFacade</span></td>
+        <td><p>CharacterFacade of the player</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Whispers_WhisperEmitter_GetPosition_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.GetPosition*"></a>
+  <h4 id="CatchIo_Runtime_Whispers_WhisperEmitter_GetPosition" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.GetPosition">GetPosition()</h4>
+  <div class="markdown level1 summary"><p>Get position of the whisper emitter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><p>current position</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Whispers_WhisperEmitter_HasOverlay_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.HasOverlay*"></a>
+  <h4 id="CatchIo_Runtime_Whispers_WhisperEmitter_HasOverlay" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.HasOverlay">HasOverlay()</h4>
+  <div class="markdown level1 summary"><p>Does emitter show whisper overlay</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOverlay()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>If need to enable overlay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Whispers_WhisperEmitter_Initialize_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.Initialize*"></a>
+  <h4 id="CatchIo_Runtime_Whispers_WhisperEmitter_Initialize_System_Boolean_System_Boolean_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.Initialize(System.Boolean,System.Boolean)">Initialize(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(bool isMine, bool hasOverlayEffect = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,151 +233,75 @@ Inherits from <see cref="!:HurtBox"></see>.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HitBox</span></td>
-        <td><span class="parametername">hitBox</span></td>
-        <td><p>The hitbox attempting interaction.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if interaction is allowed, otherwise false.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_CanStart_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.CanStart*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_CanStart" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.CanStart">CanStart()</h4>
-  <div class="markdown level1 summary"><p>Determines if the character can start whispering based on their status.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanStart()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the character is not dead, otherwise false.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_GetHurtBoxPosition_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.GetHurtBoxPosition*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_GetHurtBoxPosition" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.GetHurtBoxPosition">GetHurtBoxPosition()</h4>
-  <div class="markdown level1 summary"><p>Gets the position of the hurtbox in world space.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Vector2 GetHurtBoxPosition()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><p>The position of the hurtbox as a <see cref="!:Vector2"></see>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_StartWhisper_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.StartWhisper*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_StartWhisper_EntityWhisperSender_System_Boolean_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.StartWhisper(EntityWhisperSender,System.Boolean)">StartWhisper(EntityWhisperSender, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Invokes the start whisper event for a given whisper sender.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void StartWhisper(EntityWhisperSender sender, bool withOverlay = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EntityWhisperSender</span></td>
-        <td><span class="parametername">sender</span></td>
-        <td><p>The sender of the whisper.</p>
-</td>
+        <td><span class="parametername">isMine</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">withOverlay</span></td>
+        <td><span class="parametername">hasOverlayEffect</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_StopWhisper_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.StopWhisper*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterWhisperHurtBox_StopWhisper_EntityWhisperSender_System_Boolean_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterWhisperHurtBox.StopWhisper(EntityWhisperSender,System.Boolean)">StopWhisper(EntityWhisperSender, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Invokes the stop whisper event for a given whisper sender.</p>
+  <a id="CatchIo_Runtime_Whispers_WhisperEmitter_IsMine_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.IsMine*"></a>
+  <h4 id="CatchIo_Runtime_Whispers_WhisperEmitter_IsMine" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.IsMine">IsMine()</h4>
+  <div class="markdown level1 summary"><p>Check if this emitter is own by client</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void StopWhisper(EntityWhisperSender sender, bool withOverlay = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsMine()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EntityWhisperSender</span></td>
-        <td><span class="parametername">sender</span></td>
-        <td><p>The sender of the whisper.</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">withOverlay</span></td>
-        <td></td>
+        <td><p>Is emitter own by client</p>
+</td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Runtime_Whispers_WhisperEmitter_IsPlayer_" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.IsPlayer*"></a>
+  <h4 id="CatchIo_Runtime_Whispers_WhisperEmitter_IsPlayer" data-uid="CatchIo.Runtime.Whispers.WhisperEmitter.IsPlayer">IsPlayer()</h4>
+  <div class="markdown level1 summary"><p>Check if this emitter is a player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPlayer()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Is this emitter is a player</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CatchIo.Runtime.Whispers.IWhisperEmitter.html">IWhisperEmitter</a>
+  </div>
 </article>
           </div>
           

@@ -171,13 +171,13 @@
   
   
   <a id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize*"></a>
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_System_Int32_System_String_Vector2_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(System.Int32,System.String,Vector2)">Initialize(Int32, String, Vector2)</h4>
+  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_System_Int32_System_String_Vector2_System_Boolean_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(System.Int32,System.String,Vector2,System.Boolean)">Initialize(Int32, String, Vector2, Boolean)</h4>
   <div class="markdown level1 summary"><p>Initializes the scouting eye with necessary parameters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(int ownerViewID, string markingSFX, Vector2 initDirection)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize(int ownerViewID, string markingSFX, Vector2 initDirection, bool isMine)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,6 +205,12 @@
         <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">initDirection</span></td>
         <td><p>Initial movement direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isMine</span></td>
+        <td><p>if the eye is own by game client</p>
 </td>
       </tr>
     </tbody>
