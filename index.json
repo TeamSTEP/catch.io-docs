@@ -1547,7 +1547,12 @@
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.html",
     "title": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Classes CursedOneCountdownImage CursedOneHealthIndicator Use to indicator cursed one health for other players DeathMatchLeaderBoard GameModeEventUIManager GameTimerText PointText TimeReductionIndicator"
+    "keywords": "Namespace CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Classes CursedOneCountdownImage CursedOneHealthIndicator Use to indicator cursed one health for other players DeathMatchLeaderBoard GameModeEventUIManager GameTimerText MiniLeaderboardController PointText TimeReductionIndicator"
+  },
+  "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.MiniLeaderboardController.html": {
+    "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.MiniLeaderboardController.html",
+    "title": "Class MiniLeaderboardController | Catch.io Developer Reference",
+    "keywords": "Class MiniLeaderboardController Inheritance System.Object MiniLeaderboardController Namespace : CatchIo.Runtime.Menu.GameOverlay.GameModeHUD Assembly : cs.temp.dll.dll Syntax public class MiniLeaderboardController : MonoBehaviour"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText.html",
@@ -1767,7 +1772,7 @@
   "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.html",
     "title": "Class LeaderboardInfoElement | Catch.io Developer Reference",
-    "keywords": "Class LeaderboardInfoElement Inheritance System.Object LeaderboardInfoElement Namespace : CatchIo.Runtime.Menu.UI.Element Assembly : cs.temp.dll.dll Syntax public class LeaderboardInfoElement : MonoBehaviour Methods ClearText() Declaration public void ClearText() Initialize(String, Boolean) Declaration public void Initialize(string inString, bool hideIcon = false) Parameters Type Name Description System.String inString System.Boolean hideIcon"
+    "keywords": "Class LeaderboardInfoElement Inheritance System.Object LeaderboardInfoElement Namespace : CatchIo.Runtime.Menu.UI.Element Assembly : cs.temp.dll.dll Syntax public class LeaderboardInfoElement : MonoBehaviour Methods ClearText() Declaration public void ClearText() Initialize(String, Boolean) Declaration public void Initialize(string inString, bool hideIcon = false) Parameters Type Name Description System.String inString System.Boolean hideIcon Initialize(String, String, Color) Declaration public void Initialize(string inString, string inSecondaryString, Color inColor) Parameters Type Name Description System.String inString System.String inSecondaryString Color inColor"
   },
   "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardPlayerElement.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Element.LeaderboardPlayerElement.html",
@@ -1917,7 +1922,12 @@
   "api/CatchIo.Runtime.Network.html": {
     "href": "api/CatchIo.Runtime.Network.html",
     "title": "Namespace CatchIo.Runtime.Network | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Network Classes NetworkTimer RoomData"
+    "keywords": "Namespace CatchIo.Runtime.Network Classes InRoomPlayerListener A class that will handle each player's properties update during a session NetworkTimer RoomData"
+  },
+  "api/CatchIo.Runtime.Network.InRoomPlayerListener.html": {
+    "href": "api/CatchIo.Runtime.Network.InRoomPlayerListener.html",
+    "title": "Class InRoomPlayerListener | Catch.io Developer Reference",
+    "keywords": "Class InRoomPlayerListener A class that will handle each player's properties update during a session Inheritance System.Object InRoomPlayerListener Namespace : CatchIo.Runtime.Network Assembly : cs.temp.dll.dll Syntax public class InRoomPlayerListener : MonoBehaviourPunCallbacks Methods OnPlayerPropertiesUpdate(Player, ExitGames.Client.Photon.Hashtable) Will be triggered when there's a change in player properties Declaration public override void OnPlayerPropertiesUpdate(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps) Parameters Type Name Description Player targetPlayer ExitGames.Client.Photon.Hashtable changedProps"
   },
   "api/CatchIo.Runtime.Network.NetworkTimer.html": {
     "href": "api/CatchIo.Runtime.Network.NetworkTimer.html",
@@ -2272,7 +2282,7 @@
   "api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html": {
     "href": "api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html",
     "title": "Class PlayersInRoom | Catch.io Developer Reference",
-    "keywords": "Class PlayersInRoom This scriptable object contains players in the same room. Inheritance System.Object PlayersInRoom Namespace : CatchIo.Runtime.ScriptableObjects.Network Assembly : cs.temp.dll.dll Syntax public class PlayersInRoom : DescriptionScriptableObject Fields OnPlayerLeft Declaration public Action<Player> OnPlayerLeft Field Value Type Description System.Action < Player > OnPropertiesUpdated Declaration public Action<Tuple<Player, ExitGames.Client.Photon.Hashtable>> OnPropertiesUpdated Field Value Type Description System.Action < System.Tuple < Player , ExitGames.Client.Photon.Hashtable >> OnUpdated Declaration public Action OnUpdated Field Value Type Description System.Action Methods Clear() Declaration public void Clear() GetPlayers() Declaration public List<Player> GetPlayers() Returns Type Description System.Collections.Generic.List < Player > SetCustomProperty(Player, ExitGames.Client.Photon.Hashtable) Declaration public void SetCustomProperty(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps) Parameters Type Name Description Player targetPlayer ExitGames.Client.Photon.Hashtable changedProps TryAddPlayer(Player) Declaration public bool TryAddPlayer(Player player) Parameters Type Name Description Player player Returns Type Description System.Boolean TryRemovePlayer(Player) Declaration public bool TryRemovePlayer(Player player) Parameters Type Name Description Player player Returns Type Description System.Boolean"
+    "keywords": "Class PlayersInRoom This scriptable object contains players in the same room. Inheritance System.Object PlayersInRoom Namespace : CatchIo.Runtime.ScriptableObjects.Network Assembly : cs.temp.dll.dll Syntax public class PlayersInRoom : DescriptionScriptableObject Fields OnInRoomPlayerPropertiesUpdated Trigger changes if there's a properties updated based on InRoomListener Useful to detect changes during in-game session Declaration public Action<Player, ExitGames.Client.Photon.Hashtable> OnInRoomPlayerPropertiesUpdated Field Value Type Description System.Action < Player , ExitGames.Client.Photon.Hashtable > OnPlayerLeft Declaration public Action<Player> OnPlayerLeft Field Value Type Description System.Action < Player > OnPropertiesUpdated Declaration public Action<Tuple<Player, ExitGames.Client.Photon.Hashtable>> OnPropertiesUpdated Field Value Type Description System.Action < System.Tuple < Player , ExitGames.Client.Photon.Hashtable >> OnUpdated Declaration public Action OnUpdated Field Value Type Description System.Action Methods Clear() Declaration public void Clear() GetPlayers() Declaration public List<Player> GetPlayers() Returns Type Description System.Collections.Generic.List < Player > SetCustomProperty(Player, ExitGames.Client.Photon.Hashtable) Declaration public void SetCustomProperty(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps) Parameters Type Name Description Player targetPlayer ExitGames.Client.Photon.Hashtable changedProps TryAddPlayer(Player) Declaration public bool TryAddPlayer(Player player) Parameters Type Name Description Player player Returns Type Description System.Boolean TryRemovePlayer(Player) Declaration public bool TryRemovePlayer(Player player) Parameters Type Name Description Player player Returns Type Description System.Boolean"
   },
   "api/CatchIo.Runtime.ScriptableObjects.SceneModes.BaseSceneMode.html": {
     "href": "api/CatchIo.Runtime.ScriptableObjects.SceneModes.BaseSceneMode.html",

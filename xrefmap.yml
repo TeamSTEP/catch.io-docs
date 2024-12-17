@@ -15119,6 +15119,12 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.GameTimerText
   fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.GameTimerText
   nameWithType: GameTimerText
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.MiniLeaderboardController
+  name: MiniLeaderboardController
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.MiniLeaderboardController.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.MiniLeaderboardController
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.MiniLeaderboardController
+  nameWithType: MiniLeaderboardController
 - uid: CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText
   name: PointText
   href: api/CatchIo.Runtime.Menu.GameOverlay.GameModeHUD.PointText.html
@@ -16255,6 +16261,12 @@ references:
   commentId: M:CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.Initialize(System.String,System.Boolean)
   fullName: CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.Initialize(System.String, System.Boolean)
   nameWithType: LeaderboardInfoElement.Initialize(String, Boolean)
+- uid: CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.Initialize(System.String,System.String,Color)
+  name: Initialize(String, String, Color)
+  href: api/CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.html#CatchIo_Runtime_Menu_UI_Element_LeaderboardInfoElement_Initialize_System_String_System_String_Color_
+  commentId: M:CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.Initialize(System.String,System.String,Color)
+  fullName: CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.Initialize(System.String, System.String, Color)
+  nameWithType: LeaderboardInfoElement.Initialize(String, String, Color)
 - uid: CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.Initialize*
   name: Initialize
   href: api/CatchIo.Runtime.Menu.UI.Element.LeaderboardInfoElement.html#CatchIo_Runtime_Menu_UI_Element_LeaderboardInfoElement_Initialize_
@@ -16977,6 +16989,25 @@ references:
   commentId: F:CatchIo.Runtime.Network.CustomProperties.RoomProperties.RoomState
   fullName: CatchIo.Runtime.Network.CustomProperties.RoomProperties.RoomState
   nameWithType: RoomProperties.RoomState
+- uid: CatchIo.Runtime.Network.InRoomPlayerListener
+  name: InRoomPlayerListener
+  href: api/CatchIo.Runtime.Network.InRoomPlayerListener.html
+  commentId: T:CatchIo.Runtime.Network.InRoomPlayerListener
+  fullName: CatchIo.Runtime.Network.InRoomPlayerListener
+  nameWithType: InRoomPlayerListener
+- uid: CatchIo.Runtime.Network.InRoomPlayerListener.OnPlayerPropertiesUpdate(Player,ExitGames.Client.Photon.Hashtable)
+  name: OnPlayerPropertiesUpdate(Player, ExitGames.Client.Photon.Hashtable)
+  href: api/CatchIo.Runtime.Network.InRoomPlayerListener.html#CatchIo_Runtime_Network_InRoomPlayerListener_OnPlayerPropertiesUpdate_Player_ExitGames_Client_Photon_Hashtable_
+  commentId: M:CatchIo.Runtime.Network.InRoomPlayerListener.OnPlayerPropertiesUpdate(Player,ExitGames.Client.Photon.Hashtable)
+  fullName: CatchIo.Runtime.Network.InRoomPlayerListener.OnPlayerPropertiesUpdate(Player, ExitGames.Client.Photon.Hashtable)
+  nameWithType: InRoomPlayerListener.OnPlayerPropertiesUpdate(Player, ExitGames.Client.Photon.Hashtable)
+- uid: CatchIo.Runtime.Network.InRoomPlayerListener.OnPlayerPropertiesUpdate*
+  name: OnPlayerPropertiesUpdate
+  href: api/CatchIo.Runtime.Network.InRoomPlayerListener.html#CatchIo_Runtime_Network_InRoomPlayerListener_OnPlayerPropertiesUpdate_
+  commentId: Overload:CatchIo.Runtime.Network.InRoomPlayerListener.OnPlayerPropertiesUpdate
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Network.InRoomPlayerListener.OnPlayerPropertiesUpdate
+  nameWithType: InRoomPlayerListener.OnPlayerPropertiesUpdate
 - uid: CatchIo.Runtime.Network.NetworkTimer
   name: NetworkTimer
   href: api/CatchIo.Runtime.Network.NetworkTimer.html
@@ -21520,6 +21551,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.GetPlayers
   nameWithType: PlayersInRoom.GetPlayers
+- uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomPlayerPropertiesUpdated
+  name: OnInRoomPlayerPropertiesUpdated
+  href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnInRoomPlayerPropertiesUpdated
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomPlayerPropertiesUpdated
+  fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomPlayerPropertiesUpdated
+  nameWithType: PlayersInRoom.OnInRoomPlayerPropertiesUpdated
 - uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnPlayerLeft
   name: OnPlayerLeft
   href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnPlayerLeft
