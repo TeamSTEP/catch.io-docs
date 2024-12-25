@@ -1309,6 +1309,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Camera.GameCamera.Follow
   nameWithType: GameCamera.Follow
+- uid: CatchIo.Runtime.Camera.GameCamera.GameCameraShake
+  name: GameCameraShake
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_GameCameraShake
+  commentId: P:CatchIo.Runtime.Camera.GameCamera.GameCameraShake
+  fullName: CatchIo.Runtime.Camera.GameCamera.GameCameraShake
+  nameWithType: GameCamera.GameCameraShake
+- uid: CatchIo.Runtime.Camera.GameCamera.GameCameraShake*
+  name: GameCameraShake
+  href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_GameCameraShake_
+  commentId: Overload:CatchIo.Runtime.Camera.GameCamera.GameCameraShake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Camera.GameCamera.GameCameraShake
+  nameWithType: GameCamera.GameCameraShake
 - uid: CatchIo.Runtime.Camera.GameCamera.GetOverlayCamera(System.Int32)
   name: GetOverlayCamera(Int32)
   href: api/CatchIo.Runtime.Camera.GameCamera.html#CatchIo_Runtime_Camera_GameCamera_GetOverlayCamera_System_Int32_
@@ -1477,6 +1490,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Camera.GameCameraInputHandler.SetCallbacks
   nameWithType: GameCameraInputHandler.SetCallbacks
+- uid: CatchIo.Runtime.Camera.GameCameraShake
+  name: GameCameraShake
+  href: api/CatchIo.Runtime.Camera.GameCameraShake.html
+  commentId: T:CatchIo.Runtime.Camera.GameCameraShake
+  fullName: CatchIo.Runtime.Camera.GameCameraShake
+  nameWithType: GameCameraShake
+- uid: CatchIo.Runtime.Camera.GameCameraShake.ShakeCamera(System.Single,System.Single)
+  name: ShakeCamera(Single, Single)
+  href: api/CatchIo.Runtime.Camera.GameCameraShake.html#CatchIo_Runtime_Camera_GameCameraShake_ShakeCamera_System_Single_System_Single_
+  commentId: M:CatchIo.Runtime.Camera.GameCameraShake.ShakeCamera(System.Single,System.Single)
+  fullName: CatchIo.Runtime.Camera.GameCameraShake.ShakeCamera(System.Single, System.Single)
+  nameWithType: GameCameraShake.ShakeCamera(Single, Single)
+- uid: CatchIo.Runtime.Camera.GameCameraShake.ShakeCamera*
+  name: ShakeCamera
+  href: api/CatchIo.Runtime.Camera.GameCameraShake.html#CatchIo_Runtime_Camera_GameCameraShake_ShakeCamera_
+  commentId: Overload:CatchIo.Runtime.Camera.GameCameraShake.ShakeCamera
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Camera.GameCameraShake.ShakeCamera
+  nameWithType: GameCameraShake.ShakeCamera
 - uid: CatchIo.Runtime.Camera.GameCameraZoom
   name: GameCameraZoom
   href: api/CatchIo.Runtime.Camera.GameCameraZoom.html
@@ -11045,6 +11077,24 @@ references:
   commentId: F:CatchIo.Runtime.Enums.EntityDirectionType.W
   fullName: CatchIo.Runtime.Enums.EntityDirectionType.W
   nameWithType: EntityDirectionType.W
+- uid: CatchIo.Runtime.Enums.FullScreenEffects
+  name: FullScreenEffects
+  href: api/CatchIo.Runtime.Enums.FullScreenEffects.html
+  commentId: T:CatchIo.Runtime.Enums.FullScreenEffects
+  fullName: CatchIo.Runtime.Enums.FullScreenEffects
+  nameWithType: FullScreenEffects
+- uid: CatchIo.Runtime.Enums.FullScreenEffects.LOW_STAMINA
+  name: LOW_STAMINA
+  href: api/CatchIo.Runtime.Enums.FullScreenEffects.html#CatchIo_Runtime_Enums_FullScreenEffects_LOW_STAMINA
+  commentId: F:CatchIo.Runtime.Enums.FullScreenEffects.LOW_STAMINA
+  fullName: CatchIo.Runtime.Enums.FullScreenEffects.LOW_STAMINA
+  nameWithType: FullScreenEffects.LOW_STAMINA
+- uid: CatchIo.Runtime.Enums.FullScreenEffects.TAKE_DAMAGE
+  name: TAKE_DAMAGE
+  href: api/CatchIo.Runtime.Enums.FullScreenEffects.html#CatchIo_Runtime_Enums_FullScreenEffects_TAKE_DAMAGE
+  commentId: F:CatchIo.Runtime.Enums.FullScreenEffects.TAKE_DAMAGE
+  fullName: CatchIo.Runtime.Enums.FullScreenEffects.TAKE_DAMAGE
+  nameWithType: FullScreenEffects.TAKE_DAMAGE
 - uid: CatchIo.Runtime.Enums.GameLanguage
   name: GameLanguage
   href: api/CatchIo.Runtime.Enums.GameLanguage.html
@@ -11135,6 +11185,30 @@ references:
   commentId: F:CatchIo.Runtime.Enums.GameObjectiveEventEnum.WinnerSelected
   fullName: CatchIo.Runtime.Enums.GameObjectiveEventEnum.WinnerSelected
   nameWithType: GameObjectiveEventEnum.WinnerSelected
+- uid: CatchIo.Runtime.Enums.PlayerFeedbackAction
+  name: PlayerFeedbackAction
+  href: api/CatchIo.Runtime.Enums.PlayerFeedbackAction.html
+  commentId: T:CatchIo.Runtime.Enums.PlayerFeedbackAction
+  fullName: CatchIo.Runtime.Enums.PlayerFeedbackAction
+  nameWithType: PlayerFeedbackAction
+- uid: CatchIo.Runtime.Enums.PlayerFeedbackAction.HEAVY_ATTACK
+  name: HEAVY_ATTACK
+  href: api/CatchIo.Runtime.Enums.PlayerFeedbackAction.html#CatchIo_Runtime_Enums_PlayerFeedbackAction_HEAVY_ATTACK
+  commentId: F:CatchIo.Runtime.Enums.PlayerFeedbackAction.HEAVY_ATTACK
+  fullName: CatchIo.Runtime.Enums.PlayerFeedbackAction.HEAVY_ATTACK
+  nameWithType: PlayerFeedbackAction.HEAVY_ATTACK
+- uid: CatchIo.Runtime.Enums.PlayerFeedbackAction.LIGHT_ATTACK
+  name: LIGHT_ATTACK
+  href: api/CatchIo.Runtime.Enums.PlayerFeedbackAction.html#CatchIo_Runtime_Enums_PlayerFeedbackAction_LIGHT_ATTACK
+  commentId: F:CatchIo.Runtime.Enums.PlayerFeedbackAction.LIGHT_ATTACK
+  fullName: CatchIo.Runtime.Enums.PlayerFeedbackAction.LIGHT_ATTACK
+  nameWithType: PlayerFeedbackAction.LIGHT_ATTACK
+- uid: CatchIo.Runtime.Enums.PlayerFeedbackAction.TAKE_DAMAGE
+  name: TAKE_DAMAGE
+  href: api/CatchIo.Runtime.Enums.PlayerFeedbackAction.html#CatchIo_Runtime_Enums_PlayerFeedbackAction_TAKE_DAMAGE
+  commentId: F:CatchIo.Runtime.Enums.PlayerFeedbackAction.TAKE_DAMAGE
+  fullName: CatchIo.Runtime.Enums.PlayerFeedbackAction.TAKE_DAMAGE
+  nameWithType: PlayerFeedbackAction.TAKE_DAMAGE
 - uid: CatchIo.Runtime.Enums.RoomState
   name: RoomState
   href: api/CatchIo.Runtime.Enums.RoomState.html
@@ -14420,6 +14494,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Managers.GameManager.ScreenSize
   nameWithType: GameManager.ScreenSize
+- uid: CatchIo.Runtime.Managers.PlayerActionFeedbackManager
+  name: PlayerActionFeedbackManager
+  href: api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html
+  commentId: T:CatchIo.Runtime.Managers.PlayerActionFeedbackManager
+  fullName: CatchIo.Runtime.Managers.PlayerActionFeedbackManager
+  nameWithType: PlayerActionFeedbackManager
+- uid: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance
+  name: Instance
+  href: api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html#CatchIo_Runtime_Managers_PlayerActionFeedbackManager_Instance
+  commentId: P:CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance
+  fullName: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance
+  nameWithType: PlayerActionFeedbackManager.Instance
+- uid: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance*
+  name: Instance
+  href: api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html#CatchIo_Runtime_Managers_PlayerActionFeedbackManager_Instance_
+  commentId: Overload:CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance
+  nameWithType: PlayerActionFeedbackManager.Instance
+- uid: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback(PlayerFeedbackAction)
+  name: SendFeedback(PlayerFeedbackAction)
+  href: api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html#CatchIo_Runtime_Managers_PlayerActionFeedbackManager_SendFeedback_PlayerFeedbackAction_
+  commentId: M:CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback(PlayerFeedbackAction)
+  fullName: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback(PlayerFeedbackAction)
+  nameWithType: PlayerActionFeedbackManager.SendFeedback(PlayerFeedbackAction)
+- uid: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback*
+  name: SendFeedback
+  href: api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html#CatchIo_Runtime_Managers_PlayerActionFeedbackManager_SendFeedback_
+  commentId: Overload:CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback
+  nameWithType: PlayerActionFeedbackManager.SendFeedback
 - uid: CatchIo.Runtime.Menu.GameOverlay
   name: CatchIo.Runtime.Menu.GameOverlay
   href: api/CatchIo.Runtime.Menu.GameOverlay.html
@@ -21959,12 +22065,12 @@ references:
   commentId: T:CatchIo.Runtime.Services.FullScreenEffectService
   fullName: CatchIo.Runtime.Services.FullScreenEffectService
   nameWithType: FullScreenEffectService
-- uid: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect
-  name: ActivateEffect()
-  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect
-  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect
-  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect()
-  nameWithType: FullScreenEffectService.ActivateEffect()
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect(FullScreenEffects)
+  name: ActivateEffect(FullScreenEffects)
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_FullScreenEffects_
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect(FullScreenEffects)
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect(FullScreenEffects)
+  nameWithType: FullScreenEffectService.ActivateEffect(FullScreenEffects)
 - uid: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect*
   name: ActivateEffect
   href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_
@@ -21972,25 +22078,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect
   nameWithType: FullScreenEffectService.ActivateEffect
-- uid: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)
-  name: ChangeMaterial(Material)
-  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_Material_
-  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)
-  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)
-  nameWithType: FullScreenEffectService.ChangeMaterial(Material)
-- uid: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial*
-  name: ChangeMaterial
-  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_
-  commentId: Overload:CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects
+  name: DeactivateAllEffects()
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_DeactivateAllEffects
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects()
+  nameWithType: FullScreenEffectService.DeactivateAllEffects()
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects*
+  name: DeactivateAllEffects
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_DeactivateAllEffects_
+  commentId: Overload:CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects
   isSpec: "True"
-  fullName: CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial
-  nameWithType: FullScreenEffectService.ChangeMaterial
-- uid: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
-  name: DeactivateEffect()
-  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect
-  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
-  fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect()
-  nameWithType: FullScreenEffectService.DeactivateEffect()
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects
+  nameWithType: FullScreenEffectService.DeactivateAllEffects
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect(FullScreenEffects)
+  name: DeactivateEffect(FullScreenEffects)
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_FullScreenEffects_
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect(FullScreenEffects)
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect(FullScreenEffects)
+  nameWithType: FullScreenEffectService.DeactivateEffect(FullScreenEffects)
 - uid: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect*
   name: DeactivateEffect
   href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_

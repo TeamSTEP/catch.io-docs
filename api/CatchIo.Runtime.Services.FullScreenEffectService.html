@@ -83,7 +83,7 @@
   
   <h1 id="CatchIo_Runtime_Services_FullScreenEffectService" data-uid="CatchIo.Runtime.Services.FullScreenEffectService" class="text-break">Class FullScreenEffectService
   </h1>
-  <div class="markdown level0 summary"><p>A class that Manages full screen overlay effect based on the Blit shader</p>
+  <div class="markdown level0 summary"><p>A class that Manages full screen overlay effect using URP full screen shaders</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -102,25 +102,13 @@
   
   
   <a id="CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect">ActivateEffect()</h4>
-  <div class="markdown level1 summary"><p>Act as trigger to activate the fullscreen effect</p>
+  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_FullScreenEffects_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect(FullScreenEffects)">ActivateEffect(FullScreenEffects)</h4>
+  <div class="markdown level1 summary"><p>Activate specific full screen effect</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ActivateEffect()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_ChangeMaterial_Material_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ChangeMaterial(Material)">ChangeMaterial(Material)</h4>
-  <div class="markdown level1 summary"><p>Chage the intended fullscreen overlay material
-Then attach it to the existing blit</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ChangeMaterial(Material material)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ActivateEffect(FullScreenEffects effectKey)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,24 +121,53 @@ Then attach it to the existing blit</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Material</span></td>
-        <td><span class="parametername">material</span></td>
-        <td><p>fullscreen overlay material</p>
+        <td><span class="xref">FullScreenEffects</span></td>
+        <td><span class="parametername">effectKey</span></td>
+        <td><p>Effect to activate</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect">DeactivateEffect()</h4>
-  <div class="markdown level1 summary"><p>Act as trigger to deactivate the fullscreen effect</p>
+  <a id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateAllEffects_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects*"></a>
+  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateAllEffects" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects">DeactivateAllEffects()</h4>
+  <div class="markdown level1 summary"><p>De activate all effects</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeactivateEffect()</code></pre>
+    <pre><code class="lang-csharp hljs">public void DeactivateAllEffects()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect*"></a>
+  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_FullScreenEffects_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect(FullScreenEffects)">DeactivateEffect(FullScreenEffects)</h4>
+  <div class="markdown level1 summary"><p>Deactivate specific full screen effect</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeactivateEffect(FullScreenEffects effectKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FullScreenEffects</span></td>
+        <td><span class="parametername">effectKey</span></td>
+        <td><p>Effect to deactivate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

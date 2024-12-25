@@ -237,7 +237,7 @@
   "api/CatchIo.Runtime.Camera.GameCamera.html": {
     "href": "api/CatchIo.Runtime.Camera.GameCamera.html",
     "title": "Class GameCamera | Catch.io Developer Reference",
-    "keywords": "Class GameCamera The main camera class for in-game camera movements. Manages all the camera setup and features for a single instance per scene, including zoom, follow, and overlay cameras. Inheritance System.Object GameCamera Namespace : CatchIo.Runtime.Camera Assembly : cs.temp.dll.dll Syntax public class GameCamera : MonoBehaviour Properties Camera Gets the main camera instance. Declaration public UnityEngine.Camera Camera { get; } Property Value Type Description UnityEngine.Camera Follow Gets the follow functionality of the camera. Declaration public GameCameraFollow Follow { get; } Property Value Type Description GameCameraFollow OverlayCameras List of overlay cameras associated with this camera. Declaration public List<OverlayCamera> OverlayCameras { get; } Property Value Type Description System.Collections.Generic.List < OverlayCamera > Zoom Gets the zoom functionality of the camera. Declaration public GameCameraZoom Zoom { get; } Property Value Type Description GameCameraZoom Methods AddOverlayCamera(OverlayCamera) Adds an overlay camera to the stack if it is not already added. Declaration public void AddOverlayCamera(OverlayCamera overlayCamera) Parameters Type Name Description OverlayCamera overlayCamera The overlay camera to add. GetOverlayCamera(Int32) Retrieves an overlay camera by its index in the overlay camera list. Declaration public OverlayCamera GetOverlayCamera(int index) Parameters Type Name Description System.Int32 index The index of the overlay camera. Returns Type Description OverlayCamera The overlay camera if the index is valid, otherwise null. SetAttenuationObject(GameObject) Declaration public void SetAttenuationObject(GameObject target) Parameters Type Name Description GameObject target SetCullingMask(String, Boolean) Sets the culling mask for the camera by adding or removing the specified layer. Declaration public void SetCullingMask(string layerName, bool add) Parameters Type Name Description System.String layerName The name of the layer to modify in the culling mask. System.Boolean add True to add the layer, false to remove it."
+    "keywords": "Class GameCamera The main camera class for in-game camera movements. Manages all the camera setup and features for a single instance per scene, including zoom, follow, and overlay cameras. Inheritance System.Object GameCamera Namespace : CatchIo.Runtime.Camera Assembly : cs.temp.dll.dll Syntax public class GameCamera : MonoBehaviour Properties Camera Gets the main camera instance. Declaration public UnityEngine.Camera Camera { get; } Property Value Type Description UnityEngine.Camera Follow Gets the follow functionality of the camera. Declaration public GameCameraFollow Follow { get; } Property Value Type Description GameCameraFollow GameCameraShake Get shake functionality of the camera Declaration public GameCameraShake GameCameraShake { get; } Property Value Type Description GameCameraShake OverlayCameras List of overlay cameras associated with this camera. Declaration public List<OverlayCamera> OverlayCameras { get; } Property Value Type Description System.Collections.Generic.List < OverlayCamera > Zoom Gets the zoom functionality of the camera. Declaration public GameCameraZoom Zoom { get; } Property Value Type Description GameCameraZoom Methods AddOverlayCamera(OverlayCamera) Adds an overlay camera to the stack if it is not already added. Declaration public void AddOverlayCamera(OverlayCamera overlayCamera) Parameters Type Name Description OverlayCamera overlayCamera The overlay camera to add. GetOverlayCamera(Int32) Retrieves an overlay camera by its index in the overlay camera list. Declaration public OverlayCamera GetOverlayCamera(int index) Parameters Type Name Description System.Int32 index The index of the overlay camera. Returns Type Description OverlayCamera The overlay camera if the index is valid, otherwise null. SetAttenuationObject(GameObject) Declaration public void SetAttenuationObject(GameObject target) Parameters Type Name Description GameObject target SetCullingMask(String, Boolean) Sets the culling mask for the camera by adding or removing the specified layer. Declaration public void SetCullingMask(string layerName, bool add) Parameters Type Name Description System.String layerName The name of the layer to modify in the culling mask. System.Boolean add True to add the layer, false to remove it."
   },
   "api/CatchIo.Runtime.Camera.GameCameraFollow.html": {
     "href": "api/CatchIo.Runtime.Camera.GameCameraFollow.html",
@@ -249,6 +249,11 @@
     "title": "Class GameCameraInputHandler | Catch.io Developer Reference",
     "keywords": "Class GameCameraInputHandler Handles input for controlling camera movements such as panning. Manages enabling, disabling, and cleanup of input actions. Inheritance System.Object GameCameraInputHandler Namespace : CatchIo.Runtime.Camera Assembly : cs.temp.dll.dll Syntax public class GameCameraInputHandler : IDisposable Constructors GameCameraInputHandler(InputReader) Initializes the input handler with an InputReader. Declaration public GameCameraInputHandler(InputReader inputReader) Parameters Type Name Description InputReader inputReader The InputReader to handle camera input actions. Methods Disable() Disables the camera input actions and unsubscribes from input events. Declaration public void Disable() Dispose() Cleans up the input handler by disabling input actions and removing callbacks. Declaration public void Dispose() Enable() Enables the camera input actions and subscribes to input events. Declaration public void Enable() GetPanDirection() Gets the current pan direction based on input. Declaration public Vector2 GetPanDirection() Returns Type Description Vector2 The normalized pan direction. SetCallbacks() Sets the input reader's callbacks for camera input actions. Declaration public void SetCallbacks()"
   },
+  "api/CatchIo.Runtime.Camera.GameCameraShake.html": {
+    "href": "api/CatchIo.Runtime.Camera.GameCameraShake.html",
+    "title": "Class GameCameraShake | Catch.io Developer Reference",
+    "keywords": "Class GameCameraShake Handle camera shake Inheritance System.Object GameCameraShake Namespace : CatchIo.Runtime.Camera Assembly : cs.temp.dll.dll Syntax public class GameCameraShake : MonoBehaviour Methods ShakeCamera(Single, Single) Shake camera with given params Declaration public void ShakeCamera(float shakeIntensity, float duration) Parameters Type Name Description System.Single shakeIntensity Intensity of camera shake System.Single duration Duration for the shake"
+  },
   "api/CatchIo.Runtime.Camera.GameCameraZoom.html": {
     "href": "api/CatchIo.Runtime.Camera.GameCameraZoom.html",
     "title": "Class GameCameraZoom | Catch.io Developer Reference",
@@ -257,7 +262,7 @@
   "api/CatchIo.Runtime.Camera.html": {
     "href": "api/CatchIo.Runtime.Camera.html",
     "title": "Namespace CatchIo.Runtime.Camera | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Camera Classes GameCamera The main camera class for in-game camera movements. Manages all the camera setup and features for a single instance per scene, including zoom, follow, and overlay cameras. GameCameraFollow Handles camera movement logic for smoothly following the target using Cinemachine. Includes functionality for panning the camera based on user input. GameCameraInputHandler Handles input for controlling camera movements such as panning. Manages enabling, disabling, and cleanup of input actions. GameCameraZoom Handles zooming logic for the game camera using Cinemachine. Provides smooth transitions and constraints for zoom levels. OverlayCamera"
+    "keywords": "Namespace CatchIo.Runtime.Camera Classes GameCamera The main camera class for in-game camera movements. Manages all the camera setup and features for a single instance per scene, including zoom, follow, and overlay cameras. GameCameraFollow Handles camera movement logic for smoothly following the target using Cinemachine. Includes functionality for panning the camera based on user input. GameCameraInputHandler Handles input for controlling camera movements such as panning. Manages enabling, disabling, and cleanup of input actions. GameCameraShake Handle camera shake GameCameraZoom Handles zooming logic for the game camera using Cinemachine. Provides smooth transitions and constraints for zoom levels. OverlayCamera"
   },
   "api/CatchIo.Runtime.Camera.OverlayCamera.html": {
     "href": "api/CatchIo.Runtime.Camera.OverlayCamera.html",
@@ -1049,6 +1054,11 @@
     "title": "Enum EntityDirectionType | Catch.io Developer Reference",
     "keywords": "Enum EntityDirectionType Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum EntityDirectionType Fields Name Description E N NE NW S SE SW W"
   },
+  "api/CatchIo.Runtime.Enums.FullScreenEffects.html": {
+    "href": "api/CatchIo.Runtime.Enums.FullScreenEffects.html",
+    "title": "Enum FullScreenEffects | Catch.io Developer Reference",
+    "keywords": "Enum FullScreenEffects Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum FullScreenEffects Fields Name Description LOW_STAMINA TAKE_DAMAGE"
+  },
   "api/CatchIo.Runtime.Enums.GameLanguage.html": {
     "href": "api/CatchIo.Runtime.Enums.GameLanguage.html",
     "title": "Enum GameLanguage | Catch.io Developer Reference",
@@ -1067,7 +1077,12 @@
   "api/CatchIo.Runtime.Enums.html": {
     "href": "api/CatchIo.Runtime.Enums.html",
     "title": "Namespace CatchIo.Runtime.Enums | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Enums Classes SendEventType Enums CharacterActionType CharacterClassType CharacterMoveType DamageSfxType EntityDirectionType GameLanguage GameModeType GameObjectiveEventEnum RoomState SceneSwitchingState ScreenResolutionType ShownCharacterStatsType"
+    "keywords": "Namespace CatchIo.Runtime.Enums Classes SendEventType Enums CharacterActionType CharacterClassType CharacterMoveType DamageSfxType EntityDirectionType FullScreenEffects GameLanguage GameModeType GameObjectiveEventEnum PlayerFeedbackAction RoomState SceneSwitchingState ScreenResolutionType ShownCharacterStatsType"
+  },
+  "api/CatchIo.Runtime.Enums.PlayerFeedbackAction.html": {
+    "href": "api/CatchIo.Runtime.Enums.PlayerFeedbackAction.html",
+    "title": "Enum PlayerFeedbackAction | Catch.io Developer Reference",
+    "keywords": "Enum PlayerFeedbackAction Namespace : CatchIo.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum PlayerFeedbackAction Fields Name Description HEAVY_ATTACK LIGHT_ATTACK TAKE_DAMAGE"
   },
   "api/CatchIo.Runtime.Enums.RoomState.html": {
     "href": "api/CatchIo.Runtime.Enums.RoomState.html",
@@ -1407,7 +1422,12 @@
   "api/CatchIo.Runtime.Managers.html": {
     "href": "api/CatchIo.Runtime.Managers.html",
     "title": "Namespace CatchIo.Runtime.Managers | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Managers Classes GameManager"
+    "keywords": "Namespace CatchIo.Runtime.Managers Classes GameManager PlayerActionFeedbackManager Handle feed back sending to player on actions / inputs"
+  },
+  "api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html": {
+    "href": "api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html",
+    "title": "Class PlayerActionFeedbackManager | Catch.io Developer Reference",
+    "keywords": "Class PlayerActionFeedbackManager Handle feed back sending to player on actions / inputs Inheritance System.Object PlayerActionFeedbackManager Namespace : CatchIo.Runtime.Managers Assembly : cs.temp.dll.dll Syntax public class PlayerActionFeedbackManager : MonoBehaviour Properties Instance Declaration public static PlayerActionFeedbackManager Instance { get; } Property Value Type Description PlayerActionFeedbackManager Methods SendFeedback(PlayerFeedbackAction) Send feedback to player via camera and controller Declaration public void SendFeedback(PlayerFeedbackAction action) Parameters Type Name Description PlayerFeedbackAction action Feedback action type"
   },
   "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.CharacterHUDIndicator.html": {
     "href": "api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.CharacterHUDIndicator.html",
@@ -2332,12 +2352,12 @@
   "api/CatchIo.Runtime.Services.FullScreenEffectService.html": {
     "href": "api/CatchIo.Runtime.Services.FullScreenEffectService.html",
     "title": "Class FullScreenEffectService | Catch.io Developer Reference",
-    "keywords": "Class FullScreenEffectService A class that Manages full screen overlay effect based on the Blit shader Inheritance System.Object FullScreenEffectService Namespace : CatchIo.Runtime.Services Assembly : cs.temp.dll.dll Syntax public class FullScreenEffectService : MonoRegistrable Methods ActivateEffect() Act as trigger to activate the fullscreen effect Declaration public void ActivateEffect() ChangeMaterial(Material) Chage the intended fullscreen overlay material Then attach it to the existing blit Declaration public void ChangeMaterial(Material material) Parameters Type Name Description Material material fullscreen overlay material DeactivateEffect() Act as trigger to deactivate the fullscreen effect Declaration public void DeactivateEffect()"
+    "keywords": "Class FullScreenEffectService A class that Manages full screen overlay effect using URP full screen shaders Inheritance System.Object FullScreenEffectService Namespace : CatchIo.Runtime.Services Assembly : cs.temp.dll.dll Syntax public class FullScreenEffectService : MonoRegistrable Methods ActivateEffect(FullScreenEffects) Activate specific full screen effect Declaration public void ActivateEffect(FullScreenEffects effectKey) Parameters Type Name Description FullScreenEffects effectKey Effect to activate DeactivateAllEffects() De activate all effects Declaration public void DeactivateAllEffects() DeactivateEffect(FullScreenEffects) Deactivate specific full screen effect Declaration public void DeactivateEffect(FullScreenEffects effectKey) Parameters Type Name Description FullScreenEffects effectKey Effect to deactivate"
   },
   "api/CatchIo.Runtime.Services.html": {
     "href": "api/CatchIo.Runtime.Services.html",
     "title": "Namespace CatchIo.Runtime.Services | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Services Classes ConsoleService This class stores custom console commands that can be run within a room. (not in the launcher or menus) FullScreenEffectService A class that Manages full screen overlay effect based on the Blit shader LoadingScreenService NetworkService SceneSwitchingService Enums NetworkService.NetworkState"
+    "keywords": "Namespace CatchIo.Runtime.Services Classes ConsoleService This class stores custom console commands that can be run within a room. (not in the launcher or menus) FullScreenEffectService A class that Manages full screen overlay effect using URP full screen shaders LoadingScreenService NetworkService SceneSwitchingService Enums NetworkService.NetworkState"
   },
   "api/CatchIo.Runtime.Services.LoadingScreenService.html": {
     "href": "api/CatchIo.Runtime.Services.LoadingScreenService.html",

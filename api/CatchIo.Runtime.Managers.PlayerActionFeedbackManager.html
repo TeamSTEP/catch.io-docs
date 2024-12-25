@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Runtime.Camera
+    <title>Class PlayerActionFeedbackManager
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Runtime.Camera
+    <meta name="title" content="Class PlayerActionFeedbackManager
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,83 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Camera">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Managers.PlayerActionFeedbackManager">
   
-  <h1 id="CatchIo_Runtime_Camera" data-uid="CatchIo.Runtime.Camera" class="text-break">Namespace CatchIo.Runtime.Camera
+  
+  <h1 id="CatchIo_Runtime_Managers_PlayerActionFeedbackManager" data-uid="CatchIo.Runtime.Managers.PlayerActionFeedbackManager" class="text-break">Class PlayerActionFeedbackManager
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Handle feed back sending to player on actions / inputs</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PlayerActionFeedbackManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Managers.html">CatchIo.Runtime.Managers</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Managers_PlayerActionFeedbackManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerActionFeedbackManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCamera.html">GameCamera</a></h4>
-      <section><p>The main camera class for in-game camera movements.
-Manages all the camera setup and features for a single instance per scene, including zoom, follow, and overlay cameras.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraFollow.html">GameCameraFollow</a></h4>
-      <section><p>Handles camera movement logic for smoothly following the target using Cinemachine.
-Includes functionality for panning the camera based on user input.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraInputHandler.html">GameCameraInputHandler</a></h4>
-      <section><p>Handles input for controlling camera movements such as panning.
-Manages enabling, disabling, and cleanup of input actions.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraShake.html">GameCameraShake</a></h4>
-      <section><p>Handle camera shake</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.GameCameraZoom.html">GameCameraZoom</a></h4>
-      <section><p>Handles zooming logic for the game camera using Cinemachine.
-Provides smooth transitions and constraints for zoom levels.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Camera.OverlayCamera.html">OverlayCamera</a></h4>
-      <section></section>
+  
+  
+  <a id="CatchIo_Runtime_Managers_PlayerActionFeedbackManager_Instance_" data-uid="CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance*"></a>
+  <h4 id="CatchIo_Runtime_Managers_PlayerActionFeedbackManager_Instance" data-uid="CatchIo.Runtime.Managers.PlayerActionFeedbackManager.Instance">Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PlayerActionFeedbackManager Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html">PlayerActionFeedbackManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Managers_PlayerActionFeedbackManager_SendFeedback_" data-uid="CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback*"></a>
+  <h4 id="CatchIo_Runtime_Managers_PlayerActionFeedbackManager_SendFeedback_PlayerFeedbackAction_" data-uid="CatchIo.Runtime.Managers.PlayerActionFeedbackManager.SendFeedback(PlayerFeedbackAction)">SendFeedback(PlayerFeedbackAction)</h4>
+  <div class="markdown level1 summary"><p>Send feedback to player via camera and controller</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendFeedback(PlayerFeedbackAction action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayerFeedbackAction</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Feedback action type <see cref="!:PlayerFeedbackAction"></see> </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
