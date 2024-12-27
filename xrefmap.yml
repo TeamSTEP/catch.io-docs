@@ -2427,6 +2427,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.PlayLocalPlayerSoundEffect
   nameWithType: CharacterFacade.PlayLocalPlayerSoundEffect
+- uid: CatchIo.Runtime.Character.CharacterFacade.ProgressBar
+  name: ProgressBar
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_ProgressBar
+  commentId: P:CatchIo.Runtime.Character.CharacterFacade.ProgressBar
+  fullName: CatchIo.Runtime.Character.CharacterFacade.ProgressBar
+  nameWithType: CharacterFacade.ProgressBar
+- uid: CatchIo.Runtime.Character.CharacterFacade.ProgressBar*
+  name: ProgressBar
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_ProgressBar_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.ProgressBar
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.ProgressBar
+  nameWithType: CharacterFacade.ProgressBar
 - uid: CatchIo.Runtime.Character.CharacterFacade.RemoveCloak
   name: RemoveCloak()
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_RemoveCloak
@@ -2492,6 +2505,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.RotateCharacterTowards
   nameWithType: CharacterFacade.RotateCharacterTowards
+- uid: CatchIo.Runtime.Character.CharacterFacade.SettingItemRenderer
+  name: SettingItemRenderer
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_SettingItemRenderer
+  commentId: P:CatchIo.Runtime.Character.CharacterFacade.SettingItemRenderer
+  fullName: CatchIo.Runtime.Character.CharacterFacade.SettingItemRenderer
+  nameWithType: CharacterFacade.SettingItemRenderer
+- uid: CatchIo.Runtime.Character.CharacterFacade.SettingItemRenderer*
+  name: SettingItemRenderer
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_SettingItemRenderer_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.SettingItemRenderer
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.SettingItemRenderer
+  nameWithType: CharacterFacade.SettingItemRenderer
 - uid: CatchIo.Runtime.Character.CharacterFacade.Status
   name: Status
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Status
@@ -3851,6 +3877,77 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterThrowState.ExitState
   nameWithType: CharacterThrowState.ExitState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState
+  name: CharacterTrapSettingState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html
+  commentId: T:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState
+  nameWithType: CharacterTrapSettingState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  name: CharacterTrapSettingState(CharacterStateMachine, CharacterStateFactory)
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState__ctor_CatchIo_Runtime_Character_FSM_CharacterStateMachine_CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.#ctor(CatchIo.Runtime.Character.FSM.CharacterStateMachine,CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CharacterTrapSettingState(CatchIo.Runtime.Character.FSM.CharacterStateMachine, CatchIo.Runtime.Character.FSM.States.CharacterStateFactory)
+  nameWithType: CharacterTrapSettingState.CharacterTrapSettingState(CharacterStateMachine, CharacterStateFactory)
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.#ctor*
+  name: CharacterTrapSettingState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState__ctor_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CharacterTrapSettingState
+  nameWithType: CharacterTrapSettingState.CharacterTrapSettingState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CheckSwitchStates
+  name: CheckSwitchStates()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_CheckSwitchStates
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CheckSwitchStates
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CheckSwitchStates()
+  nameWithType: CharacterTrapSettingState.CheckSwitchStates()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CheckSwitchStates*
+  name: CheckSwitchStates
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_CheckSwitchStates_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CheckSwitchStates
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.CheckSwitchStates
+  nameWithType: CharacterTrapSettingState.CheckSwitchStates
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.EnterState
+  name: EnterState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_EnterState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.EnterState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.EnterState()
+  nameWithType: CharacterTrapSettingState.EnterState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.EnterState*
+  name: EnterState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_EnterState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.EnterState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.EnterState
+  nameWithType: CharacterTrapSettingState.EnterState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.ExitState
+  name: ExitState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_ExitState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.ExitState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.ExitState()
+  nameWithType: CharacterTrapSettingState.ExitState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.ExitState*
+  name: ExitState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_ExitState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.ExitState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.ExitState
+  nameWithType: CharacterTrapSettingState.ExitState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.UpdateState
+  name: UpdateState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_UpdateState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.UpdateState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.UpdateState()
+  nameWithType: CharacterTrapSettingState.UpdateState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.UpdateState*
+  name: UpdateState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterTrapSettingState_UpdateState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.UpdateState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterTrapSettingState.UpdateState
+  nameWithType: CharacterTrapSettingState.UpdateState
 - uid: CatchIo.Runtime.Character.FSM.States.CharacterBaseState
   name: CharacterBaseState
   href: api/CatchIo.Runtime.Character.FSM.States.CharacterBaseState.html
@@ -4167,6 +4264,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Throw
   nameWithType: CharacterStateFactory.Throw
+- uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.TrapSetting
+  name: TrapSetting()
+  href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_TrapSetting
+  commentId: M:CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.TrapSetting
+  fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.TrapSetting()
+  nameWithType: CharacterStateFactory.TrapSetting()
+- uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.TrapSetting*
+  name: TrapSetting
+  href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_TrapSetting_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.TrapSetting
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.TrapSetting
+  nameWithType: CharacterStateFactory.TrapSetting
 - uid: CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.Walk
   name: Walk()
   href: api/CatchIo.Runtime.Character.FSM.States.CharacterStateFactory.html#CatchIo_Runtime_Character_FSM_States_CharacterStateFactory_Walk
@@ -5767,6 +5877,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterItemUser
   nameWithType: CharacterItemUser.CharacterItemUser
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CenterPositionProvider
+  name: CenterPositionProvider
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_CenterPositionProvider
+  commentId: P:CatchIo.Runtime.Character.Inventory.CharacterItemUser.CenterPositionProvider
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CenterPositionProvider
+  nameWithType: CharacterItemUser.CenterPositionProvider
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CenterPositionProvider*
+  name: CenterPositionProvider
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_CenterPositionProvider_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.CharacterItemUser.CenterPositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CenterPositionProvider
+  nameWithType: CharacterItemUser.CenterPositionProvider
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterTransform
+  name: CharacterTransform
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_CharacterTransform
+  commentId: P:CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterTransform
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterTransform
+  nameWithType: CharacterItemUser.CharacterTransform
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterTransform*
+  name: CharacterTransform
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_CharacterTransform_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterTransform
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterTransform
+  nameWithType: CharacterItemUser.CharacterTransform
 - uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.Dispose
   name: Dispose()
   href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_Dispose
@@ -5884,19 +6020,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.Position
   nameWithType: CharacterItemUser.Position
-- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider
-  name: PositionProvider
-  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_PositionProvider
-  commentId: P:CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider
-  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider
-  nameWithType: CharacterItemUser.PositionProvider
-- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider*
-  name: PositionProvider
-  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_PositionProvider_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.PositionProvider
-  nameWithType: CharacterItemUser.PositionProvider
 - uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.ReleaseItem
   name: ReleaseItem()
   href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_ReleaseItem
@@ -5923,19 +6046,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.SetCharacterControlEnabled
   nameWithType: CharacterItemUser.SetCharacterControlEnabled
-- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform
-  name: Transform
-  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_Transform
-  commentId: P:CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform
-  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform
-  nameWithType: CharacterItemUser.Transform
-- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform*
-  name: Transform
-  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_Transform_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.Transform
-  nameWithType: CharacterItemUser.Transform
 - uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.UnlockInventory
   name: UnlockInventory()
   href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_UnlockInventory
@@ -9357,6 +9467,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.PlayAnimation
   nameWithType: DynamicObjectNetworkRelay.PlayAnimation
+- uid: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject(System.Int32,System.Int32,System.String)
+  name: RPC_HandleDynamicObject(Int32, Int32, String)
+  href: api/CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.html#CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_HandleDynamicObject_System_Int32_System_Int32_System_String_
+  commentId: M:CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject(System.Int32,System.Int32,System.String)
+  fullName: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject(System.Int32, System.Int32, System.String)
+  nameWithType: DynamicObjectNetworkRelay.RPC_HandleDynamicObject(Int32, Int32, String)
+- uid: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject*
+  name: RPC_HandleDynamicObject
+  href: api/CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.html#CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_HandleDynamicObject_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject
+  nameWithType: DynamicObjectNetworkRelay.RPC_HandleDynamicObject
+- uid: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation(System.String)
+  name: RPC_SyncAnimation(String)
+  href: api/CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.html#CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_SyncAnimation_System_String_
+  commentId: M:CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation(System.String)
+  fullName: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation(System.String)
+  nameWithType: DynamicObjectNetworkRelay.RPC_SyncAnimation(String)
+- uid: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation*
+  name: RPC_SyncAnimation
+  href: api/CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.html#CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_SyncAnimation_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation
+  nameWithType: DynamicObjectNetworkRelay.RPC_SyncAnimation
 - uid: CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncHealth(System.Single)
   name: RPC_SyncHealth(Single)
   href: api/CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.html#CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_SyncHealth_System_Single_
@@ -9444,6 +9580,38 @@ references:
   commentId: F:CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.DataPath
   fullName: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.DataPath
   nameWithType: DynamicObjectData.DataPath
+- uid: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath(System.String)
+  name: GetResourcesPath(String)
+  href: api/CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.html#CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_GetResourcesPath_System_String_
+  commentId: M:CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath(System.String)
+  fullName: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath(System.String)
+  nameWithType: DynamicObjectData.GetResourcesPath(String)
+- uid: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath*
+  name: GetResourcesPath
+  href: api/CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.html#CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_GetResourcesPath_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath
+  nameWithType: DynamicObjectData.GetResourcesPath
+- uid: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawned
+  name: OnSpawned
+  href: api/CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.html#CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_OnSpawned
+  commentId: E:CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawned
+  fullName: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawned
+  nameWithType: DynamicObjectData.OnSpawned
+- uid: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject(System.Int32)
+  name: OnSpawnedObject(Int32)
+  href: api/CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.html#CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_OnSpawnedObject_System_Int32_
+  commentId: M:CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject(System.Int32)
+  fullName: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject(System.Int32)
+  nameWithType: DynamicObjectData.OnSpawnedObject(Int32)
+- uid: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject*
+  name: OnSpawnedObject
+  href: api/CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.html#CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_OnSpawnedObject_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject
+  nameWithType: DynamicObjectData.OnSpawnedObject
 - uid: CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.SpawnObject(Vector2,System.Int32)
   name: SpawnObject(Vector2, Int32)
   href: api/CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.html#CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_SpawnObject_Vector2_System_Int32_
@@ -9475,6 +9643,32 @@ references:
   commentId: F:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.Lifetime
   fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.Lifetime
   nameWithType: TrapObjectData.Lifetime
+- uid: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.RemoveTrapObject(System.Int32)
+  name: RemoveTrapObject(Int32)
+  href: api/CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html#CatchIo_Runtime_DynamicObjects_Data_TrapObjectData_RemoveTrapObject_System_Int32_
+  commentId: M:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.RemoveTrapObject(System.Int32)
+  fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.RemoveTrapObject(System.Int32)
+  nameWithType: TrapObjectData.RemoveTrapObject(Int32)
+- uid: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.RemoveTrapObject*
+  name: RemoveTrapObject
+  href: api/CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html#CatchIo_Runtime_DynamicObjects_Data_TrapObjectData_RemoveTrapObject_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.RemoveTrapObject
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.RemoveTrapObject
+  nameWithType: TrapObjectData.RemoveTrapObject
+- uid: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.SetTrapped(System.Int32,System.Int32)
+  name: SetTrapped(Int32, Int32)
+  href: api/CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html#CatchIo_Runtime_DynamicObjects_Data_TrapObjectData_SetTrapped_System_Int32_System_Int32_
+  commentId: M:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.SetTrapped(System.Int32,System.Int32)
+  fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.SetTrapped(System.Int32, System.Int32)
+  nameWithType: TrapObjectData.SetTrapped(Int32, Int32)
+- uid: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.SetTrapped*
+  name: SetTrapped
+  href: api/CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html#CatchIo_Runtime_DynamicObjects_Data_TrapObjectData_SetTrapped_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.SetTrapped
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.SetTrapped
+  nameWithType: TrapObjectData.SetTrapped
 - uid: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.SpawnObject(Vector2,System.Int32)
   name: SpawnObject(Vector2, Int32)
   href: api/CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html#CatchIo_Runtime_DynamicObjects_Data_TrapObjectData_SpawnObject_Vector2_System_Int32_
@@ -9500,6 +9694,12 @@ references:
   commentId: T:CatchIo.Runtime.DynamicObjects.DynamicObject
   fullName: CatchIo.Runtime.DynamicObjects.DynamicObject
   nameWithType: DynamicObject
+- uid: CatchIo.Runtime.DynamicObjects.DynamicObject._instigator
+  name: _instigator
+  href: api/CatchIo.Runtime.DynamicObjects.DynamicObject.html#CatchIo_Runtime_DynamicObjects_DynamicObject__instigator
+  commentId: F:CatchIo.Runtime.DynamicObjects.DynamicObject._instigator
+  fullName: CatchIo.Runtime.DynamicObjects.DynamicObject._instigator
+  nameWithType: DynamicObject._instigator
 - uid: CatchIo.Runtime.DynamicObjects.DynamicObject._networkRelay
   name: _networkRelay
   href: api/CatchIo.Runtime.DynamicObjects.DynamicObject.html#CatchIo_Runtime_DynamicObjects_DynamicObject__networkRelay
@@ -9545,6 +9745,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.DynamicObjects.DynamicObject.Owner
   nameWithType: DynamicObject.Owner
+- uid: CatchIo.Runtime.DynamicObjects.DynamicObject.OwnerViewID
+  name: OwnerViewID
+  href: api/CatchIo.Runtime.DynamicObjects.DynamicObject.html#CatchIo_Runtime_DynamicObjects_DynamicObject_OwnerViewID
+  commentId: P:CatchIo.Runtime.DynamicObjects.DynamicObject.OwnerViewID
+  fullName: CatchIo.Runtime.DynamicObjects.DynamicObject.OwnerViewID
+  nameWithType: DynamicObject.OwnerViewID
+- uid: CatchIo.Runtime.DynamicObjects.DynamicObject.OwnerViewID*
+  name: OwnerViewID
+  href: api/CatchIo.Runtime.DynamicObjects.DynamicObject.html#CatchIo_Runtime_DynamicObjects_DynamicObject_OwnerViewID_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.DynamicObject.OwnerViewID
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.DynamicObject.OwnerViewID
+  nameWithType: DynamicObject.OwnerViewID
 - uid: CatchIo.Runtime.DynamicObjects.DynamicObject.Release
   name: Release()
   href: api/CatchIo.Runtime.DynamicObjects.DynamicObject.html#CatchIo_Runtime_DynamicObjects_DynamicObject_Release
@@ -9686,6 +9899,31 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.DynamicObjects.DynamicObjectHealth.TakingDotDamage
   nameWithType: DynamicObjectHealth.TakingDotDamage
+- uid: CatchIo.Runtime.DynamicObjects.TrapObjects
+  name: CatchIo.Runtime.DynamicObjects.TrapObjects
+  href: api/CatchIo.Runtime.DynamicObjects.TrapObjects.html
+  commentId: N:CatchIo.Runtime.DynamicObjects.TrapObjects
+  fullName: CatchIo.Runtime.DynamicObjects.TrapObjects
+  nameWithType: CatchIo.Runtime.DynamicObjects.TrapObjects
+- uid: CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay
+  name: TrapObjectNetworkRelay
+  href: api/CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.html
+  commentId: T:CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay
+  fullName: CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay
+  nameWithType: TrapObjectNetworkRelay
+- uid: CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.SyncTrapped(System.Int32)
+  name: SyncTrapped(Int32)
+  href: api/CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.html#CatchIo_Runtime_DynamicObjects_TrapObjects_TrapObjectNetworkRelay_SyncTrapped_System_Int32_
+  commentId: M:CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.SyncTrapped(System.Int32)
+  fullName: CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.SyncTrapped(System.Int32)
+  nameWithType: TrapObjectNetworkRelay.SyncTrapped(Int32)
+- uid: CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.SyncTrapped*
+  name: SyncTrapped
+  href: api/CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.html#CatchIo_Runtime_DynamicObjects_TrapObjects_TrapObjectNetworkRelay_SyncTrapped_
+  commentId: Overload:CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.SyncTrapped
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynamicObjects.TrapObjects.TrapObjectNetworkRelay.SyncTrapped
+  nameWithType: TrapObjectNetworkRelay.SyncTrapped
 - uid: CatchIo.Runtime.DynmaicObjects
   name: CatchIo.Runtime.DynmaicObjects
   href: api/CatchIo.Runtime.DynmaicObjects.html
@@ -9698,25 +9936,19 @@ references:
   commentId: T:CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject
   fullName: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject
   nameWithType: DestroyDynamicObject
-- uid: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.Destroy(System.Single,System.Action)
-  name: Destroy(Single, Action)
-  href: api/CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.html#CatchIo_Runtime_DynmaicObjects_DestroyDynamicObject_Destroy_System_Single_System_Action_
-  commentId: M:CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.Destroy(System.Single,System.Action)
-  fullName: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.Destroy(System.Single, System.Action)
-  nameWithType: DestroyDynamicObject.Destroy(Single, Action)
-- uid: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.Destroy*
-  name: Destroy
-  href: api/CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.html#CatchIo_Runtime_DynmaicObjects_DestroyDynamicObject_Destroy_
-  commentId: Overload:CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.Destroy
+- uid: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.DestroyAsync(System.Single,CancellationTokenSource)
+  name: DestroyAsync(Single, CancellationTokenSource)
+  href: api/CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.html#CatchIo_Runtime_DynmaicObjects_DestroyDynamicObject_DestroyAsync_System_Single_CancellationTokenSource_
+  commentId: M:CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.DestroyAsync(System.Single,CancellationTokenSource)
+  fullName: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.DestroyAsync(System.Single, CancellationTokenSource)
+  nameWithType: DestroyDynamicObject.DestroyAsync(Single, CancellationTokenSource)
+- uid: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.DestroyAsync*
+  name: DestroyAsync
+  href: api/CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.html#CatchIo_Runtime_DynmaicObjects_DestroyDynamicObject_DestroyAsync_
+  commentId: Overload:CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.DestroyAsync
   isSpec: "True"
-  fullName: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.Destroy
-  nameWithType: DestroyDynamicObject.Destroy
-- uid: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.OnDestoryed
-  name: OnDestoryed
-  href: api/CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.html#CatchIo_Runtime_DynmaicObjects_DestroyDynamicObject_OnDestoryed
-  commentId: F:CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.OnDestoryed
-  fullName: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.OnDestoryed
-  nameWithType: DestroyDynamicObject.OnDestoryed
+  fullName: CatchIo.Runtime.DynmaicObjects.DestroyDynamicObject.DestroyAsync
+  nameWithType: DestroyDynamicObject.DestroyAsync
 - uid: CatchIo.Runtime.DynmaicObjects.Footprint
   name: Footprint
   href: api/CatchIo.Runtime.DynmaicObjects.Footprint.html
@@ -9999,6 +10231,44 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Graphics.EntityItemEffect.SyncPlayEffect
   nameWithType: EntityItemEffect.SyncPlayEffect
+- uid: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer
+  name: EntitySettingItemRenderer
+  href: api/CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.html
+  commentId: T:CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer
+  fullName: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer
+  nameWithType: EntitySettingItemRenderer
+- uid: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.OnItemDisplayRequested
+  name: OnItemDisplayRequested
+  href: api/CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.html#CatchIo_Runtime_Entities_Graphics_EntitySettingItemRenderer_OnItemDisplayRequested
+  commentId: E:CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.OnItemDisplayRequested
+  fullName: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.OnItemDisplayRequested
+  nameWithType: EntitySettingItemRenderer.OnItemDisplayRequested
+- uid: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SetItem(ItemData)
+  name: SetItem(ItemData)
+  href: api/CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.html#CatchIo_Runtime_Entities_Graphics_EntitySettingItemRenderer_SetItem_ItemData_
+  commentId: M:CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SetItem(ItemData)
+  fullName: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SetItem(ItemData)
+  nameWithType: EntitySettingItemRenderer.SetItem(ItemData)
+- uid: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SetItem*
+  name: SetItem
+  href: api/CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.html#CatchIo_Runtime_Entities_Graphics_EntitySettingItemRenderer_SetItem_
+  commentId: Overload:CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SetItem
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SetItem
+  nameWithType: EntitySettingItemRenderer.SetItem
+- uid: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SyncDisplayItem(System.String)
+  name: SyncDisplayItem(String)
+  href: api/CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.html#CatchIo_Runtime_Entities_Graphics_EntitySettingItemRenderer_SyncDisplayItem_System_String_
+  commentId: M:CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SyncDisplayItem(System.String)
+  fullName: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SyncDisplayItem(System.String)
+  nameWithType: EntitySettingItemRenderer.SyncDisplayItem(String)
+- uid: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SyncDisplayItem*
+  name: SyncDisplayItem
+  href: api/CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.html#CatchIo_Runtime_Entities_Graphics_EntitySettingItemRenderer_SyncDisplayItem_
+  commentId: Overload:CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SyncDisplayItem
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SyncDisplayItem
+  nameWithType: EntitySettingItemRenderer.SyncDisplayItem
 - uid: CatchIo.Runtime.Entities.HurtBoxes
   name: CatchIo.Runtime.Entities.HurtBoxes
   href: api/CatchIo.Runtime.Entities.HurtBoxes.html
@@ -10787,12 +11057,12 @@ references:
   commentId: N:CatchIo.Runtime.Entities.Networking
   fullName: CatchIo.Runtime.Entities.Networking
   nameWithType: CatchIo.Runtime.Entities.Networking
-- uid: CatchIo.Runtime.Entities.Networking.ItemEffectNetworkRelay
-  name: ItemEffectNetworkRelay
-  href: api/CatchIo.Runtime.Entities.Networking.ItemEffectNetworkRelay.html
-  commentId: T:CatchIo.Runtime.Entities.Networking.ItemEffectNetworkRelay
-  fullName: CatchIo.Runtime.Entities.Networking.ItemEffectNetworkRelay
-  nameWithType: ItemEffectNetworkRelay
+- uid: CatchIo.Runtime.Entities.Networking.EntityItemNetworkRelay
+  name: EntityItemNetworkRelay
+  href: api/CatchIo.Runtime.Entities.Networking.EntityItemNetworkRelay.html
+  commentId: T:CatchIo.Runtime.Entities.Networking.EntityItemNetworkRelay
+  fullName: CatchIo.Runtime.Entities.Networking.EntityItemNetworkRelay
+  nameWithType: EntityItemNetworkRelay
 - uid: CatchIo.Runtime.Entities.Networking.MarkNetworkRelay
   name: MarkNetworkRelay
   href: api/CatchIo.Runtime.Entities.Networking.MarkNetworkRelay.html
@@ -10915,6 +11185,12 @@ references:
   commentId: F:CatchIo.Runtime.Enums.CharacterActionType.Throw
   fullName: CatchIo.Runtime.Enums.CharacterActionType.Throw
   nameWithType: CharacterActionType.Throw
+- uid: CatchIo.Runtime.Enums.CharacterActionType.TrapSetting
+  name: TrapSetting
+  href: api/CatchIo.Runtime.Enums.CharacterActionType.html#CatchIo_Runtime_Enums_CharacterActionType_TrapSetting
+  commentId: F:CatchIo.Runtime.Enums.CharacterActionType.TrapSetting
+  fullName: CatchIo.Runtime.Enums.CharacterActionType.TrapSetting
+  nameWithType: CharacterActionType.TrapSetting
 - uid: CatchIo.Runtime.Enums.CharacterClassType
   name: CharacterClassType
   href: api/CatchIo.Runtime.Enums.CharacterClassType.html
@@ -13198,6 +13474,44 @@ references:
   commentId: F:CatchIo.Runtime.Items.Data.ItemData.UseSFX
   fullName: CatchIo.Runtime.Items.Data.ItemData.UseSFX
   nameWithType: ItemData.UseSFX
+- uid: CatchIo.Runtime.Items.Data.PlaceableItemData
+  name: PlaceableItemData
+  href: api/CatchIo.Runtime.Items.Data.PlaceableItemData.html
+  commentId: T:CatchIo.Runtime.Items.Data.PlaceableItemData
+  fullName: CatchIo.Runtime.Items.Data.PlaceableItemData
+  nameWithType: PlaceableItemData
+- uid: CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData
+  name: PlacedItemData
+  href: api/CatchIo.Runtime.Items.Data.PlaceableItemData.html#CatchIo_Runtime_Items_Data_PlaceableItemData_PlacedItemData
+  commentId: P:CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData
+  fullName: CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData
+  nameWithType: PlaceableItemData.PlacedItemData
+- uid: CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData*
+  name: PlacedItemData
+  href: api/CatchIo.Runtime.Items.Data.PlaceableItemData.html#CatchIo_Runtime_Items_Data_PlaceableItemData_PlacedItemData_
+  commentId: Overload:CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData
+  nameWithType: PlaceableItemData.PlacedItemData
+- uid: CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem(Vector3,System.Int32)
+  name: PlaceItem(Vector3, Int32)
+  href: api/CatchIo.Runtime.Items.Data.PlaceableItemData.html#CatchIo_Runtime_Items_Data_PlaceableItemData_PlaceItem_Vector3_System_Int32_
+  commentId: M:CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem(Vector3,System.Int32)
+  fullName: CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem(Vector3, System.Int32)
+  nameWithType: PlaceableItemData.PlaceItem(Vector3, Int32)
+- uid: CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem*
+  name: PlaceItem
+  href: api/CatchIo.Runtime.Items.Data.PlaceableItemData.html#CatchIo_Runtime_Items_Data_PlaceableItemData_PlaceItem_
+  commentId: Overload:CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem
+  nameWithType: PlaceableItemData.PlaceItem
+- uid: CatchIo.Runtime.Items.Data.PlaceableItemData.SetupTime
+  name: SetupTime
+  href: api/CatchIo.Runtime.Items.Data.PlaceableItemData.html#CatchIo_Runtime_Items_Data_PlaceableItemData_SetupTime
+  commentId: F:CatchIo.Runtime.Items.Data.PlaceableItemData.SetupTime
+  fullName: CatchIo.Runtime.Items.Data.PlaceableItemData.SetupTime
+  nameWithType: PlaceableItemData.SetupTime
 - uid: CatchIo.Runtime.Items.Data.RuntimeStates
   name: CatchIo.Runtime.Items.Data.RuntimeStates
   href: api/CatchIo.Runtime.Items.Data.RuntimeStates.html
@@ -14256,6 +14570,151 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime
   nameWithType: ItemSpawner.SetRespawnTime
+- uid: CatchIo.Runtime.Items.PlaceableItem
+  name: PlaceableItem
+  href: api/CatchIo.Runtime.Items.PlaceableItem.html
+  commentId: T:CatchIo.Runtime.Items.PlaceableItem
+  fullName: CatchIo.Runtime.Items.PlaceableItem
+  nameWithType: PlaceableItem
+- uid: CatchIo.Runtime.Items.PlaceableItem.RPC_SetData(System.String)
+  name: RPC_SetData(String)
+  href: api/CatchIo.Runtime.Items.PlaceableItem.html#CatchIo_Runtime_Items_PlaceableItem_RPC_SetData_System_String_
+  commentId: M:CatchIo.Runtime.Items.PlaceableItem.RPC_SetData(System.String)
+  fullName: CatchIo.Runtime.Items.PlaceableItem.RPC_SetData(System.String)
+  nameWithType: PlaceableItem.RPC_SetData(String)
+- uid: CatchIo.Runtime.Items.PlaceableItem.RPC_SetData*
+  name: RPC_SetData
+  href: api/CatchIo.Runtime.Items.PlaceableItem.html#CatchIo_Runtime_Items_PlaceableItem_RPC_SetData_
+  commentId: Overload:CatchIo.Runtime.Items.PlaceableItem.RPC_SetData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.PlaceableItem.RPC_SetData
+  nameWithType: PlaceableItem.RPC_SetData
+- uid: CatchIo.Runtime.Items.PlaceableItem.SetData(ItemData)
+  name: SetData(ItemData)
+  href: api/CatchIo.Runtime.Items.PlaceableItem.html#CatchIo_Runtime_Items_PlaceableItem_SetData_ItemData_
+  commentId: M:CatchIo.Runtime.Items.PlaceableItem.SetData(ItemData)
+  fullName: CatchIo.Runtime.Items.PlaceableItem.SetData(ItemData)
+  nameWithType: PlaceableItem.SetData(ItemData)
+- uid: CatchIo.Runtime.Items.PlaceableItem.SetData*
+  name: SetData
+  href: api/CatchIo.Runtime.Items.PlaceableItem.html#CatchIo_Runtime_Items_PlaceableItem_SetData_
+  commentId: Overload:CatchIo.Runtime.Items.PlaceableItem.SetData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.PlaceableItem.SetData
+  nameWithType: PlaceableItem.SetData
+- uid: CatchIo.Runtime.Items.Placements
+  name: CatchIo.Runtime.Items.Placements
+  href: api/CatchIo.Runtime.Items.Placements.html
+  commentId: N:CatchIo.Runtime.Items.Placements
+  fullName: CatchIo.Runtime.Items.Placements
+  nameWithType: CatchIo.Runtime.Items.Placements
+- uid: CatchIo.Runtime.Items.Placements.PlacedItem
+  name: PlacedItem
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItem.html
+  commentId: T:CatchIo.Runtime.Items.Placements.PlacedItem
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItem
+  nameWithType: PlacedItem
+- uid: CatchIo.Runtime.Items.Placements.PlacedItem._placeableItemData
+  name: _placeableItemData
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem__placeableItemData
+  commentId: F:CatchIo.Runtime.Items.Placements.PlacedItem._placeableItemData
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItem._placeableItemData
+  nameWithType: PlacedItem._placeableItemData
+- uid: CatchIo.Runtime.Items.Placements.PlacedItem.OnSpawned(System.Int32,DynamicObjectData)
+  name: OnSpawned(Int32, DynamicObjectData)
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem_OnSpawned_System_Int32_DynamicObjectData_
+  commentId: M:CatchIo.Runtime.Items.Placements.PlacedItem.OnSpawned(System.Int32,DynamicObjectData)
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItem.OnSpawned(System.Int32, DynamicObjectData)
+  nameWithType: PlacedItem.OnSpawned(Int32, DynamicObjectData)
+- uid: CatchIo.Runtime.Items.Placements.PlacedItem.OnSpawned*
+  name: OnSpawned
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem_OnSpawned_
+  commentId: Overload:CatchIo.Runtime.Items.Placements.PlacedItem.OnSpawned
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItem.OnSpawned
+  nameWithType: PlacedItem.OnSpawned
+- uid: CatchIo.Runtime.Items.Placements.PlacedItem.SetPlaceableItemData(PlaceableItemData)
+  name: SetPlaceableItemData(PlaceableItemData)
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem_SetPlaceableItemData_PlaceableItemData_
+  commentId: M:CatchIo.Runtime.Items.Placements.PlacedItem.SetPlaceableItemData(PlaceableItemData)
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItem.SetPlaceableItemData(PlaceableItemData)
+  nameWithType: PlacedItem.SetPlaceableItemData(PlaceableItemData)
+- uid: CatchIo.Runtime.Items.Placements.PlacedItem.SetPlaceableItemData*
+  name: SetPlaceableItemData
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem_SetPlaceableItemData_
+  commentId: Overload:CatchIo.Runtime.Items.Placements.PlacedItem.SetPlaceableItemData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItem.SetPlaceableItemData
+  nameWithType: PlacedItem.SetPlaceableItemData
+- uid: CatchIo.Runtime.Items.Placements.PlacedItemData
+  name: PlacedItemData
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItemData.html
+  commentId: T:CatchIo.Runtime.Items.Placements.PlacedItemData
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItemData
+  nameWithType: PlacedItemData
+- uid: CatchIo.Runtime.Items.Placements.PlacedItemData.ItemPrefabPath
+  name: ItemPrefabPath
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItemData.html#CatchIo_Runtime_Items_Placements_PlacedItemData_ItemPrefabPath
+  commentId: F:CatchIo.Runtime.Items.Placements.PlacedItemData.ItemPrefabPath
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItemData.ItemPrefabPath
+  nameWithType: PlacedItemData.ItemPrefabPath
+- uid: CatchIo.Runtime.Items.Placements.PlacedItemData.Prefab
+  name: Prefab
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItemData.html#CatchIo_Runtime_Items_Placements_PlacedItemData_Prefab
+  commentId: F:CatchIo.Runtime.Items.Placements.PlacedItemData.Prefab
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItemData.Prefab
+  nameWithType: PlacedItemData.Prefab
+- uid: CatchIo.Runtime.Items.Placements.PlacedItemData.SpawnObject(Vector2,System.Int32)
+  name: SpawnObject(Vector2, Int32)
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItemData.html#CatchIo_Runtime_Items_Placements_PlacedItemData_SpawnObject_Vector2_System_Int32_
+  commentId: M:CatchIo.Runtime.Items.Placements.PlacedItemData.SpawnObject(Vector2,System.Int32)
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItemData.SpawnObject(Vector2, System.Int32)
+  nameWithType: PlacedItemData.SpawnObject(Vector2, Int32)
+- uid: CatchIo.Runtime.Items.Placements.PlacedItemData.SpawnObject*
+  name: SpawnObject
+  href: api/CatchIo.Runtime.Items.Placements.PlacedItemData.html#CatchIo_Runtime_Items_Placements_PlacedItemData_SpawnObject_
+  commentId: Overload:CatchIo.Runtime.Items.Placements.PlacedItemData.SpawnObject
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Placements.PlacedItemData.SpawnObject
+  nameWithType: PlacedItemData.SpawnObject
+- uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune
+  name: PlacedTrapRune
+  href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html
+  commentId: T:CatchIo.Runtime.Items.Placements.PlacedTrapRune
+  fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune
+  nameWithType: PlacedTrapRune
+- uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune._eventProcessor
+  name: _eventProcessor
+  href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html#CatchIo_Runtime_Items_Placements_PlacedTrapRune__eventProcessor
+  commentId: F:CatchIo.Runtime.Items.Placements.PlacedTrapRune._eventProcessor
+  fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune._eventProcessor
+  nameWithType: PlacedTrapRune._eventProcessor
+- uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire
+  name: Acquire()
+  href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html#CatchIo_Runtime_Items_Placements_PlacedTrapRune_Acquire
+  commentId: M:CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire
+  fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire()
+  nameWithType: PlacedTrapRune.Acquire()
+- uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire*
+  name: Acquire
+  href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html#CatchIo_Runtime_Items_Placements_PlacedTrapRune_Acquire_
+  commentId: Overload:CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire
+  nameWithType: PlacedTrapRune.Acquire
+- uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release
+  name: Release()
+  href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html#CatchIo_Runtime_Items_Placements_PlacedTrapRune_Release
+  commentId: M:CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release
+  fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release()
+  nameWithType: PlacedTrapRune.Release()
+- uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release*
+  name: Release
+  href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html#CatchIo_Runtime_Items_Placements_PlacedTrapRune_Release_
+  commentId: Overload:CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release
+  nameWithType: PlacedTrapRune.Release
 - uid: CatchIo.Runtime.Items.Throwing
   name: CatchIo.Runtime.Items.Throwing
   href: api/CatchIo.Runtime.Items.Throwing.html
@@ -15060,6 +15519,142 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityHUDIndicator.Start
   nameWithType: EntityHUDIndicator.Start
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar
+  name: EntityProgressBar
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar
+  nameWithType: EntityProgressBar
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.Active
+  name: Active()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_Active
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.Active
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.Active()
+  nameWithType: EntityProgressBar.Active()
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.Active*
+  name: Active
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_Active_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.Active
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.Active
+  nameWithType: EntityProgressBar.Active
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CancelProgress
+  name: CancelProgress()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_CancelProgress
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CancelProgress
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CancelProgress()
+  nameWithType: EntityProgressBar.CancelProgress()
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CancelProgress*
+  name: CancelProgress
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_CancelProgress_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CancelProgress
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CancelProgress
+  nameWithType: EntityProgressBar.CancelProgress
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
+  name: CurrentProgress
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_CurrentProgress
+  commentId: P:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
+  nameWithType: EntityProgressBar.CurrentProgress
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress*
+  name: CurrentProgress
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_CurrentProgress_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
+  nameWithType: EntityProgressBar.CurrentProgress
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.InActive
+  name: InActive()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_InActive
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.InActive
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.InActive()
+  nameWithType: EntityProgressBar.InActive()
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.InActive*
+  name: InActive
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_InActive_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.InActive
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.InActive
+  nameWithType: EntityProgressBar.InActive
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
+  name: IsProgressing
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_IsProgressing
+  commentId: P:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
+  nameWithType: EntityProgressBar.IsProgressing
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing*
+  name: IsProgressing
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_IsProgressing_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
+  nameWithType: EntityProgressBar.IsProgressing
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.ResetProgress
+  name: ResetProgress()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_ResetProgress
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.ResetProgress
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.ResetProgress()
+  nameWithType: EntityProgressBar.ResetProgress()
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.ResetProgress*
+  name: ResetProgress
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_ResetProgress_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.ResetProgress
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.ResetProgress
+  nameWithType: EntityProgressBar.ResetProgress
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.SetProgress(System.Single)
+  name: SetProgress(Single)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_SetProgress_System_Single_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.SetProgress(System.Single)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.SetProgress(System.Single)
+  nameWithType: EntityProgressBar.SetProgress(Single)
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.SetProgress*
+  name: SetProgress
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_SetProgress_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.SetProgress
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.SetProgress
+  nameWithType: EntityProgressBar.SetProgress
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgress(System.Single,System.Boolean)
+  name: StartAutoProgress(Single, Boolean)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_StartAutoProgress_System_Single_System_Boolean_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgress(System.Single,System.Boolean)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgress(System.Single, System.Boolean)
+  nameWithType: EntityProgressBar.StartAutoProgress(Single, Boolean)
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgress*
+  name: StartAutoProgress
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_StartAutoProgress_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgress
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgress
+  nameWithType: EntityProgressBar.StartAutoProgress
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressBackward(System.Single)
+  name: StartAutoProgressBackward(Single)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_StartAutoProgressBackward_System_Single_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressBackward(System.Single)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressBackward(System.Single)
+  nameWithType: EntityProgressBar.StartAutoProgressBackward(Single)
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressBackward*
+  name: StartAutoProgressBackward
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_StartAutoProgressBackward_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressBackward
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressBackward
+  nameWithType: EntityProgressBar.StartAutoProgressBackward
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressForward(System.Single)
+  name: StartAutoProgressForward(Single)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_StartAutoProgressForward_System_Single_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressForward(System.Single)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressForward(System.Single)
+  nameWithType: EntityProgressBar.StartAutoProgressForward(Single)
+- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressForward*
+  name: StartAutoProgressForward
+  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_StartAutoProgressForward_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressForward
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.StartAutoProgressForward
+  nameWithType: EntityProgressBar.StartAutoProgressForward
 - uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.ScoutingMarkIndicator
   name: ScoutingMarkIndicator
   href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.ScoutingMarkIndicator.html
@@ -23834,6 +24429,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.SummonedObjects.TrapObject.Data
   nameWithType: TrapObject.Data
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.DestroyAsync(System.Single)
+  name: DestroyAsync(Single)
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_DestroyAsync_System_Single_
+  commentId: M:CatchIo.Runtime.SummonedObjects.TrapObject.DestroyAsync(System.Single)
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.DestroyAsync(System.Single)
+  nameWithType: TrapObject.DestroyAsync(Single)
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.DestroyAsync*
+  name: DestroyAsync
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_DestroyAsync_
+  commentId: Overload:CatchIo.Runtime.SummonedObjects.TrapObject.DestroyAsync
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.DestroyAsync
+  nameWithType: TrapObject.DestroyAsync
 - uid: CatchIo.Runtime.SummonedObjects.TrapObject.DestroyTrap
   name: DestroyTrap()
   href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_DestroyTrap
@@ -23899,6 +24507,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.SummonedObjects.TrapObject.Release
   nameWithType: TrapObject.Release
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.SetTrapped(System.Int32)
+  name: SetTrapped(Int32)
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_SetTrapped_System_Int32_
+  commentId: M:CatchIo.Runtime.SummonedObjects.TrapObject.SetTrapped(System.Int32)
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.SetTrapped(System.Int32)
+  nameWithType: TrapObject.SetTrapped(Int32)
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.SetTrapped*
+  name: SetTrapped
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_SetTrapped_
+  commentId: Overload:CatchIo.Runtime.SummonedObjects.TrapObject.SetTrapped
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.SetTrapped
+  nameWithType: TrapObject.SetTrapped
 - uid: CatchIo.Runtime.SummonedObjects.TrapObject.SpriteHeight
   name: SpriteHeight
   href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_SpriteHeight
@@ -23912,12 +24533,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.SummonedObjects.TrapObject.SpriteHeight
   nameWithType: TrapObject.SpriteHeight
-- uid: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage,DamageSfxType)
-  name: TakeDamage(IDamage, DamageSfxType)
-  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_TakeDamage_CatchIo_Runtime_Damages_IDamage_DamageSfxType_
-  commentId: M:CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage,DamageSfxType)
-  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage, DamageSfxType)
-  nameWithType: TrapObject.TakeDamage(IDamage, DamageSfxType)
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage,System.Int32)
+  name: TakeDamage(IDamage, Int32)
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_TakeDamage_CatchIo_Runtime_Damages_IDamage_System_Int32_
+  commentId: M:CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage,System.Int32)
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage, System.Int32)
+  nameWithType: TrapObject.TakeDamage(IDamage, Int32)
 - uid: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage*
   name: TakeDamage
   href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_TakeDamage_
@@ -23925,6 +24546,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage
   nameWithType: TrapObject.TakeDamage
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.TrappedViewID
+  name: TrappedViewID
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_TrappedViewID
+  commentId: P:CatchIo.Runtime.SummonedObjects.TrapObject.TrappedViewID
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.TrappedViewID
+  nameWithType: TrapObject.TrappedViewID
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.TrappedViewID*
+  name: TrappedViewID
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_TrappedViewID_
+  commentId: Overload:CatchIo.Runtime.SummonedObjects.TrapObject.TrappedViewID
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.TrappedViewID
+  nameWithType: TrapObject.TrappedViewID
 - uid: CatchIo.Runtime.Trajectory
   name: CatchIo.Runtime.Trajectory
   href: api/CatchIo.Runtime.Trajectory.html
@@ -24883,6 +25517,12 @@ references:
   commentId: T:CatchIo.Runtime.Utility.Attributes.AutoRegisteredService
   fullName: CatchIo.Runtime.Utility.Attributes.AutoRegisteredService
   nameWithType: AutoRegisteredService
+- uid: CatchIo.Runtime.Utility.Attributes.EventPresetDropdownAttribute
+  name: EventPresetDropdownAttribute
+  href: api/CatchIo.Runtime.Utility.Attributes.EventPresetDropdownAttribute.html
+  commentId: T:CatchIo.Runtime.Utility.Attributes.EventPresetDropdownAttribute
+  fullName: CatchIo.Runtime.Utility.Attributes.EventPresetDropdownAttribute
+  nameWithType: EventPresetDropdownAttribute
 - uid: CatchIo.Runtime.Utility.Attributes.FMODEvent
   name: FMODEvent
   href: api/CatchIo.Runtime.Utility.Attributes.FMODEvent.html

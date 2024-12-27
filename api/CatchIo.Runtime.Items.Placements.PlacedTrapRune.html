@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ItemEffectNetworkRelay
+    <title>Class PlacedTrapRune
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ItemEffectNetworkRelay
+    <meta name="title" content="Class PlacedTrapRune
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,23 +78,86 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Networking.ItemEffectNetworkRelay">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.Placements.PlacedTrapRune">
   
   
-  <h1 id="CatchIo_Runtime_Entities_Networking_ItemEffectNetworkRelay" data-uid="CatchIo.Runtime.Entities.Networking.ItemEffectNetworkRelay" class="text-break">Class ItemEffectNetworkRelay
+  <h1 id="CatchIo_Runtime_Items_Placements_PlacedTrapRune" data-uid="CatchIo.Runtime.Items.Placements.PlacedTrapRune" class="text-break">Class PlacedTrapRune
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents a trap rune that can be placed in the game world.
+Handles glow effects, detection of targets, and interaction with the environment.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ItemEffectNetworkRelay</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Items.Placements.PlacedItem.html">PlacedItem</a></div>
+    <div class="level2"><span class="xref">PlacedTrapRune</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Networking.html">CatchIo.Runtime.Entities.Networking</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem__placeableItemData">PlacedItem._placeableItemData</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem_SetPlaceableItemData_PlaceableItemData_">PlacedItem.SetPlaceableItemData(PlaceableItemData)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Placements.PlacedItem.html#CatchIo_Runtime_Items_Placements_PlacedItem_OnSpawned_System_Int32_DynamicObjectData_">PlacedItem.OnSpawned(Int32, DynamicObjectData)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Placements.html">CatchIo.Runtime.Items.Placements</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Entities_Networking_ItemEffectNetworkRelay_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Items_Placements_PlacedTrapRune_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ItemEffectNetworkRelay : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class PlacedTrapRune : PlacedItem</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Placements_PlacedTrapRune__eventProcessor" data-uid="CatchIo.Runtime.Items.Placements.PlacedTrapRune._eventProcessor">_eventProcessor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HitBoxEventProcessor&lt;CharacterFeetDamageReceiver&gt; _eventProcessor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HitBoxEventProcessor</span>&lt;<span class="xref">CharacterFeetDamageReceiver</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Items_Placements_PlacedTrapRune_Acquire_" data-uid="CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire*"></a>
+  <h4 id="CatchIo_Runtime_Items_Placements_PlacedTrapRune_Acquire" data-uid="CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire">Acquire()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Acquire()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Items_Placements_PlacedTrapRune_Release_" data-uid="CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release*"></a>
+  <h4 id="CatchIo_Runtime_Items_Placements_PlacedTrapRune_Release" data-uid="CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release">Release()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Release()</code></pre>
   </div>
 </article>
           </div>

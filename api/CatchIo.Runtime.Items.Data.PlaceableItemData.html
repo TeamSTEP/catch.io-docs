@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DynamicObjectData
+    <title>Class PlaceableItemData
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DynamicObjectData
+    <meta name="title" content="Class PlaceableItemData
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,37 +78,74 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.Data.PlaceableItemData">
   
   
-  <h1 id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData" class="text-break">Class DynamicObjectData
+  <h1 id="CatchIo_Runtime_Items_Data_PlaceableItemData" data-uid="CatchIo.Runtime.Items.Data.PlaceableItemData" class="text-break">Class PlaceableItemData
   </h1>
-  <div class="markdown level0 summary"><p>Base class for data related to dynamic objects in the game, allowing for object instantiation and
-managing resource paths for easy access. Inherits from <see cref="!:SerializedScriptableObject"></see>.</p>
+  <div class="markdown level0 summary"><p>Represents data for a placeable item in the game.
+This includes setup time and references to the dynamic object data associated with the item.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DynamicObjectData</span></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html">TrapObjectData</a></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html">ItemData</a></div>
+    <div class="level2"><span class="xref">PlaceableItemData</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.DynamicObjects.Data.html">CatchIo.Runtime.DynamicObjects.Data</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_ItemName">ItemData.ItemName</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_ItemIcon">ItemData.ItemIcon</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_Pickup_SFX">ItemData.Pickup_SFX</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_UseSFX">ItemData.UseSFX</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_SFXVolume">ItemData.SFXVolume</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_Prefab">ItemData.Prefab</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_DropTrajectory">ItemData.DropTrajectory</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_ItemPrefabPath">ItemData.ItemPrefabPath</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_ItemDataPath">ItemData.ItemDataPath</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_UpdateItemDataPath">ItemData.UpdateItemDataPath()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_GetResourcesPath_System_String_">ItemData.GetResourcesPath(String)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Data.html">CatchIo.Runtime.Items.Data</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Items_Data_PlaceableItemData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class DynamicObjectData : SerializedScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlaceableItemData : ItemData</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_DataPath" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.DataPath">DataPath</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Items_Data_PlaceableItemData_SetupTime" data-uid="CatchIo.Runtime.Items.Data.PlaceableItemData.SetupTime">SetupTime</h4>
+  <div class="markdown level1 summary"><p>The time required to set up the item, in seconds.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DataPath</code></pre>
+    <pre><code class="lang-csharp hljs">public float SetupTime</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,7 +157,35 @@ managing resource paths for easy access. Inherits from <see cref="!:SerializedSc
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Items_Data_PlaceableItemData_PlacedItemData_" data-uid="CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData*"></a>
+  <h4 id="CatchIo_Runtime_Items_Data_PlaceableItemData_PlacedItemData" data-uid="CatchIo.Runtime.Items.Data.PlaceableItemData.PlacedItemData">PlacedItemData</h4>
+  <div class="markdown level1 summary"><p>Reference to the data for the dynamic object that will be summoned when this item is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlacedItemData PlacedItemData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlacedItemData</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -129,58 +194,13 @@ managing resource paths for easy access. Inherits from <see cref="!:SerializedSc
   </h3>
   
   
-  <a id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_GetResourcesPath_" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath*"></a>
-  <h4 id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_GetResourcesPath_System_String_" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.GetResourcesPath(System.String)">GetResourcesPath(String)</h4>
-  <div class="markdown level1 summary"><p>Converts the full asset path to a Resources-compatible path, removing the file extension.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string GetResourcesPath(string fullPath)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">fullPath</span></td>
-        <td><p>The full path of the asset within the project.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The path relative to the Resources folder, without the file extension.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_OnSpawnedObject_" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject*"></a>
-  <h4 id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_OnSpawnedObject_System_Int32_" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawnedObject(System.Int32)">OnSpawnedObject(Int32)</h4>
+  <a id="CatchIo_Runtime_Items_Data_PlaceableItemData_PlaceItem_" data-uid="CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem*"></a>
+  <h4 id="CatchIo_Runtime_Items_Data_PlaceableItemData_PlaceItem_Vector3_System_Int32_" data-uid="CatchIo.Runtime.Items.Data.PlaceableItemData.PlaceItem(Vector3,System.Int32)">PlaceItem(Vector3, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void OnSpawnedObject(int spawnedViewID)</code></pre>
+    <pre><code class="lang-csharp hljs">public void PlaceItem(Vector3 spawnPosition, int instigator)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -193,70 +213,13 @@ managing resource paths for easy access. Inherits from <see cref="!:SerializedSc
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">spawnedViewID</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_SpawnObject_" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.SpawnObject*"></a>
-  <h4 id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_SpawnObject_Vector2_System_Int32_" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.SpawnObject(Vector2,System.Int32)">SpawnObject(Vector2, Int32)</h4>
-  <div class="markdown level1 summary"><p>Abstract method to spawn an instance of the dynamic object at a specified position.
-Must be implemented by subclasses.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void SpawnObject(Vector2 spawnPosition, int instigator)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
+        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">spawnPosition</span></td>
-        <td><p>Position at which to spawn the object.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">instigator</span></td>
-        <td><p>ID of the player or entity that instigated the spawn.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  <h4 id="CatchIo_Runtime_DynamicObjects_Data_DynamicObjectData_OnSpawned" data-uid="CatchIo.Runtime.DynamicObjects.Data.DynamicObjectData.OnSpawned">OnSpawned</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;int&gt; OnSpawned</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

@@ -96,7 +96,7 @@ Relays data changes across clients using Photon RPC calls.</p>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class DynamicObjectNetworkRelay : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">public class DynamicObjectNetworkRelay : MonoBehaviourPun</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -146,6 +146,76 @@ Subscribes to health changes to synchronize them across the network.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void PlayAnimation(string animationName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">animationName</span></td>
+        <td><p>The name of the animation to play.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_HandleDynamicObject_" data-uid="CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject*"></a>
+  <h4 id="CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_HandleDynamicObject_System_Int32_System_Int32_System_String_" data-uid="CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_HandleDynamicObject(System.Int32,System.Int32,System.String)">RPC_HandleDynamicObject(Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>RPC method to handle dynamic object initialization on receiving clients, applying instigator and data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RPC_HandleDynamicObject(int dynamicObjectViewID, int instigatorViewID, string dataPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dynamicObjectViewID</span></td>
+        <td><p>PhotonView ID of the dynamic object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">instigatorViewID</span></td>
+        <td><p>PhotonView ID of the instigator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataPath</span></td>
+        <td><p>Resource path to the dynamic object data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_SyncAnimation_" data-uid="CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation*"></a>
+  <h4 id="CatchIo_Runtime_DynamicObjects_Core_DynamicObjectNetworkRelay_RPC_SyncAnimation_System_String_" data-uid="CatchIo.Runtime.DynamicObjects.Core.DynamicObjectNetworkRelay.RPC_SyncAnimation(System.String)">RPC_SyncAnimation(String)</h4>
+  <div class="markdown level1 summary"><p>RPC method to synchronize animation playback on other clients.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RPC_SyncAnimation(string animationName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
