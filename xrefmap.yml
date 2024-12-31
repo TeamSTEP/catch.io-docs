@@ -3369,6 +3369,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.Status
   nameWithType: CharacterStateMachine.Status
+- uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.StopMovement
+  name: StopMovement()
+  href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_StopMovement
+  commentId: M:CatchIo.Runtime.Character.FSM.CharacterStateMachine.StopMovement
+  fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.StopMovement()
+  nameWithType: CharacterStateMachine.StopMovement()
+- uid: CatchIo.Runtime.Character.FSM.CharacterStateMachine.StopMovement*
+  name: StopMovement
+  href: api/CatchIo.Runtime.Character.FSM.CharacterStateMachine.html#CatchIo_Runtime_Character_FSM_CharacterStateMachine_StopMovement_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.CharacterStateMachine.StopMovement
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.CharacterStateMachine.StopMovement
+  nameWithType: CharacterStateMachine.StopMovement
 - uid: CatchIo.Runtime.Character.FSM.States
   name: CatchIo.Runtime.Character.FSM.States
   href: api/CatchIo.Runtime.Character.FSM.States.html
@@ -3568,6 +3581,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.ExitState
   nameWithType: CharacterDeathState.ExitState
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.FixedUpdateState
+  name: FixedUpdateState()
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDeathState_FixedUpdateState
+  commentId: M:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.FixedUpdateState
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.FixedUpdateState()
+  nameWithType: CharacterDeathState.FixedUpdateState()
+- uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.FixedUpdateState*
+  name: FixedUpdateState
+  href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.html#CatchIo_Runtime_Character_FSM_States_ActionStates_CharacterDeathState_FixedUpdateState_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.FixedUpdateState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDeathState.FixedUpdateState
+  nameWithType: CharacterDeathState.FixedUpdateState
 - uid: CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDiscardState
   name: CharacterDiscardState
   href: api/CatchIo.Runtime.Character.FSM.States.ActionStates.CharacterDiscardState.html
@@ -10488,6 +10514,19 @@ references:
   commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityMovement._rigidbody2D
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement._rigidbody2D
   nameWithType: EntityMovement._rigidbody2D
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce(Vector2,ForceMode2D)
+  name: ApplyForce(Vector2, ForceMode2D)
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplyForce_Vector2_ForceMode2D_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce(Vector2,ForceMode2D)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce(Vector2, ForceMode2D)
+  nameWithType: EntityMovement.ApplyForce(Vector2, ForceMode2D)
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce*
+  name: ApplyForce
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplyForce_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce
+  nameWithType: EntityMovement.ApplyForce
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering(Vector2)
   name: ApplySteering(Vector2)
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplySteering_Vector2_
@@ -19210,6 +19249,12 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus
   nameWithType: CharacterStatus
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ApplyingForce
+  name: ApplyingForce
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_ApplyingForce
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ApplyingForce
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ApplyingForce
+  nameWithType: CharacterStatus.ApplyingForce
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina(System.Single)
   name: CanRecoverStamina(Single)
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoverStamina_System_Single_
