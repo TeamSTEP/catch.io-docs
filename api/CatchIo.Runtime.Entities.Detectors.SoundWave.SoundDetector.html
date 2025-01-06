@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ScoutingEye
+    <title>Class SoundDetector
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ScoutingEye
+    <meta name="title" content="Class SoundDetector
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,41 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector">
   
   
-  <h1 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye" class="text-break">Class ScoutingEye
+  <h1 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector" class="text-break">Class SoundDetector
   </h1>
-  <div class="markdown level0 summary"><p>Manages the functionality of the scouting eye, including movement, detection, marking, and network synchronization.</p>
+  <div class="markdown level0 summary"><p>Component responsible for detecting sound events within a specified range.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ScoutingEye</span></div>
+    <div class="level1"><span class="xref">SoundDetector</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPunInstantiateMagicCallback</span></div>
-    <div><span class="xref">IMarkingEntity</span></div>
-    <div><span class="xref">IPositionProvider</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.ScoutingEyes.html">CatchIo.Runtime.ScoutingEyes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Detectors.SoundWave.html">CatchIo.Runtime.Entities.Detectors.SoundWave</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScoutingEye : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">public class SoundDetector : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye__eventProcessor" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye._eventProcessor">_eventProcessor</h4>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnDisabled" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled">OnDisabled</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected HitBoxEventProcessor&lt;CharacterBodyDamageReceiver&gt; _eventProcessor</code></pre>
+    <pre><code class="lang-csharp hljs">public Action OnDisabled</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,7 +118,107 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HitBoxEventProcessor</span>&lt;<span class="xref">CharacterBodyDamageReceiver</span>&gt;</td>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnEnabled" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled">OnEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action OnEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnFootprintSoundDetected" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnFootprintSoundDetected">OnFootprintSoundDetected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;Vector3, Vector3&gt; OnFootprintSoundDetected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Vector3</span>, <span class="xref">Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner">Owner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterFacade Owner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterFacade</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider">PositionProvider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPositionProvider PositionProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPositionProvider</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -133,77 +227,36 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Cancel_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Cancel*"></a>
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Cancel" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Cancel">Cancel()</h4>
-  <div class="markdown level1 summary"><p>Cancels the scouting eye&apos;s operations and disables input handling.</p>
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable">Disable()</h4>
+  <div class="markdown level1 summary"><p>Disable detector</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Disable()</code></pre>
   </div>
   
   
-  <a id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_GetAnimator_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetAnimator*"></a>
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_GetAnimator" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetAnimator">GetAnimator()</h4>
-  <div class="markdown level1 summary"><p>Gets the animator component of the scouting eye.</p>
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable">Enable()</h4>
+  <div class="markdown level1 summary"><p>Enable detector</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScoutingEyeAnimator GetAnimator()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Enable()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CatchIo.Runtime.ScoutingEyes.ScoutingEyeAnimator.html">ScoutingEyeAnimator</a></td>
-        <td><p>The ScoutingEyeAnimator component.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_GetPosition_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition*"></a>
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_GetPosition" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition">GetPosition()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize*"></a>
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_CharacterItemUser_System_String_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser,System.String)">Initialize(CharacterItemUser, String)</h4>
-  <div class="markdown level1 summary"><p>Initializes the scouting eye with necessary parameters.</p>
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_CharacterFacade_IPositionProvider_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade,IPositionProvider)">Initialize(CharacterFacade, IPositionProvider)</h4>
+  <div class="markdown level1 summary"><p>Initialize sound detector</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(CharacterItemUser user, string markingSFX)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize(CharacterFacade owner, IPositionProvider positionProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,109 +269,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">CharacterItemUser</span></td>
-        <td><span class="parametername">user</span></td>
-        <td><p>User of the item.</p>
+        <td><span class="xref">CharacterFacade</span></td>
+        <td><span class="parametername">owner</span></td>
+        <td><p>Owner of the detector client</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">markingSFX</span></td>
-        <td><p>Sound effect to play when marking.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_OnPhotonInstantiate_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.OnPhotonInstantiate*"></a>
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_OnPhotonInstantiate_PhotonMessageInfo_" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.OnPhotonInstantiate(PhotonMessageInfo)">OnPhotonInstantiate(PhotonMessageInfo)</h4>
-  <div class="markdown level1 summary"><p>Callback for when the scouting eye is instantiated over the network.
-Disables unnecessary components for non-owner instances.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPhotonInstantiate(PhotonMessageInfo info)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PhotonMessageInfo</span></td>
-        <td><span class="parametername">info</span></td>
-        <td><p>Photon message information.</p>
+        <td><span class="xref">IPositionProvider</span></td>
+        <td><span class="parametername">positionProvider</span></td>
+        <td><p>Position provider to get the current detector position</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_Destroyed" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.Destroyed">Destroyed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;bool&gt; Destroyed</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_ScoutingEyes_ScoutingEye_OnMarked" data-uid="CatchIo.Runtime.ScoutingEyes.ScoutingEye.OnMarked">OnMarked</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;IEntityScoutingMarkable, string&gt; OnMarked</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">IEntityScoutingMarkable</span>, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPunInstantiateMagicCallback</span>
-  </div>
-  <div>
-      <span class="xref">IMarkingEntity</span>
-  </div>
-  <div>
-      <span class="xref">IPositionProvider</span>
-  </div>
 </article>
           </div>
           

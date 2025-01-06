@@ -1923,6 +1923,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.DisableHitboxes
   nameWithType: CharacterFacade.DisableHitboxes
+- uid: CatchIo.Runtime.Character.CharacterFacade.DisableSoundDetection
+  name: DisableSoundDetection()
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_DisableSoundDetection
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.DisableSoundDetection
+  fullName: CatchIo.Runtime.Character.CharacterFacade.DisableSoundDetection()
+  nameWithType: CharacterFacade.DisableSoundDetection()
+- uid: CatchIo.Runtime.Character.CharacterFacade.DisableSoundDetection*
+  name: DisableSoundDetection
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_DisableSoundDetection_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.DisableSoundDetection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.DisableSoundDetection
+  nameWithType: CharacterFacade.DisableSoundDetection
+- uid: CatchIo.Runtime.Character.CharacterFacade.DisableWhisperDetector
+  name: DisableWhisperDetector()
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_DisableWhisperDetector
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.DisableWhisperDetector
+  fullName: CatchIo.Runtime.Character.CharacterFacade.DisableWhisperDetector()
+  nameWithType: CharacterFacade.DisableWhisperDetector()
+- uid: CatchIo.Runtime.Character.CharacterFacade.DisableWhisperDetector*
+  name: DisableWhisperDetector
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_DisableWhisperDetector_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.DisableWhisperDetector
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.DisableWhisperDetector
+  nameWithType: CharacterFacade.DisableWhisperDetector
 - uid: CatchIo.Runtime.Character.CharacterFacade.DiscardAllItem
   name: DiscardAllItem()
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_DiscardAllItem
@@ -1962,6 +1988,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.EnableHitboxes
   nameWithType: CharacterFacade.EnableHitboxes
+- uid: CatchIo.Runtime.Character.CharacterFacade.EnableSoundDetection
+  name: EnableSoundDetection()
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_EnableSoundDetection
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.EnableSoundDetection
+  fullName: CatchIo.Runtime.Character.CharacterFacade.EnableSoundDetection()
+  nameWithType: CharacterFacade.EnableSoundDetection()
+- uid: CatchIo.Runtime.Character.CharacterFacade.EnableSoundDetection*
+  name: EnableSoundDetection
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_EnableSoundDetection_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.EnableSoundDetection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.EnableSoundDetection
+  nameWithType: CharacterFacade.EnableSoundDetection
+- uid: CatchIo.Runtime.Character.CharacterFacade.EnableWhisperDetection
+  name: EnableWhisperDetection()
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_EnableWhisperDetection
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.EnableWhisperDetection
+  fullName: CatchIo.Runtime.Character.CharacterFacade.EnableWhisperDetection()
+  nameWithType: CharacterFacade.EnableWhisperDetection()
+- uid: CatchIo.Runtime.Character.CharacterFacade.EnableWhisperDetection*
+  name: EnableWhisperDetection
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_EnableWhisperDetection_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.EnableWhisperDetection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.EnableWhisperDetection
+  nameWithType: CharacterFacade.EnableWhisperDetection
 - uid: CatchIo.Runtime.Character.CharacterFacade.EnterSpectate
   name: EnterSpectate()
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_EnterSpectate
@@ -2334,12 +2386,6 @@ references:
   commentId: F:CatchIo.Runtime.Character.CharacterFacade.OnExitedHidingSpot
   fullName: CatchIo.Runtime.Character.CharacterFacade.OnExitedHidingSpot
   nameWithType: CharacterFacade.OnExitedHidingSpot
-- uid: CatchIo.Runtime.Character.CharacterFacade.OnFootprintSoundDetected
-  name: OnFootprintSoundDetected
-  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_OnFootprintSoundDetected
-  commentId: F:CatchIo.Runtime.Character.CharacterFacade.OnFootprintSoundDetected
-  fullName: CatchIo.Runtime.Character.CharacterFacade.OnFootprintSoundDetected
-  nameWithType: CharacterFacade.OnFootprintSoundDetected
 - uid: CatchIo.Runtime.Character.CharacterFacade.OnKnockBack
   name: OnKnockBack
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_OnKnockBack
@@ -3132,12 +3178,6 @@ references:
   commentId: T:CatchIo.Runtime.Character.Detector.LightSourceDetector
   fullName: CatchIo.Runtime.Character.Detector.LightSourceDetector
   nameWithType: LightSourceDetector
-- uid: CatchIo.Runtime.Character.Detector.SoundDetector
-  name: SoundDetector
-  href: api/CatchIo.Runtime.Character.Detector.SoundDetector.html
-  commentId: T:CatchIo.Runtime.Character.Detector.SoundDetector
-  fullName: CatchIo.Runtime.Character.Detector.SoundDetector
-  nameWithType: SoundDetector
 - uid: CatchIo.Runtime.Character.Detector.SurfaceDetector
   name: SurfaceDetector
   href: api/CatchIo.Runtime.Character.Detector.SurfaceDetector.html
@@ -3202,6 +3242,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Detector.WhisperDetector.Enable
   nameWithType: WhisperDetector.Enable
+- uid: CatchIo.Runtime.Character.Detector.WhisperDetector.Initialize(CatchIo.Runtime.Character.CharacterFacade)
+  name: Initialize(CharacterFacade)
+  href: api/CatchIo.Runtime.Character.Detector.WhisperDetector.html#CatchIo_Runtime_Character_Detector_WhisperDetector_Initialize_CatchIo_Runtime_Character_CharacterFacade_
+  commentId: M:CatchIo.Runtime.Character.Detector.WhisperDetector.Initialize(CatchIo.Runtime.Character.CharacterFacade)
+  fullName: CatchIo.Runtime.Character.Detector.WhisperDetector.Initialize(CatchIo.Runtime.Character.CharacterFacade)
+  nameWithType: WhisperDetector.Initialize(CharacterFacade)
+- uid: CatchIo.Runtime.Character.Detector.WhisperDetector.Initialize*
+  name: Initialize
+  href: api/CatchIo.Runtime.Character.Detector.WhisperDetector.html#CatchIo_Runtime_Character_Detector_WhisperDetector_Initialize_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.WhisperDetector.Initialize
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Detector.WhisperDetector.Initialize
+  nameWithType: WhisperDetector.Initialize
 - uid: CatchIo.Runtime.Character.Detector.WhisperDetector.SetDetectionRange(System.Single)
   name: SetDetectionRange(Single)
   href: api/CatchIo.Runtime.Character.Detector.WhisperDetector.html#CatchIo_Runtime_Character_Detector_WhisperDetector_SetDetectionRange_System_Single_
@@ -5916,6 +5969,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CenterPositionProvider
   nameWithType: CharacterItemUser.CenterPositionProvider
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterFacade
+  name: CharacterFacade
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_CharacterFacade
+  commentId: P:CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterFacade
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterFacade
+  nameWithType: CharacterItemUser.CharacterFacade
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterFacade*
+  name: CharacterFacade
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_CharacterFacade_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterFacade
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterFacade
+  nameWithType: CharacterItemUser.CharacterFacade
 - uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.CharacterTransform
   name: CharacterTransform
   href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_CharacterTransform
@@ -10181,6 +10247,151 @@ references:
   commentId: N:CatchIo.Runtime.Entities
   fullName: CatchIo.Runtime.Entities
   nameWithType: CatchIo.Runtime.Entities
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave
+  name: CatchIo.Runtime.Entities.Detectors.SoundWave
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.html
+  commentId: N:CatchIo.Runtime.Entities.Detectors.SoundWave
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave
+  nameWithType: CatchIo.Runtime.Entities.Detectors.SoundWave
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl
+  name: NoiseArcAnimationControl
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl.html
+  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl
+  nameWithType: NoiseArcAnimationControl
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator
+  name: SoundDetectionIndicator
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html
+  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator
+  nameWithType: SoundDetectionIndicator
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
+  name: Duration
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_Duration
+  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
+  nameWithType: SoundDetectionIndicator.Duration
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration*
+  name: Duration
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_Duration_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
+  nameWithType: SoundDetectionIndicator.Duration
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.NoiseChangeDistance
+  name: NoiseChangeDistance
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_NoiseChangeDistance
+  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.NoiseChangeDistance
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.NoiseChangeDistance
+  nameWithType: SoundDetectionIndicator.NoiseChangeDistance
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.NoiseChangeDistance*
+  name: NoiseChangeDistance
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_NoiseChangeDistance_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.NoiseChangeDistance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.NoiseChangeDistance
+  nameWithType: SoundDetectionIndicator.NoiseChangeDistance
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnHideIndicatorArc
+  name: OnHideIndicatorArc
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_OnHideIndicatorArc
+  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnHideIndicatorArc
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnHideIndicatorArc
+  nameWithType: SoundDetectionIndicator.OnHideIndicatorArc
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnShowIndicatorArc
+  name: OnShowIndicatorArc
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_OnShowIndicatorArc
+  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnShowIndicatorArc
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnShowIndicatorArc
+  nameWithType: SoundDetectionIndicator.OnShowIndicatorArc
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
+  name: SoundDetector
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html
+  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
+  nameWithType: SoundDetector
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
+  name: Disable()
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable
+  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable()
+  nameWithType: SoundDetector.Disable()
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable*
+  name: Disable
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
+  nameWithType: SoundDetector.Disable
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
+  name: Enable()
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable
+  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable()
+  nameWithType: SoundDetector.Enable()
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable*
+  name: Enable
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
+  nameWithType: SoundDetector.Enable
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade,IPositionProvider)
+  name: Initialize(CharacterFacade, IPositionProvider)
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_CharacterFacade_IPositionProvider_
+  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade,IPositionProvider)
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade, IPositionProvider)
+  nameWithType: SoundDetector.Initialize(CharacterFacade, IPositionProvider)
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize*
+  name: Initialize
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize
+  nameWithType: SoundDetector.Initialize
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled
+  name: OnDisabled
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnDisabled
+  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled
+  nameWithType: SoundDetector.OnDisabled
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled
+  name: OnEnabled
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnEnabled
+  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled
+  nameWithType: SoundDetector.OnEnabled
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnFootprintSoundDetected
+  name: OnFootprintSoundDetected
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnFootprintSoundDetected
+  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnFootprintSoundDetected
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnFootprintSoundDetected
+  nameWithType: SoundDetector.OnFootprintSoundDetected
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
+  name: Owner
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner
+  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
+  nameWithType: SoundDetector.Owner
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner*
+  name: Owner
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
+  nameWithType: SoundDetector.Owner
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
+  name: PositionProvider
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider
+  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
+  nameWithType: SoundDetector.PositionProvider
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider*
+  name: PositionProvider
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
+  nameWithType: SoundDetector.PositionProvider
 - uid: CatchIo.Runtime.Entities.EntityHUDPositionProvider
   name: EntityHUDPositionProvider
   href: api/CatchIo.Runtime.Entities.EntityHUDPositionProvider.html
@@ -15335,38 +15546,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.OnLightSourceDetect
   nameWithType: LightingIndicator.OnLightSourceDetect
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl
-  name: NoiseArcAnimationControl
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.html
-  commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl
-  nameWithType: NoiseArcAnimationControl
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Awake
-  name: Awake()
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_NoiseArcAnimationControl_Awake
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Awake
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Awake()
-  nameWithType: NoiseArcAnimationControl.Awake()
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Awake*
-  name: Awake
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_NoiseArcAnimationControl_Awake_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Awake
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Awake
-  nameWithType: NoiseArcAnimationControl.Awake
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Start
-  name: Start()
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_NoiseArcAnimationControl_Start
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Start
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Start()
-  nameWithType: NoiseArcAnimationControl.Start()
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Start*
-  name: Start
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_NoiseArcAnimationControl_Start_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Start
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.NoiseArcAnimationControl.Start
-  nameWithType: NoiseArcAnimationControl.Start
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.ScoutingArrow
   name: ScoutingArrow
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.ScoutingArrow.html
@@ -18886,12 +19065,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetAnimator
   nameWithType: ScoutingEye.GetAnimator
-- uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(System.Int32,System.String,Vector2,System.Boolean)
-  name: Initialize(Int32, String, Vector2, Boolean)
-  href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_System_Int32_System_String_Vector2_System_Boolean_
-  commentId: M:CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(System.Int32,System.String,Vector2,System.Boolean)
-  fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(System.Int32, System.String, Vector2, System.Boolean)
-  nameWithType: ScoutingEye.Initialize(Int32, String, Vector2, Boolean)
+- uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition
+  name: GetPosition()
+  href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_GetPosition
+  commentId: M:CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition
+  fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition()
+  nameWithType: ScoutingEye.GetPosition()
+- uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition*
+  name: GetPosition
+  href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_GetPosition_
+  commentId: Overload:CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition
+  nameWithType: ScoutingEye.GetPosition
+- uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser,System.String)
+  name: Initialize(CharacterItemUser, String)
+  href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_CharacterItemUser_System_String_
+  commentId: M:CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser,System.String)
+  fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser, System.String)
+  nameWithType: ScoutingEye.Initialize(CharacterItemUser, String)
 - uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize*
   name: Initialize
   href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_
@@ -23913,19 +24105,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.DisableCharacterAudioListener
   nameWithType: SoundManager.DisableCharacterAudioListener
-- uid: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener(GameObject)
-  name: EnableCharacterAudioListener(GameObject)
-  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_EnableCharacterAudioListener_GameObject_
-  commentId: M:CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener(GameObject)
-  fullName: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener(GameObject)
-  nameWithType: SoundManager.EnableCharacterAudioListener(GameObject)
-- uid: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener*
-  name: EnableCharacterAudioListener
-  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_EnableCharacterAudioListener_
-  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Sound.SoundManager.EnableCharacterAudioListener
-  nameWithType: SoundManager.EnableCharacterAudioListener
 - uid: CatchIo.Runtime.Sound.SoundManager.Instance
   name: Instance
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_Instance
@@ -24147,6 +24326,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.RPC_PlayTerrainSfx
   nameWithType: SoundManager.RPC_PlayTerrainSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget(GameObject)
+  name: SetAudioListenerTarget(GameObject)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_SetAudioListenerTarget_GameObject_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget(GameObject)
+  fullName: CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget(GameObject)
+  nameWithType: SoundManager.SetAudioListenerTarget(GameObject)
+- uid: CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget*
+  name: SetAudioListenerTarget
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_SetAudioListenerTarget_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget
+  nameWithType: SoundManager.SetAudioListenerTarget
 - uid: CatchIo.Runtime.Sound.SoundManager.StopStaminaSfx
   name: StopStaminaSfx()
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopStaminaSfx
