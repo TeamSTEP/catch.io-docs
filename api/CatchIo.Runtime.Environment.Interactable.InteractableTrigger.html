@@ -94,13 +94,13 @@ objects that are connected to this</p>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">ICharacterInteractable</span></div>
+    <div><span class="xref">IHUDDisplayable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Environment.Interactable.html">CatchIo.Runtime.Environment.Interactable</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InteractableTrigger : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class InteractableTrigger : HurtBox</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -128,67 +128,94 @@ objects that are connected to this</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDPositionProvider_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDPositionProvider" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider">HUDPositionProvider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityHUDPositionProvider HUDPositionProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityHUDPositionProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDStream_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDStream" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream">HUDStream</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StreamId.EntityHUD HUDStream { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StreamId.EntityHUD</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ViewID_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ViewID" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID">ViewID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int ViewID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetIndicatorPosition_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition*"></a>
-  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetIndicatorPosition" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition">GetIndicatorPosition()</h4>
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_CanInteract_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_CanInteract_HitBox_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract(HitBox)">CanInteract(HitBox)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetIndicatorPosition()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetPosition_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition*"></a>
-  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetPosition" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition">GetPosition()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetected_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected*"></a>
-  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetected_CharacterFacade_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected(CharacterFacade)">OnDetected(CharacterFacade)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnDetected(CharacterFacade byCharacter)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool CanInteract(HitBox hitBox)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,21 +228,111 @@ objects that are connected to this</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">CharacterFacade</span></td>
-        <td><span class="parametername">byCharacter</span></td>
+        <td><span class="xref">HitBox</span></td>
+        <td><span class="parametername">hitBox</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetectionRemoved_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved*"></a>
-  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetectionRemoved_CharacterFacade_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved(CharacterFacade)">OnDetectionRemoved(CharacterFacade)</h4>
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetActionTypes_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetActionTypes" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes">GetActionTypes()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnDetectionRemoved(CharacterFacade byCharacter)</code></pre>
+    <pre><code class="lang-csharp hljs">public ACTION_TYPE GetActionTypes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ACTION_TYPE</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHUDPositionProvider_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHUDPositionProvider" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider">GetHUDPositionProvider()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPositionProvider GetHUDPositionProvider()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPositionProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHurtBoxPosition_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHurtBoxPosition" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition">GetHurtBoxPosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector2 GetHurtBoxPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ToggleHUD_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD*"></a>
+  <h4 id="CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ToggleHUD_ACTION_TYPE_System_Boolean_" data-uid="CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD(ACTION_TYPE,System.Boolean)">ToggleHUD(ACTION_TYPE, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleHUD(ACTION_TYPE actionType, bool active)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,15 +345,20 @@ objects that are connected to this</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">CharacterFacade</span></td>
-        <td><span class="parametername">byCharacter</span></td>
+        <td><span class="xref">ACTION_TYPE</span></td>
+        <td><span class="parametername">actionType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">ICharacterInteractable</span>
+      <span class="xref">IHUDDisplayable</span>
   </div>
 </article>
           </div>

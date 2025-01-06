@@ -7342,6 +7342,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.CanPlay
   nameWithType: CharacterBodyDamageReceiver.CanPlay
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetActionTypes
+  name: GetActionTypes()
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetActionTypes
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetActionTypes
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetActionTypes()
+  nameWithType: CharacterBodyDamageReceiver.GetActionTypes()
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetActionTypes*
+  name: GetActionTypes
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetActionTypes_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetActionTypes
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetActionTypes
+  nameWithType: CharacterBodyDamageReceiver.GetActionTypes
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetAnimatorController
   name: GetAnimatorController()
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetAnimatorController
@@ -7381,19 +7394,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetHurtBoxPosition
   nameWithType: CharacterBodyDamageReceiver.GetHurtBoxPosition
-- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetIndicatorPosition
-  name: GetIndicatorPosition()
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetIndicatorPosition
-  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetIndicatorPosition
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetIndicatorPosition()
-  nameWithType: CharacterBodyDamageReceiver.GetIndicatorPosition()
-- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetIndicatorPosition*
-  name: GetIndicatorPosition
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetIndicatorPosition_
-  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetIndicatorPosition
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetIndicatorPosition
-  nameWithType: CharacterBodyDamageReceiver.GetIndicatorPosition
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetPlayer
   name: GetPlayer()
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetPlayer
@@ -7485,32 +7485,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.IsPlayer
   nameWithType: CharacterBodyDamageReceiver.IsPlayer
-- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetected(CatchIo.Runtime.Character.CharacterFacade)
-  name: OnDetected(CharacterFacade)
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_OnDetected_CatchIo_Runtime_Character_CharacterFacade_
-  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetected(CatchIo.Runtime.Character.CharacterFacade)
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetected(CatchIo.Runtime.Character.CharacterFacade)
-  nameWithType: CharacterBodyDamageReceiver.OnDetected(CharacterFacade)
-- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetected*
-  name: OnDetected
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_OnDetected_
-  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetected
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetected
-  nameWithType: CharacterBodyDamageReceiver.OnDetected
-- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetectionRemoved(CatchIo.Runtime.Character.CharacterFacade)
-  name: OnDetectionRemoved(CharacterFacade)
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_OnDetectionRemoved_CatchIo_Runtime_Character_CharacterFacade_
-  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetectionRemoved(CatchIo.Runtime.Character.CharacterFacade)
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetectionRemoved(CatchIo.Runtime.Character.CharacterFacade)
-  nameWithType: CharacterBodyDamageReceiver.OnDetectionRemoved(CharacterFacade)
-- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetectionRemoved*
-  name: OnDetectionRemoved
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_OnDetectionRemoved_
-  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetectionRemoved
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.OnDetectionRemoved
-  nameWithType: CharacterBodyDamageReceiver.OnDetectionRemoved
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ToggleHUD(ACTION_TYPE,System.Boolean)
   name: ToggleHUD(ACTION_TYPE, Boolean)
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ToggleHUD_ACTION_TYPE_System_Boolean_
@@ -10085,6 +10059,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.CanInteract
   nameWithType: TrapObjectDamageReceiver.CanInteract
+- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetActionTypes
+  name: GetActionTypes()
+  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetActionTypes
+  commentId: M:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetActionTypes
+  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetActionTypes()
+  nameWithType: TrapObjectDamageReceiver.GetActionTypes()
+- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetActionTypes*
+  name: GetActionTypes
+  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetActionTypes_
+  commentId: Overload:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetActionTypes
+  isSpec: "True"
+  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetActionTypes
+  nameWithType: TrapObjectDamageReceiver.GetActionTypes
 - uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetHUDPositionProvider
   name: GetHUDPositionProvider()
   href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetHUDPositionProvider
@@ -10111,32 +10098,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetHurtBoxPosition
   nameWithType: TrapObjectDamageReceiver.GetHurtBoxPosition
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition
-  name: GetIndicatorPosition()
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetIndicatorPosition
-  commentId: M:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition()
-  nameWithType: TrapObjectDamageReceiver.GetIndicatorPosition()
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition*
-  name: GetIndicatorPosition
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetIndicatorPosition_
-  commentId: Overload:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition
-  isSpec: "True"
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetIndicatorPosition
-  nameWithType: TrapObjectDamageReceiver.GetIndicatorPosition
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition
-  name: GetPosition()
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetPosition
-  commentId: M:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition()
-  nameWithType: TrapObjectDamageReceiver.GetPosition()
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition*
-  name: GetPosition
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_GetPosition_
-  commentId: Overload:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition
-  isSpec: "True"
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.GetPosition
-  nameWithType: TrapObjectDamageReceiver.GetPosition
 - uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.HUDPositionProvider
   name: HUDPositionProvider
   href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_HUDPositionProvider
@@ -10163,32 +10124,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.HUDStream
   nameWithType: TrapObjectDamageReceiver.HUDStream
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected(CharacterFacade)
-  name: OnDetected(CharacterFacade)
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetected_CharacterFacade_
-  commentId: M:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected(CharacterFacade)
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected(CharacterFacade)
-  nameWithType: TrapObjectDamageReceiver.OnDetected(CharacterFacade)
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected*
-  name: OnDetected
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetected_
-  commentId: Overload:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected
-  isSpec: "True"
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetected
-  nameWithType: TrapObjectDamageReceiver.OnDetected
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved(CharacterFacade)
-  name: OnDetectionRemoved(CharacterFacade)
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetectionRemoved_CharacterFacade_
-  commentId: M:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved(CharacterFacade)
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved(CharacterFacade)
-  nameWithType: TrapObjectDamageReceiver.OnDetectionRemoved(CharacterFacade)
-- uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved*
-  name: OnDetectionRemoved
-  href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_OnDetectionRemoved_
-  commentId: Overload:CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved
-  isSpec: "True"
-  fullName: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.OnDetectionRemoved
-  nameWithType: TrapObjectDamageReceiver.OnDetectionRemoved
 - uid: CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.TakeDamage(IDamage,System.Int32)
   name: TakeDamage(IDamage, Int32)
   href: api/CatchIo.Runtime.DynmaicObjects.TrapObjects.TrapObjectDamageReceiver.html#CatchIo_Runtime_DynmaicObjects_TrapObjects_TrapObjectDamageReceiver_TakeDamage_IDamage_System_Int32_
@@ -10537,6 +10472,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.CanInteract
   nameWithType: EntityScoutingMarkHurtBox.CanInteract
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.GetActionTypes
+  name: GetActionTypes()
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityScoutingMarkHurtBox_GetActionTypes
+  commentId: M:CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.GetActionTypes
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.GetActionTypes()
+  nameWithType: EntityScoutingMarkHurtBox.GetActionTypes()
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.GetActionTypes*
+  name: GetActionTypes
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityScoutingMarkHurtBox_GetActionTypes_
+  commentId: Overload:CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.GetActionTypes
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.GetActionTypes
+  nameWithType: EntityScoutingMarkHurtBox.GetActionTypes
 - uid: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.GetHUDPositionProvider
   name: GetHUDPositionProvider()
   href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityScoutingMarkHurtBox_GetHUDPositionProvider
@@ -12456,64 +12404,116 @@ references:
   commentId: T:CatchIo.Runtime.Environment.Interactable.InteractableTrigger
   fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger
   nameWithType: InteractableTrigger
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition
-  name: GetIndicatorPosition()
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetIndicatorPosition
-  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition()
-  nameWithType: InteractableTrigger.GetIndicatorPosition()
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition*
-  name: GetIndicatorPosition
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetIndicatorPosition_
-  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract(HitBox)
+  name: CanInteract(HitBox)
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_CanInteract_HitBox_
+  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract(HitBox)
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract(HitBox)
+  nameWithType: InteractableTrigger.CanInteract(HitBox)
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract*
+  name: CanInteract
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_CanInteract_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract
   isSpec: "True"
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetIndicatorPosition
-  nameWithType: InteractableTrigger.GetIndicatorPosition
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition
-  name: GetPosition()
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetPosition
-  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition()
-  nameWithType: InteractableTrigger.GetPosition()
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition*
-  name: GetPosition
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetPosition_
-  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.CanInteract
+  nameWithType: InteractableTrigger.CanInteract
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes
+  name: GetActionTypes()
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetActionTypes
+  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes()
+  nameWithType: InteractableTrigger.GetActionTypes()
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes*
+  name: GetActionTypes
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetActionTypes_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes
   isSpec: "True"
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetPosition
-  nameWithType: InteractableTrigger.GetPosition
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetActionTypes
+  nameWithType: InteractableTrigger.GetActionTypes
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider
+  name: GetHUDPositionProvider()
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHUDPositionProvider
+  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider()
+  nameWithType: InteractableTrigger.GetHUDPositionProvider()
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider*
+  name: GetHUDPositionProvider
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHUDPositionProvider_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHUDPositionProvider
+  nameWithType: InteractableTrigger.GetHUDPositionProvider
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition
+  name: GetHurtBoxPosition()
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHurtBoxPosition
+  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition()
+  nameWithType: InteractableTrigger.GetHurtBoxPosition()
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition*
+  name: GetHurtBoxPosition
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_GetHurtBoxPosition_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.GetHurtBoxPosition
+  nameWithType: InteractableTrigger.GetHurtBoxPosition
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider
+  name: HUDPositionProvider
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDPositionProvider
+  commentId: P:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider
+  nameWithType: InteractableTrigger.HUDPositionProvider
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider*
+  name: HUDPositionProvider
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDPositionProvider_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDPositionProvider
+  nameWithType: InteractableTrigger.HUDPositionProvider
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream
+  name: HUDStream
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDStream
+  commentId: P:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream
+  nameWithType: InteractableTrigger.HUDStream
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream*
+  name: HUDStream
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_HUDStream_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.HUDStream
+  nameWithType: InteractableTrigger.HUDStream
 - uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.InteractableObjects
   name: InteractableObjects
   href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_InteractableObjects
   commentId: F:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.InteractableObjects
   fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.InteractableObjects
   nameWithType: InteractableTrigger.InteractableObjects
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected(CharacterFacade)
-  name: OnDetected(CharacterFacade)
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetected_CharacterFacade_
-  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected(CharacterFacade)
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected(CharacterFacade)
-  nameWithType: InteractableTrigger.OnDetected(CharacterFacade)
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected*
-  name: OnDetected
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetected_
-  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD(ACTION_TYPE,System.Boolean)
+  name: ToggleHUD(ACTION_TYPE, Boolean)
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ToggleHUD_ACTION_TYPE_System_Boolean_
+  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD(ACTION_TYPE,System.Boolean)
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD(ACTION_TYPE, System.Boolean)
+  nameWithType: InteractableTrigger.ToggleHUD(ACTION_TYPE, Boolean)
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD*
+  name: ToggleHUD
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ToggleHUD_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD
   isSpec: "True"
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetected
-  nameWithType: InteractableTrigger.OnDetected
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved(CharacterFacade)
-  name: OnDetectionRemoved(CharacterFacade)
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetectionRemoved_CharacterFacade_
-  commentId: M:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved(CharacterFacade)
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved(CharacterFacade)
-  nameWithType: InteractableTrigger.OnDetectionRemoved(CharacterFacade)
-- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved*
-  name: OnDetectionRemoved
-  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_OnDetectionRemoved_
-  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ToggleHUD
+  nameWithType: InteractableTrigger.ToggleHUD
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID
+  name: ViewID
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ViewID
+  commentId: P:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID
+  nameWithType: InteractableTrigger.ViewID
+- uid: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID*
+  name: ViewID
+  href: api/CatchIo.Runtime.Environment.Interactable.InteractableTrigger.html#CatchIo_Runtime_Environment_Interactable_InteractableTrigger_ViewID_
+  commentId: Overload:CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID
   isSpec: "True"
-  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.OnDetectionRemoved
-  nameWithType: InteractableTrigger.OnDetectionRemoved
+  fullName: CatchIo.Runtime.Environment.Interactable.InteractableTrigger.ViewID
+  nameWithType: InteractableTrigger.ViewID
 - uid: CatchIo.Runtime.Environment.Interactable.SignPost
   name: SignPost
   href: api/CatchIo.Runtime.Environment.Interactable.SignPost.html
@@ -12709,64 +12709,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.ICharacterDetectable.ViewID
   nameWithType: ICharacterDetectable.ViewID
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable
-  name: ICharacterInteractable
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html
-  commentId: T:CatchIo.Runtime.Interfaces.ICharacterInteractable
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable
-  nameWithType: ICharacterInteractable
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetIndicatorPosition
-  name: GetIndicatorPosition()
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_GetIndicatorPosition
-  commentId: M:CatchIo.Runtime.Interfaces.ICharacterInteractable.GetIndicatorPosition
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetIndicatorPosition()
-  nameWithType: ICharacterInteractable.GetIndicatorPosition()
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetIndicatorPosition*
-  name: GetIndicatorPosition
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_GetIndicatorPosition_
-  commentId: Overload:CatchIo.Runtime.Interfaces.ICharacterInteractable.GetIndicatorPosition
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetIndicatorPosition
-  nameWithType: ICharacterInteractable.GetIndicatorPosition
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetPosition
-  name: GetPosition()
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_GetPosition
-  commentId: M:CatchIo.Runtime.Interfaces.ICharacterInteractable.GetPosition
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetPosition()
-  nameWithType: ICharacterInteractable.GetPosition()
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetPosition*
-  name: GetPosition
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_GetPosition_
-  commentId: Overload:CatchIo.Runtime.Interfaces.ICharacterInteractable.GetPosition
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.GetPosition
-  nameWithType: ICharacterInteractable.GetPosition
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetected(CharacterFacade)
-  name: OnDetected(CharacterFacade)
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_OnDetected_CharacterFacade_
-  commentId: M:CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetected(CharacterFacade)
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetected(CharacterFacade)
-  nameWithType: ICharacterInteractable.OnDetected(CharacterFacade)
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetected*
-  name: OnDetected
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_OnDetected_
-  commentId: Overload:CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetected
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetected
-  nameWithType: ICharacterInteractable.OnDetected
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetectionRemoved(CharacterFacade)
-  name: OnDetectionRemoved(CharacterFacade)
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_OnDetectionRemoved_CharacterFacade_
-  commentId: M:CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetectionRemoved(CharacterFacade)
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetectionRemoved(CharacterFacade)
-  nameWithType: ICharacterInteractable.OnDetectionRemoved(CharacterFacade)
-- uid: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetectionRemoved*
-  name: OnDetectionRemoved
-  href: api/CatchIo.Runtime.Interfaces.ICharacterInteractable.html#CatchIo_Runtime_Interfaces_ICharacterInteractable_OnDetectionRemoved_
-  commentId: Overload:CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetectionRemoved
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Interfaces.ICharacterInteractable.OnDetectionRemoved
-  nameWithType: ICharacterInteractable.OnDetectionRemoved
 - uid: CatchIo.Runtime.Interfaces.IDamageInterceptable
   name: IDamageInterceptable
   href: api/CatchIo.Runtime.Interfaces.IDamageInterceptable.html
@@ -12994,6 +12936,19 @@ references:
   commentId: T:CatchIo.Runtime.Interfaces.IHUDDisplayable
   fullName: CatchIo.Runtime.Interfaces.IHUDDisplayable
   nameWithType: IHUDDisplayable
+- uid: CatchIo.Runtime.Interfaces.IHUDDisplayable.GetActionTypes
+  name: GetActionTypes()
+  href: api/CatchIo.Runtime.Interfaces.IHUDDisplayable.html#CatchIo_Runtime_Interfaces_IHUDDisplayable_GetActionTypes
+  commentId: M:CatchIo.Runtime.Interfaces.IHUDDisplayable.GetActionTypes
+  fullName: CatchIo.Runtime.Interfaces.IHUDDisplayable.GetActionTypes()
+  nameWithType: IHUDDisplayable.GetActionTypes()
+- uid: CatchIo.Runtime.Interfaces.IHUDDisplayable.GetActionTypes*
+  name: GetActionTypes
+  href: api/CatchIo.Runtime.Interfaces.IHUDDisplayable.html#CatchIo_Runtime_Interfaces_IHUDDisplayable_GetActionTypes_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IHUDDisplayable.GetActionTypes
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IHUDDisplayable.GetActionTypes
+  nameWithType: IHUDDisplayable.GetActionTypes
 - uid: CatchIo.Runtime.Interfaces.IHUDDisplayable.GetHUDPositionProvider
   name: GetHUDPositionProvider()
   href: api/CatchIo.Runtime.Interfaces.IHUDDisplayable.html#CatchIo_Runtime_Interfaces_IHUDDisplayable_GetHUDPositionProvider
@@ -16313,12 +16268,12 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator
   fullName: CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator
   nameWithType: InteractionIndicator
-- uid: CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide(CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.ACTION_TYPE)
-  name: Hide(ACTION_TYPE)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.html#CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Hide_CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_ACTION_TYPE_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide(CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.ACTION_TYPE)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide(CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.ACTION_TYPE)
-  nameWithType: InteractionIndicator.Hide(ACTION_TYPE)
+- uid: CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide
+  name: Hide()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.html#CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Hide
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide()
+  nameWithType: InteractionIndicator.Hide()
 - uid: CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.Hide*
   name: Hide
   href: api/CatchIo.Runtime.Menu.GameOverlay.InteractionIndicatorHUD.InteractionIndicator.html#CatchIo_Runtime_Menu_GameOverlay_InteractionIndicatorHUD_InteractionIndicator_Hide_
@@ -18704,6 +18659,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.CanInteract
   nameWithType: NPCDamageReceiver.CanInteract
+- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetActionTypes
+  name: GetActionTypes()
+  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetActionTypes
+  commentId: M:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetActionTypes
+  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetActionTypes()
+  nameWithType: NPCDamageReceiver.GetActionTypes()
+- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetActionTypes*
+  name: GetActionTypes
+  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetActionTypes_
+  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetActionTypes
+  isSpec: "True"
+  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetActionTypes
+  nameWithType: NPCDamageReceiver.GetActionTypes
 - uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetAnimatorController
   name: GetAnimatorController()
   href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetAnimatorController
@@ -18743,32 +18711,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetHurtBoxPosition
   nameWithType: NPCDamageReceiver.GetHurtBoxPosition
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetIndicatorPosition
-  name: GetIndicatorPosition()
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetIndicatorPosition
-  commentId: M:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetIndicatorPosition
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetIndicatorPosition()
-  nameWithType: NPCDamageReceiver.GetIndicatorPosition()
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetIndicatorPosition*
-  name: GetIndicatorPosition
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetIndicatorPosition_
-  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetIndicatorPosition
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetIndicatorPosition
-  nameWithType: NPCDamageReceiver.GetIndicatorPosition
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetPosition
-  name: GetPosition()
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetPosition
-  commentId: M:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetPosition
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetPosition()
-  nameWithType: NPCDamageReceiver.GetPosition()
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetPosition*
-  name: GetPosition
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetPosition_
-  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetPosition
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetPosition
-  nameWithType: NPCDamageReceiver.GetPosition
 - uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.HUDPositionProvider
   name: HUDPositionProvider
   href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_HUDPositionProvider
@@ -18821,32 +18763,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.KnockBack
   nameWithType: NPCDamageReceiver.KnockBack
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetected(CharacterFacade)
-  name: OnDetected(CharacterFacade)
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_OnDetected_CharacterFacade_
-  commentId: M:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetected(CharacterFacade)
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetected(CharacterFacade)
-  nameWithType: NPCDamageReceiver.OnDetected(CharacterFacade)
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetected*
-  name: OnDetected
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_OnDetected_
-  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetected
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetected
-  nameWithType: NPCDamageReceiver.OnDetected
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetectionRemoved(CharacterFacade)
-  name: OnDetectionRemoved(CharacterFacade)
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_OnDetectionRemoved_CharacterFacade_
-  commentId: M:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetectionRemoved(CharacterFacade)
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetectionRemoved(CharacterFacade)
-  nameWithType: NPCDamageReceiver.OnDetectionRemoved(CharacterFacade)
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetectionRemoved*
-  name: OnDetectionRemoved
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_OnDetectionRemoved_
-  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetectionRemoved
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.OnDetectionRemoved
-  nameWithType: NPCDamageReceiver.OnDetectionRemoved
 - uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.TakeDamage(IDamage,System.Int32)
   name: TakeDamage(IDamage, Int32)
   href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_TakeDamage_IDamage_System_Int32_
