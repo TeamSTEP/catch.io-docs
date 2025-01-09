@@ -1877,12 +1877,17 @@
   "api/CatchIo.Runtime.Menu.UI.InputField.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.InputField.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.InputField | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.UI.InputField Classes InputFieldTextBroadcaster"
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.InputField Classes InputFieldTextBroadcaster InputFieldValidator validate input field"
   },
   "api/CatchIo.Runtime.Menu.UI.InputField.InputFieldTextBroadcaster.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.InputField.InputFieldTextBroadcaster.html",
     "title": "Class InputFieldTextBroadcaster | Catch.io Developer Reference",
     "keywords": "Class InputFieldTextBroadcaster Inheritance System.Object InputFieldTextBroadcaster Namespace : CatchIo.Runtime.Menu.UI.InputField Assembly : cs.temp.dll.dll Syntax public class InputFieldTextBroadcaster : MonoBehaviour"
+  },
+  "api/CatchIo.Runtime.Menu.UI.InputField.InputFieldValidator.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.InputField.InputFieldValidator.html",
+    "title": "Class InputFieldValidator | Catch.io Developer Reference",
+    "keywords": "Class InputFieldValidator validate input field Inheritance System.Object InputFieldValidator Namespace : CatchIo.Runtime.Menu.UI.InputField Assembly : cs.temp.dll.dll Syntax public class InputFieldValidator : MonoBehaviour"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html",
@@ -2734,6 +2739,16 @@
     "title": "Class TagSelectorAttribute | Catch.io Developer Reference",
     "keywords": "Class TagSelectorAttribute Inheritance System.Object TagSelectorAttribute Namespace : CatchIo.Runtime.Utility.Attributes Assembly : cs.temp.dll.dll Syntax public class TagSelectorAttribute : PropertyAttribute Fields UseDefaultTagFieldDrawer Declaration public bool UseDefaultTagFieldDrawer Field Value Type Description System.Boolean"
   },
+  "api/CatchIo.Runtime.Utility.BannedWords.html": {
+    "href": "api/CatchIo.Runtime.Utility.BannedWords.html",
+    "title": "Class BannedWords | Catch.io Developer Reference",
+    "keywords": "Class BannedWords Inheritance System.Object BannedWords Namespace : CatchIo.Runtime.Utility Assembly : cs.temp.dll.dll Syntax [Serializable] public class BannedWords Fields Words Declaration public List<string> Words Field Value Type Description System.Collections.Generic.List < System.String >"
+  },
+  "api/CatchIo.Runtime.Utility.BannedWordUtility.html": {
+    "href": "api/CatchIo.Runtime.Utility.BannedWordUtility.html",
+    "title": "Class BannedWordUtility | Catch.io Developer Reference",
+    "keywords": "Class BannedWordUtility Utility for banned words Inheritance System.Object BannedWordUtility Namespace : CatchIo.Runtime.Utility Assembly : cs.temp.dll.dll Syntax public class BannedWordUtility Methods ContainsBannedWords(String) Check if the text contains banned word Declaration public static bool ContainsBannedWords(string input) Parameters Type Name Description System.String input Text to check Returns Type Description System.Boolean has banned words"
+  },
   "api/CatchIo.Runtime.Utility.ColorHelper.html": {
     "href": "api/CatchIo.Runtime.Utility.ColorHelper.html",
     "title": "Class ColorHelper | Catch.io Developer Reference",
@@ -2837,7 +2852,7 @@
   "api/CatchIo.Runtime.Utility.html": {
     "href": "api/CatchIo.Runtime.Utility.html",
     "title": "Namespace CatchIo.Runtime.Utility | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Utility Classes AnimationParser ColorHelper MathHelper Optional<T> PolygonHelper PropertyHelper StringHelper Structs StateAnimation"
+    "keywords": "Namespace CatchIo.Runtime.Utility Classes AnimationParser BannedWords BannedWordUtility Utility for banned words ColorHelper MathHelper Optional<T> PolygonHelper PropertyHelper StringHelper Structs StateAnimation"
   },
   "api/CatchIo.Runtime.Utility.MathHelper.html": {
     "href": "api/CatchIo.Runtime.Utility.MathHelper.html",
