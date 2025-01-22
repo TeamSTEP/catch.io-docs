@@ -767,7 +767,7 @@
   "api/CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor-1.html": {
     "href": "api/CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor-1.html",
     "title": "Class HitBoxEventProcessor<T> | Catch.io Developer Reference",
-    "keywords": "Class HitBoxEventProcessor<T> Handles events related to HitBox and HurtBox interactions. Inheritance System.Object HitBoxEventProcessor<T> Namespace : CatchIo.Runtime.Combat.HitBoxes Assembly : cs.temp.dll.dll Syntax public class HitBoxEventProcessor<T> where T : HurtBox Type Parameters Name Description T Methods ProcessEvents(IEnumerable<T>) Processes detected HurtBoxes and triggers the appropriate events. Declaration public void ProcessEvents(IEnumerable<T> detectedHurtBoxes) Parameters Type Name Description System.Collections.Generic.IEnumerable <T> detectedHurtBoxes Events HurtBoxEntered Event triggered when a HurtBox enters the HitBox's detection range. Declaration public event Action<T> HurtBoxEntered Event Type Type Description System.Action <T> HurtBoxExited Event triggered when a HurtBox exits the HitBox's detection range. Declaration public event Action<T> HurtBoxExited Event Type Type Description System.Action <T> HurtBoxStayed Event triggered when a HurtBox stays within the HitBox's detection range. Declaration public event Action<T> HurtBoxStayed Event Type Type Description System.Action <T>"
+    "keywords": "Class HitBoxEventProcessor<T> Handles events related to HitBox and HurtBox interactions. Inheritance System.Object HitBoxEventProcessor<T> Namespace : CatchIo.Runtime.Combat.HitBoxes Assembly : cs.temp.dll.dll Syntax public class HitBoxEventProcessor<T> where T : HurtBox Type Parameters Name Description T Properties DetectedHurtBoxCount Declaration public int DetectedHurtBoxCount { get; } Property Value Type Description System.Int32 Methods ProcessEvents(IEnumerable<T>) Processes detected HurtBoxes and triggers the appropriate events. Declaration public void ProcessEvents(IEnumerable<T> detectedHurtBoxes) Parameters Type Name Description System.Collections.Generic.IEnumerable <T> detectedHurtBoxes Events HurtBoxEntered Event triggered when a HurtBox enters the HitBox's detection range. Declaration public event Action<T> HurtBoxEntered Event Type Type Description System.Action <T> HurtBoxExited Event triggered when a HurtBox exits the HitBox's detection range. Declaration public event Action<T> HurtBoxExited Event Type Type Description System.Action <T> HurtBoxStayed Event triggered when a HurtBox stays within the HitBox's detection range. Declaration public event Action<T> HurtBoxStayed Event Type Type Description System.Action <T>"
   },
   "api/CatchIo.Runtime.Combat.HitBoxes.html": {
     "href": "api/CatchIo.Runtime.Combat.HitBoxes.html",
@@ -944,6 +944,16 @@
     "title": "Class TrapObjectDamageReceiver | Catch.io Developer Reference",
     "keywords": "Class TrapObjectDamageReceiver Class that handles damage specifically for trap objects. Inherits from DamageReceiver and manages how traps receive direct damage, but ignores DOT (damage-over-time). Inheritance System.Object TrapObjectDamageReceiver Implements IHUDDisplayable Namespace : CatchIo.Runtime.DynmaicObjects.TrapObjects Assembly : cs.temp.dll.dll Syntax public class TrapObjectDamageReceiver : DamageReceiver Properties HUDPositionProvider Declaration public EntityHUDPositionProvider HUDPositionProvider { get; } Property Value Type Description EntityHUDPositionProvider HUDStream Declaration public StreamId.EntityHUD HUDStream { get; } Property Value Type Description StreamId.EntityHUD ViewID Declaration public override int ViewID { get; } Property Value Type Description System.Int32 Methods CanInteract(HitBox) Declaration public override bool CanInteract(HitBox hitBox) Parameters Type Name Description HitBox hitBox Returns Type Description System.Boolean GetActionTypes() Declaration public ACTION_TYPE GetActionTypes() Returns Type Description ACTION_TYPE GetHUDPositionProvider() Declaration public IPositionProvider GetHUDPositionProvider() Returns Type Description IPositionProvider GetHurtBoxPosition() Declaration public override Vector2 GetHurtBoxPosition() Returns Type Description Vector2 TakeDamage(IDamage, Int32) Overrides the TakeDamage method to apply direct damage to the trap object. This method handles two types of damage: FixedDamage and PercentageDamage. FixedDamage applies a constant amount of damage. PercentageDamage applies a percentage of the trap's current health as damage. If the trap's health is zero or below, no damage is applied. Declaration public override void TakeDamage(IDamage damage, int attackerViewID) Parameters Type Name Description IDamage damage An instance of IDamage containing details about the damage. System.Int32 attackerViewID TakeDOTDamage(DOTDamage, Int32) Overrides the TakeDOTDamage method but does nothing, as trap objects do not take damage-over-time (DOT). Declaration public override void TakeDOTDamage(DOTDamage dotDamage, int attackerViewID) Parameters Type Name Description DOTDamage dotDamage An instance of DOTDamage containing details about the DOT damage (ignored). System.Int32 attackerViewID ToggleHUD(ACTION_TYPE, Boolean) Declaration public void ToggleHUD(ACTION_TYPE actionType, bool active) Parameters Type Name Description ACTION_TYPE actionType System.Boolean active Implements IHUDDisplayable"
   },
+  "api/CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.html": {
+    "href": "api/CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.html",
+    "title": "Class EntitySilhouetteDetector | Catch.io Developer Reference",
+    "keywords": "Class EntitySilhouetteDetector Inheritance System.Object EntitySilhouetteDetector Namespace : CatchIo.Runtime.Entities.Detectors Assembly : cs.temp.dll.dll Syntax public sealed class EntitySilhouetteDetector : MonoBehaviour Events OnDetectedStateChanged Declaration public event Action<bool> OnDetectedStateChanged Event Type Type Description System.Action < System.Boolean >"
+  },
+  "api/CatchIo.Runtime.Entities.Detectors.html": {
+    "href": "api/CatchIo.Runtime.Entities.Detectors.html",
+    "title": "Namespace CatchIo.Runtime.Entities.Detectors | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Entities.Detectors Classes EntitySilhouetteDetector"
+  },
   "api/CatchIo.Runtime.Entities.Detectors.SoundWave.html": {
     "href": "api/CatchIo.Runtime.Entities.Detectors.SoundWave.html",
     "title": "Namespace CatchIo.Runtime.Entities.Detectors.SoundWave | Catch.io Developer Reference",
@@ -979,10 +989,15 @@
     "title": "Class EntitySettingItemRenderer | Catch.io Developer Reference",
     "keywords": "Class EntitySettingItemRenderer Handles the rendering of items on an entity, using a SpriteRenderer to display item icons. Notifies listeners when an item display is requested. Inheritance System.Object EntitySettingItemRenderer Namespace : CatchIo.Runtime.Entities.Graphics Assembly : cs.temp.dll.dll Syntax public sealed class EntitySettingItemRenderer : MonoBehaviour Methods SetItem(ItemData) Sets the item to be displayed by triggering the OnItemDisplayRequested event. Declaration public void SetItem(ItemData item) Parameters Type Name Description ItemData item The item data to be displayed. SyncDisplayItem(String) Synchronizes the display of the item based on the provided data path. Loads the item from resources and updates the sprite renderer accordingly. Declaration public void SyncDisplayItem(string itemDataPath) Parameters Type Name Description System.String itemDataPath The resource path to load the item data from. Events OnItemDisplayRequested Event triggered when an item display is requested, providing the item's data path. Declaration public event Action<string> OnItemDisplayRequested Event Type Type Description System.Action < System.String >"
   },
+  "api/CatchIo.Runtime.Entities.Graphics.EntitySilhouetteRenderer.html": {
+    "href": "api/CatchIo.Runtime.Entities.Graphics.EntitySilhouetteRenderer.html",
+    "title": "Class EntitySilhouetteRenderer | Catch.io Developer Reference",
+    "keywords": "Class EntitySilhouetteRenderer Renders a silhouette around the entity. Inheritance System.Object EntitySilhouetteRenderer Namespace : CatchIo.Runtime.Entities.Graphics Assembly : cs.temp.dll.dll Syntax public sealed class EntitySilhouetteRenderer : MonoBehaviour"
+  },
   "api/CatchIo.Runtime.Entities.Graphics.html": {
     "href": "api/CatchIo.Runtime.Entities.Graphics.html",
     "title": "Namespace CatchIo.Runtime.Entities.Graphics | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Entities.Graphics Classes EntityItemEffect EntitySettingItemRenderer Handles the rendering of items on an entity, using a SpriteRenderer to display item icons. Notifies listeners when an item display is requested."
+    "keywords": "Namespace CatchIo.Runtime.Entities.Graphics Classes EntityItemEffect EntitySettingItemRenderer Handles the rendering of items on an entity, using a SpriteRenderer to display item icons. Notifies listeners when an item display is requested. EntitySilhouetteRenderer Renders a silhouette around the entity."
   },
   "api/CatchIo.Runtime.Entities.html": {
     "href": "api/CatchIo.Runtime.Entities.html",
@@ -1184,6 +1199,16 @@
     "title": "Namespace CatchIo.Runtime.Environment | Catch.io Developer Reference",
     "keywords": "Namespace CatchIo.Runtime.Environment Classes CampFire CharacterSpawner CharacterSpawner.SpawnPoint DamagableObject EnvironmentSfxEmitter HidingSpot HidingSpotLightCollider ReadableTileSurface Structs TileSurface"
   },
+  "api/CatchIo.Runtime.Environment.HurtBoxes.html": {
+    "href": "api/CatchIo.Runtime.Environment.HurtBoxes.html",
+    "title": "Namespace CatchIo.Runtime.Environment.HurtBoxes | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Environment.HurtBoxes Classes SilhouetteHurtBox"
+  },
+  "api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html": {
+    "href": "api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html",
+    "title": "Class SilhouetteHurtBox | Catch.io Developer Reference",
+    "keywords": "Class SilhouetteHurtBox Inheritance System.Object SilhouetteHurtBox Implements IHasSilhouetteMask Namespace : CatchIo.Runtime.Environment.HurtBoxes Assembly : cs.temp.dll.dll Syntax public sealed class SilhouetteHurtBox : HurtBox Properties ViewID Declaration public override int ViewID { get; } Property Value Type Description System.Int32 Methods CanInteract(HitBox) Declaration public override bool CanInteract(HitBox hitBox) Parameters Type Name Description HitBox hitBox Returns Type Description System.Boolean DisableSilhouette(Vector2) Declaration public void DisableSilhouette(Vector2 position) Parameters Type Name Description Vector2 position EnableSilhouette(Vector2) Declaration public void EnableSilhouette(Vector2 position) Parameters Type Name Description Vector2 position GetHurtBoxPosition() Declaration public override Vector2 GetHurtBoxPosition() Returns Type Description Vector2 Events OnSilhouetteStateChanged Declaration public event Action<bool, Vector2> OnSilhouetteStateChanged Event Type Type Description System.Action < System.Boolean , Vector2 > Implements IHasSilhouetteMask"
+  },
   "api/CatchIo.Runtime.Environment.Interactable.html": {
     "href": "api/CatchIo.Runtime.Environment.Interactable.html",
     "title": "Namespace CatchIo.Runtime.Environment.Interactable | Catch.io Developer Reference",
@@ -1204,10 +1229,40 @@
     "title": "Class SignPost | Catch.io Developer Reference",
     "keywords": "Class SignPost Inheritance System.Object InteractableObject SignPost Inherited Members InteractableObject.OnInteractionPerformed() InteractableObject.RPC_OnInteraction() InteractableObject.OnMoveIntoTrigger(Int32) InteractableObject.RPC_OnTriggerIn(Int32) InteractableObject.OnTriggerIn(Int32) InteractableObject.OnMoveOutOfTrigger(Int32) InteractableObject.RPC_OnTriggerOut(Int32) Namespace : CatchIo.Runtime.Environment.Interactable Assembly : cs.temp.dll.dll Syntax public class SignPost : InteractableObject Fields Description Declaration public string Description Field Value Type Description System.String FootNote Declaration public string FootNote Field Value Type Description System.String OnSignPostActive Declaration public Action<string, string, string> OnSignPostActive Field Value Type Description System.Action < System.String , System.String , System.String > OnSignPostDeactivate Declaration public Action OnSignPostDeactivate Field Value Type Description System.Action Title Declaration public string Title Field Value Type Description System.String Methods OnInteraction() Declaration protected override void OnInteraction() Overrides InteractableObject.OnInteraction() OnTriggerOut(Int32) Declaration protected override void OnTriggerOut(int characterViewId) Parameters Type Name Description System.Int32 characterViewId Overrides InteractableObject.OnTriggerOut(Int32)"
   },
+  "api/CatchIo.Runtime.Environment.Props.html": {
+    "href": "api/CatchIo.Runtime.Environment.Props.html",
+    "title": "Namespace CatchIo.Runtime.Environment.Props | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Environment.Props Classes Prop SilhouetteProp"
+  },
+  "api/CatchIo.Runtime.Environment.Props.Prop.html": {
+    "href": "api/CatchIo.Runtime.Environment.Props.Prop.html",
+    "title": "Class Prop | Catch.io Developer Reference",
+    "keywords": "Class Prop Inheritance System.Object Prop SilhouetteProp Namespace : CatchIo.Runtime.Environment.Props Assembly : cs.temp.dll.dll Syntax public class Prop : MonoBehaviour Fields _spriteRenderer Declaration protected SpriteRenderer _spriteRenderer Field Value Type Description SpriteRenderer Methods Awake() Declaration protected virtual void Awake()"
+  },
+  "api/CatchIo.Runtime.Environment.Props.SilhouetteProp.html": {
+    "href": "api/CatchIo.Runtime.Environment.Props.SilhouetteProp.html",
+    "title": "Class SilhouetteProp | Catch.io Developer Reference",
+    "keywords": "Class SilhouetteProp Inheritance System.Object Prop SilhouetteProp Inherited Members Prop._spriteRenderer Namespace : CatchIo.Runtime.Environment.Props Assembly : cs.temp.dll.dll Syntax public class SilhouetteProp : Prop Methods Awake() Declaration protected override void Awake() Overrides Prop.Awake()"
+  },
   "api/CatchIo.Runtime.Environment.ReadableTileSurface.html": {
     "href": "api/CatchIo.Runtime.Environment.ReadableTileSurface.html",
     "title": "Class ReadableTileSurface | Catch.io Developer Reference",
     "keywords": "Class ReadableTileSurface Inheritance System.Object ReadableTileSurface Namespace : CatchIo.Runtime.Environment Assembly : cs.temp.dll.dll Syntax public class ReadableTileSurface : MonoBehaviour Properties SortingOrder Declaration public int SortingOrder { get; } Property Value Type Description System.Int32 Methods GetSurfaceData(Vector2) Declaration public TileSurface? GetSurfaceData(Vector2 pos) Parameters Type Name Description Vector2 pos Returns Type Description System.Nullable < TileSurface > SetSurfaceData(TileSurface) Declaration public void SetSurfaceData(TileSurface tileSurface) Parameters Type Name Description TileSurface tileSurface"
+  },
+  "api/CatchIo.Runtime.Environment.Tilemaps.html": {
+    "href": "api/CatchIo.Runtime.Environment.Tilemaps.html",
+    "title": "Namespace CatchIo.Runtime.Environment.Tilemaps | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Environment.Tilemaps Classes TilemapMask TilemapMaskController"
+  },
+  "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html": {
+    "href": "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html",
+    "title": "Class TilemapMask | Catch.io Developer Reference",
+    "keywords": "Class TilemapMask Inheritance System.Object TilemapMask Namespace : CatchIo.Runtime.Environment.Tilemaps Assembly : cs.temp.dll.dll Syntax [Serializable] public sealed class TilemapMask : MonoBehaviour Properties CellPosition Declaration public Vector2Int CellPosition { get; } Property Value Type Description Vector2Int Methods Disable() Declaration public void Disable() Enable() Declaration public void Enable() SetCellPosition(Vector3Int) Declaration public void SetCellPosition(Vector3Int cellPosition) Parameters Type Name Description Vector3Int cellPosition"
+  },
+  "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController.html": {
+    "href": "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController.html",
+    "title": "Class TilemapMaskController | Catch.io Developer Reference",
+    "keywords": "Class TilemapMaskController Inheritance System.Object TilemapMaskController Namespace : CatchIo.Runtime.Environment.Tilemaps Assembly : cs.temp.dll.dll Syntax public sealed class TilemapMaskController : MonoBehaviour"
   },
   "api/CatchIo.Runtime.Environment.TileSurface.html": {
     "href": "api/CatchIo.Runtime.Environment.TileSurface.html",
@@ -1217,7 +1272,7 @@
   "api/CatchIo.Runtime.Interfaces.html": {
     "href": "api/CatchIo.Runtime.Interfaces.html",
     "title": "Namespace CatchIo.Runtime.Interfaces | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Interfaces Interfaces ICharacterDetectable Interface for character detecting, providing methods for handling detection and missing events. Each character implementing this interface has a unique ViewID for identification in networked environment. IDamageInterceptable IDetectable IEffectPlayable Interface inherited by objects that contains a playable effect. IEntityMarkBlockable IEntityScoutingMarkable Defines an interface for entities that can be marked as part of the scouting system. Entities implementing this interface support being marked and provide positional data. IHUDDisplayable Defines an interface for entities that support HUD display functionality. Entities implementing this interface can provide HUD positioning and toggle visibility. IItemImpact Interface for defining impact effects that can be applied to a target or at a specific position. Implementing classes can specify different types of effects such as damage, buffs, or summoning. IItemImpactable Interface for objects that can receive impact effects, such as damage or status effects, from items. Defines events and methods for managing impacts, allowing for interaction with IItemImpact . IMarkingEntity IPositionProvider Provides an interface for objects that can supply positional information. ISceneMode ISoundDetectable ISurfaceObservable"
+    "keywords": "Namespace CatchIo.Runtime.Interfaces Interfaces ICharacterDetectable Interface for character detecting, providing methods for handling detection and missing events. Each character implementing this interface has a unique ViewID for identification in networked environment. IDamageInterceptable IDetectable IEffectPlayable Interface inherited by objects that contains a playable effect. IEntityMarkBlockable IEntityScoutingMarkable Defines an interface for entities that can be marked as part of the scouting system. Entities implementing this interface support being marked and provide positional data. IHasSilhouetteMask IHUDDisplayable Defines an interface for entities that support HUD display functionality. Entities implementing this interface can provide HUD positioning and toggle visibility. IItemImpact Interface for defining impact effects that can be applied to a target or at a specific position. Implementing classes can specify different types of effects such as damage, buffs, or summoning. IItemImpactable Interface for objects that can receive impact effects, such as damage or status effects, from items. Defines events and methods for managing impacts, allowing for interaction with IItemImpact . IMarkingEntity IPositionProvider Provides an interface for objects that can supply positional information. ISceneMode ISoundDetectable ISurfaceObservable"
   },
   "api/CatchIo.Runtime.Interfaces.ICharacterDetectable.html": {
     "href": "api/CatchIo.Runtime.Interfaces.ICharacterDetectable.html",
@@ -1248,6 +1303,11 @@
     "href": "api/CatchIo.Runtime.Interfaces.IEntityScoutingMarkable.html",
     "title": "Interface IEntityScoutingMarkable | Catch.io Developer Reference",
     "keywords": "Interface IEntityScoutingMarkable Defines an interface for entities that can be marked as part of the scouting system. Entities implementing this interface support being marked and provide positional data. Namespace : CatchIo.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IEntityScoutingMarkable Properties ViewID Gets the unique ViewID of the entity, typically used for network identification. Declaration int ViewID { get; } Property Value Type Description System.Int32 Methods GetHurtBoxPosition() Gets the position of the entity in world coordinates. Declaration Vector2 GetHurtBoxPosition() Returns Type Description Vector2 The position of the entity as a . Mark(Int32, String) Marks the entity with the specified sound effect. Declaration void Mark(int markerViewID, string markSFX) Parameters Type Name Description System.Int32 markerViewID The PhotonView ID of the entity performing the marking. System.String markSFX The sound effect to play when the entity is marked. Events OnDestroyed Event triggered when the entity is destroyed. Declaration event Action<int> OnDestroyed Event Type Type Description System.Action < System.Int32 >"
+  },
+  "api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html": {
+    "href": "api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html",
+    "title": "Interface IHasSilhouetteMask | Catch.io Developer Reference",
+    "keywords": "Interface IHasSilhouetteMask Namespace : CatchIo.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IHasSilhouetteMask Methods DisableSilhouette(Vector2) Declaration void DisableSilhouette(Vector2 position) Parameters Type Name Description Vector2 position EnableSilhouette(Vector2) Declaration void EnableSilhouette(Vector2 position) Parameters Type Name Description Vector2 position"
   },
   "api/CatchIo.Runtime.Interfaces.IHUDDisplayable.html": {
     "href": "api/CatchIo.Runtime.Interfaces.IHUDDisplayable.html",

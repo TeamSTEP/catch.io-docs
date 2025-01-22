@@ -8700,6 +8700,23 @@ references:
   fullName.vb: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor(Of T)
   nameWithType: HitBoxEventProcessor<T>
   nameWithType.vb: HitBoxEventProcessor(Of T)
+- uid: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.DetectedHurtBoxCount
+  name: DetectedHurtBoxCount
+  href: api/CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor-1.html#CatchIo_Runtime_Combat_HitBoxes_HitBoxEventProcessor_1_DetectedHurtBoxCount
+  commentId: P:CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.DetectedHurtBoxCount
+  fullName: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor<T>.DetectedHurtBoxCount
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor(Of T).DetectedHurtBoxCount
+  nameWithType: HitBoxEventProcessor<T>.DetectedHurtBoxCount
+  nameWithType.vb: HitBoxEventProcessor(Of T).DetectedHurtBoxCount
+- uid: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.DetectedHurtBoxCount*
+  name: DetectedHurtBoxCount
+  href: api/CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor-1.html#CatchIo_Runtime_Combat_HitBoxes_HitBoxEventProcessor_1_DetectedHurtBoxCount_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.DetectedHurtBoxCount
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor<T>.DetectedHurtBoxCount
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor(Of T).DetectedHurtBoxCount
+  nameWithType: HitBoxEventProcessor<T>.DetectedHurtBoxCount
+  nameWithType.vb: HitBoxEventProcessor(Of T).DetectedHurtBoxCount
 - uid: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.HurtBoxEntered
   name: HurtBoxEntered
   href: api/CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor-1.html#CatchIo_Runtime_Combat_HitBoxes_HitBoxEventProcessor_1_HurtBoxEntered
@@ -10182,6 +10199,24 @@ references:
   commentId: N:CatchIo.Runtime.Entities
   fullName: CatchIo.Runtime.Entities
   nameWithType: CatchIo.Runtime.Entities
+- uid: CatchIo.Runtime.Entities.Detectors
+  name: CatchIo.Runtime.Entities.Detectors
+  href: api/CatchIo.Runtime.Entities.Detectors.html
+  commentId: N:CatchIo.Runtime.Entities.Detectors
+  fullName: CatchIo.Runtime.Entities.Detectors
+  nameWithType: CatchIo.Runtime.Entities.Detectors
+- uid: CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector
+  name: EntitySilhouetteDetector
+  href: api/CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.html
+  commentId: T:CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector
+  fullName: CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector
+  nameWithType: EntitySilhouetteDetector
+- uid: CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.OnDetectedStateChanged
+  name: OnDetectedStateChanged
+  href: api/CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.html#CatchIo_Runtime_Entities_Detectors_EntitySilhouetteDetector_OnDetectedStateChanged
+  commentId: E:CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.OnDetectedStateChanged
+  fullName: CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.OnDetectedStateChanged
+  nameWithType: EntitySilhouetteDetector.OnDetectedStateChanged
 - uid: CatchIo.Runtime.Entities.Detectors.SoundWave
   name: CatchIo.Runtime.Entities.Detectors.SoundWave
   href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.html
@@ -10441,6 +10476,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Graphics.EntitySettingItemRenderer.SyncDisplayItem
   nameWithType: EntitySettingItemRenderer.SyncDisplayItem
+- uid: CatchIo.Runtime.Entities.Graphics.EntitySilhouetteRenderer
+  name: EntitySilhouetteRenderer
+  href: api/CatchIo.Runtime.Entities.Graphics.EntitySilhouetteRenderer.html
+  commentId: T:CatchIo.Runtime.Entities.Graphics.EntitySilhouetteRenderer
+  fullName: CatchIo.Runtime.Entities.Graphics.EntitySilhouetteRenderer
+  nameWithType: EntitySilhouetteRenderer
 - uid: CatchIo.Runtime.Entities.HurtBoxes
   name: CatchIo.Runtime.Entities.HurtBoxes
   href: api/CatchIo.Runtime.Entities.HurtBoxes.html
@@ -12269,6 +12310,89 @@ references:
   commentId: T:CatchIo.Runtime.Environment.HidingSpotLightCollider
   fullName: CatchIo.Runtime.Environment.HidingSpotLightCollider
   nameWithType: HidingSpotLightCollider
+- uid: CatchIo.Runtime.Environment.HurtBoxes
+  name: CatchIo.Runtime.Environment.HurtBoxes
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.html
+  commentId: N:CatchIo.Runtime.Environment.HurtBoxes
+  fullName: CatchIo.Runtime.Environment.HurtBoxes
+  nameWithType: CatchIo.Runtime.Environment.HurtBoxes
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox
+  name: SilhouetteHurtBox
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html
+  commentId: T:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox
+  nameWithType: SilhouetteHurtBox
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.CanInteract(HitBox)
+  name: CanInteract(HitBox)
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_CanInteract_HitBox_
+  commentId: M:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.CanInteract(HitBox)
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.CanInteract(HitBox)
+  nameWithType: SilhouetteHurtBox.CanInteract(HitBox)
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.CanInteract*
+  name: CanInteract
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_CanInteract_
+  commentId: Overload:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.CanInteract
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.CanInteract
+  nameWithType: SilhouetteHurtBox.CanInteract
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.DisableSilhouette(Vector2)
+  name: DisableSilhouette(Vector2)
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_DisableSilhouette_Vector2_
+  commentId: M:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.DisableSilhouette(Vector2)
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.DisableSilhouette(Vector2)
+  nameWithType: SilhouetteHurtBox.DisableSilhouette(Vector2)
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.DisableSilhouette*
+  name: DisableSilhouette
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_DisableSilhouette_
+  commentId: Overload:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.DisableSilhouette
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.DisableSilhouette
+  nameWithType: SilhouetteHurtBox.DisableSilhouette
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.EnableSilhouette(Vector2)
+  name: EnableSilhouette(Vector2)
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_EnableSilhouette_Vector2_
+  commentId: M:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.EnableSilhouette(Vector2)
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.EnableSilhouette(Vector2)
+  nameWithType: SilhouetteHurtBox.EnableSilhouette(Vector2)
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.EnableSilhouette*
+  name: EnableSilhouette
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_EnableSilhouette_
+  commentId: Overload:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.EnableSilhouette
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.EnableSilhouette
+  nameWithType: SilhouetteHurtBox.EnableSilhouette
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.GetHurtBoxPosition
+  name: GetHurtBoxPosition()
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_GetHurtBoxPosition
+  commentId: M:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.GetHurtBoxPosition
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.GetHurtBoxPosition()
+  nameWithType: SilhouetteHurtBox.GetHurtBoxPosition()
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.GetHurtBoxPosition*
+  name: GetHurtBoxPosition
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_GetHurtBoxPosition_
+  commentId: Overload:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.GetHurtBoxPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.GetHurtBoxPosition
+  nameWithType: SilhouetteHurtBox.GetHurtBoxPosition
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.OnSilhouetteStateChanged
+  name: OnSilhouetteStateChanged
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_OnSilhouetteStateChanged
+  commentId: E:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.OnSilhouetteStateChanged
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.OnSilhouetteStateChanged
+  nameWithType: SilhouetteHurtBox.OnSilhouetteStateChanged
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.ViewID
+  name: ViewID
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_ViewID
+  commentId: P:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.ViewID
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.ViewID
+  nameWithType: SilhouetteHurtBox.ViewID
+- uid: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.ViewID*
+  name: ViewID
+  href: api/CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.html#CatchIo_Runtime_Environment_HurtBoxes_SilhouetteHurtBox_ViewID_
+  commentId: Overload:CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.ViewID
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.HurtBoxes.SilhouetteHurtBox.ViewID
+  nameWithType: SilhouetteHurtBox.ViewID
 - uid: CatchIo.Runtime.Environment.Interactable
   name: CatchIo.Runtime.Environment.Interactable
   href: api/CatchIo.Runtime.Environment.Interactable.html
@@ -12576,6 +12700,56 @@ references:
   commentId: F:CatchIo.Runtime.Environment.Interactable.SignPost.Title
   fullName: CatchIo.Runtime.Environment.Interactable.SignPost.Title
   nameWithType: SignPost.Title
+- uid: CatchIo.Runtime.Environment.Props
+  name: CatchIo.Runtime.Environment.Props
+  href: api/CatchIo.Runtime.Environment.Props.html
+  commentId: N:CatchIo.Runtime.Environment.Props
+  fullName: CatchIo.Runtime.Environment.Props
+  nameWithType: CatchIo.Runtime.Environment.Props
+- uid: CatchIo.Runtime.Environment.Props.Prop
+  name: Prop
+  href: api/CatchIo.Runtime.Environment.Props.Prop.html
+  commentId: T:CatchIo.Runtime.Environment.Props.Prop
+  fullName: CatchIo.Runtime.Environment.Props.Prop
+  nameWithType: Prop
+- uid: CatchIo.Runtime.Environment.Props.Prop._spriteRenderer
+  name: _spriteRenderer
+  href: api/CatchIo.Runtime.Environment.Props.Prop.html#CatchIo_Runtime_Environment_Props_Prop__spriteRenderer
+  commentId: F:CatchIo.Runtime.Environment.Props.Prop._spriteRenderer
+  fullName: CatchIo.Runtime.Environment.Props.Prop._spriteRenderer
+  nameWithType: Prop._spriteRenderer
+- uid: CatchIo.Runtime.Environment.Props.Prop.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Environment.Props.Prop.html#CatchIo_Runtime_Environment_Props_Prop_Awake
+  commentId: M:CatchIo.Runtime.Environment.Props.Prop.Awake
+  fullName: CatchIo.Runtime.Environment.Props.Prop.Awake()
+  nameWithType: Prop.Awake()
+- uid: CatchIo.Runtime.Environment.Props.Prop.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Environment.Props.Prop.html#CatchIo_Runtime_Environment_Props_Prop_Awake_
+  commentId: Overload:CatchIo.Runtime.Environment.Props.Prop.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Props.Prop.Awake
+  nameWithType: Prop.Awake
+- uid: CatchIo.Runtime.Environment.Props.SilhouetteProp
+  name: SilhouetteProp
+  href: api/CatchIo.Runtime.Environment.Props.SilhouetteProp.html
+  commentId: T:CatchIo.Runtime.Environment.Props.SilhouetteProp
+  fullName: CatchIo.Runtime.Environment.Props.SilhouetteProp
+  nameWithType: SilhouetteProp
+- uid: CatchIo.Runtime.Environment.Props.SilhouetteProp.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Environment.Props.SilhouetteProp.html#CatchIo_Runtime_Environment_Props_SilhouetteProp_Awake
+  commentId: M:CatchIo.Runtime.Environment.Props.SilhouetteProp.Awake
+  fullName: CatchIo.Runtime.Environment.Props.SilhouetteProp.Awake()
+  nameWithType: SilhouetteProp.Awake()
+- uid: CatchIo.Runtime.Environment.Props.SilhouetteProp.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Environment.Props.SilhouetteProp.html#CatchIo_Runtime_Environment_Props_SilhouetteProp_Awake_
+  commentId: Overload:CatchIo.Runtime.Environment.Props.SilhouetteProp.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Props.SilhouetteProp.Awake
+  nameWithType: SilhouetteProp.Awake
 - uid: CatchIo.Runtime.Environment.ReadableTileSurface
   name: ReadableTileSurface
   href: api/CatchIo.Runtime.Environment.ReadableTileSurface.html
@@ -12621,6 +12795,76 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Environment.ReadableTileSurface.SortingOrder
   nameWithType: ReadableTileSurface.SortingOrder
+- uid: CatchIo.Runtime.Environment.Tilemaps
+  name: CatchIo.Runtime.Environment.Tilemaps
+  href: api/CatchIo.Runtime.Environment.Tilemaps.html
+  commentId: N:CatchIo.Runtime.Environment.Tilemaps
+  fullName: CatchIo.Runtime.Environment.Tilemaps
+  nameWithType: CatchIo.Runtime.Environment.Tilemaps
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask
+  name: TilemapMask
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html
+  commentId: T:CatchIo.Runtime.Environment.Tilemaps.TilemapMask
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask
+  nameWithType: TilemapMask
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.CellPosition
+  name: CellPosition
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_CellPosition
+  commentId: P:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.CellPosition
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.CellPosition
+  nameWithType: TilemapMask.CellPosition
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.CellPosition*
+  name: CellPosition
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_CellPosition_
+  commentId: Overload:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.CellPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.CellPosition
+  nameWithType: TilemapMask.CellPosition
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Disable
+  name: Disable()
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_Disable
+  commentId: M:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Disable
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Disable()
+  nameWithType: TilemapMask.Disable()
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Disable*
+  name: Disable
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_Disable_
+  commentId: Overload:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Disable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Disable
+  nameWithType: TilemapMask.Disable
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Enable
+  name: Enable()
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_Enable
+  commentId: M:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Enable
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Enable()
+  nameWithType: TilemapMask.Enable()
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Enable*
+  name: Enable
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_Enable_
+  commentId: Overload:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Enable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.Enable
+  nameWithType: TilemapMask.Enable
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.SetCellPosition(Vector3Int)
+  name: SetCellPosition(Vector3Int)
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_SetCellPosition_Vector3Int_
+  commentId: M:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.SetCellPosition(Vector3Int)
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.SetCellPosition(Vector3Int)
+  nameWithType: TilemapMask.SetCellPosition(Vector3Int)
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.SetCellPosition*
+  name: SetCellPosition
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html#CatchIo_Runtime_Environment_Tilemaps_TilemapMask_SetCellPosition_
+  commentId: Overload:CatchIo.Runtime.Environment.Tilemaps.TilemapMask.SetCellPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMask.SetCellPosition
+  nameWithType: TilemapMask.SetCellPosition
+- uid: CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController
+  name: TilemapMaskController
+  href: api/CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController.html
+  commentId: T:CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController
+  fullName: CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController
+  nameWithType: TilemapMaskController
 - uid: CatchIo.Runtime.Environment.TileSurface
   name: TileSurface
   href: api/CatchIo.Runtime.Environment.TileSurface.html
@@ -12930,6 +13174,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IEntityScoutingMarkable.ViewID
   nameWithType: IEntityScoutingMarkable.ViewID
+- uid: CatchIo.Runtime.Interfaces.IHasSilhouetteMask
+  name: IHasSilhouetteMask
+  href: api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html
+  commentId: T:CatchIo.Runtime.Interfaces.IHasSilhouetteMask
+  fullName: CatchIo.Runtime.Interfaces.IHasSilhouetteMask
+  nameWithType: IHasSilhouetteMask
+- uid: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.DisableSilhouette(Vector2)
+  name: DisableSilhouette(Vector2)
+  href: api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html#CatchIo_Runtime_Interfaces_IHasSilhouetteMask_DisableSilhouette_Vector2_
+  commentId: M:CatchIo.Runtime.Interfaces.IHasSilhouetteMask.DisableSilhouette(Vector2)
+  fullName: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.DisableSilhouette(Vector2)
+  nameWithType: IHasSilhouetteMask.DisableSilhouette(Vector2)
+- uid: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.DisableSilhouette*
+  name: DisableSilhouette
+  href: api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html#CatchIo_Runtime_Interfaces_IHasSilhouetteMask_DisableSilhouette_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IHasSilhouetteMask.DisableSilhouette
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.DisableSilhouette
+  nameWithType: IHasSilhouetteMask.DisableSilhouette
+- uid: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.EnableSilhouette(Vector2)
+  name: EnableSilhouette(Vector2)
+  href: api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html#CatchIo_Runtime_Interfaces_IHasSilhouetteMask_EnableSilhouette_Vector2_
+  commentId: M:CatchIo.Runtime.Interfaces.IHasSilhouetteMask.EnableSilhouette(Vector2)
+  fullName: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.EnableSilhouette(Vector2)
+  nameWithType: IHasSilhouetteMask.EnableSilhouette(Vector2)
+- uid: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.EnableSilhouette*
+  name: EnableSilhouette
+  href: api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html#CatchIo_Runtime_Interfaces_IHasSilhouetteMask_EnableSilhouette_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IHasSilhouetteMask.EnableSilhouette
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IHasSilhouetteMask.EnableSilhouette
+  nameWithType: IHasSilhouetteMask.EnableSilhouette
 - uid: CatchIo.Runtime.Interfaces.IHUDDisplayable
   name: IHUDDisplayable
   href: api/CatchIo.Runtime.Interfaces.IHUDDisplayable.html
