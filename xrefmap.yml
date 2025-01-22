@@ -3051,6 +3051,12 @@ references:
   commentId: N:CatchIo.Runtime.Character.Detector
   fullName: CatchIo.Runtime.Character.Detector
   nameWithType: CatchIo.Runtime.Character.Detector
+- uid: CatchIo.Runtime.Character.Detector.BlendInDetector
+  name: BlendInDetector
+  href: api/CatchIo.Runtime.Character.Detector.BlendInDetector.html
+  commentId: T:CatchIo.Runtime.Character.Detector.BlendInDetector
+  fullName: CatchIo.Runtime.Character.Detector.BlendInDetector
+  nameWithType: BlendInDetector
 - uid: CatchIo.Runtime.Character.Detector.CharacterDetector
   name: CharacterDetector
   href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html
@@ -5249,6 +5255,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Graphics.CharacterRenderer.GetSpritePivotY
   nameWithType: CharacterRenderer.GetSpritePivotY
+- uid: CatchIo.Runtime.Character.Graphics.CharacterRenderer.SetAlphaValue(System.Single)
+  name: SetAlphaValue(Single)
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterRenderer.html#CatchIo_Runtime_Character_Graphics_CharacterRenderer_SetAlphaValue_System_Single_
+  commentId: M:CatchIo.Runtime.Character.Graphics.CharacterRenderer.SetAlphaValue(System.Single)
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterRenderer.SetAlphaValue(System.Single)
+  nameWithType: CharacterRenderer.SetAlphaValue(Single)
+- uid: CatchIo.Runtime.Character.Graphics.CharacterRenderer.SetAlphaValue*
+  name: SetAlphaValue
+  href: api/CatchIo.Runtime.Character.Graphics.CharacterRenderer.html#CatchIo_Runtime_Character_Graphics_CharacterRenderer_SetAlphaValue_
+  commentId: Overload:CatchIo.Runtime.Character.Graphics.CharacterRenderer.SetAlphaValue
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Graphics.CharacterRenderer.SetAlphaValue
+  nameWithType: CharacterRenderer.SetAlphaValue
 - uid: CatchIo.Runtime.Character.Graphics.CharacterRenderer.SetFloat(System.Int32,System.Single)
   name: SetFloat(Int32, Single)
   href: api/CatchIo.Runtime.Character.Graphics.CharacterRenderer.html#CatchIo_Runtime_Character_Graphics_CharacterRenderer_SetFloat_System_Int32_System_Single_
@@ -15732,51 +15751,6 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.KillCountHUD
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.KillCountHUD
   nameWithType: KillCountHUD
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator
-  name: LightingIndicator
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html
-  commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator
-  nameWithType: LightingIndicator
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
-  name: Awake()
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Awake
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake()
-  nameWithType: LightingIndicator.Awake()
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake*
-  name: Awake
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Awake_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Awake
-  nameWithType: LightingIndicator.Awake
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
-  name: Enable()
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Enable
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable()
-  nameWithType: LightingIndicator.Enable()
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable*
-  name: Enable
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_Enable_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.Enable
-  nameWithType: LightingIndicator.Enable
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.OnLightSourceDetect(System.Boolean)
-  name: OnLightSourceDetect(Boolean)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_OnLightSourceDetect_System_Boolean_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.OnLightSourceDetect(System.Boolean)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.OnLightSourceDetect(System.Boolean)
-  nameWithType: LightingIndicator.OnLightSourceDetect(Boolean)
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.OnLightSourceDetect*
-  name: OnLightSourceDetect
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_LightingIndicator_OnLightSourceDetect_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.OnLightSourceDetect
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.LightingIndicator.OnLightSourceDetect
-  nameWithType: LightingIndicator.OnLightSourceDetect
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.ScoutingArrow
   name: ScoutingArrow
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.ScoutingArrow.html
@@ -19645,6 +19619,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ApplyingForce
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ApplyingForce
   nameWithType: CharacterStatus.ApplyingForce
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BlendInAlpha
+  name: BlendInAlpha
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_BlendInAlpha
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BlendInAlpha
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BlendInAlpha
+  nameWithType: CharacterStatus.BlendInAlpha
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRecoverStamina(System.Single)
   name: CanRecoverStamina(Single)
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRecoverStamina_System_Single_
@@ -19909,6 +19889,19 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsAiming
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsAiming
   nameWithType: CharacterStatus.IsAiming
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsBlendingInWithNPC
+  name: IsBlendingInWithNPC
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsBlendingInWithNPC
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsBlendingInWithNPC
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsBlendingInWithNPC
+  nameWithType: CharacterStatus.IsBlendingInWithNPC
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsBlendingInWithNPC*
+  name: IsBlendingInWithNPC
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsBlendingInWithNPC_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsBlendingInWithNPC
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsBlendingInWithNPC
+  nameWithType: CharacterStatus.IsBlendingInWithNPC
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsCursed
   name: IsCursed
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsCursed
@@ -20032,6 +20025,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsStunned
   nameWithType: CharacterStatus.IsStunned
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed
+  name: IsTransmorphed
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsTransmorphed
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed
+  nameWithType: CharacterStatus.IsTransmorphed
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed*
+  name: IsTransmorphed
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsTransmorphed_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed
+  nameWithType: CharacterStatus.IsTransmorphed
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.LightAttackArea
   name: LightAttackArea
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_LightAttackArea
@@ -20137,6 +20143,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NormalizedViewVector
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NormalizedViewVector
   nameWithType: CharacterStatus.NormalizedViewVector
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NPCCountToBlending
+  name: NPCCountToBlending
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_NPCCountToBlending
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NPCCountToBlending
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NPCCountToBlending
+  nameWithType: CharacterStatus.NPCCountToBlending
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ObserveSpeed
   name: ObserveSpeed
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_ObserveSpeed
@@ -20149,6 +20161,12 @@ references:
   commentId: E:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnActionTypeChanged
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnActionTypeChanged
   nameWithType: CharacterStatus.OnActionTypeChanged
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnBlendingInStatusChanged
+  name: OnBlendingInStatusChanged
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnBlendingInStatusChanged
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnBlendingInStatusChanged
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnBlendingInStatusChanged
+  nameWithType: CharacterStatus.OnBlendingInStatusChanged
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnCursedChange
   name: OnCursedChange
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnCursedChange
