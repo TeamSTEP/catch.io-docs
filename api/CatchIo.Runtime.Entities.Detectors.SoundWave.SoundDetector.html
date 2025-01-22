@@ -149,12 +149,13 @@
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnFootprintSoundDetected" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnFootprintSoundDetected">OnFootprintSoundDetected</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnSoundWaveDetected" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnSoundWaveDetected">OnSoundWaveDetected</h4>
+  <div class="markdown level1 summary"><p>Send sound wave detection event with distance, direction and category and maximum range of the current detection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;Vector3, Vector3&gt; OnFootprintSoundDetected</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;Vector3, Vector3, SoundWaveDistanceCategory, int&gt; OnSoundWaveDetected</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,7 +167,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Vector3</span>, <span class="xref">Vector3</span>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Vector3</span>, <span class="xref">Vector3</span>, <span class="xref">SoundWaveDistanceCategory</span>, <span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

@@ -700,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.CharacterFacade.html",
-          "hash": "ZgckT+/5aWi40W8t0PrrGRkwgElp1qn8/v8kfpn8ycM="
+          "hash": "YA+Cb6m91yM3xAniQnZ66M/CCkMJc9k9pVofO5zXIRU="
         }
       },
       "is_incremental": false,
@@ -1552,7 +1552,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Character.NetworkCharacter.html",
-          "hash": "f+d9zZBMTh3EJUeaH+XJ0F9WwbOOrxqnJbb3Ru6Iz7k="
+          "hash": "JuowhGxUarfi3sTsj1pKPwjTQ+++uv9bIJ6ROlzXarY="
         }
       },
       "is_incremental": false,
@@ -2332,7 +2332,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html",
-          "hash": "DPdGWIkx0u2/eoWWQaSYHSZJ2kUMD6cj8ZgSNNYzg/I="
+          "hash": "dfPdS50tz57x164Jm3xhSqPk+gBBbOG7uHtNQA34rao="
         }
       },
       "is_incremental": false,
@@ -2344,7 +2344,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html",
-          "hash": "5NDwuNCss2BZSHFO4N2CT1+e7KKyylhPgx7JKY+Ghk0="
+          "hash": "hAEmXz63SLXOS8GNW4sPT9iTGV3jNtBxIP06qp7CaI0="
         }
       },
       "is_incremental": false,
@@ -2808,11 +2808,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Enums.SoundWaveDistanceCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Enums.SoundWaveDistanceCategory.html",
+          "hash": "2htAI6jjXGBKZj+fFaslvcU6b8LJkHWyMVXOsAvRjZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Enums.SoundWaveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Enums.SoundWaveType.html",
+          "hash": "Gq637+FTKdepNwjA+StFS3s2Nl6UWpBZkUWFL3uOHV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Enums.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Enums.html",
-          "hash": "PdJ5qdOioZduG2uCdpvPA5IpHJdF8WF9n15cOXxc67g="
+          "hash": "h/10ob57gSgs4CLWx0t3PJBjfskGn7L4VT2w61hiRQE="
         }
       },
       "is_incremental": false,
@@ -6844,7 +6868,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html",
-          "hash": "1dLYwT1HniWUwjycSJIl6RZnb8l7HBbMQP25PUDjqw0="
+          "hash": "FGtvuoc9x7Sq7Kd7CQQeH5fOdbZPgQruUyKakhc2wyU="
         }
       },
       "is_incremental": false,
@@ -6856,7 +6880,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html",
-          "hash": "s8AN8g06ByOYB4Awca3KN40tLenKWPSXIohXsS20DYQ="
+          "hash": "9LKtCLF1uPLyCF6IswsOQaxL4v5Xt53ZZF6yrEWoAno="
         }
       },
       "is_incremental": false,
@@ -7372,7 +7396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "fhShXVaSr787lUbeFeqW0eeD+ph6o/VStx+0HV0ms+Q="
+          "hash": "aT4Oj5Nvbv34uvt25gzGnR00IYXvDyCyfmufi1gL3oM="
         }
       },
       "is_incremental": false,
@@ -8029,7 +8053,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 612,
+          "total_file_count": 614,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
