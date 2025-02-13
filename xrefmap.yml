@@ -528,6 +528,51 @@ references:
   isSpec: "True"
   fullName: CatchIo.Editor.SignalListenerEditors.BoolSignalListenerEditor.InitializeEditor
   nameWithType: BoolSignalListenerEditor.InitializeEditor
+- uid: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor
+  name: EmptySignalListenerEditor
+  href: api/CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.html
+  commentId: T:CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor
+  fullName: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor
+  nameWithType: EmptySignalListenerEditor
+- uid: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.Compose
+  name: Compose()
+  href: api/CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.html#CatchIo_Editor_SignalListenerEditors_EmptySignalListenerEditor_Compose
+  commentId: M:CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.Compose
+  fullName: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.Compose()
+  nameWithType: EmptySignalListenerEditor.Compose()
+- uid: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.Compose*
+  name: Compose
+  href: api/CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.html#CatchIo_Editor_SignalListenerEditors_EmptySignalListenerEditor_Compose_
+  commentId: Overload:CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.Compose
+  isSpec: "True"
+  fullName: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.Compose
+  nameWithType: EmptySignalListenerEditor.Compose
+- uid: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.FindProperties
+  name: FindProperties()
+  href: api/CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.html#CatchIo_Editor_SignalListenerEditors_EmptySignalListenerEditor_FindProperties
+  commentId: M:CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.FindProperties
+  fullName: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.FindProperties()
+  nameWithType: EmptySignalListenerEditor.FindProperties()
+- uid: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.FindProperties*
+  name: FindProperties
+  href: api/CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.html#CatchIo_Editor_SignalListenerEditors_EmptySignalListenerEditor_FindProperties_
+  commentId: Overload:CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.FindProperties
+  isSpec: "True"
+  fullName: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.FindProperties
+  nameWithType: EmptySignalListenerEditor.FindProperties
+- uid: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.InitializeEditor
+  name: InitializeEditor()
+  href: api/CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.html#CatchIo_Editor_SignalListenerEditors_EmptySignalListenerEditor_InitializeEditor
+  commentId: M:CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.InitializeEditor
+  fullName: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.InitializeEditor()
+  nameWithType: EmptySignalListenerEditor.InitializeEditor()
+- uid: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.InitializeEditor*
+  name: InitializeEditor
+  href: api/CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.html#CatchIo_Editor_SignalListenerEditors_EmptySignalListenerEditor_InitializeEditor_
+  commentId: Overload:CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.InitializeEditor
+  isSpec: "True"
+  fullName: CatchIo.Editor.SignalListenerEditors.EmptySignalListenerEditor.InitializeEditor
+  nameWithType: EmptySignalListenerEditor.InitializeEditor
 - uid: CatchIo.Editor.SignalListenerEditors.FloatSignalListenerEditor
   name: FloatSignalListenerEditor
   href: api/CatchIo.Editor.SignalListenerEditors.FloatSignalListenerEditor.html
@@ -6390,6 +6435,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetLastItemSlot
   nameWithType: Inventory.GetLastItemSlot
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.HasItemOfType*
+  name: HasItemOfType
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_HasItemOfType_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.HasItemOfType
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.HasItemOfType
+  nameWithType: Inventory.HasItemOfType
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.HasItemOfType``1(``0@)
+  name: HasItemOfType<T>(out T)
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_HasItemOfType__1___0__
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.HasItemOfType``1(``0@)
+  name.vb: HasItemOfType(Of T)(ByRef T)
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.HasItemOfType<T>(out T)
+  fullName.vb: CatchIo.Runtime.Character.Inventory.Inventory.HasItemOfType(Of T)(ByRef T)
+  nameWithType: Inventory.HasItemOfType<T>(out T)
+  nameWithType.vb: Inventory.HasItemOfType(Of T)(ByRef T)
 - uid: CatchIo.Runtime.Character.Inventory.Inventory.IsEmpty
   name: IsEmpty()
   href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_IsEmpty
@@ -6526,6 +6587,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.InventoryController.GetSelectedItem
   nameWithType: InventoryController.GetSelectedItem
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.HasItemType*
+  name: HasItemType
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_HasItemType_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.HasItemType
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.HasItemType
+  nameWithType: InventoryController.HasItemType
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.HasItemType``1(``0@)
+  name: HasItemType<T>(out T)
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_HasItemType__1___0__
+  commentId: M:CatchIo.Runtime.Character.Inventory.InventoryController.HasItemType``1(``0@)
+  name.vb: HasItemType(Of T)(ByRef T)
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.HasItemType<T>(out T)
+  fullName.vb: CatchIo.Runtime.Character.Inventory.InventoryController.HasItemType(Of T)(ByRef T)
+  nameWithType: InventoryController.HasItemType<T>(out T)
+  nameWithType.vb: InventoryController.HasItemType(Of T)(ByRef T)
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController.IsEmpty
   name: IsEmpty()
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_IsEmpty
@@ -9790,6 +9867,18 @@ references:
   commentId: F:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapHealth
   fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapHealth
   nameWithType: TrapObjectData.TrapHealth
+- uid: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapPickupDistance
+  name: TrapPickupDistance
+  href: api/CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html#CatchIo_Runtime_DynamicObjects_Data_TrapObjectData_TrapPickupDistance
+  commentId: F:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapPickupDistance
+  fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapPickupDistance
+  nameWithType: TrapObjectData.TrapPickupDistance
+- uid: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapSetupCoolDown
+  name: TrapSetupCoolDown
+  href: api/CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.html#CatchIo_Runtime_DynamicObjects_Data_TrapObjectData_TrapSetupCoolDown
+  commentId: F:CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapSetupCoolDown
+  fullName: CatchIo.Runtime.DynamicObjects.Data.TrapObjectData.TrapSetupCoolDown
+  nameWithType: TrapObjectData.TrapSetupCoolDown
 - uid: CatchIo.Runtime.DynamicObjects.DynamicObject
   name: DynamicObject
   href: api/CatchIo.Runtime.DynamicObjects.DynamicObject.html
@@ -11604,6 +11693,18 @@ references:
   commentId: T:CatchIo.Runtime.Enums.FullScreenEffects
   fullName: CatchIo.Runtime.Enums.FullScreenEffects
   nameWithType: FullScreenEffects
+- uid: CatchIo.Runtime.Enums.FullScreenEffects.DARK_INDICATOR
+  name: DARK_INDICATOR
+  href: api/CatchIo.Runtime.Enums.FullScreenEffects.html#CatchIo_Runtime_Enums_FullScreenEffects_DARK_INDICATOR
+  commentId: F:CatchIo.Runtime.Enums.FullScreenEffects.DARK_INDICATOR
+  fullName: CatchIo.Runtime.Enums.FullScreenEffects.DARK_INDICATOR
+  nameWithType: FullScreenEffects.DARK_INDICATOR
+- uid: CatchIo.Runtime.Enums.FullScreenEffects.LIGHT_INDICATOR
+  name: LIGHT_INDICATOR
+  href: api/CatchIo.Runtime.Enums.FullScreenEffects.html#CatchIo_Runtime_Enums_FullScreenEffects_LIGHT_INDICATOR
+  commentId: F:CatchIo.Runtime.Enums.FullScreenEffects.LIGHT_INDICATOR
+  fullName: CatchIo.Runtime.Enums.FullScreenEffects.LIGHT_INDICATOR
+  nameWithType: FullScreenEffects.LIGHT_INDICATOR
 - uid: CatchIo.Runtime.Enums.FullScreenEffects.LOW_STAMINA
   name: LOW_STAMINA
   href: api/CatchIo.Runtime.Enums.FullScreenEffects.html#CatchIo_Runtime_Enums_FullScreenEffects_LOW_STAMINA
@@ -12060,6 +12161,12 @@ references:
   commentId: F:CatchIo.Runtime.Enums.SoundWaveType.Death
   fullName: CatchIo.Runtime.Enums.SoundWaveType.Death
   nameWithType: SoundWaveType.Death
+- uid: CatchIo.Runtime.Enums.SoundWaveType.Environment
+  name: Environment
+  href: api/CatchIo.Runtime.Enums.SoundWaveType.html#CatchIo_Runtime_Enums_SoundWaveType_Environment
+  commentId: F:CatchIo.Runtime.Enums.SoundWaveType.Environment
+  fullName: CatchIo.Runtime.Enums.SoundWaveType.Environment
+  nameWithType: SoundWaveType.Environment
 - uid: CatchIo.Runtime.Enums.SoundWaveType.FootSteps
   name: FootSteps
   href: api/CatchIo.Runtime.Enums.SoundWaveType.html#CatchIo_Runtime_Enums_SoundWaveType_FootSteps
@@ -12242,6 +12349,12 @@ references:
   commentId: T:CatchIo.Runtime.Environment.EnvironmentSfxEmitter
   fullName: CatchIo.Runtime.Environment.EnvironmentSfxEmitter
   nameWithType: EnvironmentSfxEmitter
+- uid: CatchIo.Runtime.Environment.EnvironmentSoundWaveEmitter
+  name: EnvironmentSoundWaveEmitter
+  href: api/CatchIo.Runtime.Environment.EnvironmentSoundWaveEmitter.html
+  commentId: T:CatchIo.Runtime.Environment.EnvironmentSoundWaveEmitter
+  fullName: CatchIo.Runtime.Environment.EnvironmentSoundWaveEmitter
+  nameWithType: EnvironmentSoundWaveEmitter
 - uid: CatchIo.Runtime.Environment.HidingSpot
   name: HidingSpot
   href: api/CatchIo.Runtime.Environment.HidingSpot.html
@@ -13228,6 +13341,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IEntityScoutingMarkable.ViewID
   nameWithType: IEntityScoutingMarkable.ViewID
+- uid: CatchIo.Runtime.Interfaces.IEntityTrapBlockable
+  name: IEntityTrapBlockable
+  href: api/CatchIo.Runtime.Interfaces.IEntityTrapBlockable.html
+  commentId: T:CatchIo.Runtime.Interfaces.IEntityTrapBlockable
+  fullName: CatchIo.Runtime.Interfaces.IEntityTrapBlockable
+  nameWithType: IEntityTrapBlockable
+- uid: CatchIo.Runtime.Interfaces.IEntityTrapBlockable.TriggerTrapBlock
+  name: TriggerTrapBlock()
+  href: api/CatchIo.Runtime.Interfaces.IEntityTrapBlockable.html#CatchIo_Runtime_Interfaces_IEntityTrapBlockable_TriggerTrapBlock
+  commentId: M:CatchIo.Runtime.Interfaces.IEntityTrapBlockable.TriggerTrapBlock
+  fullName: CatchIo.Runtime.Interfaces.IEntityTrapBlockable.TriggerTrapBlock()
+  nameWithType: IEntityTrapBlockable.TriggerTrapBlock()
+- uid: CatchIo.Runtime.Interfaces.IEntityTrapBlockable.TriggerTrapBlock*
+  name: TriggerTrapBlock
+  href: api/CatchIo.Runtime.Interfaces.IEntityTrapBlockable.html#CatchIo_Runtime_Interfaces_IEntityTrapBlockable_TriggerTrapBlock_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IEntityTrapBlockable.TriggerTrapBlock
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IEntityTrapBlockable.TriggerTrapBlock
+  nameWithType: IEntityTrapBlockable.TriggerTrapBlock
 - uid: CatchIo.Runtime.Interfaces.IHasSilhouetteMask
   name: IHasSilhouetteMask
   href: api/CatchIo.Runtime.Interfaces.IHasSilhouetteMask.html
@@ -14433,6 +14565,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Data.TalismanOfProtectionData.TriggerEffect
   nameWithType: TalismanOfProtectionData.TriggerEffect
+- uid: CatchIo.Runtime.Items.Data.TalismanOfProtectionData.TriggerTrapBlock
+  name: TriggerTrapBlock()
+  href: api/CatchIo.Runtime.Items.Data.TalismanOfProtectionData.html#CatchIo_Runtime_Items_Data_TalismanOfProtectionData_TriggerTrapBlock
+  commentId: M:CatchIo.Runtime.Items.Data.TalismanOfProtectionData.TriggerTrapBlock
+  fullName: CatchIo.Runtime.Items.Data.TalismanOfProtectionData.TriggerTrapBlock()
+  nameWithType: TalismanOfProtectionData.TriggerTrapBlock()
+- uid: CatchIo.Runtime.Items.Data.TalismanOfProtectionData.TriggerTrapBlock*
+  name: TriggerTrapBlock
+  href: api/CatchIo.Runtime.Items.Data.TalismanOfProtectionData.html#CatchIo_Runtime_Items_Data_TalismanOfProtectionData_TriggerTrapBlock_
+  commentId: Overload:CatchIo.Runtime.Items.Data.TalismanOfProtectionData.TriggerTrapBlock
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Data.TalismanOfProtectionData.TriggerTrapBlock
+  nameWithType: TalismanOfProtectionData.TriggerTrapBlock
 - uid: CatchIo.Runtime.Items.Data.TalismanOfProtectionData.UniqueId
   name: UniqueId
   href: api/CatchIo.Runtime.Items.Data.TalismanOfProtectionData.html#CatchIo_Runtime_Items_Data_TalismanOfProtectionData_UniqueId
@@ -15780,6 +15925,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleSpectreOverlay
   nameWithType: HudOverlaysManager.HandleSpectreOverlay
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay
+  name: SetLightingOverlay()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_SetLightingOverlay
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay()
+  nameWithType: HudOverlaysManager.SetLightingOverlay()
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay*
+  name: SetLightingOverlay
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_SetLightingOverlay_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay
+  nameWithType: HudOverlaysManager.SetLightingOverlay
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.KillCountHUD
   name: KillCountHUD
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.KillCountHUD.html
@@ -17583,6 +17741,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Clear
   nameWithType: BasePopup.Clear
+- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
+  name: Hide()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_Hide
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
+  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide()
+  nameWithType: BasePopup.Hide()
+- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide*
+  name: Hide
+  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_Hide_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Hide
+  nameWithType: BasePopup.Hide
 - uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.InstantHide
   name: InstantHide()
   href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_InstantHide
@@ -17635,6 +17806,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnShow
   nameWithType: BasePopup.OnShow
+- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnVisible
+  name: OnVisible()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_OnVisible
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnVisible
+  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnVisible()
+  nameWithType: BasePopup.OnVisible()
+- uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnVisible*
+  name: OnVisible
+  href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_OnVisible_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnVisible
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.BasePopup.OnVisible
+  nameWithType: BasePopup.OnVisible
 - uid: CatchIo.Runtime.Menu.UI.Popup.BasePopup.Show
   name: Show()
   href: api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html#CatchIo_Runtime_Menu_UI_Popup_BasePopup_Show
@@ -18632,12 +18816,12 @@ references:
   commentId: T:CatchIo.Runtime.NPC.Enums.NPCType
   fullName: CatchIo.Runtime.NPC.Enums.NPCType
   nameWithType: NPCType
-- uid: CatchIo.Runtime.NPC.Enums.NPCType.Aurelia
-  name: Aurelia
-  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Aurelia
-  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Aurelia
-  fullName: CatchIo.Runtime.NPC.Enums.NPCType.Aurelia
-  nameWithType: NPCType.Aurelia
+- uid: CatchIo.Runtime.NPC.Enums.NPCType.DesertedSoldier
+  name: DesertedSoldier
+  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_DesertedSoldier
+  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.DesertedSoldier
+  fullName: CatchIo.Runtime.NPC.Enums.NPCType.DesertedSoldier
+  nameWithType: NPCType.DesertedSoldier
 - uid: CatchIo.Runtime.NPC.Enums.NPCType.Druid
   name: Druid
   href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Druid
@@ -18650,48 +18834,30 @@ references:
   commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Dummy
   fullName: CatchIo.Runtime.NPC.Enums.NPCType.Dummy
   nameWithType: NPCType.Dummy
-- uid: CatchIo.Runtime.NPC.Enums.NPCType.Eldorin
-  name: Eldorin
-  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Eldorin
-  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Eldorin
-  fullName: CatchIo.Runtime.NPC.Enums.NPCType.Eldorin
-  nameWithType: NPCType.Eldorin
-- uid: CatchIo.Runtime.NPC.Enums.NPCType.Mossveil
-  name: Mossveil
-  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Mossveil
-  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Mossveil
-  fullName: CatchIo.Runtime.NPC.Enums.NPCType.Mossveil
-  nameWithType: NPCType.Mossveil
-- uid: CatchIo.Runtime.NPC.Enums.NPCType.Murkshroom
-  name: Murkshroom
-  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Murkshroom
-  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Murkshroom
-  fullName: CatchIo.Runtime.NPC.Enums.NPCType.Murkshroom
-  nameWithType: NPCType.Murkshroom
+- uid: CatchIo.Runtime.NPC.Enums.NPCType.FieldHealer
+  name: FieldHealer
+  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_FieldHealer
+  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.FieldHealer
+  fullName: CatchIo.Runtime.NPC.Enums.NPCType.FieldHealer
+  nameWithType: NPCType.FieldHealer
+- uid: CatchIo.Runtime.NPC.Enums.NPCType.Huntress
+  name: Huntress
+  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Huntress
+  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Huntress
+  fullName: CatchIo.Runtime.NPC.Enums.NPCType.Huntress
+  nameWithType: NPCType.Huntress
 - uid: CatchIo.Runtime.NPC.Enums.NPCType.Necro
   name: Necro
   href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Necro
   commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Necro
   fullName: CatchIo.Runtime.NPC.Enums.NPCType.Necro
   nameWithType: NPCType.Necro
-- uid: CatchIo.Runtime.NPC.Enums.NPCType.Oculusrock
-  name: Oculusrock
-  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Oculusrock
-  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Oculusrock
-  fullName: CatchIo.Runtime.NPC.Enums.NPCType.Oculusrock
-  nameWithType: NPCType.Oculusrock
 - uid: CatchIo.Runtime.NPC.Enums.NPCType.Pyro
   name: Pyro
   href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Pyro
   commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Pyro
   fullName: CatchIo.Runtime.NPC.Enums.NPCType.Pyro
   nameWithType: NPCType.Pyro
-- uid: CatchIo.Runtime.NPC.Enums.NPCType.Ravon
-  name: Ravon
-  href: api/CatchIo.Runtime.NPC.Enums.NPCType.html#CatchIo_Runtime_NPC_Enums_NPCType_Ravon
-  commentId: F:CatchIo.Runtime.NPC.Enums.NPCType.Ravon
-  fullName: CatchIo.Runtime.NPC.Enums.NPCType.Ravon
-  nameWithType: NPCType.Ravon
 - uid: CatchIo.Runtime.NPC.Graphics
   name: CatchIo.Runtime.NPC.Graphics
   href: api/CatchIo.Runtime.NPC.Graphics.html
@@ -20073,6 +20239,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed
   nameWithType: CharacterStatus.IsTransmorphed
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTrapped
+  name: IsTrapped
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsTrapped
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTrapped
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTrapped
+  nameWithType: CharacterStatus.IsTrapped
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTrapped*
+  name: IsTrapped
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsTrapped_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTrapped
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTrapped
+  nameWithType: CharacterStatus.IsTrapped
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.LightAttackArea
   name: LightAttackArea
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_LightAttackArea
@@ -20208,6 +20387,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnCursedChange
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnCursedChange
   nameWithType: CharacterStatus.OnCursedChange
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnDetectedChange
+  name: OnDetectedChange
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnDetectedChange
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnDetectedChange
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnDetectedChange
+  nameWithType: CharacterStatus.OnDetectedChange
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.OnHealthChanged
   name: OnHealthChanged
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_OnHealthChanged
@@ -20271,6 +20456,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RemoveMark
   nameWithType: CharacterStatus.RemoveMark
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RemoveTrapped
+  name: RemoveTrapped()
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RemoveTrapped
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RemoveTrapped
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RemoveTrapped()
+  nameWithType: CharacterStatus.RemoveTrapped()
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RemoveTrapped*
+  name: RemoveTrapped
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_RemoveTrapped_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RemoveTrapped
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RemoveTrapped
+  nameWithType: CharacterStatus.RemoveTrapped
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Reset
   name: Reset()
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Reset
@@ -20309,6 +20507,19 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RunSpeed
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.RunSpeed
   nameWithType: CharacterStatus.RunSpeed
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.SetDetected(System.Boolean)
+  name: SetDetected(Boolean)
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_SetDetected_System_Boolean_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.SetDetected(System.Boolean)
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.SetDetected(System.Boolean)
+  nameWithType: CharacterStatus.SetDetected(Boolean)
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.SetDetected*
+  name: SetDetected
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_SetDetected_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.SetDetected
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.SetDetected
+  nameWithType: CharacterStatus.SetDetected
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.SetHealth(System.Single)
   name: SetHealth(Single)
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_SetHealth_System_Single_
@@ -20443,6 +20654,19 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ThrowingStaminaCost
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ThrowingStaminaCost
   nameWithType: CharacterStatus.ThrowingStaminaCost
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Trapped
+  name: Trapped()
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Trapped
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Trapped
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Trapped()
+  nameWithType: CharacterStatus.Trapped()
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Trapped*
+  name: Trapped
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Trapped_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Trapped
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Trapped
+  nameWithType: CharacterStatus.Trapped
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.UseStamina(System.Single)
   name: UseStamina(Single)
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_UseStamina_System_Single_
@@ -22783,6 +23007,54 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.TryRemovePlayer
   nameWithType: PlayersInRoom.TryRemovePlayer
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel
+  name: CatchIo.Runtime.ScriptableObjects.ObjectivePanel
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.html
+  commentId: N:CatchIo.Runtime.ScriptableObjects.ObjectivePanel
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel
+  nameWithType: CatchIo.Runtime.ScriptableObjects.ObjectivePanel
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData
+  name: ObjectivePanelData
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.html
+  commentId: T:CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData
+  nameWithType: ObjectivePanelData
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.BgPanelSprite
+  name: BgPanelSprite
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.html#CatchIo_Runtime_ScriptableObjects_ObjectivePanel_ObjectivePanelData_BgPanelSprite
+  commentId: F:CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.BgPanelSprite
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.BgPanelSprite
+  nameWithType: ObjectivePanelData.BgPanelSprite
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.HeaderFont
+  name: HeaderFont
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.html#CatchIo_Runtime_ScriptableObjects_ObjectivePanel_ObjectivePanelData_HeaderFont
+  commentId: F:CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.HeaderFont
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.HeaderFont
+  nameWithType: ObjectivePanelData.HeaderFont
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectiveDescriptionTexts
+  name: ObjectiveDescriptionTexts
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.html#CatchIo_Runtime_ScriptableObjects_ObjectivePanel_ObjectivePanelData_ObjectiveDescriptionTexts
+  commentId: F:CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectiveDescriptionTexts
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectiveDescriptionTexts
+  nameWithType: ObjectivePanelData.ObjectiveDescriptionTexts
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectiveHeaderTexts
+  name: ObjectiveHeaderTexts
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.html#CatchIo_Runtime_ScriptableObjects_ObjectivePanel_ObjectivePanelData_ObjectiveHeaderTexts
+  commentId: F:CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectiveHeaderTexts
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectiveHeaderTexts
+  nameWithType: ObjectivePanelData.ObjectiveHeaderTexts
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectivePanelAnimator
+  name: ObjectivePanelAnimator
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.html#CatchIo_Runtime_ScriptableObjects_ObjectivePanel_ObjectivePanelData_ObjectivePanelAnimator
+  commentId: F:CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectivePanelAnimator
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.ObjectivePanelAnimator
+  nameWithType: ObjectivePanelData.ObjectivePanelAnimator
+- uid: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.TitleSprite
+  name: TitleSprite
+  href: api/CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.html#CatchIo_Runtime_ScriptableObjects_ObjectivePanel_ObjectivePanelData_TitleSprite
+  commentId: F:CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.TitleSprite
+  fullName: CatchIo.Runtime.ScriptableObjects.ObjectivePanel.ObjectivePanelData.TitleSprite
+  nameWithType: ObjectivePanelData.TitleSprite
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes
   name: CatchIo.Runtime.ScriptableObjects.SceneModes
   href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.html
@@ -23167,6 +23439,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
   nameWithType: FullScreenEffectService.DeactivateEffect
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.FadeIn(FullScreenEffects,System.Single)
+  name: FadeIn(FullScreenEffects, Single)
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_FadeIn_FullScreenEffects_System_Single_
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.FadeIn(FullScreenEffects,System.Single)
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.FadeIn(FullScreenEffects, System.Single)
+  nameWithType: FullScreenEffectService.FadeIn(FullScreenEffects, Single)
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.FadeIn*
+  name: FadeIn
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_FadeIn_
+  commentId: Overload:CatchIo.Runtime.Services.FullScreenEffectService.FadeIn
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.FadeIn
+  nameWithType: FullScreenEffectService.FadeIn
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.FadeOut(FullScreenEffects,System.Single)
+  name: FadeOut(FullScreenEffects, Single)
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_FadeOut_FullScreenEffects_System_Single_
+  commentId: M:CatchIo.Runtime.Services.FullScreenEffectService.FadeOut(FullScreenEffects,System.Single)
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.FadeOut(FullScreenEffects, System.Single)
+  nameWithType: FullScreenEffectService.FadeOut(FullScreenEffects, Single)
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.FadeOut*
+  name: FadeOut
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_FadeOut_
+  commentId: Overload:CatchIo.Runtime.Services.FullScreenEffectService.FadeOut
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.FadeOut
+  nameWithType: FullScreenEffectService.FadeOut
 - uid: CatchIo.Runtime.Services.LoadingScreenService
   name: LoadingScreenService
   href: api/CatchIo.Runtime.Services.LoadingScreenService.html
@@ -24075,6 +24373,32 @@ references:
   commentId: T:CatchIo.Runtime.Sound.EnvironmentSfx
   fullName: CatchIo.Runtime.Sound.EnvironmentSfx
   nameWithType: EnvironmentSfx
+- uid: CatchIo.Runtime.Sound.EnvironmentSfx.#ctor
+  name: EnvironmentSfx()
+  href: api/CatchIo.Runtime.Sound.EnvironmentSfx.html#CatchIo_Runtime_Sound_EnvironmentSfx__ctor
+  commentId: M:CatchIo.Runtime.Sound.EnvironmentSfx.#ctor
+  fullName: CatchIo.Runtime.Sound.EnvironmentSfx.EnvironmentSfx()
+  nameWithType: EnvironmentSfx.EnvironmentSfx()
+- uid: CatchIo.Runtime.Sound.EnvironmentSfx.#ctor*
+  name: EnvironmentSfx
+  href: api/CatchIo.Runtime.Sound.EnvironmentSfx.html#CatchIo_Runtime_Sound_EnvironmentSfx__ctor_
+  commentId: Overload:CatchIo.Runtime.Sound.EnvironmentSfx.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.EnvironmentSfx.EnvironmentSfx
+  nameWithType: EnvironmentSfx.EnvironmentSfx
+- uid: CatchIo.Runtime.Sound.EnvironmentSfx.ChangeMaxDistance(System.Single)
+  name: ChangeMaxDistance(Single)
+  href: api/CatchIo.Runtime.Sound.EnvironmentSfx.html#CatchIo_Runtime_Sound_EnvironmentSfx_ChangeMaxDistance_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.EnvironmentSfx.ChangeMaxDistance(System.Single)
+  fullName: CatchIo.Runtime.Sound.EnvironmentSfx.ChangeMaxDistance(System.Single)
+  nameWithType: EnvironmentSfx.ChangeMaxDistance(Single)
+- uid: CatchIo.Runtime.Sound.EnvironmentSfx.ChangeMaxDistance*
+  name: ChangeMaxDistance
+  href: api/CatchIo.Runtime.Sound.EnvironmentSfx.html#CatchIo_Runtime_Sound_EnvironmentSfx_ChangeMaxDistance_
+  commentId: Overload:CatchIo.Runtime.Sound.EnvironmentSfx.ChangeMaxDistance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.EnvironmentSfx.ChangeMaxDistance
+  nameWithType: EnvironmentSfx.ChangeMaxDistance
 - uid: CatchIo.Runtime.Sound.EnvironmentSfx.EVENT_NAME
   name: EVENT_NAME
   href: api/CatchIo.Runtime.Sound.EnvironmentSfx.html#CatchIo_Runtime_Sound_EnvironmentSfx_EVENT_NAME
@@ -24094,6 +24418,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.EnvironmentSfx.Play
   nameWithType: EnvironmentSfx.Play
+- uid: CatchIo.Runtime.Sound.EnvironmentSfx.StopAndRelease
+  name: StopAndRelease()
+  href: api/CatchIo.Runtime.Sound.EnvironmentSfx.html#CatchIo_Runtime_Sound_EnvironmentSfx_StopAndRelease
+  commentId: M:CatchIo.Runtime.Sound.EnvironmentSfx.StopAndRelease
+  fullName: CatchIo.Runtime.Sound.EnvironmentSfx.StopAndRelease()
+  nameWithType: EnvironmentSfx.StopAndRelease()
+- uid: CatchIo.Runtime.Sound.EnvironmentSfx.StopAndRelease*
+  name: StopAndRelease
+  href: api/CatchIo.Runtime.Sound.EnvironmentSfx.html#CatchIo_Runtime_Sound_EnvironmentSfx_StopAndRelease_
+  commentId: Overload:CatchIo.Runtime.Sound.EnvironmentSfx.StopAndRelease
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.EnvironmentSfx.StopAndRelease
+  nameWithType: EnvironmentSfx.StopAndRelease
 - uid: CatchIo.Runtime.Sound.FootstepSfx
   name: FootstepSfx
   href: api/CatchIo.Runtime.Sound.FootstepSfx.html
@@ -25370,6 +25707,37 @@ references:
   commentId: T:CatchIo.Runtime.UI.SignalEvents.BoolEvent
   fullName: CatchIo.Runtime.UI.SignalEvents.BoolEvent
   nameWithType: BoolEvent
+- uid: CatchIo.Runtime.UI.SignalEvents.EmptySignalEvent
+  name: EmptySignalEvent
+  href: api/CatchIo.Runtime.UI.SignalEvents.EmptySignalEvent.html
+  commentId: T:CatchIo.Runtime.UI.SignalEvents.EmptySignalEvent
+  fullName: CatchIo.Runtime.UI.SignalEvents.EmptySignalEvent
+  nameWithType: EmptySignalEvent
+- uid: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener
+  name: EmptySignalListener
+  href: api/CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.html
+  commentId: T:CatchIo.Runtime.UI.SignalEvents.EmptySignalListener
+  fullName: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener
+  nameWithType: EmptySignalListener
+- uid: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.OnEmptySignal
+  name: OnEmptySignal
+  href: api/CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.html#CatchIo_Runtime_UI_SignalEvents_EmptySignalListener_OnEmptySignal
+  commentId: F:CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.OnEmptySignal
+  fullName: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.OnEmptySignal
+  nameWithType: EmptySignalListener.OnEmptySignal
+- uid: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.ProcessSignal(Signal)
+  name: ProcessSignal(Signal)
+  href: api/CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.html#CatchIo_Runtime_UI_SignalEvents_EmptySignalListener_ProcessSignal_Signal_
+  commentId: M:CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.ProcessSignal(Signal)
+  fullName: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.ProcessSignal(Signal)
+  nameWithType: EmptySignalListener.ProcessSignal(Signal)
+- uid: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.ProcessSignal*
+  name: ProcessSignal
+  href: api/CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.html#CatchIo_Runtime_UI_SignalEvents_EmptySignalListener_ProcessSignal_
+  commentId: Overload:CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.ProcessSignal
+  isSpec: "True"
+  fullName: CatchIo.Runtime.UI.SignalEvents.EmptySignalListener.ProcessSignal
+  nameWithType: EmptySignalListener.ProcessSignal
 - uid: CatchIo.Runtime.UI.SignalEvents.FloatEvent
   name: FloatEvent
   href: api/CatchIo.Runtime.UI.SignalEvents.FloatEvent.html
@@ -26258,6 +26626,12 @@ references:
   commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.IsLocal
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.IsLocal
   nameWithType: SoundWaveEvent.IsLocal
+- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.MaximumDetectionDistance
+  name: MaximumDetectionDistance
+  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_MaximumDetectionDistance
+  commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.MaximumDetectionDistance
+  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.MaximumDetectionDistance
+  nameWithType: SoundWaveEvent.MaximumDetectionDistance
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.Position
   name: Position
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_Position
@@ -26276,12 +26650,12 @@ references:
   commentId: T:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator
   nameWithType: SoundWaveEventGenerator
-- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean)
-  name: Generate(Vector3, SoundWaveType, Boolean)
-  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_Vector3_SoundWaveType_System_Boolean_
-  commentId: M:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean)
-  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, System.Boolean)
-  nameWithType: SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, Boolean)
+- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32)
+  name: Generate(Vector3, SoundWaveType, Boolean, Int32)
+  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_Vector3_SoundWaveType_System_Boolean_System_Int32_
+  commentId: M:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32)
+  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, System.Boolean, System.Int32)
+  nameWithType: SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, Boolean, Int32)
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate*
   name: Generate
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_
