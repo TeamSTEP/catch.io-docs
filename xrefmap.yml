@@ -8583,6 +8583,70 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Combat.HitBoxes.CircleHitBox.Radius
   nameWithType: CircleHitBox.Radius
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox
+  name: EllipseHitBox
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html
+  commentId: T:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox
+  nameWithType: EllipseHitBox
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox*
+  name: DetectHurtBox
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBox_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox
+  nameWithType: EllipseHitBox.DetectHurtBox
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox``1(System.Func{``0,System.Boolean})
+  name: DetectHurtBox<T>(Func<T, Boolean>)
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBox__1_System_Func___0_System_Boolean__
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox``1(System.Func{``0,System.Boolean})
+  name.vb: DetectHurtBox(Of T)(Func(Of T, Boolean))
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox<T>(System.Func<T, System.Boolean>)
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox(Of T)(System.Func(Of T, System.Boolean))
+  nameWithType: EllipseHitBox.DetectHurtBox<T>(Func<T, Boolean>)
+  nameWithType.vb: EllipseHitBox.DetectHurtBox(Of T)(Func(Of T, Boolean))
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes*
+  name: DetectHurtBoxes
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBoxes_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes
+  nameWithType: EllipseHitBox.DetectHurtBoxes
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes``1(System.Func{``0,System.Boolean})
+  name: DetectHurtBoxes<T>(Func<T, Boolean>)
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBoxes__1_System_Func___0_System_Boolean__
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes``1(System.Func{``0,System.Boolean})
+  name.vb: DetectHurtBoxes(Of T)(Func(Of T, Boolean))
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes<T>(System.Func<T, System.Boolean>)
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes(Of T)(System.Func(Of T, System.Boolean))
+  nameWithType: EllipseHitBox.DetectHurtBoxes<T>(Func<T, Boolean>)
+  nameWithType.vb: EllipseHitBox.DetectHurtBoxes(Of T)(Func(Of T, Boolean))
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX
+  name: RadiusX
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusX
+  commentId: P:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX
+  nameWithType: EllipseHitBox.RadiusX
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX*
+  name: RadiusX
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusX_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX
+  nameWithType: EllipseHitBox.RadiusX
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY
+  name: RadiusY
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusY
+  commentId: P:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY
+  nameWithType: EllipseHitBox.RadiusY
+- uid: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY*
+  name: RadiusY
+  href: api/CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.html#CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusY_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY
+  nameWithType: EllipseHitBox.RadiusY
 - uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox
   name: FOVHitBox
   href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html
@@ -15369,12 +15433,6 @@ references:
   commentId: T:CatchIo.Runtime.Items.Placements.PlacedTrapRune
   fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune
   nameWithType: PlacedTrapRune
-- uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune._eventProcessor
-  name: _eventProcessor
-  href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html#CatchIo_Runtime_Items_Placements_PlacedTrapRune__eventProcessor
-  commentId: F:CatchIo.Runtime.Items.Placements.PlacedTrapRune._eventProcessor
-  fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune._eventProcessor
-  nameWithType: PlacedTrapRune._eventProcessor
 - uid: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Acquire
   name: Acquire()
   href: api/CatchIo.Runtime.Items.Placements.PlacedTrapRune.html#CatchIo_Runtime_Items_Placements_PlacedTrapRune_Acquire
@@ -16160,32 +16218,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CancelProgress
   nameWithType: EntityProgressBar.CancelProgress
-- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
-  name: CurrentProgress
-  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_CurrentProgress
-  commentId: P:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
-  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
-  nameWithType: EntityProgressBar.CurrentProgress
-- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress*
-  name: CurrentProgress
-  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_CurrentProgress_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.CurrentProgress
-  nameWithType: EntityProgressBar.CurrentProgress
-- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
-  name: IsProgressing
-  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_IsProgressing
-  commentId: P:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
-  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
-  nameWithType: EntityProgressBar.IsProgressing
-- uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing*
-  name: IsProgressing
-  href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_IsProgressing_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.IsProgressing
-  nameWithType: EntityProgressBar.IsProgressing
 - uid: CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.ResetProgress
   name: ResetProgress()
   href: api/CatchIo.Runtime.Menu.GameOverlay.EntityHUD.EntityProgressBar.html#CatchIo_Runtime_Menu_GameOverlay_EntityHUD_EntityProgressBar_ResetProgress
