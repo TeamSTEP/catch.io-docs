@@ -516,6 +516,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.PopupRoomHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.PopupRoomHandler.html",
+          "hash": "4C2tG/N8qtWzCwzn0wft+BPWeLwvGtbEmIvKo/8Ar+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.AnimationEvents.AnimationEvent.yml",
       "output": {
         ".html": {
@@ -7487,12 +7499,24 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.html",
+          "hash": "FfTqMqwhZEEKk6VdmOePMNJRdhLax0aA0hH6isWM4aI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "kBzbgb3KOpKJi4I7rAXILPJWg+IarYHq584iReKX+GQ="
+          "hash": "MQGpnquN0HOYHYlRNJuCQ139e8HcFkP3cj+Hm7E7MXM="
         }
       },
       "is_incremental": false,
@@ -8122,7 +8146,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+X2IOg7/JDy6ZwIvLu/ZU3Mm5ChnHd4I3hmrGA2KUYU="
+          "hash": "WUZGGr3rkLetH5hyq9HE9p57KePbnr63YWJXPaYH9AM="
         }
       },
       "is_incremental": false,
@@ -8149,7 +8173,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 622,
+          "total_file_count": 624,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
