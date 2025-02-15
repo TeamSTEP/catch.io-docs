@@ -4780,7 +4780,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html",
-          "hash": "h5GxVj5ad1efqT+PUPn0TOnX/3mAEIENcFSqie4/3dY="
+          "hash": "s8m/BTlVc9fJZ55HbERkWy19z8cAFsIUAOBnid+0z3w="
         }
       },
       "is_incremental": false,
@@ -4828,7 +4828,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html",
-          "hash": "1z8T9n85OhQjg9qPjw0z5GuaCjJD/ibTXlNfyWNLV6c="
+          "hash": "fbjrCISQaaWffvq/QhdzDVnsk2WC4igjBOo0+Mg2GXo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.html",
+          "hash": "hg0w00ePctJSXmjcUdgO3EvSlGnDEdpjLdNCKsumk3E="
         }
       },
       "is_incremental": false,
@@ -4852,7 +4864,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.html",
-          "hash": "0PbCYoaGAUAx2ZKE6EFBVYnEYdxxYUgBQN/W1Y2c47s="
+          "hash": "Rt/CxQElFZ8YnS7Z1sGz2dLyJza0cK+Etd4qk4hpw74="
         }
       },
       "is_incremental": false,
@@ -6144,11 +6156,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Settings.PlayerSettingsHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Settings.PlayerSettingsHandler.html",
+          "hash": "3dM9THLa35DauyNWJ2nFwUg64ZQsYnmvGA3f6hrSwkE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Settings.PlayerSettingsManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Settings.PlayerSettingsManager.html",
-          "hash": "T0vSTPNsN38TR/YV6FU6bV/RKfOAkjicWvs4DD/+7GM="
+          "hash": "grIP4lyMeMEsEHhMPLo8jae+NPC3/zZ4CJyxb7ODIKE="
         }
       },
       "is_incremental": false,
@@ -6196,7 +6220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Settings.html",
-          "hash": "3J0baaHO1VEcmZBLShk7XXCD6Cld7T3H6/GXjEDPUEI="
+          "hash": "V75HPDKg0QW/ofssoEN97cdF8X9BGj64a8g3ZeFCk5I="
         }
       },
       "is_incremental": false,
@@ -6352,7 +6376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Sound.SoundManager.html",
-          "hash": "vkSAzQk6Mut0PWVAPW/4YpeyZT8YB/3uArcG4kbNVSs="
+          "hash": "jxesACMXVmirEHOfsxRike0sKaoXTr/eNPUqx0w+C5E="
         }
       },
       "is_incremental": false,
@@ -7500,11 +7524,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.SettingsPopupHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.SettingsPopupHandler.html",
+          "hash": "iBi6Py9SIS+xdyoJVCY1zAAWf6j1Qmg9VxnaEToNL3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.html",
-          "hash": "FfTqMqwhZEEKk6VdmOePMNJRdhLax0aA0hH6isWM4aI="
+          "hash": "FhgubvqweT7HkGppoBj8QSWeo9lpqqiZfNp8TLK+k2o="
         }
       },
       "is_incremental": false,
@@ -7516,7 +7552,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "MQGpnquN0HOYHYlRNJuCQ139e8HcFkP3cj+Hm7E7MXM="
+          "hash": "3zi01+y8aRqw9r5hINww9giU/qlbjBak+6DLBp97T3A="
         }
       },
       "is_incremental": false,
@@ -8173,7 +8209,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 624,
+          "total_file_count": 627,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
