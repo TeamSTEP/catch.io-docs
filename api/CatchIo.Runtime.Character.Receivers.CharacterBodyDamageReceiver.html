@@ -101,6 +101,7 @@ This is used when objects can apply damage only to the body collider of the char
     <div><span class="xref">ITransmorphableReceiver</span></div>
     <div><span class="xref">IHUDDisplayable</span></div>
     <div><span class="xref">IWhisperEmitter</span></div>
+    <div><span class="xref">IPanickable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -149,6 +150,31 @@ This is used when objects can apply damage only to the body collider of the char
   </div>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ActorNumber_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ActorNumber" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber">ActorNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ActorNumber { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_HUDPositionProvider_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.HUDPositionProvider*"></a>
@@ -228,6 +254,18 @@ This is used when objects can apply damage only to the body collider of the char
   </h3>
   
   
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_Awake_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_Awake" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_Awake">CharacterDamageReceiver.Awake()</a></div>
+  
+  
   <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_CanPlay_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.CanPlay*"></a>
   <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_CanPlay" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.CanPlay">CanPlay()</h4>
   <div class="markdown level1 summary"></div>
@@ -247,6 +285,33 @@ This is used when objects can apply damage only to the body collider of the char
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_FallInPanic_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_FallInPanic_System_Int32_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic(System.Int32)">FallInPanic(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FallInPanic(int aggressorViewID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">aggressorViewID</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -478,6 +543,33 @@ This is used when objects can apply damage only to the body collider of the char
   </table>
   
   
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_RecoverFromPanic_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_RecoverFromPanic_System_Int32_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic(System.Int32)">RecoverFromPanic(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecoverFromPanic(int aggressorViewID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">aggressorViewID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ToggleHUD_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ToggleHUD*"></a>
   <h4 id="CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ToggleHUD_ACTION_TYPE_System_Boolean_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ToggleHUD(ACTION_TYPE,System.Boolean)">ToggleHUD(ACTION_TYPE, Boolean)</h4>
   <div class="markdown level1 summary"></div>
@@ -526,6 +618,9 @@ This is used when objects can apply damage only to the body collider of the char
   </div>
   <div>
       <span class="xref">IWhisperEmitter</span>
+  </div>
+  <div>
+      <span class="xref">IPanickable</span>
   </div>
 </article>
           </div>

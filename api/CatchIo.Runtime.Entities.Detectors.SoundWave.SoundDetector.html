@@ -83,7 +83,8 @@
   
   <h1 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector" class="text-break">Class SoundDetector
   </h1>
-  <div class="markdown level0 summary"><p>Component responsible for detecting sound events within a specified range.</p>
+  <div class="markdown level0 summary"><p>Manages sound wave detection and distance calculation.
+Processes sound events and determines if they are within detection range.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -150,7 +151,8 @@
   
   
   <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnSoundWaveDetected" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnSoundWaveDetected">OnSoundWaveDetected</h4>
-  <div class="markdown level1 summary"><p>Send sound wave detection event with distance, direction and category and maximum range of the current detection</p>
+  <div class="markdown level1 summary"><p>Event triggered when a sound wave is detected within range.
+Provides positions, direction, category, and maximum detection range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -174,6 +176,31 @@
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator">Mediator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISoundWaveDetectionMediator Mediator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISoundWaveDetectionMediator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner*"></a>

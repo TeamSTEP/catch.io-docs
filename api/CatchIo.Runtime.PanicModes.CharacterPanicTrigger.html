@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CharacterPanicTrigger
+   | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CharacterPanicTrigger
+   | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger">
+  
+  
+  <h1 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger" class="text-break">Class CharacterPanicTrigger
+  </h1>
+  <div class="markdown level0 summary"><p>CharacterPanicTrigger manages the panic inducing system in a multiplayer environment.</p>
+<p>Core Responsibilities:</p>
+<ul>
+<li>Detects and manages potential targets within field of view</li>
+<li>Handles panic state transitions with induction/escape delays</li>
+<li>Processes network events for panic state synchronization</li>
+<li>Manages panic state changes across the network</li>
+</ul>
+<p>States:</p>
+<ul>
+<li>No Target: No current target (_targetInPanic == null)</li>
+<li>Inducing Panic: Target set but waiting for induction timer</li>
+<li>Active Panic: Target in panic state and synchronized across network</li>
+<li>Escaping Panic: Target leaving FOV, waiting for escape timer</li>
+</ul>
+<p>Key Features:</p>
+<ul>
+<li>FOV-based target detection using hitboxes</li>
+<li>Timer-based induction/escape delays</li>
+<li>Network event handling (death, disconnect, transmorph)</li>
+<li>Multiplayer synchronization through Photon</li>
+</ul>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CharacterPanicTrigger</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IOnEventCallback</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.PanicModes.html">CatchIo.Runtime.PanicModes</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CharacterPanicTrigger : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger__photonView" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView">_photonView</h4>
+  <div class="markdown level1 summary"><p>Photon view component for network synchronization</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PhotonView _photonView</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PhotonView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger__rotator" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator">_rotator</h4>
+  <div class="markdown level1 summary"><p>Entity rotator for managing view angle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EntityRotator _rotator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityRotator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID">ViewID</h4>
+  <div class="markdown level1 summary"><p>Gets the current Photon View ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ViewID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Initialize components on awake</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop">HandleInductionTimerStop()</h4>
+  <div class="markdown level1 summary"><p>Triggered when activation timer stops</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void HandleInductionTimerStop()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop">HandlePanicEscapeTimerStop()</h4>
+  <div class="markdown level1 summary"><p>Triggered when deactivation timer stops</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void HandlePanicEscapeTimerStop()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid">IsValid()</h4>
+  <div class="markdown level1 summary"><p>Validates if this Panic trigger is currently operational.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool IsValid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if this is the local player&apos;s view, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"><p>Cleanup event listeners on destruction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnEvent_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnEvent_EventData_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent(EventData)">OnEvent(EventData)</h4>
+  <div class="markdown level1 summary"><p>Processes network events affecting Panic state.
+Handles:</p>
+<ul>
+<li>Character death</li>
+<li>Player disconnection</li>
+<li>Character transformation</li>
+</ul>
+<p>Each event may trigger Panic cleanup if affecting current target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEvent(EventData photonEvent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventData</span></td>
+        <td><span class="parametername">photonEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Setup Panic tracking and event listeners on start</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_SwitchPanicTarget_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_SwitchPanicTarget_CharacterFacade_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget(CharacterFacade)">SwitchPanicTarget(CharacterFacade)</h4>
+  <div class="markdown level1 summary"><p>Manually switches the panic state to a specified target character.
+Performs validation checks and handles the transition between targets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SwitchPanicTarget(CharacterFacade target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterFacade</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The character to induce panic on. Must implement IPanickable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IOnEventCallback</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HudOverlaysManager
+    <title>Class PanicSoundWaveDistanceModifier
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HudOverlaysManager
+    <meta name="title" content="Class PanicSoundWaveDistanceModifier
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,35 +78,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier">
   
   
-  <h1 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager" class="text-break">Class HudOverlaysManager
+  <h1 id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier" class="text-break">Class PanicSoundWaveDistanceModifier
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Modifies sound wave detection distances based on panic state.
+Handles different multipliers for aggressor and other player&apos;s footsteps/</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">HudOverlaysManager</span></div>
+    <div class="level1"><span class="xref">PanicSoundWaveDistanceModifier</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html">CatchIo.Runtime.Menu.GameOverlay.CharacterHUD</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.PanicModes.html">CatchIo.Runtime.PanicModes</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HudOverlaysManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public sealed class PanicSoundWaveDistanceModifier : ISoundWaveDistanceModifier</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandlePanicOverlay_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandlePanicOverlay_System_Boolean_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay(System.Boolean)">HandlePanicOverlay(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_AddAggressor_" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_AddAggressor_System_Int32_" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor(System.Int32)">AddAggressor(Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds a aggressor&apos;s ViewID.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandlePanicOverlay(bool active)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddAggressor(int viewID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,21 +123,33 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">active</span></td>
-        <td></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">viewID</span></td>
+        <td><p>ViewID of the aggressor to add</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleThreatOverlay_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleThreatOverlay_System_Boolean_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay(System.Boolean)">HandleThreatOverlay(Boolean)</h4>
+  <a id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_Clear_" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_Clear" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clears all aggressor from the tracking list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_GetModificationValue_" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_GetModificationValue_SoundWaveType_System_Int32_" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue(SoundWaveType,System.Int32)">GetModificationValue(SoundWaveType, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandleThreatOverlay(bool active)</code></pre>
+    <pre><code class="lang-csharp hljs">public ModificationValue GetModificationValue(SoundWaveType soundWaveType, int viewID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,22 +162,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">active</span></td>
+        <td><span class="xref">SoundWaveType</span></td>
+        <td><span class="parametername">soundWaveType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">viewID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ModificationValue</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_SetLightingOverlay_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_SetLightingOverlay" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay">SetLightingOverlay()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_RemoveAggressor_" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor*"></a>
+  <h4 id="CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_RemoveAggressor_System_Int32_" data-uid="CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor(System.Int32)">RemoveAggressor(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes a aggressor&apos;s ViewID.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetLightingOverlay()</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveAggressor(int viewID)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">viewID</span></td>
+        <td><p>ViewID of the aggressor to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FullScreenEffectService
+    <title>Class PanicStateSfx
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FullScreenEffectService
+    <meta name="title" content="Class PanicStateSfx
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,68 +78,108 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Services.FullScreenEffectService">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx">
   
   
-  <h1 id="CatchIo_Runtime_Services_FullScreenEffectService" data-uid="CatchIo.Runtime.Services.FullScreenEffectService" class="text-break">Class FullScreenEffectService
+  <h1 id="CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx" data-uid="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx" class="text-break">Class PanicStateSfx
   </h1>
-  <div class="markdown level0 summary"><p>Manages full-screen overlay effects using Universal Render Pipeline (URP) full-screen shaders.</p>
+  <div class="markdown level0 summary"><p>Manages sound effects for Panic state changes in the game.</p>
 <p>Key Responsibilities:</p>
 <ul>
-<li>Activate and deactivate full-screen visual effects</li>
-<li>Support effect stacking and non-stackable effect management</li>
-<li>Provide smooth fade-in and fade-out transitions for effects</li>
+<li>Play spatial 3D sound effects for Panic activation and deactivation</li>
+<li>Map Panic states to specific sound variations</li>
+<li>Provide volume and positioning control</li>
 </ul>
 <p>Design Patterns:</p>
 <ul>
-<li>Service Locator pattern (via AutoRegisteredService attribute)</li>
-<li>State management for multiple full-screen effects</li>
+<li>State mapping</li>
+<li>Spatial audio implementation</li>
 </ul>
 <p>Features:</p>
 <ul>
-<li>Supports multiple simultaneous effects</li>
-<li>Handles non-stackable effects with priority</li>
-<li>Async fade transitions using UniTask</li>
-<li>Cancellable effect transitions</li>
+<li>Enum-based Panic state selection</li>
+<li>3D sound positioning</li>
+<li>Volume customization</li>
 </ul>
-<p>Typical Use Cases:</p>
+<p>Use Cases:</p>
 <ul>
-<li>Damage indication</li>
-<li>Low stamina warning</li>
-<li>Critical status effects</li>
-<li>Temporary screen overlays</li>
-</ul>
-<p>Performance Considerations:</p>
-<ul>
-<li>Uses shader-based alpha manipulation for smooth transitions</li>
-<li>Minimizes material and effect state changes</li>
-<li>Provides cancellation mechanisms to prevent resource leaks</li>
+<li>Providing audio feedback for panic mode changes</li>
+<li>Spatial sound effects for game interactions</li>
 </ul>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">FullScreenEffectService</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Sound.Sfx.html">Sfx</a></div>
+    <div class="level2"><span class="xref">PanicStateSfx</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Services.html">CatchIo.Runtime.Services</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_EventInstance">Sfx.EventInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetPlayBackState">Sfx.GetPlayBackState()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_Stop_STOP_MODE_">Sfx.Stop(STOP_MODE)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_SetNewVolume_System_Single_">Sfx.SetNewVolume(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentVolume">Sfx.GetCurrentVolume()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentFinalVolume">Sfx.GetCurrentFinalVolume()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Sound.PanicSFX.html">CatchIo.Runtime.Sound.PanicSFX</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Services_FullScreenEffectService_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FullScreenEffectService : MonoRegistrable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class PanicStateSfx : Sfx</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_PanicStateSfxMap" data-uid="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicStateSfxMap">PanicStateSfxMap</h4>
+  <div class="markdown level1 summary"><p>Mapping between Panic mode states and their corresponding FMOD labels</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Dictionary&lt;PanicStateSfx.PanicModeState, string&gt; PanicStateSfxMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.html">PanicStateSfx.PanicModeState</a>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_ActivateEffect_FullScreenEffects_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.ActivateEffect(FullScreenEffects)">ActivateEffect(FullScreenEffects)</h4>
-  <div class="markdown level1 summary"><p>Activate a specific full-screen effect</p>
+  <a id="CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_Play_" data-uid="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play*"></a>
+  <h4 id="CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_Play_Vector3_CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_PanicModeState_System_Single_" data-uid="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3,CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState,System.Single)">Play(Vector3, PanicStateSfx.PanicModeState, Single)</h4>
+  <div class="markdown level1 summary"><p>Play Panic state sound effect with enum-based state selection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ActivateEffect(FullScreenEffects effectKey)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Play(Vector3 generatePos, PanicStateSfx.PanicModeState panicState, float volume = 1F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,98 +192,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">FullScreenEffects</span></td>
-        <td><span class="parametername">effectKey</span></td>
-        <td><p>Effect to activate</p>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td><p>3D position to generate the sound</p>
 </td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateAllEffects_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateAllEffects" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateAllEffects">DeactivateAllEffects()</h4>
-  <div class="markdown level1 summary"><p>Deactivate all active full-screen effects</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeactivateAllEffects()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_DeactivateEffect_FullScreenEffects_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect(FullScreenEffects)">DeactivateEffect(FullScreenEffects)</h4>
-  <div class="markdown level1 summary"><p>Deactivate a specific full-screen effect</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeactivateEffect(FullScreenEffects effectKey)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">FullScreenEffects</span></td>
-        <td><span class="parametername">effectKey</span></td>
-        <td><p>Effect to deactivate</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Services_FullScreenEffectService_FadeIn_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.FadeIn*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_FadeIn_FullScreenEffects_System_Single_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.FadeIn(FullScreenEffects,System.Single)">FadeIn(FullScreenEffects, Single)</h4>
-  <div class="markdown level1 summary"><p>Fade in a full-screen effect</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FadeIn(FullScreenEffects effectKey, float duration)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">FullScreenEffects</span></td>
-        <td><span class="parametername">effectKey</span></td>
-        <td><p>Effect to fade in</p>
+        <td><a class="xref" href="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.html">PanicStateSfx.PanicModeState</a></td>
+        <td><span class="parametername">panicState</span></td>
+        <td><p>Panic mode state to play</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
-        <td><p>Duration of the fade-in transition</p>
+        <td><span class="parametername">volume</span></td>
+        <td><p>Volume of the sound effect (default: 1)</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Services_FullScreenEffectService_FadeOut_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.FadeOut*"></a>
-  <h4 id="CatchIo_Runtime_Services_FullScreenEffectService_FadeOut_FullScreenEffects_System_Single_" data-uid="CatchIo.Runtime.Services.FullScreenEffectService.FadeOut(FullScreenEffects,System.Single)">FadeOut(FullScreenEffects, Single)</h4>
-  <div class="markdown level1 summary"><p>Fade out a full-screen effect</p>
+  <a id="CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_Play_" data-uid="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play*"></a>
+  <h4 id="CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_Play_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3,System.String,System.Single)">Play(Vector3, String, Single)</h4>
+  <div class="markdown level1 summary"><p>Override base Play method for Panic state sound effects</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FadeOut(FullScreenEffects effectKey, float duration)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Play(Vector3 generatePos, string panicState = &quot;&quot;, float volume = 1F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,19 +233,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">FullScreenEffects</span></td>
-        <td><span class="parametername">effectKey</span></td>
-        <td><p>Effect to fade out</p>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td><p>3D position to generate the sound</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">panicState</span></td>
+        <td><p>Specific Panic state label (optional)</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
-        <td><p>Duration of the fade-out transition</p>
+        <td><span class="parametername">volume</span></td>
+        <td><p>Volume of the sound effect (default: 1)</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_Play_Vector3_System_String_System_Single_">Sfx.Play(Vector3, String, Single)</a></div>
 </article>
           </div>
           

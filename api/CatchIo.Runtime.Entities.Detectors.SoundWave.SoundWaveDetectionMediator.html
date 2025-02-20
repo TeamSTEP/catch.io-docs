@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HudOverlaysManager
+    <title>Class SoundWaveDetectionMediator
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HudOverlaysManager
+    <meta name="title" content="Class SoundWaveDetectionMediator
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,35 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator">
   
   
-  <h1 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager" class="text-break">Class HudOverlaysManager
+  <h1 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator" class="text-break">Class SoundWaveDetectionMediator
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">HudOverlaysManager</span></div>
+    <div class="level1"><span class="xref">SoundWaveDetectionMediator</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.html">CatchIo.Runtime.Menu.GameOverlay.CharacterHUD</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Detectors.SoundWave.html">CatchIo.Runtime.Entities.Detectors.SoundWave</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HudOverlaysManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class SoundWaveDetectionMediator : ISoundWaveDetectionMediator</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandlePanicOverlay_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandlePanicOverlay_System_Boolean_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay(System.Boolean)">HandlePanicOverlay(Boolean)</h4>
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_SoundWaveType_System_Single_System_Int32_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)">GetModificationDistance(SoundWaveType, Single, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandlePanicOverlay(bool active)</code></pre>
+    <pre><code class="lang-csharp hljs">public float GetModificationDistance(SoundWaveType type, float baseDistance, int viewID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,21 +119,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">active</span></td>
+        <td><span class="xref">SoundWaveType</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">baseDistance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">viewID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleThreatOverlay_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleThreatOverlay_System_Boolean_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay(System.Boolean)">HandleThreatOverlay(Boolean)</h4>
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_RegisterModifier_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_RegisterModifier_ISoundWaveDistanceModifier_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)">RegisterModifier(ISoundWaveDistanceModifier)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandleThreatOverlay(bool active)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RegisterModifier(ISoundWaveDistanceModifier modifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,22 +171,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">active</span></td>
+        <td><span class="xref">ISoundWaveDistanceModifier</span></td>
+        <td><span class="parametername">modifier</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_SetLightingOverlay_" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_SetLightingOverlay" data-uid="CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay">SetLightingOverlay()</h4>
+  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_ISoundWaveDistanceModifier_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)">UnregisterModifier(ISoundWaveDistanceModifier)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetLightingOverlay()</code></pre>
+    <pre><code class="lang-csharp hljs">public void UnregisterModifier(ISoundWaveDistanceModifier modifier)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISoundWaveDistanceModifier</span></td>
+        <td><span class="parametername">modifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

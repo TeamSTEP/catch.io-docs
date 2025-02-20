@@ -122,6 +122,16 @@ Defines events and methods for managing impacts, allowing for interaction with <
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IMarkingEntity.html">IMarkingEntity</a></h4>
       <section></section>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IPanickable.html">IPanickable</a></h4>
+      <section><p>Defines the contract for objects that can enter panic mode when targeted by other players.</p>
+<p>This interface provides methods and properties for handling panic state events
+and identifying the network-specific details of a panickable entity.</p>
+<p>Key Responsibilities:</p>
+<ul>
+<li>Provide network identification (ViewID and ActorNumber)</li>
+<li>Handle panic state transitions triggered by other players</li>
+</ul>
+</section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IPositionProvider.html">IPositionProvider</a></h4>
       <section><p>Provides an interface for objects that can supply positional information.</p>
 </section>
@@ -129,6 +139,14 @@ Defines events and methods for managing impacts, allowing for interaction with <
       <section></section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISoundDetectable.html">ISoundDetectable</a></h4>
       <section></section>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html">ISoundWaveDetectionMediator</a></h4>
+      <section><p>Mediator interface for managing sound wave detection distance modifications.
+Coordinates between sound detectors and distance modifiers</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.html">ISoundWaveDistanceModifier</a></h4>
+      <section><p>Interface for modifying sound wave detection distances.
+Implements the strategy pattern for different distance modification calculations.</p>
+</section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISurfaceObservable.html">ISurfaceObservable</a></h4>
       <section></section>
 </article>

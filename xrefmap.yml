@@ -2491,6 +2491,19 @@ references:
   commentId: F:CatchIo.Runtime.Character.CharacterFacade.OnToggleInteractionIndicator
   fullName: CatchIo.Runtime.Character.CharacterFacade.OnToggleInteractionIndicator
   nameWithType: CharacterFacade.OnToggleInteractionIndicator
+- uid: CatchIo.Runtime.Character.CharacterFacade.PanicListener
+  name: PanicListener
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_PanicListener
+  commentId: P:CatchIo.Runtime.Character.CharacterFacade.PanicListener
+  fullName: CatchIo.Runtime.Character.CharacterFacade.PanicListener
+  nameWithType: CharacterFacade.PanicListener
+- uid: CatchIo.Runtime.Character.CharacterFacade.PanicListener*
+  name: PanicListener
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_PanicListener_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.PanicListener
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.PanicListener
+  nameWithType: CharacterFacade.PanicListener
 - uid: CatchIo.Runtime.Character.CharacterFacade.PlayAttackChargeEffect
   name: PlayAttackChargeEffect()
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_PlayAttackChargeEffect
@@ -7463,6 +7476,32 @@ references:
   commentId: T:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver
   nameWithType: CharacterBodyDamageReceiver
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber
+  name: ActorNumber
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ActorNumber
+  commentId: P:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber
+  nameWithType: CharacterBodyDamageReceiver.ActorNumber
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber*
+  name: ActorNumber
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ActorNumber_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ActorNumber
+  nameWithType: CharacterBodyDamageReceiver.ActorNumber
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_Awake
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake()
+  nameWithType: CharacterBodyDamageReceiver.Awake()
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_Awake_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Awake
+  nameWithType: CharacterBodyDamageReceiver.Awake
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.CanPlay
   name: CanPlay()
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_CanPlay
@@ -7476,6 +7515,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.CanPlay
   nameWithType: CharacterBodyDamageReceiver.CanPlay
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic(System.Int32)
+  name: FallInPanic(Int32)
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_FallInPanic_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic(System.Int32)
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic(System.Int32)
+  nameWithType: CharacterBodyDamageReceiver.FallInPanic(Int32)
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic*
+  name: FallInPanic
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_FallInPanic_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.FallInPanic
+  nameWithType: CharacterBodyDamageReceiver.FallInPanic
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetActionTypes
   name: GetActionTypes()
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetActionTypes
@@ -7619,6 +7671,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.IsPlayer
   nameWithType: CharacterBodyDamageReceiver.IsPlayer
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic(System.Int32)
+  name: RecoverFromPanic(Int32)
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_RecoverFromPanic_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic(System.Int32)
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic(System.Int32)
+  nameWithType: CharacterBodyDamageReceiver.RecoverFromPanic(Int32)
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic*
+  name: RecoverFromPanic
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_RecoverFromPanic_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic
+  nameWithType: CharacterBodyDamageReceiver.RecoverFromPanic
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ToggleHUD(ACTION_TYPE,System.Boolean)
   name: ToggleHUD(ACTION_TYPE, Boolean)
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ToggleHUD_ACTION_TYPE_System_Boolean_
@@ -7657,6 +7722,19 @@ references:
   commentId: F:CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver._character
   fullName: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver._character
   nameWithType: CharacterDamageReceiver._character
+- uid: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_Awake
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.Awake
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.Awake()
+  nameWithType: CharacterDamageReceiver.Awake()
+- uid: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_Awake_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.Awake
+  nameWithType: CharacterDamageReceiver.Awake
 - uid: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.CanInteract(HitBox)
   name: CanInteract(HitBox)
   href: api/CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_CanInteract_HitBox_
@@ -10476,6 +10554,12 @@ references:
   commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
   fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
   nameWithType: SoundDetector
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance
+  name: SoundDetector.CategoryToMaximumDistance
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance.html
+  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance
+  nameWithType: SoundDetector.CategoryToMaximumDistance
 - uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
   name: Disable()
   href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable
@@ -10515,6 +10599,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize
   nameWithType: SoundDetector.Initialize
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
+  name: Mediator
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator
+  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
+  nameWithType: SoundDetector.Mediator
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator*
+  name: Mediator
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
+  nameWithType: SoundDetector.Mediator
 - uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled
   name: OnDisabled
   href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnDisabled
@@ -10559,6 +10656,51 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
   nameWithType: SoundDetector.PositionProvider
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator
+  name: SoundWaveDetectionMediator
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html
+  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator
+  nameWithType: SoundWaveDetectionMediator
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
+  name: GetModificationDistance(SoundWaveType, Single, Int32)
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_SoundWaveType_System_Single_System_Int32_
+  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, System.Single, System.Int32)
+  nameWithType: SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, Single, Int32)
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance*
+  name: GetModificationDistance
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance
+  nameWithType: SoundWaveDetectionMediator.GetModificationDistance
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+  name: RegisterModifier(ISoundWaveDistanceModifier)
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_RegisterModifier_ISoundWaveDistanceModifier_
+  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+  nameWithType: SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier*
+  name: RegisterModifier
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_RegisterModifier_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier
+  nameWithType: SoundWaveDetectionMediator.RegisterModifier
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+  name: UnregisterModifier(ISoundWaveDistanceModifier)
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_ISoundWaveDistanceModifier_
+  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+  nameWithType: SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier*
+  name: UnregisterModifier
+  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_
+  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier
+  nameWithType: SoundWaveDetectionMediator.UnregisterModifier
 - uid: CatchIo.Runtime.Entities.EntityHUDPositionProvider
   name: EntityHUDPositionProvider
   href: api/CatchIo.Runtime.Entities.EntityHUDPositionProvider.html
@@ -11813,6 +11955,12 @@ references:
   commentId: F:CatchIo.Runtime.Enums.FullScreenEffects.LOW_STAMINA
   fullName: CatchIo.Runtime.Enums.FullScreenEffects.LOW_STAMINA
   nameWithType: FullScreenEffects.LOW_STAMINA
+- uid: CatchIo.Runtime.Enums.FullScreenEffects.PANIC_INDICATOR
+  name: PANIC_INDICATOR
+  href: api/CatchIo.Runtime.Enums.FullScreenEffects.html#CatchIo_Runtime_Enums_FullScreenEffects_PANIC_INDICATOR
+  commentId: F:CatchIo.Runtime.Enums.FullScreenEffects.PANIC_INDICATOR
+  fullName: CatchIo.Runtime.Enums.FullScreenEffects.PANIC_INDICATOR
+  nameWithType: FullScreenEffects.PANIC_INDICATOR
 - uid: CatchIo.Runtime.Enums.FullScreenEffects.TAKE_DAMAGE
   name: TAKE_DAMAGE
   href: api/CatchIo.Runtime.Enums.FullScreenEffects.html#CatchIo_Runtime_Enums_FullScreenEffects_TAKE_DAMAGE
@@ -11915,6 +12063,36 @@ references:
   commentId: F:CatchIo.Runtime.Enums.GameObjectiveEventEnum.WinnerSelected
   fullName: CatchIo.Runtime.Enums.GameObjectiveEventEnum.WinnerSelected
   nameWithType: GameObjectiveEventEnum.WinnerSelected
+- uid: CatchIo.Runtime.Enums.ModificationType
+  name: ModificationType
+  href: api/CatchIo.Runtime.Enums.ModificationType.html
+  commentId: T:CatchIo.Runtime.Enums.ModificationType
+  fullName: CatchIo.Runtime.Enums.ModificationType
+  nameWithType: ModificationType
+- uid: CatchIo.Runtime.Enums.ModificationType.Add
+  name: Add
+  href: api/CatchIo.Runtime.Enums.ModificationType.html#CatchIo_Runtime_Enums_ModificationType_Add
+  commentId: F:CatchIo.Runtime.Enums.ModificationType.Add
+  fullName: CatchIo.Runtime.Enums.ModificationType.Add
+  nameWithType: ModificationType.Add
+- uid: CatchIo.Runtime.Enums.ModificationType.Multiply
+  name: Multiply
+  href: api/CatchIo.Runtime.Enums.ModificationType.html#CatchIo_Runtime_Enums_ModificationType_Multiply
+  commentId: F:CatchIo.Runtime.Enums.ModificationType.Multiply
+  fullName: CatchIo.Runtime.Enums.ModificationType.Multiply
+  nameWithType: ModificationType.Multiply
+- uid: CatchIo.Runtime.Enums.ModificationType.Override
+  name: Override
+  href: api/CatchIo.Runtime.Enums.ModificationType.html#CatchIo_Runtime_Enums_ModificationType_Override
+  commentId: F:CatchIo.Runtime.Enums.ModificationType.Override
+  fullName: CatchIo.Runtime.Enums.ModificationType.Override
+  nameWithType: ModificationType.Override
+- uid: CatchIo.Runtime.Enums.ModificationType.Percentage
+  name: Percentage
+  href: api/CatchIo.Runtime.Enums.ModificationType.html#CatchIo_Runtime_Enums_ModificationType_Percentage
+  commentId: F:CatchIo.Runtime.Enums.ModificationType.Percentage
+  fullName: CatchIo.Runtime.Enums.ModificationType.Percentage
+  nameWithType: ModificationType.Percentage
 - uid: CatchIo.Runtime.Enums.PlayerFeedbackAction
   name: PlayerFeedbackAction
   href: api/CatchIo.Runtime.Enums.PlayerFeedbackAction.html
@@ -12161,6 +12339,12 @@ references:
   commentId: F:CatchIo.Runtime.Enums.SendEventType.NetworkTimerStopEvent
   fullName: CatchIo.Runtime.Enums.SendEventType.NetworkTimerStopEvent
   nameWithType: SendEventType.NetworkTimerStopEvent
+- uid: CatchIo.Runtime.Enums.SendEventType.PlayerDisconnected
+  name: PlayerDisconnected
+  href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_PlayerDisconnected
+  commentId: F:CatchIo.Runtime.Enums.SendEventType.PlayerDisconnected
+  fullName: CatchIo.Runtime.Enums.SendEventType.PlayerDisconnected
+  nameWithType: SendEventType.PlayerDisconnected
 - uid: CatchIo.Runtime.Enums.ShownCharacterStatsType
   name: ShownCharacterStatsType
   href: api/CatchIo.Runtime.Enums.ShownCharacterStatsType.html
@@ -13647,6 +13831,64 @@ references:
   commentId: E:CatchIo.Runtime.Interfaces.IMarkingEntity.OnMarked
   fullName: CatchIo.Runtime.Interfaces.IMarkingEntity.OnMarked
   nameWithType: IMarkingEntity.OnMarked
+- uid: CatchIo.Runtime.Interfaces.IPanickable
+  name: IPanickable
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html
+  commentId: T:CatchIo.Runtime.Interfaces.IPanickable
+  fullName: CatchIo.Runtime.Interfaces.IPanickable
+  nameWithType: IPanickable
+- uid: CatchIo.Runtime.Interfaces.IPanickable.ActorNumber
+  name: ActorNumber
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_ActorNumber
+  commentId: P:CatchIo.Runtime.Interfaces.IPanickable.ActorNumber
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.ActorNumber
+  nameWithType: IPanickable.ActorNumber
+- uid: CatchIo.Runtime.Interfaces.IPanickable.ActorNumber*
+  name: ActorNumber
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_ActorNumber_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IPanickable.ActorNumber
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.ActorNumber
+  nameWithType: IPanickable.ActorNumber
+- uid: CatchIo.Runtime.Interfaces.IPanickable.FallInPanic(System.Int32)
+  name: FallInPanic(Int32)
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_FallInPanic_System_Int32_
+  commentId: M:CatchIo.Runtime.Interfaces.IPanickable.FallInPanic(System.Int32)
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.FallInPanic(System.Int32)
+  nameWithType: IPanickable.FallInPanic(Int32)
+- uid: CatchIo.Runtime.Interfaces.IPanickable.FallInPanic*
+  name: FallInPanic
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_FallInPanic_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IPanickable.FallInPanic
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.FallInPanic
+  nameWithType: IPanickable.FallInPanic
+- uid: CatchIo.Runtime.Interfaces.IPanickable.RecoverFromPanic(System.Int32)
+  name: RecoverFromPanic(Int32)
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_RecoverFromPanic_System_Int32_
+  commentId: M:CatchIo.Runtime.Interfaces.IPanickable.RecoverFromPanic(System.Int32)
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.RecoverFromPanic(System.Int32)
+  nameWithType: IPanickable.RecoverFromPanic(Int32)
+- uid: CatchIo.Runtime.Interfaces.IPanickable.RecoverFromPanic*
+  name: RecoverFromPanic
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_RecoverFromPanic_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IPanickable.RecoverFromPanic
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.RecoverFromPanic
+  nameWithType: IPanickable.RecoverFromPanic
+- uid: CatchIo.Runtime.Interfaces.IPanickable.ViewID
+  name: ViewID
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_ViewID
+  commentId: P:CatchIo.Runtime.Interfaces.IPanickable.ViewID
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.ViewID
+  nameWithType: IPanickable.ViewID
+- uid: CatchIo.Runtime.Interfaces.IPanickable.ViewID*
+  name: ViewID
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_ViewID_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IPanickable.ViewID
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.ViewID
+  nameWithType: IPanickable.ViewID
 - uid: CatchIo.Runtime.Interfaces.IPositionProvider
   name: IPositionProvider
   href: api/CatchIo.Runtime.Interfaces.IPositionProvider.html
@@ -13717,6 +13959,70 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.ISoundDetectable.OnGenerate
   nameWithType: ISoundDetectable.OnGenerate
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator
+  name: ISoundWaveDetectionMediator
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html
+  commentId: T:CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator
+  nameWithType: ISoundWaveDetectionMediator
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
+  name: GetModificationDistance(SoundWaveType, Single, Int32)
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html#CatchIo_Runtime_Interfaces_ISoundWaveDetectionMediator_GetModificationDistance_SoundWaveType_System_Single_System_Int32_
+  commentId: M:CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, System.Single, System.Int32)
+  nameWithType: ISoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, Single, Int32)
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.GetModificationDistance*
+  name: GetModificationDistance
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html#CatchIo_Runtime_Interfaces_ISoundWaveDetectionMediator_GetModificationDistance_
+  commentId: Overload:CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.GetModificationDistance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.GetModificationDistance
+  nameWithType: ISoundWaveDetectionMediator.GetModificationDistance
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.RegisterModifier(CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier)
+  name: RegisterModifier(ISoundWaveDistanceModifier)
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html#CatchIo_Runtime_Interfaces_ISoundWaveDetectionMediator_RegisterModifier_CatchIo_Runtime_Interfaces_ISoundWaveDistanceModifier_
+  commentId: M:CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.RegisterModifier(CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier)
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.RegisterModifier(CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier)
+  nameWithType: ISoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.RegisterModifier*
+  name: RegisterModifier
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html#CatchIo_Runtime_Interfaces_ISoundWaveDetectionMediator_RegisterModifier_
+  commentId: Overload:CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.RegisterModifier
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.RegisterModifier
+  nameWithType: ISoundWaveDetectionMediator.RegisterModifier
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.UnregisterModifier(CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier)
+  name: UnregisterModifier(ISoundWaveDistanceModifier)
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html#CatchIo_Runtime_Interfaces_ISoundWaveDetectionMediator_UnregisterModifier_CatchIo_Runtime_Interfaces_ISoundWaveDistanceModifier_
+  commentId: M:CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.UnregisterModifier(CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier)
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.UnregisterModifier(CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier)
+  nameWithType: ISoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.UnregisterModifier*
+  name: UnregisterModifier
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.html#CatchIo_Runtime_Interfaces_ISoundWaveDetectionMediator_UnregisterModifier_
+  commentId: Overload:CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.UnregisterModifier
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDetectionMediator.UnregisterModifier
+  nameWithType: ISoundWaveDetectionMediator.UnregisterModifier
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier
+  name: ISoundWaveDistanceModifier
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.html
+  commentId: T:CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier
+  nameWithType: ISoundWaveDistanceModifier
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.GetModificationValue(SoundWaveType,System.Int32)
+  name: GetModificationValue(SoundWaveType, Int32)
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.html#CatchIo_Runtime_Interfaces_ISoundWaveDistanceModifier_GetModificationValue_SoundWaveType_System_Int32_
+  commentId: M:CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.GetModificationValue(SoundWaveType,System.Int32)
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.GetModificationValue(SoundWaveType, System.Int32)
+  nameWithType: ISoundWaveDistanceModifier.GetModificationValue(SoundWaveType, Int32)
+- uid: CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.GetModificationValue*
+  name: GetModificationValue
+  href: api/CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.html#CatchIo_Runtime_Interfaces_ISoundWaveDistanceModifier_GetModificationValue_
+  commentId: Overload:CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.GetModificationValue
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.ISoundWaveDistanceModifier.GetModificationValue
+  nameWithType: ISoundWaveDistanceModifier.GetModificationValue
 - uid: CatchIo.Runtime.Interfaces.ISurfaceObservable
   name: ISurfaceObservable
   href: api/CatchIo.Runtime.Interfaces.ISurfaceObservable.html
@@ -16014,19 +16320,32 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager
   fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager
   nameWithType: HudOverlaysManager
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleSpectreOverlay(System.Boolean)
-  name: HandleSpectreOverlay(Boolean)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleSpectreOverlay_System_Boolean_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleSpectreOverlay(System.Boolean)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleSpectreOverlay(System.Boolean)
-  nameWithType: HudOverlaysManager.HandleSpectreOverlay(Boolean)
-- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleSpectreOverlay*
-  name: HandleSpectreOverlay
-  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleSpectreOverlay_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleSpectreOverlay
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay(System.Boolean)
+  name: HandlePanicOverlay(Boolean)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandlePanicOverlay_System_Boolean_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay(System.Boolean)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay(System.Boolean)
+  nameWithType: HudOverlaysManager.HandlePanicOverlay(Boolean)
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay*
+  name: HandlePanicOverlay
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandlePanicOverlay_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay
   isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleSpectreOverlay
-  nameWithType: HudOverlaysManager.HandleSpectreOverlay
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandlePanicOverlay
+  nameWithType: HudOverlaysManager.HandlePanicOverlay
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay(System.Boolean)
+  name: HandleThreatOverlay(Boolean)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleThreatOverlay_System_Boolean_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay(System.Boolean)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay(System.Boolean)
+  nameWithType: HudOverlaysManager.HandleThreatOverlay(Boolean)
+- uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay*
+  name: HandleThreatOverlay
+  href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_HandleThreatOverlay_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.HandleThreatOverlay
+  nameWithType: HudOverlaysManager.HandleThreatOverlay
 - uid: CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.SetLightingOverlay
   name: SetLightingOverlay()
   href: api/CatchIo.Runtime.Menu.GameOverlay.CharacterHUD.HudOverlaysManager.html#CatchIo_Runtime_Menu_GameOverlay_CharacterHUD_HudOverlaysManager_SetLightingOverlay
@@ -19470,6 +19789,358 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.Receivers.NPCMarkHurtBox.ViewID
   nameWithType: NPCMarkHurtBox.ViewID
+- uid: CatchIo.Runtime.PanicModes
+  name: CatchIo.Runtime.PanicModes
+  href: api/CatchIo.Runtime.PanicModes.html
+  commentId: N:CatchIo.Runtime.PanicModes
+  fullName: CatchIo.Runtime.PanicModes
+  nameWithType: CatchIo.Runtime.PanicModes
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener
+  name: CharacterPanicListener
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html
+  commentId: T:CatchIo.Runtime.PanicModes.CharacterPanicListener
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener
+  nameWithType: CharacterPanicListener
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.ApplyRemotePanicState(System.Int32,System.Boolean)
+  name: ApplyRemotePanicState(Int32, Boolean)
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_ApplyRemotePanicState_System_Int32_System_Boolean_
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicListener.ApplyRemotePanicState(System.Int32,System.Boolean)
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.ApplyRemotePanicState(System.Int32, System.Boolean)
+  nameWithType: CharacterPanicListener.ApplyRemotePanicState(Int32, Boolean)
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.ApplyRemotePanicState*
+  name: ApplyRemotePanicState
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_ApplyRemotePanicState_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicListener.ApplyRemotePanicState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.ApplyRemotePanicState
+  nameWithType: CharacterPanicListener.ApplyRemotePanicState
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.FallInPanic(System.Int32)
+  name: FallInPanic(Int32)
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_FallInPanic_System_Int32_
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicListener.FallInPanic(System.Int32)
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.FallInPanic(System.Int32)
+  nameWithType: CharacterPanicListener.FallInPanic(Int32)
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.FallInPanic*
+  name: FallInPanic
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_FallInPanic_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicListener.FallInPanic
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.FallInPanic
+  nameWithType: CharacterPanicListener.FallInPanic
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.OnRequestFallInPanic
+  name: OnRequestFallInPanic
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_OnRequestFallInPanic
+  commentId: E:CatchIo.Runtime.PanicModes.CharacterPanicListener.OnRequestFallInPanic
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.OnRequestFallInPanic
+  nameWithType: CharacterPanicListener.OnRequestFallInPanic
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.OnRequestRecoverFromPanic
+  name: OnRequestRecoverFromPanic
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_OnRequestRecoverFromPanic
+  commentId: E:CatchIo.Runtime.PanicModes.CharacterPanicListener.OnRequestRecoverFromPanic
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.OnRequestRecoverFromPanic
+  nameWithType: CharacterPanicListener.OnRequestRecoverFromPanic
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.RecoverFromPanic(System.Int32)
+  name: RecoverFromPanic(Int32)
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_RecoverFromPanic_System_Int32_
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicListener.RecoverFromPanic(System.Int32)
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.RecoverFromPanic(System.Int32)
+  nameWithType: CharacterPanicListener.RecoverFromPanic(Int32)
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicListener.RecoverFromPanic*
+  name: RecoverFromPanic
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicListener.html#CatchIo_Runtime_PanicModes_CharacterPanicListener_RecoverFromPanic_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicListener.RecoverFromPanic
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicListener.RecoverFromPanic
+  nameWithType: CharacterPanicListener.RecoverFromPanic
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter
+  name: CharacterPanicSfxEmitter
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.html
+  commentId: T:CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter
+  nameWithType: CharacterPanicSfxEmitter
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_CharacterPanicSfxEmitter_Awake
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.Awake
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.Awake()
+  nameWithType: CharacterPanicSfxEmitter.Awake()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_CharacterPanicSfxEmitter_Awake_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.Awake
+  nameWithType: CharacterPanicSfxEmitter.Awake
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.OnDestroy
+  name: OnDestroy()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_CharacterPanicSfxEmitter_OnDestroy
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.OnDestroy
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.OnDestroy()
+  nameWithType: CharacterPanicSfxEmitter.OnDestroy()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.OnDestroy*
+  name: OnDestroy
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_CharacterPanicSfxEmitter_OnDestroy_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.OnDestroy
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicSfxEmitter.OnDestroy
+  nameWithType: CharacterPanicSfxEmitter.OnDestroy
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger
+  name: CharacterPanicTrigger
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html
+  commentId: T:CatchIo.Runtime.PanicModes.CharacterPanicTrigger
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger
+  nameWithType: CharacterPanicTrigger
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView
+  name: _photonView
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger__photonView
+  commentId: F:CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView
+  nameWithType: CharacterPanicTrigger._photonView
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator
+  name: _rotator
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger__rotator
+  commentId: F:CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator
+  nameWithType: CharacterPanicTrigger._rotator
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake()
+  nameWithType: CharacterPanicTrigger.Awake()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
+  nameWithType: CharacterPanicTrigger.Awake
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
+  name: HandleInductionTimerStop()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop()
+  nameWithType: CharacterPanicTrigger.HandleInductionTimerStop()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop*
+  name: HandleInductionTimerStop
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
+  nameWithType: CharacterPanicTrigger.HandleInductionTimerStop
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
+  name: HandlePanicEscapeTimerStop()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop()
+  nameWithType: CharacterPanicTrigger.HandlePanicEscapeTimerStop()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop*
+  name: HandlePanicEscapeTimerStop
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
+  nameWithType: CharacterPanicTrigger.HandlePanicEscapeTimerStop
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
+  name: IsValid()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid()
+  nameWithType: CharacterPanicTrigger.IsValid()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid*
+  name: IsValid
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
+  nameWithType: CharacterPanicTrigger.IsValid
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
+  name: OnDestroy()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy()
+  nameWithType: CharacterPanicTrigger.OnDestroy()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy*
+  name: OnDestroy
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
+  nameWithType: CharacterPanicTrigger.OnDestroy
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent(EventData)
+  name: OnEvent(EventData)
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnEvent_EventData_
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent(EventData)
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent(EventData)
+  nameWithType: CharacterPanicTrigger.OnEvent(EventData)
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent*
+  name: OnEvent
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnEvent_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent
+  nameWithType: CharacterPanicTrigger.OnEvent
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
+  name: Start()
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start()
+  nameWithType: CharacterPanicTrigger.Start()
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start*
+  name: Start
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
+  nameWithType: CharacterPanicTrigger.Start
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget(CharacterFacade)
+  name: SwitchPanicTarget(CharacterFacade)
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_SwitchPanicTarget_CharacterFacade_
+  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget(CharacterFacade)
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget(CharacterFacade)
+  nameWithType: CharacterPanicTrigger.SwitchPanicTarget(CharacterFacade)
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget*
+  name: SwitchPanicTarget
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_SwitchPanicTarget_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget
+  nameWithType: CharacterPanicTrigger.SwitchPanicTarget
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
+  name: ViewID
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID
+  commentId: P:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
+  nameWithType: CharacterPanicTrigger.ViewID
+- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID*
+  name: ViewID
+  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID_
+  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
+  nameWithType: CharacterPanicTrigger.ViewID
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter
+  name: EntityPanicSfxEmitter
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html
+  commentId: T:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter
+  nameWithType: EntityPanicSfxEmitter
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter._isPlaying
+  name: _isPlaying
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter__isPlaying
+  commentId: F:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter._isPlaying
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter._isPlaying
+  nameWithType: EntityPanicSfxEmitter._isPlaying
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_Awake
+  commentId: M:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Awake
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Awake()
+  nameWithType: EntityPanicSfxEmitter.Awake()
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_Awake_
+  commentId: Overload:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Awake
+  nameWithType: EntityPanicSfxEmitter.Awake
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Emit
+  name: Emit()
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_Emit
+  commentId: M:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Emit
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Emit()
+  nameWithType: EntityPanicSfxEmitter.Emit()
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Emit*
+  name: Emit
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_Emit_
+  commentId: Overload:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Emit
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Emit
+  nameWithType: EntityPanicSfxEmitter.Emit
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.OnDestroy
+  name: OnDestroy()
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_OnDestroy
+  commentId: M:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.OnDestroy
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.OnDestroy()
+  nameWithType: EntityPanicSfxEmitter.OnDestroy()
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.OnDestroy*
+  name: OnDestroy
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_OnDestroy_
+  commentId: Overload:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.OnDestroy
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.OnDestroy
+  nameWithType: EntityPanicSfxEmitter.OnDestroy
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Stop
+  name: Stop()
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_Stop
+  commentId: M:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Stop
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Stop()
+  nameWithType: EntityPanicSfxEmitter.Stop()
+- uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Stop*
+  name: Stop
+  href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html#CatchIo_Runtime_PanicModes_EntityPanicSfxEmitter_Stop_
+  commentId: Overload:CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Stop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.Stop
+  nameWithType: EntityPanicSfxEmitter.Stop
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier
+  name: PanicSoundWaveDistanceModifier
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html
+  commentId: T:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier
+  nameWithType: PanicSoundWaveDistanceModifier
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor(System.Int32)
+  name: AddAggressor(Int32)
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_AddAggressor_System_Int32_
+  commentId: M:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor(System.Int32)
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor(System.Int32)
+  nameWithType: PanicSoundWaveDistanceModifier.AddAggressor(Int32)
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor*
+  name: AddAggressor
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_AddAggressor_
+  commentId: Overload:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.AddAggressor
+  nameWithType: PanicSoundWaveDistanceModifier.AddAggressor
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear
+  name: Clear()
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_Clear
+  commentId: M:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear()
+  nameWithType: PanicSoundWaveDistanceModifier.Clear()
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear*
+  name: Clear
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_Clear_
+  commentId: Overload:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.Clear
+  nameWithType: PanicSoundWaveDistanceModifier.Clear
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue(SoundWaveType,System.Int32)
+  name: GetModificationValue(SoundWaveType, Int32)
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_GetModificationValue_SoundWaveType_System_Int32_
+  commentId: M:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue(SoundWaveType,System.Int32)
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue(SoundWaveType, System.Int32)
+  nameWithType: PanicSoundWaveDistanceModifier.GetModificationValue(SoundWaveType, Int32)
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue*
+  name: GetModificationValue
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_GetModificationValue_
+  commentId: Overload:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.GetModificationValue
+  nameWithType: PanicSoundWaveDistanceModifier.GetModificationValue
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor(System.Int32)
+  name: RemoveAggressor(Int32)
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_RemoveAggressor_System_Int32_
+  commentId: M:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor(System.Int32)
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor(System.Int32)
+  nameWithType: PanicSoundWaveDistanceModifier.RemoveAggressor(Int32)
+- uid: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor*
+  name: RemoveAggressor
+  href: api/CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.html#CatchIo_Runtime_PanicModes_PanicSoundWaveDistanceModifier_RemoveAggressor_
+  commentId: Overload:CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.PanicModes.PanicSoundWaveDistanceModifier.RemoveAggressor
+  nameWithType: PanicSoundWaveDistanceModifier.RemoveAggressor
 - uid: CatchIo.Runtime.ScoutingEyes
   name: CatchIo.Runtime.ScoutingEyes
   href: api/CatchIo.Runtime.ScoutingEyes.html
@@ -23521,6 +24192,24 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Services.FullScreenEffectService.DeactivateEffect
   nameWithType: FullScreenEffectService.DeactivateEffect
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute
+  name: FullScreenEffectService.EffectAttribute
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.html
+  commentId: T:CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute
+  nameWithType: FullScreenEffectService.EffectAttribute
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.None
+  name: None
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.html#CatchIo_Runtime_Services_FullScreenEffectService_EffectAttribute_None
+  commentId: F:CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.None
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.None
+  nameWithType: FullScreenEffectService.EffectAttribute.None
+- uid: CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.NonStackable
+  name: NonStackable
+  href: api/CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.html#CatchIo_Runtime_Services_FullScreenEffectService_EffectAttribute_NonStackable
+  commentId: F:CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.NonStackable
+  fullName: CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.NonStackable
+  nameWithType: FullScreenEffectService.EffectAttribute.NonStackable
 - uid: CatchIo.Runtime.Services.FullScreenEffectService.FadeIn(FullScreenEffects,System.Single)
   name: FadeIn(FullScreenEffects, Single)
   href: api/CatchIo.Runtime.Services.FullScreenEffectService.html#CatchIo_Runtime_Services_FullScreenEffectService_FadeIn_FullScreenEffects_System_Single_
@@ -24659,6 +25348,106 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.Music.Stop
   nameWithType: Music.Stop
+- uid: CatchIo.Runtime.Sound.PanicSFX
+  name: CatchIo.Runtime.Sound.PanicSFX
+  href: api/CatchIo.Runtime.Sound.PanicSFX.html
+  commentId: N:CatchIo.Runtime.Sound.PanicSFX
+  fullName: CatchIo.Runtime.Sound.PanicSFX
+  nameWithType: CatchIo.Runtime.Sound.PanicSFX
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx
+  name: PanicLoopSfx
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.html
+  commentId: T:CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx
+  nameWithType: PanicLoopSfx
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.#ctor
+  name: PanicLoopSfx()
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicLoopSfx__ctor
+  commentId: M:CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.#ctor
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.PanicLoopSfx()
+  nameWithType: PanicLoopSfx.PanicLoopSfx()
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.#ctor*
+  name: PanicLoopSfx
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicLoopSfx__ctor_
+  commentId: Overload:CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.PanicLoopSfx
+  nameWithType: PanicLoopSfx.PanicLoopSfx
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.Play(Vector3,System.String,System.Single)
+  name: Play(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicLoopSfx_Play_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.Play(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.Play(Vector3, System.String, System.Single)
+  nameWithType: PanicLoopSfx.Play(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.Play*
+  name: Play
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicLoopSfx_Play_
+  commentId: Overload:CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.Play
+  nameWithType: PanicLoopSfx.Play
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.UpdatePosition(Vector3)
+  name: UpdatePosition(Vector3)
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicLoopSfx_UpdatePosition_Vector3_
+  commentId: M:CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.UpdatePosition(Vector3)
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.UpdatePosition(Vector3)
+  nameWithType: PanicLoopSfx.UpdatePosition(Vector3)
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.UpdatePosition*
+  name: UpdatePosition
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicLoopSfx_UpdatePosition_
+  commentId: Overload:CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.UpdatePosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicLoopSfx.UpdatePosition
+  nameWithType: PanicLoopSfx.UpdatePosition
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx
+  name: PanicStateSfx
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.html
+  commentId: T:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx
+  nameWithType: PanicStateSfx
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState
+  name: PanicStateSfx.PanicModeState
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.html
+  commentId: T:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState
+  nameWithType: PanicStateSfx.PanicModeState
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.Activation
+  name: Activation
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.html#CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_PanicModeState_Activation
+  commentId: F:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.Activation
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.Activation
+  nameWithType: PanicStateSfx.PanicModeState.Activation
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.Deactivation
+  name: Deactivation
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.html#CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_PanicModeState_Deactivation
+  commentId: F:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.Deactivation
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState.Deactivation
+  nameWithType: PanicStateSfx.PanicModeState.Deactivation
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicStateSfxMap
+  name: PanicStateSfxMap
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_PanicStateSfxMap
+  commentId: F:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicStateSfxMap
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicStateSfxMap
+  nameWithType: PanicStateSfx.PanicStateSfxMap
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3,CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState,System.Single)
+  name: Play(Vector3, PanicStateSfx.PanicModeState, Single)
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_Play_Vector3_CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_PanicModeState_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3,CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState,System.Single)
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3, CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.PanicModeState, System.Single)
+  nameWithType: PanicStateSfx.Play(Vector3, PanicStateSfx.PanicModeState, Single)
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3,System.String,System.Single)
+  name: Play(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_Play_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play(Vector3, System.String, System.Single)
+  nameWithType: PanicStateSfx.Play(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play*
+  name: Play
+  href: api/CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.html#CatchIo_Runtime_Sound_PanicSFX_PanicStateSfx_Play_
+  commentId: Overload:CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.PanicSFX.PanicStateSfx.Play
+  nameWithType: PanicStateSfx.Play
 - uid: CatchIo.Runtime.Sound.Sfx
   name: Sfx
   href: api/CatchIo.Runtime.Sound.Sfx.html
@@ -24891,6 +25680,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.PlayNewVolumeSample
   nameWithType: SoundManager.PlayNewVolumeSample
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayPanicLoopSfx(Vector3)
+  name: PlayPanicLoopSfx(Vector3)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayPanicLoopSfx_Vector3_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.PlayPanicLoopSfx(Vector3)
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayPanicLoopSfx(Vector3)
+  nameWithType: SoundManager.PlayPanicLoopSfx(Vector3)
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayPanicLoopSfx*
+  name: PlayPanicLoopSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayPanicLoopSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.PlayPanicLoopSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayPanicLoopSfx
+  nameWithType: SoundManager.PlayPanicLoopSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayPanicStateSfx(Vector3,PanicStateSfx.PanicModeState)
+  name: PlayPanicStateSfx(Vector3, PanicStateSfx.PanicModeState)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayPanicStateSfx_Vector3_PanicStateSfx_PanicModeState_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.PlayPanicStateSfx(Vector3,PanicStateSfx.PanicModeState)
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayPanicStateSfx(Vector3, PanicStateSfx.PanicModeState)
+  nameWithType: SoundManager.PlayPanicStateSfx(Vector3, PanicStateSfx.PanicModeState)
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayPanicStateSfx*
+  name: PlayPanicStateSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayPanicStateSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.PlayPanicStateSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayPanicStateSfx
+  nameWithType: SoundManager.PlayPanicStateSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.PlayStaminaSfx(System.String,System.Single)
   name: PlayStaminaSfx(String, Single)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayStaminaSfx_System_String_System_Single_
@@ -25021,6 +25836,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget
   nameWithType: SoundManager.SetAudioListenerTarget
+- uid: CatchIo.Runtime.Sound.SoundManager.StopPanicLoopSfx
+  name: StopPanicLoopSfx()
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopPanicLoopSfx
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.StopPanicLoopSfx
+  fullName: CatchIo.Runtime.Sound.SoundManager.StopPanicLoopSfx()
+  nameWithType: SoundManager.StopPanicLoopSfx()
+- uid: CatchIo.Runtime.Sound.SoundManager.StopPanicLoopSfx*
+  name: StopPanicLoopSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopPanicLoopSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.StopPanicLoopSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.StopPanicLoopSfx
+  nameWithType: SoundManager.StopPanicLoopSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.StopStaminaSfx
   name: StopStaminaSfx()
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopStaminaSfx
@@ -25047,6 +25875,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.StopWhisperSfx
   nameWithType: SoundManager.StopWhisperSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.UpdateFocusSfx(Vector3)
+  name: UpdateFocusSfx(Vector3)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_UpdateFocusSfx_Vector3_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.UpdateFocusSfx(Vector3)
+  fullName: CatchIo.Runtime.Sound.SoundManager.UpdateFocusSfx(Vector3)
+  nameWithType: SoundManager.UpdateFocusSfx(Vector3)
+- uid: CatchIo.Runtime.Sound.SoundManager.UpdateFocusSfx*
+  name: UpdateFocusSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_UpdateFocusSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.UpdateFocusSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.UpdateFocusSfx
+  nameWithType: SoundManager.UpdateFocusSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.UpdateWhisperSfx(Vector2)
   name: UpdateWhisperSfx(Vector2)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_UpdateWhisperSfx_Vector2_
@@ -26089,6 +26930,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.IsFinished
   nameWithType: FixedStopWatchTimer.IsFinished
+- uid: CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.Reset
+  name: Reset()
+  href: api/CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.html#CatchIo_Runtime_Utilities_Timers_FixedStopWatchTimer_Reset
+  commentId: M:CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.Reset
+  fullName: CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.Reset()
+  nameWithType: FixedStopWatchTimer.Reset()
+- uid: CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.Reset*
+  name: Reset
+  href: api/CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.html#CatchIo_Runtime_Utilities_Timers_FixedStopWatchTimer_Reset_
+  commentId: Overload:CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.Reset
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.Reset
+  nameWithType: FixedStopWatchTimer.Reset
 - uid: CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.Start
   name: Start()
   href: api/CatchIo.Runtime.Utilities.Timers.FixedStopWatchTimer.html#CatchIo_Runtime_Utilities_Timers_FixedStopWatchTimer_Start
@@ -26738,18 +27592,24 @@ references:
   commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.SoundWaveType
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.SoundWaveType
   nameWithType: SoundWaveEvent.SoundWaveType
+- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.ViewID
+  name: ViewID
+  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_ViewID
+  commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.ViewID
+  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.ViewID
+  nameWithType: SoundWaveEvent.ViewID
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator
   name: SoundWaveEventGenerator
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html
   commentId: T:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator
   nameWithType: SoundWaveEventGenerator
-- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32)
-  name: Generate(Vector3, SoundWaveType, Boolean, Int32)
-  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_Vector3_SoundWaveType_System_Boolean_System_Int32_
-  commentId: M:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32)
-  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, System.Boolean, System.Int32)
-  nameWithType: SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, Boolean, Int32)
+- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32,System.Int32)
+  name: Generate(Vector3, SoundWaveType, Boolean, Int32, Int32)
+  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_Vector3_SoundWaveType_System_Boolean_System_Int32_System_Int32_
+  commentId: M:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32,System.Int32)
+  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, System.Boolean, System.Int32, System.Int32)
+  nameWithType: SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, Boolean, Int32, Int32)
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate*
   name: Generate
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_
@@ -28521,6 +29381,64 @@ references:
   commentId: F:CatchIo.Runtime.Values.KnockBackData.UsingKnockback
   fullName: CatchIo.Runtime.Values.KnockBackData.UsingKnockback
   nameWithType: KnockBackData.UsingKnockback
+- uid: CatchIo.Runtime.Values.ModificationValue
+  name: ModificationValue
+  href: api/CatchIo.Runtime.Values.ModificationValue.html
+  commentId: T:CatchIo.Runtime.Values.ModificationValue
+  fullName: CatchIo.Runtime.Values.ModificationValue
+  nameWithType: ModificationValue
+- uid: CatchIo.Runtime.Values.ModificationValue.#ctor(System.Single,ModificationType)
+  name: ModificationValue(Single, ModificationType)
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue__ctor_System_Single_ModificationType_
+  commentId: M:CatchIo.Runtime.Values.ModificationValue.#ctor(System.Single,ModificationType)
+  fullName: CatchIo.Runtime.Values.ModificationValue.ModificationValue(System.Single, ModificationType)
+  nameWithType: ModificationValue.ModificationValue(Single, ModificationType)
+- uid: CatchIo.Runtime.Values.ModificationValue.#ctor*
+  name: ModificationValue
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue__ctor_
+  commentId: Overload:CatchIo.Runtime.Values.ModificationValue.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.ModificationValue.ModificationValue
+  nameWithType: ModificationValue.ModificationValue
+- uid: CatchIo.Runtime.Values.ModificationValue.Default
+  name: Default
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue_Default
+  commentId: P:CatchIo.Runtime.Values.ModificationValue.Default
+  fullName: CatchIo.Runtime.Values.ModificationValue.Default
+  nameWithType: ModificationValue.Default
+- uid: CatchIo.Runtime.Values.ModificationValue.Default*
+  name: Default
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue_Default_
+  commentId: Overload:CatchIo.Runtime.Values.ModificationValue.Default
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.ModificationValue.Default
+  nameWithType: ModificationValue.Default
+- uid: CatchIo.Runtime.Values.ModificationValue.Type
+  name: Type
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue_Type
+  commentId: P:CatchIo.Runtime.Values.ModificationValue.Type
+  fullName: CatchIo.Runtime.Values.ModificationValue.Type
+  nameWithType: ModificationValue.Type
+- uid: CatchIo.Runtime.Values.ModificationValue.Type*
+  name: Type
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue_Type_
+  commentId: Overload:CatchIo.Runtime.Values.ModificationValue.Type
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.ModificationValue.Type
+  nameWithType: ModificationValue.Type
+- uid: CatchIo.Runtime.Values.ModificationValue.Value
+  name: Value
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue_Value
+  commentId: P:CatchIo.Runtime.Values.ModificationValue.Value
+  fullName: CatchIo.Runtime.Values.ModificationValue.Value
+  nameWithType: ModificationValue.Value
+- uid: CatchIo.Runtime.Values.ModificationValue.Value*
+  name: Value
+  href: api/CatchIo.Runtime.Values.ModificationValue.html#CatchIo_Runtime_Values_ModificationValue_Value_
+  commentId: Overload:CatchIo.Runtime.Values.ModificationValue.Value
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Values.ModificationValue.Value
+  nameWithType: ModificationValue.Value
 - uid: CatchIo.Runtime.Whispers
   name: CatchIo.Runtime.Whispers
   href: api/CatchIo.Runtime.Whispers.html

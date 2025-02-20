@@ -91,7 +91,38 @@
       <section><p>This class stores custom console commands that can be run within a room. (not in the launcher or menus)</p>
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Services.FullScreenEffectService.html">FullScreenEffectService</a></h4>
-      <section><p>A class that Manages full screen overlay effect using URP full screen shaders</p>
+      <section><p>Manages full-screen overlay effects using Universal Render Pipeline (URP) full-screen shaders.</p>
+<p>Key Responsibilities:</p>
+<ul>
+<li>Activate and deactivate full-screen visual effects</li>
+<li>Support effect stacking and non-stackable effect management</li>
+<li>Provide smooth fade-in and fade-out transitions for effects</li>
+</ul>
+<p>Design Patterns:</p>
+<ul>
+<li>Service Locator pattern (via AutoRegisteredService attribute)</li>
+<li>State management for multiple full-screen effects</li>
+</ul>
+<p>Features:</p>
+<ul>
+<li>Supports multiple simultaneous effects</li>
+<li>Handles non-stackable effects with priority</li>
+<li>Async fade transitions using UniTask</li>
+<li>Cancellable effect transitions</li>
+</ul>
+<p>Typical Use Cases:</p>
+<ul>
+<li>Damage indication</li>
+<li>Low stamina warning</li>
+<li>Critical status effects</li>
+<li>Temporary screen overlays</li>
+</ul>
+<p>Performance Considerations:</p>
+<ul>
+<li>Uses shader-based alpha manipulation for smooth transitions</li>
+<li>Minimizes material and effect state changes</li>
+<li>Provides cancellation mechanisms to prevent resource leaks</li>
+</ul>
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Services.LoadingScreenService.html">LoadingScreenService</a></h4>
       <section></section>
@@ -101,6 +132,9 @@
       <section></section>
     <h3 id="enums">Enums
   </h3>
+      <h4><a class="xref" href="CatchIo.Runtime.Services.FullScreenEffectService.EffectAttribute.html">FullScreenEffectService.EffectAttribute</a></h4>
+      <section><p>Defines attributes for full-screen effects</p>
+</section>
       <h4><a class="xref" href="CatchIo.Runtime.Services.NetworkService.NetworkState.html">NetworkService.NetworkState</a></h4>
       <section></section>
 </article>
