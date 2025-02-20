@@ -6402,6 +6402,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetItem
   nameWithType: Inventory.GetItem
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetItemCount(ItemData)
+  name: GetItemCount(ItemData)
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetItemCount_ItemData_
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.GetItemCount(ItemData)
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetItemCount(ItemData)
+  nameWithType: Inventory.GetItemCount(ItemData)
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetItemCount*
+  name: GetItemCount
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetItemCount_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.GetItemCount
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetItemCount
+  nameWithType: Inventory.GetItemCount
 - uid: CatchIo.Runtime.Character.Inventory.Inventory.GetItemSlot(ItemData)
   name: GetItemSlot(ItemData)
   href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetItemSlot_ItemData_
@@ -6586,6 +6599,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.InventoryController.GetItem
   nameWithType: InventoryController.GetItem
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.GetItemCount(ItemData)
+  name: GetItemCount(ItemData)
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_GetItemCount_ItemData_
+  commentId: M:CatchIo.Runtime.Character.Inventory.InventoryController.GetItemCount(ItemData)
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.GetItemCount(ItemData)
+  nameWithType: InventoryController.GetItemCount(ItemData)
+- uid: CatchIo.Runtime.Character.Inventory.InventoryController.GetItemCount*
+  name: GetItemCount
+  href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_GetItemCount_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.InventoryController.GetItemCount
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.InventoryController.GetItemCount
+  nameWithType: InventoryController.GetItemCount
 - uid: CatchIo.Runtime.Character.Inventory.InventoryController.GetSelectedItem
   name: GetSelectedItem()
   href: api/CatchIo.Runtime.Character.Inventory.InventoryController.html#CatchIo_Runtime_Character_Inventory_InventoryController_GetSelectedItem
@@ -14186,6 +14212,12 @@ references:
   commentId: F:CatchIo.Runtime.Items.Data.ItemData.ItemPrefabPath
   fullName: CatchIo.Runtime.Items.Data.ItemData.ItemPrefabPath
   nameWithType: ItemData.ItemPrefabPath
+- uid: CatchIo.Runtime.Items.Data.ItemData.LimitNumberInInventory
+  name: LimitNumberInInventory
+  href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_LimitNumberInInventory
+  commentId: F:CatchIo.Runtime.Items.Data.ItemData.LimitNumberInInventory
+  fullName: CatchIo.Runtime.Items.Data.ItemData.LimitNumberInInventory
+  nameWithType: ItemData.LimitNumberInInventory
 - uid: CatchIo.Runtime.Items.Data.ItemData.Pickup_SFX
   name: Pickup_SFX
   href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_Pickup_SFX
