@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ItemThrowHandler
+    <title>Class CharacterItemDropper
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ItemThrowHandler
+    <meta name="title" content="Class CharacterItemDropper
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,39 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper">
   
   
-  <h1 id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler" class="text-break">Class ItemThrowHandler
+  <h1 id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper" class="text-break">Class CharacterItemDropper
   </h1>
-  <div class="markdown level0 summary"><p>Handles the process of throwing items, including calculating trajectories, detecting impacts,
-and managing the item’s life cycle. This class works with the <see cref="!:ThrowableItem"></see> and
-utilizes asynchronous tasks to handle item movement along a trajectory.</p>
+  <div class="markdown level0 summary"><p>Manages item dropping actions for a character, including trajectory calculations</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ItemThrowHandler</span></div>
+    <div class="level1"><span class="xref">CharacterItemDropper</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Throwing.html">CatchIo.Runtime.Items.Throwing</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Inventory.html">CatchIo.Runtime.Character.Inventory</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ItemThrowHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class CharacterItemDropper</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler__ctor_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.#ctor*"></a>
-  <h4 id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler__ctor_ThrowableItem_System_Single_LayerMask_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.#ctor(ThrowableItem,System.Single,LayerMask)">ItemThrowHandler(ThrowableItem, Single, LayerMask)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.html">ItemThrowHandler</a> with specified parameters.</p>
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper__ctor_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper.#ctor*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper__ctor_CatchIo_Runtime_Character_CharacterFacade_CatchIo_Runtime_Character_Inventory_InventoryItemFactory_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper.#ctor(CatchIo.Runtime.Character.CharacterFacade,CatchIo.Runtime.Character.Inventory.InventoryItemFactory)">CharacterItemDropper(CharacterFacade, InventoryItemFactory)</h4>
+  <div class="markdown level1 summary"><p>Initializes the CharacterItemThrower with references to the character and inventory item factory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemThrowHandler(ThrowableItem owner, float radius, LayerMask targetLayer)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharacterItemDropper(CharacterFacade character, InventoryItemFactory inventoryItemFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,49 +121,16 @@ utilizes asynchronous tasks to handle item movement along a trajectory.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ThrowableItem</span></td>
-        <td><span class="parametername">owner</span></td>
-        <td><p>The throwable item that owns this handler.</p>
+        <td><a class="xref" href="CatchIo.Runtime.Character.CharacterFacade.html">CharacterFacade</a></td>
+        <td><span class="parametername">character</span></td>
+        <td><p>The character that owns this item thrower.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">radius</span></td>
-        <td><p>Detection radius for impacts during the throw.</p>
+        <td><a class="xref" href="CatchIo.Runtime.Character.Inventory.InventoryItemFactory.html">InventoryItemFactory</a></td>
+        <td><span class="parametername">inventoryItemFactory</span></td>
+        <td><p>The factory used for creating item instances.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">LayerMask</span></td>
-        <td><span class="parametername">targetLayer</span></td>
-        <td><p>Layer mask for valid impact targets.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_IsThrowing_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.IsThrowing*"></a>
-  <h4 id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_IsThrowing" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.IsThrowing">IsThrowing</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsThrowing { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -173,14 +138,14 @@ utilizes asynchronous tasks to handle item movement along a trajectory.</p>
   </h3>
   
   
-  <a id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_SetData_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.SetData*"></a>
-  <h4 id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_SetData_ThrowableItemData_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.SetData(ThrowableItemData)">SetData(ThrowableItemData)</h4>
-  <div class="markdown level1 summary"><p>Sets the throwable item data, providing trajectory and impact effect details.</p>
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper_DropItemAsync_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper.DropItemAsync*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper_DropItemAsync_ItemData_Vector2_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper.DropItemAsync(ItemData,Vector2)">DropItemAsync(ItemData, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously drops an item in a specified direction from the character&apos;s position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetData(ThrowableItemData throwableItemData)</code></pre>
+    <pre><code class="lang-csharp hljs">public async UniTaskVoid DropItemAsync(ItemData itemData, Vector2 direction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -193,23 +158,45 @@ utilizes asynchronous tasks to handle item movement along a trajectory.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ThrowableItemData</span></td>
-        <td><span class="parametername">throwableItemData</span></td>
-        <td><p>Data containing properties of the throwable item.</p>
+        <td><span class="xref">ItemData</span></td>
+        <td><span class="parametername">itemData</span></td>
+        <td><p>The data of the item to drop.</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction in which the item will be dropped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTaskVoid</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_SetInstigator_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.SetInstigator*"></a>
-  <h4 id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_SetInstigator_System_Int32_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.SetInstigator(System.Int32)">SetInstigator(Int32)</h4>
-  <div class="markdown level1 summary"><p>Sets the instigator’s ID for the throw, identifying the entity responsible for the throw.</p>
+  <a id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper_DropItemRandomAsync_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper.DropItemRandomAsync*"></a>
+  <h4 id="CatchIo_Runtime_Character_Inventory_CharacterItemDropper_DropItemRandomAsync_ItemData_System_Single_" data-uid="CatchIo.Runtime.Character.Inventory.CharacterItemDropper.DropItemRandomAsync(ItemData,System.Single)">DropItemRandomAsync(ItemData, Single)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously drops an item in a random direction from the character&apos;s position,
+ensuring a minimum drop magnitude.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetInstigator(int instigatorViewID)</code></pre>
+    <pre><code class="lang-csharp hljs">public async UniTask DropItemRandomAsync(ItemData itemData, float minDropMagnitude = 0.5F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,44 +209,15 @@ utilizes asynchronous tasks to handle item movement along a trajectory.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">instigatorViewID</span></td>
-        <td><p>PhotonView ID of the instigator.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_ThrowItemAsync_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.ThrowItemAsync*"></a>
-  <h4 id="CatchIo_Runtime_Items_Throwing_ItemThrowHandler_ThrowItemAsync_Vector2_Vector2_" data-uid="CatchIo.Runtime.Items.Throwing.ItemThrowHandler.ThrowItemAsync(Vector2,Vector2)">ThrowItemAsync(Vector2, Vector2)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously manages the throw trajectory and applies impact effects on ground contact.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTask ThrowItemAsync(Vector2 startPosition, Vector2 targetPosition)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">startPosition</span></td>
-        <td><p>The starting position of the throw.</p>
+        <td><span class="xref">ItemData</span></td>
+        <td><span class="parametername">itemData</span></td>
+        <td><p>The data of the item to drop.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">targetPosition</span></td>
-        <td><p>The target position for the throw.</p>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">minDropMagnitude</span></td>
+        <td><p>The minimum magnitude of the drop direction.</p>
 </td>
       </tr>
     </tbody>
