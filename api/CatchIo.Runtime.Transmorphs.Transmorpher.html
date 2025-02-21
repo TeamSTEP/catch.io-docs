@@ -267,13 +267,13 @@ This class is responsible for handling transmorph and transmorph cancellation ev
   
   
   <a id="CatchIo_Runtime_Transmorphs_Transmorpher_OnTransmorphCanceled_" data-uid="CatchIo.Runtime.Transmorphs.Transmorpher.OnTransmorphCanceled*"></a>
-  <h4 id="CatchIo_Runtime_Transmorphs_Transmorpher_OnTransmorphCanceled_System_Boolean_CharacterActionType_" data-uid="CatchIo.Runtime.Transmorphs.Transmorpher.OnTransmorphCanceled(System.Boolean,CharacterActionType)">OnTransmorphCanceled(Boolean, CharacterActionType)</h4>
+  <h4 id="CatchIo_Runtime_Transmorphs_Transmorpher_OnTransmorphCanceled_System_Boolean_" data-uid="CatchIo.Runtime.Transmorphs.Transmorpher.OnTransmorphCanceled(System.Boolean)">OnTransmorphCanceled(Boolean)</h4>
   <div class="markdown level1 summary"><p>Executes when the transmorph is canceled.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void OnTransmorphCanceled(bool isPermanentCancel = true, CharacterActionType actionTypeCause = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void OnTransmorphCanceled(bool isPermanentCancel)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -290,11 +290,6 @@ This class is responsible for handling transmorph and transmorph cancellation ev
         <td><span class="parametername">isPermanentCancel</span></td>
         <td><p>Indicates if the cancellation is permanent, which resets the transmorph state.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">CharacterActionType</span></td>
-        <td><span class="parametername">actionTypeCause</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
