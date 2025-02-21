@@ -2621,6 +2621,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.RotateCharacterTowards
   nameWithType: CharacterFacade.RotateCharacterTowards
+- uid: CatchIo.Runtime.Character.CharacterFacade.Rotator
+  name: Rotator
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Rotator
+  commentId: P:CatchIo.Runtime.Character.CharacterFacade.Rotator
+  fullName: CatchIo.Runtime.Character.CharacterFacade.Rotator
+  nameWithType: CharacterFacade.Rotator
+- uid: CatchIo.Runtime.Character.CharacterFacade.Rotator*
+  name: Rotator
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Rotator_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.Rotator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.Rotator
+  nameWithType: CharacterFacade.Rotator
 - uid: CatchIo.Runtime.Character.CharacterFacade.SettingItemRenderer
   name: SettingItemRenderer
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_SettingItemRenderer
@@ -3019,12 +3032,12 @@ references:
   commentId: T:CatchIo.Runtime.Character.CharacterRotator
   fullName: CatchIo.Runtime.Character.CharacterRotator
   nameWithType: CharacterRotator
-- uid: CatchIo.Runtime.Character.CharacterRotator.RotateTowards(Vector2)
-  name: RotateTowards(Vector2)
-  href: api/CatchIo.Runtime.Character.CharacterRotator.html#CatchIo_Runtime_Character_CharacterRotator_RotateTowards_Vector2_
-  commentId: M:CatchIo.Runtime.Character.CharacterRotator.RotateTowards(Vector2)
-  fullName: CatchIo.Runtime.Character.CharacterRotator.RotateTowards(Vector2)
-  nameWithType: CharacterRotator.RotateTowards(Vector2)
+- uid: CatchIo.Runtime.Character.CharacterRotator.RotateTowards(Vector2,System.Boolean)
+  name: RotateTowards(Vector2, Boolean)
+  href: api/CatchIo.Runtime.Character.CharacterRotator.html#CatchIo_Runtime_Character_CharacterRotator_RotateTowards_Vector2_System_Boolean_
+  commentId: M:CatchIo.Runtime.Character.CharacterRotator.RotateTowards(Vector2,System.Boolean)
+  fullName: CatchIo.Runtime.Character.CharacterRotator.RotateTowards(Vector2, System.Boolean)
+  nameWithType: CharacterRotator.RotateTowards(Vector2, Boolean)
 - uid: CatchIo.Runtime.Character.CharacterRotator.RotateTowards*
   name: RotateTowards
   href: api/CatchIo.Runtime.Character.CharacterRotator.html#CatchIo_Runtime_Character_CharacterRotator_RotateTowards_
@@ -3045,19 +3058,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterRotator.Start
   nameWithType: CharacterRotator.Start
-- uid: CatchIo.Runtime.Character.CharacterRotator.UpdateViewAngle
-  name: UpdateViewAngle()
-  href: api/CatchIo.Runtime.Character.CharacterRotator.html#CatchIo_Runtime_Character_CharacterRotator_UpdateViewAngle
-  commentId: M:CatchIo.Runtime.Character.CharacterRotator.UpdateViewAngle
-  fullName: CatchIo.Runtime.Character.CharacterRotator.UpdateViewAngle()
-  nameWithType: CharacterRotator.UpdateViewAngle()
-- uid: CatchIo.Runtime.Character.CharacterRotator.UpdateViewAngle*
-  name: UpdateViewAngle
-  href: api/CatchIo.Runtime.Character.CharacterRotator.html#CatchIo_Runtime_Character_CharacterRotator_UpdateViewAngle_
-  commentId: Overload:CatchIo.Runtime.Character.CharacterRotator.UpdateViewAngle
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.CharacterRotator.UpdateViewAngle
-  nameWithType: CharacterRotator.UpdateViewAngle
 - uid: CatchIo.Runtime.Character.CharacterSfxEmitter
   name: CharacterSfxEmitter
   href: api/CatchIo.Runtime.Character.CharacterSfxEmitter.html
@@ -3095,32 +3095,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.AreaSize
   nameWithType: CharacterDetector.AreaSize
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
-  name: CurrentViewAngle
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_CurrentViewAngle
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
-  nameWithType: CharacterDetector.CurrentViewAngle
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle*
-  name: CurrentViewAngle
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_CurrentViewAngle_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.CurrentViewAngle
-  nameWithType: CharacterDetector.CurrentViewAngle
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
-  name: Forward
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_Forward
-  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
-  nameWithType: CharacterDetector.Forward
-- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward*
-  name: Forward
-  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_Forward_
-  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.Forward
-  nameWithType: CharacterDetector.Forward
 - uid: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVAngle
   name: FOVAngle
   href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_FOVAngle
@@ -3147,6 +3121,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.FOVSize
   nameWithType: CharacterDetector.FOVSize
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.LookDirection
+  name: LookDirection
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_LookDirection
+  commentId: P:CatchIo.Runtime.Character.Detector.CharacterDetector.LookDirection
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.LookDirection
+  nameWithType: CharacterDetector.LookDirection
+- uid: CatchIo.Runtime.Character.Detector.CharacterDetector.LookDirection*
+  name: LookDirection
+  href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_LookDirection_
+  commentId: Overload:CatchIo.Runtime.Character.Detector.CharacterDetector.LookDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Detector.CharacterDetector.LookDirection
+  nameWithType: CharacterDetector.LookDirection
 - uid: CatchIo.Runtime.Character.Detector.CharacterDetector.ObstacleLayer
   name: ObstacleLayer
   href: api/CatchIo.Runtime.Character.Detector.CharacterDetector.html#CatchIo_Runtime_Character_Detector_CharacterDetector_ObstacleLayer
@@ -4445,25 +4432,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CharacterMoveState
   nameWithType: CharacterMoveState.CharacterMoveState
-- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CompareDirections(Vector2,Vector2)
-  name: CompareDirections(Vector2, Vector2)
-  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_CompareDirections_Vector2_Vector2_
-  commentId: M:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CompareDirections(Vector2,Vector2)
-  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CompareDirections(Vector2, Vector2)
-  nameWithType: CharacterMoveState.CompareDirections(Vector2, Vector2)
-- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CompareDirections*
-  name: CompareDirections
-  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_CompareDirections_
-  commentId: Overload:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CompareDirections
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CompareDirections
-  nameWithType: CharacterMoveState.CompareDirections
-- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.DenySprintThreshold
-  name: DenySprintThreshold
-  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_DenySprintThreshold
-  commentId: F:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.DenySprintThreshold
-  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.DenySprintThreshold
-  nameWithType: CharacterMoveState.DenySprintThreshold
 - uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.ExitState
   name: ExitState()
   href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_ExitState
@@ -4477,12 +4445,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.ExitState
   nameWithType: CharacterMoveState.ExitState
-- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.IsSlowed
-  name: IsSlowed
-  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_IsSlowed
-  commentId: F:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.IsSlowed
-  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.IsSlowed
-  nameWithType: CharacterMoveState.IsSlowed
 - uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.Move(System.Single)
   name: Move(Single)
   href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState_Move_System_Single_
@@ -7652,19 +7614,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.KnockBack
   nameWithType: CharacterDamageReceiver.KnockBack
-- uid: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState
-  name: LookDirectionState
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_LookDirectionState
-  commentId: P:CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState
-  nameWithType: CharacterDamageReceiver.LookDirectionState
-- uid: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState*
-  name: LookDirectionState
-  href: api/CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_LookDirectionState_
-  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState
-  nameWithType: CharacterDamageReceiver.LookDirectionState
 - uid: CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.OnImpactTaken
   name: OnImpactTaken
   href: api/CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_OnImpactTaken
@@ -11157,93 +11106,108 @@ references:
   commentId: T:CatchIo.Runtime.Entities.Locomotions.EntityRotator
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator
   nameWithType: EntityRotator
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirectionType
-  name: _lookDirectionType
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator__lookDirectionType
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirectionType
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirectionType
-  nameWithType: EntityRotator._lookDirectionType
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator._isRotationLocked
+  name: _isRotationLocked
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator__isRotationLocked
+  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator._isRotationLocked
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator._isRotationLocked
+  nameWithType: EntityRotator._isRotationLocked
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirection
+  name: _lookDirection
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator__lookDirection
+  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirection
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirection
+  nameWithType: EntityRotator._lookDirection
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator._movement
   name: _movement
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator__movement
   commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator._movement
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator._movement
   nameWithType: EntityRotator._movement
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator._viewAngle
-  name: _viewAngle
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator__viewAngle
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator._viewAngle
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator._viewAngle
-  nameWithType: EntityRotator._viewAngle
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.ANGLE_OFFSET
-  name: ANGLE_OFFSET
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_ANGLE_OFFSET
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator.ANGLE_OFFSET
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.ANGLE_OFFSET
-  nameWithType: EntityRotator.ANGLE_OFFSET
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex
-  name: GetDirectionIndex()
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionIndex
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex()
-  nameWithType: EntityRotator.GetDirectionIndex()
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex(EntityDirectionType)
-  name: GetDirectionIndex(EntityDirectionType)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionIndex_EntityDirectionType_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex(EntityDirectionType)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex(EntityDirectionType)
-  nameWithType: EntityRotator.GetDirectionIndex(EntityDirectionType)
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex*
-  name: GetDirectionIndex
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionIndex_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction
+  name: Direction
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_Direction
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction
+  nameWithType: EntityRotator.Direction
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction*
+  name: Direction
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_Direction_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction
   isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex
-  nameWithType: EntityRotator.GetDirectionIndex
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType
-  name: GetDirectionType()
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionType
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType()
-  nameWithType: EntityRotator.GetDirectionType()
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType*
-  name: GetDirectionType
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionType_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction
+  nameWithType: EntityRotator.Direction
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex
+  name: DirectionIndex
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionIndex
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex
+  nameWithType: EntityRotator.DirectionIndex
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex*
+  name: DirectionIndex
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionIndex_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex
   isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType
-  nameWithType: EntityRotator.GetDirectionType
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle
-  name: GetViewAngle()
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetViewAngle
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle()
-  nameWithType: EntityRotator.GetViewAngle()
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle*
-  name: GetViewAngle
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetViewAngle_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex
+  nameWithType: EntityRotator.DirectionIndex
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType
+  name: DirectionType
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionType
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType
+  nameWithType: EntityRotator.DirectionType
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType*
+  name: DirectionType
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionType_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType
   isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle
-  nameWithType: EntityRotator.GetViewAngle
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.MIN_VIEW_SLICE
-  name: MIN_VIEW_SLICE
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_MIN_VIEW_SLICE
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator.MIN_VIEW_SLICE
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.MIN_VIEW_SLICE
-  nameWithType: EntityRotator.MIN_VIEW_SLICE
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.NORTH_START_ANGLE
-  name: NORTH_START_ANGLE
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_NORTH_START_ANGLE
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityRotator.NORTH_START_ANGLE
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.NORTH_START_ANGLE
-  nameWithType: EntityRotator.NORTH_START_ANGLE
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2)
-  name: RotateTowards(Vector2)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateTowards_Vector2_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2)
-  nameWithType: EntityRotator.RotateTowards(Vector2)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType
+  nameWithType: EntityRotator.DirectionType
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation
+  name: LockRotation()
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_LockRotation
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation()
+  nameWithType: EntityRotator.LockRotation()
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation*
+  name: LockRotation
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_LockRotation_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation
+  nameWithType: EntityRotator.LockRotation
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  nameWithType: EntityRotator.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView*
+  name: OnPhotonSerializeView
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_OnPhotonSerializeView_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView
+  nameWithType: EntityRotator.OnPhotonSerializeView
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection(EntityDirectionType,System.Boolean)
+  name: RotateToDirection(EntityDirectionType, Boolean)
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateToDirection_EntityDirectionType_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection(EntityDirectionType,System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection(EntityDirectionType, System.Boolean)
+  nameWithType: EntityRotator.RotateToDirection(EntityDirectionType, Boolean)
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection*
+  name: RotateToDirection
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateToDirection_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection
+  nameWithType: EntityRotator.RotateToDirection
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2,System.Boolean)
+  name: RotateTowards(Vector2, Boolean)
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateTowards_Vector2_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2,System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2, System.Boolean)
+  nameWithType: EntityRotator.RotateTowards(Vector2, Boolean)
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards*
   name: RotateTowards
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateTowards_
@@ -11264,6 +11228,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.Start
   nameWithType: EntityRotator.Start
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation
+  name: UnlockRotation()
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_UnlockRotation
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation()
+  nameWithType: EntityRotator.UnlockRotation()
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation*
+  name: UnlockRotation
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_UnlockRotation_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation
+  nameWithType: EntityRotator.UnlockRotation
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateLookDirection
   name: UpdateLookDirection()
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_UpdateLookDirection
@@ -11277,19 +11254,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateLookDirection
   nameWithType: EntityRotator.UpdateLookDirection
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle
-  name: UpdateViewAngle()
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_UpdateViewAngle
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle()
-  nameWithType: EntityRotator.UpdateViewAngle()
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle*
-  name: UpdateViewAngle
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_UpdateViewAngle_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle
+  name: ViewAngle
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_ViewAngle
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle
+  nameWithType: EntityRotator.ViewAngle
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle*
+  name: ViewAngle
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html#CatchIo_Runtime_Entities_Locomotions_EntityRotator_ViewAngle_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle
   isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle
-  nameWithType: EntityRotator.UpdateViewAngle
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle
+  nameWithType: EntityRotator.ViewAngle
 - uid: CatchIo.Runtime.Entities.Marks
   name: CatchIo.Runtime.Entities.Marks
   href: api/CatchIo.Runtime.Entities.Marks.html
@@ -18912,19 +18889,6 @@ references:
   commentId: T:CatchIo.Runtime.NPC.NPCRotator
   fullName: CatchIo.Runtime.NPC.NPCRotator
   nameWithType: NPCRotator
-- uid: CatchIo.Runtime.NPC.NPCRotator.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
-  name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
-  href: api/CatchIo.Runtime.NPC.NPCRotator.html#CatchIo_Runtime_NPC_NPCRotator_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
-  commentId: M:CatchIo.Runtime.NPC.NPCRotator.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
-  fullName: CatchIo.Runtime.NPC.NPCRotator.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
-  nameWithType: NPCRotator.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
-- uid: CatchIo.Runtime.NPC.NPCRotator.OnPhotonSerializeView*
-  name: OnPhotonSerializeView
-  href: api/CatchIo.Runtime.NPC.NPCRotator.html#CatchIo_Runtime_NPC_NPCRotator_OnPhotonSerializeView_
-  commentId: Overload:CatchIo.Runtime.NPC.NPCRotator.OnPhotonSerializeView
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.NPCRotator.OnPhotonSerializeView
-  nameWithType: NPCRotator.OnPhotonSerializeView
 - uid: CatchIo.Runtime.NPC.Receivers
   name: CatchIo.Runtime.NPC.Receivers
   href: api/CatchIo.Runtime.NPC.Receivers.html
@@ -19040,19 +19004,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetAnimatorController
   nameWithType: NPCDamageReceiver.GetAnimatorController
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetCanBackstab(CharacterFacade)
-  name: GetCanBackstab(CharacterFacade)
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetCanBackstab_CharacterFacade_
-  commentId: M:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetCanBackstab(CharacterFacade)
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetCanBackstab(CharacterFacade)
-  nameWithType: NPCDamageReceiver.GetCanBackstab(CharacterFacade)
-- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetCanBackstab*
-  name: GetCanBackstab
-  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetCanBackstab_
-  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetCanBackstab
-  isSpec: "True"
-  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetCanBackstab
-  nameWithType: NPCDamageReceiver.GetCanBackstab
 - uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.GetHUDPositionProvider
   name: GetHUDPositionProvider()
   href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_GetHUDPositionProvider
@@ -19131,6 +19082,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.KnockBack
   nameWithType: NPCDamageReceiver.KnockBack
+- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.Rotator
+  name: Rotator
+  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_Rotator
+  commentId: P:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.Rotator
+  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.Rotator
+  nameWithType: NPCDamageReceiver.Rotator
+- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.Rotator*
+  name: Rotator
+  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_Rotator_
+  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.Rotator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.Rotator
+  nameWithType: NPCDamageReceiver.Rotator
 - uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.TakeDamage(IDamage,System.Int32)
   name: TakeDamage(IDamage, Int32)
   href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_TakeDamage_IDamage_System_Int32_
@@ -20133,25 +20097,6 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentHidingSpot
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentHidingSpot
   nameWithType: CharacterStatus.CurrentHidingSpot
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection
-  name: CurrentLookDirection
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentLookDirection
-  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection
-  nameWithType: CharacterStatus.CurrentLookDirection
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection*
-  name: CurrentLookDirection
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentLookDirection_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirection
-  nameWithType: CharacterStatus.CurrentLookDirection
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirectionState
-  name: CurrentLookDirectionState
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentLookDirectionState
-  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirectionState
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentLookDirectionState
-  nameWithType: CharacterStatus.CurrentLookDirectionState
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentMoveDirection
   name: CurrentMoveDirection
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentMoveDirection
@@ -20171,19 +20116,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentMoveType
   nameWithType: CharacterStatus.CurrentMoveType
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentViewAngle
-  name: CurrentViewAngle
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentViewAngle
-  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentViewAngle
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentViewAngle
-  nameWithType: CharacterStatus.CurrentViewAngle
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentViewAngle*
-  name: CurrentViewAngle
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CurrentViewAngle_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentViewAngle
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CurrentViewAngle
-  nameWithType: CharacterStatus.CurrentViewAngle
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Curse
   name: Curse()
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Curse
@@ -20210,19 +20142,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Detected
   nameWithType: CharacterStatus.Detected
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
-  name: Forward
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Forward
-  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
-  nameWithType: CharacterStatus.Forward
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward*
-  name: Forward
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_Forward_
-  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
-  isSpec: "True"
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Forward
-  nameWithType: CharacterStatus.Forward
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.HasStamina(System.Single)
   name: HasStamina(Single)
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_HasStamina_System_Single_
@@ -20614,12 +20533,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.Name
   nameWithType: CharacterStatus.Name
-- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NormalizedViewVector
-  name: NormalizedViewVector
-  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_NormalizedViewVector
-  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NormalizedViewVector
-  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NormalizedViewVector
-  nameWithType: CharacterStatus.NormalizedViewVector
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.NPCCountToBlending
   name: NPCCountToBlending
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_NPCCountToBlending
@@ -27066,6 +26979,129 @@ references:
   fullName.vb: CatchIo.Runtime.Utility.Extensions.AssemblyExtensions.GetTypesWithCustomAttribute(Of TAttribute)(Assembly)
   nameWithType: AssemblyExtensions.GetTypesWithCustomAttribute<TAttribute>(Assembly)
   nameWithType.vb: AssemblyExtensions.GetTypesWithCustomAttribute(Of TAttribute)(Assembly)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions
+  name: EntityDirectionTypeExtensions
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html
+  commentId: T:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions
+  nameWithType: EntityDirectionTypeExtensions
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType,EntityDirectionType)
+  name: CanBackStab(EntityDirectionType, EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_CanBackStab_EntityDirectionType_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType,EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType, EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType, EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab*
+  name: CanBackStab
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_CanBackStab_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab
+  nameWithType: EntityDirectionTypeExtensions.CanBackStab
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise(EntityDirectionType)
+  name: GetNextClockwise(EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextClockwise_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise(EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise(EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.GetNextClockwise(EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise*
+  name: GetNextClockwise
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextClockwise_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise
+  nameWithType: EntityDirectionTypeExtensions.GetNextClockwise
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise(EntityDirectionType)
+  name: GetNextCounterClockwise(EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextCounterClockwise_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise(EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise(EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.GetNextCounterClockwise(EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise*
+  name: GetNextCounterClockwise
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextCounterClockwise_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise
+  nameWithType: EntityDirectionTypeExtensions.GetNextCounterClockwise
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite(EntityDirectionType)
+  name: GetOpposite(EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetOpposite_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite(EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite(EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.GetOpposite(EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite*
+  name: GetOpposite
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetOpposite_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite
+  nameWithType: EntityDirectionTypeExtensions.GetOpposite
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite(EntityDirectionType,EntityDirectionType)
+  name: IsOpposite(EntityDirectionType, EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsOpposite_EntityDirectionType_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite(EntityDirectionType,EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite(EntityDirectionType, EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.IsOpposite(EntityDirectionType, EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite*
+  name: IsOpposite
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsOpposite_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite
+  nameWithType: EntityDirectionTypeExtensions.IsOpposite
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle(EntityDirectionType)
+  name: ToAngle(EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToAngle_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle(EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle(EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.ToAngle(EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle*
+  name: ToAngle
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToAngle_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle
+  nameWithType: EntityDirectionTypeExtensions.ToAngle
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex(EntityDirectionType)
+  name: ToDirectionIndex(EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToDirectionIndex_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex(EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex(EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.ToDirectionIndex(EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex*
+  name: ToDirectionIndex
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToDirectionIndex_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex
+  nameWithType: EntityDirectionTypeExtensions.ToDirectionIndex
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection(EntityDirectionType)
+  name: ToEastWestDirection(EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToEastWestDirection_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection(EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection(EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.ToEastWestDirection(EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection*
+  name: ToEastWestDirection
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToEastWestDirection_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection
+  nameWithType: EntityDirectionTypeExtensions.ToEastWestDirection
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2(EntityDirectionType)
+  name: ToVector2(EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToVector2_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2(EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2(EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.ToVector2(EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2*
+  name: ToVector2
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToVector2_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2
+  nameWithType: EntityDirectionTypeExtensions.ToVector2
 - uid: CatchIo.Runtime.Utility.Extensions.GameObjectExtensions
   name: GameObjectExtensions
   href: api/CatchIo.Runtime.Utility.Extensions.GameObjectExtensions.html
@@ -27754,6 +27790,19 @@ references:
   commentId: T:CatchIo.Runtime.Utility.Extensions.Vector2Extensions
   fullName: CatchIo.Runtime.Utility.Extensions.Vector2Extensions
   nameWithType: Vector2Extensions
+- uid: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToDirectionType(Vector2)
+  name: ToDirectionType(Vector2)
+  href: api/CatchIo.Runtime.Utility.Extensions.Vector2Extensions.html#CatchIo_Runtime_Utility_Extensions_Vector2Extensions_ToDirectionType_Vector2_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToDirectionType(Vector2)
+  fullName: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToDirectionType(Vector2)
+  nameWithType: Vector2Extensions.ToDirectionType(Vector2)
+- uid: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToDirectionType*
+  name: ToDirectionType
+  href: api/CatchIo.Runtime.Utility.Extensions.Vector2Extensions.html#CatchIo_Runtime_Utility_Extensions_Vector2Extensions_ToDirectionType_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToDirectionType
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToDirectionType
+  nameWithType: Vector2Extensions.ToDirectionType
 - uid: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToVector2Int(Vector2)
   name: ToVector2Int(Vector2)
   href: api/CatchIo.Runtime.Utility.Extensions.Vector2Extensions.html#CatchIo_Runtime_Utility_Extensions_Vector2Extensions_ToVector2Int_Vector2_

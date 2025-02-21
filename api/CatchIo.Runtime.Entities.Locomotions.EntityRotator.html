@@ -91,6 +91,10 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">EntityRotator</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPunObservable</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Locomotions.html">CatchIo.Runtime.Entities.Locomotions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_syntax">Syntax</h5>
@@ -101,13 +105,37 @@
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator__lookDirectionType" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirectionType">_lookDirectionType</h4>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator__isRotationLocked" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator._isRotationLocked">_isRotationLocked</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _isRotationLocked</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator__lookDirection" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator._lookDirection">_lookDirection</h4>
   <div class="markdown level1 summary"><p>Current direction type the entity is facing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EntityDirectionType _lookDirectionType</code></pre>
+    <pre><code class="lang-csharp hljs">protected EntityDirectionType _lookDirection</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,120 +177,45 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator__viewAngle" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator._viewAngle">_viewAngle</h4>
-  <div class="markdown level1 summary"><p>Current view angle of the entity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected int _viewAngle</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_ANGLE_OFFSET" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.ANGLE_OFFSET">ANGLE_OFFSET</h4>
-  <div class="markdown level1 summary"><p>Angle offset used for directional calculations.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected const int ANGLE_OFFSET = 22</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_MIN_VIEW_SLICE" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.MIN_VIEW_SLICE">MIN_VIEW_SLICE</h4>
-  <div class="markdown level1 summary"><p>Minimum angle slice for each directional segment.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected const float MIN_VIEW_SLICE = 45F</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_NORTH_START_ANGLE" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.NORTH_START_ANGLE">NORTH_START_ANGLE</h4>
-  <div class="markdown level1 summary"><p>Starting angle for the North direction.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected const int NORTH_START_ANGLE = 338</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionIndex_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionIndex" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex">GetDirectionIndex()</h4>
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_Direction_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_Direction" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.Direction">Direction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Direction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionIndex_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionIndex" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionIndex">DirectionIndex</h4>
   <div class="markdown level1 summary"><p>Gets the directional index corresponding to the current direction type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetDirectionIndex()</code></pre>
+    <pre><code class="lang-csharp hljs">public int DirectionIndex { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -280,61 +233,16 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionIndex_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionIndex_EntityDirectionType_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionIndex(EntityDirectionType)">GetDirectionIndex(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"><p>Gets the directional index for a specific direction type.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetDirectionIndex(EntityDirectionType directionType)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EntityDirectionType</span></td>
-        <td><span class="parametername">directionType</span></td>
-        <td><p>The direction type to get the index for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The directional index.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionType_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetDirectionType" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetDirectionType">GetDirectionType()</h4>
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionType_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_DirectionType" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.DirectionType">DirectionType</h4>
   <div class="markdown level1 summary"><p>Gets the current direction type the entity is facing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityDirectionType GetDirectionType()</code></pre>
+    <pre><code class="lang-csharp hljs">public EntityDirectionType DirectionType { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -352,16 +260,16 @@
   </table>
   
   
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetViewAngle_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_GetViewAngle" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.GetViewAngle">GetViewAngle()</h4>
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_ViewAngle_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_ViewAngle" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle">ViewAngle</h4>
   <div class="markdown level1 summary"><p>Gets the current view angle of the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float GetViewAngle()</code></pre>
+    <pre><code class="lang-csharp hljs">public float ViewAngle { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -377,16 +285,94 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_LockRotation_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_LockRotation" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.LockRotation">LockRotation()</h4>
+  <div class="markdown level1 summary"><p>Locks the rotation at current direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LockRotation()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_OnPhotonSerializeView_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
+  <div class="markdown level1 summary"><p>Synchronizes the NPC&apos;s look direction across the network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PhotonStream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PhotonMessageInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateToDirection_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateToDirection_EntityDirectionType_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateToDirection(EntityDirectionType,System.Boolean)">RotateToDirection(EntityDirectionType, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RotateToDirection(EntityDirectionType directionType, bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">directionType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateTowards_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateTowards_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2)">RotateTowards(Vector2)</h4>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_RotateTowards_Vector2_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.RotateTowards(Vector2,System.Boolean)">RotateTowards(Vector2, Boolean)</h4>
   <div class="markdown level1 summary"><p>Rotates the entity towards a specific direction.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void RotateTowards(Vector2 direction)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void RotateTowards(Vector2 direction, bool force = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -404,6 +390,11 @@
         <td><p>The direction to rotate towards.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
@@ -419,6 +410,17 @@
   </div>
   
   
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_UnlockRotation_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_UnlockRotation" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.UnlockRotation">UnlockRotation()</h4>
+  <div class="markdown level1 summary"><p>Unlocks the rotation, allowing direction updates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlockRotation()</code></pre>
+  </div>
+  
+  
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_UpdateLookDirection_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateLookDirection*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_UpdateLookDirection" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateLookDirection">UpdateLookDirection()</h4>
   <div class="markdown level1 summary"><p>Updates the look direction type based on the current view angle.</p>
@@ -428,16 +430,9 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void UpdateLookDirection()</code></pre>
   </div>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_UpdateViewAngle_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityRotator_UpdateViewAngle" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityRotator.UpdateViewAngle">UpdateViewAngle()</h4>
-  <div class="markdown level1 summary"><p>Calculates the current view angle based on movement velocity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void UpdateViewAngle()</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPunObservable</span>
   </div>
 </article>
           </div>
