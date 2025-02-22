@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Runtime.Enums
+    <title>Class EntityStatsNetworkRelay
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Runtime.Enums
+    <meta name="title" content="Class EntityStatsNetworkRelay
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,62 +78,78 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Enums">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Networking.EntityStatsNetworkRelay">
   
-  <h1 id="CatchIo_Runtime_Enums" data-uid="CatchIo.Runtime.Enums" class="text-break">Namespace CatchIo.Runtime.Enums
+  
+  <h1 id="CatchIo_Runtime_Entities_Networking_EntityStatsNetworkRelay" data-uid="CatchIo.Runtime.Entities.Networking.EntityStatsNetworkRelay" class="text-break">Class EntityStatsNetworkRelay
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Handles network synchronization and RPC communication for entity stats (Health, Stamina).
+Acts as a central point for all network operations related to entity stats.</p>
+<p>Core Responsibilities:</p>
+<ul>
+<li>Synchronize health and stamina values across the network</li>
+<li>Handle RPC requests for stat modifications</li>
+<li>Manage network message routing between clients</li>
+</ul>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EntityStatsNetworkRelay</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPunObservable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Networking.html">CatchIo.Runtime.Entities.Networking</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Entities_Networking_EntityStatsNetworkRelay_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EntityStatsNetworkRelay : MonoBehaviourPun</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.SendEventType.html">SendEventType</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.CharacterActionType.html">CharacterActionType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.CharacterClassType.html">CharacterClassType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.CharacterMoveType.html">CharacterMoveType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.DamageSfxType.html">DamageSfxType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.EntityDirectionType.html">EntityDirectionType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.FullScreenEffects.html">FullScreenEffects</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.GameLanguage.html">GameLanguage</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.GameModeType.html">GameModeType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.GameObjectiveEventEnum.html">GameObjectiveEventEnum</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.ModificationType.html">ModificationType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.PlayerFeedbackAction.html">PlayerFeedbackAction</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.RoomState.html">RoomState</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.SceneSwitchingState.html">SceneSwitchingState</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.ScreenResolutionType.html">ScreenResolutionType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.ShownCharacterStatsType.html">ShownCharacterStatsType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.SoundWaveDistanceCategory.html">SoundWaveDistanceCategory</a></h4>
-      <section><p>Use for map distance to animation</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.SoundWaveType.html">SoundWaveType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.StaminaCostType.html">StaminaCostType</a></h4>
-      <section><p>Defines different types of actions that consume stamina
-Each enum value represents a specific action with its associated stamina cost configured in CharacterStaminaData</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Enums.StaminaRecoveryType.html">StaminaRecoveryType</a></h4>
-      <section><p>Defines different methods of stamina recovery
-Each enum value represents a specific state where stamina can be recovered, with recovery rates configured in CharacterStaminaData.</p>
-</section>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Networking_EntityStatsNetworkRelay_OnPhotonSerializeView_" data-uid="CatchIo.Runtime.Entities.Networking.EntityStatsNetworkRelay.OnPhotonSerializeView*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Networking_EntityStatsNetworkRelay_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.Runtime.Entities.Networking.EntityStatsNetworkRelay.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
+  <div class="markdown level1 summary"><p>Synchronizes entity stats across the network.
+Handles both sending and receiving of stat values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PhotonStream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>Network stream for serialization</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PhotonMessageInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Message info containing network details</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPunObservable</span>
+  </div>
 </article>
           </div>
           

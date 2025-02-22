@@ -137,15 +137,14 @@ This class is responsible for handling damage, knockback, and stun effects for c
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_IsAlive_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.IsAlive*"></a>
-  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_IsAlive" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.IsAlive">IsAlive</h4>
-  <div class="markdown level1 summary"><p>Property to check if the character is alive.
-Returns true if the character is not dead.</p>
+  <a id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_LookDirectionState_" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState*"></a>
+  <h4 id="CatchIo_Runtime_Character_Receivers_CharacterDamageReceiver_LookDirectionState" data-uid="CatchIo.Runtime.Character.Receivers.CharacterDamageReceiver.LookDirectionState">LookDirectionState</h4>
+  <div class="markdown level1 summary"><p>Property to get the current direction state the character is facing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsAlive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EntityDirectionType LookDirectionState { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,7 +156,7 @@ Returns true if the character is not dead.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">EntityDirectionType</span></td>
         <td></td>
       </tr>
     </tbody>
