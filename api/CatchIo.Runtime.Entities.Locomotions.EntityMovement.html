@@ -332,7 +332,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetVelocity_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetVelocity*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetVelocity" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetVelocity">GetVelocity()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the current velocity of the entity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -349,7 +350,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td></td>
+        <td><p>The current velocity vector.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -357,11 +359,12 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsDetectObstacle_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsDetectObstacle_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle(Vector2)">IsDetectObstacle(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Detects obstacles in the specified direction using CircleCast.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool IsDetectObstacle(Vector2 direction)</code></pre>
+    <pre><code class="lang-csharp hljs">protected RaycastHit2D? IsDetectObstacle(Vector2 direction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,7 +379,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
       <tr>
         <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>Direction to check for obstacles</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -390,8 +394,9 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">RaycastHit2D</span>&gt;</td>
+        <td><p>RaycastHit2D result if obstacle detected, null otherwise</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -399,7 +404,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsMoving_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsMoving*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsMoving" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsMoving">IsMoving()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the entity is currently moving.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -416,7 +422,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the entity is moving and velocity modification is not locked.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -424,7 +431,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Lock_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Lock*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Lock" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Lock">Lock()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Locks the velocity to prevent modifications.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -434,7 +442,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_OnPhotonSerializeView_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.OnPhotonSerializeView*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Handles network synchronization for the entity&apos;s velocity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -602,7 +611,8 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Unlock_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Unlock*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Unlock" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Unlock">Unlock()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Unlocks the velocity to allow modifications.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
