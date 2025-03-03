@@ -120,161 +120,10 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CharacterPanicTrigger : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CharacterPanicTrigger : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger__photonView" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView">_photonView</h4>
-  <div class="markdown level1 summary"><p>Photon view component for network synchronization</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected PhotonView _photonView</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PhotonView</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger__rotator" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator">_rotator</h4>
-  <div class="markdown level1 summary"><p>Entity rotator for managing view angle</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EntityRotator _rotator</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EntityRotator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID*"></a>
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID">ViewID</h4>
-  <div class="markdown level1 summary"><p>Gets the current Photon View ID</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ViewID { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
-  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake*"></a>
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake">Awake()</h4>
-  <div class="markdown level1 summary"><p>Initialize components on awake</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop*"></a>
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop">HandleInductionTimerStop()</h4>
-  <div class="markdown level1 summary"><p>Triggered when activation timer stops</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void HandleInductionTimerStop()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop*"></a>
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop">HandlePanicEscapeTimerStop()</h4>
-  <div class="markdown level1 summary"><p>Triggered when deactivation timer stops</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void HandlePanicEscapeTimerStop()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid*"></a>
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid">IsValid()</h4>
-  <div class="markdown level1 summary"><p>Validates if this Panic trigger is currently operational.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool IsValid()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns true if this is the local player&apos;s view, false otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy*"></a>
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"><p>Cleanup event listeners on destruction</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnDestroy()</code></pre>
-  </div>
   
   
   <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnEvent_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent*"></a>
@@ -312,21 +161,11 @@ Handles:</p>
   </table>
   
   
-  <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start*"></a>
-  <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start">Start()</h4>
-  <div class="markdown level1 summary"><p>Setup Panic tracking and event listeners on start</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
-  </div>
-  
-  
   <a id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_SwitchPanicTarget_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget*"></a>
   <h4 id="CatchIo_Runtime_PanicModes_CharacterPanicTrigger_SwitchPanicTarget_CharacterFacade_" data-uid="CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget(CharacterFacade)">SwitchPanicTarget(CharacterFacade)</h4>
   <div class="markdown level1 summary"><p>Manually switches the panic state to a specified target character.
-Performs validation checks and handles the transition between targets.</p>
+Performs validation checks and handles the transition between targets.
+Used for external control of panic targeting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

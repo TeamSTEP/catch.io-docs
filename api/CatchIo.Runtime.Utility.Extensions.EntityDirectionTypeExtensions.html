@@ -100,6 +100,64 @@
   </h3>
   
   
+  <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_AreMutuallyFacing_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing*"></a>
+  <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_AreMutuallyFacing_EntityDirectionType_EntityDirectionType_System_Boolean_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing(EntityDirectionType,EntityDirectionType,System.Boolean)">AreMutuallyFacing(EntityDirectionType, EntityDirectionType, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Determines if two entities are mutually facing each other.
+Can be configured to use a wider field of view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AreMutuallyFacing(this EntityDirectionType direction, EntityDirectionType other, bool wideAngle = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction of the first entity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The direction of the second entity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">wideAngle</span></td>
+        <td><p>If true, uses a wider field of view for both entities</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if both entities are facing toward each other, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_CanBackStab_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_CanBackStab_EntityDirectionType_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType,EntityDirectionType)">CanBackStab(EntityDirectionType, EntityDirectionType)</h4>
   <div class="markdown level1 summary"><p>Determines if a backstab attack is possible from the specified direction to another direction.</p>
@@ -159,7 +217,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextClockwise_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextClockwise_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise(EntityDirectionType)">GetNextClockwise(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the next direction clockwise (e.g., N -&gt; NE -&gt; E -&gt; SE -&gt; S -&gt; SW -&gt; W -&gt; NW -&gt; N)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -178,7 +237,8 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The input direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -193,7 +253,8 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
-        <td></td>
+        <td><p>The next clockwise direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -201,7 +262,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextCounterClockwise_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextCounterClockwise_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextCounterClockwise(EntityDirectionType)">GetNextCounterClockwise(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the next direction counterclockwise (e.g., N -&gt; NW -&gt; W -&gt; SW -&gt; S -&gt; SE -&gt; E -&gt; NE -&gt; N)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -220,7 +282,8 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The input direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -235,7 +298,8 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
-        <td></td>
+        <td><p>The next counter-clockwise direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -243,7 +307,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetOpposite_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetOpposite_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite(EntityDirectionType)">GetOpposite(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the opposite direction of the given one</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -262,7 +327,8 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The input direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -277,7 +343,118 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
-        <td></td>
+        <td><p>The opposite direction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacing_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing*"></a>
+  <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacing_EntityDirectionType_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing(EntityDirectionType,EntityDirectionType)">IsFacing(EntityDirectionType, EntityDirectionType)</h4>
+  <div class="markdown level1 summary"><p>Determines if two entities are facing each other based on their directions.
+Entities are considered facing each other if their directions are opposite.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFacing(this EntityDirectionType direction, EntityDirectionType other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction of the first entity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The direction of the second entity</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the entities are facing each other, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacingToward_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward*"></a>
+  <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacingToward_EntityDirectionType_EntityDirectionType_System_Boolean_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward(EntityDirectionType,EntityDirectionType,System.Boolean)">IsFacingToward(EntityDirectionType, EntityDirectionType, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Determines if an entity is facing toward another entity&apos;s direction considering a wider field of view.
+Takes into account direct opposite and adjacent directions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFacingToward(this EntityDirectionType direction, EntityDirectionType other, bool wideAngle = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction of the first entity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The direction of the second entity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">wideAngle</span></td>
+        <td><p>If true, includes adjacent directions in the facing check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the entity is facing toward the other entity with the specified field of view, false otherwise</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -285,7 +462,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsOpposite_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsOpposite_EntityDirectionType_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite(EntityDirectionType,EntityDirectionType)">IsOpposite(EntityDirectionType, EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if two directions are opposite of each other</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -304,12 +482,14 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The first direction</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>The second direction to compare against</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -324,7 +504,8 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the directions are opposite to each other, false otherwise</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -332,7 +513,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToAngle_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToAngle_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle(EntityDirectionType)">ToAngle(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Converts direction to an angle in degrees</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -351,7 +533,8 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The input direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -366,7 +549,8 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The angle in degrees (0-359)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -374,7 +558,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToDirectionIndex_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToDirectionIndex_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToDirectionIndex(EntityDirectionType)">ToDirectionIndex(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Converts direction to a directional index (0-7)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -393,7 +578,8 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The input direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -408,7 +594,8 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The direction index value</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -416,7 +603,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToEastWestDirection_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToEastWestDirection_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToEastWestDirection(EntityDirectionType)">ToEastWestDirection(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Simplifies a direction to either East or West</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -435,7 +623,8 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The input direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -450,7 +639,8 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
-        <td></td>
+        <td><p>Either East or West direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -458,7 +648,8 @@ Possible cases:</p>
   
   <a id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToVector2_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2*"></a>
   <h4 id="CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToVector2_EntityDirectionType_" data-uid="CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToVector2(EntityDirectionType)">ToVector2(EntityDirectionType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Converts direction to a Vector2 representation</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -477,7 +668,8 @@ Possible cases:</p>
       <tr>
         <td><span class="xref">EntityDirectionType</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>The input direction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -492,7 +684,8 @@ Possible cases:</p>
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td></td>
+        <td><p>A normalized Vector2 pointing in the specified direction</p>
+</td>
       </tr>
     </tbody>
   </table>

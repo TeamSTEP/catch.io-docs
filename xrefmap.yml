@@ -7642,6 +7642,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetAnimatorController
   nameWithType: CharacterBodyDamageReceiver.GetAnimatorController
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetEntityDirection
+  name: GetEntityDirection()
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetEntityDirection
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetEntityDirection
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetEntityDirection()
+  nameWithType: CharacterBodyDamageReceiver.GetEntityDirection()
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetEntityDirection*
+  name: GetEntityDirection
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetEntityDirection_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetEntityDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetEntityDirection
+  nameWithType: CharacterBodyDamageReceiver.GetEntityDirection
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.GetHUDPositionProvider
   name: GetHUDPositionProvider()
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_GetHUDPositionProvider
@@ -14243,6 +14256,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IPanickable.FallInPanic
   nameWithType: IPanickable.FallInPanic
+- uid: CatchIo.Runtime.Interfaces.IPanickable.GetEntityDirection
+  name: GetEntityDirection()
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_GetEntityDirection
+  commentId: M:CatchIo.Runtime.Interfaces.IPanickable.GetEntityDirection
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.GetEntityDirection()
+  nameWithType: IPanickable.GetEntityDirection()
+- uid: CatchIo.Runtime.Interfaces.IPanickable.GetEntityDirection*
+  name: GetEntityDirection
+  href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_GetEntityDirection_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IPanickable.GetEntityDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IPanickable.GetEntityDirection
+  nameWithType: IPanickable.GetEntityDirection
 - uid: CatchIo.Runtime.Interfaces.IPanickable.RecoverFromPanic(System.Int32)
   name: RecoverFromPanic(Int32)
   href: api/CatchIo.Runtime.Interfaces.IPanickable.html#CatchIo_Runtime_Interfaces_IPanickable_RecoverFromPanic_System_Int32_
@@ -19918,83 +19944,6 @@ references:
   commentId: T:CatchIo.Runtime.PanicModes.CharacterPanicTrigger
   fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger
   nameWithType: CharacterPanicTrigger
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView
-  name: _photonView
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger__photonView
-  commentId: F:CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._photonView
-  nameWithType: CharacterPanicTrigger._photonView
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator
-  name: _rotator
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger__rotator
-  commentId: F:CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger._rotator
-  nameWithType: CharacterPanicTrigger._rotator
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
-  name: Awake()
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake
-  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake()
-  nameWithType: CharacterPanicTrigger.Awake()
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake*
-  name: Awake
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Awake_
-  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
-  isSpec: "True"
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Awake
-  nameWithType: CharacterPanicTrigger.Awake
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
-  name: HandleInductionTimerStop()
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop
-  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop()
-  nameWithType: CharacterPanicTrigger.HandleInductionTimerStop()
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop*
-  name: HandleInductionTimerStop
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandleInductionTimerStop_
-  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
-  isSpec: "True"
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandleInductionTimerStop
-  nameWithType: CharacterPanicTrigger.HandleInductionTimerStop
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
-  name: HandlePanicEscapeTimerStop()
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop
-  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop()
-  nameWithType: CharacterPanicTrigger.HandlePanicEscapeTimerStop()
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop*
-  name: HandlePanicEscapeTimerStop
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_HandlePanicEscapeTimerStop_
-  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
-  isSpec: "True"
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.HandlePanicEscapeTimerStop
-  nameWithType: CharacterPanicTrigger.HandlePanicEscapeTimerStop
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
-  name: IsValid()
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid
-  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid()
-  nameWithType: CharacterPanicTrigger.IsValid()
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid*
-  name: IsValid
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_IsValid_
-  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
-  isSpec: "True"
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.IsValid
-  nameWithType: CharacterPanicTrigger.IsValid
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
-  name: OnDestroy()
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy
-  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy()
-  nameWithType: CharacterPanicTrigger.OnDestroy()
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy*
-  name: OnDestroy
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnDestroy_
-  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
-  isSpec: "True"
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnDestroy
-  nameWithType: CharacterPanicTrigger.OnDestroy
 - uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent(EventData)
   name: OnEvent(EventData)
   href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_OnEvent_EventData_
@@ -20008,19 +19957,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.OnEvent
   nameWithType: CharacterPanicTrigger.OnEvent
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
-  name: Start()
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start
-  commentId: M:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start()
-  nameWithType: CharacterPanicTrigger.Start()
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start*
-  name: Start
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_Start_
-  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
-  isSpec: "True"
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.Start
-  nameWithType: CharacterPanicTrigger.Start
 - uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget(CharacterFacade)
   name: SwitchPanicTarget(CharacterFacade)
   href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_SwitchPanicTarget_CharacterFacade_
@@ -20034,19 +19970,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.SwitchPanicTarget
   nameWithType: CharacterPanicTrigger.SwitchPanicTarget
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
-  name: ViewID
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID
-  commentId: P:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
-  nameWithType: CharacterPanicTrigger.ViewID
-- uid: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID*
-  name: ViewID
-  href: api/CatchIo.Runtime.PanicModes.CharacterPanicTrigger.html#CatchIo_Runtime_PanicModes_CharacterPanicTrigger_ViewID_
-  commentId: Overload:CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
-  isSpec: "True"
-  fullName: CatchIo.Runtime.PanicModes.CharacterPanicTrigger.ViewID
-  nameWithType: CharacterPanicTrigger.ViewID
 - uid: CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter
   name: EntityPanicSfxEmitter
   href: api/CatchIo.Runtime.PanicModes.EntityPanicSfxEmitter.html
@@ -27428,6 +27351,19 @@ references:
   commentId: T:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions
   fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions
   nameWithType: EntityDirectionTypeExtensions
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing(EntityDirectionType,EntityDirectionType,System.Boolean)
+  name: AreMutuallyFacing(EntityDirectionType, EntityDirectionType, Boolean)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_AreMutuallyFacing_EntityDirectionType_EntityDirectionType_System_Boolean_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing(EntityDirectionType,EntityDirectionType,System.Boolean)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing(EntityDirectionType, EntityDirectionType, System.Boolean)
+  nameWithType: EntityDirectionTypeExtensions.AreMutuallyFacing(EntityDirectionType, EntityDirectionType, Boolean)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing*
+  name: AreMutuallyFacing
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_AreMutuallyFacing_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing
+  nameWithType: EntityDirectionTypeExtensions.AreMutuallyFacing
 - uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType,EntityDirectionType)
   name: CanBackStab(EntityDirectionType, EntityDirectionType)
   href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_CanBackStab_EntityDirectionType_EntityDirectionType_
@@ -27480,6 +27416,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetOpposite
   nameWithType: EntityDirectionTypeExtensions.GetOpposite
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing(EntityDirectionType,EntityDirectionType)
+  name: IsFacing(EntityDirectionType, EntityDirectionType)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacing_EntityDirectionType_EntityDirectionType_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing(EntityDirectionType,EntityDirectionType)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing(EntityDirectionType, EntityDirectionType)
+  nameWithType: EntityDirectionTypeExtensions.IsFacing(EntityDirectionType, EntityDirectionType)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing*
+  name: IsFacing
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacing_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacing
+  nameWithType: EntityDirectionTypeExtensions.IsFacing
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward(EntityDirectionType,EntityDirectionType,System.Boolean)
+  name: IsFacingToward(EntityDirectionType, EntityDirectionType, Boolean)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacingToward_EntityDirectionType_EntityDirectionType_System_Boolean_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward(EntityDirectionType,EntityDirectionType,System.Boolean)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward(EntityDirectionType, EntityDirectionType, System.Boolean)
+  nameWithType: EntityDirectionTypeExtensions.IsFacingToward(EntityDirectionType, EntityDirectionType, Boolean)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward*
+  name: IsFacingToward
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsFacingToward_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsFacingToward
+  nameWithType: EntityDirectionTypeExtensions.IsFacingToward
 - uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite(EntityDirectionType,EntityDirectionType)
   name: IsOpposite(EntityDirectionType, EntityDirectionType)
   href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsOpposite_EntityDirectionType_EntityDirectionType_
