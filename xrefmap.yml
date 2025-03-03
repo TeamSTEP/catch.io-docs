@@ -8844,19 +8844,6 @@ references:
   commentId: T:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox
   fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox
   nameWithType: FOVHitBox
-- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle
-  name: CurrentAngle
-  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_CurrentAngle
-  commentId: P:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle
-  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle
-  nameWithType: FOVHitBox.CurrentAngle
-- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle*
-  name: CurrentAngle
-  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_CurrentAngle_
-  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle
-  nameWithType: FOVHitBox.CurrentAngle
 - uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.DetectHurtBox*
   name: DetectHurtBox
   href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_DetectHurtBox_
@@ -8889,32 +8876,22 @@ references:
   fullName.vb: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.DetectHurtBoxes(Of T)(System.Func(Of T, System.Boolean))
   nameWithType: FOVHitBox.DetectHurtBoxes<T>(Func<T, Boolean>)
   nameWithType.vb: FOVHitBox.DetectHurtBoxes(Of T)(Func(Of T, Boolean))
-- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle
-  name: FOVAngle
-  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_FOVAngle
-  commentId: P:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle
-  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle
-  nameWithType: FOVHitBox.FOVAngle
-- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle*
-  name: FOVAngle
-  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_FOVAngle_
-  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle
+- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox*
+  name: GetBestHurtBox
+  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_GetBestHurtBox_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox
   isSpec: "True"
-  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle
-  nameWithType: FOVHitBox.FOVAngle
-- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range
-  name: Range
-  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_Range
-  commentId: P:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range
-  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range
-  nameWithType: FOVHitBox.Range
-- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range*
-  name: Range
-  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_Range_
-  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range
-  nameWithType: FOVHitBox.Range
+  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox
+  nameWithType: FOVHitBox.GetBestHurtBox
+- uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox``1(``0[])
+  name: GetBestHurtBox<T>(T[])
+  href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_GetBestHurtBox__1___0___
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox``1(``0[])
+  name.vb: GetBestHurtBox(Of T)(T())
+  fullName: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox<T>(T[])
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox(Of T)(T())
+  nameWithType: FOVHitBox.GetBestHurtBox<T>(T[])
+  nameWithType.vb: FOVHitBox.GetBestHurtBox(Of T)(T())
 - uid: CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.UpdateZAngle(System.Single)
   name: UpdateZAngle(Single)
   href: api/CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.html#CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_UpdateZAngle_System_Single_
@@ -20882,6 +20859,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsStunned
   nameWithType: CharacterStatus.IsStunned
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphAttack
+  name: IsTransmorphAttack
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsTransmorphAttack
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphAttack
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphAttack
+  nameWithType: CharacterStatus.IsTransmorphAttack
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphAttack*
+  name: IsTransmorphAttack
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsTransmorphAttack_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphAttack
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphAttack
+  nameWithType: CharacterStatus.IsTransmorphAttack
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.IsTransmorphed
   name: IsTransmorphed
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_IsTransmorphed

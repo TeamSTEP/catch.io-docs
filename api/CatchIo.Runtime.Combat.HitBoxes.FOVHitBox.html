@@ -126,86 +126,6 @@ Inherits from <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html"
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class FOVHitBox : HitBox</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_CurrentAngle_" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_CurrentAngle" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.CurrentAngle">CurrentAngle</h4>
-  <div class="markdown level1 summary"><p>Gets the current Z-axis angle of the field of view.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float CurrentAngle { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_FOVAngle_" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_FOVAngle" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.FOVAngle">FOVAngle</h4>
-  <div class="markdown level1 summary"><p>Gets the angle of the field of view.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float FOVAngle { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_Range_" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_Range" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.Range">Range</h4>
-  <div class="markdown level1 summary"><p>Gets the maximum detection range of the field of view.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Range { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -336,6 +256,64 @@ Inherits from <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html"
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">CatchIo.Runtime.Combat.HitBoxes.HitBox.DetectHurtBoxes&lt;T&gt;(System.Func&lt;T, System.Boolean&gt;)</span></div>
+  
+  
+  <a id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_GetBestHurtBox_" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox*"></a>
+  <h4 id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_GetBestHurtBox__1___0___" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.GetBestHurtBox``1(``0[])">GetBestHurtBox&lt;T&gt;(T[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetBestHurtBox&lt;T&gt;(T[] hurtBoxes)
+    where T : HurtBox</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">hurtBoxes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_Combat_HitBoxes_FOVHitBox_UpdateZAngle_" data-uid="CatchIo.Runtime.Combat.HitBoxes.FOVHitBox.UpdateZAngle*"></a>
