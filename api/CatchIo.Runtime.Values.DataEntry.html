@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HitEffect
+    <title>Class DataEntry
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HitEffect
+    <meta name="title" content="Class DataEntry
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,132 +78,114 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Values.DataEntry">
   
   
-  <h1 id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect" class="text-break">Class HitEffect
+  <h1 id="CatchIo_Runtime_Values_DataEntry" data-uid="CatchIo.Runtime.Values.DataEntry" class="text-break">Class DataEntry
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A class representing a single entry of data. Each entry has a key, a data type, and a value based on the selected type.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html">EffectBase</a></div>
-    <div class="level2"><span class="xref">HitEffect</span></div>
+    <div class="level1"><span class="xref">DataEntry</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase__spriteRenderer">EffectBase._spriteRenderer</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase__targetMaterial">EffectBase._targetMaterial</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase__materialInstance">EffectBase._materialInstance</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase__originMaterial">EffectBase._originMaterial</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase__easeType">EffectBase._easeType</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase__defaultDuration">EffectBase._defaultDuration</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase_OnEffectExecuted">EffectBase.OnEffectExecuted</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase_OnEffectRewound">EffectBase.OnEffectRewound</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase_OnEffectCompleted">EffectBase.OnEffectCompleted</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase_ExecuteAndRewind_System_Single_">EffectBase.ExecuteAndRewind(Single)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.html">CatchIo.Runtime.Character.Graphics.Effects</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Values.html">CatchIo.Runtime.Values</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Values_DataEntry_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HitEffect : EffectBase</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class DataEntry</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect_Execute_" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect.Execute*"></a>
-  <h4 id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect_Execute_System_Single_" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect.Execute(System.Single)">Execute(Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Values_DataEntry_BoolValue" data-uid="CatchIo.Runtime.Values.DataEntry.BoolValue">BoolValue</h4>
+  <div class="markdown level1 summary"><p>The boolean value if the DataType is Bool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override async UniTask Execute(float duration = 0F)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool BoolValue</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Values_DataEntry_ColorValue" data-uid="CatchIo.Runtime.Values.DataEntry.ColorValue">ColorValue</h4>
+  <div class="markdown level1 summary"><p>The color value if the DataType is Color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color ColorValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Values_DataEntry_FloatValue" data-uid="CatchIo.Runtime.Values.DataEntry.FloatValue">FloatValue</h4>
+  <div class="markdown level1 summary"><p>The float value if the DataType is Float.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FloatValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase_Execute_System_Single_">EffectBase.Execute(Single)</a></div>
   
   
-  <a id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect_Rewind_" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect.Rewind*"></a>
-  <h4 id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect_Rewind_System_Single_" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect.Rewind(System.Single)">Rewind(Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Values_DataEntry_IntValue" data-uid="CatchIo.Runtime.Values.DataEntry.IntValue">IntValue</h4>
+  <div class="markdown level1 summary"><p>The integer value if the DataType is Int.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override async UniTask Rewind(float duration = 0F)</code></pre>
+    <pre><code class="lang-csharp hljs">public int IntValue</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -213,25 +195,86 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTask</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase_Rewind_System_Single_">EffectBase.Rewind(Single)</a></div>
   
   
-  <a id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect_SetMaterialProperties_" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect.SetMaterialProperties*"></a>
-  <h4 id="CatchIo_Runtime_Character_Graphics_Effects_HitEffect_SetMaterialProperties" data-uid="CatchIo.Runtime.Character.Graphics.Effects.HitEffect.SetMaterialProperties">SetMaterialProperties()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Values_DataEntry_Key" data-uid="CatchIo.Runtime.Values.DataEntry.Key">Key</h4>
+  <div class="markdown level1 summary"><p>The key or name of the data entry.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void SetMaterialProperties()</code></pre>
+    <pre><code class="lang-csharp hljs">public string Key</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CatchIo.Runtime.Character.Graphics.Effects.EffectBase.html#CatchIo_Runtime_Character_Graphics_Effects_EffectBase_SetMaterialProperties">EffectBase.SetMaterialProperties()</a></div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Values_DataEntry_StringValue" data-uid="CatchIo.Runtime.Values.DataEntry.StringValue">StringValue</h4>
+  <div class="markdown level1 summary"><p>The string value if the DataType is String.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StringValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Values_DataEntry_Type" data-uid="CatchIo.Runtime.Values.DataEntry.Type">Type</h4>
+  <div class="markdown level1 summary"><p>The type of the data (int, bool, float, string).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataType Type</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Values.DataType.html">DataType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

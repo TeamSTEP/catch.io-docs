@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NPCNetworking
+    <title>Struct NetworkEffectRequest
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NPCNetworking
+    <meta name="title" content="Struct NetworkEffectRequest
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,39 +78,33 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.NPC.NPCNetworking">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest">
   
   
-  <h1 id="CatchIo_Runtime_NPC_NPCNetworking" data-uid="CatchIo.Runtime.NPC.NPCNetworking" class="text-break">Class NPCNetworking
+  <h1 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest" class="text-break">Struct NetworkEffectRequest
   </h1>
-  <div class="markdown level0 summary"><p>Handles network synchronization for NPCs including health, effects, and movement</p>
+  <div class="markdown level0 summary"><p>Serializable structure for network transmission of effect-related data.
+Handles network synchronization of visual effects across clients</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">NPCNetworking</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPositionProvider</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.NPC.html">CatchIo.Runtime.NPC</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Networking.html">CatchIo.Runtime.Entities.Networking</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_NPC_NPCNetworking_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NPCNetworking : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct NetworkEffectRequest</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_ChestOffset" data-uid="CatchIo.Runtime.NPC.NPCNetworking.ChestOffset">ChestOffset</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_EffectType" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.EffectType">EffectType</h4>
+  <div class="markdown level1 summary"><p>Type of effect to be synchronized</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Vector3 ChestOffset</code></pre>
+    <pre><code class="lang-csharp hljs">public EntityEffectType EffectType</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,24 +116,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><span class="xref">EntityEffectType</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_NPCType_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.NPCType*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_NPCType" data-uid="CatchIo.Runtime.NPC.NPCNetworking.NPCType">NPCType</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_IsRewinding" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.IsRewinding">IsRewinding</h4>
+  <div class="markdown level1 summary"><p>Indicates if the effect should be played in reverse</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NPCType NPCType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsRewinding</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -149,7 +141,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NPCType</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_TargetViewID" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.TargetViewID">TargetViewID</h4>
+  <div class="markdown level1 summary"><p>Network view ID of the target entity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TargetViewID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -158,14 +175,32 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_GetPosition_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.GetPosition*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_GetPosition" data-uid="CatchIo.Runtime.NPC.NPCNetworking.GetPosition">GetPosition()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_Deserialize_" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.Deserialize*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_Deserialize_System_Byte___" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.Deserialize(System.Byte[])">Deserialize(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Deserializes a byte array back into a NetworkEffectRequest</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
+    <pre><code class="lang-csharp hljs">public static object Deserialize(byte[] bytes)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -176,21 +211,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><span class="xref">System.Object</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_KnockBack_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.KnockBack*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_KnockBack_KnockBackData_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.KnockBack(KnockBackData)">KnockBack(KnockBackData)</h4>
-  <div class="markdown level1 summary"><p>Applies a knockback force to the NPC</p>
+  <a id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_FromEffectData_" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.FromEffectData*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_FromEffectData_EffectData_System_Int32_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.FromEffectData(EffectData,System.Int32,System.Boolean)">FromEffectData(EffectData, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a NetworkEffectRequest from effect data and target information</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void KnockBack(KnockBackData knockBackData)</code></pre>
+    <pre><code class="lang-csharp hljs">public static NetworkEffectRequest FromEffectData(EffectData effectData, int targetViewID, bool isRewinding)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -203,87 +238,47 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">KnockBackData</span></td>
-        <td><span class="parametername">knockBackData</span></td>
-        <td><p>Data containing direction, power and duration</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_OnImported_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.OnImported*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_OnImported_NPCData_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.OnImported(NPCData)">OnImported(NPCData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnImported(NPCData data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NPCData</span></td>
-        <td><span class="parametername">data</span></td>
+        <td><span class="xref">EffectData</span></td>
+        <td><span class="parametername">effectData</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_RPC_KnockBack_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_RPC_KnockBack_System_Int32_Vector2_System_Single_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack(System.Int32,Vector2,System.Single)">RPC_KnockBack(Int32, Vector2, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void RPC_KnockBack(int viewId, Vector2 knockBackForce, float duration)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">viewId</span></td>
+        <td><span class="parametername">targetViewID</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">knockBackForce</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isRewinding</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.html">NetworkEffectRequest</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_TakeDamage_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.TakeDamage*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_TakeDamage_System_Int32_System_Single_DamageSfxType_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.TakeDamage(System.Int32,System.Single,DamageSfxType)">TakeDamage(Int32, Single, DamageSfxType)</h4>
-  <div class="markdown level1 summary"><p>Applies damage to the NPC and handles related effects</p>
+  <a id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_Serialize_" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.Serialize*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Networking_NetworkEffectRequest_Serialize_System_Object_" data-uid="CatchIo.Runtime.Entities.Networking.NetworkEffectRequest.Serialize(System.Object)">Serialize(Object)</h4>
+  <div class="markdown level1 summary"><p>Serializes the network request into a byte array for transmission</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage(int attackerViewID, float damage, DamageSfxType sfxType)</code></pre>
+    <pre><code class="lang-csharp hljs">public static byte[] Serialize(object customObject)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -296,29 +291,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">attackerViewID</span></td>
-        <td><p>PhotonView ID of the attacker</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">damage</span></td>
-        <td><p>Amount of damage to apply</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">DamageSfxType</span></td>
-        <td><span class="parametername">sfxType</span></td>
-        <td><p>Type of sound effect to play</p>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">customObject</span></td>
+        <td><p>NetworkEffectRequest instance to serialize</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPositionProvider</span>
-  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Byte array containing serialized data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

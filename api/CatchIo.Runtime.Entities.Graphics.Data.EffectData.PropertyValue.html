@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Runtime.Values
+    <title>Class EffectData.PropertyValue
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Runtime.Values
+    <meta name="title" content="Class EffectData.PropertyValue
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,42 +78,78 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Values">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Graphics.Data.EffectData.PropertyValue">
   
-  <h1 id="CatchIo_Runtime_Values" data-uid="CatchIo.Runtime.Values" class="text-break">Namespace CatchIo.Runtime.Values
+  
+  <h1 id="CatchIo_Runtime_Entities_Graphics_Data_EffectData_PropertyValue" data-uid="CatchIo.Runtime.Entities.Graphics.Data.EffectData.PropertyValue" class="text-break">Class EffectData.PropertyValue
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents a material property value and its animation settings</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EffectData.PropertyValue</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Graphics.Data.html">CatchIo.Runtime.Entities.Graphics.Data</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Entities_Graphics_Data_EffectData_PropertyValue_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class PropertyValue</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Values.BurningDOTDamage.html">BurningDOTDamage</a></h4>
-      <section><p>Sealed class that represents a specific type of DOT damage: burning damage.
-This class uses the base DOT damage structure to apply burning effects over time.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Values.DataEntry.html">DataEntry</a></h4>
-      <section><p>A class representing a single entry of data. Each entry has a key, a data type, and a value based on the selected type.</p>
-</section>
-    <h3 id="structs">Structs
-  </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Values.DamageData.html">DamageData</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Runtime.Values.DOTDamageData.html">DOTDamageData</a></h4>
-      <section><p>Struct that contains the data needed to configure a damage-over-time (DOT).
-This includes parameters such as tick count, interval, and damage falloff, allowing for flexible DOT behavior.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Values.KnockBackData.html">KnockBackData</a></h4>
-      <section><p>Struct that defines data for handling knock-back effects.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Values.ModificationValue.html">ModificationValue</a></h4>
-      <section><p>Represents a value and type for modifying distances.
-Used to encapsulate how a distance should be modified.</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Values.DataType.html">DataType</a></h4>
-      <section><p>Enum that defines the different types of data that can be stored in a state.</p>
-</section>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Graphics_Data_EffectData_PropertyValue_Entry" data-uid="CatchIo.Runtime.Entities.Graphics.Data.EffectData.PropertyValue.Entry">Entry</h4>
+  <div class="markdown level1 summary"><p>Data entry containing property information</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataEntry Entry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DataEntry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Graphics_Data_EffectData_PropertyValue_Settings" data-uid="CatchIo.Runtime.Entities.Graphics.Data.EffectData.PropertyValue.Settings">Settings</h4>
+  <div class="markdown level1 summary"><p>Animation settings specific to this property</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectData.EffectAnimationSettings Settings</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Entities.Graphics.Data.EffectData.EffectAnimationSettings.html">EffectData.EffectAnimationSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

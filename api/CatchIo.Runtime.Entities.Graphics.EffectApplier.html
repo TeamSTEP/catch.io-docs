@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NPCNetworking
+    <title>Class EffectApplier
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NPCNetworking
+    <meta name="title" content="Class EffectApplier
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,39 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.NPC.NPCNetworking">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier">
   
   
-  <h1 id="CatchIo_Runtime_NPC_NPCNetworking" data-uid="CatchIo.Runtime.NPC.NPCNetworking" class="text-break">Class NPCNetworking
+  <h1 id="CatchIo_Runtime_Entities_Graphics_EffectApplier" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier" class="text-break">Class EffectApplier
   </h1>
-  <div class="markdown level0 summary"><p>Handles network synchronization for NPCs including health, effects, and movement</p>
+  <div class="markdown level0 summary"><p>Handles the application and management of visual effects on SpriteRenderer.
+Supports material swapping, property animation, and network synchronization.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">NPCNetworking</span></div>
+    <div class="level1"><span class="xref">EffectApplier</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Entities.Graphics.EntityEffectApplier.html">EntityEffectApplier</a></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPositionProvider</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.NPC.html">CatchIo.Runtime.NPC</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Graphics.html">CatchIo.Runtime.Entities.Graphics</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_NPC_NPCNetworking_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NPCNetworking : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">public class EffectApplier : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_ChestOffset" data-uid="CatchIo.Runtime.NPC.NPCNetworking.ChestOffset">ChestOffset</h4>
+  <h4 id="CatchIo_Runtime_Entities_Graphics_EffectApplier__spriteRenderer" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier._spriteRenderer">_spriteRenderer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Vector3 ChestOffset</code></pre>
+    <pre><code class="lang-csharp hljs">protected SpriteRenderer _spriteRenderer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,34 +120,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_NPCType_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.NPCType*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_NPCType" data-uid="CatchIo.Runtime.NPC.NPCNetworking.NPCType">NPCType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NPCType NPCType { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NPCType</span></td>
+        <td><span class="xref">SpriteRenderer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -158,14 +129,59 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_GetPosition_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.GetPosition*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_GetPosition" data-uid="CatchIo.Runtime.NPC.NPCNetworking.GetPosition">GetPosition()</h4>
+  <a id="CatchIo_Runtime_Entities_Graphics_EffectApplier_Awake_" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.Awake*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_Awake" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.Awake">Awake()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
   </div>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Graphics_EffectApplier_OnDestroy_" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.OnDestroy*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_OnDestroy" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Graphics_EffectApplier_PlayEffectAsync_" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.PlayEffectAsync*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_PlayEffectAsync_EffectData_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.PlayEffectAsync(EffectData,System.Boolean)">PlayEffectAsync(EffectData, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously applies and plays a visual effect</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected async UniTask PlayEffectAsync(EffectData effectData, bool syncNetwork = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EffectData</span></td>
+        <td><span class="parametername">effectData</span></td>
+        <td><p>COnfiguration data for the effect to play</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">syncNetwork</span></td>
+        <td><p>If true, notifies network of effect start</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -176,21 +192,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_PlayEffectAsync_EffectData_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method handles the complete lifecycle of an effect:</p>
+<ol>
+<li>Validates the effect data</li>
+<li>Sets up required resources (material, tweens)</li>
+<li>Executes the effect animation</li>
+<li>Cleans up resources when complete
+If an effect with the same data is already playing, if will be canceled before the new instance starts</li>
+</ol>
+</div>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_KnockBack_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.KnockBack*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_KnockBack_KnockBackData_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.KnockBack(KnockBackData)">KnockBack(KnockBackData)</h4>
-  <div class="markdown level1 summary"><p>Applies a knockback force to the NPC</p>
+  <a id="CatchIo_Runtime_Entities_Graphics_EffectApplier_RewindEffectAsync_" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.RewindEffectAsync*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_RewindEffectAsync_EffectData_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.RewindEffectAsync(EffectData,System.Boolean)">RewindEffectAsync(EffectData, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously rewinds an active effect</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void KnockBack(KnockBackData knockBackData)</code></pre>
+    <pre><code class="lang-csharp hljs">protected async UniTask RewindEffectAsync(EffectData effectData, bool syncNetwork = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -203,122 +229,95 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">KnockBackData</span></td>
-        <td><span class="parametername">knockBackData</span></td>
-        <td><p>Data containing direction, power and duration</p>
+        <td><span class="xref">EffectData</span></td>
+        <td><span class="parametername">effectData</span></td>
+        <td><p>Configuration data for the effect to rewind</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">syncNetwork</span></td>
+        <td><p>If true, notifies network of effect rewind</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_OnImported_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.OnImported*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_OnImported_NPCData_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.OnImported(NPCData)">OnImported(NPCData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnImported(NPCData data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NPCData</span></td>
-        <td><span class="parametername">data</span></td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_RewindEffectAsync_EffectData_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Rewinding an effect:</p>
+<ol>
+<li>Validates the effect is currently active</li>
+<li>Plays all animations in reverse</li>
+<li>Removes the effect and cleans up resources
+If the effect is not currently active, the operation is skipped</li>
+</ol>
+</div>
+  <h3 id="events">Events
+  </h3>
   
   
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_RPC_KnockBack_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_RPC_KnockBack_System_Int32_Vector2_System_Single_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.RPC_KnockBack(System.Int32,Vector2,System.Single)">RPC_KnockBack(Int32, Vector2, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void RPC_KnockBack(int viewId, Vector2 knockBackForce, float duration)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">viewId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">knockBackForce</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_NPC_NPCNetworking_TakeDamage_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.TakeDamage*"></a>
-  <h4 id="CatchIo_Runtime_NPC_NPCNetworking_TakeDamage_System_Int32_System_Single_DamageSfxType_" data-uid="CatchIo.Runtime.NPC.NPCNetworking.TakeDamage(System.Int32,System.Single,DamageSfxType)">TakeDamage(Int32, Single, DamageSfxType)</h4>
-  <div class="markdown level1 summary"><p>Applies damage to the NPC and handles related effects</p>
+  <h4 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_OnNetworkEffectPlay" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.OnNetworkEffectPlay">OnNetworkEffectPlay</h4>
+  <div class="markdown level1 summary"><p>Triggered when an effect starts playing, used for network synchronization</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage(int attackerViewID, float damage, DamageSfxType sfxType)</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;EffectData&gt; OnNetworkEffectPlay</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">attackerViewID</span></td>
-        <td><p>PhotonView ID of the attacker</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">damage</span></td>
-        <td><p>Amount of damage to apply</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">DamageSfxType</span></td>
-        <td><span class="parametername">sfxType</span></td>
-        <td><p>Type of sound effect to play</p>
-</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">EffectData</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPositionProvider</span>
+  
+  
+  <h4 id="CatchIo_Runtime_Entities_Graphics_EffectApplier_OnNetworkEffectRewind" data-uid="CatchIo.Runtime.Entities.Graphics.EffectApplier.OnNetworkEffectRewind">OnNetworkEffectRewind</h4>
+  <div class="markdown level1 summary"><p>Triggered when an effect starts rewinding, used for network synchronization</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;EffectData&gt; OnNetworkEffectRewind</code></pre>
   </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">EffectData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
