@@ -1642,7 +1642,12 @@
   "api/CatchIo.Runtime.Managers.html": {
     "href": "api/CatchIo.Runtime.Managers.html",
     "title": "Namespace CatchIo.Runtime.Managers | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Managers Classes GameManager PlayerActionFeedbackManager Handle feed back sending to player on actions / inputs"
+    "keywords": "Namespace CatchIo.Runtime.Managers Classes GameManager LogManager Log Manager that saves Unity application logs to files and splits them when they exceed a certain size PlayerActionFeedbackManager Handle feed back sending to player on actions / inputs"
+  },
+  "api/CatchIo.Runtime.Managers.LogManager.html": {
+    "href": "api/CatchIo.Runtime.Managers.LogManager.html",
+    "title": "Class LogManager | Catch.io Developer Reference",
+    "keywords": "Class LogManager Log Manager that saves Unity application logs to files and splits them when they exceed a certain size Inheritance System.Object LogManager Namespace : CatchIo.Runtime.Managers Assembly : cs.temp.dll.dll Syntax public sealed class LogManager : MonoBehaviour Methods AddLogMessage(String, LogType) Manually add a log message Declaration public void AddLogMessage(string message, LogType type = null) Parameters Type Name Description System.String message LogType type GetAllLogFiles() Get all log files Declaration public string[] GetAllLogFiles() Returns Type Description System.String [] GetCurrentLogPath() Get the current log file path Declaration public string GetCurrentLogPath() Returns Type Description System.String GetLogDirectory() Get the log directory path Declaration public string GetLogDirectory() Returns Type Description System.String"
   },
   "api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html": {
     "href": "api/CatchIo.Runtime.Managers.PlayerActionFeedbackManager.html",
