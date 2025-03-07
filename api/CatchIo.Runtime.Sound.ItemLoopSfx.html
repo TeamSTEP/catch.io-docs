@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ScoutingRingData.ScoutingRingConfig
+    <title>Class ItemLoopSfx
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ScoutingRingData.ScoutingRingConfig
+    <meta name="title" content="Class ItemLoopSfx
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,39 +78,58 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Sound.ItemLoopSfx">
   
   
-  <h1 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig" class="text-break">Class ScoutingRingData.ScoutingRingConfig
+  <h1 id="CatchIo_Runtime_Sound_ItemLoopSfx" data-uid="CatchIo.Runtime.Sound.ItemLoopSfx" class="text-break">Class ItemLoopSfx
   </h1>
-  <div class="markdown level0 summary"><p>Configuration data for the Ring of Scouting item.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ScoutingRingData.ScoutingRingConfig</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Sound.Sfx.html">Sfx</a></div>
+    <div class="level2"><span class="xref">ItemLoopSfx</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Data.html">CatchIo.Runtime.Items.Data</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_EventInstance">Sfx.EventInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetPlayBackState">Sfx.GetPlayBackState()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_Stop_STOP_MODE_">Sfx.Stop(STOP_MODE)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_SetNewVolume_System_Single_">Sfx.SetNewVolume(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentVolume">Sfx.GetCurrentVolume()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_GetCurrentFinalVolume">Sfx.GetCurrentFinalVolume()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Sound.html">CatchIo.Runtime.Sound</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Sound_ItemLoopSfx_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScoutingRingConfig</code></pre>
+    <pre><code class="lang-csharp hljs">public class ItemLoopSfx : Sfx</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_ActiveSFX_" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX*"></a>
-  <h4 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_ActiveSFX" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX">ActiveSFX</h4>
-  <div class="markdown level1 summary"><p>SFX played when eye is active.</p>
-</div>
+  <h4 id="CatchIo_Runtime_Sound_ItemLoopSfx_EVENT_PATH" data-uid="CatchIo.Runtime.Sound.ItemLoopSfx.EVENT_PATH">EVENT_PATH</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ActiveSFX { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public const string EVENT_PATH = &quot;event:/Sfx/ItemLoopSfx&quot;</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -125,132 +144,70 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_MarkingSFX_" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.MarkingSFX*"></a>
-  <h4 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_MarkingSFX" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.MarkingSFX">MarkingSFX</h4>
-  <div class="markdown level1 summary"><p>Sound effect played when marking a target.</p>
-</div>
+  <a id="CatchIo_Runtime_Sound_ItemLoopSfx_Play_" data-uid="CatchIo.Runtime.Sound.ItemLoopSfx.Play*"></a>
+  <h4 id="CatchIo_Runtime_Sound_ItemLoopSfx_Play_Vector3_System_String_System_Single_" data-uid="CatchIo.Runtime.Sound.ItemLoopSfx.Play(Vector3,System.String,System.Single)">Play(Vector3, String, Single)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MarkingSFX { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Play(Vector3 generatePos, string itemType = &quot;&quot;, float volume = 1F)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">generatePos</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">itemType</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_SpecterPrefabPath_" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.SpecterPrefabPath*"></a>
-  <h4 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_SpecterPrefabPath" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.SpecterPrefabPath">SpecterPrefabPath</h4>
-  <div class="markdown level1 summary"><p>Path to the scouting specter prefab in the Resources folder.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SpecterPrefabPath { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_SpectralLinePrefab_" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.SpectralLinePrefab*"></a>
-  <h4 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_SpectralLinePrefab" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.SpectralLinePrefab">SpectralLinePrefab</h4>
-  <div class="markdown level1 summary"><p>Prefab for the spectral line connecting the player and the specter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject SpectralLinePrefab { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_StaminaDrainPerSecond_" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.StaminaDrainPerSecond*"></a>
-  <h4 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_StaminaDrainPerSecond" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.StaminaDrainPerSecond">StaminaDrainPerSecond</h4>
-  <div class="markdown level1 summary"><p>Stamina consumed per second while controlling the specter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float StaminaDrainPerSecond { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">volume</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Sound.Sfx.html#CatchIo_Runtime_Sound_Sfx_Play_Vector3_System_String_System_Single_">Sfx.Play(Vector3, String, Single)</a></div>
   
   
-  <a id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_UseSFX_" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX*"></a>
-  <h4 id="CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_UseSFX" data-uid="CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX">UseSFX</h4>
-  <div class="markdown level1 summary"><p>SFX played when using the item.</p>
-</div>
+  <a id="CatchIo_Runtime_Sound_ItemLoopSfx_UpdatePosition_" data-uid="CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition*"></a>
+  <h4 id="CatchIo_Runtime_Sound_ItemLoopSfx_UpdatePosition_Vector3_" data-uid="CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition(Vector3)">UpdatePosition(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string UseSFX { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdatePosition(Vector3 newPosition)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">newPosition</span></td>
         <td></td>
       </tr>
     </tbody>

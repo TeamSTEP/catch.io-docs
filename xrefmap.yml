@@ -14505,6 +14505,12 @@ references:
   commentId: T:CatchIo.Runtime.Items.Data.ScoutingRingData
   fullName: CatchIo.Runtime.Items.Data.ScoutingRingData
   nameWithType: ScoutingRingData
+- uid: CatchIo.Runtime.Items.Data.ScoutingRingData.ActiveSFX
+  name: ActiveSFX
+  href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.html#CatchIo_Runtime_Items_Data_ScoutingRingData_ActiveSFX
+  commentId: F:CatchIo.Runtime.Items.Data.ScoutingRingData.ActiveSFX
+  fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.ActiveSFX
+  nameWithType: ScoutingRingData.ActiveSFX
 - uid: CatchIo.Runtime.Items.Data.ScoutingRingData.Equip(CharacterItemUser)
   name: Equip(CharacterItemUser)
   href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.html#CatchIo_Runtime_Items_Data_ScoutingRingData_Equip_CharacterItemUser_
@@ -14543,6 +14549,19 @@ references:
   commentId: T:CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig
   fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig
   nameWithType: ScoutingRingData.ScoutingRingConfig
+- uid: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX
+  name: ActiveSFX
+  href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.html#CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_ActiveSFX
+  commentId: P:CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX
+  fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX
+  nameWithType: ScoutingRingData.ScoutingRingConfig.ActiveSFX
+- uid: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX*
+  name: ActiveSFX
+  href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.html#CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_ActiveSFX_
+  commentId: Overload:CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.ActiveSFX
+  nameWithType: ScoutingRingData.ScoutingRingConfig.ActiveSFX
 - uid: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.MarkingSFX
   name: MarkingSFX
   href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.html#CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_MarkingSFX
@@ -14595,6 +14614,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.StaminaDrainPerSecond
   nameWithType: ScoutingRingData.ScoutingRingConfig.StaminaDrainPerSecond
+- uid: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX
+  name: UseSFX
+  href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.html#CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_UseSFX
+  commentId: P:CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX
+  fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX
+  nameWithType: ScoutingRingData.ScoutingRingConfig.UseSFX
+- uid: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX*
+  name: UseSFX
+  href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.html#CatchIo_Runtime_Items_Data_ScoutingRingData_ScoutingRingConfig_UseSFX_
+  commentId: Overload:CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Data.ScoutingRingData.ScoutingRingConfig.UseSFX
+  nameWithType: ScoutingRingData.ScoutingRingConfig.UseSFX
 - uid: CatchIo.Runtime.Items.Data.ScoutingRingData.SpecterPrefab
   name: SpecterPrefab
   href: api/CatchIo.Runtime.Items.Data.ScoutingRingData.html#CatchIo_Runtime_Items_Data_ScoutingRingData_SpecterPrefab
@@ -20256,12 +20288,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.GetPosition
   nameWithType: ScoutingEye.GetPosition
-- uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser,System.String)
-  name: Initialize(CharacterItemUser, String)
-  href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_CharacterItemUser_System_String_
-  commentId: M:CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser,System.String)
-  fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser, System.String)
-  nameWithType: ScoutingEye.Initialize(CharacterItemUser, String)
+- uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser,System.String,System.String)
+  name: Initialize(CharacterItemUser, String, String)
+  href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_CharacterItemUser_System_String_System_String_
+  commentId: M:CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser,System.String,System.String)
+  fullName: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize(CharacterItemUser, System.String, System.String)
+  nameWithType: ScoutingEye.Initialize(CharacterItemUser, String, String)
 - uid: CatchIo.Runtime.ScoutingEyes.ScoutingEye.Initialize*
   name: Initialize
   href: api/CatchIo.Runtime.ScoutingEyes.ScoutingEye.html#CatchIo_Runtime_ScoutingEyes_ScoutingEye_Initialize_
@@ -24625,6 +24657,44 @@ references:
   commentId: T:CatchIo.Runtime.Sound.FootstepSfx
   fullName: CatchIo.Runtime.Sound.FootstepSfx
   nameWithType: FootstepSfx
+- uid: CatchIo.Runtime.Sound.ItemLoopSfx
+  name: ItemLoopSfx
+  href: api/CatchIo.Runtime.Sound.ItemLoopSfx.html
+  commentId: T:CatchIo.Runtime.Sound.ItemLoopSfx
+  fullName: CatchIo.Runtime.Sound.ItemLoopSfx
+  nameWithType: ItemLoopSfx
+- uid: CatchIo.Runtime.Sound.ItemLoopSfx.EVENT_PATH
+  name: EVENT_PATH
+  href: api/CatchIo.Runtime.Sound.ItemLoopSfx.html#CatchIo_Runtime_Sound_ItemLoopSfx_EVENT_PATH
+  commentId: F:CatchIo.Runtime.Sound.ItemLoopSfx.EVENT_PATH
+  fullName: CatchIo.Runtime.Sound.ItemLoopSfx.EVENT_PATH
+  nameWithType: ItemLoopSfx.EVENT_PATH
+- uid: CatchIo.Runtime.Sound.ItemLoopSfx.Play(Vector3,System.String,System.Single)
+  name: Play(Vector3, String, Single)
+  href: api/CatchIo.Runtime.Sound.ItemLoopSfx.html#CatchIo_Runtime_Sound_ItemLoopSfx_Play_Vector3_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.ItemLoopSfx.Play(Vector3,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.ItemLoopSfx.Play(Vector3, System.String, System.Single)
+  nameWithType: ItemLoopSfx.Play(Vector3, String, Single)
+- uid: CatchIo.Runtime.Sound.ItemLoopSfx.Play*
+  name: Play
+  href: api/CatchIo.Runtime.Sound.ItemLoopSfx.html#CatchIo_Runtime_Sound_ItemLoopSfx_Play_
+  commentId: Overload:CatchIo.Runtime.Sound.ItemLoopSfx.Play
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.ItemLoopSfx.Play
+  nameWithType: ItemLoopSfx.Play
+- uid: CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition(Vector3)
+  name: UpdatePosition(Vector3)
+  href: api/CatchIo.Runtime.Sound.ItemLoopSfx.html#CatchIo_Runtime_Sound_ItemLoopSfx_UpdatePosition_Vector3_
+  commentId: M:CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition(Vector3)
+  fullName: CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition(Vector3)
+  nameWithType: ItemLoopSfx.UpdatePosition(Vector3)
+- uid: CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition*
+  name: UpdatePosition
+  href: api/CatchIo.Runtime.Sound.ItemLoopSfx.html#CatchIo_Runtime_Sound_ItemLoopSfx_UpdatePosition_
+  commentId: Overload:CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.ItemLoopSfx.UpdatePosition
+  nameWithType: ItemLoopSfx.UpdatePosition
 - uid: CatchIo.Runtime.Sound.ItemSfx
   name: ItemSfx
   href: api/CatchIo.Runtime.Sound.ItemSfx.html
@@ -25046,6 +25116,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.PlayFootstepSfx
   nameWithType: SoundManager.PlayFootstepSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayItemLoopSfx(Vector3,System.String)
+  name: PlayItemLoopSfx(Vector3, String)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayItemLoopSfx_Vector3_System_String_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.PlayItemLoopSfx(Vector3,System.String)
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayItemLoopSfx(Vector3, System.String)
+  nameWithType: SoundManager.PlayItemLoopSfx(Vector3, String)
+- uid: CatchIo.Runtime.Sound.SoundManager.PlayItemLoopSfx*
+  name: PlayItemLoopSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayItemLoopSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.PlayItemLoopSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlayItemLoopSfx
+  nameWithType: SoundManager.PlayItemLoopSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.PlayItemSfx(Vector3,System.String,System.Boolean)
   name: PlayItemSfx(Vector3, String, Boolean)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayItemSfx_Vector3_System_String_System_Boolean_
@@ -25247,6 +25330,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.SetAudioListenerTarget
   nameWithType: SoundManager.SetAudioListenerTarget
+- uid: CatchIo.Runtime.Sound.SoundManager.StopItemLoopSfx
+  name: StopItemLoopSfx()
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopItemLoopSfx
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.StopItemLoopSfx
+  fullName: CatchIo.Runtime.Sound.SoundManager.StopItemLoopSfx()
+  nameWithType: SoundManager.StopItemLoopSfx()
+- uid: CatchIo.Runtime.Sound.SoundManager.StopItemLoopSfx*
+  name: StopItemLoopSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopItemLoopSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.StopItemLoopSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.StopItemLoopSfx
+  nameWithType: SoundManager.StopItemLoopSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.StopPanicLoopSfx
   name: StopPanicLoopSfx()
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_StopPanicLoopSfx
@@ -25299,6 +25395,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.UpdateFocusSfx
   nameWithType: SoundManager.UpdateFocusSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.UpdateItemLoopSfx(Vector3)
+  name: UpdateItemLoopSfx(Vector3)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_UpdateItemLoopSfx_Vector3_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.UpdateItemLoopSfx(Vector3)
+  fullName: CatchIo.Runtime.Sound.SoundManager.UpdateItemLoopSfx(Vector3)
+  nameWithType: SoundManager.UpdateItemLoopSfx(Vector3)
+- uid: CatchIo.Runtime.Sound.SoundManager.UpdateItemLoopSfx*
+  name: UpdateItemLoopSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_UpdateItemLoopSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.UpdateItemLoopSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.UpdateItemLoopSfx
+  nameWithType: SoundManager.UpdateItemLoopSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.UpdateWhisperSfx(Vector2)
   name: UpdateWhisperSfx(Vector2)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_UpdateWhisperSfx_Vector2_
