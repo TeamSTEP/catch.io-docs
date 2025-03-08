@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SoundDetector
+    <title>Class SoundWaveIndicator
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SoundDetector
+    <meta name="title" content="Class SoundWaveIndicator
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator">
   
   
-  <h1 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector" class="text-break">Class SoundDetector
+  <h1 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator" class="text-break">Class SoundWaveIndicator
   </h1>
-  <div class="markdown level0 summary"><p>Manages sound wave detection and distance calculation.
-Processes sound events and determines if they are within detection range.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SoundDetector</span></div>
+    <div class="level1"><span class="xref">SoundWaveIndicator</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Detectors.SoundWave.html">CatchIo.Runtime.Entities.Detectors.SoundWave</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.SoundWave.html">CatchIo.Runtime.SoundWave</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SoundDetector : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class SoundWaveIndicator : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnDisabled" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled">OnDisabled</h4>
+  <h4 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_OnDisable" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnDisable">OnDisable</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action OnDisabled</code></pre>
+    <pre><code class="lang-csharp hljs">public Action OnDisable</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,38 +124,13 @@ Processes sound events and determines if they are within detection range.</p>
   </table>
   
   
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnEnabled" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled">OnEnabled</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action OnEnabled</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnSoundWaveDetected" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnSoundWaveDetected">OnSoundWaveDetected</h4>
-  <div class="markdown level1 summary"><p>Event triggered when a sound wave is detected within range.
-Provides positions, direction, category, and maximum detection range.</p>
+  <h4 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_OnShowIndicatorArc" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnShowIndicatorArc">OnShowIndicatorArc</h4>
+  <div class="markdown level1 summary"><p>Show sound wave indicator arc with given direction, magnitude and distance alpha</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;Vector3, Vector3, SoundWaveDistanceCategory, int&gt; OnSoundWaveDetected</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;EntityDirectionType, SoundWaveMagnitude, float, float&gt; OnShowIndicatorArc</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -169,7 +142,7 @@ Provides positions, direction, category, and maximum detection range.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Vector3</span>, <span class="xref">Vector3</span>, <span class="xref">SoundWaveDistanceCategory</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">EntityDirectionType</span>, <span class="xref">SoundWaveMagnitude</span>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -178,58 +151,8 @@ Provides positions, direction, category, and maximum detection range.</p>
   </h3>
   
   
-  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator">Mediator</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ISoundWaveDetectionMediator Mediator { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ISoundWaveDetectionMediator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner">Owner</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterFacade Owner { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CharacterFacade</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider">PositionProvider</h4>
+  <a id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_PositionProvider_" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider*"></a>
+  <h4 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_PositionProvider" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider">PositionProvider</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -255,10 +178,9 @@ Provides positions, direction, category, and maximum detection range.</p>
   </h3>
   
   
-  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable">Disable()</h4>
-  <div class="markdown level1 summary"><p>Disable detector</p>
-</div>
+  <a id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_Disable_" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable*"></a>
+  <h4 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_Disable" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable">Disable()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -266,10 +188,9 @@ Provides positions, direction, category, and maximum detection range.</p>
   </div>
   
   
-  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable">Enable()</h4>
-  <div class="markdown level1 summary"><p>Enable detector</p>
-</div>
+  <a id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_Enable_" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable*"></a>
+  <h4 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_Enable" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable">Enable()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -277,14 +198,13 @@ Provides positions, direction, category, and maximum detection range.</p>
   </div>
   
   
-  <a id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_CharacterFacade_IPositionProvider_" data-uid="CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade,IPositionProvider)">Initialize(CharacterFacade, IPositionProvider)</h4>
-  <div class="markdown level1 summary"><p>Initialize sound detector</p>
-</div>
+  <a id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_Initialize_" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize*"></a>
+  <h4 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_Initialize_CharacterFacade_IPositionProvider_" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize(CharacterFacade,IPositionProvider)">Initialize(CharacterFacade, IPositionProvider)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(CharacterFacade owner, IPositionProvider positionProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize(CharacterFacade characterFacade, IPositionProvider positionProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,15 +218,50 @@ Provides positions, direction, category, and maximum detection range.</p>
     <tbody>
       <tr>
         <td><span class="xref">CharacterFacade</span></td>
-        <td><span class="parametername">owner</span></td>
-        <td><p>Owner of the detector client</p>
-</td>
+        <td><span class="parametername">characterFacade</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">IPositionProvider</span></td>
         <td><span class="parametername">positionProvider</span></td>
-        <td><p>Position provider to get the current detector position</p>
-</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_ShowIndicatorArc_" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc*"></a>
+  <h4 id="CatchIo_Runtime_SoundWave_SoundWaveIndicator_ShowIndicatorArc_EntityDirectionType_SoundWaveMagnitude_System_Single_" data-uid="CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc(EntityDirectionType,SoundWaveMagnitude,System.Single)">ShowIndicatorArc(EntityDirectionType, SoundWaveMagnitude, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowIndicatorArc(EntityDirectionType direction, SoundWaveMagnitude category, float distanceAlpha)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityDirectionType</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SoundWaveMagnitude</span></td>
+        <td><span class="parametername">category</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distanceAlpha</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

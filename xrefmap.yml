@@ -433,6 +433,31 @@ references:
   commentId: F:CatchIo.Editor.AnimationGenerator.EntityOverrideAnimatorEditorWindow.OriginalAnimatorController
   fullName: CatchIo.Editor.AnimationGenerator.EntityOverrideAnimatorEditorWindow.OriginalAnimatorController
   nameWithType: EntityOverrideAnimatorEditorWindow.OriginalAnimatorController
+- uid: CatchIo.Editor.CustomEditors
+  name: CatchIo.Editor.CustomEditors
+  href: api/CatchIo.Editor.CustomEditors.html
+  commentId: N:CatchIo.Editor.CustomEditors
+  fullName: CatchIo.Editor.CustomEditors
+  nameWithType: CatchIo.Editor.CustomEditors
+- uid: CatchIo.Editor.CustomEditors.SoundWaveSettingEditor
+  name: SoundWaveSettingEditor
+  href: api/CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.html
+  commentId: T:CatchIo.Editor.CustomEditors.SoundWaveSettingEditor
+  fullName: CatchIo.Editor.CustomEditors.SoundWaveSettingEditor
+  nameWithType: SoundWaveSettingEditor
+- uid: CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.html#CatchIo_Editor_CustomEditors_SoundWaveSettingEditor_OnInspectorGUI
+  commentId: M:CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.OnInspectorGUI
+  fullName: CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.OnInspectorGUI()
+  nameWithType: SoundWaveSettingEditor.OnInspectorGUI()
+- uid: CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.html#CatchIo_Editor_CustomEditors_SoundWaveSettingEditor_OnInspectorGUI_
+  commentId: Overload:CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: CatchIo.Editor.CustomEditors.SoundWaveSettingEditor.OnInspectorGUI
+  nameWithType: SoundWaveSettingEditor.OnInspectorGUI
 - uid: CatchIo.Editor.LightColliders
   name: CatchIo.Editor.LightColliders
   href: api/CatchIo.Editor.LightColliders.html
@@ -1069,6 +1094,57 @@ references:
   isSpec: "True"
   fullName: CatchIo.Editor.Utility.Attributes.MonoScriptPropertyDrawer.OnGUI
   nameWithType: MonoScriptPropertyDrawer.OnGUI
+- uid: CatchIo.Editor.Utility.EditorUtils
+  name: EditorUtils
+  href: api/CatchIo.Editor.Utility.EditorUtils.html
+  commentId: T:CatchIo.Editor.Utility.EditorUtils
+  fullName: CatchIo.Editor.Utility.EditorUtils
+  nameWithType: EditorUtils
+- uid: CatchIo.Editor.Utility.EditorUtils.FindScriptPath(System.String)
+  name: FindScriptPath(String)
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_FindScriptPath_System_String_
+  commentId: M:CatchIo.Editor.Utility.EditorUtils.FindScriptPath(System.String)
+  fullName: CatchIo.Editor.Utility.EditorUtils.FindScriptPath(System.String)
+  nameWithType: EditorUtils.FindScriptPath(String)
+- uid: CatchIo.Editor.Utility.EditorUtils.FindScriptPath*
+  name: FindScriptPath
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_FindScriptPath_
+  commentId: Overload:CatchIo.Editor.Utility.EditorUtils.FindScriptPath
+  isSpec: "True"
+  fullName: CatchIo.Editor.Utility.EditorUtils.FindScriptPath
+  nameWithType: EditorUtils.FindScriptPath
+- uid: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String,System.Collections.Generic.List{System.String})
+  name: GenerateEnumFile(String, List<String>)
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GenerateEnumFile_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String,System.Collections.Generic.List{System.String})
+  name.vb: GenerateEnumFile(String, List(Of String))
+  fullName: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String, System.Collections.Generic.List<System.String>)
+  fullName.vb: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String, System.Collections.Generic.List(Of System.String))
+  nameWithType: EditorUtils.GenerateEnumFile(String, List<String>)
+  nameWithType.vb: EditorUtils.GenerateEnumFile(String, List(Of String))
+- uid: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile*
+  name: GenerateEnumFile
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GenerateEnumFile_
+  commentId: Overload:CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile
+  isSpec: "True"
+  fullName: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile
+  nameWithType: EditorUtils.GenerateEnumFile
+- uid: CatchIo.Editor.Utility.EditorUtils.GetEnumNames*
+  name: GetEnumNames
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GetEnumNames_
+  commentId: Overload:CatchIo.Editor.Utility.EditorUtils.GetEnumNames
+  isSpec: "True"
+  fullName: CatchIo.Editor.Utility.EditorUtils.GetEnumNames
+  nameWithType: EditorUtils.GetEnumNames
+- uid: CatchIo.Editor.Utility.EditorUtils.GetEnumNames``1
+  name: GetEnumNames<T>()
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GetEnumNames__1
+  commentId: M:CatchIo.Editor.Utility.EditorUtils.GetEnumNames``1
+  name.vb: GetEnumNames(Of T)()
+  fullName: CatchIo.Editor.Utility.EditorUtils.GetEnumNames<T>()
+  fullName.vb: CatchIo.Editor.Utility.EditorUtils.GetEnumNames(Of T)()
+  nameWithType: EditorUtils.GetEnumNames<T>()
+  nameWithType.vb: EditorUtils.GetEnumNames(Of T)()
 - uid: CatchIo.Editor.Utility.MapItemViewIDUpdateUtil
   name: MapItemViewIDUpdateUtil
   href: api/CatchIo.Editor.Utility.MapItemViewIDUpdateUtil.html
@@ -1100,6 +1176,50 @@ references:
   isSpec: "True"
   fullName: CatchIo.Editor.Windows.AmbienceSettingGeneratorWindow.AmbienceMusicSettingsGenerator.Init
   nameWithType: AmbienceMusicSettingsGenerator.Init
+- uid: CatchIo.Editor.Windows.SoundWaveTypeWindow
+  name: CatchIo.Editor.Windows.SoundWaveTypeWindow
+  href: api/CatchIo.Editor.Windows.SoundWaveTypeWindow.html
+  commentId: N:CatchIo.Editor.Windows.SoundWaveTypeWindow
+  fullName: CatchIo.Editor.Windows.SoundWaveTypeWindow
+  nameWithType: CatchIo.Editor.Windows.SoundWaveTypeWindow
+- uid: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow
+  name: SoundWaveTypeEditorWindow
+  href: api/CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.html
+  commentId: T:CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow
+  fullName: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow
+  nameWithType: SoundWaveTypeEditorWindow
+- uid: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OnEnable
+  name: OnEnable()
+  href: api/CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.html#CatchIo_Editor_Windows_SoundWaveTypeWindow_SoundWaveTypeEditorWindow_OnEnable
+  commentId: M:CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OnEnable
+  fullName: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OnEnable()
+  nameWithType: SoundWaveTypeEditorWindow.OnEnable()
+- uid: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OnEnable*
+  name: OnEnable
+  href: api/CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.html#CatchIo_Editor_Windows_SoundWaveTypeWindow_SoundWaveTypeEditorWindow_OnEnable_
+  commentId: Overload:CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OnEnable
+  isSpec: "True"
+  fullName: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OnEnable
+  nameWithType: SoundWaveTypeEditorWindow.OnEnable
+- uid: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OpenWindow
+  name: OpenWindow()
+  href: api/CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.html#CatchIo_Editor_Windows_SoundWaveTypeWindow_SoundWaveTypeEditorWindow_OpenWindow
+  commentId: M:CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OpenWindow
+  fullName: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OpenWindow()
+  nameWithType: SoundWaveTypeEditorWindow.OpenWindow()
+- uid: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OpenWindow*
+  name: OpenWindow
+  href: api/CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.html#CatchIo_Editor_Windows_SoundWaveTypeWindow_SoundWaveTypeEditorWindow_OpenWindow_
+  commentId: Overload:CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OpenWindow
+  isSpec: "True"
+  fullName: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.OpenWindow
+  nameWithType: SoundWaveTypeEditorWindow.OpenWindow
+- uid: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.SoundWaveTypes
+  name: SoundWaveTypes
+  href: api/CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.html#CatchIo_Editor_Windows_SoundWaveTypeWindow_SoundWaveTypeEditorWindow_SoundWaveTypes
+  commentId: F:CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.SoundWaveTypes
+  fullName: CatchIo.Editor.Windows.SoundWaveTypeWindow.SoundWaveTypeEditorWindow.SoundWaveTypes
+  nameWithType: SoundWaveTypeEditorWindow.SoundWaveTypes
 - uid: CatchIo.Editor.Windows.StaminaTypeWindow
   name: CatchIo.Editor.Windows.StaminaTypeWindow
   href: api/CatchIo.Editor.Windows.StaminaTypeWindow.html
@@ -2158,19 +2278,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.GenerateFootprint
   nameWithType: CharacterFacade.GenerateFootprint
-- uid: CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave(SoundWaveType)
-  name: GenerateSoundWave(SoundWaveType)
-  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_GenerateSoundWave_SoundWaveType_
-  commentId: M:CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave(SoundWaveType)
-  fullName: CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave(SoundWaveType)
-  nameWithType: CharacterFacade.GenerateSoundWave(SoundWaveType)
-- uid: CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave*
-  name: GenerateSoundWave
-  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_GenerateSoundWave_
-  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Character.CharacterFacade.GenerateSoundWave
-  nameWithType: CharacterFacade.GenerateSoundWave
 - uid: CatchIo.Runtime.Character.CharacterFacade.GetPosition
   name: GetPosition()
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_GetPosition
@@ -6639,12 +6746,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.NetworkCharacter.GenerateFootprint
   nameWithType: NetworkCharacter.GenerateFootprint
-- uid: CatchIo.Runtime.Character.NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType)
-  name: GenerateSoundWaveEvent(SoundWaveType)
-  href: api/CatchIo.Runtime.Character.NetworkCharacter.html#CatchIo_Runtime_Character_NetworkCharacter_GenerateSoundWaveEvent_SoundWaveType_
-  commentId: M:CatchIo.Runtime.Character.NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType)
-  fullName: CatchIo.Runtime.Character.NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType)
-  nameWithType: NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType)
+- uid: CatchIo.Runtime.Character.NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType,System.String)
+  name: GenerateSoundWaveEvent(SoundWaveType, String)
+  href: api/CatchIo.Runtime.Character.NetworkCharacter.html#CatchIo_Runtime_Character_NetworkCharacter_GenerateSoundWaveEvent_SoundWaveType_System_String_
+  commentId: M:CatchIo.Runtime.Character.NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType,System.String)
+  fullName: CatchIo.Runtime.Character.NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType, System.String)
+  nameWithType: NetworkCharacter.GenerateSoundWaveEvent(SoundWaveType, String)
 - uid: CatchIo.Runtime.Character.NetworkCharacter.GenerateSoundWaveEvent*
   name: GenerateSoundWaveEvent
   href: api/CatchIo.Runtime.Character.NetworkCharacter.html#CatchIo_Runtime_Character_NetworkCharacter_GenerateSoundWaveEvent_
@@ -10060,202 +10167,6 @@ references:
   commentId: E:CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.OnDetectedStateChanged
   fullName: CatchIo.Runtime.Entities.Detectors.EntitySilhouetteDetector.OnDetectedStateChanged
   nameWithType: EntitySilhouetteDetector.OnDetectedStateChanged
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave
-  name: CatchIo.Runtime.Entities.Detectors.SoundWave
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.html
-  commentId: N:CatchIo.Runtime.Entities.Detectors.SoundWave
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave
-  nameWithType: CatchIo.Runtime.Entities.Detectors.SoundWave
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl
-  name: NoiseArcAnimationControl
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl.html
-  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.NoiseArcAnimationControl
-  nameWithType: NoiseArcAnimationControl
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator
-  name: SoundDetectionIndicator
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html
-  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator
-  nameWithType: SoundDetectionIndicator
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
-  name: Duration
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_Duration
-  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
-  nameWithType: SoundDetectionIndicator.Duration
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration*
-  name: Duration
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_Duration_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.Duration
-  nameWithType: SoundDetectionIndicator.Duration
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnHideIndicatorArc
-  name: OnHideIndicatorArc
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_OnHideIndicatorArc
-  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnHideIndicatorArc
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnHideIndicatorArc
-  nameWithType: SoundDetectionIndicator.OnHideIndicatorArc
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnShowIndicatorArc
-  name: OnShowIndicatorArc
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetectionIndicator_OnShowIndicatorArc
-  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnShowIndicatorArc
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetectionIndicator.OnShowIndicatorArc
-  nameWithType: SoundDetectionIndicator.OnShowIndicatorArc
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
-  name: SoundDetector
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html
-  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector
-  nameWithType: SoundDetector
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance
-  name: SoundDetector.CategoryToMaximumDistance
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance.html
-  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.CategoryToMaximumDistance
-  nameWithType: SoundDetector.CategoryToMaximumDistance
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
-  name: Disable()
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable
-  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable()
-  nameWithType: SoundDetector.Disable()
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable*
-  name: Disable
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Disable_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Disable
-  nameWithType: SoundDetector.Disable
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
-  name: Enable()
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable
-  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable()
-  nameWithType: SoundDetector.Enable()
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable*
-  name: Enable
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Enable_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Enable
-  nameWithType: SoundDetector.Enable
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade,IPositionProvider)
-  name: Initialize(CharacterFacade, IPositionProvider)
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_CharacterFacade_IPositionProvider_
-  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade,IPositionProvider)
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize(CharacterFacade, IPositionProvider)
-  nameWithType: SoundDetector.Initialize(CharacterFacade, IPositionProvider)
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize*
-  name: Initialize
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Initialize_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Initialize
-  nameWithType: SoundDetector.Initialize
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
-  name: Mediator
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator
-  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
-  nameWithType: SoundDetector.Mediator
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator*
-  name: Mediator
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Mediator_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Mediator
-  nameWithType: SoundDetector.Mediator
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled
-  name: OnDisabled
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnDisabled
-  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnDisabled
-  nameWithType: SoundDetector.OnDisabled
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled
-  name: OnEnabled
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnEnabled
-  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnEnabled
-  nameWithType: SoundDetector.OnEnabled
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnSoundWaveDetected
-  name: OnSoundWaveDetected
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_OnSoundWaveDetected
-  commentId: F:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnSoundWaveDetected
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.OnSoundWaveDetected
-  nameWithType: SoundDetector.OnSoundWaveDetected
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
-  name: Owner
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner
-  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
-  nameWithType: SoundDetector.Owner
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner*
-  name: Owner
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_Owner_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.Owner
-  nameWithType: SoundDetector.Owner
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
-  name: PositionProvider
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider
-  commentId: P:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
-  nameWithType: SoundDetector.PositionProvider
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider*
-  name: PositionProvider
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundDetector_PositionProvider_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundDetector.PositionProvider
-  nameWithType: SoundDetector.PositionProvider
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator
-  name: SoundWaveDetectionMediator
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html
-  commentId: T:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator
-  nameWithType: SoundWaveDetectionMediator
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
-  name: GetModificationDistance(SoundWaveType, Single, Int32)
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_SoundWaveType_System_Single_System_Int32_
-  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, System.Single, System.Int32)
-  nameWithType: SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, Single, Int32)
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance*
-  name: GetModificationDistance
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.GetModificationDistance
-  nameWithType: SoundWaveDetectionMediator.GetModificationDistance
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
-  name: RegisterModifier(ISoundWaveDistanceModifier)
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_RegisterModifier_ISoundWaveDistanceModifier_
-  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
-  nameWithType: SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier*
-  name: RegisterModifier
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_RegisterModifier_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.RegisterModifier
-  nameWithType: SoundWaveDetectionMediator.RegisterModifier
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
-  name: UnregisterModifier(ISoundWaveDistanceModifier)
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_ISoundWaveDistanceModifier_
-  commentId: M:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
-  nameWithType: SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
-- uid: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier*
-  name: UnregisterModifier
-  href: api/CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_Entities_Detectors_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_
-  commentId: Overload:CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Detectors.SoundWave.SoundWaveDetectionMediator.UnregisterModifier
-  nameWithType: SoundWaveDetectionMediator.UnregisterModifier
 - uid: CatchIo.Runtime.Entities.EntityHUDPositionProvider
   name: EntityHUDPositionProvider
   href: api/CatchIo.Runtime.Entities.EntityHUDPositionProvider.html
@@ -12434,30 +12345,30 @@ references:
   commentId: F:CatchIo.Runtime.Enums.ShownCharacterStatsType.Name
   fullName: CatchIo.Runtime.Enums.ShownCharacterStatsType.Name
   nameWithType: ShownCharacterStatsType.Name
-- uid: CatchIo.Runtime.Enums.SoundWaveDistanceCategory
-  name: SoundWaveDistanceCategory
-  href: api/CatchIo.Runtime.Enums.SoundWaveDistanceCategory.html
-  commentId: T:CatchIo.Runtime.Enums.SoundWaveDistanceCategory
-  fullName: CatchIo.Runtime.Enums.SoundWaveDistanceCategory
-  nameWithType: SoundWaveDistanceCategory
-- uid: CatchIo.Runtime.Enums.SoundWaveDistanceCategory.High
+- uid: CatchIo.Runtime.Enums.SoundWaveMagnitude
+  name: SoundWaveMagnitude
+  href: api/CatchIo.Runtime.Enums.SoundWaveMagnitude.html
+  commentId: T:CatchIo.Runtime.Enums.SoundWaveMagnitude
+  fullName: CatchIo.Runtime.Enums.SoundWaveMagnitude
+  nameWithType: SoundWaveMagnitude
+- uid: CatchIo.Runtime.Enums.SoundWaveMagnitude.High
   name: High
-  href: api/CatchIo.Runtime.Enums.SoundWaveDistanceCategory.html#CatchIo_Runtime_Enums_SoundWaveDistanceCategory_High
-  commentId: F:CatchIo.Runtime.Enums.SoundWaveDistanceCategory.High
-  fullName: CatchIo.Runtime.Enums.SoundWaveDistanceCategory.High
-  nameWithType: SoundWaveDistanceCategory.High
-- uid: CatchIo.Runtime.Enums.SoundWaveDistanceCategory.Low
+  href: api/CatchIo.Runtime.Enums.SoundWaveMagnitude.html#CatchIo_Runtime_Enums_SoundWaveMagnitude_High
+  commentId: F:CatchIo.Runtime.Enums.SoundWaveMagnitude.High
+  fullName: CatchIo.Runtime.Enums.SoundWaveMagnitude.High
+  nameWithType: SoundWaveMagnitude.High
+- uid: CatchIo.Runtime.Enums.SoundWaveMagnitude.Low
   name: Low
-  href: api/CatchIo.Runtime.Enums.SoundWaveDistanceCategory.html#CatchIo_Runtime_Enums_SoundWaveDistanceCategory_Low
-  commentId: F:CatchIo.Runtime.Enums.SoundWaveDistanceCategory.Low
-  fullName: CatchIo.Runtime.Enums.SoundWaveDistanceCategory.Low
-  nameWithType: SoundWaveDistanceCategory.Low
-- uid: CatchIo.Runtime.Enums.SoundWaveDistanceCategory.Medium
+  href: api/CatchIo.Runtime.Enums.SoundWaveMagnitude.html#CatchIo_Runtime_Enums_SoundWaveMagnitude_Low
+  commentId: F:CatchIo.Runtime.Enums.SoundWaveMagnitude.Low
+  fullName: CatchIo.Runtime.Enums.SoundWaveMagnitude.Low
+  nameWithType: SoundWaveMagnitude.Low
+- uid: CatchIo.Runtime.Enums.SoundWaveMagnitude.Medium
   name: Medium
-  href: api/CatchIo.Runtime.Enums.SoundWaveDistanceCategory.html#CatchIo_Runtime_Enums_SoundWaveDistanceCategory_Medium
-  commentId: F:CatchIo.Runtime.Enums.SoundWaveDistanceCategory.Medium
-  fullName: CatchIo.Runtime.Enums.SoundWaveDistanceCategory.Medium
-  nameWithType: SoundWaveDistanceCategory.Medium
+  href: api/CatchIo.Runtime.Enums.SoundWaveMagnitude.html#CatchIo_Runtime_Enums_SoundWaveMagnitude_Medium
+  commentId: F:CatchIo.Runtime.Enums.SoundWaveMagnitude.Medium
+  fullName: CatchIo.Runtime.Enums.SoundWaveMagnitude.Medium
+  nameWithType: SoundWaveMagnitude.Medium
 - uid: CatchIo.Runtime.Enums.SoundWaveType
   name: SoundWaveType
   href: api/CatchIo.Runtime.Enums.SoundWaveType.html
@@ -23524,6 +23435,79 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.RoomSceneMode.OnStart
   nameWithType: RoomSceneMode.OnStart
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave
+  name: CatchIo.Runtime.ScriptableObjects.SoundWave
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.html
+  commentId: N:CatchIo.Runtime.ScriptableObjects.SoundWave
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave
+  nameWithType: CatchIo.Runtime.ScriptableObjects.SoundWave
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData
+  name: SoundWaveData
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.html
+  commentId: T:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData
+  nameWithType: SoundWaveData
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.BaseMaximumDetectionDistance
+  name: BaseMaximumDetectionDistance
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveData_BaseMaximumDetectionDistance
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.BaseMaximumDetectionDistance
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.BaseMaximumDetectionDistance
+  nameWithType: SoundWaveData.BaseMaximumDetectionDistance
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveEvent
+  name: SoundWaveEvent
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveData_SoundWaveEvent
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveEvent
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveEvent
+  nameWithType: SoundWaveData.SoundWaveEvent
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveEventParameter
+  name: SoundWaveEventParameter
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveData_SoundWaveEventParameter
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveEventParameter
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveEventParameter
+  nameWithType: SoundWaveData.SoundWaveEventParameter
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveType
+  name: SoundWaveType
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveData_SoundWaveType
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveType
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.SoundWaveType
+  nameWithType: SoundWaveData.SoundWaveType
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings
+  name: SoundWaveSettings
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.html
+  commentId: T:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings
+  nameWithType: SoundWaveSettings
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData(SoundWaveType)
+  name: GetSoundWaveData(SoundWaveType)
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_GetSoundWaveData_SoundWaveType_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData(SoundWaveType)
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData(SoundWaveType)
+  nameWithType: SoundWaveSettings.GetSoundWaveData(SoundWaveType)
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData*
+  name: GetSoundWaveData
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_GetSoundWaveData_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData
+  nameWithType: SoundWaveSettings.GetSoundWaveData
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MaximumAlpha
+  name: MaximumAlpha
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_MaximumAlpha
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MaximumAlpha
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MaximumAlpha
+  nameWithType: SoundWaveSettings.MaximumAlpha
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumAlpha
+  name: MinimumAlpha
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_MinimumAlpha
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumAlpha
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumAlpha
+  nameWithType: SoundWaveSettings.MinimumAlpha
+- uid: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumDistance
+  name: MinimumDistance
+  href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.html#CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_MinimumDistance
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumDistance
+  fullName: CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumDistance
+  nameWithType: SoundWaveSettings.MinimumDistance
 - uid: CatchIo.Runtime.ScriptableObjects.Stamina
   name: CatchIo.Runtime.ScriptableObjects.Stamina
   href: api/CatchIo.Runtime.ScriptableObjects.Stamina.html
@@ -25258,6 +25242,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.PlayPanicStateSfx
   nameWithType: SoundManager.PlayPanicStateSfx
+- uid: CatchIo.Runtime.Sound.SoundManager.PlaySoundWaveSfx(Vector3,System.String,System.String,System.String,System.Single)
+  name: PlaySoundWaveSfx(Vector3, String, String, String, Single)
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlaySoundWaveSfx_Vector3_System_String_System_String_System_String_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SoundManager.PlaySoundWaveSfx(Vector3,System.String,System.String,System.String,System.Single)
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlaySoundWaveSfx(Vector3, System.String, System.String, System.String, System.Single)
+  nameWithType: SoundManager.PlaySoundWaveSfx(Vector3, String, String, String, Single)
+- uid: CatchIo.Runtime.Sound.SoundManager.PlaySoundWaveSfx*
+  name: PlaySoundWaveSfx
+  href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlaySoundWaveSfx_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundManager.PlaySoundWaveSfx
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundManager.PlaySoundWaveSfx
+  nameWithType: SoundManager.PlaySoundWaveSfx
 - uid: CatchIo.Runtime.Sound.SoundManager.PlayStaminaSfx(System.String,System.Single)
   name: PlayStaminaSfx(String, Single)
   href: api/CatchIo.Runtime.Sound.SoundManager.html#CatchIo_Runtime_Sound_SoundManager_PlayStaminaSfx_System_String_System_Single_
@@ -25479,6 +25476,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.SoundManager.UpdateWhisperSfx
   nameWithType: SoundManager.UpdateWhisperSfx
+- uid: CatchIo.Runtime.Sound.SoundWaveSFX
+  name: SoundWaveSFX
+  href: api/CatchIo.Runtime.Sound.SoundWaveSFX.html
+  commentId: T:CatchIo.Runtime.Sound.SoundWaveSFX
+  fullName: CatchIo.Runtime.Sound.SoundWaveSFX
+  nameWithType: SoundWaveSFX
+- uid: CatchIo.Runtime.Sound.SoundWaveSFX.PlayOneShot(Vector3,System.String,System.String,System.String,System.Single,System.Single)
+  name: PlayOneShot(Vector3, String, String, String, Single, Single)
+  href: api/CatchIo.Runtime.Sound.SoundWaveSFX.html#CatchIo_Runtime_Sound_SoundWaveSFX_PlayOneShot_Vector3_System_String_System_String_System_String_System_Single_System_Single_
+  commentId: M:CatchIo.Runtime.Sound.SoundWaveSFX.PlayOneShot(Vector3,System.String,System.String,System.String,System.Single,System.Single)
+  fullName: CatchIo.Runtime.Sound.SoundWaveSFX.PlayOneShot(Vector3, System.String, System.String, System.String, System.Single, System.Single)
+  nameWithType: SoundWaveSFX.PlayOneShot(Vector3, String, String, String, Single, Single)
+- uid: CatchIo.Runtime.Sound.SoundWaveSFX.PlayOneShot*
+  name: PlayOneShot
+  href: api/CatchIo.Runtime.Sound.SoundWaveSFX.html#CatchIo_Runtime_Sound_SoundWaveSFX_PlayOneShot_
+  commentId: Overload:CatchIo.Runtime.Sound.SoundWaveSFX.PlayOneShot
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Sound.SoundWaveSFX.PlayOneShot
+  nameWithType: SoundWaveSFX.PlayOneShot
 - uid: CatchIo.Runtime.Sound.SpawnSfx
   name: SpawnSfx
   href: api/CatchIo.Runtime.Sound.SpawnSfx.html
@@ -25703,6 +25719,234 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Sound.UiSfx.Play
   nameWithType: UiSfx.Play
+- uid: CatchIo.Runtime.SoundWave
+  name: CatchIo.Runtime.SoundWave
+  href: api/CatchIo.Runtime.SoundWave.html
+  commentId: N:CatchIo.Runtime.SoundWave
+  fullName: CatchIo.Runtime.SoundWave
+  nameWithType: CatchIo.Runtime.SoundWave
+- uid: CatchIo.Runtime.SoundWave.SoundWaveArcVFX
+  name: SoundWaveArcVFX
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveArcVFX.html
+  commentId: T:CatchIo.Runtime.SoundWave.SoundWaveArcVFX
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveArcVFX
+  nameWithType: SoundWaveArcVFX
+- uid: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator
+  name: SoundWaveDetectionMediator
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.html
+  commentId: T:CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator
+  nameWithType: SoundWaveDetectionMediator
+- uid: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
+  name: GetModificationDistance(SoundWaveType, Single, Int32)
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_SoundWaveType_System_Single_System_Int32_
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType,System.Single,System.Int32)
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, System.Single, System.Int32)
+  nameWithType: SoundWaveDetectionMediator.GetModificationDistance(SoundWaveType, Single, Int32)
+- uid: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.GetModificationDistance*
+  name: GetModificationDistance
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_SoundWave_SoundWaveDetectionMediator_GetModificationDistance_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.GetModificationDistance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.GetModificationDistance
+  nameWithType: SoundWaveDetectionMediator.GetModificationDistance
+- uid: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+  name: RegisterModifier(ISoundWaveDistanceModifier)
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_SoundWave_SoundWaveDetectionMediator_RegisterModifier_ISoundWaveDistanceModifier_
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+  nameWithType: SoundWaveDetectionMediator.RegisterModifier(ISoundWaveDistanceModifier)
+- uid: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.RegisterModifier*
+  name: RegisterModifier
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_SoundWave_SoundWaveDetectionMediator_RegisterModifier_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.RegisterModifier
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.RegisterModifier
+  nameWithType: SoundWaveDetectionMediator.RegisterModifier
+- uid: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+  name: UnregisterModifier(ISoundWaveDistanceModifier)
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_ISoundWaveDistanceModifier_
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+  nameWithType: SoundWaveDetectionMediator.UnregisterModifier(ISoundWaveDistanceModifier)
+- uid: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.UnregisterModifier*
+  name: UnregisterModifier
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.html#CatchIo_Runtime_SoundWave_SoundWaveDetectionMediator_UnregisterModifier_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.UnregisterModifier
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveDetectionMediator.UnregisterModifier
+  nameWithType: SoundWaveDetectionMediator.UnregisterModifier
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter
+  name: SoundWaveEmitter
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html
+  commentId: T:CatchIo.Runtime.SoundWave.SoundWaveEmitter
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter
+  nameWithType: SoundWaveEmitter
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.DeregisterIndicator(CatchIo.Runtime.SoundWave.SoundWaveIndicator)
+  name: DeregisterIndicator(SoundWaveIndicator)
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_DeregisterIndicator_CatchIo_Runtime_SoundWave_SoundWaveIndicator_
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveEmitter.DeregisterIndicator(CatchIo.Runtime.SoundWave.SoundWaveIndicator)
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.DeregisterIndicator(CatchIo.Runtime.SoundWave.SoundWaveIndicator)
+  nameWithType: SoundWaveEmitter.DeregisterIndicator(SoundWaveIndicator)
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.DeregisterIndicator*
+  name: DeregisterIndicator
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_DeregisterIndicator_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveEmitter.DeregisterIndicator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.DeregisterIndicator
+  nameWithType: SoundWaveEmitter.DeregisterIndicator
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Instance
+  name: Instance
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_Instance
+  commentId: P:CatchIo.Runtime.SoundWave.SoundWaveEmitter.Instance
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Instance
+  nameWithType: SoundWaveEmitter.Instance
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Instance*
+  name: Instance
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_Instance_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveEmitter.Instance
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Instance
+  nameWithType: SoundWaveEmitter.Instance
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Mediator
+  name: Mediator
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_Mediator
+  commentId: P:CatchIo.Runtime.SoundWave.SoundWaveEmitter.Mediator
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Mediator
+  nameWithType: SoundWaveEmitter.Mediator
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Mediator*
+  name: Mediator
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_Mediator_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveEmitter.Mediator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.Mediator
+  nameWithType: SoundWaveEmitter.Mediator
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.RegisterIndicator(CatchIo.Runtime.SoundWave.SoundWaveIndicator)
+  name: RegisterIndicator(SoundWaveIndicator)
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_RegisterIndicator_CatchIo_Runtime_SoundWave_SoundWaveIndicator_
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveEmitter.RegisterIndicator(CatchIo.Runtime.SoundWave.SoundWaveIndicator)
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.RegisterIndicator(CatchIo.Runtime.SoundWave.SoundWaveIndicator)
+  nameWithType: SoundWaveEmitter.RegisterIndicator(SoundWaveIndicator)
+- uid: CatchIo.Runtime.SoundWave.SoundWaveEmitter.RegisterIndicator*
+  name: RegisterIndicator
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveEmitter.html#CatchIo_Runtime_SoundWave_SoundWaveEmitter_RegisterIndicator_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveEmitter.RegisterIndicator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveEmitter.RegisterIndicator
+  nameWithType: SoundWaveEmitter.RegisterIndicator
+- uid: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent
+  name: SoundWaveFMODEvent
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.html
+  commentId: T:CatchIo.Runtime.SoundWave.SoundWaveFMODEvent
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent
+  nameWithType: SoundWaveFMODEvent
+- uid: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Damage_FMODEVENT
+  name: Damage_FMODEVENT
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.html#CatchIo_Runtime_SoundWave_SoundWaveFMODEvent_Damage_FMODEVENT
+  commentId: F:CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Damage_FMODEVENT
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Damage_FMODEVENT
+  nameWithType: SoundWaveFMODEvent.Damage_FMODEVENT
+- uid: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Death_FMODEVENT
+  name: Death_FMODEVENT
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.html#CatchIo_Runtime_SoundWave_SoundWaveFMODEvent_Death_FMODEVENT
+  commentId: F:CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Death_FMODEVENT
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Death_FMODEVENT
+  nameWithType: SoundWaveFMODEvent.Death_FMODEVENT
+- uid: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Environment_FMODEVENT
+  name: Environment_FMODEVENT
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.html#CatchIo_Runtime_SoundWave_SoundWaveFMODEvent_Environment_FMODEVENT
+  commentId: F:CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Environment_FMODEVENT
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.Environment_FMODEVENT
+  nameWithType: SoundWaveFMODEvent.Environment_FMODEVENT
+- uid: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.FootSteps_FMODEVENT
+  name: FootSteps_FMODEVENT
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.html#CatchIo_Runtime_SoundWave_SoundWaveFMODEvent_FootSteps_FMODEVENT
+  commentId: F:CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.FootSteps_FMODEVENT
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveFMODEvent.FootSteps_FMODEVENT
+  nameWithType: SoundWaveFMODEvent.FootSteps_FMODEVENT
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator
+  name: SoundWaveIndicator
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html
+  commentId: T:CatchIo.Runtime.SoundWave.SoundWaveIndicator
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator
+  nameWithType: SoundWaveIndicator
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable
+  name: Disable()
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_Disable
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable()
+  nameWithType: SoundWaveIndicator.Disable()
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable*
+  name: Disable
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_Disable_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Disable
+  nameWithType: SoundWaveIndicator.Disable
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable
+  name: Enable()
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_Enable
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable()
+  nameWithType: SoundWaveIndicator.Enable()
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable*
+  name: Enable
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_Enable_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Enable
+  nameWithType: SoundWaveIndicator.Enable
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize(CharacterFacade,IPositionProvider)
+  name: Initialize(CharacterFacade, IPositionProvider)
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_Initialize_CharacterFacade_IPositionProvider_
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize(CharacterFacade,IPositionProvider)
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize(CharacterFacade, IPositionProvider)
+  nameWithType: SoundWaveIndicator.Initialize(CharacterFacade, IPositionProvider)
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize*
+  name: Initialize
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_Initialize_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.Initialize
+  nameWithType: SoundWaveIndicator.Initialize
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnDisable
+  name: OnDisable
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_OnDisable
+  commentId: F:CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnDisable
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnDisable
+  nameWithType: SoundWaveIndicator.OnDisable
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnShowIndicatorArc
+  name: OnShowIndicatorArc
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_OnShowIndicatorArc
+  commentId: F:CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnShowIndicatorArc
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.OnShowIndicatorArc
+  nameWithType: SoundWaveIndicator.OnShowIndicatorArc
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider
+  name: PositionProvider
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_PositionProvider
+  commentId: P:CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider
+  nameWithType: SoundWaveIndicator.PositionProvider
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider*
+  name: PositionProvider
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_PositionProvider_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.PositionProvider
+  nameWithType: SoundWaveIndicator.PositionProvider
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc(EntityDirectionType,SoundWaveMagnitude,System.Single)
+  name: ShowIndicatorArc(EntityDirectionType, SoundWaveMagnitude, Single)
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_ShowIndicatorArc_EntityDirectionType_SoundWaveMagnitude_System_Single_
+  commentId: M:CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc(EntityDirectionType,SoundWaveMagnitude,System.Single)
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc(EntityDirectionType, SoundWaveMagnitude, System.Single)
+  nameWithType: SoundWaveIndicator.ShowIndicatorArc(EntityDirectionType, SoundWaveMagnitude, Single)
+- uid: CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc*
+  name: ShowIndicatorArc
+  href: api/CatchIo.Runtime.SoundWave.SoundWaveIndicator.html#CatchIo_Runtime_SoundWave_SoundWaveIndicator_ShowIndicatorArc_
+  commentId: Overload:CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc
+  isSpec: "True"
+  fullName: CatchIo.Runtime.SoundWave.SoundWaveIndicator.ShowIndicatorArc
+  nameWithType: SoundWaveIndicator.ShowIndicatorArc
 - uid: CatchIo.Runtime.SummonedObjects
   name: CatchIo.Runtime.SummonedObjects
   href: api/CatchIo.Runtime.SummonedObjects.html
@@ -27098,24 +27342,30 @@ references:
   commentId: T:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent
   nameWithType: SoundWaveEvent
+- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.DistanceModifier
+  name: DistanceModifier
+  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_DistanceModifier
+  commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.DistanceModifier
+  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.DistanceModifier
+  nameWithType: SoundWaveEvent.DistanceModifier
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.IsLocal
   name: IsLocal
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_IsLocal
   commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.IsLocal
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.IsLocal
   nameWithType: SoundWaveEvent.IsLocal
-- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.MaximumDetectionDistance
-  name: MaximumDetectionDistance
-  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_MaximumDetectionDistance
-  commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.MaximumDetectionDistance
-  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.MaximumDetectionDistance
-  nameWithType: SoundWaveEvent.MaximumDetectionDistance
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.Position
   name: Position
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_Position
   commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.Position
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.Position
   nameWithType: SoundWaveEvent.Position
+- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.SFXParameterValue
+  name: SFXParameterValue
+  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_SFXParameterValue
+  commentId: F:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.SFXParameterValue
+  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.SFXParameterValue
+  nameWithType: SoundWaveEvent.SFXParameterValue
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.SoundWaveType
   name: SoundWaveType
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEvent.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEvent_SoundWaveType
@@ -27134,12 +27384,12 @@ references:
   commentId: T:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator
   fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator
   nameWithType: SoundWaveEventGenerator
-- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32,System.Int32)
-  name: Generate(Vector3, SoundWaveType, Boolean, Int32, Int32)
-  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_Vector3_SoundWaveType_System_Boolean_System_Int32_System_Int32_
-  commentId: M:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.Boolean,System.Int32,System.Int32)
-  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, System.Boolean, System.Int32, System.Int32)
-  nameWithType: SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, Boolean, Int32, Int32)
+- uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.String,System.Boolean,System.Int32,System.Single)
+  name: Generate(Vector3, SoundWaveType, String, Boolean, Int32, Single)
+  href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_Vector3_SoundWaveType_System_String_System_Boolean_System_Int32_System_Single_
+  commentId: M:CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.String,System.Boolean,System.Int32,System.Single)
+  fullName: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, System.String, System.Boolean, System.Int32, System.Single)
+  nameWithType: SoundWaveEventGenerator.Generate(Vector3, SoundWaveType, String, Boolean, Int32, Single)
 - uid: CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate*
   name: Generate
   href: api/CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.html#CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_

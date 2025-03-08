@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SoundWaveEventGenerator
+    <title>Class SoundWaveSettings
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SoundWaveEventGenerator
+    <meta name="title" content="Class SoundWaveSettings
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,36 +78,112 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings">
   
   
-  <h1 id="CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator" data-uid="CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator" class="text-break">Class SoundWaveEventGenerator
+  <h1 id="CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings" data-uid="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings" class="text-break">Class SoundWaveSettings
   </h1>
-  <div class="markdown level0 summary"><p>Use to generate sound wave event</p>
+  <div class="markdown level0 summary"><p>SoundWaveSettings is a scriptable object that contains settings for sound waves.
+It generates a static class SoundWaveData.cs that contains all the settings as constants.
+This class is used to avoid hardcoding sound wave settings in code.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SoundWaveEventGenerator</span></div>
+    <div class="level1"><span class="xref">SoundWaveSettings</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Utility.EventGenerators.html">CatchIo.Runtime.Utility.EventGenerators</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.ScriptableObjects.SoundWave.html">CatchIo.Runtime.ScriptableObjects.SoundWave</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SoundWaveEventGenerator</code></pre>
+    <pre><code class="lang-csharp hljs">public class SoundWaveSettings : DescriptionScriptableObject</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_" data-uid="CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate*"></a>
-  <h4 id="CatchIo_Runtime_Utility_EventGenerators_SoundWaveEventGenerator_Generate_Vector3_SoundWaveType_System_String_System_Boolean_System_Int32_System_Single_" data-uid="CatchIo.Runtime.Utility.EventGenerators.SoundWaveEventGenerator.Generate(Vector3,SoundWaveType,System.String,System.Boolean,System.Int32,System.Single)">Generate(Vector3, SoundWaveType, String, Boolean, Int32, Single)</h4>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_MaximumAlpha" data-uid="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MaximumAlpha">MaximumAlpha</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Generate(Vector3 createdPos, SoundWaveType soundWaveType, string sfxParameterValue, bool isLocalCharacter, int viewID = -1, float distanceModifier = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public float MaximumAlpha</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_MinimumAlpha" data-uid="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumAlpha">MinimumAlpha</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinimumAlpha</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_MinimumDistance" data-uid="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.MinimumDistance">MinimumDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinimumDistance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_GetSoundWaveData_" data-uid="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_SoundWave_SoundWaveSettings_GetSoundWaveData_SoundWaveType_" data-uid="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveSettings.GetSoundWaveData(SoundWaveType)">GetSoundWaveData(SoundWaveType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SoundWaveData GetSoundWaveData(SoundWaveType soundWaveType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,33 +196,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">createdPos</span></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><span class="xref">SoundWaveType</span></td>
         <td><span class="parametername">soundWaveType</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sfxParameterValue</span></td>
-        <td></td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isLocalCharacter</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">viewID</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">distanceModifier</span></td>
+        <td><a class="xref" href="CatchIo.Runtime.ScriptableObjects.SoundWave.SoundWaveData.html">SoundWaveData</a></td>
         <td></td>
       </tr>
     </tbody>
