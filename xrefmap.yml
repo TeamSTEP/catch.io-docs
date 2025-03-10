@@ -15643,6 +15643,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Managers.GameManager.ScreenSize
   nameWithType: GameManager.ScreenSize
+- uid: CatchIo.Runtime.Managers.InputManager
+  name: InputManager
+  href: api/CatchIo.Runtime.Managers.InputManager.html
+  commentId: T:CatchIo.Runtime.Managers.InputManager
+  fullName: CatchIo.Runtime.Managers.InputManager
+  nameWithType: InputManager
 - uid: CatchIo.Runtime.Managers.LogManager
   name: LogManager
   href: api/CatchIo.Runtime.Managers.LogManager.html
@@ -22087,6 +22093,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableCharacterInput
   nameWithType: InputReader.DisableCharacterInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput
+  name: DisableMouseInput()
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableMouseInput
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput()
+  nameWithType: InputReader.DisableMouseInput()
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput*
+  name: DisableMouseInput
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableMouseInput_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput
+  nameWithType: InputReader.DisableMouseInput
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableObserverInput
   name: DisableObserverInput()
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableObserverInput
@@ -22119,6 +22138,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableCharacterInput
   nameWithType: InputReader.EnableCharacterInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput
+  name: EnableMouseInput()
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableMouseInput
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput()
+  nameWithType: InputReader.EnableMouseInput()
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput*
+  name: EnableMouseInput
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableMouseInput_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput
+  nameWithType: InputReader.EnableMouseInput
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableObserverInput
   name: EnableObserverInput()
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableObserverInput
@@ -22183,6 +22215,19 @@ references:
   commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.InteractInput
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.InteractInput
   nameWithType: InputReader.InteractInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled
+  name: IsCursorDisabled
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsCursorDisabled
+  commentId: P:CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled
+  nameWithType: InputReader.IsCursorDisabled
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled*
+  name: IsCursorDisabled
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsCursorDisabled_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled
+  nameWithType: InputReader.IsCursorDisabled
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsGamepadActive
   name: IsGamepadActive
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsGamepadActive
@@ -22196,6 +22241,31 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsGamepadActive
   nameWithType: InputReader.IsGamepadActive
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor
+  name: LockCursor()
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_LockCursor
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor()
+  nameWithType: InputReader.LockCursor()
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor*
+  name: LockCursor
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_LockCursor_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor
+  nameWithType: InputReader.LockCursor
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseButtonInput
+  name: MouseButtonInput
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_MouseButtonInput
+  commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseButtonInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseButtonInput
+  nameWithType: InputReader.MouseButtonInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseInput
+  name: MouseInput
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_MouseInput
+  commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseInput
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseInput
+  nameWithType: InputReader.MouseInput
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.MovementInput
   name: MovementInput
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_MovementInput
@@ -22267,6 +22337,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnInteract
   nameWithType: InputReader.OnInteract
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition(InputAction.CallbackContext)
+  name: OnMousePosition(InputAction.CallbackContext)
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnMousePosition_InputAction_CallbackContext_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition(InputAction.CallbackContext)
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition(InputAction.CallbackContext)
+  nameWithType: InputReader.OnMousePosition(InputAction.CallbackContext)
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition*
+  name: OnMousePosition
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnMousePosition_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition
+  nameWithType: InputReader.OnMousePosition
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnPan(InputAction.CallbackContext)
   name: OnPan(InputAction.CallbackContext)
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnPan_InputAction_CallbackContext_
@@ -22350,6 +22433,19 @@ references:
   commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.RunInput
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.RunInput
   nameWithType: InputReader.RunInput
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition(Vector2)
+  name: SetMousePosition(Vector2)
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_SetMousePosition_Vector2_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition(Vector2)
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition(Vector2)
+  nameWithType: InputReader.SetMousePosition(Vector2)
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition*
+  name: SetMousePosition
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_SetMousePosition_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition
+  nameWithType: InputReader.SetMousePosition
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabCanceled
   name: TabCanceled
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_TabCanceled
@@ -22362,6 +22458,19 @@ references:
   commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabStarted
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.TabStarted
   nameWithType: InputReader.TabStarted
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor
+  name: UnlockCursor()
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_UnlockCursor
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor()
+  nameWithType: InputReader.UnlockCursor()
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor*
+  name: UnlockCursor
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_UnlockCursor_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor
+  nameWithType: InputReader.UnlockCursor
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.UseItemInputPressed
   name: UseItemInputPressed
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_UseItemInputPressed

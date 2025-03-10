@@ -95,16 +95,42 @@
     <div><span class="xref">GameInput.ICharacterInputActions</span></div>
     <div><span class="xref">GameInput.IObserverInputActions</span></div>
     <div><span class="xref">GameInput.IGameCameraInputActions</span></div>
+    <div><span class="xref">GameInput.IMouseInputActions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.ScriptableObjects.Input.html">CatchIo.Runtime.ScriptableObjects.Input</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInputActions, GameInput.IObserverInputActions, GameInput.IGameCameraInputActions</code></pre>
+public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInputActions, GameInput.IObserverInputActions, GameInput.IGameCameraInputActions, GameInput.IMouseInputActions</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsCursorDisabled_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsCursorDisabled" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsCursorDisabled">IsCursorDisabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCursorDisabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_IsGamepadActive_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsGamepadActive*"></a>
@@ -144,6 +170,16 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   </div>
   
   
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableMouseInput_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableMouseInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableMouseInput">DisableMouseInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisableMouseInput()</code></pre>
+  </div>
+  
+  
   <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableObserverInput_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableObserverInput*"></a>
   <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_DisableObserverInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.DisableObserverInput">DisableObserverInput()</h4>
   <div class="markdown level1 summary"></div>
@@ -161,6 +197,16 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void EnableCharacterInput()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableMouseInput_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_EnableMouseInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.EnableMouseInput">EnableMouseInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableMouseInput()</code></pre>
   </div>
   
   
@@ -197,6 +243,16 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_LockCursor_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_LockCursor" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor">LockCursor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LockCursor()</code></pre>
+  </div>
   
   
   <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnAttack_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnAttack*"></a>
@@ -314,6 +370,33 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnInteract(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnMousePosition_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_OnMousePosition_InputAction_CallbackContext_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.OnMousePosition(InputAction.CallbackContext)">OnMousePosition(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnMousePosition(InputAction.CallbackContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -467,6 +550,43 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_SetMousePosition_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_SetMousePosition_Vector2_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.SetMousePosition(Vector2)">SetMousePosition(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMousePosition(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_UnlockCursor_" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor*"></a>
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_UnlockCursor" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.UnlockCursor">UnlockCursor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlockCursor()</code></pre>
+  </div>
   <h3 id="events">Events
   </h3>
   
@@ -585,6 +705,54 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
     <tbody>
       <tr>
         <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_MouseButtonInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseButtonInput">MouseButtonInput</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction MouseButtonInput</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_ScriptableObjects_Input_InputReader_MouseInput" data-uid="CatchIo.Runtime.ScriptableObjects.Input.InputReader.MouseInput">MouseInput</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;Vector2&gt; MouseInput</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">Vector2</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -822,6 +990,9 @@ public class InputReader : DescriptionScriptableObject, GameInput.ICharacterInpu
   </div>
   <div>
       <span class="xref">GameInput.IGameCameraInputActions</span>
+  </div>
+  <div>
+      <span class="xref">GameInput.IMouseInputActions</span>
   </div>
 </article>
           </div>
