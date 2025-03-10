@@ -5742,6 +5742,18 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.LookDirection
   nameWithType: CharacterItemUser.LookDirection
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.MarkReceiver
+  name: MarkReceiver
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_MarkReceiver
+  commentId: F:CatchIo.Runtime.Character.Inventory.CharacterItemUser.MarkReceiver
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.MarkReceiver
+  nameWithType: CharacterItemUser.MarkReceiver
+- uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.MarkSender
+  name: MarkSender
+  href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_MarkSender
+  commentId: F:CatchIo.Runtime.Character.Inventory.CharacterItemUser.MarkSender
+  fullName: CatchIo.Runtime.Character.Inventory.CharacterItemUser.MarkSender
+  nameWithType: CharacterItemUser.MarkSender
 - uid: CatchIo.Runtime.Character.Inventory.CharacterItemUser.Position
   name: Position
   href: api/CatchIo.Runtime.Character.Inventory.CharacterItemUser.html#CatchIo_Runtime_Character_Inventory_CharacterItemUser_Position
@@ -26204,11 +26216,11 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.SummonedObjects.TrapObject.SpriteHeight
   nameWithType: TrapObject.SpriteHeight
-- uid: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage,System.Int32)
+- uid: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(IDamage,System.Int32)
   name: TakeDamage(IDamage, Int32)
-  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_TakeDamage_CatchIo_Runtime_Damages_IDamage_System_Int32_
-  commentId: M:CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage,System.Int32)
-  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(CatchIo.Runtime.Damages.IDamage, System.Int32)
+  href: api/CatchIo.Runtime.SummonedObjects.TrapObject.html#CatchIo_Runtime_SummonedObjects_TrapObject_TakeDamage_IDamage_System_Int32_
+  commentId: M:CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(IDamage,System.Int32)
+  fullName: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage(IDamage, System.Int32)
   nameWithType: TrapObject.TakeDamage(IDamage, Int32)
 - uid: CatchIo.Runtime.SummonedObjects.TrapObject.TakeDamage*
   name: TakeDamage
