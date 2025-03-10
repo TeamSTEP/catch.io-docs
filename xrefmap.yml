@@ -1354,6 +1354,51 @@ references:
   commentId: F:CatchIo.Game.Characters.Enums.CharacterColorType.Yellow
   fullName: CatchIo.Game.Characters.Enums.CharacterColorType.Yellow
   nameWithType: CharacterColorType.Yellow
+- uid: CatchIo.PodiumImage
+  name: PodiumImage
+  href: api/CatchIo.PodiumImage.html
+  commentId: T:CatchIo.PodiumImage
+  fullName: CatchIo.PodiumImage
+  nameWithType: PodiumImage
+- uid: CatchIo.PodiumImage.PlayAnimation
+  name: PlayAnimation()
+  href: api/CatchIo.PodiumImage.html#CatchIo_PodiumImage_PlayAnimation
+  commentId: M:CatchIo.PodiumImage.PlayAnimation
+  fullName: CatchIo.PodiumImage.PlayAnimation()
+  nameWithType: PodiumImage.PlayAnimation()
+- uid: CatchIo.PodiumImage.PlayAnimation*
+  name: PlayAnimation
+  href: api/CatchIo.PodiumImage.html#CatchIo_PodiumImage_PlayAnimation_
+  commentId: Overload:CatchIo.PodiumImage.PlayAnimation
+  isSpec: "True"
+  fullName: CatchIo.PodiumImage.PlayAnimation
+  nameWithType: PodiumImage.PlayAnimation
+- uid: CatchIo.PodiumImage.Reset
+  name: Reset()
+  href: api/CatchIo.PodiumImage.html#CatchIo_PodiumImage_Reset
+  commentId: M:CatchIo.PodiumImage.Reset
+  fullName: CatchIo.PodiumImage.Reset()
+  nameWithType: PodiumImage.Reset()
+- uid: CatchIo.PodiumImage.Reset*
+  name: Reset
+  href: api/CatchIo.PodiumImage.html#CatchIo_PodiumImage_Reset_
+  commentId: Overload:CatchIo.PodiumImage.Reset
+  isSpec: "True"
+  fullName: CatchIo.PodiumImage.Reset
+  nameWithType: PodiumImage.Reset
+- uid: CatchIo.PodiumImage.SetupPodium(Player,System.Int32)
+  name: SetupPodium(Player, Int32)
+  href: api/CatchIo.PodiumImage.html#CatchIo_PodiumImage_SetupPodium_Player_System_Int32_
+  commentId: M:CatchIo.PodiumImage.SetupPodium(Player,System.Int32)
+  fullName: CatchIo.PodiumImage.SetupPodium(Player, System.Int32)
+  nameWithType: PodiumImage.SetupPodium(Player, Int32)
+- uid: CatchIo.PodiumImage.SetupPodium*
+  name: SetupPodium
+  href: api/CatchIo.PodiumImage.html#CatchIo_PodiumImage_SetupPodium_
+  commentId: Overload:CatchIo.PodiumImage.SetupPodium
+  isSpec: "True"
+  fullName: CatchIo.PodiumImage.SetupPodium
+  nameWithType: PodiumImage.SetupPodium
 - uid: CatchIo.PopupRoomHandler
   name: PopupRoomHandler
   href: api/CatchIo.PopupRoomHandler.html
@@ -2042,6 +2087,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.ApplyCurse
   nameWithType: CharacterFacade.ApplyCurse
+- uid: CatchIo.Runtime.Character.CharacterFacade.CancelRespawnRoutine
+  name: CancelRespawnRoutine()
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CancelRespawnRoutine
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.CancelRespawnRoutine
+  fullName: CatchIo.Runtime.Character.CharacterFacade.CancelRespawnRoutine()
+  nameWithType: CharacterFacade.CancelRespawnRoutine()
+- uid: CatchIo.Runtime.Character.CharacterFacade.CancelRespawnRoutine*
+  name: CancelRespawnRoutine
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CancelRespawnRoutine_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.CancelRespawnRoutine
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.CancelRespawnRoutine
+  nameWithType: CharacterFacade.CancelRespawnRoutine
 - uid: CatchIo.Runtime.Character.CharacterFacade.CharacterBodyDamageReceiver
   name: CharacterBodyDamageReceiver
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CharacterBodyDamageReceiver
@@ -16567,6 +16625,19 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup
   fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup
   nameWithType: GameOverPopup
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage(System.Boolean)
+  name: CyclePage(Boolean)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_CyclePage_System_Boolean_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage(System.Boolean)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage(System.Boolean)
+  nameWithType: GameOverPopup.CyclePage(Boolean)
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage*
+  name: CyclePage
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_CyclePage_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage
+  nameWithType: GameOverPopup.CyclePage
 - uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnDestroy
   name: OnDestroy()
   href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_OnDestroy
@@ -16580,6 +16651,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnDestroy
   nameWithType: GameOverPopup.OnDestroy
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide
+  name: OnHide()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_OnHide
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide()
+  nameWithType: GameOverPopup.OnHide()
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide*
+  name: OnHide
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_OnHide_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide
+  nameWithType: GameOverPopup.OnHide
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive(System.Int32)
+  name: SetPodiumActive(Int32)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_SetPodiumActive_System_Int32_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive(System.Int32)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive(System.Int32)
+  nameWithType: GameOverPopup.SetPodiumActive(Int32)
+- uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive*
+  name: SetPodiumActive
+  href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_SetPodiumActive_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive
+  nameWithType: GameOverPopup.SetPodiumActive
 - uid: CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.Start
   name: Start()
   href: api/CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.html#CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_Start
@@ -18110,6 +18207,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.Start
   nameWithType: SettingsPopupCore.Start
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.UpdateResolutionSlider
+  name: UpdateResolutionSlider()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopupCore_UpdateResolutionSlider
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.UpdateResolutionSlider
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.UpdateResolutionSlider()
+  nameWithType: SettingsPopupCore.UpdateResolutionSlider()
+- uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.UpdateResolutionSlider*
+  name: UpdateResolutionSlider
+  href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.html#CatchIo_Runtime_Menu_UI_Popup_SettingsPopupCore_UpdateResolutionSlider_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.UpdateResolutionSlider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.SettingsPopupCore.UpdateResolutionSlider
+  nameWithType: SettingsPopupCore.UpdateResolutionSlider
 - uid: CatchIo.Runtime.Menu.UI.Popup.SignpostPopup
   name: SignpostPopup
   href: api/CatchIo.Runtime.Menu.UI.Popup.SignpostPopup.html
@@ -20650,6 +20760,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BlendInAlpha
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BlendInAlpha
   nameWithType: CharacterStatus.BlendInAlpha
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRespawn
+  name: CanRespawn
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_CanRespawn
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRespawn
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.CanRespawn
+  nameWithType: CharacterStatus.CanRespawn
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ClassName
   name: ClassName
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_ClassName

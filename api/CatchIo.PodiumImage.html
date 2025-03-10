@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameOverPopup
+    <title>Class PodiumImage
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameOverPopup
+    <meta name="title" content="Class PodiumImage
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,35 +78,55 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup">
+            <article class="content wrap" id="_content" data-uid="CatchIo.PodiumImage">
   
   
-  <h1 id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup" class="text-break">Class GameOverPopup
+  <h1 id="CatchIo_PodiumImage" data-uid="CatchIo.PodiumImage" class="text-break">Class PodiumImage
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">GameOverPopup</span></div>
+    <div class="level1"><span class="xref">PodiumImage</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.html">CatchIo.Runtime.Menu.GameOverlay.GameOverHUD</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.html">CatchIo</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_syntax">Syntax</h5>
+  <h5 id="CatchIo_PodiumImage_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameOverPopup : BasePopup</code></pre>
+    <pre><code class="lang-csharp hljs">public class PodiumImage : MonoBehaviour</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_CyclePage_" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_CyclePage_System_Boolean_" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.CyclePage(System.Boolean)">CyclePage(Boolean)</h4>
+  <a id="CatchIo_PodiumImage_PlayAnimation_" data-uid="CatchIo.PodiumImage.PlayAnimation*"></a>
+  <h4 id="CatchIo_PodiumImage_PlayAnimation" data-uid="CatchIo.PodiumImage.PlayAnimation">PlayAnimation()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CyclePage(bool cycleNext)</code></pre>
+    <pre><code class="lang-csharp hljs">public void PlayAnimation()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PodiumImage_Reset_" data-uid="CatchIo.PodiumImage.Reset*"></a>
+  <h4 id="CatchIo_PodiumImage_Reset" data-uid="CatchIo.PodiumImage.Reset">Reset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_PodiumImage_SetupPodium_" data-uid="CatchIo.PodiumImage.SetupPodium*"></a>
+  <h4 id="CatchIo_PodiumImage_SetupPodium_Player_System_Int32_" data-uid="CatchIo.PodiumImage.SetupPodium(Player,System.Int32)">SetupPodium(Player, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetupPodium(Player player, int rank)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,69 +139,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">cycleNext</span></td>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">player</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_OnDestroy_" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnDestroy*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_OnDestroy" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_OnHide_" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_OnHide" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.OnHide">OnHide()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnHide()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_SetPodiumActive_" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_SetPodiumActive_System_Int32_" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.SetPodiumActive(System.Int32)">SetPodiumActive(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetPodiumActive(int podiumNumber)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">podiumNumber</span></td>
+        <td><span class="parametername">rank</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_Start_" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.Start*"></a>
-  <h4 id="CatchIo_Runtime_Menu_GameOverlay_GameOverHUD_GameOverPopup_Start" data-uid="CatchIo.Runtime.Menu.GameOverlay.GameOverHUD.GameOverPopup.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
-  </div>
 </article>
           </div>
           
