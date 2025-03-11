@@ -1354,6 +1354,51 @@ references:
   commentId: F:CatchIo.Game.Characters.Enums.CharacterColorType.Yellow
   fullName: CatchIo.Game.Characters.Enums.CharacterColorType.Yellow
   nameWithType: CharacterColorType.Yellow
+- uid: CatchIo.ItemDisplayFrame
+  name: ItemDisplayFrame
+  href: api/CatchIo.ItemDisplayFrame.html
+  commentId: T:CatchIo.ItemDisplayFrame
+  fullName: CatchIo.ItemDisplayFrame
+  nameWithType: ItemDisplayFrame
+- uid: CatchIo.ItemDisplayFrame.CloseTooltip
+  name: CloseTooltip()
+  href: api/CatchIo.ItemDisplayFrame.html#CatchIo_ItemDisplayFrame_CloseTooltip
+  commentId: M:CatchIo.ItemDisplayFrame.CloseTooltip
+  fullName: CatchIo.ItemDisplayFrame.CloseTooltip()
+  nameWithType: ItemDisplayFrame.CloseTooltip()
+- uid: CatchIo.ItemDisplayFrame.CloseTooltip*
+  name: CloseTooltip
+  href: api/CatchIo.ItemDisplayFrame.html#CatchIo_ItemDisplayFrame_CloseTooltip_
+  commentId: Overload:CatchIo.ItemDisplayFrame.CloseTooltip
+  isSpec: "True"
+  fullName: CatchIo.ItemDisplayFrame.CloseTooltip
+  nameWithType: ItemDisplayFrame.CloseTooltip
+- uid: CatchIo.ItemDisplayFrame.SetItem(ItemData)
+  name: SetItem(ItemData)
+  href: api/CatchIo.ItemDisplayFrame.html#CatchIo_ItemDisplayFrame_SetItem_ItemData_
+  commentId: M:CatchIo.ItemDisplayFrame.SetItem(ItemData)
+  fullName: CatchIo.ItemDisplayFrame.SetItem(ItemData)
+  nameWithType: ItemDisplayFrame.SetItem(ItemData)
+- uid: CatchIo.ItemDisplayFrame.SetItem*
+  name: SetItem
+  href: api/CatchIo.ItemDisplayFrame.html#CatchIo_ItemDisplayFrame_SetItem_
+  commentId: Overload:CatchIo.ItemDisplayFrame.SetItem
+  isSpec: "True"
+  fullName: CatchIo.ItemDisplayFrame.SetItem
+  nameWithType: ItemDisplayFrame.SetItem
+- uid: CatchIo.ItemDisplayFrame.ShowTooltip
+  name: ShowTooltip()
+  href: api/CatchIo.ItemDisplayFrame.html#CatchIo_ItemDisplayFrame_ShowTooltip
+  commentId: M:CatchIo.ItemDisplayFrame.ShowTooltip
+  fullName: CatchIo.ItemDisplayFrame.ShowTooltip()
+  nameWithType: ItemDisplayFrame.ShowTooltip()
+- uid: CatchIo.ItemDisplayFrame.ShowTooltip*
+  name: ShowTooltip
+  href: api/CatchIo.ItemDisplayFrame.html#CatchIo_ItemDisplayFrame_ShowTooltip_
+  commentId: Overload:CatchIo.ItemDisplayFrame.ShowTooltip
+  isSpec: "True"
+  fullName: CatchIo.ItemDisplayFrame.ShowTooltip
+  nameWithType: ItemDisplayFrame.ShowTooltip
 - uid: CatchIo.PodiumImage
   name: PodiumImage
   href: api/CatchIo.PodiumImage.html
@@ -14258,6 +14303,12 @@ references:
   commentId: F:CatchIo.Runtime.Items.Data.ItemData.ItemPrefabPath
   fullName: CatchIo.Runtime.Items.Data.ItemData.ItemPrefabPath
   nameWithType: ItemData.ItemPrefabPath
+- uid: CatchIo.Runtime.Items.Data.ItemData.ItemTooltip
+  name: ItemTooltip
+  href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_ItemTooltip
+  commentId: F:CatchIo.Runtime.Items.Data.ItemData.ItemTooltip
+  fullName: CatchIo.Runtime.Items.Data.ItemData.ItemTooltip
+  nameWithType: ItemData.ItemTooltip
 - uid: CatchIo.Runtime.Items.Data.ItemData.LimitNumberInInventory
   name: LimitNumberInInventory
   href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_LimitNumberInInventory
@@ -18085,6 +18136,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.Clear
   nameWithType: CreateSessionPopup.Clear
+- uid: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMap(System.Boolean)
+  name: CycleGameMap(Boolean)
+  href: api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html#CatchIo_Runtime_Menu_UI_Popup_CreateSessionPopup_CycleGameMap_System_Boolean_
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMap(System.Boolean)
+  fullName: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMap(System.Boolean)
+  nameWithType: CreateSessionPopup.CycleGameMap(Boolean)
+- uid: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMap*
+  name: CycleGameMap
+  href: api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html#CatchIo_Runtime_Menu_UI_Popup_CreateSessionPopup_CycleGameMap_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMap
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMap
+  nameWithType: CreateSessionPopup.CycleGameMap
+- uid: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMode(System.Boolean)
+  name: CycleGameMode(Boolean)
+  href: api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html#CatchIo_Runtime_Menu_UI_Popup_CreateSessionPopup_CycleGameMode_System_Boolean_
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMode(System.Boolean)
+  fullName: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMode(System.Boolean)
+  nameWithType: CreateSessionPopup.CycleGameMode(Boolean)
+- uid: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMode*
+  name: CycleGameMode
+  href: api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html#CatchIo_Runtime_Menu_UI_Popup_CreateSessionPopup_CycleGameMode_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMode
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.CycleGameMode
+  nameWithType: CreateSessionPopup.CycleGameMode
 - uid: CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.OnDestroy
   name: OnDestroy()
   href: api/CatchIo.Runtime.Menu.UI.Popup.CreateSessionPopup.html#CatchIo_Runtime_Menu_UI_Popup_CreateSessionPopup_OnDestroy
@@ -22045,6 +22122,42 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Events.VoidEventChannel.RemoveListener
   nameWithType: VoidEventChannel.RemoveListener
+- uid: CatchIo.Runtime.ScriptableObjects.GameModeData
+  name: CatchIo.Runtime.ScriptableObjects.GameModeData
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModeData.html
+  commentId: N:CatchIo.Runtime.ScriptableObjects.GameModeData
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModeData
+  nameWithType: CatchIo.Runtime.ScriptableObjects.GameModeData
+- uid: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData
+  name: GameModeDisplayData
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.html
+  commentId: T:CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData
+  nameWithType: GameModeDisplayData
+- uid: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData._objectiveData
+  name: _objectiveData
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.html#CatchIo_Runtime_ScriptableObjects_GameModeData_GameModeDisplayData__objectiveData
+  commentId: F:CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData._objectiveData
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData._objectiveData
+  nameWithType: GameModeDisplayData._objectiveData
+- uid: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeBannerImage
+  name: GameModeBannerImage
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.html#CatchIo_Runtime_ScriptableObjects_GameModeData_GameModeDisplayData_GameModeBannerImage
+  commentId: F:CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeBannerImage
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeBannerImage
+  nameWithType: GameModeDisplayData.GameModeBannerImage
+- uid: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeDescription
+  name: GameModeDescription
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.html#CatchIo_Runtime_ScriptableObjects_GameModeData_GameModeDisplayData_GameModeDescription
+  commentId: F:CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeDescription
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeDescription
+  nameWithType: GameModeDisplayData.GameModeDescription
+- uid: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeDisplayName
+  name: GameModeDisplayName
+  href: api/CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.html#CatchIo_Runtime_ScriptableObjects_GameModeData_GameModeDisplayData_GameModeDisplayName
+  commentId: F:CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeDisplayName
+  fullName: CatchIo.Runtime.ScriptableObjects.GameModeData.GameModeDisplayData.GameModeDisplayName
+  nameWithType: GameModeDisplayData.GameModeDisplayName
 - uid: CatchIo.Runtime.ScriptableObjects.GameModes
   name: CatchIo.Runtime.ScriptableObjects.GameModes
   href: api/CatchIo.Runtime.ScriptableObjects.GameModes.html
@@ -22605,6 +22718,54 @@ references:
   commentId: E:CatchIo.Runtime.ScriptableObjects.Input.InputReader.UseItemInputPressed
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.UseItemInputPressed
   nameWithType: InputReader.UseItemInputPressed
+- uid: CatchIo.Runtime.ScriptableObjects.MapData
+  name: CatchIo.Runtime.ScriptableObjects.MapData
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.html
+  commentId: N:CatchIo.Runtime.ScriptableObjects.MapData
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData
+  nameWithType: CatchIo.Runtime.ScriptableObjects.MapData
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData
+  name: MapData
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html
+  commentId: T:CatchIo.Runtime.ScriptableObjects.MapData.MapData
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData
+  nameWithType: MapData
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ItemsOnMap
+  name: ItemsOnMap
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_ItemsOnMap
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.ItemsOnMap
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ItemsOnMap
+  nameWithType: MapData.ItemsOnMap
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapBannerImage
+  name: MapBannerImage
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_MapBannerImage
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapBannerImage
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapBannerImage
+  nameWithType: MapData.MapBannerImage
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapDescription
+  name: MapDescription
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_MapDescription
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapDescription
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapDescription
+  nameWithType: MapData.MapDescription
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapDisplayName
+  name: MapDisplayName
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_MapDisplayName
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapDisplayName
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapDisplayName
+  nameWithType: MapData.MapDisplayName
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MaxPlayerNumber
+  name: MaxPlayerNumber
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_MaxPlayerNumber
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.MaxPlayerNumber
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MaxPlayerNumber
+  nameWithType: MapData.MaxPlayerNumber
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
+  name: PlayableSceneReference
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_PlayableSceneReference
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
+  nameWithType: MapData.PlayableSceneReference
 - uid: CatchIo.Runtime.ScriptableObjects.Network
   name: CatchIo.Runtime.ScriptableObjects.Network
   href: api/CatchIo.Runtime.ScriptableObjects.Network.html
@@ -29908,3 +30069,35 @@ references:
   commentId: T:CatchIo.SettingsPopupHandler
   fullName: CatchIo.SettingsPopupHandler
   nameWithType: SettingsPopupHandler
+- uid: CatchIo.TooltipPanel
+  name: TooltipPanel
+  href: api/CatchIo.TooltipPanel.html
+  commentId: T:CatchIo.TooltipPanel
+  fullName: CatchIo.TooltipPanel
+  nameWithType: TooltipPanel
+- uid: CatchIo.TooltipPanel.HideTooltip
+  name: HideTooltip()
+  href: api/CatchIo.TooltipPanel.html#CatchIo_TooltipPanel_HideTooltip
+  commentId: M:CatchIo.TooltipPanel.HideTooltip
+  fullName: CatchIo.TooltipPanel.HideTooltip()
+  nameWithType: TooltipPanel.HideTooltip()
+- uid: CatchIo.TooltipPanel.HideTooltip*
+  name: HideTooltip
+  href: api/CatchIo.TooltipPanel.html#CatchIo_TooltipPanel_HideTooltip_
+  commentId: Overload:CatchIo.TooltipPanel.HideTooltip
+  isSpec: "True"
+  fullName: CatchIo.TooltipPanel.HideTooltip
+  nameWithType: TooltipPanel.HideTooltip
+- uid: CatchIo.TooltipPanel.ShowTooltip(System.String,System.String)
+  name: ShowTooltip(String, String)
+  href: api/CatchIo.TooltipPanel.html#CatchIo_TooltipPanel_ShowTooltip_System_String_System_String_
+  commentId: M:CatchIo.TooltipPanel.ShowTooltip(System.String,System.String)
+  fullName: CatchIo.TooltipPanel.ShowTooltip(System.String, System.String)
+  nameWithType: TooltipPanel.ShowTooltip(String, String)
+- uid: CatchIo.TooltipPanel.ShowTooltip*
+  name: ShowTooltip
+  href: api/CatchIo.TooltipPanel.html#CatchIo_TooltipPanel_ShowTooltip_
+  commentId: Overload:CatchIo.TooltipPanel.ShowTooltip
+  isSpec: "True"
+  fullName: CatchIo.TooltipPanel.ShowTooltip
+  nameWithType: TooltipPanel.ShowTooltip
