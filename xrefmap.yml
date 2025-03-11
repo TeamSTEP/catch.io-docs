@@ -22919,6 +22919,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.CreateRoom
   nameWithType: RoomConnection.CreateRoom
+- uid: CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.GetRoomData
+  name: GetRoomData()
+  href: api/CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.html#CatchIo_Runtime_ScriptableObjects_Network_Connections_RoomConnection_GetRoomData
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.GetRoomData
+  fullName: CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.GetRoomData()
+  nameWithType: RoomConnection.GetRoomData()
+- uid: CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.GetRoomData*
+  name: GetRoomData
+  href: api/CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.html#CatchIo_Runtime_ScriptableObjects_Network_Connections_RoomConnection_GetRoomData_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.GetRoomData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.GetRoomData
+  nameWithType: RoomConnection.GetRoomData
 - uid: CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.JoinRoom(System.String)
   name: JoinRoom(String)
   href: api/CatchIo.Runtime.ScriptableObjects.Network.Connections.RoomConnection.html#CatchIo_Runtime_ScriptableObjects_Network_Connections_RoomConnection_JoinRoom_System_String_
@@ -23401,6 +23414,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomPlayerPropertiesUpdated
   fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomPlayerPropertiesUpdated
   nameWithType: PlayersInRoom.OnInRoomPlayerPropertiesUpdated
+- uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnNewPlayerJoined
+  name: OnNewPlayerJoined
+  href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnNewPlayerJoined
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnNewPlayerJoined
+  fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnNewPlayerJoined
+  nameWithType: PlayersInRoom.OnNewPlayerJoined
 - uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnPlayerLeft
   name: OnPlayerLeft
   href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnPlayerLeft
@@ -23582,12 +23601,37 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameMode
   nameWithType: GameSceneMode.GetGameMode
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameModeAsync(System.Action{GameMode})
+  name: GetGameModeAsync(Action<GameMode>)
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetGameModeAsync_System_Action_GameMode__
+  commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameModeAsync(System.Action{GameMode})
+  name.vb: GetGameModeAsync(Action(Of GameMode))
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameModeAsync(System.Action<GameMode>)
+  fullName.vb: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameModeAsync(System.Action(Of GameMode))
+  nameWithType: GameSceneMode.GetGameModeAsync(Action<GameMode>)
+  nameWithType.vb: GameSceneMode.GetGameModeAsync(Action(Of GameMode))
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameModeAsync*
+  name: GetGameModeAsync
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetGameModeAsync_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameModeAsync
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameModeAsync
+  nameWithType: GameSceneMode.GetGameModeAsync
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter
   name: GetLocalCharacter()
   href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetLocalCharacter
   commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter()
   nameWithType: GameSceneMode.GetLocalCharacter()
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action{CatchIo.Runtime.Character.CharacterFacade})
+  name: GetLocalCharacter(Action<CharacterFacade>)
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetLocalCharacter_System_Action_CatchIo_Runtime_Character_CharacterFacade__
+  commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action{CatchIo.Runtime.Character.CharacterFacade})
+  name.vb: GetLocalCharacter(Action(Of CharacterFacade))
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action<CatchIo.Runtime.Character.CharacterFacade>)
+  fullName.vb: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action(Of CatchIo.Runtime.Character.CharacterFacade))
+  nameWithType: GameSceneMode.GetLocalCharacter(Action<CharacterFacade>)
+  nameWithType.vb: GameSceneMode.GetLocalCharacter(Action(Of CharacterFacade))
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter*
   name: GetLocalCharacter
   href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetLocalCharacter_
@@ -23833,6 +23877,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.RoomSceneMode.OnStart
   nameWithType: RoomSceneMode.OnStart
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController
+  name: SandboxLobbyController
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController.html
+  commentId: T:CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController
+  nameWithType: SandboxLobbyController
 - uid: CatchIo.Runtime.ScriptableObjects.SoundWave
   name: CatchIo.Runtime.ScriptableObjects.SoundWave
   href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.html
@@ -24387,6 +24437,19 @@ references:
   commentId: T:CatchIo.Runtime.Services.SceneSwitchingService
   fullName: CatchIo.Runtime.Services.SceneSwitchingService
   nameWithType: SceneSwitchingService
+- uid: CatchIo.Runtime.Services.SceneSwitchingService.LobbySandboxSceneSwithcAsync
+  name: LobbySandboxSceneSwithcAsync()
+  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_LobbySandboxSceneSwithcAsync
+  commentId: M:CatchIo.Runtime.Services.SceneSwitchingService.LobbySandboxSceneSwithcAsync
+  fullName: CatchIo.Runtime.Services.SceneSwitchingService.LobbySandboxSceneSwithcAsync()
+  nameWithType: SceneSwitchingService.LobbySandboxSceneSwithcAsync()
+- uid: CatchIo.Runtime.Services.SceneSwitchingService.LobbySandboxSceneSwithcAsync*
+  name: LobbySandboxSceneSwithcAsync
+  href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_LobbySandboxSceneSwithcAsync_
+  commentId: Overload:CatchIo.Runtime.Services.SceneSwitchingService.LobbySandboxSceneSwithcAsync
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Services.SceneSwitchingService.LobbySandboxSceneSwithcAsync
+  nameWithType: SceneSwitchingService.LobbySandboxSceneSwithcAsync
 - uid: CatchIo.Runtime.Services.SceneSwitchingService.MenuSceneSwitchAsync(System.Type,System.Boolean)
   name: MenuSceneSwitchAsync(Type, Boolean)
   href: api/CatchIo.Runtime.Services.SceneSwitchingService.html#CatchIo_Runtime_Services_SceneSwitchingService_MenuSceneSwitchAsync_System_Type_System_Boolean_
@@ -28330,6 +28393,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.IsReady
   nameWithType: PlayerExtensions.IsReady
+- uid: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetMainProperties(Player)
+  name: ResetMainProperties(Player)
+  href: api/CatchIo.Runtime.Utility.Extensions.PlayerExtensions.html#CatchIo_Runtime_Utility_Extensions_PlayerExtensions_ResetMainProperties_Player_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetMainProperties(Player)
+  fullName: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetMainProperties(Player)
+  nameWithType: PlayerExtensions.ResetMainProperties(Player)
+- uid: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetMainProperties*
+  name: ResetMainProperties
+  href: api/CatchIo.Runtime.Utility.Extensions.PlayerExtensions.html#CatchIo_Runtime_Utility_Extensions_PlayerExtensions_ResetMainProperties_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetMainProperties
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetMainProperties
+  nameWithType: PlayerExtensions.ResetMainProperties
 - uid: CatchIo.Runtime.Utility.Extensions.PlayerExtensions.ResetProperties(Player)
   name: ResetProperties(Player)
   href: api/CatchIo.Runtime.Utility.Extensions.PlayerExtensions.html#CatchIo_Runtime_Utility_Extensions_PlayerExtensions_ResetProperties_Player_
@@ -28579,6 +28655,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetGameModeTime
   nameWithType: RoomExtensions.GetGameModeTime
+- uid: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMap(Room)
+  name: GetLobbySandboxMap(Room)
+  href: api/CatchIo.Runtime.Utility.Extensions.RoomExtensions.html#CatchIo_Runtime_Utility_Extensions_RoomExtensions_GetLobbySandboxMap_Room_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMap(Room)
+  fullName: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMap(Room)
+  nameWithType: RoomExtensions.GetLobbySandboxMap(Room)
+- uid: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMap*
+  name: GetLobbySandboxMap
+  href: api/CatchIo.Runtime.Utility.Extensions.RoomExtensions.html#CatchIo_Runtime_Utility_Extensions_RoomExtensions_GetLobbySandboxMap_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMap
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMap
+  nameWithType: RoomExtensions.GetLobbySandboxMap
+- uid: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMode(Room)
+  name: GetLobbySandboxMode(Room)
+  href: api/CatchIo.Runtime.Utility.Extensions.RoomExtensions.html#CatchIo_Runtime_Utility_Extensions_RoomExtensions_GetLobbySandboxMode_Room_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMode(Room)
+  fullName: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMode(Room)
+  nameWithType: RoomExtensions.GetLobbySandboxMode(Room)
+- uid: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMode*
+  name: GetLobbySandboxMode
+  href: api/CatchIo.Runtime.Utility.Extensions.RoomExtensions.html#CatchIo_Runtime_Utility_Extensions_RoomExtensions_GetLobbySandboxMode_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMode
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetLobbySandboxMode
+  nameWithType: RoomExtensions.GetLobbySandboxMode
 - uid: CatchIo.Runtime.Utility.Extensions.RoomExtensions.GetMap(Room)
   name: GetMap(Room)
   href: api/CatchIo.Runtime.Utility.Extensions.RoomExtensions.html#CatchIo_Runtime_Utility_Extensions_RoomExtensions_GetMap_Room_
