@@ -15738,19 +15738,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Managers.GameManager.SceneSwitchingService
   nameWithType: GameManager.SceneSwitchingService
-- uid: CatchIo.Runtime.Managers.GameManager.ScreenSize
-  name: ScreenSize
-  href: api/CatchIo.Runtime.Managers.GameManager.html#CatchIo_Runtime_Managers_GameManager_ScreenSize
-  commentId: P:CatchIo.Runtime.Managers.GameManager.ScreenSize
-  fullName: CatchIo.Runtime.Managers.GameManager.ScreenSize
-  nameWithType: GameManager.ScreenSize
-- uid: CatchIo.Runtime.Managers.GameManager.ScreenSize*
-  name: ScreenSize
-  href: api/CatchIo.Runtime.Managers.GameManager.html#CatchIo_Runtime_Managers_GameManager_ScreenSize_
-  commentId: Overload:CatchIo.Runtime.Managers.GameManager.ScreenSize
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Managers.GameManager.ScreenSize
-  nameWithType: GameManager.ScreenSize
 - uid: CatchIo.Runtime.Managers.InputManager
   name: InputManager
   href: api/CatchIo.Runtime.Managers.InputManager.html
@@ -22753,6 +22740,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
   fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
   nameWithType: MapData.PlayableSceneReference
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ThreatDetectionDistance
+  name: ThreatDetectionDistance
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_ThreatDetectionDistance
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.ThreatDetectionDistance
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ThreatDetectionDistance
+  nameWithType: MapData.ThreatDetectionDistance
 - uid: CatchIo.Runtime.ScriptableObjects.Network
   name: CatchIo.Runtime.ScriptableObjects.Network
   href: api/CatchIo.Runtime.ScriptableObjects.Network.html
@@ -23562,6 +23555,19 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode
   nameWithType: GameSceneMode
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetCurrentMapData
+  name: GetCurrentMapData()
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetCurrentMapData
+  commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetCurrentMapData
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetCurrentMapData()
+  nameWithType: GameSceneMode.GetCurrentMapData()
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetCurrentMapData*
+  name: GetCurrentMapData
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetCurrentMapData_
+  commentId: Overload:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetCurrentMapData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetCurrentMapData
+  nameWithType: GameSceneMode.GetCurrentMapData
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetGameCamera
   name: GetGameCamera()
   href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetGameCamera
@@ -23610,13 +23616,13 @@ references:
   commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter()
   nameWithType: GameSceneMode.GetLocalCharacter()
-- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action{CatchIo.Runtime.Character.CharacterFacade})
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action{CharacterFacade})
   name: GetLocalCharacter(Action<CharacterFacade>)
-  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetLocalCharacter_System_Action_CatchIo_Runtime_Character_CharacterFacade__
-  commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action{CatchIo.Runtime.Character.CharacterFacade})
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.html#CatchIo_Runtime_ScriptableObjects_SceneModes_GameSceneMode_GetLocalCharacter_System_Action_CharacterFacade__
+  commentId: M:CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action{CharacterFacade})
   name.vb: GetLocalCharacter(Action(Of CharacterFacade))
-  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action<CatchIo.Runtime.Character.CharacterFacade>)
-  fullName.vb: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action(Of CatchIo.Runtime.Character.CharacterFacade))
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action<CharacterFacade>)
+  fullName.vb: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter(System.Action(Of CharacterFacade))
   nameWithType: GameSceneMode.GetLocalCharacter(Action<CharacterFacade>)
   nameWithType.vb: GameSceneMode.GetLocalCharacter(Action(Of CharacterFacade))
 - uid: CatchIo.Runtime.ScriptableObjects.SceneModes.GameSceneMode.GetLocalCharacter*
