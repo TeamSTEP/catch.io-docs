@@ -8748,6 +8748,12 @@ references:
   commentId: F:CatchIo.Runtime.Container.CharacterClassContainer.CharacterClassInfo.Name
   fullName: CatchIo.Runtime.Container.CharacterClassContainer.CharacterClassInfo.Name
   nameWithType: CharacterClassContainer.CharacterClassInfo.Name
+- uid: CatchIo.Runtime.Container.CharacterClassContainer.CharacterClassInfo.PortraitSprite
+  name: PortraitSprite
+  href: api/CatchIo.Runtime.Container.CharacterClassContainer.CharacterClassInfo.html#CatchIo_Runtime_Container_CharacterClassContainer_CharacterClassInfo_PortraitSprite
+  commentId: F:CatchIo.Runtime.Container.CharacterClassContainer.CharacterClassInfo.PortraitSprite
+  fullName: CatchIo.Runtime.Container.CharacterClassContainer.CharacterClassInfo.PortraitSprite
+  nameWithType: CharacterClassContainer.CharacterClassInfo.PortraitSprite
 - uid: CatchIo.Runtime.Container.CharacterClassContainer.ClassInfos
   name: ClassInfos
   href: api/CatchIo.Runtime.Container.CharacterClassContainer.html#CatchIo_Runtime_Container_CharacterClassContainer_ClassInfos
@@ -12381,6 +12387,12 @@ references:
   commentId: F:CatchIo.Runtime.Enums.SendEventType.NetworkTimerStopEvent
   fullName: CatchIo.Runtime.Enums.SendEventType.NetworkTimerStopEvent
   nameWithType: SendEventType.NetworkTimerStopEvent
+- uid: CatchIo.Runtime.Enums.SendEventType.NetworkTimerStopRequestEvent
+  name: NetworkTimerStopRequestEvent
+  href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_NetworkTimerStopRequestEvent
+  commentId: F:CatchIo.Runtime.Enums.SendEventType.NetworkTimerStopRequestEvent
+  fullName: CatchIo.Runtime.Enums.SendEventType.NetworkTimerStopRequestEvent
+  nameWithType: SendEventType.NetworkTimerStopRequestEvent
 - uid: CatchIo.Runtime.Enums.SendEventType.PlayerDisconnected
   name: PlayerDisconnected
   href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_PlayerDisconnected
@@ -17302,6 +17314,19 @@ references:
   commentId: T:CatchIo.Runtime.Menu.UI.Button.GameStartButton
   fullName: CatchIo.Runtime.Menu.UI.Button.GameStartButton
   nameWithType: GameStartButton
+- uid: CatchIo.Runtime.Menu.UI.Button.GameStartButton.IsStarted
+  name: IsStarted
+  href: api/CatchIo.Runtime.Menu.UI.Button.GameStartButton.html#CatchIo_Runtime_Menu_UI_Button_GameStartButton_IsStarted
+  commentId: P:CatchIo.Runtime.Menu.UI.Button.GameStartButton.IsStarted
+  fullName: CatchIo.Runtime.Menu.UI.Button.GameStartButton.IsStarted
+  nameWithType: GameStartButton.IsStarted
+- uid: CatchIo.Runtime.Menu.UI.Button.GameStartButton.IsStarted*
+  name: IsStarted
+  href: api/CatchIo.Runtime.Menu.UI.Button.GameStartButton.html#CatchIo_Runtime_Menu_UI_Button_GameStartButton_IsStarted_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Button.GameStartButton.IsStarted
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Button.GameStartButton.IsStarted
+  nameWithType: GameStartButton.IsStarted
 - uid: CatchIo.Runtime.Menu.UI.Button.QuitButton
   name: QuitButton
   href: api/CatchIo.Runtime.Menu.UI.Button.QuitButton.html
@@ -18207,6 +18232,25 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.Start
   nameWithType: JoinRoomPopup.Start
+- uid: CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel
+  name: RoomLobbyPanel
+  href: api/CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.html
+  commentId: T:CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel
+  fullName: CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel
+  nameWithType: RoomLobbyPanel
+- uid: CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.SetData
+  name: SetData()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.html#CatchIo_Runtime_Menu_UI_Popup_RoomLobbyPanel_SetData
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.SetData
+  fullName: CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.SetData()
+  nameWithType: RoomLobbyPanel.SetData()
+- uid: CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.SetData*
+  name: SetData
+  href: api/CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.html#CatchIo_Runtime_Menu_UI_Popup_RoomLobbyPanel_SetData_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.SetData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.SetData
+  nameWithType: RoomLobbyPanel.SetData
 - uid: CatchIo.Runtime.Menu.UI.Popup.SettingsPopup
   name: SettingsPopup
   href: api/CatchIo.Runtime.Menu.UI.Popup.SettingsPopup.html
@@ -19168,6 +19212,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Network.NetworkTimer.Release
   nameWithType: NetworkTimer.Release
+- uid: CatchIo.Runtime.Network.NetworkTimer.RequestToStop
+  name: RequestToStop()
+  href: api/CatchIo.Runtime.Network.NetworkTimer.html#CatchIo_Runtime_Network_NetworkTimer_RequestToStop
+  commentId: M:CatchIo.Runtime.Network.NetworkTimer.RequestToStop
+  fullName: CatchIo.Runtime.Network.NetworkTimer.RequestToStop()
+  nameWithType: NetworkTimer.RequestToStop()
+- uid: CatchIo.Runtime.Network.NetworkTimer.RequestToStop*
+  name: RequestToStop
+  href: api/CatchIo.Runtime.Network.NetworkTimer.html#CatchIo_Runtime_Network_NetworkTimer_RequestToStop_
+  commentId: Overload:CatchIo.Runtime.Network.NetworkTimer.RequestToStop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Network.NetworkTimer.RequestToStop
+  nameWithType: NetworkTimer.RequestToStop
 - uid: CatchIo.Runtime.Network.NetworkTimer.Reset
   name: Reset()
   href: api/CatchIo.Runtime.Network.NetworkTimer.html#CatchIo_Runtime_Network_NetworkTimer_Reset
@@ -22734,12 +22791,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.MaxPlayerNumber
   fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MaxPlayerNumber
   nameWithType: MapData.MaxPlayerNumber
-- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
-  name: PlayableSceneReference
-  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_PlayableSceneReference
-  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
-  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneReference
-  nameWithType: MapData.PlayableSceneReference
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneObject
+  name: PlayableSceneObject
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_PlayableSceneObject
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneObject
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneObject
+  nameWithType: MapData.PlayableSceneObject
 - uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ThreatDetectionDistance
   name: ThreatDetectionDistance
   href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_ThreatDetectionDistance
@@ -23876,6 +23933,12 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController
   fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController
   nameWithType: SandboxLobbyController
+- uid: CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController.CountdownTimer
+  name: CountdownTimer
+  href: api/CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController.html#CatchIo_Runtime_ScriptableObjects_SceneModes_SandboxLobbyController_CountdownTimer
+  commentId: F:CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController.CountdownTimer
+  fullName: CatchIo.Runtime.ScriptableObjects.SceneModes.SandboxLobbyController.CountdownTimer
+  nameWithType: SandboxLobbyController.CountdownTimer
 - uid: CatchIo.Runtime.ScriptableObjects.SoundWave
   name: CatchIo.Runtime.ScriptableObjects.SoundWave
   href: api/CatchIo.Runtime.ScriptableObjects.SoundWave.html
