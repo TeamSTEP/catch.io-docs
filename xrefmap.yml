@@ -2132,6 +2132,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.ApplyCurse
   nameWithType: CharacterFacade.ApplyCurse
+- uid: CatchIo.Runtime.Character.CharacterFacade.CanBackStabTo(IBackStabable)
+  name: CanBackStabTo(IBackStabable)
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CanBackStabTo_IBackStabable_
+  commentId: M:CatchIo.Runtime.Character.CharacterFacade.CanBackStabTo(IBackStabable)
+  fullName: CatchIo.Runtime.Character.CharacterFacade.CanBackStabTo(IBackStabable)
+  nameWithType: CharacterFacade.CanBackStabTo(IBackStabable)
+- uid: CatchIo.Runtime.Character.CharacterFacade.CanBackStabTo*
+  name: CanBackStabTo
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CanBackStabTo_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.CanBackStabTo
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.CanBackStabTo
+  nameWithType: CharacterFacade.CanBackStabTo
 - uid: CatchIo.Runtime.Character.CharacterFacade.CancelRespawnRoutine
   name: CancelRespawnRoutine()
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_CancelRespawnRoutine
@@ -7281,6 +7294,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.IsPlayer
   nameWithType: CharacterBodyDamageReceiver.IsPlayer
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.PositionProvider
+  name: PositionProvider
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_PositionProvider
+  commentId: P:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.PositionProvider
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.PositionProvider
+  nameWithType: CharacterBodyDamageReceiver.PositionProvider
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.PositionProvider*
+  name: PositionProvider
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_PositionProvider_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.PositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.PositionProvider
+  nameWithType: CharacterBodyDamageReceiver.PositionProvider
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic(System.Int32)
   name: RecoverFromPanic(Int32)
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_RecoverFromPanic_System_Int32_
@@ -7294,6 +7320,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.RecoverFromPanic
   nameWithType: CharacterBodyDamageReceiver.RecoverFromPanic
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Rotator
+  name: Rotator
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_Rotator
+  commentId: P:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Rotator
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Rotator
+  nameWithType: CharacterBodyDamageReceiver.Rotator
+- uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Rotator*
+  name: Rotator
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_Rotator_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Rotator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.Rotator
+  nameWithType: CharacterBodyDamageReceiver.Rotator
 - uid: CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.ToggleHUD(ACTION_TYPE,System.Boolean)
   name: ToggleHUD(ACTION_TYPE, Boolean)
   href: api/CatchIo.Runtime.Character.Receivers.CharacterBodyDamageReceiver.html#CatchIo_Runtime_Character_Receivers_CharacterBodyDamageReceiver_ToggleHUD_ACTION_TYPE_System_Boolean_
@@ -13469,6 +13508,38 @@ references:
   commentId: N:CatchIo.Runtime.Interfaces
   fullName: CatchIo.Runtime.Interfaces
   nameWithType: CatchIo.Runtime.Interfaces
+- uid: CatchIo.Runtime.Interfaces.IBackStabable
+  name: IBackStabable
+  href: api/CatchIo.Runtime.Interfaces.IBackStabable.html
+  commentId: T:CatchIo.Runtime.Interfaces.IBackStabable
+  fullName: CatchIo.Runtime.Interfaces.IBackStabable
+  nameWithType: IBackStabable
+- uid: CatchIo.Runtime.Interfaces.IBackStabable.PositionProvider
+  name: PositionProvider
+  href: api/CatchIo.Runtime.Interfaces.IBackStabable.html#CatchIo_Runtime_Interfaces_IBackStabable_PositionProvider
+  commentId: P:CatchIo.Runtime.Interfaces.IBackStabable.PositionProvider
+  fullName: CatchIo.Runtime.Interfaces.IBackStabable.PositionProvider
+  nameWithType: IBackStabable.PositionProvider
+- uid: CatchIo.Runtime.Interfaces.IBackStabable.PositionProvider*
+  name: PositionProvider
+  href: api/CatchIo.Runtime.Interfaces.IBackStabable.html#CatchIo_Runtime_Interfaces_IBackStabable_PositionProvider_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IBackStabable.PositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IBackStabable.PositionProvider
+  nameWithType: IBackStabable.PositionProvider
+- uid: CatchIo.Runtime.Interfaces.IBackStabable.Rotator
+  name: Rotator
+  href: api/CatchIo.Runtime.Interfaces.IBackStabable.html#CatchIo_Runtime_Interfaces_IBackStabable_Rotator
+  commentId: P:CatchIo.Runtime.Interfaces.IBackStabable.Rotator
+  fullName: CatchIo.Runtime.Interfaces.IBackStabable.Rotator
+  nameWithType: IBackStabable.Rotator
+- uid: CatchIo.Runtime.Interfaces.IBackStabable.Rotator*
+  name: Rotator
+  href: api/CatchIo.Runtime.Interfaces.IBackStabable.html#CatchIo_Runtime_Interfaces_IBackStabable_Rotator_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IBackStabable.Rotator
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IBackStabable.Rotator
+  nameWithType: IBackStabable.Rotator
 - uid: CatchIo.Runtime.Interfaces.ICharacterDetectable
   name: ICharacterDetectable
   href: api/CatchIo.Runtime.Interfaces.ICharacterDetectable.html
@@ -20000,6 +20071,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.PlayAttackFeedbackEffect
   nameWithType: NPCDamageReceiver.PlayAttackFeedbackEffect
+- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.PositionProvider
+  name: PositionProvider
+  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_PositionProvider
+  commentId: P:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.PositionProvider
+  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.PositionProvider
+  nameWithType: NPCDamageReceiver.PositionProvider
+- uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.PositionProvider*
+  name: PositionProvider
+  href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_PositionProvider_
+  commentId: Overload:CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.PositionProvider
+  isSpec: "True"
+  fullName: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.PositionProvider
+  nameWithType: NPCDamageReceiver.PositionProvider
 - uid: CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.Rotator
   name: Rotator
   href: api/CatchIo.Runtime.NPC.Receivers.NPCDamageReceiver.html#CatchIo_Runtime_NPC_Receivers_NPCDamageReceiver_Rotator
@@ -20862,6 +20946,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ApplyingForce
   fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.ApplyingForce
   nameWithType: CharacterStatus.ApplyingForce
+- uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BackStabAngle
+  name: BackStabAngle
+  href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_BackStabAngle
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BackStabAngle
+  fullName: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BackStabAngle
+  nameWithType: CharacterStatus.BackStabAngle
 - uid: CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.BlendInAlpha
   name: BlendInAlpha
   href: api/CatchIo.Runtime.ScriptableObjects.Character.CharacterStatus.html#CatchIo_Runtime_ScriptableObjects_Character_CharacterStatus_BlendInAlpha
@@ -27996,19 +28086,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.AreMutuallyFacing
   nameWithType: EntityDirectionTypeExtensions.AreMutuallyFacing
-- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType,EntityDirectionType)
-  name: CanBackStab(EntityDirectionType, EntityDirectionType)
-  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_CanBackStab_EntityDirectionType_EntityDirectionType_
-  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType,EntityDirectionType)
-  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType, EntityDirectionType)
-  nameWithType: EntityDirectionTypeExtensions.CanBackStab(EntityDirectionType, EntityDirectionType)
-- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab*
-  name: CanBackStab
-  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_CanBackStab_
-  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.CanBackStab
-  nameWithType: EntityDirectionTypeExtensions.CanBackStab
 - uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.GetNextClockwise(EntityDirectionType)
   name: GetNextClockwise(EntityDirectionType)
   href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_GetNextClockwise_EntityDirectionType_
