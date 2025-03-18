@@ -302,7 +302,7 @@
   "api/CatchIo.Runtime.Boot.BootStrapper.html": {
     "href": "api/CatchIo.Runtime.Boot.BootStrapper.html",
     "title": "Class BootStrapper | Catch.io Developer Reference",
-    "keywords": "Class BootStrapper Inheritance System.Object BootStrapper Namespace : CatchIo.Runtime.Boot Assembly : cs.temp.dll.dll Syntax public static class BootStrapper Methods ApplyInitialSettings() Declaration public static void ApplyInitialSettings() Execute() Declaration public static void Execute()"
+    "keywords": "Class BootStrapper Inheritance System.Object BootStrapper Namespace : CatchIo.Runtime.Boot Assembly : cs.temp.dll.dll Syntax public static class BootStrapper Methods ApplyInitialSettings() Declaration public static void ApplyInitialSettings() CleanAllPlayerPrefs() Declaration public static void CleanAllPlayerPrefs() Execute() Declaration public static void Execute()"
   },
   "api/CatchIo.Runtime.Boot.html": {
     "href": "api/CatchIo.Runtime.Boot.html",
@@ -2687,7 +2687,7 @@
   "api/CatchIo.Runtime.Services.LoadingScreenService.html": {
     "href": "api/CatchIo.Runtime.Services.LoadingScreenService.html",
     "title": "Class LoadingScreenService | Catch.io Developer Reference",
-    "keywords": "Class LoadingScreenService Inheritance System.Object LoadingScreenService Namespace : CatchIo.Runtime.Services Assembly : cs.temp.dll.dll Syntax public class LoadingScreenService : MonoRegistrable Methods Release() Declaration public IEnumerator Release() Returns Type Description System.Collections.Generic.IEnumerator Require(String) Declaration public IEnumerator Require(string msg = \"\") Parameters Type Name Description System.String msg Returns Type Description System.Collections.Generic.IEnumerator WaitForLoadingEnd() Declaration public IEnumerator WaitForLoadingEnd() Returns Type Description System.Collections.Generic.IEnumerator"
+    "keywords": "Class LoadingScreenService Inheritance System.Object LoadingScreenService Namespace : CatchIo.Runtime.Services Assembly : cs.temp.dll.dll Syntax public class LoadingScreenService : MonoRegistrable Methods Release() Declaration public IEnumerator Release() Returns Type Description System.Collections.Generic.IEnumerator Require(String) Declaration public IEnumerator Require(string msg = \"\") Parameters Type Name Description System.String msg Returns Type Description System.Collections.Generic.IEnumerator Require(String, GameMode) Declaration public IEnumerator Require(string msg, GameMode nextGameMode) Parameters Type Name Description System.String msg GameMode nextGameMode Returns Type Description System.Collections.Generic.IEnumerator WaitForLoadingEnd() Declaration public IEnumerator WaitForLoadingEnd() Returns Type Description System.Collections.Generic.IEnumerator"
   },
   "api/CatchIo.Runtime.Services.NetworkService.html": {
     "href": "api/CatchIo.Runtime.Services.NetworkService.html",

@@ -1606,6 +1606,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Boot.BootStrapper.ApplyInitialSettings
   nameWithType: BootStrapper.ApplyInitialSettings
+- uid: CatchIo.Runtime.Boot.BootStrapper.CleanAllPlayerPrefs
+  name: CleanAllPlayerPrefs()
+  href: api/CatchIo.Runtime.Boot.BootStrapper.html#CatchIo_Runtime_Boot_BootStrapper_CleanAllPlayerPrefs
+  commentId: M:CatchIo.Runtime.Boot.BootStrapper.CleanAllPlayerPrefs
+  fullName: CatchIo.Runtime.Boot.BootStrapper.CleanAllPlayerPrefs()
+  nameWithType: BootStrapper.CleanAllPlayerPrefs()
+- uid: CatchIo.Runtime.Boot.BootStrapper.CleanAllPlayerPrefs*
+  name: CleanAllPlayerPrefs
+  href: api/CatchIo.Runtime.Boot.BootStrapper.html#CatchIo_Runtime_Boot_BootStrapper_CleanAllPlayerPrefs_
+  commentId: Overload:CatchIo.Runtime.Boot.BootStrapper.CleanAllPlayerPrefs
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Boot.BootStrapper.CleanAllPlayerPrefs
+  nameWithType: BootStrapper.CleanAllPlayerPrefs
 - uid: CatchIo.Runtime.Boot.BootStrapper.Execute
   name: Execute()
   href: api/CatchIo.Runtime.Boot.BootStrapper.html#CatchIo_Runtime_Boot_BootStrapper_Execute
@@ -24327,6 +24340,12 @@ references:
   commentId: M:CatchIo.Runtime.Services.LoadingScreenService.Require(System.String)
   fullName: CatchIo.Runtime.Services.LoadingScreenService.Require(System.String)
   nameWithType: LoadingScreenService.Require(String)
+- uid: CatchIo.Runtime.Services.LoadingScreenService.Require(System.String,GameMode)
+  name: Require(String, GameMode)
+  href: api/CatchIo.Runtime.Services.LoadingScreenService.html#CatchIo_Runtime_Services_LoadingScreenService_Require_System_String_GameMode_
+  commentId: M:CatchIo.Runtime.Services.LoadingScreenService.Require(System.String,GameMode)
+  fullName: CatchIo.Runtime.Services.LoadingScreenService.Require(System.String, GameMode)
+  nameWithType: LoadingScreenService.Require(String, GameMode)
 - uid: CatchIo.Runtime.Services.LoadingScreenService.Require*
   name: Require
   href: api/CatchIo.Runtime.Services.LoadingScreenService.html#CatchIo_Runtime_Services_LoadingScreenService_Require_
