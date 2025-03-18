@@ -17278,6 +17278,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SlotRect
   nameWithType: InventorySlotHUD.SlotRect
+- uid: CatchIo.Runtime.Menu.GameOverlay.LatencyIndicator
+  name: LatencyIndicator
+  href: api/CatchIo.Runtime.Menu.GameOverlay.LatencyIndicator.html
+  commentId: T:CatchIo.Runtime.Menu.GameOverlay.LatencyIndicator
+  fullName: CatchIo.Runtime.Menu.GameOverlay.LatencyIndicator
+  nameWithType: LatencyIndicator
 - uid: CatchIo.Runtime.Menu.GameOverlay.PingHUD
   name: CatchIo.Runtime.Menu.GameOverlay.PingHUD
   href: api/CatchIo.Runtime.Menu.GameOverlay.PingHUD.html
@@ -18685,6 +18691,19 @@ references:
   commentId: T:CatchIo.Runtime.Network.InRoomPlayerListener
   fullName: CatchIo.Runtime.Network.InRoomPlayerListener
   nameWithType: InRoomPlayerListener
+- uid: CatchIo.Runtime.Network.InRoomPlayerListener.OnMasterClientSwitched(Player)
+  name: OnMasterClientSwitched(Player)
+  href: api/CatchIo.Runtime.Network.InRoomPlayerListener.html#CatchIo_Runtime_Network_InRoomPlayerListener_OnMasterClientSwitched_Player_
+  commentId: M:CatchIo.Runtime.Network.InRoomPlayerListener.OnMasterClientSwitched(Player)
+  fullName: CatchIo.Runtime.Network.InRoomPlayerListener.OnMasterClientSwitched(Player)
+  nameWithType: InRoomPlayerListener.OnMasterClientSwitched(Player)
+- uid: CatchIo.Runtime.Network.InRoomPlayerListener.OnMasterClientSwitched*
+  name: OnMasterClientSwitched
+  href: api/CatchIo.Runtime.Network.InRoomPlayerListener.html#CatchIo_Runtime_Network_InRoomPlayerListener_OnMasterClientSwitched_
+  commentId: Overload:CatchIo.Runtime.Network.InRoomPlayerListener.OnMasterClientSwitched
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Network.InRoomPlayerListener.OnMasterClientSwitched
+  nameWithType: InRoomPlayerListener.OnMasterClientSwitched
 - uid: CatchIo.Runtime.Network.InRoomPlayerListener.OnPlayerPropertiesUpdate(Player,ExitGames.Client.Photon.Hashtable)
   name: OnPlayerPropertiesUpdate(Player, ExitGames.Client.Photon.Hashtable)
   href: api/CatchIo.Runtime.Network.InRoomPlayerListener.html#CatchIo_Runtime_Network_InRoomPlayerListener_OnPlayerPropertiesUpdate_Player_ExitGames_Client_Photon_Hashtable_
@@ -23535,6 +23554,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.GetPlayers
   nameWithType: PlayersInRoom.GetPlayers
+- uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomMasterClientSwitched
+  name: OnInRoomMasterClientSwitched
+  href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnInRoomMasterClientSwitched
+  commentId: F:CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomMasterClientSwitched
+  fullName: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomMasterClientSwitched
+  nameWithType: PlayersInRoom.OnInRoomMasterClientSwitched
 - uid: CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.OnInRoomPlayerPropertiesUpdated
   name: OnInRoomPlayerPropertiesUpdated
   href: api/CatchIo.Runtime.ScriptableObjects.Network.PlayersInRoom.html#CatchIo_Runtime_ScriptableObjects_Network_PlayersInRoom_OnInRoomPlayerPropertiesUpdated
