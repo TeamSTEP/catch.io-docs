@@ -660,18 +660,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.PopupRoomHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.PopupRoomHandler.html",
-          "hash": "4C2tG/N8qtWzCwzn0wft+BPWeLwvGtbEmIvKo/8Ar+M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.AnimationEvents.AnimationEvent.yml",
       "output": {
         ".html": {
@@ -4732,19 +4720,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Control.ButtonSelector.html",
-          "hash": "VvDdpf7cNz0v/WtUR86aOC5hJzVmTUvJ3+dL33QV2yU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Runtime.Menu.UI.Control.EventToButton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Runtime.Menu.UI.Control.EventToButton.html",
-          "hash": "ehoiZ45N/rzoEhGQGKw/pPm16bYyA/Vn8CxVwv4T4Zs="
+          "hash": "+Q3niTtfFR7oeLCDPr24M3eFXrcy6o0ZsoNf/4X8U6A="
         }
       },
       "is_incremental": false,
@@ -4792,7 +4768,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Control.html",
-          "hash": "TpiOyEKWD4gzM/dH55jl+/AZGtFyF2BOmp+Y/X6X1tE="
+          "hash": "flXqkM4D65GtIwOKkmKH5PoPhSkoBFBEmtb5bstkZbU="
         }
       },
       "is_incremental": false,
@@ -4972,7 +4948,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html",
-          "hash": "s8m/BTlVc9fJZ55HbERkWy19z8cAFsIUAOBnid+0z3w="
+          "hash": "GCvj4vF3KDT5vj3I2dI/g2h5QhXXu0ddMObEQ1laIrg="
         }
       },
       "is_incremental": false,
@@ -5009,6 +4985,18 @@
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html",
           "hash": "nVGU/QjmcjIgzkEhNM/tiKA6MFC2X2xSdmtHOY4QNVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html",
+          "hash": "u+Zi36RyUvpq8kpmk0Xo5Ui2vzMa3mA6rsZMJ5YaRU0="
         }
       },
       "is_incremental": false,
@@ -5068,7 +5056,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Menu.UI.Popup.html",
-          "hash": "vy31TNgGgEdFomSBvZD2ZD67EP08F3ZXRNq6YhDaDe4="
+          "hash": "SMXtlQQCS+nHUNrb1aYfCJXcClU3LQSv+a97ZpxUSdE="
         }
       },
       "is_incremental": false,
@@ -6040,7 +6028,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html",
-          "hash": "/KSZsZb6ehIEb5el0tL1xAyEm5XQmMV6gtSr8baMcLM="
+          "hash": "r+m2kNh2mdckLbZDOQ/7t01Bdg8Le3vFCNtu620n9YI="
         }
       },
       "is_incremental": false,
@@ -8104,7 +8092,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.html",
-          "hash": "ya1IDWzYfwGlO9C87gWhBSsb8YQuGzOgkMfKhf6FAIw="
+          "hash": "NmggxsmRknkA5LXKpmVzyIdcEJDES2PFqMB0CYJCPLM="
         }
       },
       "is_incremental": false,
@@ -8116,7 +8104,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "320N8tKT60kJPoIXO6j1h8ZbAdD/3ppRrZ3hLW6RM48="
+          "hash": "PeeXQU1kQ5FFqVHqiOXR+Hna8aGRO5EdzH9q958o44U="
         }
       },
       "is_incremental": false,
@@ -8773,7 +8761,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 674,
+          "total_file_count": 673,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -1444,12 +1444,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.PodiumImage.SetupPodium
   nameWithType: PodiumImage.SetupPodium
-- uid: CatchIo.PopupRoomHandler
-  name: PopupRoomHandler
-  href: api/CatchIo.PopupRoomHandler.html
-  commentId: T:CatchIo.PopupRoomHandler
-  fullName: CatchIo.PopupRoomHandler
-  nameWithType: PopupRoomHandler
 - uid: CatchIo.Runtime.AnimationEvents
   name: CatchIo.Runtime.AnimationEvents
   href: api/CatchIo.Runtime.AnimationEvents.html
@@ -17537,38 +17531,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Control.ButtonSelector.UpdateDefaultSelected
   nameWithType: ButtonSelector.UpdateDefaultSelected
-- uid: CatchIo.Runtime.Menu.UI.Control.EventToButton
-  name: EventToButton
-  href: api/CatchIo.Runtime.Menu.UI.Control.EventToButton.html
-  commentId: T:CatchIo.Runtime.Menu.UI.Control.EventToButton
-  fullName: CatchIo.Runtime.Menu.UI.Control.EventToButton
-  nameWithType: EventToButton
-- uid: CatchIo.Runtime.Menu.UI.Control.EventToButton.BaseEventChannel
-  name: BaseEventChannel
-  href: api/CatchIo.Runtime.Menu.UI.Control.EventToButton.html#CatchIo_Runtime_Menu_UI_Control_EventToButton_BaseEventChannel
-  commentId: P:CatchIo.Runtime.Menu.UI.Control.EventToButton.BaseEventChannel
-  fullName: CatchIo.Runtime.Menu.UI.Control.EventToButton.BaseEventChannel
-  nameWithType: EventToButton.BaseEventChannel
-- uid: CatchIo.Runtime.Menu.UI.Control.EventToButton.BaseEventChannel*
-  name: BaseEventChannel
-  href: api/CatchIo.Runtime.Menu.UI.Control.EventToButton.html#CatchIo_Runtime_Menu_UI_Control_EventToButton_BaseEventChannel_
-  commentId: Overload:CatchIo.Runtime.Menu.UI.Control.EventToButton.BaseEventChannel
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.UI.Control.EventToButton.BaseEventChannel
-  nameWithType: EventToButton.BaseEventChannel
-- uid: CatchIo.Runtime.Menu.UI.Control.EventToButton.ObjectToActivateOnEvent
-  name: ObjectToActivateOnEvent
-  href: api/CatchIo.Runtime.Menu.UI.Control.EventToButton.html#CatchIo_Runtime_Menu_UI_Control_EventToButton_ObjectToActivateOnEvent
-  commentId: P:CatchIo.Runtime.Menu.UI.Control.EventToButton.ObjectToActivateOnEvent
-  fullName: CatchIo.Runtime.Menu.UI.Control.EventToButton.ObjectToActivateOnEvent
-  nameWithType: EventToButton.ObjectToActivateOnEvent
-- uid: CatchIo.Runtime.Menu.UI.Control.EventToButton.ObjectToActivateOnEvent*
-  name: ObjectToActivateOnEvent
-  href: api/CatchIo.Runtime.Menu.UI.Control.EventToButton.html#CatchIo_Runtime_Menu_UI_Control_EventToButton_ObjectToActivateOnEvent_
-  commentId: Overload:CatchIo.Runtime.Menu.UI.Control.EventToButton.ObjectToActivateOnEvent
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.UI.Control.EventToButton.ObjectToActivateOnEvent
-  nameWithType: EventToButton.ObjectToActivateOnEvent
 - uid: CatchIo.Runtime.Menu.UI.Control.InputFieldControl
   name: InputFieldControl
   href: api/CatchIo.Runtime.Menu.UI.Control.InputFieldControl.html
@@ -18309,6 +18271,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.Start
   nameWithType: JoinRoomPopup.Start
+- uid: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler
+  name: PopupRoomHandler
+  href: api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html
+  commentId: T:CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler
+  fullName: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler
+  nameWithType: PopupRoomHandler
+- uid: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.OnDestroy
+  name: OnDestroy()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html#CatchIo_Runtime_Menu_UI_Popup_PopupRoomHandler_OnDestroy
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.OnDestroy
+  fullName: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.OnDestroy()
+  nameWithType: PopupRoomHandler.OnDestroy()
+- uid: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.OnDestroy*
+  name: OnDestroy
+  href: api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html#CatchIo_Runtime_Menu_UI_Popup_PopupRoomHandler_OnDestroy_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.OnDestroy
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.OnDestroy
+  nameWithType: PopupRoomHandler.OnDestroy
+- uid: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html#CatchIo_Runtime_Menu_UI_Popup_PopupRoomHandler_Start
+  commentId: M:CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.Start
+  fullName: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.Start()
+  nameWithType: PopupRoomHandler.Start()
+- uid: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html#CatchIo_Runtime_Menu_UI_Popup_PopupRoomHandler_Start_
+  commentId: Overload:CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.Start
+  nameWithType: PopupRoomHandler.Start
 - uid: CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel
   name: RoomLobbyPanel
   href: api/CatchIo.Runtime.Menu.UI.Popup.RoomLobbyPanel.html
@@ -22622,12 +22616,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.IsGamepadActive
   nameWithType: InputReader.IsGamepadActive
-- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor
-  name: LockCursor()
-  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_LockCursor
-  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor
-  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor()
-  nameWithType: InputReader.LockCursor()
+- uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor(System.Boolean)
+  name: LockCursor(Boolean)
+  href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_LockCursor_System_Boolean_
+  commentId: M:CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor(System.Boolean)
+  fullName: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor(System.Boolean)
+  nameWithType: InputReader.LockCursor(Boolean)
 - uid: CatchIo.Runtime.ScriptableObjects.Input.InputReader.LockCursor*
   name: LockCursor
   href: api/CatchIo.Runtime.ScriptableObjects.Input.InputReader.html#CatchIo_Runtime_ScriptableObjects_Input_InputReader_LockCursor_
