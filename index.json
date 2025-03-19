@@ -2127,7 +2127,7 @@
   "api/CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Slider.InputSliderBroadcaster.html",
     "title": "Class InputSliderBroadcaster | Catch.io Developer Reference",
-    "keywords": "Class InputSliderBroadcaster Inheritance System.Object InputSliderBroadcaster Implements IPointerUpHandler Namespace : CatchIo.Runtime.Menu.UI.Slider Assembly : cs.temp.dll.dll Syntax public class InputSliderBroadcaster : MonoBehaviour Methods OnPointerUp(PointerEventData) Declaration public void OnPointerUp(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerUpHandler"
+    "keywords": "Class InputSliderBroadcaster Inheritance System.Object InputSliderBroadcaster Implements IPointerUpHandler IPointerDownHandler Namespace : CatchIo.Runtime.Menu.UI.Slider Assembly : cs.temp.dll.dll Syntax public class InputSliderBroadcaster : MonoBehaviour Methods OnPointerDown(PointerEventData) Declaration public void OnPointerDown(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerUp(PointerEventData) Declaration public void OnPointerUp(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerUpHandler IPointerDownHandler"
   },
   "api/CatchIo.Runtime.Menu.UI.Text.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Text.html",
