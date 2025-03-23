@@ -122,6 +122,10 @@ Defines events and methods for managing impacts, allowing for interaction with <
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IMarkingEntity.html">IMarkingEntity</a></h4>
       <section></section>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IMoveProcessor.html">IMoveProcessor</a></h4>
+      <section><p>Interface for processors that participate in the movement calculation pipeline.
+Each processor can modify the movement context and then pass control to the next processor.</p>
+</section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IPanickable.html">IPanickable</a></h4>
       <section><p>Defines the contract for objects that can enter panic mode when targeted by other players.</p>
 <p>This interface provides methods and properties for handling panic state events
@@ -134,6 +138,10 @@ and identifying the network-specific details of a panickable entity.</p>
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IPositionProvider.html">IPositionProvider</a></h4>
       <section><p>Provides an interface for objects that can supply positional information.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Interfaces.IPushable.html">IPushable</a></h4>
+      <section><p>Interface for objects that can be pushed in the game world.
+Implementing classes should handle position changes when pushed.</p>
 </section>
       <h4><a class="xref" href="CatchIo.Runtime.Interfaces.ISceneMode.html">ISceneMode</a></h4>
       <section></section>

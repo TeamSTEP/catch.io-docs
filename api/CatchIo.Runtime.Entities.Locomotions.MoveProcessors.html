@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Runtime.Entities.Senders
+    <title>Namespace CatchIo.Runtime.Entities.Locomotions.MoveProcessors
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Runtime.Entities.Senders
+    <meta name="title" content="Namespace CatchIo.Runtime.Entities.Locomotions.MoveProcessors
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,23 +78,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Senders">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors">
   
-  <h1 id="CatchIo_Runtime_Entities_Senders" data-uid="CatchIo.Runtime.Entities.Senders" class="text-break">Namespace CatchIo.Runtime.Entities.Senders
+  <h1 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors" class="text-break">Namespace CatchIo.Runtime.Entities.Locomotions.MoveProcessors
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Entities.Senders.EntityHUDDisplayer.html">EntityHUDDisplayer</a></h4>
-      <section><p>Manages the display of HUD elements for entities that implement the <see cref="!:IHUDDisplayable"></see> interface.
-Ensures that only one HUD element is active at a time.</p>
+      <h4><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.html">DirectionProcessor</a></h4>
+      <section><p>Processor that calculates the movement direction based on the target position.
+This is typically the first processor in the movement pipeline.</p>
 </section>
-      <h4><a class="xref" href="CatchIo.Runtime.Entities.Senders.EntityPusher.html">EntityPusher</a></h4>
-      <section><p>Handles pushing interactions between entities in a multiplayer environment.
-Detects pushable objects in the entity&apos;s path and applies pushing forces
-based on the entity&apos;s movement direction and velocity.</p>
+      <h4><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html">MoveContext</a></h4>
+      <section><p>Maintains the state and parameters for movement calculations throughout the move pipeline.
+Serves as a shared context that each processor can read from and modify.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html">MovePipeline</a></h4>
+      <section><p>Manages a pipeline of movement processors that sequentially modify
+movement calculations based on their specific logic and priority.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.html">ObstacleAvoidanceProcessor</a></h4>
+      <section><p>Processor that modifies the entity&apos;s velocity to avoid obstacles in the movement path.
+Performs directional checks and adjusts movement to slide along obstacles when possible.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.html">ObstacleDetectionProcessor</a></h4>
+      <section><p>Processor that detects obstacles in the entity&apos;s movement path.
+Uses CircleCastNonAlloc to efficiently find the closest obstacle.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.html">SpeedProcessor</a></h4>
+      <section><p>Processor that calculates the appropriate movement speed based on distance to target.
+Implements gradual slowing as the entity approaches its destination.</p>
+</section>
+      <h4><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.html">SteeringProcessor</a></h4>
+      <section><p>Processor that calculates steering-based velocity from movement direction and desired speed.
+Handles the core velocity calculation for the entity&apos;s movement.</p>
 </section>
 </article>
           </div>

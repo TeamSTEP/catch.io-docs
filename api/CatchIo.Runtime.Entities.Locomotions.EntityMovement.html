@@ -104,67 +104,18 @@ It also allows for player input to influence movement.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class EntityMovement : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement__currentVelocity" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement._currentVelocity">_currentVelocity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Vector2 _currentVelocity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement__rigidbody2D" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement._rigidbody2D">_rigidbody2D</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Rigidbody2D _rigidbody2D</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Rigidbody2D</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_MovementData_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.MovementData*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_MovementData" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.MovementData">MovementData</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the movement data configuration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EntityMovementData MovementData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EntityMovementData MovementData { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,43 +132,18 @@ It also allows for player input to influence movement.</p>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Position_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Position" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position">Position</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 Position { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplyForce_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplyForce_Vector2_ForceMode2D_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce(Vector2,ForceMode2D)">ApplyForce(Vector2, ForceMode2D)</h4>
-  <div class="markdown level1 summary"><p>Apply force to the rigid body</p>
+  <div class="markdown level1 summary"><p>Applies a force to the entity, modifying its velocity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ApplyForce(Vector2 force, ForceMode2D forceMode)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ApplyForce(Vector2 impulse, ForceMode2D forceMode = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,77 +157,29 @@ It also allows for player input to influence movement.</p>
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">force</span></td>
-        <td><p>Force to apply</p>
+        <td><span class="parametername">impulse</span></td>
+        <td><p>The force vector to apply.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">ForceMode2D</span></td>
         <td><span class="parametername">forceMode</span></td>
-        <td><p>Force mode to apply force <see cref="!:ForceMode2D"></see></p>
+        <td><p>The type of force to apply (impulse or continuous).</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplySteering_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplySteering_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering(Vector2)">ApplySteering(Vector2)</h4>
-  <div class="markdown level1 summary"><p>Applies the calculated steering force to adjust the character&apos;s velocity and direction.</p>
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetCalculatingVelocity_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetCalculatingVelocity" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity">GetCalculatingVelocity()</h4>
+  <div class="markdown level1 summary"><p>Gets the velocity currently being calculated in the movement pipeline.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ApplySteering(Vector2 steering)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2 GetCalculatingVelocity()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">steering</span></td>
-        <td><p>The steering force calculated by the Seek method.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Arrive_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Arrive_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive(Vector2)">Arrive(Vector2)</h4>
-  <div class="markdown level1 summary"><p>Calculates the steering force for arriving at the target position.
-This method ensures smooth deceleration as the entity approaches the target.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 Arrive(Vector2 targetPosition)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">targetPosition</span></td>
-        <td><p>The position the entity should arrive at.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -313,21 +191,11 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td><p>A Vector2 representing the calculated acceleration for steering.</p>
+        <td><p>The calculating velocity from the movement context.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Awake_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Awake" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake">Awake()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
-  </div>
   
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetVelocity_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetVelocity*"></a>
@@ -357,54 +225,9 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   </table>
   
   
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsDetectObstacle_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsDetectObstacle_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle(Vector2)">IsDetectObstacle(Vector2)</h4>
-  <div class="markdown level1 summary"><p>Detects obstacles in the specified direction using CircleCast.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected RaycastHit2D? IsDetectObstacle(Vector2 direction)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">direction</span></td>
-        <td><p>Direction to check for obstacles</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">RaycastHit2D</span>&gt;</td>
-        <td><p>RaycastHit2D result if obstacle detected, null otherwise</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsMoving_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsMoving*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsMoving" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsMoving">IsMoving()</h4>
-  <div class="markdown level1 summary"><p>Checks if the entity is currently moving.</p>
+  <div class="markdown level1 summary"><p>Determines if the entity is currently moving.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -422,7 +245,7 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the entity is moving and velocity modification is not locked.</p>
+        <td><p>True if moving above threshold, false otherwise.</p>
 </td>
       </tr>
     </tbody>
@@ -431,7 +254,7 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Lock_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Lock*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Lock" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Lock">Lock()</h4>
-  <div class="markdown level1 summary"><p>Locks the velocity to prevent modifications.</p>
+  <div class="markdown level1 summary"><p>Locks the velocity, preventing changes until unlocked.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -440,9 +263,91 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   </div>
   
   
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveInDirection_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveInDirection_Vector2_System_Single_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection(Vector2,System.Single,System.Boolean)">MoveInDirection(Vector2, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Moves the entity in a specified direction at given speed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveInDirection(Vector2 direction, float speed, bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction to move in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">speed</span></td>
+        <td><p>The desired movement speed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td><p>Whether to force movement even when locked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveToTarget_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveToTarget_Vector2_System_Single_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget(Vector2,System.Single,System.Boolean)">MoveToTarget(Vector2, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Moves the entity toward a target position at specified speed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToTarget(Vector2 targetPosition, float speed, bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">targetPosition</span></td>
+        <td><p>The position to move toward.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">speed</span></td>
+        <td><p>The desired movement speed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td><p>Whether to force movement even when locked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_OnPhotonSerializeView_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.OnPhotonSerializeView*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
-  <div class="markdown level1 summary"><p>Handles network synchronization for the entity&apos;s velocity.</p>
+  <div class="markdown level1 summary"><p>Synchronizes velocity data across the network.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -462,136 +367,13 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
       <tr>
         <td><span class="xref">PhotonStream</span></td>
         <td><span class="parametername">stream</span></td>
-        <td></td>
+        <td><p>The photon data stream.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">PhotonMessageInfo</span></td>
         <td><span class="parametername">info</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_SetVelocity_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_SetVelocity_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity(Vector2)">SetVelocity(Vector2)</h4>
-  <div class="markdown level1 summary"><p>Sets the Rigidbody2D&apos;s velocity to the specified value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetVelocity(Vector2 velocity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">velocity</span></td>
-        <td><p>The new velocity to assign to the Rigidbody2D.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerAtMaxSpeed_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerAtMaxSpeed_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed(Vector2)">SteerAtMaxSpeed(Vector2)</h4>
-  <div class="markdown level1 summary"><p>Calculates the steering force required to move in the specified direction at the maximum speed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 SteerAtMaxSpeed(Vector2 direction)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">direction</span></td>
-        <td><p>The direction to move in (should be normalized).</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><p>A Vector2 representing the steering force to apply at maximum speed.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerInDirection_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerInDirection_Vector2_System_Single_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection(Vector2,System.Single)">SteerInDirection(Vector2, Single)</h4>
-  <div class="markdown level1 summary"><p>Calculates the steering force required to move in the specified direction at a given speed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 SteerInDirection(Vector2 direction, float speed)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">direction</span></td>
-        <td><p>The direction to move in (should be normalized).</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">speed</span></td>
-        <td><p>The desired speed of movement in the given direction.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><p>A Vector2 representing the steering force to apply.</p>
+        <td><p>Information about the message.</p>
 </td>
       </tr>
     </tbody>
@@ -599,34 +381,42 @@ This method ensures smooth deceleration as the entity approaches the target.</p>
   
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Stop_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Stop" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop">Stop()</h4>
-  <div class="markdown level1 summary"><p>Stops the movement by setting the velocity to zero.</p>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Stop_System_Boolean_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop(System.Boolean)">Stop(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Stops all movement of the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Stop(bool force = false)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td><p>Whether to force stopping even when locked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Unlock_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Unlock*"></a>
   <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Unlock" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Unlock">Unlock()</h4>
-  <div class="markdown level1 summary"><p>Unlocks the velocity to allow modifications.</p>
+  <div class="markdown level1 summary"><p>Decrements the lock count, allowing velocity changes when fully unlocked.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Unlock()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Update_" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update*"></a>
-  <h4 id="CatchIo_Runtime_Entities_Locomotions_EntityMovement_Update" data-uid="CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update">Update()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Update()</code></pre>
   </div>
   <h3 id="implements">Implements</h3>
   <div>

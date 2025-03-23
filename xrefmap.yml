@@ -2563,6 +2563,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.CharacterFacade.MarkReceiver
   nameWithType: CharacterFacade.MarkReceiver
+- uid: CatchIo.Runtime.Character.CharacterFacade.Movement
+  name: Movement
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Movement
+  commentId: P:CatchIo.Runtime.Character.CharacterFacade.Movement
+  fullName: CatchIo.Runtime.Character.CharacterFacade.Movement
+  nameWithType: CharacterFacade.Movement
+- uid: CatchIo.Runtime.Character.CharacterFacade.Movement*
+  name: Movement
+  href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_Movement_
+  commentId: Overload:CatchIo.Runtime.Character.CharacterFacade.Movement
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.CharacterFacade.Movement
+  nameWithType: CharacterFacade.Movement
 - uid: CatchIo.Runtime.Character.CharacterFacade.NetworkPlayer
   name: NetworkPlayer
   href: api/CatchIo.Runtime.Character.CharacterFacade.html#CatchIo_Runtime_Character_CharacterFacade_NetworkPlayer
@@ -4580,6 +4593,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.CharacterMoveState
   nameWithType: CharacterMoveState.CharacterMoveState
+- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState._movement
+  name: _movement
+  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState__movement
+  commentId: F:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState._movement
+  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState._movement
+  nameWithType: CharacterMoveState._movement
 - uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState._stamina
   name: _stamina
   href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterMoveState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterMoveState__stamina
@@ -4889,6 +4908,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.FixedUpdateState
   nameWithType: CharacterSneakStaticState.FixedUpdateState
+- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.Stop
+  name: Stop()
+  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterSneakStaticState_Stop
+  commentId: M:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.Stop
+  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.Stop()
+  nameWithType: CharacterSneakStaticState.Stop()
+- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.Stop*
+  name: Stop
+  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterSneakStaticState_Stop_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.Stop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.Stop
+  nameWithType: CharacterSneakStaticState.Stop
 - uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.UpdateState
   name: UpdateState()
   href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterSneakStaticState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterSneakStaticState_UpdateState
@@ -5050,6 +5082,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.FixedUpdateState
   nameWithType: CharacterStaticState.FixedUpdateState
+- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.Stop
+  name: Stop()
+  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterStaticState_Stop
+  commentId: M:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.Stop
+  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.Stop()
+  nameWithType: CharacterStaticState.Stop()
+- uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.Stop*
+  name: Stop
+  href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterStaticState_Stop_
+  commentId: Overload:CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.Stop
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.Stop
+  nameWithType: CharacterStaticState.Stop
 - uid: CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.UpdateState
   name: UpdateState()
   href: api/CatchIo.Runtime.Character.FSM.States.MoveStates.CharacterStaticState.html#CatchIo_Runtime_Character_FSM_States_MoveStates_CharacterStaticState_UpdateState
@@ -7546,6 +7591,38 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Receivers.CharacterFeetDamageReceiver.ViewID
   nameWithType: CharacterFeetDamageReceiver.ViewID
+- uid: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox
+  name: CharacterPushableHurtBox
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.html
+  commentId: T:CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox
+  nameWithType: CharacterPushableHurtBox
+- uid: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.html#CatchIo_Runtime_Character_Receivers_CharacterPushableHurtBox_Awake
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.Awake
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.Awake()
+  nameWithType: CharacterPushableHurtBox.Awake()
+- uid: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.html#CatchIo_Runtime_Character_Receivers_CharacterPushableHurtBox_Awake_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.Awake
+  nameWithType: CharacterPushableHurtBox.Awake
+- uid: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.CanBePushed
+  name: CanBePushed()
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.html#CatchIo_Runtime_Character_Receivers_CharacterPushableHurtBox_CanBePushed
+  commentId: M:CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.CanBePushed
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.CanBePushed()
+  nameWithType: CharacterPushableHurtBox.CanBePushed()
+- uid: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.CanBePushed*
+  name: CanBePushed
+  href: api/CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.html#CatchIo_Runtime_Character_Receivers_CharacterPushableHurtBox_CanBePushed_
+  commentId: Overload:CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.CanBePushed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Receivers.CharacterPushableHurtBox.CanBePushed
+  nameWithType: CharacterPushableHurtBox.CanBePushed
 - uid: CatchIo.Runtime.Character.ScoutingMarker
   name: CatchIo.Runtime.Character.ScoutingMarker
   href: api/CatchIo.Runtime.Character.ScoutingMarker.html
@@ -8291,6 +8368,73 @@ references:
   commentId: N:CatchIo.Runtime.Combat.HitBoxes
   fullName: CatchIo.Runtime.Combat.HitBoxes
   nameWithType: CatchIo.Runtime.Combat.HitBoxes
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox
+  name: CircleCastHitBox
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html
+  commentId: T:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox
+  nameWithType: CircleCastHitBox
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBox*
+  name: DetectHurtBox
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_DetectHurtBox_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBox
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBox
+  nameWithType: CircleCastHitBox.DetectHurtBox
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBox``1(System.Func{``0,System.Boolean})
+  name: DetectHurtBox<T>(Func<T, Boolean>)
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_DetectHurtBox__1_System_Func___0_System_Boolean__
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBox``1(System.Func{``0,System.Boolean})
+  name.vb: DetectHurtBox(Of T)(Func(Of T, Boolean))
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBox<T>(System.Func<T, System.Boolean>)
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBox(Of T)(System.Func(Of T, System.Boolean))
+  nameWithType: CircleCastHitBox.DetectHurtBox<T>(Func<T, Boolean>)
+  nameWithType.vb: CircleCastHitBox.DetectHurtBox(Of T)(Func(Of T, Boolean))
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBoxes*
+  name: DetectHurtBoxes
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_DetectHurtBoxes_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBoxes
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBoxes
+  nameWithType: CircleCastHitBox.DetectHurtBoxes
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBoxes``1(System.Func{``0,System.Boolean})
+  name: DetectHurtBoxes<T>(Func<T, Boolean>)
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_DetectHurtBoxes__1_System_Func___0_System_Boolean__
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBoxes``1(System.Func{``0,System.Boolean})
+  name.vb: DetectHurtBoxes(Of T)(Func(Of T, Boolean))
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBoxes<T>(System.Func<T, System.Boolean>)
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.DetectHurtBoxes(Of T)(System.Func(Of T, System.Boolean))
+  nameWithType: CircleCastHitBox.DetectHurtBoxes<T>(Func<T, Boolean>)
+  nameWithType.vb: CircleCastHitBox.DetectHurtBoxes(Of T)(Func(Of T, Boolean))
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.GetBestHurtBox*
+  name: GetBestHurtBox
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_GetBestHurtBox_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.GetBestHurtBox
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.GetBestHurtBox
+  nameWithType: CircleCastHitBox.GetBestHurtBox
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.GetBestHurtBox``1(``0[])
+  name: GetBestHurtBox<T>(T[])
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_GetBestHurtBox__1___0___
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.GetBestHurtBox``1(``0[])
+  name.vb: GetBestHurtBox(Of T)(T())
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.GetBestHurtBox<T>(T[])
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.GetBestHurtBox(Of T)(T())
+  nameWithType: CircleCastHitBox.GetBestHurtBox<T>(T[])
+  nameWithType.vb: CircleCastHitBox.GetBestHurtBox(Of T)(T())
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.UpdateDirection(Vector2)
+  name: UpdateDirection(Vector2)
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_UpdateDirection_Vector2_
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.UpdateDirection(Vector2)
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.UpdateDirection(Vector2)
+  nameWithType: CircleCastHitBox.UpdateDirection(Vector2)
+- uid: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.UpdateDirection*
+  name: UpdateDirection
+  href: api/CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.html#CatchIo_Runtime_Combat_HitBoxes_CircleCastHitBox_UpdateDirection_
+  commentId: Overload:CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.UpdateDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HitBoxes.CircleCastHitBox.UpdateDirection
+  nameWithType: CircleCastHitBox.UpdateDirection
 - uid: CatchIo.Runtime.Combat.HitBoxes.CircleHitBox
   name: CircleHitBox
   href: api/CatchIo.Runtime.Combat.HitBoxes.CircleHitBox.html
@@ -8485,6 +8629,12 @@ references:
   commentId: F:CatchIo.Runtime.Combat.HitBoxes.HitBox._hitResults
   fullName: CatchIo.Runtime.Combat.HitBoxes.HitBox._hitResults
   nameWithType: HitBox._hitResults
+- uid: CatchIo.Runtime.Combat.HitBoxes.HitBox._raycastHitResults
+  name: _raycastHitResults
+  href: api/CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox__raycastHitResults
+  commentId: F:CatchIo.Runtime.Combat.HitBoxes.HitBox._raycastHitResults
+  fullName: CatchIo.Runtime.Combat.HitBoxes.HitBox._raycastHitResults
+  nameWithType: HitBox._raycastHitResults
 - uid: CatchIo.Runtime.Combat.HitBoxes.HitBox._targetLayerMask
   name: _targetLayerMask
   href: api/CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox__targetLayerMask
@@ -8637,6 +8787,14 @@ references:
   fullName.vb: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor(Of T).HurtBoxStayed
   nameWithType: HitBoxEventProcessor<T>.HurtBoxStayed
   nameWithType.vb: HitBoxEventProcessor(Of T).HurtBoxStayed
+- uid: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.ProcessEvents(`0)
+  name: ProcessEvents(T)
+  href: api/CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor-1.html#CatchIo_Runtime_Combat_HitBoxes_HitBoxEventProcessor_1_ProcessEvents__0_
+  commentId: M:CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.ProcessEvents(`0)
+  fullName: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor<T>.ProcessEvents(T)
+  fullName.vb: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor(Of T).ProcessEvents(T)
+  nameWithType: HitBoxEventProcessor<T>.ProcessEvents(T)
+  nameWithType.vb: HitBoxEventProcessor(Of T).ProcessEvents(T)
 - uid: CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor`1.ProcessEvents(System.Collections.Generic.IEnumerable{`0})
   name: ProcessEvents(IEnumerable<T>)
   href: api/CatchIo.Runtime.Combat.HitBoxes.HitBoxEventProcessor-1.html#CatchIo_Runtime_Combat_HitBoxes_HitBoxEventProcessor_1_ProcessEvents_System_Collections_Generic_IEnumerable__0__
@@ -8758,6 +8916,96 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Combat.HurtBoxes.HurtBox.ViewID
   nameWithType: HurtBox.ViewID
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox
+  name: PushableHurtBox
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html
+  commentId: T:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox
+  nameWithType: PushableHurtBox
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_Awake
+  commentId: M:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Awake
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Awake()
+  nameWithType: PushableHurtBox.Awake()
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_Awake_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Awake
+  nameWithType: PushableHurtBox.Awake
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanBePushed
+  name: CanBePushed()
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_CanBePushed
+  commentId: M:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanBePushed
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanBePushed()
+  nameWithType: PushableHurtBox.CanBePushed()
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanBePushed*
+  name: CanBePushed
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_CanBePushed_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanBePushed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanBePushed
+  nameWithType: PushableHurtBox.CanBePushed
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanInteract(HitBox)
+  name: CanInteract(HitBox)
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_CanInteract_HitBox_
+  commentId: M:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanInteract(HitBox)
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanInteract(HitBox)
+  nameWithType: PushableHurtBox.CanInteract(HitBox)
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanInteract*
+  name: CanInteract
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_CanInteract_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanInteract
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.CanInteract
+  nameWithType: PushableHurtBox.CanInteract
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.GetHurtBoxPosition
+  name: GetHurtBoxPosition()
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_GetHurtBoxPosition
+  commentId: M:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.GetHurtBoxPosition
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.GetHurtBoxPosition()
+  nameWithType: PushableHurtBox.GetHurtBoxPosition()
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.GetHurtBoxPosition*
+  name: GetHurtBoxPosition
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_GetHurtBoxPosition_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.GetHurtBoxPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.GetHurtBoxPosition
+  nameWithType: PushableHurtBox.GetHurtBoxPosition
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.OnPush
+  name: OnPush
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_OnPush
+  commentId: E:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.OnPush
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.OnPush
+  nameWithType: PushableHurtBox.OnPush
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Push(Vector2)
+  name: Push(Vector2)
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_Push_Vector2_
+  commentId: M:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Push(Vector2)
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Push(Vector2)
+  nameWithType: PushableHurtBox.Push(Vector2)
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Push*
+  name: Push
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_Push_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Push
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.Push
+  nameWithType: PushableHurtBox.Push
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.ViewID
+  name: ViewID
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_ViewID
+  commentId: P:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.ViewID
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.ViewID
+  nameWithType: PushableHurtBox.ViewID
+- uid: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.ViewID*
+  name: ViewID
+  href: api/CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html#CatchIo_Runtime_Combat_HurtBoxes_PushableHurtBox_ViewID_
+  commentId: Overload:CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.ViewID
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.ViewID
+  nameWithType: PushableHurtBox.ViewID
 - uid: CatchIo.Runtime.Container
   name: CatchIo.Runtime.Container
   href: api/CatchIo.Runtime.Container.html
@@ -10759,6 +11007,51 @@ references:
   commentId: N:CatchIo.Runtime.Entities.HurtBoxes
   fullName: CatchIo.Runtime.Entities.HurtBoxes
   nameWithType: CatchIo.Runtime.Entities.HurtBoxes
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox
+  name: EntityPushableHurtBox
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.html
+  commentId: T:CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox
+  nameWithType: EntityPushableHurtBox
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake
+  name: Awake()
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_Awake
+  commentId: M:CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake()
+  nameWithType: EntityPushableHurtBox.Awake()
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake*
+  name: Awake
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_Awake_
+  commentId: Overload:CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake
+  nameWithType: EntityPushableHurtBox.Awake
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed
+  name: CanBePushed()
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanBePushed
+  commentId: M:CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed()
+  nameWithType: EntityPushableHurtBox.CanBePushed()
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed*
+  name: CanBePushed
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanBePushed_
+  commentId: Overload:CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed
+  nameWithType: EntityPushableHurtBox.CanBePushed
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract(HitBox)
+  name: CanInteract(HitBox)
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanInteract_HitBox_
+  commentId: M:CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract(HitBox)
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract(HitBox)
+  nameWithType: EntityPushableHurtBox.CanInteract(HitBox)
+- uid: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract*
+  name: CanInteract
+  href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.html#CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanInteract_
+  commentId: Overload:CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract
+  nameWithType: EntityPushableHurtBox.CanInteract
 - uid: CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox
   name: EntityScoutingMarkHurtBox
   href: api/CatchIo.Runtime.Entities.HurtBoxes.EntityScoutingMarkHurtBox.html
@@ -10973,42 +11266,18 @@ references:
   commentId: F:CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.SlowRadius
   fullName: CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.SlowRadius
   nameWithType: EntityMovementData.SlowRadius
-- uid: CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.SteeringForce
-  name: SteeringForce
-  href: api/CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.html#CatchIo_Runtime_Entities_Locomotions_Data_EntityMovementData_SteeringForce
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.SteeringForce
-  fullName: CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.SteeringForce
-  nameWithType: EntityMovementData.SteeringForce
 - uid: CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.TargetRadius
   name: TargetRadius
   href: api/CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.html#CatchIo_Runtime_Entities_Locomotions_Data_EntityMovementData_TargetRadius
   commentId: F:CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.TargetRadius
   fullName: CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.TargetRadius
   nameWithType: EntityMovementData.TargetRadius
-- uid: CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.TimeToTarget
-  name: TimeToTarget
-  href: api/CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.html#CatchIo_Runtime_Entities_Locomotions_Data_EntityMovementData_TimeToTarget
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.TimeToTarget
-  fullName: CatchIo.Runtime.Entities.Locomotions.Data.EntityMovementData.TimeToTarget
-  nameWithType: EntityMovementData.TimeToTarget
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement
   name: EntityMovement
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html
   commentId: T:CatchIo.Runtime.Entities.Locomotions.EntityMovement
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement
   nameWithType: EntityMovement
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement._currentVelocity
-  name: _currentVelocity
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement__currentVelocity
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityMovement._currentVelocity
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement._currentVelocity
-  nameWithType: EntityMovement._currentVelocity
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement._rigidbody2D
-  name: _rigidbody2D
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement__rigidbody2D
-  commentId: F:CatchIo.Runtime.Entities.Locomotions.EntityMovement._rigidbody2D
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement._rigidbody2D
-  nameWithType: EntityMovement._rigidbody2D
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce(Vector2,ForceMode2D)
   name: ApplyForce(Vector2, ForceMode2D)
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplyForce_Vector2_ForceMode2D_
@@ -11022,45 +11291,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplyForce
   nameWithType: EntityMovement.ApplyForce
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering(Vector2)
-  name: ApplySteering(Vector2)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplySteering_Vector2_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering(Vector2)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering(Vector2)
-  nameWithType: EntityMovement.ApplySteering(Vector2)
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering*
-  name: ApplySteering
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_ApplySteering_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity
+  name: GetCalculatingVelocity()
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetCalculatingVelocity
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity()
+  nameWithType: EntityMovement.GetCalculatingVelocity()
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity*
+  name: GetCalculatingVelocity
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetCalculatingVelocity_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity
   isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.ApplySteering
-  nameWithType: EntityMovement.ApplySteering
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive(Vector2)
-  name: Arrive(Vector2)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Arrive_Vector2_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive(Vector2)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive(Vector2)
-  nameWithType: EntityMovement.Arrive(Vector2)
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive*
-  name: Arrive
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Arrive_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Arrive
-  nameWithType: EntityMovement.Arrive
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake
-  name: Awake()
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Awake
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake()
-  nameWithType: EntityMovement.Awake()
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake*
-  name: Awake
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Awake_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Awake
-  nameWithType: EntityMovement.Awake
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetCalculatingVelocity
+  nameWithType: EntityMovement.GetCalculatingVelocity
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetVelocity
   name: GetVelocity()
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_GetVelocity
@@ -11074,19 +11317,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.GetVelocity
   nameWithType: EntityMovement.GetVelocity
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle(Vector2)
-  name: IsDetectObstacle(Vector2)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsDetectObstacle_Vector2_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle(Vector2)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle(Vector2)
-  nameWithType: EntityMovement.IsDetectObstacle(Vector2)
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle*
-  name: IsDetectObstacle
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsDetectObstacle_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsDetectObstacle
-  nameWithType: EntityMovement.IsDetectObstacle
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.IsMoving
   name: IsMoving()
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_IsMoving
@@ -11113,6 +11343,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Lock
   nameWithType: EntityMovement.Lock
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection(Vector2,System.Single,System.Boolean)
+  name: MoveInDirection(Vector2, Single, Boolean)
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveInDirection_Vector2_System_Single_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection(Vector2,System.Single,System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection(Vector2, System.Single, System.Boolean)
+  nameWithType: EntityMovement.MoveInDirection(Vector2, Single, Boolean)
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection*
+  name: MoveInDirection
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveInDirection_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveInDirection
+  nameWithType: EntityMovement.MoveInDirection
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MovementData
   name: MovementData
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_MovementData
@@ -11126,6 +11369,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MovementData
   nameWithType: EntityMovement.MovementData
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget(Vector2,System.Single,System.Boolean)
+  name: MoveToTarget(Vector2, Single, Boolean)
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveToTarget_Vector2_System_Single_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget(Vector2,System.Single,System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget(Vector2, System.Single, System.Boolean)
+  nameWithType: EntityMovement.MoveToTarget(Vector2, Single, Boolean)
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget*
+  name: MoveToTarget
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_MoveToTarget_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.MoveToTarget
+  nameWithType: EntityMovement.MoveToTarget
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
   name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
@@ -11139,64 +11395,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.OnPhotonSerializeView
   nameWithType: EntityMovement.OnPhotonSerializeView
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position
-  name: Position
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Position
-  commentId: P:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position
-  nameWithType: EntityMovement.Position
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position*
-  name: Position
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Position_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Position
-  nameWithType: EntityMovement.Position
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity(Vector2)
-  name: SetVelocity(Vector2)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_SetVelocity_Vector2_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity(Vector2)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity(Vector2)
-  nameWithType: EntityMovement.SetVelocity(Vector2)
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity*
-  name: SetVelocity
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_SetVelocity_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SetVelocity
-  nameWithType: EntityMovement.SetVelocity
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed(Vector2)
-  name: SteerAtMaxSpeed(Vector2)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerAtMaxSpeed_Vector2_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed(Vector2)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed(Vector2)
-  nameWithType: EntityMovement.SteerAtMaxSpeed(Vector2)
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed*
-  name: SteerAtMaxSpeed
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerAtMaxSpeed_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerAtMaxSpeed
-  nameWithType: EntityMovement.SteerAtMaxSpeed
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection(Vector2,System.Single)
-  name: SteerInDirection(Vector2, Single)
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerInDirection_Vector2_System_Single_
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection(Vector2,System.Single)
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection(Vector2, System.Single)
-  nameWithType: EntityMovement.SteerInDirection(Vector2, Single)
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection*
-  name: SteerInDirection
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_SteerInDirection_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.SteerInDirection
-  nameWithType: EntityMovement.SteerInDirection
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop
-  name: Stop()
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Stop
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop()
-  nameWithType: EntityMovement.Stop()
+- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop(System.Boolean)
+  name: Stop(Boolean)
+  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Stop_System_Boolean_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop(System.Boolean)
+  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop(System.Boolean)
+  nameWithType: EntityMovement.Stop(Boolean)
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Stop*
   name: Stop
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Stop_
@@ -11217,19 +11421,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Unlock
   nameWithType: EntityMovement.Unlock
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update
-  name: Update()
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Update
-  commentId: M:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update()
-  nameWithType: EntityMovement.Update()
-- uid: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update*
-  name: Update
-  href: api/CatchIo.Runtime.Entities.Locomotions.EntityMovement.html#CatchIo_Runtime_Entities_Locomotions_EntityMovement_Update_
-  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Entities.Locomotions.EntityMovement.Update
-  nameWithType: EntityMovement.Update
 - uid: CatchIo.Runtime.Entities.Locomotions.EntityRotator
   name: EntityRotator
   href: api/CatchIo.Runtime.Entities.Locomotions.EntityRotator.html
@@ -11410,6 +11601,459 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Locomotions.EntityRotator.ViewAngle
   nameWithType: EntityRotator.ViewAngle
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors
+  name: CatchIo.Runtime.Entities.Locomotions.MoveProcessors
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.html
+  commentId: N:CatchIo.Runtime.Entities.Locomotions.MoveProcessors
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors
+  nameWithType: CatchIo.Runtime.Entities.Locomotions.MoveProcessors
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor
+  name: DirectionProcessor
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.html
+  commentId: T:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor
+  nameWithType: DirectionProcessor
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Priority
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority
+  nameWithType: DirectionProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority*
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Priority_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority
+  nameWithType: DirectionProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name: Process(MoveContext, Action<MoveContext>)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Process_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_System_Action_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name.vb: Process(MoveContext, Action(Of MoveContext))
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action<CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext>)
+  fullName.vb: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action(Of CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext))
+  nameWithType: DirectionProcessor.Process(MoveContext, Action<MoveContext>)
+  nameWithType.vb: DirectionProcessor.Process(MoveContext, Action(Of MoveContext))
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process*
+  name: Process
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Process_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process
+  nameWithType: DirectionProcessor.Process
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext
+  name: MoveContext
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html
+  commentId: T:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext
+  nameWithType: MoveContext
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.#ctor(EntityMovementData)
+  name: MoveContext(EntityMovementData)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__ctor_EntityMovementData_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.#ctor(EntityMovementData)
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveContext(EntityMovementData)
+  nameWithType: MoveContext.MoveContext(EntityMovementData)
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.#ctor*
+  name: MoveContext
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__ctor_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveContext
+  nameWithType: MoveContext.MoveContext
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity
+  name: CalculatingVelocity
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CalculatingVelocity
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity
+  nameWithType: MoveContext.CalculatingVelocity
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity*
+  name: CalculatingVelocity
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CalculatingVelocity_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity
+  nameWithType: MoveContext.CalculatingVelocity
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition
+  name: CurrentPosition
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentPosition
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition
+  nameWithType: MoveContext.CurrentPosition
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition*
+  name: CurrentPosition
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentPosition_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition
+  nameWithType: MoveContext.CurrentPosition
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed
+  name: CurrentSpeed
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentSpeed
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed
+  nameWithType: MoveContext.CurrentSpeed
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed*
+  name: CurrentSpeed
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentSpeed_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed
+  nameWithType: MoveContext.CurrentSpeed
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity
+  name: CurrentVelocity
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentVelocity
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity
+  nameWithType: MoveContext.CurrentVelocity
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity*
+  name: CurrentVelocity
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentVelocity_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity
+  nameWithType: MoveContext.CurrentVelocity
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed
+  name: DesiredSpeed
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_DesiredSpeed
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed
+  nameWithType: MoveContext.DesiredSpeed
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed*
+  name: DesiredSpeed
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_DesiredSpeed_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed
+  nameWithType: MoveContext.DesiredSpeed
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced
+  name: IsForced
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsForced
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced
+  nameWithType: MoveContext.IsForced
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced*
+  name: IsForced
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsForced_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced
+  nameWithType: MoveContext.IsForced
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked
+  name: IsLocked
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsLocked
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked
+  nameWithType: MoveContext.IsLocked
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked*
+  name: IsLocked
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsLocked_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked
+  nameWithType: MoveContext.IsLocked
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection
+  name: MoveDirection
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MoveDirection
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection
+  nameWithType: MoveContext.MoveDirection
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection*
+  name: MoveDirection
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MoveDirection_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection
+  nameWithType: MoveContext.MoveDirection
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData
+  name: MovementData
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MovementData
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData
+  nameWithType: MoveContext.MovementData
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData*
+  name: MovementData
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MovementData_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData
+  nameWithType: MoveContext.MovementData
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit
+  name: ObstacleHit
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_ObstacleHit
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit
+  nameWithType: MoveContext.ObstacleHit
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit*
+  name: ObstacleHit
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_ObstacleHit_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit
+  nameWithType: MoveContext.ObstacleHit
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset
+  name: Reset()
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_Reset
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset()
+  nameWithType: MoveContext.Reset()
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset*
+  name: Reset
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_Reset_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset
+  nameWithType: MoveContext.Reset
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition
+  name: TargetPosition
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_TargetPosition
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition
+  nameWithType: MoveContext.TargetPosition
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition*
+  name: TargetPosition
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_TargetPosition_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition
+  nameWithType: MoveContext.TargetPosition
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState(Vector2,Vector2)
+  name: UpdateCurrentState(Vector2, Vector2)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_UpdateCurrentState_Vector2_Vector2_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState(Vector2,Vector2)
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState(Vector2, Vector2)
+  nameWithType: MoveContext.UpdateCurrentState(Vector2, Vector2)
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState*
+  name: UpdateCurrentState
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_UpdateCurrentState_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState
+  nameWithType: MoveContext.UpdateCurrentState
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline
+  name: MovePipeline
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html
+  commentId: T:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline
+  nameWithType: MovePipeline
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.#ctor(EntityMovementData)
+  name: MovePipeline(EntityMovementData)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline__ctor_EntityMovementData_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.#ctor(EntityMovementData)
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.MovePipeline(EntityMovementData)
+  nameWithType: MovePipeline.MovePipeline(EntityMovementData)
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.#ctor*
+  name: MovePipeline
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline__ctor_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.#ctor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.MovePipeline
+  nameWithType: MovePipeline.MovePipeline
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor(IMoveProcessor)
+  name: AddProcessor(IMoveProcessor)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_AddProcessor_IMoveProcessor_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor(IMoveProcessor)
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor(IMoveProcessor)
+  nameWithType: MovePipeline.AddProcessor(IMoveProcessor)
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor*
+  name: AddProcessor
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_AddProcessor_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor
+  nameWithType: MovePipeline.AddProcessor
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute(Vector2,Vector2,Vector2)
+  name: Execute(Vector2, Vector2, Vector2)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_Execute_Vector2_Vector2_Vector2_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute(Vector2,Vector2,Vector2)
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute(Vector2, Vector2, Vector2)
+  nameWithType: MovePipeline.Execute(Vector2, Vector2, Vector2)
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute*
+  name: Execute
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_Execute_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute
+  nameWithType: MovePipeline.Execute
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext
+  name: GetContext()
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_GetContext
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext()
+  nameWithType: MovePipeline.GetContext()
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext*
+  name: GetContext
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_GetContext_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext
+  nameWithType: MovePipeline.GetContext
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor(IMoveProcessor)
+  name: RemoveProcessor(IMoveProcessor)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_RemoveProcessor_IMoveProcessor_
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor(IMoveProcessor)
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor(IMoveProcessor)
+  nameWithType: MovePipeline.RemoveProcessor(IMoveProcessor)
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor*
+  name: RemoveProcessor
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_RemoveProcessor_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor
+  nameWithType: MovePipeline.RemoveProcessor
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext
+  name: ResetContext()
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_ResetContext
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext()
+  nameWithType: MovePipeline.ResetContext()
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext*
+  name: ResetContext
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_ResetContext_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext
+  nameWithType: MovePipeline.ResetContext
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor
+  name: ObstacleAvoidanceProcessor
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.html
+  commentId: T:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor
+  nameWithType: ObstacleAvoidanceProcessor
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Priority
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleAvoidanceProcessor_Priority
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Priority
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Priority
+  nameWithType: ObstacleAvoidanceProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Priority*
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleAvoidanceProcessor_Priority_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Priority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Priority
+  nameWithType: ObstacleAvoidanceProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name: Process(MoveContext, Action<MoveContext>)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleAvoidanceProcessor_Process_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_System_Action_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name.vb: Process(MoveContext, Action(Of MoveContext))
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action<CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext>)
+  fullName.vb: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action(Of CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext))
+  nameWithType: ObstacleAvoidanceProcessor.Process(MoveContext, Action<MoveContext>)
+  nameWithType.vb: ObstacleAvoidanceProcessor.Process(MoveContext, Action(Of MoveContext))
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Process*
+  name: Process
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleAvoidanceProcessor_Process_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Process
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleAvoidanceProcessor.Process
+  nameWithType: ObstacleAvoidanceProcessor.Process
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor
+  name: ObstacleDetectionProcessor
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.html
+  commentId: T:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor
+  nameWithType: ObstacleDetectionProcessor
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Priority
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleDetectionProcessor_Priority
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Priority
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Priority
+  nameWithType: ObstacleDetectionProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Priority*
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleDetectionProcessor_Priority_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Priority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Priority
+  nameWithType: ObstacleDetectionProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name: Process(MoveContext, Action<MoveContext>)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleDetectionProcessor_Process_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_System_Action_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name.vb: Process(MoveContext, Action(Of MoveContext))
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action<CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext>)
+  fullName.vb: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action(Of CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext))
+  nameWithType: ObstacleDetectionProcessor.Process(MoveContext, Action<MoveContext>)
+  nameWithType.vb: ObstacleDetectionProcessor.Process(MoveContext, Action(Of MoveContext))
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Process*
+  name: Process
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_ObstacleDetectionProcessor_Process_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Process
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.ObstacleDetectionProcessor.Process
+  nameWithType: ObstacleDetectionProcessor.Process
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor
+  name: SpeedProcessor
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.html
+  commentId: T:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor
+  nameWithType: SpeedProcessor
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Priority
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SpeedProcessor_Priority
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Priority
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Priority
+  nameWithType: SpeedProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Priority*
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SpeedProcessor_Priority_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Priority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Priority
+  nameWithType: SpeedProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name: Process(MoveContext, Action<MoveContext>)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SpeedProcessor_Process_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_System_Action_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name.vb: Process(MoveContext, Action(Of MoveContext))
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action<CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext>)
+  fullName.vb: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action(Of CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext))
+  nameWithType: SpeedProcessor.Process(MoveContext, Action<MoveContext>)
+  nameWithType.vb: SpeedProcessor.Process(MoveContext, Action(Of MoveContext))
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Process*
+  name: Process
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SpeedProcessor_Process_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Process
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SpeedProcessor.Process
+  nameWithType: SpeedProcessor.Process
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor
+  name: SteeringProcessor
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.html
+  commentId: T:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor
+  nameWithType: SteeringProcessor
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Priority
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SteeringProcessor_Priority
+  commentId: P:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Priority
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Priority
+  nameWithType: SteeringProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Priority*
+  name: Priority
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SteeringProcessor_Priority_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Priority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Priority
+  nameWithType: SteeringProcessor.Priority
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name: Process(MoveContext, Action<MoveContext>)
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SteeringProcessor_Process_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_System_Action_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__
+  commentId: M:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})
+  name.vb: Process(MoveContext, Action(Of MoveContext))
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action<CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext>)
+  fullName.vb: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext, System.Action(Of CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext))
+  nameWithType: SteeringProcessor.Process(MoveContext, Action<MoveContext>)
+  nameWithType.vb: SteeringProcessor.Process(MoveContext, Action(Of MoveContext))
+- uid: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Process*
+  name: Process
+  href: api/CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.html#CatchIo_Runtime_Entities_Locomotions_MoveProcessors_SteeringProcessor_Process_
+  commentId: Overload:CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Process
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Entities.Locomotions.MoveProcessors.SteeringProcessor.Process
+  nameWithType: SteeringProcessor.Process
 - uid: CatchIo.Runtime.Entities.Marks
   name: CatchIo.Runtime.Entities.Marks
   href: api/CatchIo.Runtime.Entities.Marks.html
@@ -11767,6 +12411,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Entities.Senders.EntityHUDDisplayer.UpdateHUD
   nameWithType: EntityHUDDisplayer.UpdateHUD
+- uid: CatchIo.Runtime.Entities.Senders.EntityPusher
+  name: EntityPusher
+  href: api/CatchIo.Runtime.Entities.Senders.EntityPusher.html
+  commentId: T:CatchIo.Runtime.Entities.Senders.EntityPusher
+  fullName: CatchIo.Runtime.Entities.Senders.EntityPusher
+  nameWithType: EntityPusher
 - uid: CatchIo.Runtime.Enums
   name: CatchIo.Runtime.Enums
   href: api/CatchIo.Runtime.Enums.html
@@ -12157,6 +12807,48 @@ references:
   commentId: F:CatchIo.Runtime.Enums.GameObjectiveEventEnum.WinnerSelected
   fullName: CatchIo.Runtime.Enums.GameObjectiveEventEnum.WinnerSelected
   nameWithType: GameObjectiveEventEnum.WinnerSelected
+- uid: CatchIo.Runtime.Enums.MapType
+  name: MapType
+  href: api/CatchIo.Runtime.Enums.MapType.html
+  commentId: T:CatchIo.Runtime.Enums.MapType
+  fullName: CatchIo.Runtime.Enums.MapType
+  nameWithType: MapType
+- uid: CatchIo.Runtime.Enums.MapType.CliffFaceRules
+  name: CliffFaceRules
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_CliffFaceRules
+  commentId: F:CatchIo.Runtime.Enums.MapType.CliffFaceRules
+  fullName: CatchIo.Runtime.Enums.MapType.CliffFaceRules
+  nameWithType: MapType.CliffFaceRules
+- uid: CatchIo.Runtime.Enums.MapType.ForestVillageArea
+  name: ForestVillageArea
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_ForestVillageArea
+  commentId: F:CatchIo.Runtime.Enums.MapType.ForestVillageArea
+  fullName: CatchIo.Runtime.Enums.MapType.ForestVillageArea
+  nameWithType: MapType.ForestVillageArea
+- uid: CatchIo.Runtime.Enums.MapType.LobbySandbox
+  name: LobbySandbox
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_LobbySandbox
+  commentId: F:CatchIo.Runtime.Enums.MapType.LobbySandbox
+  fullName: CatchIo.Runtime.Enums.MapType.LobbySandbox
+  nameWithType: MapType.LobbySandbox
+- uid: CatchIo.Runtime.Enums.MapType.SnowLand
+  name: SnowLand
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_SnowLand
+  commentId: F:CatchIo.Runtime.Enums.MapType.SnowLand
+  fullName: CatchIo.Runtime.Enums.MapType.SnowLand
+  nameWithType: MapType.SnowLand
+- uid: CatchIo.Runtime.Enums.MapType.SpritesForPasting
+  name: SpritesForPasting
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_SpritesForPasting
+  commentId: F:CatchIo.Runtime.Enums.MapType.SpritesForPasting
+  fullName: CatchIo.Runtime.Enums.MapType.SpritesForPasting
+  nameWithType: MapType.SpritesForPasting
+- uid: CatchIo.Runtime.Enums.MapType.WallFaceRules
+  name: WallFaceRules
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_WallFaceRules
+  commentId: F:CatchIo.Runtime.Enums.MapType.WallFaceRules
+  fullName: CatchIo.Runtime.Enums.MapType.WallFaceRules
+  nameWithType: MapType.WallFaceRules
 - uid: CatchIo.Runtime.Enums.ModificationType
   name: ModificationType
   href: api/CatchIo.Runtime.Enums.ModificationType.html
@@ -13965,6 +14657,41 @@ references:
   commentId: E:CatchIo.Runtime.Interfaces.IMarkingEntity.OnMarked
   fullName: CatchIo.Runtime.Interfaces.IMarkingEntity.OnMarked
   nameWithType: IMarkingEntity.OnMarked
+- uid: CatchIo.Runtime.Interfaces.IMoveProcessor
+  name: IMoveProcessor
+  href: api/CatchIo.Runtime.Interfaces.IMoveProcessor.html
+  commentId: T:CatchIo.Runtime.Interfaces.IMoveProcessor
+  fullName: CatchIo.Runtime.Interfaces.IMoveProcessor
+  nameWithType: IMoveProcessor
+- uid: CatchIo.Runtime.Interfaces.IMoveProcessor.Priority
+  name: Priority
+  href: api/CatchIo.Runtime.Interfaces.IMoveProcessor.html#CatchIo_Runtime_Interfaces_IMoveProcessor_Priority
+  commentId: P:CatchIo.Runtime.Interfaces.IMoveProcessor.Priority
+  fullName: CatchIo.Runtime.Interfaces.IMoveProcessor.Priority
+  nameWithType: IMoveProcessor.Priority
+- uid: CatchIo.Runtime.Interfaces.IMoveProcessor.Priority*
+  name: Priority
+  href: api/CatchIo.Runtime.Interfaces.IMoveProcessor.html#CatchIo_Runtime_Interfaces_IMoveProcessor_Priority_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IMoveProcessor.Priority
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IMoveProcessor.Priority
+  nameWithType: IMoveProcessor.Priority
+- uid: CatchIo.Runtime.Interfaces.IMoveProcessor.Process(MoveContext,System.Action{MoveContext})
+  name: Process(MoveContext, Action<MoveContext>)
+  href: api/CatchIo.Runtime.Interfaces.IMoveProcessor.html#CatchIo_Runtime_Interfaces_IMoveProcessor_Process_MoveContext_System_Action_MoveContext__
+  commentId: M:CatchIo.Runtime.Interfaces.IMoveProcessor.Process(MoveContext,System.Action{MoveContext})
+  name.vb: Process(MoveContext, Action(Of MoveContext))
+  fullName: CatchIo.Runtime.Interfaces.IMoveProcessor.Process(MoveContext, System.Action<MoveContext>)
+  fullName.vb: CatchIo.Runtime.Interfaces.IMoveProcessor.Process(MoveContext, System.Action(Of MoveContext))
+  nameWithType: IMoveProcessor.Process(MoveContext, Action<MoveContext>)
+  nameWithType.vb: IMoveProcessor.Process(MoveContext, Action(Of MoveContext))
+- uid: CatchIo.Runtime.Interfaces.IMoveProcessor.Process*
+  name: Process
+  href: api/CatchIo.Runtime.Interfaces.IMoveProcessor.html#CatchIo_Runtime_Interfaces_IMoveProcessor_Process_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IMoveProcessor.Process
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IMoveProcessor.Process
+  nameWithType: IMoveProcessor.Process
 - uid: CatchIo.Runtime.Interfaces.IPanickable
   name: IPanickable
   href: api/CatchIo.Runtime.Interfaces.IPanickable.html
@@ -14055,6 +14782,31 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Interfaces.IPositionProvider.GetPosition
   nameWithType: IPositionProvider.GetPosition
+- uid: CatchIo.Runtime.Interfaces.IPushable
+  name: IPushable
+  href: api/CatchIo.Runtime.Interfaces.IPushable.html
+  commentId: T:CatchIo.Runtime.Interfaces.IPushable
+  fullName: CatchIo.Runtime.Interfaces.IPushable
+  nameWithType: IPushable
+- uid: CatchIo.Runtime.Interfaces.IPushable.OnPush
+  name: OnPush
+  href: api/CatchIo.Runtime.Interfaces.IPushable.html#CatchIo_Runtime_Interfaces_IPushable_OnPush
+  commentId: E:CatchIo.Runtime.Interfaces.IPushable.OnPush
+  fullName: CatchIo.Runtime.Interfaces.IPushable.OnPush
+  nameWithType: IPushable.OnPush
+- uid: CatchIo.Runtime.Interfaces.IPushable.Push(Vector2)
+  name: Push(Vector2)
+  href: api/CatchIo.Runtime.Interfaces.IPushable.html#CatchIo_Runtime_Interfaces_IPushable_Push_Vector2_
+  commentId: M:CatchIo.Runtime.Interfaces.IPushable.Push(Vector2)
+  fullName: CatchIo.Runtime.Interfaces.IPushable.Push(Vector2)
+  nameWithType: IPushable.Push(Vector2)
+- uid: CatchIo.Runtime.Interfaces.IPushable.Push*
+  name: Push
+  href: api/CatchIo.Runtime.Interfaces.IPushable.html#CatchIo_Runtime_Interfaces_IPushable_Push_
+  commentId: Overload:CatchIo.Runtime.Interfaces.IPushable.Push
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Interfaces.IPushable.Push
+  nameWithType: IPushable.Push
 - uid: CatchIo.Runtime.Interfaces.ISceneMode
   name: ISceneMode
   href: api/CatchIo.Runtime.Interfaces.ISceneMode.html
@@ -28221,6 +28973,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsOpposite
   nameWithType: EntityDirectionTypeExtensions.IsOpposite
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsWithAngle(EntityDirectionType,Vector2,System.Single)
+  name: IsWithAngle(EntityDirectionType, Vector2, Single)
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsWithAngle_EntityDirectionType_Vector2_System_Single_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsWithAngle(EntityDirectionType,Vector2,System.Single)
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsWithAngle(EntityDirectionType, Vector2, System.Single)
+  nameWithType: EntityDirectionTypeExtensions.IsWithAngle(EntityDirectionType, Vector2, Single)
+- uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsWithAngle*
+  name: IsWithAngle
+  href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_IsWithAngle_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsWithAngle
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.IsWithAngle
+  nameWithType: EntityDirectionTypeExtensions.IsWithAngle
 - uid: CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.ToAngle(EntityDirectionType)
   name: ToAngle(EntityDirectionType)
   href: api/CatchIo.Runtime.Utility.Extensions.EntityDirectionTypeExtensions.html#CatchIo_Runtime_Utility_Extensions_EntityDirectionTypeExtensions_ToAngle_EntityDirectionType_
@@ -29000,6 +29765,19 @@ references:
   commentId: T:CatchIo.Runtime.Utility.Extensions.Vector2Extensions
   fullName: CatchIo.Runtime.Utility.Extensions.Vector2Extensions
   nameWithType: Vector2Extensions
+- uid: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.GetAngleFromUp(Vector2)
+  name: GetAngleFromUp(Vector2)
+  href: api/CatchIo.Runtime.Utility.Extensions.Vector2Extensions.html#CatchIo_Runtime_Utility_Extensions_Vector2Extensions_GetAngleFromUp_Vector2_
+  commentId: M:CatchIo.Runtime.Utility.Extensions.Vector2Extensions.GetAngleFromUp(Vector2)
+  fullName: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.GetAngleFromUp(Vector2)
+  nameWithType: Vector2Extensions.GetAngleFromUp(Vector2)
+- uid: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.GetAngleFromUp*
+  name: GetAngleFromUp
+  href: api/CatchIo.Runtime.Utility.Extensions.Vector2Extensions.html#CatchIo_Runtime_Utility_Extensions_Vector2Extensions_GetAngleFromUp_
+  commentId: Overload:CatchIo.Runtime.Utility.Extensions.Vector2Extensions.GetAngleFromUp
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.GetAngleFromUp
+  nameWithType: Vector2Extensions.GetAngleFromUp
 - uid: CatchIo.Runtime.Utility.Extensions.Vector2Extensions.ToDirectionType(Vector2)
   name: ToDirectionType(Vector2)
   href: api/CatchIo.Runtime.Utility.Extensions.Vector2Extensions.html#CatchIo_Runtime_Utility_Extensions_Vector2Extensions_ToDirectionType_Vector2_

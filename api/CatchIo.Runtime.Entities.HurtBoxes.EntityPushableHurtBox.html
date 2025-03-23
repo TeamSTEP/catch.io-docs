@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HurtBox
+    <title>Class EntityPushableHurtBox
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HurtBox
+    <meta name="title" content="Class EntityPushableHurtBox
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,40 +78,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox">
   
   
-  <h1 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox" class="text-break">Class HurtBox
+  <h1 id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox" class="text-break">Class EntityPushableHurtBox
   </h1>
-  <div class="markdown level0 summary"><p>Represents an abstract base class for hurtboxes used in combat systems.
-A hurtbox is a region on an entity that can be detected and interacted with by hitboxes.</p>
+  <div class="markdown level0 summary"><p>A specialized pushable hurtbox for entities that considers health and movement status.
+Only allows pushing when the entity is alive and not already moving voluntarily.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">HurtBox</span></div>
-      <div class="level2"><a class="xref" href="CatchIo.Runtime.Combat.HurtBoxes.PushableHurtBox.html">PushableHurtBox</a></div>
+    <div class="level1"><span class="xref">EntityPushableHurtBox</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Combat.HurtBoxes.html">CatchIo.Runtime.Combat.HurtBoxes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.HurtBoxes.html">CatchIo.Runtime.Entities.HurtBoxes</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class HurtBox : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class EntityPushableHurtBox : PushableHurtBox</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IsCollided_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IsCollided" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IsCollided">IsCollided</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_Awake_" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake*"></a>
+  <h4 id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_Awake" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Initializes component references.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCollided { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  
+  
+  <a id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanBePushed_" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed*"></a>
+  <h4 id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanBePushed" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanBePushed">CanBePushed()</h4>
+  <div class="markdown level1 summary"><p>Determines if this entity can currently be pushed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanBePushed()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -122,74 +133,21 @@ A hurtbox is a region on an entity that can be detected and interacted with by h
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the entity is alive, not already moving voluntarily, and base conditions are met.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_PriorityValue_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_PriorityValue" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.PriorityValue">PriorityValue</h4>
-  <div class="markdown level1 summary"><p>Get the interaction priority score</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int PriorityValue { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_ViewID_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.ViewID*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_ViewID" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.ViewID">ViewID</h4>
-  <div class="markdown level1 summary"><p>Gets the unique ViewID associated with this hurtbox.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract int ViewID { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_CanInteract_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.CanInteract*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_CanInteract_HitBox_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.CanInteract(HitBox)">CanInteract(HitBox)</h4>
+  <a id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanInteract_" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract*"></a>
+  <h4 id="CatchIo_Runtime_Entities_HurtBoxes_EntityPushableHurtBox_CanInteract_HitBox_" data-uid="CatchIo.Runtime.Entities.HurtBoxes.EntityPushableHurtBox.CanInteract(HitBox)">CanInteract(HitBox)</h4>
   <div class="markdown level1 summary"><p>Determines if this hurtbox can interact with the specified hitbox.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract bool CanInteract(HitBox hitBox)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool CanInteract(HitBox hitBox)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,7 +162,7 @@ A hurtbox is a region on an entity that can be detected and interacted with by h
       <tr>
         <td><span class="xref">HitBox</span></td>
         <td><span class="parametername">hitBox</span></td>
-        <td><p>The hitbox attempting to interact with this hurtbox.</p>
+        <td><p>The hitbox to check for interaction.</p>
 </td>
       </tr>
     </tbody>
@@ -220,60 +178,11 @@ A hurtbox is a region on an entity that can be detected and interacted with by h
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if interaction is allowed; otherwise, false.</p>
+        <td><p>True if the entity is alive and interaction is allowed by base class, false otherwise.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_DecreasePriority_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_DecreasePriority" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.DecreasePriority">DecreasePriority()</h4>
-  <div class="markdown level1 summary"><p>Decrease priority of the hurtbox</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DecreasePriority()</code></pre>
-  </div>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_GetHurtBoxPosition_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.GetHurtBoxPosition*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_GetHurtBoxPosition" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.GetHurtBoxPosition">GetHurtBoxPosition()</h4>
-  <div class="markdown level1 summary"><p>Gets the position of the hurtbox in world coordinates.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Vector2 GetHurtBoxPosition()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><p>The position of the hurtbox as a <see cref="!:Vector2"></see>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IncreasePriority_" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HurtBoxes_HurtBox_IncreasePriority" data-uid="CatchIo.Runtime.Combat.HurtBoxes.HurtBox.IncreasePriority">IncreasePriority()</h4>
-  <div class="markdown level1 summary"><p>Increase the priority of this hutbox</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void IncreasePriority()</code></pre>
-  </div>
 </article>
           </div>
           

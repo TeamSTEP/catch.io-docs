@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Runtime.Entities.Senders
+    <title>Class DirectionProcessor
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Runtime.Entities.Senders
+    <meta name="title" content="Class DirectionProcessor
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,24 +78,91 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Senders">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor">
   
-  <h1 id="CatchIo_Runtime_Entities_Senders" data-uid="CatchIo.Runtime.Entities.Senders" class="text-break">Namespace CatchIo.Runtime.Entities.Senders
+  
+  <h1 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor" class="text-break">Class DirectionProcessor
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Processor that calculates the movement direction based on the target position.
+This is typically the first processor in the movement pipeline.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DirectionProcessor</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.html">CatchIo.Runtime.Entities.Locomotions.MoveProcessors</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DirectionProcessor : IMoveProcessor</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="CatchIo.Runtime.Entities.Senders.EntityHUDDisplayer.html">EntityHUDDisplayer</a></h4>
-      <section><p>Manages the display of HUD elements for entities that implement the <see cref="!:IHUDDisplayable"></see> interface.
-Ensures that only one HUD element is active at a time.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Runtime.Entities.Senders.EntityPusher.html">EntityPusher</a></h4>
-      <section><p>Handles pushing interactions between entities in a multiplayer environment.
-Detects pushable objects in the entity&apos;s path and applies pushing forces
-based on the entity&apos;s movement direction and velocity.</p>
-</section>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Priority_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Priority" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Priority">Priority</h4>
+  <div class="markdown level1 summary"><p>Sets a low priority to ensure this processor runs early in the pipeline.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Priority { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Process_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_DirectionProcessor_Process_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_System_Action_CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.DirectionProcessor.Process(CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext,System.Action{CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext})">Process(MoveContext, Action&lt;MoveContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>Processes the movement context to calculate the movement direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Process(MoveContext context, Action&lt;MoveContext&gt; next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html">MoveContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The movement context to process.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html">MoveContext</a>&gt;</td>
+        <td><span class="parametername">next</span></td>
+        <td><p>Callback to invoke the next processor in the chain.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

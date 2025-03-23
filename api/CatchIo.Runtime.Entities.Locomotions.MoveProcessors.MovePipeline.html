@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EllipseHitBox
+    <title>Class MovePipeline
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EllipseHitBox
+    <meta name="title" content="Class MovePipeline
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,106 +78,54 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline">
   
   
-  <h1 id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox" class="text-break">Class EllipseHitBox
+  <h1 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline" class="text-break">Class MovePipeline
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manages a pipeline of movement processors that sequentially modify
+movement calculations based on their specific logic and priority.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html">HitBox</a></div>
-    <div class="level2"><span class="xref">EllipseHitBox</span></div>
+    <div class="level1"><span class="xref">MovePipeline</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox__targetTag">HitBox._targetTag</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox__targetLayerMask">HitBox._targetLayerMask</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox__hitResults">HitBox._hitResults</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox__raycastHitResults">HitBox._raycastHitResults</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox_ViewID">HitBox.ViewID</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox_HasTag">HitBox.HasTag()</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox_UpdateViewID_System_Int32_">HitBox.UpdateViewID(Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox_UpdatePosition_EntityDirectionType_">HitBox.UpdatePosition(EntityDirectionType)</a>
-    </div>
-    <div>
-      <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.HitBox.html#CatchIo_Runtime_Combat_HitBoxes_HitBox_UpdatePosition_Vector2_">HitBox.UpdatePosition(Vector2)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Combat.HitBoxes.html">CatchIo.Runtime.Combat.HitBoxes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.html">CatchIo.Runtime.Entities.Locomotions.MoveProcessors</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class EllipseHitBox : HitBox</code></pre>
+    <pre><code class="lang-csharp hljs">public class MovePipeline</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusX_" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusX" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusX">RadiusX</h4>
-  <div class="markdown level1 summary"><p>Gets the radius longer X-axis based on orientation.</p>
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline__ctor_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.#ctor*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline__ctor_EntityMovementData_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.#ctor(EntityMovementData)">MovePipeline(EntityMovementData)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new movement pipeline with the specified movement data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float RadiusX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MovePipeline(EntityMovementData movementData)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusY_" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_RadiusY" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.RadiusY">RadiusY</h4>
-  <div class="markdown level1 summary"><p>Gets the radius longer Y-axis based on orientation.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float RadiusY { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><span class="xref">EntityMovementData</span></td>
+        <td><span class="parametername">movementData</span></td>
+        <td><p>Configuration data for movement parameters.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -185,14 +133,14 @@
   </h3>
   
   
-  <a id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBox_" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBox__1_System_Func___0_System_Boolean__" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBox``1(System.Func{``0,System.Boolean})">DetectHurtBox&lt;T&gt;(Func&lt;T, Boolean&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_AddProcessor_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_AddProcessor_IMoveProcessor_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.AddProcessor(IMoveProcessor)">AddProcessor(IMoveProcessor)</h4>
+  <div class="markdown level1 summary"><p>Adds a processor to the pipeline and sorts by priority.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override T DetectHurtBox&lt;T&gt;(Func&lt;T, bool&gt; filter = null)
-    where T : HurtBox</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddProcessor(IMoveProcessor processor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,9 +153,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">filter</span></td>
-        <td></td>
+        <td><span class="xref">IMoveProcessor</span></td>
+        <td><span class="parametername">processor</span></td>
+        <td><p>The movement processor to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_Execute_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_Execute_Vector2_Vector2_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.Execute(Vector2,Vector2,Vector2)">Execute(Vector2, Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Executes the movement pipeline to calculate the final velocity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Execute(Vector2 position, Vector2 velocity, Vector2 targetPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Current position of the entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td><p>Current velocity of the entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">targetPosition</span></td>
+        <td><p>Target position to move towards.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -221,38 +211,49 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
+        <td><span class="xref">Vector2</span></td>
+        <td><p>The calculated velocity after all processors have executed.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_GetContext_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_GetContext" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.GetContext">GetContext()</h4>
+  <div class="markdown level1 summary"><p>Gets the current movement context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MoveContext GetContext()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.html">MoveContext</a></td>
+        <td><p>The move context shared by all processors.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CatchIo.Runtime.Combat.HitBoxes.HitBox.DetectHurtBox&lt;T&gt;(System.Func&lt;T, System.Boolean&gt;)</span></div>
   
   
-  <a id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBoxes_" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes*"></a>
-  <h4 id="CatchIo_Runtime_Combat_HitBoxes_EllipseHitBox_DetectHurtBoxes__1_System_Func___0_System_Boolean__" data-uid="CatchIo.Runtime.Combat.HitBoxes.EllipseHitBox.DetectHurtBoxes``1(System.Func{``0,System.Boolean})">DetectHurtBoxes&lt;T&gt;(Func&lt;T, Boolean&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_RemoveProcessor_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_RemoveProcessor_IMoveProcessor_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.RemoveProcessor(IMoveProcessor)">RemoveProcessor(IMoveProcessor)</h4>
+  <div class="markdown level1 summary"><p>Removes a processor from the pipeline.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override T[] DetectHurtBoxes&lt;T&gt;(Func&lt;T, bool&gt; filter = null)
-    where T : HurtBox</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveProcessor(IMoveProcessor processor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,44 +266,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">filter</span></td>
-        <td></td>
+        <td><span class="xref">IMoveProcessor</span></td>
+        <td><span class="parametername">processor</span></td>
+        <td><p>The movement processor to remove.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>T[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CatchIo.Runtime.Combat.HitBoxes.HitBox.DetectHurtBoxes&lt;T&gt;(System.Func&lt;T, System.Boolean&gt;)</span></div>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_ResetContext_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MovePipeline_ResetContext" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MovePipeline.ResetContext">ResetContext()</h4>
+  <div class="markdown level1 summary"><p>Resets the movement context to its initial state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetContext()</code></pre>
+  </div>
 </article>
           </div>
           

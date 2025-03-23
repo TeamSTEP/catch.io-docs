@@ -1,0 +1,504 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MoveContext
+   | Catch.io Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MoveContext
+   | Catch.io Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext">
+  
+  
+  <h1 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext" class="text-break">Class MoveContext
+  </h1>
+  <div class="markdown level0 summary"><p>Maintains the state and parameters for movement calculations throughout the move pipeline.
+Serves as a shared context that each processor can read from and modify.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MoveContext</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.html">CatchIo.Runtime.Entities.Locomotions.MoveProcessors</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MoveContext</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__ctor_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.#ctor*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext__ctor_EntityMovementData_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.#ctor(EntityMovementData)">MoveContext(EntityMovementData)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new movement context with the specified movement data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MoveContext(EntityMovementData movementData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityMovementData</span></td>
+        <td><span class="parametername">movementData</span></td>
+        <td><p>Configuration data for movement parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CalculatingVelocity_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CalculatingVelocity" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CalculatingVelocity">CalculatingVelocity</h4>
+  <div class="markdown level1 summary"><p>The velocity being calculated during pipeline processing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 CalculatingVelocity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentPosition_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentPosition" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentPosition">CurrentPosition</h4>
+  <div class="markdown level1 summary"><p>The current world position of the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 CurrentPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentSpeed_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentSpeed" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentSpeed">CurrentSpeed</h4>
+  <div class="markdown level1 summary"><p>The current speed of the entity (magnitude of current velocity).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CurrentSpeed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentVelocity_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_CurrentVelocity" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.CurrentVelocity">CurrentVelocity</h4>
+  <div class="markdown level1 summary"><p>The current velocity of the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 CurrentVelocity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_DesiredSpeed_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_DesiredSpeed" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.DesiredSpeed">DesiredSpeed</h4>
+  <div class="markdown level1 summary"><p>The desired movement speed set by the movement controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DesiredSpeed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsForced_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsForced" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsForced">IsForced</h4>
+  <div class="markdown level1 summary"><p>Whether the movement should be forced even when locked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsForced { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsLocked_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_IsLocked" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.IsLocked">IsLocked</h4>
+  <div class="markdown level1 summary"><p>Whether the entity&apos;s velocity is currently locked and should not change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLocked { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MoveDirection_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MoveDirection" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MoveDirection">MoveDirection</h4>
+  <div class="markdown level1 summary"><p>The normalized direction the entity wants to move in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 MoveDirection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MovementData_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_MovementData" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.MovementData">MovementData</h4>
+  <div class="markdown level1 summary"><p>Reference to movement configuration data with parameters for speed, steering, etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityMovementData MovementData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityMovementData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_ObstacleHit_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_ObstacleHit" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.ObstacleHit">ObstacleHit</h4>
+  <div class="markdown level1 summary"><p>Information about any obstacle detected in the movement path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RaycastHit2D? ObstacleHit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">RaycastHit2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_TargetPosition_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_TargetPosition" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.TargetPosition">TargetPosition</h4>
+  <div class="markdown level1 summary"><p>The target position the entity is trying to reach.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 TargetPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_Reset_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_Reset" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Resets all movement state variables to their default values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_UpdateCurrentState_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState*"></a>
+  <h4 id="CatchIo_Runtime_Entities_Locomotions_MoveProcessors_MoveContext_UpdateCurrentState_Vector2_Vector2_" data-uid="CatchIo.Runtime.Entities.Locomotions.MoveProcessors.MoveContext.UpdateCurrentState(Vector2,Vector2)">UpdateCurrentState(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Updates the current position and velocity state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateCurrentState(Vector2 position, Vector2 velocity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Current world position of the entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td><p>Current velocity of the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©Team STEP, All Rights Reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
