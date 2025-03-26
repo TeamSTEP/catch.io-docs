@@ -2254,6 +2254,16 @@
     "title": "Class TextDisplayerForSeconds | Catch.io Developer Reference",
     "keywords": "Class TextDisplayerForSeconds Inheritance System.Object TextDisplayer TextDisplayerForSeconds Inherited Members TextDisplayer._text Namespace : CatchIo.Runtime.Menu.UI.Text Assembly : cs.temp.dll.dll Syntax public class TextDisplayerForSeconds : TextDisplayer Methods SetText(String) Declaration protected override void SetText(string text) Parameters Type Name Description System.String text Overrides TextDisplayer.SetText(String)"
   },
+  "api/CatchIo.Runtime.Menu.UI.Timer.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Timer.html",
+    "title": "Namespace CatchIo.Runtime.Menu.UI.Timer | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Timer Classes ImageTimer Show count down using number images"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Timer.ImageTimer.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Timer.ImageTimer.html",
+    "title": "Class ImageTimer | Catch.io Developer Reference",
+    "keywords": "Class ImageTimer Show count down using number images Inheritance System.Object ImageTimer Namespace : CatchIo.Runtime.Menu.UI.Timer Assembly : cs.temp.dll.dll Syntax public class ImageTimer : MonoBehaviour Properties IsActive Declaration public bool IsActive { get; } Property Value Type Description System.Boolean Methods ShowNumber(Int32) Set the number on timer Declaration public void ShowNumber(int number) Parameters Type Name Description System.Int32 number Number to set Toggle(Boolean) Toggle on/off image timer Declaration public void Toggle(bool value) Parameters Type Name Description System.Boolean value on or off"
+  },
   "api/CatchIo.Runtime.Menu.UI.Updater.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Updater.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.Updater | Catch.io Developer Reference",
@@ -2498,6 +2508,16 @@
     "href": "api/CatchIo.Runtime.ScriptableObjects.Character.html",
     "title": "Namespace CatchIo.Runtime.ScriptableObjects.Character | Catch.io Developer Reference",
     "keywords": "Namespace CatchIo.Runtime.ScriptableObjects.Character Classes CharacterStatus"
+  },
+  "api/CatchIo.Runtime.ScriptableObjects.Containers.html": {
+    "href": "api/CatchIo.Runtime.ScriptableObjects.Containers.html",
+    "title": "Namespace CatchIo.Runtime.ScriptableObjects.Containers | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.ScriptableObjects.Containers Classes NumberImageContainer"
+  },
+  "api/CatchIo.Runtime.ScriptableObjects.Containers.NumberImageContainer.html": {
+    "href": "api/CatchIo.Runtime.ScriptableObjects.Containers.NumberImageContainer.html",
+    "title": "Class NumberImageContainer | Catch.io Developer Reference",
+    "keywords": "Class NumberImageContainer Inheritance System.Object NumberImageContainer Namespace : CatchIo.Runtime.ScriptableObjects.Containers Assembly : cs.temp.dll.dll Syntax public class NumberImageContainer : DescriptionScriptableObject Methods NumberToSprite(Int32) Get sprite for given number Declaration public Sprite NumberToSprite(int number) Parameters Type Name Description System.Int32 number Number in int Returns Type Description Sprite Sprite that match the number"
   },
   "api/CatchIo.Runtime.ScriptableObjects.Events.BaseEventChannel.html": {
     "href": "api/CatchIo.Runtime.ScriptableObjects.Events.BaseEventChannel.html",
