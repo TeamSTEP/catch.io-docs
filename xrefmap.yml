@@ -1113,22 +1113,22 @@ references:
   isSpec: "True"
   fullName: CatchIo.Editor.Utility.EditorUtils.FindScriptPath
   nameWithType: EditorUtils.FindScriptPath
-- uid: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String,System.Collections.Generic.List{System.String})
-  name: GenerateEnumFile(String, List<String>)
-  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GenerateEnumFile_System_String_System_Collections_Generic_List_System_String__
-  commentId: M:CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String,System.Collections.Generic.List{System.String})
-  name.vb: GenerateEnumFile(String, List(Of String))
-  fullName: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String, System.Collections.Generic.List<System.String>)
-  fullName.vb: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile(System.String, System.Collections.Generic.List(Of System.String))
-  nameWithType: EditorUtils.GenerateEnumFile(String, List<String>)
-  nameWithType.vb: EditorUtils.GenerateEnumFile(String, List(Of String))
-- uid: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile*
-  name: GenerateEnumFile
-  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GenerateEnumFile_
-  commentId: Overload:CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile
+- uid: CatchIo.Editor.Utility.EditorUtils.GenerateEnumContents(System.String,System.Collections.Generic.List{System.String})
+  name: GenerateEnumContents(String, List<String>)
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GenerateEnumContents_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:CatchIo.Editor.Utility.EditorUtils.GenerateEnumContents(System.String,System.Collections.Generic.List{System.String})
+  name.vb: GenerateEnumContents(String, List(Of String))
+  fullName: CatchIo.Editor.Utility.EditorUtils.GenerateEnumContents(System.String, System.Collections.Generic.List<System.String>)
+  fullName.vb: CatchIo.Editor.Utility.EditorUtils.GenerateEnumContents(System.String, System.Collections.Generic.List(Of System.String))
+  nameWithType: EditorUtils.GenerateEnumContents(String, List<String>)
+  nameWithType.vb: EditorUtils.GenerateEnumContents(String, List(Of String))
+- uid: CatchIo.Editor.Utility.EditorUtils.GenerateEnumContents*
+  name: GenerateEnumContents
+  href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GenerateEnumContents_
+  commentId: Overload:CatchIo.Editor.Utility.EditorUtils.GenerateEnumContents
   isSpec: "True"
-  fullName: CatchIo.Editor.Utility.EditorUtils.GenerateEnumFile
-  nameWithType: EditorUtils.GenerateEnumFile
+  fullName: CatchIo.Editor.Utility.EditorUtils.GenerateEnumContents
+  nameWithType: EditorUtils.GenerateEnumContents
 - uid: CatchIo.Editor.Utility.EditorUtils.GetEnumNames*
   name: GetEnumNames
   href: api/CatchIo.Editor.Utility.EditorUtils.html#CatchIo_Editor_Utility_EditorUtils_GetEnumNames_
@@ -12819,18 +12819,18 @@ references:
   commentId: F:CatchIo.Runtime.Enums.MapType.CliffFaceRules
   fullName: CatchIo.Runtime.Enums.MapType.CliffFaceRules
   nameWithType: MapType.CliffFaceRules
-- uid: CatchIo.Runtime.Enums.MapType.ForestVillageArea
-  name: ForestVillageArea
-  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_ForestVillageArea
-  commentId: F:CatchIo.Runtime.Enums.MapType.ForestVillageArea
-  fullName: CatchIo.Runtime.Enums.MapType.ForestVillageArea
-  nameWithType: MapType.ForestVillageArea
-- uid: CatchIo.Runtime.Enums.MapType.LobbySandbox
-  name: LobbySandbox
-  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_LobbySandbox
-  commentId: F:CatchIo.Runtime.Enums.MapType.LobbySandbox
-  fullName: CatchIo.Runtime.Enums.MapType.LobbySandbox
-  nameWithType: MapType.LobbySandbox
+- uid: CatchIo.Runtime.Enums.MapType.ForestVillage
+  name: ForestVillage
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_ForestVillage
+  commentId: F:CatchIo.Runtime.Enums.MapType.ForestVillage
+  fullName: CatchIo.Runtime.Enums.MapType.ForestVillage
+  nameWithType: MapType.ForestVillage
+- uid: CatchIo.Runtime.Enums.MapType.SandboxLobby
+  name: SandboxLobby
+  href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_SandboxLobby
+  commentId: F:CatchIo.Runtime.Enums.MapType.SandboxLobby
+  fullName: CatchIo.Runtime.Enums.MapType.SandboxLobby
+  nameWithType: MapType.SandboxLobby
 - uid: CatchIo.Runtime.Enums.MapType.SnowLand
   name: SnowLand
   href: api/CatchIo.Runtime.Enums.MapType.html#CatchIo_Runtime_Enums_MapType_SnowLand
@@ -16183,116 +16183,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Item.SetData
   nameWithType: Item.SetData
-- uid: CatchIo.Runtime.Items.ItemSpawner
-  name: ItemSpawner
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html
-  commentId: T:CatchIo.Runtime.Items.ItemSpawner
-  fullName: CatchIo.Runtime.Items.ItemSpawner
-  nameWithType: ItemSpawner
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched(Player)
-  name: OnMasterClientSwitched(Player)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnMasterClientSwitched_Player_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched(Player)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched(Player)
-  nameWithType: ItemSpawner.OnMasterClientSwitched(Player)
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched*
-  name: OnMasterClientSwitched
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnMasterClientSwitched_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched
-  nameWithType: ItemSpawner.OnMasterClientSwitched
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
-  name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
-  nameWithType: ItemSpawner.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView*
-  name: OnPhotonSerializeView
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPhotonSerializeView_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView
-  nameWithType: ItemSpawner.OnPhotonSerializeView
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom(Player)
-  name: OnPlayerEnteredRoom(Player)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPlayerEnteredRoom_Player_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom(Player)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom(Player)
-  nameWithType: ItemSpawner.OnPlayerEnteredRoom(Player)
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom*
-  name: OnPlayerEnteredRoom
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPlayerEnteredRoom_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom
-  nameWithType: ItemSpawner.OnPlayerEnteredRoom
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom(Player)
-  name: OnPlayerLeftRoom(Player)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPlayerLeftRoom_Player_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom(Player)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom(Player)
-  nameWithType: ItemSpawner.OnPlayerLeftRoom(Player)
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom*
-  name: OnPlayerLeftRoom
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPlayerLeftRoom_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom
-  nameWithType: ItemSpawner.OnPlayerLeftRoom
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate(Player,Hashtable)
-  name: OnPlayerPropertiesUpdate(Player, Hashtable)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPlayerPropertiesUpdate_Player_Hashtable_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate(Player,Hashtable)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate(Player, Hashtable)
-  nameWithType: ItemSpawner.OnPlayerPropertiesUpdate(Player, Hashtable)
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate*
-  name: OnPlayerPropertiesUpdate
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnPlayerPropertiesUpdate_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate
-  nameWithType: ItemSpawner.OnPlayerPropertiesUpdate
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate(Hashtable)
-  name: OnRoomPropertiesUpdate(Hashtable)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnRoomPropertiesUpdate_Hashtable_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate(Hashtable)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate(Hashtable)
-  nameWithType: ItemSpawner.OnRoomPropertiesUpdate(Hashtable)
-- uid: CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate*
-  name: OnRoomPropertiesUpdate
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_OnRoomPropertiesUpdate_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate
-  nameWithType: ItemSpawner.OnRoomPropertiesUpdate
-- uid: CatchIo.Runtime.Items.ItemSpawner.SetItemData(ItemData)
-  name: SetItemData(ItemData)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_SetItemData_ItemData_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.SetItemData(ItemData)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.SetItemData(ItemData)
-  nameWithType: ItemSpawner.SetItemData(ItemData)
-- uid: CatchIo.Runtime.Items.ItemSpawner.SetItemData*
-  name: SetItemData
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_SetItemData_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.SetItemData
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.SetItemData
-  nameWithType: ItemSpawner.SetItemData
-- uid: CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime(System.Single)
-  name: SetRespawnTime(Single)
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_SetRespawnTime_System_Single_
-  commentId: M:CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime(System.Single)
-  fullName: CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime(System.Single)
-  nameWithType: ItemSpawner.SetRespawnTime(Single)
-- uid: CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime*
-  name: SetRespawnTime
-  href: api/CatchIo.Runtime.Items.ItemSpawner.html#CatchIo_Runtime_Items_ItemSpawner_SetRespawnTime_
-  commentId: Overload:CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime
-  nameWithType: ItemSpawner.SetRespawnTime
 - uid: CatchIo.Runtime.Items.PlaceableItem
   name: PlaceableItem
   href: api/CatchIo.Runtime.Items.PlaceableItem.html
@@ -16432,6 +16322,324 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Placements.PlacedTrapRune.Release
   nameWithType: PlacedTrapRune.Release
+- uid: CatchIo.Runtime.Items.Spawners
+  name: CatchIo.Runtime.Items.Spawners
+  href: api/CatchIo.Runtime.Items.Spawners.html
+  commentId: N:CatchIo.Runtime.Items.Spawners
+  fullName: CatchIo.Runtime.Items.Spawners
+  nameWithType: CatchIo.Runtime.Items.Spawners
+- uid: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner
+  name: DynamicItemSpawner
+  href: api/CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.html
+  commentId: T:CatchIo.Runtime.Items.Spawners.DynamicItemSpawner
+  fullName: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner
+  nameWithType: DynamicItemSpawner
+- uid: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted
+  name: OnRespawnTimerCompleted()
+  href: api/CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.html#CatchIo_Runtime_Items_Spawners_DynamicItemSpawner_OnRespawnTimerCompleted
+  commentId: M:CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted
+  fullName: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted()
+  nameWithType: DynamicItemSpawner.OnRespawnTimerCompleted()
+- uid: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted*
+  name: OnRespawnTimerCompleted
+  href: api/CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.html#CatchIo_Runtime_Items_Spawners_DynamicItemSpawner_OnRespawnTimerCompleted_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted
+  nameWithType: DynamicItemSpawner.OnRespawnTimerCompleted
+- uid: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnSpawnerReadyForItem
+  name: OnSpawnerReadyForItem
+  href: api/CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.html#CatchIo_Runtime_Items_Spawners_DynamicItemSpawner_OnSpawnerReadyForItem
+  commentId: E:CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnSpawnerReadyForItem
+  fullName: CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnSpawnerReadyForItem
+  nameWithType: DynamicItemSpawner.OnSpawnerReadyForItem
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner
+  name: FixedItemSpawner
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html
+  commentId: T:CatchIo.Runtime.Items.Spawners.FixedItemSpawner
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner
+  nameWithType: FixedItemSpawner
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.OnRespawnTimerCompleted
+  name: OnRespawnTimerCompleted()
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_OnRespawnTimerCompleted
+  commentId: M:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.OnRespawnTimerCompleted
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.OnRespawnTimerCompleted()
+  nameWithType: FixedItemSpawner.OnRespawnTimerCompleted()
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.OnRespawnTimerCompleted*
+  name: OnRespawnTimerCompleted
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_OnRespawnTimerCompleted_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.OnRespawnTimerCompleted
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.OnRespawnTimerCompleted
+  nameWithType: FixedItemSpawner.OnRespawnTimerCompleted
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetItemData(ItemData)
+  name: SetItemData(ItemData)
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_SetItemData_ItemData_
+  commentId: M:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetItemData(ItemData)
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetItemData(ItemData)
+  nameWithType: FixedItemSpawner.SetItemData(ItemData)
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetItemData*
+  name: SetItemData
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_SetItemData_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetItemData
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetItemData
+  nameWithType: FixedItemSpawner.SetItemData
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetRespawnTime(System.Single)
+  name: SetRespawnTime(Single)
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_SetRespawnTime_System_Single_
+  commentId: M:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetRespawnTime(System.Single)
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetRespawnTime(System.Single)
+  nameWithType: FixedItemSpawner.SetRespawnTime(Single)
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetRespawnTime*
+  name: SetRespawnTime
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_SetRespawnTime_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetRespawnTime
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SetRespawnTime
+  nameWithType: FixedItemSpawner.SetRespawnTime
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SpawnFixedItem
+  name: SpawnFixedItem()
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_SpawnFixedItem
+  commentId: M:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SpawnFixedItem
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SpawnFixedItem()
+  nameWithType: FixedItemSpawner.SpawnFixedItem()
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SpawnFixedItem*
+  name: SpawnFixedItem
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_SpawnFixedItem_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SpawnFixedItem
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.SpawnFixedItem
+  nameWithType: FixedItemSpawner.SpawnFixedItem
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_Start
+  commentId: M:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.Start
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.Start()
+  nameWithType: FixedItemSpawner.Start()
+- uid: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html#CatchIo_Runtime_Items_Spawners_FixedItemSpawner_Start_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.FixedItemSpawner.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.FixedItemSpawner.Start
+  nameWithType: FixedItemSpawner.Start
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner
+  name: ItemSpawner
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html
+  commentId: T:CatchIo.Runtime.Items.Spawners.ItemSpawner
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner
+  nameWithType: ItemSpawner
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem
+  name: CurrentItem
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_CurrentItem
+  commentId: P:CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem
+  nameWithType: ItemSpawner.CurrentItem
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem*
+  name: CurrentItem
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_CurrentItem_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem
+  nameWithType: ItemSpawner.CurrentItem
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime
+  name: GetRemainingRespawnTime()
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_GetRemainingRespawnTime
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime()
+  nameWithType: ItemSpawner.GetRemainingRespawnTime()
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime*
+  name: GetRemainingRespawnTime
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_GetRemainingRespawnTime_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime
+  nameWithType: ItemSpawner.GetRemainingRespawnTime
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning
+  name: IsRespawning
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_IsRespawning
+  commentId: P:CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning
+  nameWithType: ItemSpawner.IsRespawning
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning*
+  name: IsRespawning
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_IsRespawning_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning
+  nameWithType: ItemSpawner.IsRespawning
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnItemCollected
+  name: OnItemCollected
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnItemCollected
+  commentId: E:CatchIo.Runtime.Items.Spawners.ItemSpawner.OnItemCollected
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnItemCollected
+  nameWithType: ItemSpawner.OnItemCollected
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  nameWithType: ItemSpawner.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView*
+  name: OnPhotonSerializeView
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnPhotonSerializeView_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView
+  nameWithType: ItemSpawner.OnPhotonSerializeView
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted
+  name: OnRespawnTimerCompleted()
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnRespawnTimerCompleted
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted()
+  nameWithType: ItemSpawner.OnRespawnTimerCompleted()
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted*
+  name: OnRespawnTimerCompleted
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnRespawnTimerCompleted_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted
+  nameWithType: ItemSpawner.OnRespawnTimerCompleted
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem(ItemData,System.Single)
+  name: SpawnItem(ItemData, Single)
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_SpawnItem_ItemData_System_Single_
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem(ItemData,System.Single)
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem(ItemData, System.Single)
+  nameWithType: ItemSpawner.SpawnItem(ItemData, Single)
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem*
+  name: SpawnItem
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_SpawnItem_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem
+  nameWithType: ItemSpawner.SpawnItem
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.Start
+  name: Start()
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_Start
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawner.Start
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.Start()
+  nameWithType: ItemSpawner.Start()
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.Start*
+  name: Start
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_Start_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.Start
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.Start
+  nameWithType: ItemSpawner.Start
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.Update
+  name: Update()
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_Update
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawner.Update
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.Update()
+  nameWithType: ItemSpawner.Update()
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawner.Update*
+  name: Update
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_Update_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawner.Update
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawner.Update
+  nameWithType: ItemSpawner.Update
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager
+  name: ItemSpawnerManager
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.html
+  commentId: T:CatchIo.Runtime.Items.Spawners.ItemSpawnerManager
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager
+  nameWithType: ItemSpawnerManager
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnMasterClientSwitched(Player)
+  name: OnMasterClientSwitched(Player)
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.html#CatchIo_Runtime_Items_Spawners_ItemSpawnerManager_OnMasterClientSwitched_Player_
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnMasterClientSwitched(Player)
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnMasterClientSwitched(Player)
+  nameWithType: ItemSpawnerManager.OnMasterClientSwitched(Player)
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnMasterClientSwitched*
+  name: OnMasterClientSwitched
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.html#CatchIo_Runtime_Items_Spawners_ItemSpawnerManager_OnMasterClientSwitched_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnMasterClientSwitched
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnMasterClientSwitched
+  nameWithType: ItemSpawnerManager.OnMasterClientSwitched
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.html#CatchIo_Runtime_Items_Spawners_ItemSpawnerManager_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_
+  commentId: M:CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  nameWithType: ItemSpawnerManager.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnPhotonSerializeView*
+  name: OnPhotonSerializeView
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.html#CatchIo_Runtime_Items_Spawners_ItemSpawnerManager_OnPhotonSerializeView_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnPhotonSerializeView
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.OnPhotonSerializeView
+  nameWithType: ItemSpawnerManager.OnPhotonSerializeView
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties
+  name: ItemSpawnProperties
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.html
+  commentId: T:CatchIo.Runtime.Items.Spawners.ItemSpawnProperties
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties
+  nameWithType: ItemSpawnProperties
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.ItemData
+  name: ItemData
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.html#CatchIo_Runtime_Items_Spawners_ItemSpawnProperties_ItemData
+  commentId: F:CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.ItemData
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.ItemData
+  nameWithType: ItemSpawnProperties.ItemData
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.MaxItemCount
+  name: MaxItemCount
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.html#CatchIo_Runtime_Items_Spawners_ItemSpawnProperties_MaxItemCount
+  commentId: F:CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.MaxItemCount
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.MaxItemCount
+  nameWithType: ItemSpawnProperties.MaxItemCount
+- uid: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.SpawnChance
+  name: SpawnChance
+  href: api/CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.html#CatchIo_Runtime_Items_Spawners_ItemSpawnProperties_SpawnChance
+  commentId: F:CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.SpawnChance
+  fullName: CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.SpawnChance
+  nameWithType: ItemSpawnProperties.SpawnChance
+- uid: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules
+  name: MapItemSpawnRules
+  href: api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html
+  commentId: T:CatchIo.Runtime.Items.Spawners.MapItemSpawnRules
+  fullName: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules
+  nameWithType: MapItemSpawnRules
+- uid: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Count
+  name: Count
+  href: api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html#CatchIo_Runtime_Items_Spawners_MapItemSpawnRules_Count
+  commentId: P:CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Count
+  fullName: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Count
+  nameWithType: MapItemSpawnRules.Count
+- uid: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Count*
+  name: Count
+  href: api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html#CatchIo_Runtime_Items_Spawners_MapItemSpawnRules_Count_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Count
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Count
+  nameWithType: MapItemSpawnRules.Count
+- uid: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.GetItem(System.Int32)
+  name: GetItem(Int32)
+  href: api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html#CatchIo_Runtime_Items_Spawners_MapItemSpawnRules_GetItem_System_Int32_
+  commentId: M:CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.GetItem(System.Int32)
+  fullName: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.GetItem(System.Int32)
+  nameWithType: MapItemSpawnRules.GetItem(Int32)
+- uid: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.GetItem*
+  name: GetItem
+  href: api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html#CatchIo_Runtime_Items_Spawners_MapItemSpawnRules_GetItem_
+  commentId: Overload:CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.GetItem
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.GetItem
+  nameWithType: MapItemSpawnRules.GetItem
+- uid: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Properties
+  name: Properties
+  href: api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html#CatchIo_Runtime_Items_Spawners_MapItemSpawnRules_Properties
+  commentId: F:CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Properties
+  fullName: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.Properties
+  nameWithType: MapItemSpawnRules.Properties
+- uid: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.SpawnTime
+  name: SpawnTime
+  href: api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html#CatchIo_Runtime_Items_Spawners_MapItemSpawnRules_SpawnTime
+  commentId: F:CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.SpawnTime
+  fullName: CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.SpawnTime
+  nameWithType: MapItemSpawnRules.SpawnTime
 - uid: CatchIo.Runtime.Items.TriggerableItem
   name: TriggerableItem
   href: api/CatchIo.Runtime.Items.TriggerableItem.html
@@ -23642,12 +23850,6 @@ references:
   commentId: T:CatchIo.Runtime.ScriptableObjects.MapData.MapData
   fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData
   nameWithType: MapData
-- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ItemsOnMap
-  name: ItemsOnMap
-  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_ItemsOnMap
-  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.ItemsOnMap
-  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ItemsOnMap
-  nameWithType: MapData.ItemsOnMap
 - uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapBannerImage
   name: MapBannerImage
   href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_MapBannerImage
@@ -23672,6 +23874,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapScreenshotImage
   fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapScreenshotImage
   nameWithType: MapData.MapScreenshotImage
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapType
+  name: MapType
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_MapType
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapType
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MapType
+  nameWithType: MapData.MapType
 - uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.MaxPlayerNumber
   name: MaxPlayerNumber
   href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_MaxPlayerNumber
@@ -23684,6 +23892,12 @@ references:
   commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneObject
   fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.PlayableSceneObject
   nameWithType: MapData.PlayableSceneObject
+- uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.SpawnRules
+  name: SpawnRules
+  href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_SpawnRules
+  commentId: F:CatchIo.Runtime.ScriptableObjects.MapData.MapData.SpawnRules
+  fullName: CatchIo.Runtime.ScriptableObjects.MapData.MapData.SpawnRules
+  nameWithType: MapData.SpawnRules
 - uid: CatchIo.Runtime.ScriptableObjects.MapData.MapData.ThreatDetectionDistance
   name: ThreatDetectionDistance
   href: api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html#CatchIo_Runtime_ScriptableObjects_MapData_MapData_ThreatDetectionDistance

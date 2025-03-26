@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CatchIo.Editor.TmxImporters
+    <title>Class ItemSpawnProperties
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CatchIo.Editor.TmxImporters
+    <meta name="title" content="Class ItemSpawnProperties
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,34 +78,100 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Editor.TmxImporters">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawnProperties">
   
-  <h1 id="CatchIo_Editor_TmxImporters" data-uid="CatchIo.Editor.TmxImporters" class="text-break">Namespace CatchIo.Editor.TmxImporters
+  
+  <h1 id="CatchIo_Runtime_Items_Spawners_ItemSpawnProperties" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawnProperties" class="text-break">Class ItemSpawnProperties
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Defines the spawn properties for a specific item type including maximum count and spawn probability.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ItemSpawnProperties</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Spawners.html">CatchIo.Runtime.Items.Spawners</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CatchIo_Runtime_Items_Spawners_ItemSpawnProperties_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class ItemSpawnProperties</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.AmbientMusicAreaImporter.html">AmbientMusicAreaImporter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html">ItemSpawnerImporter</a></h4>
-      <section><p>Custom importer for TMX files that creates and configures item spawners based on object types.
-Automatically processes spawner objects from Tiled and sets up the central manager.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.LightAreaImporter.html">LightAreaImporter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.LightSourcesImporter.html">LightSourcesImporter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.NpcImporter.html">NpcImporter</a></h4>
-      <section><p>Custom Tmx importer for handling NPC import in maps. 
-It processes specific object layers in Tiled maps, identifies NPC spawn points, 
-and automatically instantiates and configures NPCs based on provided data.</p>
-</section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.TileObjectsImporter.html">TileObjectsImporter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CatchIo.Editor.TmxImporters.TmxPrefabReplacer.html">TmxPrefabReplacer</a></h4>
-      <section></section>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawnProperties_ItemData" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.ItemData">ItemData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemData ItemData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ItemData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawnProperties_MaxItemCount" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.MaxItemCount">MaxItemCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MaxItemCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawnProperties_SpawnChance" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.SpawnChance">SpawnChance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpawnChance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

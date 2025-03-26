@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ItemSpawnerImporter
+    <title>Class DynamicItemSpawner
    | Catch.io Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ItemSpawnerImporter
+    <meta name="title" content="Class DynamicItemSpawner
    | Catch.io Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     <meta name="description" content="Developer documentation for Team STEP: Project Catch.io">
@@ -78,58 +78,106 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Editor.TmxImporters.ItemSpawnerImporter">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.Spawners.DynamicItemSpawner">
   
   
-  <h1 id="CatchIo_Editor_TmxImporters_ItemSpawnerImporter" data-uid="CatchIo.Editor.TmxImporters.ItemSpawnerImporter" class="text-break">Class ItemSpawnerImporter
+  <h1 id="CatchIo_Runtime_Items_Spawners_DynamicItemSpawner" data-uid="CatchIo.Runtime.Items.Spawners.DynamicItemSpawner" class="text-break">Class DynamicItemSpawner
   </h1>
-  <div class="markdown level0 summary"><p>Custom importer for TMX files that creates and configures item spawners based on object types.
-Automatically processes spawner objects from Tiled and sets up the central manager.</p>
+  <div class="markdown level0 summary"><p>A spawner that can dynamically spawn different items based on the central manager&apos;s decision.
+Works with ItemSpawnerManager to select items according to game rules and probabilities.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ItemSpawnerImporter</span></div>
+    <div class="level1"><a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html">ItemSpawner</a></div>
+    <div class="level2"><span class="xref">DynamicItemSpawner</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Editor.TmxImporters.html">CatchIo.Editor.TmxImporters</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPunObservable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnItemCollected">ItemSpawner.OnItemCollected</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_CurrentItem">ItemSpawner.CurrentItem</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_IsRespawning">ItemSpawner.IsRespawning</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_Start">ItemSpawner.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_Update">ItemSpawner.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_SpawnItem_ItemData_System_Single_">ItemSpawner.SpawnItem(ItemData, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_GetRemainingRespawnTime">ItemSpawner.GetRemainingRespawnTime()</a>
+    </div>
+    <div>
+      <a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_">ItemSpawner.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Spawners.html">CatchIo.Runtime.Items.Spawners</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Editor_TmxImporters_ItemSpawnerImporter_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Items_Spawners_DynamicItemSpawner_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ItemSpawnerImporter : CustomTmxImporter</code></pre>
+    <pre><code class="lang-csharp hljs">public class DynamicItemSpawner : ItemSpawner</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CatchIo_Editor_TmxImporters_ItemSpawnerImporter_TmxAssetImported_" data-uid="CatchIo.Editor.TmxImporters.ItemSpawnerImporter.TmxAssetImported*"></a>
-  <h4 id="CatchIo_Editor_TmxImporters_ItemSpawnerImporter_TmxAssetImported_TmxAssetImportedArgs_" data-uid="CatchIo.Editor.TmxImporters.ItemSpawnerImporter.TmxAssetImported(TmxAssetImportedArgs)">TmxAssetImported(TmxAssetImportedArgs)</h4>
-  <div class="markdown level1 summary"><p>Main entry point for the TMX importer.
-Called when a TMX file is imported to create and configure spawners.</p>
+  <a id="CatchIo_Runtime_Items_Spawners_DynamicItemSpawner_OnRespawnTimerCompleted_" data-uid="CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_DynamicItemSpawner_OnRespawnTimerCompleted" data-uid="CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnRespawnTimerCompleted">OnRespawnTimerCompleted()</h4>
+  <div class="markdown level1 summary"><p>Called when the respawn timer completes.
+Notifies the central manager that this spawner needs a new item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void TmxAssetImported(TmxAssetImportedArgs args)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnRespawnTimerCompleted()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html#CatchIo_Runtime_Items_Spawners_ItemSpawner_OnRespawnTimerCompleted">ItemSpawner.OnRespawnTimerCompleted()</a></div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Spawners_DynamicItemSpawner_OnSpawnerReadyForItem" data-uid="CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.OnSpawnerReadyForItem">OnSpawnerReadyForItem</h4>
+  <div class="markdown level1 summary"><p>Event fired when this spawner is ready to receive a new item from the central manager.
+The central manager will select an appropriate item based on current game state and rules.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;DynamicItemSpawner&gt; OnSpawnerReadyForItem</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TmxAssetImportedArgs</span></td>
-        <td><span class="parametername">args</span></td>
-        <td><p>Import arguments containing the SuperMap and asset paths</p>
-</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.html">DynamicItemSpawner</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPunObservable</span>
+  </div>
 </article>
           </div>
           

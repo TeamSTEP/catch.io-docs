@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html",
-          "hash": "BwmzahqD1upkE+Jq4t1CJMCU3RiD7IA97DAsUVuvOhk="
+          "hash": "Ddd5I6ofNcMqiCJpDxximYtO8UWoyXmr/wn+d8+N2/A="
         }
       },
       "is_incremental": false,
@@ -436,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Editor.TmxImporters.html",
-          "hash": "KG7H/u3mF0bOQdx1Je33tOq3rcCT+01/OW70tXKKcJM="
+          "hash": "LYDoe3HemeqfVV2m4q9U1qGv1QjjaSxtlw1CDaU3Lls="
         }
       },
       "is_incremental": false,
@@ -496,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Editor.Utility.EditorUtils.html",
-          "hash": "or8EWacu+pDgUCuxTbFSHrz9hZPwC/CoWhTIYc7jDJU="
+          "hash": "d8lSspd/JPQr0raRFAVbh9MMdVfn05+bK9Tc62+db6k="
         }
       },
       "is_incremental": false,
@@ -3064,7 +3064,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Enums.MapType.html",
-          "hash": "er96wGevWm/pigqCImFuuZtQNm+8UGaV81AiqVO+phA="
+          "hash": "Ta8TNO8GCN3ztWnso6yMBdgZX4mtiWwPtk9+zEYMG24="
         }
       },
       "is_incremental": false,
@@ -3760,7 +3760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.Core.ConsumableItem.html",
-          "hash": "ynegwmViU3OL1QYNR8DoHLfXAa+WgFOV0hG2t+cldQ8="
+          "hash": "VWBIs7F0Qbz6mf4znyHiQzx6/fVGlfjqGvEut2inw68="
         }
       },
       "is_incremental": false,
@@ -3772,7 +3772,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.Core.EquippableItem.html",
-          "hash": "tKLYK7jiJpwuehppYWDYfWmJYE2r8LIa2/lXVsk/m68="
+          "hash": "VcqemxmqzE/lDFN/QLMa5ZbAYaXlvEmKgjNnTOp4M8E="
         }
       },
       "is_incremental": false,
@@ -3784,7 +3784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.Core.html",
-          "hash": "LEb769h+1xKbMbjWwbREn6qq5XyCTCh9vDqumYB7J1Q="
+          "hash": "cngQdLPgWK4Ij2fZMwJMmaRofx7SxCJ9+EzrgfCHvZw="
         }
       },
       "is_incremental": false,
@@ -4036,19 +4036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.Item.html",
-          "hash": "f/I+Pjtk2KGaWKbd3Vy/0ST71zlPKHdUE2MEqoVjI90="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Runtime.Items.ItemSpawner.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Runtime.Items.ItemSpawner.html",
-          "hash": "TmbM2bKbz8RZCLxKv2Bq2t0z8q6GzrZst718SexCStA="
+          "hash": "RtyAIKeIxfMmCVnKFa5mgLLpkk/z+CVWluGk4qeHWk8="
         }
       },
       "is_incremental": false,
@@ -4060,7 +4048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.PlaceableItem.html",
-          "hash": "hPAVLoqExXBegY5m0ALn37AqqKN2IaJwYiTRUpgcdPA="
+          "hash": "p/aag67in4bVtXM52nO0NfJStd8tygflfeG4+yTRCQY="
         }
       },
       "is_incremental": false,
@@ -4116,11 +4104,95 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.html",
+          "hash": "pAeEuBdkIgh/ta6coB6+Ghj+GZlIiZOyW/uFkXnZ+9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html",
+          "hash": "GSxSPBIkHgLntV4HaLP0B5Ljwmms/MQi4zJkZLo8khE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Items.Spawners.ItemSpawnProperties.html",
+          "hash": "COTcfXaJQUJqHCgIeLy+0c27GEHE6KxpjDFIH/VLKTQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Items.Spawners.ItemSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Items.Spawners.ItemSpawner.html",
+          "hash": "essyQZRlgKG9i+SPoR1SmEFr59cpOZRA6M6UsXfNdJk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Items.Spawners.ItemSpawnerManager.html",
+          "hash": "kUzK0LuAeXQAaAj0F0QM14FvRLiDE6iYooX/s2RozX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Items.Spawners.MapItemSpawnRules.html",
+          "hash": "36rb7WUlCBxbXNozR+R31xAPs/HOq62vYNrV0C3v4XI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Runtime.Items.Spawners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Runtime.Items.Spawners.html",
+          "hash": "AXKnnn56WnVNIjhUi0UE1bvzip+9mImIZq7BryJhxUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Runtime.Items.TriggerableItem.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.TriggerableItem.html",
-          "hash": "rm/UDJvkLPQFUfBGdoJ3+deszS2BNTFXcdPXP3Z8YtA="
+          "hash": "f2VpX0itxTBS+aPHGrD8YnJS31TrfFosmiLg9DSSIJk="
         }
       },
       "is_incremental": false,
@@ -4132,7 +4204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Items.html",
-          "hash": "cZsFauUlkja/lVvQXGSAhmZRJhwhchvr3M3mzLIerkw="
+          "hash": "QxUQ9chCdO+7NLpH+0eoHvyDvclldc1yniwqXdO5sYE="
         }
       },
       "is_incremental": false,
@@ -6244,7 +6316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.MapData.MapData.html",
-          "hash": "ZOZBNAvHbIAqV2xOOY7PcZ/PHfsGCkdnxUDS5BwuugE="
+          "hash": "MIK1u4IpC9XONPzdUGFuohRZA2+kANrTK8/14lihexQ="
         }
       },
       "is_incremental": false,
@@ -6256,7 +6328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.ScriptableObjects.MapData.html",
-          "hash": "kxLO7HA5CcqZtd/Z5eJfmbkn/9Yu/3QitXl+t1D/HsM="
+          "hash": "qudvNqXE0CrhF5Bcdr++A9g3F2UYDXCZs6SqjwYmZrY="
         }
       },
       "is_incremental": false,
@@ -6772,7 +6844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Sound.AmbientMusic.AmbientMusicManager.html",
-          "hash": "fO5qvg3p+pwvM2d4iWTsW0z9gt14bAFe2XYArp+WLFs="
+          "hash": "Bgh7lWXeT4Qg9SSDo0/IXZKHAs3Cni+4q4QBW8DLHlQ="
         }
       },
       "is_incremental": false,
@@ -8296,7 +8368,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Z0q66G2CYkY+FqIbjKwA5RXKpxD8ZzN2UlkZPOclIcE="
+          "hash": "pTM7gL+Yd0v462y4n6xpK91MtQOhiEtWun60Mv6Jjxg="
         }
       },
       "is_incremental": false,
@@ -8953,7 +9025,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 689,
+          "total_file_count": 695,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -78,68 +78,120 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.ItemSpawner">
+            <article class="content wrap" id="_content" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner">
   
   
-  <h1 id="CatchIo_Runtime_Items_ItemSpawner" data-uid="CatchIo.Runtime.Items.ItemSpawner" class="text-break">Class ItemSpawner
+  <h1 id="CatchIo_Runtime_Items_Spawners_ItemSpawner" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner" class="text-break">Class ItemSpawner
   </h1>
-  <div class="markdown level0 summary"><p>Handles the spawning and respawning of items in the game. 
-This class uses a countdown timer to manage item respawn intervals 
-and coordinates item instantiation across clients in a multiplayer environment.</p>
+  <div class="markdown level0 summary"><p>Abstract base class for item spawners in the game.
+Provides common functionality for both dynamic and fixed item spawners.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ItemSpawner</span></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Spawners.DynamicItemSpawner.html">DynamicItemSpawner</a></div>
+      <div class="level2"><a class="xref" href="CatchIo.Runtime.Items.Spawners.FixedItemSpawner.html">FixedItemSpawner</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IInRoomCallbacks</span></div>
     <div><span class="xref">IPunObservable</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.html">CatchIo.Runtime.Items</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatchIo.Runtime.Items.Spawners.html">CatchIo.Runtime.Items.Spawners</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CatchIo_Runtime_Items_ItemSpawner_syntax">Syntax</h5>
+  <h5 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ItemSpawner : MonoBehaviourPun</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ItemSpawner : MonoBehaviourPun</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CatchIo_Runtime_Items_ItemSpawner_OnMasterClientSwitched_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_OnMasterClientSwitched_Player_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnMasterClientSwitched(Player)">OnMasterClientSwitched(Player)</h4>
-  <div class="markdown level1 summary"><p>Handles ownership and respawn timer transfer if the master client changes.</p>
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_CurrentItem_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_CurrentItem" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.CurrentItem">CurrentItem</h4>
+  <div class="markdown level1 summary"><p>The current item data assigned to this spawner (null if no item)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnMasterClientSwitched(Player newMasterClient)</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemData CurrentItem { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">newMasterClient</span></td>
-        <td><p>The new master client player.</p>
+        <td><span class="xref">ItemData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_IsRespawning_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_IsRespawning" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.IsRespawning">IsRespawning</h4>
+  <div class="markdown level1 summary"><p>Whether this spawner is in the respawning state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRespawning { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_GetRemainingRespawnTime_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_GetRemainingRespawnTime" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.GetRemainingRespawnTime">GetRemainingRespawnTime()</h4>
+  <div class="markdown level1 summary"><p>Gets the remaining time until respawn is complete</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetRemainingRespawnTime()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Time in seconds, or 0 if not respawning</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Items_ItemSpawner_OnPhotonSerializeView_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
-  <div class="markdown level1 summary"><p>Synchronizes the elapsed time for the respawn timer between clients.</p>
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_OnPhotonSerializeView_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_OnPhotonSerializeView_PhotonStream_PhotonMessageInfo_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)">OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)</h4>
+  <div class="markdown level1 summary"><p>Synchronizes spawner state across the network with data compression for efficiency</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -159,140 +211,44 @@ and coordinates item instantiation across clients in a multiplayer environment.<
       <tr>
         <td><span class="xref">PhotonStream</span></td>
         <td><span class="parametername">stream</span></td>
-        <td><p>Photon stream for data transmission.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">PhotonMessageInfo</span></td>
         <td><span class="parametername">info</span></td>
-        <td><p>Additional information about the Photon message.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_ItemSpawner_OnPlayerEnteredRoom_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_OnPlayerEnteredRoom_Player_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPlayerEnteredRoom(Player)">OnPlayerEnteredRoom(Player)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPlayerEnteredRoom(Player newPlayer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">newPlayer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Items_ItemSpawner_OnPlayerLeftRoom_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_OnPlayerLeftRoom_Player_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPlayerLeftRoom(Player)">OnPlayerLeftRoom(Player)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPlayerLeftRoom(Player otherPlayer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">otherPlayer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_ItemSpawner_OnPlayerPropertiesUpdate_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_OnPlayerPropertiesUpdate_Player_Hashtable_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnPlayerPropertiesUpdate(Player,Hashtable)">OnPlayerPropertiesUpdate(Player, Hashtable)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">targetPlayer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Hashtable</span></td>
-        <td><span class="parametername">changedProps</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_ItemSpawner_OnRoomPropertiesUpdate_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_OnRoomPropertiesUpdate_Hashtable_" data-uid="CatchIo.Runtime.Items.ItemSpawner.OnRoomPropertiesUpdate(Hashtable)">OnRoomPropertiesUpdate(Hashtable)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Hashtable</span></td>
-        <td><span class="parametername">propertiesThatChanged</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CatchIo_Runtime_Items_ItemSpawner_SetItemData_" data-uid="CatchIo.Runtime.Items.ItemSpawner.SetItemData*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_SetItemData_ItemData_" data-uid="CatchIo.Runtime.Items.ItemSpawner.SetItemData(ItemData)">SetItemData(ItemData)</h4>
-  <div class="markdown level1 summary"><p>Sets the item data and configures the sprite renderer to display the item icon.</p>
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_OnRespawnTimerCompleted_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_OnRespawnTimerCompleted" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.OnRespawnTimerCompleted">OnRespawnTimerCompleted()</h4>
+  <div class="markdown level1 summary"><p>Called when the respawn timer completes and the spawner is ready to spawn a new item.
+Derived classes should implement this to handle specific spawning behavior.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetItemData(ItemData itemData)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnRespawnTimerCompleted()</code></pre>
+  </div>
+  <h5 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_OnRespawnTimerCompleted_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><ul>
+<li>DynamicSpawner: Notifies the central manager to select an item based on spawn rules</li>
+<li>FixedSpawner: Always spawns the same predefined item</li>
+</ul>
+</div>
+  
+  
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_SpawnItem_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_SpawnItem_ItemData_System_Single_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.SpawnItem(ItemData,System.Single)">SpawnItem(ItemData, Single)</h4>
+  <div class="markdown level1 summary"><p>Spawns a specific item at this spawner&apos;s position
+Sets the respawn time for this spawner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnItem(ItemData itemData, float respawnTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -307,44 +263,64 @@ and coordinates item instantiation across clients in a multiplayer environment.<
       <tr>
         <td><span class="xref">ItemData</span></td>
         <td><span class="parametername">itemData</span></td>
-        <td><p>ItemData for the item to spawn.</p>
+        <td><p>The item data to spawn</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">respawnTime</span></td>
+        <td><p>Respawn time in seconds</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CatchIo_Runtime_Items_ItemSpawner_SetRespawnTime_" data-uid="CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime*"></a>
-  <h4 id="CatchIo_Runtime_Items_ItemSpawner_SetRespawnTime_System_Single_" data-uid="CatchIo.Runtime.Items.ItemSpawner.SetRespawnTime(System.Single)">SetRespawnTime(Single)</h4>
-  <div class="markdown level1 summary"><p>Sets the time (in seconds) that the item will take to respawn after pickup.</p>
-</div>
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_Start_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.Start*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_Start" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetRespawnTime(float respawnTime)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  
+  
+  <a id="CatchIo_Runtime_Items_Spawners_ItemSpawner_Update_" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.Update*"></a>
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_Update" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CatchIo_Runtime_Items_Spawners_ItemSpawner_OnItemCollected" data-uid="CatchIo.Runtime.Items.Spawners.ItemSpawner.OnItemCollected">OnItemCollected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;ItemSpawner, ItemData&gt; OnItemCollected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">respawnTime</span></td>
-        <td><p>The respawn time in seconds.</p>
-</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CatchIo.Runtime.Items.Spawners.ItemSpawner.html">ItemSpawner</a>, <span class="xref">ItemData</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IInRoomCallbacks</span>
-  </div>
   <div>
       <span class="xref">IPunObservable</span>
   </div>
