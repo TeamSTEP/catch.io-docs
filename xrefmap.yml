@@ -13107,6 +13107,12 @@ references:
   commentId: F:CatchIo.Runtime.Enums.SendEventType.ItemRespawnEvent
   fullName: CatchIo.Runtime.Enums.SendEventType.ItemRespawnEvent
   nameWithType: SendEventType.ItemRespawnEvent
+- uid: CatchIo.Runtime.Enums.SendEventType.MainSceneLoaded
+  name: MainSceneLoaded
+  href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_MainSceneLoaded
+  commentId: F:CatchIo.Runtime.Enums.SendEventType.MainSceneLoaded
+  fullName: CatchIo.Runtime.Enums.SendEventType.MainSceneLoaded
+  nameWithType: SendEventType.MainSceneLoaded
 - uid: CatchIo.Runtime.Enums.SendEventType.NetworkTimerEndEvent
   name: NetworkTimerEndEvent
   href: api/CatchIo.Runtime.Enums.SendEventType.html#CatchIo_Runtime_Enums_SendEventType_NetworkTimerEndEvent
@@ -13382,6 +13388,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Environment.CharacterSpawner.OnEvent
   nameWithType: CharacterSpawner.OnEvent
+- uid: CatchIo.Runtime.Environment.CharacterSpawner.SpawnAllPlayers
+  name: SpawnAllPlayers()
+  href: api/CatchIo.Runtime.Environment.CharacterSpawner.html#CatchIo_Runtime_Environment_CharacterSpawner_SpawnAllPlayers
+  commentId: M:CatchIo.Runtime.Environment.CharacterSpawner.SpawnAllPlayers
+  fullName: CatchIo.Runtime.Environment.CharacterSpawner.SpawnAllPlayers()
+  nameWithType: CharacterSpawner.SpawnAllPlayers()
+- uid: CatchIo.Runtime.Environment.CharacterSpawner.SpawnAllPlayers*
+  name: SpawnAllPlayers
+  href: api/CatchIo.Runtime.Environment.CharacterSpawner.html#CatchIo_Runtime_Environment_CharacterSpawner_SpawnAllPlayers_
+  commentId: Overload:CatchIo.Runtime.Environment.CharacterSpawner.SpawnAllPlayers
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Environment.CharacterSpawner.SpawnAllPlayers
+  nameWithType: CharacterSpawner.SpawnAllPlayers
 - uid: CatchIo.Runtime.Environment.CharacterSpawner.SpawnCharacterOnOffline
   name: SpawnCharacterOnOffline()
   href: api/CatchIo.Runtime.Environment.CharacterSpawner.html#CatchIo_Runtime_Environment_CharacterSpawner_SpawnCharacterOnOffline
@@ -13401,6 +13420,12 @@ references:
   commentId: T:CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint
   fullName: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint
   nameWithType: CharacterSpawner.SpawnPoint
+- uid: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.currentPlayerCount
+  name: currentPlayerCount
+  href: api/CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.html#CatchIo_Runtime_Environment_CharacterSpawner_SpawnPoint_currentPlayerCount
+  commentId: F:CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.currentPlayerCount
+  fullName: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.currentPlayerCount
+  nameWithType: CharacterSpawner.SpawnPoint.currentPlayerCount
 - uid: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.maxPlayerCount
   name: maxPlayerCount
   href: api/CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.html#CatchIo_Runtime_Environment_CharacterSpawner_SpawnPoint_maxPlayerCount
@@ -13419,12 +13444,6 @@ references:
   commentId: F:CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.radius
   fullName: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.radius
   nameWithType: CharacterSpawner.SpawnPoint.radius
-- uid: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.used
-  name: used
-  href: api/CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.html#CatchIo_Runtime_Environment_CharacterSpawner_SpawnPoint_used
-  commentId: F:CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.used
-  fullName: CatchIo.Runtime.Environment.CharacterSpawner.SpawnPoint.used
-  nameWithType: CharacterSpawner.SpawnPoint.used
 - uid: CatchIo.Runtime.Environment.DamagableObject
   name: DamagableObject
   href: api/CatchIo.Runtime.Environment.DamagableObject.html
