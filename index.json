@@ -1449,6 +1449,16 @@
     "title": "Struct TileSurface | Catch.io Developer Reference",
     "keywords": "Struct TileSurface Namespace : CatchIo.Runtime.Environment Assembly : cs.temp.dll.dll Syntax [Serializable] public struct TileSurface Constructors TileSurface(String, Single, Boolean) Declaration public TileSurface(string terrain, float volume, bool leavesMark) Parameters Type Name Description System.String terrain System.Single volume System.Boolean leavesMark Fields LeavesMark Declaration public bool LeavesMark Field Value Type Description System.Boolean Terrain Declaration public string Terrain Field Value Type Description System.String Volume Declaration public float Volume Field Value Type Description System.Single"
   },
+  "api/CatchIo.Runtime.GameModes.SandboxLobbyUtils.html": {
+    "href": "api/CatchIo.Runtime.GameModes.SandboxLobbyUtils.html",
+    "title": "Namespace CatchIo.Runtime.GameModes.SandboxLobbyUtils | Catch.io Developer Reference",
+    "keywords": "Namespace CatchIo.Runtime.GameModes.SandboxLobbyUtils Classes LobbyRoomTabController"
+  },
+  "api/CatchIo.Runtime.GameModes.SandboxLobbyUtils.LobbyRoomTabController.html": {
+    "href": "api/CatchIo.Runtime.GameModes.SandboxLobbyUtils.LobbyRoomTabController.html",
+    "title": "Class LobbyRoomTabController | Catch.io Developer Reference",
+    "keywords": "Class LobbyRoomTabController Inheritance System.Object LobbyRoomTabController Namespace : CatchIo.Runtime.GameModes.SandboxLobbyUtils Assembly : cs.temp.dll.dll Syntax public class LobbyRoomTabController : MonoBehaviour Fields LobbyReadyEvent Declaration public UnityEvent<bool> LobbyReadyEvent Field Value Type Description UnityEvent < System.Boolean >"
+  },
   "api/CatchIo.Runtime.Interfaces.html": {
     "href": "api/CatchIo.Runtime.Interfaces.html",
     "title": "Namespace CatchIo.Runtime.Interfaces | Catch.io Developer Reference",
@@ -2172,7 +2182,7 @@
   "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.BasePopup.html",
     "title": "Class BasePopup | Catch.io Developer Reference",
-    "keywords": "Class BasePopup Inheritance System.Object BasePopup ConfirmNewResolutionPopup CreateSessionPopup JoinRoomPopup PopupRoomHandler SettingsPopup SettingsPopupCore Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class BasePopup : MonoBehaviour Fields _popup Declaration protected UIPopup _popup Field Value Type Description UIPopup _popupCloseEventChannel Declaration protected VoidEventChannel _popupCloseEventChannel Field Value Type Description VoidEventChannel Methods Clear() Declaration protected virtual void Clear() Hide() Declaration protected void Hide() InstantHide() Declaration protected void InstantHide() OnDestroy() Declaration protected virtual void OnDestroy() OnHide() Declaration protected virtual void OnHide() OnShow() Declaration protected virtual void OnShow() OnVisible() Declaration protected virtual void OnVisible() Show() Declaration protected virtual void Show() Start() Declaration protected virtual void Start()"
+    "keywords": "Class BasePopup Inheritance System.Object BasePopup ConfirmNewResolutionPopup CreateSessionPopup JoinRoomPopup PopupLobbyRoomTabHandler PopupRoomHandler SettingsPopup SettingsPopupCore Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class BasePopup : MonoBehaviour Fields _popup Declaration protected UIPopup _popup Field Value Type Description UIPopup _popupCloseEventChannel Declaration protected VoidEventChannel _popupCloseEventChannel Field Value Type Description VoidEventChannel Methods Clear() Declaration protected virtual void Clear() Hide() Declaration protected void Hide() InstantHide() Declaration protected void InstantHide() OnDestroy() Declaration protected virtual void OnDestroy() OnHide() Declaration protected virtual void OnHide() OnShow() Declaration protected virtual void OnShow() OnVisible() Declaration protected virtual void OnVisible() Show() Declaration protected virtual void Show() Start() Declaration protected virtual void Start()"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.ConfirmNewResolutionPopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.ConfirmNewResolutionPopup.html",
@@ -2187,12 +2197,17 @@
   "api/CatchIo.Runtime.Menu.UI.Popup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.html",
     "title": "Namespace CatchIo.Runtime.Menu.UI.Popup | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Popup Classes BasePopup ConfirmNewResolutionPopup CreateSessionPopup JoinRoomPopup PopupRoomHandler RoomLobbyPanel SettingsPopup SettingsPopupCore SignpostPopup"
+    "keywords": "Namespace CatchIo.Runtime.Menu.UI.Popup Classes BasePopup ConfirmNewResolutionPopup CreateSessionPopup JoinRoomPopup PopupLobbyRoomTabHandler PopupRoomHandler RoomLobbyPanel SettingsPopup SettingsPopupCore SignpostPopup"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.JoinRoomPopup.html",
     "title": "Class JoinRoomPopup | Catch.io Developer Reference",
     "keywords": "Class JoinRoomPopup Inheritance System.Object BasePopup JoinRoomPopup Inherited Members BasePopup._popup BasePopup._popupCloseEventChannel BasePopup.Show() BasePopup.Hide() BasePopup.InstantHide() BasePopup.OnHide() BasePopup.OnShow() BasePopup.OnVisible() Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class JoinRoomPopup : BasePopup Methods Clear() Declaration protected override void Clear() Overrides BasePopup.Clear() OnDestroy() Declaration protected override void OnDestroy() Overrides BasePopup.OnDestroy() Start() Declaration protected override void Start() Overrides BasePopup.Start()"
+  },
+  "api/CatchIo.Runtime.Menu.UI.Popup.PopupLobbyRoomTabHandler.html": {
+    "href": "api/CatchIo.Runtime.Menu.UI.Popup.PopupLobbyRoomTabHandler.html",
+    "title": "Class PopupLobbyRoomTabHandler | Catch.io Developer Reference",
+    "keywords": "Class PopupLobbyRoomTabHandler Inheritance System.Object BasePopup PopupLobbyRoomTabHandler Inherited Members BasePopup._popup BasePopup._popupCloseEventChannel BasePopup.Clear() BasePopup.Show() BasePopup.Hide() BasePopup.InstantHide() BasePopup.OnHide() BasePopup.OnShow() BasePopup.OnVisible() Namespace : CatchIo.Runtime.Menu.UI.Popup Assembly : cs.temp.dll.dll Syntax public class PopupLobbyRoomTabHandler : BasePopup Methods OnDestroy() Declaration protected override void OnDestroy() Overrides BasePopup.OnDestroy() Start() Declaration protected override void Start() Overrides BasePopup.Start()"
   },
   "api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html": {
     "href": "api/CatchIo.Runtime.Menu.UI.Popup.PopupRoomHandler.html",
