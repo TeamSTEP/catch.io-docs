@@ -6071,6 +6071,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.Inventory.FindFirstEmptySlotIndex
   nameWithType: Inventory.FindFirstEmptySlotIndex
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.FindOpenEndSlotIndex
+  name: FindOpenEndSlotIndex()
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_FindOpenEndSlotIndex
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.FindOpenEndSlotIndex
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.FindOpenEndSlotIndex()
+  nameWithType: Inventory.FindOpenEndSlotIndex()
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.FindOpenEndSlotIndex*
+  name: FindOpenEndSlotIndex
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_FindOpenEndSlotIndex_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.FindOpenEndSlotIndex
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.FindOpenEndSlotIndex
+  nameWithType: Inventory.FindOpenEndSlotIndex
 - uid: CatchIo.Runtime.Character.Inventory.Inventory.GetCount
   name: GetCount()
   href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetCount
@@ -6084,32 +6097,32 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetCount
   nameWithType: Inventory.GetCount
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlot(System.Int32)
-  name: GetExistedNextItemSlot(Int32)
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedNextItemSlot_System_Int32_
-  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlot(System.Int32)
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlot(System.Int32)
-  nameWithType: Inventory.GetExistedNextItemSlot(Int32)
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlot*
-  name: GetExistedNextItemSlot
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedNextItemSlot_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlot
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlotIndex(System.Int32)
+  name: GetExistedNextItemSlotIndex(Int32)
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedNextItemSlotIndex_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlotIndex(System.Int32)
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlotIndex(System.Int32)
+  nameWithType: Inventory.GetExistedNextItemSlotIndex(Int32)
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlotIndex*
+  name: GetExistedNextItemSlotIndex
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedNextItemSlotIndex_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlotIndex
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlot
-  nameWithType: Inventory.GetExistedNextItemSlot
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlot(System.Int32)
-  name: GetExistedPreviousItemSlot(Int32)
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedPreviousItemSlot_System_Int32_
-  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlot(System.Int32)
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlot(System.Int32)
-  nameWithType: Inventory.GetExistedPreviousItemSlot(Int32)
-- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlot*
-  name: GetExistedPreviousItemSlot
-  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedPreviousItemSlot_
-  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlot
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedNextItemSlotIndex
+  nameWithType: Inventory.GetExistedNextItemSlotIndex
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlotIndex(System.Int32)
+  name: GetExistedPreviousItemSlotIndex(Int32)
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedPreviousItemSlotIndex_System_Int32_
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlotIndex(System.Int32)
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlotIndex(System.Int32)
+  nameWithType: Inventory.GetExistedPreviousItemSlotIndex(Int32)
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlotIndex*
+  name: GetExistedPreviousItemSlotIndex
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetExistedPreviousItemSlotIndex_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlotIndex
   isSpec: "True"
-  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlot
-  nameWithType: Inventory.GetExistedPreviousItemSlot
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.GetExistedPreviousItemSlotIndex
+  nameWithType: Inventory.GetExistedPreviousItemSlotIndex
 - uid: CatchIo.Runtime.Character.Inventory.Inventory.GetFirstItemSlot
   name: GetFirstItemSlot()
   href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_GetFirstItemSlot
@@ -6236,6 +6249,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Character.Inventory.Inventory.IsFull
   nameWithType: Inventory.IsFull
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.PrintAllContent(System.String)
+  name: PrintAllContent(String)
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_PrintAllContent_System_String_
+  commentId: M:CatchIo.Runtime.Character.Inventory.Inventory.PrintAllContent(System.String)
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.PrintAllContent(System.String)
+  nameWithType: Inventory.PrintAllContent(String)
+- uid: CatchIo.Runtime.Character.Inventory.Inventory.PrintAllContent*
+  name: PrintAllContent
+  href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_PrintAllContent_
+  commentId: Overload:CatchIo.Runtime.Character.Inventory.Inventory.PrintAllContent
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Character.Inventory.Inventory.PrintAllContent
+  nameWithType: Inventory.PrintAllContent
 - uid: CatchIo.Runtime.Character.Inventory.Inventory.ToArray
   name: ToArray()
   href: api/CatchIo.Runtime.Character.Inventory.Inventory.html#CatchIo_Runtime_Character_Inventory_Inventory_ToArray
@@ -15145,6 +15171,12 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Items.Data.ItemData.GetResourcesPath
   nameWithType: ItemData.GetResourcesPath
+- uid: CatchIo.Runtime.Items.Data.ItemData.IsPassive
+  name: IsPassive
+  href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_IsPassive
+  commentId: F:CatchIo.Runtime.Items.Data.ItemData.IsPassive
+  fullName: CatchIo.Runtime.Items.Data.ItemData.IsPassive
+  nameWithType: ItemData.IsPassive
 - uid: CatchIo.Runtime.Items.Data.ItemData.ItemDataPath
   name: ItemDataPath
   href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_ItemDataPath
@@ -15175,12 +15207,6 @@ references:
   commentId: F:CatchIo.Runtime.Items.Data.ItemData.ItemTooltip
   fullName: CatchIo.Runtime.Items.Data.ItemData.ItemTooltip
   nameWithType: ItemData.ItemTooltip
-- uid: CatchIo.Runtime.Items.Data.ItemData.LimitNumberInInventory
-  name: LimitNumberInInventory
-  href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_LimitNumberInInventory
-  commentId: F:CatchIo.Runtime.Items.Data.ItemData.LimitNumberInInventory
-  fullName: CatchIo.Runtime.Items.Data.ItemData.LimitNumberInInventory
-  nameWithType: ItemData.LimitNumberInInventory
 - uid: CatchIo.Runtime.Items.Data.ItemData.Pickup_SFX
   name: Pickup_SFX
   href: api/CatchIo.Runtime.Items.Data.ItemData.html#CatchIo_Runtime_Items_Data_ItemData_Pickup_SFX
@@ -18217,6 +18243,19 @@ references:
   commentId: T:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD
   nameWithType: InventorySlotHUD
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.RefreshSlot(ItemData)
+  name: RefreshSlot(ItemData)
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_RefreshSlot_ItemData_
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.RefreshSlot(ItemData)
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.RefreshSlot(ItemData)
+  nameWithType: InventorySlotHUD.RefreshSlot(ItemData)
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.RefreshSlot*
+  name: RefreshSlot
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_RefreshSlot_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.RefreshSlot
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.RefreshSlot
+  nameWithType: InventorySlotHUD.RefreshSlot
 - uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.ReleaseSlot
   name: ReleaseSlot()
   href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_ReleaseSlot
@@ -18230,32 +18269,6 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.ReleaseSlot
   nameWithType: InventorySlotHUD.ReleaseSlot
-- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot
-  name: SelectSlot()
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot()
-  nameWithType: InventorySlotHUD.SelectSlot()
-- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot*
-  name: SelectSlot
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SelectSlot_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SelectSlot
-  nameWithType: InventorySlotHUD.SelectSlot
-- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSprite(Sprite)
-  name: SetSprite(Sprite)
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SetSprite_Sprite_
-  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSprite(Sprite)
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSprite(Sprite)
-  nameWithType: InventorySlotHUD.SetSprite(Sprite)
-- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSprite*
-  name: SetSprite
-  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SetSprite_
-  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSprite
-  isSpec: "True"
-  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SetSprite
-  nameWithType: InventorySlotHUD.SetSprite
 - uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SlotRect
   name: SlotRect
   href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_SlotRect
@@ -18269,6 +18282,19 @@ references:
   isSpec: "True"
   fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.SlotRect
   nameWithType: InventorySlotHUD.SlotRect
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.TrySelectSlot
+  name: TrySelectSlot()
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_TrySelectSlot
+  commentId: M:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.TrySelectSlot
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.TrySelectSlot()
+  nameWithType: InventorySlotHUD.TrySelectSlot()
+- uid: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.TrySelectSlot*
+  name: TrySelectSlot
+  href: api/CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.html#CatchIo_Runtime_Menu_GameOverlay_InventoryHUD_InventorySlotHUD_TrySelectSlot_
+  commentId: Overload:CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.TrySelectSlot
+  isSpec: "True"
+  fullName: CatchIo.Runtime.Menu.GameOverlay.InventoryHUD.InventorySlotHUD.TrySelectSlot
+  nameWithType: InventorySlotHUD.TrySelectSlot
 - uid: CatchIo.Runtime.Menu.GameOverlay.LatencyIndicator
   name: LatencyIndicator
   href: api/CatchIo.Runtime.Menu.GameOverlay.LatencyIndicator.html
