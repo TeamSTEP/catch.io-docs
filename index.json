@@ -144,15 +144,30 @@
     "title": "Class AmbientMusicAreaImporter | Catch.io Developer Reference",
     "keywords": "Class AmbientMusicAreaImporter Inheritance System.Object AmbientMusicAreaImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class AmbientMusicAreaImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args"
   },
+  "api/CatchIo.Editor.TmxImporters.CliffImporter.html": {
+    "href": "api/CatchIo.Editor.TmxImporters.CliffImporter.html",
+    "title": "Class CliffImporter | Catch.io Developer Reference",
+    "keywords": "Class CliffImporter Custom importer for cliff-type tilemaps from Tiled. Handles different cliff types with specific rendering and collision properties. Inheritance System.Object CliffImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class CliffImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Processes the imported TMX asset and configures cliff layers. Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args Arguments containing the imported SuperMap and related data."
+  },
+  "api/CatchIo.Editor.TmxImporters.HouseImporter.html": {
+    "href": "api/CatchIo.Editor.TmxImporters.HouseImporter.html",
+    "title": "Class HouseImporter | Catch.io Developer Reference",
+    "keywords": "Class HouseImporter Inheritance System.Object HouseImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class HouseImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Processes imported TMX assets and applies custom functionality to layers based on their types. Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args The arguments containing the imported SuperMap."
+  },
   "api/CatchIo.Editor.TmxImporters.html": {
     "href": "api/CatchIo.Editor.TmxImporters.html",
     "title": "Namespace CatchIo.Editor.TmxImporters | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Editor.TmxImporters Classes AmbientMusicAreaImporter ItemSpawnerImporter Custom importer for TMX files that creates and configures item spawners based on object types. Automatically processes spawner objects from Tiled and sets up the central manager. LightAreaImporter LightSourcesImporter NpcImporter Custom Tmx importer for handling NPC import in maps. It processes specific object layers in Tiled maps, identifies NPC spawn points, and automatically instantiates and configures NPCs based on provided data. TileObjectsImporter TmxPrefabReplacer"
+    "keywords": "Namespace CatchIo.Editor.TmxImporters Classes AmbientMusicAreaImporter CliffImporter Custom importer for cliff-type tilemaps from Tiled. Handles different cliff types with specific rendering and collision properties. HouseImporter ItemSpawnerImporter Custom importer for TMX files that creates and configures item spawners based on object types. Automatically processes spawner objects from Tiled and sets up the central manager. LayeredStructureImporter Custom importer for layered structure tilemaps from Tiled. Processes layers with different vertical positions (bottom and top) and applies appropriate components and settings. LightAreaImporter LightSourcesImporter NpcImporter Custom Tmx importer for handling NPC import in maps. It processes specific object layers in Tiled maps, identifies NPC spawn points, and automatically instantiates and configures NPCs based on provided data. TmxPrefabReplacer"
   },
   "api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html": {
     "href": "api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html",
     "title": "Class ItemSpawnerImporter | Catch.io Developer Reference",
     "keywords": "Class ItemSpawnerImporter Custom importer for TMX files that creates and configures item spawners based on object types. Automatically processes spawner objects from Tiled and sets up the central manager. Inheritance System.Object ItemSpawnerImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class ItemSpawnerImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Main entry point for the TMX importer. Called when a TMX file is imported to create and configure spawners. Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args Import arguments containing the SuperMap and asset paths"
+  },
+  "api/CatchIo.Editor.TmxImporters.LayeredStructureImporter.html": {
+    "href": "api/CatchIo.Editor.TmxImporters.LayeredStructureImporter.html",
+    "title": "Class LayeredStructureImporter | Catch.io Developer Reference",
+    "keywords": "Class LayeredStructureImporter Custom importer for layered structure tilemaps from Tiled. Processes layers with different vertical positions (bottom and top) and applies appropriate components and settings. Inheritance System.Object LayeredStructureImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class LayeredStructureImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Processes the imported TMX asset and configures layered structure elements. Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args Arguments containing the imported SuperMap and related data."
   },
   "api/CatchIo.Editor.TmxImporters.LightAreaImporter.html": {
     "href": "api/CatchIo.Editor.TmxImporters.LightAreaImporter.html",
@@ -168,11 +183,6 @@
     "href": "api/CatchIo.Editor.TmxImporters.NpcImporter.html",
     "title": "Class NpcImporter | Catch.io Developer Reference",
     "keywords": "Class NpcImporter Custom Tmx importer for handling NPC import in maps. It processes specific object layers in Tiled maps, identifies NPC spawn points, and automatically instantiates and configures NPCs based on provided data. Inheritance System.Object NpcImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class NpcImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Processes imported TMX assets, identifies object layers, and spawns NPCs at predefined locations. Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args Arguments from the TMX import event, including the imported map and asset path."
-  },
-  "api/CatchIo.Editor.TmxImporters.TileObjectsImporter.html": {
-    "href": "api/CatchIo.Editor.TmxImporters.TileObjectsImporter.html",
-    "title": "Class TileObjectsImporter | Catch.io Developer Reference",
-    "keywords": "Class TileObjectsImporter Inheritance System.Object TileObjectsImporter Namespace : CatchIo.Editor.TmxImporters Assembly : cs.temp.dll.dll Syntax public class TileObjectsImporter : CustomTmxImporter Methods TmxAssetImported(TmxAssetImportedArgs) Declaration public override void TmxAssetImported(TmxAssetImportedArgs args) Parameters Type Name Description TmxAssetImportedArgs args"
   },
   "api/CatchIo.Editor.TmxImporters.TmxPrefabReplacer.html": {
     "href": "api/CatchIo.Editor.TmxImporters.TmxPrefabReplacer.html",
@@ -1432,17 +1442,17 @@
   "api/CatchIo.Runtime.Environment.Tilemaps.html": {
     "href": "api/CatchIo.Runtime.Environment.Tilemaps.html",
     "title": "Namespace CatchIo.Runtime.Environment.Tilemaps | Catch.io Developer Reference",
-    "keywords": "Namespace CatchIo.Runtime.Environment.Tilemaps Classes TilemapMask TilemapMaskController"
-  },
-  "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html": {
-    "href": "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html",
-    "title": "Class TilemapMask | Catch.io Developer Reference",
-    "keywords": "Class TilemapMask Inheritance System.Object TilemapMask Namespace : CatchIo.Runtime.Environment.Tilemaps Assembly : cs.temp.dll.dll Syntax [Serializable] public sealed class TilemapMask : MonoBehaviour Properties CellPosition Declaration public Vector2Int CellPosition { get; } Property Value Type Description Vector2Int Methods Disable() Declaration public void Disable() Enable() Declaration public void Enable() SetCellPosition(Vector3Int) Declaration public void SetCellPosition(Vector3Int cellPosition) Parameters Type Name Description Vector3Int cellPosition"
+    "keywords": "Namespace CatchIo.Runtime.Environment.Tilemaps Classes TilemapMaskController TileMask"
   },
   "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController.html": {
     "href": "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMaskController.html",
     "title": "Class TilemapMaskController | Catch.io Developer Reference",
     "keywords": "Class TilemapMaskController Inheritance System.Object TilemapMaskController Namespace : CatchIo.Runtime.Environment.Tilemaps Assembly : cs.temp.dll.dll Syntax public sealed class TilemapMaskController : MonoBehaviour"
+  },
+  "api/CatchIo.Runtime.Environment.Tilemaps.TileMask.html": {
+    "href": "api/CatchIo.Runtime.Environment.Tilemaps.TileMask.html",
+    "title": "Class TileMask | Catch.io Developer Reference",
+    "keywords": "Class TileMask Inheritance System.Object TileMask Namespace : CatchIo.Runtime.Environment.Tilemaps Assembly : cs.temp.dll.dll Syntax [Serializable] public sealed class TileMask : MonoBehaviour Methods ResetEnableCount() Declaration public void ResetEnableCount()"
   },
   "api/CatchIo.Runtime.Environment.TileSurface.html": {
     "href": "api/CatchIo.Runtime.Environment.TileSurface.html",

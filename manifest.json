@@ -360,11 +360,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Editor.TmxImporters.CliffImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Editor.TmxImporters.CliffImporter.html",
+          "hash": "YStAOprX2RDpav8lcNKYy4679bvXa2x0yNh9nEdasuo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Editor.TmxImporters.HouseImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Editor.TmxImporters.HouseImporter.html",
+          "hash": "yglOuEnGm4ZI+/rvP4oGdkdR+YUBifactccJYyVPezo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.yml",
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Editor.TmxImporters.ItemSpawnerImporter.html",
           "hash": "Ddd5I6ofNcMqiCJpDxximYtO8UWoyXmr/wn+d8+N2/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatchIo.Editor.TmxImporters.LayeredStructureImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatchIo.Editor.TmxImporters.LayeredStructureImporter.html",
+          "hash": "WNWljH9HU6Vczr+ceaHeI2JASSCrmV4yuUGI73oTxXM="
         }
       },
       "is_incremental": false,
@@ -408,18 +444,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Editor.TmxImporters.TileObjectsImporter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatchIo.Editor.TmxImporters.TileObjectsImporter.html",
-          "hash": "6YT++cdojO8X9Kx+sJ8fQMe3UQtsdpVxoGCFnElsytA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatchIo.Editor.TmxImporters.TmxPrefabReplacer.yml",
       "output": {
         ".html": {
@@ -436,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Editor.TmxImporters.html",
-          "hash": "LYDoe3HemeqfVV2m4q9U1qGv1QjjaSxtlw1CDaU3Lls="
+          "hash": "CQlxqR4b8XtqFdIRG6uhy+TPcYLkHit89zuz2E6JW44="
         }
       },
       "is_incremental": false,
@@ -3444,11 +3468,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.yml",
+      "source_relative_path": "api/CatchIo.Runtime.Environment.Tilemaps.TileMask.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatchIo.Runtime.Environment.Tilemaps.TilemapMask.html",
-          "hash": "IY1vilm3uAwu/VtziHuv2xOQRIKrYS1LJTPWAWgzyq4="
+          "relative_path": "api/CatchIo.Runtime.Environment.Tilemaps.TileMask.html",
+          "hash": "zFLXqsIr0yeuAEYL4PhrhUrGCVYop6kigVpfRcJXe7s="
         }
       },
       "is_incremental": false,
@@ -3472,7 +3496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatchIo.Runtime.Environment.Tilemaps.html",
-          "hash": "esdQBxkSpHS33ZvjFr2cnPB0GP21gDKbrVjjMqRgdvs="
+          "hash": "SK2P2mx+munR1WZiNggrE+8EXFlEk/LL2uUK9+3CF5U="
         }
       },
       "is_incremental": false,
@@ -8452,7 +8476,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "55eO0ll7XTiSlesAKlCFuazm1UN2HNTQGtkV8U3p8t4="
+          "hash": "L2YtduTxBqyOayNOva8Qyb8IuS64MaZsM7WXofjth34="
         }
       },
       "is_incremental": false,
@@ -9109,7 +9133,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 702,
+          "total_file_count": 704,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
